@@ -1,0 +1,59 @@
+---
+acting_count: 0
+action_class_counts:
+  connected: 6
+api_specs:
+- filename: buymeacoffee-openapi.yml
+  format: yaml
+  label: Buy Me a Coffee Supporters API
+  slug: buymeacoffee-supporters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-openapi.yml
+- filename: buymeacoffee-openapi.yml
+  format: yaml
+  label: Buy Me a Coffee Subscriptions API
+  slug: buymeacoffee-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-openapi.yml
+- filename: buymeacoffee-openapi.yml
+  format: yaml
+  label: Buy Me a Coffee Extras API
+  slug: buymeacoffee-extras-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-openapi.yml
+consequence_counts:
+  read: 6
+description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
+human_in_the_loop: 0
+kind: agentic-access
+layout: agentic-access
+method: generated
+name: Buymeacoffee Agentic Access
+name_suffix: Agentic Access
+notable_actions: []
+operation_count: 6
+overview: 'Buy Me a Coffee exposes 6 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+
+
+  By consequence: 6 read.
+
+
+  Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
+provider_name: Buy Me a Coffee
+provider_slug: buymeacoffee
+slug: buymeacoffee-agentic-access
+source_filename: buymeacoffee-agentic-access.yml
+source_heading: Agentic Access
+source_url: ''
+source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/buymeacoffee-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /supporters\n  method: get\n  operationId: getSupporters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /supporters/{id}\n  method: get\n  operationId: getSupporter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: get\n  operationId: getSubscriptions\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{id}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extras\n  method: get\n  operationId: getExtras\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extras/{id}\n  method: get\n  operationId: getExtra\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/agentic-access/buymeacoffee-agentic-access.yml
+summary_line: 6 operations
+tags:
+- Creator Economy
+- Memberships
+- Subscriptions
+- Tips
+- Payments
+- Donations
+---

@@ -1,0 +1,126 @@
+---
+acting_count: 3
+action_class_counts:
+  acting: 3
+  connected: 2
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: ChatGPT API
+  slug: chatgpt-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Responses API
+  slug: openai-responses-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Embeddings API
+  slug: openai-embeddings-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Images API
+  slug: openai-images-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Audio API
+  slug: openai-audio-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Moderations API
+  slug: openai-moderations-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Fine-Tuning API
+  slug: openai-fine-tuning-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Files API
+  slug: openai-files-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Batch API
+  slug: openai-batch-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Uploads API
+  slug: openai-uploads-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Vector Stores API
+  slug: openai-vector-stores-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Realtime API
+  slug: openai-realtime-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: OpenAI Models API
+  slug: openai-models-api
+  spec_type: OpenAPI
+  url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
+consequence_counts:
+  read: 2
+  write: 3
+description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
+human_in_the_loop: 0
+kind: agentic-access
+layout: agentic-access
+method: generated
+name: Chatgpt Agentic Access
+name_suffix: Agentic Access
+notable_actions: []
+operation_count: 5
+overview: 'ChatGPT exposes 5 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+
+
+  By consequence: 2 read and 3 write.
+
+
+  Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
+provider_name: ChatGPT
+provider_slug: chatgpt
+slug: chatgpt-agentic-access
+source_filename: chatgpt-agentic-access.yml
+source_heading: Agentic Access
+source_url: ''
+source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chatgpt-chat-completions-api-openapi.yml, openapi/chatgpt-responses-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 3\n    connected: 2\n  by_consequence:\n    write: 3\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /responses\n  method: post\n  operationId: createResponse\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /responses/{response_id}\n  method: get\n  operationId: getResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /responses/{response_id}\n  method: delete\n  operationId: deleteResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /responses/{response_id}/input_items\n  method: get\n  operationId: listResponseInputItems\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/agentic-access/chatgpt-agentic-access.yml
+summary_line: 5 operations · 3 acting
+tags:
+- Agents
+- AI
+- ChatGPT
+- Embeddings
+- Fine-Tuning
+- GPT-4
+- GPT-5
+- Language Model
+- OpenAI
+- Realtime
+---

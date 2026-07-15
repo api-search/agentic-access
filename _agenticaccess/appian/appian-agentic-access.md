@@ -1,0 +1,68 @@
+---
+acting_count: 2
+action_class_counts:
+  acting: 2
+  connected: 4
+api_specs:
+- filename: appian-openapi.yml
+  format: yaml
+  label: Appian Application Package Details API
+  slug: appian
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-openapi.yml
+- filename: appian-deployment-rest-openapi.yml
+  format: yaml
+  label: Appian Deployment REST API
+  slug: deployment-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-deployment-rest-openapi.yml
+consequence_counts:
+  physical: 2
+  read: 4
+description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
+human_in_the_loop: 0
+kind: agentic-access
+layout: agentic-access
+method: generated
+name: Appian Agentic Access
+name_suffix: Agentic Access
+notable_actions:
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /deployments
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /inspections
+operation_count: 6
+overview: 'Appian exposes 6 API operations that an AI agent could call, of which 2 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+
+
+  By consequence: 4 read and 2 physical.
+
+
+  Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
+provider_name: Appian
+provider_slug: appian
+slug: appian-agentic-access
+source_filename: appian-agentic-access.yml
+source_heading: Agentic Access
+source_url: ''
+source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/appian-application-package-details-openapi.yml, openapi/appian-deployment-rest-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 4\n    acting: 2\n  by_consequence:\n    read: 4\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /applications/{applicationUuid}/packages\n  method: get\n  operationId: getApplicationPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments\n  method: post\n  operationId: createDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
+  \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/{deploymentUuid}\n  method: get\n  operationId: getDeploymentResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments/{deploymentUuid}/log\n  method: get\n  operationId: getDeploymentLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inspections\n  method: post\n  operationId: createInspection\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inspections/{inspectionUuid}\n  method: get\n  operationId: getInspectionResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/agentic-access/appian-agentic-access.yml
+summary_line: 6 operations · 2 acting
+tags:
+- Automation
+- BPM
+- Business Process Management
+- Enterprise Software
+- Low-Code
+- Process Automation
+- RPA
+- Workflow
+---
