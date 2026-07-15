@@ -1,0 +1,36 @@
+name: APIs.io Agentic Access
+description: Browse recommended x-agentic-access execution contracts for API providers across the APIs.io network — the scope, audience, consequence tier, short-lived token constraints, and human-in-the-loop escalation each operation should carry before it is handed to an AI agent. Classified from provider OpenAPI, following Curity's Access Intelligence model.
+image: https://apis.io/assets/branding/apisio-social-card.png
+url: https://apis.io
+node: website
+nav_active: agentic-access
+
+keywords:
+  - APIs
+  - Agentic
+  - AI Agents
+  - Access Control
+  - Authorization
+  - Execution Contract
+  - Runtime Authorization
+  - Human in the Loop
+  - Security
+  - OpenAPI
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "scripts"]
+include: [".well-known"]
+
+github_org: api-search
+github_repo: agentic-access
+
+collections:
+  agenticaccess:
+    output: true
+    permalink: /agentic-access/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: agenticaccess
+    values:
+      layout: agentic-access

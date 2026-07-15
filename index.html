@@ -1,0 +1,85 @@
+---
+layout: default
+meta_title: "Agentic Access Index — x-agentic-access Execution Contracts | APIs.io"
+meta_description: "Browse recommended x-agentic-access execution contracts for API providers across the APIs.io network — action-class, consequence tier, scope, short-lived tokens, and human-in-the-loop escalation for every operation an AI agent could call. Classified from provider OpenAPI following Curity's Access Intelligence model, refreshed on every network build."
+---
+
+<style>
+  .page-hero { text-align: center; padding: 2rem 0 1.5rem; }
+  .page-hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+  .page-hero p { color: #666; margin-bottom: 1.25rem; max-width: 760px; margin-left: auto; margin-right: auto; }
+  .filter-bar { max-width: 960px; margin: 0 auto 1rem; }
+  .method-tabs { display: flex; gap: 0.4rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1rem; }
+  .method-tab { cursor: pointer; border: 1px solid #e3e7ee; background: white; border-radius: 999px; padding: 0.35rem 0.9rem; font-size: 0.8rem; font-weight: 600; color: #4a5568; }
+  .method-tab.active { background: #7c3aed; color: white; border-color: #7c3aed; }
+  .item-list { max-width: 960px; margin: 0 auto; }
+  .item-row { background: white; border: 1px solid #e3e7ee; border-left: 3px solid #7c3aed; border-radius: 8px; padding: 0.75rem 1.25rem; margin-bottom: 0.4rem; transition: all 0.15s; }
+  .item-row:hover { border-color: #7c3aed; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .item-row h3 { font-size: 0.95rem; font-weight: 600; margin: 0; }
+  .item-row h3 a { color: #1a1a2e; text-decoration: none; }
+  .item-row h3 a:hover { color: #7c3aed; }
+  .item-provider { font-size: 0.8rem; color: #6c757d; }
+  .item-stats { font-size: 0.8rem; color: #999; }
+  .cchip { display: inline-block; padding: 0.1em 0.55em; border-radius: 999px; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.3px; margin-left: 0.4rem; vertical-align: middle; font-family: monospace; }
+  .c-count { background: #ede9fe; color: #6d28d9; }
+  .c-hitl { background: #fee2e2; color: #b91c1c; }
+  .no-match { text-align: center; color: #6c757d; padding: 2rem; display: none; }
+</style>
+
+<div class="page-hero">
+  <h1>Agentic Access</h1>
+  <p>A recommended <code>x-agentic-access</code> execution contract for every provider on the APIs.io network — the action-class, consequence tier, scope, audience, short-lived token constraints, and human-in-the-loop escalation each operation should carry before it is handed to an AI agent. Classified from provider OpenAPI following <a href="https://curity.io" target="_blank" rel="noopener">Curity's</a> Access Intelligence model across <strong>{{ site.agenticaccess | size }}</strong> providers, refreshed on every network build.</p>
+  <div class="method-tabs">
+    <span class="method-tab active" data-filter="">All</span>
+    <span class="method-tab" data-filter="_hitl">Has human-in-the-loop</span>
+    <span class="method-tab" data-filter="_acting">Has acting ops</span>
+  </div>
+  <div class="filter-bar">
+    <input type="text" class="form-control" id="item-filter" placeholder="Filter by provider…" style="max-width: 480px; margin: 0 auto;">
+  </div>
+</div>
+
+<div class="item-list" id="item-list">
+  {% for a in site.agenticaccess %}
+  <div class="item-row"
+       data-name="{{ a.provider_name | downcase }} {{ a.provider_slug | downcase }}"
+       data-hitl="{{ a.human_in_the_loop }}"
+       data-acting="{{ a.acting_count }}">
+    <h3><a href="{{ a.url }}">{{ a.provider_name }}</a>{% if a.operation_count > 0 %}<span class="cchip c-count">{{ a.operation_count }} op{% if a.operation_count != 1 %}s{% endif %}</span>{% endif %}{% if a.human_in_the_loop > 0 %}<span class="cchip c-hitl">{{ a.human_in_the_loop }} HITL</span>{% endif %}</h3>
+    <div class="item-provider"><a href="https://apis.io/providers/{{ a.provider_slug }}/">{{ a.provider_slug }}</a></div>
+    <div class="item-stats">{{ a.summary_line }}</div>
+  </div>
+  {% endfor %}
+</div>
+<div class="no-match" id="no-match">No providers match your filter.</div>
+
+<script>
+(function () {
+  var q = '', filter = '';
+  var rows = Array.prototype.slice.call(document.querySelectorAll('.item-row'));
+  var noMatch = document.getElementById('no-match');
+  function apply() {
+    var shown = 0;
+    rows.forEach(function (item) {
+      var okText = !q || item.getAttribute('data-name').indexOf(q) !== -1;
+      var okFilter = true;
+      if (filter === '_hitl') okFilter = parseInt(item.getAttribute('data-hitl'), 10) > 0;
+      else if (filter === '_acting') okFilter = parseInt(item.getAttribute('data-acting'), 10) > 0;
+      var show = okText && okFilter;
+      item.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+    noMatch.style.display = shown ? 'none' : 'block';
+  }
+  document.getElementById('item-filter').addEventListener('input', function () {
+    q = this.value.toLowerCase().trim(); apply();
+  });
+  document.querySelectorAll('.method-tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      document.querySelectorAll('.method-tab').forEach(function (t) { t.classList.remove('active'); });
+      this.classList.add('active');
+      filter = this.getAttribute('data-filter'); apply();
+    });
+  });
+})();
+</script>

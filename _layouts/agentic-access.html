@@ -1,0 +1,119 @@
+---
+layout: default
+---
+<style>
+  .hero { background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%); border: 1px solid #ddd6fe; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+  .overline { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #7c3aed; font-weight: 600; margin-bottom: 0.5rem; }
+  .overline a { color: #7c3aed; text-decoration: none; }
+  .overline a:hover { text-decoration: underline; }
+  .title { font-size: 2rem; font-weight: 700; margin-bottom: 0.75rem; color: #1a1a2e; }
+  .desc { color: #4a5568; line-height: 1.6; font-size: 1.05rem; }
+  .kind-chip { display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; background: #ede9fe; color: #6d28d9; }
+  .method-chip { display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; font-size: 0.72rem; font-weight: 600; margin-left: 0.4rem; }
+  .method-generated { background: #eef2f7; color: #475569; }
+  .method-searched { background: #dcfce7; color: #15803d; }
+  .section-title { font-size: 1.1rem; font-weight: 700; color: #1a1a2e; margin: 2rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e3e7ee; }
+  .stat-badges { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 1rem 0; }
+  .stat-badge { background: white; border: 1px solid #e3e7ee; border-radius: 8px; padding: 0.5rem 1rem; font-size: 0.85rem; }
+  .stat-badge strong { color: #7c3aed; }
+  .op-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; background: white; border: 1px solid #e3e7ee; border-radius: 10px; overflow: hidden; }
+  .op-table th, .op-table td { padding: 0.6rem 0.8rem; text-align: left; border-bottom: 1px solid #eef2f7; vertical-align: top; }
+  .op-table th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; font-weight: 600; background: #faf9ff; }
+  .op-table tr:last-child td { border-bottom: none; }
+  .op-table tr:hover td { background: #faf5ff; }
+  .op-path { font-family: monospace; font-size: 0.83rem; color: #6d28d9; font-weight: 600; word-break: break-all; }
+  .verb { font-family: monospace; font-size: 0.72rem; font-weight: 700; }
+  .con-pill { display: inline-block; padding: 0.12em 0.6em; border-radius: 999px; font-size: 0.72rem; font-weight: 600; }
+  .con-read { background: #eef2f7; color: #475569; }
+  .con-write { background: #fef9c3; color: #854d0e; }
+  .con-physical { background: #ffedd5; color: #9a3412; }
+  .con-safety-critical { background: #fee2e2; color: #b91c1c; }
+  .hitl-yes { color: #b91c1c; font-weight: 600; }
+  .tag-sm { display: inline-block; padding: 0.2em 0.6em; background: #eef2f7; color: #4a5568; border-radius: 999px; font-size: 0.75rem; }
+  .empty-note { color: #6c757d; font-size: 0.95rem; background: #faf9ff; border: 1px solid #ede9fe; border-radius: 8px; padding: 1rem 1.25rem; }
+</style>
+
+<nav aria-label="breadcrumb" style="margin-bottom: 1rem;">
+  <ol class="breadcrumb" style="font-size: 0.85rem;">
+    <li class="breadcrumb-item"><a href="https://apis.io/">Home</a></li>
+    <li class="breadcrumb-item"><a href="https://apis.io/agentic-access/">Agentic Access</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.provider_name }}</li>
+  </ol>
+</nav>
+
+<div class="hero">
+  <div class="overline">
+    <a href="https://apis.io/providers/{{ page.provider_slug }}/">{{ page.provider_name }}</a> &middot; {{ page.source_heading }}
+  </div>
+  <h1 class="title">{{ page.provider_name }} Agentic Access</h1>
+  <div style="margin-bottom: 0.75rem;">
+    <span class="kind-chip">x-agentic-access</span>
+    {% if page.method %}<span class="method-chip method-{{ page.method }}">{{ page.method }}</span>{% endif %}
+  </div>
+  {% if page.overview %}
+  <div class="page-overview" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #ddd6fe; font-size: 0.95rem; line-height: 1.65; color: #2c3e50;">
+    {{ page.overview | markdownify }}
+  </div>
+  {% endif %}
+</div>
+
+{% if page.tags.size > 0 %}
+<div style="display: flex; flex-wrap: wrap; gap: 0.25rem; margin-bottom: 1rem;">
+  {% for tag in page.tags %}<span class="tag-sm">{{ tag }}</span>{% endfor %}
+</div>
+{% endif %}
+
+<div class="stat-badges">
+  <span class="stat-badge">Operations: <strong>{{ page.operation_count }}</strong></span>
+  <span class="stat-badge">Acting: <strong>{{ page.acting_count }}</strong></span>
+  <span class="stat-badge">Human-in-the-loop: <strong>{{ page.human_in_the_loop }}</strong></span>
+  {% if page.method %}<span class="stat-badge">Method: <strong>{{ page.method }}</strong></span>{% endif %}
+</div>
+
+<h2 class="section-title">By consequence</h2>
+<div class="stat-badges">
+  {% if page.consequence_counts.read %}<span class="stat-badge"><span class="con-pill con-read">read</span> <strong>{{ page.consequence_counts.read }}</strong></span>{% endif %}
+  {% if page.consequence_counts.write %}<span class="stat-badge"><span class="con-pill con-write">write</span> <strong>{{ page.consequence_counts.write }}</strong></span>{% endif %}
+  {% if page.consequence_counts.physical %}<span class="stat-badge"><span class="con-pill con-physical">physical</span> <strong>{{ page.consequence_counts.physical }}</strong></span>{% endif %}
+  {% if page.consequence_counts.safety-critical %}<span class="stat-badge"><span class="con-pill con-safety-critical">safety-critical</span> <strong>{{ page.consequence_counts.safety-critical }}</strong></span>{% endif %}
+</div>
+
+{% if page.notable_actions.size > 0 %}
+<h2 class="section-title">Highest-consequence actions</h2>
+<p style="font-size: 0.85rem; color: #6c757d; margin-bottom: 0.75rem;">The physical and safety-critical operations an agent could invoke — the ones that most warrant scoped tokens, tight TTLs, and escalation. Full per-operation contracts are in the source below.</p>
+<table class="op-table">
+  <thead>
+    <tr><th style="width: 10%;">Method</th><th>Path</th><th style="width: 20%;">Consequence</th><th style="width: 18%;">Human-in-loop</th></tr>
+  </thead>
+  <tbody>
+    {% for op in page.notable_actions %}
+    <tr>
+      <td><span class="verb">{{ op.method }}</span></td>
+      <td><span class="op-path">{{ op.path }}</span></td>
+      <td><span class="con-pill con-{{ op.consequence }}">{{ op.consequence }}</span></td>
+      <td>{% if op.human_in_the_loop == 'required' %}<span class="hitl-yes">required</span>{% else %}{{ op.human_in_the_loop }}{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% if page.source_yaml %}
+<h2 class="section-title">Source</h2>
+{% include source-widget.html %}
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "name": {{ page.provider_name | append: " Agentic Access" | jsonify }},
+  {% if page.overview %}"description": {{ page.overview | markdownify | strip_html | strip_newlines | truncate: 300 | jsonify }},{% endif %}
+  "url": "{{ page.url | prepend: site.url }}",
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": {{ page.provider_name | jsonify }},
+    "url": "https://apis.io/providers/{{ page.provider_slug }}/"
+  }
+}
+</script>

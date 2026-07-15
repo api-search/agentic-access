@@ -1,0 +1,8 @@
+---
+layout: none
+---
+# agentic-access.apis.io — Agentic Access on the APIs.io Network
+
+> agentic-access.apis.io is the agentic-access slice of the APIs.io network. It indexes a recommended x-agentic-access execution contract per provider — for every operation an AI agent could call: its action-class (connected/delegated/acting), consequence tier (read/write/physical/safety-critical), required scope and audience, short-lived token constraints, human-in-the-loop escalation, and audit expectation.
+
+Each provider page is generated from that provider's `agentic-access/<slug>-agentic-access.yml` artifact (type `AgenticAccess`), classified from its OpenAPI following Curity's Access Intelligence model (apidays Munich 2026). method: generated — a governance starting point, not an authoritative provider claim; audience is bound per deployment. Records refresh on every APIs.io network build. Search indexing, AI grounding/RAG, and AI training are explicitly permitted.
