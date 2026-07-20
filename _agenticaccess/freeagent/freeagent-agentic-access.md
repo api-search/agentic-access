@@ -4,12 +4,12 @@ action_class_counts:
   acting: 15
   connected: 8
 api_specs:
-- filename: freeagent-openapi.yml
+- filename: postman-freeagent-api-collection
   format: yaml
   label: FreeAgent REST API
   slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-openapi.yml
+  spec_type: Postman
+  url: https://github.com/fac/postman-freeagent-api-collection
 consequence_counts:
   physical: 9
   read: 8

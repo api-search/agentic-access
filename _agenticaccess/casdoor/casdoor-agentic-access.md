@@ -4,12 +4,12 @@ action_class_counts:
   acting: 13
   connected: 11
 api_specs:
-- filename: casdoor-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Casdoor REST API
   slug: casdoor-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-openapi.yml
+  url: https://door.casdoor.com/swagger/
 consequence_counts:
   read: 11
   write: 13

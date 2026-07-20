@@ -4,12 +4,12 @@ action_class_counts:
   acting: 20
   connected: 11
 api_specs:
-- filename: active-campaign-openapi.yml
+- filename: activecampaign-api-v3
   format: yaml
   label: ActiveCampaign API v3
   slug: api-v3
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-campaign/refs/heads/main/openapi/active-campaign-openapi.yml
+  spec_type: Postman
+  url: https://www.postman.com/acdevrel/activecampaign-developer-relations/collection/ju5a59q/activecampaign-api-v3
 consequence_counts:
   read: 11
   write: 20

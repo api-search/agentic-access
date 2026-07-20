@@ -3,6 +3,13 @@ acting_count: 152
 action_class_counts:
   acting: 152
   connected: 131
+api_specs:
+- filename: hugging-face-transformers-openapi.json
+  format: json
+  label: Hugging Face Hub API
+  slug: hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-openapi.json
 consequence_counts:
   physical: 15
   read: 131

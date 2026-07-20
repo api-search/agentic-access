@@ -10,6 +10,12 @@ api_specs:
   slug: x-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/openapi/x-api-openapi.json
+- filename: x-ads-api-postman-collection.json
+  format: json
+  label: X Ads API
+  slug: x-ads-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/postman/x-ads-api-postman-collection.json
 consequence_counts:
   physical: 2
   read: 96

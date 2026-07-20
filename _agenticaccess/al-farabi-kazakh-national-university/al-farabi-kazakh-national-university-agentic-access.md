@@ -4,12 +4,12 @@ action_class_counts:
   acting: 184
   connected: 216
 api_specs:
-- filename: al-farabi-kazakh-national-university-open-edx.yaml
-  format: yaml
+- filename: swagger.json
+  format: json
   label: KazNU Open edX API
   slug: kaznu-open-edx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-open-edx.yaml
+  url: https://open.kaznu.kz/swagger.json
 consequence_counts:
   physical: 4
   read: 216

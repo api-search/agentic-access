@@ -4,12 +4,12 @@ action_class_counts:
   acting: 18
   connected: 1
 api_specs:
-- filename: recraft-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Recraft API
   slug: platform
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-openapi.yml
+  url: https://external.api.recraft.ai/doc/
 consequence_counts:
   read: 1
   write: 18

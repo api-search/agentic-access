@@ -4,12 +4,12 @@ action_class_counts:
   acting: 11
   connected: 6
 api_specs:
-- filename: pingone-openapi.yml
+- filename: pingone-platform-api
   format: yaml
   label: PingOne Platform API
   slug: platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-openapi.yml
+  spec_type: Postman
+  url: https://www.postman.com/ping-identity/pingone/collection/xu0baxr/pingone-platform-api
 consequence_counts:
   read: 6
   write: 11

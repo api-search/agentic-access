@@ -4,12 +4,12 @@ action_class_counts:
   acting: 4
   connected: 45
 api_specs:
-- filename: reverb-openapi.yml
+- filename: swagger
   format: yaml
   label: Reverb REST API
   slug: rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-openapi.yml
+  url: https://reverb.com/swagger
 consequence_counts:
   read: 45
   write: 4

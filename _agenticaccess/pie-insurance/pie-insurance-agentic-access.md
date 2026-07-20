@@ -4,12 +4,12 @@ action_class_counts:
   acting: 7
   connected: 4
 api_specs:
-- filename: pie-insurance-partner-api-openapi.yml
-  format: yaml
+- filename: swagger.json
+  format: json
   label: Pie Insurance Partner API
   slug: pie-insurance-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-partner-api-openapi.yml
+  url: https://api.post-prod.pieinsurance.com/api/docs/v1/swagger.json
 consequence_counts:
   read: 4
   write: 7

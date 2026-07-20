@@ -4,12 +4,12 @@ action_class_counts:
   acting: 24
   connected: 24
 api_specs:
-- filename: shareworks-shareworks-public-api-openapi.yml
+- filename: postman.yaml
   format: yaml
   label: Shareworks Public API
   slug: shareworks-public-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-shareworks-public-api-openapi.yml
+  spec_type: Postman
+  url: https://www.postman.com/
 consequence_counts:
   read: 24
   safety-critical: 1

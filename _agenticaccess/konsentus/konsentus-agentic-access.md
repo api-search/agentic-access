@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: konsentus-verify-api-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Konsentus Verify API
   slug: konsentus-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/openapi/konsentus-verify-api-openapi.yml
+  url: https://swagger.konsentus.com/
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

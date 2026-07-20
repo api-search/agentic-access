@@ -4,12 +4,12 @@ action_class_counts:
   acting: 6
   connected: 8
 api_specs:
-- filename: georgia-institute-of-technology-sums.yaml
-  format: yaml
+- filename: swagger.json
+  format: json
   label: SUMS REST API
   slug: sums
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-sums.yaml
+  url: https://sums.gatech.edu/SUMSAPI/rest/API/swagger.json
 consequence_counts:
   read: 8
   write: 6

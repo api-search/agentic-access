@@ -4,12 +4,12 @@ action_class_counts:
   acting: 22
   connected: 13
 api_specs:
-- filename: manychat-openapi.yml
+- filename: swagger
   format: yaml
   label: ManyChat REST API
   slug: rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/openapi/manychat-openapi.yml
+  url: https://api.manychat.com/swagger
 consequence_counts:
   physical: 3
   read: 13

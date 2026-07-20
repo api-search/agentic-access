@@ -4,12 +4,12 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: leadsquared-openapi.yml
+- filename: postman.yaml
   format: yaml
   label: LeadSquared REST API
   slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/openapi/leadsquared-openapi.yml
+  spec_type: Postman
+  url: https://apidocs.leadsquared.com/leadsquared-run-in-postman/
 consequence_counts:
   read: 2
   write: 2

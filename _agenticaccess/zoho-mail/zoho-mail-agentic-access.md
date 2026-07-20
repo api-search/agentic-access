@@ -4,12 +4,12 @@ action_class_counts:
   acting: 10
   connected: 13
 api_specs:
-- filename: openapi.json
-  format: json
+- filename: openapi-specification.html
+  format: yaml
   label: Zoho Mail API
   slug: zoho-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/openapi.json
+  url: https://prezohoweb.zoho.com/mail/help/api/openapi-specification.html
 consequence_counts:
   physical: 1
   read: 13

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 126
   connected: 61
 api_specs:
-- filename: bridgit-bench-openapi.yml
+- filename: index.html
   format: yaml
   label: Bridgit Bench API
   slug: bridgit-bench
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/openapi/bridgit-bench-openapi.yml
+  url: https://bench.gobridgit.com/rp/swagger/index.html
 consequence_counts:
   physical: 7
   read: 61

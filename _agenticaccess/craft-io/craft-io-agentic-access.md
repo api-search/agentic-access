@@ -4,24 +4,24 @@ action_class_counts:
   acting: 5
   connected: 22
 api_specs:
-- filename: craft-io-workspace-openapi.yml
+- filename: docs
   format: yaml
   label: Craft.io Workspace API
   slug: craftio-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-workspace-openapi.yml
-- filename: craft-io-portfolio-openapi.yml
+  url: https://api.craft.io/docs
+- filename: docs
   format: yaml
   label: Craft.io Portfolio API
   slug: craftio-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-portfolio-openapi.yml
-- filename: craft-io-feedback-openapi.yml
+  url: https://api.craft.io/docs
+- filename: docs
   format: yaml
   label: Craft.io Feedback Portal API
   slug: craftio-feedback-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-feedback-openapi.yml
+  url: https://api.craft.io/docs
 consequence_counts:
   read: 22
   write: 5

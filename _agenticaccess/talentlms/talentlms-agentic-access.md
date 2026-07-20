@@ -4,12 +4,12 @@ action_class_counts:
   acting: 31
   connected: 32
 api_specs:
-- filename: talentlms-openapi.yaml
+- filename: 2sAY548Kou
   format: yaml
   label: TalentLMS API
   slug: talentlms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-openapi.yaml
+  spec_type: Postman
+  url: https://documenter.getpostman.com/view/31867199/2sAY548Kou
 consequence_counts:
   physical: 4
   read: 32

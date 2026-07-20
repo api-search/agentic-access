@@ -3,6 +3,13 @@ acting_count: 15
 action_class_counts:
   acting: 15
   connected: 11
+api_specs:
+- filename: swagger.html
+  format: yaml
+  label: Cassandra REST API (Stargate)
+  slug: cassandra-rest-api-stargate
+  spec_type: OpenAPI
+  url: https://stargate.io/docs/latest/develop/api-rest/swagger.html
 consequence_counts:
   read: 11
   write: 15

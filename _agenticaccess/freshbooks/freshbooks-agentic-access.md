@@ -4,12 +4,12 @@ action_class_counts:
   acting: 13
   connected: 14
 api_specs:
-- filename: freshbooks-openapi.yml
+- filename: start
   format: yaml
   label: FreshBooks REST API
   slug: freshbooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-openapi.yml
+  spec_type: Postman
+  url: https://www.freshbooks.com/api/start
 - filename: freshbooks-webhooks-asyncapi.yml
   format: yaml
   label: FreshBooks Webhooks (Callbacks API)

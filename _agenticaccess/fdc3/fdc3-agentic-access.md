@@ -3,6 +3,13 @@ acting_count: 5
 action_class_counts:
   acting: 5
   connected: 16
+api_specs:
+- filename: app-directory.html
+  format: yaml
+  label: FDC3 App Directory API
+  slug: app-directory-api
+  spec_type: OpenAPI
+  url: https://fdc3.finos.org/schemas/2.2/app-directory.html
 consequence_counts:
   read: 16
   write: 5

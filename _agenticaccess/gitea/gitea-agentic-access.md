@@ -4,12 +4,12 @@ action_class_counts:
   acting: 470
   connected: 474
 api_specs:
-- filename: swagger.v1.json
-  format: json
+- filename: swagger
+  format: yaml
   label: Gitea REST API
   slug: gitea-rest-api
   spec_type: OpenAPI
-  url: https://demo.gitea.com/swagger.v1.json
+  url: https://demo.gitea.com/api/swagger
 consequence_counts:
   physical: 10
   read: 474
