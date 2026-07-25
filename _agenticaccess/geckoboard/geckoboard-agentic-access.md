@@ -4,12 +4,18 @@ action_class_counts:
   acting: 4
   connected: 1
 api_specs:
-- filename: geckoboard-openapi.yml
+- filename: geckoboard-datasets-api-openapi.yml
   format: yaml
   label: Geckoboard Datasets API
-  slug: datasets-api
+  slug: geckoboard-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/openapi/geckoboard-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/openapi/geckoboard-datasets-api-openapi.yml
+- filename: geckoboard-health-api-openapi.yml
+  format: yaml
+  label: Geckoboard Health API
+  slug: geckoboard-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/openapi/geckoboard-health-api-openapi.yml
 consequence_counts:
   read: 1
   write: 4

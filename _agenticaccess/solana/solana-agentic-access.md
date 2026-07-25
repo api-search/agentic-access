@@ -3,12 +3,42 @@ acting_count: 52
 action_class_counts:
   acting: 52
 api_specs:
-- filename: solana-rpc-api-openapi.yml
+- filename: solana-accounts-api-openapi.yml
   format: yaml
-  label: Solana RPC Accounts API
-  slug: solana-rpc-accounts-api
+  label: Solana Accounts API
+  slug: solana-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-rpc-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-accounts-api-openapi.yml
+- filename: solana-blocks-api-openapi.yml
+  format: yaml
+  label: Solana Blocks API
+  slug: solana-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-blocks-api-openapi.yml
+- filename: solana-cluster-api-openapi.yml
+  format: yaml
+  label: Solana Cluster API
+  slug: solana-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-cluster-api-openapi.yml
+- filename: solana-economics-api-openapi.yml
+  format: yaml
+  label: Solana Economics API
+  slug: solana-economics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-economics-api-openapi.yml
+- filename: solana-tokens-api-openapi.yml
+  format: yaml
+  label: Solana Tokens API
+  slug: solana-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-tokens-api-openapi.yml
+- filename: solana-transactions-api-openapi.yml
+  format: yaml
+  label: Solana Transactions API
+  slug: solana-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/openapi/solana-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   write: 51

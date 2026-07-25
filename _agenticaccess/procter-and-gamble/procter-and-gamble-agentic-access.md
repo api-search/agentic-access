@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: procter-and-gamble-api-marketplace-openapi.yml
+- filename: procter-and-gamble-orders-api-openapi.yml
   format: yaml
-  label: Procter & Gamble API Marketplace
-  slug: api-marketplace
+  label: Procter & Gamble Orders API
+  slug: procter-and-gamble-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/openapi/procter-and-gamble-api-marketplace-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/openapi/procter-and-gamble-orders-api-openapi.yml
+- filename: procter-and-gamble-products-api-openapi.yml
+  format: yaml
+  label: Procter & Gamble Products API
+  slug: procter-and-gamble-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/openapi/procter-and-gamble-products-api-openapi.yml
+- filename: procter-and-gamble-supply-chain-api-openapi.yml
+  format: yaml
+  label: Procter & Gamble Supply Chain API
+  slug: procter-and-gamble-supply-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/openapi/procter-and-gamble-supply-chain-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

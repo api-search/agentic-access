@@ -4,24 +4,30 @@ action_class_counts:
   acting: 1
   connected: 3
 api_specs:
-- filename: telefono-validation-openapi.yml
+- filename: telefono-batch-api-openapi.yml
   format: yaml
-  label: Telefono Phone Validation API
-  slug: telefono-phone-validation-api
+  label: Telefono Batch API
+  slug: telefono-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/openapi/telefono-validation-openapi.yml
-- filename: telefono-carrier-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/openapi/telefono-batch-api-openapi.yml
+- filename: telefono-carrier-api-openapi.yml
   format: yaml
-  label: Telefono Carrier Lookup API
-  slug: telefono-carrier-lookup-api
+  label: Telefono Carrier API
+  slug: telefono-carrier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/openapi/telefono-carrier-openapi.yml
-- filename: telefono-format-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/openapi/telefono-carrier-api-openapi.yml
+- filename: telefono-format-api-openapi.yml
   format: yaml
-  label: Telefono Number Formatting API
-  slug: telefono-number-formatting-api
+  label: Telefono Format API
+  slug: telefono-format-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/openapi/telefono-format-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/openapi/telefono-format-api-openapi.yml
+- filename: telefono-validation-api-openapi.yml
+  format: yaml
+  label: Telefono Validation API
+  slug: telefono-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/openapi/telefono-validation-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1

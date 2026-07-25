@@ -3,12 +3,54 @@ acting_count: 0
 action_class_counts:
   connected: 11
 api_specs:
-- filename: openapi.yml
+- filename: cryptonews-account-api-openapi.yml
   format: yaml
-  label: CryptoNews REST API
-  slug: cryptonews-api
+  label: CryptoNews API Account API
+  slug: cryptonews-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-account-api-openapi.yml
+- filename: cryptonews-categories-api-openapi.yml
+  format: yaml
+  label: CryptoNews API Categories API
+  slug: cryptonews-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-categories-api-openapi.yml
+- filename: cryptonews-digest-api-openapi.yml
+  format: yaml
+  label: CryptoNews API Digest API
+  slug: cryptonews-digest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-digest-api-openapi.yml
+- filename: cryptonews-news-api-openapi.yml
+  format: yaml
+  label: CryptoNews API News API
+  slug: cryptonews-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-news-api-openapi.yml
+- filename: cryptonews-prices-api-openapi.yml
+  format: yaml
+  label: CryptoNews API Prices API
+  slug: cryptonews-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-prices-api-openapi.yml
+- filename: cryptonews-sentiment-stats-api-openapi.yml
+  format: yaml
+  label: CryptoNews API Sentiment & Stats API
+  slug: cryptonews-sentiment-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-sentiment-stats-api-openapi.yml
+- filename: cryptonews-trending-api-openapi.yml
+  format: yaml
+  label: CryptoNews API Trending API
+  slug: cryptonews-trending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-trending-api-openapi.yml
+- filename: cryptonews-whale-transactions-api-openapi.yml
+  format: yaml
+  label: CryptoNews API Whale Transactions API
+  slug: cryptonews-whale-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/openapi/cryptonews-whale-transactions-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

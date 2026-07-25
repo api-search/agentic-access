@@ -4,12 +4,12 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: servicedesk-plus-openapi.yml
+- filename: servicedesk-plus-requests-api-openapi.yml
   format: yaml
-  label: ServiceDesk Plus REST API
-  slug: rest-api
+  label: ManageEngine ServiceDesk Plus Requests API
+  slug: servicedesk-plus-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/openapi/servicedesk-plus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/openapi/servicedesk-plus-requests-api-openapi.yml
 consequence_counts:
   read: 2
   write: 4

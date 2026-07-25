@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
-- filename: microsoft-azure-logic-apps-openapi.yml
+- filename: microsoft-azure-logic-apps-operations-api-openapi.yml
   format: yaml
-  label: Azure Logic Apps REST API
-  slug: azure-logic-apps-rest-api
+  label: Azure Logic Apps Operations API
+  slug: microsoft-azure-logic-apps-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-logic-apps/refs/heads/main/openapi/microsoft-azure-logic-apps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-logic-apps/refs/heads/main/openapi/microsoft-azure-logic-apps-operations-api-openapi.yml
+- filename: microsoft-azure-logic-apps-workflows-api-openapi.yml
+  format: yaml
+  label: Azure Logic Apps Workflows API
+  slug: microsoft-azure-logic-apps-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-logic-apps/refs/heads/main/openapi/microsoft-azure-logic-apps-workflows-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

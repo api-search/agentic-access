@@ -4,12 +4,12 @@ action_class_counts:
   acting: 9
   connected: 5
 api_specs:
-- filename: openapi.yaml
+- filename: cloudflare-kv-workers-kv-namespace-api-openapi.yml
   format: yaml
-  label: Cloudflare KV REST API
-  slug: cloudflare-kv-rest-api
+  label: Cloudflare KV Workers KV Namespace API
+  slug: cloudflare-kv-workers-kv-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-kv/refs/heads/main/openapi/cloudflare-kv-workers-kv-namespace-api-openapi.yml
 consequence_counts:
   read: 5
   write: 9

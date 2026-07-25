@@ -4,12 +4,30 @@ action_class_counts:
   acting: 6
   connected: 12
 api_specs:
-- filename: spaitial-developer-api-openapi.json
-  format: json
-  label: SpAItial Developer API
-  slug: spaitial-developer-api
+- filename: spaitial-files-api-openapi.yml
+  format: yaml
+  label: SpAItial files API
+  slug: spaitial-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-developer-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-files-api-openapi.yml
+- filename: spaitial-models-api-openapi.yml
+  format: yaml
+  label: SpAItial models API
+  slug: spaitial-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-models-api-openapi.yml
+- filename: spaitial-panoramas-api-openapi.yml
+  format: yaml
+  label: SpAItial panoramas API
+  slug: spaitial-panoramas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-panoramas-api-openapi.yml
+- filename: spaitial-worlds-api-openapi.yml
+  format: yaml
+  label: SpAItial worlds API
+  slug: spaitial-worlds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-worlds-api-openapi.yml
 consequence_counts:
   read: 12
   write: 6

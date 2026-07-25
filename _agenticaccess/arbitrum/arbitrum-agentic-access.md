@@ -21,6 +21,12 @@ api_specs:
   slug: sepolia-rpc
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/arbitrum/refs/heads/main/asyncapi/arbitrum-asyncapi.yml
+- filename: arbitrum-json-rpc-api-openapi.yml
+  format: yaml
+  label: Arbitrum JSON-RPC API
+  slug: arbitrum-json-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arbitrum/refs/heads/main/openapi/arbitrum-json-rpc-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

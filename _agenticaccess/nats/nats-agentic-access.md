@@ -8,7 +8,7 @@ api_specs:
   label: NATS Monitoring API
   slug: nats-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/properties/nats-monitoring-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-monitoring-api-openapi.yml
 - filename: nats-messaging-asyncapi.yml
   format: yaml
   label: NATS Messaging API
@@ -21,6 +21,66 @@ api_specs:
   slug: nats-jetstream-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/properties/nats-jetstream-api-asyncapi.yml
+- filename: nats-accounts-api-openapi.yml
+  format: yaml
+  label: NATS Accounts API
+  slug: nats-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-accounts-api-openapi.yml
+- filename: nats-clustering-api-openapi.yml
+  format: yaml
+  label: NATS Clustering API
+  slug: nats-clustering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-clustering-api-openapi.yml
+- filename: nats-connections-api-openapi.yml
+  format: yaml
+  label: NATS Connections API
+  slug: nats-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-connections-api-openapi.yml
+- filename: nats-gateways-api-openapi.yml
+  format: yaml
+  label: NATS Gateways API
+  slug: nats-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-gateways-api-openapi.yml
+- filename: nats-health-api-openapi.yml
+  format: yaml
+  label: NATS Health API
+  slug: nats-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-health-api-openapi.yml
+- filename: nats-jetstream-api-openapi.yml
+  format: yaml
+  label: NATS JetStream API
+  slug: nats-jetstream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-jetstream-api-openapi.yml
+- filename: nats-leaf-nodes-api-openapi.yml
+  format: yaml
+  label: NATS Leaf Nodes API
+  slug: nats-leaf-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-leaf-nodes-api-openapi.yml
+- filename: nats-routes-api-openapi.yml
+  format: yaml
+  label: NATS Routes API
+  slug: nats-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-routes-api-openapi.yml
+- filename: nats-server-api-openapi.yml
+  format: yaml
+  label: NATS Server API
+  slug: nats-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-server-api-openapi.yml
+- filename: nats-subscriptions-api-openapi.yml
+  format: yaml
+  label: NATS Subscriptions API
+  slug: nats-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-subscriptions-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

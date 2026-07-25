@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: bazel-central-registry-openapi.yml
+- filename: bazel-build-modules-api-openapi.yml
   format: yaml
-  label: Bazel Central Registry API
-  slug: bazel-central-registry-api
+  label: Bazel Modules API
+  slug: bazel-build-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/openapi/bazel-central-registry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/openapi/bazel-build-modules-api-openapi.yml
+- filename: bazel-build-registry-api-openapi.yml
+  format: yaml
+  label: Bazel Registry API
+  slug: bazel-build-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/openapi/bazel-build-registry-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

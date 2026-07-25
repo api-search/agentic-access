@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: nutshell-openapi.yml
+- filename: nutshell-accounts-api-openapi.yml
   format: yaml
-  label: Nutshell REST API
-  slug: rest-api
+  label: Nutshell Accounts API
+  slug: nutshell-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-accounts-api-openapi.yml
+- filename: nutshell-activities-api-openapi.yml
+  format: yaml
+  label: Nutshell Activities API
+  slug: nutshell-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-activities-api-openapi.yml
+- filename: nutshell-contacts-api-openapi.yml
+  format: yaml
+  label: Nutshell Contacts API
+  slug: nutshell-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-contacts-api-openapi.yml
+- filename: nutshell-leads-api-openapi.yml
+  format: yaml
+  label: Nutshell Leads API
+  slug: nutshell-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-leads-api-openapi.yml
+- filename: nutshell-pipelines-api-openapi.yml
+  format: yaml
+  label: Nutshell Pipelines API
+  slug: nutshell-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-pipelines-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

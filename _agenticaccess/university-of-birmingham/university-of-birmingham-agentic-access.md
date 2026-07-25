@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: university-of-birmingham-english-constructicon.yaml
+- filename: university-of-birmingham-constructions-api-openapi.yml
   format: yaml
-  label: English Constructicon API
-  slug: english-constructicon
+  label: University of Birmingham Constructions API
+  slug: university-of-birmingham-constructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/openapi/university-of-birmingham-english-constructicon.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/openapi/university-of-birmingham-constructions-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

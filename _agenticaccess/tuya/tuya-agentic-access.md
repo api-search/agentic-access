@@ -4,12 +4,36 @@ action_class_counts:
   acting: 7
   connected: 8
 api_specs:
-- filename: tuya-device-management-openapi.yml
+- filename: tuya-device-control-api-openapi.yml
   format: yaml
-  label: Tuya Device Management API
-  slug: device-management
+  label: Tuya Device Control API
+  slug: tuya-device-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-control-api-openapi.yml
+- filename: tuya-device-logs-api-openapi.yml
+  format: yaml
+  label: Tuya Device Logs API
+  slug: tuya-device-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-logs-api-openapi.yml
+- filename: tuya-device-users-api-openapi.yml
+  format: yaml
+  label: Tuya Device Users API
+  slug: tuya-device-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-device-users-api-openapi.yml
+- filename: tuya-devices-api-openapi.yml
+  format: yaml
+  label: Tuya Devices API
+  slug: tuya-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-devices-api-openapi.yml
+- filename: tuya-sub-devices-api-openapi.yml
+  format: yaml
+  label: Tuya Sub Devices API
+  slug: tuya-sub-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/openapi/tuya-sub-devices-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 2

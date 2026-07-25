@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: openapi.yml
+- filename: google-appsheet-apps-api-openapi.yml
   format: yaml
-  label: Google AppSheet API
-  slug: google-appsheet
+  label: Google AppSheet Apps API
+  slug: google-appsheet-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/openapi/google-appsheet-apps-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

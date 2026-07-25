@@ -3,12 +3,42 @@ acting_count: 17
 action_class_counts:
   acting: 17
 api_specs:
-- filename: anrok-api-openapi.yml
+- filename: anrok-customer-certificates-api-openapi.yml
   format: yaml
-  label: Anrok API
-  slug: anrok-api
+  label: Anrok Customer certificates API
+  slug: anrok-customer-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-customer-certificates-api-openapi.yml
+- filename: anrok-filings-api-openapi.yml
+  format: yaml
+  label: Anrok Filings API
+  slug: anrok-filings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-filings-api-openapi.yml
+- filename: anrok-product-mappings-api-openapi.yml
+  format: yaml
+  label: Anrok Product mappings API
+  slug: anrok-product-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-product-mappings-api-openapi.yml
+- filename: anrok-products-api-openapi.yml
+  format: yaml
+  label: Anrok Products API
+  slug: anrok-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-products-api-openapi.yml
+- filename: anrok-tax-id-validation-api-openapi.yml
+  format: yaml
+  label: Anrok Tax ID validation API
+  slug: anrok-tax-id-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-tax-id-validation-api-openapi.yml
+- filename: anrok-transactions-api-openapi.yml
+  format: yaml
+  label: Anrok Transactions API
+  slug: anrok-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-transactions-api-openapi.yml
 consequence_counts:
   write: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

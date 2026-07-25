@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: cleanup-pictures-openapi.yml
+- filename: cleanup-pictures-cleanup-api-openapi.yml
   format: yaml
-  label: Cleanup.pictures Inpainting API
-  slug: cleanup
+  label: Cleanup.pictures Cleanup API
+  slug: cleanup-pictures-cleanup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/openapi/cleanup-pictures-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/openapi/cleanup-pictures-cleanup-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

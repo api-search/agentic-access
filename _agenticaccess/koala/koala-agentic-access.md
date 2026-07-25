@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: koala-server-side-api-openapi.yml
+- filename: koala-account-ingestion-api-openapi.yml
   format: yaml
-  label: Koala Server-Side Batch API
-  slug: koala-server-side-api
+  label: Koala Account Ingestion API
+  slug: koala-account-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koala/refs/heads/main/openapi/koala-server-side-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/koala/refs/heads/main/openapi/koala-account-ingestion-api-openapi.yml
+- filename: koala-profile-ingestion-api-openapi.yml
+  format: yaml
+  label: Koala Profile Ingestion API
+  slug: koala-profile-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/koala/refs/heads/main/openapi/koala-profile-ingestion-api-openapi.yml
 consequence_counts:
   physical: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

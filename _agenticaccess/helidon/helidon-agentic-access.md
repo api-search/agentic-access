@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: helidon-observe-openapi.yml
+- filename: helidon-health-api-openapi.yml
   format: yaml
-  label: Helidon
-  slug: helidon
+  label: Helidon Health API
+  slug: helidon-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-observe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-health-api-openapi.yml
+- filename: helidon-info-api-openapi.yml
+  format: yaml
+  label: Helidon Info API
+  slug: helidon-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-info-api-openapi.yml
+- filename: helidon-metrics-api-openapi.yml
+  format: yaml
+  label: Helidon Metrics API
+  slug: helidon-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-metrics-api-openapi.yml
+- filename: helidon-openapi-api-openapi.yml
+  format: yaml
+  label: Helidon OpenAPI API
+  slug: helidon-openapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-openapi-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

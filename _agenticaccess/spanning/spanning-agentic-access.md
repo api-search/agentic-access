@@ -4,12 +4,24 @@ action_class_counts:
   acting: 4
   connected: 5
 api_specs:
-- filename: spanning-google-workspace-api-openapi.yml
+- filename: spanning-exports-api-openapi.yml
   format: yaml
-  label: Spanning Backup for Google Workspace API
-  slug: spanning-google-workspace-api
+  label: Spanning Exports API
+  slug: spanning-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/openapi/spanning-google-workspace-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/openapi/spanning-exports-api-openapi.yml
+- filename: spanning-shared-drives-api-openapi.yml
+  format: yaml
+  label: Spanning Shared Drives API
+  slug: spanning-shared-drives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/openapi/spanning-shared-drives-api-openapi.yml
+- filename: spanning-users-api-openapi.yml
+  format: yaml
+  label: Spanning Users API
+  slug: spanning-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/openapi/spanning-users-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4

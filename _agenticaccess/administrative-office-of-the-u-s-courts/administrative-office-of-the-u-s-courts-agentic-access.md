@@ -3,18 +3,24 @@ acting_count: 4
 action_class_counts:
   acting: 4
 api_specs:
-- filename: pacer-authentication-api-openapi.yml
+- filename: administrative-office-of-the-u-s-courts-cases-api-openapi.yml
   format: yaml
-  label: PACER Authentication API
-  slug: pacer-authentication-api
+  label: Administrative Office of the U.S. Courts Cases API
+  slug: administrative-office-of-the-u-s-courts-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/pacer-authentication-api-openapi.yml
-- filename: pacer-case-locator-pcl-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/administrative-office-of-the-u-s-courts-cases-api-openapi.yml
+- filename: administrative-office-of-the-u-s-courts-parties-api-openapi.yml
   format: yaml
-  label: PACER Case Locator (PCL) API
-  slug: pacer-case-locator-pcl-api
+  label: Administrative Office of the U.S. Courts Parties API
+  slug: administrative-office-of-the-u-s-courts-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/pacer-case-locator-pcl-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/administrative-office-of-the-u-s-courts-parties-api-openapi.yml
+- filename: administrative-office-of-the-u-s-courts-services-api-openapi.yml
+  format: yaml
+  label: Administrative Office of the U.S. Courts Services API
+  slug: administrative-office-of-the-u-s-courts-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/administrative-office-of-the-u-s-courts-services-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: kyoto-kurenai-oai.yaml
+- filename: kyoto-oai-pmh-api-openapi.yml
   format: yaml
-  label: KURENAI OAI-PMH Metadata API
-  slug: kurenai-oai
+  label: Kyoto University OAI-PMH API
+  slug: kyoto-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-kurenai-oai.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-oai-pmh-api-openapi.yml
+- filename: kyoto-rest-api-openapi.yml
+  format: yaml
+  label: Kyoto University REST API
+  slug: kyoto-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/openapi/kyoto-rest-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

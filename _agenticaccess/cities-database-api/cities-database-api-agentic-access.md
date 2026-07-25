@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: cities-database-api-openapi.yml
+- filename: cities-database-api-cities-api-openapi.yml
   format: yaml
-  label: AirLabs Cities API
-  slug: airlabs-cities-api
+  label: Cities Database API Cities API
+  slug: cities-database-api-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/openapi/cities-database-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/openapi/cities-database-api-cities-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

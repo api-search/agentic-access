@@ -4,12 +4,24 @@ action_class_counts:
   acting: 4
   connected: 4
 api_specs:
-- filename: abacus-api-openapi.yaml
+- filename: abacus-authentication-api-openapi.yml
   format: yaml
-  label: Abacus API
-  slug: abacus-api
+  label: Abacus Authentication API
+  slug: abacus-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-authentication-api-openapi.yml
+- filename: abacus-expenses-api-openapi.yml
+  format: yaml
+  label: Abacus Expenses API
+  slug: abacus-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-expenses-api-openapi.yml
+- filename: abacus-members-api-openapi.yml
+  format: yaml
+  label: Abacus Members API
+  slug: abacus-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-members-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4

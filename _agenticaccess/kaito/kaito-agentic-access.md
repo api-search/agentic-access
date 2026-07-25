@@ -4,12 +4,30 @@ action_class_counts:
   acting: 8
   connected: 1
 api_specs:
-- filename: kaito-openapi.yml
+- filename: kaito-chat-api-openapi.yml
   format: yaml
-  label: KAITO RAGEngine API
-  slug: rag-engine
+  label: KAITO Chat API
+  slug: kaito-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-chat-api-openapi.yml
+- filename: kaito-index-management-api-openapi.yml
+  format: yaml
+  label: KAITO Index Management API
+  slug: kaito-index-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-index-management-api-openapi.yml
+- filename: kaito-persistence-api-openapi.yml
+  format: yaml
+  label: KAITO Persistence API
+  slug: kaito-persistence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-persistence-api-openapi.yml
+- filename: kaito-retrieval-api-openapi.yml
+  format: yaml
+  label: KAITO Retrieval API
+  slug: kaito-retrieval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-retrieval-api-openapi.yml
 consequence_counts:
   read: 1
   write: 8

@@ -4,48 +4,30 @@ action_class_counts:
   acting: 2
   connected: 4
 api_specs:
-- filename: fingerprint-openapi.yml
+- filename: fingerprint-event-search-api-openapi.yml
+  format: yaml
+  label: Fingerprint Event Search API
+  slug: fingerprint-event-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-event-search-api-openapi.yml
+- filename: fingerprint-events-api-openapi.yml
   format: yaml
   label: Fingerprint Events API
   slug: fingerprint-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-openapi.yml
-- filename: fingerprint-openapi.yml
-  format: yaml
-  label: Fingerprint Events Search API
-  slug: fingerprint-events-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-openapi.yml
-- filename: fingerprint-openapi.yml
-  format: yaml
-  label: Fingerprint Visitors API
-  slug: fingerprint-visitors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-openapi.yml
-- filename: fingerprint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-events-api-openapi.yml
+- filename: fingerprint-related-visitors-api-openapi.yml
   format: yaml
   label: Fingerprint Related Visitors API
   slug: fingerprint-related-visitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-openapi.yml
-- filename: fingerprint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-related-visitors-api-openapi.yml
+- filename: fingerprint-visitors-api-openapi.yml
   format: yaml
-  label: Fingerprint Smart Signals API
-  slug: fingerprint-smart-signals-api
+  label: Fingerprint Visitors API
+  slug: fingerprint-visitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-openapi.yml
-- filename: fingerprint-openapi.yml
-  format: yaml
-  label: Fingerprint Webhooks
-  slug: fingerprint-webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-openapi.yml
-- filename: fingerprint-openapi.yml
-  format: yaml
-  label: Fingerprint Sealed Results
-  slug: fingerprint-sealed-results
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/openapi/fingerprint-visitors-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2

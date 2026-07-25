@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: contrast-security-openapi.yml
+- filename: contrast-security-applications-api-openapi.yml
   format: yaml
-  label: Contrast TeamServer REST API
-  slug: rest-api
+  label: Contrast Security Applications API
+  slug: contrast-security-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-applications-api-openapi.yml
+- filename: contrast-security-organizations-api-openapi.yml
+  format: yaml
+  label: Contrast Security Organizations API
+  slug: contrast-security-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-organizations-api-openapi.yml
+- filename: contrast-security-rules-api-openapi.yml
+  format: yaml
+  label: Contrast Security Rules API
+  slug: contrast-security-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-rules-api-openapi.yml
+- filename: contrast-security-vulnerabilities-api-openapi.yml
+  format: yaml
+  label: Contrast Security Vulnerabilities API
+  slug: contrast-security-vulnerabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/openapi/contrast-security-vulnerabilities-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: fashn-openapi.yml
+- filename: fashn-predictions-api-openapi.yml
   format: yaml
-  label: FASHN
-  slug: fashn
+  label: FASHN AI Predictions API
+  slug: fashn-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/openapi/fashn-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/openapi/fashn-predictions-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

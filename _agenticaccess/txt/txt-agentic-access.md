@@ -4,12 +4,42 @@ action_class_counts:
   acting: 10
   connected: 10
 api_specs:
-- filename: txt-dottxt-openapi-original.json
-  format: json
-  label: dottxt API
-  slug: dottxt-api
+- filename: txt-batches-api-openapi.yml
+  format: yaml
+  label: .txt batches API
+  slug: txt-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-dottxt-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-batches-api-openapi.yml
+- filename: txt-chat-api-openapi.yml
+  format: yaml
+  label: .txt chat API
+  slug: txt-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-chat-api-openapi.yml
+- filename: txt-embeddings-api-openapi.yml
+  format: yaml
+  label: .txt embeddings API
+  slug: txt-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-embeddings-api-openapi.yml
+- filename: txt-files-api-openapi.yml
+  format: yaml
+  label: .txt files API
+  slug: txt-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-files-api-openapi.yml
+- filename: txt-models-api-openapi.yml
+  format: yaml
+  label: .txt models API
+  slug: txt-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-models-api-openapi.yml
+- filename: txt-responses-api-api-openapi.yml
+  format: yaml
+  label: .txt responses-api API
+  slug: txt-responses-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/openapi/txt-responses-api-api-openapi.yml
 consequence_counts:
   read: 10
   write: 10

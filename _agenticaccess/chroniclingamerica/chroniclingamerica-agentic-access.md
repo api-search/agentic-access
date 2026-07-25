@@ -3,24 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 11
 api_specs:
-- filename: chroniclingamerica-openapi.yml
+- filename: chroniclingamerica-batches-api-openapi.yml
   format: yaml
-  label: Chronicling America Search API
-  slug: chronicling-america-search-api
+  label: Chronicling America Batches API
+  slug: chroniclingamerica-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-openapi.yml
-- filename: chroniclingamerica-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-batches-api-openapi.yml
+- filename: chroniclingamerica-issues-api-openapi.yml
   format: yaml
-  label: Chronicling America Titles API
-  slug: chronicling-america-titles-api
+  label: Chronicling America Issues API
+  slug: chroniclingamerica-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-openapi.yml
-- filename: chroniclingamerica-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-issues-api-openapi.yml
+- filename: chroniclingamerica-ocr-api-openapi.yml
+  format: yaml
+  label: Chronicling America OCR API
+  slug: chroniclingamerica-ocr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-ocr-api-openapi.yml
+- filename: chroniclingamerica-pages-api-openapi.yml
   format: yaml
   label: Chronicling America Pages API
-  slug: chronicling-america-pages-api
+  slug: chroniclingamerica-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-pages-api-openapi.yml
+- filename: chroniclingamerica-search-api-openapi.yml
+  format: yaml
+  label: Chronicling America Search API
+  slug: chroniclingamerica-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-search-api-openapi.yml
+- filename: chroniclingamerica-titles-api-openapi.yml
+  format: yaml
+  label: Chronicling America Titles API
+  slug: chroniclingamerica-titles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/openapi/chroniclingamerica-titles-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: aoc-data-api.yaml
+- filename: architect-of-the-capitol-accessibility-api-openapi.yml
   format: yaml
-  label: Architect of the Capitol Data API
-  slug: aoc-data-api
+  label: Architect of the Capitol Accessibility API
+  slug: architect-of-the-capitol-accessibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/aoc-data-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/architect-of-the-capitol-accessibility-api-openapi.yml
+- filename: architect-of-the-capitol-art-collection-api-openapi.yml
+  format: yaml
+  label: Architect of the Capitol Art Collection API
+  slug: architect-of-the-capitol-art-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/architect-of-the-capitol-art-collection-api-openapi.yml
+- filename: architect-of-the-capitol-buildings-api-openapi.yml
+  format: yaml
+  label: Architect of the Capitol Buildings API
+  slug: architect-of-the-capitol-buildings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/architect-of-the-capitol-buildings-api-openapi.yml
+- filename: architect-of-the-capitol-preservation-api-openapi.yml
+  format: yaml
+  label: Architect of the Capitol Preservation API
+  slug: architect-of-the-capitol-preservation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/architect-of-the-capitol-preservation-api-openapi.yml
+- filename: architect-of-the-capitol-visitor-information-api-openapi.yml
+  format: yaml
+  label: Architect of the Capitol Visitor Information API
+  slug: architect-of-the-capitol-visitor-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/architect-of-the-capitol-visitor-information-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

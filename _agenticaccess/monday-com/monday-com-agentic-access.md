@@ -9,6 +9,12 @@ api_specs:
   slug: monday-com
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/asyncapi/monday-com-webhooks-asyncapi.yml
+- filename: monday-com-monday-com-platform-graphql-api-api-openapi.yml
+  format: yaml
+  label: Monday.com Monday.com Platform GraphQL API API
+  slug: monday-com-monday-com-platform-graphql-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/openapi/monday-com-monday-com-platform-graphql-api-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

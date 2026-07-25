@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: bespoke-labs-minicheck-openapi-original.json
-  format: json
-  label: Bespoke MiniCheck (Argus)
-  slug: bespoke-minicheck-argus
+- filename: bespoke-labs-minicheck-api-openapi.yml
+  format: yaml
+  label: Bespoke Labs Minicheck API
+  slug: bespoke-labs-minicheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/openapi/bespoke-labs-minicheck-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/openapi/bespoke-labs-minicheck-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

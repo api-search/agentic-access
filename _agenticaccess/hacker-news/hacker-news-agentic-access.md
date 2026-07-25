@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: hacker-news-openapi.yml
+- filename: hacker-news-items-api-openapi.yml
   format: yaml
-  label: Hacker News API
-  slug: hacker-news-api
+  label: Hacker News Items API
+  slug: hacker-news-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-items-api-openapi.yml
+- filename: hacker-news-lists-api-openapi.yml
+  format: yaml
+  label: Hacker News Lists API
+  slug: hacker-news-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-lists-api-openapi.yml
+- filename: hacker-news-live-api-openapi.yml
+  format: yaml
+  label: Hacker News Live API
+  slug: hacker-news-live-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-live-api-openapi.yml
+- filename: hacker-news-users-api-openapi.yml
+  format: yaml
+  label: Hacker News Users API
+  slug: hacker-news-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/openapi/hacker-news-users-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

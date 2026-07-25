@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
-- filename: apache-struts-openapi.yml
+- filename: apache-struts-resource-api-openapi.yml
   format: yaml
-  label: Apache Struts REST Plugin
-  slug: apache-struts-rest-plugin
+  label: Apache Struts resource API
+  slug: apache-struts-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-struts/refs/heads/main/openapi/apache-struts-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-struts/refs/heads/main/openapi/apache-struts-resource-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 8
   connected: 19
 api_specs:
-- filename: localstack-openapi-original.yml
+- filename: localstack-aws-api-openapi.yml
   format: yaml
-  label: LocalStack REST API for Community
-  slug: localstack-rest-api-for-community
+  label: LocalStack Aws API
+  slug: localstack-aws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/openapi/localstack-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/openapi/localstack-aws-api-openapi.yml
+- filename: localstack-localstack-api-openapi.yml
+  format: yaml
+  label: LocalStack localstack API
+  slug: localstack-localstack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/openapi/localstack-localstack-api-openapi.yml
 consequence_counts:
   read: 19
   write: 8

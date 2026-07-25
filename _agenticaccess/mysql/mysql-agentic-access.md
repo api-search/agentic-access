@@ -3,6 +3,13 @@ acting_count: 2
 action_class_counts:
   acting: 2
   connected: 2
+api_specs:
+- filename: mysql-authentication-api-openapi.yml
+  format: yaml
+  label: MySQL Authentication API
+  slug: mysql-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mysql/refs/heads/main/openapi/mysql-authentication-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 1

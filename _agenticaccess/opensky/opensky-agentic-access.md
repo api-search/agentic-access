@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: opensky-rest-api.json
-  format: json
-  label: OpenSky Network REST API
-  slug: opensky-network-rest-api
+- filename: opensky-flights-api-openapi.yml
+  format: yaml
+  label: OpenSky Network Flights API
+  slug: opensky-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-rest-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-flights-api-openapi.yml
+- filename: opensky-state-vectors-api-openapi.yml
+  format: yaml
+  label: OpenSky Network State Vectors API
+  slug: opensky-state-vectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-state-vectors-api-openapi.yml
+- filename: opensky-tracks-api-openapi.yml
+  format: yaml
+  label: OpenSky Network Tracks API
+  slug: opensky-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-tracks-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

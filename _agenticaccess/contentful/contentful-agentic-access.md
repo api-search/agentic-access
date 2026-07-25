@@ -3,18 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: contentful-openapi.yml
-  format: yaml
-  label: Contentful Content Delivery API
-  slug: contentful-content-delivery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-openapi.yml
 - filename: contentful-webhooks-asyncapi.yml
   format: yaml
   label: Contentful Webhooks
   slug: contentful-webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-webhooks-asyncapi.yml
+- filename: contentful-spaces-api-openapi.yml
+  format: yaml
+  label: Contentful Spaces API
+  slug: contentful-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-spaces-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

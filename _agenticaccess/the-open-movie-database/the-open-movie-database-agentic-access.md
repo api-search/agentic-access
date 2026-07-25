@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: the-open-movie-database-openapi.yml
+- filename: the-open-movie-database-movies-api-openapi.yml
   format: yaml
-  label: The Open Movie Database API
-  slug: the-open-movie-database
+  label: The Open Movie Database Movies API
+  slug: the-open-movie-database-movies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/openapi/the-open-movie-database-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/openapi/the-open-movie-database-movies-api-openapi.yml
+- filename: the-open-movie-database-search-api-openapi.yml
+  format: yaml
+  label: The Open Movie Database Search API
+  slug: the-open-movie-database-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/openapi/the-open-movie-database-search-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

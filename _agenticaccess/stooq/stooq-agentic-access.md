@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: stooq-historical-data-api-openapi.yml
+- filename: stooq-q-api-openapi.yml
   format: yaml
-  label: Stooq Historical Data API
-  slug: historical-data-api
+  label: Stooq Q API
+  slug: stooq-q-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stooq/refs/heads/main/openapi/stooq-historical-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stooq/refs/heads/main/openapi/stooq-q-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

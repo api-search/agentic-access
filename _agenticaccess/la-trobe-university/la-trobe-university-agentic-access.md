@@ -4,12 +4,18 @@ action_class_counts:
   acting: 2
   connected: 9
 api_specs:
-- filename: la-trobe-university-opal-figshare.yaml
+- filename: la-trobe-university-articles-api-openapi.yml
   format: yaml
-  label: OPAL (Open @ La Trobe) Figshare REST API
-  slug: opal-figshare-rest
+  label: La Trobe University articles API
+  slug: la-trobe-university-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/openapi/la-trobe-university-opal-figshare.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/openapi/la-trobe-university-articles-api-openapi.yml
+- filename: la-trobe-university-collections-api-openapi.yml
+  format: yaml
+  label: La Trobe University collections API
+  slug: la-trobe-university-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/openapi/la-trobe-university-collections-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 13
   connected: 9
 api_specs:
-- filename: amazon-lookout-for-vision-openapi-original.yaml
+- filename: amazon-lookout-for-vision-projects-api-openapi.yml
   format: yaml
-  label: Amazon Lookout for Vision API
-  slug: amazon-lookout-for-vision-api
+  label: Amazon Lookout for Vision Projects API
+  slug: amazon-lookout-for-vision-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/openapi/amazon-lookout-for-vision-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/openapi/amazon-lookout-for-vision-projects-api-openapi.yml
+- filename: amazon-lookout-for-vision-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Lookout for Vision Tags API
+  slug: amazon-lookout-for-vision-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/openapi/amazon-lookout-for-vision-tags-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1

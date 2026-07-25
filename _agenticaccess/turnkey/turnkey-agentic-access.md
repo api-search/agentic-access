@@ -3,36 +3,36 @@ acting_count: 21
 action_class_counts:
   acting: 21
 api_specs:
-- filename: turnkey-openapi.yml
+- filename: turnkey-organizations-api-openapi.yml
   format: yaml
-  label: Turnkey Organizations & Sub-Organizations API
+  label: Turnkey Organizations API
   slug: turnkey-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-openapi.yml
-- filename: turnkey-openapi.yml
-  format: yaml
-  label: Turnkey Wallets API
-  slug: turnkey-wallets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-openapi.yml
-- filename: turnkey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-organizations-api-openapi.yml
+- filename: turnkey-private-keys-api-openapi.yml
   format: yaml
   label: Turnkey Private Keys API
   slug: turnkey-private-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-openapi.yml
-- filename: turnkey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-private-keys-api-openapi.yml
+- filename: turnkey-signing-api-openapi.yml
   format: yaml
-  label: Turnkey Signing & Activities API
-  slug: turnkey-signing-activities-api
+  label: Turnkey Signing API
+  slug: turnkey-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-openapi.yml
-- filename: turnkey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-signing-api-openapi.yml
+- filename: turnkey-users-policies-api-openapi.yml
   format: yaml
-  label: Turnkey Users, Policies & Authenticators API
-  slug: turnkey-users-policies-auth-api
+  label: Turnkey Users & Policies API
+  slug: turnkey-users-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-users-policies-api-openapi.yml
+- filename: turnkey-wallets-api-openapi.yml
+  format: yaml
+  label: Turnkey Wallets API
+  slug: turnkey-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-wallets-api-openapi.yml
 consequence_counts:
   write: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

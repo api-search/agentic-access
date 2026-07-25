@@ -3,12 +3,24 @@ acting_count: 4
 action_class_counts:
   acting: 4
 api_specs:
-- filename: exa-openapi.yml
+- filename: exa-answer-api-openapi.yml
+  format: yaml
+  label: Exa Answer API
+  slug: exa-answer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa/refs/heads/main/openapi/exa-answer-api-openapi.yml
+- filename: exa-contents-api-openapi.yml
+  format: yaml
+  label: Exa Contents API
+  slug: exa-contents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exa/refs/heads/main/openapi/exa-contents-api-openapi.yml
+- filename: exa-search-api-openapi.yml
   format: yaml
   label: Exa Search API
-  slug: search-api
+  slug: exa-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exa/refs/heads/main/openapi/exa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exa/refs/heads/main/openapi/exa-search-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,18 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: 1forge-forex-data-api.yml
-  format: yaml
-  label: 1Forge Forex Data API
-  slug: 1forge-forex-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-forex-data-api.yml
 - filename: 1forge-forex-stream-asyncapi.yml
   format: yaml
   label: 1Forge Forex Stream
   slug: 1forge-forex-stream
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/asyncapi/1forge-forex-stream-asyncapi.yml
+- filename: 1forge-convert-api-openapi.yml
+  format: yaml
+  label: 1Forge Convert API
+  slug: 1forge-convert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-convert-api-openapi.yml
+- filename: 1forge-market-status-api-openapi.yml
+  format: yaml
+  label: 1Forge Market Status API
+  slug: 1forge-market-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-market-status-api-openapi.yml
+- filename: 1forge-quota-api-openapi.yml
+  format: yaml
+  label: 1Forge Quota API
+  slug: 1forge-quota-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-quota-api-openapi.yml
+- filename: 1forge-quotes-api-openapi.yml
+  format: yaml
+  label: 1Forge Quotes API
+  slug: 1forge-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-quotes-api-openapi.yml
+- filename: 1forge-symbols-api-openapi.yml
+  format: yaml
+  label: 1Forge Symbols API
+  slug: 1forge-symbols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-symbols-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

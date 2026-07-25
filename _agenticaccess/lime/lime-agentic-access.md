@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: lime-gbfs-openapi.yml
+- filename: lime-free-bike-status-api-openapi.yml
   format: yaml
-  label: Lime GBFS Public Feed
-  slug: lime-gbfs
+  label: Lime Free Bike Status API
+  slug: lime-free-bike-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lime/refs/heads/main/openapi/lime-gbfs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lime/refs/heads/main/openapi/lime-free-bike-status-api-openapi.yml
+- filename: lime-gbfs-json-api-openapi.yml
+  format: yaml
+  label: Lime Gbfs.json API
+  slug: lime-gbfs-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lime/refs/heads/main/openapi/lime-gbfs-json-api-openapi.yml
+- filename: lime-station-information-api-openapi.yml
+  format: yaml
+  label: Lime Station Information API
+  slug: lime-station-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lime/refs/heads/main/openapi/lime-station-information-api-openapi.yml
+- filename: lime-station-status-api-openapi.yml
+  format: yaml
+  label: Lime Station Status API
+  slug: lime-station-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lime/refs/heads/main/openapi/lime-station-status-api-openapi.yml
+- filename: lime-system-information-api-openapi.yml
+  format: yaml
+  label: Lime System Information API
+  slug: lime-system-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lime/refs/heads/main/openapi/lime-system-information-api-openapi.yml
+- filename: lime-vehicle-types-api-openapi.yml
+  format: yaml
+  label: Lime Vehicle Types API
+  slug: lime-vehicle-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lime/refs/heads/main/openapi/lime-vehicle-types-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

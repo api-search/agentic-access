@@ -3,6 +3,55 @@ acting_count: 13
 action_class_counts:
   acting: 13
   connected: 12
+api_specs:
+- filename: zot-blobs-api-openapi.yml
+  format: yaml
+  label: Zot Blobs API
+  slug: zot-blobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-blobs-api-openapi.yml
+- filename: zot-catalog-api-openapi.yml
+  format: yaml
+  label: Zot Catalog API
+  slug: zot-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-catalog-api-openapi.yml
+- filename: zot-manifests-api-openapi.yml
+  format: yaml
+  label: Zot Manifests API
+  slug: zot-manifests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-manifests-api-openapi.yml
+- filename: zot-oci-api-openapi.yml
+  format: yaml
+  label: Zot Oci API
+  slug: zot-oci-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-oci-api-openapi.yml
+- filename: zot-open-container-initiative-distribution-specification-api-openapi.yml
+  format: yaml
+  label: Zot Open Container Initiative Distribution Specification API
+  slug: zot-open-container-initiative-distribution-specification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-open-container-initiative-distribution-specification-api-openapi.yml
+- filename: zot-referrers-api-openapi.yml
+  format: yaml
+  label: Zot Referrers API
+  slug: zot-referrers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-referrers-api-openapi.yml
+- filename: zot-tags-api-openapi.yml
+  format: yaml
+  label: Zot Tags API
+  slug: zot-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-tags-api-openapi.yml
+- filename: zot-zot-api-openapi.yml
+  format: yaml
+  label: Zot Zot API
+  slug: zot-zot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-zot-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1

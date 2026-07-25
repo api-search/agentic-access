@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: monoscope-platform-openapi.yml
+- filename: apitoolkit-metrics-api-openapi.yml
   format: yaml
-  label: Monoscope Platform API
-  slug: monoscope-platform
+  label: APIToolkit (Monoscope) Metrics API
+  slug: apitoolkit-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/monoscope-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-metrics-api-openapi.yml
+- filename: apitoolkit-monitors-api-openapi.yml
+  format: yaml
+  label: APIToolkit (Monoscope) Monitors API
+  slug: apitoolkit-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-monitors-api-openapi.yml
+- filename: apitoolkit-schema-api-openapi.yml
+  format: yaml
+  label: APIToolkit (Monoscope) Schema API
+  slug: apitoolkit-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/openapi/apitoolkit-schema-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

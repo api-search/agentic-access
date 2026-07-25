@@ -4,24 +4,12 @@ action_class_counts:
   acting: 17
   connected: 6
 api_specs:
-- filename: tamara-checkout-api-openapi.yml
-  format: yaml
-  label: Tamara Checkout API
-  slug: tamara-checkout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-checkout-api-openapi.yml
 - filename: tamara-orders-api-openapi.yml
   format: yaml
   label: Tamara Orders API
   slug: tamara-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-orders-api-openapi.yml
-- filename: tamara-payments-api-openapi.yml
-  format: yaml
-  label: Tamara Payments API
-  slug: tamara-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-payments-api-openapi.yml
 - filename: tamara-in-store-checkout-api-openapi.yml
   format: yaml
   label: Tamara In-Store Checkout API
@@ -46,12 +34,42 @@ api_specs:
   slug: tamara-eligibility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-eligibility-api-openapi.yml
-- filename: tamara-channel-partners-api-openapi.yml
+- filename: tamara-captures-api-openapi.yml
   format: yaml
-  label: Tamara Channel Partners API
-  slug: tamara-channel-partners-api
+  label: Tamara Captures API
+  slug: tamara-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-channel-partners-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-captures-api-openapi.yml
+- filename: tamara-channel-partner-webhooks-api-openapi.yml
+  format: yaml
+  label: Tamara Channel Partner Webhooks API
+  slug: tamara-channel-partner-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-channel-partner-webhooks-api-openapi.yml
+- filename: tamara-checkout-sessions-api-openapi.yml
+  format: yaml
+  label: Tamara Checkout Sessions API
+  slug: tamara-checkout-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-checkout-sessions-api-openapi.yml
+- filename: tamara-merchant-api-keys-api-openapi.yml
+  format: yaml
+  label: Tamara Merchant API Keys API
+  slug: tamara-merchant-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-merchant-api-keys-api-openapi.yml
+- filename: tamara-merchant-onboarding-api-openapi.yml
+  format: yaml
+  label: Tamara Merchant Onboarding API
+  slug: tamara-merchant-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-merchant-onboarding-api-openapi.yml
+- filename: tamara-refunds-api-openapi.yml
+  format: yaml
+  label: Tamara Refunds API
+  slug: tamara-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-refunds-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 6

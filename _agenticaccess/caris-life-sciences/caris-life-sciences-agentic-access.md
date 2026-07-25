@@ -3,24 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: caris-life-sciences-openapi.yml
+- filename: caris-life-sciences-information-api-openapi.yml
   format: yaml
-  label: Caris+Portal
-  slug: caris-portal
+  label: Caris Life Sciences Information API
+  slug: caris-life-sciences-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-openapi.yml
-- filename: caris-life-sciences-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-information-api-openapi.yml
+- filename: caris-life-sciences-portal-api-openapi.yml
   format: yaml
-  label: Caris EHR Integration
-  slug: ehr-integration
+  label: Caris Life Sciences Portal API
+  slug: caris-life-sciences-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-openapi.yml
-- filename: caris-life-sciences-openapi.yml
-  format: yaml
-  label: Caris CODEai Real-World Data
-  slug: codeai
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-portal-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

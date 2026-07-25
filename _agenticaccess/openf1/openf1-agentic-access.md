@@ -3,12 +3,72 @@ acting_count: 0
 action_class_counts:
   connected: 13
 api_specs:
-- filename: openf1-openapi.yml
+- filename: openf1-drivers-api-openapi.yml
   format: yaml
-  label: OpenF1 API
-  slug: openf1
+  label: OpenF1 Drivers API
+  slug: openf1-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-drivers-api-openapi.yml
+- filename: openf1-laps-api-openapi.yml
+  format: yaml
+  label: OpenF1 Laps API
+  slug: openf1-laps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-laps-api-openapi.yml
+- filename: openf1-meetings-api-openapi.yml
+  format: yaml
+  label: OpenF1 Meetings API
+  slug: openf1-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-meetings-api-openapi.yml
+- filename: openf1-pit-api-openapi.yml
+  format: yaml
+  label: OpenF1 Pit API
+  slug: openf1-pit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-pit-api-openapi.yml
+- filename: openf1-position-api-openapi.yml
+  format: yaml
+  label: OpenF1 Position API
+  slug: openf1-position-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-position-api-openapi.yml
+- filename: openf1-racecontrol-api-openapi.yml
+  format: yaml
+  label: OpenF1 RaceControl API
+  slug: openf1-racecontrol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-racecontrol-api-openapi.yml
+- filename: openf1-sessions-api-openapi.yml
+  format: yaml
+  label: OpenF1 Sessions API
+  slug: openf1-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-sessions-api-openapi.yml
+- filename: openf1-stints-api-openapi.yml
+  format: yaml
+  label: OpenF1 Stints API
+  slug: openf1-stints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-stints-api-openapi.yml
+- filename: openf1-teamradio-api-openapi.yml
+  format: yaml
+  label: OpenF1 TeamRadio API
+  slug: openf1-teamradio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-teamradio-api-openapi.yml
+- filename: openf1-telemetry-api-openapi.yml
+  format: yaml
+  label: OpenF1 Telemetry API
+  slug: openf1-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-telemetry-api-openapi.yml
+- filename: openf1-weather-api-openapi.yml
+  format: yaml
+  label: OpenF1 Weather API
+  slug: openf1-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-weather-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

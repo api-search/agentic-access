@@ -4,12 +4,24 @@ action_class_counts:
   acting: 3
   connected: 6
 api_specs:
-- filename: rentahuman-openapi-original.yml
+- filename: rentahuman-bookings-api-openapi.yml
   format: yaml
-  label: RentAHuman.ai API
-  slug: rentahumanai-api
+  label: Rentahuman Bookings API
+  slug: rentahuman-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/openapi/rentahuman-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/openapi/rentahuman-bookings-api-openapi.yml
+- filename: rentahuman-humans-api-openapi.yml
+  format: yaml
+  label: Rentahuman Humans API
+  slug: rentahuman-humans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/openapi/rentahuman-humans-api-openapi.yml
+- filename: rentahuman-wallet-api-openapi.yml
+  format: yaml
+  label: Rentahuman Wallet API
+  slug: rentahuman-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rentahuman/refs/heads/main/openapi/rentahuman-wallet-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1

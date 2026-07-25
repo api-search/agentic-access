@@ -4,12 +4,18 @@ action_class_counts:
   acting: 5
   connected: 7
 api_specs:
-- filename: nected-openapi.yml
+- filename: nected-dev-api-openapi.yml
   format: yaml
-  label: Nected
-  slug: nected
+  label: Nected Dev API
+  slug: nected-dev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-dev-api-openapi.yml
+- filename: nected-nected-api-openapi.yml
+  format: yaml
+  label: Nected Nected API
+  slug: nected-nected-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-nected-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5

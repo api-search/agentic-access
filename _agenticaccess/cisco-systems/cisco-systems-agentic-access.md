@@ -3,18 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: cisco-systems-cisco-api-openapi.yml
+- filename: cisco-systems-networking-api-openapi.yml
   format: yaml
-  label: Cisco DevNet API Catalog
-  slug: devnet-api
+  label: Cisco Systems Networking API
+  slug: cisco-systems-networking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/openapi/cisco-systems-cisco-api-openapi.yml
-- filename: openapiSpec
-  format: yaml
-  label: Cisco Meraki Dashboard
-  slug: meraki
-  spec_type: OpenAPI
-  url: https://api.meraki.com/api/v1/openapiSpec
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/openapi/cisco-systems-networking-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

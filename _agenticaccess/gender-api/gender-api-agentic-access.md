@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: gender-api-openapi.yml
+- filename: gender-api-get-api-openapi.yml
   format: yaml
-  label: Gender API
-  slug: gender-api
+  label: Gender API Get API
+  slug: gender-api-get-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-get-api-openapi.yml
+- filename: gender-api-get-country-of-origin-api-openapi.yml
+  format: yaml
+  label: Gender API Get Country Of Origin API
+  slug: gender-api-get-country-of-origin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-get-country-of-origin-api-openapi.yml
+- filename: gender-api-get-stats-api-openapi.yml
+  format: yaml
+  label: Gender API Get Stats API
+  slug: gender-api-get-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-get-stats-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

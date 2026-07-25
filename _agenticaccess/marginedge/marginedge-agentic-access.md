@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: marginedge-openapi.yml
+- filename: marginedge-categories-api-openapi.yml
   format: yaml
-  label: MarginEdge Public API
-  slug: rest-api
+  label: MarginEdge Categories API
+  slug: marginedge-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-categories-api-openapi.yml
+- filename: marginedge-orders-api-openapi.yml
+  format: yaml
+  label: MarginEdge Orders API
+  slug: marginedge-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-orders-api-openapi.yml
+- filename: marginedge-products-api-openapi.yml
+  format: yaml
+  label: MarginEdge Products API
+  slug: marginedge-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-products-api-openapi.yml
+- filename: marginedge-restaurant-units-api-openapi.yml
+  format: yaml
+  label: MarginEdge Restaurant Units API
+  slug: marginedge-restaurant-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-restaurant-units-api-openapi.yml
+- filename: marginedge-vendors-api-openapi.yml
+  format: yaml
+  label: MarginEdge Vendors API
+  slug: marginedge-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-vendors-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

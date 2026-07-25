@@ -4,12 +4,36 @@ action_class_counts:
   acting: 3
   connected: 5
 api_specs:
-- filename: openapi.yml
+- filename: google-vertex-ai-datasets-api-openapi.yml
   format: yaml
-  label: Google Vertex AI API
-  slug: google-vertex-ai-api
+  label: Google Vertex AI Datasets API
+  slug: google-vertex-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-datasets-api-openapi.yml
+- filename: google-vertex-ai-endpoints-api-openapi.yml
+  format: yaml
+  label: Google Vertex AI Endpoints API
+  slug: google-vertex-ai-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-endpoints-api-openapi.yml
+- filename: google-vertex-ai-models-api-openapi.yml
+  format: yaml
+  label: Google Vertex AI Models API
+  slug: google-vertex-ai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-models-api-openapi.yml
+- filename: google-vertex-ai-predictions-api-openapi.yml
+  format: yaml
+  label: Google Vertex AI Predictions API
+  slug: google-vertex-ai-predictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-predictions-api-openapi.yml
+- filename: google-vertex-ai-trainingpipelines-api-openapi.yml
+  format: yaml
+  label: Google Vertex AI TrainingPipelines API
+  slug: google-vertex-ai-trainingpipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/openapi/google-vertex-ai-trainingpipelines-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3

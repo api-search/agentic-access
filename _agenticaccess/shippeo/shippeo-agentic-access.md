@@ -4,30 +4,30 @@ action_class_counts:
   acting: 5
   connected: 6
 api_specs:
-- filename: shippeo-openapi.yml
+- filename: shippeo-eta-and-status-api-openapi.yml
   format: yaml
-  label: Shippeo Transport Orders API
-  slug: shippeo-transport-orders-api
+  label: Shippeo ETA and Status API
+  slug: shippeo-eta-and-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-openapi.yml
-- filename: shippeo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-eta-and-status-api-openapi.yml
+- filename: shippeo-event-subscriptions-api-openapi.yml
+  format: yaml
+  label: Shippeo Event Subscriptions API
+  slug: shippeo-event-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-event-subscriptions-api-openapi.yml
+- filename: shippeo-positions-api-openapi.yml
   format: yaml
   label: Shippeo Positions API
   slug: shippeo-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-openapi.yml
-- filename: shippeo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-positions-api-openapi.yml
+- filename: shippeo-transport-orders-api-openapi.yml
   format: yaml
-  label: Shippeo ETA and Status API
-  slug: shippeo-eta-status-api
+  label: Shippeo Transport Orders API
+  slug: shippeo-transport-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-openapi.yml
-- filename: shippeo-openapi.yml
-  format: yaml
-  label: Shippeo Event Subscriptions (Events-out Webhooks) API
-  slug: shippeo-event-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/openapi/shippeo-transport-orders-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6

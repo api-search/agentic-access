@@ -4,12 +4,30 @@ action_class_counts:
   acting: 3
   connected: 6
 api_specs:
-- filename: bankruptcywatch-pacer-api-openapi.yml
+- filename: bankruptcywatch-cases-api-openapi.yml
   format: yaml
-  label: BankruptcyWatch PACER API
-  slug: pacer-api
+  label: BankruptcyWatch Cases API
+  slug: bankruptcywatch-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-pacer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-cases-api-openapi.yml
+- filename: bankruptcywatch-claims-api-openapi.yml
+  format: yaml
+  label: BankruptcyWatch Claims API
+  slug: bankruptcywatch-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-claims-api-openapi.yml
+- filename: bankruptcywatch-docket-api-openapi.yml
+  format: yaml
+  label: BankruptcyWatch Docket API
+  slug: bankruptcywatch-docket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-docket-api-openapi.yml
+- filename: bankruptcywatch-monitoring-api-openapi.yml
+  format: yaml
+  label: BankruptcyWatch Monitoring API
+  slug: bankruptcywatch-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-monitoring-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3

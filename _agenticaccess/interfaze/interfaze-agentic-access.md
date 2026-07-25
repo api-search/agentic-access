@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: interfaze-openapi-original.json
-  format: json
-  label: Interfaze Chat Completion API
-  slug: interfaze-chat-completion-api
+- filename: interfaze-chat-api-openapi.yml
+  format: yaml
+  label: Interfaze Chat API
+  slug: interfaze-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/openapi/interfaze-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/openapi/interfaze-chat-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

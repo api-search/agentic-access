@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: amazon-vpn-openapi.yml
+- filename: amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api-openapi.yml
   format: yaml
-  label: AWS VPN API
-  slug: aws-vpn-api
+  label: Amazon VPN AWS VPN API (Amazon EC2 Query API Subset) API
+  slug: amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/openapi/amazon-vpn-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/openapi/amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

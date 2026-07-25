@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: country-state-city-api-openapi.yml
+- filename: country-state-city-api-cities-api-openapi.yml
   format: yaml
-  label: Country State City API
-  slug: country-state-city-api
+  label: Country State City API Cities API
+  slug: country-state-city-api-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-cities-api-openapi.yml
+- filename: country-state-city-api-countries-api-openapi.yml
+  format: yaml
+  label: Country State City API Countries API
+  slug: country-state-city-api-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-countries-api-openapi.yml
+- filename: country-state-city-api-states-api-openapi.yml
+  format: yaml
+  label: Country State City API States API
+  slug: country-state-city-api-states-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-states-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

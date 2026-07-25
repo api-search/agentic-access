@@ -3,12 +3,12 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: openfeature-openapi.yaml
+- filename: openfeature-ofrep-core-api-openapi.yml
   format: yaml
-  label: OpenFeature Evaluation API
-  slug: openfeature-spec
+  label: OpenFeature OFREP Core API
+  slug: openfeature-ofrep-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/openapi/openfeature-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/openapi/openfeature-ofrep-core-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

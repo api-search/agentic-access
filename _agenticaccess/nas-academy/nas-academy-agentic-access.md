@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 36
 api_specs:
-- filename: nas-academy-openapi-original.json
-  format: json
-  label: Nas.com Public Discovery API
-  slug: nascom-public-discovery-api
+- filename: nas-academy-ai-discovery-api-openapi.yml
+  format: yaml
+  label: Nas.com (Nas Academy) AI discovery API
+  slug: nas-academy-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-ai-discovery-api-openapi.yml
+- filename: nas-academy-developer-discovery-api-openapi.yml
+  format: yaml
+  label: Nas.com (Nas Academy) Developer discovery API
+  slug: nas-academy-developer-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-developer-discovery-api-openapi.yml
 consequence_counts:
   read: 36
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 4
   connected: 4
 api_specs:
-- filename: pika-text-to-video-openapi.yml
+- filename: pika-fal-ai-api-openapi.yml
   format: yaml
-  label: Pika Video API
-  slug: pika-video-api
+  label: Pika Fal Ai API
+  slug: pika-fal-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pika/refs/heads/main/openapi/pika-text-to-video-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pika/refs/heads/main/openapi/pika-fal-ai-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4

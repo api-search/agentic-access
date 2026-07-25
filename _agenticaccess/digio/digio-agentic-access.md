@@ -4,30 +4,30 @@ action_class_counts:
   acting: 6
   connected: 4
 api_specs:
-- filename: digio-openapi.yml
+- filename: digio-documents-api-openapi.yml
+  format: yaml
+  label: Digio Documents API
+  slug: digio-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-documents-api-openapi.yml
+- filename: digio-emandate-api-openapi.yml
+  format: yaml
+  label: Digio eMandate API
+  slug: digio-emandate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-emandate-api-openapi.yml
+- filename: digio-esign-api-openapi.yml
   format: yaml
   label: Digio eSign API
   slug: digio-esign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-openapi.yml
-- filename: digio-openapi.yml
-  format: yaml
-  label: Digio eMandate (eNACH) API
-  slug: digio-emandate-enach-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-openapi.yml
-- filename: digio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-esign-api-openapi.yml
+- filename: digio-kyc-api-openapi.yml
   format: yaml
   label: Digio KYC API
   slug: digio-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-openapi.yml
-- filename: digio-openapi.yml
-  format: yaml
-  label: Digio Documents & eStamp API
-  slug: digio-documents-estamp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/openapi/digio-kyc-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6

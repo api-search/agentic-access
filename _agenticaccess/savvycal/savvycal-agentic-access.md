@@ -4,12 +4,42 @@ action_class_counts:
   acting: 5
   connected: 11
 api_specs:
-- filename: savvycal-meetings-openapi.yml
+- filename: savvycal-current-user-api-openapi.yml
   format: yaml
-  label: SavvyCal Meetings API
-  slug: savvycal-meetings-api
+  label: SavvyCal Current User API
+  slug: savvycal-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-meetings-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-current-user-api-openapi.yml
+- filename: savvycal-events-api-openapi.yml
+  format: yaml
+  label: SavvyCal Events API
+  slug: savvycal-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-events-api-openapi.yml
+- filename: savvycal-scheduling-links-api-openapi.yml
+  format: yaml
+  label: SavvyCal Scheduling Links API
+  slug: savvycal-scheduling-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-scheduling-links-api-openapi.yml
+- filename: savvycal-time-zones-api-openapi.yml
+  format: yaml
+  label: SavvyCal Time Zones API
+  slug: savvycal-time-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-time-zones-api-openapi.yml
+- filename: savvycal-webhooks-api-openapi.yml
+  format: yaml
+  label: SavvyCal Webhooks API
+  slug: savvycal-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-webhooks-api-openapi.yml
+- filename: savvycal-workflows-api-openapi.yml
+  format: yaml
+  label: SavvyCal Workflows API
+  slug: savvycal-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/openapi/savvycal-workflows-api-openapi.yml
 consequence_counts:
   read: 11
   write: 5

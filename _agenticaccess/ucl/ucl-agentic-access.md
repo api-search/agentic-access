@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 29
 api_specs:
-- filename: uclapi.json
-  format: json
-  label: UCL API Room Bookings
-  slug: roombookings
+- filename: ucl-analytics-api-openapi.yml
+  format: yaml
+  label: UCL Analytics API
+  slug: ucl-analytics-api
   spec_type: OpenAPI
-  url: https://github.com/uclapi/uclapi-openapi/blob/master/uclapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/openapi/ucl-analytics-api-openapi.yml
+- filename: ucl-oauth-api-openapi.yml
+  format: yaml
+  label: UCL OAuth API
+  slug: ucl-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/openapi/ucl-oauth-api-openapi.yml
+- filename: ucl-resources-api-openapi.yml
+  format: yaml
+  label: UCL Resources API
+  slug: ucl-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/openapi/ucl-resources-api-openapi.yml
+- filename: ucl-room-bookings-api-openapi.yml
+  format: yaml
+  label: UCL Room Bookings API
+  slug: ucl-room-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/openapi/ucl-room-bookings-api-openapi.yml
+- filename: ucl-search-api-openapi.yml
+  format: yaml
+  label: UCL Search API
+  slug: ucl-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/openapi/ucl-search-api-openapi.yml
+- filename: ucl-timetable-api-openapi.yml
+  format: yaml
+  label: UCL Timetable API
+  slug: ucl-timetable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/openapi/ucl-timetable-api-openapi.yml
+- filename: ucl-workspaces-api-openapi.yml
+  format: yaml
+  label: UCL Workspaces API
+  slug: ucl-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/openapi/ucl-workspaces-api-openapi.yml
 consequence_counts:
   read: 29
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

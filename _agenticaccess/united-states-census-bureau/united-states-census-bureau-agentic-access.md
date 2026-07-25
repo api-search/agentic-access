@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: census-data-api-openapi.yml
+- filename: united-states-census-bureau-american-community-survey-api-openapi.yml
   format: yaml
-  label: Census Data API
-  slug: census-data-api
+  label: United States Census Bureau American Community Survey API
+  slug: united-states-census-bureau-american-community-survey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/openapi/census-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/openapi/united-states-census-bureau-american-community-survey-api-openapi.yml
+- filename: united-states-census-bureau-county-business-patterns-api-openapi.yml
+  format: yaml
+  label: United States Census Bureau County Business Patterns API
+  slug: united-states-census-bureau-county-business-patterns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/openapi/united-states-census-bureau-county-business-patterns-api-openapi.yml
+- filename: united-states-census-bureau-decennial-census-api-openapi.yml
+  format: yaml
+  label: United States Census Bureau Decennial Census API
+  slug: united-states-census-bureau-decennial-census-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/openapi/united-states-census-bureau-decennial-census-api-openapi.yml
+- filename: united-states-census-bureau-economic-census-api-openapi.yml
+  format: yaml
+  label: United States Census Bureau Economic Census API
+  slug: united-states-census-bureau-economic-census-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/openapi/united-states-census-bureau-economic-census-api-openapi.yml
+- filename: united-states-census-bureau-geographic-services-api-openapi.yml
+  format: yaml
+  label: United States Census Bureau Geographic Services API
+  slug: united-states-census-bureau-geographic-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/openapi/united-states-census-bureau-geographic-services-api-openapi.yml
+- filename: united-states-census-bureau-international-api-openapi.yml
+  format: yaml
+  label: United States Census Bureau International API
+  slug: united-states-census-bureau-international-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/openapi/united-states-census-bureau-international-api-openapi.yml
+- filename: united-states-census-bureau-population-estimates-api-openapi.yml
+  format: yaml
+  label: United States Census Bureau Population Estimates API
+  slug: united-states-census-bureau-population-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/openapi/united-states-census-bureau-population-estimates-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

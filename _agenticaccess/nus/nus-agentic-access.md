@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: nus-nusmods.yaml
+- filename: nus-modules-api-openapi.yml
   format: yaml
-  label: NUSMods API (Unofficial / Community)
-  slug: nusmods
+  label: National University of Singapore Modules API
+  slug: nus-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-nusmods.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-modules-api-openapi.yml
+- filename: nus-venues-api-openapi.yml
+  format: yaml
+  label: National University of Singapore Venues API
+  slug: nus-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-venues-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

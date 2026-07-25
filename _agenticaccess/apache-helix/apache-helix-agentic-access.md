@@ -4,12 +4,30 @@ action_class_counts:
   acting: 2
   connected: 8
 api_specs:
-- filename: apache-helix-rest-openapi.yml
+- filename: apache-helix-clusters-api-openapi.yml
   format: yaml
-  label: Apache Helix REST API
-  slug: apache-helix-rest-api
+  label: Apache Helix Clusters API
+  slug: apache-helix-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/openapi/apache-helix-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/openapi/apache-helix-clusters-api-openapi.yml
+- filename: apache-helix-instances-api-openapi.yml
+  format: yaml
+  label: Apache Helix Instances API
+  slug: apache-helix-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/openapi/apache-helix-instances-api-openapi.yml
+- filename: apache-helix-resources-api-openapi.yml
+  format: yaml
+  label: Apache Helix Resources API
+  slug: apache-helix-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/openapi/apache-helix-resources-api-openapi.yml
+- filename: apache-helix-state-api-openapi.yml
+  format: yaml
+  label: Apache Helix State API
+  slug: apache-helix-state-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/openapi/apache-helix-state-api-openapi.yml
 consequence_counts:
   read: 8
   write: 2

@@ -4,12 +4,36 @@ action_class_counts:
   acting: 7
   connected: 4
 api_specs:
-- filename: caddy-openapi.yml
+- filename: caddy-adapt-api-openapi.yml
   format: yaml
-  label: Caddy Web Server
-  slug: caddy-web-server
+  label: Caddy Adapt API
+  slug: caddy-adapt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/openapi/caddy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/openapi/caddy-adapt-api-openapi.yml
+- filename: caddy-configuration-api-openapi.yml
+  format: yaml
+  label: Caddy Configuration API
+  slug: caddy-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/openapi/caddy-configuration-api-openapi.yml
+- filename: caddy-lifecycle-api-openapi.yml
+  format: yaml
+  label: Caddy Lifecycle API
+  slug: caddy-lifecycle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/openapi/caddy-lifecycle-api-openapi.yml
+- filename: caddy-pki-api-openapi.yml
+  format: yaml
+  label: Caddy PKI API
+  slug: caddy-pki-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/openapi/caddy-pki-api-openapi.yml
+- filename: caddy-reverse-proxy-api-openapi.yml
+  format: yaml
+  label: Caddy Reverse Proxy API
+  slug: caddy-reverse-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/openapi/caddy-reverse-proxy-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 1

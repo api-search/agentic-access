@@ -4,12 +4,12 @@ action_class_counts:
   acting: 18
   connected: 12
 api_specs:
-- filename: factorial-openapi.yml
+- filename: factorial-resources-api-openapi.yml
   format: yaml
-  label: Factorial Developer API
-  slug: developer-api
+  label: Factorial Resources API
+  slug: factorial-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial/refs/heads/main/openapi/factorial-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/factorial/refs/heads/main/openapi/factorial-resources-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1

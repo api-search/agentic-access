@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 31
 api_specs:
-- filename: openapi.yaml
+- filename: basis-analytics-api-openapi.yml
   format: yaml
-  label: Basis Enterprise API
-  slug: basis-enterprise-api
+  label: Basis Analytics API
+  slug: basis-analytics-api
   spec_type: OpenAPI
-  url: https://api.basis.net/docs/
+  url: https://raw.githubusercontent.com/api-evangelist/basis/refs/heads/main/openapi/basis-analytics-api-openapi.yml
 consequence_counts:
   read: 31
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

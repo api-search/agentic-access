@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: sophos-central-siem-openapi.yml
+- filename: sophos-alerts-api-openapi.yml
   format: yaml
-  label: Sophos Central SIEM API
-  slug: sophos-central-siem-api
+  label: Sophos Alerts API
+  slug: sophos-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-central-siem-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-alerts-api-openapi.yml
+- filename: sophos-events-api-openapi.yml
+  format: yaml
+  label: Sophos Events API
+  slug: sophos-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/openapi/sophos-events-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

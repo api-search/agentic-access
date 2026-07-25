@@ -4,12 +4,48 @@ action_class_counts:
   acting: 7
   connected: 12
 api_specs:
-- filename: openapi.yml
+- filename: eventzilla-attendees-api-openapi.yml
   format: yaml
-  label: Eventzilla API
-  slug: eventzilla-api
+  label: Eventzilla Attendees API
+  slug: eventzilla-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-attendees-api-openapi.yml
+- filename: eventzilla-categories-api-openapi.yml
+  format: yaml
+  label: Eventzilla Categories API
+  slug: eventzilla-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-categories-api-openapi.yml
+- filename: eventzilla-checkout-api-openapi.yml
+  format: yaml
+  label: Eventzilla Checkout API
+  slug: eventzilla-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-checkout-api-openapi.yml
+- filename: eventzilla-events-api-openapi.yml
+  format: yaml
+  label: Eventzilla Events API
+  slug: eventzilla-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-events-api-openapi.yml
+- filename: eventzilla-tickets-api-openapi.yml
+  format: yaml
+  label: Eventzilla Tickets API
+  slug: eventzilla-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-tickets-api-openapi.yml
+- filename: eventzilla-transactions-api-openapi.yml
+  format: yaml
+  label: Eventzilla Transactions API
+  slug: eventzilla-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-transactions-api-openapi.yml
+- filename: eventzilla-users-api-openapi.yml
+  format: yaml
+  label: Eventzilla Users API
+  slug: eventzilla-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-users-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 12

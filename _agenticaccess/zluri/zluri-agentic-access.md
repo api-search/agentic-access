@@ -4,12 +4,30 @@ action_class_counts:
   acting: 8
   connected: 5
 api_specs:
-- filename: zluri-api-openapi.yml
+- filename: zluri-data-upload-api-openapi.yml
   format: yaml
-  label: Zluri
-  slug: zluri
+  label: Zluri Data Upload API
+  slug: zluri-data-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-data-upload-api-openapi.yml
+- filename: zluri-instances-api-openapi.yml
+  format: yaml
+  label: Zluri Instances API
+  slug: zluri-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-instances-api-openapi.yml
+- filename: zluri-syncs-api-openapi.yml
+  format: yaml
+  label: Zluri Syncs API
+  slug: zluri-syncs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-syncs-api-openapi.yml
+- filename: zluri-webhooks-api-openapi.yml
+  format: yaml
+  label: Zluri Webhooks API
+  slug: zluri-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8

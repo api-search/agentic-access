@@ -4,12 +4,30 @@ action_class_counts:
   acting: 2
   connected: 7
 api_specs:
-- filename: kserve-open-inference-protocol-openapi.yml
+- filename: scalable-inference-serving-health-api-openapi.yml
   format: yaml
-  label: KServe Open Inference Protocol API
-  slug: kserve-open-inference-protocol-api
+  label: Scalable Inference Serving Health API
+  slug: scalable-inference-serving-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/main/openapi/kserve-open-inference-protocol-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/openapi/scalable-inference-serving-health-api-openapi.yml
+- filename: scalable-inference-serving-inference-api-openapi.yml
+  format: yaml
+  label: Scalable Inference Serving Inference API
+  slug: scalable-inference-serving-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/openapi/scalable-inference-serving-inference-api-openapi.yml
+- filename: scalable-inference-serving-metadata-api-openapi.yml
+  format: yaml
+  label: Scalable Inference Serving Metadata API
+  slug: scalable-inference-serving-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/openapi/scalable-inference-serving-metadata-api-openapi.yml
+- filename: scalable-inference-serving-models-api-openapi.yml
+  format: yaml
+  label: Scalable Inference Serving Models API
+  slug: scalable-inference-serving-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/openapi/scalable-inference-serving-models-api-openapi.yml
 consequence_counts:
   read: 7
   write: 2

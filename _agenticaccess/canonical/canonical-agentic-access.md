@@ -4,12 +4,24 @@ action_class_counts:
   acting: 5
   connected: 7
 api_specs:
-- filename: rest-api.yaml
+- filename: canonical-assertions-api-openapi.yml
   format: yaml
-  label: LXD REST API
-  slug: lxd-api
+  label: Canonical Assertions API
+  slug: canonical-assertions-api
   spec_type: OpenAPI
-  url: https://github.com/canonical/lxd/blob/main/doc/rest-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-assertions-api-openapi.yml
+- filename: canonical-search-api-openapi.yml
+  format: yaml
+  label: Canonical Search API
+  slug: canonical-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-search-api-openapi.yml
+- filename: canonical-snaps-api-openapi.yml
+  format: yaml
+  label: Canonical Snaps API
+  slug: canonical-snaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-snaps-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5

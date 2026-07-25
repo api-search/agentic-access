@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: nominatim-openapi.yml
+- filename: nominatim-deletable-api-openapi.yml
   format: yaml
-  label: Nominatim API
-  slug: nominatim-api
+  label: Nominatim Deletable API
+  slug: nominatim-deletable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-deletable-api-openapi.yml
+- filename: nominatim-details-api-openapi.yml
+  format: yaml
+  label: Nominatim Details API
+  slug: nominatim-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-details-api-openapi.yml
+- filename: nominatim-lookup-api-openapi.yml
+  format: yaml
+  label: Nominatim Lookup API
+  slug: nominatim-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-lookup-api-openapi.yml
+- filename: nominatim-polygons-api-openapi.yml
+  format: yaml
+  label: Nominatim Polygons API
+  slug: nominatim-polygons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-polygons-api-openapi.yml
+- filename: nominatim-reverse-api-openapi.yml
+  format: yaml
+  label: Nominatim Reverse API
+  slug: nominatim-reverse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-reverse-api-openapi.yml
+- filename: nominatim-search-api-openapi.yml
+  format: yaml
+  label: Nominatim Search API
+  slug: nominatim-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-search-api-openapi.yml
+- filename: nominatim-status-api-openapi.yml
+  format: yaml
+  label: Nominatim Status API
+  slug: nominatim-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/openapi/nominatim-status-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

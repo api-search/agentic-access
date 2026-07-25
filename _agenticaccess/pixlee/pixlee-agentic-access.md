@@ -10,6 +10,18 @@ api_specs:
   slug: pixlee-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-content-api-openapi.yml
+- filename: pixlee-albums-api-openapi.yml
+  format: yaml
+  label: Pixlee Albums API
+  slug: pixlee-albums-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-albums-api-openapi.yml
+- filename: pixlee-media-api-openapi.yml
+  format: yaml
+  label: Pixlee Media API
+  slug: pixlee-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-media-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3

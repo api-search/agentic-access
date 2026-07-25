@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: usace-cwms-data-openapi.yml
+- filename: us-army-corps-of-engineers-catalog-api-openapi.yml
   format: yaml
-  label: USACE CWMS Data API
-  slug: usace-cwms-data
+  label: US Army Corps of Engineers Catalog API
+  slug: us-army-corps-of-engineers-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/usace-cwms-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-catalog-api-openapi.yml
+- filename: us-army-corps-of-engineers-levels-api-openapi.yml
+  format: yaml
+  label: US Army Corps of Engineers Levels API
+  slug: us-army-corps-of-engineers-levels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-levels-api-openapi.yml
+- filename: us-army-corps-of-engineers-locations-api-openapi.yml
+  format: yaml
+  label: US Army Corps of Engineers Locations API
+  slug: us-army-corps-of-engineers-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-locations-api-openapi.yml
+- filename: us-army-corps-of-engineers-offices-api-openapi.yml
+  format: yaml
+  label: US Army Corps of Engineers Offices API
+  slug: us-army-corps-of-engineers-offices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-offices-api-openapi.yml
+- filename: us-army-corps-of-engineers-ratings-api-openapi.yml
+  format: yaml
+  label: US Army Corps of Engineers Ratings API
+  slug: us-army-corps-of-engineers-ratings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-ratings-api-openapi.yml
+- filename: us-army-corps-of-engineers-reservoirs-api-openapi.yml
+  format: yaml
+  label: US Army Corps of Engineers Reservoirs API
+  slug: us-army-corps-of-engineers-reservoirs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-reservoirs-api-openapi.yml
+- filename: us-army-corps-of-engineers-timeseries-api-openapi.yml
+  format: yaml
+  label: US Army Corps of Engineers Timeseries API
+  slug: us-army-corps-of-engineers-timeseries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/openapi/us-army-corps-of-engineers-timeseries-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

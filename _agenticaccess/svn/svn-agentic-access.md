@@ -4,12 +4,30 @@ action_class_counts:
   acting: 4
   connected: 4
 api_specs:
-- filename: svn-webdav-openapi.yml
+- filename: svn-commits-api-openapi.yml
   format: yaml
-  label: SVN WebDAV HTTP API
-  slug: svn-webdav-http-api
+  label: Subversion Commits API
+  slug: svn-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/openapi/svn-webdav-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/openapi/svn-commits-api-openapi.yml
+- filename: svn-files-api-openapi.yml
+  format: yaml
+  label: Subversion Files API
+  slug: svn-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/openapi/svn-files-api-openapi.yml
+- filename: svn-history-api-openapi.yml
+  format: yaml
+  label: Subversion History API
+  slug: svn-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/openapi/svn-history-api-openapi.yml
+- filename: svn-repository-api-openapi.yml
+  format: yaml
+  label: Subversion Repository API
+  slug: svn-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/openapi/svn-repository-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4

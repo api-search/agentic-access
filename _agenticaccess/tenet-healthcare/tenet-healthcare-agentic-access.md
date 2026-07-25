@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: tenet-healthcare-fhir-openapi.yml
+- filename: tenet-healthcare-appointments-api-openapi.yml
   format: yaml
-  label: Tenet Health Patient Portal API
-  slug: tenet-health-patient-portal-api
+  label: Tenet Healthcare Appointments API
+  slug: tenet-healthcare-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-fhir-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-appointments-api-openapi.yml
+- filename: tenet-healthcare-conditions-api-openapi.yml
+  format: yaml
+  label: Tenet Healthcare Conditions API
+  slug: tenet-healthcare-conditions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-conditions-api-openapi.yml
+- filename: tenet-healthcare-documents-api-openapi.yml
+  format: yaml
+  label: Tenet Healthcare Documents API
+  slug: tenet-healthcare-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-documents-api-openapi.yml
+- filename: tenet-healthcare-medications-api-openapi.yml
+  format: yaml
+  label: Tenet Healthcare Medications API
+  slug: tenet-healthcare-medications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-medications-api-openapi.yml
+- filename: tenet-healthcare-observations-api-openapi.yml
+  format: yaml
+  label: Tenet Healthcare Observations API
+  slug: tenet-healthcare-observations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-observations-api-openapi.yml
+- filename: tenet-healthcare-patients-api-openapi.yml
+  format: yaml
+  label: Tenet Healthcare Patients API
+  slug: tenet-healthcare-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-patients-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

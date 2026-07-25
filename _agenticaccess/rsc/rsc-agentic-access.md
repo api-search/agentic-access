@@ -4,18 +4,30 @@ action_class_counts:
   acting: 9
   connected: 7
 api_specs:
-- filename: rsc-chemspider-compounds-openapi.yml
+- filename: rsc-filter-api-openapi.yml
   format: yaml
-  label: ChemSpider Compounds API
-  slug: chemspider-compounds
+  label: RSC Filter API
+  slug: rsc-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-chemspider-compounds-openapi.yml
-- filename: rsc-chemspider-compounds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-filter-api-openapi.yml
+- filename: rsc-lookups-api-openapi.yml
   format: yaml
-  label: ChemSpider Tools API
-  slug: chemspider-tools
+  label: RSC Lookups API
+  slug: rsc-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-chemspider-compounds-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-lookups-api-openapi.yml
+- filename: rsc-records-api-openapi.yml
+  format: yaml
+  label: RSC Records API
+  slug: rsc-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-records-api-openapi.yml
+- filename: rsc-tools-api-openapi.yml
+  format: yaml
+  label: RSC Tools API
+  slug: rsc-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/openapi/rsc-tools-api-openapi.yml
 consequence_counts:
   read: 7
   write: 9

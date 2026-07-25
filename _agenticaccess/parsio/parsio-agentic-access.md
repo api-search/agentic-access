@@ -4,24 +4,30 @@ action_class_counts:
   acting: 16
   connected: 11
 api_specs:
-- filename: parsio-openapi.yml
-  format: yaml
-  label: Parsio Mailboxes API
-  slug: parsio-mailboxes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-openapi.yml
-- filename: parsio-openapi.yml
+- filename: parsio-documents-api-openapi.yml
   format: yaml
   label: Parsio Documents API
   slug: parsio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-openapi.yml
-- filename: parsio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-documents-api-openapi.yml
+- filename: parsio-mailboxes-api-openapi.yml
+  format: yaml
+  label: Parsio Mailboxes API
+  slug: parsio-mailboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-mailboxes-api-openapi.yml
+- filename: parsio-templates-api-openapi.yml
+  format: yaml
+  label: Parsio Templates API
+  slug: parsio-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-templates-api-openapi.yml
+- filename: parsio-webhooks-api-openapi.yml
   format: yaml
   label: Parsio Webhooks API
   slug: parsio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/openapi/parsio-webhooks-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1

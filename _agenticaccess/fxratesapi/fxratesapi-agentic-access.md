@@ -3,36 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: fxratesapi-openapi.yml
-  format: yaml
-  label: FXRatesAPI Latest Rates API
-  slug: fxratesapi-latest-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-openapi.yml
-- filename: fxratesapi-openapi.yml
-  format: yaml
-  label: FXRatesAPI Historical Rates API
-  slug: fxratesapi-historical-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-openapi.yml
-- filename: fxratesapi-openapi.yml
-  format: yaml
-  label: FXRatesAPI Time-Series API
-  slug: fxratesapi-time-series-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-openapi.yml
-- filename: fxratesapi-openapi.yml
+- filename: fxratesapi-convert-api-openapi.yml
   format: yaml
   label: FXRatesAPI Convert API
   slug: fxratesapi-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-openapi.yml
-- filename: fxratesapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-convert-api-openapi.yml
+- filename: fxratesapi-currencies-api-openapi.yml
   format: yaml
   label: FXRatesAPI Currencies API
   slug: fxratesapi-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-currencies-api-openapi.yml
+- filename: fxratesapi-historical-rates-api-openapi.yml
+  format: yaml
+  label: FXRatesAPI Historical Rates API
+  slug: fxratesapi-historical-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-historical-rates-api-openapi.yml
+- filename: fxratesapi-latest-rates-api-openapi.yml
+  format: yaml
+  label: FXRatesAPI Latest Rates API
+  slug: fxratesapi-latest-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-latest-rates-api-openapi.yml
+- filename: fxratesapi-time-series-api-openapi.yml
+  format: yaml
+  label: FXRatesAPI Time-Series API
+  slug: fxratesapi-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-time-series-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: mastodon-instances-openapi.yml
+- filename: mastodon-instances-instances-api-openapi.yml
   format: yaml
-  label: Mastodon Instances API
-  slug: mastodon-instances
+  label: Mastodon Instances Instances API
+  slug: mastodon-instances-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/openapi/mastodon-instances-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/openapi/mastodon-instances-instances-api-openapi.yml
+- filename: mastodon-instances-versions-api-openapi.yml
+  format: yaml
+  label: Mastodon Instances Versions API
+  slug: mastodon-instances-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/openapi/mastodon-instances-versions-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

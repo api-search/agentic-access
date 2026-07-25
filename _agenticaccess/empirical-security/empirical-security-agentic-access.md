@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: empirical-security-openapi.yml
+- filename: empirical-security-cve-groups-api-openapi.yml
   format: yaml
-  label: Empirical Security API
-  slug: empirical-security-api
+  label: Empirical Security CVE Groups API
+  slug: empirical-security-cve-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-cve-groups-api-openapi.yml
+- filename: empirical-security-cves-api-openapi.yml
+  format: yaml
+  label: Empirical Security CVEs API
+  slug: empirical-security-cves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-cves-api-openapi.yml
+- filename: empirical-security-search-api-openapi.yml
+  format: yaml
+  label: Empirical Security Search API
+  slug: empirical-security-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-search-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

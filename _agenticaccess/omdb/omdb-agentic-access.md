@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: swagger.json
-  format: json
-  label: OMDb API
-  slug: omdb-api
+- filename: omdb-id-parameter-api-openapi.yml
+  format: yaml
+  label: OMDb ID Parameter API
+  slug: omdb-id-parameter-api
   spec_type: OpenAPI
-  url: https://www.omdbapi.com/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/openapi/omdb-id-parameter-api-openapi.yml
+- filename: omdb-search-parameter-api-openapi.yml
+  format: yaml
+  label: OMDb Search Parameter API
+  slug: omdb-search-parameter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/openapi/omdb-search-parameter-api-openapi.yml
+- filename: omdb-title-parameter-api-openapi.yml
+  format: yaml
+  label: OMDb Title Parameter API
+  slug: omdb-title-parameter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/openapi/omdb-title-parameter-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,18 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 23
 api_specs:
-- filename: traefik-proxy-openapi.yml
+- filename: traefik-entrypoints-api-openapi.yml
   format: yaml
-  label: Traefik Proxy
-  slug: traefik-proxy
+  label: Traefik Labs Entrypoints API
+  slug: traefik-entrypoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-proxy-openapi.yml
-- filename: traefik-proxy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-entrypoints-api-openapi.yml
+- filename: traefik-health-api-openapi.yml
   format: yaml
-  label: Traefik Proxy REST API
-  slug: traefik-proxy-api
+  label: Traefik Labs Health API
+  slug: traefik-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-proxy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-health-api-openapi.yml
+- filename: traefik-http-api-openapi.yml
+  format: yaml
+  label: Traefik Labs HTTP API
+  slug: traefik-http-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-http-api-openapi.yml
+- filename: traefik-overview-api-openapi.yml
+  format: yaml
+  label: Traefik Labs Overview API
+  slug: traefik-overview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-overview-api-openapi.yml
+- filename: traefik-tcp-api-openapi.yml
+  format: yaml
+  label: Traefik Labs TCP API
+  slug: traefik-tcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-tcp-api-openapi.yml
+- filename: traefik-udp-api-openapi.yml
+  format: yaml
+  label: Traefik Labs UDP API
+  slug: traefik-udp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-udp-api-openapi.yml
 consequence_counts:
   read: 23
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

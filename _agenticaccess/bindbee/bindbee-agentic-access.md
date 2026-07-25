@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: bindbee-api.yaml
+- filename: bindbee-candidates-api-openapi.yml
   format: yaml
-  label: Bindbee API
-  slug: bindbee-api
+  label: Bindbee Candidates API
+  slug: bindbee-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-candidates-api-openapi.yml
+- filename: bindbee-departments-api-openapi.yml
+  format: yaml
+  label: Bindbee Departments API
+  slug: bindbee-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-departments-api-openapi.yml
+- filename: bindbee-employees-api-openapi.yml
+  format: yaml
+  label: Bindbee Employees API
+  slug: bindbee-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-employees-api-openapi.yml
+- filename: bindbee-jobs-api-openapi.yml
+  format: yaml
+  label: Bindbee Jobs API
+  slug: bindbee-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-jobs-api-openapi.yml
+- filename: bindbee-time-off-api-openapi.yml
+  format: yaml
+  label: Bindbee Time Off API
+  slug: bindbee-time-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-time-off-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

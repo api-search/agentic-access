@@ -3,12 +3,24 @@ acting_count: 13
 action_class_counts:
   acting: 13
 api_specs:
-- filename: playfab-openapi.yml
+- filename: playfab-authentication-api-openapi.yml
   format: yaml
-  label: PlayFab Client API
-  slug: playfab-client-api
+  label: PlayFab Authentication API
+  slug: playfab-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-authentication-api-openapi.yml
+- filename: playfab-account-api-openapi.yml
+  format: yaml
+  label: PlayFab Account API
+  slug: playfab-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-account-api-openapi.yml
+- filename: playfab-authentication-api-openapi.yml
+  format: yaml
+  label: PlayFab Authentication API
+  slug: playfab-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-authentication-api-openapi.yml
 consequence_counts:
   write: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

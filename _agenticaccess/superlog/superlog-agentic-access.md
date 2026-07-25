@@ -4,12 +4,30 @@ action_class_counts:
   acting: 8
   connected: 9
 api_specs:
-- filename: superlog-management-openapi.json
-  format: json
-  label: Superlog Management API
-  slug: superlog-management-api
+- filename: superlog-api-keys-api-openapi.yml
+  format: yaml
+  label: Superlog API keys API
+  slug: superlog-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-management-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-api-keys-api-openapi.yml
+- filename: superlog-github-integration-api-openapi.yml
+  format: yaml
+  label: Superlog GitHub integration API
+  slug: superlog-github-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-github-integration-api-openapi.yml
+- filename: superlog-projects-api-openapi.yml
+  format: yaml
+  label: Superlog Projects API
+  slug: superlog-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-projects-api-openapi.yml
+- filename: superlog-telemetry-read-api-openapi.yml
+  format: yaml
+  label: Superlog Telemetry read API
+  slug: superlog-telemetry-read-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-telemetry-read-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1

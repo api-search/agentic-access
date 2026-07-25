@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 25
 api_specs:
-- filename: amazon-iam-openapi.yml
+- filename: amazon-iam-access-keys-api-openapi.yml
   format: yaml
-  label: AWS IAM API
-  slug: aws-iam-api
+  label: Amazon IAM Access Keys API
+  slug: amazon-iam-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-access-keys-api-openapi.yml
+- filename: amazon-iam-groups-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Groups API
+  slug: amazon-iam-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-groups-api-openapi.yml
+- filename: amazon-iam-policies-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Policies API
+  slug: amazon-iam-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-policies-api-openapi.yml
+- filename: amazon-iam-roles-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Roles API
+  slug: amazon-iam-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-roles-api-openapi.yml
+- filename: amazon-iam-users-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Users API
+  slug: amazon-iam-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-users-api-openapi.yml
 consequence_counts:
   read: 25
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

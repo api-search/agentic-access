@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: fvapgov-xml-api-openapi.yml
+- filename: fvapgov-ballot-rules-api-openapi.yml
   format: yaml
-  label: FVAP.gov XML API
-  slug: fvapgov-xml-api
+  label: FVAP.gov Ballot Rules API
+  slug: fvapgov-ballot-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-xml-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-ballot-rules-api-openapi.yml
+- filename: fvapgov-deadline-dates-api-openapi.yml
+  format: yaml
+  label: FVAP.gov Deadline Dates API
+  slug: fvapgov-deadline-dates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-deadline-dates-api-openapi.yml
+- filename: fvapgov-election-offices-api-openapi.yml
+  format: yaml
+  label: FVAP.gov Election Offices API
+  slug: fvapgov-election-offices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-election-offices-api-openapi.yml
+- filename: fvapgov-evag-api-openapi.yml
+  format: yaml
+  label: FVAP.gov eVAG API
+  slug: fvapgov-evag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-evag-api-openapi.yml
+- filename: fvapgov-important-info-api-openapi.yml
+  format: yaml
+  label: FVAP.gov Important Info API
+  slug: fvapgov-important-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-important-info-api-openapi.yml
+- filename: fvapgov-schema-api-openapi.yml
+  format: yaml
+  label: FVAP.gov Schema API
+  slug: fvapgov-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/openapi/fvapgov-schema-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

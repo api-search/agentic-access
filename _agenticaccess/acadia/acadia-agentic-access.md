@@ -4,12 +4,36 @@ action_class_counts:
   acting: 1
   connected: 6
 api_specs:
-- filename: acadia-platform.yaml
+- filename: acadia-employees-api-openapi.yml
   format: yaml
-  label: Acadia Platform API
-  slug: acadia-api
+  label: Acadia Employees API
+  slug: acadia-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-platform.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-employees-api-openapi.yml
+- filename: acadia-quizzes-api-openapi.yml
+  format: yaml
+  label: Acadia Quizzes API
+  slug: acadia-quizzes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-quizzes-api-openapi.yml
+- filename: acadia-roles-api-openapi.yml
+  format: yaml
+  label: Acadia Roles API
+  slug: acadia-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-roles-api-openapi.yml
+- filename: acadia-skills-api-openapi.yml
+  format: yaml
+  label: Acadia Skills API
+  slug: acadia-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-skills-api-openapi.yml
+- filename: acadia-work-instructions-api-openapi.yml
+  format: yaml
+  label: Acadia Work Instructions API
+  slug: acadia-work-instructions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/openapi/acadia-work-instructions-api-openapi.yml
 consequence_counts:
   read: 6
   write: 1

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 5
   connected: 1
 api_specs:
-- filename: hyperbeat-staking-openapi.yml
+- filename: hyperbeat-hyperliquid-api-openapi.yml
   format: yaml
-  label: Hyperbeat Staking API
-  slug: hyperbeat-staking-api
+  label: Hyperbeat Hyperliquid API
+  slug: hyperbeat-hyperliquid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/openapi/hyperbeat-staking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/openapi/hyperbeat-hyperliquid-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 1

@@ -4,48 +4,48 @@ action_class_counts:
   acting: 7
   connected: 16
 api_specs:
-- filename: testmo-openapi.yml
-  format: yaml
-  label: Testmo Test Runs API
-  slug: testmo-test-runs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-openapi.yml
-- filename: testmo-openapi.yml
+- filename: testmo-automation-runs-api-openapi.yml
   format: yaml
   label: Testmo Automation Runs API
   slug: testmo-automation-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-openapi.yml
-- filename: testmo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-automation-runs-api-openapi.yml
+- filename: testmo-automation-sources-api-openapi.yml
   format: yaml
   label: Testmo Automation Sources API
   slug: testmo-automation-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-openapi.yml
-- filename: testmo-openapi.yml
-  format: yaml
-  label: Testmo Sessions API
-  slug: testmo-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-openapi.yml
-- filename: testmo-openapi.yml
-  format: yaml
-  label: Testmo Projects API
-  slug: testmo-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-openapi.yml
-- filename: testmo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-automation-sources-api-openapi.yml
+- filename: testmo-milestones-api-openapi.yml
   format: yaml
   label: Testmo Milestones API
   slug: testmo-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-openapi.yml
-- filename: testmo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-milestones-api-openapi.yml
+- filename: testmo-projects-api-openapi.yml
+  format: yaml
+  label: Testmo Projects API
+  slug: testmo-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-projects-api-openapi.yml
+- filename: testmo-sessions-api-openapi.yml
+  format: yaml
+  label: Testmo Sessions API
+  slug: testmo-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-sessions-api-openapi.yml
+- filename: testmo-test-case-management-api-openapi.yml
   format: yaml
   label: Testmo Test Case Management API
   slug: testmo-test-case-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-test-case-management-api-openapi.yml
+- filename: testmo-test-runs-api-openapi.yml
+  format: yaml
+  label: Testmo Test Runs API
+  slug: testmo-test-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/openapi/testmo-test-runs-api-openapi.yml
 consequence_counts:
   read: 16
   write: 7

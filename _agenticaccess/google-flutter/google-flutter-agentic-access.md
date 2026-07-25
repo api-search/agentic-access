@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: flutter-pub-dev-openapi.yml
+- filename: google-flutter-documentation-api-openapi.yml
   format: yaml
-  label: Pub.dev API
-  slug: pubdev-api
+  label: Google Flutter Documentation API
+  slug: google-flutter-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/openapi/flutter-pub-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/openapi/google-flutter-documentation-api-openapi.yml
+- filename: google-flutter-packages-api-openapi.yml
+  format: yaml
+  label: Google Flutter Packages API
+  slug: google-flutter-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/openapi/google-flutter-packages-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

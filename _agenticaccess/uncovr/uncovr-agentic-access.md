@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: uncovr-api-openapi-original.json
-  format: json
-  label: Uncovr API
-  slug: uncovr-api
+- filename: uncovr-inference-v3-backwards-compatible-api-openapi.yml
+  format: yaml
+  label: Uncovr Inference (V3, Backwards Compatible) API
+  slug: uncovr-inference-v3-backwards-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/openapi/uncovr-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/uncovr/refs/heads/main/openapi/uncovr-inference-v3-backwards-compatible-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

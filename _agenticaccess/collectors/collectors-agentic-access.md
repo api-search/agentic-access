@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: collectors-psa-openapi-original.json
-  format: json
-  label: PSA Public API
-  slug: psa-public-api
+- filename: collectors-psa-public-api-methods-api-openapi.yml
+  format: yaml
+  label: Collectors PSA Public API Methods API
+  slug: collectors-psa-public-api-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/openapi/collectors-psa-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/openapi/collectors-psa-public-api-methods-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

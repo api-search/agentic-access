@@ -3,24 +3,24 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: morph-labs-openapi.yml
+- filename: morph-labs-apply-api-openapi.yml
   format: yaml
   label: Morph Apply API
-  slug: morph-apply-api
+  slug: morph-labs-apply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-openapi.yml
-- filename: morph-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-apply-api-openapi.yml
+- filename: morph-labs-embeddings-api-openapi.yml
   format: yaml
   label: Morph Embeddings API
-  slug: morph-embeddings-api
+  slug: morph-labs-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-openapi.yml
-- filename: morph-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-embeddings-api-openapi.yml
+- filename: morph-labs-rerank-api-openapi.yml
   format: yaml
   label: Morph Rerank API
-  slug: morph-rerank-api
+  slug: morph-labs-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/openapi/morph-labs-rerank-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,30 @@ action_class_counts:
   acting: 5
   connected: 4
 api_specs:
-- filename: sentinel-dashboard-api.yml
+- filename: alibaba-sentinel-authority-rules-api-openapi.yml
   format: yaml
-  label: Sentinel Dashboard API
-  slug: sentinel-dashboard-api
+  label: Alibaba Sentinel Authority Rules API
+  slug: alibaba-sentinel-authority-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/sentinel-dashboard-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-authority-rules-api-openapi.yml
+- filename: alibaba-sentinel-degrade-rules-api-openapi.yml
+  format: yaml
+  label: Alibaba Sentinel Degrade Rules API
+  slug: alibaba-sentinel-degrade-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-degrade-rules-api-openapi.yml
+- filename: alibaba-sentinel-flow-rules-api-openapi.yml
+  format: yaml
+  label: Alibaba Sentinel Flow Rules API
+  slug: alibaba-sentinel-flow-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-flow-rules-api-openapi.yml
+- filename: alibaba-sentinel-system-rules-api-openapi.yml
+  format: yaml
+  label: Alibaba Sentinel System Rules API
+  slug: alibaba-sentinel-system-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-system-rules-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5

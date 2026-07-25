@@ -3,6 +3,43 @@ acting_count: 10
 action_class_counts:
   acting: 10
   connected: 9
+api_specs:
+- filename: oracle-eloqua-accounts-api-openapi.yml
+  format: yaml
+  label: Oracle Eloqua Accounts API
+  slug: oracle-eloqua-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-eloqua/refs/heads/main/openapi/oracle-eloqua-accounts-api-openapi.yml
+- filename: oracle-eloqua-bulk-api-openapi.yml
+  format: yaml
+  label: Oracle Eloqua Bulk API
+  slug: oracle-eloqua-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-eloqua/refs/heads/main/openapi/oracle-eloqua-bulk-api-openapi.yml
+- filename: oracle-eloqua-campaigns-api-openapi.yml
+  format: yaml
+  label: Oracle Eloqua Campaigns API
+  slug: oracle-eloqua-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-eloqua/refs/heads/main/openapi/oracle-eloqua-campaigns-api-openapi.yml
+- filename: oracle-eloqua-contacts-api-openapi.yml
+  format: yaml
+  label: Oracle Eloqua Contacts API
+  slug: oracle-eloqua-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-eloqua/refs/heads/main/openapi/oracle-eloqua-contacts-api-openapi.yml
+- filename: oracle-eloqua-emails-api-openapi.yml
+  format: yaml
+  label: Oracle Eloqua Emails API
+  slug: oracle-eloqua-emails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-eloqua/refs/heads/main/openapi/oracle-eloqua-emails-api-openapi.yml
+- filename: oracle-eloqua-forms-api-openapi.yml
+  format: yaml
+  label: Oracle Eloqua Forms API
+  slug: oracle-eloqua-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-eloqua/refs/heads/main/openapi/oracle-eloqua-forms-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9

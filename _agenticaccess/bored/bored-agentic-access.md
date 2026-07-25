@@ -4,18 +4,36 @@ action_class_counts:
   acting: 1
   connected: 13
 api_specs:
-- filename: bored-api-openapi.yml
+- filename: bored-activities-api-openapi.yml
   format: yaml
-  label: Bored API (Canonical)
-  slug: bored-api
+  label: Bored API Activities API
+  slug: bored-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-api-openapi.yml
-- filename: bored-appbrewery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-activities-api-openapi.yml
+- filename: bored-facts-api-openapi.yml
   format: yaml
-  label: Bored API (App Brewery Community Fork)
-  slug: bored-appbrewery
+  label: Bored API Facts API
+  slug: bored-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-appbrewery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-facts-api-openapi.yml
+- filename: bored-riddles-api-openapi.yml
+  format: yaml
+  label: Bored API Riddles API
+  slug: bored-riddles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-riddles-api-openapi.yml
+- filename: bored-suggestions-api-openapi.yml
+  format: yaml
+  label: Bored API Suggestions API
+  slug: bored-suggestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-suggestions-api-openapi.yml
+- filename: bored-websites-api-openapi.yml
+  format: yaml
+  label: Bored API Websites API
+  slug: bored-websites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/openapi/bored-websites-api-openapi.yml
 consequence_counts:
   read: 13
   write: 1

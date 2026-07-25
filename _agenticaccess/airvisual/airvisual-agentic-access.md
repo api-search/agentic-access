@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: openapi.json
-  format: json
-  label: IQAir AirVisual API
-  slug: iqair-airvisual-api
+- filename: airvisual-cities-api-openapi.yml
+  format: yaml
+  label: IQAir AirVisual Cities API
+  slug: airvisual-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-cities-api-openapi.yml
+- filename: airvisual-countries-api-openapi.yml
+  format: yaml
+  label: IQAir AirVisual Countries API
+  slug: airvisual-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-countries-api-openapi.yml
+- filename: airvisual-rankings-api-openapi.yml
+  format: yaml
+  label: IQAir AirVisual Rankings API
+  slug: airvisual-rankings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-rankings-api-openapi.yml
+- filename: airvisual-states-api-openapi.yml
+  format: yaml
+  label: IQAir AirVisual States API
+  slug: airvisual-states-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-states-api-openapi.yml
+- filename: airvisual-stations-api-openapi.yml
+  format: yaml
+  label: IQAir AirVisual Stations API
+  slug: airvisual-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/openapi/airvisual-stations-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

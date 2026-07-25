@@ -4,12 +4,24 @@ action_class_counts:
   acting: 1
   connected: 5
 api_specs:
-- filename: documentation
+- filename: zenserp-batch-api-openapi.yml
+  format: yaml
+  label: Zenserp Batch API
+  slug: zenserp-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-batch-api-openapi.yml
+- filename: zenserp-lists-api-openapi.yml
+  format: yaml
+  label: Zenserp Lists API
+  slug: zenserp-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-lists-api-openapi.yml
+- filename: zenserp-search-api-openapi.yml
   format: yaml
   label: Zenserp Search API
-  slug: search
+  slug: zenserp-search-api
   spec_type: OpenAPI
-  url: https://app.zenserp.com/documentation
+  url: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/openapi/zenserp-search-api-openapi.yml
 consequence_counts:
   read: 5
   write: 1

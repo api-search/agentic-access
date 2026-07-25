@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 16
 api_specs:
-- filename: stockdata-openapi.yml
+- filename: stockdata-entities-api-openapi.yml
   format: yaml
-  label: StockData API
-  slug: stockdata
+  label: StockData Entities API
+  slug: stockdata-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-entities-api-openapi.yml
+- filename: stockdata-news-api-openapi.yml
+  format: yaml
+  label: StockData News API
+  slug: stockdata-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-news-api-openapi.yml
+- filename: stockdata-stock-data-api-openapi.yml
+  format: yaml
+  label: StockData Stock Data API
+  slug: stockdata-stock-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/openapi/stockdata-stock-data-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

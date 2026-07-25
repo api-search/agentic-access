@@ -3,24 +3,42 @@ acting_count: 11
 action_class_counts:
   acting: 11
 api_specs:
-- filename: evolutionaryscale-forge-esm3-api-openapi.yml
+- filename: evolutionaryscale-embeddings-api-openapi.yml
   format: yaml
-  label: EvolutionaryScale Forge ESM3 API
-  slug: forge-esm3-api
+  label: EvolutionaryScale Embeddings API
+  slug: evolutionaryscale-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-forge-esm3-api-openapi.yml
-- filename: evolutionaryscale-forge-esmc-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-embeddings-api-openapi.yml
+- filename: evolutionaryscale-encoding-api-openapi.yml
   format: yaml
-  label: EvolutionaryScale Forge ESM Cambrian API
-  slug: forge-esmc-api
+  label: EvolutionaryScale Encoding API
+  slug: evolutionaryscale-encoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-forge-esmc-api-openapi.yml
-- filename: evolutionaryscale-forge-folding-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-encoding-api-openapi.yml
+- filename: evolutionaryscale-generation-api-openapi.yml
   format: yaml
-  label: EvolutionaryScale Forge Folding API
-  slug: forge-folding-api
+  label: EvolutionaryScale Generation API
+  slug: evolutionaryscale-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-forge-folding-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-generation-api-openapi.yml
+- filename: evolutionaryscale-msa-api-openapi.yml
+  format: yaml
+  label: EvolutionaryScale MSA API
+  slug: evolutionaryscale-msa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-msa-api-openapi.yml
+- filename: evolutionaryscale-sampling-api-openapi.yml
+  format: yaml
+  label: EvolutionaryScale Sampling API
+  slug: evolutionaryscale-sampling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-sampling-api-openapi.yml
+- filename: evolutionaryscale-structure-api-openapi.yml
+  format: yaml
+  label: EvolutionaryScale Structure API
+  slug: evolutionaryscale-structure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-structure-api-openapi.yml
 consequence_counts:
   write: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

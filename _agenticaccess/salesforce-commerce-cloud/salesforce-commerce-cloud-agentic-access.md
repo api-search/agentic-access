@@ -3,6 +3,13 @@ acting_count: 5
 action_class_counts:
   acting: 5
   connected: 5
+api_specs:
+- filename: salesforce-commerce-cloud-shopper-api-openapi.yml
+  format: yaml
+  label: Salesforce Commerce Cloud Shopper API
+  slug: salesforce-commerce-cloud-shopper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/openapi/salesforce-commerce-cloud-shopper-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5

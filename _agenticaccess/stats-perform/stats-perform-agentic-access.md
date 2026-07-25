@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: stats-perform-stats-api-openapi.yml
+- filename: stats-perform-editorial-api-openapi.yml
   format: yaml
-  label: STATS API
-  slug: stats-api
+  label: Stats Perform Editorial API
+  slug: stats-perform-editorial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-stats-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-editorial-api-openapi.yml
+- filename: stats-perform-events-api-openapi.yml
+  format: yaml
+  label: Stats Perform Events API
+  slug: stats-perform-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-events-api-openapi.yml
+- filename: stats-perform-players-api-openapi.yml
+  format: yaml
+  label: Stats Perform Players API
+  slug: stats-perform-players-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-players-api-openapi.yml
+- filename: stats-perform-reference-data-api-openapi.yml
+  format: yaml
+  label: Stats Perform Reference Data API
+  slug: stats-perform-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-reference-data-api-openapi.yml
+- filename: stats-perform-standings-api-openapi.yml
+  format: yaml
+  label: Stats Perform Standings API
+  slug: stats-perform-standings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-standings-api-openapi.yml
+- filename: stats-perform-statistics-api-openapi.yml
+  format: yaml
+  label: Stats Perform Statistics API
+  slug: stats-perform-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-statistics-api-openapi.yml
+- filename: stats-perform-teams-api-openapi.yml
+  format: yaml
+  label: Stats Perform Teams API
+  slug: stats-perform-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/openapi/stats-perform-teams-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

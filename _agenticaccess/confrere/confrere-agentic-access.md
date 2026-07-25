@@ -3,12 +3,18 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: confrere-video-openapi.yml
+- filename: confrere-room-api-openapi.yml
   format: yaml
-  label: Confrere Video API
-  slug: confrere-video-api
+  label: Confrere Room API
+  slug: confrere-room-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/openapi/confrere-video-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/openapi/confrere-room-api-openapi.yml
+- filename: confrere-token-api-openapi.yml
+  format: yaml
+  label: Confrere Token API
+  slug: confrere-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/openapi/confrere-token-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

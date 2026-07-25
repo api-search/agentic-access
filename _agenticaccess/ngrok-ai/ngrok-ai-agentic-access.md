@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: ngrok-ai-openapi.yml
+- filename: ngrok-ai-anthropic-api-openapi.yml
   format: yaml
-  label: ngrok AI Gateway
-  slug: ai-gateway
+  label: ngrok AI Gateway Anthropic API
+  slug: ngrok-ai-anthropic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ngrok-ai/refs/heads/main/openapi/ngrok-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ngrok-ai/refs/heads/main/openapi/ngrok-ai-anthropic-api-openapi.yml
+- filename: ngrok-ai-openai-api-openapi.yml
+  format: yaml
+  label: ngrok AI Gateway OpenAI API
+  slug: ngrok-ai-openai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ngrok-ai/refs/heads/main/openapi/ngrok-ai-openai-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

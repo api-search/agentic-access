@@ -4,42 +4,42 @@ action_class_counts:
   acting: 9
   connected: 7
 api_specs:
-- filename: contractbook-openapi.json
-  format: json
-  label: Contractbook Documents API
-  slug: contractbook-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-openapi.json
-- filename: contractbook-openapi.json
-  format: json
-  label: Contractbook Templates API
-  slug: contractbook-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-openapi.json
-- filename: contractbook-openapi.json
-  format: json
-  label: Contractbook Document Sharing API
-  slug: contractbook-document-sharing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-openapi.json
-- filename: contractbook-openapi.json
-  format: json
-  label: Contractbook Automations API
-  slug: contractbook-automations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-openapi.json
-- filename: contractbook-openapi.json
-  format: json
-  label: Contractbook Spaces API
-  slug: contractbook-spaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-openapi.json
-- filename: contractbook-openapi.json
-  format: json
+- filename: contractbook-attachments-api-openapi.yml
+  format: yaml
   label: Contractbook Attachments API
   slug: contractbook-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-attachments-api-openapi.yml
+- filename: contractbook-automations-api-openapi.yml
+  format: yaml
+  label: Contractbook Automations API
+  slug: contractbook-automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-automations-api-openapi.yml
+- filename: contractbook-document-sharing-api-openapi.yml
+  format: yaml
+  label: Contractbook Document sharing API
+  slug: contractbook-document-sharing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-document-sharing-api-openapi.yml
+- filename: contractbook-documents-api-openapi.yml
+  format: yaml
+  label: Contractbook Documents API
+  slug: contractbook-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-documents-api-openapi.yml
+- filename: contractbook-spaces-api-openapi.yml
+  format: yaml
+  label: Contractbook Spaces API
+  slug: contractbook-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-spaces-api-openapi.yml
+- filename: contractbook-templates-api-openapi.yml
+  format: yaml
+  label: Contractbook Templates API
+  slug: contractbook-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-templates-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7

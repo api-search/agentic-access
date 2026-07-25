@@ -3,6 +3,19 @@ acting_count: 2
 action_class_counts:
   acting: 2
   connected: 3
+api_specs:
+- filename: pinata-auth-api-openapi.yml
+  format: yaml
+  label: Pinata Auth API
+  slug: pinata-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinata/refs/heads/main/openapi/pinata-auth-api-openapi.yml
+- filename: pinata-files-api-openapi.yml
+  format: yaml
+  label: Pinata Files API
+  slug: pinata-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinata/refs/heads/main/openapi/pinata-files-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2

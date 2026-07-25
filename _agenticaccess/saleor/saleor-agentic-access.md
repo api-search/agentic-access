@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: saleor-openapi.yml
+- filename: saleor-saleor-graphql-api-api-openapi.yml
   format: yaml
-  label: Saleor GraphQL API
-  slug: graphql-api
+  label: Saleor Saleor GraphQL API API
+  slug: saleor-saleor-graphql-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/openapi/saleor-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/openapi/saleor-saleor-graphql-api-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

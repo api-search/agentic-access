@@ -4,12 +4,18 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: recaptcha-enterprise-openapi.yml
+- filename: google-recaptcha-assessments-api-openapi.yml
   format: yaml
-  label: reCAPTCHA Enterprise API
-  slug: recaptcha-enterprise-api
+  label: Google reCAPTCHA Assessments API
+  slug: google-recaptcha-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-recaptcha/refs/heads/main/openapi/recaptcha-enterprise-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-recaptcha/refs/heads/main/openapi/google-recaptcha-assessments-api-openapi.yml
+- filename: google-recaptcha-keys-api-openapi.yml
+  format: yaml
+  label: Google reCAPTCHA Keys API
+  slug: google-recaptcha-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-recaptcha/refs/heads/main/openapi/google-recaptcha-keys-api-openapi.yml
 consequence_counts:
   read: 2
   write: 4

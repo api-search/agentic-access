@@ -4,12 +4,12 @@ action_class_counts:
   acting: 33
   connected: 38
 api_specs:
-- filename: lightning-labs-openapi.json
-  format: json
-  label: Lightning Labs LND API
-  slug: lightning-labs
+- filename: lightning-labs-lightning-api-openapi.yml
+  format: yaml
+  label: Lightning Labs Lightning API
+  slug: lightning-labs-lightning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightning-labs/refs/heads/main/openapi/lightning-labs-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/lightning-labs/refs/heads/main/openapi/lightning-labs-lightning-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 38

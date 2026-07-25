@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: sam-gov-location-services-openapi.yml
+- filename: sam.gov-cities-api-openapi.yml
   format: yaml
-  label: SAM.gov Public Location Services API
-  slug: location-services-api
+  label: SAM.gov Cities API
+  slug: sam.gov-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/openapi/sam-gov-location-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/openapi/sam.gov-cities-api-openapi.yml
+- filename: sam.gov-states-api-openapi.yml
+  format: yaml
+  label: SAM.gov States API
+  slug: sam.gov-states-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/openapi/sam.gov-states-api-openapi.yml
+- filename: sam.gov-zip-codes-api-openapi.yml
+  format: yaml
+  label: SAM.gov ZIP Codes API
+  slug: sam.gov-zip-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/openapi/sam.gov-zip-codes-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

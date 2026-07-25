@@ -4,12 +4,24 @@ action_class_counts:
   acting: 3
   connected: 7
 api_specs:
-- filename: snyk-container-openapi.yml
+- filename: snyk-container-container-projects-api-openapi.yml
   format: yaml
-  label: Snyk Container
-  slug: snyk-container
+  label: Snyk Container Container Projects API
+  slug: snyk-container-container-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-container-projects-api-openapi.yml
+- filename: snyk-container-issues-api-openapi.yml
+  format: yaml
+  label: Snyk Container Issues API
+  slug: snyk-container-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-issues-api-openapi.yml
+- filename: snyk-container-targets-api-openapi.yml
+  format: yaml
+  label: Snyk Container Targets API
+  slug: snyk-container-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-targets-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3

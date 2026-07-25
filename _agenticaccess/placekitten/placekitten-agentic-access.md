@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: placekitten-openapi.yml
+- filename: placekitten-image-api-openapi.yml
   format: yaml
-  label: PlaceKitten
-  slug: placekitten
+  label: PlaceKitten Image API
+  slug: placekitten-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placekitten/refs/heads/main/openapi/placekitten-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/placekitten/refs/heads/main/openapi/placekitten-image-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

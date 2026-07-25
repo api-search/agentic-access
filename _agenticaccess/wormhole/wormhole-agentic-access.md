@@ -4,12 +4,24 @@ action_class_counts:
   acting: 2
   connected: 72
 api_specs:
-- filename: openapi.yaml
+- filename: wormhole-guardian-api-openapi.yml
   format: yaml
-  label: Wormholescan API
-  slug: wormholescan-api
+  label: Wormhole Guardian API
+  slug: wormhole-guardian-api
   spec_type: OpenAPI
-  url: https://docs.wormholescan.io/
+  url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-guardian-api-openapi.yml
+- filename: wormhole-wormhole-api-openapi.yml
+  format: yaml
+  label: Wormhole wormhole API
+  slug: wormhole-wormhole-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-wormhole-api-openapi.yml
+- filename: wormhole-wormholescan-api-openapi.yml
+  format: yaml
+  label: Wormhole wormholescan API
+  slug: wormhole-wormholescan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-wormholescan-api-openapi.yml
 consequence_counts:
   read: 72
   write: 2

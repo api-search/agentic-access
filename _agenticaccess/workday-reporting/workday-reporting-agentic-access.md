@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: Reporting.yaml
+- filename: workday-reporting-report-metadata-api-openapi.yml
   format: yaml
-  label: Workday Report as a Service (RaaS)
-  slug: workday-report-as-a-service-raas
+  label: Workday Reporting Report Metadata API
+  slug: workday-reporting-report-metadata-api
   spec_type: OpenAPI
-  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Reporting/v1/Reporting.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/openapi/workday-reporting-report-metadata-api-openapi.yml
+- filename: workday-reporting-reports-api-openapi.yml
+  format: yaml
+  label: Workday Reporting Reports API
+  slug: workday-reporting-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/openapi/workday-reporting-reports-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 7
   connected: 4
 api_specs:
-- filename: amazon-lambda-openapi.yml
+- filename: amazon-lambda-event-source-mappings-api-openapi.yml
   format: yaml
-  label: Amazon Lambda API
-  slug: amazon-lambda-api
+  label: Amazon Lambda Event Source Mappings API
+  slug: amazon-lambda-event-source-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/openapi/amazon-lambda-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/openapi/amazon-lambda-event-source-mappings-api-openapi.yml
+- filename: amazon-lambda-functions-api-openapi.yml
+  format: yaml
+  label: Amazon Lambda Functions API
+  slug: amazon-lambda-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/openapi/amazon-lambda-functions-api-openapi.yml
 consequence_counts:
   read: 4
   write: 7

@@ -3,12 +3,12 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: curai-partner-openapi.json
-  format: json
+- filename: curai-partner-api-openapi.yml
+  format: yaml
   label: Curai Partner API
   slug: curai-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/openapi/curai-partner-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/openapi/curai-partner-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -9,6 +9,12 @@ api_specs:
   slug: json-rpc
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/asyncapi/starknet-asyncapi.yml
+- filename: starknet-starknet-json-rpc-api-api-openapi.yml
+  format: yaml
+  label: Starknet Starknet JSON RPC API API
+  slug: starknet-starknet-json-rpc-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/openapi/starknet-starknet-json-rpc-api-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,36 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: trieve-openapi.yml
+- filename: trieve-chunk-api-openapi.yml
   format: yaml
-  label: Trieve REST API
-  slug: rest-api
+  label: Trieve Chunk API
+  slug: trieve-chunk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/openapi/trieve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/openapi/trieve-chunk-api-openapi.yml
+- filename: trieve-dataset-api-openapi.yml
+  format: yaml
+  label: Trieve Dataset API
+  slug: trieve-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/openapi/trieve-dataset-api-openapi.yml
+- filename: trieve-file-api-openapi.yml
+  format: yaml
+  label: Trieve File API
+  slug: trieve-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/openapi/trieve-file-api-openapi.yml
+- filename: trieve-message-api-openapi.yml
+  format: yaml
+  label: Trieve Message API
+  slug: trieve-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/openapi/trieve-message-api-openapi.yml
+- filename: trieve-topic-api-openapi.yml
+  format: yaml
+  label: Trieve Topic API
+  slug: trieve-topic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/openapi/trieve-topic-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

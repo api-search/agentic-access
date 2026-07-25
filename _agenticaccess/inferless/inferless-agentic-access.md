@@ -3,24 +3,18 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: inferless-openapi.yml
+- filename: inferless-inference-api-openapi.yml
   format: yaml
-  label: Inferless Inference Endpoints API
-  slug: inferless-inference-endpoints-api
+  label: Inferless Inference API
+  slug: inferless-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-openapi.yml
-- filename: inferless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-inference-api-openapi.yml
+- filename: inferless-model-management-api-openapi.yml
   format: yaml
   label: Inferless Model Management API
   slug: inferless-model-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-openapi.yml
-- filename: inferless-openapi.yml
-  format: yaml
-  label: Inferless Workspaces and Deployments
-  slug: inferless-workspaces-deployments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/openapi/inferless-model-management-api-openapi.yml
 consequence_counts:
   physical: 2
   write: 1

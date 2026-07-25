@@ -4,12 +4,18 @@ action_class_counts:
   acting: 6
   connected: 3
 api_specs:
-- filename: pantry-openapi.yml
+- filename: pantry-basket-api-openapi.yml
   format: yaml
-  label: Pantry API
-  slug: pantry
+  label: Pantry Basket API
+  slug: pantry-basket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/openapi/pantry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/openapi/pantry-basket-api-openapi.yml
+- filename: pantry-pantry-api-openapi.yml
+  format: yaml
+  label: Pantry Pantry API
+  slug: pantry-pantry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/openapi/pantry-pantry-api-openapi.yml
 consequence_counts:
   read: 3
   write: 6

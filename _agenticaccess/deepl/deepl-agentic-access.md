@@ -4,18 +4,48 @@ action_class_counts:
   acting: 6
   connected: 9
 api_specs:
-- filename: deepl-translation-api-openapi.yml
-  format: yaml
-  label: DeepL Translation API
-  slug: deepl-translation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-translation-api-openapi.yml
 - filename: deepl-voice-api-openapi.yml
   format: yaml
   label: DeepL Voice API
   slug: deepl-voice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-voice-api-openapi.yml
+- filename: deepl-documents-api-openapi.yml
+  format: yaml
+  label: DeepL Documents API
+  slug: deepl-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-documents-api-openapi.yml
+- filename: deepl-glossaries-api-openapi.yml
+  format: yaml
+  label: DeepL Glossaries API
+  slug: deepl-glossaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-glossaries-api-openapi.yml
+- filename: deepl-languages-api-openapi.yml
+  format: yaml
+  label: DeepL Languages API
+  slug: deepl-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-languages-api-openapi.yml
+- filename: deepl-translate-api-openapi.yml
+  format: yaml
+  label: DeepL Translate API
+  slug: deepl-translate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-translate-api-openapi.yml
+- filename: deepl-usage-api-openapi.yml
+  format: yaml
+  label: DeepL Usage API
+  slug: deepl-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-usage-api-openapi.yml
+- filename: deepl-write-api-openapi.yml
+  format: yaml
+  label: DeepL Write API
+  slug: deepl-write-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-write-api-openapi.yml
 consequence_counts:
   read: 9
   write: 6

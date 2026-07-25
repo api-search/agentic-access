@@ -3,24 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: lasso-security-openapi.yml
+- filename: lasso-security-classify-api-openapi.yml
   format: yaml
-  label: Lasso Classify / Threat Detection API
-  slug: classify-threat-detection-api
+  label: Lasso Security Classify API
+  slug: lasso-security-classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/openapi/lasso-security-openapi.yml
-- filename: lasso-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/openapi/lasso-security-classify-api-openapi.yml
+- filename: lasso-security-masking-api-openapi.yml
   format: yaml
-  label: Lasso LLM Gateway (Deputy)
-  slug: llm-gateway-deputy
+  label: Lasso Security Masking API
+  slug: lasso-security-masking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/openapi/lasso-security-openapi.yml
-- filename: lasso-security-openapi.yml
-  format: yaml
-  label: Lasso MCP Gateway
-  slug: mcp-gateway
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/openapi/lasso-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/openapi/lasso-security-masking-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

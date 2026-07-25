@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: openapi.json
-  format: json
-  label: PostalCodes.info Postal Code Reference API
-  slug: postal-code-reference-api
+- filename: postalcodes-info-downloads-api-openapi.yml
+  format: yaml
+  label: PostalCodes.info Downloads API
+  slug: postalcodes-info-downloads-api
   spec_type: OpenAPI
-  url: https://postalcodes.info/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/openapi/postalcodes-info-downloads-api-openapi.yml
+- filename: postalcodes-info-lookup-pages-api-openapi.yml
+  format: yaml
+  label: PostalCodes.info Lookup Pages API
+  slug: postalcodes-info-lookup-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/openapi/postalcodes-info-lookup-pages-api-openapi.yml
+- filename: postalcodes-info-search-api-openapi.yml
+  format: yaml
+  label: PostalCodes.info Search API
+  slug: postalcodes-info-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/openapi/postalcodes-info-search-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

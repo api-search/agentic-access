@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: klaxoon-openapi.yml
+- filename: klaxoon-adventures-api-openapi.yml
   format: yaml
-  label: Klaxoon API
-  slug: klaxoon-api
+  label: Klaxoon Adventures API
+  slug: klaxoon-adventures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-adventures-api-openapi.yml
+- filename: klaxoon-missions-api-openapi.yml
+  format: yaml
+  label: Klaxoon Missions API
+  slug: klaxoon-missions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-missions-api-openapi.yml
+- filename: klaxoon-quizzes-api-openapi.yml
+  format: yaml
+  label: Klaxoon Quizzes API
+  slug: klaxoon-quizzes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-quizzes-api-openapi.yml
+- filename: klaxoon-surveys-api-openapi.yml
+  format: yaml
+  label: Klaxoon Surveys API
+  slug: klaxoon-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-surveys-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

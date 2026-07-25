@@ -3,12 +3,24 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: odoo-openapi.yml
+- filename: odoo-common-api-openapi.yml
   format: yaml
-  label: Odoo External API
-  slug: odoo-external-api
+  label: Odoo Common API
+  slug: odoo-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/openapi/odoo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/openapi/odoo-common-api-openapi.yml
+- filename: odoo-json-rpc-api-openapi.yml
+  format: yaml
+  label: Odoo JSON-RPC API
+  slug: odoo-json-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/openapi/odoo-json-rpc-api-openapi.yml
+- filename: odoo-object-api-openapi.yml
+  format: yaml
+  label: Odoo Object API
+  slug: odoo-object-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/openapi/odoo-object-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

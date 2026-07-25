@@ -2,6 +2,55 @@
 acting_count: 0
 action_class_counts:
   connected: 8
+api_specs:
+- filename: eclipse-eclipse-marketplace-rest-api-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Eclipse Marketplace REST API API
+  slug: eclipse-eclipse-marketplace-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-eclipse-marketplace-rest-api-api-openapi.yml
+- filename: eclipse-favorites-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Favorites API
+  slug: eclipse-favorites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-favorites-api-openapi.yml
+- filename: eclipse-featured-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Featured API
+  slug: eclipse-featured-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-featured-api-openapi.yml
+- filename: eclipse-node-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Node API
+  slug: eclipse-node-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-node-api-openapi.yml
+- filename: eclipse-popular-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Popular API
+  slug: eclipse-popular-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-popular-api-openapi.yml
+- filename: eclipse-recent-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Recent API
+  slug: eclipse-recent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-recent-api-openapi.yml
+- filename: eclipse-search-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Search API
+  slug: eclipse-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-search-api-openapi.yml
+- filename: eclipse-taxonomy-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Taxonomy API
+  slug: eclipse-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-taxonomy-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

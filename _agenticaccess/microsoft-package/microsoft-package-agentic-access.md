@@ -2,6 +2,31 @@
 acting_count: 0
 action_class_counts:
   connected: 5
+api_specs:
+- filename: microsoft-package-packagecontent-api-openapi.yml
+  format: yaml
+  label: Microsoft Package PackageContent API
+  slug: microsoft-package-packagecontent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-packagecontent-api-openapi.yml
+- filename: microsoft-package-registration-api-openapi.yml
+  format: yaml
+  label: Microsoft Package Registration API
+  slug: microsoft-package-registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-registration-api-openapi.yml
+- filename: microsoft-package-search-api-openapi.yml
+  format: yaml
+  label: Microsoft Package Search API
+  slug: microsoft-package-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-search-api-openapi.yml
+- filename: microsoft-package-serviceindex-api-openapi.yml
+  format: yaml
+  label: Microsoft Package ServiceIndex API
+  slug: microsoft-package-serviceindex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-serviceindex-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: blink-charging-locations-status-openapi.yml
+- filename: blink-locations-api-openapi.yml
   format: yaml
-  label: Blink Charging Locations & Status API
-  slug: blink-charging-locations-status-api
+  label: Blink Charging Locations API
+  slug: blink-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-charging-locations-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-locations-api-openapi.yml
+- filename: blink-search-api-openapi.yml
+  format: yaml
+  label: Blink Charging Search API
+  slug: blink-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-search-api-openapi.yml
+- filename: blink-status-api-openapi.yml
+  format: yaml
+  label: Blink Charging Status API
+  slug: blink-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-status-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

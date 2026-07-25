@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: microsoft-clarity-openapi.yml
+- filename: microsoft-clarity-dataexport-api-openapi.yml
   format: yaml
-  label: Microsoft Clarity API
-  slug: api
+  label: Microsoft Clarity DataExport API
+  slug: microsoft-clarity-dataexport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-clarity/refs/heads/main/openapi/microsoft-clarity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-clarity/refs/heads/main/openapi/microsoft-clarity-dataexport-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

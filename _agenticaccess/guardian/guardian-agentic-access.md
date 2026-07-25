@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: openapi.json
-  format: json
+- filename: guardian-content-api-openapi.yml
+  format: yaml
   label: The Guardian Content API
-  slug: the-guardian-content-api
+  slug: guardian-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-content-api-openapi.yml
+- filename: guardian-editions-api-openapi.yml
+  format: yaml
+  label: The Guardian Editions API
+  slug: guardian-editions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-editions-api-openapi.yml
+- filename: guardian-sections-api-openapi.yml
+  format: yaml
+  label: The Guardian Sections API
+  slug: guardian-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-sections-api-openapi.yml
+- filename: guardian-tags-api-openapi.yml
+  format: yaml
+  label: The Guardian Tags API
+  slug: guardian-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/openapi/guardian-tags-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: k6-openapi.yml
+- filename: k6-load-tests-api-openapi.yml
   format: yaml
-  label: K6
-  slug: k6
+  label: K6 Load tests API
+  slug: k6-load-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-load-tests-api-openapi.yml
+- filename: k6-load-zones-api-openapi.yml
+  format: yaml
+  label: K6 Load zones API
+  slug: k6-load-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-load-zones-api-openapi.yml
+- filename: k6-projects-api-openapi.yml
+  format: yaml
+  label: K6 Projects API
+  slug: k6-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-projects-api-openapi.yml
+- filename: k6-schedules-api-openapi.yml
+  format: yaml
+  label: K6 Schedules API
+  slug: k6-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-schedules-api-openapi.yml
+- filename: k6-test-runs-api-openapi.yml
+  format: yaml
+  label: K6 Test runs API
+  slug: k6-test-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/k6/refs/heads/main/openapi/k6-test-runs-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

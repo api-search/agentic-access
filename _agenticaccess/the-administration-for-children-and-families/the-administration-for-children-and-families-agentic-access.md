@@ -3,6 +3,19 @@ acting_count: 15
 action_class_counts:
   acting: 15
   connected: 33
+api_specs:
+- filename: the-administration-for-children-and-families-plg-auth-check-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families plg_auth_check API
+  slug: the-administration-for-children-and-families-plg-auth-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-plg-auth-check-api-openapi.yml
+- filename: the-administration-for-children-and-families-v1-api-openapi.yml
+  format: yaml
+  label: The Administration for Children and Families v1 API
+  slug: the-administration-for-children-and-families-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/openapi/the-administration-for-children-and-families-v1-api-openapi.yml
 consequence_counts:
   read: 33
   write: 15

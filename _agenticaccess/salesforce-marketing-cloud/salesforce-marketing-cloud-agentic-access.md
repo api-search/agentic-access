@@ -4,12 +4,24 @@ action_class_counts:
   acting: 14
   connected: 7
 api_specs:
-- filename: salesforce-marketing-cloud-openapi.yml
+- filename: salesforce-marketing-cloud-assets-api-openapi.yml
   format: yaml
-  label: Marketing Cloud REST API
-  slug: marketing-cloud-rest-api
+  label: Salesforce Marketing Cloud Assets API
+  slug: salesforce-marketing-cloud-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-assets-api-openapi.yml
+- filename: salesforce-marketing-cloud-contacts-api-openapi.yml
+  format: yaml
+  label: Salesforce Marketing Cloud Contacts API
+  slug: salesforce-marketing-cloud-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-contacts-api-openapi.yml
+- filename: salesforce-marketing-cloud-journeys-api-openapi.yml
+  format: yaml
+  label: Salesforce Marketing Cloud Journeys API
+  slug: salesforce-marketing-cloud-journeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-journeys-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1

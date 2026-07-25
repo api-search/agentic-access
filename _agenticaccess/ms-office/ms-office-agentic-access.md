@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: openapi.yaml
+- filename: ms-office-groups-api-openapi.yml
   format: yaml
-  label: Microsoft Graph API
-  slug: microsoft-graph-api
+  label: Microsoft Office APIs Groups API
+  slug: ms-office-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ms-office/refs/heads/main/openapi/ms-office-groups-api-openapi.yml
+- filename: ms-office-me-api-openapi.yml
+  format: yaml
+  label: Microsoft Office APIs Me API
+  slug: ms-office-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ms-office/refs/heads/main/openapi/ms-office-me-api-openapi.yml
+- filename: ms-office-users-api-openapi.yml
+  format: yaml
+  label: Microsoft Office APIs Users API
+  slug: ms-office-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ms-office/refs/heads/main/openapi/ms-office-users-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

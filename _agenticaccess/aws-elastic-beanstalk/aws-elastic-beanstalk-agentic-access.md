@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: aws-elastic-beanstalk-openapi.yml
+- filename: aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
   format: yaml
-  label: AWS Elastic Beanstalk API
-  slug: management-api
+  label: AWS Elastic Beanstalk AWS Elastic Beanstalk API API
+  slug: aws-elastic-beanstalk-aws-elastic-beanstalk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/openapi/aws-elastic-beanstalk-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/openapi/aws-elastic-beanstalk-aws-elastic-beanstalk-api-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

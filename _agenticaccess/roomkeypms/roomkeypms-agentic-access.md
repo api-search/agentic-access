@@ -4,24 +4,24 @@ action_class_counts:
   acting: 1
   connected: 7
 api_specs:
-- filename: roomkeypms-openapi.yml
+- filename: roomkeypms-pos-api-openapi.yml
+  format: yaml
+  label: RoomKeyPMS POS API
+  slug: roomkeypms-pos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-pos-api-openapi.yml
+- filename: roomkeypms-reservation-data-api-openapi.yml
   format: yaml
   label: RoomKeyPMS Reservation Data API
   slug: roomkeypms-reservation-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-openapi.yml
-- filename: roomkeypms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-reservation-data-api-openapi.yml
+- filename: roomkeypms-statistics-api-openapi.yml
   format: yaml
-  label: RoomKeyPMS POS Integration API
-  slug: roomkeypms-pos-integration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-openapi.yml
-- filename: roomkeypms-openapi.yml
-  format: yaml
-  label: RoomKeyPMS Statistics and Forecasts API
+  label: RoomKeyPMS Statistics API
   slug: roomkeypms-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-statistics-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7

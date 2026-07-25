@@ -4,12 +4,12 @@ action_class_counts:
   acting: 7
   connected: 4
 api_specs:
-- filename: earth-engine.yml
+- filename: google-earth-engine-projects-api-openapi.yml
   format: yaml
-  label: Google Earth Engine REST API v1
-  slug: google-earth-engine-rest-api-v1
+  label: Google Earth Engine REST Projects API
+  slug: google-earth-engine-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-earth-engine/refs/heads/main/openapi/earth-engine.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-earth-engine/refs/heads/main/openapi/google-earth-engine-projects-api-openapi.yml
 consequence_counts:
   read: 4
   write: 7

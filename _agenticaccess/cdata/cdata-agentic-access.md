@@ -3,6 +3,25 @@ acting_count: 3
 action_class_counts:
   acting: 3
   connected: 4
+api_specs:
+- filename: cdata-metadata-api-openapi.yml
+  format: yaml
+  label: CData Metadata API
+  slug: cdata-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-metadata-api-openapi.yml
+- filename: cdata-procedures-api-openapi.yml
+  format: yaml
+  label: CData Procedures API
+  slug: cdata-procedures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-procedures-api-openapi.yml
+- filename: cdata-query-api-openapi.yml
+  format: yaml
+  label: CData Query API
+  slug: cdata-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-query-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

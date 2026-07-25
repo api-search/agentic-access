@@ -4,12 +4,12 @@ action_class_counts:
   acting: 9
   connected: 5
 api_specs:
-- filename: mastercard-gateway-api-openapi.yml
+- filename: mastercard-gateway-api-merchant-api-openapi.yml
   format: yaml
-  label: Mastercard Gateway API
-  slug: mastercard-gateway-api
+  label: Mastercard Gateway API Merchant API
+  slug: mastercard-gateway-api-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/openapi/mastercard-gateway-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/openapi/mastercard-gateway-api-merchant-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 5

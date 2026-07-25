@@ -4,12 +4,48 @@ action_class_counts:
   acting: 10
   connected: 6
 api_specs:
-- filename: docs
+- filename: simplelocalize-customers-api-openapi.yml
   format: yaml
-  label: SimpleLocalize Translation API
-  slug: translation-api
+  label: SimpleLocalize Customers API
+  slug: simplelocalize-customers-api
   spec_type: OpenAPI
-  url: https://api.simplelocalize.io/openapi/docs
+  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-customers-api-openapi.yml
+- filename: simplelocalize-export-api-openapi.yml
+  format: yaml
+  label: SimpleLocalize Export API
+  slug: simplelocalize-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-export-api-openapi.yml
+- filename: simplelocalize-import-api-openapi.yml
+  format: yaml
+  label: SimpleLocalize Import API
+  slug: simplelocalize-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-import-api-openapi.yml
+- filename: simplelocalize-languages-api-openapi.yml
+  format: yaml
+  label: SimpleLocalize Languages API
+  slug: simplelocalize-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-languages-api-openapi.yml
+- filename: simplelocalize-projects-api-openapi.yml
+  format: yaml
+  label: SimpleLocalize Projects API
+  slug: simplelocalize-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-projects-api-openapi.yml
+- filename: simplelocalize-publication-api-openapi.yml
+  format: yaml
+  label: SimpleLocalize Publication API
+  slug: simplelocalize-publication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-publication-api-openapi.yml
+- filename: simplelocalize-translations-api-openapi.yml
+  format: yaml
+  label: SimpleLocalize Translations API
+  slug: simplelocalize-translations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/openapi/simplelocalize-translations-api-openapi.yml
 consequence_counts:
   read: 6
   write: 10

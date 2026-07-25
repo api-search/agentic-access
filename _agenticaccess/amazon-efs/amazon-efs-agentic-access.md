@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: amazon-efs-openapi.yml
+- filename: amazon-efs-2015-02-01-api-openapi.yml
   format: yaml
-  label: Amazon EFS API
-  slug: amazon-efs-api
+  label: Amazon EFS 2015 02 01 API
+  slug: amazon-efs-2015-02-01-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-2015-02-01-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

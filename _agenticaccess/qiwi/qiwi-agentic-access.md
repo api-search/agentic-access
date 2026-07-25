@@ -4,12 +4,12 @@ action_class_counts:
   acting: 12
   connected: 9
 api_specs:
-- filename: qiwi-openapi.yml
+- filename: qiwi-partner-api-openapi.yml
   format: yaml
-  label: Qiwi Payment Protocol
-  slug: qiwi-payment-protocol
+  label: Qiwi Partner API
+  slug: qiwi-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/openapi/qiwi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/openapi/qiwi-partner-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 9

@@ -4,12 +4,24 @@ action_class_counts:
   acting: 5
   connected: 3
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-contact-center-ai-analyses-api-openapi.yml
   format: yaml
-  label: Google Cloud Contact Center AI API
-  slug: google-cloud-contact-center-ai-api
+  label: Google Cloud Contact Center AI Analyses API
+  slug: google-cloud-contact-center-ai-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/openapi/google-cloud-contact-center-ai-analyses-api-openapi.yml
+- filename: google-cloud-contact-center-ai-conversations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Contact Center AI Conversations API
+  slug: google-cloud-contact-center-ai-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/openapi/google-cloud-contact-center-ai-conversations-api-openapi.yml
+- filename: google-cloud-contact-center-ai-insights-api-openapi.yml
+  format: yaml
+  label: Google Cloud Contact Center AI Insights API
+  slug: google-cloud-contact-center-ai-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/openapi/google-cloud-contact-center-ai-insights-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5

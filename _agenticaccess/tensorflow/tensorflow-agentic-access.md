@@ -4,12 +4,18 @@ action_class_counts:
   acting: 6
   connected: 5
 api_specs:
-- filename: tensorflow-serving-openapi.yml
+- filename: tensorflow-inference-api-openapi.yml
   format: yaml
-  label: TensorFlow Serving REST API
-  slug: tensorflow-serving-rest
+  label: TensorFlow Inference API
+  slug: tensorflow-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/openapi/tensorflow-serving-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/openapi/tensorflow-inference-api-openapi.yml
+- filename: tensorflow-models-api-openapi.yml
+  format: yaml
+  label: TensorFlow Models API
+  slug: tensorflow-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/openapi/tensorflow-models-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6

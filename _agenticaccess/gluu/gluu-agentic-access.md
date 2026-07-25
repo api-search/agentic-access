@@ -3,6 +3,31 @@ acting_count: 13
 action_class_counts:
   acting: 13
   connected: 9
+api_specs:
+- filename: gluu-discovery-api-openapi.yml
+  format: yaml
+  label: Gluu discovery API
+  slug: gluu-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/openapi/gluu-discovery-api-openapi.yml
+- filename: gluu-fido-api-openapi.yml
+  format: yaml
+  label: Gluu fido API
+  slug: gluu-fido-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/openapi/gluu-fido-api-openapi.yml
+- filename: gluu-groups-api-openapi.yml
+  format: yaml
+  label: Gluu groups API
+  slug: gluu-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/openapi/gluu-groups-api-openapi.yml
+- filename: gluu-users-api-openapi.yml
+  format: yaml
+  label: Gluu users API
+  slug: gluu-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/openapi/gluu-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 13

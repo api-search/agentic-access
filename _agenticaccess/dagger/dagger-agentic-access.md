@@ -3,6 +3,13 @@ acting_count: 1
 action_class_counts:
   acting: 1
   connected: 1
+api_specs:
+- filename: dagger-graphql-api-openapi.yml
+  format: yaml
+  label: Dagger GraphQL API
+  slug: dagger-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/openapi/dagger-graphql-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

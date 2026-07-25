@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: new-york-public-library-whats-on-the-menu-openapi-original.yaml
+- filename: new-york-public-library-whats-on-the-menu-dishes-api-openapi.yml
   format: yaml
-  label: NYPL What's On The Menu API
-  slug: new-york-public-library-whats-on-the-menu
+  label: New York Public Library What's On The Menu Dishes API
+  slug: new-york-public-library-whats-on-the-menu-dishes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/openapi/new-york-public-library-whats-on-the-menu-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/openapi/new-york-public-library-whats-on-the-menu-dishes-api-openapi.yml
+- filename: new-york-public-library-whats-on-the-menu-menus-api-openapi.yml
+  format: yaml
+  label: New York Public Library What's On The Menu Menus API
+  slug: new-york-public-library-whats-on-the-menu-menus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/openapi/new-york-public-library-whats-on-the-menu-menus-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

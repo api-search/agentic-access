@@ -4,18 +4,24 @@ action_class_counts:
   acting: 14
   connected: 9
 api_specs:
-- filename: microsoft-bicep-deployments-openapi.yml
+- filename: microsoft-bicep-deployments-api-openapi.yml
   format: yaml
-  label: Bicep Deployments REST API
-  slug: bicep-deployments-rest-api
+  label: Microsoft Bicep Deployments API
+  slug: microsoft-bicep-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-deployments-openapi.yml
-- filename: microsoft-bicep-template-specs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-deployments-api-openapi.yml
+- filename: microsoft-bicep-template-spec-versions-api-openapi.yml
   format: yaml
-  label: Bicep Template Specs REST API
-  slug: bicep-template-specs-rest-api
+  label: Microsoft Bicep Template Spec Versions API
+  slug: microsoft-bicep-template-spec-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-template-specs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-template-spec-versions-api-openapi.yml
+- filename: microsoft-bicep-template-specs-api-openapi.yml
+  format: yaml
+  label: Microsoft Bicep Template Specs API
+  slug: microsoft-bicep-template-specs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-template-specs-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 9

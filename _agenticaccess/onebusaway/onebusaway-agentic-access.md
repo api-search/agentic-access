@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 30
 api_specs:
-- filename: openapi.yml
+- filename: onebusaway-default-api-openapi.yml
   format: yaml
-  label: OneBusAway REST API
-  slug: onebusaway-rest-api
+  label: OneBusAway default API
+  slug: onebusaway-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/OneBusAway/sdk-config/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/openapi/onebusaway-default-api-openapi.yml
+- filename: onebusaway-where-api-openapi.yml
+  format: yaml
+  label: OneBusAway Where API
+  slug: onebusaway-where-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/openapi/onebusaway-where-api-openapi.yml
 consequence_counts:
   read: 30
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

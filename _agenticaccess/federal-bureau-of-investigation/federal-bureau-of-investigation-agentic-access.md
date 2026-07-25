@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: most-wanted-api-openapi.yml
+- filename: federal-bureau-of-investigation-list-api-openapi.yml
   format: yaml
-  label: FBI Most Wanted
-  slug: most-wanted-api
+  label: Federal Bureau of Investigation List API
+  slug: federal-bureau-of-investigation-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-investigation/refs/heads/main/openapi/most-wanted-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-investigation/refs/heads/main/openapi/federal-bureau-of-investigation-list-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

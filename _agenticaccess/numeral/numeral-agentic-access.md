@@ -4,24 +4,42 @@ action_class_counts:
   acting: 10
   connected: 6
 api_specs:
-- filename: numeral-openapi.yml
+- filename: numeral-customers-api-openapi.yml
+  format: yaml
+  label: Numeral Customers API
+  slug: numeral-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-customers-api-openapi.yml
+- filename: numeral-health-api-openapi.yml
+  format: yaml
+  label: Numeral Health API
+  slug: numeral-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-health-api-openapi.yml
+- filename: numeral-products-api-openapi.yml
+  format: yaml
+  label: Numeral Products API
+  slug: numeral-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-products-api-openapi.yml
+- filename: numeral-refunds-api-openapi.yml
+  format: yaml
+  label: Numeral Refunds API
+  slug: numeral-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-refunds-api-openapi.yml
+- filename: numeral-tax-calculations-api-openapi.yml
   format: yaml
   label: Numeral Tax Calculations API
-  slug: tax-calculations
+  slug: numeral-tax-calculations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-openapi.yml
-- filename: numeral-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-tax-calculations-api-openapi.yml
+- filename: numeral-transactions-api-openapi.yml
   format: yaml
   label: Numeral Transactions API
-  slug: transactions
+  slug: numeral-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-openapi.yml
-- filename: numeral-openapi.yml
-  format: yaml
-  label: Numeral Products & Tax Codes API
-  slug: tax-codes
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-transactions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6

@@ -4,12 +4,24 @@ action_class_counts:
   acting: 7
   connected: 3
 api_specs:
-- filename: kvdb-openapi.yml
+- filename: kvdb-buckets-api-openapi.yml
   format: yaml
-  label: KVdb
-  slug: kvdb
+  label: KVdb Buckets API
+  slug: kvdb-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-buckets-api-openapi.yml
+- filename: kvdb-keys-api-openapi.yml
+  format: yaml
+  label: KVdb Keys API
+  slug: kvdb-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-keys-api-openapi.yml
+- filename: kvdb-scripts-api-openapi.yml
+  format: yaml
+  label: KVdb Scripts API
+  slug: kvdb-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-scripts-api-openapi.yml
 consequence_counts:
   read: 3
   write: 7

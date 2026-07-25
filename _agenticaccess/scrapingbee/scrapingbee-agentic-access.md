@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: scrapingbee-openapi.yml
+- filename: scrapingbee-google-search-api-api-openapi.yml
   format: yaml
-  label: ScrapingBee HTML API
-  slug: html-api
+  label: ScrapingBee Google Search API API
+  slug: scrapingbee-google-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/openapi/scrapingbee-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/openapi/scrapingbee-google-search-api-api-openapi.yml
+- filename: scrapingbee-html-api-api-openapi.yml
+  format: yaml
+  label: ScrapingBee HTML API API
+  slug: scrapingbee-html-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/openapi/scrapingbee-html-api-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

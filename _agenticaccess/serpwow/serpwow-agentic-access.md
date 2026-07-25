@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: serpwow-openapi.yml
+- filename: serpwow-search-api-openapi.yml
   format: yaml
-  label: SerpWow
-  slug: serpwow
+  label: SerpWow Search API
+  slug: serpwow-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serpwow/refs/heads/main/openapi/serpwow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serpwow/refs/heads/main/openapi/serpwow-search-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

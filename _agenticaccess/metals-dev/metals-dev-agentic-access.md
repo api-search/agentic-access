@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: metals-dev-openapi.yml
+- filename: metals-dev-account-api-openapi.yml
   format: yaml
-  label: Metals.Dev API
-  slug: metals-dev-api
+  label: Metals.Dev Account API
+  slug: metals-dev-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-account-api-openapi.yml
+- filename: metals-dev-authority-api-openapi.yml
+  format: yaml
+  label: Metals.Dev Authority API
+  slug: metals-dev-authority-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-authority-api-openapi.yml
+- filename: metals-dev-currency-api-openapi.yml
+  format: yaml
+  label: Metals.Dev Currency API
+  slug: metals-dev-currency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-currency-api-openapi.yml
+- filename: metals-dev-rates-api-openapi.yml
+  format: yaml
+  label: Metals.Dev Rates API
+  slug: metals-dev-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-rates-api-openapi.yml
+- filename: metals-dev-spot-prices-api-openapi.yml
+  format: yaml
+  label: Metals.Dev Spot Prices API
+  slug: metals-dev-spot-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-spot-prices-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

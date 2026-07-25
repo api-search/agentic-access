@@ -3,12 +3,24 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: amazon-waf-openapi.yml
+- filename: amazon-waf-ip-sets-api-openapi.yml
   format: yaml
-  label: Amazon WAF REST API
-  slug: amazon-waf-rest-api
+  label: Amazon WAF IP Sets API
+  slug: amazon-waf-ip-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/openapi/amazon-waf-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/openapi/amazon-waf-ip-sets-api-openapi.yml
+- filename: amazon-waf-rule-groups-api-openapi.yml
+  format: yaml
+  label: Amazon WAF Rule Groups API
+  slug: amazon-waf-rule-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/openapi/amazon-waf-rule-groups-api-openapi.yml
+- filename: amazon-waf-web-acls-api-openapi.yml
+  format: yaml
+  label: Amazon WAF Web ACLs API
+  slug: amazon-waf-web-acls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/openapi/amazon-waf-web-acls-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

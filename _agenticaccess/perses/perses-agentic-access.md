@@ -4,12 +4,30 @@ action_class_counts:
   acting: 12
   connected: 8
 api_specs:
-- filename: perses-openapi.yml
+- filename: perses-dashboards-api-openapi.yml
   format: yaml
-  label: Perses API
-  slug: perses
+  label: Perses Dashboards API
+  slug: perses-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-dashboards-api-openapi.yml
+- filename: perses-datasources-api-openapi.yml
+  format: yaml
+  label: Perses Datasources API
+  slug: perses-datasources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-datasources-api-openapi.yml
+- filename: perses-global-datasources-api-openapi.yml
+  format: yaml
+  label: Perses Global Datasources API
+  slug: perses-global-datasources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-global-datasources-api-openapi.yml
+- filename: perses-projects-api-openapi.yml
+  format: yaml
+  label: Perses Projects API
+  slug: perses-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-projects-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12

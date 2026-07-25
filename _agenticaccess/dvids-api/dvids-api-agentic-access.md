@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: dvids-api-openapi.yml
+- filename: dvids-api-asset-api-openapi.yml
   format: yaml
-  label: DVIDS API
-  slug: dvids-api
+  label: DVIDS API Asset API
+  slug: dvids-api-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/openapi/dvids-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/openapi/dvids-api-asset-api-openapi.yml
+- filename: dvids-api-search-api-openapi.yml
+  format: yaml
+  label: DVIDS API Search API
+  slug: dvids-api-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/openapi/dvids-api-search-api-openapi.yml
+- filename: dvids-api-unit-api-openapi.yml
+  format: yaml
+  label: DVIDS API Unit API
+  slug: dvids-api-unit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dvids-api/refs/heads/main/openapi/dvids-api-unit-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

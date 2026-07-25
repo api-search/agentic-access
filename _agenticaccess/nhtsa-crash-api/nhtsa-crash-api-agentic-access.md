@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: nhtsa-crash-api-nhtsa-crash-data-api-openapi.yml
+- filename: nhtsa-crash-api-cases-api-openapi.yml
   format: yaml
-  label: NHTSA Crash Data API
-  slug: nhtsa-crash-data-api
+  label: NHTSA Crash API Cases API
+  slug: nhtsa-crash-api-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/openapi/nhtsa-crash-api-nhtsa-crash-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/openapi/nhtsa-crash-api-cases-api-openapi.yml
+- filename: nhtsa-crash-api-crashes-api-openapi.yml
+  format: yaml
+  label: NHTSA Crash API Crashes API
+  slug: nhtsa-crash-api-crashes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/openapi/nhtsa-crash-api-crashes-api-openapi.yml
+- filename: nhtsa-crash-api-fars-api-openapi.yml
+  format: yaml
+  label: NHTSA Crash API FARS API
+  slug: nhtsa-crash-api-fars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/openapi/nhtsa-crash-api-fars-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

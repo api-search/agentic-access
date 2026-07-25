@@ -4,12 +4,18 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: fave-favepay-omni-openapi.yml
+- filename: fave-payments-api-openapi.yml
   format: yaml
-  label: FavePay Omni (FPO) API
-  slug: favepay-omni-fpo-api
+  label: Fave Payments API
+  slug: fave-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/openapi/fave-favepay-omni-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/openapi/fave-payments-api-openapi.yml
+- filename: fave-transactions-api-openapi.yml
+  format: yaml
+  label: Fave Transactions API
+  slug: fave-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/openapi/fave-transactions-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 2

@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: moveworks-servicenow-data-api-openapi.yml
+- filename: moveworks-servicenow-records-api-openapi.yml
   format: yaml
-  label: Moveworks Data API
-  slug: moveworks-data-api
+  label: Moveworks (ServiceNow) Records API
+  slug: moveworks-servicenow-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks-servicenow/refs/heads/main/openapi/moveworks-servicenow-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moveworks-servicenow/refs/heads/main/openapi/moveworks-servicenow-records-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

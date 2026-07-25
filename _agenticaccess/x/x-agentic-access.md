@@ -4,12 +4,24 @@ action_class_counts:
   acting: 2
   connected: 6
 api_specs:
-- filename: x-openapi.yml
+- filename: x-posts-api-openapi.yml
   format: yaml
-  label: X
-  slug: x
+  label: X Posts API
+  slug: x-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-posts-api-openapi.yml
+- filename: x-trends-api-openapi.yml
+  format: yaml
+  label: X Trends API
+  slug: x-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-trends-api-openapi.yml
+- filename: x-users-api-openapi.yml
+  format: yaml
+  label: X Users API
+  slug: x-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-users-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2

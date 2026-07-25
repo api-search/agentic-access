@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: microsoft-azure-maps-openapi.yml
+- filename: microsoft-azure-maps-geocoding-api-openapi.yml
+  format: yaml
+  label: Azure Maps Geocoding API
+  slug: microsoft-azure-maps-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/openapi/microsoft-azure-maps-geocoding-api-openapi.yml
+- filename: microsoft-azure-maps-search-api-openapi.yml
   format: yaml
   label: Azure Maps Search API
-  slug: azure-maps-search-api
+  slug: microsoft-azure-maps-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/openapi/microsoft-azure-maps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/openapi/microsoft-azure-maps-search-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: charityapi-openapi.yml
+- filename: charityapi-autocomplete-api-openapi.yml
   format: yaml
-  label: CharityAPI
-  slug: charityapi
+  label: CharityAPI Autocomplete API
+  slug: charityapi-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-autocomplete-api-openapi.yml
+- filename: charityapi-organizations-api-openapi.yml
+  format: yaml
+  label: CharityAPI Organizations API
+  slug: charityapi-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-organizations-api-openapi.yml
+- filename: charityapi-public-charity-check-api-openapi.yml
+  format: yaml
+  label: CharityAPI Public Charity Check API
+  slug: charityapi-public-charity-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charityapi/refs/heads/main/openapi/charityapi-public-charity-check-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

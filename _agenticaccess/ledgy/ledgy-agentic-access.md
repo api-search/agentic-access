@@ -3,42 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: ledgy-openapi.yml
+- filename: ledgy-graphql-api-openapi.yml
   format: yaml
-  label: Ledgy Companies API
-  slug: companies
+  label: Ledgy GraphQL API
+  slug: ledgy-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
-- filename: ledgy-openapi.yml
-  format: yaml
-  label: Ledgy Stakeholders API
-  slug: stakeholders
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
-- filename: ledgy-openapi.yml
-  format: yaml
-  label: Ledgy Transactions API
-  slug: transactions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
-- filename: ledgy-openapi.yml
-  format: yaml
-  label: Ledgy Share Classes API
-  slug: share-classes
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
-- filename: ledgy-openapi.yml
-  format: yaml
-  label: Ledgy Financing Rounds API
-  slug: financing-rounds
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
-- filename: ledgy-openapi.yml
-  format: yaml
-  label: Ledgy ESOP and Grants API
-  slug: esop-grants
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/openapi/ledgy-graphql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

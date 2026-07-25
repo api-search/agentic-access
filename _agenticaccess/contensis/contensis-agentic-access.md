@@ -2,6 +2,31 @@
 acting_count: 0
 action_class_counts:
   connected: 7
+api_specs:
+- filename: contensis-content-types-api-openapi.yml
+  format: yaml
+  label: Contensis Content Types API
+  slug: contensis-content-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-content-types-api-openapi.yml
+- filename: contensis-entries-api-openapi.yml
+  format: yaml
+  label: Contensis Entries API
+  slug: contensis-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-entries-api-openapi.yml
+- filename: contensis-projects-api-openapi.yml
+  format: yaml
+  label: Contensis Projects API
+  slug: contensis-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-projects-api-openapi.yml
+- filename: contensis-taxonomy-api-openapi.yml
+  format: yaml
+  label: Contensis Taxonomy API
+  slug: contensis-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/openapi/contensis-taxonomy-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,24 @@ action_class_counts:
   acting: 15
   connected: 7
 api_specs:
-- filename: docuseal-docuseal-api-openapi.yml
+- filename: docuseal-submissions-api-openapi.yml
   format: yaml
-  label: DocuSeal REST API
-  slug: docuseal-api
+  label: DocuSeal Submissions API
+  slug: docuseal-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-docuseal-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-submissions-api-openapi.yml
+- filename: docuseal-submitters-api-openapi.yml
+  format: yaml
+  label: DocuSeal Submitters API
+  slug: docuseal-submitters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-submitters-api-openapi.yml
+- filename: docuseal-templates-api-openapi.yml
+  format: yaml
+  label: DocuSeal Templates API
+  slug: docuseal-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-templates-api-openapi.yml
 consequence_counts:
   read: 7
   write: 15

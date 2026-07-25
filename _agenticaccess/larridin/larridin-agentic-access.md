@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 41
 api_specs:
-- filename: larridin-scout-openapi.yml
+- filename: larridin-adoption-api-openapi.yml
   format: yaml
-  label: Larridin Scout API v1
-  slug: scout-api-v1
+  label: Larridin Adoption API
+  slug: larridin-adoption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-scout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-adoption-api-openapi.yml
+- filename: larridin-proficiency-api-openapi.yml
+  format: yaml
+  label: Larridin Proficiency API
+  slug: larridin-proficiency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-proficiency-api-openapi.yml
+- filename: larridin-surveys-api-openapi.yml
+  format: yaml
+  label: Larridin Surveys API
+  slug: larridin-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-surveys-api-openapi.yml
+- filename: larridin-tools-api-openapi.yml
+  format: yaml
+  label: Larridin Tools API
+  slug: larridin-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-tools-api-openapi.yml
+- filename: larridin-workflow-intelligence-api-openapi.yml
+  format: yaml
+  label: Larridin Workflow Intelligence API
+  slug: larridin-workflow-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-workflow-intelligence-api-openapi.yml
 consequence_counts:
   read: 41
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

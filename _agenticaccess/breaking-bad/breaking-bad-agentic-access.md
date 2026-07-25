@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 11
 api_specs:
-- filename: breaking-bad-openapi.yml
+- filename: breaking-bad-characters-api-openapi.yml
   format: yaml
-  label: Breaking Bad API
-  slug: breaking-bad-api
+  label: Breaking Bad Characters API
+  slug: breaking-bad-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/openapi/breaking-bad-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/openapi/breaking-bad-characters-api-openapi.yml
+- filename: breaking-bad-deaths-api-openapi.yml
+  format: yaml
+  label: Breaking Bad Deaths API
+  slug: breaking-bad-deaths-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/openapi/breaking-bad-deaths-api-openapi.yml
+- filename: breaking-bad-episodes-api-openapi.yml
+  format: yaml
+  label: Breaking Bad Episodes API
+  slug: breaking-bad-episodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/openapi/breaking-bad-episodes-api-openapi.yml
+- filename: breaking-bad-quotes-api-openapi.yml
+  format: yaml
+  label: Breaking Bad Quotes API
+  slug: breaking-bad-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/openapi/breaking-bad-quotes-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

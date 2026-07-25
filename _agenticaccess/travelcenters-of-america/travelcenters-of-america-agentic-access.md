@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: travelcenters-of-america-openapi.yml
+- filename: travelcenters-of-america-fuel-codes-api-openapi.yml
   format: yaml
-  label: TravelCenters of America API
-  slug: travelcenters-of-america
+  label: TravelCenters of America Fuel Codes API
+  slug: travelcenters-of-america-fuel-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-fuel-codes-api-openapi.yml
+- filename: travelcenters-of-america-locations-api-openapi.yml
+  format: yaml
+  label: TravelCenters of America Locations API
+  slug: travelcenters-of-america-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-locations-api-openapi.yml
+- filename: travelcenters-of-america-parking-api-openapi.yml
+  format: yaml
+  label: TravelCenters of America Parking API
+  slug: travelcenters-of-america-parking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-parking-api-openapi.yml
+- filename: travelcenters-of-america-pricing-api-openapi.yml
+  format: yaml
+  label: TravelCenters of America Pricing API
+  slug: travelcenters-of-america-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-pricing-api-openapi.yml
+- filename: travelcenters-of-america-showers-api-openapi.yml
+  format: yaml
+  label: TravelCenters of America Showers API
+  slug: travelcenters-of-america-showers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-showers-api-openapi.yml
+- filename: travelcenters-of-america-truck-service-api-openapi.yml
+  format: yaml
+  label: TravelCenters of America Truck Service API
+  slug: travelcenters-of-america-truck-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-truck-service-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 14
   connected: 11
 api_specs:
-- filename: instapage-openapi.yml
+- filename: instapage-workspaces-api-openapi.yml
   format: yaml
-  label: Instapage Public API
-  slug: public-api
+  label: Instapage Workspaces API
+  slug: instapage-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/openapi/instapage-workspaces-api-openapi.yml
 consequence_counts:
   read: 11
   write: 14

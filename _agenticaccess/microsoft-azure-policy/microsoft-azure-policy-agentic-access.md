@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
-- filename: microsoft-azure-policy-openapi.yml
+- filename: microsoft-azure-policy-operations-api-openapi.yml
   format: yaml
-  label: Azure Policy REST API
-  slug: azure-policy-rest-api
+  label: Azure Policy Operations API
+  slug: microsoft-azure-policy-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/openapi/microsoft-azure-policy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/openapi/microsoft-azure-policy-operations-api-openapi.yml
+- filename: microsoft-azure-policy-policy-definitions-api-openapi.yml
+  format: yaml
+  label: Azure Policy Policy Definitions API
+  slug: microsoft-azure-policy-policy-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/openapi/microsoft-azure-policy-policy-definitions-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

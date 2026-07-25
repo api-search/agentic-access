@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: docontrol-openapi.yml
+- filename: docontrol-authentication-api-openapi.yml
   format: yaml
-  label: DoControl
-  slug: docontrol
+  label: DoControl Authentication API
+  slug: docontrol-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/openapi/docontrol-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/openapi/docontrol-authentication-api-openapi.yml
+- filename: docontrol-graphql-api-openapi.yml
+  format: yaml
+  label: DoControl GraphQL API
+  slug: docontrol-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/openapi/docontrol-graphql-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

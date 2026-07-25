@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 19
 api_specs:
-- filename: openapi.yml
+- filename: flightlabs-aircraft-api-openapi.yml
   format: yaml
-  label: FlightLabs API
-  slug: flightlabs-api
+  label: FlightLabs Aircraft API
+  slug: flightlabs-aircraft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-aircraft-api-openapi.yml
+- filename: flightlabs-airlines-api-openapi.yml
+  format: yaml
+  label: FlightLabs Airlines API
+  slug: flightlabs-airlines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-airlines-api-openapi.yml
+- filename: flightlabs-airports-api-openapi.yml
+  format: yaml
+  label: FlightLabs Airports API
+  slug: flightlabs-airports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-airports-api-openapi.yml
+- filename: flightlabs-flights-api-openapi.yml
+  format: yaml
+  label: FlightLabs Flights API
+  slug: flightlabs-flights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-flights-api-openapi.yml
+- filename: flightlabs-geography-api-openapi.yml
+  format: yaml
+  label: FlightLabs Geography API
+  slug: flightlabs-geography-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-geography-api-openapi.yml
+- filename: flightlabs-pricing-api-openapi.yml
+  format: yaml
+  label: FlightLabs Pricing API
+  slug: flightlabs-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-pricing-api-openapi.yml
+- filename: flightlabs-routes-api-openapi.yml
+  format: yaml
+  label: FlightLabs Routes API
+  slug: flightlabs-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/openapi/flightlabs-routes-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

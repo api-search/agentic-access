@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: spring-initializr-openapi.yml
+- filename: spring-framework-generation-api-openapi.yml
   format: yaml
-  label: Spring Initializr API
-  slug: spring-initializr
+  label: Spring Framework Generation API
+  slug: spring-framework-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-framework/refs/heads/main/openapi/spring-initializr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spring-framework/refs/heads/main/openapi/spring-framework-generation-api-openapi.yml
+- filename: spring-framework-management-api-openapi.yml
+  format: yaml
+  label: Spring Framework Management API
+  slug: spring-framework-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-framework/refs/heads/main/openapi/spring-framework-management-api-openapi.yml
+- filename: spring-framework-metadata-api-openapi.yml
+  format: yaml
+  label: Spring Framework Metadata API
+  slug: spring-framework-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-framework/refs/heads/main/openapi/spring-framework-metadata-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

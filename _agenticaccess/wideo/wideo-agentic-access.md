@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 1
 api_specs:
-- filename: wideo-automation-openapi.yml
+- filename: wideo-automation-api-openapi.yml
   format: yaml
-  label: Wideo Video Automation API
-  slug: wideo-video-automation-api
+  label: Wideo Automation API
+  slug: wideo-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/openapi/wideo-automation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/openapi/wideo-automation-api-openapi.yml
+- filename: wideo-batch-api-openapi.yml
+  format: yaml
+  label: Wideo Batch API
+  slug: wideo-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wideo/refs/heads/main/openapi/wideo-batch-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3

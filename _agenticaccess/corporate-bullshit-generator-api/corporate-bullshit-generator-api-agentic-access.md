@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: corporate-bullshit-generator-api-openapi.yml
+- filename: corporate-bullshit-generator-api-phrases-api-openapi.yml
   format: yaml
-  label: Corporate Bullshit Generator API
-  slug: cbsg-api
+  label: Corporate Bullshit Generator API Phrases API
+  slug: corporate-bullshit-generator-api-phrases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/openapi/corporate-bullshit-generator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/openapi/corporate-bullshit-generator-api-phrases-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

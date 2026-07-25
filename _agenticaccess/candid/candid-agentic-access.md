@@ -4,12 +4,18 @@ action_class_counts:
   acting: 4
   connected: 3
 api_specs:
-- filename: candid-essentials-api-openapi.yml
+- filename: candid-lookup-api-openapi.yml
   format: yaml
-  label: Candid Essentials API
-  slug: essentials-api
+  label: Candid Lookup API
+  slug: candid-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/openapi/candid-essentials-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/openapi/candid-lookup-api-openapi.yml
+- filename: candid-search-api-openapi.yml
+  format: yaml
+  label: Candid Search API
+  slug: candid-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/openapi/candid-search-api-openapi.yml
 consequence_counts:
   read: 3
   write: 4

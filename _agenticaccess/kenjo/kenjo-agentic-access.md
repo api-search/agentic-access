@@ -4,48 +4,54 @@ action_class_counts:
   acting: 38
   connected: 42
 api_specs:
-- filename: kenjo-openapi.yml
-  format: yaml
-  label: Kenjo Employees API
-  slug: kenjo-employees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-openapi.yml
-- filename: kenjo-openapi.yml
+- filename: kenjo-attendance-api-openapi.yml
   format: yaml
   label: Kenjo Attendance API
   slug: kenjo-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-openapi.yml
-- filename: kenjo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-attendance-api-openapi.yml
+- filename: kenjo-authentication-api-openapi.yml
   format: yaml
-  label: Kenjo Time Off and Absences API
-  slug: kenjo-time-off-api
+  label: Kenjo Authentication API
+  slug: kenjo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-openapi.yml
-- filename: kenjo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-authentication-api-openapi.yml
+- filename: kenjo-compensation-api-openapi.yml
+  format: yaml
+  label: Kenjo Compensation API
+  slug: kenjo-compensation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-compensation-api-openapi.yml
+- filename: kenjo-documents-api-openapi.yml
   format: yaml
   label: Kenjo Documents API
   slug: kenjo-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-openapi.yml
-- filename: kenjo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-documents-api-openapi.yml
+- filename: kenjo-employees-api-openapi.yml
   format: yaml
-  label: Kenjo Compensation and Payroll API
-  slug: kenjo-compensation-api
+  label: Kenjo Employees API
+  slug: kenjo-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-openapi.yml
-- filename: kenjo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-employees-api-openapi.yml
+- filename: kenjo-organization-api-openapi.yml
   format: yaml
   label: Kenjo Organization API
   slug: kenjo-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-openapi.yml
-- filename: kenjo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-organization-api-openapi.yml
+- filename: kenjo-recruiting-api-openapi.yml
   format: yaml
   label: Kenjo Recruiting API
   slug: kenjo-recruiting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-recruiting-api-openapi.yml
+- filename: kenjo-time-off-api-openapi.yml
+  format: yaml
+  label: Kenjo Time Off API
+  slug: kenjo-time-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/openapi/kenjo-time-off-api-openapi.yml
 consequence_counts:
   read: 42
   safety-critical: 1

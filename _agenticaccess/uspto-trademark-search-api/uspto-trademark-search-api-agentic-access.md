@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: uspto-trademark-search-api-openapi.yml
+- filename: uspto-trademark-search-api-database-status-api-openapi.yml
   format: yaml
-  label: USPTO Trademark Search API Endpoints
-  slug: uspto-trademark-search-api
+  label: USPTO Trademark Search API Database Status API
+  slug: uspto-trademark-search-api-database-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/openapi/uspto-trademark-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/openapi/uspto-trademark-search-api-database-status-api-openapi.yml
+- filename: uspto-trademark-search-api-owner-search-api-openapi.yml
+  format: yaml
+  label: USPTO Trademark Search API Owner Search API
+  slug: uspto-trademark-search-api-owner-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/openapi/uspto-trademark-search-api-owner-search-api-openapi.yml
+- filename: uspto-trademark-search-api-trademark-availability-api-openapi.yml
+  format: yaml
+  label: USPTO Trademark Search API Trademark Availability API
+  slug: uspto-trademark-search-api-trademark-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/openapi/uspto-trademark-search-api-trademark-availability-api-openapi.yml
+- filename: uspto-trademark-search-api-trademark-lookup-api-openapi.yml
+  format: yaml
+  label: USPTO Trademark Search API Trademark Lookup API
+  slug: uspto-trademark-search-api-trademark-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/openapi/uspto-trademark-search-api-trademark-lookup-api-openapi.yml
+- filename: uspto-trademark-search-api-trademark-search-api-openapi.yml
+  format: yaml
+  label: USPTO Trademark Search API Trademark Search API
+  slug: uspto-trademark-search-api-trademark-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/openapi/uspto-trademark-search-api-trademark-search-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

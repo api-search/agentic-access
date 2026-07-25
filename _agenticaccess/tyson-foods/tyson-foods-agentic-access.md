@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: tyson-foods-edi-integration-api-openapi.yml
+- filename: tyson-foods-orders-api-openapi.yml
   format: yaml
-  label: Tyson Foods EDI Integration API
-  slug: tyson-foods-edi-integration-api
+  label: Tyson Foods Orders API
+  slug: tyson-foods-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/openapi/tyson-foods-edi-integration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/openapi/tyson-foods-orders-api-openapi.yml
+- filename: tyson-foods-shipments-api-openapi.yml
+  format: yaml
+  label: Tyson Foods Shipments API
+  slug: tyson-foods-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/openapi/tyson-foods-shipments-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

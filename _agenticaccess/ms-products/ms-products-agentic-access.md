@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: ms-products-openapi.yml
+- filename: ms-products-calendar-api-openapi.yml
   format: yaml
-  label: Microsoft Graph API
-  slug: microsoft-graph-api
+  label: Microsoft Products APIs Calendar API
+  slug: ms-products-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ms-products/refs/heads/main/openapi/ms-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ms-products/refs/heads/main/openapi/ms-products-calendar-api-openapi.yml
+- filename: ms-products-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Products APIs Groups API
+  slug: ms-products-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ms-products/refs/heads/main/openapi/ms-products-groups-api-openapi.yml
+- filename: ms-products-mail-api-openapi.yml
+  format: yaml
+  label: Microsoft Products APIs Mail API
+  slug: ms-products-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ms-products/refs/heads/main/openapi/ms-products-mail-api-openapi.yml
+- filename: ms-products-me-api-openapi.yml
+  format: yaml
+  label: Microsoft Products APIs Me API
+  slug: ms-products-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ms-products/refs/heads/main/openapi/ms-products-me-api-openapi.yml
+- filename: ms-products-users-api-openapi.yml
+  format: yaml
+  label: Microsoft Products APIs Users API
+  slug: ms-products-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ms-products/refs/heads/main/openapi/ms-products-users-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

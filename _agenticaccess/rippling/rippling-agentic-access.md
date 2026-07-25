@@ -4,12 +4,24 @@ action_class_counts:
   acting: 10
   connected: 19
 api_specs:
+- filename: rippling-platform-api-openapi.yml
+  format: yaml
+  label: Rippling Platform API
+  slug: rippling-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/openapi/rippling-platform-api-openapi.yml
 - filename: rippling-webhooks-asyncapi.yml
   format: yaml
   label: Rippling Webhooks API
   slug: rippling-webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/asyncapi/rippling-webhooks-asyncapi.yml
+- filename: rippling-platform-api-openapi.yml
+  format: yaml
+  label: Rippling Platform API
+  slug: rippling-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/openapi/rippling-platform-api-openapi.yml
 consequence_counts:
   read: 19
   write: 10

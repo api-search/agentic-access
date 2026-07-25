@@ -3,6 +3,25 @@ acting_count: 4
 action_class_counts:
   acting: 4
   connected: 6
+api_specs:
+- filename: toggl-me-api-openapi.yml
+  format: yaml
+  label: Toggl Track Me API
+  slug: toggl-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-me-api-openapi.yml
+- filename: toggl-reports-api-openapi.yml
+  format: yaml
+  label: Toggl Track Reports API
+  slug: toggl-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-reports-api-openapi.yml
+- filename: toggl-time-entries-api-openapi.yml
+  format: yaml
+  label: Toggl Track Time Entries API
+  slug: toggl-time-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-time-entries-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1

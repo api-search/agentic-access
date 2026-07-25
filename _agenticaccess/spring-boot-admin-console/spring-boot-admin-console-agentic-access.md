@@ -4,12 +4,24 @@ action_class_counts:
   acting: 4
   connected: 11
 api_specs:
-- filename: spring-boot-admin-console-openapi.yml
+- filename: spring-boot-admin-console-applications-api-openapi.yml
   format: yaml
-  label: Spring Boot Admin Server API
-  slug: spring-boot-admin-server-api
+  label: Spring Boot Admin Console Applications API
+  slug: spring-boot-admin-console-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/openapi/spring-boot-admin-console-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/openapi/spring-boot-admin-console-applications-api-openapi.yml
+- filename: spring-boot-admin-console-events-api-openapi.yml
+  format: yaml
+  label: Spring Boot Admin Console Events API
+  slug: spring-boot-admin-console-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/openapi/spring-boot-admin-console-events-api-openapi.yml
+- filename: spring-boot-admin-console-instances-api-openapi.yml
+  format: yaml
+  label: Spring Boot Admin Console Instances API
+  slug: spring-boot-admin-console-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/openapi/spring-boot-admin-console-instances-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1

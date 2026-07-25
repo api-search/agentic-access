@@ -3,12 +3,18 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: apache-http-client-openapi.yml
+- filename: apache-http-configuration-api-openapi.yml
   format: yaml
-  label: Apache HttpComponents Client API
-  slug: apache-http-client-api
+  label: Apache HttpComponents Configuration API
+  slug: apache-http-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-http/refs/heads/main/openapi/apache-http-client-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-http/refs/heads/main/openapi/apache-http-configuration-api-openapi.yml
+- filename: apache-http-requests-api-openapi.yml
+  format: yaml
+  label: Apache HttpComponents Requests API
+  slug: apache-http-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-http/refs/heads/main/openapi/apache-http-requests-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

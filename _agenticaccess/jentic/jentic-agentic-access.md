@@ -3,12 +3,24 @@ acting_count: 4
 action_class_counts:
   acting: 4
 api_specs:
-- filename: jentic-openapi.yml
+- filename: jentic-authentication-api-openapi.yml
   format: yaml
-  label: Jentic API
-  slug: jentic-api
+  label: Jentic Authentication API
+  slug: jentic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-authentication-api-openapi.yml
+- filename: jentic-execution-api-openapi.yml
+  format: yaml
+  label: Jentic Execution API
+  slug: jentic-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-execution-api-openapi.yml
+- filename: jentic-search-api-openapi.yml
+  format: yaml
+  label: Jentic Search API
+  slug: jentic-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/openapi/jentic-search-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

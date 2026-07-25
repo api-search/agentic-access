@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Finlight Financial News API
-  slug: finlight-financial-news-api
+- filename: finlight-articles-api-openapi.yml
+  format: yaml
+  label: Finlight Articles API
+  slug: finlight-articles-api
   spec_type: OpenAPI
-  url: https://docs.finlight.me/v2/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/openapi/finlight-articles-api-openapi.yml
+- filename: finlight-sources-api-openapi.yml
+  format: yaml
+  label: Finlight Sources API
+  slug: finlight-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/openapi/finlight-sources-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

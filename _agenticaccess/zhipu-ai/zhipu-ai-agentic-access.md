@@ -4,12 +4,24 @@ action_class_counts:
   acting: 13
   connected: 1
 api_specs:
-- filename: zhipu-ai-openapi.json
-  format: json
-  label: Z.ai Open Platform API
-  slug: platform
+- filename: zhipu-ai-agents-api-openapi.yml
+  format: yaml
+  label: Zhipu AI Agents API
+  slug: zhipu-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/openapi/zhipu-ai-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/openapi/zhipu-ai-agents-api-openapi.yml
+- filename: zhipu-ai-paas-api-openapi.yml
+  format: yaml
+  label: Zhipu AI Paas API
+  slug: zhipu-ai-paas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/openapi/zhipu-ai-paas-api-openapi.yml
+- filename: zhipu-ai-tools-api-api-openapi.yml
+  format: yaml
+  label: Zhipu AI Tools API API
+  slug: zhipu-ai-tools-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/openapi/zhipu-ai-tools-api-api-openapi.yml
 consequence_counts:
   read: 1
   write: 13

@@ -2,6 +2,25 @@
 acting_count: 0
 action_class_counts:
   connected: 5
+api_specs:
+- filename: kontent-ai-assets-api-openapi.yml
+  format: yaml
+  label: Kontent AI Assets API
+  slug: kontent-ai-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-assets-api-openapi.yml
+- filename: kontent-ai-items-api-openapi.yml
+  format: yaml
+  label: Kontent AI Items API
+  slug: kontent-ai-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-items-api-openapi.yml
+- filename: kontent-ai-items-feed-api-openapi.yml
+  format: yaml
+  label: Kontent AI Items Feed API
+  slug: kontent-ai-items-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/openapi/kontent-ai-items-feed-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

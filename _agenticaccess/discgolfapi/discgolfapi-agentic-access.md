@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: discgolfapi-openapi.yml
+- filename: discgolfapi-countries-api-openapi.yml
   format: yaml
-  label: DiscGolfAPI REST API
-  slug: discgolfapi-rest-api
+  label: DiscGolfAPI Countries API
+  slug: discgolfapi-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-countries-api-openapi.yml
+- filename: discgolfapi-courses-api-openapi.yml
+  format: yaml
+  label: DiscGolfAPI Courses API
+  slug: discgolfapi-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-courses-api-openapi.yml
+- filename: discgolfapi-metadata-api-openapi.yml
+  format: yaml
+  label: DiscGolfAPI Metadata API
+  slug: discgolfapi-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-metadata-api-openapi.yml
+- filename: discgolfapi-regions-api-openapi.yml
+  format: yaml
+  label: DiscGolfAPI Regions API
+  slug: discgolfapi-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-regions-api-openapi.yml
+- filename: discgolfapi-updates-api-openapi.yml
+  format: yaml
+  label: DiscGolfAPI Updates API
+  slug: discgolfapi-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/openapi/discgolfapi-updates-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

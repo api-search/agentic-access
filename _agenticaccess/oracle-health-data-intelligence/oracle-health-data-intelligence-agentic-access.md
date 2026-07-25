@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: oracle-health-data-intelligence-openapi.yml
+- filename: oracle-health-data-intelligence-populations-api-openapi.yml
   format: yaml
-  label: Oracle Health Data Intelligence
-  slug: oracle-health-data-intelligence
+  label: Oracle Health Data Intelligence Populations API
+  slug: oracle-health-data-intelligence-populations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/openapi/oracle-health-data-intelligence-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/openapi/oracle-health-data-intelligence-populations-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

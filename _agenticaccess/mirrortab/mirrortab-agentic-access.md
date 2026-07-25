@@ -3,12 +3,12 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: mirrortab-api-openapi.yml
+- filename: mirrortab-sessions-api-openapi.yml
   format: yaml
-  label: MirrorTab API
-  slug: mirrortab-api
+  label: MirrorTab Sessions API
+  slug: mirrortab-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirrortab/refs/heads/main/openapi/mirrortab-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mirrortab/refs/heads/main/openapi/mirrortab-sessions-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

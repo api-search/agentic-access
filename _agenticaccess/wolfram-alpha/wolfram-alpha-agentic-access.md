@@ -3,36 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: wolfram-alpha-llm-api-openapi.yml
+- filename: wolfram-alpha-queries-api-openapi.yml
   format: yaml
-  label: Wolfram|Alpha LLM API
-  slug: llm-api
+  label: Wolfram|Alpha Queries API
+  slug: wolfram-alpha-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolfram-alpha/refs/heads/main/openapi/wolfram-alpha-llm-api-openapi.yml
-- filename: wolfram-alpha-full-results-api-openapi.yml
-  format: yaml
-  label: Wolfram|Alpha Full Results API
-  slug: full-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolfram-alpha/refs/heads/main/openapi/wolfram-alpha-full-results-api-openapi.yml
-- filename: wolfram-alpha-short-answers-api-openapi.yml
-  format: yaml
-  label: Wolfram|Alpha Short Answers API
-  slug: short-answers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolfram-alpha/refs/heads/main/openapi/wolfram-alpha-short-answers-api-openapi.yml
-- filename: wolfram-alpha-simple-api-openapi.yml
-  format: yaml
-  label: Wolfram|Alpha Simple API
-  slug: simple-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolfram-alpha/refs/heads/main/openapi/wolfram-alpha-simple-api-openapi.yml
-- filename: wolfram-alpha-spoken-results-api-openapi.yml
-  format: yaml
-  label: Wolfram|Alpha Spoken Results API
-  slug: spoken-results-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wolfram-alpha/refs/heads/main/openapi/wolfram-alpha-spoken-results-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wolfram-alpha/refs/heads/main/openapi/wolfram-alpha-queries-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

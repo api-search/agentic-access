@@ -3,6 +3,31 @@ acting_count: 3
 action_class_counts:
   acting: 3
   connected: 3
+api_specs:
+- filename: ketch-io-configuration-api-openapi.yml
+  format: yaml
+  label: Ketch Configuration API
+  slug: ketch-io-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/openapi/ketch-io-configuration-api-openapi.yml
+- filename: ketch-io-consent-api-openapi.yml
+  format: yaml
+  label: Ketch Consent API
+  slug: ketch-io-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/openapi/ketch-io-consent-api-openapi.yml
+- filename: ketch-io-preferences-api-openapi.yml
+  format: yaml
+  label: Ketch Preferences API
+  slug: ketch-io-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/openapi/ketch-io-preferences-api-openapi.yml
+- filename: ketch-io-rights-api-openapi.yml
+  format: yaml
+  label: Ketch Rights API
+  slug: ketch-io-rights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/openapi/ketch-io-rights-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3

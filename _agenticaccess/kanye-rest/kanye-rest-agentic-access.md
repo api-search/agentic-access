@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: kanye-rest-openapi.yml
+- filename: kanye-rest-quotes-api-openapi.yml
   format: yaml
-  label: kanye.rest
-  slug: kanyerest
+  label: kanye.rest Quotes API
+  slug: kanye-rest-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kanye-rest/refs/heads/main/openapi/kanye-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kanye-rest/refs/heads/main/openapi/kanye-rest-quotes-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

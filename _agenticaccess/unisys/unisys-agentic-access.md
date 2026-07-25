@@ -4,12 +4,30 @@ action_class_counts:
   acting: 6
   connected: 1
 api_specs:
-- filename: unisys-stealth-ecoapi-openapi.yaml
+- filename: unisys-combined-isolation-api-openapi.yml
   format: yaml
-  label: Unisys Stealth EcoAPI
-  slug: unisys-stealth-ecoapi
+  label: Unisys Combined Isolation API
+  slug: unisys-combined-isolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-stealth-ecoapi-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-combined-isolation-api-openapi.yml
+- filename: unisys-endpoint-isolation-api-openapi.yml
+  format: yaml
+  label: Unisys Endpoint Isolation API
+  slug: unisys-endpoint-isolation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-endpoint-isolation-api-openapi.yml
+- filename: unisys-roles-api-openapi.yml
+  format: yaml
+  label: Unisys Roles API
+  slug: unisys-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-roles-api-openapi.yml
+- filename: unisys-user-isolation-api-openapi.yml
+  format: yaml
+  label: Unisys User Isolation API
+  slug: unisys-user-isolation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-user-isolation-api-openapi.yml
 consequence_counts:
   read: 1
   write: 6

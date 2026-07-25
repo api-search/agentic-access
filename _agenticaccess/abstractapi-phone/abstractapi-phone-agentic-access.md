@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: abstractapi-phone-openapi.yml
+- filename: abstractapi-phone-phone-validation-api-openapi.yml
   format: yaml
-  label: Abstract API Phone Validation API
-  slug: abstractapi-phone-validation-api
+  label: Abstract API Phone Validation Phone Validation API
+  slug: abstractapi-phone-phone-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/openapi/abstractapi-phone-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/openapi/abstractapi-phone-phone-validation-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

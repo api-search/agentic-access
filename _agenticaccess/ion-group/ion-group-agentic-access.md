@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: ion-group-openapi.yml
+- filename: ion-group-entities-api-openapi.yml
   format: yaml
-  label: Ion Group Acuris Entities API
-  slug: acuris-entities-api
+  label: Ion Group Entities API
+  slug: ion-group-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/openapi/ion-group-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/openapi/ion-group-entities-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

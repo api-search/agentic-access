@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: teammates-smarttools-openapi.yaml
+- filename: teammates-assign-api-openapi.yml
   format: yaml
-  label: Teammates SmartTools API
-  slug: teammates-smarttools-api
+  label: Teammates Assign API
+  slug: teammates-assign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/openapi/teammates-smarttools-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/openapi/teammates-assign-api-openapi.yml
+- filename: teammates-assignment-api-openapi.yml
+  format: yaml
+  label: Teammates Assignment API
+  slug: teammates-assignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teammates/refs/heads/main/openapi/teammates-assignment-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

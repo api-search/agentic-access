@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: openapi.json
-  format: json
-  label: PubChem PUG REST API
-  slug: pubchem-pug-rest-api
+- filename: pubchem-compounds-api-openapi.yml
+  format: yaml
+  label: PubChem Compounds API
+  slug: pubchem-compounds-api
   spec_type: OpenAPI
-  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/openapi/pubchem-compounds-api-openapi.yml
+- filename: pubchem-structure-search-api-openapi.yml
+  format: yaml
+  label: PubChem Structure Search API
+  slug: pubchem-structure-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/openapi/pubchem-structure-search-api-openapi.yml
+- filename: pubchem-utilities-api-openapi.yml
+  format: yaml
+  label: PubChem Utilities API
+  slug: pubchem-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/openapi/pubchem-utilities-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

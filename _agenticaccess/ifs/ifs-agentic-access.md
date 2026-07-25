@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: ifs-cloud-erp-openapi.yml
+- filename: ifs-finance-api-openapi.yml
   format: yaml
-  label: IFS Cloud ERP API
-  slug: ifs-cloud-erp-api
+  label: IFS Finance API
+  slug: ifs-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-cloud-erp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-finance-api-openapi.yml
+- filename: ifs-inventory-api-openapi.yml
+  format: yaml
+  label: IFS Inventory API
+  slug: ifs-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-inventory-api-openapi.yml
+- filename: ifs-procurement-api-openapi.yml
+  format: yaml
+  label: IFS Procurement API
+  slug: ifs-procurement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-procurement-api-openapi.yml
+- filename: ifs-work-orders-api-openapi.yml
+  format: yaml
+  label: IFS Work Orders API
+  slug: ifs-work-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-work-orders-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,24 +3,18 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: scratchpay-scratchpay-1.0.0-apis-swagger.yml
+- filename: scratchpay-borrower-application-api-openapi.yml
   format: yaml
-  label: Scratchpay Borrower Application API
+  label: Scratchpay Borrower application API
   slug: scratchpay-borrower-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scratchpay/refs/heads/main/openapi/scratchpay-scratchpay-1.0.0-apis-swagger.yml
-- filename: scratchpay-scratchpay-care-credit-1.0.0-apis-swagger.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scratchpay/refs/heads/main/openapi/scratchpay-borrower-application-api-openapi.yml
+- filename: scratchpay-borrower-application-result-api-openapi.yml
   format: yaml
-  label: Scratchpay Care Credit API
-  slug: scratchpay-care-credit-api
+  label: Scratchpay Borrower application result API
+  slug: scratchpay-borrower-application-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scratchpay/refs/heads/main/openapi/scratchpay-scratchpay-care-credit-1.0.0-apis-swagger.yml
-- filename: scratchpay-partner-1.0.0-apis-swagger.yml
-  format: yaml
-  label: Scratchpay Partner Result API
-  slug: scratchpay-partner-result-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scratchpay/refs/heads/main/openapi/scratchpay-partner-1.0.0-apis-swagger.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scratchpay/refs/heads/main/openapi/scratchpay-borrower-application-result-api-openapi.yml
 consequence_counts:
   physical: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

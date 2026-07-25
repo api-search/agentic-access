@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: yoast-rest-openapi.yml
+- filename: yoast-pages-api-openapi.yml
   format: yaml
-  label: Yoast REST API
-  slug: yoast-rest-api
+  label: Yoast Pages API
+  slug: yoast-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-pages-api-openapi.yml
+- filename: yoast-posts-api-openapi.yml
+  format: yaml
+  label: Yoast Posts API
+  slug: yoast-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-posts-api-openapi.yml
+- filename: yoast-seo-head-api-openapi.yml
+  format: yaml
+  label: Yoast SEO Head API
+  slug: yoast-seo-head-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-seo-head-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 30
 api_specs:
-- filename: openapi.json
-  format: json
-  label: KonbiniAPI Main Spec
-  slug: main
+- filename: konbiniapi-instagram-api-openapi.yml
+  format: yaml
+  label: KonbiniAPI Instagram API
+  slug: konbiniapi-instagram-api
   spec_type: OpenAPI
-  url: https://docs.konbiniapi.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-instagram-api-openapi.yml
+- filename: konbiniapi-tiktok-api-openapi.yml
+  format: yaml
+  label: KonbiniAPI TikTok API
+  slug: konbiniapi-tiktok-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-tiktok-api-openapi.yml
 consequence_counts:
   read: 30
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

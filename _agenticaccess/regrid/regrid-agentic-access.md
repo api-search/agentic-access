@@ -4,12 +4,36 @@ action_class_counts:
   acting: 4
   connected: 18
 api_specs:
-- filename: regrid-parcel-openapi.yml
+- filename: regrid-metadata-api-openapi.yml
   format: yaml
-  label: Regrid Parcel API
-  slug: regrid-parcel-api
+  label: Regrid Metadata API
+  slug: regrid-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-parcel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-metadata-api-openapi.yml
+- filename: regrid-parcel-query-api-openapi.yml
+  format: yaml
+  label: Regrid Parcel Query API
+  slug: regrid-parcel-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-parcel-query-api-openapi.yml
+- filename: regrid-parcel-search-api-openapi.yml
+  format: yaml
+  label: Regrid Parcel Search API
+  slug: regrid-parcel-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-parcel-search-api-openapi.yml
+- filename: regrid-schemas-api-openapi.yml
+  format: yaml
+  label: Regrid Schemas API
+  slug: regrid-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-schemas-api-openapi.yml
+- filename: regrid-typeahead-api-openapi.yml
+  format: yaml
+  label: Regrid Typeahead API
+  slug: regrid-typeahead-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-typeahead-api-openapi.yml
 consequence_counts:
   read: 18
   write: 4

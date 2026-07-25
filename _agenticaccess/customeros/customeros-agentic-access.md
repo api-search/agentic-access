@@ -4,36 +4,12 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: customeros-openapi.yml
+- filename: customeros-graphql-api-openapi.yml
   format: yaml
-  label: CustomerOS GraphQL Core API
-  slug: customeros-graphql-core-api
+  label: CustomerOS GraphQL API
+  slug: customeros-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-openapi.yml
-- filename: customeros-openapi.yml
-  format: yaml
-  label: CustomerOS Organizations API
-  slug: customeros-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-openapi.yml
-- filename: customeros-openapi.yml
-  format: yaml
-  label: CustomerOS Contacts API
-  slug: customeros-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-openapi.yml
-- filename: customeros-openapi.yml
-  format: yaml
-  label: CustomerOS Opportunities API
-  slug: customeros-opportunities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-openapi.yml
-- filename: customeros-openapi.yml
-  format: yaml
-  label: CustomerOS Interactions API
-  slug: customeros-interactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-graphql-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

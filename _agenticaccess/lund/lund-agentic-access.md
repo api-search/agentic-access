@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: lund-lup-search.yaml
+- filename: lund-publication-api-openapi.yml
   format: yaml
-  label: Lund University Publications (LUP) Search API
-  slug: lup-search
+  label: Lund University Publication API
+  slug: lund-publication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-lup-search.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-publication-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

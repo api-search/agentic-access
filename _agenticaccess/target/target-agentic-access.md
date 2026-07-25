@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: target-target-api-openapi.yml
+- filename: target-inventory-api-openapi.yml
   format: yaml
-  label: Target API
-  slug: target-api
+  label: target Inventory API
+  slug: target-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-target-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-inventory-api-openapi.yml
+- filename: target-orders-api-openapi.yml
+  format: yaml
+  label: target Orders API
+  slug: target-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-orders-api-openapi.yml
+- filename: target-products-api-openapi.yml
+  format: yaml
+  label: target Products API
+  slug: target-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-products-api-openapi.yml
+- filename: target-search-api-openapi.yml
+  format: yaml
+  label: target Search API
+  slug: target-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-search-api-openapi.yml
+- filename: target-status-api-openapi.yml
+  format: yaml
+  label: target Status API
+  slug: target-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-status-api-openapi.yml
+- filename: target-stores-api-openapi.yml
+  format: yaml
+  label: target Stores API
+  slug: target-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/openapi/target-stores-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,36 @@ action_class_counts:
   acting: 10
   connected: 12
 api_specs:
-- filename: stainless-openapi.yml
+- filename: stainless-build-target-outputs-api-openapi.yml
   format: yaml
-  label: Stainless SDK Generator
-  slug: stainless
+  label: Stainless Build Target Outputs API
+  slug: stainless-build-target-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-build-target-outputs-api-openapi.yml
+- filename: stainless-builds-api-openapi.yml
+  format: yaml
+  label: Stainless Builds API
+  slug: stainless-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-builds-api-openapi.yml
+- filename: stainless-orgs-api-openapi.yml
+  format: yaml
+  label: Stainless Orgs API
+  slug: stainless-orgs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-orgs-api-openapi.yml
+- filename: stainless-projects-api-openapi.yml
+  format: yaml
+  label: Stainless Projects API
+  slug: stainless-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-projects-api-openapi.yml
+- filename: stainless-user-api-openapi.yml
+  format: yaml
+  label: Stainless User API
+  slug: stainless-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/openapi/stainless-user-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1

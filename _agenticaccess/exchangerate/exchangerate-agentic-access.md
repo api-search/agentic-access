@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: exchangerate-openapi.yml
+- filename: exchangerate-account-api-openapi.yml
   format: yaml
-  label: ExchangeRate-API
-  slug: exchangerate-api
+  label: ExchangeRate-API Account API
+  slug: exchangerate-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate/refs/heads/main/openapi/exchangerate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate/refs/heads/main/openapi/exchangerate-account-api-openapi.yml
+- filename: exchangerate-currencies-api-openapi.yml
+  format: yaml
+  label: ExchangeRate-API Currencies API
+  slug: exchangerate-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate/refs/heads/main/openapi/exchangerate-currencies-api-openapi.yml
+- filename: exchangerate-exchange-rates-api-openapi.yml
+  format: yaml
+  label: ExchangeRate-API Exchange Rates API
+  slug: exchangerate-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate/refs/heads/main/openapi/exchangerate-exchange-rates-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

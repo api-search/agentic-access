@@ -4,12 +4,12 @@ action_class_counts:
   acting: 16
   connected: 4
 api_specs:
-- filename: overview
+- filename: parea-parea-api-openapi.yml
   format: yaml
-  label: Parea REST API
-  slug: parea-rest-api
+  label: Parea AI Parea API
+  slug: parea-parea-api
   spec_type: OpenAPI
-  url: https://docs.parea.ai/api-reference/overview
+  url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/openapi/parea-parea-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4

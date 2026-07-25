@@ -4,12 +4,12 @@ action_class_counts:
   acting: 4
   connected: 4
 api_specs:
-- filename: openapi.yaml
+- filename: amazon-lookout-for-equipment-datasets-api-openapi.yml
   format: yaml
-  label: Amazon Lookout for Equipment API
-  slug: amazon-lookout-for-equipment-api
+  label: Amazon Lookout for Equipment Datasets API
+  slug: amazon-lookout-for-equipment-datasets-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/lookoutequipment/2020-12-15/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-equipment/refs/heads/main/openapi/amazon-lookout-for-equipment-datasets-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4

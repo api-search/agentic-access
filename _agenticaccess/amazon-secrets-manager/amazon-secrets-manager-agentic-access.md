@@ -3,12 +3,36 @@ acting_count: 12
 action_class_counts:
   acting: 12
 api_specs:
-- filename: amazon-secrets-manager-openapi.yml
+- filename: amazon-secrets-manager-passwords-api-openapi.yml
   format: yaml
-  label: Amazon Secrets Manager API
-  slug: amazon-secrets-manager-api
+  label: Amazon Secrets Manager Passwords API
+  slug: amazon-secrets-manager-passwords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-passwords-api-openapi.yml
+- filename: amazon-secrets-manager-rotation-api-openapi.yml
+  format: yaml
+  label: Amazon Secrets Manager Rotation API
+  slug: amazon-secrets-manager-rotation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-rotation-api-openapi.yml
+- filename: amazon-secrets-manager-secrets-api-openapi.yml
+  format: yaml
+  label: Amazon Secrets Manager Secrets API
+  slug: amazon-secrets-manager-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-secrets-api-openapi.yml
+- filename: amazon-secrets-manager-tagresource-api-openapi.yml
+  format: yaml
+  label: 'Amazon Secrets Manager #TagResource API'
+  slug: amazon-secrets-manager-tagresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-tagresource-api-openapi.yml
+- filename: amazon-secrets-manager-untagresource-api-openapi.yml
+  format: yaml
+  label: 'Amazon Secrets Manager #UntagResource API'
+  slug: amazon-secrets-manager-untagresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-untagresource-api-openapi.yml
 consequence_counts:
   write: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

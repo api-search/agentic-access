@@ -3,12 +3,96 @@ acting_count: 0
 action_class_counts:
   connected: 15
 api_specs:
-- filename: swagger.json
-  format: json
-  label: setlist.fm API
-  slug: setlist-fm-api
+- filename: setlist-fm-1-0-artist-mbid-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/artist/{mbid} API
+  slug: setlist-fm-1-0-artist-mbid-api
   spec_type: OpenAPI
-  url: https://api.setlist.fm/docs/1.0/ui/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-artist-mbid-api-openapi.yml
+- filename: setlist-fm-1-0-artist-mbid-setlists-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/artist/{mbid}/setlists API
+  slug: setlist-fm-1-0-artist-mbid-setlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-artist-mbid-setlists-api-openapi.yml
+- filename: setlist-fm-1-0-city-geoid-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/city/{geoId} API
+  slug: setlist-fm-1-0-city-geoid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-city-geoid-api-openapi.yml
+- filename: setlist-fm-1-0-search-artists-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/search/artists API
+  slug: setlist-fm-1-0-search-artists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-search-artists-api-openapi.yml
+- filename: setlist-fm-1-0-search-cities-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/search/cities API
+  slug: setlist-fm-1-0-search-cities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-search-cities-api-openapi.yml
+- filename: setlist-fm-1-0-search-countries-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/search/countries API
+  slug: setlist-fm-1-0-search-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-search-countries-api-openapi.yml
+- filename: setlist-fm-1-0-search-setlists-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/search/setlists API
+  slug: setlist-fm-1-0-search-setlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-search-setlists-api-openapi.yml
+- filename: setlist-fm-1-0-search-venues-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/search/venues API
+  slug: setlist-fm-1-0-search-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-search-venues-api-openapi.yml
+- filename: setlist-fm-1-0-setlist-setlistid-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/setlist/{setlistId} API
+  slug: setlist-fm-1-0-setlist-setlistid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-setlist-setlistid-api-openapi.yml
+- filename: setlist-fm-1-0-setlist-version-versionid-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/setlist/version/{versionId} API
+  slug: setlist-fm-1-0-setlist-version-versionid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-setlist-version-versionid-api-openapi.yml
+- filename: setlist-fm-1-0-user-userid-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/user/{userId} API
+  slug: setlist-fm-1-0-user-userid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-user-userid-api-openapi.yml
+- filename: setlist-fm-1-0-user-userid-attended-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/user/{userId}/attended API
+  slug: setlist-fm-1-0-user-userid-attended-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-user-userid-attended-api-openapi.yml
+- filename: setlist-fm-1-0-user-userid-edited-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/user/{userId}/edited API
+  slug: setlist-fm-1-0-user-userid-edited-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-user-userid-edited-api-openapi.yml
+- filename: setlist-fm-1-0-venue-venueid-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/venue/{venueId} API
+  slug: setlist-fm-1-0-venue-venueid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-venue-venueid-api-openapi.yml
+- filename: setlist-fm-1-0-venue-venueid-setlists-api-openapi.yml
+  format: yaml
+  label: setlist.fm /1.0/venue/{venueId}/setlists API
+  slug: setlist-fm-1-0-venue-venueid-setlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/openapi/setlist-fm-1-0-venue-venueid-setlists-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

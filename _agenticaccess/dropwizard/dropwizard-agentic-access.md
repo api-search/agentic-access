@@ -4,12 +4,30 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
-- filename: dropwizard-admin.json
-  format: json
-  label: Dropwizard
-  slug: dropwizard
+- filename: dropwizard-diagnostics-api-openapi.yml
+  format: yaml
+  label: Dropwizard Diagnostics API
+  slug: dropwizard-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dropwizard/refs/heads/main/openapi/dropwizard-admin.json
+  url: https://raw.githubusercontent.com/api-evangelist/dropwizard/refs/heads/main/openapi/dropwizard-diagnostics-api-openapi.yml
+- filename: dropwizard-health-api-openapi.yml
+  format: yaml
+  label: Dropwizard Health API
+  slug: dropwizard-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropwizard/refs/heads/main/openapi/dropwizard-health-api-openapi.yml
+- filename: dropwizard-metrics-api-openapi.yml
+  format: yaml
+  label: Dropwizard Metrics API
+  slug: dropwizard-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropwizard/refs/heads/main/openapi/dropwizard-metrics-api-openapi.yml
+- filename: dropwizard-tasks-api-openapi.yml
+  format: yaml
+  label: Dropwizard Tasks API
+  slug: dropwizard-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropwizard/refs/heads/main/openapi/dropwizard-tasks-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

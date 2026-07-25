@@ -4,12 +4,36 @@ action_class_counts:
   acting: 7
   connected: 9
 api_specs:
-- filename: archal-openapi-original.json
-  format: json
-  label: Archal API
-  slug: archal-api
+- filename: archal-auth-api-openapi.yml
+  format: yaml
+  label: Archal Auth API
+  slug: archal-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-auth-api-openapi.yml
+- filename: archal-catalog-api-openapi.yml
+  format: yaml
+  label: Archal Catalog API
+  slug: archal-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-catalog-api-openapi.yml
+- filename: archal-results-api-openapi.yml
+  format: yaml
+  label: Archal Results API
+  slug: archal-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-results-api-openapi.yml
+- filename: archal-runtime-api-openapi.yml
+  format: yaml
+  label: Archal Runtime API
+  slug: archal-runtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-runtime-api-openapi.yml
+- filename: archal-sessions-api-openapi.yml
+  format: yaml
+  label: Archal Sessions API
+  slug: archal-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/openapi/archal-sessions-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1

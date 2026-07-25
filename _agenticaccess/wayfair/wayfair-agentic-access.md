@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: wayfair-supplier-api.yml
+- filename: wayfair-authentication-api-openapi.yml
   format: yaml
-  label: Wayfair Supplier API
-  slug: wayfair-supplier-api
+  label: Wayfair Authentication API
+  slug: wayfair-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/openapi/wayfair-supplier-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/openapi/wayfair-authentication-api-openapi.yml
+- filename: wayfair-graphql-api-openapi.yml
+  format: yaml
+  label: Wayfair GraphQL API
+  slug: wayfair-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/openapi/wayfair-graphql-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

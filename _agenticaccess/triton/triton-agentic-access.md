@@ -4,18 +4,72 @@ action_class_counts:
   acting: 14
   connected: 18
 api_specs:
-- filename: rest_api.yaml
+- filename: triton-cuda-shared-memory-api-openapi.yml
   format: yaml
-  label: Triton HTTP/REST API
-  slug: triton-httprest-api
+  label: Triton Inference Server CUDA Shared Memory API
+  slug: triton-cuda-shared-memory-api
   spec_type: OpenAPI
-  url: https://github.com/triton-inference-server/server/blob/main/docs/protocol/rest_api.yaml
-- filename: triton-metrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-cuda-shared-memory-api-openapi.yml
+- filename: triton-health-api-openapi.yml
   format: yaml
-  label: Triton Metrics API
+  label: Triton Inference Server Health API
+  slug: triton-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-health-api-openapi.yml
+- filename: triton-inference-api-openapi.yml
+  format: yaml
+  label: Triton Inference Server Inference API
+  slug: triton-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-inference-api-openapi.yml
+- filename: triton-logging-api-openapi.yml
+  format: yaml
+  label: Triton Inference Server Logging API
+  slug: triton-logging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-logging-api-openapi.yml
+- filename: triton-metrics-api-openapi.yml
+  format: yaml
+  label: Triton Inference Server Metrics API
   slug: triton-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-metrics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-metrics-api-openapi.yml
+- filename: triton-model-metadata-api-openapi.yml
+  format: yaml
+  label: Triton Inference Server Model Metadata API
+  slug: triton-model-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-model-metadata-api-openapi.yml
+- filename: triton-model-repository-api-openapi.yml
+  format: yaml
+  label: Triton Inference Server Model Repository API
+  slug: triton-model-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-model-repository-api-openapi.yml
+- filename: triton-server-metadata-api-openapi.yml
+  format: yaml
+  label: Triton Inference Server Server Metadata API
+  slug: triton-server-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-server-metadata-api-openapi.yml
+- filename: triton-statistics-api-openapi.yml
+  format: yaml
+  label: Triton Inference Server Statistics API
+  slug: triton-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-statistics-api-openapi.yml
+- filename: triton-system-shared-memory-api-openapi.yml
+  format: yaml
+  label: Triton Inference Server System Shared Memory API
+  slug: triton-system-shared-memory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-system-shared-memory-api-openapi.yml
+- filename: triton-trace-api-openapi.yml
+  format: yaml
+  label: Triton Inference Server Trace API
+  slug: triton-trace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-trace-api-openapi.yml
 consequence_counts:
   read: 18
   write: 14

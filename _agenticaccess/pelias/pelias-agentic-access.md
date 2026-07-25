@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: openapi.yml
+- filename: pelias-autocomplete-api-openapi.yml
   format: yaml
-  label: Pelias Geocoding API
-  slug: pelias-geocoding-api
+  label: Pelias Autocomplete API
+  slug: pelias-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pelias/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/openapi/pelias-autocomplete-api-openapi.yml
+- filename: pelias-forward-geocoding-api-openapi.yml
+  format: yaml
+  label: Pelias Forward Geocoding API
+  slug: pelias-forward-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/openapi/pelias-forward-geocoding-api-openapi.yml
+- filename: pelias-place-lookup-api-openapi.yml
+  format: yaml
+  label: Pelias Place Lookup API
+  slug: pelias-place-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/openapi/pelias-place-lookup-api-openapi.yml
+- filename: pelias-reverse-geocoding-api-openapi.yml
+  format: yaml
+  label: Pelias Reverse Geocoding API
+  slug: pelias-reverse-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/openapi/pelias-reverse-geocoding-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

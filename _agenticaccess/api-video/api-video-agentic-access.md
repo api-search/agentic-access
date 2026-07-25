@@ -4,12 +4,12 @@ action_class_counts:
   acting: 8
   connected: 5
 api_specs:
-- filename: api-video-openapi.yml
+- filename: api-video-videos-api-openapi.yml
   format: yaml
-  label: api.video Video On Demand API
-  slug: video-on-demand
+  label: API.Video Videos API
+  slug: api-video-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-videos-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 4
   connected: 1
 api_specs:
-- filename: maileroo-email-api-openapi.yml
+- filename: maileroo-emails-api-openapi.yml
   format: yaml
-  label: Maileroo Email API
-  slug: maileroo-email-api
+  label: Maileroo Emails API
+  slug: maileroo-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/openapi/maileroo-email-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/openapi/maileroo-emails-api-openapi.yml
+- filename: maileroo-scheduled-api-openapi.yml
+  format: yaml
+  label: Maileroo Scheduled API
+  slug: maileroo-scheduled-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/openapi/maileroo-scheduled-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 1

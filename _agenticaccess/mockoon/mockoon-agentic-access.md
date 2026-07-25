@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: mockoon-openapi.yml
+- filename: mockoon-data-buckets-api-openapi.yml
   format: yaml
-  label: Mockoon
-  slug: mockoon
+  label: Mockoon Data Buckets API
+  slug: mockoon-data-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/openapi/mockoon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/openapi/mockoon-data-buckets-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

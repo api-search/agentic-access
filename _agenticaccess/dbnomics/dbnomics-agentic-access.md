@@ -3,30 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: dbnomics-openapi.yml
-  format: yaml
-  label: DBnomics Providers API
-  slug: dbnomics-providers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-openapi.yml
-- filename: dbnomics-openapi.yml
+- filename: dbnomics-datasets-api-openapi.yml
   format: yaml
   label: DBnomics Datasets API
   slug: dbnomics-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-openapi.yml
-- filename: dbnomics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-datasets-api-openapi.yml
+- filename: dbnomics-providers-api-openapi.yml
   format: yaml
-  label: DBnomics Series API
-  slug: dbnomics-series-api
+  label: DBnomics Providers API
+  slug: dbnomics-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-openapi.yml
-- filename: dbnomics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-providers-api-openapi.yml
+- filename: dbnomics-search-api-openapi.yml
   format: yaml
   label: DBnomics Search API
   slug: dbnomics-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-search-api-openapi.yml
+- filename: dbnomics-series-api-openapi.yml
+  format: yaml
+  label: DBnomics Series API
+  slug: dbnomics-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-series-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

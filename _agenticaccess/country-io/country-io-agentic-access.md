@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: country-io-data-openapi.yml
+- filename: country-io-capitals-api-openapi.yml
   format: yaml
-  label: Country.io Data API
-  slug: country-io-data-api
+  label: Country.io Capitals API
+  slug: country-io-capitals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/openapi/country-io-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/openapi/country-io-capitals-api-openapi.yml
+- filename: country-io-continents-api-openapi.yml
+  format: yaml
+  label: Country.io Continents API
+  slug: country-io-continents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/openapi/country-io-continents-api-openapi.yml
+- filename: country-io-currency-api-openapi.yml
+  format: yaml
+  label: Country.io Currency API
+  slug: country-io-currency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/openapi/country-io-currency-api-openapi.yml
+- filename: country-io-iso3-api-openapi.yml
+  format: yaml
+  label: Country.io ISO3 API
+  slug: country-io-iso3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/openapi/country-io-iso3-api-openapi.yml
+- filename: country-io-names-api-openapi.yml
+  format: yaml
+  label: Country.io Names API
+  slug: country-io-names-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/openapi/country-io-names-api-openapi.yml
+- filename: country-io-phone-api-openapi.yml
+  format: yaml
+  label: Country.io Phone API
+  slug: country-io-phone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/openapi/country-io-phone-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

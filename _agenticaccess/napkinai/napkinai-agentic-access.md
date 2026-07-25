@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: napkinai-openapi.yml
+- filename: napkinai-visuals-api-openapi.yml
   format: yaml
-  label: Napkin AI API
-  slug: napkin-ai-api
+  label: Napkin.AI Visuals API
+  slug: napkinai-visuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/openapi/napkinai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/heads/main/openapi/napkinai-visuals-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

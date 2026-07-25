@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: openapi.yml
+- filename: google-voice-locations-api-openapi.yml
   format: yaml
-  label: Google Voice API
-  slug: google-voice-api
+  label: Google Voice Locations API
+  slug: google-voice-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/openapi/google-voice-locations-api-openapi.yml
+- filename: google-voice-users-api-openapi.yml
+  format: yaml
+  label: Google Voice Users API
+  slug: google-voice-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/openapi/google-voice-users-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

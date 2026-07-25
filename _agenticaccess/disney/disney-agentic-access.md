@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: disney-openapi.yml
+- filename: disney-characters-api-openapi.yml
   format: yaml
-  label: Disney API (REST)
-  slug: disney-api-rest
+  label: Disney API Characters API
+  slug: disney-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/openapi/disney-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/openapi/disney-characters-api-openapi.yml
+- filename: disney-index-api-openapi.yml
+  format: yaml
+  label: Disney API Index API
+  slug: disney-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/openapi/disney-index-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

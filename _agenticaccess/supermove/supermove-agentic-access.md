@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: supermove-openapi.yml
+- filename: supermove-supermove-developer-api-new-lead-endpoint-api-openapi.yml
   format: yaml
-  label: Supermove Developer API - New Lead Endpoint
-  slug: supermove-developer-api-new-lead-endpoint
+  label: Supermove Supermove Developer API New Lead Endpoint API
+  slug: supermove-supermove-developer-api-new-lead-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supermove/refs/heads/main/openapi/supermove-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/supermove/refs/heads/main/openapi/supermove-supermove-developer-api-new-lead-endpoint-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

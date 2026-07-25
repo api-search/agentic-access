@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: bitwise-openapi.yml
+- filename: bitwise-etfs-api-openapi.yml
   format: yaml
-  label: Bitwise API
-  slug: bitwise-api
+  label: Bitwise ETFs API
+  slug: bitwise-etfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-etfs-api-openapi.yml
+- filename: bitwise-funds-api-openapi.yml
+  format: yaml
+  label: Bitwise Funds API
+  slug: bitwise-funds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-funds-api-openapi.yml
+- filename: bitwise-indexes-api-openapi.yml
+  format: yaml
+  label: Bitwise Indexes API
+  slug: bitwise-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/openapi/bitwise-indexes-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

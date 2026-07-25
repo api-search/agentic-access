@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: opslevel-openapi.yml
+- filename: opslevel-graphql-api-openapi.yml
   format: yaml
   label: OpsLevel GraphQL API
-  slug: graphql-api
+  slug: opslevel-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opslevel/refs/heads/main/openapi/opslevel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opslevel/refs/heads/main/openapi/opslevel-graphql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

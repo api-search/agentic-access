@@ -4,12 +4,18 @@ action_class_counts:
   acting: 2
   connected: 4
 api_specs:
-- filename: apache-seatunnel-rest-api.yaml
+- filename: apache-seatunnel-jobs-api-openapi.yml
   format: yaml
-  label: Apache SeaTunnel REST API
-  slug: apache-seatunnel-rest-api
+  label: Apache SeaTunnel Jobs API
+  slug: apache-seatunnel-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-seatunnel/refs/heads/main/openapi/apache-seatunnel-rest-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-seatunnel/refs/heads/main/openapi/apache-seatunnel-jobs-api-openapi.yml
+- filename: apache-seatunnel-monitoring-api-openapi.yml
+  format: yaml
+  label: Apache SeaTunnel Monitoring API
+  slug: apache-seatunnel-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-seatunnel/refs/heads/main/openapi/apache-seatunnel-monitoring-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 1

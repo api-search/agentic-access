@@ -4,36 +4,36 @@ action_class_counts:
   acting: 14
   connected: 13
 api_specs:
-- filename: moyasar-openapi.yml
-  format: yaml
-  label: Moyasar Payments API
-  slug: moyasar-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-openapi.yml
-- filename: moyasar-openapi.yml
+- filename: moyasar-invoices-api-openapi.yml
   format: yaml
   label: Moyasar Invoices API
   slug: moyasar-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-openapi.yml
-- filename: moyasar-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-invoices-api-openapi.yml
+- filename: moyasar-payments-api-openapi.yml
   format: yaml
-  label: Moyasar Tokens API
-  slug: moyasar-tokens-api
+  label: Moyasar Payments API
+  slug: moyasar-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-openapi.yml
-- filename: moyasar-openapi.yml
-  format: yaml
-  label: Moyasar Webhooks API
-  slug: moyasar-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-openapi.yml
-- filename: moyasar-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-payments-api-openapi.yml
+- filename: moyasar-payouts-api-openapi.yml
   format: yaml
   label: Moyasar Payouts API
   slug: moyasar-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-payouts-api-openapi.yml
+- filename: moyasar-tokens-api-openapi.yml
+  format: yaml
+  label: Moyasar Tokens API
+  slug: moyasar-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-tokens-api-openapi.yml
+- filename: moyasar-webhooks-api-openapi.yml
+  format: yaml
+  label: Moyasar Webhooks API
+  slug: moyasar-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/openapi/moyasar-webhooks-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 13

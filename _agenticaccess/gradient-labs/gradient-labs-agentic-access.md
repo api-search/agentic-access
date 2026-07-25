@@ -4,42 +4,36 @@ action_class_counts:
   acting: 10
   connected: 1
 api_specs:
-- filename: gradient-labs-openapi.yml
-  format: yaml
-  label: Gradient Labs Conversations API
-  slug: gradient-labs-conversations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-openapi.yml
-- filename: gradient-labs-openapi.yml
-  format: yaml
-  label: Gradient Labs Messages API
-  slug: gradient-labs-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-openapi.yml
-- filename: gradient-labs-openapi.yml
-  format: yaml
-  label: Gradient Labs Hand-off & Assignment API
-  slug: gradient-labs-hand-off-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-openapi.yml
-- filename: gradient-labs-openapi.yml
+- filename: gradient-labs-actions-tools-api-openapi.yml
   format: yaml
   label: Gradient Labs Actions & Tools API
   slug: gradient-labs-actions-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-openapi.yml
-- filename: gradient-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-actions-tools-api-openapi.yml
+- filename: gradient-labs-conversations-api-openapi.yml
+  format: yaml
+  label: Gradient Labs Conversations API
+  slug: gradient-labs-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-conversations-api-openapi.yml
+- filename: gradient-labs-hand-off-api-openapi.yml
+  format: yaml
+  label: Gradient Labs Hand-off API
+  slug: gradient-labs-hand-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-hand-off-api-openapi.yml
+- filename: gradient-labs-knowledge-api-openapi.yml
   format: yaml
   label: Gradient Labs Knowledge API
   slug: gradient-labs-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-openapi.yml
-- filename: gradient-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-knowledge-api-openapi.yml
+- filename: gradient-labs-messages-api-openapi.yml
   format: yaml
-  label: Gradient Labs Webhooks API
-  slug: gradient-labs-webhooks-api
+  label: Gradient Labs Messages API
+  slug: gradient-labs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-messages-api-openapi.yml
 consequence_counts:
   read: 1
   write: 10

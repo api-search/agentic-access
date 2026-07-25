@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: qualcomm-qualcomm-api-openapi.yml
+- filename: qualcomm-semiconductors-api-openapi.yml
   format: yaml
-  label: Qualcomm Developer API
-  slug: qualcomm-api
+  label: qualcomm Semiconductors API
+  slug: qualcomm-semiconductors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/openapi/qualcomm-qualcomm-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/openapi/qualcomm-semiconductors-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

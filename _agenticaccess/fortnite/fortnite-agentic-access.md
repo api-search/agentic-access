@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: fortnite-tracker.yaml
+- filename: fortnite-challenges-api-openapi.yml
   format: yaml
-  label: Fortnite Tracker
-  slug: fortnite-tracker
+  label: Fortnite Tracker Challenges API
+  slug: fortnite-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-tracker.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-challenges-api-openapi.yml
+- filename: fortnite-leaderboards-api-openapi.yml
+  format: yaml
+  label: Fortnite Tracker Leaderboards API
+  slug: fortnite-leaderboards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-leaderboards-api-openapi.yml
+- filename: fortnite-power-rankings-api-openapi.yml
+  format: yaml
+  label: Fortnite Tracker Power Rankings API
+  slug: fortnite-power-rankings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-power-rankings-api-openapi.yml
+- filename: fortnite-profile-api-openapi.yml
+  format: yaml
+  label: Fortnite Tracker Profile API
+  slug: fortnite-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-profile-api-openapi.yml
+- filename: fortnite-store-api-openapi.yml
+  format: yaml
+  label: Fortnite Tracker Store API
+  slug: fortnite-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-store-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: leafly-menu-integration-openapi.yml
+- filename: leafly-menu-api-openapi.yml
   format: yaml
-  label: Leafly Menu Integration API
-  slug: leafly-menu-integration-api
+  label: Leafly Menu API
+  slug: leafly-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/openapi/leafly-menu-integration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/openapi/leafly-menu-api-openapi.yml
+- filename: leafly-status-api-openapi.yml
+  format: yaml
+  label: Leafly Status API
+  slug: leafly-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/openapi/leafly-status-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

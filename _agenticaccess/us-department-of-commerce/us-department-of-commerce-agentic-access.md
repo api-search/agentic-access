@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: commerce-gov-api-openapi.yml
+- filename: us-department-of-commerce-blogs-api-openapi.yml
   format: yaml
-  label: Commerce.gov API
-  slug: commercegov-api
+  label: US Department of Commerce Blogs API
+  slug: us-department-of-commerce-blogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/openapi/commerce-gov-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/openapi/us-department-of-commerce-blogs-api-openapi.yml
+- filename: us-department-of-commerce-images-api-openapi.yml
+  format: yaml
+  label: US Department of Commerce Images API
+  slug: us-department-of-commerce-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/openapi/us-department-of-commerce-images-api-openapi.yml
+- filename: us-department-of-commerce-news-api-openapi.yml
+  format: yaml
+  label: US Department of Commerce News API
+  slug: us-department-of-commerce-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/openapi/us-department-of-commerce-news-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

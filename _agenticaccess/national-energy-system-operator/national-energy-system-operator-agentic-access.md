@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: national-energy-system-operator-openapi.json
-  format: json
-  label: NESO Data Portal API
-  slug: data-portal-api
+- filename: national-energy-system-operator-datastore-api-openapi.yml
+  format: yaml
+  label: National Energy System Operator Datastore API
+  slug: national-energy-system-operator-datastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-energy-system-operator/main/openapi/national-energy-system-operator-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/national-energy-system-operator/refs/heads/main/openapi/national-energy-system-operator-datastore-api-openapi.yml
+- filename: national-energy-system-operator-discovery-api-openapi.yml
+  format: yaml
+  label: National Energy System Operator Discovery API
+  slug: national-energy-system-operator-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-energy-system-operator/refs/heads/main/openapi/national-energy-system-operator-discovery-api-openapi.yml
+- filename: national-energy-system-operator-metadata-api-openapi.yml
+  format: yaml
+  label: National Energy System Operator Metadata API
+  slug: national-energy-system-operator-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-energy-system-operator/refs/heads/main/openapi/national-energy-system-operator-metadata-api-openapi.yml
+- filename: national-energy-system-operator-search-api-openapi.yml
+  format: yaml
+  label: National Energy System Operator Search API
+  slug: national-energy-system-operator-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-energy-system-operator/refs/heads/main/openapi/national-energy-system-operator-search-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

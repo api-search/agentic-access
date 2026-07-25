@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: scale3-blockchain-intelligence-openapi.yml
+- filename: scale3-blockchain-intelligence-api-openapi.yml
   format: yaml
   label: Scale3 Blockchain Intelligence API
   slug: scale3-blockchain-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scale3/refs/heads/main/openapi/scale3-blockchain-intelligence-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scale3/refs/heads/main/openapi/scale3-blockchain-intelligence-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

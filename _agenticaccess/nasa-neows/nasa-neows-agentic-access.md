@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: openapi.yml
+- filename: nasa-neows-browse-api-openapi.yml
   format: yaml
-  label: NASA NeoWs API
-  slug: nasa-neows
+  label: NASA NeoWs Browse API
+  slug: nasa-neows-browse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-neows/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-neows/refs/heads/main/openapi/nasa-neows-browse-api-openapi.yml
+- filename: nasa-neows-feed-api-openapi.yml
+  format: yaml
+  label: NASA NeoWs Feed API
+  slug: nasa-neows-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-neows/refs/heads/main/openapi/nasa-neows-feed-api-openapi.yml
+- filename: nasa-neows-lookup-api-openapi.yml
+  format: yaml
+  label: NASA NeoWs Lookup API
+  slug: nasa-neows-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-neows/refs/heads/main/openapi/nasa-neows-lookup-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

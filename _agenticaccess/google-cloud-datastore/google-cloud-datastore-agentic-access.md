@@ -3,6 +3,13 @@ acting_count: 8
 action_class_counts:
   acting: 8
   connected: 1
+api_specs:
+- filename: google-cloud-datastore-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Datastore Projects API
+  slug: google-cloud-datastore-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/openapi/google-cloud-datastore-projects-api-openapi.yml
 consequence_counts:
   read: 1
   write: 8

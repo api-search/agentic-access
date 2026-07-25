@@ -4,12 +4,12 @@ action_class_counts:
   acting: 20
   connected: 6
 api_specs:
-- filename: virtualMachines.json
-  format: json
-  label: Azure Virtual Machines REST API
-  slug: azure-virtual-machines-rest-api
+- filename: microsoft-azure-virtual-machines-virtual-machines-api-openapi.yml
+  format: yaml
+  label: Azure Virtual Machines Virtual Machines API
+  slug: microsoft-azure-virtual-machines-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/compute/resource-manager/Microsoft.Compute/ComputeRP/stable/2023-09-01/virtualMachines.json
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/openapi/microsoft-azure-virtual-machines-virtual-machines-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6

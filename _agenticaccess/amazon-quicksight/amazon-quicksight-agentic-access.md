@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: Welcome.html
+- filename: amazon-quicksight-dashboards-api-openapi.yml
   format: yaml
-  label: Amazon QuickSight API
-  slug: amazon-quicksight-api
+  label: Amazon QuickSight Dashboards API
+  slug: amazon-quicksight-dashboards-api
   spec_type: OpenAPI
-  url: https://docs.aws.amazon.com/quicksight/latest/APIReference/Welcome.html
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/openapi/amazon-quicksight-dashboards-api-openapi.yml
+- filename: amazon-quicksight-datasets-api-openapi.yml
+  format: yaml
+  label: Amazon QuickSight Datasets API
+  slug: amazon-quicksight-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/openapi/amazon-quicksight-datasets-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

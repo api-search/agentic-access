@@ -3,6 +3,13 @@ acting_count: 11
 action_class_counts:
   acting: 11
   connected: 24
+api_specs:
+- filename: pardot-objects-api-openapi.yml
+  format: yaml
+  label: Salesforce Marketing Cloud Account Engagement (Pardot) Objects API
+  slug: pardot-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/openapi/pardot-objects-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 24

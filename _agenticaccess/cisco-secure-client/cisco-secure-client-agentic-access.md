@@ -3,6 +3,43 @@ acting_count: 9
 action_class_counts:
   acting: 9
   connected: 6
+api_specs:
+- filename: cisco-secure-client-accesspolicies-api-openapi.yml
+  format: yaml
+  label: Cisco Secure Client AccessPolicies API
+  slug: cisco-secure-client-accesspolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-accesspolicies-api-openapi.yml
+- filename: cisco-secure-client-accessrules-api-openapi.yml
+  format: yaml
+  label: Cisco Secure Client AccessRules API
+  slug: cisco-secure-client-accessrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-accessrules-api-openapi.yml
+- filename: cisco-secure-client-authentication-api-openapi.yml
+  format: yaml
+  label: Cisco Secure Client Authentication API
+  slug: cisco-secure-client-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-authentication-api-openapi.yml
+- filename: cisco-secure-client-devices-api-openapi.yml
+  format: yaml
+  label: Cisco Secure Client Devices API
+  slug: cisco-secure-client-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-devices-api-openapi.yml
+- filename: cisco-secure-client-hosts-api-openapi.yml
+  format: yaml
+  label: Cisco Secure Client Hosts API
+  slug: cisco-secure-client-hosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-hosts-api-openapi.yml
+- filename: cisco-secure-client-networkobjects-api-openapi.yml
+  format: yaml
+  label: Cisco Secure Client NetworkObjects API
+  slug: cisco-secure-client-networkobjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-networkobjects-api-openapi.yml
 consequence_counts:
   read: 6
   write: 9

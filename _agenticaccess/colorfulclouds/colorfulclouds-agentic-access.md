@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: colorfulclouds-caiyun-weather-openapi.yml
+- filename: colorfulclouds-air-quality-api-openapi.yml
   format: yaml
-  label: Caiyun Weather API
-  slug: caiyun-weather-api
+  label: ColorfulClouds Air Quality API
+  slug: colorfulclouds-air-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-caiyun-weather-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-air-quality-api-openapi.yml
+- filename: colorfulclouds-alerts-api-openapi.yml
+  format: yaml
+  label: ColorfulClouds Alerts API
+  slug: colorfulclouds-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-alerts-api-openapi.yml
+- filename: colorfulclouds-forecast-api-openapi.yml
+  format: yaml
+  label: ColorfulClouds Forecast API
+  slug: colorfulclouds-forecast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-forecast-api-openapi.yml
+- filename: colorfulclouds-precipitation-map-api-openapi.yml
+  format: yaml
+  label: ColorfulClouds Precipitation Map API
+  slug: colorfulclouds-precipitation-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-precipitation-map-api-openapi.yml
+- filename: colorfulclouds-realtime-api-openapi.yml
+  format: yaml
+  label: ColorfulClouds Realtime API
+  slug: colorfulclouds-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-realtime-api-openapi.yml
+- filename: colorfulclouds-weather-api-openapi.yml
+  format: yaml
+  label: ColorfulClouds Weather API
+  slug: colorfulclouds-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/openapi/colorfulclouds-weather-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

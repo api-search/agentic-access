@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: offenders-io-openapi.yml
+- filename: offenders-io-search-api-openapi.yml
   format: yaml
-  label: Offenders.io
-  slug: offenders-io
+  label: Offenders.io Search API
+  slug: offenders-io-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/openapi/offenders-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/openapi/offenders-io-search-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: vistra-incorporations-openapi.yml
+- filename: vistra-documents-api-openapi.yml
+  format: yaml
+  label: Vistra Documents API
+  slug: vistra-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/openapi/vistra-documents-api-openapi.yml
+- filename: vistra-incorporations-api-openapi.yml
   format: yaml
   label: Vistra Incorporations API
-  slug: incorporations-api
+  slug: vistra-incorporations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/openapi/vistra-incorporations-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/openapi/vistra-incorporations-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

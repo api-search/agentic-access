@@ -4,12 +4,12 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: amazon-certificate-manager-openapi.yml
+- filename: amazon-certificate-manager-certificates-api-openapi.yml
   format: yaml
-  label: Amazon Certificate Manager API
-  slug: amazon-certificate-manager-api
+  label: Amazon Certificate Manager Certificates API
+  slug: amazon-certificate-manager-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/openapi/amazon-certificate-manager-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/openapi/amazon-certificate-manager-certificates-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2

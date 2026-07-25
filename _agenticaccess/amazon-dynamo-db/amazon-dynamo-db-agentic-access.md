@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: amazon-dynamo-db-openapi.yml
+- filename: amazon-dynamo-db-amazon-dynamodb-api-api-openapi.yml
   format: yaml
-  label: Amazon DynamoDB API
-  slug: api
+  label: Amazon DynamoDB Amazon DynamoDB API API
+  slug: amazon-dynamo-db-amazon-dynamodb-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamo-db/refs/heads/main/openapi/amazon-dynamo-db-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamo-db/refs/heads/main/openapi/amazon-dynamo-db-amazon-dynamodb-api-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

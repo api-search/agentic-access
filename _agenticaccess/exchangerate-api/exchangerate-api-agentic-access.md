@@ -3,48 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: exchangerate-api-openapi.yml
-  format: yaml
-  label: ExchangeRate-API Latest Rates API
-  slug: latest-rates
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-openapi.yml
-- filename: exchangerate-api-openapi.yml
-  format: yaml
-  label: ExchangeRate-API Pair Conversion API
-  slug: pair-conversion
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-openapi.yml
-- filename: exchangerate-api-openapi.yml
+- filename: exchangerate-api-enriched-data-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Enriched Data API
-  slug: enriched-data
+  slug: exchangerate-api-enriched-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-openapi.yml
-- filename: exchangerate-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-enriched-data-api-openapi.yml
+- filename: exchangerate-api-historical-rates-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Historical Rates API
-  slug: historical-rates
+  slug: exchangerate-api-historical-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-openapi.yml
-- filename: exchangerate-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-historical-rates-api-openapi.yml
+- filename: exchangerate-api-latest-rates-api-openapi.yml
   format: yaml
-  label: ExchangeRate-API Supported Codes API
-  slug: supported-codes
+  label: ExchangeRate-API Latest Rates API
+  slug: exchangerate-api-latest-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-openapi.yml
-- filename: exchangerate-api-openapi.yml
-  format: yaml
-  label: ExchangeRate-API Quota API
-  slug: quota
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-openapi.yml
-- filename: exchangerate-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-latest-rates-api-openapi.yml
+- filename: exchangerate-api-open-access-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Open Access API
-  slug: open-access
+  slug: exchangerate-api-open-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-open-access-api-openapi.yml
+- filename: exchangerate-api-pair-conversion-api-openapi.yml
+  format: yaml
+  label: ExchangeRate-API Pair Conversion API
+  slug: exchangerate-api-pair-conversion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-pair-conversion-api-openapi.yml
+- filename: exchangerate-api-quota-api-openapi.yml
+  format: yaml
+  label: ExchangeRate-API Quota API
+  slug: exchangerate-api-quota-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-quota-api-openapi.yml
+- filename: exchangerate-api-supported-codes-api-openapi.yml
+  format: yaml
+  label: ExchangeRate-API Supported Codes API
+  slug: exchangerate-api-supported-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-supported-codes-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

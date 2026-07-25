@@ -4,18 +4,18 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: arxiv-query-openapi.yml
-  format: yaml
-  label: arXiv Query API
-  slug: arxiv-query-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/openapi/arxiv-query-openapi.yml
-- filename: arxiv-oaipmh-openapi.yml
+- filename: arxiv-oai-pmh-api-openapi.yml
   format: yaml
   label: arXiv OAI-PMH API
   slug: arxiv-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/openapi/arxiv-oaipmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/openapi/arxiv-oai-pmh-api-openapi.yml
+- filename: arxiv-query-api-openapi.yml
+  format: yaml
+  label: arXiv Query API
+  slug: arxiv-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/openapi/arxiv-query-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

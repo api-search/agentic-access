@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: scrapfly-scrape-openapi.yml
+- filename: scrapfly-scraping-api-openapi.yml
   format: yaml
-  label: Scrapfly Scrape API
-  slug: scrape-api
+  label: Scrapfly Scraping API
+  slug: scrapfly-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/openapi/scrapfly-scrape-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/openapi/scrapfly-scraping-api-openapi.yml
+- filename: scrapfly-screenshots-api-openapi.yml
+  format: yaml
+  label: Scrapfly Screenshots API
+  slug: scrapfly-screenshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/openapi/scrapfly-screenshots-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

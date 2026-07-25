@@ -3,12 +3,24 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: dagster-external-assets-rest-api-openapi.yml
+- filename: dagster-checks-api-openapi.yml
   format: yaml
-  label: Dagster External Assets REST API
-  slug: external-assets-rest-api
+  label: Dagster Checks API
+  slug: dagster-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/openapi/dagster-external-assets-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/openapi/dagster-checks-api-openapi.yml
+- filename: dagster-materializations-api-openapi.yml
+  format: yaml
+  label: Dagster Materializations API
+  slug: dagster-materializations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/openapi/dagster-materializations-api-openapi.yml
+- filename: dagster-observations-api-openapi.yml
+  format: yaml
+  label: Dagster Observations API
+  slug: dagster-observations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/openapi/dagster-observations-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: bing-news-search-openapi.json
-  format: json
-  label: Bing News Search API
-  slug: news-search
+- filename: bing-news-news-category-api-openapi.yml
+  format: yaml
+  label: Bing News Search News Category API
+  slug: bing-news-news-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/openapi/bing-news-search-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/openapi/bing-news-news-category-api-openapi.yml
+- filename: bing-news-news-search-api-openapi.yml
+  format: yaml
+  label: Bing News Search News Search API
+  slug: bing-news-news-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/openapi/bing-news-news-search-api-openapi.yml
+- filename: bing-news-trending-topics-api-openapi.yml
+  format: yaml
+  label: Bing News Search Trending Topics API
+  slug: bing-news-trending-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/openapi/bing-news-trending-topics-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

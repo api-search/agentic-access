@@ -39,6 +39,18 @@ api_specs:
   slug: futures-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/polygon-io/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-io-aggregates-api-openapi.yml
+  format: yaml
+  label: Polygon.io Aggregates API
+  slug: polygon-io-aggregates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon-io/refs/heads/main/openapi/polygon-io-aggregates-api-openapi.yml
+- filename: polygon-io-reference-api-openapi.yml
+  format: yaml
+  label: Polygon.io Reference API
+  slug: polygon-io-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon-io/refs/heads/main/openapi/polygon-io-reference-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

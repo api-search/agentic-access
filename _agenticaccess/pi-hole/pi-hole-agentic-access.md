@@ -4,12 +4,30 @@ action_class_counts:
   acting: 4
   connected: 3
 api_specs:
-- filename: docs
+- filename: pi-hole-auth-api-openapi.yml
   format: yaml
-  label: Pi-hole REST API
-  slug: rest-api
+  label: Pi-hole Auth API
+  slug: pi-hole-auth-api
   spec_type: OpenAPI
-  url: http://pi.hole/api/docs
+  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-auth-api-openapi.yml
+- filename: pi-hole-dns-api-openapi.yml
+  format: yaml
+  label: Pi-hole DNS API
+  slug: pi-hole-dns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-dns-api-openapi.yml
+- filename: pi-hole-groups-api-openapi.yml
+  format: yaml
+  label: Pi-hole Groups API
+  slug: pi-hole-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-groups-api-openapi.yml
+- filename: pi-hole-info-api-openapi.yml
+  format: yaml
+  label: Pi-hole Info API
+  slug: pi-hole-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-info-api-openapi.yml
 consequence_counts:
   read: 3
   write: 4

@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: simplifier-package-api-openapi.yml
+- filename: firely-server-catalog-api-openapi.yml
   format: yaml
-  label: Simplifier.net FHIR Package API
-  slug: simplifier-package-api
+  label: Firely Catalog API
+  slug: firely-server-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/openapi/simplifier-package-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/openapi/firely-server-catalog-api-openapi.yml
+- filename: firely-server-simplifier-net-fhir-package-api-api-openapi.yml
+  format: yaml
+  label: Firely Simplifier.net FHIR Package API API
+  slug: firely-server-simplifier-net-fhir-package-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/openapi/firely-server-simplifier-net-fhir-package-api-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

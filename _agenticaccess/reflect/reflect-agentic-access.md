@@ -4,12 +4,24 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: reflect-openapi.yml
+- filename: reflect-execution-api-openapi.yml
   format: yaml
-  label: Reflect
-  slug: reflect
+  label: Reflect Execution API
+  slug: reflect-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/openapi/reflect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/openapi/reflect-execution-api-openapi.yml
+- filename: reflect-executions-api-openapi.yml
+  format: yaml
+  label: Reflect Executions API
+  slug: reflect-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/openapi/reflect-executions-api-openapi.yml
+- filename: reflect-tests-api-openapi.yml
+  format: yaml
+  label: Reflect Tests API
+  slug: reflect-tests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/openapi/reflect-tests-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

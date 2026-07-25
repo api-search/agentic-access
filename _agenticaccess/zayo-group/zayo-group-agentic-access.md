@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: zayo-group-openapi.yml
+- filename: zayo-group-network-discovery-api-openapi.yml
   format: yaml
-  label: Zayo Group Holdings API
-  slug: zayo-group-api
+  label: Zayo Group Holdings Network Discovery API
+  slug: zayo-group-network-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zayo-group/refs/heads/main/openapi/zayo-group-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zayo-group/refs/heads/main/openapi/zayo-group-network-discovery-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

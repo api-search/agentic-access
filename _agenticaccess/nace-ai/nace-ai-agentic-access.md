@@ -4,12 +4,18 @@ action_class_counts:
   acting: 10
   connected: 3
 api_specs:
-- filename: nace-ai-ndi-openapi.json
-  format: json
-  label: Nace Document Intelligence (NDI)
-  slug: nace-document-intelligence-ndi
+- filename: nace-ai-health-api-openapi.yml
+  format: yaml
+  label: Nace Ai health API
+  slug: nace-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/openapi/nace-ai-ndi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/openapi/nace-ai-health-api-openapi.yml
+- filename: nace-ai-public-api-api-openapi.yml
+  format: yaml
+  label: Nace Ai public-api API
+  slug: nace-ai-public-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/openapi/nace-ai-public-api-api-openapi.yml
 consequence_counts:
   read: 3
   write: 10

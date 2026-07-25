@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: bureau-of-transportation-statistics-openapi.yml
+- filename: bureau-of-transportation-statistics-metadata-api-openapi.yml
   format: yaml
-  label: BTS Open Data SODA API
-  slug: bts-open-data-soda-api
+  label: Bureau of Transportation Statistics Metadata API
+  slug: bureau-of-transportation-statistics-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-metadata-api-openapi.yml
+- filename: bureau-of-transportation-statistics-resource-api-openapi.yml
+  format: yaml
+  label: Bureau of Transportation Statistics Resource API
+  slug: bureau-of-transportation-statistics-resource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-resource-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

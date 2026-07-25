@@ -4,12 +4,36 @@ action_class_counts:
   acting: 6
   connected: 5
 api_specs:
-- filename: elasticsearch-specification
+- filename: elastic-search-cat-api-openapi.yml
   format: yaml
-  label: Elasticsearch REST API
-  slug: elasticsearch-rest-api
+  label: Elasticsearch Cat API
+  slug: elastic-search-cat-api
   spec_type: OpenAPI
-  url: https://github.com/elastic/elasticsearch-specification
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-search/refs/heads/main/openapi/elastic-search-cat-api-openapi.yml
+- filename: elastic-search-cluster-api-openapi.yml
+  format: yaml
+  label: Elasticsearch Cluster API
+  slug: elastic-search-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-search/refs/heads/main/openapi/elastic-search-cluster-api-openapi.yml
+- filename: elastic-search-document-api-openapi.yml
+  format: yaml
+  label: Elasticsearch Document API
+  slug: elastic-search-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-search/refs/heads/main/openapi/elastic-search-document-api-openapi.yml
+- filename: elastic-search-index-api-openapi.yml
+  format: yaml
+  label: Elasticsearch Index API
+  slug: elastic-search-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-search/refs/heads/main/openapi/elastic-search-index-api-openapi.yml
+- filename: elastic-search-search-api-openapi.yml
+  format: yaml
+  label: Elasticsearch Search API
+  slug: elastic-search-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elastic-search/refs/heads/main/openapi/elastic-search-search-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6

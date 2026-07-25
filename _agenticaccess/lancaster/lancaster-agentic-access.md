@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: lancaster-eprints-oai.yaml
+- filename: lancaster-oai2-api-openapi.yml
   format: yaml
-  label: Lancaster EPrints OAI-PMH
-  slug: eprints-oai
+  label: Lancaster University Oai2 API
+  slug: lancaster-oai2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-eprints-oai.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-oai2-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,36 @@ action_class_counts:
   acting: 10
   connected: 9
 api_specs:
-- filename: debezium-connect.yml
+- filename: debezium-cluster-api-openapi.yml
   format: yaml
-  label: Debezium Kafka Connect REST API
-  slug: debezium-kafka-connect-api
+  label: Debezium Cluster API
+  slug: debezium-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-connect.yml
+  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-cluster-api-openapi.yml
+- filename: debezium-connectors-api-openapi.yml
+  format: yaml
+  label: Debezium Connectors API
+  slug: debezium-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-connectors-api-openapi.yml
+- filename: debezium-offsets-api-openapi.yml
+  format: yaml
+  label: Debezium Offsets API
+  slug: debezium-offsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-offsets-api-openapi.yml
+- filename: debezium-plugins-api-openapi.yml
+  format: yaml
+  label: Debezium Plugins API
+  slug: debezium-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-plugins-api-openapi.yml
+- filename: debezium-tasks-api-openapi.yml
+  format: yaml
+  label: Debezium Tasks API
+  slug: debezium-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/openapi/debezium-tasks-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1

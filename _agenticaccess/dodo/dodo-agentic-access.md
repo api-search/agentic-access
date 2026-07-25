@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: dodo-trade-openapi.yml
+- filename: dodo-trade-api-openapi.yml
   format: yaml
-  label: DODO Trade / Route API
-  slug: dodo-trade-route-api
+  label: DODO Trade API
+  slug: dodo-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dodo/refs/heads/main/openapi/dodo-trade-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dodo/refs/heads/main/openapi/dodo-trade-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

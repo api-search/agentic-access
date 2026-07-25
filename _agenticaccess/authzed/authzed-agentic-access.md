@@ -3,12 +3,36 @@ acting_count: 27
 action_class_counts:
   acting: 27
 api_specs:
-- filename: client-libraries
+- filename: authzed-experimental-api-openapi.yml
   format: yaml
-  label: SpiceDB Permissions API
-  slug: spicedb-permissions-api
+  label: Authzed Experimental API
+  slug: authzed-experimental-api
   spec_type: OpenAPI
-  url: https://authzed.com/docs/spicedb/getting-started/client-libraries
+  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-experimental-api-openapi.yml
+- filename: authzed-permissions-api-openapi.yml
+  format: yaml
+  label: Authzed Permissions API
+  slug: authzed-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-permissions-api-openapi.yml
+- filename: authzed-relationships-api-openapi.yml
+  format: yaml
+  label: Authzed Relationships API
+  slug: authzed-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-relationships-api-openapi.yml
+- filename: authzed-schema-api-openapi.yml
+  format: yaml
+  label: Authzed Schema API
+  slug: authzed-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-schema-api-openapi.yml
+- filename: authzed-watch-api-openapi.yml
+  format: yaml
+  label: Authzed Watch API
+  slug: authzed-watch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-watch-api-openapi.yml
 consequence_counts:
   physical: 13
   write: 14

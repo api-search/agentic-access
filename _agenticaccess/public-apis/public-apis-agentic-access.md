@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: public-apis-openapi.yml
+- filename: public-apis-categories-api-openapi.yml
   format: yaml
-  label: Public APIs API
-  slug: public-api
+  label: Public APIs Categories API
+  slug: public-apis-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-apis/refs/heads/main/openapi/public-apis-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/public-apis/refs/heads/main/openapi/public-apis-categories-api-openapi.yml
+- filename: public-apis-entries-api-openapi.yml
+  format: yaml
+  label: Public APIs Entries API
+  slug: public-apis-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/public-apis/refs/heads/main/openapi/public-apis-entries-api-openapi.yml
+- filename: public-apis-health-api-openapi.yml
+  format: yaml
+  label: Public APIs Health API
+  slug: public-apis-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/public-apis/refs/heads/main/openapi/public-apis-health-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

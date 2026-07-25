@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: news-api-openapi.yml
+- filename: news-api-articles-api-openapi.yml
   format: yaml
-  label: News API
-  slug: news-api
+  label: News API Articles API
+  slug: news-api-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/news-api/refs/heads/main/openapi/news-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/news-api/refs/heads/main/openapi/news-api-articles-api-openapi.yml
+- filename: news-api-headlines-api-openapi.yml
+  format: yaml
+  label: News API Headlines API
+  slug: news-api-headlines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/news-api/refs/heads/main/openapi/news-api-headlines-api-openapi.yml
+- filename: news-api-sources-api-openapi.yml
+  format: yaml
+  label: News API Sources API
+  slug: news-api-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/news-api/refs/heads/main/openapi/news-api-sources-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

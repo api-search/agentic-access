@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: fern-api-openapi.yml
+- filename: fern-api-ask-api-openapi.yml
   format: yaml
-  label: Ask Fern API
-  slug: fern-api-ask-fern-api
+  label: Fern Ask API
+  slug: fern-api-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fern-api/refs/heads/main/openapi/fern-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fern-api/refs/heads/main/openapi/fern-api-ask-api-openapi.yml
+- filename: fern-api-website-sources-api-openapi.yml
+  format: yaml
+  label: Fern Website Sources API
+  slug: fern-api-website-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fern-api/refs/heads/main/openapi/fern-api-website-sources-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

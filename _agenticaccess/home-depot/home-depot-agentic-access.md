@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: home-depot-home-depot-api-openapi.yml
+- filename: home-depot-retail-api-openapi.yml
   format: yaml
-  label: Home Depot API
-  slug: home-depot-api
+  label: home-depot Retail API
+  slug: home-depot-retail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/openapi/home-depot-home-depot-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/openapi/home-depot-retail-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

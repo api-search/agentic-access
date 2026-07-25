@@ -3,30 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: realtymole-openapi.yml
-  format: yaml
-  label: RealtyMole Property Records API
-  slug: property-records
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-openapi.yml
-- filename: realtymole-openapi.yml
-  format: yaml
-  label: RealtyMole Rental Estimate API
-  slug: rental-estimate
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-openapi.yml
-- filename: realtymole-openapi.yml
-  format: yaml
-  label: RealtyMole Sale Estimate API
-  slug: sale-estimate
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-openapi.yml
-- filename: realtymole-openapi.yml
+- filename: realtymole-listings-api-openapi.yml
   format: yaml
   label: RealtyMole Listings API
-  slug: listings
+  slug: realtymole-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-listings-api-openapi.yml
+- filename: realtymole-property-records-api-openapi.yml
+  format: yaml
+  label: RealtyMole Property Records API
+  slug: realtymole-property-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-property-records-api-openapi.yml
+- filename: realtymole-rental-estimate-api-openapi.yml
+  format: yaml
+  label: RealtyMole Rental Estimate API
+  slug: realtymole-rental-estimate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-rental-estimate-api-openapi.yml
+- filename: realtymole-sale-estimate-api-openapi.yml
+  format: yaml
+  label: RealtyMole Sale Estimate API
+  slug: realtymole-sale-estimate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/openapi/realtymole-sale-estimate-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

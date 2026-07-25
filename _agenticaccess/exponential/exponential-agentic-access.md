@@ -3,18 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: exponential-protocol-openapi.yml
+- filename: exponential-agent-api-openapi.yml
   format: yaml
-  label: YO Protocol API
-  slug: yo-protocol-api
+  label: Exponential Agent API
+  slug: exponential-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-protocol-openapi.yml
-- filename: exponential-risk-graph-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-agent-api-openapi.yml
+- filename: exponential-history-api-openapi.yml
   format: yaml
-  label: YO Risk Graph API
-  slug: yo-risk-graph-api
+  label: Exponential History API
+  slug: exponential-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-risk-graph-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-history-api-openapi.yml
+- filename: exponential-performance-api-openapi.yml
+  format: yaml
+  label: Exponential Performance API
+  slug: exponential-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-performance-api-openapi.yml
+- filename: exponential-public-api-openapi.yml
+  format: yaml
+  label: Exponential Public API
+  slug: exponential-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-public-api-openapi.yml
+- filename: exponential-vault-api-openapi.yml
+  format: yaml
+  label: Exponential Vault API
+  slug: exponential-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/openapi/exponential-vault-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

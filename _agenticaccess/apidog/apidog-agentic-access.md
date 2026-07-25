@@ -3,12 +3,12 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: apidog-apidog-openapi.yml
+- filename: apidog-import-and-export-api-openapi.yml
   format: yaml
-  label: Apidog
-  slug: apidog
+  label: Apidog Import And Export API
+  slug: apidog-import-and-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/openapi/apidog-apidog-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/openapi/apidog-import-and-export-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

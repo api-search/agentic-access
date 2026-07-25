@@ -3,12 +3,12 @@ acting_count: 8
 action_class_counts:
   acting: 8
 api_specs:
-- filename: saviynt-eic-api_openapi3.yaml
+- filename: saviynt-analytics-api-openapi.yml
   format: yaml
-  label: Saviynt Enterprise Identity Cloud API
-  slug: saviynt-enterprise-identity-cloud-api
+  label: Saviynt Analytics API
+  slug: saviynt-analytics-api
   spec_type: OpenAPI
-  url: https://github.com/vivek9237/saviynt-api-reference/blob/main/docs/saviynt-eic-api_openapi3.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/openapi/saviynt-analytics-api-openapi.yml
 consequence_counts:
   safety-critical: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

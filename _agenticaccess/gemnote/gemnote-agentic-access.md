@@ -4,12 +4,24 @@ action_class_counts:
   acting: 1
   connected: 6
 api_specs:
-- filename: gemnote-openapi.yml
+- filename: gemnote-gifts-api-openapi.yml
   format: yaml
-  label: Gemnote API
-  slug: gemnote-api
+  label: Gemnote Gifts API
+  slug: gemnote-gifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/openapi/gemnote-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/openapi/gemnote-gifts-api-openapi.yml
+- filename: gemnote-greeting-cards-api-openapi.yml
+  format: yaml
+  label: Gemnote Greeting Cards API
+  slug: gemnote-greeting-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/openapi/gemnote-greeting-cards-api-openapi.yml
+- filename: gemnote-shipments-api-openapi.yml
+  format: yaml
+  label: Gemnote Shipments API
+  slug: gemnote-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/openapi/gemnote-shipments-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6

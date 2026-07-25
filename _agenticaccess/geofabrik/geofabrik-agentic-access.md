@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: index-v1.json
-  format: json
-  label: Geofabrik Download API
-  slug: download-api
+- filename: geofabrik-downloads-api-openapi.yml
+  format: yaml
+  label: Geofabrik Downloads API
+  slug: geofabrik-downloads-api
   spec_type: OpenAPI
-  url: https://download.geofabrik.de/index-v1.json
+  url: https://raw.githubusercontent.com/api-evangelist/geofabrik/refs/heads/main/openapi/geofabrik-downloads-api-openapi.yml
+- filename: geofabrik-index-api-openapi.yml
+  format: yaml
+  label: Geofabrik Index API
+  slug: geofabrik-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geofabrik/refs/heads/main/openapi/geofabrik-index-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

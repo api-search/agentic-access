@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: last-fm-openapi.yml
+- filename: last-fm-album-api-openapi.yml
   format: yaml
-  label: Last.fm API
-  slug: last-fm-api
+  label: Last.fm Album API
+  slug: last-fm-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/last-fm/refs/heads/main/openapi/last-fm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/last-fm/refs/heads/main/openapi/last-fm-album-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

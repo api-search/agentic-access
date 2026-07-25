@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 6
 api_specs:
-- filename: victoria-university-of-wellington-figshare-rest.yaml
+- filename: victoria-university-of-wellington-articles-api-openapi.yml
   format: yaml
-  label: Figshare REST API (Open Access Repository)
-  slug: figshare-rest
+  label: Victoria University of Wellington Articles API
+  slug: victoria-university-of-wellington-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-figshare-rest.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-articles-api-openapi.yml
 consequence_counts:
   read: 6
   write: 1

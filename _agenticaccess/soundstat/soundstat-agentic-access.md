@@ -4,24 +4,36 @@ action_class_counts:
   acting: 15
   connected: 5
 api_specs:
-- filename: soundstat-openapi.yml
+- filename: soundstat-genres-api-openapi.yml
   format: yaml
-  label: SoundStat Track Analysis API
-  slug: soundstat-track-analysis-api
+  label: SoundStat Genres API
+  slug: soundstat-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-openapi.yml
-- filename: soundstat-openapi.yml
-  format: yaml
-  label: SoundStat Search & Discovery API
-  slug: soundstat-search-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-openapi.yml
-- filename: soundstat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-genres-api-openapi.yml
+- filename: soundstat-recommendations-api-openapi.yml
   format: yaml
   label: SoundStat Recommendations API
   slug: soundstat-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-recommendations-api-openapi.yml
+- filename: soundstat-stats-api-openapi.yml
+  format: yaml
+  label: SoundStat Stats API
+  slug: soundstat-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-stats-api-openapi.yml
+- filename: soundstat-track-api-openapi.yml
+  format: yaml
+  label: SoundStat Track API
+  slug: soundstat-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-track-api-openapi.yml
+- filename: soundstat-tracks-api-openapi.yml
+  format: yaml
+  label: SoundStat Tracks API
+  slug: soundstat-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/openapi/soundstat-tracks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 15

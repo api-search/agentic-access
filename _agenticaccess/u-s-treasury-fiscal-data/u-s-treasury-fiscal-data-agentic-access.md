@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: treasury-fiscal-data-api-openapi.yaml
+- filename: u-s-treasury-fiscal-data-exchange-rates-api-openapi.yml
   format: yaml
-  label: Treasury Fiscal Data API
-  slug: fiscal-data-api
+  label: U.S. Treasury Fiscal Data Exchange Rates API
+  slug: u-s-treasury-fiscal-data-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/openapi/treasury-fiscal-data-api-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/openapi/u-s-treasury-fiscal-data-exchange-rates-api-openapi.yml
+- filename: u-s-treasury-fiscal-data-national-debt-api-openapi.yml
+  format: yaml
+  label: U.S. Treasury Fiscal Data National Debt API
+  slug: u-s-treasury-fiscal-data-national-debt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/openapi/u-s-treasury-fiscal-data-national-debt-api-openapi.yml
+- filename: u-s-treasury-fiscal-data-securities-api-openapi.yml
+  format: yaml
+  label: U.S. Treasury Fiscal Data Securities API
+  slug: u-s-treasury-fiscal-data-securities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/openapi/u-s-treasury-fiscal-data-securities-api-openapi.yml
+- filename: u-s-treasury-fiscal-data-treasury-statements-api-openapi.yml
+  format: yaml
+  label: U.S. Treasury Fiscal Data Treasury Statements API
+  slug: u-s-treasury-fiscal-data-treasury-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/openapi/u-s-treasury-fiscal-data-treasury-statements-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

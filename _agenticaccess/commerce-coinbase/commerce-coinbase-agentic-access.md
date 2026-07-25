@@ -4,18 +4,24 @@ action_class_counts:
   acting: 6
   connected: 6
 api_specs:
-- filename: openapi-charges.yml
+- filename: commerce-coinbase-charges-api-openapi.yml
   format: yaml
   label: Coinbase Commerce Charges API
-  slug: coinbase-commerce-charges-api
+  slug: commerce-coinbase-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/openapi-charges.yml
-- filename: openapi-checkouts.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-charges-api-openapi.yml
+- filename: commerce-coinbase-checkouts-api-openapi.yml
   format: yaml
-  label: Coinbase Business Checkouts API
-  slug: coinbase-business-checkouts-api
+  label: Coinbase Commerce Checkouts API
+  slug: commerce-coinbase-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/openapi-checkouts.yml
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-checkouts-api-openapi.yml
+- filename: commerce-coinbase-events-api-openapi.yml
+  format: yaml
+  label: Coinbase Commerce Events API
+  slug: commerce-coinbase-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-events-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 6

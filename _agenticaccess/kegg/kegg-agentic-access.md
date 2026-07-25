@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 13
 api_specs:
-- filename: kegg-rest-api.yml
+- filename: kegg-conv-api-openapi.yml
   format: yaml
-  label: KEGG REST API
-  slug: kegg-rest-api
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) conv API
+  slug: kegg-conv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-rest-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-conv-api-openapi.yml
+- filename: kegg-ddi-api-openapi.yml
+  format: yaml
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) ddi API
+  slug: kegg-ddi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-ddi-api-openapi.yml
+- filename: kegg-find-api-openapi.yml
+  format: yaml
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) find API
+  slug: kegg-find-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-find-api-openapi.yml
+- filename: kegg-get-api-openapi.yml
+  format: yaml
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) get API
+  slug: kegg-get-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-get-api-openapi.yml
+- filename: kegg-info-api-openapi.yml
+  format: yaml
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) info API
+  slug: kegg-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-info-api-openapi.yml
+- filename: kegg-link-api-openapi.yml
+  format: yaml
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) link API
+  slug: kegg-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-link-api-openapi.yml
+- filename: kegg-list-api-openapi.yml
+  format: yaml
+  label: Kyoto Encyclopedia of Genes and Genomes (KEGG) list API
+  slug: kegg-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/openapi/kegg-list-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

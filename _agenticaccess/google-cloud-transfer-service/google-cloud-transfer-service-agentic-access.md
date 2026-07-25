@@ -4,12 +4,24 @@ action_class_counts:
   acting: 4
   connected: 4
 api_specs:
-- filename: storage-transfer-api-openapi.yml
+- filename: google-cloud-transfer-service-agentpools-api-openapi.yml
   format: yaml
-  label: Storage Transfer API
-  slug: storage-transfer-api
+  label: Google Cloud Transfer Service AgentPools API
+  slug: google-cloud-transfer-service-agentpools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/storage-transfer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-agentpools-api-openapi.yml
+- filename: google-cloud-transfer-service-transferjobs-api-openapi.yml
+  format: yaml
+  label: Google Cloud Transfer Service TransferJobs API
+  slug: google-cloud-transfer-service-transferjobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-transferjobs-api-openapi.yml
+- filename: google-cloud-transfer-service-transferoperations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Transfer Service TransferOperations API
+  slug: google-cloud-transfer-service-transferoperations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-transferoperations-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 4

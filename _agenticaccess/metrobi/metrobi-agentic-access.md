@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: metrobi-delivery-api-openapi.json
-  format: json
-  label: Metrobi Delivery API
-  slug: metrobi-delivery-api
+- filename: metrobi-deliveries-api-openapi.yml
+  format: yaml
+  label: Metrobi Deliveries API
+  slug: metrobi-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/openapi/metrobi-delivery-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/metrobi/refs/heads/main/openapi/metrobi-deliveries-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

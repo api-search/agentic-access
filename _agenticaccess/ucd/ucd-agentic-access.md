@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 14
 api_specs:
-- filename: ucd-duchas.yaml
+- filename: ucd-cb-api-openapi.yml
   format: yaml
-  label: Dúchas API (National Folklore Collection, UCD)
-  slug: duchas
+  label: University College Dublin CBÉ API
+  slug: ucd-cb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-duchas.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-cb-api-openapi.yml
+- filename: ucd-cb-d-api-openapi.yml
+  format: yaml
+  label: University College Dublin CBÉD API
+  slug: ucd-cb-d-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-cb-d-api-openapi.yml
+- filename: ucd-cb-g-api-openapi.yml
+  format: yaml
+  label: University College Dublin CBÉG API
+  slug: ucd-cb-g-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-cb-g-api-openapi.yml
+- filename: ucd-cb-s-api-openapi.yml
+  format: yaml
+  label: University College Dublin CBÉS API
+  slug: ucd-cb-s-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-cb-s-api-openapi.yml
+- filename: ucd-metadata-api-openapi.yml
+  format: yaml
+  label: University College Dublin Metadata API
+  slug: ucd-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-metadata-api-openapi.yml
+- filename: ucd-reference-api-openapi.yml
+  format: yaml
+  label: University College Dublin Reference API
+  slug: ucd-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/openapi/ucd-reference-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 7
   connected: 3
 api_specs:
-- filename: paypay-opa-openapi-original.json
-  format: json
-  label: PayPay Open Payment API (OPA v2)
-  slug: paypay-open-payment-api-opa-v2
+- filename: paypay-payment-api-openapi.yml
+  format: yaml
+  label: PayPay Payment API
+  slug: paypay-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/openapi/paypay-opa-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/openapi/paypay-payment-api-openapi.yml
+- filename: paypay-payments-api-openapi.yml
+  format: yaml
+  label: PayPay Payments API
+  slug: paypay-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/openapi/paypay-payments-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 3

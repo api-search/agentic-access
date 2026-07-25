@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Coalition Exploit Scoring System (ESS) API
-  slug: exploit-scoring-system
+- filename: coalition-inc-cve-api-openapi.yml
+  format: yaml
+  label: Coalition Cve API
+  slug: coalition-inc-cve-api
   spec_type: OpenAPI
-  url: https://ess-api.coalitioninc.com/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/coalition-inc/refs/heads/main/openapi/coalition-inc-cve-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

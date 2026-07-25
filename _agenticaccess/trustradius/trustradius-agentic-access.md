@@ -3,18 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: trustradius-public-openapi.yml
+- filename: trustradius-categories-api-openapi.yml
   format: yaml
-  label: TrustRadius Public API
-  slug: trustradius-public-api
+  label: TrustRadius Categories API
+  slug: trustradius-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-public-openapi.yml
-- filename: trustradius-reviews-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-categories-api-openapi.yml
+- filename: trustradius-companies-api-openapi.yml
+  format: yaml
+  label: TrustRadius Companies API
+  slug: trustradius-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-companies-api-openapi.yml
+- filename: trustradius-products-api-openapi.yml
+  format: yaml
+  label: TrustRadius Products API
+  slug: trustradius-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-products-api-openapi.yml
+- filename: trustradius-reviews-api-openapi.yml
   format: yaml
   label: TrustRadius Reviews API
   slug: trustradius-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-reviews-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/openapi/trustradius-reviews-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

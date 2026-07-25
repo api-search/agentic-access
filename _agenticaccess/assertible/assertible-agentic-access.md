@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: assertible-openapi.yml
+- filename: assertible-deployments-api-openapi.yml
   format: yaml
-  label: Assertible API
-  slug: assertible-api
+  label: Assertible Deployments API
+  slug: assertible-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/openapi/assertible-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/openapi/assertible-deployments-api-openapi.yml
 consequence_counts:
   physical: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -15,6 +15,12 @@ api_specs:
   slug: sepolia-rpc
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimism/refs/heads/main/asyncapi/optimism-asyncapi.yml
+- filename: optimism-json-rpc-api-openapi.yml
+  format: yaml
+  label: Optimism JSON-RPC API
+  slug: optimism-json-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimism/refs/heads/main/openapi/optimism-json-rpc-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

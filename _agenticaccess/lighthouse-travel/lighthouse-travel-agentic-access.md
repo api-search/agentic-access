@@ -3,12 +3,54 @@ acting_count: 0
 action_class_counts:
   connected: 14
 api_specs:
-- filename: lighthouse-travel-integration-api-openapi.yml
+- filename: lighthouse-travel-demand-api-openapi.yml
   format: yaml
-  label: Lighthouse Integration API
-  slug: integration-api
+  label: Lighthouse Demand API
+  slug: lighthouse-travel-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-integration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-demand-api-openapi.yml
+- filename: lighthouse-travel-hotels-api-openapi.yml
+  format: yaml
+  label: Lighthouse Hotels API
+  slug: lighthouse-travel-hotels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-hotels-api-openapi.yml
+- filename: lighthouse-travel-market-insight-api-openapi.yml
+  format: yaml
+  label: Lighthouse Market Insight API
+  slug: lighthouse-travel-market-insight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-market-insight-api-openapi.yml
+- filename: lighthouse-travel-markets-api-openapi.yml
+  format: yaml
+  label: Lighthouse Markets API
+  slug: lighthouse-travel-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-markets-api-openapi.yml
+- filename: lighthouse-travel-parity-api-openapi.yml
+  format: yaml
+  label: Lighthouse Parity API
+  slug: lighthouse-travel-parity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-parity-api-openapi.yml
+- filename: lighthouse-travel-ranking-api-openapi.yml
+  format: yaml
+  label: Lighthouse Ranking API
+  slug: lighthouse-travel-ranking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-ranking-api-openapi.yml
+- filename: lighthouse-travel-rates-api-openapi.yml
+  format: yaml
+  label: Lighthouse Rates API
+  slug: lighthouse-travel-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-rates-api-openapi.yml
+- filename: lighthouse-travel-reviews-api-openapi.yml
+  format: yaml
+  label: Lighthouse Reviews API
+  slug: lighthouse-travel-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-reviews-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

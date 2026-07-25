@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: estated-property-data-api-openapi.yml
+- filename: estated-property-api-openapi.yml
   format: yaml
-  label: Estated Property Data API
-  slug: property-data-api
+  label: Estated Property API
+  slug: estated-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estated/refs/heads/main/openapi/estated-property-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/estated/refs/heads/main/openapi/estated-property-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

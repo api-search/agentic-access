@@ -4,12 +4,30 @@ action_class_counts:
   acting: 3
   connected: 7
 api_specs:
-- filename: crunchbase-openapi.yml
+- filename: crunchbase-autocomplete-api-openapi.yml
   format: yaml
-  label: Crunchbase API
-  slug: crunchbase-api
+  label: Crunchbase Autocomplete API
+  slug: crunchbase-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase/refs/heads/main/openapi/crunchbase-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase/refs/heads/main/openapi/crunchbase-autocomplete-api-openapi.yml
+- filename: crunchbase-deletes-api-openapi.yml
+  format: yaml
+  label: Crunchbase Deletes API
+  slug: crunchbase-deletes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase/refs/heads/main/openapi/crunchbase-deletes-api-openapi.yml
+- filename: crunchbase-entities-api-openapi.yml
+  format: yaml
+  label: Crunchbase Entities API
+  slug: crunchbase-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase/refs/heads/main/openapi/crunchbase-entities-api-openapi.yml
+- filename: crunchbase-search-api-openapi.yml
+  format: yaml
+  label: Crunchbase Search API
+  slug: crunchbase-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase/refs/heads/main/openapi/crunchbase-search-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3

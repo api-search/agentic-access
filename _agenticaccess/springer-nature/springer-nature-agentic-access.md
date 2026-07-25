@@ -3,18 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: springer-nature-meta-openapi.yml
-  format: yaml
-  label: Springer Nature Meta API
-  slug: springer-nature-meta-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-meta-openapi.yml
-- filename: springer-nature-openaccess-openapi.yml
+- filename: springer-nature-open-access-api-openapi.yml
   format: yaml
   label: Springer Nature Open Access API
-  slug: springer-nature-openaccess-api
+  slug: springer-nature-open-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-openaccess-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-open-access-api-openapi.yml
+- filename: springer-nature-search-api-openapi.yml
+  format: yaml
+  label: Springer Nature Search API
+  slug: springer-nature-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-search-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,36 @@ action_class_counts:
   acting: 2
   connected: 7
 api_specs:
-- filename: quorum-land-management-openapi.yml
+- filename: quorum-divisionorders-api-openapi.yml
   format: yaml
-  label: Quorum Land Management API
-  slug: quorum-land-management-api
+  label: Quorum Software DivisionOrders API
+  slug: quorum-divisionorders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-land-management-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-divisionorders-api-openapi.yml
+- filename: quorum-leases-api-openapi.yml
+  format: yaml
+  label: Quorum Software Leases API
+  slug: quorum-leases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-leases-api-openapi.yml
+- filename: quorum-owners-api-openapi.yml
+  format: yaml
+  label: Quorum Software Owners API
+  slug: quorum-owners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-owners-api-openapi.yml
+- filename: quorum-tracts-api-openapi.yml
+  format: yaml
+  label: Quorum Software Tracts API
+  slug: quorum-tracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-tracts-api-openapi.yml
+- filename: quorum-wells-api-openapi.yml
+  format: yaml
+  label: Quorum Software Wells API
+  slug: quorum-wells-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-wells-api-openapi.yml
 consequence_counts:
   read: 7
   write: 2

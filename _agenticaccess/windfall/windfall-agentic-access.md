@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: windfall-openapi-original.json
-  format: json
-  label: Windfall API
-  slug: windfall-api
+- filename: windfall-windfall-api-api-openapi.yml
+  format: yaml
+  label: Windfall Windfall API API
+  slug: windfall-windfall-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windfall/refs/heads/main/openapi/windfall-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/windfall/refs/heads/main/openapi/windfall-windfall-api-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 4
   connected: 3
 api_specs:
-- filename: microsoft-azure-data-lake-openapi.yml
+- filename: microsoft-azure-data-lake-filesystems-api-openapi.yml
   format: yaml
-  label: Azure Data Lake Storage REST API
-  slug: azure-data-lake-storage-rest-api
+  label: Azure Data Lake Storage Filesystems API
+  slug: microsoft-azure-data-lake-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-lake/refs/heads/main/openapi/microsoft-azure-data-lake-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-lake/refs/heads/main/openapi/microsoft-azure-data-lake-filesystems-api-openapi.yml
 consequence_counts:
   read: 3
   write: 4

@@ -4,12 +4,30 @@ action_class_counts:
   acting: 3
   connected: 17
 api_specs:
-- filename: ocean-security-openapi.yml
+- filename: ocean-security-metrics-api-openapi.yml
   format: yaml
-  label: Ocean Security API
-  slug: ocean-security-api
+  label: Ocean Security Metrics API
+  slug: ocean-security-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-metrics-api-openapi.yml
+- filename: ocean-security-settings-api-openapi.yml
+  format: yaml
+  label: Ocean Security Settings API
+  slug: ocean-security-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-settings-api-openapi.yml
+- filename: ocean-security-sonar-api-openapi.yml
+  format: yaml
+  label: Ocean Security Sonar API
+  slug: ocean-security-sonar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-sonar-api-openapi.yml
+- filename: ocean-security-threats-api-openapi.yml
+  format: yaml
+  label: Ocean Security Threats API
+  slug: ocean-security-threats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/openapi/ocean-security-threats-api-openapi.yml
 consequence_counts:
   read: 17
   write: 3

@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: openapi.yaml
+- filename: smithsonian-content-api-openapi.yml
   format: yaml
-  label: Smithsonian Open Access API
-  slug: smithsonian-open-access-api
+  label: Smithsonian Institution content API
+  slug: smithsonian-content-api
   spec_type: OpenAPI
-  url: https://edan.si.edu/openaccess/apidocs/
+  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-content-api-openapi.yml
+- filename: smithsonian-metrics-api-openapi.yml
+  format: yaml
+  label: Smithsonian Institution metrics API
+  slug: smithsonian-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-metrics-api-openapi.yml
+- filename: smithsonian-search-api-openapi.yml
+  format: yaml
+  label: Smithsonian Institution search API
+  slug: smithsonian-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-search-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

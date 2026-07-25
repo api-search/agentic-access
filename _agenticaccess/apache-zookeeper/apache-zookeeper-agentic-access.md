@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 21
 api_specs:
-- filename: zookeeper-admin-api.yml
+- filename: apache-zookeeper-cluster-api-openapi.yml
   format: yaml
-  label: Apache ZooKeeper Admin Server API
-  slug: apache-zookeeper-admin-api
+  label: Apache ZooKeeper Cluster API
+  slug: apache-zookeeper-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/zookeeper-admin-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/apache-zookeeper-cluster-api-openapi.yml
+- filename: apache-zookeeper-configuration-api-openapi.yml
+  format: yaml
+  label: Apache ZooKeeper Configuration API
+  slug: apache-zookeeper-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/apache-zookeeper-configuration-api-openapi.yml
+- filename: apache-zookeeper-health-api-openapi.yml
+  format: yaml
+  label: Apache ZooKeeper Health API
+  slug: apache-zookeeper-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/apache-zookeeper-health-api-openapi.yml
+- filename: apache-zookeeper-monitoring-api-openapi.yml
+  format: yaml
+  label: Apache ZooKeeper Monitoring API
+  slug: apache-zookeeper-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/apache-zookeeper-monitoring-api-openapi.yml
+- filename: apache-zookeeper-watches-api-openapi.yml
+  format: yaml
+  label: Apache ZooKeeper Watches API
+  slug: apache-zookeeper-watches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/apache-zookeeper-watches-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

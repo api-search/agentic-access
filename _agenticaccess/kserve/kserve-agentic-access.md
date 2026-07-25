@@ -4,12 +4,24 @@ action_class_counts:
   acting: 3
   connected: 7
 api_specs:
-- filename: kserve-openapi.yml
+- filename: kserve-health-api-openapi.yml
   format: yaml
-  label: KServe Inference API
-  slug: inference-api
+  label: KServe Health API
+  slug: kserve-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/openapi/kserve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/openapi/kserve-health-api-openapi.yml
+- filename: kserve-kserve-inference-protocol-api-openapi.yml
+  format: yaml
+  label: KServe KServe Inference Protocol API
+  slug: kserve-kserve-inference-protocol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/openapi/kserve-kserve-inference-protocol-api-openapi.yml
+- filename: kserve-models-api-openapi.yml
+  format: yaml
+  label: KServe Models API
+  slug: kserve-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/openapi/kserve-models-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3

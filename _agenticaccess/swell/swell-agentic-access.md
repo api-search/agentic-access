@@ -4,12 +4,18 @@ action_class_counts:
   acting: 6
   connected: 4
 api_specs:
-- filename: swell-openapi.yml
+- filename: swell-orders-api-openapi.yml
   format: yaml
-  label: Swell Backend API
-  slug: backend-api
+  label: Swell Orders API
+  slug: swell-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swell/refs/heads/main/openapi/swell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/swell/refs/heads/main/openapi/swell-orders-api-openapi.yml
+- filename: swell-products-api-openapi.yml
+  format: yaml
+  label: Swell Products API
+  slug: swell-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swell/refs/heads/main/openapi/swell-products-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 4

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 3
 api_specs:
-- filename: remote-cache-spec
+- filename: turborepo-analytics-api-openapi.yml
   format: yaml
-  label: Turborepo Remote Cache API
-  slug: turborepo-remote-cache-api
+  label: Turborepo analytics API
+  slug: turborepo-analytics-api
   spec_type: OpenAPI
-  url: https://turborepo.dev/api/remote-cache-spec
+  url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/openapi/turborepo-analytics-api-openapi.yml
+- filename: turborepo-artifacts-api-openapi.yml
+  format: yaml
+  label: Turborepo artifacts API
+  slug: turborepo-artifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/openapi/turborepo-artifacts-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3

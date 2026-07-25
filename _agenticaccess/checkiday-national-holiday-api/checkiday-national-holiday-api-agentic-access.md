@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: checkiday-openapi.yml
+- filename: checkiday-national-holiday-api-events-api-openapi.yml
   format: yaml
-  label: Checkiday Holiday and Event API
-  slug: checkiday-holiday-api
+  label: Checkiday - National Holiday and Event API Events API
+  slug: checkiday-national-holiday-api-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/openapi/checkiday-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/openapi/checkiday-national-holiday-api-events-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: punkapi-openapi.yml
+- filename: punkapi-beers-api-openapi.yml
   format: yaml
-  label: Punk API — Beers
-  slug: punk-api-beers
+  label: Punk API Beers API
+  slug: punkapi-beers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/openapi/punkapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/openapi/punkapi-beers-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,18 +3,18 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: materialize-openapi.yml
-  format: yaml
-  label: Materialize HTTP API
-  slug: materialize-http-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/openapi/materialize-openapi.yml
 - filename: materialize-asyncapi.yml
   format: yaml
   label: Materialize Streaming Sources and Sinks (AsyncAPI)
   slug: materialize-streaming-asyncapi
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/asyncapi/materialize-asyncapi.yml
+- filename: materialize-sql-api-openapi.yml
+  format: yaml
+  label: Materialize Sql API
+  slug: materialize-sql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/openapi/materialize-sql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: comeet-careers-api-openapi.yml
+- filename: comeet-positions-api-openapi.yml
   format: yaml
-  label: Comeet Careers API
-  slug: comeet-careers-api
+  label: Comeet Positions API
+  slug: comeet-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/openapi/comeet-careers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/openapi/comeet-positions-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

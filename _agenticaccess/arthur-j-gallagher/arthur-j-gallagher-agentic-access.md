@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: gallagher-command-centre-api.yml
+- filename: arthur-j-gallagher-access-groups-api-openapi.yml
   format: yaml
-  label: Gallagher Command Centre REST API
-  slug: command-centre-api
+  label: Arthur J. Gallagher Access Groups API
+  slug: arthur-j-gallagher-access-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/openapi/gallagher-command-centre-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/openapi/arthur-j-gallagher-access-groups-api-openapi.yml
+- filename: arthur-j-gallagher-alarms-api-openapi.yml
+  format: yaml
+  label: Arthur J. Gallagher Alarms API
+  slug: arthur-j-gallagher-alarms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/openapi/arthur-j-gallagher-alarms-api-openapi.yml
+- filename: arthur-j-gallagher-cardholders-api-openapi.yml
+  format: yaml
+  label: Arthur J. Gallagher Cardholders API
+  slug: arthur-j-gallagher-cardholders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/openapi/arthur-j-gallagher-cardholders-api-openapi.yml
+- filename: arthur-j-gallagher-events-api-openapi.yml
+  format: yaml
+  label: Arthur J. Gallagher Events API
+  slug: arthur-j-gallagher-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/openapi/arthur-j-gallagher-events-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

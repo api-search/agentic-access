@@ -4,12 +4,36 @@ action_class_counts:
   acting: 9
   connected: 9
 api_specs:
-- filename: bettercloud-platform-api.yaml
+- filename: bettercloud-events-api-openapi.yml
   format: yaml
-  label: BetterCloud Platform API
-  slug: bettercloud-platform-api
+  label: BetterCloud Events API
+  slug: bettercloud-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-platform-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-events-api-openapi.yml
+- filename: bettercloud-groups-api-openapi.yml
+  format: yaml
+  label: BetterCloud Groups API
+  slug: bettercloud-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-groups-api-openapi.yml
+- filename: bettercloud-integrations-api-openapi.yml
+  format: yaml
+  label: BetterCloud Integrations API
+  slug: bettercloud-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-integrations-api-openapi.yml
+- filename: bettercloud-users-api-openapi.yml
+  format: yaml
+  label: BetterCloud Users API
+  slug: bettercloud-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-users-api-openapi.yml
+- filename: bettercloud-workflows-api-openapi.yml
+  format: yaml
+  label: BetterCloud Workflows API
+  slug: bettercloud-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-workflows-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9

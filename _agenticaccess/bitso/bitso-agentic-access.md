@@ -4,18 +4,24 @@ action_class_counts:
   acting: 2
   connected: 10
 api_specs:
-- filename: llms.txt
-  format: yaml
-  label: Bitso Trading REST API (v3)
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://docs.bitso.com/llms.txt
 - filename: bitso-asyncapi.yml
   format: yaml
   label: Bitso WebSocket API
   slug: websocket
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/asyncapi/bitso-asyncapi.yml
+- filename: bitso-private-api-openapi.yml
+  format: yaml
+  label: Bitso Private API
+  slug: bitso-private-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/openapi/bitso-private-api-openapi.yml
+- filename: bitso-public-api-openapi.yml
+  format: yaml
+  label: Bitso Public API
+  slug: bitso-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/openapi/bitso-public-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 10

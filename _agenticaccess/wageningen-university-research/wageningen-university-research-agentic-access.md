@@ -3,18 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 55
 api_specs:
-- filename: wageningen-university-research-agrodatacube-v2.yaml
+- filename: wageningen-university-research-altitude-api-openapi.yml
   format: yaml
-  label: AgroDataCube API v2
-  slug: agrodatacube-v2
+  label: Wageningen University & Research Altitude API
+  slug: wageningen-university-research-altitude-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-agrodatacube-v2.yaml
-- filename: wageningen-university-research-agrodatacube-v1.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-altitude-api-openapi.yml
+- filename: wageningen-university-research-kpi-api-openapi.yml
   format: yaml
-  label: AgroDataCube API v1 (legacy)
-  slug: agrodatacube-v1
+  label: Wageningen University & Research KPI API
+  slug: wageningen-university-research-kpi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-agrodatacube-v1.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-kpi-api-openapi.yml
+- filename: wageningen-university-research-raster-api-openapi.yml
+  format: yaml
+  label: Wageningen University & Research Raster API
+  slug: wageningen-university-research-raster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-raster-api-openapi.yml
+- filename: wageningen-university-research-retrieve-api-openapi.yml
+  format: yaml
+  label: Wageningen University & Research Retrieve API
+  slug: wageningen-university-research-retrieve-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-retrieve-api-openapi.yml
+- filename: wageningen-university-research-return-api-openapi.yml
+  format: yaml
+  label: Wageningen University & Research Return API
+  slug: wageningen-university-research-return-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-return-api-openapi.yml
 consequence_counts:
   read: 55
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

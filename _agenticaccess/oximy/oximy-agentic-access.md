@@ -4,12 +4,24 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: oximy-public-api-openapi.yml
+- filename: oximy-init-api-openapi.yml
   format: yaml
-  label: Oximy Public API
-  slug: oximy-public-api
+  label: Oximy Init API
+  slug: oximy-init-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/openapi/oximy-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/openapi/oximy-init-api-openapi.yml
+- filename: oximy-policy-api-openapi.yml
+  format: yaml
+  label: Oximy Policy API
+  slug: oximy-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/openapi/oximy-policy-api-openapi.yml
+- filename: oximy-telemetry-api-openapi.yml
+  format: yaml
+  label: Oximy Telemetry API
+  slug: oximy-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/openapi/oximy-telemetry-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2

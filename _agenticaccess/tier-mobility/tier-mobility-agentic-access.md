@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: tier-mobility-gbfs-openapi.yml
+- filename: tier-mobility-discovery-api-openapi.yml
   format: yaml
-  label: TIER / Dott GBFS API
-  slug: tier-mobility-gbfs
+  label: TIER Discovery API
+  slug: tier-mobility-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/openapi/tier-mobility-gbfs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/openapi/tier-mobility-discovery-api-openapi.yml
+- filename: tier-mobility-stations-api-openapi.yml
+  format: yaml
+  label: TIER Stations API
+  slug: tier-mobility-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/openapi/tier-mobility-stations-api-openapi.yml
+- filename: tier-mobility-system-api-openapi.yml
+  format: yaml
+  label: TIER System API
+  slug: tier-mobility-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/openapi/tier-mobility-system-api-openapi.yml
+- filename: tier-mobility-vehicles-api-openapi.yml
+  format: yaml
+  label: TIER Vehicles API
+  slug: tier-mobility-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/openapi/tier-mobility-vehicles-api-openapi.yml
+- filename: tier-mobility-zones-api-openapi.yml
+  format: yaml
+  label: TIER Zones API
+  slug: tier-mobility-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/openapi/tier-mobility-zones-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

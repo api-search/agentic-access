@@ -2,6 +2,67 @@
 acting_count: 0
 action_class_counts:
   connected: 4
+api_specs:
+- filename: keycorp-commercial-accounts-reporting-openapi.yml
+  format: yaml
+  label: KeyBank Account Information API
+  slug: account-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-commercial-accounts-reporting-openapi.yml
+- filename: keycorp-ach-originations-openapi.yml
+  format: yaml
+  label: KeyBank ACH Origination API
+  slug: ach-origination-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-ach-originations-openapi.yml
+- filename: keycorp-rtp-wire-payments-openapi.yml
+  format: yaml
+  label: KeyBank Wire Transfer API
+  slug: wire-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-rtp-wire-payments-openapi.yml
+- filename: keycorp-rtp-wire-payments-openapi.yml
+  format: yaml
+  label: KeyBank RTP Send Payment API
+  slug: rtp-send-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-rtp-wire-payments-openapi.yml
+- filename: keycorp-account-validation-openapi.yml
+  format: yaml
+  label: KeyBank Account Validation API
+  slug: account-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-account-validation-openapi.yml
+- filename: keycorp-ach-inquiry-openapi.yml
+  format: yaml
+  label: KeyBank ACH Inquiry API
+  slug: ach-inquiry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-ach-inquiry-openapi.yml
+- filename: keycorp-wire-inquiry-openapi.yml
+  format: yaml
+  label: KeyBank Wire Inquiry API
+  slug: wire-inquiry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-wire-inquiry-openapi.yml
+- filename: keycorp-rtp-inquiry-openapi.yml
+  format: yaml
+  label: KeyBank RTP Inquiry API
+  slug: rtp-inquiry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-rtp-inquiry-openapi.yml
+- filename: keycorp-check-services-openapi.yml
+  format: yaml
+  label: KeyBank Check Services API
+  slug: check-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-check-services-openapi.yml
+- filename: keycorp-webhooks-openapi.yml
+  format: yaml
+  label: KeyBank Webhooks
+  slug: webhooks
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/openapi/keycorp-webhooks-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -36,4 +97,11 @@ tags:
 - Financial Services
 - Fortune 500
 - Payments
+- United States
+- Super-Regional Bank
+- Treasury Management
+- Embedded Banking
+- ACH
+- Real-Time Payments
+- Wire Transfer
 ---

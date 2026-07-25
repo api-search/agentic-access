@@ -4,12 +4,18 @@ action_class_counts:
   acting: 2
   connected: 1
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-video-intelligence-operations-api-openapi.yml
   format: yaml
-  label: Google Cloud Video Intelligence API
-  slug: google-cloud-video-intelligence-api
+  label: Google Cloud Video Intelligence Operations API
+  slug: google-cloud-video-intelligence-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-video-intelligence/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-video-intelligence/refs/heads/main/openapi/google-cloud-video-intelligence-operations-api-openapi.yml
+- filename: google-cloud-video-intelligence-videos-annotate-api-openapi.yml
+  format: yaml
+  label: Google Cloud Video Intelligence Videos:annotate API
+  slug: google-cloud-video-intelligence-videos-annotate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-video-intelligence/refs/heads/main/openapi/google-cloud-video-intelligence-videos-annotate-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2

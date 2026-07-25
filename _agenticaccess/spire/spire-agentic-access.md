@@ -9,18 +9,24 @@ api_specs:
   slug: spire-workload-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/asyncapi/spire-workload-asyncapi.yml
-- filename: spire-health-openapi.yml
+- filename: spire-discovery-api-openapi.yml
   format: yaml
-  label: SPIRE Agent API
-  slug: spire-agent-api
+  label: SPIRE Discovery API
+  slug: spire-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/openapi/spire-health-openapi.yml
-- filename: spire-oidc-discovery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/openapi/spire-discovery-api-openapi.yml
+- filename: spire-health-api-openapi.yml
   format: yaml
-  label: SPIRE OIDC Discovery API
-  slug: spire-oidc-discovery-api
+  label: SPIRE Health API
+  slug: spire-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/openapi/spire-oidc-discovery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/openapi/spire-health-api-openapi.yml
+- filename: spire-keys-api-openapi.yml
+  format: yaml
+  label: SPIRE Keys API
+  slug: spire-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/openapi/spire-keys-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

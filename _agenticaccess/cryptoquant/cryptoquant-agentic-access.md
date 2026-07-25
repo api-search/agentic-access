@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: cryptoquant-openapi.yml
+- filename: cryptoquant-exchange-flows-api-openapi.yml
   format: yaml
-  label: CryptoQuant API
-  slug: cryptoquant-api
+  label: CryptoQuant Exchange Flows API
+  slug: cryptoquant-exchange-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-exchange-flows-api-openapi.yml
+- filename: cryptoquant-market-data-api-openapi.yml
+  format: yaml
+  label: CryptoQuant Market Data API
+  slug: cryptoquant-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-market-data-api-openapi.yml
+- filename: cryptoquant-miner-api-openapi.yml
+  format: yaml
+  label: CryptoQuant Miner API
+  slug: cryptoquant-miner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-miner-api-openapi.yml
+- filename: cryptoquant-on-chain-api-openapi.yml
+  format: yaml
+  label: CryptoQuant On-Chain API
+  slug: cryptoquant-on-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-on-chain-api-openapi.yml
+- filename: cryptoquant-stablecoins-api-openapi.yml
+  format: yaml
+  label: CryptoQuant Stablecoins API
+  slug: cryptoquant-stablecoins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-stablecoins-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,18 +4,36 @@ action_class_counts:
   acting: 2
   connected: 6
 api_specs:
-- filename: ingram-micro-reseller-api-openapi.yml
+- filename: ingram-micro-catalog-api-openapi.yml
   format: yaml
-  label: Ingram Micro Reseller API
-  slug: reseller-api
+  label: ingram-micro Catalog API
+  slug: ingram-micro-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-reseller-api-openapi.yml
-- filename: ingram-micro-vendor-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-catalog-api-openapi.yml
+- filename: ingram-micro-inventory-api-openapi.yml
   format: yaml
-  label: Ingram Micro Vendor API
-  slug: vendor-api
+  label: ingram-micro Inventory API
+  slug: ingram-micro-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-vendor-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-inventory-api-openapi.yml
+- filename: ingram-micro-orders-api-openapi.yml
+  format: yaml
+  label: ingram-micro Orders API
+  slug: ingram-micro-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-orders-api-openapi.yml
+- filename: ingram-micro-pricing-api-openapi.yml
+  format: yaml
+  label: ingram-micro Pricing API
+  slug: ingram-micro-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-pricing-api-openapi.yml
+- filename: ingram-micro-shipments-api-openapi.yml
+  format: yaml
+  label: ingram-micro Shipments API
+  slug: ingram-micro-shipments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/openapi/ingram-micro-shipments-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6

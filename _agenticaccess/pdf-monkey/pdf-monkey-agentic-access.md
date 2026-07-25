@@ -4,12 +4,24 @@ action_class_counts:
   acting: 7
   connected: 6
 api_specs:
-- filename: openapi.json
-  format: json
-  label: PDF Monkey API
-  slug: pdf-monkey-api
+- filename: pdf-monkey-authentication-api-openapi.yml
+  format: yaml
+  label: PDF Monkey Authentication API
+  slug: pdf-monkey-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-authentication-api-openapi.yml
+- filename: pdf-monkey-documents-api-openapi.yml
+  format: yaml
+  label: PDF Monkey Documents API
+  slug: pdf-monkey-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-documents-api-openapi.yml
+- filename: pdf-monkey-templates-api-openapi.yml
+  format: yaml
+  label: PDF Monkey Templates API
+  slug: pdf-monkey-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-templates-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7

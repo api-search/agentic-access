@@ -4,12 +4,36 @@ action_class_counts:
   acting: 11
   connected: 11
 api_specs:
-- filename: leanix-openapi.json
-  format: json
-  label: LeanIX Integration API
-  slug: integration-api
+- filename: leanix-configurations-api-openapi.yml
+  format: yaml
+  label: LeanIX configurations API
+  slug: leanix-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-configurations-api-openapi.yml
+- filename: leanix-examples-api-openapi.yml
+  format: yaml
+  label: LeanIX examples API
+  slug: leanix-examples-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-examples-api-openapi.yml
+- filename: leanix-fastsynchronizationruns-api-openapi.yml
+  format: yaml
+  label: LeanIX fastSynchronizationRuns API
+  slug: leanix-fastsynchronizationruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-fastsynchronizationruns-api-openapi.yml
+- filename: leanix-storages-api-openapi.yml
+  format: yaml
+  label: LeanIX storages API
+  slug: leanix-storages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-storages-api-openapi.yml
+- filename: leanix-synchronizationruns-api-openapi.yml
+  format: yaml
+  label: LeanIX synchronizationRuns API
+  slug: leanix-synchronizationruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-synchronizationruns-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1

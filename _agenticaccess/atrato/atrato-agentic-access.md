@@ -4,12 +4,18 @@ action_class_counts:
   acting: 6
   connected: 7
 api_specs:
-- filename: atrato-partners-openapi.yml
+- filename: atrato-ecommerce-api-openapi.yml
   format: yaml
-  label: Atrato Partners API
-  slug: atrato-partners-api
+  label: Atrato Ecommerce API
+  slug: atrato-ecommerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/openapi/atrato-partners-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/openapi/atrato-ecommerce-api-openapi.yml
+- filename: atrato-integration-api-openapi.yml
+  format: yaml
+  label: Atrato Integration API
+  slug: atrato-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/openapi/atrato-integration-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 7

@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: national-geospatial-intelligence-agency-openapi.json
-  format: json
-  label: NGA Earth-Info REST API
-  slug: earth-info-rest-api
+- filename: national-geospatial-intelligence-agency-clock-api-openapi.yml
+  format: yaml
+  label: National Geospatial-Intelligence Agency Clock API
+  slug: national-geospatial-intelligence-agency-clock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/main/openapi/national-geospatial-intelligence-agency-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-clock-api-openapi.yml
+- filename: national-geospatial-intelligence-agency-eopp-api-openapi.yml
+  format: yaml
+  label: National Geospatial-Intelligence Agency EOPP API
+  slug: national-geospatial-intelligence-agency-eopp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-eopp-api-openapi.yml
+- filename: national-geospatial-intelligence-agency-ephemeris-api-openapi.yml
+  format: yaml
+  label: National Geospatial-Intelligence Agency Ephemeris API
+  slug: national-geospatial-intelligence-agency-ephemeris-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-ephemeris-api-openapi.yml
+- filename: national-geospatial-intelligence-agency-orbit-api-openapi.yml
+  format: yaml
+  label: National Geospatial-Intelligence Agency Orbit API
+  slug: national-geospatial-intelligence-agency-orbit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/openapi/national-geospatial-intelligence-agency-orbit-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

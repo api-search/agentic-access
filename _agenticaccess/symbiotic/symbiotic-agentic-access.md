@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 21
 api_specs:
-- filename: symbiotic-relay-openapi.json
-  format: json
-  label: Symbiotic Relay API
-  slug: symbiotic-relay-api
+- filename: symbiotic-symbioticapiservice-api-openapi.yml
+  format: yaml
+  label: Symbiotic SymbioticAPIService API
+  slug: symbiotic-symbioticapiservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symbiotic/refs/heads/main/openapi/symbiotic-relay-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/symbiotic/refs/heads/main/openapi/symbiotic-symbioticapiservice-api-openapi.yml
 consequence_counts:
   read: 21
   write: 1

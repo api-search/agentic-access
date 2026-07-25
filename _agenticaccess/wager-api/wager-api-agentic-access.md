@@ -3,18 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: wager-api-openapi.yml
+- filename: wager-api-futures-api-openapi.yml
   format: yaml
-  label: Wager API - Sports Odds
-  slug: wager-api-odds
+  label: Wager API Futures API
+  slug: wager-api-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-openapi.yml
-- filename: wager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-futures-api-openapi.yml
+- filename: wager-api-games-api-openapi.yml
   format: yaml
-  label: Wager API - Fantasy Sports Data
-  slug: wager-api-fantasy
+  label: Wager API Games API
+  slug: wager-api-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-games-api-openapi.yml
+- filename: wager-api-odds-api-openapi.yml
+  format: yaml
+  label: Wager API Odds API
+  slug: wager-api-odds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-odds-api-openapi.yml
+- filename: wager-api-players-api-openapi.yml
+  format: yaml
+  label: Wager API Players API
+  slug: wager-api-players-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-players-api-openapi.yml
+- filename: wager-api-props-api-openapi.yml
+  format: yaml
+  label: Wager API Props API
+  slug: wager-api-props-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/openapi/wager-api-props-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

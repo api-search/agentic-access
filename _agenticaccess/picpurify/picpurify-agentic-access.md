@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: picpurify-openapi.yaml
+- filename: picpurify-image-analysis-api-openapi.yml
   format: yaml
-  label: PicPurify Moderation API
-  slug: picpurify
+  label: PicPurify Image Analysis API
+  slug: picpurify-image-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/openapi/picpurify-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/openapi/picpurify-image-analysis-api-openapi.yml
+- filename: picpurify-video-analysis-api-openapi.yml
+  format: yaml
+  label: PicPurify Video Analysis API
+  slug: picpurify-video-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/openapi/picpurify-video-analysis-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

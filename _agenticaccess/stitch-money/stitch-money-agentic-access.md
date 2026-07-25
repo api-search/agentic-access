@@ -3,42 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: stitch-money-openapi.yml
+- filename: stitch-money-graphql-api-openapi.yml
   format: yaml
-  label: Stitch Payments (Pay By Bank)
-  slug: payments-pay-by-bank
+  label: Stitch GraphQL API
+  slug: stitch-money-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stitch-money/refs/heads/main/openapi/stitch-money-openapi.yml
-- filename: stitch-money-openapi.yml
-  format: yaml
-  label: Stitch Account Verification API
-  slug: account-verification
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stitch-money/refs/heads/main/openapi/stitch-money-openapi.yml
-- filename: stitch-money-openapi.yml
-  format: yaml
-  label: Stitch Financial Data API
-  slug: financial-data
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stitch-money/refs/heads/main/openapi/stitch-money-openapi.yml
-- filename: stitch-money-openapi.yml
-  format: yaml
-  label: Stitch Payouts and Disbursements API
-  slug: payouts-disbursements
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stitch-money/refs/heads/main/openapi/stitch-money-openapi.yml
-- filename: stitch-money-openapi.yml
-  format: yaml
-  label: Stitch Refunds API
-  slug: refunds
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stitch-money/refs/heads/main/openapi/stitch-money-openapi.yml
-- filename: stitch-money-openapi.yml
-  format: yaml
-  label: Stitch Webhooks and Subscriptions API
-  slug: webhooks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stitch-money/refs/heads/main/openapi/stitch-money-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stitch-money/refs/heads/main/openapi/stitch-money-graphql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

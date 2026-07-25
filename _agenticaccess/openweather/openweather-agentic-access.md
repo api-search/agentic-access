@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: openweather-openapi.yml
+- filename: openweather-air-pollution-api-openapi.yml
+  format: yaml
+  label: OpenWeather Air Pollution API
+  slug: openweather-air-pollution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweather/refs/heads/main/openapi/openweather-air-pollution-api-openapi.yml
+- filename: openweather-air-pollution-api-openapi.yml
+  format: yaml
+  label: OpenWeather Air Pollution API
+  slug: openweather-air-pollution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openweather/refs/heads/main/openapi/openweather-air-pollution-api-openapi.yml
+- filename: openweather-one-call-api-openapi.yml
   format: yaml
   label: OpenWeather One Call API
   slug: openweather-one-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweather/refs/heads/main/openapi/openweather-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openweather/refs/heads/main/openapi/openweather-one-call-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

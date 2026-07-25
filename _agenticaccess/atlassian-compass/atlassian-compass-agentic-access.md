@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: atlassian-compass-openapi.yml
+- filename: atlassian-compass-events-api-openapi.yml
   format: yaml
-  label: Atlassian Compass REST API
-  slug: atlassian-compass-rest-api
+  label: Atlassian Compass Events API
+  slug: atlassian-compass-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-events-api-openapi.yml
+- filename: atlassian-compass-metrics-api-openapi.yml
+  format: yaml
+  label: Atlassian Compass Metrics API
+  slug: atlassian-compass-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-metrics-api-openapi.yml
 consequence_counts:
   physical: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,30 @@ action_class_counts:
   acting: 7
   connected: 9
 api_specs:
-- filename: openapi.yml
+- filename: google-apps-script-processes-api-openapi.yml
   format: yaml
-  label: Google Apps Script API
-  slug: google-apps-script
+  label: Google Apps Script Processes API
+  slug: google-apps-script-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-processes-api-openapi.yml
+- filename: google-apps-script-processes-listscriptprocesses-api-openapi.yml
+  format: yaml
+  label: Google Apps Script processes:listScriptProcesses API
+  slug: google-apps-script-processes-listscriptprocesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-processes-listscriptprocesses-api-openapi.yml
+- filename: google-apps-script-projects-api-openapi.yml
+  format: yaml
+  label: Google Apps Script Projects API
+  slug: google-apps-script-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-projects-api-openapi.yml
+- filename: google-apps-script-scripts-api-openapi.yml
+  format: yaml
+  label: Google Apps Script Scripts API
+  slug: google-apps-script-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-scripts-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 9

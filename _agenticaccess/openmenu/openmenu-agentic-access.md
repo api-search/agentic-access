@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: openmenu-openapi.yml
+- filename: openmenu-analytics-api-openapi.yml
   format: yaml
-  label: OpenMenu API
-  slug: rest-api
+  label: OpenMenu Analytics API
+  slug: openmenu-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-analytics-api-openapi.yml
+- filename: openmenu-deals-api-openapi.yml
+  format: yaml
+  label: OpenMenu Deals API
+  slug: openmenu-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-deals-api-openapi.yml
+- filename: openmenu-ingredients-api-openapi.yml
+  format: yaml
+  label: OpenMenu Ingredients API
+  slug: openmenu-ingredients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-ingredients-api-openapi.yml
+- filename: openmenu-restaurants-api-openapi.yml
+  format: yaml
+  label: OpenMenu Restaurants API
+  slug: openmenu-restaurants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-restaurants-api-openapi.yml
+- filename: openmenu-search-api-openapi.yml
+  format: yaml
+  label: OpenMenu Search API
+  slug: openmenu-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/openapi/openmenu-search-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

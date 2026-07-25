@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 5
 api_specs:
-- filename: microsoft-power-platform-openapi.yml
+- filename: microsoft-power-platform-metadata-api-openapi.yml
   format: yaml
-  label: Microsoft Dataverse Web API
-  slug: dataverse-api
+  label: Microsoft Power Platform Metadata API
+  slug: microsoft-power-platform-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/openapi/microsoft-power-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/openapi/microsoft-power-platform-metadata-api-openapi.yml
+- filename: microsoft-power-platform-records-api-openapi.yml
+  format: yaml
+  label: Microsoft Power Platform Records API
+  slug: microsoft-power-platform-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/openapi/microsoft-power-platform-records-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3

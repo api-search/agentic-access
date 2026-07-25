@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: currencybeacon-openapi.yml
+- filename: currencybeacon-conversion-api-openapi.yml
   format: yaml
-  label: CurrencyBeacon API
-  slug: currencybeacon-api
+  label: CurrencyBeacon conversion API
+  slug: currencybeacon-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-conversion-api-openapi.yml
+- filename: currencybeacon-currencies-api-openapi.yml
+  format: yaml
+  label: CurrencyBeacon currencies API
+  slug: currencybeacon-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-currencies-api-openapi.yml
+- filename: currencybeacon-rates-api-openapi.yml
+  format: yaml
+  label: CurrencyBeacon rates API
+  slug: currencybeacon-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/openapi/currencybeacon-rates-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

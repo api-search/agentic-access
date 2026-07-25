@@ -4,12 +4,24 @@ action_class_counts:
   acting: 69
   connected: 54
 api_specs:
-- filename: openapi.yaml
+- filename: pokt-api-api-openapi.yml
   format: yaml
-  label: Pocket Network Public RPC API
-  slug: pocket-network-public-rpc-api
+  label: Pocket Network API API
+  slug: pokt-api-api
   spec_type: OpenAPI
-  url: https://docs.pocket.network/developers/api-reference/
+  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-api-api-openapi.yml
+- filename: pokt-msg-api-openapi.yml
+  format: yaml
+  label: Pocket Network Msg API
+  slug: pokt-msg-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-msg-api-openapi.yml
+- filename: pokt-query-api-openapi.yml
+  format: yaml
+  label: Pocket Network Query API
+  slug: pokt-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-query-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 54

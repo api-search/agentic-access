@@ -4,12 +4,36 @@ action_class_counts:
   acting: 2
   connected: 6
 api_specs:
-- filename: spothero-parking-openapi.yml
+- filename: spothero-availability-api-openapi.yml
   format: yaml
-  label: SpotHero Parking API
-  slug: spothero-parking-api
+  label: SpotHero Availability API
+  slug: spothero-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-parking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-availability-api-openapi.yml
+- filename: spothero-facilities-api-openapi.yml
+  format: yaml
+  label: SpotHero Facilities API
+  slug: spothero-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-facilities-api-openapi.yml
+- filename: spothero-rates-api-openapi.yml
+  format: yaml
+  label: SpotHero Rates API
+  slug: spothero-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-rates-api-openapi.yml
+- filename: spothero-reservations-api-openapi.yml
+  format: yaml
+  label: SpotHero Reservations API
+  slug: spothero-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-reservations-api-openapi.yml
+- filename: spothero-search-api-openapi.yml
+  format: yaml
+  label: SpotHero Search API
+  slug: spothero-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/openapi/spothero-search-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2

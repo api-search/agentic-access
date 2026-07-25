@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: forex-openapi.yml
+- filename: forex-account-api-openapi.yml
   format: yaml
-  label: Open Exchange Rates API
-  slug: open-exchange-rates
+  label: Forex Account API
+  slug: forex-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/openapi/forex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/openapi/forex-account-api-openapi.yml
+- filename: forex-rates-api-openapi.yml
+  format: yaml
+  label: Forex Rates API
+  slug: forex-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/openapi/forex-rates-api-openapi.yml
+- filename: forex-reference-api-openapi.yml
+  format: yaml
+  label: Forex Reference API
+  slug: forex-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/openapi/forex-reference-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

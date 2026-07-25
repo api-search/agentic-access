@@ -4,12 +4,24 @@ action_class_counts:
   acting: 12
   connected: 8
 api_specs:
-- filename: lets-enhance-claid-openapi.json
-  format: json
-  label: Claid API
-  slug: claid
+- filename: lets-enhance-image-api-openapi.yml
+  format: yaml
+  label: Let's Enhance Image API
+  slug: lets-enhance-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-claid-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-image-api-openapi.yml
+- filename: lets-enhance-storage-api-openapi.yml
+  format: yaml
+  label: Let's Enhance Storage API
+  slug: lets-enhance-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-storage-api-openapi.yml
+- filename: lets-enhance-video-api-openapi.yml
+  format: yaml
+  label: Let's Enhance Video API
+  slug: lets-enhance-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-video-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12

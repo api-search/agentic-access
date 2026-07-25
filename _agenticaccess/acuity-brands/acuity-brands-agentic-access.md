@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: acuity-brands.json
-  format: json
-  label: Acuity Brands API
-  slug: acuity-brands-api
+- filename: acuity-brands-catalog-api-openapi.yml
+  format: yaml
+  label: acuity-brands Catalog API
+  slug: acuity-brands-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands.json
+  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-catalog-api-openapi.yml
+- filename: acuity-brands-inventory-api-openapi.yml
+  format: yaml
+  label: acuity-brands Inventory API
+  slug: acuity-brands-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-inventory-api-openapi.yml
+- filename: acuity-brands-orders-api-openapi.yml
+  format: yaml
+  label: acuity-brands Orders API
+  slug: acuity-brands-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-orders-api-openapi.yml
+- filename: acuity-brands-webpages-api-openapi.yml
+  format: yaml
+  label: acuity-brands Webpages API
+  slug: acuity-brands-webpages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-webpages-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

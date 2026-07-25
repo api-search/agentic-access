@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: buildpacks-registry-api-openapi.yml
+- filename: buildpacks-io-buildpacks-api-openapi.yml
   format: yaml
-  label: Buildpack Registry Extension
-  slug: buildpack-registry-spec
+  label: buildpacks-io Buildpacks API
+  slug: buildpacks-io-buildpacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/openapi/buildpacks-registry-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/openapi/buildpacks-io-buildpacks-api-openapi.yml
+- filename: buildpacks-io-search-api-openapi.yml
+  format: yaml
+  label: buildpacks-io Search API
+  slug: buildpacks-io-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/openapi/buildpacks-io-search-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

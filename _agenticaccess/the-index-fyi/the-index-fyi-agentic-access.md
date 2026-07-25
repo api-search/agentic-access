@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: the-index-fyi-openapi.yml
+- filename: the-index-fyi-indexes-api-openapi.yml
   format: yaml
-  label: The Index Public API
-  slug: indexes
+  label: The Index Indexes API
+  slug: the-index-fyi-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-index-fyi/refs/heads/main/openapi/the-index-fyi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-index-fyi/refs/heads/main/openapi/the-index-fyi-indexes-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

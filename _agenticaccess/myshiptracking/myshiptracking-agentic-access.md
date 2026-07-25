@@ -3,42 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: myshiptracking-openapi.yml
+- filename: myshiptracking-account-api-openapi.yml
   format: yaml
-  label: MyShipTracking Vessel Position API
-  slug: myshiptracking-vessel-position-api
+  label: MyShipTracking Account API
+  slug: myshiptracking-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-openapi.yml
-- filename: myshiptracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-account-api-openapi.yml
+- filename: myshiptracking-ports-api-openapi.yml
   format: yaml
-  label: MyShipTracking Vessels in Area API
-  slug: myshiptracking-vessels-in-area-api
+  label: MyShipTracking Ports API
+  slug: myshiptracking-ports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-openapi.yml
-- filename: myshiptracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-ports-api-openapi.yml
+- filename: myshiptracking-vessels-api-openapi.yml
   format: yaml
-  label: MyShipTracking Vessel Search API
-  slug: myshiptracking-vessel-search-api
+  label: MyShipTracking Vessels API
+  slug: myshiptracking-vessels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-openapi.yml
-- filename: myshiptracking-openapi.yml
-  format: yaml
-  label: MyShipTracking Vessel Particulars API
-  slug: myshiptracking-vessel-particulars-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-openapi.yml
-- filename: myshiptracking-openapi.yml
-  format: yaml
-  label: MyShipTracking Port Calls API
-  slug: myshiptracking-port-calls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-openapi.yml
-- filename: myshiptracking-openapi.yml
-  format: yaml
-  label: MyShipTracking ETA API
-  slug: myshiptracking-eta-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-vessels-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

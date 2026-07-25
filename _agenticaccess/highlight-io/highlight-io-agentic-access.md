@@ -3,36 +3,36 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: highlight-otlp-traces-api-openapi.yml
+- filename: highlight-io-logs-api-openapi.yml
   format: yaml
-  label: Highlight OTLP Traces API
-  slug: highlight-otlp-traces-api
+  label: Highlight (highlight.io) Logs API
+  slug: highlight-io-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-otlp-traces-api-openapi.yml
-- filename: highlight-otlp-logs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-logs-api-openapi.yml
+- filename: highlight-io-metrics-api-openapi.yml
   format: yaml
-  label: Highlight OTLP Logs API
-  slug: highlight-otlp-logs-api
+  label: Highlight (highlight.io) Metrics API
+  slug: highlight-io-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-otlp-logs-api-openapi.yml
-- filename: highlight-otlp-metrics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-metrics-api-openapi.yml
+- filename: highlight-io-sessions-api-openapi.yml
   format: yaml
-  label: Highlight OTLP Metrics API
-  slug: highlight-otlp-metrics-api
+  label: Highlight (highlight.io) Sessions API
+  slug: highlight-io-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-otlp-metrics-api-openapi.yml
-- filename: highlight-session-ingestion-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-sessions-api-openapi.yml
+- filename: highlight-io-traces-api-openapi.yml
   format: yaml
-  label: Highlight Session Ingestion API
-  slug: highlight-session-ingestion-api
+  label: Highlight (highlight.io) Traces API
+  slug: highlight-io-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-session-ingestion-api-openapi.yml
-- filename: highlight-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-traces-api-openapi.yml
+- filename: highlight-io-webhooks-api-openapi.yml
   format: yaml
-  label: Highlight Webhooks API
-  slug: highlight-webhooks-api
+  label: Highlight (highlight.io) Webhooks API
+  slug: highlight-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-webhooks-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

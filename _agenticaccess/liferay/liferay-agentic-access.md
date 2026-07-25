@@ -4,12 +4,12 @@ action_class_counts:
   acting: 6
   connected: 2
 api_specs:
-- filename: liferay-openapi.yml
+- filename: liferay-roles-api-openapi.yml
   format: yaml
   label: Liferay Roles API
-  slug: liferay
+  slug: liferay-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liferay/refs/heads/main/openapi/liferay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liferay/refs/heads/main/openapi/liferay-roles-api-openapi.yml
 consequence_counts:
   read: 2
   write: 6

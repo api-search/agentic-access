@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: apache-giraph-job-openapi.yml
+- filename: apache-giraph-cluster-api-openapi.yml
   format: yaml
-  label: Apache Giraph Job Monitoring API
-  slug: apache-giraph-job-api
+  label: Apache Giraph Cluster API
+  slug: apache-giraph-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/openapi/apache-giraph-job-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/openapi/apache-giraph-cluster-api-openapi.yml
+- filename: apache-giraph-job-management-api-openapi.yml
+  format: yaml
+  label: Apache Giraph Job Management API
+  slug: apache-giraph-job-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/openapi/apache-giraph-job-management-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

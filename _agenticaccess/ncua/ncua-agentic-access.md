@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: ncua-credit-union-locator-api-openapi.yml
+- filename: ncua-findcubyradius-aspx-api-openapi.yml
   format: yaml
-  label: NCUA Credit Union Locator API
-  slug: credit-union-locator-api
+  label: National Credit Union Administration (NCUA) FindCUByRadius.aspx API
+  slug: ncua-findcubyradius-aspx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/openapi/ncua-credit-union-locator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/openapi/ncua-findcubyradius-aspx-api-openapi.yml
+- filename: ncua-singleresult-aspx-api-openapi.yml
+  format: yaml
+  label: National Credit Union Administration (NCUA) SingleResult.aspx API
+  slug: ncua-singleresult-aspx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/openapi/ncua-singleresult-aspx-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

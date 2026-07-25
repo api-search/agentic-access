@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: open-trivia-openapi.yml
+- filename: open-trivia-categories-api-openapi.yml
   format: yaml
-  label: Open Trivia Database API
-  slug: open-trivia-database-api
+  label: Open Trivia Database Categories API
+  slug: open-trivia-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/openapi/open-trivia-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/openapi/open-trivia-categories-api-openapi.yml
+- filename: open-trivia-questions-api-openapi.yml
+  format: yaml
+  label: Open Trivia Database Questions API
+  slug: open-trivia-questions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/openapi/open-trivia-questions-api-openapi.yml
+- filename: open-trivia-statistics-api-openapi.yml
+  format: yaml
+  label: Open Trivia Database Statistics API
+  slug: open-trivia-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/openapi/open-trivia-statistics-api-openapi.yml
+- filename: open-trivia-tokens-api-openapi.yml
+  format: yaml
+  label: Open Trivia Database Tokens API
+  slug: open-trivia-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/openapi/open-trivia-tokens-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,24 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: flipside-openapi.yml
+- filename: flipside-json-rpc-api-openapi.yml
   format: yaml
-  label: Query Execution (SQL)
-  slug: query-execution-sql
+  label: Flipside Crypto JSON-RPC API
+  slug: flipside-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/openapi/flipside-openapi.yml
-- filename: flipside-openapi.yml
-  format: yaml
-  label: Query Results
-  slug: query-results
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/openapi/flipside-openapi.yml
-- filename: flipside-openapi.yml
-  format: yaml
-  label: Datasets
-  slug: datasets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/openapi/flipside-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/openapi/flipside-json-rpc-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

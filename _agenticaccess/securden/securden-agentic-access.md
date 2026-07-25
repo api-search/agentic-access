@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: securden-password-retrieval-openapi.yml
+- filename: securden-get-password-api-openapi.yml
   format: yaml
-  label: Securden Password Retrieval API
-  slug: securden-password-retrieval-api
+  label: Securden Get Password API
+  slug: securden-get-password-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/openapi/securden-password-retrieval-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/openapi/securden-get-password-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

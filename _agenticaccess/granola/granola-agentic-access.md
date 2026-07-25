@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: granola-openapi.yml
+- filename: granola-notes-api-openapi.yml
   format: yaml
-  label: Granola Public API
-  slug: public-api
+  label: Granola Notes API
+  slug: granola-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/openapi/granola-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/openapi/granola-notes-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

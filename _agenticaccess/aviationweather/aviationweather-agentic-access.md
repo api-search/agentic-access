@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 20
 api_specs:
-- filename: aviationweather-openapi.yml
+- filename: aviationweather-navigational-data-api-openapi.yml
   format: yaml
-  label: Aviation Weather Data API
-  slug: aviation-weather-data-api
+  label: Aviation Weather Center Navigational Data API
+  slug: aviationweather-navigational-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/openapi/aviationweather-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/openapi/aviationweather-navigational-data-api-openapi.yml
+- filename: aviationweather-weather-data-api-openapi.yml
+  format: yaml
+  label: Aviation Weather Center Weather Data API
+  slug: aviationweather-weather-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/openapi/aviationweather-weather-data-api-openapi.yml
 consequence_counts:
   read: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: yu-gi-oh-ygoprodeck-openapi.yml
+- filename: yu-gi-oh-archetypes-api-openapi.yml
   format: yaml
-  label: YGOPRODeck Card Database API
-  slug: ygoprodeck-card-database-api
+  label: YGOPRODeck Archetypes API
+  slug: yu-gi-oh-archetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-ygoprodeck-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-archetypes-api-openapi.yml
+- filename: yu-gi-oh-card-sets-api-openapi.yml
+  format: yaml
+  label: YGOPRODeck Card Sets API
+  slug: yu-gi-oh-card-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-card-sets-api-openapi.yml
+- filename: yu-gi-oh-cards-api-openapi.yml
+  format: yaml
+  label: YGOPRODeck Cards API
+  slug: yu-gi-oh-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-cards-api-openapi.yml
+- filename: yu-gi-oh-database-api-openapi.yml
+  format: yaml
+  label: YGOPRODeck Database API
+  slug: yu-gi-oh-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-database-api-openapi.yml
+- filename: yu-gi-oh-reference-data-api-openapi.yml
+  format: yaml
+  label: YGOPRODeck Reference Data API
+  slug: yu-gi-oh-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/openapi/yu-gi-oh-reference-data-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,24 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: cfpb-ccdb-openapi.yml
+- filename: consumer-financial-protection-bureau-aggregations-api-openapi.yml
   format: yaml
-  label: Consumer Complaint Database API
-  slug: ccdb
+  label: Consumer Financial Protection Bureau Aggregations API
+  slug: consumer-financial-protection-bureau-aggregations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/cfpb-ccdb-openapi.yml
-- filename: cfpb-hmda-data-browser-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/consumer-financial-protection-bureau-aggregations-api-openapi.yml
+- filename: consumer-financial-protection-bureau-csv-api-openapi.yml
   format: yaml
-  label: HMDA Data Browser API
-  slug: hmda-data-browser
+  label: Consumer Financial Protection Bureau CSV API
+  slug: consumer-financial-protection-bureau-csv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/cfpb-hmda-data-browser-openapi.yml
-- filename: cfpb-hmda-institutions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/consumer-financial-protection-bureau-csv-api-openapi.yml
+- filename: consumer-financial-protection-bureau-filers-api-openapi.yml
   format: yaml
-  label: HMDA Institutions API
-  slug: hmda-institutions
+  label: Consumer Financial Protection Bureau Filers API
+  slug: consumer-financial-protection-bureau-filers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/cfpb-hmda-institutions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/consumer-financial-protection-bureau-filers-api-openapi.yml
+- filename: consumer-financial-protection-bureau-geo-api-openapi.yml
+  format: yaml
+  label: Consumer Financial Protection Bureau Geo API
+  slug: consumer-financial-protection-bureau-geo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/consumer-financial-protection-bureau-geo-api-openapi.yml
+- filename: consumer-financial-protection-bureau-institutions-api-openapi.yml
+  format: yaml
+  label: Consumer Financial Protection Bureau Institutions API
+  slug: consumer-financial-protection-bureau-institutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/consumer-financial-protection-bureau-institutions-api-openapi.yml
+- filename: consumer-financial-protection-bureau-search-api-openapi.yml
+  format: yaml
+  label: Consumer Financial Protection Bureau Search API
+  slug: consumer-financial-protection-bureau-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/consumer-financial-protection-bureau-search-api-openapi.yml
+- filename: consumer-financial-protection-bureau-trends-api-openapi.yml
+  format: yaml
+  label: Consumer Financial Protection Bureau Trends API
+  slug: consumer-financial-protection-bureau-trends-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/consumer-financial-protection-bureau-trends-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

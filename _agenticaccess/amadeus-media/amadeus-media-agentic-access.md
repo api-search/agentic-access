@@ -3,18 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: amadeus-media-hotel-content-openapi.yaml
+- filename: amadeus-media-hotel-content-api-openapi.yml
   format: yaml
-  label: Hotel Content API
-  slug: hotel-content-api
+  label: Amadeus Media Hotel Content API
+  slug: amadeus-media-hotel-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/openapi/amadeus-media-hotel-content-openapi.yaml
-- filename: amadeus-media-hotel-list-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/openapi/amadeus-media-hotel-content-api-openapi.yml
+- filename: amadeus-media-hotel-media-api-openapi.yml
   format: yaml
-  label: Hotel List API
-  slug: hotel-list-api
+  label: Amadeus Media Hotel Media API
+  slug: amadeus-media-hotel-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/openapi/amadeus-media-hotel-list-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/openapi/amadeus-media-hotel-media-api-openapi.yml
+- filename: amadeus-media-hotels-api-openapi.yml
+  format: yaml
+  label: Amadeus Media Hotels API
+  slug: amadeus-media-hotels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/openapi/amadeus-media-hotels-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

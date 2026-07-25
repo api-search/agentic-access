@@ -4,12 +4,30 @@ action_class_counts:
   acting: 5
   connected: 1
 api_specs:
-- filename: routific-route-optimization-api-openapi.yml
+- filename: routific-fix-api-openapi.yml
   format: yaml
-  label: Routific Route Optimization API
-  slug: routific-route-optimization-api
+  label: Routific Fix API
+  slug: routific-fix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/openapi/routific-route-optimization-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/openapi/routific-fix-api-openapi.yml
+- filename: routific-jobs-api-openapi.yml
+  format: yaml
+  label: Routific Jobs API
+  slug: routific-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/openapi/routific-jobs-api-openapi.yml
+- filename: routific-pdp-api-openapi.yml
+  format: yaml
+  label: Routific PDP API
+  slug: routific-pdp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/openapi/routific-pdp-api-openapi.yml
+- filename: routific-vrp-api-openapi.yml
+  format: yaml
+  label: Routific VRP API
+  slug: routific-vrp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/openapi/routific-vrp-api-openapi.yml
 consequence_counts:
   read: 1
   write: 5

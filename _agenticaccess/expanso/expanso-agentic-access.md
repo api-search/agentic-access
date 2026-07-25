@@ -4,12 +4,18 @@ action_class_counts:
   acting: 5
   connected: 15
 api_specs:
-- filename: bacalhau-openapi-original.json
-  format: json
-  label: Bacalhau Orchestrator API
-  slug: bacalhau-orchestrator-api
+- filename: expanso-ops-api-openapi.yml
+  format: yaml
+  label: Expanso Ops API
+  slug: expanso-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/openapi/bacalhau-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/openapi/expanso-ops-api-openapi.yml
+- filename: expanso-orchestrator-api-openapi.yml
+  format: yaml
+  label: Expanso Orchestrator API
+  slug: expanso-orchestrator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/openapi/expanso-orchestrator-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 1

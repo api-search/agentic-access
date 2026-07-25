@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 13
 api_specs:
-- filename: amazon-cloudformation-openapi.yml
+- filename: amazon-cloudformation-change-sets-api-openapi.yml
   format: yaml
-  label: Amazon CloudFormation API
-  slug: amazon-cloudformation-api
+  label: Amazon CloudFormation Change Sets API
+  slug: amazon-cloudformation-change-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-change-sets-api-openapi.yml
+- filename: amazon-cloudformation-resources-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Resources API
+  slug: amazon-cloudformation-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-resources-api-openapi.yml
+- filename: amazon-cloudformation-stacks-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Stacks API
+  slug: amazon-cloudformation-stacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-stacks-api-openapi.yml
+- filename: amazon-cloudformation-templates-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Templates API
+  slug: amazon-cloudformation-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-templates-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

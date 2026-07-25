@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: cisa-kev-openapi.yml
+- filename: cybersecurity-and-infrastructure-security-agency-kev-api-openapi.yml
   format: yaml
-  label: CISA Known Exploited Vulnerabilities (KEV) Catalog
-  slug: kev
+  label: Cybersecurity and Infrastructure Security Agency KEV API
+  slug: cybersecurity-and-infrastructure-security-agency-kev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/openapi/cisa-kev-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/openapi/cybersecurity-and-infrastructure-security-agency-kev-api-openapi.yml
+- filename: cybersecurity-and-infrastructure-security-agency-schema-api-openapi.yml
+  format: yaml
+  label: Cybersecurity and Infrastructure Security Agency Schema API
+  slug: cybersecurity-and-infrastructure-security-agency-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/openapi/cybersecurity-and-infrastructure-security-agency-schema-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

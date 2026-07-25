@@ -4,12 +4,36 @@ action_class_counts:
   acting: 10
   connected: 11
 api_specs:
-- filename: signadot-openapi-original.yml
+- filename: signadot-cluster-api-openapi.yml
   format: yaml
-  label: Signadot API
-  slug: signadot-api
+  label: Signadot Cluster API
+  slug: signadot-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/openapi/signadot-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/openapi/signadot-cluster-api-openapi.yml
+- filename: signadot-orgs-api-openapi.yml
+  format: yaml
+  label: Signadot Orgs API
+  slug: signadot-orgs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/openapi/signadot-orgs-api-openapi.yml
+- filename: signadot-resourceplugins-api-openapi.yml
+  format: yaml
+  label: Signadot ResourcePlugins API
+  slug: signadot-resourceplugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/openapi/signadot-resourceplugins-api-openapi.yml
+- filename: signadot-routegroups-api-openapi.yml
+  format: yaml
+  label: Signadot RouteGroups API
+  slug: signadot-routegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/openapi/signadot-routegroups-api-openapi.yml
+- filename: signadot-sandboxes-api-openapi.yml
+  format: yaml
+  label: Signadot Sandboxes API
+  slug: signadot-sandboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/openapi/signadot-sandboxes-api-openapi.yml
 consequence_counts:
   read: 11
   write: 10

@@ -3,6 +3,31 @@ acting_count: 5
 action_class_counts:
   acting: 5
   connected: 9
+api_specs:
+- filename: kakao-oauth-api-openapi.yml
+  format: yaml
+  label: Kakao OAuth API
+  slug: kakao-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-oauth-api-openapi.yml
+- filename: kakao-oidc-api-openapi.yml
+  format: yaml
+  label: Kakao OIDC API
+  slug: kakao-oidc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-oidc-api-openapi.yml
+- filename: kakao-service-terms-api-openapi.yml
+  format: yaml
+  label: Kakao Service Terms API
+  slug: kakao-service-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-service-terms-api-openapi.yml
+- filename: kakao-user-api-openapi.yml
+  format: yaml
+  label: Kakao User API
+  slug: kakao-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-user-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1

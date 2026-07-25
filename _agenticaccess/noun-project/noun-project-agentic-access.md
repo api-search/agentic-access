@@ -4,12 +4,36 @@ action_class_counts:
   acting: 2
   connected: 9
 api_specs:
-- filename: noun-project-openapi.yml
+- filename: noun-project-autocomplete-api-openapi.yml
   format: yaml
-  label: Noun Project API V2
-  slug: noun-project-api-v2
+  label: Noun Project Autocomplete API
+  slug: noun-project-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-autocomplete-api-openapi.yml
+- filename: noun-project-blocklist-api-openapi.yml
+  format: yaml
+  label: Noun Project Blocklist API
+  slug: noun-project-blocklist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-blocklist-api-openapi.yml
+- filename: noun-project-collection-api-openapi.yml
+  format: yaml
+  label: Noun Project Collection API
+  slug: noun-project-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-collection-api-openapi.yml
+- filename: noun-project-icon-api-openapi.yml
+  format: yaml
+  label: Noun Project Icon API
+  slug: noun-project-icon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-icon-api-openapi.yml
+- filename: noun-project-usage-api-openapi.yml
+  format: yaml
+  label: Noun Project Usage API
+  slug: noun-project-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/openapi/noun-project-usage-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2

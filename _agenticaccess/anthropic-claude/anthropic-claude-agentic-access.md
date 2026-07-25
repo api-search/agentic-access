@@ -4,12 +4,30 @@ action_class_counts:
   acting: 4
   connected: 5
 api_specs:
-- filename: anthropic-claude-openapi.yml
+- filename: anthropic-claude-message-batches-api-openapi.yml
+  format: yaml
+  label: Anthropic Claude Message Batches API
+  slug: anthropic-claude-message-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic-claude/refs/heads/main/openapi/anthropic-claude-message-batches-api-openapi.yml
+- filename: anthropic-claude-messages-api-openapi.yml
   format: yaml
   label: Anthropic Claude Messages API
-  slug: messages-api
+  slug: anthropic-claude-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anthropic-claude/refs/heads/main/openapi/anthropic-claude-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic-claude/refs/heads/main/openapi/anthropic-claude-messages-api-openapi.yml
+- filename: anthropic-claude-models-api-openapi.yml
+  format: yaml
+  label: Anthropic Claude Models API
+  slug: anthropic-claude-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic-claude/refs/heads/main/openapi/anthropic-claude-models-api-openapi.yml
+- filename: anthropic-claude-token-counting-api-openapi.yml
+  format: yaml
+  label: Anthropic Claude Token Counting API
+  slug: anthropic-claude-token-counting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anthropic-claude/refs/heads/main/openapi/anthropic-claude-token-counting-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4

@@ -3,36 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: cherre-openapi.yml
+- filename: cherre-auth-api-openapi.yml
   format: yaml
-  label: Cherre Property API
-  slug: property
+  label: Cherre Auth API
+  slug: cherre-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-openapi.yml
-- filename: cherre-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-auth-api-openapi.yml
+- filename: cherre-graphql-api-openapi.yml
   format: yaml
-  label: Cherre Tax Assessor API
-  slug: tax-assessor
+  label: Cherre GraphQL API
+  slug: cherre-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-openapi.yml
-- filename: cherre-openapi.yml
-  format: yaml
-  label: Cherre Recorder API
-  slug: recorder
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-openapi.yml
-- filename: cherre-openapi.yml
-  format: yaml
-  label: Cherre Owner & Parcel API
-  slug: owner-parcel
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-openapi.yml
-- filename: cherre-openapi.yml
-  format: yaml
-  label: Cherre Connections API
-  slug: connections
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-graphql-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

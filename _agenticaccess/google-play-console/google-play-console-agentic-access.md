@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: openapi.yml
+- filename: google-play-console-v1alpha1-api-openapi.yml
   format: yaml
-  label: Google Play Developer Reporting API
-  slug: google-play-developer-reporting-api
+  label: Google Play Console Developer Reporting V1alpha1 API
+  slug: google-play-console-v1alpha1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/openapi/google-play-console-v1alpha1-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

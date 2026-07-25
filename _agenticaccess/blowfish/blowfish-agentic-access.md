@@ -3,12 +3,30 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: blowfish-v20230308-openapi-original.yml
+- filename: blowfish-download-blocklist-api-openapi.yml
   format: yaml
-  label: Blowfish Scan API
-  slug: blowfish-scan-api
+  label: Blowfish Download blocklist API
+  slug: blowfish-download-blocklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/openapi/blowfish-v20230308-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/openapi/blowfish-download-blocklist-api-openapi.yml
+- filename: blowfish-scan-domain-api-openapi.yml
+  format: yaml
+  label: Blowfish Scan domain API
+  slug: blowfish-scan-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/openapi/blowfish-scan-domain-api-openapi.yml
+- filename: blowfish-scan-message-api-openapi.yml
+  format: yaml
+  label: Blowfish Scan message API
+  slug: blowfish-scan-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/openapi/blowfish-scan-message-api-openapi.yml
+- filename: blowfish-scan-transaction-api-openapi.yml
+  format: yaml
+  label: Blowfish Scan transaction API
+  slug: blowfish-scan-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/openapi/blowfish-scan-transaction-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

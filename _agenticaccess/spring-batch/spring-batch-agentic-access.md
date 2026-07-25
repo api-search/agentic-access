@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: spring-batch-openapi.yml
+- filename: spring-batch-batch-jobs-api-openapi.yml
   format: yaml
-  label: Spring Batch Core API
-  slug: spring-batch-core-api
+  label: Spring Batch Batch Jobs API
+  slug: spring-batch-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/openapi/spring-batch-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/openapi/spring-batch-batch-jobs-api-openapi.yml
+- filename: spring-batch-health-api-openapi.yml
+  format: yaml
+  label: Spring Batch Health API
+  slug: spring-batch-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/openapi/spring-batch-health-api-openapi.yml
+- filename: spring-batch-metrics-api-openapi.yml
+  format: yaml
+  label: Spring Batch Metrics API
+  slug: spring-batch-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/openapi/spring-batch-metrics-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

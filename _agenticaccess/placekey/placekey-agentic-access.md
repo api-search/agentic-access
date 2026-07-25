@@ -3,18 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: placekey-openapi.yml
+- filename: placekey-bulk-api-openapi.yml
+  format: yaml
+  label: Placekey Bulk API
+  slug: placekey-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/placekey/refs/heads/main/openapi/placekey-bulk-api-openapi.yml
+- filename: placekey-lookup-api-openapi.yml
   format: yaml
   label: Placekey Lookup API
   slug: placekey-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placekey/refs/heads/main/openapi/placekey-openapi.yml
-- filename: placekey-openapi.yml
-  format: yaml
-  label: Placekey Bulk Lookup API
-  slug: placekey-bulk-lookup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/placekey/refs/heads/main/openapi/placekey-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/placekey/refs/heads/main/openapi/placekey-lookup-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

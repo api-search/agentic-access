@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: serpapi-openapi.yml
+- filename: serpapi-account-api-openapi.yml
   format: yaml
-  label: SerpApi Bing API
-  slug: serpapi-bing-api
+  label: SerpApi Account API
+  slug: serpapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/openapi/serpapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/openapi/serpapi-account-api-openapi.yml
+- filename: serpapi-search-api-openapi.yml
+  format: yaml
+  label: SerpApi Search API
+  slug: serpapi-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/openapi/serpapi-search-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

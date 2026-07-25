@@ -4,12 +4,36 @@ action_class_counts:
   acting: 1
   connected: 9
 api_specs:
-- filename: starbucks-starbucks-api-openapi.yml
+- filename: starbucks-loyalty-api-openapi.yml
   format: yaml
-  label: Starbucks API
-  slug: starbucks-api
+  label: Starbucks Loyalty API
+  slug: starbucks-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-starbucks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-loyalty-api-openapi.yml
+- filename: starbucks-menu-api-openapi.yml
+  format: yaml
+  label: Starbucks Menu API
+  slug: starbucks-menu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-menu-api-openapi.yml
+- filename: starbucks-orders-api-openapi.yml
+  format: yaml
+  label: Starbucks Orders API
+  slug: starbucks-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-orders-api-openapi.yml
+- filename: starbucks-status-api-openapi.yml
+  format: yaml
+  label: Starbucks Status API
+  slug: starbucks-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-status-api-openapi.yml
+- filename: starbucks-stores-api-openapi.yml
+  format: yaml
+  label: Starbucks Stores API
+  slug: starbucks-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/openapi/starbucks-stores-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9

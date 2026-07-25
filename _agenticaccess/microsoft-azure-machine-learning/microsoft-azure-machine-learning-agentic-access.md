@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
-- filename: microsoft-azure-machine-learning-openapi.yml
+- filename: microsoft-azure-machine-learning-operations-api-openapi.yml
   format: yaml
-  label: Azure Machine Learning REST API
-  slug: rest-api
+  label: Azure Machine Learning Operations API
+  slug: microsoft-azure-machine-learning-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/openapi/microsoft-azure-machine-learning-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/openapi/microsoft-azure-machine-learning-operations-api-openapi.yml
+- filename: microsoft-azure-machine-learning-workspaces-api-openapi.yml
+  format: yaml
+  label: Azure Machine Learning Workspaces API
+  slug: microsoft-azure-machine-learning-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/openapi/microsoft-azure-machine-learning-workspaces-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

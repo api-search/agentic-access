@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: gutendex-api-openapi.yml
+- filename: gutendex-books-api-openapi.yml
   format: yaml
   label: Gutendex Books API
-  slug: books
+  slug: gutendex-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/openapi/gutendex-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/openapi/gutendex-books-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

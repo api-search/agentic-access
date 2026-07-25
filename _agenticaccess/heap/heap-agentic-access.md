@@ -3,18 +3,36 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: heap-openapi.yml
+- filename: heap-add-account-properties-api-openapi.yml
   format: yaml
-  label: Heap Server-Side API
-  slug: server-side-api
+  label: Heap Add Account Properties API
+  slug: heap-add-account-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-openapi.yml
-- filename: heap-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-add-account-properties-api-openapi.yml
+- filename: heap-add-user-properties-api-openapi.yml
   format: yaml
-  label: Heap Partner Webhooks (Data-out API)
-  slug: partner-webhooks
+  label: Heap Add User Properties API
+  slug: heap-add-user-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-webhooks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-add-user-properties-api-openapi.yml
+- filename: heap-identify-api-openapi.yml
+  format: yaml
+  label: Heap Identify API
+  slug: heap-identify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-identify-api-openapi.yml
+- filename: heap-track-api-openapi.yml
+  format: yaml
+  label: Heap Track API
+  slug: heap-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-track-api-openapi.yml
+- filename: heap-webhooks-api-openapi.yml
+  format: yaml
+  label: Heap Webhooks API
+  slug: heap-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-webhooks-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

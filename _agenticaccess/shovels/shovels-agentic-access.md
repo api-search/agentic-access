@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 21
 api_specs:
-- filename: shovels-openapi.yml
+- filename: shovels-addresses-api-openapi.yml
   format: yaml
-  label: Shovels API
-  slug: shovels-api
+  label: Shovels Addresses API
+  slug: shovels-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-addresses-api-openapi.yml
+- filename: shovels-contractors-api-openapi.yml
+  format: yaml
+  label: Shovels Contractors API
+  slug: shovels-contractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-contractors-api-openapi.yml
+- filename: shovels-geography-api-openapi.yml
+  format: yaml
+  label: Shovels Geography API
+  slug: shovels-geography-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-geography-api-openapi.yml
+- filename: shovels-lists-api-openapi.yml
+  format: yaml
+  label: Shovels Lists API
+  slug: shovels-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-lists-api-openapi.yml
+- filename: shovels-meta-api-openapi.yml
+  format: yaml
+  label: Shovels Meta API
+  slug: shovels-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-meta-api-openapi.yml
+- filename: shovels-permits-api-openapi.yml
+  format: yaml
+  label: Shovels Permits API
+  slug: shovels-permits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-permits-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

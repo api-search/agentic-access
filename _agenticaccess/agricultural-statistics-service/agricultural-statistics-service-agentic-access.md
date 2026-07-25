@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: agricultural-statistics-service-quickstats-api.yaml
+- filename: agricultural-statistics-service-parameters-api-openapi.yml
   format: yaml
-  label: USDA NASS QuickStats API
-  slug: quickstats-api
+  label: Agricultural Statistics Service Parameters API
+  slug: agricultural-statistics-service-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/openapi/agricultural-statistics-service-quickstats-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/openapi/agricultural-statistics-service-parameters-api-openapi.yml
+- filename: agricultural-statistics-service-statistics-api-openapi.yml
+  format: yaml
+  label: Agricultural Statistics Service Statistics API
+  slug: agricultural-statistics-service-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/openapi/agricultural-statistics-service-statistics-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

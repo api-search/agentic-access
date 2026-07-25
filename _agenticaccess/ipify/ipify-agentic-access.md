@@ -3,18 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: ipify-ip-api.yml
+- filename: ipify-account-api-openapi.yml
   format: yaml
-  label: ipify Public IP Address API
-  slug: ipify-public-ip-address-api
+  label: ipify Account API
+  slug: ipify-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-ip-api.yml
-- filename: ipify-geolocation-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-account-api-openapi.yml
+- filename: ipify-geolocation-api-openapi.yml
   format: yaml
-  label: ipify IP Geolocation API
-  slug: ipify-ip-geolocation-api
+  label: ipify Geolocation API
+  slug: ipify-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-geolocation-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-geolocation-api-openapi.yml
+- filename: ipify-ip-address-api-openapi.yml
+  format: yaml
+  label: ipify IP Address API
+  slug: ipify-ip-address-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/openapi/ipify-ip-address-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

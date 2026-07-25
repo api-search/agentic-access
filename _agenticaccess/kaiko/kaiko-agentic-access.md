@@ -2,6 +2,31 @@
 acting_count: 0
 action_class_counts:
   connected: 5
+api_specs:
+- filename: kaiko-canton-oracle-api-openapi.yml
+  format: yaml
+  label: Kaiko Canton Oracle API
+  slug: kaiko-canton-oracle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-canton-oracle-api-openapi.yml
+- filename: kaiko-index-reference-data-api-openapi.yml
+  format: yaml
+  label: Kaiko Index Reference Data API
+  slug: kaiko-index-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-index-reference-data-api-openapi.yml
+- filename: kaiko-indices-api-openapi.yml
+  format: yaml
+  label: Kaiko Indices API
+  slug: kaiko-indices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-indices-api-openapi.yml
+- filename: kaiko-supply-api-openapi.yml
+  format: yaml
+  label: Kaiko Supply API
+  slug: kaiko-supply-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-supply-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

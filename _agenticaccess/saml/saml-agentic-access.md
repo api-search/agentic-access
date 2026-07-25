@@ -4,12 +4,24 @@ action_class_counts:
   acting: 2
   connected: 3
 api_specs:
-- filename: saml-sso-bindings.yml
+- filename: saml-metadata-api-openapi.yml
   format: yaml
-  label: SAML 2.0 SSO HTTP Bindings API
-  slug: saml-20-sso-http-bindings-api
+  label: SAML Metadata API
+  slug: saml-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/openapi/saml-sso-bindings.yml
+  url: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/openapi/saml-metadata-api-openapi.yml
+- filename: saml-slo-api-openapi.yml
+  format: yaml
+  label: SAML SLO API
+  slug: saml-slo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/openapi/saml-slo-api-openapi.yml
+- filename: saml-sso-api-openapi.yml
+  format: yaml
+  label: SAML SSO API
+  slug: saml-sso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/openapi/saml-sso-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2

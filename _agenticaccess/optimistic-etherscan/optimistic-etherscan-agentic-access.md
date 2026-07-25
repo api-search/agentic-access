@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: optimistic-etherscan-openapi.yml
+- filename: optimistic-etherscan-accounts-api-openapi.yml
   format: yaml
-  label: Optimism Etherscan API
-  slug: optimistic-etherscan
+  label: Optimism Etherscan Accounts API
+  slug: optimistic-etherscan-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/openapi/optimistic-etherscan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/openapi/optimistic-etherscan-accounts-api-openapi.yml
+- filename: optimistic-etherscan-blocks-api-openapi.yml
+  format: yaml
+  label: Optimism Etherscan Blocks API
+  slug: optimistic-etherscan-blocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/openapi/optimistic-etherscan-blocks-api-openapi.yml
+- filename: optimistic-etherscan-contracts-api-openapi.yml
+  format: yaml
+  label: Optimism Etherscan Contracts API
+  slug: optimistic-etherscan-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/openapi/optimistic-etherscan-contracts-api-openapi.yml
+- filename: optimistic-etherscan-geth-proxy-api-openapi.yml
+  format: yaml
+  label: Optimism Etherscan Geth Proxy API
+  slug: optimistic-etherscan-geth-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/openapi/optimistic-etherscan-geth-proxy-api-openapi.yml
+- filename: optimistic-etherscan-stats-api-openapi.yml
+  format: yaml
+  label: Optimism Etherscan Stats API
+  slug: optimistic-etherscan-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/openapi/optimistic-etherscan-stats-api-openapi.yml
+- filename: optimistic-etherscan-tokens-api-openapi.yml
+  format: yaml
+  label: Optimism Etherscan Tokens API
+  slug: optimistic-etherscan-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/openapi/optimistic-etherscan-tokens-api-openapi.yml
+- filename: optimistic-etherscan-transactions-api-openapi.yml
+  format: yaml
+  label: Optimism Etherscan Transactions API
+  slug: optimistic-etherscan-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/openapi/optimistic-etherscan-transactions-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,24 @@ action_class_counts:
   acting: 6
   connected: 1
 api_specs:
-- filename: minicor-openapi.json
-  format: json
-  label: Laminar API
-  slug: laminar-api
+- filename: minicor-configuration-stores-api-openapi.yml
+  format: yaml
+  label: Minicor Configuration Stores API
+  slug: minicor-configuration-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/openapi/minicor-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/openapi/minicor-configuration-stores-api-openapi.yml
+- filename: minicor-external-api-openapi.yml
+  format: yaml
+  label: Minicor external API
+  slug: minicor-external-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/openapi/minicor-external-api-openapi.yml
+- filename: minicor-workflows-api-openapi.yml
+  format: yaml
+  label: Minicor Workflows API
+  slug: minicor-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/openapi/minicor-workflows-api-openapi.yml
 consequence_counts:
   read: 1
   write: 6

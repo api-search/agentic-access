@@ -3,12 +3,18 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: google-gemini-api-openapi.yml
+- filename: google-gemini-content-generation-api-openapi.yml
   format: yaml
-  label: Gemini API
-  slug: gemini-api
+  label: Google Gemini Content Generation API
+  slug: google-gemini-content-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/openapi/google-gemini-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/openapi/google-gemini-content-generation-api-openapi.yml
+- filename: google-gemini-embeddings-api-openapi.yml
+  format: yaml
+  label: Google Gemini Embeddings API
+  slug: google-gemini-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/openapi/google-gemini-embeddings-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

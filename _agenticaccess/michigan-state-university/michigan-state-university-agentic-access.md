@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: openapi.yaml
+- filename: michigan-state-university-record-api-openapi.yml
   format: yaml
-  label: MSU Libraries Catalog REST API (VuFind)
-  slug: catalog-rest
+  label: Michigan State University Record API
+  slug: michigan-state-university-record-api
   spec_type: OpenAPI
-  url: https://catalog.lib.msu.edu/api/v1/?swagger
+  url: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/openapi/michigan-state-university-record-api-openapi.yml
+- filename: michigan-state-university-search-api-openapi.yml
+  format: yaml
+  label: Michigan State University Search API
+  slug: michigan-state-university-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/openapi/michigan-state-university-search-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

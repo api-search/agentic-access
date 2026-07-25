@@ -4,12 +4,24 @@ action_class_counts:
   acting: 2
   connected: 4
 api_specs:
-- filename: apache-samza-rest-api.yaml
+- filename: apache-samza-checkpoints-api-openapi.yml
   format: yaml
-  label: Apache Samza
-  slug: apache-samza
+  label: Apache Samza Checkpoints API
+  slug: apache-samza-checkpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-samza/refs/heads/main/openapi/apache-samza-rest-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-samza/refs/heads/main/openapi/apache-samza-checkpoints-api-openapi.yml
+- filename: apache-samza-jobs-api-openapi.yml
+  format: yaml
+  label: Apache Samza Jobs API
+  slug: apache-samza-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-samza/refs/heads/main/openapi/apache-samza-jobs-api-openapi.yml
+- filename: apache-samza-tasks-api-openapi.yml
+  format: yaml
+  label: Apache Samza Tasks API
+  slug: apache-samza-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-samza/refs/heads/main/openapi/apache-samza-tasks-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 1

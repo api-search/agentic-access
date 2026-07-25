@@ -3,6 +3,31 @@ acting_count: 8
 action_class_counts:
   acting: 8
   connected: 8
+api_specs:
+- filename: amazon-eks-addons-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Addons API
+  slug: amazon-eks-addons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-addons-api-openapi.yml
+- filename: amazon-eks-clusters-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Clusters API
+  slug: amazon-eks-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-clusters-api-openapi.yml
+- filename: amazon-eks-fargate-profiles-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Fargate Profiles API
+  slug: amazon-eks-fargate-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-fargate-profiles-api-openapi.yml
+- filename: amazon-eks-node-groups-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Node Groups API
+  slug: amazon-eks-node-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-node-groups-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8

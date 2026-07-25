@@ -2,6 +2,19 @@
 acting_count: 3
 action_class_counts:
   acting: 3
+api_specs:
+- filename: paytm-payments-api-openapi.yml
+  format: yaml
+  label: Paytm Payments API
+  slug: paytm-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/openapi/paytm-payments-api-openapi.yml
+- filename: paytm-refunds-api-openapi.yml
+  format: yaml
+  label: Paytm Refunds API
+  slug: paytm-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/openapi/paytm-refunds-api-openapi.yml
 consequence_counts:
   physical: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

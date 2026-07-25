@@ -4,12 +4,12 @@ action_class_counts:
   acting: 5
   connected: 7
 api_specs:
-- filename: openapi.yml
+- filename: google-business-profile-accounts-api-openapi.yml
   format: yaml
-  label: Google Business Profile API
-  slug: google-business-profile-api
+  label: Google Business Profile Accounts API
+  slug: google-business-profile-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/openapi/google-business-profile-accounts-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5

@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: valueray-symbol-data-openapi.yml
+- filename: valueray-symbol-data-api-openapi.yml
   format: yaml
   label: ValueRay Symbol Data API
-  slug: symbol-data-api
+  slug: valueray-symbol-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/openapi/valueray-symbol-data-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/valueray/refs/heads/main/openapi/valueray-symbol-data-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

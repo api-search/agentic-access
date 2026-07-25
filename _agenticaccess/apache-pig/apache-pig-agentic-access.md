@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 3
 api_specs:
-- filename: apache-pig-api.yaml
+- filename: apache-pig-jobs-api-openapi.yml
   format: yaml
-  label: Apache Pig
-  slug: apache-pig
+  label: Apache Pig Jobs API
+  slug: apache-pig-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pig/refs/heads/main/openapi/apache-pig-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-pig/refs/heads/main/openapi/apache-pig-jobs-api-openapi.yml
+- filename: apache-pig-scripts-api-openapi.yml
+  format: yaml
+  label: Apache Pig Scripts API
+  slug: apache-pig-scripts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-pig/refs/heads/main/openapi/apache-pig-scripts-api-openapi.yml
 consequence_counts:
   read: 3
   safety-critical: 1

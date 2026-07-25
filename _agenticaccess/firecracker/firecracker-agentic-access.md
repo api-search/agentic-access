@@ -4,12 +4,120 @@ action_class_counts:
   acting: 29
   connected: 9
 api_specs:
-- filename: firecracker-openapi-original.yaml
+- filename: firecracker-actions-api-openapi.yml
   format: yaml
-  label: Firecracker API
-  slug: firecracker
+  label: Firecracker Actions API
+  slug: firecracker-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-actions-api-openapi.yml
+- filename: firecracker-balloon-api-openapi.yml
+  format: yaml
+  label: Firecracker Balloon API
+  slug: firecracker-balloon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-balloon-api-openapi.yml
+- filename: firecracker-boot-source-api-openapi.yml
+  format: yaml
+  label: Firecracker Boot Source API
+  slug: firecracker-boot-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-boot-source-api-openapi.yml
+- filename: firecracker-cpu-config-api-openapi.yml
+  format: yaml
+  label: Firecracker Cpu Config API
+  slug: firecracker-cpu-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-cpu-config-api-openapi.yml
+- filename: firecracker-drives-api-openapi.yml
+  format: yaml
+  label: Firecracker Drives API
+  slug: firecracker-drives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-drives-api-openapi.yml
+- filename: firecracker-entropy-api-openapi.yml
+  format: yaml
+  label: Firecracker Entropy API
+  slug: firecracker-entropy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-entropy-api-openapi.yml
+- filename: firecracker-firecracker-api-api-openapi.yml
+  format: yaml
+  label: Firecracker Firecracker API API
+  slug: firecracker-firecracker-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-firecracker-api-api-openapi.yml
+- filename: firecracker-hotplug-api-openapi.yml
+  format: yaml
+  label: Firecracker Hotplug API
+  slug: firecracker-hotplug-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-hotplug-api-openapi.yml
+- filename: firecracker-logger-api-openapi.yml
+  format: yaml
+  label: Firecracker Logger API
+  slug: firecracker-logger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-logger-api-openapi.yml
+- filename: firecracker-machine-config-api-openapi.yml
+  format: yaml
+  label: Firecracker Machine Config API
+  slug: firecracker-machine-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-machine-config-api-openapi.yml
+- filename: firecracker-metrics-api-openapi.yml
+  format: yaml
+  label: Firecracker Metrics API
+  slug: firecracker-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-metrics-api-openapi.yml
+- filename: firecracker-mmds-api-openapi.yml
+  format: yaml
+  label: Firecracker Mmds API
+  slug: firecracker-mmds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-mmds-api-openapi.yml
+- filename: firecracker-network-interfaces-api-openapi.yml
+  format: yaml
+  label: Firecracker Network Interfaces API
+  slug: firecracker-network-interfaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-network-interfaces-api-openapi.yml
+- filename: firecracker-pmem-api-openapi.yml
+  format: yaml
+  label: Firecracker Pmem API
+  slug: firecracker-pmem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-pmem-api-openapi.yml
+- filename: firecracker-serial-api-openapi.yml
+  format: yaml
+  label: Firecracker Serial API
+  slug: firecracker-serial-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-serial-api-openapi.yml
+- filename: firecracker-snapshot-api-openapi.yml
+  format: yaml
+  label: Firecracker Snapshot API
+  slug: firecracker-snapshot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-snapshot-api-openapi.yml
+- filename: firecracker-version-api-openapi.yml
+  format: yaml
+  label: Firecracker Version API
+  slug: firecracker-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-version-api-openapi.yml
+- filename: firecracker-vm-api-openapi.yml
+  format: yaml
+  label: Firecracker Vm API
+  slug: firecracker-vm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-vm-api-openapi.yml
+- filename: firecracker-vsock-api-openapi.yml
+  format: yaml
+  label: Firecracker Vsock API
+  slug: firecracker-vsock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-vsock-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1

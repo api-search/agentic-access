@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: aws-waf-openapi.yml
+- filename: aws-waf-aws-wafv2-api-api-openapi.yml
   format: yaml
-  label: AWS WAFV2 API
-  slug: wafv2-api
+  label: AWS WAF AWS WAFV2 API API
+  slug: aws-waf-aws-wafv2-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/aws-waf-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/openapi/aws-waf-aws-wafv2-api-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

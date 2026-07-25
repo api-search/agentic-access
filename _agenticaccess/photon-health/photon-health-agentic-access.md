@@ -3,42 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: photon-health-openapi.yml
+- filename: photon-health-graphql-api-openapi.yml
   format: yaml
-  label: Photon Health Patients API
-  slug: photon-health-patients-api
+  label: Photon Health GraphQL API
+  slug: photon-health-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-openapi.yml
-- filename: photon-health-openapi.yml
-  format: yaml
-  label: Photon Health Prescriptions API
-  slug: photon-health-prescriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-openapi.yml
-- filename: photon-health-openapi.yml
-  format: yaml
-  label: Photon Health Orders API
-  slug: photon-health-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-openapi.yml
-- filename: photon-health-openapi.yml
-  format: yaml
-  label: Photon Health Catalog & Medications API
-  slug: photon-health-catalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-openapi.yml
-- filename: photon-health-openapi.yml
-  format: yaml
-  label: Photon Health Pharmacies API
-  slug: photon-health-pharmacies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-openapi.yml
-- filename: photon-health-openapi.yml
-  format: yaml
-  label: Photon Health Webhooks API
-  slug: photon-health-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-graphql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

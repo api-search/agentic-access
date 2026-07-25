@@ -4,12 +4,30 @@ action_class_counts:
   acting: 1
   connected: 5
 api_specs:
-- filename: warner-music-group-licensing-openapi.yml
+- filename: warner-music-group-artists-api-openapi.yml
   format: yaml
-  label: Warner Music Group Licensing API
-  slug: wmg-licensing-api
+  label: Warner Music Group Artists API
+  slug: warner-music-group-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-licensing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-artists-api-openapi.yml
+- filename: warner-music-group-catalog-api-openapi.yml
+  format: yaml
+  label: Warner Music Group Catalog API
+  slug: warner-music-group-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-catalog-api-openapi.yml
+- filename: warner-music-group-licenses-api-openapi.yml
+  format: yaml
+  label: Warner Music Group Licenses API
+  slug: warner-music-group-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-licenses-api-openapi.yml
+- filename: warner-music-group-tracks-api-openapi.yml
+  format: yaml
+  label: Warner Music Group Tracks API
+  slug: warner-music-group-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-tracks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 1

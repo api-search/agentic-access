@@ -4,12 +4,18 @@ action_class_counts:
   acting: 2
   connected: 3
 api_specs:
-- filename: marginalia-search-openapi.yml
+- filename: marginalia-search-filters-api-openapi.yml
   format: yaml
-  label: Marginalia Search API
-  slug: marginalia-search-api
+  label: Marginalia Search Filters API
+  slug: marginalia-search-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/openapi/marginalia-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/openapi/marginalia-search-filters-api-openapi.yml
+- filename: marginalia-search-search-api-openapi.yml
+  format: yaml
+  label: Marginalia Search Search API
+  slug: marginalia-search-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/openapi/marginalia-search-search-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2

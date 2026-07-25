@@ -3,18 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: krisp-developers-openapi.yml
+- filename: krisp-sdk-distribution-api-openapi.yml
+  format: yaml
+  label: Krisp SDK Distribution API
+  slug: krisp-sdk-distribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/openapi/krisp-sdk-distribution-api-openapi.yml
+- filename: krisp-voice-translation-api-openapi.yml
   format: yaml
   label: Krisp Voice Translation API
-  slug: voice-translation
+  slug: krisp-voice-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/openapi/krisp-developers-openapi.yml
-- filename: krisp-developers-openapi.yml
-  format: yaml
-  label: Krisp SDK & Model Downloads API
-  slug: sdk-management
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/openapi/krisp-developers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/openapi/krisp-voice-translation-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

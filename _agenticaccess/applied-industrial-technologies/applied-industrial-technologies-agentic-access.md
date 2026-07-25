@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 3
 api_specs:
-- filename: applied-industrial-technologies-openapi.yaml
+- filename: applied-industrial-technologies-orders-api-openapi.yml
   format: yaml
-  label: Applied Industrial Technologies API
-  slug: applied-industrial-technologies-api
+  label: Applied Industrial Technologies Orders API
+  slug: applied-industrial-technologies-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/openapi/applied-industrial-technologies-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/openapi/applied-industrial-technologies-orders-api-openapi.yml
+- filename: applied-industrial-technologies-products-api-openapi.yml
+  format: yaml
+  label: Applied Industrial Technologies Products API
+  slug: applied-industrial-technologies-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applied-industrial-technologies/refs/heads/main/openapi/applied-industrial-technologies-products-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 3

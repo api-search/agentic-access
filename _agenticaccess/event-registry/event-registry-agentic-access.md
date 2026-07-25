@@ -3,12 +3,36 @@ acting_count: 12
 action_class_counts:
   acting: 12
 api_specs:
-- filename: documentation
+- filename: event-registry-articles-api-openapi.yml
   format: yaml
-  label: Event Registry News API
-  slug: news-api
+  label: Event Registry Articles API
+  slug: event-registry-articles-api
   spec_type: OpenAPI
-  url: https://newsapi.ai/documentation
+  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-articles-api-openapi.yml
+- filename: event-registry-events-api-openapi.yml
+  format: yaml
+  label: Event Registry Events API
+  slug: event-registry-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-events-api-openapi.yml
+- filename: event-registry-suggest-api-openapi.yml
+  format: yaml
+  label: Event Registry Suggest API
+  slug: event-registry-suggest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-suggest-api-openapi.yml
+- filename: event-registry-topic-pages-api-openapi.yml
+  format: yaml
+  label: Event Registry Topic Pages API
+  slug: event-registry-topic-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-topic-pages-api-openapi.yml
+- filename: event-registry-usage-api-openapi.yml
+  format: yaml
+  label: Event Registry Usage API
+  slug: event-registry-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-usage-api-openapi.yml
 consequence_counts:
   write: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

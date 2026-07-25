@@ -4,12 +4,12 @@ action_class_counts:
   acting: 10
   connected: 8
 api_specs:
-- filename: amazon-amplify-openapi.yaml
+- filename: amazon-amplify-apps-api-openapi.yml
   format: yaml
-  label: Amazon Amplify REST API
-  slug: amazon-amplify-rest-api
+  label: Amazon Amplify Apps API
+  slug: amazon-amplify-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/openapi/amazon-amplify-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/openapi/amazon-amplify-apps-api-openapi.yml
 consequence_counts:
   read: 8
   write: 10

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 5
 api_specs:
-- filename: openapi-specifications
+- filename: quickbooks-online-company-api-openapi.yml
   format: yaml
-  label: QuickBooks Online Accounting API
-  slug: accounting-api
+  label: QuickBooks Online Company API
+  slug: quickbooks-online-company-api
   spec_type: OpenAPI
-  url: https://developer.intuit.com/app/developer/qbo/docs/develop/explore-the-quickbooks-online-api/openapi-specifications
+  url: https://raw.githubusercontent.com/api-evangelist/quickbooks-online/refs/heads/main/openapi/quickbooks-online-company-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5

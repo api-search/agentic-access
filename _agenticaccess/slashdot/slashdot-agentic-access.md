@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: slashdot-rss-openapi.yml
+- filename: slashdot-apple-api-openapi.yml
   format: yaml
-  label: Slashdot RSS/Atom Feeds
-  slug: rss-feeds
+  label: Slashdot Apple API
+  slug: slashdot-apple-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-rss-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-apple-api-openapi.yml
+- filename: slashdot-developers-api-openapi.yml
+  format: yaml
+  label: Slashdot Developers API
+  slug: slashdot-developers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-developers-api-openapi.yml
+- filename: slashdot-feeds-api-openapi.yml
+  format: yaml
+  label: Slashdot Feeds API
+  slug: slashdot-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-feeds-api-openapi.yml
+- filename: slashdot-games-api-openapi.yml
+  format: yaml
+  label: Slashdot Games API
+  slug: slashdot-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-games-api-openapi.yml
+- filename: slashdot-linux-api-openapi.yml
+  format: yaml
+  label: Slashdot Linux API
+  slug: slashdot-linux-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-linux-api-openapi.yml
+- filename: slashdot-rights-api-openapi.yml
+  format: yaml
+  label: Slashdot Rights API
+  slug: slashdot-rights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-rights-api-openapi.yml
+- filename: slashdot-science-api-openapi.yml
+  format: yaml
+  label: Slashdot Science API
+  slug: slashdot-science-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/openapi/slashdot-science-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

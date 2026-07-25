@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: enterprise-products-partners-pipeline-operations-api-openapi.yml
+- filename: enterprise-products-partners-operations-api-openapi.yml
   format: yaml
-  label: Enterprise Products Partners Pipeline Operations API
-  slug: pipeline-operations-api
+  label: Enterprise Products Partners Operations API
+  slug: enterprise-products-partners-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enterprise-products-partners/refs/heads/main/openapi/enterprise-products-partners-pipeline-operations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/enterprise-products-partners/refs/heads/main/openapi/enterprise-products-partners-operations-api-openapi.yml
+- filename: enterprise-products-partners-pipelines-api-openapi.yml
+  format: yaml
+  label: Enterprise Products Partners Pipelines API
+  slug: enterprise-products-partners-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enterprise-products-partners/refs/heads/main/openapi/enterprise-products-partners-pipelines-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

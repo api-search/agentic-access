@@ -3,6 +3,37 @@ acting_count: 6
 action_class_counts:
   acting: 6
   connected: 8
+api_specs:
+- filename: here-technologies-batch-jobs-api-openapi.yml
+  format: yaml
+  label: HERE Technologies Batch Jobs API
+  slug: here-technologies-batch-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/here-technologies/refs/heads/main/openapi/here-technologies-batch-jobs-api-openapi.yml
+- filename: here-technologies-geocode-api-openapi.yml
+  format: yaml
+  label: HERE Technologies Geocode API
+  slug: here-technologies-geocode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/here-technologies/refs/heads/main/openapi/here-technologies-geocode-api-openapi.yml
+- filename: here-technologies-health-api-openapi.yml
+  format: yaml
+  label: HERE Technologies Health API
+  slug: here-technologies-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/here-technologies/refs/heads/main/openapi/here-technologies-health-api-openapi.yml
+- filename: here-technologies-notifications-api-openapi.yml
+  format: yaml
+  label: HERE Technologies Notifications API
+  slug: here-technologies-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/here-technologies/refs/heads/main/openapi/here-technologies-notifications-api-openapi.yml
+- filename: here-technologies-reverse-geocode-api-openapi.yml
+  format: yaml
+  label: HERE Technologies Reverse Geocode API
+  slug: here-technologies-reverse-geocode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/here-technologies/refs/heads/main/openapi/here-technologies-reverse-geocode-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: backupify-saas-protection-api.yaml
+- filename: backupify-domains-api-openapi.yml
   format: yaml
-  label: Backupify SaaS Protection API
-  slug: saas-protection-api
+  label: Backupify Domains API
+  slug: backupify-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/openapi/backupify-saas-protection-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/openapi/backupify-domains-api-openapi.yml
+- filename: backupify-seats-api-openapi.yml
+  format: yaml
+  label: Backupify Seats API
+  slug: backupify-seats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/openapi/backupify-seats-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

@@ -4,12 +4,30 @@ action_class_counts:
   acting: 6
   connected: 7
 api_specs:
-- filename: jumpcloud-openapi.yml
+- filename: jumpcloud-application-templates-api-openapi.yml
   format: yaml
-  label: JumpCloud API V1
-  slug: v1-api
+  label: JumpCloud Application Templates API
+  slug: jumpcloud-application-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-application-templates-api-openapi.yml
+- filename: jumpcloud-applications-api-openapi.yml
+  format: yaml
+  label: JumpCloud Applications API
+  slug: jumpcloud-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-applications-api-openapi.yml
+- filename: jumpcloud-command-results-api-openapi.yml
+  format: yaml
+  label: JumpCloud Command Results API
+  slug: jumpcloud-command-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-command-results-api-openapi.yml
+- filename: jumpcloud-commands-api-openapi.yml
+  format: yaml
+  label: JumpCloud Commands API
+  slug: jumpcloud-commands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-commands-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6

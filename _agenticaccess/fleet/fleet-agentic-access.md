@@ -4,12 +4,12 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: fleet-premium-openapi.json
-  format: json
-  label: Fleet REST API
-  slug: fleet-rest-api
+- filename: fleet-fleet-api-openapi.yml
+  format: yaml
+  label: Fleet Fleet API
+  slug: fleet-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/openapi/fleet-premium-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/fleet/refs/heads/main/openapi/fleet-fleet-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2

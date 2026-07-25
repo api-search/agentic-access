@@ -9,6 +9,12 @@ api_specs:
   slug: common-sense-media-reviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/openapi/common-sense-media-reviews-api-openapi.yml
+- filename: common-sense-media-system-api-openapi.yml
+  format: yaml
+  label: Common Sense Media system API
+  slug: common-sense-media-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/openapi/common-sense-media-system-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

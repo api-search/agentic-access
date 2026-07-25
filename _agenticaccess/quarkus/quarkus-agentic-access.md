@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: quarkus-dev-ui-openapi.yml
+- filename: quarkus-dev-ui-api-openapi.yml
   format: yaml
-  label: Quarkus
-  slug: quarkus
+  label: Quarkus Dev UI API
+  slug: quarkus-dev-ui-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-dev-ui-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-dev-ui-api-openapi.yml
+- filename: quarkus-health-api-openapi.yml
+  format: yaml
+  label: Quarkus Health API
+  slug: quarkus-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-health-api-openapi.yml
+- filename: quarkus-info-api-openapi.yml
+  format: yaml
+  label: Quarkus Info API
+  slug: quarkus-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-info-api-openapi.yml
+- filename: quarkus-metrics-api-openapi.yml
+  format: yaml
+  label: Quarkus Metrics API
+  slug: quarkus-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-metrics-api-openapi.yml
+- filename: quarkus-openapi-api-openapi.yml
+  format: yaml
+  label: Quarkus OpenAPI API
+  slug: quarkus-openapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/openapi/quarkus-openapi-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

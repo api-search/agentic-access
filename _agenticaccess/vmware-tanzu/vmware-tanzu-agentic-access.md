@@ -4,18 +4,30 @@ action_class_counts:
   acting: 7
   connected: 5
 api_specs:
-- filename: vmware-tanzu-service-mesh-openapi.yml
+- filename: vmware-tanzu-authentication-api-openapi.yml
   format: yaml
-  label: VMware Tanzu Service Mesh API
-  slug: tanzu-service-mesh-api
+  label: VMware Tanzu Authentication API
+  slug: vmware-tanzu-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-service-mesh-openapi.yml
-- filename: vmware-tanzu-kubernetes-grid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-authentication-api-openapi.yml
+- filename: vmware-tanzu-clusters-api-openapi.yml
   format: yaml
-  label: VMware Tanzu Kubernetes Grid API
-  slug: tanzu-kubernetes-grid-api
+  label: VMware Tanzu Clusters API
+  slug: vmware-tanzu-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-kubernetes-grid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-clusters-api-openapi.yml
+- filename: vmware-tanzu-global-namespaces-api-openapi.yml
+  format: yaml
+  label: VMware Tanzu Global Namespaces API
+  slug: vmware-tanzu-global-namespaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-global-namespaces-api-openapi.yml
+- filename: vmware-tanzu-resource-groups-api-openapi.yml
+  format: yaml
+  label: VMware Tanzu Resource Groups API
+  slug: vmware-tanzu-resource-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-resource-groups-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7

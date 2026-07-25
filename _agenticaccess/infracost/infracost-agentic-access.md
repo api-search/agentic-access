@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: infracost-openapi.yml
+- filename: infracost-breakdown-api-openapi.yml
   format: yaml
-  label: Infracost Cloud Pricing API
-  slug: infracost-api
+  label: Infracost Breakdown API
+  slug: infracost-breakdown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infracost/refs/heads/main/openapi/infracost-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/infracost/refs/heads/main/openapi/infracost-breakdown-api-openapi.yml
+- filename: infracost-diff-api-openapi.yml
+  format: yaml
+  label: Infracost Diff API
+  slug: infracost-diff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infracost/refs/heads/main/openapi/infracost-diff-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

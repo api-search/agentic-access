@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: Welcome.html
+- filename: amazon-organizations-organizations-api-openapi.yml
   format: yaml
-  label: AWS Organizations API
-  slug: aws-organizations-api
+  label: Amazon Organizations Organizations API
+  slug: amazon-organizations-organizations-api
   spec_type: OpenAPI
-  url: https://docs.aws.amazon.com/organizations/latest/APIReference/Welcome.html
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/openapi/amazon-organizations-organizations-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

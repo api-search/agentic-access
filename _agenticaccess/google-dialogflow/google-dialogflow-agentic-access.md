@@ -4,18 +4,12 @@ action_class_counts:
   acting: 9
   connected: 5
 api_specs:
-- filename: rest
+- filename: google-dialogflow-projects-api-openapi.yml
   format: yaml
-  label: Dialogflow API
-  slug: dialogflow-api
+  label: Google Dialogflow Projects API
+  slug: google-dialogflow-projects-api
   spec_type: OpenAPI
-  url: https://dialogflow.googleapis.com/$discovery/rest?version=v2
-- filename: rest
-  format: yaml
-  label: Dialogflow CX API
-  slug: dialogflow-cx-api
-  spec_type: OpenAPI
-  url: https://dialogflow.googleapis.com/$discovery/rest?version=v3
+  url: https://raw.githubusercontent.com/api-evangelist/google-dialogflow/refs/heads/main/openapi/google-dialogflow-projects-api-openapi.yml
 consequence_counts:
   read: 5
   write: 9

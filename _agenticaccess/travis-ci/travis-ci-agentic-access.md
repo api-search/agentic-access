@@ -4,12 +4,42 @@ action_class_counts:
   acting: 12
   connected: 12
 api_specs:
-- filename: travis-ci-openapi.yml
+- filename: travis-ci-builds-api-openapi.yml
   format: yaml
-  label: Travis CI REST API v3
-  slug: v3
+  label: Travis CI Builds API
+  slug: travis-ci-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-builds-api-openapi.yml
+- filename: travis-ci-jobs-api-openapi.yml
+  format: yaml
+  label: Travis CI Jobs API
+  slug: travis-ci-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-jobs-api-openapi.yml
+- filename: travis-ci-logs-api-openapi.yml
+  format: yaml
+  label: Travis CI Logs API
+  slug: travis-ci-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-logs-api-openapi.yml
+- filename: travis-ci-organizations-api-openapi.yml
+  format: yaml
+  label: Travis CI Organizations API
+  slug: travis-ci-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-organizations-api-openapi.yml
+- filename: travis-ci-repositories-api-openapi.yml
+  format: yaml
+  label: Travis CI Repositories API
+  slug: travis-ci-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-repositories-api-openapi.yml
+- filename: travis-ci-users-api-openapi.yml
+  format: yaml
+  label: Travis CI Users API
+  slug: travis-ci-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/openapi/travis-ci-users-api-openapi.yml
 consequence_counts:
   read: 12
   write: 12

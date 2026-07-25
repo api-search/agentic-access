@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 3
 api_specs:
-- filename: sahara-ai-compute-openapi.yml
+- filename: sahara-ai-discovery-api-openapi.yml
   format: yaml
-  label: Sahara AI Compute API
-  slug: sahara-ai-compute-api
+  label: Sahara AI Discovery API
+  slug: sahara-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/openapi/sahara-ai-compute-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/openapi/sahara-ai-discovery-api-openapi.yml
+- filename: sahara-ai-inference-api-openapi.yml
+  format: yaml
+  label: Sahara AI Inference API
+  slug: sahara-ai-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/openapi/sahara-ai-inference-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1

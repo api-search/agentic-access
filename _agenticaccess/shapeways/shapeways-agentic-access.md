@@ -4,12 +4,30 @@ action_class_counts:
   acting: 3
   connected: 7
 api_specs:
-- filename: shapeways-openapi.yml
+- filename: shapeways-cart-api-openapi.yml
   format: yaml
-  label: Shapeways API
-  slug: shapeways-api
+  label: Shapeways Cart API
+  slug: shapeways-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-cart-api-openapi.yml
+- filename: shapeways-materials-api-openapi.yml
+  format: yaml
+  label: Shapeways Materials API
+  slug: shapeways-materials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-materials-api-openapi.yml
+- filename: shapeways-models-api-openapi.yml
+  format: yaml
+  label: Shapeways Models API
+  slug: shapeways-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-models-api-openapi.yml
+- filename: shapeways-orders-api-openapi.yml
+  format: yaml
+  label: Shapeways Orders API
+  slug: shapeways-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-orders-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7

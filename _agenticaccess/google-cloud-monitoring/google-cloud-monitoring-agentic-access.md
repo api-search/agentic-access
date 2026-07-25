@@ -4,12 +4,12 @@ action_class_counts:
   acting: 7
   connected: 7
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-monitoring-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Monitoring API
-  slug: google-cloud-monitoring-api
+  label: Google Cloud Monitoring Projects API
+  slug: google-cloud-monitoring-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-monitoring/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-monitoring/refs/heads/main/openapi/google-cloud-monitoring-projects-api-openapi.yml
 consequence_counts:
   read: 7
   write: 7

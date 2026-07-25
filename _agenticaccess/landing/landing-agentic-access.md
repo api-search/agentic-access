@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: landing-public-openapi.json
-  format: json
+- filename: landing-public-api-openapi.yml
+  format: yaml
   label: Landing Public API
-  slug: public-api
+  slug: landing-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/openapi/landing-public-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/openapi/landing-public-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

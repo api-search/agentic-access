@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: cat-facts-catfact-openapi.yml
+- filename: cat-facts-catfact-breeds-api-openapi.yml
   format: yaml
-  label: Cat Facts API
-  slug: cat-facts-api
+  label: Cat Facts (catfact.ninja) Breeds API
+  slug: cat-facts-catfact-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/openapi/cat-facts-catfact-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/openapi/cat-facts-catfact-breeds-api-openapi.yml
+- filename: cat-facts-catfact-facts-api-openapi.yml
+  format: yaml
+  label: Cat Facts (catfact.ninja) Facts API
+  slug: cat-facts-catfact-facts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/openapi/cat-facts-catfact-facts-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: magic-link-openapi.yml
+- filename: magic-link-client-api-openapi.yml
   format: yaml
-  label: Magic Admin API
-  slug: admin-api
+  label: Magic Client API
+  slug: magic-link-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magic-link/refs/heads/main/openapi/magic-link-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/magic-link/refs/heads/main/openapi/magic-link-client-api-openapi.yml
+- filename: magic-link-users-api-openapi.yml
+  format: yaml
+  label: Magic Users API
+  slug: magic-link-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magic-link/refs/heads/main/openapi/magic-link-users-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

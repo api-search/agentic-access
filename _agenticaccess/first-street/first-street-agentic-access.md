@@ -3,6 +3,25 @@ acting_count: 2
 action_class_counts:
   acting: 2
   connected: 1
+api_specs:
+- filename: first-street-enterprise-api-openapi.yml
+  format: yaml
+  label: First Street Enterprise API
+  slug: first-street-enterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-enterprise-api-openapi.yml
+- filename: first-street-graphql-api-openapi.yml
+  format: yaml
+  label: First Street Graphql API
+  slug: first-street-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-graphql-api-openapi.yml
+- filename: first-street-maps-api-openapi.yml
+  format: yaml
+  label: First Street Maps API
+  slug: first-street-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/openapi/first-street-maps-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2

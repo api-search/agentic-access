@@ -4,12 +4,12 @@ action_class_counts:
   acting: 10
   connected: 4
 api_specs:
-- filename: turbopuffer-openapi.yml
+- filename: turbopuffer-namespaces-api-openapi.yml
   format: yaml
-  label: turbopuffer REST API
-  slug: rest-api
+  label: turbopuffer Namespaces API
+  slug: turbopuffer-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turbopuffer/main/openapi/turbopuffer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/turbopuffer/refs/heads/main/openapi/turbopuffer-namespaces-api-openapi.yml
 consequence_counts:
   read: 4
   write: 10

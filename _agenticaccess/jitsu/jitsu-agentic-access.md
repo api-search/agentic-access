@@ -3,24 +3,18 @@ acting_count: 4
 action_class_counts:
   acting: 4
 api_specs:
-- filename: jitsu-openapi.yml
+- filename: jitsu-batch-api-openapi.yml
   format: yaml
-  label: Jitsu Event Ingestion API (Track / Identify / Page)
-  slug: event-ingestion-api
+  label: Jitsu Batch API
+  slug: jitsu-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-openapi.yml
-- filename: jitsu-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-batch-api-openapi.yml
+- filename: jitsu-ingestion-api-openapi.yml
   format: yaml
-  label: Jitsu Bulk / Batch API
-  slug: bulk-batch-api
+  label: Jitsu Ingestion API
+  slug: jitsu-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-openapi.yml
-- filename: jitsu-openapi.yml
-  format: yaml
-  label: Jitsu Configuration / Management
-  slug: configuration-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/openapi/jitsu-ingestion-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

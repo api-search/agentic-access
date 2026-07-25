@@ -2,6 +2,49 @@
 acting_count: 23
 action_class_counts:
   acting: 23
+api_specs:
+- filename: cloudkit-assets-api-openapi.yml
+  format: yaml
+  label: Apple CloudKit Assets API
+  slug: cloudkit-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-assets-api-openapi.yml
+- filename: cloudkit-changes-api-openapi.yml
+  format: yaml
+  label: Apple CloudKit Changes API
+  slug: cloudkit-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-changes-api-openapi.yml
+- filename: cloudkit-records-api-openapi.yml
+  format: yaml
+  label: Apple CloudKit Records API
+  slug: cloudkit-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-records-api-openapi.yml
+- filename: cloudkit-subscriptions-api-openapi.yml
+  format: yaml
+  label: Apple CloudKit Subscriptions API
+  slug: cloudkit-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-subscriptions-api-openapi.yml
+- filename: cloudkit-tokens-api-openapi.yml
+  format: yaml
+  label: Apple CloudKit Tokens API
+  slug: cloudkit-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-tokens-api-openapi.yml
+- filename: cloudkit-users-api-openapi.yml
+  format: yaml
+  label: Apple CloudKit Users API
+  slug: cloudkit-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-users-api-openapi.yml
+- filename: cloudkit-zones-api-openapi.yml
+  format: yaml
+  label: Apple CloudKit Zones API
+  slug: cloudkit-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/openapi/cloudkit-zones-api-openapi.yml
 consequence_counts:
   write: 23
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

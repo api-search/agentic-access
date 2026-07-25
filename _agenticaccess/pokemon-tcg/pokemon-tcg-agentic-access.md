@@ -3,24 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: pokemon-tcg-openapi.yml
+- filename: pokemon-tcg-cards-api-openapi.yml
   format: yaml
-  label: Pokémon TCG Cards API
+  label: Pokémon TCG API Cards API
   slug: pokemon-tcg-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-openapi.yml
-- filename: pokemon-tcg-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-cards-api-openapi.yml
+- filename: pokemon-tcg-metadata-api-openapi.yml
   format: yaml
-  label: Pokémon TCG Sets API
-  slug: pokemon-tcg-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-openapi.yml
-- filename: pokemon-tcg-openapi.yml
-  format: yaml
-  label: Pokémon TCG Metadata API
+  label: Pokémon TCG API Metadata API
   slug: pokemon-tcg-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-metadata-api-openapi.yml
+- filename: pokemon-tcg-sets-api-openapi.yml
+  format: yaml
+  label: Pokémon TCG API Sets API
+  slug: pokemon-tcg-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-sets-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

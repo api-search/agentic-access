@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: chucknorris-io-openapi.yml
+- filename: chucknorris-io-categories-api-openapi.yml
   format: yaml
-  label: Chuck Norris Jokes API
-  slug: chuck-norris-jokes-api
+  label: chucknorris.io Categories API
+  slug: chucknorris-io-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/openapi/chucknorris-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/openapi/chucknorris-io-categories-api-openapi.yml
+- filename: chucknorris-io-jokes-api-openapi.yml
+  format: yaml
+  label: chucknorris.io Jokes API
+  slug: chucknorris-io-jokes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/openapi/chucknorris-io-jokes-api-openapi.yml
+- filename: chucknorris-io-search-api-openapi.yml
+  format: yaml
+  label: chucknorris.io Search API
+  slug: chucknorris-io-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/openapi/chucknorris-io-search-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

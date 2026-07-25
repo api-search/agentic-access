@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: environmental-protection-agency-openapi.yml
+- filename: environmental-protection-agency-envirofacts-api-openapi.yml
   format: yaml
-  label: EPA Envirofacts Data Service API
-  slug: envirofacts
+  label: Environmental Protection Agency Envirofacts API
+  slug: environmental-protection-agency-envirofacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/openapi/environmental-protection-agency-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/openapi/environmental-protection-agency-envirofacts-api-openapi.yml
+- filename: environmental-protection-agency-uvindex-api-openapi.yml
+  format: yaml
+  label: Environmental Protection Agency UVIndex API
+  slug: environmental-protection-agency-uvindex-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/openapi/environmental-protection-agency-uvindex-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

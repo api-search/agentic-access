@@ -3,36 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: kili-technology-openapi.yml
+- filename: kili-technology-graphql-api-openapi.yml
   format: yaml
-  label: Kili Technology Projects API
-  slug: projects
+  label: Kili Technology GraphQL API
+  slug: kili-technology-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-openapi.yml
-- filename: kili-technology-openapi.yml
-  format: yaml
-  label: Kili Technology Assets API
-  slug: assets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-openapi.yml
-- filename: kili-technology-openapi.yml
-  format: yaml
-  label: Kili Technology Labels API
-  slug: labels
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-openapi.yml
-- filename: kili-technology-openapi.yml
-  format: yaml
-  label: Kili Technology Issues API
-  slug: issues
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-openapi.yml
-- filename: kili-technology-openapi.yml
-  format: yaml
-  label: Kili Technology Users API
-  slug: users
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/openapi/kili-technology-graphql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

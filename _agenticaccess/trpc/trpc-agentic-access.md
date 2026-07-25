@@ -4,12 +4,12 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: trpc-openapi.yml
+- filename: trpc-procedures-api-openapi.yml
   format: yaml
-  label: tRPC HTTP Protocol
-  slug: http-api
+  label: tRPC Procedures API
+  slug: trpc-procedures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trpc/refs/heads/main/openapi/trpc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trpc/refs/heads/main/openapi/trpc-procedures-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2

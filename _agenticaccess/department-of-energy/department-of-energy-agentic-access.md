@@ -3,12 +3,84 @@ acting_count: 0
 action_class_counts:
   connected: 14
 api_specs:
-- filename: department-of-energy-openapi.yml
+- filename: department-of-energy-aeo-api-openapi.yml
   format: yaml
-  label: EIA Open Data API V2
-  slug: eia-api
+  label: Department of Energy Aeo API
+  slug: department-of-energy-aeo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-aeo-api-openapi.yml
+- filename: department-of-energy-co2-emissions-api-openapi.yml
+  format: yaml
+  label: Department of Energy Co2 Emissions API
+  slug: department-of-energy-co2-emissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-co2-emissions-api-openapi.yml
+- filename: department-of-energy-coal-api-openapi.yml
+  format: yaml
+  label: Department of Energy Coal API
+  slug: department-of-energy-coal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-coal-api-openapi.yml
+- filename: department-of-energy-eia-open-data-api-v2-api-openapi.yml
+  format: yaml
+  label: Department of Energy EIA Open Data API V2 API
+  slug: department-of-energy-eia-open-data-api-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-eia-open-data-api-v2-api-openapi.yml
+- filename: department-of-energy-electricity-api-openapi.yml
+  format: yaml
+  label: Department of Energy Electricity API
+  slug: department-of-energy-electricity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-electricity-api-openapi.yml
+- filename: department-of-energy-international-api-openapi.yml
+  format: yaml
+  label: Department of Energy International API
+  slug: department-of-energy-international-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-international-api-openapi.yml
+- filename: department-of-energy-natural-gas-api-openapi.yml
+  format: yaml
+  label: Department of Energy Natural Gas API
+  slug: department-of-energy-natural-gas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-natural-gas-api-openapi.yml
+- filename: department-of-energy-nuclear-outages-api-openapi.yml
+  format: yaml
+  label: Department of Energy Nuclear Outages API
+  slug: department-of-energy-nuclear-outages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-nuclear-outages-api-openapi.yml
+- filename: department-of-energy-petroleum-api-openapi.yml
+  format: yaml
+  label: Department of Energy Petroleum API
+  slug: department-of-energy-petroleum-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-petroleum-api-openapi.yml
+- filename: department-of-energy-seds-api-openapi.yml
+  format: yaml
+  label: Department of Energy Seds API
+  slug: department-of-energy-seds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-seds-api-openapi.yml
+- filename: department-of-energy-seriesid-api-openapi.yml
+  format: yaml
+  label: Department of Energy Seriesid API
+  slug: department-of-energy-seriesid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-seriesid-api-openapi.yml
+- filename: department-of-energy-steo-api-openapi.yml
+  format: yaml
+  label: Department of Energy Steo API
+  slug: department-of-energy-steo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-steo-api-openapi.yml
+- filename: department-of-energy-total-energy-api-openapi.yml
+  format: yaml
+  label: Department of Energy Total Energy API
+  slug: department-of-energy-total-energy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/openapi/department-of-energy-total-energy-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

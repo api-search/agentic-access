@@ -4,12 +4,12 @@ action_class_counts:
   acting: 6
   connected: 4
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-tasks-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Tasks API
-  slug: google-cloud-tasks-api
+  label: Google Cloud Tasks Projects API
+  slug: google-cloud-tasks-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-tasks/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-tasks/refs/heads/main/openapi/google-cloud-tasks-projects-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6

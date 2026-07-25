@@ -3,12 +3,54 @@ acting_count: 0
 action_class_counts:
   connected: 18
 api_specs:
-- filename: crossref-openapi.yml
+- filename: crossref-agency-api-openapi.yml
   format: yaml
-  label: Crossref REST API
-  slug: crossref-rest-api
+  label: Crossref Agency API
+  slug: crossref-agency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-agency-api-openapi.yml
+- filename: crossref-funders-api-openapi.yml
+  format: yaml
+  label: Crossref Funders API
+  slug: crossref-funders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-funders-api-openapi.yml
+- filename: crossref-journals-api-openapi.yml
+  format: yaml
+  label: Crossref Journals API
+  slug: crossref-journals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-journals-api-openapi.yml
+- filename: crossref-licenses-api-openapi.yml
+  format: yaml
+  label: Crossref Licenses API
+  slug: crossref-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-licenses-api-openapi.yml
+- filename: crossref-members-api-openapi.yml
+  format: yaml
+  label: Crossref Members API
+  slug: crossref-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-members-api-openapi.yml
+- filename: crossref-prefixes-api-openapi.yml
+  format: yaml
+  label: Crossref Prefixes API
+  slug: crossref-prefixes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-prefixes-api-openapi.yml
+- filename: crossref-types-api-openapi.yml
+  format: yaml
+  label: Crossref Types API
+  slug: crossref-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-types-api-openapi.yml
+- filename: crossref-works-api-openapi.yml
+  format: yaml
+  label: Crossref Works API
+  slug: crossref-works-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-works-api-openapi.yml
 consequence_counts:
   read: 18
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

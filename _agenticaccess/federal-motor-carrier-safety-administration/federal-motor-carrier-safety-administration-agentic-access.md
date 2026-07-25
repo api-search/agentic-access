@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: federal-motor-carrier-safety-administration-openapi.yml
+- filename: federal-motor-carrier-safety-administration-carriers-api-openapi.yml
   format: yaml
-  label: Federal Motor Carrier Safety Administration QCMobile API
-  slug: federal-motor-carrier-safety-administration
+  label: Federal Motor Carrier Safety Administration Carriers API
+  slug: federal-motor-carrier-safety-administration-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/openapi/federal-motor-carrier-safety-administration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/openapi/federal-motor-carrier-safety-administration-carriers-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

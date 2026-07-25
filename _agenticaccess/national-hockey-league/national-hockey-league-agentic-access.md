@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 15
 api_specs:
-- filename: national-hockey-league-openapi.yml
+- filename: national-hockey-league-game-center-api-openapi.yml
   format: yaml
-  label: NHL Web API
-  slug: nhl-web-api
+  label: National Hockey League Game Center API
+  slug: national-hockey-league-game-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-game-center-api-openapi.yml
+- filename: national-hockey-league-players-api-openapi.yml
+  format: yaml
+  label: National Hockey League Players API
+  slug: national-hockey-league-players-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-players-api-openapi.yml
+- filename: national-hockey-league-schedule-api-openapi.yml
+  format: yaml
+  label: National Hockey League Schedule API
+  slug: national-hockey-league-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-schedule-api-openapi.yml
+- filename: national-hockey-league-scores-api-openapi.yml
+  format: yaml
+  label: National Hockey League Scores API
+  slug: national-hockey-league-scores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-scores-api-openapi.yml
+- filename: national-hockey-league-standings-api-openapi.yml
+  format: yaml
+  label: National Hockey League Standings API
+  slug: national-hockey-league-standings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-standings-api-openapi.yml
+- filename: national-hockey-league-stats-api-openapi.yml
+  format: yaml
+  label: National Hockey League Stats API
+  slug: national-hockey-league-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-stats-api-openapi.yml
+- filename: national-hockey-league-teams-api-openapi.yml
+  format: yaml
+  label: National Hockey League Teams API
+  slug: national-hockey-league-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/openapi/national-hockey-league-teams-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

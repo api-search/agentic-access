@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: electricity-maps-openapi.yml
+- filename: electricity-maps-carbonintensity-api-openapi.yml
   format: yaml
-  label: Electricity Maps API
-  slug: electricity-maps
+  label: Electricity Maps CarbonIntensity API
+  slug: electricity-maps-carbonintensity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricity-maps/refs/heads/main/openapi/electricity-maps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/electricity-maps/refs/heads/main/openapi/electricity-maps-carbonintensity-api-openapi.yml
+- filename: electricity-maps-electricitymix-api-openapi.yml
+  format: yaml
+  label: Electricity Maps ElectricityMix API
+  slug: electricity-maps-electricitymix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricity-maps/refs/heads/main/openapi/electricity-maps-electricitymix-api-openapi.yml
+- filename: electricity-maps-gridmetrics-api-openapi.yml
+  format: yaml
+  label: Electricity Maps GridMetrics API
+  slug: electricity-maps-gridmetrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricity-maps/refs/heads/main/openapi/electricity-maps-gridmetrics-api-openapi.yml
+- filename: electricity-maps-pricing-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Pricing API
+  slug: electricity-maps-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricity-maps/refs/heads/main/openapi/electricity-maps-pricing-api-openapi.yml
+- filename: electricity-maps-renewables-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Renewables API
+  slug: electricity-maps-renewables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricity-maps/refs/heads/main/openapi/electricity-maps-renewables-api-openapi.yml
+- filename: electricity-maps-zones-api-openapi.yml
+  format: yaml
+  label: Electricity Maps Zones API
+  slug: electricity-maps-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/electricity-maps/refs/heads/main/openapi/electricity-maps-zones-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

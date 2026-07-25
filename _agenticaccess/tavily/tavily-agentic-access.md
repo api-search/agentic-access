@@ -3,12 +3,36 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: tavily-openapi.yml
+- filename: tavily-crawl-api-openapi.yml
   format: yaml
-  label: Tavily Web API
-  slug: web-api
+  label: Tavily Crawl API
+  slug: tavily-crawl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-crawl-api-openapi.yml
+- filename: tavily-extract-api-openapi.yml
+  format: yaml
+  label: Tavily Extract API
+  slug: tavily-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-extract-api-openapi.yml
+- filename: tavily-map-api-openapi.yml
+  format: yaml
+  label: Tavily Map API
+  slug: tavily-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-map-api-openapi.yml
+- filename: tavily-research-api-openapi.yml
+  format: yaml
+  label: Tavily Research API
+  slug: tavily-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-research-api-openapi.yml
+- filename: tavily-search-api-openapi.yml
+  format: yaml
+  label: Tavily Search API
+  slug: tavily-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/openapi/tavily-search-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

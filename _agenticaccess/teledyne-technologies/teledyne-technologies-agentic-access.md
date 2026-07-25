@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: teledyne-flir-camera-rest-openapi.yml
+- filename: teledyne-technologies-alarms-api-openapi.yml
   format: yaml
-  label: Teledyne FLIR Camera REST API
-  slug: flir-camera-rest-api
+  label: Teledyne Technologies Alarms API
+  slug: teledyne-technologies-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/openapi/teledyne-flir-camera-rest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/openapi/teledyne-technologies-alarms-api-openapi.yml
+- filename: teledyne-technologies-images-api-openapi.yml
+  format: yaml
+  label: Teledyne Technologies Images API
+  slug: teledyne-technologies-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/openapi/teledyne-technologies-images-api-openapi.yml
+- filename: teledyne-technologies-measurements-api-openapi.yml
+  format: yaml
+  label: Teledyne Technologies Measurements API
+  slug: teledyne-technologies-measurements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/openapi/teledyne-technologies-measurements-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

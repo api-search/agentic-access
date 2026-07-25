@@ -4,12 +4,12 @@ action_class_counts:
   acting: 6
   connected: 3
 api_specs:
-- filename: powerpoint-openapi.yml
+- filename: powerpoint-driveitems-api-openapi.yml
   format: yaml
-  label: PowerPoint via Microsoft Graph
-  slug: powerpoint-graph-api
+  label: PowerPoint DriveItems API
+  slug: powerpoint-driveitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powerpoint/refs/heads/main/openapi/powerpoint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/powerpoint/refs/heads/main/openapi/powerpoint-driveitems-api-openapi.yml
 consequence_counts:
   read: 3
   write: 6

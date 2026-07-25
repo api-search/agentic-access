@@ -4,12 +4,12 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: amazon-cloud9-openapi.yml
+- filename: amazon-cloud9-environments-api-openapi.yml
   format: yaml
-  label: Amazon Cloud9 API
-  slug: amazon-cloud9-api
+  label: Amazon Cloud9 Environments API
+  slug: amazon-cloud9-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/openapi/amazon-cloud9-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/openapi/amazon-cloud9-environments-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2

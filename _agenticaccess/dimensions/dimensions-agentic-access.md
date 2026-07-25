@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: dimensions-openapi.yml
+- filename: dimensions-authentication-api-openapi.yml
   format: yaml
-  label: Dimensions Analytics API
-  slug: dimensions-analytics-api
+  label: Dimensions Authentication API
+  slug: dimensions-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/openapi/dimensions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/openapi/dimensions-authentication-api-openapi.yml
+- filename: dimensions-query-api-openapi.yml
+  format: yaml
+  label: Dimensions Query API
+  slug: dimensions-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/openapi/dimensions-query-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

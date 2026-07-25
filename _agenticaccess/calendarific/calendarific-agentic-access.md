@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: calendarific-openapi.yml
+- filename: calendarific-countries-api-openapi.yml
   format: yaml
-  label: Calendarific Holiday API
-  slug: calendarific-holiday-api
+  label: Calendarific Countries API
+  slug: calendarific-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/openapi/calendarific-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/openapi/calendarific-countries-api-openapi.yml
+- filename: calendarific-holidays-api-openapi.yml
+  format: yaml
+  label: Calendarific Holidays API
+  slug: calendarific-holidays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/openapi/calendarific-holidays-api-openapi.yml
+- filename: calendarific-languages-api-openapi.yml
+  format: yaml
+  label: Calendarific Languages API
+  slug: calendarific-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/openapi/calendarific-languages-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

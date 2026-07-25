@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 19
 api_specs:
-- filename: spec
+- filename: culture-amp-employees-api-openapi.yml
   format: yaml
-  label: Culture Amp Public API
-  slug: culture-amp-public-api
+  label: Culture Amp Employees API
+  slug: culture-amp-employees-api
   spec_type: OpenAPI
-  url: https://api.cultureamp.com/spec
+  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-employees-api-openapi.yml
+- filename: culture-amp-performance-api-openapi.yml
+  format: yaml
+  label: Culture Amp Performance API
+  slug: culture-amp-performance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-performance-api-openapi.yml
+- filename: culture-amp-surveys-api-openapi.yml
+  format: yaml
+  label: Culture Amp Surveys API
+  slug: culture-amp-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-surveys-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

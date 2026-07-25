@@ -9,6 +9,12 @@ api_specs:
   slug: websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/asyncapi/hyperliquid-asyncapi.yml
+- filename: hyperliquid-info-api-openapi.yml
+  format: yaml
+  label: Hyperliquid Info API
+  slug: hyperliquid-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/openapi/hyperliquid-info-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

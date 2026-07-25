@@ -4,12 +4,24 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: phonepe-openapi.yml
+- filename: phonepe-checkout-api-openapi.yml
   format: yaml
-  label: PhonePe Payment Gateway API
-  slug: pg
+  label: PhonePe Checkout API
+  slug: phonepe-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/openapi/phonepe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/openapi/phonepe-checkout-api-openapi.yml
+- filename: phonepe-order-status-api-openapi.yml
+  format: yaml
+  label: PhonePe Order Status API
+  slug: phonepe-order-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/openapi/phonepe-order-status-api-openapi.yml
+- filename: phonepe-refunds-api-openapi.yml
+  format: yaml
+  label: PhonePe Refunds API
+  slug: phonepe-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/openapi/phonepe-refunds-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 2

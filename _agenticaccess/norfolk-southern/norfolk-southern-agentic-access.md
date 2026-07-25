@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: norfolk-southern-shipment-status-api.yml
+- filename: norfolk-southern-gate-receipts-api-openapi.yml
+  format: yaml
+  label: Norfolk Southern Gate Receipts API
+  slug: norfolk-southern-gate-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-gate-receipts-api-openapi.yml
+- filename: norfolk-southern-shipment-status-api-openapi.yml
   format: yaml
   label: Norfolk Southern Shipment Status API
-  slug: shipment-status
+  slug: norfolk-southern-shipment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-shipment-status-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-shipment-status-api-openapi.yml
+- filename: norfolk-southern-trip-plan-api-openapi.yml
+  format: yaml
+  label: Norfolk Southern Trip Plan API
+  slug: norfolk-southern-trip-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-trip-plan-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

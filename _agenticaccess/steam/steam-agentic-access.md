@@ -2,6 +2,31 @@
 acting_count: 0
 action_class_counts:
   connected: 11
+api_specs:
+- filename: steam-iplayerservice-api-openapi.yml
+  format: yaml
+  label: Steam IPlayerService API
+  slug: steam-iplayerservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-iplayerservice-api-openapi.yml
+- filename: steam-isteamnews-api-openapi.yml
+  format: yaml
+  label: Steam ISteamNews API
+  slug: steam-isteamnews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamnews-api-openapi.yml
+- filename: steam-isteamuser-api-openapi.yml
+  format: yaml
+  label: Steam ISteamUser API
+  slug: steam-isteamuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamuser-api-openapi.yml
+- filename: steam-isteamuserstats-api-openapi.yml
+  format: yaml
+  label: Steam ISteamUserStats API
+  slug: steam-isteamuserstats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/openapi/steam-isteamuserstats-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,24 @@ action_class_counts:
   acting: 2
   connected: 3
 api_specs:
-- filename: arctic-wolf-ticket-api-openapi.json
-  format: json
+- filename: arctic-wolf-attachment-api-openapi.yml
+  format: yaml
+  label: Arctic Wolf Attachment API
+  slug: arctic-wolf-attachment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/openapi/arctic-wolf-attachment-api-openapi.yml
+- filename: arctic-wolf-comment-api-openapi.yml
+  format: yaml
+  label: Arctic Wolf Comment API
+  slug: arctic-wolf-comment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/openapi/arctic-wolf-comment-api-openapi.yml
+- filename: arctic-wolf-ticket-api-openapi.yml
+  format: yaml
   label: Arctic Wolf Ticket API
   slug: arctic-wolf-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/openapi/arctic-wolf-ticket-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/openapi/arctic-wolf-ticket-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2

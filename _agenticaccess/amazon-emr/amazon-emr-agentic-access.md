@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: amazon-emr-openapi.yml
+- filename: amazon-emr-clusters-api-openapi.yml
   format: yaml
-  label: Amazon EMR API
-  slug: amazon-emr-api
+  label: Amazon EMR Clusters API
+  slug: amazon-emr-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/openapi/amazon-emr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/openapi/amazon-emr-clusters-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

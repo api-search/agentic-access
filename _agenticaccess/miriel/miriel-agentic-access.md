@@ -3,12 +3,48 @@ acting_count: 21
 action_class_counts:
   acting: 21
 api_specs:
-- filename: miriel-openapi.yml
+- filename: miriel-documents-api-openapi.yml
   format: yaml
-  label: Miriel Context Engine API
-  slug: miriel-context-engine-api
+  label: Miriel Documents API
+  slug: miriel-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-documents-api-openapi.yml
+- filename: miriel-learn-api-openapi.yml
+  format: yaml
+  label: Miriel Learn API
+  slug: miriel-learn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-learn-api-openapi.yml
+- filename: miriel-monitoring-api-openapi.yml
+  format: yaml
+  label: Miriel Monitoring API
+  slug: miriel-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-monitoring-api-openapi.yml
+- filename: miriel-policies-api-openapi.yml
+  format: yaml
+  label: Miriel Policies API
+  slug: miriel-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-policies-api-openapi.yml
+- filename: miriel-projects-api-openapi.yml
+  format: yaml
+  label: Miriel Projects API
+  slug: miriel-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-projects-api-openapi.yml
+- filename: miriel-query-api-openapi.yml
+  format: yaml
+  label: Miriel Query API
+  slug: miriel-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-query-api-openapi.yml
+- filename: miriel-users-api-openapi.yml
+  format: yaml
+  label: Miriel Users API
+  slug: miriel-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-users-api-openapi.yml
 consequence_counts:
   write: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

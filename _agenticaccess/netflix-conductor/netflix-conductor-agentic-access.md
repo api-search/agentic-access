@@ -4,12 +4,30 @@ action_class_counts:
   acting: 15
   connected: 11
 api_specs:
-- filename: conductor-api.yml
+- filename: netflix-conductor-events-api-openapi.yml
   format: yaml
-  label: Netflix Conductor
-  slug: netflix-conductor
+  label: Netflix Conductor Events API
+  slug: netflix-conductor-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/conductor-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-events-api-openapi.yml
+- filename: netflix-conductor-metadata-api-openapi.yml
+  format: yaml
+  label: Netflix Conductor Metadata API
+  slug: netflix-conductor-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-metadata-api-openapi.yml
+- filename: netflix-conductor-tasks-api-openapi.yml
+  format: yaml
+  label: Netflix Conductor Tasks API
+  slug: netflix-conductor-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-tasks-api-openapi.yml
+- filename: netflix-conductor-workflow-api-openapi.yml
+  format: yaml
+  label: Netflix Conductor Workflow API
+  slug: netflix-conductor-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-workflow-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1

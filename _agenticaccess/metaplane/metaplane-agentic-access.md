@@ -4,12 +4,30 @@ action_class_counts:
   acting: 16
   connected: 6
 api_specs:
-- filename: metaplane-openapi.yml
+- filename: metaplane-connections-api-openapi.yml
   format: yaml
-  label: Metaplane
-  slug: metaplane
+  label: Metaplane Connections API
+  slug: metaplane-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-connections-api-openapi.yml
+- filename: metaplane-datapoints-api-openapi.yml
+  format: yaml
+  label: Metaplane Datapoints API
+  slug: metaplane-datapoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-datapoints-api-openapi.yml
+- filename: metaplane-monitors-api-openapi.yml
+  format: yaml
+  label: Metaplane Monitors API
+  slug: metaplane-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-monitors-api-openapi.yml
+- filename: metaplane-tags-api-openapi.yml
+  format: yaml
+  label: Metaplane Tags API
+  slug: metaplane-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-tags-api-openapi.yml
 consequence_counts:
   read: 6
   write: 16

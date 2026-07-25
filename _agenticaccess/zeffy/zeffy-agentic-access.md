@@ -3,24 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: zeffy-openapi.yml
-  format: yaml
-  label: Zeffy Payments API
-  slug: zeffy-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/openapi/zeffy-openapi.yml
-- filename: zeffy-openapi.yml
-  format: yaml
-  label: Zeffy Contacts API
-  slug: zeffy-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/openapi/zeffy-openapi.yml
-- filename: zeffy-openapi.yml
+- filename: zeffy-campaigns-api-openapi.yml
   format: yaml
   label: Zeffy Campaigns API
   slug: zeffy-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/openapi/zeffy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/openapi/zeffy-campaigns-api-openapi.yml
+- filename: zeffy-contacts-api-openapi.yml
+  format: yaml
+  label: Zeffy Contacts API
+  slug: zeffy-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/openapi/zeffy-contacts-api-openapi.yml
+- filename: zeffy-payments-api-openapi.yml
+  format: yaml
+  label: Zeffy Payments API
+  slug: zeffy-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/openapi/zeffy-payments-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

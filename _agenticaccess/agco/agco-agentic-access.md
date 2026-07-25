@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: agco-agcommand-api-openapi.yml
+- filename: agco-locations-api-openapi.yml
   format: yaml
-  label: AGCO AgCommand API
-  slug: agcommand-api
+  label: agco Locations API
+  slug: agco-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-agcommand-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-locations-api-openapi.yml
+- filename: agco-machines-api-openapi.yml
+  format: yaml
+  label: agco Machines API
+  slug: agco-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-machines-api-openapi.yml
+- filename: agco-telemetry-api-openapi.yml
+  format: yaml
+  label: agco Telemetry API
+  slug: agco-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-telemetry-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

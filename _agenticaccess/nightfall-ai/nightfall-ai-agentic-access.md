@@ -3,12 +3,18 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: nightfall-ai-openapi.yml
+- filename: nightfall-ai-scan-api-openapi.yml
   format: yaml
-  label: Nightfall AI
-  slug: nightfall-ai
+  label: Nightfall AI Scan API
+  slug: nightfall-ai-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/openapi/nightfall-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/openapi/nightfall-ai-scan-api-openapi.yml
+- filename: nightfall-ai-scans-api-openapi.yml
+  format: yaml
+  label: Nightfall AI Scans API
+  slug: nightfall-ai-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/openapi/nightfall-ai-scans-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,18 +4,18 @@ action_class_counts:
   acting: 2
   connected: 4
 api_specs:
-- filename: vite-javascript-api-openapi.yml
+- filename: vite-dev-server-api-openapi.yml
   format: yaml
-  label: Vite JavaScript API
-  slug: javascript-api
+  label: Vite Dev Server API
+  slug: vite-dev-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vite/refs/heads/main/openapi/vite-javascript-api-openapi.yml
-- filename: vite-plugin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vite/refs/heads/main/openapi/vite-dev-server-api-openapi.yml
+- filename: vite-hot-module-replacement-api-openapi.yml
   format: yaml
-  label: Vite Plugin API
-  slug: plugin-api
+  label: Vite Hot Module Replacement API
+  slug: vite-hot-module-replacement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vite/refs/heads/main/openapi/vite-plugin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vite/refs/heads/main/openapi/vite-hot-module-replacement-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2

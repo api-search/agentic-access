@@ -3,12 +3,42 @@ acting_count: 6
 action_class_counts:
   acting: 6
 api_specs:
-- filename: amazon-ecr-openapi.yml
+- filename: amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api-openapi.yml
   format: yaml
-  label: Amazon ECR API
-  slug: amazon-ecr-api
+  label: Amazon ECR Amazon ECR Amazon Elastic Container Registry (ECR) API API
+  slug: amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api-openapi.yml
+- filename: amazon-ecr-batchgetimage-api-openapi.yml
+  format: yaml
+  label: 'Amazon ECR #BatchGetImage API'
+  slug: amazon-ecr-batchgetimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-batchgetimage-api-openapi.yml
+- filename: amazon-ecr-deleterepository-api-openapi.yml
+  format: yaml
+  label: 'Amazon ECR #DeleteRepository API'
+  slug: amazon-ecr-deleterepository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-deleterepository-api-openapi.yml
+- filename: amazon-ecr-describerepositories-api-openapi.yml
+  format: yaml
+  label: 'Amazon ECR #DescribeRepositories API'
+  slug: amazon-ecr-describerepositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-describerepositories-api-openapi.yml
+- filename: amazon-ecr-listimages-api-openapi.yml
+  format: yaml
+  label: 'Amazon ECR #ListImages API'
+  slug: amazon-ecr-listimages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-listimages-api-openapi.yml
+- filename: amazon-ecr-putimage-api-openapi.yml
+  format: yaml
+  label: 'Amazon ECR #PutImage API'
+  slug: amazon-ecr-putimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-putimage-api-openapi.yml
 consequence_counts:
   write: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

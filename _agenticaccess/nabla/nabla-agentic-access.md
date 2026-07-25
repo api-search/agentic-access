@@ -3,12 +3,18 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: nabla-openapi.yml
+- filename: nabla-authentication-api-openapi.yml
   format: yaml
-  label: Nabla Core API
-  slug: nabla-core-api
+  label: Nabla Authentication API
+  slug: nabla-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/openapi/nabla-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/openapi/nabla-authentication-api-openapi.yml
+- filename: nabla-transcription-api-openapi.yml
+  format: yaml
+  label: Nabla Transcription API
+  slug: nabla-transcription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/openapi/nabla-transcription-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,6 +3,13 @@ acting_count: 91
 action_class_counts:
   acting: 91
   connected: 58
+api_specs:
+- filename: google-cloud-healthcare-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Healthcare projects API
+  slug: google-cloud-healthcare-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/openapi/google-cloud-healthcare-projects-api-openapi.yml
 consequence_counts:
   read: 58
   safety-critical: 2

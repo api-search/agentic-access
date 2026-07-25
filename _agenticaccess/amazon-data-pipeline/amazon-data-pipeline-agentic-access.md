@@ -3,12 +3,30 @@ acting_count: 13
 action_class_counts:
   acting: 13
 api_specs:
-- filename: amazon-data-pipeline-openapi.yml
+- filename: amazon-data-pipeline-pipeline-objects-api-openapi.yml
   format: yaml
-  label: AWS Data Pipeline API
-  slug: aws-data-pipeline-api
+  label: Amazon Data Pipeline Pipeline Objects API
+  slug: amazon-data-pipeline-pipeline-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipeline-objects-api-openapi.yml
+- filename: amazon-data-pipeline-pipeline-runs-api-openapi.yml
+  format: yaml
+  label: Amazon Data Pipeline Pipeline Runs API
+  slug: amazon-data-pipeline-pipeline-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipeline-runs-api-openapi.yml
+- filename: amazon-data-pipeline-pipelines-api-openapi.yml
+  format: yaml
+  label: Amazon Data Pipeline Pipelines API
+  slug: amazon-data-pipeline-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-pipelines-api-openapi.yml
+- filename: amazon-data-pipeline-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Data Pipeline Tags API
+  slug: amazon-data-pipeline-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-tags-api-openapi.yml
 consequence_counts:
   write: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: openapi.yaml
+- filename: nexus-mutual-capacity-api-openapi.yml
   format: yaml
-  label: Nexus Mutual Cover Router API
-  slug: nexus-mutual-cover-router-api
+  label: Nexus Mutual Capacity API
+  slug: nexus-mutual-capacity-api
   spec_type: OpenAPI
-  url: https://api.nexusmutual.io/v2/api/docs/
+  url: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/openapi/nexus-mutual-capacity-api-openapi.yml
+- filename: nexus-mutual-pricing-api-openapi.yml
+  format: yaml
+  label: Nexus Mutual Pricing API
+  slug: nexus-mutual-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/openapi/nexus-mutual-pricing-api-openapi.yml
+- filename: nexus-mutual-quote-api-openapi.yml
+  format: yaml
+  label: Nexus Mutual Quote API
+  slug: nexus-mutual-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/openapi/nexus-mutual-quote-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

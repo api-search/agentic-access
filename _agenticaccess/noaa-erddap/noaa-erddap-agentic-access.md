@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: openapi.yaml
+- filename: noaa-erddap-data-access-api-openapi.yml
   format: yaml
-  label: NOAA ERDDAP REST API
-  slug: noaa-erddap-rest-api
+  label: NOAA ERDDAP Data Access API
+  slug: noaa-erddap-data-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/openapi/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/openapi/noaa-erddap-data-access-api-openapi.yml
+- filename: noaa-erddap-discovery-api-openapi.yml
+  format: yaml
+  label: NOAA ERDDAP Discovery API
+  slug: noaa-erddap-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/openapi/noaa-erddap-discovery-api-openapi.yml
+- filename: noaa-erddap-files-api-openapi.yml
+  format: yaml
+  label: NOAA ERDDAP Files API
+  slug: noaa-erddap-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/openapi/noaa-erddap-files-api-openapi.yml
+- filename: noaa-erddap-metadata-api-openapi.yml
+  format: yaml
+  label: NOAA ERDDAP Metadata API
+  slug: noaa-erddap-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/openapi/noaa-erddap-metadata-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

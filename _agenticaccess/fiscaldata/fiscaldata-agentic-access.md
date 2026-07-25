@@ -3,42 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: fiscaldata-openapi.yml
+- filename: fiscaldata-daily-treasury-statement-api-openapi.yml
   format: yaml
-  label: Treasury Debt API
-  slug: fiscaldata-debt-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-openapi.yml
-- filename: fiscaldata-openapi.yml
-  format: yaml
-  label: Average Interest Rates API
-  slug: fiscaldata-average-interest-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-openapi.yml
-- filename: fiscaldata-openapi.yml
-  format: yaml
-  label: Daily Treasury Statement API
+  label: U.S. Treasury Fiscal Data Daily Treasury Statement API
   slug: fiscaldata-daily-treasury-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-openapi.yml
-- filename: fiscaldata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-daily-treasury-statement-api-openapi.yml
+- filename: fiscaldata-debt-api-openapi.yml
   format: yaml
-  label: Monthly Treasury Statement API
-  slug: fiscaldata-monthly-treasury-statement-api
+  label: U.S. Treasury Fiscal Data Debt API
+  slug: fiscaldata-debt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-openapi.yml
-- filename: fiscaldata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-debt-api-openapi.yml
+- filename: fiscaldata-exchange-rates-api-openapi.yml
   format: yaml
-  label: Treasury Reporting Rates of Exchange API
+  label: U.S. Treasury Fiscal Data Exchange Rates API
   slug: fiscaldata-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-openapi.yml
-- filename: fiscaldata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-exchange-rates-api-openapi.yml
+- filename: fiscaldata-interest-rates-api-openapi.yml
   format: yaml
-  label: Treasury Securities API
+  label: U.S. Treasury Fiscal Data Interest Rates API
+  slug: fiscaldata-interest-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-interest-rates-api-openapi.yml
+- filename: fiscaldata-monthly-treasury-statement-api-openapi.yml
+  format: yaml
+  label: U.S. Treasury Fiscal Data Monthly Treasury Statement API
+  slug: fiscaldata-monthly-treasury-statement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-monthly-treasury-statement-api-openapi.yml
+- filename: fiscaldata-securities-api-openapi.yml
+  format: yaml
+  label: U.S. Treasury Fiscal Data Securities API
   slug: fiscaldata-securities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-securities-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

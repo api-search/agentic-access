@@ -4,12 +4,12 @@ action_class_counts:
   acting: 5
   connected: 5
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-eventarc-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Eventarc API
-  slug: google-cloud-eventarc-api
+  label: Google Cloud Eventarc Projects API
+  slug: google-cloud-eventarc-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-eventarc/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-eventarc/refs/heads/main/openapi/google-cloud-eventarc-projects-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5

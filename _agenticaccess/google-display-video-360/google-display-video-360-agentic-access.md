@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: openapi.yml
+- filename: google-display-video-360-advertisers-api-openapi.yml
   format: yaml
-  label: Google Display & Video 360 API
-  slug: google-display-video-360-api
+  label: Google Display & Video 360 Advertisers API
+  slug: google-display-video-360-advertisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-advertisers-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

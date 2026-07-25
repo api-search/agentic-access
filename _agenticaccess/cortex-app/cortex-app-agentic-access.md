@@ -2,6 +2,25 @@
 acting_count: 0
 action_class_counts:
   connected: 7
+api_specs:
+- filename: cortex-app-catalog-api-openapi.yml
+  format: yaml
+  label: Cortex Catalog API
+  slug: cortex-app-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-app/refs/heads/main/openapi/cortex-app-catalog-api-openapi.yml
+- filename: cortex-app-initiatives-api-openapi.yml
+  format: yaml
+  label: Cortex Initiatives API
+  slug: cortex-app-initiatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-app/refs/heads/main/openapi/cortex-app-initiatives-api-openapi.yml
+- filename: cortex-app-scorecards-api-openapi.yml
+  format: yaml
+  label: Cortex Scorecards API
+  slug: cortex-app-scorecards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex-app/refs/heads/main/openapi/cortex-app-scorecards-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

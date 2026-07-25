@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 3
 api_specs:
-- filename: icims-openapi.yml
+- filename: icims-workflows-api-openapi.yml
   format: yaml
   label: iCIMS Workflows API
   slug: icims-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icims/refs/heads/main/openapi/icims-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/icims/refs/heads/main/openapi/icims-workflows-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3

@@ -3,12 +3,36 @@ acting_count: 14
 action_class_counts:
   acting: 14
 api_specs:
-- filename: amazon-eventbridge-openapi.yml
+- filename: amazon-eventbridge-archives-api-openapi.yml
   format: yaml
-  label: Amazon EventBridge API
-  slug: amazon-eventbridge-api
+  label: Amazon EventBridge Archives API
+  slug: amazon-eventbridge-archives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-archives-api-openapi.yml
+- filename: amazon-eventbridge-event-buses-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Event Buses API
+  slug: amazon-eventbridge-event-buses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-event-buses-api-openapi.yml
+- filename: amazon-eventbridge-events-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Events API
+  slug: amazon-eventbridge-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-events-api-openapi.yml
+- filename: amazon-eventbridge-rules-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Rules API
+  slug: amazon-eventbridge-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-rules-api-openapi.yml
+- filename: amazon-eventbridge-targets-api-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Targets API
+  slug: amazon-eventbridge-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-targets-api-openapi.yml
 consequence_counts:
   write: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

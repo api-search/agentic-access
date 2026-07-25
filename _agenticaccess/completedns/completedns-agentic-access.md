@@ -3,18 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: completedns-v2-openapi.yml
+- filename: completedns-dns-history-api-openapi.yml
   format: yaml
-  label: CompleteDNS API v2
-  slug: dns-history-api
+  label: CompleteDNS DNS History API
+  slug: completedns-dns-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/openapi/completedns-v2-openapi.yml
-- filename: completedns-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/openapi/completedns-dns-history-api-openapi.yml
+- filename: completedns-ns-history-api-openapi.yml
   format: yaml
-  label: CompleteDNS API v1
-  slug: ns-history-api
+  label: CompleteDNS NS History API
+  slug: completedns-ns-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/openapi/completedns-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/openapi/completedns-ns-history-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

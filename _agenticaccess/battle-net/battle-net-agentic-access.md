@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: battle-net-hearthstone-game-data.yaml
+- filename: battle-net-card-backs-api-openapi.yml
   format: yaml
-  label: Hearthstone Game Data API
-  slug: hearthstone-game-data
+  label: Battle.net Card Backs API
+  slug: battle-net-card-backs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-hearthstone-game-data.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-card-backs-api-openapi.yml
+- filename: battle-net-cards-api-openapi.yml
+  format: yaml
+  label: Battle.net Cards API
+  slug: battle-net-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-cards-api-openapi.yml
+- filename: battle-net-decks-api-openapi.yml
+  format: yaml
+  label: Battle.net Decks API
+  slug: battle-net-decks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-decks-api-openapi.yml
+- filename: battle-net-metadata-api-openapi.yml
+  format: yaml
+  label: Battle.net Metadata API
+  slug: battle-net-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-metadata-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

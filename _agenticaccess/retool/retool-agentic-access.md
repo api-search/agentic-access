@@ -4,12 +4,36 @@ action_class_counts:
   acting: 10
   connected: 7
 api_specs:
-- filename: retool-management-api-openapi.yml
+- filename: retool-apps-api-openapi.yml
   format: yaml
-  label: Retool Management API
-  slug: retool-management-api
+  label: Retool Apps API
+  slug: retool-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-management-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-apps-api-openapi.yml
+- filename: retool-folders-api-openapi.yml
+  format: yaml
+  label: Retool Folders API
+  slug: retool-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-folders-api-openapi.yml
+- filename: retool-groups-api-openapi.yml
+  format: yaml
+  label: Retool Groups API
+  slug: retool-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-groups-api-openapi.yml
+- filename: retool-resources-api-openapi.yml
+  format: yaml
+  label: Retool Resources API
+  slug: retool-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-resources-api-openapi.yml
+- filename: retool-users-api-openapi.yml
+  format: yaml
+  label: Retool Users API
+  slug: retool-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-users-api-openapi.yml
 consequence_counts:
   read: 7
   write: 10

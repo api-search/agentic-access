@@ -4,12 +4,18 @@ action_class_counts:
   acting: 5
   connected: 4
 api_specs:
-- filename: openapi.yaml
+- filename: amazon-kinesis-video-streams-signaling-channels-api-openapi.yml
   format: yaml
-  label: Amazon Kinesis Video Streams API
-  slug: amazon-kinesis-video-streams-api
+  label: Amazon Kinesis Video Streams Signaling Channels API
+  slug: amazon-kinesis-video-streams-signaling-channels-api
   spec_type: OpenAPI
-  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesisvideo/2017-09-30/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/openapi/amazon-kinesis-video-streams-signaling-channels-api-openapi.yml
+- filename: amazon-kinesis-video-streams-streams-api-openapi.yml
+  format: yaml
+  label: Amazon Kinesis Video Streams Streams API
+  slug: amazon-kinesis-video-streams-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/openapi/amazon-kinesis-video-streams-streams-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 3
 api_specs:
-- filename: princess-beef-heavy-industries-giftshop-openapi.yml
+- filename: princess-beef-heavy-industries-product-api-openapi.yml
   format: yaml
-  label: Pb33f Giftshop API
-  slug: giftshop-api
+  label: Princess Beef Heavy Industries Product API
+  slug: princess-beef-heavy-industries-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/openapi/princess-beef-heavy-industries-giftshop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/openapi/princess-beef-heavy-industries-product-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3

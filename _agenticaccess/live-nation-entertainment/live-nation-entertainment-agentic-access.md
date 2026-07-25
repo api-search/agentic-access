@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: live-nation-entertainment-ticketmaster-discovery-api-openapi.yml
+- filename: live-nation-entertainment-attractions-api-openapi.yml
   format: yaml
-  label: Ticketmaster Discovery API
-  slug: ticketmaster-discovery-api
+  label: live-nation-entertainment Attractions API
+  slug: live-nation-entertainment-attractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/openapi/live-nation-entertainment-ticketmaster-discovery-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/openapi/live-nation-entertainment-attractions-api-openapi.yml
+- filename: live-nation-entertainment-classifications-api-openapi.yml
+  format: yaml
+  label: live-nation-entertainment Classifications API
+  slug: live-nation-entertainment-classifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/openapi/live-nation-entertainment-classifications-api-openapi.yml
+- filename: live-nation-entertainment-events-api-openapi.yml
+  format: yaml
+  label: live-nation-entertainment Events API
+  slug: live-nation-entertainment-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/openapi/live-nation-entertainment-events-api-openapi.yml
+- filename: live-nation-entertainment-venues-api-openapi.yml
+  format: yaml
+  label: live-nation-entertainment Venues API
+  slug: live-nation-entertainment-venues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/openapi/live-nation-entertainment-venues-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

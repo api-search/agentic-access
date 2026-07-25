@@ -4,12 +4,24 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: skydio-openapi.yml
+- filename: skydio-flights-api-openapi.yml
   format: yaml
-  label: Skydio Cloud API
-  slug: skydio-cloud-api
+  label: Skydio Flights API
+  slug: skydio-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skydio/refs/heads/main/openapi/skydio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skydio/refs/heads/main/openapi/skydio-flights-api-openapi.yml
+- filename: skydio-markers-api-openapi.yml
+  format: yaml
+  label: Skydio Markers API
+  slug: skydio-markers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skydio/refs/heads/main/openapi/skydio-markers-api-openapi.yml
+- filename: skydio-vehicles-api-openapi.yml
+  format: yaml
+  label: Skydio Vehicles API
+  slug: skydio-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/skydio/refs/heads/main/openapi/skydio-vehicles-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

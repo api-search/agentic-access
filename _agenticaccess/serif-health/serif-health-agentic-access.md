@@ -3,30 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: serif-health-openapi.yml
+- filename: serif-health-distributions-api-openapi.yml
   format: yaml
-  label: Serif Health Negotiated Rates API
-  slug: negotiated-rates-api
+  label: Serif Health Distributions API
+  slug: serif-health-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-openapi.yml
-- filename: serif-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-distributions-api-openapi.yml
+- filename: serif-health-rates-api-openapi.yml
   format: yaml
-  label: Serif Health Rate Distributions API
-  slug: rate-search-api
+  label: Serif Health Rates API
+  slug: serif-health-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-openapi.yml
-- filename: serif-health-openapi.yml
-  format: yaml
-  label: Serif Health Find Care API
-  slug: find-care-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-openapi.yml
-- filename: serif-health-openapi.yml
-  format: yaml
-  label: Serif Health Provider Directory API
-  slug: provider-directory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/openapi/serif-health-rates-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

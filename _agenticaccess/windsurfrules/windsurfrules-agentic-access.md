@@ -3,12 +3,24 @@ acting_count: 6
 action_class_counts:
   acting: 6
 api_specs:
-- filename: windsurf-enterprise-openapi.yml
+- filename: windsurfrules-analytics-api-openapi.yml
   format: yaml
-  label: Windsurf Enterprise API
-  slug: windsurf-enterprise-api
+  label: Windsurf analytics API
+  slug: windsurfrules-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurfrules/refs/heads/main/openapi/windsurf-enterprise-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windsurfrules/refs/heads/main/openapi/windsurfrules-analytics-api-openapi.yml
+- filename: windsurfrules-billing-api-openapi.yml
+  format: yaml
+  label: Windsurf billing API
+  slug: windsurfrules-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurfrules/refs/heads/main/openapi/windsurfrules-billing-api-openapi.yml
+- filename: windsurfrules-teams-api-openapi.yml
+  format: yaml
+  label: Windsurf teams API
+  slug: windsurfrules-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/windsurfrules/refs/heads/main/openapi/windsurfrules-teams-api-openapi.yml
 consequence_counts:
   write: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

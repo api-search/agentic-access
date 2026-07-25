@@ -4,18 +4,18 @@ action_class_counts:
   acting: 1
   connected: 5
 api_specs:
-- filename: ariba-guided-buying-catalog-shop-api.yaml
+- filename: ariba-guided-buying-requisitions-api-openapi.yml
   format: yaml
-  label: Ariba Guided Buying - Public Catalogs Shop API
-  slug: ariba-guided-buying-catalog-shop-api
+  label: Ariba Guided Buying Requisitions API
+  slug: ariba-guided-buying-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/openapi/ariba-guided-buying-catalog-shop-api.yaml
-- filename: ariba-guided-buying-asset-management-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/openapi/ariba-guided-buying-requisitions-api-openapi.yml
+- filename: ariba-guided-buying-shops-api-openapi.yml
   format: yaml
-  label: Ariba Guided Buying - Asset Management API
-  slug: ariba-guided-buying-asset-management-api
+  label: Ariba Guided Buying Shops API
+  slug: ariba-guided-buying-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/openapi/ariba-guided-buying-asset-management-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/openapi/ariba-guided-buying-shops-api-openapi.yml
 consequence_counts:
   read: 5
   write: 1

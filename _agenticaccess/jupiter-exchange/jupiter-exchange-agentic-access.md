@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: jupiter-exchange-openapi.yml
+- filename: jupiter-exchange-swap-api-openapi.yml
   format: yaml
   label: Jupiter Swap API
-  slug: swap-api
+  slug: jupiter-exchange-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupiter-exchange/refs/heads/main/openapi/jupiter-exchange-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/jupiter-exchange/refs/heads/main/openapi/jupiter-exchange-swap-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

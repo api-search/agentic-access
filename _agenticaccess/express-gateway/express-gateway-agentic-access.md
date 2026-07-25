@@ -4,12 +4,30 @@ action_class_counts:
   acting: 16
   connected: 9
 api_specs:
-- filename: express-gateway-openapi.yml
+- filename: express-gateway-apps-api-openapi.yml
   format: yaml
-  label: Express Gateway
-  slug: express-gateway
+  label: Express Gateway Apps API
+  slug: express-gateway-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-apps-api-openapi.yml
+- filename: express-gateway-credentials-api-openapi.yml
+  format: yaml
+  label: Express Gateway Credentials API
+  slug: express-gateway-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-credentials-api-openapi.yml
+- filename: express-gateway-scopes-api-openapi.yml
+  format: yaml
+  label: Express Gateway Scopes API
+  slug: express-gateway-scopes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-scopes-api-openapi.yml
+- filename: express-gateway-users-api-openapi.yml
+  format: yaml
+  label: Express Gateway Users API
+  slug: express-gateway-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/openapi/express-gateway-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 16

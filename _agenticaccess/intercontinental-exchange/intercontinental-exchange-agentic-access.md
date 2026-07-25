@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: ice-consolidated-feed-api-openapi.yml
+- filename: intercontinental-exchange-instruments-api-openapi.yml
   format: yaml
   label: ICE Consolidated Feed API
   slug: consolidated-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/openapi/ice-consolidated-feed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/openapi/intercontinental-exchange-instruments-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

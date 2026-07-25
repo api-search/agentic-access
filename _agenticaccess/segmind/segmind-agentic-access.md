@@ -4,12 +4,30 @@ action_class_counts:
   acting: 5
   connected: 7
 api_specs:
-- filename: segmind-openapi.yml
+- filename: segmind-account-api-openapi.yml
   format: yaml
-  label: Segmind
-  slug: segmind
+  label: Segmind Account API
+  slug: segmind-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-account-api-openapi.yml
+- filename: segmind-fine-tuning-api-openapi.yml
+  format: yaml
+  label: Segmind Fine-tuning API
+  slug: segmind-fine-tuning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-fine-tuning-api-openapi.yml
+- filename: segmind-inference-api-openapi.yml
+  format: yaml
+  label: Segmind Inference API
+  slug: segmind-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-inference-api-openapi.yml
+- filename: segmind-storage-api-openapi.yml
+  format: yaml
+  label: Segmind Storage API
+  slug: segmind-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-storage-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5

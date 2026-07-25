@@ -3,42 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 26
 api_specs:
-- filename: twelvedata-openapi.yml
-  format: yaml
-  label: Twelve Data Time Series API
-  slug: twelvedata-time-series-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-openapi.yml
-- filename: twelvedata-openapi.yml
-  format: yaml
-  label: Twelve Data Quotes and Price API
-  slug: twelvedata-quotes-price-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-openapi.yml
-- filename: twelvedata-openapi.yml
-  format: yaml
-  label: Twelve Data Technical Indicators API
-  slug: twelvedata-technical-indicators-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-openapi.yml
-- filename: twelvedata-openapi.yml
-  format: yaml
-  label: Twelve Data Reference Data API
-  slug: twelvedata-reference-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-openapi.yml
-- filename: twelvedata-openapi.yml
-  format: yaml
-  label: Twelve Data Fundamentals API
-  slug: twelvedata-fundamentals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-openapi.yml
 - filename: twelvedata-asyncapi.yml
   format: yaml
   label: Twelve Data WebSocket Streaming API
   slug: twelvedata-websocket-streaming-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/asyncapi/twelvedata-asyncapi.yml
+- filename: twelvedata-core-data-api-openapi.yml
+  format: yaml
+  label: Twelve Data Core Data API
+  slug: twelvedata-core-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-core-data-api-openapi.yml
+- filename: twelvedata-fundamentals-api-openapi.yml
+  format: yaml
+  label: Twelve Data Fundamentals API
+  slug: twelvedata-fundamentals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-fundamentals-api-openapi.yml
+- filename: twelvedata-reference-data-api-openapi.yml
+  format: yaml
+  label: Twelve Data Reference Data API
+  slug: twelvedata-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-reference-data-api-openapi.yml
+- filename: twelvedata-technical-indicators-api-openapi.yml
+  format: yaml
+  label: Twelve Data Technical Indicators API
+  slug: twelvedata-technical-indicators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-technical-indicators-api-openapi.yml
+- filename: twelvedata-time-series-api-openapi.yml
+  format: yaml
+  label: Twelve Data Time Series API
+  slug: twelvedata-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-time-series-api-openapi.yml
 consequence_counts:
   read: 26
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

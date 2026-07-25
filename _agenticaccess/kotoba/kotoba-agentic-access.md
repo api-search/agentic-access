@@ -4,30 +4,12 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: kotoba-transcription-openapi-original.yml
+- filename: kotoba-transcriptionapi-api-openapi.yml
   format: yaml
-  label: Kotoba Transcription API (Batch REST)
-  slug: kotoba-transcription-api-batch-rest
+  label: Kotoba transcriptionApi API
+  slug: kotoba-transcriptionapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/openapi/kotoba-transcription-openapi-original.yml
-- filename: kotoba-asr-realtime-openapi-original.yml
-  format: yaml
-  label: Kotoba ASR Realtime API (WebSocket)
-  slug: kotoba-asr-realtime-api-websocket
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/openapi/kotoba-asr-realtime-openapi-original.yml
-- filename: kotoba-sts-realtime-openapi-original.yml
-  format: yaml
-  label: Kotoba Speech-to-Speech Translation API (WebSocket)
-  slug: kotoba-speech-to-speech-translation-api-websocket
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/openapi/kotoba-sts-realtime-openapi-original.yml
-- filename: kotoba-tts-realtime-openapi-original.yml
-  format: yaml
-  label: Kotoba TTS Realtime API (WebSocket)
-  slug: kotoba-tts-realtime-api-websocket
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/openapi/kotoba-tts-realtime-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/openapi/kotoba-transcriptionapi-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

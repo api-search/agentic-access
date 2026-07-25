@@ -4,12 +4,36 @@ action_class_counts:
   acting: 8
   connected: 1
 api_specs:
-- filename: eden-ai-openapi.yml
+- filename: eden-ai-audio-api-openapi.yml
   format: yaml
-  label: Eden AI API
-  slug: eden-ai
+  label: Eden AI Audio API
+  slug: eden-ai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-audio-api-openapi.yml
+- filename: eden-ai-image-api-openapi.yml
+  format: yaml
+  label: Eden AI Image API
+  slug: eden-ai-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-image-api-openapi.yml
+- filename: eden-ai-ocr-api-openapi.yml
+  format: yaml
+  label: Eden AI OCR API
+  slug: eden-ai-ocr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-ocr-api-openapi.yml
+- filename: eden-ai-text-api-openapi.yml
+  format: yaml
+  label: Eden AI Text API
+  slug: eden-ai-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-text-api-openapi.yml
+- filename: eden-ai-translation-api-openapi.yml
+  format: yaml
+  label: Eden AI Translation API
+  slug: eden-ai-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-translation-api-openapi.yml
 consequence_counts:
   read: 1
   write: 8

@@ -4,12 +4,30 @@ action_class_counts:
   acting: 5
   connected: 7
 api_specs:
-- filename: florist-one-openapi.yml
+- filename: florist-one-affiliate-api-openapi.yml
   format: yaml
-  label: Florist One API
-  slug: florist-one-api
+  label: Florist One Affiliate API
+  slug: florist-one-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-affiliate-api-openapi.yml
+- filename: florist-one-flowershop-api-openapi.yml
+  format: yaml
+  label: Florist One FlowerShop API
+  slug: florist-one-flowershop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-flowershop-api-openapi.yml
+- filename: florist-one-giftbaskets-api-openapi.yml
+  format: yaml
+  label: Florist One GiftBaskets API
+  slug: florist-one-giftbaskets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-giftbaskets-api-openapi.yml
+- filename: florist-one-shoppingcart-api-openapi.yml
+  format: yaml
+  label: Florist One ShoppingCart API
+  slug: florist-one-shoppingcart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-shoppingcart-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 7

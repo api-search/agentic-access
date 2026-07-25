@@ -4,12 +4,12 @@ action_class_counts:
   acting: 17
   connected: 12
 api_specs:
-- filename: openapi.yml
+- filename: google-gmail-gmail-api-openapi.yml
   format: yaml
-  label: Google Gmail API
-  slug: google-gmail-api
+  label: Google Gmail Gmail API
+  slug: google-gmail-gmail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-gmail/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-gmail/refs/heads/main/openapi/google-gmail-gmail-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 2
   connected: 4
 api_specs:
-- filename: sprig-api-openapi-original.json
-  format: json
-  label: Sprig API
-  slug: sprig-api
+- filename: sprig-v1-api-openapi.yml
+  format: yaml
+  label: Sprig V1 API
+  slug: sprig-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-v1-api-openapi.yml
+- filename: sprig-v2-api-openapi.yml
+  format: yaml
+  label: Sprig V2 API
+  slug: sprig-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-v2-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2

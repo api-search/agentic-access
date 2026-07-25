@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: openapi.yml
+- filename: google-indexing-urlnotifications-api-openapi.yml
   format: yaml
-  label: Google Indexing API
-  slug: google-indexing-api
+  label: Google Indexing urlNotifications API
+  slug: google-indexing-urlnotifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/openapi/google-indexing-urlnotifications-api-openapi.yml
+- filename: google-indexing-urlnotifications-publish-api-openapi.yml
+  format: yaml
+  label: Google Indexing urlNotifications:publish API
+  slug: google-indexing-urlnotifications-publish-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/openapi/google-indexing-urlnotifications-publish-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

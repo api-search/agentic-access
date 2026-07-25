@@ -4,12 +4,48 @@ action_class_counts:
   acting: 7
   connected: 22
 api_specs:
-- filename: flink-rest-api-openapi-original.yml
+- filename: flink-checkpoints-api-openapi.yml
   format: yaml
-  label: Apache Flink REST API
-  slug: rest-api
+  label: Apache Flink Checkpoints API
+  slug: flink-checkpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-rest-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-checkpoints-api-openapi.yml
+- filename: flink-cluster-api-openapi.yml
+  format: yaml
+  label: Apache Flink Cluster API
+  slug: flink-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-cluster-api-openapi.yml
+- filename: flink-datasets-api-openapi.yml
+  format: yaml
+  label: Apache Flink Datasets API
+  slug: flink-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-datasets-api-openapi.yml
+- filename: flink-jars-api-openapi.yml
+  format: yaml
+  label: Apache Flink JARs API
+  slug: flink-jars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-jars-api-openapi.yml
+- filename: flink-jobmanager-api-openapi.yml
+  format: yaml
+  label: Apache Flink JobManager API
+  slug: flink-jobmanager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-jobmanager-api-openapi.yml
+- filename: flink-jobs-api-openapi.yml
+  format: yaml
+  label: Apache Flink Jobs API
+  slug: flink-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-jobs-api-openapi.yml
+- filename: flink-taskmanagers-api-openapi.yml
+  format: yaml
+  label: Apache Flink TaskManagers API
+  slug: flink-taskmanagers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/openapi/flink-taskmanagers-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 2

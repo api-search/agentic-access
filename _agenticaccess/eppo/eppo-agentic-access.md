@@ -4,12 +4,36 @@ action_class_counts:
   acting: 7
   connected: 6
 api_specs:
-- filename: eppo-openapi.yml
+- filename: eppo-allocations-api-openapi.yml
   format: yaml
-  label: Eppo Cloud REST API
-  slug: eppo-cloud-api
+  label: Eppo Allocations API
+  slug: eppo-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-allocations-api-openapi.yml
+- filename: eppo-assignments-api-openapi.yml
+  format: yaml
+  label: Eppo Assignments API
+  slug: eppo-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-assignments-api-openapi.yml
+- filename: eppo-experiments-api-openapi.yml
+  format: yaml
+  label: Eppo Experiments API
+  slug: eppo-experiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-experiments-api-openapi.yml
+- filename: eppo-flags-api-openapi.yml
+  format: yaml
+  label: Eppo Flags API
+  slug: eppo-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-flags-api-openapi.yml
+- filename: eppo-metrics-api-openapi.yml
+  format: yaml
+  label: Eppo Metrics API
+  slug: eppo-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/openapi/eppo-metrics-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7

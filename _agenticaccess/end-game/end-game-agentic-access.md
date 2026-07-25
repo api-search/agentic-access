@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: end-game-openapi.json
-  format: json
-  label: Endgame Public API
-  slug: endgame-public-api
+- filename: end-game-threads-api-openapi.yml
+  format: yaml
+  label: Endgame Threads API
+  slug: end-game-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-threads-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

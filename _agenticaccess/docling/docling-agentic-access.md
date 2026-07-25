@@ -4,18 +4,30 @@ action_class_counts:
   acting: 5
   connected: 4
 api_specs:
-- filename: docling-cli-openapi.yml
+- filename: docling-async-api-openapi.yml
   format: yaml
-  label: Docling Python Library
-  slug: docling-python-library
+  label: Docling Async API
+  slug: docling-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/openapi/docling-cli-openapi.yml
-- filename: docling-serve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/openapi/docling-async-api-openapi.yml
+- filename: docling-convert-api-openapi.yml
   format: yaml
-  label: Docling Serve REST API
-  slug: docling-serve-rest-api
+  label: Docling Convert API
+  slug: docling-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/openapi/docling-serve-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/openapi/docling-convert-api-openapi.yml
+- filename: docling-system-api-openapi.yml
+  format: yaml
+  label: Docling System API
+  slug: docling-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/openapi/docling-system-api-openapi.yml
+- filename: docling-tasks-api-openapi.yml
+  format: yaml
+  label: Docling Tasks API
+  slug: docling-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/openapi/docling-tasks-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5

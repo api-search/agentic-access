@@ -4,12 +4,30 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: carry1st-pay1st-gateway-openapi.yml
+- filename: carry1st-authentication-api-openapi.yml
   format: yaml
-  label: Pay1st Gateway API
-  slug: pay1st-gateway-api
+  label: Carry1st Authentication API
+  slug: carry1st-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/openapi/carry1st-pay1st-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/openapi/carry1st-authentication-api-openapi.yml
+- filename: carry1st-payment-methods-api-openapi.yml
+  format: yaml
+  label: Carry1st Payment Methods API
+  slug: carry1st-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/openapi/carry1st-payment-methods-api-openapi.yml
+- filename: carry1st-payments-api-openapi.yml
+  format: yaml
+  label: Carry1st Payments API
+  slug: carry1st-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/openapi/carry1st-payments-api-openapi.yml
+- filename: carry1st-refunds-api-openapi.yml
+  format: yaml
+  label: Carry1st Refunds API
+  slug: carry1st-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/openapi/carry1st-refunds-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 2

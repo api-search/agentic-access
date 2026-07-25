@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: openapi.yml
+- filename: lobsters-comments-api-openapi.yml
   format: yaml
-  label: Lobsters API
-  slug: lobsters-api
+  label: Lobsters Comments API
+  slug: lobsters-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lobsters/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lobsters/refs/heads/main/openapi/lobsters-comments-api-openapi.yml
+- filename: lobsters-stories-api-openapi.yml
+  format: yaml
+  label: Lobsters Stories API
+  slug: lobsters-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lobsters/refs/heads/main/openapi/lobsters-stories-api-openapi.yml
+- filename: lobsters-tags-api-openapi.yml
+  format: yaml
+  label: Lobsters Tags API
+  slug: lobsters-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lobsters/refs/heads/main/openapi/lobsters-tags-api-openapi.yml
+- filename: lobsters-users-api-openapi.yml
+  format: yaml
+  label: Lobsters Users API
+  slug: lobsters-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lobsters/refs/heads/main/openapi/lobsters-users-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,30 @@ action_class_counts:
   acting: 12
   connected: 9
 api_specs:
-- filename: google-play-developer-api.yml
+- filename: android-orders-api-openapi.yml
   format: yaml
-  label: Google Play Developer APIs
-  slug: google-play-developer-apis
+  label: Android Orders API
+  slug: android-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/google-play-developer-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-orders-api-openapi.yml
+- filename: android-purchases-api-openapi.yml
+  format: yaml
+  label: Android Purchases API
+  slug: android-purchases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-purchases-api-openapi.yml
+- filename: android-reviews-api-openapi.yml
+  format: yaml
+  label: Android Reviews API
+  slug: android-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-reviews-api-openapi.yml
+- filename: android-subscriptions-api-openapi.yml
+  format: yaml
+  label: Android Subscriptions API
+  slug: android-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 9

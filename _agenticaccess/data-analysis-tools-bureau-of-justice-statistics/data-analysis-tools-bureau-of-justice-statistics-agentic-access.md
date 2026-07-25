@@ -3,18 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: bjs-ncvs-api-openapi.yml
+- filename: data-analysis-tools-bureau-of-justice-statistics-ncvs-api-openapi.yml
   format: yaml
-  label: BJS NCVS API
-  slug: ncvs-api
+  label: Bureau of Justice Statistics Data Analysis Tools NCVS API
+  slug: data-analysis-tools-bureau-of-justice-statistics-ncvs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/data-analysis-tools-bureau-of-justice-statistics/refs/heads/main/openapi/bjs-ncvs-api-openapi.yml
-- filename: bjs-nibrs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/data-analysis-tools-bureau-of-justice-statistics/refs/heads/main/openapi/data-analysis-tools-bureau-of-justice-statistics-ncvs-api-openapi.yml
+- filename: data-analysis-tools-bureau-of-justice-statistics-nibrs-api-openapi.yml
   format: yaml
-  label: BJS NIBRS National Estimates API
-  slug: nibrs-api
+  label: Bureau of Justice Statistics Data Analysis Tools NIBRS API
+  slug: data-analysis-tools-bureau-of-justice-statistics-nibrs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/data-analysis-tools-bureau-of-justice-statistics/refs/heads/main/openapi/bjs-nibrs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/data-analysis-tools-bureau-of-justice-statistics/refs/heads/main/openapi/data-analysis-tools-bureau-of-justice-statistics-nibrs-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,6 +3,25 @@ acting_count: 8
 action_class_counts:
   acting: 8
   connected: 19
+api_specs:
+- filename: blubrry-api-restful-api-for-podcast-publishing-statistics-episode-api-openapi.yml
+  format: yaml
+  label: Blubrry API Episode API
+  slug: blubrry-api-restful-api-for-podcast-publishing-statistics-episode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-episode-api-openapi.yml
+- filename: blubrry-api-restful-api-for-podcast-publishing-statistics-media-api-openapi.yml
+  format: yaml
+  label: Blubrry API Media API
+  slug: blubrry-api-restful-api-for-podcast-publishing-statistics-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-media-api-openapi.yml
+- filename: blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api-openapi.yml
+  format: yaml
+  label: Blubrry API Statistics API
+  slug: blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api-openapi.yml
 consequence_counts:
   read: 19
   write: 8

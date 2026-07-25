@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: monad-openapi.yml
+- filename: monad-monad-json-rpc-api-api-openapi.yml
   format: yaml
-  label: Monad JSON-RPC API
-  slug: json-rpc-api
+  label: Monad Monad JSON RPC API API
+  slug: monad-monad-json-rpc-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monad/refs/heads/main/openapi/monad-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/monad/refs/heads/main/openapi/monad-monad-json-rpc-api-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

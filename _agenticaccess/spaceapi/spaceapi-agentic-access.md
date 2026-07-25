@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: openapi.json
-  format: json
-  label: SpaceAPI Collector
-  slug: spaceapi-collector
+- filename: spaceapi-directory-api-openapi.yml
+  format: yaml
+  label: SpaceAPI Directory API
+  slug: spaceapi-directory-api
   spec_type: OpenAPI
-  url: https://api.spaceapi.io/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/spaceapi/refs/heads/main/openapi/spaceapi-directory-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

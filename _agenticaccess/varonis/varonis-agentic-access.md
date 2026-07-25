@@ -4,12 +4,24 @@ action_class_counts:
   acting: 5
   connected: 1
 api_specs:
-- filename: varonis-datalert-openapi.yml
+- filename: varonis-alerts-api-openapi.yml
   format: yaml
-  label: Varonis DatAlert API
-  slug: varonis-datalert-api
+  label: Varonis Alerts API
+  slug: varonis-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/openapi/varonis-datalert-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/openapi/varonis-alerts-api-openapi.yml
+- filename: varonis-events-api-openapi.yml
+  format: yaml
+  label: Varonis Events API
+  slug: varonis-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/openapi/varonis-events-api-openapi.yml
+- filename: varonis-threat-models-api-openapi.yml
+  format: yaml
+  label: Varonis Threat Models API
+  slug: varonis-threat-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/openapi/varonis-threat-models-api-openapi.yml
 consequence_counts:
   read: 1
   write: 5

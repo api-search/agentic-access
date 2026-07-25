@@ -4,12 +4,30 @@ action_class_counts:
   acting: 7
   connected: 5
 api_specs:
-- filename: majesco-policy-openapi.yml
+- filename: majesco-billing-api-openapi.yml
   format: yaml
-  label: Majesco Insurance SaaS API
-  slug: majesco-api
+  label: majesco Billing API
+  slug: majesco-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-policy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-billing-api-openapi.yml
+- filename: majesco-claims-api-openapi.yml
+  format: yaml
+  label: majesco Claims API
+  slug: majesco-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-claims-api-openapi.yml
+- filename: majesco-distribution-api-openapi.yml
+  format: yaml
+  label: majesco Distribution API
+  slug: majesco-distribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-distribution-api-openapi.yml
+- filename: majesco-policies-api-openapi.yml
+  format: yaml
+  label: majesco Policies API
+  slug: majesco-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-policies-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5

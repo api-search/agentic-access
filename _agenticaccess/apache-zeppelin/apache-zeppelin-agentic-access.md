@@ -4,12 +4,12 @@ action_class_counts:
   acting: 20
   connected: 11
 api_specs:
-- filename: apache-zeppelin-openapi.yml
+- filename: apache-zeppelin-notebook-api-openapi.yml
   format: yaml
-  label: Apache Zeppelin REST API
-  slug: apache-zeppelin-rest-api
+  label: Apache Zeppelin Notebook API
+  slug: apache-zeppelin-notebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-zeppelin/refs/heads/main/openapi/apache-zeppelin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zeppelin/refs/heads/main/openapi/apache-zeppelin-notebook-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 2

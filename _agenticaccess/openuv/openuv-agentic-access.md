@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: openuv-openapi.yml
+- filename: openuv-account-api-openapi.yml
   format: yaml
-  label: OpenUV
-  slug: openuv
+  label: OpenUV Account API
+  slug: openuv-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/openapi/openuv-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/openapi/openuv-account-api-openapi.yml
+- filename: openuv-protection-api-openapi.yml
+  format: yaml
+  label: OpenUV Protection API
+  slug: openuv-protection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/openapi/openuv-protection-api-openapi.yml
+- filename: openuv-uv-index-api-openapi.yml
+  format: yaml
+  label: OpenUV UV Index API
+  slug: openuv-uv-index-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/openapi/openuv-uv-index-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

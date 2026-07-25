@@ -3,6 +3,25 @@ acting_count: 3
 action_class_counts:
   acting: 3
   connected: 4
+api_specs:
+- filename: lakera-guard-api-openapi.yml
+  format: yaml
+  label: Lakera Guard API
+  slug: lakera-guard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-guard-api-openapi.yml
+- filename: lakera-health-api-openapi.yml
+  format: yaml
+  label: Lakera Health API
+  slug: lakera-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-health-api-openapi.yml
+- filename: lakera-policies-api-openapi.yml
+  format: yaml
+  label: Lakera Policies API
+  slug: lakera-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-policies-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

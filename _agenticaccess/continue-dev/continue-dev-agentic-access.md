@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 7
 api_specs:
-- filename: continue-dev-hub-ide-api-openapi.yml
+- filename: continue-dev-ide-api-openapi.yml
   format: yaml
-  label: Continue Hub IDE API
-  slug: continue-hub-ide-api
+  label: Continue Ide API
+  slug: continue-dev-ide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/openapi/continue-dev-hub-ide-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/openapi/continue-dev-ide-api-openapi.yml
 consequence_counts:
   read: 7
   write: 1

@@ -3,12 +3,36 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-natural-language-documents-analyzeentities-api-openapi.yml
   format: yaml
-  label: Google Cloud Natural Language API
-  slug: google-cloud-natural-language-api
+  label: Google Cloud Natural Language documents:analyzeEntities API
+  slug: google-cloud-natural-language-documents-analyzeentities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-analyzeentities-api-openapi.yml
+- filename: google-cloud-natural-language-documents-analyzesentiment-api-openapi.yml
+  format: yaml
+  label: Google Cloud Natural Language documents:analyzeSentiment API
+  slug: google-cloud-natural-language-documents-analyzesentiment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-analyzesentiment-api-openapi.yml
+- filename: google-cloud-natural-language-documents-analyzesyntax-api-openapi.yml
+  format: yaml
+  label: Google Cloud Natural Language documents:analyzeSyntax API
+  slug: google-cloud-natural-language-documents-analyzesyntax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-analyzesyntax-api-openapi.yml
+- filename: google-cloud-natural-language-documents-annotatetext-api-openapi.yml
+  format: yaml
+  label: Google Cloud Natural Language documents:annotateText API
+  slug: google-cloud-natural-language-documents-annotatetext-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-annotatetext-api-openapi.yml
+- filename: google-cloud-natural-language-documents-classifytext-api-openapi.yml
+  format: yaml
+  label: Google Cloud Natural Language documents:classifyText API
+  slug: google-cloud-natural-language-documents-classifytext-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/openapi/google-cloud-natural-language-documents-classifytext-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

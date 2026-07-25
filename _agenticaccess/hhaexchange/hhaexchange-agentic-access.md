@@ -4,12 +4,24 @@ action_class_counts:
   acting: 3
   connected: 5
 api_specs:
-- filename: hhaexchange-fhir-openapi.yml
+- filename: hhaexchange-configuration-api-openapi.yml
   format: yaml
-  label: HHAeXchange EVV API
-  slug: hhaexchange-evv-api
+  label: HHAeXchange Configuration API
+  slug: hhaexchange-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/openapi/hhaexchange-fhir-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/openapi/hhaexchange-configuration-api-openapi.yml
+- filename: hhaexchange-internal-api-openapi.yml
+  format: yaml
+  label: HHAeXchange Internal API
+  slug: hhaexchange-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/openapi/hhaexchange-internal-api-openapi.yml
+- filename: hhaexchange-onboarding-api-openapi.yml
+  format: yaml
+  label: HHAeXchange Onboarding API
+  slug: hhaexchange-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/openapi/hhaexchange-onboarding-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3

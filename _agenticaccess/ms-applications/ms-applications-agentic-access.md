@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 11
 api_specs:
-- filename: openapi.yaml
+- filename: ms-applications-groups-api-openapi.yml
   format: yaml
-  label: Microsoft Graph API
-  slug: microsoft-graph-api
+  label: Microsoft Applications APIs Groups API
+  slug: ms-applications-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ms-applications/refs/heads/main/openapi/ms-applications-groups-api-openapi.yml
+- filename: ms-applications-me-api-openapi.yml
+  format: yaml
+  label: Microsoft Applications APIs Me API
+  slug: ms-applications-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ms-applications/refs/heads/main/openapi/ms-applications-me-api-openapi.yml
+- filename: ms-applications-users-api-openapi.yml
+  format: yaml
+  label: Microsoft Applications APIs Users API
+  slug: ms-applications-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ms-applications/refs/heads/main/openapi/ms-applications-users-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

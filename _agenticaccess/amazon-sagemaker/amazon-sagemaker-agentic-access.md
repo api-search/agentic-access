@@ -3,12 +3,30 @@ acting_count: 13
 action_class_counts:
   acting: 13
 api_specs:
-- filename: amazon-sagemaker-openapi.yml
+- filename: amazon-sagemaker-endpoints-api-openapi.yml
   format: yaml
-  label: Amazon SageMaker API
-  slug: amazon-sagemaker-api
+  label: Amazon SageMaker Endpoints API
+  slug: amazon-sagemaker-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/openapi/amazon-sagemaker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/openapi/amazon-sagemaker-endpoints-api-openapi.yml
+- filename: amazon-sagemaker-models-api-openapi.yml
+  format: yaml
+  label: Amazon SageMaker Models API
+  slug: amazon-sagemaker-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/openapi/amazon-sagemaker-models-api-openapi.yml
+- filename: amazon-sagemaker-notebook-instances-api-openapi.yml
+  format: yaml
+  label: Amazon SageMaker Notebook Instances API
+  slug: amazon-sagemaker-notebook-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/openapi/amazon-sagemaker-notebook-instances-api-openapi.yml
+- filename: amazon-sagemaker-training-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon SageMaker Training Jobs API
+  slug: amazon-sagemaker-training-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/openapi/amazon-sagemaker-training-jobs-api-openapi.yml
 consequence_counts:
   write: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

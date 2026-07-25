@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: modo-energy-openapi.yml
+- filename: modo-energy-ercot-api-openapi.yml
   format: yaml
-  label: Modo Energy
-  slug: modo-energy
+  label: Modo Energy ERCOT API
+  slug: modo-energy-ercot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-ercot-api-openapi.yml
+- filename: modo-energy-gb-api-openapi.yml
+  format: yaml
+  label: Modo Energy GB API
+  slug: modo-energy-gb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-gb-api-openapi.yml
+- filename: modo-energy-nem-api-openapi.yml
+  format: yaml
+  label: Modo Energy NEM API
+  slug: modo-energy-nem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/openapi/modo-energy-nem-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

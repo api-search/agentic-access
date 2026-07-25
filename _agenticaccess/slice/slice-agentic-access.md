@@ -4,18 +4,18 @@ action_class_counts:
   acting: 6
   connected: 4
 api_specs:
-- filename: slice-public-api-v1-openapi.yml
+- filename: slice-orders-api-openapi.yml
   format: yaml
-  label: Slice Public API (v1)
-  slug: rest-api-v1
+  label: Slice Orders API
+  slug: slice-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/openapi/slice-public-api-v1-openapi.yml
-- filename: slice-public-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/openapi/slice-orders-api-openapi.yml
+- filename: slice-shops-api-openapi.yml
   format: yaml
-  label: Slice Public API (v2)
-  slug: rest-api-v2
+  label: Slice Shops API
+  slug: slice-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/openapi/slice-public-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/openapi/slice-shops-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 4

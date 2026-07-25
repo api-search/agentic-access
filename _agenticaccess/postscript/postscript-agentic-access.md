@@ -4,12 +4,24 @@ action_class_counts:
   acting: 6
   connected: 3
 api_specs:
-- filename: postscript-openapi.yml
+- filename: postscript-events-api-openapi.yml
   format: yaml
-  label: Postscript API
-  slug: postscript-api
+  label: Postscript Events API
+  slug: postscript-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-events-api-openapi.yml
+- filename: postscript-subscribers-api-openapi.yml
+  format: yaml
+  label: Postscript Subscribers API
+  slug: postscript-subscribers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-subscribers-api-openapi.yml
+- filename: postscript-webhooks-api-openapi.yml
+  format: yaml
+  label: Postscript Webhooks API
+  slug: postscript-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 3

@@ -3,12 +3,12 @@ acting_count: 4
 action_class_counts:
   acting: 4
 api_specs:
-- filename: openapi.yml
+- filename: google-business-messages-conversations-api-openapi.yml
   format: yaml
-  label: Google Business Messages API
-  slug: google-business-messages
+  label: Google Business Messages Conversations API
+  slug: google-business-messages-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-business-messages/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-business-messages/refs/heads/main/openapi/google-business-messages-conversations-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

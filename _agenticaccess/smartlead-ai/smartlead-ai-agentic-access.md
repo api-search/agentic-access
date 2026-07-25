@@ -3,6 +3,19 @@ acting_count: 2
 action_class_counts:
   acting: 2
   connected: 3
+api_specs:
+- filename: smartlead-ai-campaign-statistics-api-openapi.yml
+  format: yaml
+  label: Smartlead Campaign Statistics API
+  slug: smartlead-ai-campaign-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-campaign-statistics-api-openapi.yml
+- filename: smartlead-ai-campaigns-api-openapi.yml
+  format: yaml
+  label: Smartlead Campaigns API
+  slug: smartlead-ai-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/openapi/smartlead-ai-campaigns-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2

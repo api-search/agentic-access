@@ -4,24 +4,36 @@ action_class_counts:
   acting: 497
   connected: 162
 api_specs:
-- filename: stream-io-chat-openapi.yml
+- filename: stream-io-product-chat-api-openapi.yml
   format: yaml
-  label: Stream Chat API
-  slug: chat
+  label: Stream product:chat API
+  slug: stream-io-product-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/openapi/stream-io-chat-openapi.yml
-- filename: stream-io-video-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/openapi/stream-io-product-chat-api-openapi.yml
+- filename: stream-io-product-common-api-openapi.yml
   format: yaml
-  label: Stream Video & Audio API
-  slug: video
+  label: Stream product:common API
+  slug: stream-io-product-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/openapi/stream-io-video-openapi.yml
-- filename: stream-io-moderation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/openapi/stream-io-product-common-api-openapi.yml
+- filename: stream-io-product-feeds-api-openapi.yml
   format: yaml
-  label: Stream Moderation API
-  slug: moderation
+  label: Stream product:feeds API
+  slug: stream-io-product-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/openapi/stream-io-moderation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/openapi/stream-io-product-feeds-api-openapi.yml
+- filename: stream-io-product-moderation-api-openapi.yml
+  format: yaml
+  label: Stream product:moderation API
+  slug: stream-io-product-moderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/openapi/stream-io-product-moderation-api-openapi.yml
+- filename: stream-io-product-video-api-openapi.yml
+  format: yaml
+  label: Stream product:video API
+  slug: stream-io-product-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/openapi/stream-io-product-video-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 162

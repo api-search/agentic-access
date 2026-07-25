@@ -4,12 +4,30 @@ action_class_counts:
   acting: 2
   connected: 8
 api_specs:
-- filename: contentsquare-openapi.yml
+- filename: contentsquare-authentication-api-openapi.yml
   format: yaml
-  label: Contentsquare Data Export API
-  slug: data-export-api
+  label: Contentsquare Authentication API
+  slug: contentsquare-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-authentication-api-openapi.yml
+- filename: contentsquare-exports-api-openapi.yml
+  format: yaml
+  label: Contentsquare Exports API
+  slug: contentsquare-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-exports-api-openapi.yml
+- filename: contentsquare-fields-api-openapi.yml
+  format: yaml
+  label: Contentsquare Fields API
+  slug: contentsquare-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-fields-api-openapi.yml
+- filename: contentsquare-runs-api-openapi.yml
+  format: yaml
+  label: Contentsquare Runs API
+  slug: contentsquare-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/openapi/contentsquare-runs-api-openapi.yml
 consequence_counts:
   read: 8
   write: 2

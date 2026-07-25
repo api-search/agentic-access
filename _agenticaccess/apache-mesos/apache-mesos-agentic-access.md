@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: apache-mesos-openapi.yml
+- filename: apache-mesos-apache-mesos-operator-http-api-api-openapi.yml
   format: yaml
-  label: Apache Mesos Operator HTTP API
-  slug: mesos-operator-http-api
+  label: Apache Mesos Apache Mesos Operator HTTP API API
+  slug: apache-mesos-apache-mesos-operator-http-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-mesos/refs/heads/main/openapi/apache-mesos-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-mesos/refs/heads/main/openapi/apache-mesos-apache-mesos-operator-http-api-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

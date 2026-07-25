@@ -4,12 +4,30 @@ action_class_counts:
   acting: 27
   connected: 1
 api_specs:
-- filename: amazon-control-tower-openapi.yml
+- filename: amazon-control-tower-baselines-api-openapi.yml
   format: yaml
-  label: AWS Control Tower API
-  slug: aws-control-tower-api
+  label: Amazon Control Tower Baselines API
+  slug: amazon-control-tower-baselines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-baselines-api-openapi.yml
+- filename: amazon-control-tower-controls-api-openapi.yml
+  format: yaml
+  label: Amazon Control Tower Controls API
+  slug: amazon-control-tower-controls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-controls-api-openapi.yml
+- filename: amazon-control-tower-landing-zones-api-openapi.yml
+  format: yaml
+  label: Amazon Control Tower Landing Zones API
+  slug: amazon-control-tower-landing-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-landing-zones-api-openapi.yml
+- filename: amazon-control-tower-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Control Tower Tags API
+  slug: amazon-control-tower-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-tags-api-openapi.yml
 consequence_counts:
   read: 1
   safety-critical: 27

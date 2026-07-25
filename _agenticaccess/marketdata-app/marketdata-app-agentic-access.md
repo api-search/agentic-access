@@ -3,30 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 14
 api_specs:
-- filename: marketdata-app-openapi.yml
-  format: yaml
-  label: Market Data Stocks API
-  slug: marketdata-app-stocks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-openapi.yml
-- filename: marketdata-app-openapi.yml
-  format: yaml
-  label: Market Data Options API
-  slug: marketdata-app-options-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-openapi.yml
-- filename: marketdata-app-openapi.yml
+- filename: marketdata-app-indices-api-openapi.yml
   format: yaml
   label: Market Data Indices API
   slug: marketdata-app-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-openapi.yml
-- filename: marketdata-app-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-indices-api-openapi.yml
+- filename: marketdata-app-markets-api-openapi.yml
   format: yaml
   label: Market Data Markets API
   slug: marketdata-app-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-markets-api-openapi.yml
+- filename: marketdata-app-options-api-openapi.yml
+  format: yaml
+  label: Market Data Options API
+  slug: marketdata-app-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-options-api-openapi.yml
+- filename: marketdata-app-stocks-api-openapi.yml
+  format: yaml
+  label: Market Data Stocks API
+  slug: marketdata-app-stocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-stocks-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

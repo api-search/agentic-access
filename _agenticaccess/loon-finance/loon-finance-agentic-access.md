@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: loon-finance-transparency-openapi.yml
+- filename: loon-finance-attestations-api-openapi.yml
   format: yaml
-  label: Loon CADC Transparency API
-  slug: loon-cadc-transparency-api
+  label: Loon Finance Attestations API
+  slug: loon-finance-attestations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/openapi/loon-finance-transparency-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/openapi/loon-finance-attestations-api-openapi.yml
+- filename: loon-finance-issuances-api-openapi.yml
+  format: yaml
+  label: Loon Finance Issuances API
+  slug: loon-finance-issuances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/openapi/loon-finance-issuances-api-openapi.yml
+- filename: loon-finance-supply-api-openapi.yml
+  format: yaml
+  label: Loon Finance Supply API
+  slug: loon-finance-supply-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/openapi/loon-finance-supply-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

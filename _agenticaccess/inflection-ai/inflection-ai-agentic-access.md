@@ -2,6 +2,13 @@
 acting_count: 1
 action_class_counts:
   acting: 1
+api_specs:
+- filename: inflection-ai-inference-api-openapi.yml
+  format: yaml
+  label: Inflection AI Inference API
+  slug: inflection-ai-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflection-ai/refs/heads/main/openapi/inflection-ai-inference-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

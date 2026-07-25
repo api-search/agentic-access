@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: step-functions-openapi.yml
+- filename: step-functions-state-machines-api-openapi.yml
   format: yaml
-  label: AWS Step Functions API
-  slug: step-functions
+  label: AWS Step Functions State Machines API
+  slug: step-functions-state-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/step-functions/refs/heads/main/openapi/step-functions-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/step-functions/refs/heads/main/openapi/step-functions-state-machines-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,6 +3,73 @@ acting_count: 4
 action_class_counts:
   acting: 4
   connected: 10
+api_specs:
+- filename: opennode-charges-api-openapi.yml
+  format: yaml
+  label: OpenNode Charges API
+  slug: opennode-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-opennode/refs/heads/main/openapi/opennode-charges-api-openapi.yml
+- filename: opennode-withdrawals-api-openapi.yml
+  format: yaml
+  label: OpenNode Withdrawals API
+  slug: opennode-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-opennode/refs/heads/main/openapi/opennode-withdrawals-api-openapi.yml
+- filename: opennode-refunds-api-openapi.yml
+  format: yaml
+  label: OpenNode Refunds API
+  slug: opennode-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-opennode/refs/heads/main/openapi/opennode-refunds-api-openapi.yml
+- filename: opennode-account-api-openapi.yml
+  format: yaml
+  label: OpenNode Account API
+  slug: opennode-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-opennode/refs/heads/main/openapi/opennode-account-api-openapi.yml
+- filename: opennode-static-addresses-api-openapi.yml
+  format: yaml
+  label: OpenNode Static Addresses API
+  slug: opennode-static-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-opennode/refs/heads/main/openapi/opennode-static-addresses-api-openapi.yml
+- filename: opennode-account-api-openapi.yml
+  format: yaml
+  label: OpenNode Account API
+  slug: opennode-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-opennode/refs/heads/main/openapi/opennode-account-api-openapi.yml
+- filename: opennode-charges-api-openapi.yml
+  format: yaml
+  label: OpenNode Charges API
+  slug: opennode-charges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-opennode/refs/heads/main/openapi/opennode-charges-api-openapi.yml
+- filename: opennode-rates-api-openapi.yml
+  format: yaml
+  label: OpenNode Rates API
+  slug: opennode-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-opennode/refs/heads/main/openapi/opennode-rates-api-openapi.yml
+- filename: opennode-refunds-api-openapi.yml
+  format: yaml
+  label: OpenNode Refunds API
+  slug: opennode-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-opennode/refs/heads/main/openapi/opennode-refunds-api-openapi.yml
+- filename: opennode-static-addresses-api-openapi.yml
+  format: yaml
+  label: OpenNode Static Addresses API
+  slug: opennode-static-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-opennode/refs/heads/main/openapi/opennode-static-addresses-api-openapi.yml
+- filename: opennode-withdrawals-api-openapi.yml
+  format: yaml
+  label: OpenNode Withdrawals API
+  slug: opennode-withdrawals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-opennode/refs/heads/main/openapi/opennode-withdrawals-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 10

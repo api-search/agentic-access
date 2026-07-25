@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: proof-of-play-vrf-openapi.json
-  format: json
-  label: Proof of Play vRNG API
-  slug: proof-of-play-vrng-api
+- filename: proof-of-play-public-api-api-openapi.yml
+  format: yaml
+  label: Proof of Play Public API API
+  slug: proof-of-play-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/openapi/proof-of-play-vrf-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/openapi/proof-of-play-public-api-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

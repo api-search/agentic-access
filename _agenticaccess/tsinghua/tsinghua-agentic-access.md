@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: tsinghua-tuna-mirror-status.yaml
+- filename: tsinghua-mirror-status-api-openapi.yml
   format: yaml
-  label: TUNA Mirror Sync Status API
-  slug: tuna-mirror-status
+  label: Tsinghua University Mirror Status API
+  slug: tsinghua-mirror-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/openapi/tsinghua-tuna-mirror-status.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/openapi/tsinghua-mirror-status-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

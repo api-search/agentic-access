@@ -4,18 +4,12 @@ action_class_counts:
   acting: 13
   connected: 11
 api_specs:
-- filename: packer-openapi.yml
+- filename: packer-packerservice-api-openapi.yml
   format: yaml
-  label: Packer
-  slug: packer
+  label: Packer PackerService API
+  slug: packer-packerservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packer/refs/heads/main/openapi/packer-openapi.yml
-- filename: packer-openapi.yml
-  format: yaml
-  label: HCP Packer Artifact Registry API
-  slug: hcp-packer-artifact-registry
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packer/refs/heads/main/openapi/packer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/packer/refs/heads/main/openapi/packer-packerservice-api-openapi.yml
 consequence_counts:
   read: 11
   write: 13

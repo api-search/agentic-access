@@ -3,36 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: awin-affiliate-openapi.yml
+- filename: awin-affiliate-accounts-api-openapi.yml
   format: yaml
   label: Awin Accounts API
   slug: awin-affiliate-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-openapi.yml
-- filename: awin-affiliate-openapi.yml
-  format: yaml
-  label: Awin Transactions API
-  slug: awin-affiliate-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-openapi.yml
-- filename: awin-affiliate-openapi.yml
-  format: yaml
-  label: Awin Reports API
-  slug: awin-affiliate-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-openapi.yml
-- filename: awin-affiliate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-accounts-api-openapi.yml
+- filename: awin-affiliate-commission-groups-api-openapi.yml
   format: yaml
   label: Awin Commission Groups API
   slug: awin-affiliate-commission-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-openapi.yml
-- filename: awin-affiliate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-commission-groups-api-openapi.yml
+- filename: awin-affiliate-programmes-api-openapi.yml
   format: yaml
   label: Awin Programmes API
   slug: awin-affiliate-programmes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-programmes-api-openapi.yml
+- filename: awin-affiliate-reports-api-openapi.yml
+  format: yaml
+  label: Awin Reports API
+  slug: awin-affiliate-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-reports-api-openapi.yml
+- filename: awin-affiliate-transactions-api-openapi.yml
+  format: yaml
+  label: Awin Transactions API
+  slug: awin-affiliate-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/openapi/awin-affiliate-transactions-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

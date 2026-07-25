@@ -4,12 +4,24 @@ action_class_counts:
   acting: 2
   connected: 1
 api_specs:
-- filename: gradient-cloud-openapi.yml
+- filename: gradient-chat-api-openapi.yml
   format: yaml
-  label: Gradient Cloud AI API
-  slug: gradient-cloud-ai-api
+  label: Gradient Chat API
+  slug: gradient-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-chat-api-openapi.yml
+- filename: gradient-completions-api-openapi.yml
+  format: yaml
+  label: Gradient Completions API
+  slug: gradient-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-completions-api-openapi.yml
+- filename: gradient-models-api-openapi.yml
+  format: yaml
+  label: Gradient Models API
+  slug: gradient-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-models-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2

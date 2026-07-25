@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: walt-disney-disney-api-openapi.yml
+- filename: walt-disney-characters-api-openapi.yml
   format: yaml
-  label: Disney Characters API
-  slug: disney-characters-api
+  label: Walt Disney Characters API
+  slug: walt-disney-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walt-disney/refs/heads/main/openapi/walt-disney-disney-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/walt-disney/refs/heads/main/openapi/walt-disney-characters-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

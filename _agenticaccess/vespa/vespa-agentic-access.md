@@ -3,6 +3,19 @@ acting_count: 3
 action_class_counts:
   acting: 3
   connected: 3
+api_specs:
+- filename: vespa-documents-api-openapi.yml
+  format: yaml
+  label: Vespa Documents API
+  slug: vespa-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vespa/refs/heads/main/openapi/vespa-documents-api-openapi.yml
+- filename: vespa-visit-api-openapi.yml
+  format: yaml
+  label: Vespa Visit API
+  slug: vespa-visit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vespa/refs/heads/main/openapi/vespa-visit-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3

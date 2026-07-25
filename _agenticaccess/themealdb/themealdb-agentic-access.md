@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: themealdb-openapi.yml
+- filename: themealdb-filter-api-openapi.yml
   format: yaml
-  label: TheMealDB API
-  slug: themealdb
+  label: TheMealDB Filter API
+  slug: themealdb-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/openapi/themealdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/openapi/themealdb-filter-api-openapi.yml
+- filename: themealdb-list-api-openapi.yml
+  format: yaml
+  label: TheMealDB List API
+  slug: themealdb-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/openapi/themealdb-list-api-openapi.yml
+- filename: themealdb-lookup-api-openapi.yml
+  format: yaml
+  label: TheMealDB Lookup API
+  slug: themealdb-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/openapi/themealdb-lookup-api-openapi.yml
+- filename: themealdb-search-api-openapi.yml
+  format: yaml
+  label: TheMealDB Search API
+  slug: themealdb-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/openapi/themealdb-search-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: openapi.yml
+- filename: google-marketing-platform-v1alpha-api-openapi.yml
   format: yaml
-  label: Google Marketing Platform Admin API
-  slug: admin
+  label: Google Marketing Platform Admin V1alpha API
+  slug: google-marketing-platform-v1alpha-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/openapi/google-marketing-platform-v1alpha-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

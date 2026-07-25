@@ -4,12 +4,18 @@ action_class_counts:
   acting: 7
   connected: 5
 api_specs:
-- filename: openapi.yml
+- filename: authelia-discovery-api-openapi.yml
   format: yaml
-  label: Authelia REST API
-  slug: authelia-rest-api
+  label: Authelia Discovery API
+  slug: authelia-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/authelia/authelia/master/api/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-discovery-api-openapi.yml
+- filename: authelia-oidc-api-openapi.yml
+  format: yaml
+  label: Authelia OIDC API
+  slug: authelia-oidc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-oidc-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7

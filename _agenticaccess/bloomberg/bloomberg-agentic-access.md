@@ -3,12 +3,12 @@ acting_count: 9
 action_class_counts:
   acting: 9
 api_specs:
-- filename: blpapi-core.yml
+- filename: bloomberg-reference-data-api-openapi.yml
   format: yaml
   label: Bloomberg BLPAPI Core
   slug: bloomberg-blpapi-core
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/openapi/blpapi-core.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/openapi/bloomberg-reference-data-api-openapi.yml
 consequence_counts:
   safety-critical: 1
   write: 8

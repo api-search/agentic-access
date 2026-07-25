@@ -4,12 +4,12 @@ action_class_counts:
   acting: 5
   connected: 6
 api_specs:
-- filename: mapquest-openapi.yml
+- filename: mapquest-directions-api-openapi.yml
   format: yaml
   label: MapQuest Directions API
   slug: mapquest-directions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mapquest/refs/heads/main/openapi/mapquest-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mapquest/refs/heads/main/openapi/mapquest-directions-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1

@@ -3,12 +3,36 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: whimsical-openapi.yml
+- filename: whimsical-comments-list-api-openapi.yml
   format: yaml
-  label: Whimsical API (Beta)
-  slug: whimsical-api-beta
+  label: Whimsical Comments.list API
+  slug: whimsical-comments-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-comments-list-api-openapi.yml
+- filename: whimsical-files-get-api-openapi.yml
+  format: yaml
+  label: Whimsical Files.get API
+  slug: whimsical-files-get-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-files-get-api-openapi.yml
+- filename: whimsical-files-list-api-openapi.yml
+  format: yaml
+  label: Whimsical Files.list API
+  slug: whimsical-files-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-files-list-api-openapi.yml
+- filename: whimsical-teams-list-api-openapi.yml
+  format: yaml
+  label: Whimsical Teams.list API
+  slug: whimsical-teams-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-teams-list-api-openapi.yml
+- filename: whimsical-users-get-api-openapi.yml
+  format: yaml
+  label: Whimsical Users.get API
+  slug: whimsical-users-get-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-users-get-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

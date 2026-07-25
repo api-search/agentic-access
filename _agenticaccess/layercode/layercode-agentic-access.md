@@ -4,18 +4,6 @@ action_class_counts:
   acting: 4
   connected: 4
 api_specs:
-- filename: layercode-openapi.yml
-  format: yaml
-  label: Layercode Agents API
-  slug: layercode-agents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/openapi/layercode-openapi.yml
-- filename: layercode-openapi.yml
-  format: yaml
-  label: Layercode Sessions API
-  slug: layercode-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/openapi/layercode-openapi.yml
 - filename: layercode-asyncapi.yml
   format: yaml
   label: Layercode Realtime Voice API
@@ -28,6 +16,24 @@ api_specs:
   slug: layercode-webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/asyncapi/layercode-asyncapi.yml
+- filename: layercode-agents-api-openapi.yml
+  format: yaml
+  label: Layercode Agents API
+  slug: layercode-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/openapi/layercode-agents-api-openapi.yml
+- filename: layercode-calls-api-openapi.yml
+  format: yaml
+  label: Layercode Calls API
+  slug: layercode-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/openapi/layercode-calls-api-openapi.yml
+- filename: layercode-sessions-api-openapi.yml
+  format: yaml
+  label: Layercode Sessions API
+  slug: layercode-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/openapi/layercode-sessions-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4

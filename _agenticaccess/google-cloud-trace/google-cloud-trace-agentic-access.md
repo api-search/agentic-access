@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-trace-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Trace API
-  slug: google-cloud-trace-api
+  label: Google Cloud Trace Projects API
+  slug: google-cloud-trace-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-trace/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-trace/refs/heads/main/openapi/google-cloud-trace-projects-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

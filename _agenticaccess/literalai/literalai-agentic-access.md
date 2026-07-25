@@ -3,42 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: literalai-openapi.yml
+- filename: literalai-graphql-api-openapi.yml
   format: yaml
-  label: Literal AI Threads & Steps API
-  slug: threads-steps
+  label: Literal AI GraphQL API
+  slug: literalai-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
-- filename: literalai-openapi.yml
-  format: yaml
-  label: Literal AI Generations API
-  slug: generations
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
-- filename: literalai-openapi.yml
-  format: yaml
-  label: Literal AI Datasets API
-  slug: datasets
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
-- filename: literalai-openapi.yml
-  format: yaml
-  label: Literal AI Experiments API
-  slug: experiments
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
-- filename: literalai-openapi.yml
-  format: yaml
-  label: Literal AI Prompts API
-  slug: prompts
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
-- filename: literalai-openapi.yml
-  format: yaml
-  label: Literal AI Scores API
-  slug: scores
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/literalai/refs/heads/main/openapi/literalai-graphql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

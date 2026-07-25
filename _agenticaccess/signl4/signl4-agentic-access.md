@@ -2,6 +2,19 @@
 acting_count: 2
 action_class_counts:
   acting: 2
+api_specs:
+- filename: signl4-events-api-openapi.yml
+  format: yaml
+  label: SIGNL4 Events API
+  slug: signl4-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/openapi/signl4-events-api-openapi.yml
+- filename: signl4-webhook-api-openapi.yml
+  format: yaml
+  label: SIGNL4 Webhook API
+  slug: signl4-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/openapi/signl4-webhook-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

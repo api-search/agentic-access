@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: zdnet-rss.yml
+- filename: zdnet-ai-api-openapi.yml
   format: yaml
-  label: ZDNet RSS Feed
-  slug: rss
+  label: ZDNet AI API
+  slug: zdnet-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/openapi/zdnet-rss.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/openapi/zdnet-ai-api-openapi.yml
+- filename: zdnet-cloud-api-openapi.yml
+  format: yaml
+  label: ZDNet Cloud API
+  slug: zdnet-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/openapi/zdnet-cloud-api-openapi.yml
+- filename: zdnet-news-api-openapi.yml
+  format: yaml
+  label: ZDNet News API
+  slug: zdnet-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/openapi/zdnet-news-api-openapi.yml
+- filename: zdnet-security-api-openapi.yml
+  format: yaml
+  label: ZDNet Security API
+  slug: zdnet-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/openapi/zdnet-security-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

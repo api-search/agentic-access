@@ -4,12 +4,30 @@ action_class_counts:
   acting: 1
   connected: 6
 api_specs:
-- filename: meddra-terminology-openapi.yml
+- filename: meddra-hierarchy-api-openapi.yml
   format: yaml
-  label: MedDRA / WHO Drug Dictionary API
-  slug: meddra-api
+  label: meddra Hierarchy API
+  slug: meddra-hierarchy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-terminology-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-hierarchy-api-openapi.yml
+- filename: meddra-terms-api-openapi.yml
+  format: yaml
+  label: meddra Terms API
+  slug: meddra-terms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-terms-api-openapi.yml
+- filename: meddra-validation-api-openapi.yml
+  format: yaml
+  label: meddra Validation API
+  slug: meddra-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-validation-api-openapi.yml
+- filename: meddra-versions-api-openapi.yml
+  format: yaml
+  label: meddra Versions API
+  slug: meddra-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-versions-api-openapi.yml
 consequence_counts:
   read: 6
   write: 1

@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: vector-observability-api-openapi.yml
+- filename: vector-health-api-openapi.yml
   format: yaml
-  label: Vector Observability API
-  slug: vector-observability-api
+  label: Vector Health API
+  slug: vector-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/openapi/vector-observability-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/openapi/vector-health-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

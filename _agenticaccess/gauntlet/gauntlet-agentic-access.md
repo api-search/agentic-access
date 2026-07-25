@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 14
 api_specs:
-- filename: gauntlet-openapi-original.json
-  format: json
-  label: Gauntlet API
-  slug: gauntlet-api
+- filename: gauntlet-prices-api-openapi.yml
+  format: yaml
+  label: Gauntlet Prices API
+  slug: gauntlet-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-prices-api-openapi.yml
+- filename: gauntlet-system-api-openapi.yml
+  format: yaml
+  label: Gauntlet System API
+  slug: gauntlet-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-system-api-openapi.yml
+- filename: gauntlet-tvl-api-openapi.yml
+  format: yaml
+  label: Gauntlet TVL API
+  slug: gauntlet-tvl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-tvl-api-openapi.yml
+- filename: gauntlet-users-api-openapi.yml
+  format: yaml
+  label: Gauntlet Users API
+  slug: gauntlet-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-users-api-openapi.yml
+- filename: gauntlet-vaults-api-openapi.yml
+  format: yaml
+  label: Gauntlet Vaults API
+  slug: gauntlet-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-vaults-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

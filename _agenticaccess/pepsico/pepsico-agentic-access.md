@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: pepsico-pepsico-api-openapi.yml
+- filename: pepsico-food-api-openapi.yml
   format: yaml
-  label: PepsiCo API
-  slug: pepsico-api
+  label: PepsiCo Food API
+  slug: pepsico-food-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/openapi/pepsico-pepsico-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/openapi/pepsico-food-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

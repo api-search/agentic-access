@@ -4,12 +4,30 @@ action_class_counts:
   acting: 11
   connected: 11
 api_specs:
-- filename: secureredact-openapi.yml
+- filename: pimloc-account-api-openapi.yml
   format: yaml
-  label: Secure Redact API
-  slug: secure-redact-api
+  label: Pimloc Account API
+  slug: pimloc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/secureredact-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-account-api-openapi.yml
+- filename: pimloc-authentication-api-openapi.yml
+  format: yaml
+  label: Pimloc Authentication API
+  slug: pimloc-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-authentication-api-openapi.yml
+- filename: pimloc-media-api-openapi.yml
+  format: yaml
+  label: Pimloc Media API
+  slug: pimloc-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-media-api-openapi.yml
+- filename: pimloc-projects-api-openapi.yml
+  format: yaml
+  label: Pimloc Projects API
+  slug: pimloc-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-projects-api-openapi.yml
 consequence_counts:
   read: 11
   write: 11

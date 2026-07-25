@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: farm-machinery-and-equipment-api-openapi.yml
+- filename: farm-machinery-and-equipment-api-farm-machinery-api-openapi.yml
   format: yaml
-  label: Farm Machinery and Equipment API
-  slug: farm-machinery-and-equipment-api
+  label: Farm Machinery and Equipment API Farm Machinery API
+  slug: farm-machinery-and-equipment-api-farm-machinery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/openapi/farm-machinery-and-equipment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/openapi/farm-machinery-and-equipment-api-farm-machinery-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

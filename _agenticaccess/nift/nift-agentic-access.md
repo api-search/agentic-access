@@ -3,12 +3,12 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: nift-partners-openapi.yml
+- filename: nift-customers-api-openapi.yml
   format: yaml
-  label: Nift Partners API
-  slug: nift-partners-api
+  label: NIFT Customers API
+  slug: nift-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/openapi/nift-partners-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/openapi/nift-customers-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

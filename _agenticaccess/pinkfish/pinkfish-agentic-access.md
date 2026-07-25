@@ -4,12 +4,18 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: pinkfish-triggers-openapi.yml
+- filename: pinkfish-runs-api-openapi.yml
+  format: yaml
+  label: Pinkfish Runs API
+  slug: pinkfish-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pinkfish/refs/heads/main/openapi/pinkfish-runs-api-openapi.yml
+- filename: pinkfish-triggers-api-openapi.yml
   format: yaml
   label: Pinkfish Triggers API
   slug: pinkfish-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinkfish/refs/heads/main/openapi/pinkfish-triggers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pinkfish/refs/heads/main/openapi/pinkfish-triggers-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2

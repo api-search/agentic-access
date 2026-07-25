@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: prudential-financial-developer-api-openapi.yml
+- filename: prudential-financial-accounts-api-openapi.yml
   format: yaml
-  label: Prudential Financial Developer API
-  slug: prudential-financial-developer-api
+  label: Prudential Financial Accounts API
+  slug: prudential-financial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prudential-financial/refs/heads/main/openapi/prudential-financial-developer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/prudential-financial/refs/heads/main/openapi/prudential-financial-accounts-api-openapi.yml
+- filename: prudential-financial-retirement-api-openapi.yml
+  format: yaml
+  label: Prudential Financial Retirement API
+  slug: prudential-financial-retirement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prudential-financial/refs/heads/main/openapi/prudential-financial-retirement-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,36 @@ action_class_counts:
   acting: 3
   connected: 11
 api_specs:
-- filename: restream-openapi.yml
+- filename: restream-channels-api-openapi.yml
   format: yaml
-  label: Restream API
-  slug: restream-api
+  label: Restream Channels API
+  slug: restream-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-channels-api-openapi.yml
+- filename: restream-events-api-openapi.yml
+  format: yaml
+  label: Restream Events API
+  slug: restream-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-events-api-openapi.yml
+- filename: restream-platforms-api-openapi.yml
+  format: yaml
+  label: Restream Platforms API
+  slug: restream-platforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-platforms-api-openapi.yml
+- filename: restream-stream-keys-api-openapi.yml
+  format: yaml
+  label: Restream Stream Keys API
+  slug: restream-stream-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-stream-keys-api-openapi.yml
+- filename: restream-user-api-openapi.yml
+  format: yaml
+  label: Restream User API
+  slug: restream-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-user-api-openapi.yml
 consequence_counts:
   read: 11
   write: 3

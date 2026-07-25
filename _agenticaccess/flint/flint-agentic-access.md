@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: flint-agent-tasks-openapi.yml
+- filename: flint-agent-tasks-api-openapi.yml
   format: yaml
   label: Flint Agent Tasks API
   slug: flint-agent-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/openapi/flint-agent-tasks-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/openapi/flint-agent-tasks-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

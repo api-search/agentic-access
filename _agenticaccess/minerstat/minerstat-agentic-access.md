@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: minerstat-openapi.yml
+- filename: minerstat-pools-api-openapi.yml
   format: yaml
-  label: Minerstat
-  slug: minerstat
+  label: Minerstat Pools API
+  slug: minerstat-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minerstat/refs/heads/main/openapi/minerstat-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/minerstat/refs/heads/main/openapi/minerstat-pools-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

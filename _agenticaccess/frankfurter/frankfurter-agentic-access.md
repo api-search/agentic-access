@@ -3,18 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: frankfurter-v2-openapi.yml
+- filename: frankfurter-currencies-api-openapi.yml
   format: yaml
-  label: Frankfurter API v2
-  slug: frankfurter-api-v2
+  label: Frankfurter Currencies API
+  slug: frankfurter-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-v2-openapi.yml
-- filename: frankfurter-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-currencies-api-openapi.yml
+- filename: frankfurter-current-rates-api-openapi.yml
   format: yaml
-  label: Frankfurter API v1
-  slug: frankfurter-api-v1
+  label: Frankfurter current-rates API
+  slug: frankfurter-current-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-current-rates-api-openapi.yml
+- filename: frankfurter-historical-rates-api-openapi.yml
+  format: yaml
+  label: Frankfurter historical-rates API
+  slug: frankfurter-historical-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-historical-rates-api-openapi.yml
+- filename: frankfurter-metadata-api-openapi.yml
+  format: yaml
+  label: Frankfurter metadata API
+  slug: frankfurter-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-metadata-api-openapi.yml
+- filename: frankfurter-providers-api-openapi.yml
+  format: yaml
+  label: Frankfurter Providers API
+  slug: frankfurter-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-providers-api-openapi.yml
+- filename: frankfurter-rates-api-openapi.yml
+  format: yaml
+  label: Frankfurter Rates API
+  slug: frankfurter-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/openapi/frankfurter-rates-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

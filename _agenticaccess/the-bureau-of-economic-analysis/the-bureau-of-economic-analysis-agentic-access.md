@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: index.htm
+- filename: the-bureau-of-economic-analysis-industry-api-openapi.yml
   format: yaml
-  label: The Bureau of Economic Analysis API
-  slug: the-bureau-of-economic-analysis
+  label: The Bureau of Economic Analysis Industry API
+  slug: the-bureau-of-economic-analysis-industry-api
   spec_type: OpenAPI
-  url: https://apps.bea.gov/API/docs/index.htm
+  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-industry-api-openapi.yml
+- filename: the-bureau-of-economic-analysis-international-api-openapi.yml
+  format: yaml
+  label: The Bureau of Economic Analysis International API
+  slug: the-bureau-of-economic-analysis-international-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-international-api-openapi.yml
+- filename: the-bureau-of-economic-analysis-metadata-api-openapi.yml
+  format: yaml
+  label: The Bureau of Economic Analysis Metadata API
+  slug: the-bureau-of-economic-analysis-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-metadata-api-openapi.yml
+- filename: the-bureau-of-economic-analysis-national-accounts-api-openapi.yml
+  format: yaml
+  label: The Bureau of Economic Analysis National Accounts API
+  slug: the-bureau-of-economic-analysis-national-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-national-accounts-api-openapi.yml
+- filename: the-bureau-of-economic-analysis-regional-api-openapi.yml
+  format: yaml
+  label: The Bureau of Economic Analysis Regional API
+  slug: the-bureau-of-economic-analysis-regional-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/openapi/the-bureau-of-economic-analysis-regional-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

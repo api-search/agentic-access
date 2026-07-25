@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 22
 api_specs:
-- filename: penn-medicine-fhir-r4-openapi.yml
+- filename: penn-medicine-bulk-data-api-openapi.yml
   format: yaml
-  label: Penn Medicine FHIR R4 API
-  slug: penn-medicine-fhir-r4-api
+  label: Penn Medicine Bulk Data API
+  slug: penn-medicine-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-fhir-r4-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-bulk-data-api-openapi.yml
+- filename: penn-medicine-patient-access-api-openapi.yml
+  format: yaml
+  label: Penn Medicine Patient Access API
+  slug: penn-medicine-patient-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-patient-access-api-openapi.yml
+- filename: penn-medicine-provider-directory-api-openapi.yml
+  format: yaml
+  label: Penn Medicine Provider Directory API
+  slug: penn-medicine-provider-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-provider-directory-api-openapi.yml
+- filename: penn-medicine-smart-api-openapi.yml
+  format: yaml
+  label: Penn Medicine SMART API
+  slug: penn-medicine-smart-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-smart-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

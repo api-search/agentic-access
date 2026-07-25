@@ -3,18 +3,24 @@ acting_count: 12
 action_class_counts:
   acting: 12
 api_specs:
-- filename: rudderstack-gateway-openapi.yml
-  format: yaml
-  label: RudderStack HTTP Tracking API
-  slug: rudderstack-http-tracking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/openapi/rudderstack-gateway-openapi.yml
 - filename: rudderstack-event-streaming-asyncapi.yml
   format: yaml
   label: RudderStack Webhook Source API
   slug: rudderstack-webhook-source-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/asyncapi/rudderstack-event-streaming-asyncapi.yml
+- filename: rudderstack-http-api-api-openapi.yml
+  format: yaml
+  label: RudderStack HTTP API API
+  slug: rudderstack-http-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/openapi/rudderstack-http-api-api-openapi.yml
+- filename: rudderstack-internal-api-api-openapi.yml
+  format: yaml
+  label: RudderStack Internal API API
+  slug: rudderstack-internal-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/openapi/rudderstack-internal-api-api-openapi.yml
 consequence_counts:
   write: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

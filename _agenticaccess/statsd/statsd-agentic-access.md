@@ -10,18 +10,48 @@ api_specs:
   slug: statsd-wire-protocol
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/asyncapi/statsd-wire-protocol-asyncapi.yml
-- filename: statsd-admin-interface-openapi.yml
-  format: yaml
-  label: StatsD Admin Interface
-  slug: statsd-admin-interface
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-admin-interface-openapi.yml
 - filename: dogstatsd-wire-protocol-asyncapi.yml
   format: yaml
   label: DogStatsD Wire Protocol
   slug: dogstatsd-wire-protocol
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/asyncapi/dogstatsd-wire-protocol-asyncapi.yml
+- filename: statsd-configuration-api-openapi.yml
+  format: yaml
+  label: StatsD Configuration API
+  slug: statsd-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-configuration-api-openapi.yml
+- filename: statsd-counters-api-openapi.yml
+  format: yaml
+  label: StatsD Counters API
+  slug: statsd-counters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-counters-api-openapi.yml
+- filename: statsd-gauges-api-openapi.yml
+  format: yaml
+  label: StatsD Gauges API
+  slug: statsd-gauges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-gauges-api-openapi.yml
+- filename: statsd-health-api-openapi.yml
+  format: yaml
+  label: StatsD Health API
+  slug: statsd-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-health-api-openapi.yml
+- filename: statsd-stats-api-openapi.yml
+  format: yaml
+  label: StatsD Stats API
+  slug: statsd-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-stats-api-openapi.yml
+- filename: statsd-timers-api-openapi.yml
+  format: yaml
+  label: StatsD Timers API
+  slug: statsd-timers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/openapi/statsd-timers-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4

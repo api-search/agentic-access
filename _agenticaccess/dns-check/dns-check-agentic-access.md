@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: dns-check-openapi.yml
+- filename: dns-check-dns-record-monitoring-api-openapi.yml
   format: yaml
-  label: DNS Check REST API
-  slug: rest-api
+  label: DNS Check DNS Record Monitoring API
+  slug: dns-check-dns-record-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/openapi/dns-check-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/openapi/dns-check-dns-record-monitoring-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

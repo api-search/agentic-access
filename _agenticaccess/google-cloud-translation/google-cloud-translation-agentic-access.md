@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-translation-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Translation API
-  slug: google-cloud-translation-api
+  label: Google Cloud Translation Projects API
+  slug: google-cloud-translation-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-translation/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-translation/refs/heads/main/openapi/google-cloud-translation-projects-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

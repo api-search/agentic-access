@@ -4,12 +4,30 @@ action_class_counts:
   acting: 33
   connected: 22
 api_specs:
-- filename: nebulock-openapi.yml
+- filename: nebulock-entities-api-openapi.yml
   format: yaml
-  label: Nebulock Public API
-  slug: nebulock-public-api
+  label: Nebulock Entities API
+  slug: nebulock-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-entities-api-openapi.yml
+- filename: nebulock-findings-api-openapi.yml
+  format: yaml
+  label: Nebulock Findings API
+  slug: nebulock-findings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-findings-api-openapi.yml
+- filename: nebulock-hunts-api-openapi.yml
+  format: yaml
+  label: Nebulock Hunts API
+  slug: nebulock-hunts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-hunts-api-openapi.yml
+- filename: nebulock-rules-api-openapi.yml
+  format: yaml
+  label: Nebulock Rules API
+  slug: nebulock-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/openapi/nebulock-rules-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 1

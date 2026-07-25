@@ -4,12 +4,18 @@ action_class_counts:
   acting: 2
   connected: 4
 api_specs:
-- filename: ray-openapi.yml
+- filename: ray-jobs-api-openapi.yml
   format: yaml
-  label: Ray Jobs REST API
-  slug: jobs-api
+  label: Ray Jobs API
+  slug: ray-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads/main/openapi/ray-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads/main/openapi/ray-jobs-api-openapi.yml
+- filename: ray-version-api-openapi.yml
+  format: yaml
+  label: Ray Version API
+  slug: ray-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads/main/openapi/ray-version-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 1

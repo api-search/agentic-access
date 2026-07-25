@@ -4,12 +4,24 @@ action_class_counts:
   acting: 9
   connected: 8
 api_specs:
-- filename: brex-openapi.yml
+- filename: brex-budget-programs-api-openapi.yml
   format: yaml
-  label: Brex
-  slug: brex
+  label: Brex Budget Programs API
+  slug: brex-budget-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-budget-programs-api-openapi.yml
+- filename: brex-budgets-api-openapi.yml
+  format: yaml
+  label: Brex Budgets API
+  slug: brex-budgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-budgets-api-openapi.yml
+- filename: brex-spend-limits-api-openapi.yml
+  format: yaml
+  label: Brex Spend Limits API
+  slug: brex-spend-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-spend-limits-api-openapi.yml
 consequence_counts:
   read: 8
   write: 9

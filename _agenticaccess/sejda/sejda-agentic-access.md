@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: sejda-openapi.yml
+- filename: sejda-html-to-pdf-api-openapi.yml
   format: yaml
   label: Sejda HTML to PDF API
   slug: sejda-html-to-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sejda/refs/heads/main/openapi/sejda-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sejda/refs/heads/main/openapi/sejda-html-to-pdf-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

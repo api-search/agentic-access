@@ -3,12 +3,12 @@ acting_count: 7
 action_class_counts:
   acting: 7
 api_specs:
-- filename: graphy-agents-openapi.yaml
+- filename: graphy-agents-api-openapi.yml
   format: yaml
-  label: Graphy AI Agents API
-  slug: graphy-ai-agents-api
+  label: Graphy Agents API
+  slug: graphy-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/openapi/graphy-agents-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/openapi/graphy-agents-api-openapi.yml
 consequence_counts:
   write: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

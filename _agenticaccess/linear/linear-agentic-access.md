@@ -3,18 +3,24 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: linear-graphql-openapi.yml
-  format: yaml
-  label: Linear GraphQL API
-  slug: linear-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/openapi/linear-graphql-openapi.yml
 - filename: linear-webhooks-asyncapi.yml
   format: yaml
   label: Linear Webhooks API
   slug: linear-webhooks-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/asyncapi/linear-webhooks-asyncapi.yml
+- filename: linear-attachments-api-openapi.yml
+  format: yaml
+  label: linear Attachments API
+  slug: linear-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/openapi/linear-attachments-api-openapi.yml
+- filename: linear-graphql-api-openapi.yml
+  format: yaml
+  label: linear GraphQL API
+  slug: linear-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/openapi/linear-graphql-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 26
 api_specs:
-- filename: apache-spark-openapi.yml
+- filename: apache-spark-applications-api-openapi.yml
   format: yaml
-  label: Apache Spark REST API
-  slug: apache-spark-rest-api
+  label: Apache Spark Applications API
+  slug: apache-spark-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-spark/refs/heads/main/openapi/apache-spark-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-spark/refs/heads/main/openapi/apache-spark-applications-api-openapi.yml
+- filename: apache-spark-version-api-openapi.yml
+  format: yaml
+  label: Apache Spark Version API
+  slug: apache-spark-version-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-spark/refs/heads/main/openapi/apache-spark-version-api-openapi.yml
 consequence_counts:
   read: 26
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: aws-glue-openapi.yml
+- filename: aws-glue-aws-glue-api-api-openapi.yml
   format: yaml
-  label: AWS Glue API
-  slug: glue-api
+  label: AWS Glue AWS Glue API API
+  slug: aws-glue-aws-glue-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-glue/refs/heads/main/openapi/aws-glue-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-glue/refs/heads/main/openapi/aws-glue-aws-glue-api-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

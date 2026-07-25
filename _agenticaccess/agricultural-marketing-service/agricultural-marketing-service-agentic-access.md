@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: agricultural-marketing-service-mars-api.yaml
+- filename: agricultural-marketing-service-offices-api-openapi.yml
   format: yaml
-  label: USDA AMS MARS API (MyMarketNews)
-  slug: usda-ams-mars-api-mymarketnews
+  label: Agricultural Marketing Service Offices API
+  slug: agricultural-marketing-service-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/openapi/agricultural-marketing-service-mars-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/openapi/agricultural-marketing-service-offices-api-openapi.yml
+- filename: agricultural-marketing-service-reports-api-openapi.yml
+  format: yaml
+  label: Agricultural Marketing Service Reports API
+  slug: agricultural-marketing-service-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/openapi/agricultural-marketing-service-reports-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

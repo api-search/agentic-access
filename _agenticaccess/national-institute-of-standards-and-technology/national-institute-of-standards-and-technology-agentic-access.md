@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: national-institute-of-standards-and-technology-openapi.yml
+- filename: national-institute-of-standards-and-technology-cpe-api-openapi.yml
   format: yaml
-  label: NIST National Vulnerability Database (NVD) API
-  slug: nvd-api
+  label: National Institute of Standards and Technology CPE API
+  slug: national-institute-of-standards-and-technology-cpe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-institute-of-standards-and-technology/main/openapi/national-institute-of-standards-and-technology-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-institute-of-standards-and-technology/refs/heads/main/openapi/national-institute-of-standards-and-technology-cpe-api-openapi.yml
+- filename: national-institute-of-standards-and-technology-cve-api-openapi.yml
+  format: yaml
+  label: National Institute of Standards and Technology CVE API
+  slug: national-institute-of-standards-and-technology-cve-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-institute-of-standards-and-technology/refs/heads/main/openapi/national-institute-of-standards-and-technology-cve-api-openapi.yml
+- filename: national-institute-of-standards-and-technology-cve-history-api-openapi.yml
+  format: yaml
+  label: National Institute of Standards and Technology CVE History API
+  slug: national-institute-of-standards-and-technology-cve-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-institute-of-standards-and-technology/refs/heads/main/openapi/national-institute-of-standards-and-technology-cve-history-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

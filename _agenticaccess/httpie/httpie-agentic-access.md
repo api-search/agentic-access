@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: httpie-httpie-openapi.yml
+- filename: httpie-app-api-openapi.yml
   format: yaml
-  label: HTTPie
-  slug: httpie
+  label: HTTPie App API
+  slug: httpie-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/httpie/refs/heads/main/openapi/httpie-httpie-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/httpie/refs/heads/main/openapi/httpie-app-api-openapi.yml
+- filename: httpie-hello-api-openapi.yml
+  format: yaml
+  label: HTTPie Hello API
+  slug: httpie-hello-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/httpie/refs/heads/main/openapi/httpie-hello-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

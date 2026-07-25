@@ -3,18 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: openapi.yaml
+- filename: depositphotos-authentication-api-openapi.yml
   format: yaml
-  label: Depositphotos Partner API
-  slug: depositphotos-partner-api
+  label: Depositphotos Authentication API
+  slug: depositphotos-authentication-api
   spec_type: OpenAPI
-  url: https://api.depositphotos.com/doc/
-- filename: depositphotos-enterprise-api.json
-  format: json
-  label: Depositphotos Enterprise API
-  slug: depositphotos-enterprise-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depositphotos/refs/heads/main/openapi/depositphotos-enterprise-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/depositphotos/refs/heads/main/openapi/depositphotos-authentication-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

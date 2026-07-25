@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 26
 api_specs:
-- filename: thegamesdb-openapi.yml
+- filename: thegamesdb-developers-api-openapi.yml
   format: yaml
-  label: TheGamesDB API
-  slug: thegamesdb
+  label: TheGamesDB Developers API
+  slug: thegamesdb-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-developers-api-openapi.yml
+- filename: thegamesdb-games-api-openapi.yml
+  format: yaml
+  label: TheGamesDB Games API
+  slug: thegamesdb-games-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-games-api-openapi.yml
+- filename: thegamesdb-genres-api-openapi.yml
+  format: yaml
+  label: TheGamesDB Genres API
+  slug: thegamesdb-genres-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-genres-api-openapi.yml
+- filename: thegamesdb-platforms-api-openapi.yml
+  format: yaml
+  label: TheGamesDB Platforms API
+  slug: thegamesdb-platforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-platforms-api-openapi.yml
+- filename: thegamesdb-publishers-api-openapi.yml
+  format: yaml
+  label: TheGamesDB Publishers API
+  slug: thegamesdb-publishers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-publishers-api-openapi.yml
 consequence_counts:
   read: 26
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

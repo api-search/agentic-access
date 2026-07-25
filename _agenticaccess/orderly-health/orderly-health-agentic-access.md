@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: orderly-health-provider-directory-openapi.json
-  format: json
-  label: Orderly Provider Directory API
-  slug: orderly-provider-directory-api
+- filename: orderly-health-look-up-practitioners-api-openapi.yml
+  format: yaml
+  label: Orderly Health Look Up Practitioners API
+  slug: orderly-health-look-up-practitioners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/openapi/orderly-health-provider-directory-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/openapi/orderly-health-look-up-practitioners-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

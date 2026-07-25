@@ -2,6 +2,19 @@
 acting_count: 0
 action_class_counts:
   connected: 4
+api_specs:
+- filename: clarivate-documents-api-openapi.yml
+  format: yaml
+  label: Clarivate Documents API
+  slug: clarivate-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-documents-api-openapi.yml
+- filename: clarivate-journals-api-openapi.yml
+  format: yaml
+  label: Clarivate Journals API
+  slug: clarivate-journals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/openapi/clarivate-journals-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: imperial-college-london-spiral.yaml
+- filename: imperial-college-london-core-api-openapi.yml
   format: yaml
-  label: Spiral Open Access Repository
-  slug: spiral
+  label: Imperial College London Core API
+  slug: imperial-college-london-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/openapi/imperial-college-london-spiral.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/openapi/imperial-college-london-core-api-openapi.yml
+- filename: imperial-college-london-discover-api-openapi.yml
+  format: yaml
+  label: Imperial College London Discover API
+  slug: imperial-college-london-discover-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/openapi/imperial-college-london-discover-api-openapi.yml
+- filename: imperial-college-london-root-api-openapi.yml
+  format: yaml
+  label: Imperial College London Root API
+  slug: imperial-college-london-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/openapi/imperial-college-london-root-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

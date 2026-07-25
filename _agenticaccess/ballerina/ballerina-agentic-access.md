@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: ballerina-central-api.yml
+- filename: ballerina-connectors-api-openapi.yml
   format: yaml
-  label: Ballerina
-  slug: ballerina
+  label: Ballerina Connectors API
+  slug: ballerina-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/openapi/ballerina-central-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/openapi/ballerina-connectors-api-openapi.yml
+- filename: ballerina-organizations-api-openapi.yml
+  format: yaml
+  label: Ballerina Organizations API
+  slug: ballerina-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/openapi/ballerina-organizations-api-openapi.yml
+- filename: ballerina-packages-api-openapi.yml
+  format: yaml
+  label: Ballerina Packages API
+  slug: ballerina-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/openapi/ballerina-packages-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

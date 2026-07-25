@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: dragos-worldview-openapi-original.json
-  format: json
-  label: Dragos WorldView API
-  slug: dragos-worldview-api
+- filename: dragos-indicators-api-openapi.yml
+  format: yaml
+  label: Dragos Indicators API
+  slug: dragos-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-worldview-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-indicators-api-openapi.yml
+- filename: dragos-products-api-openapi.yml
+  format: yaml
+  label: Dragos Products API
+  slug: dragos-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-products-api-openapi.yml
+- filename: dragos-tags-api-openapi.yml
+  format: yaml
+  label: Dragos Tags API
+  slug: dragos-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/openapi/dragos-tags-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

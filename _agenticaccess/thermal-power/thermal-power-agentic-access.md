@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: thermal-power-openapi.yml
+- filename: thermal-power-capacity-api-openapi.yml
   format: yaml
-  label: Thermal Power API
-  slug: thermal-power
+  label: Thermal Power Capacity API
+  slug: thermal-power-capacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-capacity-api-openapi.yml
+- filename: thermal-power-plant-operations-api-openapi.yml
+  format: yaml
+  label: Thermal Power Plant Operations API
+  slug: thermal-power-plant-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-plant-operations-api-openapi.yml
+- filename: thermal-power-power-operations-api-openapi.yml
+  format: yaml
+  label: Thermal Power Power Operations API
+  slug: thermal-power-power-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-power-operations-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -9,6 +9,18 @@ api_specs:
   slug: opay-cashier-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-cashier-api-openapi.yml
+- filename: opay-payments-api-openapi.yml
+  format: yaml
+  label: OPay Payments API
+  slug: opay-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-payments-api-openapi.yml
+- filename: opay-refunds-api-openapi.yml
+  format: yaml
+  label: OPay Refunds API
+  slug: opay-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/openapi/opay-refunds-api-openapi.yml
 consequence_counts:
   physical: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

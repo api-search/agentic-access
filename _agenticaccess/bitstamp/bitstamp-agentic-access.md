@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Bitstamp REST API
-  slug: bitstamp-rest-api
+- filename: bitstamp-market-data-api-openapi.yml
+  format: yaml
+  label: Bitstamp Market Data API
+  slug: bitstamp-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/openapi/bitstamp-market-data-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: API_Reference.html
+- filename: amazon-personalize-datasets-api-openapi.yml
   format: yaml
-  label: Amazon Personalize API
-  slug: amazon-personalize-api
+  label: Amazon Personalize Datasets API
+  slug: amazon-personalize-datasets-api
   spec_type: OpenAPI
-  url: https://docs.aws.amazon.com/personalize/latest/dg/API_Reference.html
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-personalize/refs/heads/main/openapi/amazon-personalize-datasets-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

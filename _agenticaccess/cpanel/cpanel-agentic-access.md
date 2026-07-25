@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: cpanel-openapi.yml
+- filename: cpanel-domaininfo-api-openapi.yml
   format: yaml
-  label: cPanel UAPI
-  slug: uapi
+  label: cPanel DomainInfo API
+  slug: cpanel-domaininfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/openapi/cpanel-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/openapi/cpanel-domaininfo-api-openapi.yml
+- filename: cpanel-email-api-openapi.yml
+  format: yaml
+  label: cPanel Email API
+  slug: cpanel-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/openapi/cpanel-email-api-openapi.yml
+- filename: cpanel-mysql-api-openapi.yml
+  format: yaml
+  label: cPanel Mysql API
+  slug: cpanel-mysql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/openapi/cpanel-mysql-api-openapi.yml
+- filename: cpanel-uapi-api-openapi.yml
+  format: yaml
+  label: cPanel UAPI API
+  slug: cpanel-uapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/openapi/cpanel-uapi-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

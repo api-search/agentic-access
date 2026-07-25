@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: tatum-openapi.yml
+- filename: tatum-data-api-openapi.yml
   format: yaml
   label: Tatum Data API
-  slug: data-api
+  slug: tatum-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-data-api-openapi.yml
+- filename: tatum-rates-api-openapi.yml
+  format: yaml
+  label: Tatum Rates API
+  slug: tatum-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/openapi/tatum-rates-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

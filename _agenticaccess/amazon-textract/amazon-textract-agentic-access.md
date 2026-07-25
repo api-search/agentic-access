@@ -3,12 +3,36 @@ acting_count: 6
 action_class_counts:
   acting: 6
 api_specs:
-- filename: amazon-textract-openapi.yml
+- filename: amazon-textract-async-operations-api-openapi.yml
   format: yaml
-  label: Amazon Textract API
-  slug: amazon-textract-api
+  label: Amazon Textract Async Operations API
+  slug: amazon-textract-async-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-async-operations-api-openapi.yml
+- filename: amazon-textract-document-analysis-api-openapi.yml
+  format: yaml
+  label: Amazon Textract Document Analysis API
+  slug: amazon-textract-document-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-document-analysis-api-openapi.yml
+- filename: amazon-textract-expense-analysis-api-openapi.yml
+  format: yaml
+  label: Amazon Textract Expense Analysis API
+  slug: amazon-textract-expense-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-expense-analysis-api-openapi.yml
+- filename: amazon-textract-id-analysis-api-openapi.yml
+  format: yaml
+  label: Amazon Textract ID Analysis API
+  slug: amazon-textract-id-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-id-analysis-api-openapi.yml
+- filename: amazon-textract-text-detection-api-openapi.yml
+  format: yaml
+  label: Amazon Textract Text Detection API
+  slug: amazon-textract-text-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-text-detection-api-openapi.yml
 consequence_counts:
   write: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

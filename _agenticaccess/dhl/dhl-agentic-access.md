@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: dhl-openapi.yml
+- filename: dhl-find-by-address-api-openapi.yml
   format: yaml
-  label: Location Finder Unified
-  slug: location-finder-unified
+  label: DHL Find By Address API
+  slug: dhl-find-by-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-address-api-openapi.yml
+- filename: dhl-find-by-geo-api-openapi.yml
+  format: yaml
+  label: DHL Find By Geo API
+  slug: dhl-find-by-geo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-geo-api-openapi.yml
+- filename: dhl-find-by-keyword-id-api-openapi.yml
+  format: yaml
+  label: DHL Find By Keyword Id API
+  slug: dhl-find-by-keyword-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-keyword-id-api-openapi.yml
+- filename: dhl-find-by-location-id-api-openapi.yml
+  format: yaml
+  label: DHL Find By Location Id API
+  slug: dhl-find-by-location-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/openapi/dhl-find-by-location-id-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

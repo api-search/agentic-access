@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: imgbb-openapi.yml
+- filename: imgbb-images-api-openapi.yml
   format: yaml
-  label: ImgBB Image Upload API
-  slug: image-upload-api
+  label: ImgBB Images API
+  slug: imgbb-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/openapi/imgbb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/imgbb/refs/heads/main/openapi/imgbb-images-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

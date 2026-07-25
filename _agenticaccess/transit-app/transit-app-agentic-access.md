@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 16
 api_specs:
-- filename: transit-openapi.yml
+- filename: transit-app-map-layers-api-openapi.yml
   format: yaml
-  label: Transit API
-  slug: transit-api
+  label: Transit Map Layers API
+  slug: transit-app-map-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transit-app/refs/heads/main/openapi/transit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/transit-app/refs/heads/main/openapi/transit-app-map-layers-api-openapi.yml
+- filename: transit-app-public-api-openapi.yml
+  format: yaml
+  label: Transit Public API
+  slug: transit-app-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transit-app/refs/heads/main/openapi/transit-app-public-api-openapi.yml
+- filename: transit-app-vehicles-api-openapi.yml
+  format: yaml
+  label: Transit Vehicles API
+  slug: transit-app-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transit-app/refs/heads/main/openapi/transit-app-vehicles-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

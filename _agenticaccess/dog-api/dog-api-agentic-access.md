@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 24
 api_specs:
-- filename: dog-api.yml
+- filename: dog-api-breeds-api-openapi.yml
   format: yaml
-  label: Dog API
-  slug: dog-api
+  label: Dog API Breeds API
+  slug: dog-api-breeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-breeds-api-openapi.yml
+- filename: dog-api-images-api-openapi.yml
+  format: yaml
+  label: Dog API Images API
+  slug: dog-api-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-images-api-openapi.yml
+- filename: dog-api-info-api-openapi.yml
+  format: yaml
+  label: Dog API Info API
+  slug: dog-api-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/openapi/dog-api-info-api-openapi.yml
 consequence_counts:
   read: 24
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

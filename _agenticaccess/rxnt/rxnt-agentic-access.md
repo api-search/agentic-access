@@ -3,12 +3,18 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: rxnt-openapi.yml
+- filename: rxnt-authentication-api-openapi.yml
+  format: yaml
+  label: RXNT Authentication API
+  slug: rxnt-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/heads/main/openapi/rxnt-authentication-api-openapi.yml
+- filename: rxnt-clinical-data-api-openapi.yml
   format: yaml
   label: RXNT Clinical Data API
   slug: rxnt-clinical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/heads/main/openapi/rxnt-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/heads/main/openapi/rxnt-clinical-data-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

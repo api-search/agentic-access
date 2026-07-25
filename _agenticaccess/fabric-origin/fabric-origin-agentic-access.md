@@ -3,6 +3,25 @@ acting_count: 5
 action_class_counts:
   acting: 5
   connected: 18
+api_specs:
+- filename: fabric-origin-entertainment-api-openapi.yml
+  format: yaml
+  label: Fabric Origin Entertainment API
+  slug: fabric-origin-entertainment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-entertainment-api-openapi.yml
+- filename: fabric-origin-images-api-openapi.yml
+  format: yaml
+  label: Fabric Origin Images API
+  slug: fabric-origin-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-images-api-openapi.yml
+- filename: fabric-origin-videos-api-openapi.yml
+  format: yaml
+  label: Fabric Origin Videos API
+  slug: fabric-origin-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/openapi/fabric-origin-videos-api-openapi.yml
 consequence_counts:
   read: 18
   write: 5

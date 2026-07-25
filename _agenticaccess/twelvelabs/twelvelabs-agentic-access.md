@@ -4,36 +4,42 @@ action_class_counts:
   acting: 13
   connected: 9
 api_specs:
-- filename: twelvelabs-openapi.yml
+- filename: twelvelabs-analyze-api-openapi.yml
   format: yaml
-  label: TwelveLabs Indexes API
-  slug: twelvelabs-indexes-api
+  label: TwelveLabs Analyze API
+  slug: twelvelabs-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-openapi.yml
-- filename: twelvelabs-openapi.yml
-  format: yaml
-  label: TwelveLabs Tasks (Upload) API
-  slug: twelvelabs-tasks-upload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-openapi.yml
-- filename: twelvelabs-openapi.yml
-  format: yaml
-  label: TwelveLabs Search API
-  slug: twelvelabs-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-openapi.yml
-- filename: twelvelabs-openapi.yml
-  format: yaml
-  label: TwelveLabs Analyze / Generate API
-  slug: twelvelabs-analyze-generate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-openapi.yml
-- filename: twelvelabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-analyze-api-openapi.yml
+- filename: twelvelabs-embed-api-openapi.yml
   format: yaml
   label: TwelveLabs Embed API
   slug: twelvelabs-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-embed-api-openapi.yml
+- filename: twelvelabs-indexes-api-openapi.yml
+  format: yaml
+  label: TwelveLabs Indexes API
+  slug: twelvelabs-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-indexes-api-openapi.yml
+- filename: twelvelabs-search-api-openapi.yml
+  format: yaml
+  label: TwelveLabs Search API
+  slug: twelvelabs-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-search-api-openapi.yml
+- filename: twelvelabs-tasks-api-openapi.yml
+  format: yaml
+  label: TwelveLabs Tasks API
+  slug: twelvelabs-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-tasks-api-openapi.yml
+- filename: twelvelabs-videos-api-openapi.yml
+  format: yaml
+  label: TwelveLabs Videos API
+  slug: twelvelabs-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-videos-api-openapi.yml
 consequence_counts:
   read: 9
   write: 13

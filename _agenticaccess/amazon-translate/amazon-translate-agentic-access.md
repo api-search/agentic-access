@@ -3,12 +3,24 @@ acting_count: 4
 action_class_counts:
   acting: 4
 api_specs:
-- filename: amazon-translate-openapi.yml
+- filename: amazon-translate-batch-translation-api-openapi.yml
   format: yaml
-  label: Amazon Translate REST API
-  slug: amazon-translate-rest-api
+  label: Amazon Translate Batch Translation API
+  slug: amazon-translate-batch-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/openapi/amazon-translate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/openapi/amazon-translate-batch-translation-api-openapi.yml
+- filename: amazon-translate-terminology-api-openapi.yml
+  format: yaml
+  label: Amazon Translate Terminology API
+  slug: amazon-translate-terminology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/openapi/amazon-translate-terminology-api-openapi.yml
+- filename: amazon-translate-translation-api-openapi.yml
+  format: yaml
+  label: Amazon Translate Translation API
+  slug: amazon-translate-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/openapi/amazon-translate-translation-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
-- filename: microsoft-azure-container-instances-openapi.yml
+- filename: microsoft-azure-container-instances-container-groups-api-openapi.yml
   format: yaml
-  label: Azure Container Instances REST API
-  slug: rest-api
+  label: microsoft-azure-container-instances Container Groups API
+  slug: microsoft-azure-container-instances-container-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-container-instances/refs/heads/main/openapi/microsoft-azure-container-instances-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-container-instances/refs/heads/main/openapi/microsoft-azure-container-instances-container-groups-api-openapi.yml
+- filename: microsoft-azure-container-instances-operations-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-container-instances Operations API
+  slug: microsoft-azure-container-instances-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-container-instances/refs/heads/main/openapi/microsoft-azure-container-instances-operations-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

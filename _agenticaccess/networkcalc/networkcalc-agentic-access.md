@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: networkcalc-openapi-original.yaml
+- filename: networkcalc-binary-converter-api-openapi.yml
   format: yaml
-  label: NetworkCalc
-  slug: networkcalc
+  label: NetworkCalc Binary Converter API
+  slug: networkcalc-binary-converter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/networkcalc/refs/heads/main/openapi/networkcalc-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/networkcalc/refs/heads/main/openapi/networkcalc-binary-converter-api-openapi.yml
+- filename: networkcalc-dns-api-openapi.yml
+  format: yaml
+  label: NetworkCalc DNS API
+  slug: networkcalc-dns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/networkcalc/refs/heads/main/openapi/networkcalc-dns-api-openapi.yml
+- filename: networkcalc-encoder-api-openapi.yml
+  format: yaml
+  label: NetworkCalc Encoder API
+  slug: networkcalc-encoder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/networkcalc/refs/heads/main/openapi/networkcalc-encoder-api-openapi.yml
+- filename: networkcalc-security-api-openapi.yml
+  format: yaml
+  label: NetworkCalc Security API
+  slug: networkcalc-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/networkcalc/refs/heads/main/openapi/networkcalc-security-api-openapi.yml
+- filename: networkcalc-subnet-calculator-api-openapi.yml
+  format: yaml
+  label: NetworkCalc Subnet Calculator API
+  slug: networkcalc-subnet-calculator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/networkcalc/refs/heads/main/openapi/networkcalc-subnet-calculator-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: ketryx-build-api-openapi.yml
+- filename: ketryx-artifacts-api-openapi.yml
   format: yaml
-  label: Ketryx Build API
-  slug: ketryx-build-api
+  label: Ketryx Artifacts API
+  slug: ketryx-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/openapi/ketryx-build-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/openapi/ketryx-artifacts-api-openapi.yml
+- filename: ketryx-builds-api-openapi.yml
+  format: yaml
+  label: Ketryx Builds API
+  slug: ketryx-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/openapi/ketryx-builds-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

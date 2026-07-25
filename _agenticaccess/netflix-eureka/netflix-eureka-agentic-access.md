@@ -4,12 +4,24 @@ action_class_counts:
   acting: 6
   connected: 7
 api_specs:
-- filename: eureka-rest-api.yml
+- filename: netflix-eureka-applications-api-openapi.yml
   format: yaml
-  label: Netflix Eureka
-  slug: netflix-eureka
+  label: Netflix Eureka Applications API
+  slug: netflix-eureka-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/openapi/eureka-rest-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/openapi/netflix-eureka-applications-api-openapi.yml
+- filename: netflix-eureka-instances-api-openapi.yml
+  format: yaml
+  label: Netflix Eureka Instances API
+  slug: netflix-eureka-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/openapi/netflix-eureka-instances-api-openapi.yml
+- filename: netflix-eureka-vip-api-openapi.yml
+  format: yaml
+  label: Netflix Eureka VIP API
+  slug: netflix-eureka-vip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/openapi/netflix-eureka-vip-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7

@@ -4,12 +4,42 @@ action_class_counts:
   acting: 15
   connected: 11
 api_specs:
-- filename: hour-one-openapi.json
-  format: json
-  label: Hour One Studio API (MakeReals v1)
-  slug: hour-one-studio-api-makereals-v1
+- filename: hour-one-general-api-openapi.yml
+  format: yaml
+  label: Hour One general API
+  slug: hour-one-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hour-one/refs/heads/main/openapi/hour-one-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/hour-one/refs/heads/main/openapi/hour-one-general-api-openapi.yml
+- filename: hour-one-keys-api-openapi.yml
+  format: yaml
+  label: Hour One keys API
+  slug: hour-one-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hour-one/refs/heads/main/openapi/hour-one-keys-api-openapi.yml
+- filename: hour-one-playground-api-openapi.yml
+  format: yaml
+  label: Hour One playground API
+  slug: hour-one-playground-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hour-one/refs/heads/main/openapi/hour-one-playground-api-openapi.yml
+- filename: hour-one-videos-api-openapi.yml
+  format: yaml
+  label: Hour One videos API
+  slug: hour-one-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hour-one/refs/heads/main/openapi/hour-one-videos-api-openapi.yml
+- filename: hour-one-voice-preview-api-openapi.yml
+  format: yaml
+  label: Hour One voice-preview API
+  slug: hour-one-voice-preview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hour-one/refs/heads/main/openapi/hour-one-voice-preview-api-openapi.yml
+- filename: hour-one-webhook-api-openapi.yml
+  format: yaml
+  label: Hour One webhook API
+  slug: hour-one-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hour-one/refs/heads/main/openapi/hour-one-webhook-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1

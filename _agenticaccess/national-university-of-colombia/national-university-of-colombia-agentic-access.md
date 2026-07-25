@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: national-university-of-colombia-repository-oai.yaml
+- filename: national-university-of-colombia-oai-pmh-api-openapi.yml
   format: yaml
-  label: Institutional Repository (DSpace / OAI-PMH)
-  slug: repository-oai
+  label: National University of Colombia OAI-PMH API
+  slug: national-university-of-colombia-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-university-of-colombia/refs/heads/main/openapi/national-university-of-colombia-repository-oai.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/national-university-of-colombia/refs/heads/main/openapi/national-university-of-colombia-oai-pmh-api-openapi.yml
+- filename: national-university-of-colombia-rest-core-api-openapi.yml
+  format: yaml
+  label: National University of Colombia REST - Core API
+  slug: national-university-of-colombia-rest-core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-university-of-colombia/refs/heads/main/openapi/national-university-of-colombia-rest-core-api-openapi.yml
+- filename: national-university-of-colombia-rest-discover-api-openapi.yml
+  format: yaml
+  label: National University of Colombia REST - Discover API
+  slug: national-university-of-colombia-rest-discover-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-university-of-colombia/refs/heads/main/openapi/national-university-of-colombia-rest-discover-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

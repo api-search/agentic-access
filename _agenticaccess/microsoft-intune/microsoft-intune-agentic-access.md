@@ -3,6 +3,31 @@ acting_count: 16
 action_class_counts:
   acting: 16
   connected: 6
+api_specs:
+- filename: microsoft-intune-device-compliance-policies-api-openapi.yml
+  format: yaml
+  label: Microsoft Intune Device Compliance Policies API
+  slug: microsoft-intune-device-compliance-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-device-compliance-policies-api-openapi.yml
+- filename: microsoft-intune-device-configurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Intune Device Configurations API
+  slug: microsoft-intune-device-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-device-configurations-api-openapi.yml
+- filename: microsoft-intune-managed-devices-api-openapi.yml
+  format: yaml
+  label: Microsoft Intune Managed Devices API
+  slug: microsoft-intune-managed-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-managed-devices-api-openapi.yml
+- filename: microsoft-intune-remote-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft Intune Remote Actions API
+  slug: microsoft-intune-remote-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/openapi/microsoft-intune-remote-actions-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 2

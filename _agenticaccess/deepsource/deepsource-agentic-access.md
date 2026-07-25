@@ -3,30 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: deepsource-openapi.yml
+- filename: deepsource-graphql-api-openapi.yml
   format: yaml
-  label: DeepSource Repositories API
-  slug: repositories
+  label: DeepSource GraphQL API
+  slug: deepsource-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-openapi.yml
-- filename: deepsource-openapi.yml
-  format: yaml
-  label: DeepSource Issues API
-  slug: issues
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-openapi.yml
-- filename: deepsource-openapi.yml
-  format: yaml
-  label: DeepSource Runs and Checks API
-  slug: runs-checks
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-openapi.yml
-- filename: deepsource-openapi.yml
-  format: yaml
-  label: DeepSource Analyzers API
-  slug: analyzers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-graphql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

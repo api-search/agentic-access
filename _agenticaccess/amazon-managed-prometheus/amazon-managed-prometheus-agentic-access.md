@@ -4,12 +4,18 @@ action_class_counts:
   acting: 14
   connected: 7
 api_specs:
-- filename: amazon-managed-prometheus-openapi-original.yaml
+- filename: amazon-managed-prometheus-tags-api-openapi.yml
   format: yaml
-  label: Amazon Managed Service for Prometheus API
-  slug: amazon-managed-prometheus-api
+  label: Amazon Managed Service for Prometheus Tags API
+  slug: amazon-managed-prometheus-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/openapi/amazon-managed-prometheus-openapi-original.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/openapi/amazon-managed-prometheus-tags-api-openapi.yml
+- filename: amazon-managed-prometheus-workspaces-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Workspaces API
+  slug: amazon-managed-prometheus-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/openapi/amazon-managed-prometheus-workspaces-api-openapi.yml
 consequence_counts:
   read: 7
   write: 14

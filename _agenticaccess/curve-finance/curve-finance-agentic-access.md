@@ -2,6 +2,55 @@
 acting_count: 0
 action_class_counts:
   connected: 43
+api_specs:
+- filename: curve-finance-crvusd-api-openapi.yml
+  format: yaml
+  label: Curve Finance crvUSD API
+  slug: curve-finance-crvusd-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-crvusd-api-openapi.yml
+- filename: curve-finance-deprecated-api-openapi.yml
+  format: yaml
+  label: Curve Finance Deprecated API
+  slug: curve-finance-deprecated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-deprecated-api-openapi.yml
+- filename: curve-finance-gauges-api-openapi.yml
+  format: yaml
+  label: Curve Finance Gauges API
+  slug: curve-finance-gauges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-gauges-api-openapi.yml
+- filename: curve-finance-lending-api-openapi.yml
+  format: yaml
+  label: Curve Finance Lending API
+  slug: curve-finance-lending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-lending-api-openapi.yml
+- filename: curve-finance-misc-api-openapi.yml
+  format: yaml
+  label: Curve Finance Misc API
+  slug: curve-finance-misc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-misc-api-openapi.yml
+- filename: curve-finance-pools-api-openapi.yml
+  format: yaml
+  label: Curve Finance Pools API
+  slug: curve-finance-pools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-pools-api-openapi.yml
+- filename: curve-finance-tokens-api-openapi.yml
+  format: yaml
+  label: Curve Finance Tokens API
+  slug: curve-finance-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-tokens-api-openapi.yml
+- filename: curve-finance-volumes-and-apys-api-openapi.yml
+  format: yaml
+  label: Curve Finance Volumes and APYs API
+  slug: curve-finance-volumes-and-apys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-volumes-and-apys-api-openapi.yml
 consequence_counts:
   read: 43
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

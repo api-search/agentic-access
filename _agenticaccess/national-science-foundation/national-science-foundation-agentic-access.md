@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: national-science-foundation-openapi.yml
+- filename: national-science-foundation-awards-api-openapi.yml
   format: yaml
-  label: National Science Foundation API
-  slug: national-science-foundation
+  label: National Science Foundation Awards API
+  slug: national-science-foundation-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/openapi/national-science-foundation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/openapi/national-science-foundation-awards-api-openapi.yml
+- filename: national-science-foundation-awards-format-api-openapi.yml
+  format: yaml
+  label: National Science Foundation Awards.{format} API
+  slug: national-science-foundation-awards-format-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/openapi/national-science-foundation-awards-format-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

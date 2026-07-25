@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: api
+- filename: game-of-thrones-books-api-openapi.yml
   format: yaml
-  label: An API of Ice and Fire
-  slug: an-api-of-ice-and-fire
+  label: An API of Ice and Fire books API
+  slug: game-of-thrones-books-api
   spec_type: OpenAPI
-  url: https://www.anapioficeandfire.com/api
+  url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/game-of-thrones-books-api-openapi.yml
+- filename: game-of-thrones-characters-api-openapi.yml
+  format: yaml
+  label: An API of Ice and Fire characters API
+  slug: game-of-thrones-characters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/game-of-thrones-characters-api-openapi.yml
+- filename: game-of-thrones-houses-api-openapi.yml
+  format: yaml
+  label: An API of Ice and Fire houses API
+  slug: game-of-thrones-houses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/game-of-thrones-houses-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

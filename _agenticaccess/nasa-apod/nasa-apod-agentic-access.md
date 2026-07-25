@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: openapi.yml
+- filename: nasa-apod-apod-api-openapi.yml
   format: yaml
-  label: NASA APOD API
-  slug: nasa-apod
+  label: NASA APOD APOD API
+  slug: nasa-apod-apod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasa-apod/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nasa-apod/refs/heads/main/openapi/nasa-apod-apod-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

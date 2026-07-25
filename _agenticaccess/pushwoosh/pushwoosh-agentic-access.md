@@ -3,12 +3,12 @@ acting_count: 4
 action_class_counts:
   acting: 4
 api_specs:
-- filename: pushwoosh-openapi.yml
+- filename: pushwoosh-messages-api-openapi.yml
   format: yaml
-  label: Pushwoosh Messaging API
-  slug: pushwoosh-messaging-api
+  label: Pushwoosh Messages API
+  slug: pushwoosh-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/openapi/pushwoosh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/openapi/pushwoosh-messages-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

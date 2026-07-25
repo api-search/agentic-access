@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: api-pulse-publish-openapi.yml
+- filename: api-pulse-signals-api-openapi.yml
   format: yaml
-  label: API Pulse Publish API
-  slug: api-pulse-publish
+  label: API Pulse Signals API
+  slug: api-pulse-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-pulse/refs/heads/main/openapi/api-pulse-publish-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-pulse/refs/heads/main/openapi/api-pulse-signals-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

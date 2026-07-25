@@ -4,12 +4,24 @@ action_class_counts:
   acting: 4
   connected: 11
 api_specs:
-- filename: overview
+- filename: microsoft-office-suite-drive-api-openapi.yml
   format: yaml
-  label: Microsoft Graph API
-  slug: microsoft-graph-api
+  label: Microsoft Office Suite Drive API
+  slug: microsoft-office-suite-drive-api
   spec_type: OpenAPI
-  url: https://learn.microsoft.com/en-us/graph/api/overview
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-suite/refs/heads/main/openapi/microsoft-office-suite-drive-api-openapi.yml
+- filename: microsoft-office-suite-mail-api-openapi.yml
+  format: yaml
+  label: Microsoft Office Suite Mail API
+  slug: microsoft-office-suite-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-suite/refs/heads/main/openapi/microsoft-office-suite-mail-api-openapi.yml
+- filename: microsoft-office-suite-teams-api-openapi.yml
+  format: yaml
+  label: Microsoft Office Suite Teams API
+  slug: microsoft-office-suite-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-suite/refs/heads/main/openapi/microsoft-office-suite-teams-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11

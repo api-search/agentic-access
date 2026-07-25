@@ -4,12 +4,30 @@ action_class_counts:
   acting: 8
   connected: 5
 api_specs:
-- filename: lingopal-openapi-original.json
-  format: json
-  label: Lingopal API v2
-  slug: lingopal-api-v2
+- filename: lingopal-jobs-api-openapi.yml
+  format: yaml
+  label: Lingopal Jobs API
+  slug: lingopal-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-jobs-api-openapi.yml
+- filename: lingopal-languages-api-openapi.yml
+  format: yaml
+  label: Lingopal Languages API
+  slug: lingopal-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-languages-api-openapi.yml
+- filename: lingopal-translate-api-openapi.yml
+  format: yaml
+  label: Lingopal Translate API
+  slug: lingopal-translate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-translate-api-openapi.yml
+- filename: lingopal-upload-api-openapi.yml
+  format: yaml
+  label: Lingopal Upload API
+  slug: lingopal-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-upload-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8

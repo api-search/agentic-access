@@ -4,12 +4,36 @@ action_class_counts:
   acting: 2
   connected: 9
 api_specs:
-- filename: sysco-food-distribution-api-openapi.yml
+- filename: sysco-accounts-api-openapi.yml
   format: yaml
-  label: Sysco Food Distribution API
-  slug: food-distribution-api
+  label: Sysco Accounts API
+  slug: sysco-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-food-distribution-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-accounts-api-openapi.yml
+- filename: sysco-deliveries-api-openapi.yml
+  format: yaml
+  label: Sysco Deliveries API
+  slug: sysco-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-deliveries-api-openapi.yml
+- filename: sysco-orders-api-openapi.yml
+  format: yaml
+  label: Sysco Orders API
+  slug: sysco-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-orders-api-openapi.yml
+- filename: sysco-pricing-api-openapi.yml
+  format: yaml
+  label: Sysco Pricing API
+  slug: sysco-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-pricing-api-openapi.yml
+- filename: sysco-products-api-openapi.yml
+  format: yaml
+  label: Sysco Products API
+  slug: sysco-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-products-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9

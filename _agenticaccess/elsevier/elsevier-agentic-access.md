@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: elsevier-openapi.yml
+- filename: elsevier-abstract-api-openapi.yml
   format: yaml
-  label: Elsevier Scopus APIs
-  slug: elsevier-scopus-apis
+  label: Elsevier Abstract API
+  slug: elsevier-abstract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-abstract-api-openapi.yml
+- filename: elsevier-search-api-openapi.yml
+  format: yaml
+  label: Elsevier Search API
+  slug: elsevier-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-search-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

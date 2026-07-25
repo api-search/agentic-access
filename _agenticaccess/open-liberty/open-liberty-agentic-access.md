@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 11
 api_specs:
-- filename: open-liberty-admin.json
-  format: json
-  label: Open Liberty
-  slug: open-liberty
+- filename: open-liberty-configuration-api-openapi.yml
+  format: yaml
+  label: Open Liberty Configuration API
+  slug: open-liberty-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-admin.json
+  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-configuration-api-openapi.yml
+- filename: open-liberty-health-api-openapi.yml
+  format: yaml
+  label: Open Liberty Health API
+  slug: open-liberty-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-health-api-openapi.yml
+- filename: open-liberty-metrics-api-openapi.yml
+  format: yaml
+  label: Open Liberty Metrics API
+  slug: open-liberty-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-metrics-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

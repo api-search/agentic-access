@@ -4,42 +4,42 @@ action_class_counts:
   acting: 5
   connected: 5
 api_specs:
-- filename: shippit-openapi.yml
-  format: yaml
-  label: Shippit Quote API
-  slug: shippit-quote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-openapi.yml
-- filename: shippit-openapi.yml
-  format: yaml
-  label: Shippit Orders API
-  slug: shippit-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-openapi.yml
-- filename: shippit-openapi.yml
+- filename: shippit-book-api-openapi.yml
   format: yaml
   label: Shippit Book API
   slug: shippit-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-openapi.yml
-- filename: shippit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-book-api-openapi.yml
+- filename: shippit-label-api-openapi.yml
   format: yaml
   label: Shippit Label API
   slug: shippit-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-openapi.yml
-- filename: shippit-openapi.yml
-  format: yaml
-  label: Shippit Tracking API
-  slug: shippit-tracking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-openapi.yml
-- filename: shippit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-label-api-openapi.yml
+- filename: shippit-merchant-api-openapi.yml
   format: yaml
   label: Shippit Merchant API
   slug: shippit-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-merchant-api-openapi.yml
+- filename: shippit-orders-api-openapi.yml
+  format: yaml
+  label: Shippit Orders API
+  slug: shippit-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-orders-api-openapi.yml
+- filename: shippit-quote-api-openapi.yml
+  format: yaml
+  label: Shippit Quote API
+  slug: shippit-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-quote-api-openapi.yml
+- filename: shippit-tracking-api-openapi.yml
+  format: yaml
+  label: Shippit Tracking API
+  slug: shippit-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-tracking-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 5

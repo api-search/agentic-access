@@ -3,30 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: activeloop-openapi.yml
+- filename: activeloop-managed-database-api-openapi.yml
   format: yaml
-  label: Deep Lake SDK (Python)
-  slug: deep-lake-python-sdk
+  label: Activeloop Managed Database API
+  slug: activeloop-managed-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activeloop/refs/heads/main/openapi/activeloop-openapi.yml
-- filename: activeloop-openapi.yml
-  format: yaml
-  label: Tensor Query Language (TQL)
-  slug: tensor-query-language
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activeloop/refs/heads/main/openapi/activeloop-openapi.yml
-- filename: activeloop-openapi.yml
-  format: yaml
-  label: Deep Lake Vector Store
-  slug: vector-store
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activeloop/refs/heads/main/openapi/activeloop-openapi.yml
-- filename: activeloop-openapi.yml
-  format: yaml
-  label: Activeloop Managed Database REST API
-  slug: managed-database-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activeloop/refs/heads/main/openapi/activeloop-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/activeloop/refs/heads/main/openapi/activeloop-managed-database-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

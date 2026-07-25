@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: 2020-police-brutality-openapi.yml
+- filename: 2020-police-brutality-incidents-api-openapi.yml
   format: yaml
-  label: 2020 Police Brutality API
-  slug: 2020-police-brutality
+  label: 2020 Police Brutality Incidents API
+  slug: 2020-police-brutality-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/openapi/2020-police-brutality-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/openapi/2020-police-brutality-incidents-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

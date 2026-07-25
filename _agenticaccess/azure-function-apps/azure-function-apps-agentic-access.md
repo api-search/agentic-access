@@ -4,12 +4,12 @@ action_class_counts:
   acting: 26
   connected: 11
 api_specs:
-- filename: WebApps.json
-  format: json
-  label: Azure Function Apps REST API
-  slug: azure-function-apps-rest-api
+- filename: azure-function-apps-webapps-api-openapi.yml
+  format: yaml
+  label: Azure Function Apps WebApps API
+  slug: azure-function-apps-webapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/web/resource-manager/Microsoft.Web/stable/2022-09-01/WebApps.json
+  url: https://raw.githubusercontent.com/api-evangelist/azure-function-apps/refs/heads/main/openapi/azure-function-apps-webapps-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11

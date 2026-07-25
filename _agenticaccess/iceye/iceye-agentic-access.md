@@ -3,6 +3,25 @@ acting_count: 5
 action_class_counts:
   acting: 5
   connected: 9
+api_specs:
+- filename: iceye-catalog-api-openapi.yml
+  format: yaml
+  label: ICEYE Catalog API
+  slug: iceye-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-catalog-api-openapi.yml
+- filename: iceye-company-api-openapi.yml
+  format: yaml
+  label: ICEYE Company API
+  slug: iceye-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-company-api-openapi.yml
+- filename: iceye-tasking-api-openapi.yml
+  format: yaml
+  label: ICEYE Tasking API
+  slug: iceye-tasking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/openapi/iceye-tasking-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9

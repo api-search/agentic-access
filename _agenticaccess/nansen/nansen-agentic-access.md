@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: nansen-openapi.yml
+- filename: nansen-smart-money-api-openapi.yml
   format: yaml
-  label: Nansen REST API
-  slug: rest-api
+  label: Nansen Smart Money API
+  slug: nansen-smart-money-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/openapi/nansen-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/openapi/nansen-smart-money-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

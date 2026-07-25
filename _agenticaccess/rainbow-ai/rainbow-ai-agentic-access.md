@@ -3,18 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: rainbow-ai-nowcast-openapi.yml
+- filename: rainbow-ai-nowcast-api-openapi.yml
   format: yaml
   label: Rainbow.AI Nowcast API
-  slug: rainbow-ai-nowcast
+  slug: rainbow-ai-nowcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-nowcast-openapi.yml
-- filename: rainbow-ai-tiles-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-nowcast-api-openapi.yml
+- filename: rainbow-ai-radar-api-openapi.yml
+  format: yaml
+  label: Rainbow.AI Radar API
+  slug: rainbow-ai-radar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-radar-api-openapi.yml
+- filename: rainbow-ai-snapshots-api-openapi.yml
+  format: yaml
+  label: Rainbow.AI Snapshots API
+  slug: rainbow-ai-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-snapshots-api-openapi.yml
+- filename: rainbow-ai-tiles-api-openapi.yml
   format: yaml
   label: Rainbow.AI Tiles API
-  slug: rainbow-ai-tiles
+  slug: rainbow-ai-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-tiles-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/openapi/rainbow-ai-tiles-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,18 +4,18 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: wyzant-openapi.yml
+- filename: wyzant-data-feed-api-openapi.yml
   format: yaml
-  label: Wyzant Tutor Search API
-  slug: wyzant-tutor-search-api
+  label: Wyzant Data Feed API
+  slug: wyzant-data-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wyzant/refs/heads/main/openapi/wyzant-openapi.yml
-- filename: wyzant-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wyzant/refs/heads/main/openapi/wyzant-data-feed-api-openapi.yml
+- filename: wyzant-search-api-openapi.yml
   format: yaml
-  label: Wyzant Tutor Data Feed
-  slug: wyzant-tutor-data-feed
+  label: Wyzant Search API
+  slug: wyzant-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wyzant/refs/heads/main/openapi/wyzant-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wyzant/refs/heads/main/openapi/wyzant-search-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

@@ -4,12 +4,30 @@ action_class_counts:
   acting: 2
   connected: 3
 api_specs:
-- filename: hotjar-rest-api-openapi.yml
+- filename: hotjar-authentication-api-openapi.yml
   format: yaml
-  label: Hotjar REST API
-  slug: rest-api
+  label: hotjar Authentication API
+  slug: hotjar-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/openapi/hotjar-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/openapi/hotjar-authentication-api-openapi.yml
+- filename: hotjar-survey-responses-api-openapi.yml
+  format: yaml
+  label: hotjar Survey Responses API
+  slug: hotjar-survey-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/openapi/hotjar-survey-responses-api-openapi.yml
+- filename: hotjar-surveys-api-openapi.yml
+  format: yaml
+  label: hotjar Surveys API
+  slug: hotjar-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/openapi/hotjar-surveys-api-openapi.yml
+- filename: hotjar-user-lookup-api-openapi.yml
+  format: yaml
+  label: hotjar User Lookup API
+  slug: hotjar-user-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/openapi/hotjar-user-lookup-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2

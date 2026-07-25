@@ -1,76 +1,76 @@
 ---
 acting_count: 0
 action_class_counts:
-  connected: 24
+  connected: 95
 api_specs:
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Quotes API
-  slug: barchart-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart History API
-  slug: barchart-history-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Reference & Equities API
-  slug: barchart-reference-equities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Futures & Options API
-  slug: barchart-futures-options-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Fundamentals API
-  slug: barchart-fundamentals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Corporate Actions & Earnings API
-  slug: barchart-corporate-actions-earnings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
-  format: yaml
-  label: Barchart Cryptocurrency API
-  slug: barchart-cryptocurrency-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
+- filename: barchart-commodities-agriculture-api-openapi.yml
   format: yaml
   label: Barchart Commodities & Agriculture API
   slug: barchart-commodities-agriculture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-commodities-agriculture-api-openapi.yml
+- filename: barchart-corporate-actions-earnings-api-openapi.yml
   format: yaml
-  label: Barchart Technicals & Charts API
-  slug: barchart-technicals-charts-api
+  label: Barchart Corporate Actions & Earnings API
+  slug: barchart-corporate-actions-earnings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-corporate-actions-earnings-api-openapi.yml
+- filename: barchart-cryptocurrency-api-openapi.yml
+  format: yaml
+  label: Barchart Cryptocurrency API
+  slug: barchart-cryptocurrency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-cryptocurrency-api-openapi.yml
+- filename: barchart-fundamentals-api-openapi.yml
+  format: yaml
+  label: Barchart Fundamentals API
+  slug: barchart-fundamentals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-fundamentals-api-openapi.yml
+- filename: barchart-futures-options-api-openapi.yml
+  format: yaml
+  label: Barchart Futures & Options API
+  slug: barchart-futures-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-futures-options-api-openapi.yml
+- filename: barchart-history-api-openapi.yml
+  format: yaml
+  label: Barchart History API
+  slug: barchart-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-history-api-openapi.yml
+- filename: barchart-news-filings-api-openapi.yml
   format: yaml
   label: Barchart News & Filings API
   slug: barchart-news-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
-- filename: barchart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-news-filings-api-openapi.yml
+- filename: barchart-quotes-api-openapi.yml
+  format: yaml
+  label: Barchart Quotes API
+  slug: barchart-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-quotes-api-openapi.yml
+- filename: barchart-reference-equities-api-openapi.yml
+  format: yaml
+  label: Barchart Reference & Equities API
+  slug: barchart-reference-equities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-reference-equities-api-openapi.yml
+- filename: barchart-technicals-charts-api-openapi.yml
+  format: yaml
+  label: Barchart Technicals & Charts API
+  slug: barchart-technicals-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-technicals-charts-api-openapi.yml
+- filename: barchart-weather-api-openapi.yml
   format: yaml
   label: Barchart Weather API
   slug: barchart-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-weather-api-openapi.yml
 consequence_counts:
-  read: 24
+  read: 95
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -79,11 +79,11 @@ method: generated
 name: Barchart Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
-operation_count: 24
-overview: 'Barchart exposes 24 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+operation_count: 95
+overview: 'Barchart exposes 95 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 24 read.
+  By consequence: 95 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -93,14 +93,31 @@ slug: barchart-agentic-access
 source_filename: barchart-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/barchart-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 24\n  by_action_class:\n    connected: 24\n  by_consequence:\n    read: 24\n  human_in_the_loop_required: 0\noperations:\n- path: /getQuote.json\n  method: get\n  operationId: getQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getQuoteEod.json\n  method: get\n  operationId: getQuoteEod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getHistory.json\n  method: get\n  operationId: getHistory\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEquitiesByExchange.json\n  method: get\n  operationId: getEquitiesByExchange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getInstrumentDefinition.json\n  method: get\n  operationId: getInstrumentDefinition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuturesOptions.json\n  method: get\n  operationId: getFuturesOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuturesByExchange.json\n  method: get\n  operationId: getFuturesByExchange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getOptionsScreener.json\n  method: get\n  operationId: getOptionsScreener\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getProfile.json\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFinancialHighlights.json\n  method: get\n  operationId: getFinancialHighlights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getIncomeStatements.json\n  method: get\n  operationId: getIncomeStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getRatings.json\n\
-  \  method: get\n  operationId: getRatings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCorporateActions.json\n  method: get\n  operationId: getCorporateActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEarningsCalendar.json\n  method: get\n  operationId: getEarningsCalendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCrypto.json\n  method: get\n  operationId: getCrypto\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCryptoHistory.json\n  method: get\n  operationId: getCryptoHistory\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getGrainBids.json\n  method: get\n  operationId: getGrainBids\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCmdtyStats.json\n  method: get\n  operationId: getCmdtyStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuelPrices.json\n  method: get\n  operationId: getFuelPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getTechnicals.json\n  method: get\n  operationId: getTechnicals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSignal.json\n  method: get\n\
-  \  operationId: getSignal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getNews.json\n  method: get\n  operationId: getNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSECFilings.json\n  method: get\n  operationId: getSECFilings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getWeather.json\n  method: get\n  operationId: getWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml: "generated: '2026-07-22'\nmethod: generated\nsource: openapi/barchart-commodities-agriculture-api-openapi.yml, openapi/barchart-corporate-actions-earnings-api-openapi.yml,\n  openapi/barchart-cryptocurrency-api-openapi.yml, openapi/barchart-fundamentals-api-openapi.yml,\n  openapi/barchart-futures-options-api-openapi.yml, openapi/barchart-history-api-openapi.yml,\n  openapi/barchart-news-filings-api-openapi.yml, openapi/barchart-ondemand-official-openapi.yml,\n  openapi/barchart-quotes-api-openapi.yml, openapi/barchart-reference-equities-api-openapi.yml,\n  openapi/barchart-technicals-charts-api-openapi.yml, openapi/barchart-weather-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 95\n  by_action_class:\n    connected: 95\n  by_consequence:\n\
+  \    read: 95\n  human_in_the_loop_required: 0\noperations:\n- path: /getGrainBids.json\n  method: get\n  operationId: getGrainBids\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCmdtyStats.json\n  method: get\n  operationId: getCmdtyStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuelPrices.json\n  method: get\n  operationId: getFuelPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCorporateActions.json\n  method: get\n  operationId: getCorporateActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEarningsCalendar.json\n  method: get\n\
+  \  operationId: getEarningsCalendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCrypto.json\n  method: get\n  operationId: getCrypto\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCryptoHistory.json\n  method: get\n  operationId: getCryptoHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getProfile.json\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFinancialHighlights.json\n  method: get\n  operationId: getFinancialHighlights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getIncomeStatements.json\n  method: get\n  operationId: getIncomeStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getRatings.json\n  method: get\n  operationId: getRatings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuturesOptions.json\n  method: get\n  operationId: getFuturesOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuturesByExchange.json\n  method: get\n  operationId: getFuturesByExchange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getOptionsScreener.json\n\
+  \  method: get\n  operationId: getOptionsScreener\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getHistory.json\n  method: get\n  operationId: getHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getNews.json\n  method: get\n  operationId: getNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSECFilings.json\n  method: get\n  operationId: getSECFilings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getQuote.json\n  method: get\n  operationId: get-getQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /getHistory.json\n  method: get\n  operationId: get-getHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getClosePrice.json\n  method: get\n  operationId: get-getClosePrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getQuoteEod.json\n  method: get\n  operationId: get-getQuoteEod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEquitiesByExchange.json\n  method: get\n  operationId: get-getEquitiesByExchange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuturesByExchange.json\n  method: get\n\
+  \  operationId: get-getFuturesByExchange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuturesOptions.json\n  method: get\n  operationId: get-getFuturesOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuturesOptionsEOD.json\n  method: get\n  operationId: get-getFuturesOptionsEOD\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuturesSpreads.json\n  method: get\n  operationId: get-getFuturesSpreads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSpecialOptions.json\n  method: get\n  operationId: get-getSpecialOptions\n  x-agentic-access:\n  \
+  \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEquityOptions.json\n  method: get\n  operationId: get-getEquityOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEquityOptionsHistory.json\n  method: get\n  operationId: get-getEquityOptionsHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEquityOptionsOverviewHistory.json\n  method: get\n  operationId: get-getEquityOptionsOverviewHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEquityOptionsOverviewSummary.json\n  method: get\n  operationId: get-getEquityOptionsOverviewSummary\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getOptionsScreener.json\n  method: get\n  operationId: get-getOptionsScreener\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getAmeriborRate.json\n  method: get\n  operationId: get-getAmeriborRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getRestrictedSessionHistory.json\n  method: get\n  operationId: get-getRestrictedSessionHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getRestrictedSessionOHLCPrices.json\n  method: get\n  operationId: get-getRestrictedSessionOHLCPrices\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCrypto.json\n  method: get\n  operationId: get-getCrypto\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCryptoHistory.json\n  method: get\n  operationId: get-getCryptoHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getProfile.json\n  method: get\n  operationId: get-getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFinancialHighlights.json\n  method: get\n  operationId: get-getFinancialHighlights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFinancialRatios.json\n\
+  \  method: get\n  operationId: get-getFinancialRatios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getIncomeStatements.json\n  method: get\n  operationId: get-getIncomeStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getBalanceSheets.json\n  method: get\n  operationId: get-getBalanceSheets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCompetitors.json\n  method: get\n  operationId: get-getCompetitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getRatings.json\n  method: get\n  operationId: get-getRatings\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getIndexMembers.json\n  method: get\n  operationId: get-getIndexMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCashFlow.json\n  method: get\n  operationId: get-getCashFlow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCorporateActions.json\n  method: get\n  operationId: get-getCorporateActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEarningsEstimates.json\n  method: get\n  operationId: get-getEarningsEstimates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
+  \ 3600\n    audit: none\n- path: /getDividendData.json\n  method: get\n  operationId: get-getDividendData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getDividendStocks.json\n  method: get\n  operationId: get-getDividendStocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCorporateActionsByExchange.json\n  method: get\n  operationId: get-getCorporateActionsByExchange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEarningsCalendar.json\n  method: get\n  operationId: get-getEarningsCalendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getDividendsCalendar.json\n\
+  \  method: get\n  operationId: get-getDividendsCalendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEarningsAndDividendsCalendar.json\n  method: get\n  operationId: get-getEarningsAndDividendsCalendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getLeaders.json\n  method: get\n  operationId: get-getLeaders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getHighsLows.json\n  method: get\n  operationId: get-getHighsLows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSectors.json\n  method: get\n  operationId: get-getSectors\n  x-agentic-access:\n   \
+  \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getChart.json\n  method: get\n  operationId: get-getChart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getTechnicals.json\n  method: get\n  operationId: get-getTechnicals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSignal.json\n  method: get\n  operationId: get-getSignal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getMomentum.json\n  method: get\n  operationId: get-getMomentum\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
+  \ /getTechnicalIndicatorData.json\n  method: get\n  operationId: get-getTechnicalIndicatorData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getETFDetails.json\n  method: get\n  operationId: get-getETFDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getETFConstituents.json\n  method: get\n  operationId: get-getETFConstituents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getNews.json\n  method: get\n  operationId: get-getNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getNewsSources.json\n  method: get\n  operationId: get-getNewsSources\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getNewsCategories.json\n  method: get\n  operationId: get-getNewsCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSECFilings.json\n  method: get\n  operationId: get-getSECFilings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getInstrumentDefinition.json\n  method: get\n  operationId: get-getInstrumentDefinition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuturesSpecifications.json\n  method: get\n  operationId: get-getFuturesSpecifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuturesExpirations.json\n  method: get\n  operationId: get-getFuturesExpirations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuturesOptionsExpirations.json\n  method: get\n  operationId: get-getFuturesOptionsExpirations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSpecialOptionsClassification.json\n  method: get\n  operationId: get-getSpecialOptionsClassification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getForexForwardCurves.json\n  method: get\n  operationId: get-getForexForwardCurves\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSymbolChange.json\n  method: get\n  operationId: get-getSymbolChange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getRelatedInstruments.json\n  method: get\n  operationId: get-getRelatedInstruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getWeather.json\n  method: get\n  operationId: get-getWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getGrainBids.json\n  method: get\n  operationId: get-getGrainBids\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getUSDAGrainPrices.json\n\
+  \  method: get\n  operationId: get-getUSDAGrainPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCmdtyStatsId.json\n  method: get\n  operationId: get-getCmdtyStatsId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCmdtyStats.json\n  method: get\n  operationId: get-getCmdtyStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getGrainInstruments.json\n  method: get\n  operationId: get-getGrainInstruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getBLSIndexes.json\n  method: get\n  operationId: get-getBLSIndexes\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCmdtyCalendar.json\n  method: get\n  operationId: get-getCmdtyCalendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuelPrices.json\n  method: get\n  operationId: get-getFuelPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCropFactors.json\n  method: get\n  operationId: get-getCropFactors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getUniqueIdentifier.json\n  method: get\n  operationId: get-getUniqueIdentifier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
+  \ 3600\n    audit: none\n- path: /getYieldForecastPlanet.json\n  method: get\n  operationId: get-getYieldForecastPlanet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getQuote.json\n  method: get\n  operationId: getQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getQuoteEod.json\n  method: get\n  operationId: getQuoteEod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEquitiesByExchange.json\n  method: get\n  operationId: getEquitiesByExchange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getInstrumentDefinition.json\n  method: get\n  operationId: getInstrumentDefinition\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getTechnicals.json\n  method: get\n  operationId: getTechnicals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSignal.json\n  method: get\n  operationId: getSignal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getWeather.json\n  method: get\n  operationId: getWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/agentic-access/barchart-agentic-access.yml
-summary_line: 24 operations
+summary_line: 95 operations
 tags:
 - Market Data
 - Financial Data

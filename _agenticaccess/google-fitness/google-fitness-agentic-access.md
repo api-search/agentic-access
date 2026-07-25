@@ -4,12 +4,12 @@ action_class_counts:
   acting: 5
   connected: 4
 api_specs:
-- filename: fitness.yml
+- filename: google-fitness-users-api-openapi.yml
   format: yaml
-  label: Google Fit REST API v1
-  slug: google-fit-rest-api-v1
+  label: Google Fit REST Users API
+  slug: google-fitness-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/openapi/fitness.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/openapi/google-fitness-users-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 5
   connected: 4
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-workflows-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Workflows API
-  slug: google-cloud-workflows-api
+  label: Google Cloud Workflows Projects API
+  slug: google-cloud-workflows-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-workflows/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-workflows/refs/heads/main/openapi/google-cloud-workflows-projects-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5

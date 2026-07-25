@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: amiibo-openapi.yml
+- filename: amiibo-amiibo-api-openapi.yml
   format: yaml
-  label: Amiibo API
-  slug: amiibo-api
+  label: Amiibo API Amiibo API
+  slug: amiibo-amiibo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amiibo/refs/heads/main/openapi/amiibo-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amiibo/refs/heads/main/openapi/amiibo-amiibo-api-openapi.yml
+- filename: amiibo-metadata-api-openapi.yml
+  format: yaml
+  label: Amiibo API Metadata API
+  slug: amiibo-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amiibo/refs/heads/main/openapi/amiibo-metadata-api-openapi.yml
+- filename: amiibo-reference-api-openapi.yml
+  format: yaml
+  label: Amiibo API Reference API
+  slug: amiibo-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amiibo/refs/heads/main/openapi/amiibo-reference-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

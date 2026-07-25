@@ -4,12 +4,30 @@ action_class_counts:
   acting: 3
   connected: 5
 api_specs:
-- filename: docparser-rest-api-openapi.yml
+- filename: docparser-documents-api-openapi.yml
   format: yaml
-  label: Docparser REST API
-  slug: docparser-rest-api
+  label: Docparser Documents API
+  slug: docparser-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-documents-api-openapi.yml
+- filename: docparser-parsers-api-openapi.yml
+  format: yaml
+  label: Docparser Parsers API
+  slug: docparser-parsers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-parsers-api-openapi.yml
+- filename: docparser-ping-api-openapi.yml
+  format: yaml
+  label: Docparser Ping API
+  slug: docparser-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-ping-api-openapi.yml
+- filename: docparser-results-api-openapi.yml
+  format: yaml
+  label: Docparser Results API
+  slug: docparser-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-results-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3

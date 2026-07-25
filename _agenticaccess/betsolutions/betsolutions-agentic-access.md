@@ -4,12 +4,18 @@ action_class_counts:
   acting: 5
   connected: 1
 api_specs:
-- filename: betsolutions-wallet-api.yaml
+- filename: betsolutions-player-api-openapi.yml
   format: yaml
-  label: BetSolutions Wallet API
-  slug: wallet-api
+  label: BetSolutions Player API
+  slug: betsolutions-player-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/openapi/betsolutions-wallet-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/openapi/betsolutions-player-api-openapi.yml
+- filename: betsolutions-transfer-wallet-api-openapi.yml
+  format: yaml
+  label: BetSolutions Transfer Wallet API
+  slug: betsolutions-transfer-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/openapi/betsolutions-transfer-wallet-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 1

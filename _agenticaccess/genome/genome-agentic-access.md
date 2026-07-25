@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: genome-openapi.yml
+- filename: genome-host-to-host-api-openapi.yml
   format: yaml
-  label: Genome
-  slug: genome
+  label: Genome Host-to-Host API
+  slug: genome-host-to-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/openapi/genome-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/openapi/genome-host-to-host-api-openapi.yml
+- filename: genome-payouts-api-openapi.yml
+  format: yaml
+  label: Genome Payouts API
+  slug: genome-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/openapi/genome-payouts-api-openapi.yml
 consequence_counts:
   physical: 1
   write: 1

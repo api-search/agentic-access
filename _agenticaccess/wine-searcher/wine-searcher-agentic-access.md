@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: wine-searcher-openapi.yml
+- filename: wine-searcher-market-price-api-openapi.yml
   format: yaml
-  label: Wine-Searcher API
-  slug: wine-searcher-api
+  label: Wine-Searcher market-price API
+  slug: wine-searcher-market-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/openapi/wine-searcher-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/openapi/wine-searcher-market-price-api-openapi.yml
+- filename: wine-searcher-wine-check-api-openapi.yml
+  format: yaml
+  label: Wine-Searcher wine-check API
+  slug: wine-searcher-wine-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wine-searcher/refs/heads/main/openapi/wine-searcher-wine-check-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

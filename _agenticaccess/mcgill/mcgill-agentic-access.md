@@ -3,18 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: mcgill-dataverse-native.yaml
+- filename: mcgill-dataverses-api-openapi.yml
   format: yaml
-  label: McGill University Dataverse (Borealis) - Native API
-  slug: dataverse-native
+  label: McGill University Dataverses API
+  slug: mcgill-dataverses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-dataverse-native.yaml
-- filename: mcgill-dataverse-search.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-dataverses-api-openapi.yml
+- filename: mcgill-info-api-openapi.yml
   format: yaml
-  label: McGill University Dataverse (Borealis) - Search API
-  slug: dataverse-search
+  label: McGill University Info API
+  slug: mcgill-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-dataverse-search.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-info-api-openapi.yml
+- filename: mcgill-search-api-openapi.yml
+  format: yaml
+  label: McGill University Search API
+  slug: mcgill-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/openapi/mcgill-search-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

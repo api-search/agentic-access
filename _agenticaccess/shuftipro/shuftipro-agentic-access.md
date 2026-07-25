@@ -3,36 +3,18 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: shuftipro-openapi.yml
-  format: yaml
-  label: Shufti Pro Verification API
-  slug: shuftipro-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-openapi.yml
-- filename: shuftipro-openapi.yml
-  format: yaml
-  label: Shufti Pro KYB API
-  slug: shuftipro-kyb-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-openapi.yml
-- filename: shuftipro-openapi.yml
-  format: yaml
-  label: Shufti Pro AML & Background Checks API
-  slug: shuftipro-aml-background-checks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-openapi.yml
-- filename: shuftipro-openapi.yml
+- filename: shuftipro-status-api-openapi.yml
   format: yaml
   label: Shufti Pro Status API
   slug: shuftipro-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-openapi.yml
-- filename: shuftipro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-status-api-openapi.yml
+- filename: shuftipro-verification-api-openapi.yml
   format: yaml
-  label: Shufti Pro Webhooks API
-  slug: shuftipro-webhooks-api
+  label: Shufti Pro Verification API
+  slug: shuftipro-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shuftipro/refs/heads/main/openapi/shuftipro-verification-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

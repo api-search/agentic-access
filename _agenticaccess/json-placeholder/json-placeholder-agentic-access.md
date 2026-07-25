@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: openapi.yaml
+- filename: json-placeholder-posts-api-openapi.yml
   format: yaml
-  label: JSONPlaceholder API
-  slug: json-placeholder-api
+  label: JSONPlaceholder Posts API
+  slug: json-placeholder-posts-api
   spec_type: OpenAPI
-  url: https://github.com/sebastienlevert/jsonplaceholder-api/blob/main/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/json-placeholder/refs/heads/main/openapi/json-placeholder-posts-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

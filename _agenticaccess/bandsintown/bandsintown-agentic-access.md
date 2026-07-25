@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: 3.0.0
+- filename: bandsintown-artist-events-api-openapi.yml
   format: yaml
-  label: Bandsintown Public API
-  slug: public-api
+  label: Bandsintown artist events API
+  slug: bandsintown-artist-events-api
   spec_type: OpenAPI
-  url: https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0
+  url: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/openapi/bandsintown-artist-events-api-openapi.yml
+- filename: bandsintown-artist-information-api-openapi.yml
+  format: yaml
+  label: Bandsintown artist information API
+  slug: bandsintown-artist-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/openapi/bandsintown-artist-information-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

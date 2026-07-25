@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 15
 api_specs:
-- filename: adaptive-security-openapi.json
-  format: json
-  label: Adaptive API
-  slug: adaptive-api
+- filename: adaptive-security-audit-logs-api-openapi.yml
+  format: yaml
+  label: Adaptive Security Audit Logs API
+  slug: adaptive-security-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-audit-logs-api-openapi.yml
+- filename: adaptive-security-groups-api-openapi.yml
+  format: yaml
+  label: Adaptive Security Groups API
+  slug: adaptive-security-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-groups-api-openapi.yml
+- filename: adaptive-security-phishing-api-openapi.yml
+  format: yaml
+  label: Adaptive Security Phishing API
+  slug: adaptive-security-phishing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-phishing-api-openapi.yml
+- filename: adaptive-security-training-api-openapi.yml
+  format: yaml
+  label: Adaptive Security Training API
+  slug: adaptive-security-training-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-training-api-openapi.yml
+- filename: adaptive-security-users-api-openapi.yml
+  format: yaml
+  label: Adaptive Security Users API
+  slug: adaptive-security-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-users-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

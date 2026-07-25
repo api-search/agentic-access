@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: openapi.yml
+- filename: google-fonts-fonts-api-openapi.yml
   format: yaml
-  label: Google Fonts Developer API
-  slug: google-fonts-developer-api
+  label: Google Fonts Developer Fonts API
+  slug: google-fonts-fonts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-fonts/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-fonts/refs/heads/main/openapi/google-fonts-fonts-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

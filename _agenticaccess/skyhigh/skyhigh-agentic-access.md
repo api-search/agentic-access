@@ -3,12 +3,12 @@ acting_count: 4
 action_class_counts:
   acting: 4
 api_specs:
-- filename: skyhigh-incidents-openapi-original.yml
+- filename: skyhigh-tenant-api-openapi.yml
   format: yaml
-  label: Skyhigh Security SSE Incidents API
-  slug: skyhigh-security-sse-incidents-api
+  label: Skyhigh Security Tenant API
+  slug: skyhigh-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/openapi/skyhigh-incidents-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/openapi/skyhigh-tenant-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: aerospike-openapi.yml
+- filename: aerospike-cluster-api-openapi.yml
   format: yaml
-  label: Aerospike REST Gateway
-  slug: rest-gateway
+  label: Aerospike Cluster API
+  slug: aerospike-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/openapi/aerospike-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/openapi/aerospike-cluster-api-openapi.yml
+- filename: aerospike-documentation-api-openapi.yml
+  format: yaml
+  label: Aerospike Documentation API
+  slug: aerospike-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/openapi/aerospike-documentation-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,24 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
-- filename: applitools-openapi.yml
+- filename: applitools-batches-api-openapi.yml
   format: yaml
-  label: Applitools Eyes Server REST API
-  slug: eyes-server-api
+  label: Applitools Batches API
+  slug: applitools-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applitools/refs/heads/main/openapi/applitools-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/applitools/refs/heads/main/openapi/applitools-batches-api-openapi.yml
+- filename: applitools-discussions-api-openapi.yml
+  format: yaml
+  label: Applitools Discussions API
+  slug: applitools-discussions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applitools/refs/heads/main/openapi/applitools-discussions-api-openapi.yml
+- filename: applitools-scm-api-openapi.yml
+  format: yaml
+  label: Applitools SCM API
+  slug: applitools-scm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/applitools/refs/heads/main/openapi/applitools-scm-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

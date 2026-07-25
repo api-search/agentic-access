@@ -3,12 +3,66 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: financial-modeling-prep-openapi.yml
+- filename: financial-modeling-prep-balance-sheet-statement-api-openapi.yml
   format: yaml
-  label: Financial Modeling Prep API
-  slug: financial-modeling-prep
+  label: Financial Modeling Prep Balance Sheet Statement API
+  slug: financial-modeling-prep-balance-sheet-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-balance-sheet-statement-api-openapi.yml
+- filename: financial-modeling-prep-cash-flow-statement-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Cash Flow Statement API
+  slug: financial-modeling-prep-cash-flow-statement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-cash-flow-statement-api-openapi.yml
+- filename: financial-modeling-prep-historical-price-full-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Historical Price Full API
+  slug: financial-modeling-prep-historical-price-full-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-historical-price-full-api-openapi.yml
+- filename: financial-modeling-prep-income-statement-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Income Statement API
+  slug: financial-modeling-prep-income-statement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-income-statement-api-openapi.yml
+- filename: financial-modeling-prep-insider-trading-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Insider Trading API
+  slug: financial-modeling-prep-insider-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-insider-trading-api-openapi.yml
+- filename: financial-modeling-prep-profile-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Profile API
+  slug: financial-modeling-prep-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-profile-api-openapi.yml
+- filename: financial-modeling-prep-quote-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Quote API
+  slug: financial-modeling-prep-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-quote-api-openapi.yml
+- filename: financial-modeling-prep-ratios-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Ratios API
+  slug: financial-modeling-prep-ratios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-ratios-api-openapi.yml
+- filename: financial-modeling-prep-search-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Search API
+  slug: financial-modeling-prep-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-search-api-openapi.yml
+- filename: financial-modeling-prep-stock-api-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep Stock API
+  slug: financial-modeling-prep-stock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-stock-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -33,9 +87,10 @@ slug: financial-modeling-prep-agentic-access
 source_filename: financial-modeling-prep-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/financial-modeling-prep-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /quote/{symbol}\n  method: get\n  operationId: getQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical-price-full/{symbol}\n  method: get\n  operationId: getHistoricalPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /income-statement/{symbol}\n\
-  \  method: get\n  operationId: getIncomeStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /balance-sheet-statement/{symbol}\n  method: get\n  operationId: getBalanceSheet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cash-flow-statement/{symbol}\n  method: get\n  operationId: getCashFlowStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/{symbol}\n  method: get\n  operationId: getCompanyProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: searchSymbols\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/list\n  method: get\n  operationId: listStocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insider-trading\n  method: get\n  operationId: getInsiderTrading\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ratios/{symbol}\n  method: get\n  operationId: getFinancialRatios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml: "generated: '2026-07-22'\nmethod: generated\nsource: openapi/financial-modeling-prep-balance-sheet-statement-api-openapi.yml, openapi/financial-modeling-prep-cash-flow-statement-api-openapi.yml,\n  openapi/financial-modeling-prep-historical-price-full-api-openapi.yml, openapi/financial-modeling-prep-income-statement-api-openapi.yml,\n  openapi/financial-modeling-prep-insider-trading-api-openapi.yml, openapi/financial-modeling-prep-profile-api-openapi.yml,\n  openapi/financial-modeling-prep-quote-api-openapi.yml, openapi/financial-modeling-prep-ratios-api-openapi.yml,\n  openapi/financial-modeling-prep-search-api-openapi.yml, openapi/financial-modeling-prep-stock-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n\
+  \    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /balance-sheet-statement\n  method: get\n  operationId: getBalanceSheet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cash-flow-statement\n  method: get\n  operationId: getCashFlowStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical-price-eod/full\n  method: get\n  operationId: getHistoricalPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /income-statement\n  method: get\n  operationId: getIncomeStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
+  \ none\n- path: /insider-trading/search\n  method: get\n  operationId: getInsiderTrading\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile\n  method: get\n  operationId: getCompanyProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quote\n  method: get\n  operationId: getQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ratios\n  method: get\n  operationId: getFinancialRatios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search-symbol\n  method: get\n  operationId: searchSymbols\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock-list\n  method: get\n  operationId: listStocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/agentic-access/financial-modeling-prep-agentic-access.yml
 summary_line: 10 operations
 tags:

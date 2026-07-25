@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: kustomer-openapi.yml
+- filename: kustomer-conversations-api-openapi.yml
   format: yaml
-  label: Kustomer REST API
-  slug: kustomer-api
+  label: Kustomer Conversations API
+  slug: kustomer-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/openapi/kustomer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/openapi/kustomer-conversations-api-openapi.yml
+- filename: kustomer-customers-api-openapi.yml
+  format: yaml
+  label: Kustomer Customers API
+  slug: kustomer-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/openapi/kustomer-customers-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

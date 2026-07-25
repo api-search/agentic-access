@@ -4,12 +4,24 @@ action_class_counts:
   acting: 4
   connected: 3
 api_specs:
-- filename: viewpoints-ai-study-openapi.json
-  format: json
-  label: Viewpoints Study API
-  slug: viewpoints-study-api
+- filename: viewpoints-ai-studies-api-openapi.yml
+  format: yaml
+  label: Viewpoints AI Studies API
+  slug: viewpoints-ai-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/openapi/viewpoints-ai-study-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/openapi/viewpoints-ai-studies-api-openapi.yml
+- filename: viewpoints-ai-study-file-uploads-api-openapi.yml
+  format: yaml
+  label: Viewpoints AI Study File Uploads API
+  slug: viewpoints-ai-study-file-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/openapi/viewpoints-ai-study-file-uploads-api-openapi.yml
+- filename: viewpoints-ai-study-schedules-api-openapi.yml
+  format: yaml
+  label: Viewpoints AI Study Schedules API
+  slug: viewpoints-ai-study-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/openapi/viewpoints-ai-study-schedules-api-openapi.yml
 consequence_counts:
   read: 3
   write: 4

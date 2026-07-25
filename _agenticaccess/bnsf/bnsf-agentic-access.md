@@ -2,6 +2,25 @@
 acting_count: 0
 action_class_counts:
   connected: 2
+api_specs:
+- filename: bnsf-reference-files-api-openapi.yml
+  format: yaml
+  label: BNSF Reference Files API
+  slug: bnsf-reference-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-reference-files-api-openapi.yml
+- filename: bnsf-diagnostics-api-openapi.yml
+  format: yaml
+  label: BNSF Diagnostics API
+  slug: bnsf-diagnostics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-diagnostics-api-openapi.yml
+- filename: bnsf-reference-files-api-openapi.yml
+  format: yaml
+  label: BNSF Reference Files API
+  slug: bnsf-reference-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-reference-files-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

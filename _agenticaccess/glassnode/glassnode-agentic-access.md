@@ -3,12 +3,78 @@ acting_count: 0
 action_class_counts:
   connected: 14
 api_specs:
-- filename: glassnode-openapi.yml
+- filename: glassnode-addresses-api-openapi.yml
   format: yaml
-  label: Glassnode Metrics API
-  slug: metrics-api
+  label: Glassnode Addresses API
+  slug: glassnode-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-addresses-api-openapi.yml
+- filename: glassnode-derivatives-api-openapi.yml
+  format: yaml
+  label: Glassnode Derivatives API
+  slug: glassnode-derivatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-derivatives-api-openapi.yml
+- filename: glassnode-distribution-api-openapi.yml
+  format: yaml
+  label: Glassnode Distribution API
+  slug: glassnode-distribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-distribution-api-openapi.yml
+- filename: glassnode-indicators-api-openapi.yml
+  format: yaml
+  label: Glassnode Indicators API
+  slug: glassnode-indicators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-indicators-api-openapi.yml
+- filename: glassnode-macro-api-openapi.yml
+  format: yaml
+  label: Glassnode Macro API
+  slug: glassnode-macro-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-macro-api-openapi.yml
+- filename: glassnode-market-api-openapi.yml
+  format: yaml
+  label: Glassnode Market API
+  slug: glassnode-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-market-api-openapi.yml
+- filename: glassnode-metadata-api-openapi.yml
+  format: yaml
+  label: Glassnode Metadata API
+  slug: glassnode-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-metadata-api-openapi.yml
+- filename: glassnode-options-api-openapi.yml
+  format: yaml
+  label: Glassnode Options API
+  slug: glassnode-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-options-api-openapi.yml
+- filename: glassnode-supply-api-openapi.yml
+  format: yaml
+  label: Glassnode Supply API
+  slug: glassnode-supply-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-supply-api-openapi.yml
+- filename: glassnode-transactions-api-openapi.yml
+  format: yaml
+  label: Glassnode Transactions API
+  slug: glassnode-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-transactions-api-openapi.yml
+- filename: glassnode-treasuries-api-openapi.yml
+  format: yaml
+  label: Glassnode Treasuries API
+  slug: glassnode-treasuries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-treasuries-api-openapi.yml
+- filename: glassnode-user-api-openapi.yml
+  format: yaml
+  label: Glassnode User API
+  slug: glassnode-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/openapi/glassnode-user-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

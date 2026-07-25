@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: bureau-of-justice-statistics-openapi.yml
+- filename: bureau-of-justice-statistics-property-crime-api-openapi.yml
   format: yaml
-  label: NIBRS National Estimates API
-  slug: nibrs-national-estimates-api
+  label: Bureau of Justice Statistics Property Crime API
+  slug: bureau-of-justice-statistics-property-crime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-property-crime-api-openapi.yml
+- filename: bureau-of-justice-statistics-victimization-api-openapi.yml
+  format: yaml
+  label: Bureau of Justice Statistics Victimization API
+  slug: bureau-of-justice-statistics-victimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-victimization-api-openapi.yml
+- filename: bureau-of-justice-statistics-violent-crime-api-openapi.yml
+  format: yaml
+  label: Bureau of Justice Statistics Violent Crime API
+  slug: bureau-of-justice-statistics-violent-crime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-violent-crime-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

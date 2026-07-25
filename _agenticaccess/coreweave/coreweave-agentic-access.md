@@ -3,6 +3,13 @@ acting_count: 3
 action_class_counts:
   acting: 3
   connected: 2
+api_specs:
+- filename: coreweave-clusters-api-openapi.yml
+  format: yaml
+  label: CoreWeave Clusters API
+  slug: coreweave-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/openapi/coreweave-clusters-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

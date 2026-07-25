@@ -4,30 +4,30 @@ action_class_counts:
   acting: 11
   connected: 5
 api_specs:
-- filename: promptlayer-openapi.yml
-  format: yaml
-  label: PromptLayer Request Logging & Tracking API
-  slug: request-logging-tracking
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-openapi.yml
-- filename: promptlayer-openapi.yml
-  format: yaml
-  label: PromptLayer Prompt Registry & Templates API
-  slug: prompt-registry-templates
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-openapi.yml
-- filename: promptlayer-openapi.yml
+- filename: promptlayer-evaluations-datasets-api-openapi.yml
   format: yaml
   label: PromptLayer Evaluations & Datasets API
-  slug: evaluations-datasets
+  slug: promptlayer-evaluations-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-openapi.yml
-- filename: promptlayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-evaluations-datasets-api-openapi.yml
+- filename: promptlayer-logging-tracking-api-openapi.yml
+  format: yaml
+  label: PromptLayer Logging & Tracking API
+  slug: promptlayer-logging-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-logging-tracking-api-openapi.yml
+- filename: promptlayer-prompt-registry-api-openapi.yml
+  format: yaml
+  label: PromptLayer Prompt Registry API
+  slug: promptlayer-prompt-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-prompt-registry-api-openapi.yml
+- filename: promptlayer-spans-traces-api-openapi.yml
   format: yaml
   label: PromptLayer Spans & Traces API
-  slug: spans-traces
+  slug: promptlayer-spans-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/openapi/promptlayer-spans-traces-api-openapi.yml
 consequence_counts:
   read: 5
   write: 11

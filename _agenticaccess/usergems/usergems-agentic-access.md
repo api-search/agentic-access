@@ -3,12 +3,24 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: usergems-api-openapi.yml
+- filename: usergems-accounts-api-openapi.yml
   format: yaml
-  label: UserGems API
-  slug: usergems-api
+  label: UserGems Accounts API
+  slug: usergems-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/openapi/usergems-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/openapi/usergems-accounts-api-openapi.yml
+- filename: usergems-contacts-api-openapi.yml
+  format: yaml
+  label: UserGems Contacts API
+  slug: usergems-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/openapi/usergems-contacts-api-openapi.yml
+- filename: usergems-privacy-api-openapi.yml
+  format: yaml
+  label: UserGems Privacy API
+  slug: usergems-privacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/openapi/usergems-privacy-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 21
 api_specs:
-- filename: unbounce-openapi.yml
+- filename: unbounce-accounts-api-openapi.yml
   format: yaml
-  label: Unbounce REST API
-  slug: rest-api
+  label: Unbounce Accounts API
+  slug: unbounce-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-accounts-api-openapi.yml
+- filename: unbounce-domains-api-openapi.yml
+  format: yaml
+  label: Unbounce Domains API
+  slug: unbounce-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-domains-api-openapi.yml
+- filename: unbounce-leads-api-openapi.yml
+  format: yaml
+  label: Unbounce Leads API
+  slug: unbounce-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-leads-api-openapi.yml
+- filename: unbounce-meta-api-openapi.yml
+  format: yaml
+  label: Unbounce Meta API
+  slug: unbounce-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-meta-api-openapi.yml
+- filename: unbounce-pagegroups-api-openapi.yml
+  format: yaml
+  label: Unbounce PageGroups API
+  slug: unbounce-pagegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-pagegroups-api-openapi.yml
+- filename: unbounce-pages-api-openapi.yml
+  format: yaml
+  label: Unbounce Pages API
+  slug: unbounce-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-pages-api-openapi.yml
+- filename: unbounce-users-api-openapi.yml
+  format: yaml
+  label: Unbounce Users API
+  slug: unbounce-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-users-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

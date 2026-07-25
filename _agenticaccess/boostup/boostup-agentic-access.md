@@ -3,12 +3,12 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: boostup-openapi-original.json
-  format: json
+- filename: boostup-export-api-openapi.yml
+  format: yaml
   label: Boostup Export API
   slug: boostup-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/openapi/boostup-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/openapi/boostup-export-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

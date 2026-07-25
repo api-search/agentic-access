@@ -4,12 +4,12 @@ action_class_counts:
   acting: 5
   connected: 4
 api_specs:
-- filename: harmony-service-desk-openapi.json
-  format: json
-  label: Harmony Service Desk API
-  slug: harmony-service-desk-api
+- filename: harmony-tickets-api-openapi.yml
+  format: yaml
+  label: Harmony tickets API
+  slug: harmony-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/openapi/harmony-service-desk-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/openapi/harmony-tickets-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5

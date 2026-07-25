@@ -3,6 +3,13 @@ acting_count: 9
 action_class_counts:
   acting: 9
   connected: 21
+api_specs:
+- filename: canvas-courses-api-openapi.yml
+  format: yaml
+  label: Canvas Courses API
+  slug: canvas-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/openapi/canvas-courses-api-openapi.yml
 consequence_counts:
   read: 21
   safety-critical: 1

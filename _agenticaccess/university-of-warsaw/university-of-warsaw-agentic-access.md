@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: university-of-warsaw-usos-api.yaml
+- filename: university-of-warsaw-apiref-api-openapi.yml
   format: yaml
-  label: USOS API (University of Warsaw)
-  slug: usos-api
+  label: University of Warsaw apiref API
+  slug: university-of-warsaw-apiref-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-usos-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-apiref-api-openapi.yml
+- filename: university-of-warsaw-apisrv-api-openapi.yml
+  format: yaml
+  label: University of Warsaw apisrv API
+  slug: university-of-warsaw-apisrv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-apisrv-api-openapi.yml
+- filename: university-of-warsaw-calendar-api-openapi.yml
+  format: yaml
+  label: University of Warsaw calendar API
+  slug: university-of-warsaw-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-calendar-api-openapi.yml
+- filename: university-of-warsaw-courses-api-openapi.yml
+  format: yaml
+  label: University of Warsaw courses API
+  slug: university-of-warsaw-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-courses-api-openapi.yml
+- filename: university-of-warsaw-fac-api-openapi.yml
+  format: yaml
+  label: University of Warsaw fac API
+  slug: university-of-warsaw-fac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-fac-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

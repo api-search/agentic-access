@@ -4,42 +4,42 @@ action_class_counts:
   acting: 16
   connected: 14
 api_specs:
-- filename: vimeo-ott-openapi.yml
-  format: yaml
-  label: Vimeo OTT Customers API
-  slug: vimeo-ott-customers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-openapi.yml
-- filename: vimeo-ott-openapi.yml
-  format: yaml
-  label: Vimeo OTT Products API
-  slug: vimeo-ott-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-openapi.yml
-- filename: vimeo-ott-openapi.yml
-  format: yaml
-  label: Vimeo OTT Videos API
-  slug: vimeo-ott-videos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-openapi.yml
-- filename: vimeo-ott-openapi.yml
-  format: yaml
-  label: Vimeo OTT Collections API
-  slug: vimeo-ott-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-openapi.yml
-- filename: vimeo-ott-openapi.yml
-  format: yaml
-  label: Vimeo OTT Authorizations API
-  slug: vimeo-ott-authorizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-openapi.yml
-- filename: vimeo-ott-openapi.yml
+- filename: vimeo-ott-analytics-api-openapi.yml
   format: yaml
   label: Vimeo OTT Analytics API
   slug: vimeo-ott-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-analytics-api-openapi.yml
+- filename: vimeo-ott-authorizations-api-openapi.yml
+  format: yaml
+  label: Vimeo OTT Authorizations API
+  slug: vimeo-ott-authorizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-authorizations-api-openapi.yml
+- filename: vimeo-ott-collections-api-openapi.yml
+  format: yaml
+  label: Vimeo OTT Collections API
+  slug: vimeo-ott-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-collections-api-openapi.yml
+- filename: vimeo-ott-customers-api-openapi.yml
+  format: yaml
+  label: Vimeo OTT Customers API
+  slug: vimeo-ott-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-customers-api-openapi.yml
+- filename: vimeo-ott-products-api-openapi.yml
+  format: yaml
+  label: Vimeo OTT Products API
+  slug: vimeo-ott-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-products-api-openapi.yml
+- filename: vimeo-ott-videos-api-openapi.yml
+  format: yaml
+  label: Vimeo OTT Videos API
+  slug: vimeo-ott-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/openapi/vimeo-ott-videos-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14

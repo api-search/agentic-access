@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: perenual-perenual-openapi.yml
+- filename: perenual-care-api-openapi.yml
   format: yaml
-  label: Perenual API
-  slug: perenual
+  label: Perenual Care API
+  slug: perenual-care-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/openapi/perenual-perenual-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/openapi/perenual-care-api-openapi.yml
+- filename: perenual-maps-api-openapi.yml
+  format: yaml
+  label: Perenual Maps API
+  slug: perenual-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/openapi/perenual-maps-api-openapi.yml
+- filename: perenual-pests-api-openapi.yml
+  format: yaml
+  label: Perenual Pests API
+  slug: perenual-pests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/openapi/perenual-pests-api-openapi.yml
+- filename: perenual-species-api-openapi.yml
+  format: yaml
+  label: Perenual Species API
+  slug: perenual-species-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/openapi/perenual-species-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

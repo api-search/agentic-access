@@ -4,12 +4,18 @@ action_class_counts:
   acting: 2
   connected: 3
 api_specs:
-- filename: agent-diff-sandbox-openapi.yml
+- filename: agent-diff-diffs-api-openapi.yml
   format: yaml
-  label: Agent Diff Sandbox API
-  slug: agent-diff-sandbox-api
+  label: Agent Diff Diffs API
+  slug: agent-diff-diffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/openapi/agent-diff-sandbox-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/openapi/agent-diff-diffs-api-openapi.yml
+- filename: agent-diff-sandboxes-api-openapi.yml
+  format: yaml
+  label: Agent Diff Sandboxes API
+  slug: agent-diff-sandboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/openapi/agent-diff-sandboxes-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2

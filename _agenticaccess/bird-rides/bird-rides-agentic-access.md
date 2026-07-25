@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: bird-gbfs-openapi.yml
+- filename: bird-rides-discovery-api-openapi.yml
   format: yaml
-  label: Bird GBFS Feed
-  slug: bird-gbfs-api
+  label: Bird Discovery API
+  slug: bird-rides-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-gbfs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-discovery-api-openapi.yml
+- filename: bird-rides-geofencing-api-openapi.yml
+  format: yaml
+  label: Bird Geofencing API
+  slug: bird-rides-geofencing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-geofencing-api-openapi.yml
+- filename: bird-rides-pricing-api-openapi.yml
+  format: yaml
+  label: Bird Pricing API
+  slug: bird-rides-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-pricing-api-openapi.yml
+- filename: bird-rides-realtime-api-openapi.yml
+  format: yaml
+  label: Bird Realtime API
+  slug: bird-rides-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-realtime-api-openapi.yml
+- filename: bird-rides-stations-api-openapi.yml
+  format: yaml
+  label: Bird Stations API
+  slug: bird-rides-stations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-stations-api-openapi.yml
+- filename: bird-rides-system-api-openapi.yml
+  format: yaml
+  label: Bird System API
+  slug: bird-rides-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-system-api-openapi.yml
+- filename: bird-rides-vehicles-api-openapi.yml
+  format: yaml
+  label: Bird Vehicles API
+  slug: bird-rides-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/openapi/bird-rides-vehicles-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

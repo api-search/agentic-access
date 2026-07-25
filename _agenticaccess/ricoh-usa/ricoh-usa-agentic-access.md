@@ -4,12 +4,12 @@ action_class_counts:
   acting: 4
   connected: 1
 api_specs:
-- filename: theta-web-api-openapi.yml
+- filename: ricoh-usa-protocol-api-openapi.yml
   format: yaml
-  label: RICOH THETA Web API
-  slug: theta-web-api
+  label: Ricoh USA Protocol API
+  slug: ricoh-usa-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/openapi/theta-web-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/openapi/ricoh-usa-protocol-api-openapi.yml
 consequence_counts:
   read: 1
   write: 4

@@ -3,12 +3,42 @@ acting_count: 26
 action_class_counts:
   acting: 26
 api_specs:
-- filename: amazon-application-discovery-service-openapi.yml
+- filename: amazon-application-discovery-service-agents-api-openapi.yml
   format: yaml
-  label: Amazon Application Discovery Service API
-  slug: amazon-application-discovery-service-api
+  label: Amazon Application Discovery Service Agents API
+  slug: amazon-application-discovery-service-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-agents-api-openapi.yml
+- filename: amazon-application-discovery-service-applications-api-openapi.yml
+  format: yaml
+  label: Amazon Application Discovery Service Applications API
+  slug: amazon-application-discovery-service-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-applications-api-openapi.yml
+- filename: amazon-application-discovery-service-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon Application Discovery Service Configurations API
+  slug: amazon-application-discovery-service-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-configurations-api-openapi.yml
+- filename: amazon-application-discovery-service-exports-api-openapi.yml
+  format: yaml
+  label: Amazon Application Discovery Service Exports API
+  slug: amazon-application-discovery-service-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-exports-api-openapi.yml
+- filename: amazon-application-discovery-service-imports-api-openapi.yml
+  format: yaml
+  label: Amazon Application Discovery Service Imports API
+  slug: amazon-application-discovery-service-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-imports-api-openapi.yml
+- filename: amazon-application-discovery-service-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Application Discovery Service Tags API
+  slug: amazon-application-discovery-service-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-tags-api-openapi.yml
 consequence_counts:
   safety-critical: 2
   write: 24

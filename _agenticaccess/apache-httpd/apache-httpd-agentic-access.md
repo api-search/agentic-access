@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 3
 api_specs:
-- filename: apache-httpd-status-openapi.yml
+- filename: apache-httpd-balancer-api-openapi.yml
+  format: yaml
+  label: Apache HTTP Server Balancer API
+  slug: apache-httpd-balancer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/openapi/apache-httpd-balancer-api-openapi.yml
+- filename: apache-httpd-status-api-openapi.yml
   format: yaml
   label: Apache HTTP Server Status API
   slug: apache-httpd-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/openapi/apache-httpd-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/openapi/apache-httpd-status-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1

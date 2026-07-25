@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: yale-lux.yaml
+- filename: yale-configuration-api-openapi.yml
   format: yaml
-  label: LUX Yale Collections Discovery API
-  slug: lux
+  label: Yale University Configuration API
+  slug: yale-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-lux.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-configuration-api-openapi.yml
+- filename: yale-documents-api-openapi.yml
+  format: yaml
+  label: Yale University Documents API
+  slug: yale-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-documents-api-openapi.yml
+- filename: yale-facets-api-openapi.yml
+  format: yaml
+  label: Yale University Facets API
+  slug: yale-facets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-facets-api-openapi.yml
+- filename: yale-related-api-openapi.yml
+  format: yaml
+  label: Yale University Related API
+  slug: yale-related-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-related-api-openapi.yml
+- filename: yale-search-api-openapi.yml
+  format: yaml
+  label: Yale University Search API
+  slug: yale-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/openapi/yale-search-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

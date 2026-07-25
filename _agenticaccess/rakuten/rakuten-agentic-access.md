@@ -2,6 +2,25 @@
 acting_count: 0
 action_class_counts:
   connected: 3
+api_specs:
+- filename: rakuten-ichibagt-api-openapi.yml
+  format: yaml
+  label: Rakuten Ichibagt API
+  slug: rakuten-ichibagt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibagt-api-openapi.yml
+- filename: rakuten-ichibams-api-openapi.yml
+  format: yaml
+  label: Rakuten Ichibams API
+  slug: rakuten-ichibams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibams-api-openapi.yml
+- filename: rakuten-ichibaranking-api-openapi.yml
+  format: yaml
+  label: Rakuten Ichibaranking API
+  slug: rakuten-ichibaranking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/openapi/rakuten-ichibaranking-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

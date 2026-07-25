@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: uppsala-ucdp.yaml
+- filename: uppsala-battledeaths-api-openapi.yml
   format: yaml
-  label: UCDP API
-  slug: ucdp
+  label: Uppsala University BattleDeaths API
+  slug: uppsala-battledeaths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-ucdp.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-battledeaths-api-openapi.yml
+- filename: uppsala-dyadic-api-openapi.yml
+  format: yaml
+  label: Uppsala University Dyadic API
+  slug: uppsala-dyadic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-dyadic-api-openapi.yml
+- filename: uppsala-gedevents-api-openapi.yml
+  format: yaml
+  label: Uppsala University GEDEvents API
+  slug: uppsala-gedevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-gedevents-api-openapi.yml
+- filename: uppsala-nonstate-api-openapi.yml
+  format: yaml
+  label: Uppsala University NonState API
+  slug: uppsala-nonstate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-nonstate-api-openapi.yml
+- filename: uppsala-onesided-api-openapi.yml
+  format: yaml
+  label: Uppsala University OneSided API
+  slug: uppsala-onesided-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-onesided-api-openapi.yml
+- filename: uppsala-organizedviolencecy-api-openapi.yml
+  format: yaml
+  label: Uppsala University OrganizedViolenceCY API
+  slug: uppsala-organizedviolencecy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-organizedviolencecy-api-openapi.yml
+- filename: uppsala-ucdpprioconflict-api-openapi.yml
+  format: yaml
+  label: Uppsala University UcdpPrioConflict API
+  slug: uppsala-ucdpprioconflict-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-ucdpprioconflict-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

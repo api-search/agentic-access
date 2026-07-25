@@ -4,12 +4,12 @@ action_class_counts:
   acting: 6
   connected: 5
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-api-gateway-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud API Gateway API
-  slug: google-cloud-api-gateway-api
+  label: Google Cloud API Gateway Projects API
+  slug: google-cloud-api-gateway-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-api-gateway/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-api-gateway/refs/heads/main/openapi/google-cloud-api-gateway-projects-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6

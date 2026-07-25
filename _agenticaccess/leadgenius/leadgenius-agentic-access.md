@@ -4,12 +4,36 @@ action_class_counts:
   acting: 5
   connected: 6
 api_specs:
-- filename: leadgenius-enrichment-api-openapi.yml
+- filename: leadgenius-campaigns-api-openapi.yml
   format: yaml
-  label: LeadGenius Enrichment API
-  slug: leadgenius-enrichment-api
+  label: LeadGenius Campaigns API
+  slug: leadgenius-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-enrichment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-campaigns-api-openapi.yml
+- filename: leadgenius-exclusion-api-openapi.yml
+  format: yaml
+  label: LeadGenius Exclusion API
+  slug: leadgenius-exclusion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-exclusion-api-openapi.yml
+- filename: leadgenius-rapid-enrichment-api-openapi.yml
+  format: yaml
+  label: LeadGenius Rapid Enrichment API
+  slug: leadgenius-rapid-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-rapid-enrichment-api-openapi.yml
+- filename: leadgenius-records-api-openapi.yml
+  format: yaml
+  label: LeadGenius Records API
+  slug: leadgenius-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-records-api-openapi.yml
+- filename: leadgenius-usage-api-openapi.yml
+  format: yaml
+  label: LeadGenius Usage API
+  slug: leadgenius-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/openapi/leadgenius-usage-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5

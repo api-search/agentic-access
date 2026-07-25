@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: tivo-video-metadata-openapi.yml
+- filename: tivo-content-api-openapi.yml
   format: yaml
-  label: TiVo Video Metadata API
-  slug: tivo-video-metadata
+  label: Tivo Content API
+  slug: tivo-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/openapi/tivo-video-metadata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/openapi/tivo-content-api-openapi.yml
+- filename: tivo-lookup-api-openapi.yml
+  format: yaml
+  label: Tivo Lookup API
+  slug: tivo-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/openapi/tivo-lookup-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

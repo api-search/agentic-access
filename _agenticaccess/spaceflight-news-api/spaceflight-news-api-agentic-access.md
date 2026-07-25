@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: spaceflight-news-api-openapi.yml
+- filename: spaceflight-news-api-articles-api-openapi.yml
   format: yaml
-  label: Spaceflight News API
-  slug: spaceflight-news-api
+  label: Spaceflight News API Articles API
+  slug: spaceflight-news-api-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-articles-api-openapi.yml
+- filename: spaceflight-news-api-blogs-api-openapi.yml
+  format: yaml
+  label: Spaceflight News API Blogs API
+  slug: spaceflight-news-api-blogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-blogs-api-openapi.yml
+- filename: spaceflight-news-api-info-api-openapi.yml
+  format: yaml
+  label: Spaceflight News API Info API
+  slug: spaceflight-news-api-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-info-api-openapi.yml
+- filename: spaceflight-news-api-reports-api-openapi.yml
+  format: yaml
+  label: Spaceflight News API Reports API
+  slug: spaceflight-news-api-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-reports-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,24 +4,24 @@ action_class_counts:
   acting: 3
   connected: 1
 api_specs:
-- filename: unrealspeech-openapi.yml
+- filename: unrealspeech-speech-api-openapi.yml
   format: yaml
   label: Unreal Speech Speech API
   slug: unrealspeech-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/openapi/unrealspeech-openapi.yml
-- filename: unrealspeech-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/openapi/unrealspeech-speech-api-openapi.yml
+- filename: unrealspeech-stream-api-openapi.yml
   format: yaml
   label: Unreal Speech Stream API
   slug: unrealspeech-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/openapi/unrealspeech-openapi.yml
-- filename: unrealspeech-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/openapi/unrealspeech-stream-api-openapi.yml
+- filename: unrealspeech-synthesis-tasks-api-openapi.yml
   format: yaml
   label: Unreal Speech Synthesis Tasks API
   slug: unrealspeech-synthesis-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/openapi/unrealspeech-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/openapi/unrealspeech-synthesis-tasks-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3

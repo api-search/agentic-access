@@ -4,24 +4,24 @@ action_class_counts:
   acting: 1
   connected: 3
 api_specs:
-- filename: weglot-openapi.yml
-  format: yaml
-  label: Weglot Translate API
-  slug: weglot-translate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-openapi.yml
-- filename: weglot-openapi.yml
+- filename: weglot-languages-api-openapi.yml
   format: yaml
   label: Weglot Languages API
   slug: weglot-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-openapi.yml
-- filename: weglot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-languages-api-openapi.yml
+- filename: weglot-status-api-openapi.yml
   format: yaml
   label: Weglot Status API
   slug: weglot-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-status-api-openapi.yml
+- filename: weglot-translate-api-openapi.yml
+  format: yaml
+  label: Weglot Translate API
+  slug: weglot-translate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weglot/refs/heads/main/openapi/weglot-translate-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1

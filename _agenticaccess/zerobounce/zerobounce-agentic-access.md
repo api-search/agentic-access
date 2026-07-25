@@ -2,6 +2,13 @@
 acting_count: 2
 action_class_counts:
   acting: 2
+api_specs:
+- filename: zerobounce-validation-api-openapi.yml
+  format: yaml
+  label: ZeroBounce Validation API
+  slug: zerobounce-validation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/openapi/zerobounce-validation-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

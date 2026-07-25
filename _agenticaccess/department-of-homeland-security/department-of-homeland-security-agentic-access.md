@@ -3,12 +3,90 @@ acting_count: 0
 action_class_counts:
   connected: 14
 api_specs:
-- filename: department-of-homeland-security-openapi.yml
+- filename: department-of-homeland-security-disasterdeclarationssummaries-api-openapi.yml
   format: yaml
-  label: OpenFEMA API
-  slug: openfema-api
+  label: Department of Homeland Security DisasterDeclarationsSummaries API
+  slug: department-of-homeland-security-disasterdeclarationssummaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-disasterdeclarationssummaries-api-openapi.yml
+- filename: department-of-homeland-security-emergencymanagementperformancegrants-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security EmergencyManagementPerformanceGrants API
+  slug: department-of-homeland-security-emergencymanagementperformancegrants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-emergencymanagementperformancegrants-api-openapi.yml
+- filename: department-of-homeland-security-femaregions-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security FemaRegions API
+  slug: department-of-homeland-security-femaregions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-femaregions-api-openapi.yml
+- filename: department-of-homeland-security-femawebdisastersummaries-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security FemaWebDisasterSummaries API
+  slug: department-of-homeland-security-femawebdisastersummaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-femawebdisastersummaries-api-openapi.yml
+- filename: department-of-homeland-security-fimanfipclaims-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security FimaNfipClaims API
+  slug: department-of-homeland-security-fimanfipclaims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-fimanfipclaims-api-openapi.yml
+- filename: department-of-homeland-security-fimanfippolicies-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security FimaNfipPolicies API
+  slug: department-of-homeland-security-fimanfippolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-fimanfippolicies-api-openapi.yml
+- filename: department-of-homeland-security-hazardmitigationassistanceprojects-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security HazardMitigationAssistanceProjects API
+  slug: department-of-homeland-security-hazardmitigationassistanceprojects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-hazardmitigationassistanceprojects-api-openapi.yml
+- filename: department-of-homeland-security-hazardmitigationgrants-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security HazardMitigationGrants API
+  slug: department-of-homeland-security-hazardmitigationgrants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-hazardmitigationgrants-api-openapi.yml
+- filename: department-of-homeland-security-housingassistanceowners-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security HousingAssistanceOwners API
+  slug: department-of-homeland-security-housingassistanceowners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-housingassistanceowners-api-openapi.yml
+- filename: department-of-homeland-security-housingassistancerenters-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security HousingAssistanceRenters API
+  slug: department-of-homeland-security-housingassistancerenters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-housingassistancerenters-api-openapi.yml
+- filename: department-of-homeland-security-individualsandhouseholdsprogramvalidregistrations-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security IndividualsAndHouseholdsProgramValidRegistrations API
+  slug: department-of-homeland-security-individualsandhouseholdsprogramvalidregistrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-individualsandhouseholdsprogramvalidregistrations-api-openapi.yml
+- filename: department-of-homeland-security-missionassignments-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security MissionAssignments API
+  slug: department-of-homeland-security-missionassignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-missionassignments-api-openapi.yml
+- filename: department-of-homeland-security-publicassistanceapplicants-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security PublicAssistanceApplicants API
+  slug: department-of-homeland-security-publicassistanceapplicants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-publicassistanceapplicants-api-openapi.yml
+- filename: department-of-homeland-security-publicassistancefundedprojectsdetails-api-openapi.yml
+  format: yaml
+  label: Department of Homeland Security PublicAssistanceFundedProjectsDetails API
+  slug: department-of-homeland-security-publicassistancefundedprojectsdetails-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/openapi/department-of-homeland-security-publicassistancefundedprojectsdetails-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

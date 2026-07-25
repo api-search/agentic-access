@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: bytez-openapi.yaml
+- filename: bytez-models-api-openapi.yml
   format: yaml
-  label: Bytez Model API
-  slug: bytez-model-api
+  label: Bytez Models API
+  slug: bytez-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/openapi/bytez-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/openapi/bytez-models-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

@@ -4,54 +4,54 @@ action_class_counts:
   acting: 7
   connected: 2
 api_specs:
-- filename: runwayml-openapi.yml
-  format: yaml
-  label: Runway Image-to-Video API
-  slug: runwayml-image-to-video-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-openapi.yml
-- filename: runwayml-openapi.yml
-  format: yaml
-  label: Runway Text-to-Image API
-  slug: runwayml-text-to-image-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-openapi.yml
-- filename: runwayml-openapi.yml
-  format: yaml
-  label: Runway Video-to-Video API
-  slug: runwayml-video-to-video-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-openapi.yml
-- filename: runwayml-openapi.yml
+- filename: runwayml-character-performance-api-openapi.yml
   format: yaml
   label: Runway Character Performance API
   slug: runwayml-character-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-openapi.yml
-- filename: runwayml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-character-performance-api-openapi.yml
+- filename: runwayml-image-to-video-api-openapi.yml
   format: yaml
-  label: Runway Text-to-Speech API
-  slug: runwayml-text-to-speech-api
+  label: Runway Image-to-Video API
+  slug: runwayml-image-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-openapi.yml
-- filename: runwayml-openapi.yml
-  format: yaml
-  label: Runway Video Upscale API
-  slug: runwayml-video-upscale-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-openapi.yml
-- filename: runwayml-openapi.yml
-  format: yaml
-  label: Runway Tasks API
-  slug: runwayml-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-openapi.yml
-- filename: runwayml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-image-to-video-api-openapi.yml
+- filename: runwayml-organization-api-openapi.yml
   format: yaml
   label: Runway Organization API
   slug: runwayml-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-organization-api-openapi.yml
+- filename: runwayml-tasks-api-openapi.yml
+  format: yaml
+  label: Runway Tasks API
+  slug: runwayml-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-tasks-api-openapi.yml
+- filename: runwayml-text-to-image-api-openapi.yml
+  format: yaml
+  label: Runway Text-to-Image API
+  slug: runwayml-text-to-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-text-to-image-api-openapi.yml
+- filename: runwayml-text-to-speech-api-openapi.yml
+  format: yaml
+  label: Runway Text-to-Speech API
+  slug: runwayml-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-text-to-speech-api-openapi.yml
+- filename: runwayml-upscale-api-openapi.yml
+  format: yaml
+  label: Runway Upscale API
+  slug: runwayml-upscale-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-upscale-api-openapi.yml
+- filename: runwayml-video-to-video-api-openapi.yml
+  format: yaml
+  label: Runway Video-to-Video API
+  slug: runwayml-video-to-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/openapi/runwayml-video-to-video-api-openapi.yml
 consequence_counts:
   read: 2
   write: 7

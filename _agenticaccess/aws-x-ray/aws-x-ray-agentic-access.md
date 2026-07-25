@@ -3,12 +3,60 @@ acting_count: 22
 action_class_counts:
   acting: 22
 api_specs:
-- filename: aws-x-ray-openapi.yml
+- filename: aws-x-ray-encryption-api-openapi.yml
   format: yaml
-  label: AWS X-Ray
-  slug: aws-x-ray
+  label: AWS X-Ray Encryption API
+  slug: aws-x-ray-encryption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-encryption-api-openapi.yml
+- filename: aws-x-ray-groups-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray Groups API
+  slug: aws-x-ray-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-groups-api-openapi.yml
+- filename: aws-x-ray-insights-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray Insights API
+  slug: aws-x-ray-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-insights-api-openapi.yml
+- filename: aws-x-ray-sampling-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray Sampling API
+  slug: aws-x-ray-sampling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-sampling-api-openapi.yml
+- filename: aws-x-ray-service-graph-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray Service Graph API
+  slug: aws-x-ray-service-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-service-graph-api-openapi.yml
+- filename: aws-x-ray-tagresource-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray TagResource API
+  slug: aws-x-ray-tagresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-tagresource-api-openapi.yml
+- filename: aws-x-ray-tags-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray Tags API
+  slug: aws-x-ray-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-tags-api-openapi.yml
+- filename: aws-x-ray-traces-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray Traces API
+  slug: aws-x-ray-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-traces-api-openapi.yml
+- filename: aws-x-ray-untagresource-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray UntagResource API
+  slug: aws-x-ray-untagresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-untagresource-api-openapi.yml
 consequence_counts:
   write: 22
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,36 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 48
 api_specs:
-- filename: openapi.yml
-  format: yaml
-  label: BarnBridge SMART Yield API
-  slug: barnbridge-smart-yield-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi.yml
-- filename: openapi.yml
+- filename: barnbridge-governance-api-openapi.yml
   format: yaml
   label: BarnBridge Governance API
   slug: barnbridge-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/openapi.yml
-- filename: openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/barnbridge-governance-api-openapi.yml
+- filename: barnbridge-smart-alpha-api-openapi.yml
   format: yaml
   label: BarnBridge SMART Alpha API
   slug: barnbridge-smart-alpha-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/openapi.yml
-- filename: openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/barnbridge-smart-alpha-api-openapi.yml
+- filename: barnbridge-smart-exposure-api-openapi.yml
   format: yaml
   label: BarnBridge SMART Exposure API
   slug: barnbridge-smart-exposure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/openapi.yml
-- filename: openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/barnbridge-smart-exposure-api-openapi.yml
+- filename: barnbridge-smart-yield-api-openapi.yml
+  format: yaml
+  label: BarnBridge SMART Yield API
+  slug: barnbridge-smart-yield-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/barnbridge-smart-yield-api-openapi.yml
+- filename: barnbridge-yield-farming-api-openapi.yml
   format: yaml
   label: BarnBridge Yield Farming API
   slug: barnbridge-yield-farming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/barnbridge-yield-farming-api-openapi.yml
 consequence_counts:
   read: 48
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

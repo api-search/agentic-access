@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 17
 api_specs:
-- filename: thesportsdb-openapi.yml
+- filename: thesportsdb-events-api-openapi.yml
   format: yaml
-  label: TheSportsDB API
-  slug: thesportsdb
+  label: TheSportsDB Events API
+  slug: thesportsdb-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-events-api-openapi.yml
+- filename: thesportsdb-lists-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Lists API
+  slug: thesportsdb-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-lists-api-openapi.yml
+- filename: thesportsdb-lookup-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Lookup API
+  slug: thesportsdb-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-lookup-api-openapi.yml
+- filename: thesportsdb-search-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Search API
+  slug: thesportsdb-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-search-api-openapi.yml
+- filename: thesportsdb-seasons-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Seasons API
+  slug: thesportsdb-seasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/openapi/thesportsdb-seasons-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

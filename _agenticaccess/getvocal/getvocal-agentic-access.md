@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: getvocal-openapi-original.json
-  format: json
-  label: GetVocal Agent API
-  slug: getvocal-agent-api
+- filename: getvocal-contact-api-openapi.yml
+  format: yaml
+  label: GetVocal Contact API
+  slug: getvocal-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-contact-api-openapi.yml
+- filename: getvocal-llms-txt-api-openapi.yml
+  format: yaml
+  label: GetVocal Llms.txt API
+  slug: getvocal-llms-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-llms-txt-api-openapi.yml
+- filename: getvocal-well-known-api-openapi.yml
+  format: yaml
+  label: GetVocal .well Known API
+  slug: getvocal-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-well-known-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

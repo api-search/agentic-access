@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: 4chan-api.yml
+- filename: 4chan-archive-api-openapi.yml
   format: yaml
-  label: 4chan Read-Only JSON API
-  slug: 4chan-read-only-json-api
+  label: 4chan Archive API
+  slug: 4chan-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-archive-api-openapi.yml
+- filename: 4chan-boards-api-openapi.yml
+  format: yaml
+  label: 4chan Boards API
+  slug: 4chan-boards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-boards-api-openapi.yml
+- filename: 4chan-catalog-api-openapi.yml
+  format: yaml
+  label: 4chan Catalog API
+  slug: 4chan-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-catalog-api-openapi.yml
+- filename: 4chan-indexes-api-openapi.yml
+  format: yaml
+  label: 4chan Indexes API
+  slug: 4chan-indexes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-indexes-api-openapi.yml
+- filename: 4chan-threadlist-api-openapi.yml
+  format: yaml
+  label: 4chan Threadlist API
+  slug: 4chan-threadlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-threadlist-api-openapi.yml
+- filename: 4chan-threads-api-openapi.yml
+  format: yaml
+  label: 4chan Threads API
+  slug: 4chan-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/openapi/4chan-threads-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

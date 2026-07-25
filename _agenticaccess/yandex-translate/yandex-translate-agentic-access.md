@@ -3,12 +3,24 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: openapi.yml
+- filename: yandex-translate-language-detection-api-openapi.yml
   format: yaml
-  label: Yandex Translate API
-  slug: yandex-translate-api
+  label: Yandex Translate API Language Detection API
+  slug: yandex-translate-language-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/openapi/yandex-translate-language-detection-api-openapi.yml
+- filename: yandex-translate-languages-api-openapi.yml
+  format: yaml
+  label: Yandex Translate API Languages API
+  slug: yandex-translate-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/openapi/yandex-translate-languages-api-openapi.yml
+- filename: yandex-translate-translation-api-openapi.yml
+  format: yaml
+  label: Yandex Translate API Translation API
+  slug: yandex-translate-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/openapi/yandex-translate-translation-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

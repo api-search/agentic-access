@@ -3,24 +3,18 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: podcastle-openapi.yml
+- filename: podcastle-text-to-speech-api-openapi.yml
   format: yaml
-  label: Podcastle Text-to-Speech API
-  slug: text-to-speech
+  label: Podcastle Text to Speech API
+  slug: podcastle-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-openapi.yml
-- filename: podcastle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-text-to-speech-api-openapi.yml
+- filename: podcastle-voices-api-openapi.yml
   format: yaml
   label: Podcastle Voices API
-  slug: voices
+  slug: podcastle-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-openapi.yml
-- filename: podcastle-openapi.yml
-  format: yaml
-  label: Podcastle Voice Cloning API
-  slug: voice-cloning
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/openapi/podcastle-voices-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

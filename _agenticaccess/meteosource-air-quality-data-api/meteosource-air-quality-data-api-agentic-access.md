@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: meteosource-air-quality-data-api-openapi.yml
+- filename: meteosource-air-quality-data-api-air-quality-api-openapi.yml
   format: yaml
-  label: MeteoSource Air Quality Data API
-  slug: meteosource-air-quality-data-api
+  label: MeteoSource Air Quality Data API Air Quality API
+  slug: meteosource-air-quality-data-api-air-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-air-quality-api-openapi.yml
+- filename: meteosource-air-quality-data-api-history-api-openapi.yml
+  format: yaml
+  label: MeteoSource Air Quality Data API History API
+  slug: meteosource-air-quality-data-api-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-history-api-openapi.yml
+- filename: meteosource-air-quality-data-api-locations-api-openapi.yml
+  format: yaml
+  label: MeteoSource Air Quality Data API Locations API
+  slug: meteosource-air-quality-data-api-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-locations-api-openapi.yml
+- filename: meteosource-air-quality-data-api-maps-api-openapi.yml
+  format: yaml
+  label: MeteoSource Air Quality Data API Maps API
+  slug: meteosource-air-quality-data-api-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-maps-api-openapi.yml
+- filename: meteosource-air-quality-data-api-weather-api-openapi.yml
+  format: yaml
+  label: MeteoSource Air Quality Data API Weather API
+  slug: meteosource-air-quality-data-api-weather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-weather-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

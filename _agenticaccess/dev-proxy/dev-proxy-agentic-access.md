@@ -4,12 +4,18 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: dev-proxy-openapi.yml
+- filename: dev-proxy-jwt-api-openapi.yml
   format: yaml
-  label: Dev Proxy
-  slug: dev-proxy
+  label: Dev Proxy JWT API
+  slug: dev-proxy-jwt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/openapi/dev-proxy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/openapi/dev-proxy-jwt-api-openapi.yml
+- filename: dev-proxy-proxy-api-openapi.yml
+  format: yaml
+  label: Dev Proxy Proxy API
+  slug: dev-proxy-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/openapi/dev-proxy-proxy-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 2

@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: nationalize-openapi.json
-  format: json
-  label: Nationalize.io API
-  slug: nationalize-api
+- filename: nationalize-nationality-api-openapi.yml
+  format: yaml
+  label: Nationalize.io Nationality API
+  slug: nationalize-nationality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nationalize/refs/heads/main/openapi/nationalize-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/nationalize/refs/heads/main/openapi/nationalize-nationality-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

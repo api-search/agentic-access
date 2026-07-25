@@ -2,6 +2,37 @@
 acting_count: 13
 action_class_counts:
   acting: 13
+api_specs:
+- filename: check-point-access-rules-api-openapi.yml
+  format: yaml
+  label: Check Point Software Access Rules API
+  slug: check-point-access-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/check-point/refs/heads/main/openapi/check-point-access-rules-api-openapi.yml
+- filename: check-point-gateways-api-openapi.yml
+  format: yaml
+  label: Check Point Software Gateways API
+  slug: check-point-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/check-point/refs/heads/main/openapi/check-point-gateways-api-openapi.yml
+- filename: check-point-hosts-api-openapi.yml
+  format: yaml
+  label: Check Point Software Hosts API
+  slug: check-point-hosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/check-point/refs/heads/main/openapi/check-point-hosts-api-openapi.yml
+- filename: check-point-networks-api-openapi.yml
+  format: yaml
+  label: Check Point Software Networks API
+  slug: check-point-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/check-point/refs/heads/main/openapi/check-point-networks-api-openapi.yml
+- filename: check-point-session-api-openapi.yml
+  format: yaml
+  label: Check Point Software Session API
+  slug: check-point-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/check-point/refs/heads/main/openapi/check-point-session-api-openapi.yml
 consequence_counts:
   safety-critical: 1
   write: 12

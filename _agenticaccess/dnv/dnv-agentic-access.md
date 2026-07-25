@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: dnv-class-status-openapi.yml
+- filename: dnv-certificates-api-openapi.yml
   format: yaml
-  label: DNV Class Status API
-  slug: dnv-class-status-api
+  label: DNV Certificates API
+  slug: dnv-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/openapi/dnv-class-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/openapi/dnv-certificates-api-openapi.yml
+- filename: dnv-surveys-api-openapi.yml
+  format: yaml
+  label: DNV Surveys API
+  slug: dnv-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/openapi/dnv-surveys-api-openapi.yml
+- filename: dnv-vessels-api-openapi.yml
+  format: yaml
+  label: DNV Vessels API
+  slug: dnv-vessels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/openapi/dnv-vessels-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

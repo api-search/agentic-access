@@ -4,30 +4,102 @@ action_class_counts:
   acting: 10
   connected: 20
 api_specs:
-- filename: alpaca-markets-openapi.yml
-  format: yaml
-  label: Alpaca Trading API
-  slug: alpaca-markets-trading-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-openapi.yml
-- filename: alpaca-markets-openapi.yml
-  format: yaml
-  label: Alpaca Market Data API
-  slug: alpaca-markets-market-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-openapi.yml
 - filename: alpaca-markets-asyncapi.yml
   format: yaml
   label: Alpaca Market Data Streaming API
   slug: alpaca-markets-streaming-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/asyncapi/alpaca-markets-asyncapi.yml
-- filename: alpaca-markets-openapi.yml
+- filename: alpaca-markets-account-api-openapi.yml
   format: yaml
-  label: Alpaca Broker API
-  slug: alpaca-markets-broker-api
+  label: Alpaca Account API
+  slug: alpaca-markets-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-account-api-openapi.yml
+- filename: alpaca-markets-assets-api-openapi.yml
+  format: yaml
+  label: Alpaca Assets API
+  slug: alpaca-markets-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-assets-api-openapi.yml
+- filename: alpaca-markets-broker-accounts-api-openapi.yml
+  format: yaml
+  label: Alpaca Broker - Accounts API
+  slug: alpaca-markets-broker-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-broker-accounts-api-openapi.yml
+- filename: alpaca-markets-broker-funding-api-openapi.yml
+  format: yaml
+  label: Alpaca Broker - Funding API
+  slug: alpaca-markets-broker-funding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-broker-funding-api-openapi.yml
+- filename: alpaca-markets-broker-trading-api-openapi.yml
+  format: yaml
+  label: Alpaca Broker - Trading API
+  slug: alpaca-markets-broker-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-broker-trading-api-openapi.yml
+- filename: alpaca-markets-market-api-openapi.yml
+  format: yaml
+  label: Alpaca Market API
+  slug: alpaca-markets-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-market-api-openapi.yml
+- filename: alpaca-markets-market-data-crypto-api-openapi.yml
+  format: yaml
+  label: Alpaca Market Data - Crypto API
+  slug: alpaca-markets-market-data-crypto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-market-data-crypto-api-openapi.yml
+- filename: alpaca-markets-market-data-news-api-openapi.yml
+  format: yaml
+  label: Alpaca Market Data - News API
+  slug: alpaca-markets-market-data-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-market-data-news-api-openapi.yml
+- filename: alpaca-markets-market-data-options-api-openapi.yml
+  format: yaml
+  label: Alpaca Market Data - Options API
+  slug: alpaca-markets-market-data-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-market-data-options-api-openapi.yml
+- filename: alpaca-markets-market-data-screener-api-openapi.yml
+  format: yaml
+  label: Alpaca Market Data - Screener API
+  slug: alpaca-markets-market-data-screener-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-market-data-screener-api-openapi.yml
+- filename: alpaca-markets-market-data-stocks-api-openapi.yml
+  format: yaml
+  label: Alpaca Market Data - Stocks API
+  slug: alpaca-markets-market-data-stocks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-market-data-stocks-api-openapi.yml
+- filename: alpaca-markets-orders-api-openapi.yml
+  format: yaml
+  label: Alpaca Orders API
+  slug: alpaca-markets-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-orders-api-openapi.yml
+- filename: alpaca-markets-portfolio-api-openapi.yml
+  format: yaml
+  label: Alpaca Portfolio API
+  slug: alpaca-markets-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-portfolio-api-openapi.yml
+- filename: alpaca-markets-positions-api-openapi.yml
+  format: yaml
+  label: Alpaca Positions API
+  slug: alpaca-markets-positions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-positions-api-openapi.yml
+- filename: alpaca-markets-watchlists-api-openapi.yml
+  format: yaml
+  label: Alpaca Watchlists API
+  slug: alpaca-markets-watchlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/openapi/alpaca-markets-watchlists-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 20

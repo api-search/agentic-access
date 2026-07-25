@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: cch-tagetik-odata-openapi.yml
+- filename: tagetik-financial-data-api-openapi.yml
   format: yaml
-  label: CCH Tagetik OData API
-  slug: cch-tagetik-odata-api
+  label: CCH Tagetik Financial Data API
+  slug: tagetik-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/openapi/cch-tagetik-odata-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/openapi/tagetik-financial-data-api-openapi.yml
+- filename: tagetik-metadata-api-openapi.yml
+  format: yaml
+  label: CCH Tagetik Metadata API
+  slug: tagetik-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/openapi/tagetik-metadata-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

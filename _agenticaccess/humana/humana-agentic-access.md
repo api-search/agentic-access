@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: humana-openapi.yml
+- filename: humana-clinical-api-openapi.yml
   format: yaml
-  label: Humana FHIR Clinical Data API
-  slug: humana-fhir-clinical-api
+  label: Humana Clinical API
+  slug: humana-clinical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-clinical-api-openapi.yml
+- filename: humana-coverage-api-openapi.yml
+  format: yaml
+  label: Humana Coverage API
+  slug: humana-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-coverage-api-openapi.yml
+- filename: humana-demographic-api-openapi.yml
+  format: yaml
+  label: Humana Demographic API
+  slug: humana-demographic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-demographic-api-openapi.yml
+- filename: humana-medications-api-openapi.yml
+  format: yaml
+  label: Humana Medications API
+  slug: humana-medications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/openapi/humana-medications-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

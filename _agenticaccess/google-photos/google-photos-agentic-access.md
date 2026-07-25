@@ -4,12 +4,30 @@ action_class_counts:
   acting: 3
   connected: 5
 api_specs:
-- filename: photos.yml
+- filename: google-photos-albums-api-openapi.yml
   format: yaml
-  label: Google Photos Library API v1
-  slug: google-photos-library-api-v1
+  label: Google Photos Library Albums API
+  slug: google-photos-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/openapi/photos.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/openapi/google-photos-albums-api-openapi.yml
+- filename: google-photos-mediaitems-api-openapi.yml
+  format: yaml
+  label: Google Photos Library MediaItems API
+  slug: google-photos-mediaitems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/openapi/google-photos-mediaitems-api-openapi.yml
+- filename: google-photos-mediaitems-search-api-openapi.yml
+  format: yaml
+  label: Google Photos Library MediaItems:search API
+  slug: google-photos-mediaitems-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/openapi/google-photos-mediaitems-search-api-openapi.yml
+- filename: google-photos-sharedalbums-api-openapi.yml
+  format: yaml
+  label: Google Photos Library SharedAlbums API
+  slug: google-photos-sharedalbums-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/openapi/google-photos-sharedalbums-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3

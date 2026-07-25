@@ -4,12 +4,24 @@ action_class_counts:
   acting: 3
   connected: 1
 api_specs:
-- filename: ocelot-administration-openapi.yml
+- filename: ocelot-authentication-api-openapi.yml
   format: yaml
-  label: Ocelot Administration API
-  slug: ocelot-administration-api
+  label: Ocelot Authentication API
+  slug: ocelot-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocelot/refs/heads/main/openapi/ocelot-administration-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ocelot/refs/heads/main/openapi/ocelot-authentication-api-openapi.yml
+- filename: ocelot-cache-api-openapi.yml
+  format: yaml
+  label: Ocelot Cache API
+  slug: ocelot-cache-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocelot/refs/heads/main/openapi/ocelot-cache-api-openapi.yml
+- filename: ocelot-configuration-api-openapi.yml
+  format: yaml
+  label: Ocelot Configuration API
+  slug: ocelot-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocelot/refs/heads/main/openapi/ocelot-configuration-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3

@@ -4,30 +4,30 @@ action_class_counts:
   acting: 5
   connected: 6
 api_specs:
-- filename: y42-openapi.yml
-  format: yaml
-  label: Y42 Spaces API
-  slug: y42-spaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-openapi.yml
-- filename: y42-openapi.yml
-  format: yaml
-  label: Y42 Orchestration API
-  slug: y42-orchestration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-openapi.yml
-- filename: y42-openapi.yml
-  format: yaml
-  label: Y42 Runs API
-  slug: y42-runs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-openapi.yml
-- filename: y42-openapi.yml
+- filename: y42-manifest-api-openapi.yml
   format: yaml
   label: Y42 Manifest API
   slug: y42-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-manifest-api-openapi.yml
+- filename: y42-orchestration-api-openapi.yml
+  format: yaml
+  label: Y42 Orchestration API
+  slug: y42-orchestration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-orchestration-api-openapi.yml
+- filename: y42-runs-api-openapi.yml
+  format: yaml
+  label: Y42 Runs API
+  slug: y42-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-runs-api-openapi.yml
+- filename: y42-spaces-api-openapi.yml
+  format: yaml
+  label: Y42 Spaces API
+  slug: y42-spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-spaces-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5

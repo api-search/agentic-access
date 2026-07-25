@@ -4,12 +4,12 @@ action_class_counts:
   acting: 8
   connected: 9
 api_specs:
-- filename: openkruise-openapi.yml
+- filename: openkruise-apis-api-openapi.yml
   format: yaml
-  label: OpenKruise Workload API
-  slug: openkruise-api
+  label: OpenKruise Apis API
+  slug: openkruise-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/openapi/openkruise-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/openapi/openkruise-apis-api-openapi.yml
 consequence_counts:
   read: 9
   write: 8

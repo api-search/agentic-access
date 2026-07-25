@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: ron-swanson-quotes-openapi.yml
+- filename: ron-swanson-quotes-quotes-api-openapi.yml
   format: yaml
-  label: Ron Swanson Quotes API
-  slug: ron-swanson-quotes-api
+  label: Ron Swanson Quotes Quotes API
+  slug: ron-swanson-quotes-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/openapi/ron-swanson-quotes-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/openapi/ron-swanson-quotes-quotes-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,24 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: microsoft-azure-communication-services-openapi.yml
+- filename: microsoft-azure-communication-services-email-api-openapi.yml
   format: yaml
-  label: Azure Communication Services REST API
-  slug: rest-api
+  label: microsoft-azure-communication-services Email API
+  slug: microsoft-azure-communication-services-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/openapi/microsoft-azure-communication-services-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/openapi/microsoft-azure-communication-services-email-api-openapi.yml
+- filename: microsoft-azure-communication-services-identity-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-communication-services Identity API
+  slug: microsoft-azure-communication-services-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/openapi/microsoft-azure-communication-services-identity-api-openapi.yml
+- filename: microsoft-azure-communication-services-sms-api-openapi.yml
+  format: yaml
+  label: microsoft-azure-communication-services SMS API
+  slug: microsoft-azure-communication-services-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/openapi/microsoft-azure-communication-services-sms-api-openapi.yml
 consequence_counts:
   physical: 2
   write: 3

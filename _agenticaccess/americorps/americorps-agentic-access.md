@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: americorps-openapi.yml
+- filename: americorps-catalog-api-openapi.yml
   format: yaml
-  label: AmeriCorps Open Data SODA API
-  slug: americorps-open-data-soda-api
+  label: AmeriCorps Catalog API
+  slug: americorps-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/openapi/americorps-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/openapi/americorps-catalog-api-openapi.yml
+- filename: americorps-datasets-api-openapi.yml
+  format: yaml
+  label: AmeriCorps Datasets API
+  slug: americorps-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/openapi/americorps-datasets-api-openapi.yml
+- filename: americorps-metadata-api-openapi.yml
+  format: yaml
+  label: AmeriCorps Metadata API
+  slug: americorps-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/openapi/americorps-metadata-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

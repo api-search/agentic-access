@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: openapi.yml
+- filename: qobuz-albums-api-openapi.yml
   format: yaml
-  label: Qobuz Music API
-  slug: music-api
+  label: Qobuz Albums API
+  slug: qobuz-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-albums-api-openapi.yml
+- filename: qobuz-artists-api-openapi.yml
+  format: yaml
+  label: Qobuz Artists API
+  slug: qobuz-artists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-artists-api-openapi.yml
+- filename: qobuz-authentication-api-openapi.yml
+  format: yaml
+  label: Qobuz Authentication API
+  slug: qobuz-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-authentication-api-openapi.yml
+- filename: qobuz-playlists-api-openapi.yml
+  format: yaml
+  label: Qobuz Playlists API
+  slug: qobuz-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-playlists-api-openapi.yml
+- filename: qobuz-search-api-openapi.yml
+  format: yaml
+  label: Qobuz Search API
+  slug: qobuz-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-search-api-openapi.yml
+- filename: qobuz-tracks-api-openapi.yml
+  format: yaml
+  label: Qobuz Tracks API
+  slug: qobuz-tracks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-tracks-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

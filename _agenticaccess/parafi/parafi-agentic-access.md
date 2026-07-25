@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 23
 api_specs:
-- filename: parafi-openapi.json
-  format: json
-  label: ParaFi Tech API
-  slug: parafi-tech-api
+- filename: parafi-avalanche-api-openapi.yml
+  format: yaml
+  label: Parafi Avalanche API
+  slug: parafi-avalanche-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-avalanche-api-openapi.yml
+- filename: parafi-ethereum-api-openapi.yml
+  format: yaml
+  label: Parafi Ethereum API
+  slug: parafi-ethereum-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-ethereum-api-openapi.yml
+- filename: parafi-market-api-openapi.yml
+  format: yaml
+  label: Parafi Market API
+  slug: parafi-market-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-market-api-openapi.yml
+- filename: parafi-solana-api-openapi.yml
+  format: yaml
+  label: Parafi Solana API
+  slug: parafi-solana-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-solana-api-openapi.yml
 consequence_counts:
   read: 23
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

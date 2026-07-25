@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
-- filename: microsoft-azure-migrate-openapi.yml
+- filename: microsoft-azure-migrate-operations-api-openapi.yml
+  format: yaml
+  label: Azure Migrate Operations API
+  slug: microsoft-azure-migrate-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/openapi/microsoft-azure-migrate-operations-api-openapi.yml
+- filename: microsoft-azure-migrate-projects-api-openapi.yml
   format: yaml
   label: Azure Migrate Projects API
-  slug: azure-migrate-projects-api
+  slug: microsoft-azure-migrate-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/openapi/microsoft-azure-migrate-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/openapi/microsoft-azure-migrate-projects-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

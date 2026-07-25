@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: themeparks-wiki-openapi.yml
+- filename: themeparks-wiki-destinations-api-openapi.yml
   format: yaml
-  label: ThemeParks.wiki API
-  slug: themeparks-wiki
+  label: ThemeParks.wiki Destinations API
+  slug: themeparks-wiki-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/themeparks-wiki/refs/heads/main/openapi/themeparks-wiki-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/themeparks-wiki/refs/heads/main/openapi/themeparks-wiki-destinations-api-openapi.yml
+- filename: themeparks-wiki-entities-api-openapi.yml
+  format: yaml
+  label: ThemeParks.wiki Entities API
+  slug: themeparks-wiki-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/themeparks-wiki/refs/heads/main/openapi/themeparks-wiki-entities-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

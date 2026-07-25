@@ -3,12 +3,18 @@ acting_count: 7
 action_class_counts:
   acting: 7
 api_specs:
-- filename: voicegenie-openapi.yml
+- filename: voicegenie-calls-api-openapi.yml
   format: yaml
-  label: VoiceGenie Public REST API
-  slug: voicegenie-public-rest-api
+  label: VoiceGenie Calls API
+  slug: voicegenie-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voicegenie/refs/heads/main/openapi/voicegenie-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voicegenie/refs/heads/main/openapi/voicegenie-calls-api-openapi.yml
+- filename: voicegenie-campaigns-api-openapi.yml
+  format: yaml
+  label: VoiceGenie Campaigns API
+  slug: voicegenie-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/voicegenie/refs/heads/main/openapi/voicegenie-campaigns-api-openapi.yml
 consequence_counts:
   physical: 1
   write: 6

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 5
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-artifact-registry-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Artifact Registry API
-  slug: google-cloud-artifact-registry-api
+  label: Google Cloud Artifact Registry Projects API
+  slug: google-cloud-artifact-registry-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-artifact-registry/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-artifact-registry/refs/heads/main/openapi/google-cloud-artifact-registry-projects-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3

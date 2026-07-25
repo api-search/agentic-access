@@ -4,12 +4,12 @@ action_class_counts:
   acting: 2
   connected: 1
 api_specs:
-- filename: presto-foundation-openapi.yml
+- filename: presto-foundation-statement-api-openapi.yml
   format: yaml
-  label: Presto Client REST API
-  slug: presto-client-rest-api
+  label: Presto Foundation Statement API
+  slug: presto-foundation-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/openapi/presto-foundation-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/openapi/presto-foundation-statement-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2

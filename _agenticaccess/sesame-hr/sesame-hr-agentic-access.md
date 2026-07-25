@@ -4,36 +4,48 @@ action_class_counts:
   acting: 18
   connected: 15
 api_specs:
-- filename: sesame-hr-openapi.yml
+- filename: sesame-hr-absences-and-leave-api-openapi.yml
+  format: yaml
+  label: Sesame HR Absences and Leave API
+  slug: sesame-hr-absences-and-leave-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-absences-and-leave-api-openapi.yml
+- filename: sesame-hr-departments-and-org-api-openapi.yml
+  format: yaml
+  label: Sesame HR Departments and Org API
+  slug: sesame-hr-departments-and-org-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-departments-and-org-api-openapi.yml
+- filename: sesame-hr-employees-api-openapi.yml
   format: yaml
   label: Sesame HR Employees API
   slug: sesame-hr-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-openapi.yml
-- filename: sesame-hr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-employees-api-openapi.yml
+- filename: sesame-hr-meta-api-openapi.yml
+  format: yaml
+  label: Sesame HR Meta API
+  slug: sesame-hr-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-meta-api-openapi.yml
+- filename: sesame-hr-scheduling-api-openapi.yml
+  format: yaml
+  label: Sesame HR Scheduling API
+  slug: sesame-hr-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-scheduling-api-openapi.yml
+- filename: sesame-hr-time-tracking-api-openapi.yml
   format: yaml
   label: Sesame HR Time Tracking API
   slug: sesame-hr-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-openapi.yml
-- filename: sesame-hr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-time-tracking-api-openapi.yml
+- filename: sesame-hr-webhooks-api-openapi.yml
   format: yaml
-  label: Sesame HR Absences and Leave API
-  slug: sesame-hr-absences-api
+  label: Sesame HR Webhooks API
+  slug: sesame-hr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-openapi.yml
-- filename: sesame-hr-openapi.yml
-  format: yaml
-  label: Sesame HR Departments and Org API
-  slug: sesame-hr-departments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-openapi.yml
-- filename: sesame-hr-openapi.yml
-  format: yaml
-  label: Sesame HR Scheduling and Shifts API
-  slug: sesame-hr-scheduling-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/openapi/sesame-hr-webhooks-api-openapi.yml
 consequence_counts:
   read: 15
   write: 18

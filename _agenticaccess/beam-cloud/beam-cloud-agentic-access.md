@@ -4,30 +4,24 @@ action_class_counts:
   acting: 5
   connected: 1
 api_specs:
-- filename: beam-cloud-openapi.yml
-  format: yaml
-  label: Beam Web Endpoints API
-  slug: beam-cloud-web-endpoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/openapi/beam-cloud-openapi.yml
-- filename: beam-cloud-openapi.yml
+- filename: beam-cloud-task-queues-api-openapi.yml
   format: yaml
   label: Beam Task Queues API
   slug: beam-cloud-task-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/openapi/beam-cloud-openapi.yml
-- filename: beam-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/openapi/beam-cloud-task-queues-api-openapi.yml
+- filename: beam-cloud-tasks-api-openapi.yml
   format: yaml
-  label: Beam Tasks Management API
-  slug: beam-cloud-tasks-management-api
+  label: Beam Tasks API
+  slug: beam-cloud-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/openapi/beam-cloud-openapi.yml
-- filename: beam-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/openapi/beam-cloud-tasks-api-openapi.yml
+- filename: beam-cloud-web-endpoints-api-openapi.yml
   format: yaml
-  label: Beam Sandboxes and Volumes API
-  slug: beam-cloud-sandboxes-volumes-api
+  label: Beam Web Endpoints API
+  slug: beam-cloud-web-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/openapi/beam-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/openapi/beam-cloud-web-endpoints-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 1

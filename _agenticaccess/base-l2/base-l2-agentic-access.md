@@ -2,6 +2,13 @@
 acting_count: 1
 action_class_counts:
   acting: 1
+api_specs:
+- filename: base-l2-json-rpc-api-openapi.yml
+  format: yaml
+  label: Base JSON-RPC API
+  slug: base-l2-json-rpc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/base-l2/refs/heads/main/openapi/base-l2-json-rpc-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

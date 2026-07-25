@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Newcastle Urban Observatory API
-  slug: urban-observatory
+- filename: newcastle-entity-api-openapi.yml
+  format: yaml
+  label: Newcastle University Entity API
+  slug: newcastle-entity-api
   spec_type: OpenAPI
-  url: https://api.usb.urbanobservatory.ac.uk/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-entity-api-openapi.yml
+- filename: newcastle-feed-api-openapi.yml
+  format: yaml
+  label: Newcastle University Feed API
+  slug: newcastle-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-feed-api-openapi.yml
+- filename: newcastle-summary-api-openapi.yml
+  format: yaml
+  label: Newcastle University Summary API
+  slug: newcastle-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-summary-api-openapi.yml
+- filename: newcastle-timeseries-api-openapi.yml
+  format: yaml
+  label: Newcastle University Timeseries API
+  slug: newcastle-timeseries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-timeseries-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

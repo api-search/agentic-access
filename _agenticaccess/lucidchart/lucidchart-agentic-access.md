@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: lucidchart-openapi.yml
+- filename: lucidchart-documents-api-openapi.yml
   format: yaml
-  label: Lucid REST API
-  slug: lucid-rest-api
+  label: Lucidchart Documents API
+  slug: lucidchart-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-documents-api-openapi.yml
+- filename: lucidchart-folders-api-openapi.yml
+  format: yaml
+  label: Lucidchart Folders API
+  slug: lucidchart-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-folders-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

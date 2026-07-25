@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: powershell-openapi.yml
+- filename: powershell-metadata-api-openapi.yml
   format: yaml
-  label: PowerShell Gallery API
-  slug: powershell-gallery-api
+  label: PowerShell Metadata API
+  slug: powershell-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-metadata-api-openapi.yml
+- filename: powershell-packages-api-openapi.yml
+  format: yaml
+  label: PowerShell Packages API
+  slug: powershell-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-packages-api-openapi.yml
+- filename: powershell-search-api-openapi.yml
+  format: yaml
+  label: PowerShell Search API
+  slug: powershell-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-search-api-openapi.yml
+- filename: powershell-updates-api-openapi.yml
+  format: yaml
+  label: PowerShell Updates API
+  slug: powershell-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-updates-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

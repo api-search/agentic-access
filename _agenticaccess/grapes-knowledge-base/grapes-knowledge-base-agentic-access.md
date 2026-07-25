@@ -4,12 +4,24 @@ action_class_counts:
   acting: 3
   connected: 5
 api_specs:
-- filename: grapes-knowledge-base-openapi.yml
+- filename: grapes-knowledge-base-agents-api-openapi.yml
   format: yaml
-  label: Grapes API
-  slug: grapes-api
+  label: Grapes Knowledge Base Agents API
+  slug: grapes-knowledge-base-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/openapi/grapes-knowledge-base-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/openapi/grapes-knowledge-base-agents-api-openapi.yml
+- filename: grapes-knowledge-base-datasets-api-openapi.yml
+  format: yaml
+  label: Grapes Knowledge Base Datasets API
+  slug: grapes-knowledge-base-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/openapi/grapes-knowledge-base-datasets-api-openapi.yml
+- filename: grapes-knowledge-base-projects-api-openapi.yml
+  format: yaml
+  label: Grapes Knowledge Base Projects API
+  slug: grapes-knowledge-base-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/openapi/grapes-knowledge-base-projects-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3

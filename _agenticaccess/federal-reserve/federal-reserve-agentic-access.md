@@ -3,12 +3,54 @@ acting_count: 0
 action_class_counts:
   connected: 13
 api_specs:
-- filename: federal-reserve-fred-openapi.yml
+- filename: federal-reserve-category-api-openapi.yml
   format: yaml
-  label: Federal Reserve FRED API
-  slug: federal-reserve
+  label: Federal Reserve Category API
+  slug: federal-reserve-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-fred-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-category-api-openapi.yml
+- filename: federal-reserve-related-tags-api-openapi.yml
+  format: yaml
+  label: Federal Reserve Related Tags API
+  slug: federal-reserve-related-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-related-tags-api-openapi.yml
+- filename: federal-reserve-release-api-openapi.yml
+  format: yaml
+  label: Federal Reserve Release API
+  slug: federal-reserve-release-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-release-api-openapi.yml
+- filename: federal-reserve-releases-api-openapi.yml
+  format: yaml
+  label: Federal Reserve Releases API
+  slug: federal-reserve-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-releases-api-openapi.yml
+- filename: federal-reserve-series-api-openapi.yml
+  format: yaml
+  label: Federal Reserve Series API
+  slug: federal-reserve-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-series-api-openapi.yml
+- filename: federal-reserve-source-api-openapi.yml
+  format: yaml
+  label: Federal Reserve Source API
+  slug: federal-reserve-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-source-api-openapi.yml
+- filename: federal-reserve-sources-api-openapi.yml
+  format: yaml
+  label: Federal Reserve Sources API
+  slug: federal-reserve-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-sources-api-openapi.yml
+- filename: federal-reserve-tags-api-openapi.yml
+  format: yaml
+  label: Federal Reserve Tags API
+  slug: federal-reserve-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-tags-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

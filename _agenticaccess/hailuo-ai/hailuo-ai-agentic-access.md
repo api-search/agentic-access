@@ -4,36 +4,36 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: hailuo-ai-openapi.yml
+- filename: hailuo-ai-chat-completions-api-openapi.yml
   format: yaml
-  label: Hailuo Video Generation API
-  slug: hailuo-ai-video-generation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/openapi/hailuo-ai-openapi.yml
-- filename: hailuo-ai-openapi.yml
-  format: yaml
-  label: MiniMax Text-to-Speech (T2A) API
-  slug: hailuo-ai-text-to-speech-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/openapi/hailuo-ai-openapi.yml
-- filename: hailuo-ai-openapi.yml
-  format: yaml
-  label: MiniMax Chat Completions API
+  label: Hailuo AI / MiniMax Chat Completions API
   slug: hailuo-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/openapi/hailuo-ai-openapi.yml
-- filename: hailuo-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/openapi/hailuo-ai-chat-completions-api-openapi.yml
+- filename: hailuo-ai-files-api-openapi.yml
   format: yaml
-  label: MiniMax Music Generation API
-  slug: hailuo-ai-music-generation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/openapi/hailuo-ai-openapi.yml
-- filename: hailuo-ai-openapi.yml
-  format: yaml
-  label: MiniMax Files API
+  label: Hailuo AI / MiniMax Files API
   slug: hailuo-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/openapi/hailuo-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/openapi/hailuo-ai-files-api-openapi.yml
+- filename: hailuo-ai-music-generation-api-openapi.yml
+  format: yaml
+  label: Hailuo AI / MiniMax Music Generation API
+  slug: hailuo-ai-music-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/openapi/hailuo-ai-music-generation-api-openapi.yml
+- filename: hailuo-ai-text-to-speech-api-openapi.yml
+  format: yaml
+  label: Hailuo AI / MiniMax Text to Speech API
+  slug: hailuo-ai-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/openapi/hailuo-ai-text-to-speech-api-openapi.yml
+- filename: hailuo-ai-video-generation-api-openapi.yml
+  format: yaml
+  label: Hailuo AI / MiniMax Video Generation API
+  slug: hailuo-ai-video-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/openapi/hailuo-ai-video-generation-api-openapi.yml
 consequence_counts:
   read: 2
   write: 4

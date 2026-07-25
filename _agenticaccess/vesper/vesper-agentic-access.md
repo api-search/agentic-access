@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: openapi.yml
+- filename: vesper-pools-api-openapi.yml
   format: yaml
-  label: Vesper Finance API
-  slug: vesper-finance-api
+  label: Vesper Finance Pools API
+  slug: vesper-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-pools-api-openapi.yml
+- filename: vesper-rates-api-openapi.yml
+  format: yaml
+  label: Vesper Finance Rates API
+  slug: vesper-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-rates-api-openapi.yml
+- filename: vesper-tvl-api-openapi.yml
+  format: yaml
+  label: Vesper Finance TVL API
+  slug: vesper-tvl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-tvl-api-openapi.yml
+- filename: vesper-vsp-api-openapi.yml
+  format: yaml
+  label: Vesper Finance VSP API
+  slug: vesper-vsp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-vsp-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

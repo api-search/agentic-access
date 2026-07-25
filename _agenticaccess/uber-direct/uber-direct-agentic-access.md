@@ -4,12 +4,12 @@ action_class_counts:
   acting: 2
   connected: 1
 api_specs:
-- filename: uber-direct-openapi.yml
+- filename: uber-direct-customers-api-openapi.yml
   format: yaml
-  label: Uber Direct API
-  slug: uber-direct-api
+  label: Uber Direct Customers API
+  slug: uber-direct-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/openapi/uber-direct-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/openapi/uber-direct-customers-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2

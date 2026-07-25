@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 1
 api_specs:
-- filename: openapi.yml
+- filename: google-cloud-profiler-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Profiler API
-  slug: google-cloud-profiler-api
+  label: Google Cloud Profiler Projects API
+  slug: google-cloud-profiler-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/openapi/google-cloud-profiler-projects-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3

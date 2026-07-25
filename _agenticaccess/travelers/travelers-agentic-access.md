@@ -4,12 +4,24 @@ action_class_counts:
   acting: 3
   connected: 5
 api_specs:
-- filename: travelers-openapi.yml
+- filename: travelers-claims-api-openapi.yml
   format: yaml
-  label: Travelers API
-  slug: travelers
+  label: Travelers Claims API
+  slug: travelers-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-claims-api-openapi.yml
+- filename: travelers-policies-api-openapi.yml
+  format: yaml
+  label: Travelers Policies API
+  slug: travelers-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-policies-api-openapi.yml
+- filename: travelers-quoting-api-openapi.yml
+  format: yaml
+  label: Travelers Quoting API
+  slug: travelers-quoting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-quoting-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3

@@ -4,12 +4,36 @@ action_class_counts:
   acting: 6
   connected: 9
 api_specs:
-- filename: gemfury-gemfury-api-openapi.yml
+- filename: gemfury-accounts-api-openapi.yml
   format: yaml
-  label: Gemfury Developer API
-  slug: gemfury-api
+  label: Gemfury Accounts API
+  slug: gemfury-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-gemfury-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-accounts-api-openapi.yml
+- filename: gemfury-members-api-openapi.yml
+  format: yaml
+  label: Gemfury Members API
+  slug: gemfury-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-members-api-openapi.yml
+- filename: gemfury-packages-api-openapi.yml
+  format: yaml
+  label: Gemfury Packages API
+  slug: gemfury-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-packages-api-openapi.yml
+- filename: gemfury-tokens-api-openapi.yml
+  format: yaml
+  label: Gemfury Tokens API
+  slug: gemfury-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-tokens-api-openapi.yml
+- filename: gemfury-versions-api-openapi.yml
+  format: yaml
+  label: Gemfury Versions API
+  slug: gemfury-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/openapi/gemfury-versions-api-openapi.yml
 consequence_counts:
   read: 9
   write: 6

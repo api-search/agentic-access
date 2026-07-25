@@ -3,18 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: university-of-lausanne-spica.yaml
+- filename: university-of-lausanne-core-api-openapi.yml
   format: yaml
-  label: SPICA Atlas API
-  slug: spica
+  label: University of Lausanne Core API
+  slug: university-of-lausanne-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-spica.yaml
-- filename: university-of-lausanne-iris.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-core-api-openapi.yml
+- filename: university-of-lausanne-iris-repository-dspace-rest-api-api-openapi.yml
   format: yaml
-  label: IRIS Repository (DSpace REST API)
-  slug: iris
+  label: University of Lausanne IRIS Repository (DSpace REST API) API
+  slug: university-of-lausanne-iris-repository-dspace-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-iris.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-iris-repository-dspace-rest-api-api-openapi.yml
+- filename: university-of-lausanne-projects-api-openapi.yml
+  format: yaml
+  label: University of Lausanne Projects API
+  slug: university-of-lausanne-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-projects-api-openapi.yml
+- filename: university-of-lausanne-projects-json-api-openapi.yml
+  format: yaml
+  label: University of Lausanne Projects.json API
+  slug: university-of-lausanne-projects-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-projects-json-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

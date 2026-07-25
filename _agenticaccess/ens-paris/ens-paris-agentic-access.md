@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 16
 api_specs:
-- filename: ens-paris-mesr-opendata.yaml
+- filename: ens-paris-catalog-api-openapi.yml
   format: yaml
-  label: MESR Higher Education Open Data (Explore API)
-  slug: mesr-opendata
+  label: École Normale Supérieure de Paris Catalog API
+  slug: ens-paris-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ens-paris/refs/heads/main/openapi/ens-paris-mesr-opendata.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/ens-paris/refs/heads/main/openapi/ens-paris-catalog-api-openapi.yml
+- filename: ens-paris-dataset-api-openapi.yml
+  format: yaml
+  label: École Normale Supérieure de Paris Dataset API
+  slug: ens-paris-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ens-paris/refs/heads/main/openapi/ens-paris-dataset-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

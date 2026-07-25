@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: science-museum-group-collection-openapi.yml
+- filename: science-museum-group-documents-api-openapi.yml
   format: yaml
-  label: Science Museum Group Collection API
-  slug: collection-api
+  label: Science Museum Group Documents API
+  slug: science-museum-group-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-collection-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-documents-api-openapi.yml
+- filename: science-museum-group-objects-api-openapi.yml
+  format: yaml
+  label: Science Museum Group Objects API
+  slug: science-museum-group-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-objects-api-openapi.yml
+- filename: science-museum-group-people-api-openapi.yml
+  format: yaml
+  label: Science Museum Group People API
+  slug: science-museum-group-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-people-api-openapi.yml
+- filename: science-museum-group-search-api-openapi.yml
+  format: yaml
+  label: Science Museum Group Search API
+  slug: science-museum-group-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-search-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: manifold-oauth2-authentication-api.yml
+- filename: manifold-authorization-code-grant-api-openapi.yml
   format: yaml
-  label: Manifold OAuth2 Authentication API
-  slug: oauth2-authentication-api
+  label: Manifold Authorization Code Grant API
+  slug: manifold-authorization-code-grant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manifold/refs/heads/main/openapi/manifold-oauth2-authentication-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/manifold/refs/heads/main/openapi/manifold-authorization-code-grant-api-openapi.yml
+- filename: manifold-signature-grant-api-openapi.yml
+  format: yaml
+  label: Manifold Signature Grant API
+  slug: manifold-signature-grant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manifold/refs/heads/main/openapi/manifold-signature-grant-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

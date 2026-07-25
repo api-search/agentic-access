@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
-- filename: microsoft-azure-ai-foundry-openapi.yml
+- filename: microsoft-azure-ai-foundry-operations-api-openapi.yml
   format: yaml
-  label: Azure AI Foundry REST API
-  slug: rest-api
+  label: Microsoft Azure AI Foundry Operations API
+  slug: microsoft-azure-ai-foundry-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-ai-foundry/refs/heads/main/openapi/microsoft-azure-ai-foundry-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-ai-foundry/refs/heads/main/openapi/microsoft-azure-ai-foundry-operations-api-openapi.yml
+- filename: microsoft-azure-ai-foundry-workspaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure AI Foundry Workspaces API
+  slug: microsoft-azure-ai-foundry-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-ai-foundry/refs/heads/main/openapi/microsoft-azure-ai-foundry-workspaces-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

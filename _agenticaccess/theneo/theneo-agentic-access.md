@@ -4,12 +4,36 @@ action_class_counts:
   acting: 6
   connected: 5
 api_specs:
-- filename: theneo-api-openapi.yml
+- filename: theneo-import-api-openapi.yml
   format: yaml
-  label: Theneo
-  slug: theneo
+  label: Theneo Import API
+  slug: theneo-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-import-api-openapi.yml
+- filename: theneo-projects-api-openapi.yml
+  format: yaml
+  label: Theneo Projects API
+  slug: theneo-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-projects-api-openapi.yml
+- filename: theneo-publishing-api-openapi.yml
+  format: yaml
+  label: Theneo Publishing API
+  slug: theneo-publishing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-publishing-api-openapi.yml
+- filename: theneo-users-api-openapi.yml
+  format: yaml
+  label: Theneo Users API
+  slug: theneo-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-users-api-openapi.yml
+- filename: theneo-workspaces-api-openapi.yml
+  format: yaml
+  label: Theneo Workspaces API
+  slug: theneo-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/openapi/theneo-workspaces-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6

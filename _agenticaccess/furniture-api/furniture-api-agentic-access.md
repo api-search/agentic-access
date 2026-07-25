@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: furniture-api-openapi.yml
+- filename: furniture-api-products-api-openapi.yml
   format: yaml
-  label: Furniture API
-  slug: furniture-api
+  label: Furniture API Products API
+  slug: furniture-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/furniture-api/refs/heads/main/openapi/furniture-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/furniture-api/refs/heads/main/openapi/furniture-api-products-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

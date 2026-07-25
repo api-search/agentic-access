@@ -2,6 +2,37 @@
 acting_count: 0
 action_class_counts:
   connected: 8
+api_specs:
+- filename: bonneville-power-administration-customers-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Customers API
+  slug: bonneville-power-administration-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-customers-api-openapi.yml
+- filename: bonneville-power-administration-hydrology-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Hydrology API
+  slug: bonneville-power-administration-hydrology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-hydrology-api-openapi.yml
+- filename: bonneville-power-administration-right-of-way-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Right of Way API
+  slug: bonneville-power-administration-right-of-way-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-right-of-way-api-openapi.yml
+- filename: bonneville-power-administration-service-area-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Service Area API
+  slug: bonneville-power-administration-service-area-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-service-area-api-openapi.yml
+- filename: bonneville-power-administration-transmission-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Transmission API
+  slug: bonneville-power-administration-transmission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-transmission-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,6 +3,19 @@ acting_count: 1
 action_class_counts:
   acting: 1
   connected: 1
+api_specs:
+- filename: tax-reporting-templates-categories-api-openapi.yml
+  format: yaml
+  label: Tax Reporting Templates Categories API
+  slug: tax-reporting-templates-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tax-reporting-templates/refs/heads/main/openapi/tax-reporting-templates-categories-api-openapi.yml
+- filename: tax-reporting-templates-taxes-api-openapi.yml
+  format: yaml
+  label: Tax Reporting Templates Taxes API
+  slug: tax-reporting-templates-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tax-reporting-templates/refs/heads/main/openapi/tax-reporting-templates-taxes-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

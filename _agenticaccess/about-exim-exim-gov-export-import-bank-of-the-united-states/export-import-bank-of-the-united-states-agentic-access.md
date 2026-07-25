@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: export-import-bank-of-the-united-states-openapi.yml
+- filename: export-import-bank-of-the-united-states-resource-api-openapi.yml
   format: yaml
-  label: EXIM Open Data API
-  slug: open-data
+  label: Export-Import Bank of the United States Resource API
+  slug: export-import-bank-of-the-united-states-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/about-exim-exim-gov-export-import-bank-of-the-united-states/refs/heads/main/openapi/export-import-bank-of-the-united-states-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/about-exim-exim-gov-export-import-bank-of-the-united-states/refs/heads/main/openapi/export-import-bank-of-the-united-states-resource-api-openapi.yml
+- filename: export-import-bank-of-the-united-states-views-api-openapi.yml
+  format: yaml
+  label: Export-Import Bank of the United States Views API
+  slug: export-import-bank-of-the-united-states-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/about-exim-exim-gov-export-import-bank-of-the-united-states/refs/heads/main/openapi/export-import-bank-of-the-united-states-views-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

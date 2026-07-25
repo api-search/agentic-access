@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 20
 api_specs:
-- filename: brapi-openapi.yml
+- filename: brapi-criptomoedas-api-openapi.yml
   format: yaml
-  label: brapi Quotes API
-  slug: quotes-api
+  label: brapi Criptomoedas API
+  slug: brapi-criptomoedas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-criptomoedas-api-openapi.yml
+- filename: brapi-fiis-api-openapi.yml
+  format: yaml
+  label: brapi Fiis API
+  slug: brapi-fiis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-fiis-api-openapi.yml
+- filename: brapi-inflacao-api-openapi.yml
+  format: yaml
+  label: brapi Inflacao API
+  slug: brapi-inflacao-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-inflacao-api-openapi.yml
+- filename: brapi-moedas-api-openapi.yml
+  format: yaml
+  label: brapi Moedas API
+  slug: brapi-moedas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-moedas-api-openapi.yml
+- filename: brapi-opcoes-api-openapi.yml
+  format: yaml
+  label: brapi Opcoes API
+  slug: brapi-opcoes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-opcoes-api-openapi.yml
+- filename: brapi-quote-api-openapi.yml
+  format: yaml
+  label: brapi Quote API
+  slug: brapi-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-quote-api-openapi.yml
+- filename: brapi-taxa-basica-de-juros-api-openapi.yml
+  format: yaml
+  label: brapi Taxa Basica De Juros API
+  slug: brapi-taxa-basica-de-juros-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-taxa-basica-de-juros-api-openapi.yml
 consequence_counts:
   read: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

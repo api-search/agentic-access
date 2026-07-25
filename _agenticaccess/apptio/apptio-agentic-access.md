@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: apptio-openapi.yaml
+- filename: apptio-budgets-api-openapi.yml
   format: yaml
-  label: Apptio API
-  slug: apptio-api
+  label: Apptio Budgets API
+  slug: apptio-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-budgets-api-openapi.yml
+- filename: apptio-cost-allocations-api-openapi.yml
+  format: yaml
+  label: Apptio Cost Allocations API
+  slug: apptio-cost-allocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-cost-allocations-api-openapi.yml
+- filename: apptio-reports-api-openapi.yml
+  format: yaml
+  label: Apptio Reports API
+  slug: apptio-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-reports-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

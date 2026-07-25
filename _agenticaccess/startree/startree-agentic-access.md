@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: startree-query-openapi.json
-  format: json
-  label: StarTree Cloud Query API
-  slug: startree-cloud-query-api
+- filename: startree-query-api-api-openapi.yml
+  format: yaml
+  label: StarTree Query API API
+  slug: startree-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/openapi/startree-query-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/openapi/startree-query-api-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,36 @@ acting_count: 15
 action_class_counts:
   acting: 15
 api_specs:
-- filename: amazon-dynamodb-openapi.yml
+- filename: amazon-dynamodb-batch-api-openapi.yml
   format: yaml
-  label: Amazon DynamoDB API
-  slug: amazon-dynamodb-api
+  label: Amazon DynamoDB Batch API
+  slug: amazon-dynamodb-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-batch-api-openapi.yml
+- filename: amazon-dynamodb-items-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Items API
+  slug: amazon-dynamodb-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-items-api-openapi.yml
+- filename: amazon-dynamodb-queries-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Queries API
+  slug: amazon-dynamodb-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-queries-api-openapi.yml
+- filename: amazon-dynamodb-tables-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Tables API
+  slug: amazon-dynamodb-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-tables-api-openapi.yml
+- filename: amazon-dynamodb-transactions-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Transactions API
+  slug: amazon-dynamodb-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-transactions-api-openapi.yml
 consequence_counts:
   write: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

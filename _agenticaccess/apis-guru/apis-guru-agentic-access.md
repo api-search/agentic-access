@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: apis-guru-openapi.yaml
+- filename: apis-guru-apis-api-openapi.yml
   format: yaml
-  label: APIs.guru REST API
-  slug: apis-guru-api
+  label: APIs.guru APIs API
+  slug: apis-guru-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/openapi/apis-guru-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/openapi/apis-guru-apis-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

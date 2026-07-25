@@ -4,12 +4,36 @@ action_class_counts:
   acting: 10
   connected: 9
 api_specs:
-- filename: amazon-signer.yaml
+- filename: amazon-signer-revocations-signaturetimestamp-platformid-profileversionarn-jobarn-certificatehashes-api-openapi.yml
   format: yaml
-  label: AWS Signer API
-  slug: aws-signer-api
+  label: Amazon Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes API
+  slug: amazon-signer-revocations-signaturetimestamp-platformid-profileversionarn-jobarn-certificatehashes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-revocations-signaturetimestamp-platformid-profileversionarn-jobarn-certificatehashes-api-openapi.yml
+- filename: amazon-signer-signing-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Signer Signing Jobs API
+  slug: amazon-signer-signing-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-signing-jobs-api-openapi.yml
+- filename: amazon-signer-signing-platforms-api-openapi.yml
+  format: yaml
+  label: Amazon Signer Signing Platforms API
+  slug: amazon-signer-signing-platforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-signing-platforms-api-openapi.yml
+- filename: amazon-signer-signing-profiles-api-openapi.yml
+  format: yaml
+  label: Amazon Signer Signing Profiles API
+  slug: amazon-signer-signing-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-signing-profiles-api-openapi.yml
+- filename: amazon-signer-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Signer Tags API
+  slug: amazon-signer-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer-tags-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 2

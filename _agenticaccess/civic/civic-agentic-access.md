@@ -4,12 +4,18 @@ action_class_counts:
   acting: 5
   connected: 2
 api_specs:
-- filename: civic-pass-customer-api.yaml
+- filename: civic-pass-api-openapi.yml
   format: yaml
-  label: Civic Pass API
+  label: Civic pass API
   slug: civic-pass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/openapi/civic-pass-customer-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/openapi/civic-pass-api-openapi.yml
+- filename: civic-piirequest-api-openapi.yml
+  format: yaml
+  label: Civic piirequest API
+  slug: civic-piirequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/openapi/civic-piirequest-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 1

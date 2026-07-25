@@ -4,12 +4,36 @@ action_class_counts:
   acting: 26
   connected: 9
 api_specs:
-- filename: timescaledb-openapi.yml
+- filename: timescaledb-analytics-api-openapi.yml
   format: yaml
-  label: Tiger Cloud REST API
-  slug: tiger-cloud-rest
+  label: TimescaleDB / Tiger Data Analytics API
+  slug: timescaledb-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/openapi/timescaledb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/openapi/timescaledb-analytics-api-openapi.yml
+- filename: timescaledb-auth-api-openapi.yml
+  format: yaml
+  label: TimescaleDB / Tiger Data Auth API
+  slug: timescaledb-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/openapi/timescaledb-auth-api-openapi.yml
+- filename: timescaledb-read-replica-sets-api-openapi.yml
+  format: yaml
+  label: TimescaleDB / Tiger Data Read Replica Sets API
+  slug: timescaledb-read-replica-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/openapi/timescaledb-read-replica-sets-api-openapi.yml
+- filename: timescaledb-services-api-openapi.yml
+  format: yaml
+  label: TimescaleDB / Tiger Data Services API
+  slug: timescaledb-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/openapi/timescaledb-services-api-openapi.yml
+- filename: timescaledb-vpcs-api-openapi.yml
+  format: yaml
+  label: TimescaleDB / Tiger Data VPCs API
+  slug: timescaledb-vpcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/openapi/timescaledb-vpcs-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 3

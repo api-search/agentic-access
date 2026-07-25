@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: rtx-eagle-api-openapi.yml
+- filename: rtx-analytics-api-openapi.yml
   format: yaml
-  label: RTX EAGLE API
-  slug: eagle-api
+  label: RTX Analytics API
+  slug: rtx-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-eagle-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-analytics-api-openapi.yml
+- filename: rtx-data-sources-api-openapi.yml
+  format: yaml
+  label: RTX Data Sources API
+  slug: rtx-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-data-sources-api-openapi.yml
+- filename: rtx-reports-api-openapi.yml
+  format: yaml
+  label: RTX Reports API
+  slug: rtx-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/openapi/rtx-reports-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

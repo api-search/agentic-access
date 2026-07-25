@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: openapi.yml
+- filename: coinpaprika-coins-api-openapi.yml
   format: yaml
-  label: CoinPaprika API
-  slug: coinpaprika-api
+  label: CoinPaprika coins API
+  slug: coinpaprika-coins-api
   spec_type: OpenAPI
-  url: https://github.com/coinpaprika/api/blob/master/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-coins-api-openapi.yml
+- filename: coinpaprika-global-api-openapi.yml
+  format: yaml
+  label: CoinPaprika global API
+  slug: coinpaprika-global-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-global-api-openapi.yml
+- filename: coinpaprika-search-api-openapi.yml
+  format: yaml
+  label: CoinPaprika search API
+  slug: coinpaprika-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-search-api-openapi.yml
+- filename: coinpaprika-ticker-api-openapi.yml
+  format: yaml
+  label: CoinPaprika ticker API
+  slug: coinpaprika-ticker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/openapi/coinpaprika-ticker-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

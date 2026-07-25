@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: traefik-mesh-controller-openapi.yml
+- filename: traefik-mesh-configuration-api-openapi.yml
   format: yaml
-  label: Traefik Mesh Controller API
-  slug: controller-api
+  label: Traefik Mesh Configuration API
+  slug: traefik-mesh-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/openapi/traefik-mesh-controller-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/openapi/traefik-mesh-configuration-api-openapi.yml
+- filename: traefik-mesh-status-api-openapi.yml
+  format: yaml
+  label: Traefik Mesh Status API
+  slug: traefik-mesh-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/openapi/traefik-mesh-status-api-openapi.yml
+- filename: traefik-mesh-topology-api-openapi.yml
+  format: yaml
+  label: Traefik Mesh Topology API
+  slug: traefik-mesh-topology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/openapi/traefik-mesh-topology-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

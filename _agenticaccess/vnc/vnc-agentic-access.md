@@ -4,12 +4,12 @@ action_class_counts:
   acting: 4
   connected: 3
 api_specs:
-- filename: vnc-cloud-openapi.yml
+- filename: vnc-cloud-addresses-api-openapi.yml
   format: yaml
-  label: VNC Cloud API
-  slug: vnc-cloud-api
+  label: VNC Cloud Addresses API
+  slug: vnc-cloud-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/openapi/vnc-cloud-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/openapi/vnc-cloud-addresses-api-openapi.yml
 consequence_counts:
   read: 3
   safety-critical: 1

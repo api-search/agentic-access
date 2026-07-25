@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: openapi.yaml
+- filename: open-exchange-rates-convert-api-openapi.yml
   format: yaml
-  label: Open Exchange Rates API
-  slug: open-exchange-rates-api
+  label: Open Exchange Rates Convert API
+  slug: open-exchange-rates-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-exchange-rates/refs/heads/main/openapi/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/open-exchange-rates/refs/heads/main/openapi/open-exchange-rates-convert-api-openapi.yml
+- filename: open-exchange-rates-currencies-api-openapi.yml
+  format: yaml
+  label: Open Exchange Rates Currencies API
+  slug: open-exchange-rates-currencies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-exchange-rates/refs/heads/main/openapi/open-exchange-rates-currencies-api-openapi.yml
+- filename: open-exchange-rates-ohlc-api-openapi.yml
+  format: yaml
+  label: Open Exchange Rates OHLC API
+  slug: open-exchange-rates-ohlc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-exchange-rates/refs/heads/main/openapi/open-exchange-rates-ohlc-api-openapi.yml
+- filename: open-exchange-rates-rates-api-openapi.yml
+  format: yaml
+  label: Open Exchange Rates Rates API
+  slug: open-exchange-rates-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-exchange-rates/refs/heads/main/openapi/open-exchange-rates-rates-api-openapi.yml
+- filename: open-exchange-rates-time-series-api-openapi.yml
+  format: yaml
+  label: Open Exchange Rates Time Series API
+  slug: open-exchange-rates-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-exchange-rates/refs/heads/main/openapi/open-exchange-rates-time-series-api-openapi.yml
+- filename: open-exchange-rates-usage-api-openapi.yml
+  format: yaml
+  label: Open Exchange Rates Usage API
+  slug: open-exchange-rates-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-exchange-rates/refs/heads/main/openapi/open-exchange-rates-usage-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

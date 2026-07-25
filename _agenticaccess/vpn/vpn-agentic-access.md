@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: vpn-openapi.yml
+- filename: vpn-catalog-api-openapi.yml
   format: yaml
-  label: NordVPN API
-  slug: nordvpn-api
+  label: VPN Catalog API
+  slug: vpn-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-catalog-api-openapi.yml
+- filename: vpn-servers-api-openapi.yml
+  format: yaml
+  label: VPN Servers API
+  slug: vpn-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-servers-api-openapi.yml
+- filename: vpn-stats-api-openapi.yml
+  format: yaml
+  label: VPN Stats API
+  slug: vpn-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/openapi/vpn-stats-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

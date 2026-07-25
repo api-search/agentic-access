@@ -4,30 +4,24 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
-- filename: spurwing-openapi.yml
-  format: yaml
-  label: Spurwing Providers API
-  slug: providers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spurwing/refs/heads/main/openapi/spurwing-openapi.yml
-- filename: spurwing-openapi.yml
-  format: yaml
-  label: Spurwing Availability API
-  slug: availability
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spurwing/refs/heads/main/openapi/spurwing-openapi.yml
-- filename: spurwing-openapi.yml
+- filename: spurwing-appointments-api-openapi.yml
   format: yaml
   label: Spurwing Appointments API
-  slug: appointments
+  slug: spurwing-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spurwing/refs/heads/main/openapi/spurwing-openapi.yml
-- filename: spurwing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spurwing/refs/heads/main/openapi/spurwing-appointments-api-openapi.yml
+- filename: spurwing-availability-api-openapi.yml
+  format: yaml
+  label: Spurwing Availability API
+  slug: spurwing-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spurwing/refs/heads/main/openapi/spurwing-availability-api-openapi.yml
+- filename: spurwing-services-api-openapi.yml
   format: yaml
   label: Spurwing Services API
-  slug: services
+  slug: spurwing-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spurwing/refs/heads/main/openapi/spurwing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spurwing/refs/heads/main/openapi/spurwing-services-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

@@ -4,12 +4,48 @@ action_class_counts:
   acting: 9
   connected: 9
 api_specs:
-- filename: pred-openapi.yml
+- filename: pred-authentication-api-openapi.yml
   format: yaml
-  label: PRED Trading Platform API
-  slug: pred-trading-platform-api
+  label: Pred Authentication API
+  slug: pred-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-authentication-api-openapi.yml
+- filename: pred-market-discovery-api-openapi.yml
+  format: yaml
+  label: Pred Market Discovery API
+  slug: pred-market-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-market-discovery-api-openapi.yml
+- filename: pred-orders-api-openapi.yml
+  format: yaml
+  label: Pred Orders API
+  slug: pred-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-orders-api-openapi.yml
+- filename: pred-overview-api-openapi.yml
+  format: yaml
+  label: Pred Overview API
+  slug: pred-overview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-overview-api-openapi.yml
+- filename: pred-portfolio-api-openapi.yml
+  format: yaml
+  label: Pred Portfolio API
+  slug: pred-portfolio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-portfolio-api-openapi.yml
+- filename: pred-user-api-openapi.yml
+  format: yaml
+  label: Pred User API
+  slug: pred-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-user-api-openapi.yml
+- filename: pred-websocket-api-openapi.yml
+  format: yaml
+  label: Pred WebSocket API
+  slug: pred-websocket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/openapi/pred-websocket-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 9

@@ -3,12 +3,18 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: calm-partner-api-openapi.yml
+- filename: calm-authentication-api-openapi.yml
   format: yaml
-  label: Calm Partner API
-  slug: calm-partner-api
+  label: Calm Authentication API
+  slug: calm-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/openapi/calm-partner-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/openapi/calm-authentication-api-openapi.yml
+- filename: calm-subscriptions-api-openapi.yml
+  format: yaml
+  label: Calm Subscriptions API
+  slug: calm-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/openapi/calm-subscriptions-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

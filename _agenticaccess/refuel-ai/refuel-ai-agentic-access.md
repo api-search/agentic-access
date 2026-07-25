@@ -3,36 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: refuel-ai-openapi.yml
+- filename: refuel-ai-applications-api-openapi.yml
   format: yaml
   label: Refuel Applications API
-  slug: refuel-applications-api
+  slug: refuel-ai-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-openapi.yml
-- filename: refuel-ai-openapi.yml
-  format: yaml
-  label: Refuel Tasks API
-  slug: refuel-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-openapi.yml
-- filename: refuel-ai-openapi.yml
-  format: yaml
-  label: Refuel Datasets API
-  slug: refuel-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-openapi.yml
-- filename: refuel-ai-openapi.yml
-  format: yaml
-  label: Refuel Labeling and Predict API
-  slug: refuel-labeling-predict-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-openapi.yml
-- filename: refuel-ai-openapi.yml
-  format: yaml
-  label: Refuel Models API
-  slug: refuel-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-applications-api-openapi.yml
 consequence_counts:
   physical: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

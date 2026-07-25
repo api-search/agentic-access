@@ -3,12 +3,12 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: 1worldsync-content1-openapi-original.json
-  format: json
-  label: 1WorldSync Content1 API
-  slug: 1worldsync-content1-api
+- filename: 1worldsync-fetchproduct-api-openapi.yml
+  format: yaml
+  label: 1WorldSync FetchProduct API
+  slug: 1worldsync-fetchproduct-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/openapi/1worldsync-content1-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/openapi/1worldsync-fetchproduct-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

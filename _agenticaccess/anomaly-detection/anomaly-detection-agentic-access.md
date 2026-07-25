@@ -3,6 +3,25 @@ acting_count: 7
 action_class_counts:
   acting: 7
   connected: 2
+api_specs:
+- filename: anomaly-detection-changepoint-api-openapi.yml
+  format: yaml
+  label: Anomaly Detection ChangePoint API
+  slug: anomaly-detection-changepoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-changepoint-api-openapi.yml
+- filename: anomaly-detection-multivariate-api-openapi.yml
+  format: yaml
+  label: Anomaly Detection Multivariate API
+  slug: anomaly-detection-multivariate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-multivariate-api-openapi.yml
+- filename: anomaly-detection-univariate-api-openapi.yml
+  format: yaml
+  label: Anomaly Detection Univariate API
+  slug: anomaly-detection-univariate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/openapi/anomaly-detection-univariate-api-openapi.yml
 consequence_counts:
   read: 2
   write: 7

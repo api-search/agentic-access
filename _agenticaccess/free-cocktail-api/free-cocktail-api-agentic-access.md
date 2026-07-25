@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: free-cocktail-api-openapi.yml
+- filename: free-cocktail-api-filter-api-openapi.yml
   format: yaml
-  label: Free Cocktail API
-  slug: free-cocktail-api
+  label: Free Cocktail API Filter API
+  slug: free-cocktail-api-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-filter-api-openapi.yml
+- filename: free-cocktail-api-list-api-openapi.yml
+  format: yaml
+  label: Free Cocktail API List API
+  slug: free-cocktail-api-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-list-api-openapi.yml
+- filename: free-cocktail-api-lookup-api-openapi.yml
+  format: yaml
+  label: Free Cocktail API Lookup API
+  slug: free-cocktail-api-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-lookup-api-openapi.yml
+- filename: free-cocktail-api-random-api-openapi.yml
+  format: yaml
+  label: Free Cocktail API Random API
+  slug: free-cocktail-api-random-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-random-api-openapi.yml
+- filename: free-cocktail-api-search-api-openapi.yml
+  format: yaml
+  label: Free Cocktail API Search API
+  slug: free-cocktail-api-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-search-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

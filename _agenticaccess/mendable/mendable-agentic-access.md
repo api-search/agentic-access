@@ -3,30 +3,30 @@ acting_count: 6
 action_class_counts:
   acting: 6
 api_specs:
-- filename: mendable-openapi.yml
+- filename: mendable-chat-api-openapi.yml
   format: yaml
-  label: Mendable Chat & Answers API
-  slug: mendable-chat-answers-api
+  label: Mendable Chat API
+  slug: mendable-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-openapi.yml
-- filename: mendable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-chat-api-openapi.yml
+- filename: mendable-conversations-api-openapi.yml
   format: yaml
   label: Mendable Conversations API
   slug: mendable-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-openapi.yml
-- filename: mendable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-conversations-api-openapi.yml
+- filename: mendable-ingestion-api-openapi.yml
   format: yaml
-  label: Mendable Data Ingestion & Sources API
-  slug: mendable-data-ingestion-api
+  label: Mendable Ingestion API
+  slug: mendable-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-openapi.yml
-- filename: mendable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-ingestion-api-openapi.yml
+- filename: mendable-ratings-api-openapi.yml
   format: yaml
   label: Mendable Ratings API
   slug: mendable-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/openapi/mendable-ratings-api-openapi.yml
 consequence_counts:
   write: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

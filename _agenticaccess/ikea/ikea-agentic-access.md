@@ -3,30 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: ikea-product-catalog-openapi.yml
+- filename: ikea-availability-api-openapi.yml
   format: yaml
-  label: IKEA Product Catalog API (Unofficial)
-  slug: product-catalog
+  label: IKEA Availability API
+  slug: ikea-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/main/openapi/ikea-product-catalog-openapi.yml
-- filename: ikea-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-availability-api-openapi.yml
+- filename: ikea-categories-api-openapi.yml
   format: yaml
-  label: IKEA Search API (Unofficial)
-  slug: search
+  label: IKEA Categories API
+  slug: ikea-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/main/openapi/ikea-search-openapi.yml
-- filename: ikea-sales-item-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-categories-api-openapi.yml
+- filename: ikea-parts-api-openapi.yml
   format: yaml
-  label: IKEA Sales Item API (Unofficial)
-  slug: sales-item
+  label: IKEA Parts API
+  slug: ikea-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/main/openapi/ikea-sales-item-openapi.yml
-- filename: ikea-after-purchase-ordering-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-parts-api-openapi.yml
+- filename: ikea-products-api-openapi.yml
   format: yaml
-  label: IKEA After Purchase Ordering API (Unofficial)
-  slug: after-purchase-ordering
+  label: IKEA Products API
+  slug: ikea-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/main/openapi/ikea-after-purchase-ordering-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-products-api-openapi.yml
+- filename: ikea-stores-api-openapi.yml
+  format: yaml
+  label: IKEA Stores API
+  slug: ikea-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-stores-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

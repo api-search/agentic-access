@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: g-portal-web-api.json
-  format: json
-  label: G-Portal Web API
-  slug: g-portal-web-api
+- filename: jaxa-csw-api-openapi.yml
+  format: yaml
+  label: JAXA CSW API
+  slug: jaxa-csw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/openapi/g-portal-web-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/openapi/jaxa-csw-api-openapi.yml
+- filename: jaxa-wcs-api-openapi.yml
+  format: yaml
+  label: JAXA WCS API
+  slug: jaxa-wcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/openapi/jaxa-wcs-api-openapi.yml
+- filename: jaxa-wms-api-openapi.yml
+  format: yaml
+  label: JAXA WMS API
+  slug: jaxa-wms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/openapi/jaxa-wms-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 2
   connected: 4
 api_specs:
-- filename: trino-client-api-openapi.yml
+- filename: trino-cluster-api-openapi.yml
   format: yaml
-  label: Trino Client REST API
-  slug: trino-client-api
+  label: Trino Cluster API
+  slug: trino-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/openapi/trino-client-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/openapi/trino-cluster-api-openapi.yml
+- filename: trino-queries-api-openapi.yml
+  format: yaml
+  label: Trino Queries API
+  slug: trino-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/openapi/trino-queries-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2

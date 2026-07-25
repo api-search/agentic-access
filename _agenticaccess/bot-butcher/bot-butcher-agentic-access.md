@@ -4,12 +4,18 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: bot-butcher-openapi.yml
+- filename: bot-butcher-classification-api-openapi.yml
   format: yaml
   label: Bot Butcher Classification API
   slug: bot-butcher-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/openapi/bot-butcher-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/openapi/bot-butcher-classification-api-openapi.yml
+- filename: bot-butcher-classification-api-openapi.yml
+  format: yaml
+  label: Bot Butcher Classification API
+  slug: bot-butcher-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/openapi/bot-butcher-classification-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

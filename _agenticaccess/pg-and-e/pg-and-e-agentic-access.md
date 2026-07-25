@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: pg-and-e-share-my-data-api-openapi.yml
+- filename: pg-and-e-authorization-api-openapi.yml
   format: yaml
-  label: PG&E Share My Data API
-  slug: share-my-data-api
+  label: pg-and-e Authorization API
+  slug: pg-and-e-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/openapi/pg-and-e-share-my-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/openapi/pg-and-e-authorization-api-openapi.yml
+- filename: pg-and-e-subscriptions-api-openapi.yml
+  format: yaml
+  label: pg-and-e Subscriptions API
+  slug: pg-and-e-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/openapi/pg-and-e-subscriptions-api-openapi.yml
+- filename: pg-and-e-usage-api-openapi.yml
+  format: yaml
+  label: pg-and-e Usage API
+  slug: pg-and-e-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/openapi/pg-and-e-usage-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

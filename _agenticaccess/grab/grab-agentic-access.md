@@ -3,6 +3,25 @@ acting_count: 8
 action_class_counts:
   acting: 8
   connected: 4
+api_specs:
+- filename: grab-grabexpress-api-openapi.yml
+  format: yaml
+  label: Grab GrabExpress API
+  slug: grab-grabexpress-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabexpress-api-openapi.yml
+- filename: grab-grabid-api-openapi.yml
+  format: yaml
+  label: Grab GrabID API
+  slug: grab-grabid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabid-api-openapi.yml
+- filename: grab-grabpay-api-openapi.yml
+  format: yaml
+  label: Grab GrabPay API
+  slug: grab-grabpay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabpay-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 4

@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: preply-openapi-original.json
-  format: json
-  label: Preply Plugin API
-  slug: preply-plugin-api
+- filename: preply-chatgpt-openapi-api-openapi.yml
+  format: yaml
+  label: Preply Chatgpt Openapi API
+  slug: preply-chatgpt-openapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/openapi/preply-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/preply/refs/heads/main/openapi/preply-chatgpt-openapi-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

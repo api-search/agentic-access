@@ -4,12 +4,36 @@ action_class_counts:
   acting: 13
   connected: 12
 api_specs:
-- filename: disqus-openapi.yml
+- filename: disqus-categories-api-openapi.yml
   format: yaml
-  label: Disqus Public API
-  slug: public-api
+  label: Disqus Categories API
+  slug: disqus-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-categories-api-openapi.yml
+- filename: disqus-forums-api-openapi.yml
+  format: yaml
+  label: Disqus Forums API
+  slug: disqus-forums-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-forums-api-openapi.yml
+- filename: disqus-posts-api-openapi.yml
+  format: yaml
+  label: Disqus Posts API
+  slug: disqus-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-posts-api-openapi.yml
+- filename: disqus-threads-api-openapi.yml
+  format: yaml
+  label: Disqus Threads API
+  slug: disqus-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-threads-api-openapi.yml
+- filename: disqus-users-api-openapi.yml
+  format: yaml
+  label: Disqus Users API
+  slug: disqus-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-users-api-openapi.yml
 consequence_counts:
   read: 12
   write: 13

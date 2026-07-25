@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: starwood-hotel-search-openapi.yml
+- filename: starwood-hotels-and-resorts-availability-api-openapi.yml
   format: yaml
-  label: Hotel Search API
-  slug: hotel-search-api
+  label: Starwood Hotels and Resorts Availability API
+  slug: starwood-hotels-and-resorts-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotel-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-availability-api-openapi.yml
+- filename: starwood-hotels-and-resorts-hotels-api-openapi.yml
+  format: yaml
+  label: Starwood Hotels and Resorts Hotels API
+  slug: starwood-hotels-and-resorts-hotels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-hotels-api-openapi.yml
+- filename: starwood-hotels-and-resorts-properties-api-openapi.yml
+  format: yaml
+  label: Starwood Hotels and Resorts Properties API
+  slug: starwood-hotels-and-resorts-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/openapi/starwood-hotels-and-resorts-properties-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: orders-api-openapi.yml
+- filename: orders-api-orders-api-openapi.yml
   format: yaml
-  label: Orders API.
-  slug: orders-api
+  label: Orders Orders API
+  slug: orders-api-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-orders/refs/heads/main/openapi/orders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-orders/refs/heads/main/openapi/orders-api-orders-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 2

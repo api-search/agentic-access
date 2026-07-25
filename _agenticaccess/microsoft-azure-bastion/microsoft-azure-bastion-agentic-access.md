@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 4
 api_specs:
-- filename: microsoft-azure-bastion-openapi.yml
+- filename: microsoft-azure-bastion-bastion-hosts-api-openapi.yml
   format: yaml
-  label: Azure Bastion REST API
-  slug: rest-api
+  label: Azure Bastion Bastion Hosts API
+  slug: microsoft-azure-bastion-bastion-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-bastion/refs/heads/main/openapi/microsoft-azure-bastion-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-bastion/refs/heads/main/openapi/microsoft-azure-bastion-bastion-hosts-api-openapi.yml
+- filename: microsoft-azure-bastion-operations-api-openapi.yml
+  format: yaml
+  label: Azure Bastion Operations API
+  slug: microsoft-azure-bastion-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-bastion/refs/heads/main/openapi/microsoft-azure-bastion-operations-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

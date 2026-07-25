@@ -3,12 +3,30 @@ acting_count: 13
 action_class_counts:
   acting: 13
 api_specs:
-- filename: api-2.json
-  format: json
-  label: AWS HealthLake Data Store Management API
-  slug: aws-healthlake-data-store-management-api
+- filename: aws-healthlake-datastore-api-openapi.yml
+  format: yaml
+  label: AWS HealthLake Datastore API
+  slug: aws-healthlake-datastore-api
   spec_type: OpenAPI
-  url: https://github.com/aws/aws-sdk/blob/main/apis/healthlake/2017-07-01/api-2.json
+  url: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/openapi/aws-healthlake-datastore-api-openapi.yml
+- filename: aws-healthlake-export-api-openapi.yml
+  format: yaml
+  label: AWS HealthLake Export API
+  slug: aws-healthlake-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/openapi/aws-healthlake-export-api-openapi.yml
+- filename: aws-healthlake-import-api-openapi.yml
+  format: yaml
+  label: AWS HealthLake Import API
+  slug: aws-healthlake-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/openapi/aws-healthlake-import-api-openapi.yml
+- filename: aws-healthlake-tags-api-openapi.yml
+  format: yaml
+  label: AWS HealthLake Tags API
+  slug: aws-healthlake-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/openapi/aws-healthlake-tags-api-openapi.yml
 consequence_counts:
   write: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 8
   connected: 8
 api_specs:
-- filename: harbin-institute-of-technology-pure.yaml
+- filename: harbin-institute-of-technology-person-api-openapi.yml
   format: yaml
-  label: HIT Research Portal OAI-PMH
-  slug: pure-oai-pmh
+  label: Harbin Institute of Technology person API
+  slug: harbin-institute-of-technology-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbin-institute-of-technology/refs/heads/main/openapi/harbin-institute-of-technology-pure.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/harbin-institute-of-technology/refs/heads/main/openapi/harbin-institute-of-technology-person-api-openapi.yml
+- filename: harbin-institute-of-technology-researchoutput-api-openapi.yml
+  format: yaml
+  label: Harbin Institute of Technology researchOutput API
+  slug: harbin-institute-of-technology-researchoutput-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbin-institute-of-technology/refs/heads/main/openapi/harbin-institute-of-technology-researchoutput-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8

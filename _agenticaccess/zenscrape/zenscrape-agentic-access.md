@@ -3,18 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: zenscrape-openapi.yml
-  format: yaml
-  label: Zenscrape Scrape API
-  slug: zenscrape-scrape-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/openapi/zenscrape-openapi.yml
-- filename: zenscrape-openapi.yml
+- filename: zenscrape-account-api-openapi.yml
   format: yaml
   label: Zenscrape Account API
   slug: zenscrape-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/openapi/zenscrape-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/openapi/zenscrape-account-api-openapi.yml
+- filename: zenscrape-scrape-api-openapi.yml
+  format: yaml
+  label: Zenscrape Scrape API
+  slug: zenscrape-scrape-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/openapi/zenscrape-scrape-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

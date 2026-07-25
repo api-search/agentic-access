@@ -4,12 +4,24 @@ action_class_counts:
   acting: 4
   connected: 4
 api_specs:
-- filename: protectai-openapi.yml
+- filename: protectai-output-api-openapi.yml
   format: yaml
-  label: LLM Guard (Scanners)
-  slug: llm-guard-scanners
+  label: Protect AI Output API
+  slug: protectai-output-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/openapi/protectai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/openapi/protectai-output-api-openapi.yml
+- filename: protectai-prompt-api-openapi.yml
+  format: yaml
+  label: Protect AI Prompt API
+  slug: protectai-prompt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/openapi/protectai-prompt-api-openapi.yml
+- filename: protectai-system-api-openapi.yml
+  format: yaml
+  label: Protect AI System API
+  slug: protectai-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/protectai/refs/heads/main/openapi/protectai-system-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4

@@ -3,48 +3,42 @@ acting_count: 7
 action_class_counts:
   acting: 7
 api_specs:
-- filename: sarvam-ai-openapi.yml
+- filename: sarvam-ai-chat-api-openapi.yml
   format: yaml
-  label: Sarvam AI Chat Completions (LLM) API
-  slug: sarvam-ai-chat-completions-api
+  label: Sarvam AI Chat API
+  slug: sarvam-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-openapi.yml
-- filename: sarvam-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-chat-api-openapi.yml
+- filename: sarvam-ai-language-identification-api-openapi.yml
   format: yaml
-  label: Sarvam AI Speech-to-Text API
+  label: Sarvam AI Language Identification API
+  slug: sarvam-ai-language-identification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-language-identification-api-openapi.yml
+- filename: sarvam-ai-speech-to-text-api-openapi.yml
+  format: yaml
+  label: Sarvam AI Speech to Text API
   slug: sarvam-ai-speech-to-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-openapi.yml
-- filename: sarvam-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-speech-to-text-api-openapi.yml
+- filename: sarvam-ai-text-to-speech-api-openapi.yml
   format: yaml
-  label: Sarvam AI Speech-to-Text Translate API
-  slug: sarvam-ai-speech-to-text-translate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-openapi.yml
-- filename: sarvam-ai-openapi.yml
-  format: yaml
-  label: Sarvam AI Text-to-Speech API
+  label: Sarvam AI Text to Speech API
   slug: sarvam-ai-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-openapi.yml
-- filename: sarvam-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-text-to-speech-api-openapi.yml
+- filename: sarvam-ai-translate-api-openapi.yml
   format: yaml
   label: Sarvam AI Translate API
   slug: sarvam-ai-translate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-openapi.yml
-- filename: sarvam-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-translate-api-openapi.yml
+- filename: sarvam-ai-transliterate-api-openapi.yml
   format: yaml
   label: Sarvam AI Transliterate API
   slug: sarvam-ai-transliterate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-openapi.yml
-- filename: sarvam-ai-openapi.yml
-  format: yaml
-  label: Sarvam AI Language Identification API
-  slug: sarvam-ai-language-id-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/openapi/sarvam-ai-transliterate-api-openapi.yml
 consequence_counts:
   write: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

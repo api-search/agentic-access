@@ -3,12 +3,12 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: blocktorch-hardhat-forking-openapi.yml
+- filename: blocktorch-hardhat-api-openapi.yml
   format: yaml
-  label: Blocktorch Hardhat Forking API
-  slug: blocktorch-hardhat-forking-api
+  label: Blocktorch Hardhat API
+  slug: blocktorch-hardhat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blocktorch/refs/heads/main/openapi/blocktorch-hardhat-forking-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blocktorch/refs/heads/main/openapi/blocktorch-hardhat-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

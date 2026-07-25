@@ -4,12 +4,12 @@ action_class_counts:
   acting: 5
   connected: 4
 api_specs:
-- filename: capchase-pay-openapi.yml
+- filename: capchase-pay-api-openapi.yml
   format: yaml
   label: Capchase Pay API
   slug: capchase-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/openapi/capchase-pay-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/openapi/capchase-pay-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 5

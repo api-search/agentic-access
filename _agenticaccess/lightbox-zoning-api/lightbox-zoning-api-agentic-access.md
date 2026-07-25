@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: lightbox-zoning-api-openapi.yml
+- filename: lightbox-zoning-api-zoning-api-openapi.yml
   format: yaml
-  label: LightBox Zoning API
-  slug: lightbox-zoning-api
+  label: LightBox Zoning API Zoning API
+  slug: lightbox-zoning-api-zoning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightbox-zoning-api/refs/heads/main/openapi/lightbox-zoning-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lightbox-zoning-api/refs/heads/main/openapi/lightbox-zoning-api-zoning-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

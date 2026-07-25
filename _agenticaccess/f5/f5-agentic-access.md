@@ -3,6 +3,13 @@ acting_count: 12
 action_class_counts:
   acting: 12
   connected: 9
+api_specs:
+- filename: f5-mgmt-api-openapi.yml
+  format: yaml
+  label: F5 Mgmt API
+  slug: f5-mgmt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-mgmt-api-openapi.yml
 consequence_counts:
   read: 9
   write: 12

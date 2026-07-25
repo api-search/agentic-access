@@ -3,24 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: elsa-openapi.yml
+- filename: elsa-scripted-api-openapi.yml
   format: yaml
-  label: ELSA Pronunciation Assessment API (Scripted)
-  slug: elsa-pronunciation-assessment-api
+  label: ELSA Scripted API
+  slug: elsa-scripted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsa/refs/heads/main/openapi/elsa-openapi.yml
-- filename: elsa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elsa/refs/heads/main/openapi/elsa-scripted-api-openapi.yml
+- filename: elsa-unscripted-api-openapi.yml
   format: yaml
-  label: ELSA Realtime Streaming Speech API
-  slug: elsa-realtime-streaming-speech-api
+  label: ELSA Unscripted API
+  slug: elsa-unscripted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsa/refs/heads/main/openapi/elsa-openapi.yml
-- filename: elsa-openapi.yml
-  format: yaml
-  label: ELSA Unscripted Speech Assessment API
-  slug: elsa-unscripted-speech-assessment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elsa/refs/heads/main/openapi/elsa-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/elsa/refs/heads/main/openapi/elsa-unscripted-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

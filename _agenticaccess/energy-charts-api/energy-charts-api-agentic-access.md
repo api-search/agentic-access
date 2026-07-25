@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 17
 api_specs:
-- filename: energy-charts-api-openapi.yml
+- filename: energy-charts-api-import-export-api-openapi.yml
   format: yaml
-  label: Energy Charts API
-  slug: energy-charts-api
+  label: Energy Charts API import_export API
+  slug: energy-charts-api-import-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-import-export-api-openapi.yml
+- filename: energy-charts-api-power-api-openapi.yml
+  format: yaml
+  label: Energy Charts API power API
+  slug: energy-charts-api-power-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-power-api-openapi.yml
+- filename: energy-charts-api-prices-api-openapi.yml
+  format: yaml
+  label: Energy Charts API prices API
+  slug: energy-charts-api-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-prices-api-openapi.yml
+- filename: energy-charts-api-ren-share-api-openapi.yml
+  format: yaml
+  label: Energy Charts API ren_share API
+  slug: energy-charts-api-ren-share-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-ren-share-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

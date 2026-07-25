@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: rapidoc-rapidoc-openapi.yml
+- filename: rapidoc-configuration-api-openapi.yml
   format: yaml
-  label: RapiDoc
-  slug: rapidoc
+  label: RapiDoc Configuration API
+  slug: rapidoc-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rapidoc/refs/heads/main/openapi/rapidoc-rapidoc-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rapidoc/refs/heads/main/openapi/rapidoc-configuration-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

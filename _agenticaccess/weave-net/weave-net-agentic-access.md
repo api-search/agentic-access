@@ -4,12 +4,36 @@ action_class_counts:
   acting: 9
   connected: 4
 api_specs:
-- filename: weave-net-openapi.yml
+- filename: weave-net-dns-api-openapi.yml
   format: yaml
-  label: Weave Net HTTP API
-  slug: weave-net-http-api
+  label: Weave Net DNS API
+  slug: weave-net-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/openapi/weave-net-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/openapi/weave-net-dns-api-openapi.yml
+- filename: weave-net-ipam-api-openapi.yml
+  format: yaml
+  label: Weave Net IPAM API
+  slug: weave-net-ipam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/openapi/weave-net-ipam-api-openapi.yml
+- filename: weave-net-network-api-openapi.yml
+  format: yaml
+  label: Weave Net Network API
+  slug: weave-net-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/openapi/weave-net-network-api-openapi.yml
+- filename: weave-net-peers-api-openapi.yml
+  format: yaml
+  label: Weave Net Peers API
+  slug: weave-net-peers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/openapi/weave-net-peers-api-openapi.yml
+- filename: weave-net-status-api-openapi.yml
+  format: yaml
+  label: Weave Net Status API
+  slug: weave-net-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/openapi/weave-net-status-api-openapi.yml
 consequence_counts:
   read: 4
   write: 9

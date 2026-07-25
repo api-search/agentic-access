@@ -4,12 +4,24 @@ action_class_counts:
   acting: 1
   connected: 3
 api_specs:
-- filename: energy-transfer-messenger-api-openapi.yml
+- filename: energy-transfer-nominations-api-openapi.yml
   format: yaml
-  label: Energy Transfer Messenger+ API
-  slug: messenger-api
+  label: Energy Transfer Nominations API
+  slug: energy-transfer-nominations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/openapi/energy-transfer-messenger-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/openapi/energy-transfer-nominations-api-openapi.yml
+- filename: energy-transfer-pipelines-api-openapi.yml
+  format: yaml
+  label: Energy Transfer Pipelines API
+  slug: energy-transfer-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/openapi/energy-transfer-pipelines-api-openapi.yml
+- filename: energy-transfer-schedules-api-openapi.yml
+  format: yaml
+  label: Energy Transfer Schedules API
+  slug: energy-transfer-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/openapi/energy-transfer-schedules-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1

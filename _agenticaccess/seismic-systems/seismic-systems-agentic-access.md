@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: seismic-systems-src20-factory-openapi.yml
+- filename: seismic-systems-tokens-api-openapi.yml
   format: yaml
-  label: Seismic
-  slug: seismic
+  label: Seismic Systems tokens API
+  slug: seismic-systems-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seismic-systems/refs/heads/main/openapi/seismic-systems-src20-factory-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/seismic-systems/refs/heads/main/openapi/seismic-systems-tokens-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

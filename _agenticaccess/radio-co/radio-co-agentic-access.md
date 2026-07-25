@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: radio-co-openapi.yml
+- filename: radio-co-station-api-openapi.yml
   format: yaml
-  label: Radio.co
-  slug: radio-co
+  label: Radio.co Station API
+  slug: radio-co-station-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-co/refs/heads/main/openapi/radio-co-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/radio-co/refs/heads/main/openapi/radio-co-station-api-openapi.yml
+- filename: radio-co-track-api-openapi.yml
+  format: yaml
+  label: Radio.co Track API
+  slug: radio-co-track-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radio-co/refs/heads/main/openapi/radio-co-track-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: cirrus-identity-log-api-openapi.json
-  format: json
-  label: Cirrus Identity Log API
-  slug: cirrus-identity-log-api
+- filename: cirrus-identity-endpoints-api-openapi.yml
+  format: yaml
+  label: Cirrus Identity endpoints API
+  slug: cirrus-identity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/openapi/cirrus-identity-log-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/openapi/cirrus-identity-endpoints-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

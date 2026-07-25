@@ -2,6 +2,49 @@
 acting_count: 0
 action_class_counts:
   connected: 31
+api_specs:
+- filename: synthetix-escrowed-balance-api-openapi.yml
+  format: yaml
+  label: Synthetix escrowed-balance API
+  slug: synthetix-escrowed-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-escrowed-balance-api-openapi.yml
+- filename: synthetix-health-check-api-openapi.yml
+  format: yaml
+  label: Synthetix health-check API
+  slug: synthetix-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-health-check-api-openapi.yml
+- filename: synthetix-staking-api-openapi.yml
+  format: yaml
+  label: Synthetix staking API
+  slug: synthetix-staking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-staking-api-openapi.yml
+- filename: synthetix-stats-api-openapi.yml
+  format: yaml
+  label: Synthetix stats API
+  slug: synthetix-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-stats-api-openapi.yml
+- filename: synthetix-supply-api-openapi.yml
+  format: yaml
+  label: Synthetix supply API
+  slug: synthetix-supply-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-supply-api-openapi.yml
+- filename: synthetix-v3-api-openapi.yml
+  format: yaml
+  label: Synthetix v3 API
+  slug: synthetix-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-v3-api-openapi.yml
+- filename: synthetix-vested-balance-api-openapi.yml
+  format: yaml
+  label: Synthetix vested-balance API
+  slug: synthetix-vested-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/openapi/synthetix-vested-balance-api-openapi.yml
 consequence_counts:
   read: 31
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Open States API v3
-  slug: openstates-api-v3
+- filename: openstates-bills-api-openapi.yml
+  format: yaml
+  label: Open States bills API
+  slug: openstates-bills-api
   spec_type: OpenAPI
-  url: https://v3.openstates.org/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-bills-api-openapi.yml
+- filename: openstates-committees-api-openapi.yml
+  format: yaml
+  label: Open States committees API
+  slug: openstates-committees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-committees-api-openapi.yml
+- filename: openstates-events-api-openapi.yml
+  format: yaml
+  label: Open States events API
+  slug: openstates-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-events-api-openapi.yml
+- filename: openstates-jurisdictions-api-openapi.yml
+  format: yaml
+  label: Open States jurisdictions API
+  slug: openstates-jurisdictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-jurisdictions-api-openapi.yml
+- filename: openstates-metrics-api-openapi.yml
+  format: yaml
+  label: Open States Metrics API
+  slug: openstates-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-metrics-api-openapi.yml
+- filename: openstates-people-api-openapi.yml
+  format: yaml
+  label: Open States people API
+  slug: openstates-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/openapi/openstates-people-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: piscescsm-openapi.yml
+- filename: piscescsm-predict-api-openapi.yml
   format: yaml
-  label: piscesCSM
-  slug: piscescsm
+  label: piscesCSM Predict API
+  slug: piscescsm-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/piscescsm/refs/heads/main/openapi/piscescsm-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/piscescsm/refs/heads/main/openapi/piscescsm-predict-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

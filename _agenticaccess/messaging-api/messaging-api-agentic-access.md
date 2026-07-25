@@ -4,12 +4,12 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: messaging-api-openapi.yml
+- filename: messaging-api-messages-api-openapi.yml
   format: yaml
   label: Messaging API Messages API
-  slug: messages-api
+  slug: messaging-api-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messaging-api/refs/heads/main/openapi/messaging-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/messaging-api/refs/heads/main/openapi/messaging-api-messages-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 2

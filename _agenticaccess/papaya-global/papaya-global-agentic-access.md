@@ -4,12 +4,36 @@ action_class_counts:
   acting: 20
   connected: 12
 api_specs:
-- filename: papaya-global-workforce-payments-api.yml
+- filename: papaya-global-authentication-api-openapi.yml
   format: yaml
-  label: Papaya Global Workforce Payments API
-  slug: workforce-payments-api
+  label: Papaya Global Authentication API
+  slug: papaya-global-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/openapi/papaya-global-workforce-payments-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/openapi/papaya-global-authentication-api-openapi.yml
+- filename: papaya-global-beneficiaries-api-openapi.yml
+  format: yaml
+  label: Papaya Global Beneficiaries API
+  slug: papaya-global-beneficiaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/openapi/papaya-global-beneficiaries-api-openapi.yml
+- filename: papaya-global-groups-api-openapi.yml
+  format: yaml
+  label: Papaya Global Groups API
+  slug: papaya-global-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/openapi/papaya-global-groups-api-openapi.yml
+- filename: papaya-global-payments-api-openapi.yml
+  format: yaml
+  label: Papaya Global Payments API
+  slug: papaya-global-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/openapi/papaya-global-payments-api-openapi.yml
+- filename: papaya-global-wallets-api-openapi.yml
+  format: yaml
+  label: Papaya Global Wallets API
+  slug: papaya-global-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/openapi/papaya-global-wallets-api-openapi.yml
 consequence_counts:
   physical: 19
   read: 12

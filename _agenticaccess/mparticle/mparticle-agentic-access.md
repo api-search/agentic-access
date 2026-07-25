@@ -3,12 +3,18 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: mparticle-openapi.yml
+- filename: mparticle-bulkevents-api-openapi.yml
+  format: yaml
+  label: mParticle Bulkevents API
+  slug: mparticle-bulkevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-bulkevents-api-openapi.yml
+- filename: mparticle-events-api-openapi.yml
   format: yaml
   label: mParticle Events API
-  slug: events-api
+  slug: mparticle-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-events-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

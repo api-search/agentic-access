@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: bfe-management-api.yaml
+- filename: bfe-debug-api-openapi.yml
   format: yaml
-  label: BFE Management API
-  slug: bfe-management-api
+  label: BFE Debug API
+  slug: bfe-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-management-api.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-debug-api-openapi.yml
+- filename: bfe-monitor-api-openapi.yml
+  format: yaml
+  label: BFE Monitor API
+  slug: bfe-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-monitor-api-openapi.yml
+- filename: bfe-reload-api-openapi.yml
+  format: yaml
+  label: BFE Reload API
+  slug: bfe-reload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-reload-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

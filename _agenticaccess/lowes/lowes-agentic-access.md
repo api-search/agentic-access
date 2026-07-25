@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: lowes-product-api-openapi.yml
+- filename: lowes-inventory-api-openapi.yml
   format: yaml
-  label: Lowe's Product API
-  slug: product-api
+  label: Lowe's Inventory API
+  slug: lowes-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/openapi/lowes-product-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/openapi/lowes-inventory-api-openapi.yml
+- filename: lowes-products-api-openapi.yml
+  format: yaml
+  label: Lowe's Products API
+  slug: lowes-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/openapi/lowes-products-api-openapi.yml
+- filename: lowes-stores-api-openapi.yml
+  format: yaml
+  label: Lowe's Stores API
+  slug: lowes-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/openapi/lowes-stores-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

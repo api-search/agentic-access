@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: openapi.yml
+- filename: freecurrencyapi-currencies-api-openapi.yml
   format: yaml
-  label: Free Currency API
-  slug: freecurrencyapi
+  label: Free Currency API Currencies API
+  slug: freecurrencyapi-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-currencies-api-openapi.yml
+- filename: freecurrencyapi-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Free Currency API Exchange Rates API
+  slug: freecurrencyapi-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-exchange-rates-api-openapi.yml
+- filename: freecurrencyapi-status-api-openapi.yml
+  format: yaml
+  label: Free Currency API Status API
+  slug: freecurrencyapi-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/openapi/freecurrencyapi-status-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

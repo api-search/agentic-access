@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: quiver-openapi.yml
+- filename: quiver-beta-api-openapi.yml
   format: yaml
-  label: Quiver Quantitative API
-  slug: quiver
+  label: Quiver Quantitative Beta API
+  slug: quiver-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/openapi/quiver-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/openapi/quiver-beta-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,18 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: themuse-openapi.yml
-  format: yaml
-  label: The Muse Jobs API
-  slug: themuse-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/themuse/refs/heads/main/openapi/themuse-openapi.yml
-- filename: themuse-openapi.yml
+- filename: themuse-companies-api-openapi.yml
   format: yaml
   label: The Muse Companies API
   slug: themuse-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/themuse/refs/heads/main/openapi/themuse-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/themuse/refs/heads/main/openapi/themuse-companies-api-openapi.yml
+- filename: themuse-jobs-api-openapi.yml
+  format: yaml
+  label: The Muse Jobs API
+  slug: themuse-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/themuse/refs/heads/main/openapi/themuse-jobs-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

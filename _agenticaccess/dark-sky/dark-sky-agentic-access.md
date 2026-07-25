@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: openapi.yml
+- filename: dark-sky-forecast-api-openapi.yml
   format: yaml
   label: Dark Sky Forecast API
   slug: dark-sky-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/openapi/dark-sky-forecast-api-openapi.yml
+- filename: dark-sky-time-machine-api-openapi.yml
+  format: yaml
+  label: Dark Sky Time Machine API
+  slug: dark-sky-time-machine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/openapi/dark-sky-time-machine-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,24 +3,24 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: idex-onsite-full-feed-api-openapi.yml
+- filename: diamond-search-fullfeed-api-openapi.yml
   format: yaml
-  label: IDEX Onsite Full Feed API
-  slug: idex-onsite-full-feed-api
+  label: Diamond Search Fullfeed API
+  slug: diamond-search-fullfeed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/openapi/idex-onsite-full-feed-api-openapi.yml
-- filename: idex-lab-grown-file-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/openapi/diamond-search-fullfeed-api-openapi.yml
+- filename: diamond-search-getreport3-api-openapi.yml
   format: yaml
-  label: IDEX Lab Grown File API
-  slug: idex-lab-grown-file-api
+  label: Diamond Search Getreport3 API
+  slug: diamond-search-getreport3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/openapi/idex-lab-grown-file-api-openapi.yml
-- filename: idex-data-report-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/openapi/diamond-search-getreport3-api-openapi.yml
+- filename: diamond-search-labgrownfullfile-api-openapi.yml
   format: yaml
-  label: IDEX Data Report API
-  slug: idex-data-report-api
+  label: Diamond Search Labgrownfullfile API
+  slug: diamond-search-labgrownfullfile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/openapi/idex-data-report-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/openapi/diamond-search-labgrownfullfile-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

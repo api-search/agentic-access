@@ -4,12 +4,12 @@ action_class_counts:
   acting: 2
   connected: 1
 api_specs:
-- filename: narvar-order-openapi.yml
+- filename: narvar-orders-api-openapi.yml
   format: yaml
-  label: Narvar Order API
-  slug: narvar-order-api
+  label: Narvar Orders API
+  slug: narvar-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/openapi/narvar-order-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/openapi/narvar-orders-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 1

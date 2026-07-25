@@ -2,6 +2,91 @@
 acting_count: 0
 action_class_counts:
   connected: 9
+api_specs:
+- filename: open-library-search-api-openapi.yml
+  format: yaml
+  label: Open Library Search API
+  slug: open-library-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-search-api-openapi.yml
+- filename: open-library-works-api-openapi.yml
+  format: yaml
+  label: Open Library Works API
+  slug: open-library-works-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-works-api-openapi.yml
+- filename: open-library-editions-api-openapi.yml
+  format: yaml
+  label: Open Library Editions API
+  slug: open-library-editions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-editions-api-openapi.yml
+- filename: open-library-authors-api-openapi.yml
+  format: yaml
+  label: Open Library Authors API
+  slug: open-library-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-authors-api-openapi.yml
+- filename: open-library-subjects-api-openapi.yml
+  format: yaml
+  label: Open Library Subjects API
+  slug: open-library-subjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-subjects-api-openapi.yml
+- filename: open-library-lists-api-openapi.yml
+  format: yaml
+  label: Open Library Lists API
+  slug: open-library-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-lists-api-openapi.yml
+- filename: open-library-authors-api-openapi.yml
+  format: yaml
+  label: Open Library Authors API
+  slug: open-library-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-authors-api-openapi.yml
+- filename: open-library-editions-api-openapi.yml
+  format: yaml
+  label: Open Library Editions API
+  slug: open-library-editions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-editions-api-openapi.yml
+- filename: open-library-lists-api-openapi.yml
+  format: yaml
+  label: Open Library Lists API
+  slug: open-library-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-lists-api-openapi.yml
+- filename: open-library-recentchanges-json-api-openapi.yml
+  format: yaml
+  label: Open Library Recentchanges.json API
+  slug: open-library-recentchanges-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-recentchanges-json-api-openapi.yml
+- filename: open-library-search-api-openapi.yml
+  format: yaml
+  label: Open Library Search API
+  slug: open-library-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-search-api-openapi.yml
+- filename: open-library-search-json-api-openapi.yml
+  format: yaml
+  label: Open Library Search.json API
+  slug: open-library-search-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-search-json-api-openapi.yml
+- filename: open-library-subjects-api-openapi.yml
+  format: yaml
+  label: Open Library Subjects API
+  slug: open-library-subjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-subjects-api-openapi.yml
+- filename: open-library-works-api-openapi.yml
+  format: yaml
+  label: Open Library Works API
+  slug: open-library-works-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/openapi/open-library-works-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

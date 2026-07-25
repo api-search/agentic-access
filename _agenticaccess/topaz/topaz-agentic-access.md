@@ -4,30 +4,36 @@ action_class_counts:
   acting: 8
   connected: 7
 api_specs:
-- filename: topaz-openapi.yml
+- filename: topaz-authorizer-api-openapi.yml
   format: yaml
   label: Topaz Authorizer API
   slug: topaz-authorizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-openapi.yml
-- filename: topaz-openapi.yml
-  format: yaml
-  label: Topaz Directory Objects API
-  slug: topaz-directory-objects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-openapi.yml
-- filename: topaz-openapi.yml
-  format: yaml
-  label: Topaz Directory Relations API
-  slug: topaz-directory-relations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-openapi.yml
-- filename: topaz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-authorizer-api-openapi.yml
+- filename: topaz-directory-checks-api-openapi.yml
   format: yaml
   label: Topaz Directory Checks API
   slug: topaz-directory-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-directory-checks-api-openapi.yml
+- filename: topaz-directory-objects-api-openapi.yml
+  format: yaml
+  label: Topaz Directory Objects API
+  slug: topaz-directory-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-directory-objects-api-openapi.yml
+- filename: topaz-directory-relations-api-openapi.yml
+  format: yaml
+  label: Topaz Directory Relations API
+  slug: topaz-directory-relations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-directory-relations-api-openapi.yml
+- filename: topaz-policies-api-openapi.yml
+  format: yaml
+  label: Topaz Policies API
+  slug: topaz-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/openapi/topaz-policies-api-openapi.yml
 consequence_counts:
   read: 7
   write: 8

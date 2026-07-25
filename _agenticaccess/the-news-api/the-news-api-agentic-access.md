@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: the-news-api-openapi.yml
+- filename: the-news-api-all-news-api-openapi.yml
   format: yaml
-  label: The News API
-  slug: the-news-api
+  label: The News API All News API
+  slug: the-news-api-all-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-all-news-api-openapi.yml
+- filename: the-news-api-articles-api-openapi.yml
+  format: yaml
+  label: The News API Articles API
+  slug: the-news-api-articles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-articles-api-openapi.yml
+- filename: the-news-api-headlines-api-openapi.yml
+  format: yaml
+  label: The News API Headlines API
+  slug: the-news-api-headlines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-headlines-api-openapi.yml
+- filename: the-news-api-similar-news-api-openapi.yml
+  format: yaml
+  label: The News API Similar News API
+  slug: the-news-api-similar-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-similar-news-api-openapi.yml
+- filename: the-news-api-sources-api-openapi.yml
+  format: yaml
+  label: The News API Sources API
+  slug: the-news-api-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-sources-api-openapi.yml
+- filename: the-news-api-top-stories-api-openapi.yml
+  format: yaml
+  label: The News API Top Stories API
+  slug: the-news-api-top-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/openapi/the-news-api-top-stories-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

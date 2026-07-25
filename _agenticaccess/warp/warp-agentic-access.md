@@ -4,12 +4,24 @@ action_class_counts:
   acting: 12
   connected: 16
 api_specs:
-- filename: warp-oz-agent-api-openapi.yml
+- filename: warp-agent-api-openapi.yml
   format: yaml
-  label: Warp Oz Agent API
-  slug: oz-agent-api
+  label: Warp agent API
+  slug: warp-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-oz-agent-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-agent-api-openapi.yml
+- filename: warp-harness-support-api-openapi.yml
+  format: yaml
+  label: Warp harness-support API
+  slug: warp-harness-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-harness-support-api-openapi.yml
+- filename: warp-schedules-api-openapi.yml
+  format: yaml
+  label: Warp schedules API
+  slug: warp-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/openapi/warp-schedules-api-openapi.yml
 consequence_counts:
   read: 16
   write: 12

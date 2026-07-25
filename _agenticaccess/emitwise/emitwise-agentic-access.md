@@ -4,12 +4,36 @@ action_class_counts:
   acting: 2
   connected: 5
 api_specs:
-- filename: emitwise-api-openapi.yml
+- filename: emitwise-facilities-api-openapi.yml
   format: yaml
-  label: Emitwise API
-  slug: emitwise-api
+  label: Emitwise Facilities API
+  slug: emitwise-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/openapi/emitwise-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/openapi/emitwise-facilities-api-openapi.yml
+- filename: emitwise-files-api-openapi.yml
+  format: yaml
+  label: Emitwise Files API
+  slug: emitwise-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/openapi/emitwise-files-api-openapi.yml
+- filename: emitwise-projects-api-openapi.yml
+  format: yaml
+  label: Emitwise Projects API
+  slug: emitwise-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/openapi/emitwise-projects-api-openapi.yml
+- filename: emitwise-schema-api-openapi.yml
+  format: yaml
+  label: Emitwise Schema API
+  slug: emitwise-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/openapi/emitwise-schema-api-openapi.yml
+- filename: emitwise-suppliers-api-openapi.yml
+  format: yaml
+  label: Emitwise Suppliers API
+  slug: emitwise-suppliers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/openapi/emitwise-suppliers-api-openapi.yml
 consequence_counts:
   read: 5
   write: 2

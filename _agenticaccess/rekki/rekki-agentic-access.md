@@ -4,12 +4,36 @@ action_class_counts:
   acting: 27
   connected: 5
 api_specs:
-- filename: rekki-supplier-api-openapi-original.json
-  format: json
-  label: REKKI Supplier API
-  slug: rekki-supplier-api
+- filename: rekki-catalog-api-openapi.yml
+  format: yaml
+  label: REKKI catalog API
+  slug: rekki-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-supplier-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-catalog-api-openapi.yml
+- filename: rekki-connect-customers-api-openapi.yml
+  format: yaml
+  label: REKKI connect_customers API
+  slug: rekki-connect-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-connect-customers-api-openapi.yml
+- filename: rekki-general-api-openapi.yml
+  format: yaml
+  label: REKKI general API
+  slug: rekki-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-general-api-openapi.yml
+- filename: rekki-order-guide-api-openapi.yml
+  format: yaml
+  label: REKKI order-guide API
+  slug: rekki-order-guide-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-order-guide-api-openapi.yml
+- filename: rekki-orders-api-openapi.yml
+  format: yaml
+  label: REKKI orders API
+  slug: rekki-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-orders-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 5

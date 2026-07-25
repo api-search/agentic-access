@@ -3,12 +3,24 @@ acting_count: 3
 action_class_counts:
   acting: 3
 api_specs:
-- filename: agentql-openapi.yaml
+- filename: agentql-query-data-api-openapi.yml
   format: yaml
   label: AgentQL Query Data API
-  slug: query-data-api
+  slug: agentql-query-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-query-data-api-openapi.yml
+- filename: agentql-query-document-api-openapi.yml
+  format: yaml
+  label: AgentQL Query Document API
+  slug: agentql-query-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-query-document-api-openapi.yml
+- filename: agentql-remote-browser-api-openapi.yml
+  format: yaml
+  label: AgentQL Remote Browser API
+  slug: agentql-remote-browser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-remote-browser-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

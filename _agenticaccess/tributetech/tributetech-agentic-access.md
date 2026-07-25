@@ -4,24 +4,24 @@ action_class_counts:
   acting: 3
   connected: 5
 api_specs:
-- filename: tributetech-openapi.yml
+- filename: tributetech-authentication-api-openapi.yml
   format: yaml
-  label: Tribute Store Authentication API
+  label: Tribute Technology Authentication API
   slug: tributetech-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/openapi/tributetech-openapi.yml
-- filename: tributetech-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/openapi/tributetech-authentication-api-openapi.yml
+- filename: tributetech-obituaries-api-openapi.yml
   format: yaml
-  label: Tribute Store Serving Locations API
-  slug: tributetech-serving-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/openapi/tributetech-openapi.yml
-- filename: tributetech-openapi.yml
-  format: yaml
-  label: Tribute Store Obituaries API
+  label: Tribute Technology Obituaries API
   slug: tributetech-obituaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/openapi/tributetech-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/openapi/tributetech-obituaries-api-openapi.yml
+- filename: tributetech-serving-locations-api-openapi.yml
+  format: yaml
+  label: Tribute Technology Serving Locations API
+  slug: tributetech-serving-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/openapi/tributetech-serving-locations-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3

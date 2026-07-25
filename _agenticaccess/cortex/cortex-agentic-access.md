@@ -4,12 +4,24 @@ action_class_counts:
   acting: 16
   connected: 12
 api_specs:
-- filename: cortex-openapi.yml
+- filename: cortex-catalog-api-openapi.yml
   format: yaml
-  label: Cortex REST API
-  slug: cortex-rest-api
+  label: Cortex Catalog API
+  slug: cortex-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cortex/refs/heads/main/openapi/cortex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cortex/refs/heads/main/openapi/cortex-catalog-api-openapi.yml
+- filename: cortex-scorecards-api-openapi.yml
+  format: yaml
+  label: Cortex Scorecards API
+  slug: cortex-scorecards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex/refs/heads/main/openapi/cortex-scorecards-api-openapi.yml
+- filename: cortex-teams-api-openapi.yml
+  format: yaml
+  label: Cortex Teams API
+  slug: cortex-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cortex/refs/heads/main/openapi/cortex-teams-api-openapi.yml
 consequence_counts:
   read: 12
   write: 16

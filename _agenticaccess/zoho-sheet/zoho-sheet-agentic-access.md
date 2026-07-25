@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: openapi.yml
+- filename: zoho-sheet-workbook-api-openapi.yml
   format: yaml
-  label: Zoho Sheet Data API
-  slug: zoho-sheet-data-api
+  label: Zoho Sheet Workbook API
+  slug: zoho-sheet-workbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/openapi/openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/openapi/zoho-sheet-workbook-api-openapi.yml
 consequence_counts:
   safety-critical: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

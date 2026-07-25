@@ -4,12 +4,30 @@ action_class_counts:
   acting: 14
   connected: 6
 api_specs:
-- filename: openapi.yaml
+- filename: cloudflare-queues-consumer-api-openapi.yml
   format: yaml
-  label: Cloudflare Queues API
-  slug: cloudflare-queues-api
+  label: Cloudflare Queues Consumer API
+  slug: cloudflare-queues-consumer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-consumer-api-openapi.yml
+- filename: cloudflare-queues-messages-api-openapi.yml
+  format: yaml
+  label: Cloudflare Queues Messages API
+  slug: cloudflare-queues-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-messages-api-openapi.yml
+- filename: cloudflare-queues-metrics-api-openapi.yml
+  format: yaml
+  label: Cloudflare Queues Metrics API
+  slug: cloudflare-queues-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-metrics-api-openapi.yml
+- filename: cloudflare-queues-queue-api-openapi.yml
+  format: yaml
+  label: Cloudflare Queues Queue API
+  slug: cloudflare-queues-queue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/openapi/cloudflare-queues-queue-api-openapi.yml
 consequence_counts:
   read: 6
   write: 14

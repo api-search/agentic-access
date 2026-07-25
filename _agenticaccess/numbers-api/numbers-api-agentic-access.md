@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: numbers-api-openapi.yml
+- filename: numbers-api-date-api-openapi.yml
   format: yaml
-  label: Numbers API
-  slug: numbers-api
+  label: Numbers API Date API
+  slug: numbers-api-date-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-date-api-openapi.yml
+- filename: numbers-api-math-api-openapi.yml
+  format: yaml
+  label: Numbers API Math API
+  slug: numbers-api-math-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-math-api-openapi.yml
+- filename: numbers-api-numbers-api-api-openapi.yml
+  format: yaml
+  label: Numbers API Numbers API API
+  slug: numbers-api-numbers-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-numbers-api-api-openapi.yml
+- filename: numbers-api-random-api-openapi.yml
+  format: yaml
+  label: Numbers API Random API
+  slug: numbers-api-random-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-random-api-openapi.yml
+- filename: numbers-api-trivia-api-openapi.yml
+  format: yaml
+  label: Numbers API Trivia API
+  slug: numbers-api-trivia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-trivia-api-openapi.yml
+- filename: numbers-api-year-api-openapi.yml
+  format: yaml
+  label: Numbers API Year API
+  slug: numbers-api-year-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-year-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

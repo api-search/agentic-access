@@ -3,18 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: university-of-york-white-rose-research-oai.yaml
+- filename: university-of-york-oai2-api-openapi.yml
   format: yaml
-  label: White Rose Research Online (OAI-PMH)
-  slug: white-rose-research-oai
+  label: University of York Oai2 API
+  slug: university-of-york-oai2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-white-rose-research-oai.yaml
-- filename: university-of-york-white-rose-etheses-oai.yaml
-  format: yaml
-  label: White Rose eTheses Online (OAI-PMH)
-  slug: white-rose-etheses-oai
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-white-rose-etheses-oai.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/openapi/university-of-york-oai2-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

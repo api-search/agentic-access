@@ -4,12 +4,12 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: persons-api-openapi.yml
+- filename: persons-api-persons-api-openapi.yml
   format: yaml
-  label: Persons API.
-  slug: persons-api
+  label: Persons Persons API
+  slug: persons-api-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-persons/refs/heads/main/openapi/persons-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist-persons/refs/heads/main/openapi/persons-api-persons-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 2

@@ -3,24 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 15
 api_specs:
-- filename: ecfr-openapi.json
-  format: json
-  label: eCFR Versioner API
-  slug: versioner
+- filename: ecfr-admin-service-api-openapi.yml
+  format: yaml
+  label: eCFR Admin Service API
+  slug: ecfr-admin-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecfr/refs/heads/main/openapi/ecfr-openapi.json
-- filename: ecfr-openapi.json
-  format: json
-  label: eCFR Search API
-  slug: search
+  url: https://raw.githubusercontent.com/api-evangelist/ecfr/refs/heads/main/openapi/ecfr-admin-service-api-openapi.yml
+- filename: ecfr-search-service-api-openapi.yml
+  format: yaml
+  label: eCFR Search Service API
+  slug: ecfr-search-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecfr/refs/heads/main/openapi/ecfr-openapi.json
-- filename: ecfr-openapi.json
-  format: json
-  label: eCFR Admin API
-  slug: admin
+  url: https://raw.githubusercontent.com/api-evangelist/ecfr/refs/heads/main/openapi/ecfr-search-service-api-openapi.yml
+- filename: ecfr-versioner-service-api-openapi.yml
+  format: yaml
+  label: eCFR Versioner Service API
+  slug: ecfr-versioner-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecfr/refs/heads/main/openapi/ecfr-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/ecfr/refs/heads/main/openapi/ecfr-versioner-service-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

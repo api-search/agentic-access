@@ -4,12 +4,36 @@ action_class_counts:
   acting: 1
   connected: 9
 api_specs:
-- filename: swagger
+- filename: getty-downloads-api-openapi.yml
   format: yaml
-  label: Getty Images API
-  slug: platform
+  label: Getty Images Downloads API
+  slug: getty-downloads-api
   spec_type: OpenAPI
-  url: https://api.gettyimages.com/swagger
+  url: https://raw.githubusercontent.com/api-evangelist/getty/refs/heads/main/openapi/getty-downloads-api-openapi.yml
+- filename: getty-images-api-openapi.yml
+  format: yaml
+  label: Getty Images Images API
+  slug: getty-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getty/refs/heads/main/openapi/getty-images-api-openapi.yml
+- filename: getty-reference-api-openapi.yml
+  format: yaml
+  label: Getty Images Reference API
+  slug: getty-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getty/refs/heads/main/openapi/getty-reference-api-openapi.yml
+- filename: getty-search-api-openapi.yml
+  format: yaml
+  label: Getty Images Search API
+  slug: getty-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getty/refs/heads/main/openapi/getty-search-api-openapi.yml
+- filename: getty-videos-api-openapi.yml
+  format: yaml
+  label: Getty Images Videos API
+  slug: getty-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getty/refs/heads/main/openapi/getty-videos-api-openapi.yml
 consequence_counts:
   read: 9
   write: 1

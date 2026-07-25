@@ -3,12 +3,36 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: datafiniti-api.yml
+- filename: datafiniti-authentication-api-openapi.yml
   format: yaml
-  label: Datafiniti API
-  slug: datafiniti-api
+  label: Datafiniti Authentication API
+  slug: datafiniti-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-api.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-authentication-api-openapi.yml
+- filename: datafiniti-businesses-api-openapi.yml
+  format: yaml
+  label: Datafiniti Businesses API
+  slug: datafiniti-businesses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-businesses-api-openapi.yml
+- filename: datafiniti-people-api-openapi.yml
+  format: yaml
+  label: Datafiniti People API
+  slug: datafiniti-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-people-api-openapi.yml
+- filename: datafiniti-products-api-openapi.yml
+  format: yaml
+  label: Datafiniti Products API
+  slug: datafiniti-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-products-api-openapi.yml
+- filename: datafiniti-properties-api-openapi.yml
+  format: yaml
+  label: Datafiniti Properties API
+  slug: datafiniti-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/openapi/datafiniti-properties-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

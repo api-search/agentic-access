@@ -4,12 +4,18 @@ action_class_counts:
   acting: 5
   connected: 3
 api_specs:
-- filename: port-io-openapi.yml
+- filename: port-io-blueprints-api-openapi.yml
   format: yaml
-  label: Port REST API
-  slug: rest-api
+  label: Port Blueprints API
+  slug: port-io-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/openapi/port-io-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/openapi/port-io-blueprints-api-openapi.yml
+- filename: port-io-entities-api-openapi.yml
+  format: yaml
+  label: Port Entities API
+  slug: port-io-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/openapi/port-io-entities-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5

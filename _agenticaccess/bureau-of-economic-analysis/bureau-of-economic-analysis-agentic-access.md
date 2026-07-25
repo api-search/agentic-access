@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: bureau-of-economic-analysis-bea-api-openapi.yml
+- filename: bureau-of-economic-analysis-bureau-of-economic-analysis-bea-api-api-openapi.yml
   format: yaml
-  label: Bureau of Economic Analysis (BEA) Data API
-  slug: bureau-of-economic-analysis-api
+  label: Bureau of Economic Analysis Bureau Of Economic Analysis (BEA) API API
+  slug: bureau-of-economic-analysis-bureau-of-economic-analysis-bea-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-economic-analysis/refs/heads/main/openapi/bureau-of-economic-analysis-bea-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-economic-analysis/refs/heads/main/openapi/bureau-of-economic-analysis-bureau-of-economic-analysis-bea-api-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

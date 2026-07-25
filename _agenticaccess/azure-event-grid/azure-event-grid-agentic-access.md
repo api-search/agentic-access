@@ -3,12 +3,18 @@ acting_count: 6
 action_class_counts:
   acting: 6
 api_specs:
-- filename: azure-event-grid-openapi.yml
+- filename: azure-event-grid-namespace-topics-api-openapi.yml
   format: yaml
-  label: Azure Event Grid Publisher API
-  slug: publisher-api
+  label: Azure Event Grid Namespace Topics API
+  slug: azure-event-grid-namespace-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-namespace-topics-api-openapi.yml
+- filename: azure-event-grid-publish-api-openapi.yml
+  format: yaml
+  label: Azure Event Grid Publish API
+  slug: azure-event-grid-publish-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-publish-api-openapi.yml
 consequence_counts:
   write: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

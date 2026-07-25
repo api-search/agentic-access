@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 6
 api_specs:
-- filename: hedra-web-api-openapi-original.json
-  format: json
-  label: Hedra Web API
-  slug: hedra-web-api
+- filename: hedra-public-api-openapi.yml
+  format: yaml
+  label: Hedra Public API
+  slug: hedra-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/openapi/hedra-web-api-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/openapi/hedra-public-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3

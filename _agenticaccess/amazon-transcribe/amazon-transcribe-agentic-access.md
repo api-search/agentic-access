@@ -3,12 +3,18 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
-- filename: amazon-transcribe-openapi.yml
+- filename: amazon-transcribe-transcription-jobs-api-openapi.yml
   format: yaml
-  label: Amazon Transcribe REST API
-  slug: amazon-transcribe-rest-api
+  label: Amazon Transcribe Transcription Jobs API
+  slug: amazon-transcribe-transcription-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/openapi/amazon-transcribe-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/openapi/amazon-transcribe-transcription-jobs-api-openapi.yml
+- filename: amazon-transcribe-vocabularies-api-openapi.yml
+  format: yaml
+  label: Amazon Transcribe Vocabularies API
+  slug: amazon-transcribe-vocabularies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/openapi/amazon-transcribe-vocabularies-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

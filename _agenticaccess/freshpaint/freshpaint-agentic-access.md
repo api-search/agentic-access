@@ -3,24 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: freshpaint-openapi.yml
+- filename: freshpaint-events-api-openapi.yml
   format: yaml
-  label: Freshpaint Tracking Events API
-  slug: freshpaint-tracking-events-api
+  label: Freshpaint Events API
+  slug: freshpaint-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/openapi/freshpaint-openapi.yml
-- filename: freshpaint-openapi.yml
-  format: yaml
-  label: Freshpaint Identify API
-  slug: freshpaint-identify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/openapi/freshpaint-openapi.yml
-- filename: freshpaint-openapi.yml
-  format: yaml
-  label: Freshpaint Page and Screen API
-  slug: freshpaint-page-screen-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/openapi/freshpaint-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/openapi/freshpaint-events-api-openapi.yml
 consequence_counts:
   physical: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: thecocktaildb-openapi.yml
+- filename: thecocktaildb-filter-api-openapi.yml
   format: yaml
-  label: TheCocktailDB API
-  slug: thecocktaildb
+  label: TheCocktailDB Filter API
+  slug: thecocktaildb-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/openapi/thecocktaildb-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/openapi/thecocktaildb-filter-api-openapi.yml
+- filename: thecocktaildb-list-api-openapi.yml
+  format: yaml
+  label: TheCocktailDB List API
+  slug: thecocktaildb-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/openapi/thecocktaildb-list-api-openapi.yml
+- filename: thecocktaildb-lookup-api-openapi.yml
+  format: yaml
+  label: TheCocktailDB Lookup API
+  slug: thecocktaildb-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/openapi/thecocktaildb-lookup-api-openapi.yml
+- filename: thecocktaildb-search-api-openapi.yml
+  format: yaml
+  label: TheCocktailDB Search API
+  slug: thecocktaildb-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/openapi/thecocktaildb-search-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 16
 api_specs:
-- filename: openapi.yaml
+- filename: opendatasoft-catalog-api-openapi.yml
   format: yaml
-  label: Opendatasoft Explore API v2.1
-  slug: opendatasoft-explore-api-v21
+  label: Opendatasoft Catalog API
+  slug: opendatasoft-catalog-api
   spec_type: OpenAPI
-  url: https://public.opendatasoft.com/api/explore/v2.1/
+  url: https://raw.githubusercontent.com/api-evangelist/opendatasoft/refs/heads/main/openapi/opendatasoft-catalog-api-openapi.yml
+- filename: opendatasoft-dataset-api-openapi.yml
+  format: yaml
+  label: Opendatasoft Dataset API
+  slug: opendatasoft-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opendatasoft/refs/heads/main/openapi/opendatasoft-dataset-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

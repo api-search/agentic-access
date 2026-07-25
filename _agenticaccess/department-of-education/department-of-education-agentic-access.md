@@ -2,6 +2,13 @@
 acting_count: 0
 action_class_counts:
   connected: 1
+api_specs:
+- filename: department-of-education-schools-api-openapi.yml
+  format: yaml
+  label: Department of Education Schools API
+  slug: department-of-education-schools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/openapi/department-of-education-schools-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

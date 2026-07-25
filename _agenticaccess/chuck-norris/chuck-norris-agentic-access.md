@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: openapi.json
-  format: json
-  label: Chuck Norris API
-  slug: chuck-norris-api
+- filename: chuck-norris-jokes-api-openapi.yml
+  format: yaml
+  label: Chuck Norris API jokes API
+  slug: chuck-norris-jokes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chuck-norris/refs/heads/main/openapi/openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/chuck-norris/refs/heads/main/openapi/chuck-norris-jokes-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

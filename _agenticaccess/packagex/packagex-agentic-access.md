@@ -4,12 +4,12 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: packagex-openapi-original.yml
+- filename: packagex-shipments-api-openapi.yml
   format: yaml
-  label: PackageX Shipments API
+  label: PackageX shipments API
   slug: packagex-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/openapi/packagex-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/packagex/refs/heads/main/openapi/packagex-shipments-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 2

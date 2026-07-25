@@ -3,12 +3,12 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: algodriven-vehicle-history-openapi.yml
+- filename: algodriven-vehicle-history-report-api-openapi.yml
   format: yaml
-  label: Vehicle History Report - UAE
-  slug: vehicle-history-report-uae
+  label: AlgoDriven Vehicle History Report API
+  slug: algodriven-vehicle-history-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algodriven/refs/heads/main/openapi/algodriven-vehicle-history-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/algodriven/refs/heads/main/openapi/algodriven-vehicle-history-report-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: bookingcom-booking-api-openapi.yml
+- filename: bookingcom-travel-api-openapi.yml
   format: yaml
-  label: Booking.com API
-  slug: booking-api
+  label: Booking.com Travel API
+  slug: bookingcom-travel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bookingcom/refs/heads/main/openapi/bookingcom-booking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bookingcom/refs/heads/main/openapi/bookingcom-travel-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
