@@ -2,19 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 36
-api_specs:
-- filename: nas-academy-ai-discovery-api-openapi.yml
-  format: yaml
-  label: Nas.com (Nas Academy) AI discovery API
-  slug: nas-academy-ai-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-ai-discovery-api-openapi.yml
-- filename: nas-academy-developer-discovery-api-openapi.yml
-  format: yaml
-  label: Nas.com (Nas Academy) Developer discovery API
-  slug: nas-academy-developer-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-developer-discovery-api-openapi.yml
 consequence_counts:
   read: 36
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -26,14 +13,14 @@ name: Nas Academy Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 36
-overview: 'Nas.com (Nas Academy) exposes 36 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Nas Academy exposes 36 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 36 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: Nas.com (Nas Academy)
+provider_name: Nas Academy
 provider_slug: nas-academy
 slug: nas-academy-agentic-access
 source_filename: nas-academy-agentic-access.yml
@@ -52,12 +39,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nas-academy/re
 summary_line: 36 operations
 tags:
 - Company
-- Creator Economy
-- Community
-- E-commerce
-- AI
-- Agents
-- MCP
-- Online Courses
-- Sellers
 ---

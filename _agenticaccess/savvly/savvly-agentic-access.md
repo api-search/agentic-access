@@ -2,25 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 12
-api_specs:
-- filename: savvly-comparisons-api-openapi.yml
-  format: yaml
-  label: Savvly Comparisons API
-  slug: savvly-comparisons-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-comparisons-api-openapi.yml
-- filename: savvly-product-api-openapi.yml
-  format: yaml
-  label: Savvly Product API
-  slug: savvly-product-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-product-api-openapi.yml
-- filename: savvly-projections-api-openapi.yml
-  format: yaml
-  label: Savvly Projections API
-  slug: savvly-projections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/openapi/savvly-projections-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,11 +34,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/savvly/refs/he
 summary_line: 12 operations
 tags:
 - Company
-- Fintech
-- Retirement
-- Longevity
-- Investing
-- Financial Services
-- Projections
-- Annuity Alternative
 ---

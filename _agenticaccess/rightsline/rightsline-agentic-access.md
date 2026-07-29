@@ -4,12 +4,12 @@ action_class_counts:
   acting: 8
   connected: 9
 api_specs:
-- filename: postman.yaml
+- filename: overview
   format: yaml
   label: Rightsline Rights API
   slug: rights-api
   spec_type: Postman
-  url: https://postman.rightsline.com/
+  url: https://www.postman.com/kinlaneapi/rightsline/overview
 - filename: postman.yaml
   format: yaml
   label: Rightsline Royalties API

@@ -3,145 +3,6 @@ acting_count: 105
 action_class_counts:
   acting: 105
   connected: 118
-api_specs:
-- filename: sageox-admin-api-openapi.yml
-  format: yaml
-  label: SageOx Admin API
-  slug: sageox-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-admin-api-openapi.yml
-- filename: sageox-agentx-api-openapi.yml
-  format: yaml
-  label: SageOx AgentX API
-  slug: sageox-agentx-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-agentx-api-openapi.yml
-- filename: sageox-api-keys-api-openapi.yml
-  format: yaml
-  label: SageOx API Keys API
-  slug: sageox-api-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-api-keys-api-openapi.yml
-- filename: sageox-auth-api-openapi.yml
-  format: yaml
-  label: SageOx Auth API
-  slug: sageox-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-auth-api-openapi.yml
-- filename: sageox-cli-api-openapi.yml
-  format: yaml
-  label: SageOx CLI API
-  slug: sageox-cli-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-cli-api-openapi.yml
-- filename: sageox-devices-api-openapi.yml
-  format: yaml
-  label: SageOx Devices API
-  slug: sageox-devices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-devices-api-openapi.yml
-- filename: sageox-firmware-admin-api-openapi.yml
-  format: yaml
-  label: SageOx Firmware Admin API
-  slug: sageox-firmware-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-firmware-admin-api-openapi.yml
-- filename: sageox-firmware-ota-api-openapi.yml
-  format: yaml
-  label: SageOx Firmware OTA API
-  slug: sageox-firmware-ota-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-firmware-ota-api-openapi.yml
-- filename: sageox-git-api-openapi.yml
-  format: yaml
-  label: SageOx Git API
-  slug: sageox-git-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-git-api-openapi.yml
-- filename: sageox-guidance-api-openapi.yml
-  format: yaml
-  label: SageOx Guidance API
-  slug: sageox-guidance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-guidance-api-openapi.yml
-- filename: sageox-health-api-openapi.yml
-  format: yaml
-  label: SageOx Health API
-  slug: sageox-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-health-api-openapi.yml
-- filename: sageox-llm-api-openapi.yml
-  format: yaml
-  label: SageOx LLM API
-  slug: sageox-llm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-llm-api-openapi.yml
-- filename: sageox-logs-api-openapi.yml
-  format: yaml
-  label: SageOx Logs API
-  slug: sageox-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-logs-api-openapi.yml
-- filename: sageox-miscellaneous-api-openapi.yml
-  format: yaml
-  label: SageOx Miscellaneous API
-  slug: sageox-miscellaneous-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-miscellaneous-api-openapi.yml
-- filename: sageox-notifications-api-openapi.yml
-  format: yaml
-  label: SageOx Notifications API
-  slug: sageox-notifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-notifications-api-openapi.yml
-- filename: sageox-photos-api-openapi.yml
-  format: yaml
-  label: SageOx Photos API
-  slug: sageox-photos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-photos-api-openapi.yml
-- filename: sageox-public-api-openapi.yml
-  format: yaml
-  label: SageOx Public API
-  slug: sageox-public-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-public-api-openapi.yml
-- filename: sageox-recordings-api-openapi.yml
-  format: yaml
-  label: SageOx Recordings API
-  slug: sageox-recordings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-recordings-api-openapi.yml
-- filename: sageox-repositories-api-openapi.yml
-  format: yaml
-  label: SageOx Repositories API
-  slug: sageox-repositories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-repositories-api-openapi.yml
-- filename: sageox-repository-api-openapi.yml
-  format: yaml
-  label: SageOx Repository API
-  slug: sageox-repository-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-repository-api-openapi.yml
-- filename: sageox-runs-api-openapi.yml
-  format: yaml
-  label: SageOx runs API
-  slug: sageox-runs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-runs-api-openapi.yml
-- filename: sageox-teams-api-openapi.yml
-  format: yaml
-  label: SageOx Teams API
-  slug: sageox-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-teams-api-openapi.yml
-- filename: sageox-users-api-openapi.yml
-  format: yaml
-  label: SageOx Users API
-  slug: sageox-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/heads/main/openapi/sageox-users-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 118
@@ -186,7 +47,7 @@ notable_actions:
   method: POST
   path: /api/v1/teams/{team_id}/recordings/{rec_id}/chunks/heartbeat
 operation_count: 223
-overview: 'SageOx exposes 223 API operations that an AI agent could call, of which 105 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Sageox exposes 223 API operations that an AI agent could call, of which 105 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 118 read, 99 write, 3 physical, and 3 safety-critical.
@@ -196,7 +57,7 @@ overview: 'SageOx exposes 223 API operations that an AI agent could call, of whi
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: SageOx
+provider_name: Sageox
 provider_slug: sageox
 slug: sageox-agentic-access
 source_filename: sageox-agentic-access.yml
@@ -241,13 +102,4 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sageox/refs/he
 summary_line: 223 operations · 105 acting · 3 human-in-the-loop
 tags:
 - Company
-- AI Agents
-- Developer Tools
-- Knowledge Management
-- Agent Memory
-- Model Context Protocol
-- MCP
-- CLI
-- Team Collaboration
-- Agentic Engineering
 ---

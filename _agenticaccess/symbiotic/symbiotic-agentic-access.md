@@ -3,13 +3,6 @@ acting_count: 1
 action_class_counts:
   acting: 1
   connected: 21
-api_specs:
-- filename: symbiotic-symbioticapiservice-api-openapi.yml
-  format: yaml
-  label: Symbiotic SymbioticAPIService API
-  slug: symbiotic-symbioticapiservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symbiotic/refs/heads/main/openapi/symbiotic-symbioticapiservice-api-openapi.yml
 consequence_counts:
   read: 21
   write: 1
@@ -47,12 +40,4 @@ summary_line: 22 operations · 1 acting
 tags:
 - Company
 - Crypto Defi
-- Restaking
-- Shared Security
-- Staking
-- Blockchain
-- Web3
-- Smart Contracts
-- Ethereum
-- DeFi
 ---
