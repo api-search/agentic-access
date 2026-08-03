@@ -46,6 +46,12 @@ api_specs:
   slug: pharmacy-unified-pharmacy
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-pharmacy-unified-openapi.json
+- filename: medadvisor-pharmacy-unified-v2-openapi.json
+  format: json
+  label: MedAdvisor Pharmacy Unified API v2.0
+  slug: medadvisor-pharmacy-unified-v2-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-pharmacy-unified-v2-openapi.json
 consequence_counts:
   physical: 17
   read: 45

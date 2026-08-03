@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 84
 api_specs:
-- filename: eodhd-financial-data-openapi.yml
-  format: yaml
-  label: EODHD Financial Data API
-  slug: financial-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/openapi/eodhd-financial-data-openapi.yml
 - filename: eodhd-websockets-asyncapi.yml
   format: yaml
   label: EODHD WebSockets Real-Time API
@@ -21,6 +15,12 @@ api_specs:
   slug: eodhd-eod-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/openapi/eodhd-eod-api-openapi.yml
+- filename: eodhd-financial-data-openapi.yml
+  format: yaml
+  label: EODHD Financial Data API
+  slug: eodhd-financial-data-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/openapi/eodhd-financial-data-openapi.yml
 consequence_counts:
   read: 84
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

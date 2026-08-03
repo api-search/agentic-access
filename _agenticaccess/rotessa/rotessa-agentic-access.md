@@ -3,6 +3,13 @@ acting_count: 9
 action_class_counts:
   acting: 9
   connected: 4
+api_specs:
+- filename: rotessa-openapi.yml
+  format: yaml
+  label: Rotessa API
+  slug: rotessa-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-openapi.yml
 consequence_counts:
   read: 4
   write: 9

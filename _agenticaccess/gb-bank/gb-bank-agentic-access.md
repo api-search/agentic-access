@@ -4,12 +4,6 @@ action_class_counts:
   acting: 20
   connected: 66
 api_specs:
-- filename: uk-open-banking-open-data-api-openapi.json
-  format: json
-  label: GB Bank Open Data API
-  slug: gb-bank-open-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/uk-open-banking-open-data-api-openapi.json
 - filename: uk-open-banking-account-info-api-openapi.yaml
   format: yaml
   label: GB Bank Account and Transaction Information API (AIS)
@@ -28,6 +22,12 @@ api_specs:
   slug: gb-bank-confirmation-of-funds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/uk-open-banking-confirmation-of-funds-api-openapi.yaml
+- filename: uk-open-banking-open-data-api-openapi.json
+  format: json
+  label: GB Bank Open Data API
+  slug: uk-open-banking-open-data-api-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/openapi/uk-open-banking-open-data-api-openapi.json
 consequence_counts:
   physical: 15
   read: 66

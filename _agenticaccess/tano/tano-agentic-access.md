@@ -3,6 +3,37 @@ acting_count: 9
 action_class_counts:
   acting: 9
   connected: 8
+api_specs:
+- filename: tano-brand-signups-api-openapi.yml
+  format: yaml
+  label: Tano Brand Signups API
+  slug: tano-brand-signups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-brand-signups-api-openapi.yml
+- filename: tano-contact-api-openapi.yml
+  format: yaml
+  label: Tano Contact API
+  slug: tano-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-contact-api-openapi.yml
+- filename: tano-creator-signups-api-openapi.yml
+  format: yaml
+  label: Tano Creator Signups API
+  slug: tano-creator-signups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-creator-signups-api-openapi.yml
+- filename: tano-discovery-api-openapi.yml
+  format: yaml
+  label: Tano Discovery API
+  slug: tano-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-discovery-api-openapi.yml
+- filename: tano-events-api-openapi.yml
+  format: yaml
+  label: Tano Events API
+  slug: tano-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/openapi/tano-events-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8

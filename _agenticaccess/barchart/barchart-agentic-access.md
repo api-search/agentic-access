@@ -69,6 +69,12 @@ api_specs:
   slug: barchart-weather-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-weather-api-openapi.yml
+- filename: barchart-ondemand-official-openapi.yml
+  format: yaml
+  label: Barchart OnDemand APIs
+  slug: barchart-ondemand-official-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-ondemand-official-openapi.yml
 consequence_counts:
   read: 95
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

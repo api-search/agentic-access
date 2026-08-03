@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 1
 api_specs:
-- filename: novita-ai-openapi.json
-  format: json
-  label: Novita AI Platform API
-  slug: platform
+- filename: novita-ai-openai-api-openapi.yml
+  format: yaml
+  label: Novita AI Openai API
+  slug: novita-ai-openai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/openapi/novita-ai-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/openapi/novita-ai-openai-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3
