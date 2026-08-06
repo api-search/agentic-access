@@ -1,0 +1,152 @@
+---
+acting_count: 35
+action_class_counts:
+  acting: 35
+  connected: 16
+api_specs:
+- filename: qoala-authentication-api-openapi.yml
+  format: yaml
+  label: Qoala Authentication API
+  slug: qoala-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-authentication-api-openapi.yml
+- filename: qoala-bus-insurance-openapi.yml
+  format: yaml
+  label: Qoala Bus Insurance
+  slug: qoala-bus-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-bus-insurance-openapi.yml
+- filename: qoala-claim-api-alt-openapi.yml
+  format: yaml
+  label: Qoala Claim API (alternate published spec)
+  slug: qoala-claim-api-alternate-published-spec
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-claim-api-alt-openapi.yml
+- filename: qoala-claim-api-openapi.yml
+  format: yaml
+  label: Qoala Claim API
+  slug: qoala-claim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-claim-api-openapi.yml
+- filename: qoala-credit-insurance-openapi.yml
+  format: yaml
+  label: Qoala Credit Insurance
+  slug: qoala-credit-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-credit-insurance-openapi.yml
+- filename: qoala-credit-life-insurance-openapi.yml
+  format: yaml
+  label: Qoala Credit Life Insurance
+  slug: qoala-credit-life-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-credit-life-insurance-openapi.yml
+- filename: qoala-experience-event-insurance-openapi.yml
+  format: yaml
+  label: Qoala Experience & Event Insurance
+  slug: qoala-experience-event-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-experience-event-insurance-openapi.yml
+- filename: qoala-flight-insurance-openapi.yml
+  format: yaml
+  label: Qoala Flight Insurance
+  slug: qoala-flight-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-flight-insurance-openapi.yml
+- filename: qoala-gadget-insurance-openapi.yml
+  format: yaml
+  label: Qoala Gadget Insurance
+  slug: qoala-gadget-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-gadget-insurance-openapi.yml
+- filename: qoala-goods-insurance-openapi.yml
+  format: yaml
+  label: Qoala Goods Insurance
+  slug: qoala-goods-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-goods-insurance-openapi.yml
+- filename: qoala-hotel-insurance-openapi.yml
+  format: yaml
+  label: Qoala Hotel Insurance
+  slug: qoala-hotel-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-hotel-insurance-openapi.yml
+- filename: qoala-logistic-insurance-openapi.yml
+  format: yaml
+  label: Qoala Logistic Insurance
+  slug: qoala-logistic-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-logistic-insurance-openapi.yml
+- filename: qoala-micro-health-insurance-openapi.yml
+  format: yaml
+  label: Qoala Micro health insurance
+  slug: qoala-micro-health-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-micro-health-insurance-openapi.yml
+- filename: qoala-train-insurance-openapi.yml
+  format: yaml
+  label: Qoala Train Insurance
+  slug: qoala-train-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-train-insurance-openapi.yml
+- filename: qoala-vehicle-insurance-openapi.yml
+  format: yaml
+  label: Qoala Vehicle Insurance
+  slug: qoala-vehicle-insurance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-vehicle-insurance-openapi.yml
+consequence_counts:
+  read: 16
+  write: 35
+description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
+human_in_the_loop: 0
+kind: agentic-access
+layout: agentic-access
+method: generated
+name: Qoala Agentic Access
+name_suffix: Agentic Access
+notable_actions: []
+operation_count: 51
+overview: 'Qoala exposes 51 API operations that an AI agent could call, of which 35 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+
+
+  By consequence: 16 read and 35 write.
+
+
+  Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
+provider_name: Qoala
+provider_slug: qoala
+slug: qoala-agentic-access
+source_filename: qoala-agentic-access.yml
+source_heading: Agentic Access
+source_url: ''
+source_yaml: "generated: '2026-08-05'\nmethod: generated\nsource: openapi/qoala-authentication-api-openapi.yml, openapi/qoala-bus-insurance-openapi.yml,\n  openapi/qoala-claim-api-alt-openapi.yml, openapi/qoala-claim-api-openapi.yml, openapi/qoala-credit-insurance-openapi.yml,\n  openapi/qoala-credit-life-insurance-openapi.yml, openapi/qoala-experience-event-insurance-openapi.yml,\n  openapi/qoala-flight-insurance-openapi.yml, openapi/qoala-gadget-insurance-openapi.yml, openapi/qoala-goods-insurance-openapi.yml,\n  openapi/qoala-hotel-insurance-openapi.yml, openapi/qoala-logistic-insurance-openapi.yml, openapi/qoala-micro-health-insurance-openapi.yml,\n  openapi/qoala-train-insurance-openapi.yml, openapi/qoala-vehicle-insurance-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\n\
+  summary:\n  operations: 51\n  by_action_class:\n    acting: 35\n    connected: 16\n  by_consequence:\n    write: 35\n    read: 16\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/sessions\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/sessions/refresh\n  method: post\n  operationId: refreshSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
+  \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n  method: get\n  operationId: detailPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/claims/partner/create\n  method: post\n  operationId: createClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
+  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/claims/partner/cancel\n  method: patch\n  operationId: cancelClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/claims/partner/update/presign\n  method: post\n  operationId: presignCreateClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/claims/partner/update/presign\n  method: put\n  operationId: presignUploadClaim\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/products/finance/partner/products/stoploss/{claim_pool_code}\n  method: get\n  operationId: getPool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/claims/partner/status\n  method: get\n  operationId: statusClaim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/claims/partner/create\n  method: post\n  operationId: createClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
+  \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/claims/partner/cancel\n  method: patch\n  operationId: cancelClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/claims/partner/update/presign\n  method: post\n  operationId: presignCreateClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/claims/partner/update/presign\n  method: put\n  operationId: presignUploadClaim\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/products/finance/partner/products/stoploss/{claim_pool_code}\n  method: get\n  operationId: getPool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/claims/partner/status\n  method: get\n  operationId: statusClaim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/quotation/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
+  \ high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n  method: get\n  operationId: detailPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n\
+  \  method: get\n  operationId: detailPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n  method: get\n  operationId: detailPolicy\n  x-agentic-access:\n   \
+  \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n  method: get\n  operationId: detailPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n  method: get\n  operationId: detailPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n\
+  \  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/policies/documents/activation\n  method: post\n  operationId: activationPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
+  \    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n  method: get\n  operationId: detailPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n\
+  \  method: get\n  operationId: detailPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes\n  method: post\n  operationId: createPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n  method: get\n  operationId: detailPolicy\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n  method: get\n  operationId: detailPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n  method: get\n  operationId: detailPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
+  - path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n  method: get\n  operationId: detailPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId:\
+  \ cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/agentic-access/qoala-agentic-access.yml
+summary_line: 51 operations · 35 acting
+tags:
+- Insurance
+- Insurtech
+- Embedded Insurance
+- Policies
+- Claims
+- Southeast Asia
+- Indonesia
+- Financial Services
+- Partner API
+---

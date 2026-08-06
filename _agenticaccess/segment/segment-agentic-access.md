@@ -160,14 +160,14 @@ notable_actions:
   method: POST
   path: /batch
 operation_count: 72
-overview: 'segment exposes 72 API operations that an AI agent could call, of which 34 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Twilio Segment exposes 72 API operations that an AI agent could call, of which 34 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 38 read, 33 write, and 1 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: segment
+provider_name: Twilio Segment
 provider_slug: segment
 slug: segment-agentic-access
 source_filename: segment-agentic-access.yml
@@ -197,5 +197,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/segmen
   \ post\n  operationId: createLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /labels/{labelKey}/{labelValue}\n  method: delete\n  operationId: deleteLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/agentic-access/segment-agentic-access.yml
 summary_line: 72 operations · 34 acting
-tags: []
+tags:
+- Company
+- Customer Data Platform
+- CDP
+- Identity Resolution
+- Event Streaming
+- Reverse ETL
+- Data Pipeline
+- Customer Data
+- Analytics
+- Acquired
 ---

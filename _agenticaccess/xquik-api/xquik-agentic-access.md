@@ -4,12 +4,12 @@ action_class_counts:
   acting: 56
   connected: 71
 api_specs:
-- filename: xquik-rest-api-openapi.yml
-  format: yaml
+- filename: openapi.json
+  format: json
   label: Xquik REST API
   slug: xquik-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-rest-api-openapi.yml
+  url: https://xquik.com/openapi.json
 consequence_counts:
   read: 71
   write: 56
@@ -22,7 +22,7 @@ name: Xquik Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 127
-overview: 'Xquik exposes 127 API operations that an AI agent could call, of which 56 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Xquik API exposes 127 API operations that an AI agent could call, of which 56 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 71 read and 56 write.
@@ -32,7 +32,7 @@ overview: 'Xquik exposes 127 API operations that an AI agent could call, of whic
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: Xquik
+provider_name: Xquik API
 provider_slug: xquik-api
 slug: xquik-agentic-access
 source_filename: xquik-agentic-access.yml
@@ -76,12 +76,14 @@ source_yaml: "generated: 2026-08-01\nmethod: declared\npublisher: Xquik\nsource:
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/agentic-access/xquik-agentic-access.yml
 summary_line: 127 operations · 56 acting · 56 human-in-the-loop
 tags:
+- X/Twitter data
 - social media data
-- X / Twitter
 - social listening
 - data extraction
-- automation
+- marketing automation
 - webhooks
-- MCP
 - developer API
+- MCP
+- agent-native
+- AI agent tooling
 ---

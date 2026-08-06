@@ -3,18 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 69
 api_specs:
-- filename: miso-public-api-operations-displays-openapi.json
+- filename: miso-public-api-openapi.json
   format: json
-  label: MISO Public API - Operations Displays
-  slug: miso-public-api-operations-displays
+  label: MISO Public API
+  slug: miso-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/openapi/miso-public-api-operations-displays-openapi.json
-- filename: miso-public-api-markets-displays-openapi.json
-  format: json
-  label: MISO Public API - Markets Displays
-  slug: miso-public-api-markets-displays
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/openapi/miso-public-api-markets-displays-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/openapi/miso-public-api-openapi.json
 - filename: miso-data-exchange-pricing-api-openapi.json
   format: json
   label: MISO Data Exchange Pricing API
@@ -27,6 +21,12 @@ api_specs:
   slug: miso-data-exchange-load-generation-interchange-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/openapi/miso-data-exchange-load-generation-interchange-api-openapi.json
+- filename: miso-mui-20-api-openapi.yaml
+  format: yaml
+  label: MISO Market User Interface (MUI) 2.0 API
+  slug: miso-mui-2-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/openapi/miso-mui-20-api-openapi.yaml
 consequence_counts:
   read: 69
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

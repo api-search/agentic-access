@@ -3,6 +3,19 @@ acting_count: 49
 action_class_counts:
   acting: 49
   connected: 40
+api_specs:
+- filename: climateai-weather-openapi.yml
+  format: yaml
+  label: ClimateAi Weather API (LensConnect)
+  slug: weather
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-weather-openapi.yml
+- filename: climateai-platform-swagger.json
+  format: json
+  label: ClimateAI Platform API
+  slug: platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-platform-swagger.json
 consequence_counts:
   physical: 4
   read: 40
@@ -106,4 +119,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/climateai/refs
 summary_line: 89 operations · 49 acting · 4 human-in-the-loop
 tags:
 - Company
+- Weather
+- Climate
+- Climate Intelligence
+- Forecasting
+- Agriculture
+- Data
+- Supply Chain
+- Risk
+- Sustainability
 ---
