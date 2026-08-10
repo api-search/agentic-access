@@ -4,12 +4,90 @@ action_class_counts:
   acting: 9
   connected: 31
 api_specs:
-- filename: riot-public-api-openapi.yml
+- filename: riot-awareness-api-openapi.yml
   format: yaml
-  label: Riot Public API
-  slug: riot-public-api
+  label: Riot Awareness API
+  slug: riot-awareness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-awareness-api-openapi.yml
+- filename: riot-breaches-api-openapi.yml
+  format: yaml
+  label: Riot Breaches API
+  slug: riot-breaches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-breaches-api-openapi.yml
+- filename: riot-general-api-openapi.yml
+  format: yaml
+  label: Riot General API
+  slug: riot-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-general-api-openapi.yml
+- filename: riot-groups-api-openapi.yml
+  format: yaml
+  label: Riot Groups API
+  slug: riot-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-groups-api-openapi.yml
+- filename: riot-inbox-api-openapi.yml
+  format: yaml
+  label: Riot Inbox API
+  slug: riot-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-inbox-api-openapi.yml
+- filename: riot-scim-api-openapi.yml
+  format: yaml
+  label: Riot SCIM API
+  slug: riot-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-scim-api-openapi.yml
+- filename: riot-simulation-api-openapi.yml
+  format: yaml
+  label: Riot Simulation API
+  slug: riot-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-simulation-api-openapi.yml
+- filename: riot-slash-api-openapi.yml
+  format: yaml
+  label: Riot Slash API
+  slug: riot-slash-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-slash-api-openapi.yml
+- filename: riot-sonar-api-openapi.yml
+  format: yaml
+  label: Riot Sonar API
+  slug: riot-sonar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-sonar-api-openapi.yml
+- filename: riot-team-awareness-api-openapi.yml
+  format: yaml
+  label: Riot Team awareness API
+  slug: riot-team-awareness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-team-awareness-api-openapi.yml
+- filename: riot-team-inbox-api-openapi.yml
+  format: yaml
+  label: Riot Team inbox API
+  slug: riot-team-inbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-team-inbox-api-openapi.yml
+- filename: riot-team-platform-api-openapi.yml
+  format: yaml
+  label: Riot Team platform API
+  slug: riot-team-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-team-platform-api-openapi.yml
+- filename: riot-team-simulation-api-openapi.yml
+  format: yaml
+  label: Riot Team simulation API
+  slug: riot-team-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-team-simulation-api-openapi.yml
+- filename: riot-webhook-events-api-openapi.yml
+  format: yaml
+  label: Riot Webhook Events API
+  slug: riot-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-webhook-events-api-openapi.yml
 consequence_counts:
   read: 31
   write: 9

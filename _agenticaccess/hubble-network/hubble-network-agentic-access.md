@@ -4,12 +4,48 @@ action_class_counts:
   acting: 19
   connected: 20
 api_specs:
-- filename: hubble-network-platform-openapi.yml
+- filename: hubble-network-api-keys-api-openapi.yml
   format: yaml
-  label: Hubble Platform API
-  slug: hubble-platform-api
+  label: Hubble Network API Keys API
+  slug: hubble-network-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-api-keys-api-openapi.yml
+- filename: hubble-network-billing-api-openapi.yml
+  format: yaml
+  label: Hubble Network Billing API
+  slug: hubble-network-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-billing-api-openapi.yml
+- filename: hubble-network-devices-api-openapi.yml
+  format: yaml
+  label: Hubble Network Devices API
+  slug: hubble-network-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-devices-api-openapi.yml
+- filename: hubble-network-organizations-api-openapi.yml
+  format: yaml
+  label: Hubble Network Organizations API
+  slug: hubble-network-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-organizations-api-openapi.yml
+- filename: hubble-network-packet-webhooks-api-openapi.yml
+  format: yaml
+  label: Hubble Network Packet Webhooks API
+  slug: hubble-network-packet-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-packet-webhooks-api-openapi.yml
+- filename: hubble-network-packets-api-openapi.yml
+  format: yaml
+  label: Hubble Network Packets API
+  slug: hubble-network-packets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-packets-api-openapi.yml
+- filename: hubble-network-platform-metrics-api-openapi.yml
+  format: yaml
+  label: Hubble Network Platform Metrics API
+  slug: hubble-network-platform-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-platform-metrics-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 20

@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: codametrix-status-openapi.yml
+- filename: codametrix-components-api-openapi.yml
+  format: yaml
+  label: CodaMetrix Components API
+  slug: codametrix-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-components-api-openapi.yml
+- filename: codametrix-incidents-api-openapi.yml
+  format: yaml
+  label: CodaMetrix Incidents API
+  slug: codametrix-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-incidents-api-openapi.yml
+- filename: codametrix-scheduled-maintenances-api-openapi.yml
+  format: yaml
+  label: CodaMetrix Scheduled Maintenances API
+  slug: codametrix-scheduled-maintenances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-scheduled-maintenances-api-openapi.yml
+- filename: codametrix-status-api-openapi.yml
   format: yaml
   label: CodaMetrix Status API
   slug: codametrix-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-status-api-openapi.yml
+- filename: codametrix-summary-api-openapi.yml
+  format: yaml
+  label: CodaMetrix Summary API
+  slug: codametrix-summary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/openapi/codametrix-summary-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

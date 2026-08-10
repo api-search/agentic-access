@@ -9,103 +9,103 @@ api_specs:
   label: Modal Apps API
   slug: modal-com-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-apps-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-apps-api-openapi.yml
 - filename: modal-com-dicts-api-openapi.yml
   format: yaml
   label: Modal Dicts API
   slug: modal-com-dicts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-dicts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-dicts-api-openapi.yml
 - filename: modal-com-environments-api-openapi.yml
   format: yaml
   label: Modal Environments API
   slug: modal-com-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-environments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-environments-api-openapi.yml
 - filename: modal-com-execution-api-openapi.yml
   format: yaml
   label: Modal Execution API
   slug: modal-com-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-execution-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-execution-api-openapi.yml
 - filename: modal-com-files-api-openapi.yml
   format: yaml
   label: Modal Files API
   slug: modal-com-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-files-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-files-api-openapi.yml
 - filename: modal-com-filesystem-api-openapi.yml
   format: yaml
   label: Modal Filesystem API
   slug: modal-com-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-filesystem-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-filesystem-api-openapi.yml
 - filename: modal-com-functions-api-openapi.yml
   format: yaml
   label: Modal Functions API
   slug: modal-com-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-functions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-functions-api-openapi.yml
 - filename: modal-com-images-api-openapi.yml
   format: yaml
   label: Modal Images API
   slug: modal-com-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-images-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-images-api-openapi.yml
 - filename: modal-com-invocations-api-openapi.yml
   format: yaml
   label: Modal Invocations API
   slug: modal-com-invocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-invocations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-invocations-api-openapi.yml
 - filename: modal-com-queues-api-openapi.yml
   format: yaml
   label: Modal Queues API
   slug: modal-com-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-queues-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-queues-api-openapi.yml
 - filename: modal-com-sandboxes-api-openapi.yml
   format: yaml
   label: Modal Sandboxes API
   slug: modal-com-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-sandboxes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-sandboxes-api-openapi.yml
 - filename: modal-com-schedules-api-openapi.yml
   format: yaml
   label: Modal Schedules API
   slug: modal-com-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-schedules-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-schedules-api-openapi.yml
 - filename: modal-com-secrets-api-openapi.yml
   format: yaml
   label: Modal Secrets API
   slug: modal-com-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-secrets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-secrets-api-openapi.yml
 - filename: modal-com-tokens-api-openapi.yml
   format: yaml
   label: Modal Tokens API
   slug: modal-com-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-tokens-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-tokens-api-openapi.yml
 - filename: modal-com-volumes-api-openapi.yml
   format: yaml
   label: Modal Volumes API
   slug: modal-com-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-volumes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-volumes-api-openapi.yml
 - filename: modal-com-webendpoints-api-openapi.yml
   format: yaml
   label: Modal WebEndpoints API
   slug: modal-com-webendpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-webendpoints-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-webendpoints-api-openapi.yml
 - filename: modal-com-workspaces-api-openapi.yml
   format: yaml
   label: Modal Workspaces API
   slug: modal-com-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/openapi/modal-com-workspaces-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/openapi/modal-com-workspaces-api-openapi.yml
 consequence_counts:
   read: 28
   safety-critical: 3
@@ -145,7 +145,7 @@ overview: 'Modal exposes 56 API operations that an AI agent could call, of which
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
 provider_name: Modal
-provider_slug: modal
+provider_slug: modal-com
 slug: modal-com-agentic-access
 source_filename: modal-com-agentic-access.yml
 source_heading: Agentic Access
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/modal-
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /volumes/{volume_name}\n  method: get\n  operationId: getVolume\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /volumes/{volume_name}\n  method: delete\n  operationId: deleteVolume\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /volumes/{volume_name}/files\n  method: get\n  operationId: listVolumeFiles\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /volumes/{volume_name}/files\n  method: put\n  operationId: putVolumeFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /volumes/{volume_name}/files\n  method: delete\n  operationId: removeVolumeFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /volumes/{volume_name}/commits\n  method: post\n  operationId: commitVolume\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /web-endpoints\n  method: get\n  operationId: listWebEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web-endpoints/{endpoint_id}\n  method: get\n  operationId: getWebEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web-endpoints/{endpoint_id}/labels\n  method: put\n  operationId: setWebEndpointLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/agentic-access/modal-com-agentic-access.yml
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/agentic-access/modal-com-agentic-access.yml
 summary_line: 56 operations · 28 acting · 3 human-in-the-loop
 tags:
 - Serverless

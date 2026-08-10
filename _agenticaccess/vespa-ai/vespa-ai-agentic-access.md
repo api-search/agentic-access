@@ -4,18 +4,24 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: vespa-document-api-openapi.yml
-  format: yaml
-  label: Vespa Document API
-  slug: vespa-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/openapi/vespa-document-api-openapi.yml
 - filename: vespa-ai-query-api-openapi.yml
   format: yaml
   label: Vespa Query API
   slug: vespa-ai-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/openapi/vespa-ai-query-api-openapi.yml
+- filename: vespa-ai-documents-api-openapi.yml
+  format: yaml
+  label: Vespa Documents API
+  slug: vespa-ai-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/openapi/vespa-ai-documents-api-openapi.yml
+- filename: vespa-ai-visit-api-openapi.yml
+  format: yaml
+  label: Vespa Visit API
+  slug: vespa-ai-visit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/openapi/vespa-ai-visit-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

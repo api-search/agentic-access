@@ -4,12 +4,60 @@ action_class_counts:
   acting: 7
   connected: 10
 api_specs:
-- filename: fundrise-connect-openapi.yml
+- filename: fundrise-acknowledgments-api-openapi.yml
   format: yaml
-  label: Fundrise Connect API
-  slug: fundrise-connect
+  label: Fundrise Acknowledgments API
+  slug: fundrise-acknowledgments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-connect-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-acknowledgments-api-openapi.yml
+- filename: fundrise-authentication-api-openapi.yml
+  format: yaml
+  label: Fundrise Authentication API
+  slug: fundrise-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-authentication-api-openapi.yml
+- filename: fundrise-clients-api-openapi.yml
+  format: yaml
+  label: Fundrise Clients API
+  slug: fundrise-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-clients-api-openapi.yml
+- filename: fundrise-holdings-api-openapi.yml
+  format: yaml
+  label: Fundrise Holdings API
+  slug: fundrise-holdings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-holdings-api-openapi.yml
+- filename: fundrise-investments-api-openapi.yml
+  format: yaml
+  label: Fundrise Investments API
+  slug: fundrise-investments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-investments-api-openapi.yml
+- filename: fundrise-liquidations-api-openapi.yml
+  format: yaml
+  label: Fundrise Liquidations API
+  slug: fundrise-liquidations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-liquidations-api-openapi.yml
+- filename: fundrise-offerings-api-openapi.yml
+  format: yaml
+  label: Fundrise Offerings API
+  slug: fundrise-offerings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-offerings-api-openapi.yml
+- filename: fundrise-tax-forms-api-openapi.yml
+  format: yaml
+  label: Fundrise Tax Forms API
+  slug: fundrise-tax-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-tax-forms-api-openapi.yml
+- filename: fundrise-transactions-api-openapi.yml
+  format: yaml
+  label: Fundrise Transactions API
+  slug: fundrise-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-transactions-api-openapi.yml
 consequence_counts:
   read: 10
   write: 7

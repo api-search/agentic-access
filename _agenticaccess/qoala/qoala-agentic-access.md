@@ -10,90 +10,12 @@ api_specs:
   slug: qoala-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-authentication-api-openapi.yml
-- filename: qoala-bus-insurance-openapi.yml
+- filename: qoala-api-specification-api-openapi.yml
   format: yaml
-  label: Qoala Bus Insurance
-  slug: qoala-bus-insurance
+  label: Qoala API Specification API
+  slug: qoala-api-specification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-bus-insurance-openapi.yml
-- filename: qoala-claim-api-alt-openapi.yml
-  format: yaml
-  label: Qoala Claim API (alternate published spec)
-  slug: qoala-claim-api-alternate-published-spec
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-claim-api-alt-openapi.yml
-- filename: qoala-claim-api-openapi.yml
-  format: yaml
-  label: Qoala Claim API
-  slug: qoala-claim-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-claim-api-openapi.yml
-- filename: qoala-credit-insurance-openapi.yml
-  format: yaml
-  label: Qoala Credit Insurance
-  slug: qoala-credit-insurance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-credit-insurance-openapi.yml
-- filename: qoala-credit-life-insurance-openapi.yml
-  format: yaml
-  label: Qoala Credit Life Insurance
-  slug: qoala-credit-life-insurance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-credit-life-insurance-openapi.yml
-- filename: qoala-experience-event-insurance-openapi.yml
-  format: yaml
-  label: Qoala Experience & Event Insurance
-  slug: qoala-experience-event-insurance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-experience-event-insurance-openapi.yml
-- filename: qoala-flight-insurance-openapi.yml
-  format: yaml
-  label: Qoala Flight Insurance
-  slug: qoala-flight-insurance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-flight-insurance-openapi.yml
-- filename: qoala-gadget-insurance-openapi.yml
-  format: yaml
-  label: Qoala Gadget Insurance
-  slug: qoala-gadget-insurance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-gadget-insurance-openapi.yml
-- filename: qoala-goods-insurance-openapi.yml
-  format: yaml
-  label: Qoala Goods Insurance
-  slug: qoala-goods-insurance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-goods-insurance-openapi.yml
-- filename: qoala-hotel-insurance-openapi.yml
-  format: yaml
-  label: Qoala Hotel Insurance
-  slug: qoala-hotel-insurance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-hotel-insurance-openapi.yml
-- filename: qoala-logistic-insurance-openapi.yml
-  format: yaml
-  label: Qoala Logistic Insurance
-  slug: qoala-logistic-insurance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-logistic-insurance-openapi.yml
-- filename: qoala-micro-health-insurance-openapi.yml
-  format: yaml
-  label: Qoala Micro health insurance
-  slug: qoala-micro-health-insurance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-micro-health-insurance-openapi.yml
-- filename: qoala-train-insurance-openapi.yml
-  format: yaml
-  label: Qoala Train Insurance
-  slug: qoala-train-insurance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-train-insurance-openapi.yml
-- filename: qoala-vehicle-insurance-openapi.yml
-  format: yaml
-  label: Qoala Vehicle Insurance
-  slug: qoala-vehicle-insurance
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-vehicle-insurance-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-api-specification-api-openapi.yml
 consequence_counts:
   read: 16
   write: 35

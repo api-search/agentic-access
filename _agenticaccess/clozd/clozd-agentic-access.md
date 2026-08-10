@@ -4,24 +4,48 @@ action_class_counts:
   acting: 4
   connected: 8
 api_specs:
-- filename: clozd-data-api-v3-openapi.yml
+- filename: clozd-programs-api-openapi.yml
   format: yaml
-  label: Clozd Data API v3.0
-  slug: clozd-data-api-v30
+  label: Clozd /programs API
+  slug: clozd-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-data-api-v3-openapi.yml
-- filename: clozd-data-api-v2-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-api-openapi.yml
+- filename: clozd-programs-program-id-competitors-api-openapi.yml
   format: yaml
-  label: Clozd Data API v2.0
-  slug: clozd-data-api-v20
+  label: Clozd /programs/:program Id/competitors API
+  slug: clozd-programs-program-id-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-data-api-v2-openapi.yml
-- filename: clozd-data-api-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-competitors-api-openapi.yml
+- filename: clozd-programs-program-id-deals-api-openapi.yml
   format: yaml
-  label: Clozd Data API v1.0
-  slug: clozd-data-api-v10
+  label: Clozd /programs/:program Id/deals API
+  slug: clozd-programs-program-id-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-data-api-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-deals-api-openapi.yml
+- filename: clozd-programs-program-id-deals-deal-id-api-openapi.yml
+  format: yaml
+  label: Clozd /programs/:program Id/deals/:deal ID API
+  slug: clozd-programs-program-id-deals-deal-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-deals-deal-id-api-openapi.yml
+- filename: clozd-programs-program-id-deals-import-api-openapi.yml
+  format: yaml
+  label: Clozd /programs/:program Id/deals/import API
+  slug: clozd-programs-program-id-deals-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-deals-import-api-openapi.yml
+- filename: clozd-programs-program-id-touchpoints-api-openapi.yml
+  format: yaml
+  label: Clozd /programs/:program Id/touchpoints API
+  slug: clozd-programs-program-id-touchpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-touchpoints-api-openapi.yml
+- filename: clozd-programs-program-id-touchpoints-touchpoint-id-api-openapi.yml
+  format: yaml
+  label: Clozd /programs/:program Id/touchpoints/:touchpoint ID API
+  slug: clozd-programs-program-id-touchpoints-touchpoint-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/openapi/clozd-programs-program-id-touchpoints-touchpoint-id-api-openapi.yml
 consequence_counts:
   read: 8
   write: 4

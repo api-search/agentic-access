@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: also-storefront-json-openapi.yml
+- filename: also-cart-api-openapi.yml
   format: yaml
-  label: ALSO Storefront JSON API
-  slug: also-storefront-json-api
+  label: Also Cart API
+  slug: also-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/openapi/also-storefront-json-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/openapi/also-cart-api-openapi.yml
+- filename: also-collections-api-openapi.yml
+  format: yaml
+  label: Also Collections API
+  slug: also-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/openapi/also-collections-api-openapi.yml
+- filename: also-products-api-openapi.yml
+  format: yaml
+  label: Also Products API
+  slug: also-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/openapi/also-products-api-openapi.yml
+- filename: also-search-api-openapi.yml
+  format: yaml
+  label: Also Search API
+  slug: also-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/openapi/also-search-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

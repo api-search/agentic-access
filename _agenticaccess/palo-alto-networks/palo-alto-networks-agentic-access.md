@@ -958,1890 +958,3732 @@ api_specs:
   slug: palo-alto-networks-xql-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/asyncapi/palo-alto-prisma-cloud-webhooks-asyncapi-original.yml
-- filename: palo-alto-access-adem-new-adem-spec-openapi.yaml
+- filename: palo-alto-networks-5g-deregistered-trend-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks ADEM data API
-  slug: palo-alto-networks-adem-data-api
+  label: Palo Alto Networks 5G Deregistered Trend API
+  slug: palo-alto-networks-5g-deregistered-trend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-adem-new-adem-spec-openapi.yaml
-- filename: palo-alto-access-browser-mgmt-prismaaccess-browser-management-latest-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-5g-deregistered-trend-api-openapi.yml
+- filename: palo-alto-networks-5g-network-interconnects-and-bandwidth-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Prisma Browser Management Console Public API
-  slug: palo-alto-networks-prisma-browser-management-console-public-api
+  label: Palo Alto Networks 5G Network Interconnects and Bandwidth API
+  slug: palo-alto-networks-5g-network-interconnects-and-bandwidth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-browser-mgmt-prismaaccess-browser-management-latest-openapi.yaml
-- filename: palo-alto-access-insights-2-0-dataresource-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-5g-network-interconnects-and-bandwidth-api-openapi.yml
+- filename: palo-alto-networks-5g-registered-trend-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Data Resource
-  slug: palo-alto-networks-data-resource
+  label: Palo Alto Networks 5G Registered Trend API
+  slug: palo-alto-networks-5g-registered-trend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-insights-2-0-dataresource-openapi.yaml
-- filename: palo-alto-access-insights-2-0-dataresourcecustom-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-5g-registered-trend-api-openapi.yml
+- filename: palo-alto-networks-5g-unknown-ips-trend-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Data Resource - Custom
-  slug: palo-alto-networks-data-resource-custom
+  label: Palo Alto Networks 5G Unknown IPs Trend API
+  slug: palo-alto-networks-5g-unknown-ips-trend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-insights-2-0-dataresourcecustom-openapi.yaml
-- filename: palo-alto-access-insights-2-0-dataresourceexport-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-5g-unknown-ips-trend-api-openapi.yml
+- filename: palo-alto-networks-access-keys-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Data Resource Export
-  slug: palo-alto-networks-data-resource-export
+  label: Palo Alto Networks Access Keys API
+  slug: palo-alto-networks-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-insights-2-0-dataresourceexport-openapi.yaml
-- filename: palo-alto-access-insights-3-0-paloaltonetworks-insights-30-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-access-keys-api-openapi.yml
+- filename: palo-alto-networks-accesspolicies-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks 3.0 APIs
-  slug: palo-alto-networks-30-apis
+  label: Palo Alto Networks Access Policies API
+  slug: palo-alto-networks-accesspolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-insights-3-0-paloaltonetworks-insights-30-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-addresses-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-accesspolicies-api-openapi.yml
+- filename: palo-alto-networks-account-groups-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Address Management
-  slug: palo-alto-networks-address-management
+  label: Palo Alto Networks Account Groups API
+  slug: palo-alto-networks-account-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-addresses-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-addressgroups-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-account-groups-api-openapi.yml
+- filename: palo-alto-networks-action-plan-management-apis-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Address Group Management
-  slug: palo-alto-networks-address-group-management
+  label: Palo Alto Networks Action Plan Management APIs API
+  slug: palo-alto-networks-action-plan-management-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-addressgroups-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-antispywareprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-action-plan-management-apis-api-openapi.yml
+- filename: palo-alto-networks-active-mappings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Anti-Spyware Profiles
-  slug: palo-alto-networks-anti-spyware-profiles
+  label: Palo Alto Networks Active Mappings API
+  slug: palo-alto-networks-active-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-antispywareprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-antispywaresignatures-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-active-mappings-api-openapi.yml
+- filename: palo-alto-networks-adapters-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Anti-Spyware Signatures
-  slug: palo-alto-networks-anti-spyware-signatures
+  label: Palo Alto Networks Adapters API
+  slug: palo-alto-networks-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-antispywaresignatures-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-applicationfilters-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-adapters-api-openapi.yml
+- filename: palo-alto-networks-added-and-cleared-mappings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Application Filter Management
-  slug: palo-alto-networks-application-filter-management
+  label: Palo Alto Networks Added and Cleared Mappings API
+  slug: palo-alto-networks-added-and-cleared-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-applicationfilters-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-applicationgroups-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-added-and-cleared-mappings-api-openapi.yml
+- filename: palo-alto-networks-address-groups-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Application Group Management
-  slug: palo-alto-networks-application-group-management
+  label: Palo Alto Networks Address Groups API
+  slug: palo-alto-networks-address-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-applicationgroups-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-applicationoverriderules-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-address-groups-api-openapi.yml
+- filename: palo-alto-networks-addresses-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Application Override Rules
-  slug: palo-alto-networks-application-override-rules
+  label: Palo Alto Networks Addresses API
+  slug: palo-alto-networks-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-applicationoverriderules-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-applications-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-addresses-api-openapi.yml
+- filename: palo-alto-networks-addressgroups-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Application Management
-  slug: palo-alto-networks-application-management
+  label: Palo Alto Networks Address Groups API
+  slug: palo-alto-networks-addressgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-applications-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-authenticationportals-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-addressgroups-api-openapi.yml
+- filename: palo-alto-networks-adem-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Authentication Portals
-  slug: palo-alto-networks-authentication-portals
+  label: Palo Alto Networks ADEM API
+  slug: palo-alto-networks-adem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-authenticationportals-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-authenticationprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-adem-api-openapi.yml
+- filename: palo-alto-networks-adoption-advisor-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Authentication Profiles
-  slug: palo-alto-networks-authentication-profiles
+  label: Palo Alto Networks Adoption Advisor API
+  slug: palo-alto-networks-adoption-advisor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-authenticationprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-authenticationrules-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-adoption-advisor-api-openapi.yml
+- filename: palo-alto-networks-advanced-device-objects-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Authentication Rules
-  slug: palo-alto-networks-authentication-rules
+  label: Palo Alto Networks Advanced Device Objects API
+  slug: palo-alto-networks-advanced-device-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-authenticationrules-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-authenticationsequences-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-advanced-device-objects-api-openapi.yml
+- filename: palo-alto-networks-advanced-threat-prevention-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Authentication Sequences
-  slug: palo-alto-networks-authentication-sequences
+  label: Palo Alto Networks Advanced Threat Prevention API
+  slug: palo-alto-networks-advanced-threat-prevention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-authenticationsequences-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-autotagactions-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-advanced-threat-prevention-api-openapi.yml
+- filename: palo-alto-networks-agent-authentication-settings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Auto Tag Actions
-  slug: palo-alto-networks-auto-tag-actions
+  label: Palo Alto Networks Agent Authentication Settings API
+  slug: palo-alto-networks-agent-authentication-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-autotagactions-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-bandwidthallocations-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-agent-authentication-settings-api-openapi.yml
+- filename: palo-alto-networks-agent-users-api-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Bandwidth Allocations
-  slug: palo-alto-networks-bandwidth-allocations
+  label: Palo Alto Networks Agent Users API API
+  slug: palo-alto-networks-agent-users-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-bandwidthallocations-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-certificateprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-agent-users-api-api-openapi.yml
+- filename: palo-alto-networks-agent-versions-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Certificate Profiles
-  slug: palo-alto-networks-certificate-profiles
+  label: Palo Alto Networks Agent Versions API
+  slug: palo-alto-networks-agent-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-certificateprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-certificates-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-agent-versions-api-openapi.yml
+- filename: palo-alto-networks-agentcontroller-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Certificate Management
-  slug: palo-alto-networks-certificate-management
+  label: Palo Alto Networks Agent Controller API
+  slug: palo-alto-networks-agentcontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-certificates-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-configurationmanagement-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-agentcontroller-api-openapi.yml
+- filename: palo-alto-networks-agentless-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Prisma Access Configurations
-  slug: palo-alto-networks-manage-prisma-access-configurations
+  label: Palo Alto Networks Agentless API
+  slug: palo-alto-networks-agentless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-configurationmanagement-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-decryptionexclusions-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-agentless-api-openapi.yml
+- filename: palo-alto-networks-agentless-users-api-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Decryption Exclusion Management
-  slug: palo-alto-networks-decryption-exclusion-management
+  label: Palo Alto Networks Agentless Users API API
+  slug: palo-alto-networks-agentless-users-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-decryptionexclusions-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-decryptionprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-agentless-users-api-api-openapi.yml
+- filename: palo-alto-networks-aggregate-interfaces-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Decryption Profile Management
-  slug: palo-alto-networks-decryption-profile-management
+  label: Palo Alto Networks Aggregate Interfaces API
+  slug: palo-alto-networks-aggregate-interfaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-decryptionprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-decryptionrules-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-aggregate-interfaces-api-openapi.yml
+- filename: palo-alto-networks-ai-sec-profile-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Decryption Rule Management
-  slug: palo-alto-networks-decryption-rule-management
+  label: Palo Alto Networks AI Sec Profile API
+  slug: palo-alto-networks-ai-sec-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-decryptionrules-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-dnssecurityprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ai-sec-profile-api-openapi.yml
+- filename: palo-alto-networks-alert-rules-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks DNS Security Profiles
-  slug: palo-alto-networks-dns-security-profiles
+  label: Palo Alto Networks Alert Rules API
+  slug: palo-alto-networks-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-dnssecurityprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-dynamicusergroups-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-alert-rules-api-openapi.yml
+- filename: palo-alto-networks-alerts-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Dynamic User Group Management
-  slug: palo-alto-networks-dynamic-user-group-management
+  label: Palo Alto Networks Alerts API
+  slug: palo-alto-networks-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-dynamicusergroups-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-externaldynamiclists-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-alerts-api-openapi.yml
+- filename: palo-alto-networks-anomalies-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks External Dynamic List Management
-  slug: palo-alto-networks-external-dynamic-list-management
+  label: Palo Alto Networks Anomalies API
+  slug: palo-alto-networks-anomalies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-externaldynamiclists-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-fileblockingprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-anomalies-api-openapi.yml
+- filename: palo-alto-networks-anti-spyware-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks File Blocking Profiles
-  slug: palo-alto-networks-file-blocking-profiles
+  label: Palo Alto Networks Anti-Spyware Profiles API
+  slug: palo-alto-networks-anti-spyware-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-fileblockingprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-hipobjects-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-anti-spyware-profiles-api-openapi.yml
+- filename: palo-alto-networks-anti-spyware-signatures-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks HIP Object Management
-  slug: palo-alto-networks-hip-object-management
+  label: Palo Alto Networks Anti-Spyware Signatures API
+  slug: palo-alto-networks-anti-spyware-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-hipobjects-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-hipprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-anti-spyware-signatures-api-openapi.yml
+- filename: palo-alto-networks-antispywareprofiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks HIP Profile Management
-  slug: palo-alto-networks-hip-profile-management
+  label: Palo Alto Networks Anti Spyware Profiles API
+  slug: palo-alto-networks-antispywareprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-hipprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-httpheaderprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-antispywareprofiles-api-openapi.yml
+- filename: palo-alto-networks-antispywaresignatures-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks HTTP Header Profiles
-  slug: palo-alto-networks-http-header-profiles
+  label: Palo Alto Networks Anti Spyware Signatures API
+  slug: palo-alto-networks-antispywaresignatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-httpheaderprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-ikecryptoprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-antispywaresignatures-api-openapi.yml
+- filename: palo-alto-networks-api-key-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks IKE Crypto Profile Management
-  slug: palo-alto-networks-ike-crypto-profile-management
+  label: Palo Alto Networks API key API
+  slug: palo-alto-networks-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-ikecryptoprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-ikegateways-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-api-key-api-openapi.yml
+- filename: palo-alto-networks-api-stats-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks IKE Gateway Management
-  slug: palo-alto-networks-ike-gateway-management
+  label: Palo Alto Networks API Stats API
+  slug: palo-alto-networks-api-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-ikegateways-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-infrastructuresettings-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-api-stats-api-openapi.yml
+- filename: palo-alto-networks-application-api-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Shared Infrastructure Settings
-  slug: palo-alto-networks-shared-infrastructure-settings
+  label: Palo Alto Networks Application API API
+  slug: palo-alto-networks-application-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-infrastructuresettings-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-internaldnsservers-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-application-api-api-openapi.yml
+- filename: palo-alto-networks-application-control-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Internal DNS Servers
-  slug: palo-alto-networks-internal-dns-servers
+  label: Palo Alto Networks Application Control API
+  slug: palo-alto-networks-application-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-internaldnsservers-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-ipseccryptoprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-application-control-api-openapi.yml
+- filename: palo-alto-networks-application-defaults-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks IPSec Crypto Profile Management
-  slug: palo-alto-networks-ipsec-crypto-profile-management
+  label: Palo Alto Networks Application Defaults API
+  slug: palo-alto-networks-application-defaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-ipseccryptoprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-ipsectunnels-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-application-defaults-api-openapi.yml
+- filename: palo-alto-networks-application-filters-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks IPSec Tunnel Management
-  slug: palo-alto-networks-ipsec-tunnel-management
+  label: Palo Alto Networks Application Filters API
+  slug: palo-alto-networks-application-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-ipsectunnels-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-kerberosserverprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-application-filters-api-openapi.yml
+- filename: palo-alto-networks-application-groups-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Kerberos Server Profiles
-  slug: palo-alto-networks-kerberos-server-profiles
+  label: Palo Alto Networks Application Groups API
+  slug: palo-alto-networks-application-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-kerberosserverprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-ldapserverprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-application-groups-api-openapi.yml
+- filename: palo-alto-networks-application-monitor-resource-api-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks LDAP Server Profiles
-  slug: palo-alto-networks-ldap-server-profiles
+  label: Palo Alto Networks Application Monitor Resource API API
+  slug: palo-alto-networks-application-monitor-resource-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-ldapserverprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-licensetypes-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-application-monitor-resource-api-api-openapi.yml
+- filename: palo-alto-networks-application-override-rules-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage licenses
-  slug: palo-alto-networks-manage-licenses
+  label: Palo Alto Networks Application Override Rules API
+  slug: palo-alto-networks-application-override-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-licensetypes-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-localusergroups-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-application-override-rules-api-openapi.yml
+- filename: palo-alto-networks-application-settings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Local User Groups
-  slug: palo-alto-networks-local-user-groups
+  label: Palo Alto Networks Application Settings API
+  slug: palo-alto-networks-application-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-localusergroups-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-localusers-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-application-settings-api-openapi.yml
+- filename: palo-alto-networks-applicationcontroller-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Local User Managment
-  slug: palo-alto-networks-local-user-managment
+  label: Palo Alto Networks Application Controller API
+  slug: palo-alto-networks-applicationcontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-localusers-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-locations-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-applicationcontroller-api-openapi.yml
+- filename: palo-alto-networks-applicationfilters-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Retrieve Prisma Access Locations
-  slug: palo-alto-networks-retrieve-prisma-access-locations
+  label: Palo Alto Networks Application Filters API
+  slug: palo-alto-networks-applicationfilters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-locations-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-mfaservers-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-applicationfilters-api-openapi.yml
+- filename: palo-alto-networks-applicationgroups-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Multi-Factor Authentication Servers
-  slug: palo-alto-networks-multi-factor-authentication-servers
+  label: Palo Alto Networks Application Groups API
+  slug: palo-alto-networks-applicationgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-mfaservers-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-mobileagent-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-applicationgroups-api-openapi.yml
+- filename: palo-alto-networks-applicationoverriderules-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Mobile Agent
-  slug: palo-alto-networks-mobile-agent
+  label: Palo Alto Networks Application Override Rules API
+  slug: palo-alto-networks-applicationoverriderules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-mobileagent-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-ocspresponder-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-applicationoverriderules-api-openapi.yml
+- filename: palo-alto-networks-applications-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks OCSP Responder Management
-  slug: palo-alto-networks-ocsp-responder-management
+  label: Palo Alto Networks Applications API
+  slug: palo-alto-networks-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-ocspresponder-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-profilegroups-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-applications-api-openapi.yml
+- filename: palo-alto-networks-apps-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Profile Group Management
-  slug: palo-alto-networks-profile-group-management
+  label: Palo Alto Networks Apps API
+  slug: palo-alto-networks-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-profilegroups-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-qospolicyrules-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-apps-api-openapi.yml
+- filename: palo-alto-networks-archived-assets-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Quality of Service Policy Rules
-  slug: palo-alto-networks-quality-of-service-policy-rules
+  label: Palo Alto Networks Archived Assets API
+  slug: palo-alto-networks-archived-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-qospolicyrules-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-qosprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-archived-assets-api-openapi.yml
+- filename: palo-alto-networks-asset-explorer-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Quality of Service Profile Management
-  slug: palo-alto-networks-quality-of-service-profile-management
+  label: Palo Alto Networks Asset Explorer API
+  slug: palo-alto-networks-asset-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-qosprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-quarantineddevices-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-asset-explorer-api-openapi.yml
+- filename: palo-alto-networks-asset-inventory-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Quarantined Device Management
-  slug: palo-alto-networks-quarantined-device-management
+  label: Palo Alto Networks Asset Inventory API
+  slug: palo-alto-networks-asset-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-quarantineddevices-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-radiusserverprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-asset-inventory-api-openapi.yml
+- filename: palo-alto-networks-asset-relationship-definitions-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Radius Server Profiles
-  slug: palo-alto-networks-radius-server-profiles
+  label: Palo Alto Networks Asset Relationship Definitions API
+  slug: palo-alto-networks-asset-relationship-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-radiusserverprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-regions-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-asset-relationship-definitions-api-openapi.yml
+- filename: palo-alto-networks-assets-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Region Management
-  slug: palo-alto-networks-region-management
+  label: Palo Alto Networks Assets API
+  slug: palo-alto-networks-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-regions-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-remotenetworks-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-assets-api-openapi.yml
+- filename: palo-alto-networks-associaterulestacks-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Remote Network Management
-  slug: palo-alto-networks-remote-network-management
+  label: Palo Alto Networks Associate Rulestacks API
+  slug: palo-alto-networks-associaterulestacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-remotenetworks-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-samlserverprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-associaterulestacks-api-openapi.yml
+- filename: palo-alto-networks-associationrulestacks-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks SAML Server Profiles
-  slug: palo-alto-networks-saml-server-profiles
+  label: Palo Alto Networks Association Rulestacks API
+  slug: palo-alto-networks-associationrulestacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-samlserverprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-scepprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-associationrulestacks-api-openapi.yml
+- filename: palo-alto-networks-audit-logs-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks SCEP Management
-  slug: palo-alto-networks-scep-management
+  label: Palo Alto Networks Audit Logs API
+  slug: palo-alto-networks-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-scepprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-schedules-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-audit-logs-api-openapi.yml
+- filename: palo-alto-networks-auditlogs-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Schedule Management
-  slug: palo-alto-networks-schedule-management
+  label: Palo Alto Networks Auditlogs API
+  slug: palo-alto-networks-auditlogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-schedules-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-securityrules-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-auditlogs-api-openapi.yml
+- filename: palo-alto-networks-audits-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Security Rule Management
-  slug: palo-alto-networks-security-rule-management
+  label: Palo Alto Networks Audits API
+  slug: palo-alto-networks-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-securityrules-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-serviceconnectiongroups-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-audits-api-openapi.yml
+- filename: palo-alto-networks-authenticate-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Service Connection Groups
-  slug: palo-alto-networks-service-connection-groups
+  label: Palo Alto Networks Authenticate API
+  slug: palo-alto-networks-authenticate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-serviceconnectiongroups-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-serviceconnections-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authenticate-api-openapi.yml
+- filename: palo-alto-networks-authenticate-client-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Service Connections
-  slug: palo-alto-networks-service-connections
+  label: Palo Alto Networks Authenticate Client API
+  slug: palo-alto-networks-authenticate-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-serviceconnections-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-servicegroups-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authenticate-client-api-openapi.yml
+- filename: palo-alto-networks-authentication-portals-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Service Groups Management
-  slug: palo-alto-networks-service-groups-management
+  label: Palo Alto Networks Authentication Portals API
+  slug: palo-alto-networks-authentication-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-servicegroups-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-services-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authentication-portals-api-openapi.yml
+- filename: palo-alto-networks-authentication-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Services Management
-  slug: palo-alto-networks-services-management
+  label: Palo Alto Networks Authentication Profiles API
+  slug: palo-alto-networks-authentication-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-services-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-tacacsserverprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authentication-profiles-api-openapi.yml
+- filename: palo-alto-networks-authentication-rules-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks TACACS Server Profiles
-  slug: palo-alto-networks-tacacs-server-profiles
+  label: Palo Alto Networks Authentication Rules API
+  slug: palo-alto-networks-authentication-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-tacacsserverprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-tags-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authentication-rules-api-openapi.yml
+- filename: palo-alto-networks-authentication-sequences-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Tag Management
-  slug: palo-alto-networks-tag-management
+  label: Palo Alto Networks Authentication Sequences API
+  slug: palo-alto-networks-authentication-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-tags-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-tlsserviceprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authentication-sequences-api-openapi.yml
+- filename: palo-alto-networks-authentication-settings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks TLS Service Profile Management
-  slug: palo-alto-networks-tls-service-profile-management
+  label: Palo Alto Networks Authentication Settings API
+  slug: palo-alto-networks-authentication-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-tlsserviceprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-trafficsteeringrules-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authentication-settings-api-openapi.yml
+- filename: palo-alto-networks-authenticationportals-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Traffic Steering Rules
-  slug: palo-alto-networks-traffic-steering-rules
+  label: Palo Alto Networks Authentication Portals API
+  slug: palo-alto-networks-authenticationportals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-trafficsteeringrules-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-trustedcertificateauthorities-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authenticationportals-api-openapi.yml
+- filename: palo-alto-networks-authenticationprofiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Trusted Certificate Authority Management
-  slug: palo-alto-networks-trusted-certificate-authority-management
+  label: Palo Alto Networks Authentication Profiles API
+  slug: palo-alto-networks-authenticationprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-trustedcertificateauthorities-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-urlaccessprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authenticationprofiles-api-openapi.yml
+- filename: palo-alto-networks-authenticationrules-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks URL Access Profiles
-  slug: palo-alto-networks-url-access-profiles
+  label: Palo Alto Networks Authentication Rules API
+  slug: palo-alto-networks-authenticationrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-urlaccessprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-urlcategories-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authenticationrules-api-openapi.yml
+- filename: palo-alto-networks-authenticationsequences-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks URL Category Management
-  slug: palo-alto-networks-url-category-management
+  label: Palo Alto Networks Authentication Sequences API
+  slug: palo-alto-networks-authenticationsequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-urlcategories-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-urlfilteringcategories-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authenticationsequences-api-openapi.yml
+- filename: palo-alto-networks-authorization-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks URL Filtering Category Management
-  slug: palo-alto-networks-url-filtering-category-management
+  label: Palo Alto Networks Authorization API
+  slug: palo-alto-networks-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-urlfilteringcategories-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-vulnerabilityprotectionprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authorization-api-openapi.yml
+- filename: palo-alto-networks-authservice-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Vulnerability Protection Profiles
-  slug: palo-alto-networks-vulnerability-protection-profiles
+  label: Palo Alto Networks Auth Service API
+  slug: palo-alto-networks-authservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-vulnerabilityprotectionprofiles-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-vulnerabilityprotectionsignatures-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-authservice-api-openapi.yml
+- filename: palo-alto-networks-auto-tag-actions-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Vulnerability Protection Signatures
-  slug: palo-alto-networks-vulnerability-protection-signatures
+  label: Palo Alto Networks Auto-Tag Actions API
+  slug: palo-alto-networks-auto-tag-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-vulnerabilityprotectionsignatures-openapi.yaml
-- filename: palo-alto-access-prisma-access-config-wildfireantivirusprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-auto-tag-actions-api-openapi.yml
+- filename: palo-alto-networks-auto-vpn-clusters-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks WildFire Antivirus Profiles
-  slug: palo-alto-networks-wildfire-antivirus-profiles
+  label: Palo Alto Networks Auto VPN Clusters API
+  slug: palo-alto-networks-auto-vpn-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-prisma-access-config-wildfireantivirusprofiles-openapi.yaml
-- filename: palo-alto-access-ztna-latest-ztna-connector-v1-1-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-auto-vpn-clusters-api-openapi.yml
+- filename: palo-alto-networks-auto-vpn-config-push-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks ZTNA Connector Restful API
-  slug: palo-alto-networks-ztna-connector-restful-api
+  label: Palo Alto Networks Auto VPN Config Push API
+  slug: palo-alto-networks-auto-vpn-config-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-access-ztna-latest-ztna-connector-v1-1-openapi.yaml
-- filename: palo-alto-action-plan-arya-action-plan-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-auto-vpn-config-push-api-openapi.yml
+- filename: palo-alto-networks-auto-vpn-monitor-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Action Plan Management APIs
-  slug: palo-alto-networks-action-plan-management-apis
+  label: Palo Alto Networks Auto VPN Monitor API
+  slug: palo-alto-networks-auto-vpn-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-action-plan-arya-action-plan-openapi.yml
-- filename: palo-alto-aiops-ngfw-bpa-bpareportapi-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-auto-vpn-monitor-api-openapi.yml
+- filename: palo-alto-networks-auto-vpn-settings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Best Practice Assessment Report APIs
-  slug: palo-alto-networks-best-practice-assessment-report-apis
+  label: Palo Alto Networks Auto VPN Settings API
+  slug: palo-alto-networks-auto-vpn-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-aiops-ngfw-bpa-bpareportapi-openapi.yaml
-- filename: palo-alto-cdl-logforwarding-emailprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-auto-vpn-settings-api-openapi.yml
+- filename: palo-alto-networks-autoscale-settings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Email Profiles
-  slug: palo-alto-networks-email-profiles
+  label: Palo Alto Networks Autoscale Settings API
+  slug: palo-alto-networks-autoscale-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cdl-logforwarding-emailprofiles-openapi.yaml
-- filename: palo-alto-cdl-logforwarding-httpsprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-autoscale-settings-api-openapi.yml
+- filename: palo-alto-networks-autotagactions-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks HTTPS Profiles
-  slug: palo-alto-networks-https-profiles
+  label: Palo Alto Networks Auto Tag Actions API
+  slug: palo-alto-networks-autotagactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cdl-logforwarding-httpsprofiles-openapi.yaml
-- filename: palo-alto-cdl-logforwarding-syslogprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-autotagactions-api-openapi.yml
+- filename: palo-alto-networks-aws-logging-accounts-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Syslog Profiles
-  slug: palo-alto-networks-syslog-profiles
+  label: Palo Alto Networks AWS Logging Accounts API
+  slug: palo-alto-networks-aws-logging-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cdl-logforwarding-syslogprofiles-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-associaterulestacks-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-aws-logging-accounts-api-openapi.yml
+- filename: palo-alto-networks-background-jobs-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Associate Rulestacks to NGFW
-  slug: palo-alto-networks-associate-rulestacks-to-ngfw
+  label: Palo Alto Networks Background Jobs API
+  slug: palo-alto-networks-background-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-associaterulestacks-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-associationrulestacks-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-background-jobs-api-openapi.yml
+- filename: palo-alto-networks-bandwidth-allocations-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Association Rulestacks
-  slug: palo-alto-networks-manage-association-rulestacks
+  label: Palo Alto Networks Bandwidth Allocations API
+  slug: palo-alto-networks-bandwidth-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-associationrulestacks-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-certificateobjects-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bandwidth-allocations-api-openapi.yml
+- filename: palo-alto-networks-bandwidth-consumption-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Certificate Objects
-  slug: palo-alto-networks-manage-certificate-objects
+  label: Palo Alto Networks Bandwidth Consumption API
+  slug: palo-alto-networks-bandwidth-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-certificateobjects-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-fileblockingaction-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bandwidth-consumption-api-openapi.yml
+- filename: palo-alto-networks-bandwidthallocations-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage File Blocking Action
-  slug: palo-alto-networks-manage-file-blocking-action
+  label: Palo Alto Networks Bandwidth Allocations API
+  slug: palo-alto-networks-bandwidthallocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-fileblockingaction-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-fqdnlist-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bandwidthallocations-api-openapi.yml
+- filename: palo-alto-networks-benchmark-monitoring-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage FQDN List
-  slug: palo-alto-networks-manage-fqdn-list
+  label: Palo Alto Networks Benchmark Monitoring API
+  slug: palo-alto-networks-benchmark-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-fqdnlist-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-intelligentfeed-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-benchmark-monitoring-api-openapi.yml
+- filename: palo-alto-networks-bgp-address-family-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Intelligent Feed
-  slug: palo-alto-networks-manage-intelligent-feed
+  label: Palo Alto Networks BGP Address Family Profiles API
+  slug: palo-alto-networks-bgp-address-family-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-intelligentfeed-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-logprofile-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bgp-address-family-profiles-api-openapi.yml
+- filename: palo-alto-networks-bgp-authentication-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Log Profiles
-  slug: palo-alto-networks-manage-log-profiles
+  label: Palo Alto Networks BGP Authentication Profiles API
+  slug: palo-alto-networks-bgp-authentication-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-logprofile-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-manageapitokens-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bgp-authentication-profiles-api-openapi.yml
+- filename: palo-alto-networks-bgp-filtering-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage API Tokens
-  slug: palo-alto-networks-manage-api-tokens
+  label: Palo Alto Networks BGP Filtering Profiles API
+  slug: palo-alto-networks-bgp-filtering-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-manageapitokens-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managecertificateobjects-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bgp-filtering-profiles-api-openapi.yml
+- filename: palo-alto-networks-bgp-redistribution-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Certificate Objects (CLOUDNGFW)
-  slug: palo-alto-networks-manage-certificate-objects-cloudngfw
+  label: Palo Alto Networks BGP Redistribution Profiles API
+  slug: palo-alto-networks-bgp-redistribution-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managecertificateobjects-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managecommitconfiguration-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bgp-redistribution-profiles-api-openapi.yml
+- filename: palo-alto-networks-bgp-route-map-redistributions-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Rulestack Commits
-  slug: palo-alto-networks-manage-rulestack-commits
+  label: Palo Alto Networks BGP Route Map Redistributions API
+  slug: palo-alto-networks-bgp-route-map-redistributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managecommitconfiguration-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managecustomurlcategories-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bgp-route-map-redistributions-api-openapi.yml
+- filename: palo-alto-networks-bgp-route-maps-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Custom URL Categories
-  slug: palo-alto-networks-manage-custom-url-categories
+  label: Palo Alto Networks BGP Route Maps API
+  slug: palo-alto-networks-bgp-route-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managecustomurlcategories-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managefileblockingactions-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bgp-route-maps-api-openapi.yml
+- filename: palo-alto-networks-bgp-routing-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage File Blocking Actions
-  slug: palo-alto-networks-manage-file-blocking-actions
+  label: Palo Alto Networks BGP Routing API
+  slug: palo-alto-networks-bgp-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managefileblockingactions-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managefqdnlists-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bgp-routing-api-openapi.yml
+- filename: palo-alto-networks-bpa-report-api-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage FQDN Lists
-  slug: palo-alto-networks-manage-fqdn-lists
+  label: Palo Alto Networks BPA Report API API
+  slug: palo-alto-networks-bpa-report-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managefqdnlists-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-manageintelligentfeeds-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bpa-report-api-api-openapi.yml
+- filename: palo-alto-networks-branch-user-api-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Intelligent Feeds
-  slug: palo-alto-networks-manage-intelligent-feeds
+  label: Palo Alto Networks Branch User API API
+  slug: palo-alto-networks-branch-user-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-manageintelligentfeeds-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managelogprofiles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-branch-user-api-api-openapi.yml
+- filename: palo-alto-networks-built-in-accounts-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Log Profiles (CLOUDNGFW)
-  slug: palo-alto-networks-manage-log-profiles-cloudngfw
+  label: Palo Alto Networks Built-In Accounts API
+  slug: palo-alto-networks-built-in-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managelogprofiles-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managengfw-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-built-in-accounts-api-openapi.yml
+- filename: palo-alto-networks-bulk-configurations-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Cloud NGFW
-  slug: palo-alto-networks-manage-cloud-ngfw
+  label: Palo Alto Networks Bulk Configurations API
+  slug: palo-alto-networks-bulk-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managengfw-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managengfw-v2-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bulk-configurations-api-openapi.yml
+- filename: palo-alto-networks-bulk-operations-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Cloud NGFW (V2)
-  slug: palo-alto-networks-manage-cloud-ngfw-v2
+  label: Palo Alto Networks Bulk Operations API
+  slug: palo-alto-networks-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managengfw-v2-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managengfwtags-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-bulk-operations-api-openapi.yml
+- filename: palo-alto-networks-catalog-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Cloud NGFW Tags
-  slug: palo-alto-networks-manage-cloud-ngfw-tags
+  label: Palo Alto Networks Catalog API
+  slug: palo-alto-networks-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managengfwtags-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managepredefinedurlcategories-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-catalog-api-openapi.yml
+- filename: palo-alto-networks-categories-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Predefined URL Categories
-  slug: palo-alto-networks-manage-predefined-url-categories
+  label: Palo Alto Networks Categories API
+  slug: palo-alto-networks-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managepredefinedurlcategories-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-manageprefixlists-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-categories-api-openapi.yml
+- filename: palo-alto-networks-cellular-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Prefix Lists
-  slug: palo-alto-networks-manage-prefix-lists
+  label: Palo Alto Networks Cellular API
+  slug: palo-alto-networks-cellular-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-manageprefixlists-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managerulestacks-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cellular-api-openapi.yml
+- filename: palo-alto-networks-certificate-approvals-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Rulestacks
-  slug: palo-alto-networks-manage-rulestacks
+  label: Palo Alto Networks Certificate Approvals API
+  slug: palo-alto-networks-certificate-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managerulestacks-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managerulestacktags-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificate-approvals-api-openapi.yml
+- filename: palo-alto-networks-certificate-auto-renewal-monitoring-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Rulestack Tags
-  slug: palo-alto-networks-manage-rulestack-tags
+  label: Palo Alto Networks Certificate Auto-renewal Monitoring API
+  slug: palo-alto-networks-certificate-auto-renewal-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managerulestacktags-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managesecurityrules-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificate-auto-renewal-monitoring-api-openapi.yml
+- filename: palo-alto-networks-certificate-discovery-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Security Rules
-  slug: palo-alto-networks-manage-security-rules
+  label: Palo Alto Networks Certificate Discovery API
+  slug: palo-alto-networks-certificate-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managesecurityrules-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-managesubscription-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificate-discovery-api-openapi.yml
+- filename: palo-alto-networks-certificate-import-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Subscription
-  slug: palo-alto-networks-manage-subscription
+  label: Palo Alto Networks Certificate Import API
+  slug: palo-alto-networks-certificate-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-managesubscription-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-predefinedurlcategories-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificate-import-api-openapi.yml
+- filename: palo-alto-networks-certificate-inventory-monitoring-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Predefined URL Categories (CLOUDNGFW)
-  slug: palo-alto-networks-manage-predefined-url-categories-cloudngfw
+  label: Palo Alto Networks Certificate Inventory Monitoring API
+  slug: palo-alto-networks-certificate-inventory-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-predefinedurlcategories-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-prefixlist-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificate-inventory-monitoring-api-openapi.yml
+- filename: palo-alto-networks-certificate-policy-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Prefix List
-  slug: palo-alto-networks-manage-prefix-list
+  label: Palo Alto Networks Certificate Policy API
+  slug: palo-alto-networks-certificate-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-prefixlist-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-securityrules-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificate-policy-api-openapi.yml
+- filename: palo-alto-networks-certificate-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Manage Security Rules (CLOUDNGFW)
-  slug: palo-alto-networks-manage-security-rules-cloudngfw
+  label: Palo Alto Networks Certificate Profiles API
+  slug: palo-alto-networks-certificate-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-securityrules-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-useronboarding-linkaccount-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificate-profiles-api-openapi.yml
+- filename: palo-alto-networks-certificate-request-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks User Onboarding using Link Account
-  slug: palo-alto-networks-user-onboarding-using-link-account
+  label: Palo Alto Networks Certificate Request API
+  slug: palo-alto-networks-certificate-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-useronboarding-linkaccount-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-useronboarding-linkaccounts-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificate-request-api-openapi.yml
+- filename: palo-alto-networks-certificate-revocation-approvals-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks User Onboarding using Link Account (CLOUDNGFW)
-  slug: palo-alto-networks-user-onboarding-using-link-account-cloudngfw
+  label: Palo Alto Networks Certificate Revocation Approvals API
+  slug: palo-alto-networks-certificate-revocation-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-useronboarding-linkaccounts-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-useronboarding-memberaccounts-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificate-revocation-approvals-api-openapi.yml
+- filename: palo-alto-networks-certificate-tags-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks User Onboarding using Endpoint Role
-  slug: palo-alto-networks-user-onboarding-using-endpoint-role
+  label: Palo Alto Networks Certificate Tags API
+  slug: palo-alto-networks-certificate-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-useronboarding-memberaccounts-openapi.yaml
-- filename: palo-alto-cloudngfw-aws-useronboarding-xaccountroles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificate-tags-api-openapi.yml
+- filename: palo-alto-networks-certificateobjects-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks User Onboarding using Endpoint Role (CLOUDNGFW)
-  slug: palo-alto-networks-user-onboarding-using-endpoint-role-cloudngfw
+  label: Palo Alto Networks Certificate Objects API
+  slug: palo-alto-networks-certificateobjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloudngfw-aws-useronboarding-xaccountroles-openapi.yaml
-- filename: palo-alto-code-checkovversion-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud CheckovVersion API Overview
-  slug: palo-alto-networks-prisma-cloud-checkovversion-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-checkovversion-openapi.json
-- filename: palo-alto-code-ci-cdrisks-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud CI/CD API Overview
-  slug: palo-alto-networks-prisma-cloud-cicd-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-ci-cdrisks-openapi.json
-- filename: palo-alto-code-codefixes-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Code Fixes API Overview
-  slug: palo-alto-networks-prisma-cloud-code-fixes-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-codefixes-openapi.json
-- filename: palo-alto-code-dashboard-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Application Security Dashboard API Overview
-  slug: palo-alto-networks-prisma-cloud-application-security-dashboard-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-dashboard-openapi.json
-- filename: palo-alto-code-developmentpipeline-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Development Pipeline API Overview
-  slug: palo-alto-networks-prisma-cloud-development-pipeline-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-developmentpipeline-openapi.json
-- filename: palo-alto-code-errors-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Code Errors API Overview
-  slug: palo-alto-networks-prisma-cloud-code-errors-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-errors-openapi.json
-- filename: palo-alto-code-packages-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Packages API Overview
-  slug: palo-alto-networks-prisma-cloud-packages-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-packages-openapi.json
-- filename: palo-alto-code-packagesalerts-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Packages Alerts API Overview
-  slug: palo-alto-networks-prisma-cloud-packages-alerts-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-packagesalerts-openapi.json
-- filename: palo-alto-code-policies-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Policies API Overview
-  slug: palo-alto-networks-prisma-cloud-policies-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-policies-openapi.json
-- filename: palo-alto-code-remediations-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Remediations API Overview
-  slug: palo-alto-networks-prisma-cloud-remediations-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-remediations-openapi.json
-- filename: palo-alto-code-repositories-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Repositories API Overview
-  slug: palo-alto-networks-prisma-cloud-repositories-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-repositories-openapi.json
-- filename: palo-alto-code-repository-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Repository API Overview
-  slug: palo-alto-networks-prisma-cloud-repository-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-repository-openapi.json
-- filename: palo-alto-code-repositoryimportancescore-openapi.json
-  format: json
-  label: Palo Alto Networks TSOA
-  slug: palo-alto-networks-tsoa
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-repositoryimportancescore-openapi.json
-- filename: palo-alto-code-rules-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Rules API Overview
-  slug: palo-alto-networks-prisma-cloud-rules-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-rules-openapi.json
-- filename: palo-alto-code-sbom-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud SBOM API Overview
-  slug: palo-alto-networks-prisma-cloud-sbom-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-sbom-openapi.json
-- filename: palo-alto-code-scans-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Scans API Overview
-  slug: palo-alto-networks-prisma-cloud-scans-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-scans-openapi.json
-- filename: palo-alto-code-suppressions-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Suppressions API Overview
-  slug: palo-alto-networks-prisma-cloud-suppressions-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-suppressions-openapi.json
-- filename: palo-alto-code-tagrules-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Tag Rules API Overview
-  slug: palo-alto-networks-prisma-cloud-tag-rules-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-tagrules-openapi.json
-- filename: palo-alto-code-technologies-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Technologies API Overview
-  slug: palo-alto-networks-prisma-cloud-technologies-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-code-technologies-openapi.json
-- filename: palo-alto-compute-34-03-openapi-34-03-138-sh-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Compute API
-  slug: palo-alto-networks-prisma-cloud-compute-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-compute-34-03-openapi-34-03-138-sh-openapi.json
-- filename: palo-alto-compute-openapi-34-04-145-sh-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Compute API (COMPUTE)
-  slug: palo-alto-networks-prisma-cloud-compute-api-compute
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-compute-openapi-34-04-145-sh-openapi.json
-- filename: palo-alto-cspm-accesskeys-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Access Keys API Overview
-  slug: palo-alto-networks-prisma-cloud-access-keys-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-accesskeys-openapi.json
-- filename: palo-alto-cspm-accountgroups-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Account Groups API Overview
-  slug: palo-alto-networks-prisma-cloud-account-groups-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-accountgroups-openapi.json
-- filename: palo-alto-cspm-adoptionadvisor-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Adoption Advisor API Overview
-  slug: palo-alto-networks-prisma-adoption-advisor-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-adoptionadvisor-openapi.json
-- filename: palo-alto-cspm-alertrules-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Alert Rules API Overview
-  slug: palo-alto-networks-prisma-cloud-alert-rules-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-alertrules-openapi.json
-- filename: palo-alto-cspm-alerts-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Alerts API Overview
-  slug: palo-alto-networks-prisma-cloud-alerts-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-alerts-openapi.json
-- filename: palo-alto-cspm-alertsmicroservices-openapi.json
-  format: json
-  label: Palo Alto Networks Alerts 2.0 API
-  slug: palo-alto-networks-alerts-20-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-alertsmicroservices-openapi.json
-- filename: palo-alto-cspm-alertsnotificationmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks On-demand Alert Notification APIs (Alerts side)
-  slug: palo-alto-networks-on-demand-alert-notification-apis-alerts-side
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-alertsnotificationmicroservice-openapi.json
-- filename: palo-alto-cspm-anomaliesmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Anomaly Settings and Trusted List API Overview
-  slug: palo-alto-networks-prisma-cloud-anomaly-settings-and-trusted-list-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-anomaliesmicroservice-openapi.json
-- filename: palo-alto-cspm-applicationconfigmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks OpenAPI definition
-  slug: palo-alto-networks-openapi-definition
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-applicationconfigmicroservice-openapi.json
-- filename: palo-alto-cspm-applicationsearchmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks AppDNA API Specs
-  slug: palo-alto-networks-appdna-api-specs
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-applicationsearchmicroservice-openapi.json
-- filename: palo-alto-cspm-archivedassetsmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Archived Assets API Overview
-  slug: palo-alto-networks-prisma-cloud-archived-assets-api-overview
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificateobjects-api-openapi.yml
+- filename: palo-alto-networks-certificateprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Certificate Profiles API
+  slug: palo-alto-networks-certificateprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-archivedassetsmicroservice-openapi.json
-- filename: palo-alto-cspm-assetexplorer-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Asset Explorer API Overview
-  slug: palo-alto-networks-prisma-cloud-asset-explorer-api-overview
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificateprofiles-api-openapi.yml
+- filename: palo-alto-networks-certificates-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Certificates API
+  slug: palo-alto-networks-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-assetexplorer-openapi.json
-- filename: palo-alto-cspm-assetinventory-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Asset Inventory API Overview
-  slug: palo-alto-networks-prisma-cloud-asset-inventory-api-overview
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certificates-api-openapi.yml
+- filename: palo-alto-networks-certs-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Certs API
+  slug: palo-alto-networks-certs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-assetinventory-openapi.json
-- filename: palo-alto-cspm-assetmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks APIs to query unified asset
-  slug: palo-alto-networks-apis-to-query-unified-asset
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-certs-api-openapi.yml
+- filename: palo-alto-networks-channels-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Channels API
+  slug: palo-alto-networks-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-assetmicroservice-openapi.json
-- filename: palo-alto-cspm-assetrelationshipdefinitions-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Asset Relationship Type Manager Definition Overview
-  slug: palo-alto-networks-prisma-cloud-asset-relationship-type-manager-definition-overview
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-channels-api-openapi.yml
+- filename: palo-alto-networks-checkovversion-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Checkov Version API
+  slug: palo-alto-networks-checkovversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-assetrelationshipdefinitions-openapi.json
-- filename: palo-alto-cspm-auditlogs-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Audit Logs API Overview
-  slug: palo-alto-networks-prisma-cloud-audit-logs-api-overview
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-checkovversion-api-openapi.yml
+- filename: palo-alto-networks-checks-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Checks API
+  slug: palo-alto-networks-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-auditlogs-openapi.json
-- filename: palo-alto-cspm-auditlogsmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks Audit log service
-  slug: palo-alto-networks-audit-log-service
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-checks-api-openapi.yml
+- filename: palo-alto-networks-ci-cd-risks-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks CI-CD Risks API
+  slug: palo-alto-networks-ci-cd-risks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-auditlogsmicroservice-openapi.json
-- filename: palo-alto-cspm-backgroundjobsmicroservice-openapi.json
-  format: json
-  label: 'Palo Alto Networks Platform: Reporting Service'
-  slug: palo-alto-networks-platform-reporting-service
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ci-cd-risks-api-openapi.yml
+- filename: palo-alto-networks-ciderrepository-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Cider Repository API
+  slug: palo-alto-networks-ciderrepository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-backgroundjobsmicroservice-openapi.json
-- filename: palo-alto-cspm-cdemmicroservices-openapi.json
-  format: json
-  label: Palo Alto Networks OpenAPI definition (CSPM)
-  slug: palo-alto-networks-openapi-definition-cspm
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ciderrepository-api-openapi.yml
+- filename: palo-alto-networks-cie-token-resource-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Cie Token Resource API API
+  slug: palo-alto-networks-cie-token-resource-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-cdemmicroservices-openapi.json
-- filename: palo-alto-cspm-cloudaccountonboardingmicroservices-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud REST API Doc
-  slug: palo-alto-networks-prisma-cloud-rest-api-doc
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cie-token-resource-api-api-openapi.yml
+- filename: palo-alto-networks-classification-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Classification API
+  slug: palo-alto-networks-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-cloudaccountonboardingmicroservices-openapi.json
-- filename: palo-alto-cspm-cloudaccounts-aws-openapi.json
-  format: json
-  label: Palo Alto Networks AWS Cloud Accounts API Overview
-  slug: palo-alto-networks-aws-cloud-accounts-api-overview
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-classification-api-openapi.yml
+- filename: palo-alto-networks-cloud-accounts-all-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Cloud Accounts (All) API
+  slug: palo-alto-networks-cloud-accounts-all-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-cloudaccounts-aws-openapi.json
-- filename: palo-alto-cspm-cloudaccountsmicroservice-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cloud-accounts-all-api-openapi.yml
+- filename: palo-alto-networks-cloud-accounts-api-openapi.yml
+  format: yaml
   label: Palo Alto Networks Cloud Accounts API
   slug: palo-alto-networks-cloud-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-cloudaccountsmicroservice-openapi.json
-- filename: palo-alto-cspm-code2cloudmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks pcs-code-to-cloud API
-  slug: palo-alto-networks-pcs-code-to-cloud-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-code2cloudmicroservice-openapi.json
-- filename: palo-alto-cspm-collectionsmicroservice-openapi.json
-  format: json
-  label: 'Palo Alto Networks Platform: Entitlement Service.'
-  slug: palo-alto-networks-platform-entitlement-service
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-collectionsmicroservice-openapi.json
-- filename: palo-alto-cspm-commandcentermicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks pcs-command-center API
-  slug: palo-alto-networks-pcs-command-center-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-commandcentermicroservice-openapi.json
-- filename: palo-alto-cspm-complianceposture-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Compliance Posture API Overview
-  slug: palo-alto-networks-prisma-cloud-compliance-posture-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-complianceposture-openapi.json
-- filename: palo-alto-cspm-compliancestandards-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Compliance Standards API Overview
-  slug: palo-alto-networks-prisma-cloud-compliance-standards-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-compliancestandards-openapi.json
-- filename: palo-alto-cspm-consolidated-spec-cspm-spec-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Access Keys API Overview (CSPM)
-  slug: palo-alto-networks-prisma-cloud-access-keys-api-overview-cspm
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-consolidated-spec-cspm-spec-openapi.json
-- filename: palo-alto-cspm-datasecuritydashboard-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Data Security Dashboard API Overview
-  slug: palo-alto-networks-prisma-cloud-data-security-dashboard-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-datasecuritydashboard-openapi.json
-- filename: palo-alto-cspm-datasecurityinventory-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Data Security Inventory API Overview
-  slug: palo-alto-networks-prisma-cloud-data-security-inventory-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-datasecurityinventory-openapi.json
-- filename: palo-alto-cspm-datasecurityonboardingmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks config-service API
-  slug: palo-alto-networks-config-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-datasecurityonboardingmicroservice-openapi.json
-- filename: palo-alto-cspm-datasecuritysettings-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Data Security Settings API Overview
-  slug: palo-alto-networks-prisma-cloud-data-security-settings-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-datasecuritysettings-openapi.json
-- filename: palo-alto-cspm-eventbridgemicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks OpenAPI definition (CSPM) (cspm/EventBridgeMicroService)
-  slug: palo-alto-networks-openapi-definition-cspm-cspmeventbridgemicroservice
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-eventbridgemicroservice-openapi.json
-- filename: palo-alto-cspm-iamidpmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks IAM IDP Security API Overview
-  slug: palo-alto-networks-iam-idp-security-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-iamidpmicroservice-openapi.json
-- filename: palo-alto-cspm-iammicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks IAM Security API Overview
-  slug: palo-alto-networks-iam-security-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-iammicroservice-openapi.json
-- filename: palo-alto-cspm-iamv2microservice-openapi.json
-  format: json
-  label: Palo Alto Networks OpenAPI definition (CSPM) (cspm/IAMV2MicroService)
-  slug: palo-alto-networks-openapi-definition-cspm-cspmiamv2microservice
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-iamv2microservice-openapi.json
-- filename: palo-alto-cspm-integrationsmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud External Integrations API
-  slug: palo-alto-networks-prisma-cloud-external-integrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-integrationsmicroservice-openapi.json
-- filename: palo-alto-cspm-integrationspull-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Integration API Overview
-  slug: palo-alto-networks-prisma-cloud-integration-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-integrationspull-openapi.json
-- filename: palo-alto-cspm-ipallowlist-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud IP Allow List API Overview
-  slug: palo-alto-networks-prisma-cloud-ip-allow-list-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-ipallowlist-openapi.json
-- filename: palo-alto-cspm-licensingmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud License API Overview
-  slug: palo-alto-networks-prisma-cloud-license-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-licensingmicroservice-openapi.json
-- filename: palo-alto-cspm-login-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Login API Overview
-  slug: palo-alto-networks-prisma-cloud-login-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-login-openapi.json
-- filename: palo-alto-cspm-notificationtemplatesmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Notification Template V1 API
-  slug: palo-alto-networks-prisma-cloud-notification-template-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-notificationtemplatesmicroservice-openapi.json
-- filename: palo-alto-cspm-onboardingawss3flowlogs-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud AWS S3 Flow Logs Overview
-  slug: palo-alto-networks-prisma-cloud-aws-s3-flow-logs-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-onboardingawss3flowlogs-openapi.json
-- filename: palo-alto-cspm-permissiongroupsmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks Authentication and RBAC API's
-  slug: palo-alto-networks-authentication-and-rbac-apis
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-permissiongroupsmicroservice-openapi.json
-- filename: palo-alto-cspm-pia-openapi-openapi.json
-  format: json
-  label: Palo Alto Networks OpenAPI definition (CSPM) (cspm/pia-openapi)
-  slug: palo-alto-networks-openapi-definition-cspm-cspmpia-openapi
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-pia-openapi-openapi.json
-- filename: palo-alto-cspm-policy-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud User Policy API Overview
-  slug: palo-alto-networks-prisma-cloud-user-policy-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-policy-openapi.json
-- filename: palo-alto-cspm-reports-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Reports API Overview
-  slug: palo-alto-networks-prisma-cloud-reports-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-reports-openapi.json
-- filename: palo-alto-cspm-resourceexplorer-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Resource Explorer API Overview
-  slug: palo-alto-networks-prisma-cloud-resource-explorer-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-resourceexplorer-openapi.json
-- filename: palo-alto-cspm-resourcelists-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Resource Lists API Overview
-  slug: palo-alto-networks-prisma-cloud-resource-lists-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-resourcelists-openapi.json
-- filename: palo-alto-cspm-satellite-openapi.json
-  format: json
-  label: Palo Alto Networks Satellite Management APIs
-  slug: palo-alto-networks-satellite-management-apis
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-satellite-openapi.json
-- filename: palo-alto-cspm-searchmanager-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Search Manager API Overview
-  slug: palo-alto-networks-prisma-cloud-search-manager-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-searchmanager-openapi.json
-- filename: palo-alto-cspm-searchmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud RQL APIs
-  slug: palo-alto-networks-prisma-cloud-rql-apis
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-searchmicroservice-openapi.json
-- filename: palo-alto-cspm-settings-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Enterprise Settings API Overview
-  slug: palo-alto-networks-prisma-cloud-enterprise-settings-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-settings-openapi.json
-- filename: palo-alto-cspm-system-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud System API Overview
-  slug: palo-alto-networks-prisma-cloud-system-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-system-openapi.json
-- filename: palo-alto-cspm-userprofile-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud User Profile API Overview
-  slug: palo-alto-networks-prisma-cloud-user-profile-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-userprofile-openapi.json
-- filename: palo-alto-cspm-userroles-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud User Roles API Overview
-  slug: palo-alto-networks-prisma-cloud-user-roles-api-overview
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-userroles-openapi.json
-- filename: palo-alto-cspm-uvedashboardmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks UVE Doc
-  slug: palo-alto-networks-uve-doc
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-uvedashboardmicroservice-openapi.json
-- filename: palo-alto-cspm-uveremediationmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks OpenAPI definition (CSPM) (cspm/UVERemediationMicroservice)
-  slug: palo-alto-networks-openapi-definition-cspm-cspmuveremediationmicroservice
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-uveremediationmicroservice-openapi.json
-- filename: palo-alto-cspm-uvesearchmicroservice-openapi.json
-  format: json
-  label: Palo Alto Networks UVE Doc (CSPM)
-  slug: palo-alto-networks-uve-doc-cspm
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-uvesearchmicroservice-openapi.json
-- filename: palo-alto-cspm-widgets-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Widgets API
-  slug: palo-alto-networks-prisma-cloud-widgets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cspm-widgets-openapi.json
-- filename: palo-alto-cwpp-34-03-openapi-34-03-138-saas-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Compute API (CWPP)
-  slug: palo-alto-networks-prisma-cloud-compute-api-cwpp
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cwpp-34-03-openapi-34-03-138-saas-openapi.json
-- filename: palo-alto-cwpp-openapi-34-04-145-saas-openapi.json
-  format: json
-  label: Palo Alto Networks Prisma Cloud Compute API (CWPP) (cwpp/openapi-34-04-145-saas)
-  slug: palo-alto-networks-prisma-cloud-compute-api-cwpp-cwppopenapi-34-04-145-saas
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cwpp-openapi-34-04-145-saas-openapi.json
-- filename: palo-alto-dlp-datapatterns-openapi.yaml
-  format: yaml
-  label: Palo Alto Networks Data Patterns API v2
-  slug: palo-alto-networks-data-patterns-api-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-datapatterns-openapi.yaml
-- filename: palo-alto-dlp-dataprofiles-openapi.yaml
-  format: yaml
-  label: Palo Alto Networks Data Profiles API v2
-  slug: palo-alto-networks-data-profiles-api-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-dataprofiles-openapi.yaml
-- filename: palo-alto-dlp-dictionaries-openapi.yaml
-  format: yaml
-  label: Palo Alto Networks Dictionaries API v2
-  slug: palo-alto-networks-dictionaries-api-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-dictionaries-openapi.yaml
-- filename: palo-alto-dlp-dlp-api-spec-openapi.yaml
-  format: yaml
-  label: Palo Alto Networks public dlp apis
-  slug: palo-alto-networks-public-dlp-apis
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-dlp-api-spec-openapi.yaml
-- filename: palo-alto-dlp-documenttypes-openapi.yaml
-  format: yaml
-  label: Palo Alto Networks Document Types API v2
-  slug: palo-alto-networks-document-types-api-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-documenttypes-openapi.yaml
-- filename: palo-alto-dlp-edmdatasets-openapi.yaml
-  format: yaml
-  label: Palo Alto Networks EDM Datasets API v2
-  slug: palo-alto-networks-edm-datasets-api-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-edmdatasets-openapi.yaml
-- filename: palo-alto-dlp-endpointpolicies-openapi.yaml
-  format: yaml
-  label: Palo Alto Networks Endpoint Policies API v2
-  slug: palo-alto-networks-endpoint-policies-api-v2
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-endpointpolicies-openapi.yaml
-- filename: palo-alto-dlp-incidentsapi-beta-openapi.yaml
-  format: yaml
-  label: Palo Alto Networks Incidents API (Beta)
-  slug: palo-alto-networks-incidents-api-beta
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-incidentsapi-beta-openapi.yaml
-- filename: palo-alto-dlp-incidentsapi-openapi.yaml
-  format: yaml
-  label: Palo Alto Networks Incidents API (DLP)
-  slug: palo-alto-networks-incidents-api-dlp
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-incidentsapi-openapi.yaml
-- filename: palo-alto-dlp-ocrenablement-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cloud-accounts-api-openapi.yml
+- filename: palo-alto-networks-cloud-accounts-aws-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks OCR Enablement API v2
-  slug: palo-alto-networks-ocr-enablement-api-v2
+  label: Palo Alto Networks Cloud Accounts (AWS) API
+  slug: palo-alto-networks-cloud-accounts-aws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-ocrenablement-openapi.yaml
-- filename: palo-alto-dlp-peripherals-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cloud-accounts-aws-api-openapi.yml
+- filename: palo-alto-networks-cloud-accounts-azure-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Peripherals API v2
-  slug: palo-alto-networks-peripherals-api-v2
+  label: Palo Alto Networks Cloud Accounts (Azure) API
+  slug: palo-alto-networks-cloud-accounts-azure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-peripherals-openapi.yaml
-- filename: palo-alto-dlp-reportsapi-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cloud-accounts-azure-api-openapi.yml
+- filename: palo-alto-networks-cloud-accounts-gcp-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Reports API (DLP)
-  slug: palo-alto-networks-reports-api-dlp
+  label: Palo Alto Networks Cloud Accounts (GCP) API
+  slug: palo-alto-networks-cloud-accounts-gcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-reportsapi-openapi.yaml
-- filename: palo-alto-dns-security-dns-security-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cloud-accounts-gcp-api-openapi.yml
+- filename: palo-alto-networks-cloud-accounts-oci-and-alibaba-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks dnssec.public_api
-  slug: palo-alto-networks-dnssecpublic-api
+  label: Palo Alto Networks Cloud Accounts (OCI and Alibaba) API
+  slug: palo-alto-networks-cloud-accounts-oci-and-alibaba-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dns-security-dns-security-openapi.yaml
-- filename: palo-alto-dspm-dspm-openapi.json
-  format: json
-  label: Palo Alto Networks Dig Security public API
-  slug: palo-alto-networks-dig-security-public-api
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cloud-accounts-oci-and-alibaba-api-openapi.yml
+- filename: palo-alto-networks-cloud-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Cloud API
+  slug: palo-alto-networks-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cloud-api-openapi.yml
+- filename: palo-alto-networks-cloud-dynamic-user-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Cloud Dynamic User Groups API
+  slug: palo-alto-networks-cloud-dynamic-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cloud-dynamic-user-groups-api-openapi.yml
+- filename: palo-alto-networks-cloud-ingested-logs-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Cloud Ingested Logs API
+  slug: palo-alto-networks-cloud-ingested-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cloud-ingested-logs-api-openapi.yml
+- filename: palo-alto-networks-cloudblades-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Cloud Blades API
+  slug: palo-alto-networks-cloudblades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-cloudblades-api-openapi.yml
+- filename: palo-alto-networks-code-to-cloud-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Code to Cloud API
+  slug: palo-alto-networks-code-to-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-code-to-cloud-api-openapi.yml
+- filename: palo-alto-networks-codefixes-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Code Fixes API
+  slug: palo-alto-networks-codefixes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-codefixes-api-openapi.yml
+- filename: palo-alto-networks-coderepos-ci-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Coderepos Ci API
+  slug: palo-alto-networks-coderepos-ci-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-coderepos-ci-api-openapi.yml
+- filename: palo-alto-networks-collections-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Collections API
+  slug: palo-alto-networks-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-collections-api-openapi.yml
+- filename: palo-alto-networks-command-center-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Command Center API
+  slug: palo-alto-networks-command-center-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-command-center-api-openapi.yml
+- filename: palo-alto-networks-compliance-analytics-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Compliance Analytics API
+  slug: palo-alto-networks-compliance-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-compliance-analytics-api-openapi.yml
+- filename: palo-alto-networks-compliance-frameworks-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Compliance Frameworks API
+  slug: palo-alto-networks-compliance-frameworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-compliance-frameworks-api-openapi.yml
+- filename: palo-alto-networks-compliance-posture-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Compliance Posture API
+  slug: palo-alto-networks-compliance-posture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-compliance-posture-api-openapi.yml
+- filename: palo-alto-networks-compliance-standards-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Compliance Standards API
+  slug: palo-alto-networks-compliance-standards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-compliance-standards-api-openapi.yml
+- filename: palo-alto-networks-config-cleanup-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Config Cleanup API
+  slug: palo-alto-networks-config-cleanup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-config-cleanup-api-openapi.yml
+- filename: palo-alto-networks-config-match-list-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Config Match List API
+  slug: palo-alto-networks-config-match-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-config-match-list-api-openapi.yml
+- filename: palo-alto-networks-config-upload-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Config Upload API
+  slug: palo-alto-networks-config-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-config-upload-api-openapi.yml
+- filename: palo-alto-networks-config-versions-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Config Versions API
+  slug: palo-alto-networks-config-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-config-versions-api-openapi.yml
+- filename: palo-alto-networks-configuration-management-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Configuration Management API
+  slug: palo-alto-networks-configuration-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-configuration-management-api-openapi.yml
+- filename: palo-alto-networks-configurationmanagement-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Configuration Management API
+  slug: palo-alto-networks-configurationmanagement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-configurationmanagement-api-openapi.yml
+- filename: palo-alto-networks-configured-ue-mappings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Configured UE Mappings API
+  slug: palo-alto-networks-configured-ue-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-configured-ue-mappings-api-openapi.yml
+- filename: palo-alto-networks-connection-source-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Connection Source API
+  slug: palo-alto-networks-connection-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-connection-source-api-openapi.yml
+- filename: palo-alto-networks-connector-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Connector API
+  slug: palo-alto-networks-connector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-connector-api-openapi.yml
+- filename: palo-alto-networks-connector-group-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Connector Group API
+  slug: palo-alto-networks-connector-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-connector-group-api-openapi.yml
+- filename: palo-alto-networks-containers-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Containers API
+  slug: palo-alto-networks-containers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-containers-api-openapi.yml
+- filename: palo-alto-networks-content-cloud-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Content Cloud Settings API
+  slug: palo-alto-networks-content-cloud-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-content-cloud-settings-api-openapi.yml
+- filename: palo-alto-networks-content-id-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Content-ID Settings API
+  slug: palo-alto-networks-content-id-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-content-id-settings-api-openapi.yml
+- filename: palo-alto-networks-control-plane-resource-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Control Plane Resource API API
+  slug: palo-alto-networks-control-plane-resource-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-control-plane-resource-api-api-openapi.yml
+- filename: palo-alto-networks-credential-management-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Credential Management API
+  slug: palo-alto-networks-credential-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-credential-management-api-openapi.yml
+- filename: palo-alto-networks-credentials-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Credentials API
+  slug: palo-alto-networks-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-credentials-api-openapi.yml
+- filename: palo-alto-networks-current-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Current API
+  slug: palo-alto-networks-current-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-current-api-openapi.yml
+- filename: palo-alto-networks-custom-compliance-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Custom Compliance API
+  slug: palo-alto-networks-custom-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-custom-compliance-api-openapi.yml
+- filename: palo-alto-networks-custom-fqdn-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Custom FQDN API
+  slug: palo-alto-networks-custom-fqdn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-custom-fqdn-api-openapi.yml
+- filename: palo-alto-networks-custom-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Custom Rules API
+  slug: palo-alto-networks-custom-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-custom-rules-api-openapi.yml
+- filename: palo-alto-networks-custom-topic-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Custom Topic API
+  slug: palo-alto-networks-custom-topic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-custom-topic-api-openapi.yml
+- filename: palo-alto-networks-customattack-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Custom Attack API
+  slug: palo-alto-networks-customattack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-customattack-api-openapi.yml
+- filename: palo-alto-networks-customer-app-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Customer App API
+  slug: palo-alto-networks-customer-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-customer-app-api-openapi.yml
+- filename: palo-alto-networks-customroles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Custom Roles API
+  slug: palo-alto-networks-customroles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-customroles-api-openapi.yml
+- filename: palo-alto-networks-dashboard-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Dashboard API
+  slug: palo-alto-networks-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dashboard-api-openapi.yml
+- filename: palo-alto-networks-data-patterns-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Patterns API
+  slug: palo-alto-networks-data-patterns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-data-patterns-api-openapi.yml
+- filename: palo-alto-networks-data-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Profiles API
+  slug: palo-alto-networks-data-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-data-profiles-api-openapi.yml
+- filename: palo-alto-networks-data-resource-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Resource API API
+  slug: palo-alto-networks-data-resource-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-data-resource-api-api-openapi.yml
+- filename: palo-alto-networks-data-security-dashboard-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Security Dashboard API
+  slug: palo-alto-networks-data-security-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-data-security-dashboard-api-openapi.yml
+- filename: palo-alto-networks-data-security-inventory-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Security Inventory API
+  slug: palo-alto-networks-data-security-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-data-security-inventory-api-openapi.yml
+- filename: palo-alto-networks-data-security-onboarding-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Security Onboarding API
+  slug: palo-alto-networks-data-security-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-data-security-onboarding-api-openapi.yml
+- filename: palo-alto-networks-data-security-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Security Settings API
+  slug: palo-alto-networks-data-security-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-data-security-settings-api-openapi.yml
+- filename: palo-alto-networks-data-type-findings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Type Findings API
+  slug: palo-alto-networks-data-type-findings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-data-type-findings-api-openapi.yml
+- filename: palo-alto-networks-datafiltering-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Filtering API
+  slug: palo-alto-networks-datafiltering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-datafiltering-api-openapi.yml
+- filename: palo-alto-networks-dataobjects-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Objects API
+  slug: palo-alto-networks-dataobjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dataobjects-api-openapi.yml
+- filename: palo-alto-networks-dataresource-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Resource API
+  slug: palo-alto-networks-dataresource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dataresource-api-openapi.yml
+- filename: palo-alto-networks-dataresourcecustom-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Resource Custom API
+  slug: palo-alto-networks-dataresourcecustom-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dataresourcecustom-api-openapi.yml
+- filename: palo-alto-networks-dataresourceexport-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Data Resource Export API
+  slug: palo-alto-networks-dataresourceexport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dataresourceexport-api-openapi.yml
+- filename: palo-alto-networks-decryption-exclusions-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Decryption Exclusions API
+  slug: palo-alto-networks-decryption-exclusions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-decryption-exclusions-api-openapi.yml
+- filename: palo-alto-networks-decryption-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Decryption Profiles API
+  slug: palo-alto-networks-decryption-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-decryption-profiles-api-openapi.yml
+- filename: palo-alto-networks-decryption-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Decryption Rules API
+  slug: palo-alto-networks-decryption-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-decryption-rules-api-openapi.yml
+- filename: palo-alto-networks-decryptionexclusions-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Decryption Exclusions API
+  slug: palo-alto-networks-decryptionexclusions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-decryptionexclusions-api-openapi.yml
+- filename: palo-alto-networks-decryptionprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Decryption Profiles API
+  slug: palo-alto-networks-decryptionprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-decryptionprofiles-api-openapi.yml
+- filename: palo-alto-networks-decryptionrules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Decryption Rules API
+  slug: palo-alto-networks-decryptionrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-decryptionrules-api-openapi.yml
+- filename: palo-alto-networks-defenders-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Defenders API
+  slug: palo-alto-networks-defenders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-defenders-api-openapi.yml
+- filename: palo-alto-networks-deployment-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Deployment Profiles API
+  slug: palo-alto-networks-deployment-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-deployment-profiles-api-openapi.yml
+- filename: palo-alto-networks-destinations-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Destinations API
+  slug: palo-alto-networks-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-destinations-api-openapi.yml
+- filename: palo-alto-networks-development-pipeline-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Development Pipeline API
+  slug: palo-alto-networks-development-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-development-pipeline-api-openapi.yml
+- filename: palo-alto-networks-device-configuration-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Device Configuration API
+  slug: palo-alto-networks-device-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-device-configuration-api-openapi.yml
+- filename: palo-alto-networks-device-context-segment-association-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Device Context Segment Association API
+  slug: palo-alto-networks-device-context-segment-association-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-device-context-segment-association-api-openapi.yml
+- filename: palo-alto-networks-device-context-segments-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Device Context Segments API
+  slug: palo-alto-networks-device-context-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-device-context-segments-api-openapi.yml
+- filename: palo-alto-networks-device-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Device Groups API
+  slug: palo-alto-networks-device-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-device-groups-api-openapi.yml
+- filename: palo-alto-networks-device-operations-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Device Operations API
+  slug: palo-alto-networks-device-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-device-operations-api-openapi.yml
+- filename: palo-alto-networks-device-redistribution-collector-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Device Redistribution Collector Settings API
+  slug: palo-alto-networks-device-redistribution-collector-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-device-redistribution-collector-settings-api-openapi.yml
+- filename: palo-alto-networks-device-switch-configuration-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Device Switch Configuration API
+  slug: palo-alto-networks-device-switch-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-device-switch-configuration-api-openapi.yml
+- filename: palo-alto-networks-devices-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Devices API
+  slug: palo-alto-networks-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-devices-api-openapi.yml
+- filename: palo-alto-networks-dhcp-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DHCP API
+  slug: palo-alto-networks-dhcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dhcp-api-openapi.yml
+- filename: palo-alto-networks-dhcp-interfaces-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DHCP Interfaces API
+  slug: palo-alto-networks-dhcp-interfaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dhcp-interfaces-api-openapi.yml
+- filename: palo-alto-networks-dictionaries-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Dictionaries API
+  slug: palo-alto-networks-dictionaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dictionaries-api-openapi.yml
+- filename: palo-alto-networks-directory-sync-service-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Directory Sync Service API
+  slug: palo-alto-networks-directory-sync-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-directory-sync-service-api-openapi.yml
+- filename: palo-alto-networks-discovered-application-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Discovered Application API
+  slug: palo-alto-networks-discovered-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-discovered-application-api-openapi.yml
+- filename: palo-alto-networks-discovery-and-exposure-management-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Discovery and Exposure Management API
+  slug: palo-alto-networks-discovery-and-exposure-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-discovery-and-exposure-management-api-openapi.yml
+- filename: palo-alto-networks-dlp-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DLP API API
+  slug: palo-alto-networks-dlp-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dlp-api-api-openapi.yml
+- filename: palo-alto-networks-dlp-api-beta-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DLP API (Beta) API
+  slug: palo-alto-networks-dlp-api-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dlp-api-beta-api-openapi.yml
+- filename: palo-alto-networks-dlp-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DLP Profiles API
+  slug: palo-alto-networks-dlp-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dlp-profiles-api-openapi.yml
+- filename: palo-alto-networks-dns-proxies-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DNS Proxies API
+  slug: palo-alto-networks-dns-proxies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dns-proxies-api-openapi.yml
+- filename: palo-alto-networks-dns-security-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DNS Security API API
+  slug: palo-alto-networks-dns-security-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dns-security-api-api-openapi.yml
+- filename: palo-alto-networks-dns-security-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DNS Security Profiles API
+  slug: palo-alto-networks-dns-security-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dns-security-profiles-api-openapi.yml
+- filename: palo-alto-networks-dns-services-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DNS Services API
+  slug: palo-alto-networks-dns-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dns-services-api-openapi.yml
+- filename: palo-alto-networks-dnssecurityprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DNS Security Profiles API
+  slug: palo-alto-networks-dnssecurityprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dnssecurityprofiles-api-openapi.yml
+- filename: palo-alto-networks-document-types-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Document Types API
+  slug: palo-alto-networks-document-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-document-types-api-openapi.yml
+- filename: palo-alto-networks-dos-protection-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DoS Protection Profiles API
+  slug: palo-alto-networks-dos-protection-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dos-protection-profiles-api-openapi.yml
+- filename: palo-alto-networks-dos-protection-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks DoS Protection Rules API
+  slug: palo-alto-networks-dos-protection-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dos-protection-rules-api-openapi.yml
+- filename: palo-alto-networks-dynamic-user-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Dynamic User Groups API
+  slug: palo-alto-networks-dynamic-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dynamic-user-groups-api-openapi.yml
+- filename: palo-alto-networks-dynamicusergroups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Dynamic User Groups API
+  slug: palo-alto-networks-dynamicusergroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-dynamicusergroups-api-openapi.yml
+- filename: palo-alto-networks-edl-ca-certificates-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks EDL CA Certificates API
+  slug: palo-alto-networks-edl-ca-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-edl-ca-certificates-api-openapi.yml
+- filename: palo-alto-networks-edl-definitions-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks EDL Definitions API
+  slug: palo-alto-networks-edl-definitions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-edl-definitions-api-openapi.yml
+- filename: palo-alto-networks-edm-datasets-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks EDM Datasets API
+  slug: palo-alto-networks-edm-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-edm-datasets-api-openapi.yml
+- filename: palo-alto-networks-email-dlp-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Email DLP API API
+  slug: palo-alto-networks-email-dlp-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-email-dlp-api-api-openapi.yml
+- filename: palo-alto-networks-emailprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Email Profiles API
+  slug: palo-alto-networks-emailprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-emailprofiles-api-openapi.yml
+- filename: palo-alto-networks-enable-5-gapi-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Enable 5 GAPI API
+  slug: palo-alto-networks-enable-5-gapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-enable-5-gapi-api-openapi.yml
+- filename: palo-alto-networks-endpoint-policies-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Endpoint Policies API
+  slug: palo-alto-networks-endpoint-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-endpoint-policies-api-openapi.yml
+- filename: palo-alto-networks-enterprise-browser-users-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Enterprise Browser Users API API
+  slug: palo-alto-networks-enterprise-browser-users-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-enterprise-browser-users-api-api-openapi.yml
+- filename: palo-alto-networks-errorlogs-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Error Logs API
+  slug: palo-alto-networks-errorlogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-errorlogs-api-openapi.yml
+- filename: palo-alto-networks-errors-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Errors API
+  slug: palo-alto-networks-errors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-errors-api-openapi.yml
+- filename: palo-alto-networks-ethernet-interfaces-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Ethernet Interfaces API
+  slug: palo-alto-networks-ethernet-interfaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ethernet-interfaces-api-openapi.yml
+- filename: palo-alto-networks-evaluations-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Evaluations API
+  slug: palo-alto-networks-evaluations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-evaluations-api-openapi.yml
+- filename: palo-alto-networks-event-logs-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Event Logs API
+  slug: palo-alto-networks-event-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-event-logs-api-openapi.yml
+- filename: palo-alto-networks-event-policy-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Event Policy API
+  slug: palo-alto-networks-event-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-event-policy-api-openapi.yml
+- filename: palo-alto-networks-events-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Events API
+  slug: palo-alto-networks-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-events-api-openapi.yml
+- filename: palo-alto-networks-external-dynamic-lists-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks External Dynamic Lists API
+  slug: palo-alto-networks-external-dynamic-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-external-dynamic-lists-api-openapi.yml
+- filename: palo-alto-networks-externaldynamiclists-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks External Dynamic Lists API
+  slug: palo-alto-networks-externaldynamiclists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-externaldynamiclists-api-openapi.yml
+- filename: palo-alto-networks-feeds-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Feeds API
+  slug: palo-alto-networks-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-feeds-api-openapi.yml
+- filename: palo-alto-networks-file-blocking-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks File Blocking Profiles API
+  slug: palo-alto-networks-file-blocking-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-file-blocking-profiles-api-openapi.yml
+- filename: palo-alto-networks-fileblockingaction-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks File Blocking Action API
+  slug: palo-alto-networks-fileblockingaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-fileblockingaction-api-openapi.yml
+- filename: palo-alto-networks-fileblockingprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks File Blocking Profiles API
+  slug: palo-alto-networks-fileblockingprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-fileblockingprofiles-api-openapi.yml
+- filename: palo-alto-networks-folders-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Folders API
+  slug: palo-alto-networks-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-folders-api-openapi.yml
+- filename: palo-alto-networks-forwarding-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Forwarding Profiles API
+  slug: palo-alto-networks-forwarding-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-forwarding-profiles-api-openapi.yml
+- filename: palo-alto-networks-fqdn-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks FQDN API
+  slug: palo-alto-networks-fqdn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-fqdn-api-openapi.yml
+- filename: palo-alto-networks-fqdnlist-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks FQDN List API
+  slug: palo-alto-networks-fqdnlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-fqdnlist-api-openapi.yml
+- filename: palo-alto-networks-general-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks General Settings API
+  slug: palo-alto-networks-general-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-general-settings-api-openapi.yml
+- filename: palo-alto-networks-global-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Global Settings API
+  slug: palo-alto-networks-global-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-global-settings-api-openapi.yml
+- filename: palo-alto-networks-globalprotect-enablement-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks GlobalProtect Enablement API
+  slug: palo-alto-networks-globalprotect-enablement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-globalprotect-enablement-api-openapi.yml
+- filename: palo-alto-networks-globalprotect-match-list-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Globalprotect Match List API
+  slug: palo-alto-networks-globalprotect-match-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-globalprotect-match-list-api-openapi.yml
+- filename: palo-alto-networks-goalcategories-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Goal Categories API
+  slug: palo-alto-networks-goalcategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-goalcategories-api-openapi.yml
+- filename: palo-alto-networks-group-resource-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Group Resource API API
+  slug: palo-alto-networks-group-resource-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-group-resource-api-api-openapi.yml
+- filename: palo-alto-networks-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Groups API
+  slug: palo-alto-networks-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-groups-api-openapi.yml
+- filename: palo-alto-networks-high-availability-configurations-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks High Availability Configurations API
+  slug: palo-alto-networks-high-availability-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-high-availability-configurations-api-openapi.yml
+- filename: palo-alto-networks-high-availability-devices-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks High Availability Devices API
+  slug: palo-alto-networks-high-availability-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-high-availability-devices-api-openapi.yml
+- filename: palo-alto-networks-hip-objects-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks HIP Objects API
+  slug: palo-alto-networks-hip-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-hip-objects-api-openapi.yml
+- filename: palo-alto-networks-hip-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks HIP Profiles API
+  slug: palo-alto-networks-hip-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-hip-profiles-api-openapi.yml
+- filename: palo-alto-networks-hipmatch-match-list-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Hipmatch Match List API
+  slug: palo-alto-networks-hipmatch-match-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-hipmatch-match-list-api-openapi.yml
+- filename: palo-alto-networks-hipobjects-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks HIP Objects API
+  slug: palo-alto-networks-hipobjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-hipobjects-api-openapi.yml
+- filename: palo-alto-networks-hipprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks HIP Profiles API
+  slug: palo-alto-networks-hipprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-hipprofiles-api-openapi.yml
+- filename: palo-alto-networks-hosts-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Hosts API
+  slug: palo-alto-networks-hosts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-hosts-api-openapi.yml
+- filename: palo-alto-networks-http-header-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks HTTP Header Profiles API
+  slug: palo-alto-networks-http-header-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-http-header-profiles-api-openapi.yml
+- filename: palo-alto-networks-http-server-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks HTTP Server Profiles API
+  slug: palo-alto-networks-http-server-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-http-server-profiles-api-openapi.yml
+- filename: palo-alto-networks-httpheaderprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks HTTP Header Profiles API
+  slug: palo-alto-networks-httpheaderprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-httpheaderprofiles-api-openapi.yml
+- filename: palo-alto-networks-httpsprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks HTTPS Profiles API
+  slug: palo-alto-networks-httpsprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-httpsprofiles-api-openapi.yml
+- filename: palo-alto-networks-iam-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IAM API
+  slug: palo-alto-networks-iam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-iam-api-openapi.yml
+- filename: palo-alto-networks-iam-idp-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IAM IDP API
+  slug: palo-alto-networks-iam-idp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-iam-idp-api-openapi.yml
+- filename: palo-alto-networks-idp-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IDP API
+  slug: palo-alto-networks-idp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-idp-api-openapi.yml
+- filename: palo-alto-networks-ike-crypto-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IKE Crypto Profiles API
+  slug: palo-alto-networks-ike-crypto-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ike-crypto-profiles-api-openapi.yml
+- filename: palo-alto-networks-ike-gateway-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IKE Gateway API
+  slug: palo-alto-networks-ike-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ike-gateway-api-openapi.yml
+- filename: palo-alto-networks-ike-gateways-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IKE Gateways API
+  slug: palo-alto-networks-ike-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ike-gateways-api-openapi.yml
+- filename: palo-alto-networks-ikecryptoprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IKE Crypto Profiles API
+  slug: palo-alto-networks-ikecryptoprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ikecryptoprofiles-api-openapi.yml
+- filename: palo-alto-networks-ikegateways-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IKE Gateways API
+  slug: palo-alto-networks-ikegateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ikegateways-api-openapi.yml
+- filename: palo-alto-networks-images-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Images API
+  slug: palo-alto-networks-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-images-api-openapi.yml
+- filename: palo-alto-networks-incidents-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Incidents API API
+  slug: palo-alto-networks-incidents-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-incidents-api-api-openapi.yml
+- filename: palo-alto-networks-incidents-api-beta-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Incidents API (Beta) API
+  slug: palo-alto-networks-incidents-api-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-incidents-api-beta-api-openapi.yml
+- filename: palo-alto-networks-incidents-apis-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Incidents APIs API
+  slug: palo-alto-networks-incidents-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-incidents-apis-api-openapi.yml
+- filename: palo-alto-networks-incidents-by-severity-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Incidents by Severity API
+  slug: palo-alto-networks-incidents-by-severity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-incidents-by-severity-api-openapi.yml
+- filename: palo-alto-networks-infrastructure-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Infrastructure Settings API
+  slug: palo-alto-networks-infrastructure-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-infrastructure-settings-api-openapi.yml
+- filename: palo-alto-networks-infrastructuresettings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Infrastructure Settings API
+  slug: palo-alto-networks-infrastructuresettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-infrastructuresettings-api-openapi.yml
+- filename: palo-alto-networks-insights-resources-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Insights Resources API API
+  slug: palo-alto-networks-insights-resources-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-insights-resources-api-api-openapi.yml
+- filename: palo-alto-networks-instance-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Instance API
+  slug: palo-alto-networks-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-instance-api-openapi.yml
+- filename: palo-alto-networks-integrations-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Integrations API
+  slug: palo-alto-networks-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-integrations-api-openapi.yml
+- filename: palo-alto-networks-integrations-pull-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Integrations Pull API
+  slug: palo-alto-networks-integrations-pull-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-integrations-pull-api-openapi.yml
+- filename: palo-alto-networks-intelligentfeed-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Intelligent Feed API
+  slug: palo-alto-networks-intelligentfeed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-intelligentfeed-api-openapi.yml
+- filename: palo-alto-networks-interconnect-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Interconnect API API
+  slug: palo-alto-networks-interconnect-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-interconnect-api-api-openapi.yml
+- filename: palo-alto-networks-interconnect-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Interconnect API
+  slug: palo-alto-networks-interconnect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-interconnect-api-openapi.yml
+- filename: palo-alto-networks-interconnect-throughput-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Interconnect Throughput API
+  slug: palo-alto-networks-interconnect-throughput-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-interconnect-throughput-api-openapi.yml
+- filename: palo-alto-networks-interconnect-traffic-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Interconnect Traffic API
+  slug: palo-alto-networks-interconnect-traffic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-interconnect-traffic-api-openapi.yml
+- filename: palo-alto-networks-interface-management-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Interface Management Profiles API
+  slug: palo-alto-networks-interface-management-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-interface-management-profiles-api-openapi.yml
+- filename: palo-alto-networks-internal-dns-servers-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Internal DNS Servers API
+  slug: palo-alto-networks-internal-dns-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-internal-dns-servers-api-openapi.yml
+- filename: palo-alto-networks-internal-domains-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Internal Domains API
+  slug: palo-alto-networks-internal-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-internal-domains-api-openapi.yml
+- filename: palo-alto-networks-internaldnsservers-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Internal DNS Servers API
+  slug: palo-alto-networks-internaldnsservers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-internaldnsservers-api-openapi.yml
+- filename: palo-alto-networks-internetcontroller-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Internet Controller API
+  slug: palo-alto-networks-internetcontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-internetcontroller-api-openapi.yml
+- filename: palo-alto-networks-iot-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Io T API
+  slug: palo-alto-networks-iot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-iot-api-openapi.yml
+- filename: palo-alto-networks-iot-public-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IoT Public API API
+  slug: palo-alto-networks-iot-public-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-iot-public-api-api-openapi.yml
+- filename: palo-alto-networks-ip-allow-list-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IP Allow List API
+  slug: palo-alto-networks-ip-allow-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ip-allow-list-api-openapi.yml
+- filename: palo-alto-networks-ip-pool-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IP Pool API
+  slug: palo-alto-networks-ip-pool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ip-pool-api-openapi.yml
+- filename: palo-alto-networks-ip-pool-usage-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IP Pool Usage API
+  slug: palo-alto-networks-ip-pool-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ip-pool-usage-api-openapi.yml
+- filename: palo-alto-networks-ipfix-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IPFIX API
+  slug: palo-alto-networks-ipfix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ipfix-api-openapi.yml
+- filename: palo-alto-networks-ipsec-crypto-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IPSec Crypto Profiles API
+  slug: palo-alto-networks-ipsec-crypto-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ipsec-crypto-profiles-api-openapi.yml
+- filename: palo-alto-networks-ipsec-tunnels-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IPsec Tunnels API
+  slug: palo-alto-networks-ipsec-tunnels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ipsec-tunnels-api-openapi.yml
+- filename: palo-alto-networks-ipseccryptoprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IP Sec Crypto Profiles API
+  slug: palo-alto-networks-ipseccryptoprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ipseccryptoprofiles-api-openapi.yml
+- filename: palo-alto-networks-ipsectunnels-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks IP Sec Tunnels API
+  slug: palo-alto-networks-ipsectunnels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ipsectunnels-api-openapi.yml
+- filename: palo-alto-networks-iptag-match-list-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Iptag Match List API
+  slug: palo-alto-networks-iptag-match-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-iptag-match-list-api-openapi.yml
+- filename: palo-alto-networks-issuer-certificates-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Issuer Certificates API
+  slug: palo-alto-networks-issuer-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-issuer-certificates-api-openapi.yml
+- filename: palo-alto-networks-issuer-configurations-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Issuer Configurations API
+  slug: palo-alto-networks-issuer-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-issuer-configurations-api-openapi.yml
+- filename: palo-alto-networks-issuer-sub-ca-providers-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Issuer Sub CA Providers API
+  slug: palo-alto-networks-issuer-sub-ca-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-issuer-sub-ca-providers-api-openapi.yml
+- filename: palo-alto-networks-jira-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks JIRA API
+  slug: palo-alto-networks-jira-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-jira-api-openapi.yml
+- filename: palo-alto-networks-jobs-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Jobs API
+  slug: palo-alto-networks-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-jobs-api-openapi.yml
+- filename: palo-alto-networks-kerberos-server-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Kerberos Server Profiles API
+  slug: palo-alto-networks-kerberos-server-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-kerberos-server-profiles-api-openapi.yml
+- filename: palo-alto-networks-kerberosserverprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Kerberos Server Profiles API
+  slug: palo-alto-networks-kerberosserverprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-kerberosserverprofiles-api-openapi.yml
+- filename: palo-alto-networks-labels-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Labels API
+  slug: palo-alto-networks-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-labels-api-openapi.yml
+- filename: palo-alto-networks-languages-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Languages API
+  slug: palo-alto-networks-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-languages-api-openapi.yml
+- filename: palo-alto-networks-layer-2-subinterfaces-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Layer 2 Subinterfaces API
+  slug: palo-alto-networks-layer-2-subinterfaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-layer-2-subinterfaces-api-openapi.yml
+- filename: palo-alto-networks-layer-3-subinterfaces-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Layer 3 Subinterfaces API
+  slug: palo-alto-networks-layer-3-subinterfaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-layer-3-subinterfaces-api-openapi.yml
+- filename: palo-alto-networks-ldap-server-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks LDAP Server Profiles API
+  slug: palo-alto-networks-ldap-server-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ldap-server-profiles-api-openapi.yml
+- filename: palo-alto-networks-ldapserverprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks LDAP Server Profiles API
+  slug: palo-alto-networks-ldapserverprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ldapserverprofiles-api-openapi.yml
+- filename: palo-alto-networks-license-resources-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks License Resources API API
+  slug: palo-alto-networks-license-resources-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-license-resources-api-api-openapi.yml
+- filename: palo-alto-networks-licenses-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Licenses API
+  slug: palo-alto-networks-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-licenses-api-openapi.yml
+- filename: palo-alto-networks-licensetypes-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks License Types API
+  slug: palo-alto-networks-licensetypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-licensetypes-api-openapi.yml
+- filename: palo-alto-networks-licensing-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Licensing API
+  slug: palo-alto-networks-licensing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-licensing-api-openapi.yml
+- filename: palo-alto-networks-link-tags-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Link Tags API
+  slug: palo-alto-networks-link-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-link-tags-api-openapi.yml
+- filename: palo-alto-networks-lldp-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks LLDP Profiles API
+  slug: palo-alto-networks-lldp-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-lldp-profiles-api-openapi.yml
+- filename: palo-alto-networks-local-user-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Local User Groups API
+  slug: palo-alto-networks-local-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-local-user-groups-api-openapi.yml
+- filename: palo-alto-networks-local-users-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Local Users API
+  slug: palo-alto-networks-local-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-local-users-api-openapi.yml
+- filename: palo-alto-networks-localusergroups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Local User Groups API
+  slug: palo-alto-networks-localusergroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-localusergroups-api-openapi.yml
+- filename: palo-alto-networks-localusers-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Local Users API
+  slug: palo-alto-networks-localusers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-localusers-api-openapi.yml
+- filename: palo-alto-networks-location-information-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Location Information API
+  slug: palo-alto-networks-location-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-location-information-api-openapi.yml
+- filename: palo-alto-networks-locations-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Locations API
+  slug: palo-alto-networks-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-locations-api-openapi.yml
+- filename: palo-alto-networks-log-forwarding-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Log Forwarding Profiles API
+  slug: palo-alto-networks-log-forwarding-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-log-forwarding-profiles-api-openapi.yml
+- filename: palo-alto-networks-logical-routers-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Logical Routers API
+  slug: palo-alto-networks-logical-routers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-logical-routers-api-openapi.yml
+- filename: palo-alto-networks-login-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Login API
+  slug: palo-alto-networks-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-login-api-openapi.yml
+- filename: palo-alto-networks-login-banner-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Login Banner Settings API
+  slug: palo-alto-networks-login-banner-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-login-banner-settings-api-openapi.yml
+- filename: palo-alto-networks-logprofile-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Log Profile API
+  slug: palo-alto-networks-logprofile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-logprofile-api-openapi.yml
+- filename: palo-alto-networks-loopback-interfaces-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Loopback Interfaces API
+  slug: palo-alto-networks-loopback-interfaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-loopback-interfaces-api-openapi.yml
+- filename: palo-alto-networks-machine-installations-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Machine Installations API
+  slug: palo-alto-networks-machine-installations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-machine-installations-api-openapi.yml
+- filename: palo-alto-networks-machine-types-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Machine Types API
+  slug: palo-alto-networks-machine-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-machine-types-api-openapi.yml
+- filename: palo-alto-networks-machines-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Machines API
+  slug: palo-alto-networks-machines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-machines-api-openapi.yml
+- filename: palo-alto-networks-manageapitokens-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage API Tokens API
+  slug: palo-alto-networks-manageapitokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-manageapitokens-api-openapi.yml
+- filename: palo-alto-networks-managecertificateobjects-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage Certificate Objects API
+  slug: palo-alto-networks-managecertificateobjects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managecertificateobjects-api-openapi.yml
+- filename: palo-alto-networks-managecommitconfiguration-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage Commit Configuration API
+  slug: palo-alto-networks-managecommitconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managecommitconfiguration-api-openapi.yml
+- filename: palo-alto-networks-managecustomurlcategories-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage Custom URL Categories API
+  slug: palo-alto-networks-managecustomurlcategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managecustomurlcategories-api-openapi.yml
+- filename: palo-alto-networks-managefileblockingactions-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage File Blocking Actions API
+  slug: palo-alto-networks-managefileblockingactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managefileblockingactions-api-openapi.yml
+- filename: palo-alto-networks-managefqdnlists-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage FQDN Lists API
+  slug: palo-alto-networks-managefqdnlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managefqdnlists-api-openapi.yml
+- filename: palo-alto-networks-manageintelligentfeeds-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage Intelligent Feeds API
+  slug: palo-alto-networks-manageintelligentfeeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-manageintelligentfeeds-api-openapi.yml
+- filename: palo-alto-networks-managelogprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage Log Profiles API
+  slug: palo-alto-networks-managelogprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managelogprofiles-api-openapi.yml
+- filename: palo-alto-networks-management-interface-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Management Interface Settings API
+  slug: palo-alto-networks-management-interface-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-management-interface-settings-api-openapi.yml
+- filename: palo-alto-networks-managengfw-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage NGFW API
+  slug: palo-alto-networks-managengfw-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managengfw-api-openapi.yml
+- filename: palo-alto-networks-managengfw-v2-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage NGFW V2 API
+  slug: palo-alto-networks-managengfw-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managengfw-v2-api-openapi.yml
+- filename: palo-alto-networks-managengfwtags-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage NGFW Tags API
+  slug: palo-alto-networks-managengfwtags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managengfwtags-api-openapi.yml
+- filename: palo-alto-networks-managepredefinedurlcategories-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage Predefined URL Categories API
+  slug: palo-alto-networks-managepredefinedurlcategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managepredefinedurlcategories-api-openapi.yml
+- filename: palo-alto-networks-manageprefixlists-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage Prefix Lists API
+  slug: palo-alto-networks-manageprefixlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-manageprefixlists-api-openapi.yml
+- filename: palo-alto-networks-managerulestacks-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage Rulestacks API
+  slug: palo-alto-networks-managerulestacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managerulestacks-api-openapi.yml
+- filename: palo-alto-networks-managerulestacktags-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage Rulestack Tags API
+  slug: palo-alto-networks-managerulestacktags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managerulestacktags-api-openapi.yml
+- filename: palo-alto-networks-managesecurityrules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage Security Rules API
+  slug: palo-alto-networks-managesecurityrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managesecurityrules-api-openapi.yml
+- filename: palo-alto-networks-managesubscription-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Manage Subscription API
+  slug: palo-alto-networks-managesubscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-managesubscription-api-openapi.yml
+- filename: palo-alto-networks-mappings-region-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Mappings Region API
+  slug: palo-alto-networks-mappings-region-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-mappings-region-api-openapi.yml
+- filename: palo-alto-networks-metrics-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Metrics API
+  slug: palo-alto-networks-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-metrics-api-openapi.yml
+- filename: palo-alto-networks-mfa-servers-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks MFA Servers API
+  slug: palo-alto-networks-mfa-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-mfa-servers-api-openapi.yml
+- filename: palo-alto-networks-mfaservers-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks MFA Servers API
+  slug: palo-alto-networks-mfaservers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-mfaservers-api-openapi.yml
+- filename: palo-alto-networks-misconfigured-domains-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Misconfigured Domains API
+  slug: palo-alto-networks-misconfigured-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-misconfigured-domains-api-openapi.yml
+- filename: palo-alto-networks-mobile-user-locations-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Mobile User Locations API
+  slug: palo-alto-networks-mobile-user-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-mobile-user-locations-api-openapi.yml
+- filename: palo-alto-networks-mobileagent-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Mobile Agent API
+  slug: palo-alto-networks-mobileagent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-mobileagent-api-openapi.yml
+- filename: palo-alto-networks-model-security-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Model Security Groups API
+  slug: palo-alto-networks-model-security-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-model-security-groups-api-openapi.yml
+- filename: palo-alto-networks-model-security-rule-instances-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Model Security Rule Instances API
+  slug: palo-alto-networks-model-security-rule-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-model-security-rule-instances-api-openapi.yml
+- filename: palo-alto-networks-model-security-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Model Security Rules API
+  slug: palo-alto-networks-model-security-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-model-security-rules-api-openapi.yml
+- filename: palo-alto-networks-model-versions-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Model Versions API
+  slug: palo-alto-networks-model-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-model-versions-api-openapi.yml
+- filename: palo-alto-networks-models-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Models API
+  slug: palo-alto-networks-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-models-api-openapi.yml
+- filename: palo-alto-networks-monitored-users-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Monitored Users API API
+  slug: palo-alto-networks-monitored-users-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-monitored-users-api-api-openapi.yml
+- filename: palo-alto-networks-monitoring-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Monitoring API
+  slug: palo-alto-networks-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-monitoring-api-openapi.yml
+- filename: palo-alto-networks-mssp-account-management-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks MSSP Account Management API
+  slug: palo-alto-networks-mssp-account-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-mssp-account-management-api-openapi.yml
+- filename: palo-alto-networks-mssp-license-endpoints-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Mssp License Endpoints API
+  slug: palo-alto-networks-mssp-license-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-mssp-license-endpoints-api-openapi.yml
+- filename: palo-alto-networks-mssp-managed-tenant-lifecycle-endpoints-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks MSSP Managed Tenant Lifecycle Endpoints API
+  slug: palo-alto-networks-mssp-managed-tenant-lifecycle-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-mssp-managed-tenant-lifecycle-endpoints-api-openapi.yml
+- filename: palo-alto-networks-mssp-operations-retry-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks MSSP Operations Retry API
+  slug: palo-alto-networks-mssp-operations-retry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-mssp-operations-retry-api-openapi.yml
+- filename: palo-alto-networks-multicast-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Multicast API
+  slug: palo-alto-networks-multicast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-multicast-api-openapi.yml
+- filename: palo-alto-networks-nat-policy-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks NAT Policy API
+  slug: palo-alto-networks-nat-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-nat-policy-api-openapi.yml
+- filename: palo-alto-networks-nat-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks NAT Rules API
+  slug: palo-alto-networks-nat-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-nat-rules-api-openapi.yml
+- filename: palo-alto-networks-navcontroller-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Nav Controller API
+  slug: palo-alto-networks-navcontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-navcontroller-api-openapi.yml
+- filename: palo-alto-networks-network-constructs-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Network Constructs API
+  slug: palo-alto-networks-network-constructs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-network-constructs-api-openapi.yml
+- filename: palo-alto-networks-network-locations-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Network Locations API
+  slug: palo-alto-networks-network-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-network-locations-api-openapi.yml
+- filename: palo-alto-networks-network-packet-broker-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Network Packet Broker Profiles API
+  slug: palo-alto-networks-network-packet-broker-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-network-packet-broker-profiles-api-openapi.yml
+- filename: palo-alto-networks-network-packet-broker-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Network Packet Broker Rules API
+  slug: palo-alto-networks-network-packet-broker-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-network-packet-broker-rules-api-openapi.yml
+- filename: palo-alto-networks-notification-templates-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Notification Templates API
+  slug: palo-alto-networks-notification-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-notification-templates-api-openapi.yml
+- filename: palo-alto-networks-notificationprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Notification Profiles API
+  slug: palo-alto-networks-notificationprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-notificationprofiles-api-openapi.yml
+- filename: palo-alto-networks-notifications-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Notifications API
+  slug: palo-alto-networks-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-notifications-api-openapi.yml
+- filename: palo-alto-networks-ntp-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks NTP API
+  slug: palo-alto-networks-ntp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ntp-api-openapi.yml
+- filename: palo-alto-networks-oauth-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks OAUTH API
+  slug: palo-alto-networks-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-oauth-api-openapi.yml
+- filename: palo-alto-networks-ocr-enablement-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks OCR Enablement API
+  slug: palo-alto-networks-ocr-enablement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ocr-enablement-api-openapi.yml
+- filename: palo-alto-networks-ocsp-responders-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks OCSP Responders API
+  slug: palo-alto-networks-ocsp-responders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ocsp-responders-api-openapi.yml
+- filename: palo-alto-networks-ocspresponder-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks OCSP Responder API
+  slug: palo-alto-networks-ocspresponder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ocspresponder-api-openapi.yml
+- filename: palo-alto-networks-onboarding-aws-s3-flow-logs-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Onboarding AWS S3 Flow Logs API
+  slug: palo-alto-networks-onboarding-aws-s3-flow-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-onboarding-aws-s3-flow-logs-api-openapi.yml
+- filename: palo-alto-networks-onboarding-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Onboarding Rules API
+  slug: palo-alto-networks-onboarding-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-onboarding-rules-api-openapi.yml
+- filename: palo-alto-networks-ospf-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks OSPF API
+  slug: palo-alto-networks-ospf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ospf-api-openapi.yml
+- filename: palo-alto-networks-ospf-authentication-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks OSPF Authentication Profiles API
+  slug: palo-alto-networks-ospf-authentication-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ospf-authentication-profiles-api-openapi.yml
+- filename: palo-alto-networks-other-users-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Other Users API API
+  slug: palo-alto-networks-other-users-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-other-users-api-api-openapi.yml
+- filename: palo-alto-networks-packages-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Packages API
+  slug: palo-alto-networks-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-packages-api-openapi.yml
+- filename: palo-alto-networks-packagesalerts-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Packages Alerts API
+  slug: palo-alto-networks-packagesalerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-packagesalerts-api-openapi.yml
+- filename: palo-alto-networks-path-policy-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Path Policy API
+  slug: palo-alto-networks-path-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-path-policy-api-openapi.yml
+- filename: palo-alto-networks-path-policy-original-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Path Policy Original API
+  slug: palo-alto-networks-path-policy-original-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-path-policy-original-api-openapi.yml
+- filename: palo-alto-networks-pbf-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks PBF Rules API
+  slug: palo-alto-networks-pbf-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-pbf-rules-api-openapi.yml
+- filename: palo-alto-networks-performance-management-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Performance Management API
+  slug: palo-alto-networks-performance-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-performance-management-api-openapi.yml
+- filename: palo-alto-networks-performance-policy-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Performance Policy API
+  slug: palo-alto-networks-performance-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-performance-policy-api-openapi.yml
+- filename: palo-alto-networks-peripherals-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Peripherals API
+  slug: palo-alto-networks-peripherals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-peripherals-api-openapi.yml
+- filename: palo-alto-networks-permission-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Permission Groups API
+  slug: palo-alto-networks-permission-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-permission-groups-api-openapi.yml
+- filename: palo-alto-networks-permissions-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Permissions API
+  slug: palo-alto-networks-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-permissions-api-openapi.yml
+- filename: palo-alto-networks-permissionsets-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Permission Sets API
+  slug: palo-alto-networks-permissionsets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-permissionsets-api-openapi.yml
+- filename: palo-alto-networks-physical-connection-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Physical Connection API
+  slug: palo-alto-networks-physical-connection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-physical-connection-api-openapi.yml
+- filename: palo-alto-networks-ping-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Ping API
+  slug: palo-alto-networks-ping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ping-api-openapi.yml
+- filename: palo-alto-networks-plugin-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Plugin API
+  slug: palo-alto-networks-plugin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-plugin-api-openapi.yml
+- filename: palo-alto-networks-plugins-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Plugins API
+  slug: palo-alto-networks-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-plugins-api-openapi.yml
+- filename: palo-alto-networks-plugins-connectors-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Plugins (Connectors) API
+  slug: palo-alto-networks-plugins-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-plugins-connectors-api-openapi.yml
+- filename: palo-alto-networks-policies-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Policies API
+  slug: palo-alto-networks-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-policies-api-openapi.yml
+- filename: palo-alto-networks-policy-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Policy API
+  slug: palo-alto-networks-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-policy-api-openapi.yml
+- filename: palo-alto-networks-policy-group-lifecycle-endpoints-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Policy Group Lifecycle Endpoints API
+  slug: palo-alto-networks-policy-group-lifecycle-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-policy-group-lifecycle-endpoints-api-openapi.yml
+- filename: palo-alto-networks-policy-group-to-tenant-group-management-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Policy Group to Tenant Group Management API
+  slug: palo-alto-networks-policy-group-to-tenant-group-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-policy-group-to-tenant-group-management-api-openapi.yml
+- filename: palo-alto-networks-predefinedurlcategories-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Predefined URL Categories API
+  slug: palo-alto-networks-predefinedurlcategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-predefinedurlcategories-api-openapi.yml
+- filename: palo-alto-networks-prefixlist-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Prefix List API
+  slug: palo-alto-networks-prefixlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-prefixlist-api-openapi.yml
+- filename: palo-alto-networks-prisma-access-configs-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Prisma Access Configs API
+  slug: palo-alto-networks-prisma-access-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-prisma-access-configs-api-openapi.yml
+- filename: palo-alto-networks-private-key-import-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Private Key Import API
+  slug: palo-alto-networks-private-key-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-private-key-import-api-openapi.yml
+- filename: palo-alto-networks-profile-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Profile Groups API
+  slug: palo-alto-networks-profile-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-profile-groups-api-openapi.yml
+- filename: palo-alto-networks-profilegroups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Profile Groups API
+  slug: palo-alto-networks-profilegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-profilegroups-api-openapi.yml
+- filename: palo-alto-networks-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Profiles API
+  slug: palo-alto-networks-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-profiles-api-openapi.yml
+- filename: palo-alto-networks-properties-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Properties API
+  slug: palo-alto-networks-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-properties-api-openapi.yml
+- filename: palo-alto-networks-proxy-endpoint-provider-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Proxy Endpoint Provider API
+  slug: palo-alto-networks-proxy-endpoint-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-proxy-endpoint-provider-api-openapi.yml
+- filename: palo-alto-networks-pypi-authentication-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks PyPI Authentication API
+  slug: palo-alto-networks-pypi-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-pypi-authentication-api-openapi.yml
+- filename: palo-alto-networks-qos-policy-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks QOS Policy API
+  slug: palo-alto-networks-qos-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-qos-policy-api-openapi.yml
+- filename: palo-alto-networks-qos-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks QoS Profiles API
+  slug: palo-alto-networks-qos-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-qos-profiles-api-openapi.yml
+- filename: palo-alto-networks-qos-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks QoS Rules API
+  slug: palo-alto-networks-qos-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-qos-rules-api-openapi.yml
+- filename: palo-alto-networks-qospolicyrules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Qo S Policy Rules API
+  slug: palo-alto-networks-qospolicyrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-qospolicyrules-api-openapi.yml
+- filename: palo-alto-networks-qosprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Qo S Profiles API
+  slug: palo-alto-networks-qosprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-qosprofiles-api-openapi.yml
+- filename: palo-alto-networks-quarantined-devices-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Quarantined Devices API
+  slug: palo-alto-networks-quarantined-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-quarantined-devices-api-openapi.yml
+- filename: palo-alto-networks-quarantineddevices-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Quarantined Devices API
+  slug: palo-alto-networks-quarantineddevices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-quarantineddevices-api-openapi.yml
+- filename: palo-alto-networks-quota-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Quota API
+  slug: palo-alto-networks-quota-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-quota-api-openapi.yml
+- filename: palo-alto-networks-radius-server-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks RADIUS Server Profiles API
+  slug: palo-alto-networks-radius-server-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-radius-server-profiles-api-openapi.yml
+- filename: palo-alto-networks-radiusserverprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Radius Server Profiles API
+  slug: palo-alto-networks-radiusserverprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-radiusserverprofiles-api-openapi.yml
+- filename: palo-alto-networks-regional-and-custom-proxies-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Regional and Custom Proxies API
+  slug: palo-alto-networks-regional-and-custom-proxies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-regional-and-custom-proxies-api-openapi.yml
+- filename: palo-alto-networks-regions-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Regions API
+  slug: palo-alto-networks-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-regions-api-openapi.yml
+- filename: palo-alto-networks-registered-ue-mappings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Registered UE Mappings API
+  slug: palo-alto-networks-registered-ue-mappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-registered-ue-mappings-api-openapi.yml
+- filename: palo-alto-networks-registry-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Registry API
+  slug: palo-alto-networks-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-registry-api-openapi.yml
+- filename: palo-alto-networks-remediations-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Remediations API
+  slug: palo-alto-networks-remediations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-remediations-api-openapi.yml
+- filename: palo-alto-networks-remote-networks-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Remote Networks API
+  slug: palo-alto-networks-remote-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-remote-networks-api-openapi.yml
+- filename: palo-alto-networks-remote-networks-license-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Remote Networks License API
+  slug: palo-alto-networks-remote-networks-license-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-remote-networks-license-api-openapi.yml
+- filename: palo-alto-networks-remotenetworks-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Remote Networks API
+  slug: palo-alto-networks-remotenetworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-remotenetworks-api-openapi.yml
+- filename: palo-alto-networks-report-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Report API API
+  slug: palo-alto-networks-report-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-report-api-api-openapi.yml
+- filename: palo-alto-networks-report-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Report API
+  slug: palo-alto-networks-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-report-api-openapi.yml
+- filename: palo-alto-networks-reports-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Reports API API
+  slug: palo-alto-networks-reports-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-reports-api-api-openapi.yml
+- filename: palo-alto-networks-reports-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Reports API
+  slug: palo-alto-networks-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-reports-api-openapi.yml
+- filename: palo-alto-networks-repositories-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Repositories API
+  slug: palo-alto-networks-repositories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-repositories-api-openapi.yml
+- filename: palo-alto-networks-repository-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Repository API
+  slug: palo-alto-networks-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-repository-api-openapi.yml
+- filename: palo-alto-networks-repository-importance-score-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Repository Importance Score API
+  slug: palo-alto-networks-repository-importance-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-repository-importance-score-api-openapi.yml
+- filename: palo-alto-networks-resolver-info-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Resolver Info API
+  slug: palo-alto-networks-resolver-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-resolver-info-api-openapi.yml
+- filename: palo-alto-networks-resource-explorer-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Resource Explorer API
+  slug: palo-alto-networks-resource-explorer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-resource-explorer-api-openapi.yml
+- filename: palo-alto-networks-resource-lists-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Resource Lists API
+  slug: palo-alto-networks-resource-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-resource-lists-api-openapi.yml
+- filename: palo-alto-networks-risk-findings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Risk Findings API
+  slug: palo-alto-networks-risk-findings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-risk-findings-api-openapi.yml
+- filename: palo-alto-networks-roles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Roles API
+  slug: palo-alto-networks-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-roles-api-openapi.yml
+- filename: palo-alto-networks-route-access-lists-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Route Access Lists API
+  slug: palo-alto-networks-route-access-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-route-access-lists-api-openapi.yml
+- filename: palo-alto-networks-route-community-lists-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Route Community Lists API
+  slug: palo-alto-networks-route-community-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-route-community-lists-api-openapi.yml
+- filename: palo-alto-networks-route-path-access-lists-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Route Path Access Lists API
+  slug: palo-alto-networks-route-path-access-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-route-path-access-lists-api-openapi.yml
+- filename: palo-alto-networks-route-prefix-lists-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Route Prefix Lists API
+  slug: palo-alto-networks-route-prefix-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-route-prefix-lists-api-openapi.yml
+- filename: palo-alto-networks-routecontroller-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Route Controller API
+  slug: palo-alto-networks-routecontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-routecontroller-api-openapi.yml
+- filename: palo-alto-networks-routing-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Routing API
+  slug: palo-alto-networks-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-routing-api-openapi.yml
+- filename: palo-alto-networks-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Rules API
+  slug: palo-alto-networks-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-rules-api-openapi.yml
+- filename: palo-alto-networks-rumcontroller-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Rum Controller API
+  slug: palo-alto-networks-rumcontroller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-rumcontroller-api-openapi.yml
+- filename: palo-alto-networks-saas-instance-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SaaS Instance API
+  slug: palo-alto-networks-saas-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-saas-instance-api-openapi.yml
+- filename: palo-alto-networks-saas-tenant-restrictions-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Saas Tenant Restrictions API
+  slug: palo-alto-networks-saas-tenant-restrictions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-saas-tenant-restrictions-api-openapi.yml
+- filename: palo-alto-networks-saml-server-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SAML Server Profiles API
+  slug: palo-alto-networks-saml-server-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-saml-server-profiles-api-openapi.yml
+- filename: palo-alto-networks-samlserverprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SAML Server Profiles API
+  slug: palo-alto-networks-samlserverprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-samlserverprofiles-api-openapi.yml
+- filename: palo-alto-networks-sandbox-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Sandbox API
+  slug: palo-alto-networks-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sandbox-api-openapi.yml
+- filename: palo-alto-networks-sase-fabric-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SASE Fabric API
+  slug: palo-alto-networks-sase-fabric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sase-fabric-api-openapi.yml
+- filename: palo-alto-networks-sbom-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SBOM API
+  slug: palo-alto-networks-sbom-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sbom-api-openapi.yml
+- filename: palo-alto-networks-scan-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Scan API
+  slug: palo-alto-networks-scan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-scan-api-openapi.yml
+- filename: palo-alto-networks-scan-labels-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Scan Labels API
+  slug: palo-alto-networks-scan-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-scan-labels-api-openapi.yml
+- filename: palo-alto-networks-scan-reports-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Scan Reports API
+  slug: palo-alto-networks-scan-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-scan-reports-api-openapi.yml
+- filename: palo-alto-networks-scan-results-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Scan Results API
+  slug: palo-alto-networks-scan-results-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-scan-results-api-openapi.yml
+- filename: palo-alto-networks-scans-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Scans API
+  slug: palo-alto-networks-scans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-scans-api-openapi.yml
+- filename: palo-alto-networks-scep-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SCEP Profiles API
+  slug: palo-alto-networks-scep-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-scep-profiles-api-openapi.yml
+- filename: palo-alto-networks-scepprofiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SCEP Profiles API
+  slug: palo-alto-networks-scepprofiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-scepprofiles-api-openapi.yml
+- filename: palo-alto-networks-schedules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Schedules API
+  slug: palo-alto-networks-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-schedules-api-openapi.yml
+- filename: palo-alto-networks-sd-wan-applications-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SD-WAN Applications API
+  slug: palo-alto-networks-sd-wan-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sd-wan-applications-api-openapi.yml
+- filename: palo-alto-networks-sd-wan-error-correction-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SD-WAN Error Correction Profiles API
+  slug: palo-alto-networks-sd-wan-error-correction-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sd-wan-error-correction-profiles-api-openapi.yml
+- filename: palo-alto-networks-sd-wan-path-quality-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SD-WAN Path Quality Profiles API
+  slug: palo-alto-networks-sd-wan-path-quality-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sd-wan-path-quality-profiles-api-openapi.yml
+- filename: palo-alto-networks-sd-wan-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SD-WAN Rules API
+  slug: palo-alto-networks-sd-wan-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sd-wan-rules-api-openapi.yml
+- filename: palo-alto-networks-sd-wan-saas-quality-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SD-WAN SaaS Quality Profiles API
+  slug: palo-alto-networks-sd-wan-saas-quality-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sd-wan-saas-quality-profiles-api-openapi.yml
+- filename: palo-alto-networks-sd-wan-traffic-distribution-profiles-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SD-WAN Traffic Distribution Profiles API
+  slug: palo-alto-networks-sd-wan-traffic-distribution-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sd-wan-traffic-distribution-profiles-api-openapi.yml
+- filename: palo-alto-networks-search-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Search API
+  slug: palo-alto-networks-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-search-api-openapi.yml
+- filename: palo-alto-networks-search-manager-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Search Manager API
+  slug: palo-alto-networks-search-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-search-manager-api-openapi.yml
+- filename: palo-alto-networks-security-policy-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Security Policy API
+  slug: palo-alto-networks-security-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-security-policy-api-openapi.yml
+- filename: palo-alto-networks-security-rules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Security Rules API
+  slug: palo-alto-networks-security-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-security-rules-api-openapi.yml
+- filename: palo-alto-networks-security-zones-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Security Zones API
+  slug: palo-alto-networks-security-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-security-zones-api-openapi.yml
+- filename: palo-alto-networks-securityrules-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Security Rules API
+  slug: palo-alto-networks-securityrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-securityrules-api-openapi.yml
+- filename: palo-alto-networks-sentiment-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Sentiment API
+  slug: palo-alto-networks-sentiment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sentiment-api-openapi.yml
+- filename: palo-alto-networks-serverless-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Serverless API
+  slug: palo-alto-networks-serverless-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-serverless-api-openapi.yml
+- filename: palo-alto-networks-service-connection-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Service Connection Groups API
+  slug: palo-alto-networks-service-connection-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-service-connection-groups-api-openapi.yml
+- filename: palo-alto-networks-service-connections-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Service Connections API
+  slug: palo-alto-networks-service-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-service-connections-api-openapi.yml
+- filename: palo-alto-networks-service-dc-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Service & DC Groups API
+  slug: palo-alto-networks-service-dc-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-service-dc-groups-api-openapi.yml
+- filename: palo-alto-networks-service-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Service Groups API
+  slug: palo-alto-networks-service-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-service-groups-api-openapi.yml
+- filename: palo-alto-networks-service-route-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Service Route Settings API
+  slug: palo-alto-networks-service-route-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-service-route-settings-api-openapi.yml
+- filename: palo-alto-networks-service-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Service Settings API
+  slug: palo-alto-networks-service-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-service-settings-api-openapi.yml
+- filename: palo-alto-networks-serviceaccounts-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Service Accounts API
+  slug: palo-alto-networks-serviceaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-serviceaccounts-api-openapi.yml
+- filename: palo-alto-networks-serviceconnectiongroups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Service Connection Groups API
+  slug: palo-alto-networks-serviceconnectiongroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-serviceconnectiongroups-api-openapi.yml
+- filename: palo-alto-networks-serviceconnections-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Service Connections API
+  slug: palo-alto-networks-serviceconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-serviceconnections-api-openapi.yml
+- filename: palo-alto-networks-servicegroups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Service Groups API
+  slug: palo-alto-networks-servicegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-servicegroups-api-openapi.yml
+- filename: palo-alto-networks-services-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Services API
+  slug: palo-alto-networks-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-services-api-openapi.yml
+- filename: palo-alto-networks-session-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Session Settings API
+  slug: palo-alto-networks-session-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-session-settings-api-openapi.yml
+- filename: palo-alto-networks-session-timeouts-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Session Timeouts Settings API
+  slug: palo-alto-networks-session-timeouts-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-session-timeouts-settings-api-openapi.yml
+- filename: palo-alto-networks-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Settings API
+  slug: palo-alto-networks-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-settings-api-openapi.yml
+- filename: palo-alto-networks-shared-infrastructure-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Shared Infrastructure Settings API
+  slug: palo-alto-networks-shared-infrastructure-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-shared-infrastructure-settings-api-openapi.yml
+- filename: palo-alto-networks-shared-snippets-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Shared Snippets API
+  slug: palo-alto-networks-shared-snippets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-shared-snippets-api-openapi.yml
+- filename: palo-alto-networks-signup-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Signup API
+  slug: palo-alto-networks-signup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-signup-api-openapi.yml
+- filename: palo-alto-networks-site-configuration-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Site Configuration API
+  slug: palo-alto-networks-site-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-site-configuration-api-openapi.yml
+- filename: palo-alto-networks-site-groups-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Site Groups API
+  slug: palo-alto-networks-site-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-site-groups-api-openapi.yml
+- filename: palo-alto-networks-site-snapshots-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Site Snapshots API
+  slug: palo-alto-networks-site-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-site-snapshots-api-openapi.yml
+- filename: palo-alto-networks-site-templates-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Site Templates API
+  slug: palo-alto-networks-site-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-site-templates-api-openapi.yml
+- filename: palo-alto-networks-sites-api-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Sites API API
+  slug: palo-alto-networks-sites-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sites-api-api-openapi.yml
+- filename: palo-alto-networks-sites-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Sites API
+  slug: palo-alto-networks-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sites-api-openapi.yml
+- filename: palo-alto-networks-snippet-audit-logs-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Snippet Audit Logs API
+  slug: palo-alto-networks-snippet-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-snippet-audit-logs-api-openapi.yml
+- filename: palo-alto-networks-snippet-categories-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Snippet Categories API
+  slug: palo-alto-networks-snippet-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-snippet-categories-api-openapi.yml
+- filename: palo-alto-networks-snippet-snapshots-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Snippet Snapshots API
+  slug: palo-alto-networks-snippet-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-snippet-snapshots-api-openapi.yml
+- filename: palo-alto-networks-snippets-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Snippets API
+  slug: palo-alto-networks-snippets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-snippets-api-openapi.yml
+- filename: palo-alto-networks-snmp-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks SNMP API
+  slug: palo-alto-networks-snmp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dspm-dspm-openapi.json
-- filename: palo-alto-email-dlp-emaildlpapi-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-snmp-api-openapi.yml
+- filename: palo-alto-networks-software-management-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Email DLP APIs
-  slug: palo-alto-networks-email-dlp-apis
+  label: Palo Alto Networks Software Management API
+  slug: palo-alto-networks-software-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-email-dlp-emaildlpapi-openapi.yaml
-- filename: palo-alto-iot-iot-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-software-management-api-openapi.yml
+- filename: palo-alto-networks-source-applications-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks IoT Public API Overview
-  slug: palo-alto-networks-iot-public-api-overview
+  label: Palo Alto Networks Source Applications API
+  slug: palo-alto-networks-source-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-iot-iot-openapi.yaml
-- filename: palo-alto-mssp-mssp-spec-openapi.json
-  format: json
-  label: 'Palo Alto Networks Prisma Cloud: Managed Security Service Provider (MSSP)'
-  slug: palo-alto-networks-prisma-cloud-managed-security-service-provider-mssp
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-source-applications-api-openapi.yml
+- filename: palo-alto-networks-ssl-decryption-settings-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Ssl Decryption Settings API
+  slug: palo-alto-networks-ssl-decryption-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-mssp-mssp-spec-openapi.json
-- filename: palo-alto-prisma-airs-management-mgmt-service-latest-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ssl-decryption-settings-api-openapi.yml
+- filename: palo-alto-networks-sso-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Prisma AIRS API Management service
-  slug: palo-alto-networks-prisma-airs-api-management-service
+  label: Palo Alto Networks SSO API
+  slug: palo-alto-networks-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-airs-management-mgmt-service-latest-openapi.yaml
-- filename: palo-alto-prisma-airs-model-security-dataplane-airs-model-security-dataplane-latest-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-sso-api-openapi.yml
+- filename: palo-alto-networks-stack-details-endpoint-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Prisma AIRS AI Model Security API
-  slug: palo-alto-networks-prisma-airs-ai-model-security-api
+  label: Palo Alto Networks Stack Details Endpoint API
+  slug: palo-alto-networks-stack-details-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-airs-model-security-dataplane-airs-model-security-dataplane-latest-openapi.yaml
-- filename: palo-alto-prisma-airs-model-security-dataplane-airs-model-security-dataplane-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-stack-details-endpoint-api-openapi.yml
+- filename: palo-alto-networks-stats-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Prisma AIRS AI Model Security API (PRISMA-AIRS-MODEL-SECURITY)
-  slug: palo-alto-networks-prisma-airs-ai-model-security-api-prisma-airs-model-security
+  label: Palo Alto Networks Stats API
+  slug: palo-alto-networks-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-airs-model-security-dataplane-airs-model-security-dataplane-openapi.yaml
-- filename: palo-alto-prisma-airs-model-security-management-airs-model-security-management-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-stats-api-openapi.yml
+- filename: palo-alto-networks-statuses-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Prisma AIRS AI Security Model API
-  slug: palo-alto-networks-prisma-airs-ai-security-model-api
+  label: Palo Alto Networks Statuses API
+  slug: palo-alto-networks-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-airs-model-security-management-airs-model-security-management-openapi.yaml
-- filename: palo-alto-prisma-airs-redteam-data-plane-dp-openapi-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-statuses-api-openapi.yml
+- filename: palo-alto-networks-subnet-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Prisma AIRS Red Teaming Dataplane API
-  slug: palo-alto-networks-prisma-airs-red-teaming-dataplane-api
+  label: Palo Alto Networks Subnet API
+  slug: palo-alto-networks-subnet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-airs-redteam-data-plane-dp-openapi-openapi.yaml
-- filename: palo-alto-prisma-airs-redteam-management-mp-openapi-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-subnet-api-openapi.yml
+- filename: palo-alto-networks-subscribed-tenants-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Prisma AIRS Red Teaming Management API
-  slug: palo-alto-networks-prisma-airs-red-teaming-management-api
+  label: Palo Alto Networks Subscribed Tenants API
+  slug: palo-alto-networks-subscribed-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-airs-redteam-management-mp-openapi-openapi.yaml
-- filename: palo-alto-prisma-airs-redteam-network-broker-airs-red-teaming-network-broker-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-subscribed-tenants-api-openapi.yml
+- filename: palo-alto-networks-summary-api-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Prisma AIRS Red Teaming - Network Channel API
-  slug: palo-alto-networks-prisma-airs-red-teaming-network-channel-api
+  label: Palo Alto Networks Summary API API
+  slug: palo-alto-networks-summary-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-airs-redteam-network-broker-airs-red-teaming-network-broker-openapi.yaml
-- filename: palo-alto-prisma-airs-scan-scan-service-latest-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-summary-api-api-openapi.yml
+- filename: palo-alto-networks-suppressions-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Prisma AIRS AI Runtime API Intercept
-  slug: palo-alto-networks-prisma-airs-ai-runtime-api-intercept
+  label: Palo Alto Networks Suppressions API
+  slug: palo-alto-networks-suppressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-airs-scan-scan-service-latest-openapi.yaml
-- filename: palo-alto-sase-auth-authservice-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-suppressions-api-openapi.yml
+- filename: palo-alto-networks-syslog-server-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Authentication Service API
-  slug: palo-alto-networks-authentication-service-api
+  label: Palo Alto Networks Syslog Server Profiles API
+  slug: palo-alto-networks-syslog-server-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-auth-authservice-openapi.yaml
-- filename: palo-alto-sase-config-orch-paloaltonetworks-remote-networks-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-syslog-server-profiles-api-openapi.yml
+- filename: palo-alto-networks-syslogprofiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Configuration Orchestration API
-  slug: palo-alto-networks-configuration-orchestration-api
+  label: Palo Alto Networks Syslog Profiles API
+  slug: palo-alto-networks-syslogprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-config-orch-paloaltonetworks-remote-networks-openapi.yaml
-- filename: palo-alto-sase-iam-accesspolicies-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-syslogprofiles-api-openapi.yml
+- filename: palo-alto-networks-system-administration-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Access Policies
-  slug: palo-alto-networks-access-policies
+  label: Palo Alto Networks System Administration API
+  slug: palo-alto-networks-system-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-iam-accesspolicies-openapi.yaml
-- filename: palo-alto-sase-iam-customroles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-system-administration-api-openapi.yml
+- filename: palo-alto-networks-system-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Custom Roles
-  slug: palo-alto-networks-custom-roles
+  label: Palo Alto Networks System API
+  slug: palo-alto-networks-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-iam-customroles-openapi.yaml
-- filename: palo-alto-sase-iam-permissions-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-system-api-openapi.yml
+- filename: palo-alto-networks-system-match-list-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Permissions
-  slug: palo-alto-networks-permissions
+  label: Palo Alto Networks System Match List API
+  slug: palo-alto-networks-system-match-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-iam-permissions-openapi.yaml
-- filename: palo-alto-sase-iam-permissionsets-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-system-match-list-api-openapi.yml
+- filename: palo-alto-networks-tacacs-server-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Permission Sets
-  slug: palo-alto-networks-permission-sets
+  label: Palo Alto Networks TACACS Server Profiles API
+  slug: palo-alto-networks-tacacs-server-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-iam-permissionsets-openapi.yaml
-- filename: palo-alto-sase-iam-roles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tacacs-server-profiles-api-openapi.yml
+- filename: palo-alto-networks-tacacsserverprofiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Roles
-  slug: palo-alto-networks-roles
+  label: Palo Alto Networks TACACS Server Profiles API
+  slug: palo-alto-networks-tacacsserverprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-iam-roles-openapi.yaml
-- filename: palo-alto-sase-iam-serviceaccounts-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tacacsserverprofiles-api-openapi.yml
+- filename: palo-alto-networks-tag-rules-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Service Accounts
-  slug: palo-alto-networks-service-accounts
+  label: Palo Alto Networks Tag Rules API
+  slug: palo-alto-networks-tag-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-iam-serviceaccounts-openapi.yaml
-- filename: palo-alto-sase-iam-useraccounts-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tag-rules-api-openapi.yml
+- filename: palo-alto-networks-tags-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks User Accounts
-  slug: palo-alto-networks-user-accounts
+  label: Palo Alto Networks Tags API
+  slug: palo-alto-networks-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-iam-useraccounts-openapi.yaml
-- filename: palo-alto-sase-identity-sspm-latest-identity-sspm-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tags-api-openapi.yml
+- filename: palo-alto-networks-target-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Incident Security Service Posture Management API
-  slug: palo-alto-networks-incident-security-service-posture-management-api
+  label: Palo Alto Networks Target API
+  slug: palo-alto-networks-target-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-identity-sspm-latest-identity-sspm-openapi.yaml
-- filename: palo-alto-sase-manage-services-5g-sase-5g-manage-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-target-api-openapi.yml
+- filename: palo-alto-networks-tas-droplets-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks SASE 5G Manage Service API
-  slug: palo-alto-networks-sase-5g-manage-service-api
+  label: Palo Alto Networks Tas Droplets API
+  slug: palo-alto-networks-tas-droplets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-manage-services-5g-sase-5g-manage-openapi.yaml
-- filename: palo-alto-sase-monitor-services-5g-sase-5g-monitor-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tas-droplets-api-openapi.yml
+- filename: palo-alto-networks-tcp-settings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks SASE 5G Monitor Service API
-  slug: palo-alto-networks-sase-5g-monitor-service-api
+  label: Palo Alto Networks TCP Settings API
+  slug: palo-alto-networks-tcp-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-monitor-services-5g-sase-5g-monitor-openapi.yaml
-- filename: palo-alto-sase-mt-interconnect-manage-sp-interconnect-manage-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tcp-settings-api-openapi.yml
+- filename: palo-alto-networks-technologies-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks SP Interconnect Manage APIs
-  slug: palo-alto-networks-sp-interconnect-manage-apis
+  label: Palo Alto Networks Technologies API
+  slug: palo-alto-networks-technologies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-mt-interconnect-manage-sp-interconnect-manage-openapi.yaml
-- filename: palo-alto-sase-mt-interconnect-monitor-sp-interconnect-monitor-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-technologies-api-openapi.yml
+- filename: palo-alto-networks-templates-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks SP Interconnect Monitor APIs
-  slug: palo-alto-networks-sp-interconnect-monitor-apis
+  label: Palo Alto Networks Templates API
+  slug: palo-alto-networks-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-mt-interconnect-monitor-sp-interconnect-monitor-openapi.yaml
-- filename: palo-alto-sase-mt-monitor-paloaltonetworks-msp-monitoring-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-templates-api-openapi.yml
+- filename: palo-alto-networks-tenant-api-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Aggreagate Monitoring APIs
-  slug: palo-alto-networks-aggreagate-monitoring-apis
+  label: Palo Alto Networks Tenant API API
+  slug: palo-alto-networks-tenant-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-mt-monitor-paloaltonetworks-msp-monitoring-openapi.yaml
-- filename: palo-alto-sase-mt-notifications-multi-tenant-notifications-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tenant-api-api-openapi.yml
+- filename: palo-alto-networks-tenant-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Multi-Tenant Notifications API
-  slug: palo-alto-networks-multi-tenant-notifications-api
+  label: Palo Alto Networks Tenant API
+  slug: palo-alto-networks-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-mt-notifications-multi-tenant-notifications-openapi.yaml
-- filename: palo-alto-sase-pab-msp-prisma-browser-for-msp-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tenant-api-openapi.yml
+- filename: palo-alto-networks-tenant-group-lifecycle-endpoints-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Prisma Browser for MSP API
-  slug: palo-alto-networks-prisma-browser-for-msp-api
+  label: Palo Alto Networks Tenant Group Lifecycle Endpoints API
+  slug: palo-alto-networks-tenant-group-lifecycle-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-pab-msp-prisma-browser-for-msp-openapi.yaml
-- filename: palo-alto-sase-sspm-consolidated-sspm-new-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tenant-group-lifecycle-endpoints-api-openapi.yml
+- filename: palo-alto-networks-tenant-resources-api-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks SSPM Management API
-  slug: palo-alto-networks-sspm-management-api
+  label: Palo Alto Networks Tenant Resources API API
+  slug: palo-alto-networks-tenant-resources-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-sspm-consolidated-sspm-new-openapi.yaml
-- filename: palo-alto-sase-subscription-instance-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tenant-resources-api-api-openapi.yml
+- filename: palo-alto-networks-tenantservicegroup-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Instances
-  slug: palo-alto-networks-instances
+  label: Palo Alto Networks Tenant Service Group API
+  slug: palo-alto-networks-tenantservicegroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-subscription-instance-openapi.yaml
-- filename: palo-alto-sase-subscription-licenses-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tenantservicegroup-api-openapi.yml
+- filename: palo-alto-networks-threat-prevention-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Licenses
-  slug: palo-alto-networks-licenses
+  label: Palo Alto Networks Threat Prevention API
+  slug: palo-alto-networks-threat-prevention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-subscription-licenses-openapi.yaml
-- filename: palo-alto-sase-tenancy-tenantservicegroup-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-threat-prevention-api-openapi.yml
+- filename: palo-alto-networks-throughput-trend-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Tenant Service Group
-  slug: palo-alto-networks-tenant-service-group
+  label: Palo Alto Networks Throughput Trend API
+  slug: palo-alto-networks-throughput-trend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-tenancy-tenantservicegroup-openapi.yaml
-- filename: palo-alto-scm-auth-authservice-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-throughput-trend-api-openapi.yml
+- filename: palo-alto-networks-tls-server-endpoints-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Authentication Service API (SCM)
-  slug: palo-alto-networks-authentication-service-api-scm
+  label: Palo Alto Networks TLS Server Endpoints API
+  slug: palo-alto-networks-tls-server-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-auth-authservice-openapi.yaml
-- filename: palo-alto-scm-config-adnsr-adnsr-apis-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tls-server-endpoints-api-openapi.yml
+- filename: palo-alto-networks-tls-service-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Advanced DNS Security Resolver Configuration
-  slug: palo-alto-networks-advanced-dns-security-resolver-configuration
+  label: Palo Alto Networks TLS Service Profiles API
+  slug: palo-alto-networks-tls-service-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-adnsr-adnsr-apis-openapi.yaml
-- filename: palo-alto-scm-config-cdug-cdug-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tls-service-profiles-api-openapi.yml
+- filename: palo-alto-networks-tlsserviceprofiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks CIE - Cloud Dynamic User Group CRUD Operations APIs Mounted on Strata Cloud Manager
-  slug: palo-alto-networks-cie-cloud-dynamic-user-group-crud-operations-apis-mounted-on-strata-cloud-manager
+  label: Palo Alto Networks TLS Service Profiles API
+  slug: palo-alto-networks-tlsserviceprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-cdug-cdug-openapi.yaml
-- filename: palo-alto-scm-config-ciedss-cie-dss-r2-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tlsserviceprofiles-api-openapi.yml
+- filename: palo-alto-networks-topology-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks CIE Directory Sync Service APIs Mounted on Strata Cloud Manager
-  slug: palo-alto-networks-cie-directory-sync-service-apis-mounted-on-strata-cloud-manager
+  label: Palo Alto Networks Topology API
+  slug: palo-alto-networks-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-ciedss-cie-dss-r2-openapi.yaml
-- filename: palo-alto-scm-config-cloudngfw-identity-identity-services-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-topology-api-openapi.yml
+- filename: palo-alto-networks-total-number-of-configured-users-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Identity Services
-  slug: palo-alto-networks-identity-services
+  label: Palo Alto Networks Total Number of Configured Users API
+  slug: palo-alto-networks-total-number-of-configured-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-cloudngfw-identity-identity-services-openapi.yaml
-- filename: palo-alto-scm-config-cloudngfw-network-network-services-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-total-number-of-configured-users-api-openapi.yml
+- filename: palo-alto-networks-total-proxies-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Network Services
-  slug: palo-alto-networks-network-services
+  label: Palo Alto Networks Total Proxies API
+  slug: palo-alto-networks-total-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-cloudngfw-network-network-services-openapi.yaml
-- filename: palo-alto-scm-config-cloudngfw-objects-objects-june-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-total-proxies-api-openapi.yml
+- filename: palo-alto-networks-total-tenants-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Objects
-  slug: palo-alto-networks-objects
+  label: Palo Alto Networks Total Tenants API
+  slug: palo-alto-networks-total-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-cloudngfw-objects-objects-june-openapi.yaml
-- filename: palo-alto-scm-config-cloudngfw-operations-config-operations-march-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-total-tenants-api-openapi.yml
+- filename: palo-alto-networks-traffic-steering-rules-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Config Operations
-  slug: palo-alto-networks-config-operations
+  label: Palo Alto Networks Traffic Steering Rules API
+  slug: palo-alto-networks-traffic-steering-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-cloudngfw-operations-config-operations-march-openapi.yaml
-- filename: palo-alto-scm-config-cloudngfw-security-security-services-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-traffic-steering-rules-api-openapi.yml
+- filename: palo-alto-networks-trafficsteeringrules-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Security Services
-  slug: palo-alto-networks-security-services
+  label: Palo Alto Networks Traffic Steering Rules API
+  slug: palo-alto-networks-trafficsteeringrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-cloudngfw-security-security-services-openapi.yaml
-- filename: palo-alto-scm-config-cloudngfw-setup-config-setup-feb-v1-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-trafficsteeringrules-api-openapi.yml
+- filename: palo-alto-networks-trust-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Configuration Setup
-  slug: palo-alto-networks-configuration-setup
+  label: Palo Alto Networks Trust API
+  slug: palo-alto-networks-trust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-cloudngfw-setup-config-setup-feb-v1-openapi.yaml
-- filename: palo-alto-scm-config-cloudngfw-setup-device-onboarding-device-onboarding-updated-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-trust-api-openapi.yml
+- filename: palo-alto-networks-trust-information-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Device Onboarding
-  slug: palo-alto-networks-device-onboarding
+  label: Palo Alto Networks Trust Information API
+  slug: palo-alto-networks-trust-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-cloudngfw-setup-device-onboarding-device-onboarding-updated-openapi.yaml
-- filename: palo-alto-scm-config-incidents-unified-scm-incident-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-trust-information-api-openapi.yml
+- filename: palo-alto-networks-trust-validations-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Unified Incident Framework APIs
-  slug: palo-alto-networks-unified-incident-framework-apis
+  label: Palo Alto Networks Trust Validations API
+  slug: palo-alto-networks-trust-validations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-incidents-unified-scm-incident-openapi.yaml
-- filename: palo-alto-scm-config-ngfw-device-device-settings-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-trust-validations-api-openapi.yml
+- filename: palo-alto-networks-trusted-certificate-authorities-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Device Settings
-  slug: palo-alto-networks-device-settings
+  label: Palo Alto Networks Trusted Certificate Authorities API
+  slug: palo-alto-networks-trusted-certificate-authorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-ngfw-device-device-settings-openapi.yaml
-- filename: palo-alto-scm-config-ngfw-operations-operations-r2-2026-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-trusted-certificate-authorities-api-openapi.yml
+- filename: palo-alto-networks-trusted-tenants-overview-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Operations and Troubleshooting
-  slug: palo-alto-networks-operations-and-troubleshooting
+  label: Palo Alto Networks Trusted Tenants Overview API
+  slug: palo-alto-networks-trusted-tenants-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-ngfw-operations-operations-r2-2026-openapi.yaml
-- filename: palo-alto-scm-config-ngts-tlsprotect-cloud-openapi.json
-  format: json
-  label: Palo Alto Networks TLS Protect Cloud API for Strata Cloud Manager
-  slug: palo-alto-networks-tls-protect-cloud-api-for-strata-cloud-manager
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-trusted-tenants-overview-api-openapi.yml
+- filename: palo-alto-networks-trustedcertificateauthorities-api-openapi.yml
+  format: yaml
+  label: Palo Alto Networks Trusted Certificate Authorities API
+  slug: palo-alto-networks-trustedcertificateauthorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-ngts-tlsprotect-cloud-openapi.json
-- filename: palo-alto-scm-config-posture-management-compliance-framework-compliance-center-recent-v1-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-trustedcertificateauthorities-api-openapi.yml
+- filename: palo-alto-networks-trusts-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Compliance Center API
-  slug: palo-alto-networks-compliance-center-api
+  label: Palo Alto Networks Trusts API
+  slug: palo-alto-networks-trusts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-posture-management-compliance-framework-compliance-center-recent-v1-openapi.yaml
-- filename: palo-alto-scm-config-posture-management-posture-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-trusts-api-openapi.yml
+- filename: palo-alto-networks-tunnel-interfaces-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Posture Management API
-  slug: palo-alto-networks-posture-management-api
+  label: Palo Alto Networks Tunnel Interfaces API
+  slug: palo-alto-networks-tunnel-interfaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-posture-management-posture-openapi.yaml
-- filename: palo-alto-scm-config-sase-deployment-deployment-services-june-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tunnel-interfaces-api-openapi.yml
+- filename: palo-alto-networks-tunnel-settings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Network Deployment
-  slug: palo-alto-networks-network-deployment
+  label: Palo Alto Networks Tunnel Settings API
+  slug: palo-alto-networks-tunnel-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-sase-deployment-deployment-services-june-openapi.yaml
-- filename: palo-alto-scm-config-sase-mobileagent-mobile-agent-feb-v1-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-tunnel-settings-api-openapi.yml
+- filename: palo-alto-networks-ue-enrichment-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks GlobalProtect
-  slug: palo-alto-networks-globalprotect
+  label: Palo Alto Networks UE Enrichment API
+  slug: palo-alto-networks-ue-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-config-sase-mobileagent-mobile-agent-feb-v1-openapi.yaml
-- filename: palo-alto-scm-iam-accesspolicies-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ue-enrichment-api-openapi.yml
+- filename: palo-alto-networks-ue-info-resource-api-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Access Policies (SCM)
-  slug: palo-alto-networks-access-policies-scm
+  label: Palo Alto Networks UE Info Resource API API
+  slug: palo-alto-networks-ue-info-resource-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-iam-accesspolicies-openapi.yaml
-- filename: palo-alto-scm-iam-customroles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ue-info-resource-api-api-openapi.yml
+- filename: palo-alto-networks-ue-ip-region-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Custom Roles (SCM)
-  slug: palo-alto-networks-custom-roles-scm
+  label: Palo Alto Networks UE IP Region API
+  slug: palo-alto-networks-ue-ip-region-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-iam-customroles-openapi.yaml
-- filename: palo-alto-scm-iam-permissions-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ue-ip-region-api-openapi.yml
+- filename: palo-alto-networks-ue-mappings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Permissions (SCM)
-  slug: palo-alto-networks-permissions-scm
+  label: Palo Alto Networks UE Mappings API
+  slug: palo-alto-networks-ue-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-iam-permissions-openapi.yaml
-- filename: palo-alto-scm-iam-permissionsets-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-ue-mappings-api-openapi.yml
+- filename: palo-alto-networks-unknown-ip-regions-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Permission Sets (SCM)
-  slug: palo-alto-networks-permission-sets-scm
+  label: Palo Alto Networks Unknown IP  Regions API
+  slug: palo-alto-networks-unknown-ip-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-iam-permissionsets-openapi.yaml
-- filename: palo-alto-scm-iam-roles-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-unknown-ip-regions-api-openapi.yml
+- filename: palo-alto-networks-unknown-ue-mappings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Roles (SCM)
-  slug: palo-alto-networks-roles-scm
+  label: Palo Alto Networks Unknown UE Mappings API
+  slug: palo-alto-networks-unknown-ue-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-iam-roles-openapi.yaml
-- filename: palo-alto-scm-iam-serviceaccounts-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-unknown-ue-mappings-api-openapi.yml
+- filename: palo-alto-networks-update-schedule-settings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Service Accounts (SCM)
-  slug: palo-alto-networks-service-accounts-scm
+  label: Palo Alto Networks Update Schedule Settings API
+  slug: palo-alto-networks-update-schedule-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-iam-serviceaccounts-openapi.yaml
-- filename: palo-alto-scm-iam-useraccounts-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-update-schedule-settings-api-openapi.yml
+- filename: palo-alto-networks-url-access-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks User Accounts (SCM)
-  slug: palo-alto-networks-user-accounts-scm
+  label: Palo Alto Networks URL Access Profiles API
+  slug: palo-alto-networks-url-access-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-iam-useraccounts-openapi.yaml
-- filename: palo-alto-scm-subscription-instance-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-url-access-profiles-api-openapi.yml
+- filename: palo-alto-networks-url-admin-override-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Instances (SCM)
-  slug: palo-alto-networks-instances-scm
+  label: Palo Alto Networks URL Admin Override API
+  slug: palo-alto-networks-url-admin-override-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-subscription-instance-openapi.yaml
-- filename: palo-alto-scm-tenancy-tenantservicegroup-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-url-admin-override-api-openapi.yml
+- filename: palo-alto-networks-url-categories-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Tenant Service Group (SCM)
-  slug: palo-alto-networks-tenant-service-group-scm
+  label: Palo Alto Networks URL Categories API
+  slug: palo-alto-networks-url-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-scm-tenancy-tenantservicegroup-openapi.yaml
-- filename: palo-alto-sdwan-unified-adem-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-url-categories-api-openapi.yml
+- filename: palo-alto-networks-url-filtering-categories-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks ADEM
-  slug: palo-alto-networks-adem
+  label: Palo Alto Networks URL Filtering Categories API
+  slug: palo-alto-networks-url-filtering-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-adem-openapi.yaml
-- filename: palo-alto-sdwan-unified-applications-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-url-filtering-categories-api-openapi.yml
+- filename: palo-alto-networks-urlaccessprofiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Applications
-  slug: palo-alto-networks-applications
+  label: Palo Alto Networks URL Access Profiles API
+  slug: palo-alto-networks-urlaccessprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-applications-openapi.yaml
-- filename: palo-alto-sdwan-unified-auditlogs-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-urlaccessprofiles-api-openapi.yml
+- filename: palo-alto-networks-urlcategories-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Auditlogs
-  slug: palo-alto-networks-auditlogs
+  label: Palo Alto Networks URL Categories API
+  slug: palo-alto-networks-urlcategories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-auditlogs-openapi.yaml
-- filename: palo-alto-sdwan-unified-bulkconfigurations-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-urlcategories-api-openapi.yml
+- filename: palo-alto-networks-urlfilteringcategories-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Bulk Configurations
-  slug: palo-alto-networks-bulk-configurations
+  label: Palo Alto Networks URL Filtering Categories API
+  slug: palo-alto-networks-urlfilteringcategories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-bulkconfigurations-openapi.yaml
-- filename: palo-alto-sdwan-unified-bulkoperations-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-urlfilteringcategories-api-openapi.yml
+- filename: palo-alto-networks-user-authentication-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Bulk Operations
-  slug: palo-alto-networks-bulk-operations
+  label: Palo Alto Networks User Authentication API
+  slug: palo-alto-networks-user-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-bulkoperations-openapi.yaml
-- filename: palo-alto-sdwan-unified-cellular-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-user-authentication-api-openapi.yml
+- filename: palo-alto-networks-user-groups-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Cellular
-  slug: palo-alto-networks-cellular
+  label: Palo Alto Networks User Groups API
+  slug: palo-alto-networks-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-cellular-openapi.yaml
-- filename: palo-alto-sdwan-unified-certificates-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-user-groups-api-openapi.yml
+- filename: palo-alto-networks-user-locations-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Certificates
-  slug: palo-alto-networks-certificates
+  label: Palo Alto Networks User Locations API
+  slug: palo-alto-networks-user-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-certificates-openapi.yaml
-- filename: palo-alto-sdwan-unified-cloudblades-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-user-locations-api-openapi.yml
+- filename: palo-alto-networks-user-management-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks CloudBlades
-  slug: palo-alto-networks-cloudblades
+  label: Palo Alto Networks User Management API
+  slug: palo-alto-networks-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-cloudblades-openapi.yaml
-- filename: palo-alto-sdwan-unified-deviceconfiguration-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-user-management-api-openapi.yml
+- filename: palo-alto-networks-user-profile-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Device Configuration
-  slug: palo-alto-networks-device-configuration
+  label: Palo Alto Networks User Profile API
+  slug: palo-alto-networks-user-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-deviceconfiguration-openapi.yaml
-- filename: palo-alto-sdwan-unified-deviceswitchconfiguration-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-user-profile-api-openapi.yml
+- filename: palo-alto-networks-user-requests-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Device Switch Config
-  slug: palo-alto-networks-device-switch-config
+  label: Palo Alto Networks User Requests API
+  slug: palo-alto-networks-user-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-deviceswitchconfiguration-openapi.yaml
-- filename: palo-alto-sdwan-unified-dhcp-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-user-requests-api-openapi.yml
+- filename: palo-alto-networks-user-roles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks DHCP
-  slug: palo-alto-networks-dhcp
+  label: Palo Alto Networks User Roles API
+  slug: palo-alto-networks-user-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-dhcp-openapi.yaml
-- filename: palo-alto-sdwan-unified-dnsservices-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-user-roles-api-openapi.yml
+- filename: palo-alto-networks-useraccounts-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks DNS Services
-  slug: palo-alto-networks-dns-services
+  label: Palo Alto Networks User Accounts API
+  slug: palo-alto-networks-useraccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-dnsservices-openapi.yaml
-- filename: palo-alto-sdwan-unified-eventpolicy-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-useraccounts-api-openapi.yml
+- filename: palo-alto-networks-userid-match-list-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Event Policy
-  slug: palo-alto-networks-event-policy
+  label: Palo Alto Networks Userid Match List API
+  slug: palo-alto-networks-userid-match-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-eventpolicy-openapi.yaml
-- filename: palo-alto-sdwan-unified-events-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-userid-match-list-api-openapi.yml
+- filename: palo-alto-networks-useronboarding-linkaccount-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Events
-  slug: palo-alto-networks-events
+  label: Palo Alto Networks User Onboarding Link Account API
+  slug: palo-alto-networks-useronboarding-linkaccount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-events-openapi.yaml
-- filename: palo-alto-sdwan-unified-iot-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-useronboarding-linkaccount-api-openapi.yml
+- filename: palo-alto-networks-useronboarding-linkaccounts-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks IoT
-  slug: palo-alto-networks-iot
+  label: Palo Alto Networks User Onboarding Link Accounts API
+  slug: palo-alto-networks-useronboarding-linkaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-iot-openapi.yaml
-- filename: palo-alto-sdwan-unified-ipfix-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-useronboarding-linkaccounts-api-openapi.yml
+- filename: palo-alto-networks-useronboarding-memberaccounts-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks IPFIX
-  slug: palo-alto-networks-ipfix
+  label: Palo Alto Networks User Onboarding Member Accounts API
+  slug: palo-alto-networks-useronboarding-memberaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-ipfix-openapi.yaml
-- filename: palo-alto-sdwan-unified-metrics-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-useronboarding-memberaccounts-api-openapi.yml
+- filename: palo-alto-networks-useronboarding-xaccountroles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Metrics
-  slug: palo-alto-networks-metrics
+  label: Palo Alto Networks User Onboarding X Account Roles API
+  slug: palo-alto-networks-useronboarding-xaccountroles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-metrics-openapi.yaml
-- filename: palo-alto-sdwan-unified-monitoring-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-useronboarding-xaccountroles-api-openapi.yml
+- filename: palo-alto-networks-users-api-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Monitoring
-  slug: palo-alto-networks-monitoring
+  label: Palo Alto Networks Users API API
+  slug: palo-alto-networks-users-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-monitoring-openapi.yaml
-- filename: palo-alto-sdwan-unified-multicast-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-users-api-api-openapi.yml
+- filename: palo-alto-networks-users-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Multicast
-  slug: palo-alto-networks-multicast
+  label: Palo Alto Networks Users API
+  slug: palo-alto-networks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-multicast-openapi.yaml
-- filename: palo-alto-sdwan-unified-natpolicy-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-users-api-openapi.yml
+- filename: palo-alto-networks-util-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks NAT Policy
-  slug: palo-alto-networks-nat-policy
+  label: Palo Alto Networks Util API
+  slug: palo-alto-networks-util-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-natpolicy-openapi.yaml
-- filename: palo-alto-sdwan-unified-networkconstructs-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-util-api-openapi.yml
+- filename: palo-alto-networks-variables-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Network Constructs
-  slug: palo-alto-networks-network-constructs
+  label: Palo Alto Networks Variables API
+  slug: palo-alto-networks-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-networkconstructs-openapi.yaml
-- filename: palo-alto-sdwan-unified-ntp-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-variables-api-openapi.yml
+- filename: palo-alto-networks-version-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks NTP
-  slug: palo-alto-networks-ntp
+  label: Palo Alto Networks Version API
+  slug: palo-alto-networks-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-ntp-openapi.yaml
-- filename: palo-alto-sdwan-unified-ospf-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-version-api-openapi.yml
+- filename: palo-alto-networks-violations-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks OSPF
-  slug: palo-alto-networks-ospf
+  label: Palo Alto Networks Violations API
+  slug: palo-alto-networks-violations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-ospf-openapi.yaml
-- filename: palo-alto-sdwan-unified-pathpolicy-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-violations-api-openapi.yml
+- filename: palo-alto-networks-vlan-attachment-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Path Policy
-  slug: palo-alto-networks-path-policy
+  label: Palo Alto Networks Vlan Attachment API
+  slug: palo-alto-networks-vlan-attachment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-pathpolicy-openapi.yaml
-- filename: palo-alto-sdwan-unified-pathpolicyoriginal-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vlan-attachment-api-openapi.yml
+- filename: palo-alto-networks-vlan-attachment-latency-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Path Policy Original
-  slug: palo-alto-networks-path-policy-original
+  label: Palo Alto Networks VLAN Attachment Latency API
+  slug: palo-alto-networks-vlan-attachment-latency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-pathpolicyoriginal-openapi.yaml
-- filename: palo-alto-sdwan-unified-performancemanagement-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vlan-attachment-latency-api-openapi.yml
+- filename: palo-alto-networks-vlan-attachment-statistics-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Performance Management
-  slug: palo-alto-networks-performance-management
+  label: Palo Alto Networks VLAN Attachment Statistics API
+  slug: palo-alto-networks-vlan-attachment-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-performancemanagement-openapi.yaml
-- filename: palo-alto-sdwan-unified-performancepolicy-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vlan-attachment-statistics-api-openapi.yml
+- filename: palo-alto-networks-vlan-attachment-throughput-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Performance Policy
-  slug: palo-alto-networks-performance-policy
+  label: Palo Alto Networks VLAN Attachment Throughput API
+  slug: palo-alto-networks-vlan-attachment-throughput-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-performancepolicy-openapi.yaml
-- filename: palo-alto-sdwan-unified-prismaaccessconfigs-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vlan-attachment-throughput-api-openapi.yml
+- filename: palo-alto-networks-vlan-attachment-traffic-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Prisma Access Configs
-  slug: palo-alto-networks-prisma-access-configs
+  label: Palo Alto Networks VLAN Attachment Traffic API
+  slug: palo-alto-networks-vlan-attachment-traffic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-prismaaccessconfigs-openapi.yaml
-- filename: palo-alto-sdwan-unified-qospolicy-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vlan-attachment-traffic-api-openapi.yml
+- filename: palo-alto-networks-vlan-interfaces-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks QOS Policy
-  slug: palo-alto-networks-qos-policy
+  label: Palo Alto Networks VLAN Interfaces API
+  slug: palo-alto-networks-vlan-interfaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-qospolicy-openapi.yaml
-- filename: palo-alto-sdwan-unified-reports-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vlan-interfaces-api-openapi.yml
+- filename: palo-alto-networks-vms-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Reports
-  slug: palo-alto-networks-reports
+  label: Palo Alto Networks Vms API
+  slug: palo-alto-networks-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-reports-openapi.yaml
-- filename: palo-alto-sdwan-unified-routing-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vms-api-openapi.yml
+- filename: palo-alto-networks-vpn-settings-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Routing
-  slug: palo-alto-networks-routing
+  label: Palo Alto Networks VPN Settings API
+  slug: palo-alto-networks-vpn-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-routing-openapi.yaml
-- filename: palo-alto-sdwan-unified-sasefabric-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vpn-settings-api-openapi.yml
+- filename: palo-alto-networks-vsatellite-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks SASE Fabric
-  slug: palo-alto-networks-sase-fabric
+  label: Palo Alto Networks V Satellite API
+  slug: palo-alto-networks-vsatellite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-sasefabric-openapi.yaml
-- filename: palo-alto-sdwan-unified-sd-wanapplications-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vsatellite-api-openapi.yml
+- filename: palo-alto-networks-vulnerabilities-dashboard-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks SD-WAN Applications
-  slug: palo-alto-networks-sd-wan-applications
+  label: Palo Alto Networks Vulnerabilities Dashboard API
+  slug: palo-alto-networks-vulnerabilities-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-sd-wanapplications-openapi.yaml
-- filename: palo-alto-sdwan-unified-securitypolicy-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vulnerabilities-dashboard-api-openapi.yml
+- filename: palo-alto-networks-vulnerability-protection-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Security Policy
-  slug: palo-alto-networks-security-policy
+  label: Palo Alto Networks Vulnerability Protection Profiles API
+  slug: palo-alto-networks-vulnerability-protection-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-securitypolicy-openapi.yaml
-- filename: palo-alto-sdwan-unified-service-dcgroups-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vulnerability-protection-profiles-api-openapi.yml
+- filename: palo-alto-networks-vulnerability-protection-signatures-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Service & DC Groups
-  slug: palo-alto-networks-service-dc-groups
+  label: Palo Alto Networks Vulnerability Protection Signatures API
+  slug: palo-alto-networks-vulnerability-protection-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-service-dcgroups-openapi.yaml
-- filename: palo-alto-sdwan-unified-services-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vulnerability-protection-signatures-api-openapi.yml
+- filename: palo-alto-networks-vulnerabilityprotectionprofiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Services
-  slug: palo-alto-networks-services
+  label: Palo Alto Networks Vulnerability Protection Profiles API
+  slug: palo-alto-networks-vulnerabilityprotectionprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-services-openapi.yaml
-- filename: palo-alto-sdwan-unified-siteconfiguration-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vulnerabilityprotectionprofiles-api-openapi.yml
+- filename: palo-alto-networks-vulnerabilityprotectionsignatures-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Site Configuration
-  slug: palo-alto-networks-site-configuration
+  label: Palo Alto Networks Vulnerability Protection Signatures API
+  slug: palo-alto-networks-vulnerabilityprotectionsignatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-siteconfiguration-openapi.yaml
-- filename: palo-alto-sdwan-unified-sitesnapshots-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-vulnerabilityprotectionsignatures-api-openapi.yml
+- filename: palo-alto-networks-waas-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Site Snapshots
-  slug: palo-alto-networks-site-snapshots
+  label: Palo Alto Networks Waas API
+  slug: palo-alto-networks-waas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-sitesnapshots-openapi.yaml
-- filename: palo-alto-sdwan-unified-sitetemplates-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-waas-api-openapi.yml
+- filename: palo-alto-networks-widgets-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Site Templates
-  slug: palo-alto-networks-site-templates
+  label: Palo Alto Networks Widgets API
+  slug: palo-alto-networks-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-sitetemplates-openapi.yaml
-- filename: palo-alto-sdwan-unified-snmp-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-widgets-api-openapi.yml
+- filename: palo-alto-networks-wildcard-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks SNMP
-  slug: palo-alto-networks-snmp
+  label: Palo Alto Networks Wildcard API
+  slug: palo-alto-networks-wildcard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-snmp-openapi.yaml
-- filename: palo-alto-sdwan-unified-softwaremanagement-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-wildcard-api-openapi.yml
+- filename: palo-alto-networks-wildfire-anti-virus-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Software Management
-  slug: palo-alto-networks-software-management
+  label: Palo Alto Networks WildFire Anti-Virus Profiles API
+  slug: palo-alto-networks-wildfire-anti-virus-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-softwaremanagement-openapi.yaml
-- filename: palo-alto-sdwan-unified-systemadministration-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-wildfire-anti-virus-profiles-api-openapi.yml
+- filename: palo-alto-networks-wildfireantivirusprofiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks System Administration
-  slug: palo-alto-networks-system-administration
+  label: Palo Alto Networks Wild Fire Antivirus Profiles API
+  slug: palo-alto-networks-wildfireantivirusprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-systemadministration-openapi.yaml
-- filename: palo-alto-sdwan-unified-topology-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-wildfireantivirusprofiles-api-openapi.yml
+- filename: palo-alto-networks-workload-issuance-policies-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Topology
-  slug: palo-alto-networks-topology
+  label: Palo Alto Networks Workload Issuance Policies API
+  slug: palo-alto-networks-workload-issuance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-topology-openapi.yaml
-- filename: palo-alto-sdwan-unified-usergroups-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-workload-issuance-policies-api-openapi.yml
+- filename: palo-alto-networks-zone-protection-profiles-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks User Groups
-  slug: palo-alto-networks-user-groups
+  label: Palo Alto Networks Zone Protection Profiles API
+  slug: palo-alto-networks-zone-protection-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sdwan-unified-usergroups-openapi.yaml
-- filename: palo-alto-threat-vault-advancedthreatprevention-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-zone-protection-profiles-api-openapi.yml
+- filename: palo-alto-networks-zoomparticipantcontroller-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Advanced Threat Prevention
-  slug: palo-alto-networks-advanced-threat-prevention
+  label: Palo Alto Networks Zoom Participant Controller API
+  slug: palo-alto-networks-zoomparticipantcontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-threat-vault-advancedthreatprevention-openapi.yaml
-- filename: palo-alto-threat-vault-threatprevention-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-zoomparticipantcontroller-api-openapi.yml
+- filename: palo-alto-networks-zoomqoscontroller-api-openapi.yml
   format: yaml
-  label: Palo Alto Networks Threat Prevention
-  slug: palo-alto-networks-threat-prevention
+  label: Palo Alto Networks Zoom Qos Controller API
+  slug: palo-alto-networks-zoomqoscontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-threat-vault-threatprevention-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-networks-zoomqoscontroller-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 257

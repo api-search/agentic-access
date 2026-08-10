@@ -3,18 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: artlist-search-openapi-original.yml
+- filename: artlist-album-api-openapi.yml
   format: yaml
-  label: Artlist Enterprise Search API
-  slug: search
+  label: Artlist Album API
+  slug: artlist-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-search-openapi-original.yml
-- filename: artlist-download-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-album-api-openapi.yml
+- filename: artlist-artist-api-openapi.yml
   format: yaml
-  label: Artlist Enterprise Download API
-  slug: download
+  label: Artlist Artist API
+  slug: artlist-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-download-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-artist-api-openapi.yml
+- filename: artlist-downloadable-api-openapi.yml
+  format: yaml
+  label: Artlist Downloadable API
+  slug: artlist-downloadable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-downloadable-api-openapi.yml
+- filename: artlist-song-api-openapi.yml
+  format: yaml
+  label: Artlist Song API
+  slug: artlist-song-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-song-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

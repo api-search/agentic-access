@@ -4,12 +4,42 @@ action_class_counts:
   acting: 28
   connected: 30
 api_specs:
-- filename: onpay-api-openapi.json
-  format: json
-  label: OnPay API
-  slug: onpay-api
+- filename: onpay-company-api-openapi.yml
+  format: yaml
+  label: OnPay Company API
+  slug: onpay-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-company-api-openapi.yml
+- filename: onpay-deductions-api-openapi.yml
+  format: yaml
+  label: OnPay Deductions API
+  slug: onpay-deductions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-deductions-api-openapi.yml
+- filename: onpay-employees-api-openapi.yml
+  format: yaml
+  label: OnPay Employees API
+  slug: onpay-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-employees-api-openapi.yml
+- filename: onpay-pay-runs-api-openapi.yml
+  format: yaml
+  label: OnPay Pay Runs API
+  slug: onpay-pay-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-pay-runs-api-openapi.yml
+- filename: onpay-reports-api-openapi.yml
+  format: yaml
+  label: OnPay Reports API
+  slug: onpay-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-reports-api-openapi.yml
+- filename: onpay-user-api-openapi.yml
+  format: yaml
+  label: OnPay User API
+  slug: onpay-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-user-api-openapi.yml
 consequence_counts:
   read: 30
   write: 28

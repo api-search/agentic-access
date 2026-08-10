@@ -4,12 +4,72 @@ action_class_counts:
   acting: 50
   connected: 35
 api_specs:
-- filename: orionis-biosciences-content-openapi.yml
+- filename: orionis-biosciences-abilities-api-openapi.yml
   format: yaml
-  label: Orionis Biosciences Website Content API (WordPress REST wp/v2)
-  slug: content
+  label: Orionis Biosciences Abilities API
+  slug: orionis-biosciences-abilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-content-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-abilities-api-openapi.yml
+- filename: orionis-biosciences-comments-api-openapi.yml
+  format: yaml
+  label: Orionis Biosciences Comments API
+  slug: orionis-biosciences-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-comments-api-openapi.yml
+- filename: orionis-biosciences-discovery-api-openapi.yml
+  format: yaml
+  label: Orionis Biosciences Discovery API
+  slug: orionis-biosciences-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-discovery-api-openapi.yml
+- filename: orionis-biosciences-media-api-openapi.yml
+  format: yaml
+  label: Orionis Biosciences Media API
+  slug: orionis-biosciences-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-media-api-openapi.yml
+- filename: orionis-biosciences-news-api-openapi.yml
+  format: yaml
+  label: Orionis Biosciences News API
+  slug: orionis-biosciences-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-news-api-openapi.yml
+- filename: orionis-biosciences-oembed-api-openapi.yml
+  format: yaml
+  label: Orionis Biosciences O Embed API
+  slug: orionis-biosciences-oembed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-oembed-api-openapi.yml
+- filename: orionis-biosciences-pages-api-openapi.yml
+  format: yaml
+  label: Orionis Biosciences Pages API
+  slug: orionis-biosciences-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-pages-api-openapi.yml
+- filename: orionis-biosciences-search-api-openapi.yml
+  format: yaml
+  label: Orionis Biosciences Search API
+  slug: orionis-biosciences-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-search-api-openapi.yml
+- filename: orionis-biosciences-taxonomy-api-openapi.yml
+  format: yaml
+  label: Orionis Biosciences Taxonomy API
+  slug: orionis-biosciences-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-taxonomy-api-openapi.yml
+- filename: orionis-biosciences-team-api-openapi.yml
+  format: yaml
+  label: Orionis Biosciences Team API
+  slug: orionis-biosciences-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-team-api-openapi.yml
+- filename: orionis-biosciences-users-api-openapi.yml
+  format: yaml
+  label: Orionis Biosciences Users API
+  slug: orionis-biosciences-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/openapi/orionis-biosciences-users-api-openapi.yml
 consequence_counts:
   read: 35
   write: 50

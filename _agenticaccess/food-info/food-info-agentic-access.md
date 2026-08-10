@@ -4,12 +4,18 @@ action_class_counts:
   acting: 2
   connected: 6
 api_specs:
-- filename: food-info-openapi.json
-  format: json
-  label: Food Info API
-  slug: food-info-api
+- filename: food-info-apiv1-api-openapi.yml
+  format: yaml
+  label: Food Info API V1 API
+  slug: food-info-apiv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/openapi/food-info-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/openapi/food-info-apiv1-api-openapi.yml
+- filename: food-info-recipesapi-api-openapi.yml
+  format: yaml
+  label: Food Info Recipes API API
+  slug: food-info-recipesapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/food-info/refs/heads/main/openapi/food-info-recipesapi-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2

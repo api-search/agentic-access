@@ -3,12 +3,12 @@ acting_count: 4
 action_class_counts:
   acting: 4
 api_specs:
-- filename: clearspeed-integration-api-openapi.yml
+- filename: clearspeed-default-api-openapi.yml
   format: yaml
-  label: Clearspeed Integration API
-  slug: integration-api
+  label: Clearspeed Default API
+  slug: clearspeed-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-integration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/clearspeed/refs/heads/main/openapi/clearspeed-default-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

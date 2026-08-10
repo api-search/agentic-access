@@ -4,12 +4,6 @@ action_class_counts:
   acting: 9
   connected: 7
 api_specs:
-- filename: inworld-router-api-openapi.yml
-  format: yaml
-  label: Inworld LLM Router API
-  slug: inworld-router-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-router-api-openapi.yml
 - filename: inworld-ai-models-api-openapi.yml
   format: yaml
   label: Inworld AI Models API
@@ -40,6 +34,18 @@ api_specs:
   slug: inworld-ai-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-ai-voices-api-openapi.yml
+- filename: inworld-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Inworld AI Chat Completions API
+  slug: inworld-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-ai-chat-completions-api-openapi.yml
+- filename: inworld-ai-routers-api-openapi.yml
+  format: yaml
+  label: Inworld AI Routers API
+  slug: inworld-ai-routers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/openapi/inworld-ai-routers-api-openapi.yml
 consequence_counts:
   read: 7
   write: 9

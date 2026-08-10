@@ -4,78 +4,72 @@ action_class_counts:
   acting: 1
   connected: 63
 api_specs:
-- filename: apis-io-v1-providers-openapi.yml
-  format: yaml
-  label: APIs.io Providers API
-  slug: providers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-providers-openapi.yml
-- filename: apis-io-v1-apis-openapi.yml
+- filename: apis-io-apis-api-openapi.yml
   format: yaml
   label: APIs.io APIs API
-  slug: apis
+  slug: apis-io-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-apis-openapi.yml
-- filename: apis-io-v1-tags-openapi.yml
-  format: yaml
-  label: APIs.io Tags API
-  slug: tags
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-tags-openapi.yml
-- filename: apis-io-v1-industries-openapi.yml
-  format: yaml
-  label: APIs.io Industries API
-  slug: industries
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-industries-openapi.yml
-- filename: apis-io-v1-regions-openapi.yml
-  format: yaml
-  label: APIs.io Regions API
-  slug: regions
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-regions-openapi.yml
-- filename: apis-io-v1-areas-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-apis-api-openapi.yml
+- filename: apis-io-areas-api-openapi.yml
   format: yaml
   label: APIs.io Areas API
-  slug: areas
+  slug: apis-io-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-areas-openapi.yml
-- filename: apis-io-v1-synthesis-openapi.yml
-  format: yaml
-  label: APIs.io Synthesis API
-  slug: synthesis
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-synthesis-openapi.yml
-- filename: apis-io-v1-ratings-openapi.yml
-  format: yaml
-  label: APIs.io Ratings API
-  slug: ratings
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-ratings-openapi.yml
-- filename: apis-io-v1-artifact-types-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-areas-api-openapi.yml
+- filename: apis-io-artifact-types-api-openapi.yml
   format: yaml
   label: APIs.io Artifact Types API
-  slug: artifact-types
+  slug: apis-io-artifact-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-artifact-types-openapi.yml
-- filename: apis-io-v1-search-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-artifact-types-api-openapi.yml
+- filename: apis-io-industries-api-openapi.yml
   format: yaml
-  label: APIs.io Search API
-  slug: search
+  label: APIs.io Industries API
+  slug: apis-io-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-search-openapi.yml
-- filename: apis-io-v1-insights-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-industries-api-openapi.yml
+- filename: apis-io-insights-api-openapi.yml
   format: yaml
   label: APIs.io Insights API
-  slug: insights
+  slug: apis-io-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-insights-openapi.yml
-- filename: apis-io-v1-submit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-insights-api-openapi.yml
+- filename: apis-io-providers-api-openapi.yml
   format: yaml
-  label: APIs.io Submit API
-  slug: submit
+  label: APIs.io Providers API
+  slug: apis-io-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-v1-submit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-providers-api-openapi.yml
+- filename: apis-io-ratings-api-openapi.yml
+  format: yaml
+  label: APIs.io Ratings API
+  slug: apis-io-ratings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-ratings-api-openapi.yml
+- filename: apis-io-regions-api-openapi.yml
+  format: yaml
+  label: APIs.io Regions API
+  slug: apis-io-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-regions-api-openapi.yml
+- filename: apis-io-search-api-openapi.yml
+  format: yaml
+  label: APIs.io Search API
+  slug: apis-io-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-search-api-openapi.yml
+- filename: apis-io-synthesis-api-openapi.yml
+  format: yaml
+  label: APIs.io Synthesis API
+  slug: apis-io-synthesis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-synthesis-api-openapi.yml
+- filename: apis-io-tags-api-openapi.yml
+  format: yaml
+  label: APIs.io Tags API
+  slug: apis-io-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-tags-api-openapi.yml
 consequence_counts:
   read: 63
   write: 1
@@ -127,4 +121,10 @@ tags:
 - API Search
 - APIs.json
 - Search Engine
+- API Catalog
+- Agent Discovery
+- MCP
+- Agent Skills
+- OpenAPI
+- API Governance
 ---

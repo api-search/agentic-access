@@ -4,12 +4,36 @@ action_class_counts:
   acting: 7
   connected: 1
 api_specs:
-- filename: uveye-public-api-v1-openapi.yml
+- filename: uveye-appraisal-api-openapi.yml
   format: yaml
-  label: UVeye Public API v1
-  slug: public-api-v1
+  label: UVeye Appraisal API
+  slug: uveye-appraisal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-public-api-v1-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-appraisal-api-openapi.yml
+- filename: uveye-inspections-api-openapi.yml
+  format: yaml
+  label: UVeye Inspections API
+  slug: uveye-inspections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-inspections-api-openapi.yml
+- filename: uveye-media-api-openapi.yml
+  format: yaml
+  label: UVeye Media API
+  slug: uveye-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-media-api-openapi.yml
+- filename: uveye-merchandise-api-openapi.yml
+  format: yaml
+  label: UVeye Merchandise API
+  slug: uveye-merchandise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-merchandise-api-openapi.yml
+- filename: uveye-public-links-api-openapi.yml
+  format: yaml
+  label: UVeye Public Links API
+  slug: uveye-public-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-public-links-api-openapi.yml
 consequence_counts:
   read: 1
   write: 7

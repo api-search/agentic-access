@@ -4,12 +4,30 @@ action_class_counts:
   acting: 8
   connected: 7
 api_specs:
-- filename: niural-public-api-openapi.yml
+- filename: niural-authentication-api-openapi.yml
   format: yaml
-  label: Niural Public API
-  slug: niural-public-api
+  label: Niural Authentication API
+  slug: niural-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/openapi/niural-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/openapi/niural-authentication-api-openapi.yml
+- filename: niural-contracts-api-openapi.yml
+  format: yaml
+  label: Niural Contracts API
+  slug: niural-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/openapi/niural-contracts-api-openapi.yml
+- filename: niural-invoices-api-openapi.yml
+  format: yaml
+  label: Niural Invoices API
+  slug: niural-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/openapi/niural-invoices-api-openapi.yml
+- filename: niural-transactions-api-openapi.yml
+  format: yaml
+  label: Niural Transactions API
+  slug: niural-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/openapi/niural-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7

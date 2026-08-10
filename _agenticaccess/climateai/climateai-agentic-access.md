@@ -4,18 +4,96 @@ action_class_counts:
   acting: 49
   connected: 40
 api_specs:
-- filename: climateai-weather-openapi.yml
-  format: yaml
-  label: ClimateAi Weather API (LensConnect)
-  slug: weather
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-weather-openapi.yml
 - filename: climateai-platform-swagger.json
   format: json
   label: ClimateAI Platform API
   slug: platform
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-platform-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/_original/climateai-platform-swagger.json
+- filename: climateai-account-api-openapi.yml
+  format: yaml
+  label: ClimateAI Account API
+  slug: climateai-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-account-api-openapi.yml
+- filename: climateai-account-config-api-openapi.yml
+  format: yaml
+  label: ClimateAI Account Config API
+  slug: climateai-account-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-account-config-api-openapi.yml
+- filename: climateai-auth-api-openapi.yml
+  format: yaml
+  label: ClimateAI Auth API
+  slug: climateai-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-auth-api-openapi.yml
+- filename: climateai-current-v2-api-openapi.yml
+  format: yaml
+  label: ClimateAI Current (v2) API
+  slug: climateai-current-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-current-v2-api-openapi.yml
+- filename: climateai-device-api-openapi.yml
+  format: yaml
+  label: ClimateAI Device API
+  slug: climateai-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-device-api-openapi.yml
+- filename: climateai-email-api-openapi.yml
+  format: yaml
+  label: ClimateAI Email API
+  slug: climateai-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-email-api-openapi.yml
+- filename: climateai-legacy-v1-api-openapi.yml
+  format: yaml
+  label: ClimateAI Legacy (v1) API
+  slug: climateai-legacy-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-legacy-v1-api-openapi.yml
+- filename: climateai-permission-api-openapi.yml
+  format: yaml
+  label: ClimateAI Permission API
+  slug: climateai-permission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-permission-api-openapi.yml
+- filename: climateai-platform-api-openapi.yml
+  format: yaml
+  label: ClimateAI Platform API
+  slug: climateai-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-platform-api-openapi.yml
+- filename: climateai-product-api-openapi.yml
+  format: yaml
+  label: ClimateAI Product API
+  slug: climateai-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-product-api-openapi.yml
+- filename: climateai-report-api-openapi.yml
+  format: yaml
+  label: ClimateAI Report API
+  slug: climateai-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-report-api-openapi.yml
+- filename: climateai-role-api-openapi.yml
+  format: yaml
+  label: ClimateAI Role API
+  slug: climateai-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-role-api-openapi.yml
+- filename: climateai-routing-api-openapi.yml
+  format: yaml
+  label: ClimateAI Routing API
+  slug: climateai-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-routing-api-openapi.yml
+- filename: climateai-user-api-openapi.yml
+  format: yaml
+  label: ClimateAI User API
+  slug: climateai-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/openapi/climateai-user-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 40

@@ -33,12 +33,6 @@ api_specs:
   slug: daring-foods-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/openapi/daring-foods-media-api-openapi.yml
-- filename: daring-foods-taxonomy-api-openapi.yml
-  format: yaml
-  label: Daring Foods Taxonomy API
-  slug: daring-foods-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/openapi/daring-foods-taxonomy-api-openapi.yml
 - filename: daring-foods-search-api-openapi.yml
   format: yaml
   label: Daring Foods Search API
@@ -69,6 +63,30 @@ api_specs:
   slug: daring-foods-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/openapi/daring-foods-seo-api-openapi.yml
+- filename: daring-foods-categories-api-openapi.yml
+  format: yaml
+  label: Daring Foods Categories API
+  slug: daring-foods-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/openapi/daring-foods-categories-api-openapi.yml
+- filename: daring-foods-comments-api-openapi.yml
+  format: yaml
+  label: Daring Foods Comments API
+  slug: daring-foods-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/openapi/daring-foods-comments-api-openapi.yml
+- filename: daring-foods-metadata-api-openapi.yml
+  format: yaml
+  label: Daring Foods Metadata API
+  slug: daring-foods-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/openapi/daring-foods-metadata-api-openapi.yml
+- filename: daring-foods-tags-api-openapi.yml
+  format: yaml
+  label: Daring Foods Tags API
+  slug: daring-foods-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/openapi/daring-foods-tags-api-openapi.yml
 consequence_counts:
   read: 31
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

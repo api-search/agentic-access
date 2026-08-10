@@ -4,18 +4,54 @@ action_class_counts:
   acting: 4
   connected: 11
 api_specs:
-- filename: dailyhunt-content-syndication-openapi.yml
+- filename: dailyhunt-catalog-api-openapi.yml
   format: yaml
-  label: Dailyhunt Content Syndication API
-  slug: content-syndication
+  label: Dailyhunt Catalog API
+  slug: dailyhunt-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-content-syndication-openapi.yml
-- filename: dailyhunt-shopping-catalog-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-catalog-api-openapi.yml
+- filename: dailyhunt-channels-api-openapi.yml
   format: yaml
-  label: Dailyhunt E-Commerce Shopping Catalog API
-  slug: shopping-catalog
+  label: Dailyhunt Channels API
+  slug: dailyhunt-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-shopping-catalog-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-channels-api-openapi.yml
+- filename: dailyhunt-content-fetch-api-openapi.yml
+  format: yaml
+  label: Dailyhunt Content Fetch API
+  slug: dailyhunt-content-fetch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-content-fetch-api-openapi.yml
+- filename: dailyhunt-cricket-api-openapi.yml
+  format: yaml
+  label: Dailyhunt Cricket API
+  slug: dailyhunt-cricket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-cricket-api-openapi.yml
+- filename: dailyhunt-feedback-api-openapi.yml
+  format: yaml
+  label: Dailyhunt Feedback API
+  slug: dailyhunt-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-feedback-api-openapi.yml
+- filename: dailyhunt-languages-api-openapi.yml
+  format: yaml
+  label: Dailyhunt Languages API
+  slug: dailyhunt-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-languages-api-openapi.yml
+- filename: dailyhunt-products-api-openapi.yml
+  format: yaml
+  label: Dailyhunt Products API
+  slug: dailyhunt-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-products-api-openapi.yml
+- filename: dailyhunt-tracking-api-openapi.yml
+  format: yaml
+  label: Dailyhunt Tracking API
+  slug: dailyhunt-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-tracking-api-openapi.yml
 consequence_counts:
   read: 11
   write: 4

@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 16
 api_specs:
-- filename: element-biosciences-cloud-api-openapi-original.yml
+- filename: element-biosciences-authservice-api-openapi.yml
   format: yaml
-  label: Element Biosciences Cloud API
-  slug: cloud-api
+  label: Element Biosciences Auth Service API
+  slug: element-biosciences-authservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-cloud-api-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-authservice-api-openapi.yml
+- filename: element-biosciences-executionservice-api-openapi.yml
+  format: yaml
+  label: Element Biosciences Execution Service API
+  slug: element-biosciences-executionservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-executionservice-api-openapi.yml
+- filename: element-biosciences-instrumentservice-api-openapi.yml
+  format: yaml
+  label: Element Biosciences Instrument Service API
+  slug: element-biosciences-instrumentservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-instrumentservice-api-openapi.yml
+- filename: element-biosciences-runservice-api-openapi.yml
+  format: yaml
+  label: Element Biosciences Run Service API
+  slug: element-biosciences-runservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-runservice-api-openapi.yml
+- filename: element-biosciences-storageconnectionservice-api-openapi.yml
+  format: yaml
+  label: Element Biosciences Storage Connection Service API
+  slug: element-biosciences-storageconnectionservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-storageconnectionservice-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

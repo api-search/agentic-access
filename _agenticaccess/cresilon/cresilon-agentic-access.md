@@ -51,6 +51,18 @@ api_specs:
   slug: cresilon-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/openapi/cresilon-seo-api-openapi.yml
+- filename: cresilon-authors-api-openapi.yml
+  format: yaml
+  label: Cresilon Authors API
+  slug: cresilon-authors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/openapi/cresilon-authors-api-openapi.yml
+- filename: cresilon-comments-api-openapi.yml
+  format: yaml
+  label: Cresilon Comments API
+  slug: cresilon-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/openapi/cresilon-comments-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

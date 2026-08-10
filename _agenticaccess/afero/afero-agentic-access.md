@@ -4,12 +4,6 @@ action_class_counts:
   acting: 12
   connected: 13
 api_specs:
-- filename: afero-cloud-api-openapi.yml
-  format: yaml
-  label: Afero Cloud API
-  slug: cloud-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/_original/afero-cloud-api-openapi.yml
 - filename: afero-authentication-api-openapi.yml
   format: yaml
   label: Afero Cloud Authentication API

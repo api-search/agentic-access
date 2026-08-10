@@ -4,12 +4,30 @@ action_class_counts:
   acting: 10
   connected: 1
 api_specs:
-- filename: hotel-engine-omni-partner-api-openapi.yml
+- filename: hotel-engine-catalogservice-api-openapi.yml
   format: yaml
-  label: Omni Partner API
-  slug: omni-partner-api
+  label: Engine Catalog Service API
+  slug: hotel-engine-catalogservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-omni-partner-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-catalogservice-api-openapi.yml
+- filename: hotel-engine-contentservice-api-openapi.yml
+  format: yaml
+  label: Engine Content Service API
+  slug: hotel-engine-contentservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-contentservice-api-openapi.yml
+- filename: hotel-engine-lodgingbookingservice-api-openapi.yml
+  format: yaml
+  label: Engine Lodging Booking Service API
+  slug: hotel-engine-lodgingbookingservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-lodgingbookingservice-api-openapi.yml
+- filename: hotel-engine-lodgingshoppingservice-api-openapi.yml
+  format: yaml
+  label: Engine Lodging Shopping Service API
+  slug: hotel-engine-lodgingshoppingservice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/openapi/hotel-engine-lodgingshoppingservice-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 1

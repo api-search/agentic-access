@@ -4,12 +4,36 @@ action_class_counts:
   acting: 64
   connected: 61
 api_specs:
-- filename: securitize-domains-openapi-original.json
-  format: json
+- filename: securitize-apac-api-openapi.yml
+  format: yaml
+  label: Securitize APAC API
+  slug: securitize-apac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/openapi/securitize-apac-api-openapi.yml
+- filename: securitize-domains-api-openapi.yml
+  format: yaml
   label: Securitize Domains API
   slug: securitize-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/openapi/securitize-domains-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/openapi/securitize-domains-api-openapi.yml
+- filename: securitize-health-check-api-openapi.yml
+  format: yaml
+  label: Securitize Health Check API
+  slug: securitize-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/openapi/securitize-health-check-api-openapi.yml
+- filename: securitize-travel-rule-api-openapi.yml
+  format: yaml
+  label: Securitize Travel Rule API
+  slug: securitize-travel-rule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/openapi/securitize-travel-rule-api-openapi.yml
+- filename: securitize-webhooks-api-openapi.yml
+  format: yaml
+  label: Securitize Webhooks API
+  slug: securitize-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/openapi/securitize-webhooks-api-openapi.yml
 consequence_counts:
   read: 61
   safety-critical: 64

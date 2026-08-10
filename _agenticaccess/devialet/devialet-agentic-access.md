@@ -4,12 +4,42 @@ action_class_counts:
   acting: 18
   connected: 7
 api_specs:
-- filename: devialet-ip-control-openapi.yml
+- filename: devialet-audio-settings-api-openapi.yml
   format: yaml
-  label: Devialet IP Control API
-  slug: devialet-ip-control-api
+  label: Devialet Audio Settings API
+  slug: devialet-audio-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-ip-control-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-audio-settings-api-openapi.yml
+- filename: devialet-devices-api-openapi.yml
+  format: yaml
+  label: Devialet Devices API
+  slug: devialet-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-devices-api-openapi.yml
+- filename: devialet-groups-api-openapi.yml
+  format: yaml
+  label: Devialet Groups API
+  slug: devialet-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-groups-api-openapi.yml
+- filename: devialet-playback-api-openapi.yml
+  format: yaml
+  label: Devialet Playback API
+  slug: devialet-playback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-playback-api-openapi.yml
+- filename: devialet-sound-control-api-openapi.yml
+  format: yaml
+  label: Devialet Sound Control API
+  slug: devialet-sound-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-sound-control-api-openapi.yml
+- filename: devialet-systems-api-openapi.yml
+  format: yaml
+  label: Devialet Systems API
+  slug: devialet-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/openapi/devialet-systems-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 6

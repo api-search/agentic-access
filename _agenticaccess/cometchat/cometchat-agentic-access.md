@@ -4,12 +4,6 @@ action_class_counts:
   acting: 33
   connected: 19
 api_specs:
-- filename: cometchat-asyncapi.yml
-  format: yaml
-  label: CometChat Realtime & Client SDK
-  slug: cometchat-realtime-sdk
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/asyncapi/cometchat-asyncapi.yml
 - filename: cometchat-auth-tokens-api-openapi.yml
   format: yaml
   label: CometChat Auth Tokens API

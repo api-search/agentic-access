@@ -4,18 +4,18 @@ action_class_counts:
   acting: 1
   connected: 3
 api_specs:
-- filename: eruditus-executive-education-leads-openapi.yml
+- filename: eruditus-executive-education-leads-api-openapi.yml
   format: yaml
-  label: Emeritus Leads API
-  slug: leads
+  label: Eruditus Leads API
+  slug: eruditus-executive-education-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/openapi/eruditus-executive-education-leads-openapi.yml
-- filename: eruditus-executive-education-programs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/openapi/eruditus-executive-education-leads-api-openapi.yml
+- filename: eruditus-executive-education-programs-api-openapi.yml
   format: yaml
-  label: Emeritus Programs API
-  slug: programs
+  label: Eruditus Programs API
+  slug: eruditus-executive-education-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/openapi/eruditus-executive-education-programs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eruditus-executive-education/refs/heads/main/openapi/eruditus-executive-education-programs-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1
