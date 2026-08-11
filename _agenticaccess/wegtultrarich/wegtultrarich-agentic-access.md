@@ -6,27 +6,27 @@ api_specs:
 - filename: 6a68bfdcf1d9df57e26c3545
   format: yaml
   label: We > Ultrarich MCP Server
-  slug: we-ultrarich-mcp-server
+  slug: wegtultrarich-mcp-server
   spec_type: Postman
-  url: https://www.postman.com/wegtultrarich/we-ultrarich-extreme-wealth-api-mcp/collection/6a68bfdcf1d9df57e26c3545
-- filename: we-ultrarich-comparison-api-openapi.yml
+  url: https://www.postman.com/wegtultrarich/wegtultrarich-extreme-wealth-api-mcp/collection/6a68bfdcf1d9df57e26c3545
+- filename: wegtultrarich-comparison-api-openapi.yml
   format: yaml
   label: We > Ultrarich Comparison API
-  slug: we-ultrarich-comparison-api
+  slug: wegtultrarich-comparison-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/we-ultrarich/refs/heads/main/openapi/we-ultrarich-comparison-api-openapi.yml
-- filename: we-ultrarich-discovery-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/openapi/wegtultrarich-comparison-api-openapi.yml
+- filename: wegtultrarich-discovery-api-openapi.yml
   format: yaml
   label: We > Ultrarich Discovery API
-  slug: we-ultrarich-discovery-api
+  slug: wegtultrarich-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/we-ultrarich/refs/heads/main/openapi/we-ultrarich-discovery-api-openapi.yml
-- filename: we-ultrarich-wealth-expression-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/openapi/wegtultrarich-discovery-api-openapi.yml
+- filename: wegtultrarich-wealth-expression-api-openapi.yml
   format: yaml
   label: We > Ultrarich Wealth Expression API
-  slug: we-ultrarich-wealth-expression-api
+  slug: wegtultrarich-wealth-expression-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/we-ultrarich/refs/heads/main/openapi/we-ultrarich-wealth-expression-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/openapi/wegtultrarich-wealth-expression-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -34,7 +34,7 @@ human_in_the_loop: 0
 kind: agentic-access
 layout: agentic-access
 method: generated
-name: We Ultrarich Agentic Access
+name: Wegtultrarich Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 6
@@ -46,14 +46,14 @@ overview: 'We > Ultrarich exposes 6 API operations that an AI agent could call, 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
 provider_name: We > Ultrarich
-provider_slug: we-ultrarich
-slug: we-ultrarich-agentic-access
-source_filename: we-ultrarich-agentic-access.yml
+provider_slug: wegtultrarich
+slug: wegtultrarich-agentic-access
+source_filename: wegtultrarich-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/we-ultrarich-openapi-original.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /expressions\n  method: get\n  operationId: expressions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /durationOfDailySpend\n  method: get\n  operationId: durationOfDailySpend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /heightOfMoneyStack\n  method: get\n  operationId:\
+source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/wegtultrarich-openapi-original.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /expressions\n  method: get\n  operationId: expressions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /durationOfDailySpend\n  method: get\n  operationId: durationOfDailySpend\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /heightOfMoneyStack\n  method: get\n  operationId:\
   \ heightOfMoneyStack\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /numberOfItems\n  method: get\n  operationId: numberOfItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /growthOfCompoundInterest\n  method: get\n  operationId: growthOfCompoundInterest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /comparison\n  method: get\n  operationId: comparison\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/we-ultrarich/refs/heads/main/agentic-access/we-ultrarich-agentic-access.yml
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/agentic-access/wegtultrarich-agentic-access.yml
 summary_line: 6 operations
 tags:
 - wealth inequality
