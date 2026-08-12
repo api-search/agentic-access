@@ -4,12 +4,6 @@ action_class_counts:
   acting: 143
   connected: 143
 api_specs:
-- filename: clio-webhooks-asyncapi.yml
-  format: yaml
-  label: Clio Webhooks
-  slug: webhooks
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/asyncapi/clio-webhooks-asyncapi.yml
 - filename: clio-activities-api-openapi.yml
   format: yaml
   label: Clio Activities API
