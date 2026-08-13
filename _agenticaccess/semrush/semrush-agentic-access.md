@@ -61,4 +61,13 @@ summary_line: 6 operations · 3 acting
 tags:
 - Data
 - Search Engines
+- SEO
+- Marketing
+- Marketing Intelligence
+- Content Marketing
+- Advertising
+- Competitive Intelligence
+- Keyword Research
+- Backlinks
+- Rank Tracking
 ---

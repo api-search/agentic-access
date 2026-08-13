@@ -6,49 +6,61 @@ action_class_counts:
 api_specs:
 - filename: fatsecret-exercise-diary-api-openapi.yml
   format: yaml
-  label: FatSecret Exercise Diary API
+  label: fatsecret Exercise Diary API
   slug: fatsecret-exercise-diary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-exercise-diary-api-openapi.yml
 - filename: fatsecret-food-diary-api-openapi.yml
   format: yaml
-  label: FatSecret Food Diary API
+  label: fatsecret Food Diary API
   slug: fatsecret-food-diary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-food-diary-api-openapi.yml
 - filename: fatsecret-foods-api-openapi.yml
   format: yaml
-  label: FatSecret Foods API
+  label: fatsecret Foods API
   slug: fatsecret-foods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-foods-api-openapi.yml
+- filename: fatsecret-image-recognition-api-openapi.yml
+  format: yaml
+  label: fatsecret Image Recognition API
+  slug: fatsecret-image-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-image-recognition-api-openapi.yml
+- filename: fatsecret-natural-language-processing-api-openapi.yml
+  format: yaml
+  label: fatsecret Natural Language Processing API
+  slug: fatsecret-natural-language-processing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-natural-language-processing-api-openapi.yml
 - filename: fatsecret-profile-foods-api-openapi.yml
   format: yaml
-  label: FatSecret Profile Foods API
+  label: fatsecret Profile Foods API
   slug: fatsecret-profile-foods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-profile-foods-api-openapi.yml
 - filename: fatsecret-profile-meals-api-openapi.yml
   format: yaml
-  label: FatSecret Profile Meals API
+  label: fatsecret Profile Meals API
   slug: fatsecret-profile-meals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-profile-meals-api-openapi.yml
 - filename: fatsecret-recipes-api-openapi.yml
   format: yaml
-  label: FatSecret Recipes API
+  label: fatsecret Recipes API
   slug: fatsecret-recipes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-recipes-api-openapi.yml
 - filename: fatsecret-reference-api-openapi.yml
   format: yaml
-  label: FatSecret Reference API
+  label: fatsecret Reference API
   slug: fatsecret-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-reference-api-openapi.yml
 - filename: fatsecret-weight-tracking-api-openapi.yml
   format: yaml
-  label: FatSecret Weight Tracking API
+  label: fatsecret Weight Tracking API
   slug: fatsecret-weight-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-weight-tracking-api-openapi.yml
@@ -64,14 +76,14 @@ name: Fatsecret Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 23
-overview: 'FatSecret exposes 23 API operations that an AI agent could call, of which 6 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'fatsecret exposes 23 API operations that an AI agent could call, of which 6 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 17 read and 6 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: FatSecret
+provider_name: fatsecret
 provider_slug: fatsecret
 slug: fatsecret-agentic-access
 source_filename: fatsecret-agentic-access.yml
@@ -87,9 +99,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fatsec
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/agentic-access/fatsecret-agentic-access.yml
 summary_line: 23 operations · 6 acting
 tags:
+- Artificial Intelligence
 - Barcode Scanning
 - Calories
 - Diets
+- Image Recognition
+- Natural Language Processing
 - Exercise
 - Fitness
 - Food Diary

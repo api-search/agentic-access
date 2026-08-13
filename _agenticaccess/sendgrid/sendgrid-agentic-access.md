@@ -581,4 +581,7 @@ tags:
 - SMTP
 - T1
 - Transactional Email
+- Email Marketing
+- Deliverability
+- Marketing
 ---

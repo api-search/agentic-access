@@ -220,14 +220,14 @@ notable_actions:
   method: POST
   path: /whatsappCampaigns/template/approval/{templateId}
 operation_count: 75
-overview: 'brevo exposes 75 API operations that an AI agent could call, of which 47 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Brevo exposes 75 API operations that an AI agent could call, of which 47 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 28 read, 34 write, and 13 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: brevo
+provider_name: Brevo
 provider_slug: brevo
 slug: brevo-agentic-access
 source_filename: brevo-agentic-access.yml
@@ -260,5 +260,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/brevo-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /whatsappCampaigns/template-list\n  method: get\n  operationId: listWhatsAppTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /whatsappCampaigns/template/approval/{templateId}\n  method: post\n  operationId: sendWhatsAppTemplateForApproval\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/agentic-access/brevo-agentic-access.yml
 summary_line: 75 operations · 47 acting
-tags: []
+tags:
+- Marketing
+- Marketing Automation
+- Email Marketing
+- Transactional Email
+- SMS Marketing
+- Campaigns
+- CRM
+- Email
+- SMS
+- Automation
 ---
