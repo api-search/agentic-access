@@ -10,6 +10,18 @@ api_specs:
   slug: loops-api-key-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-api-key-api-openapi.yml
+- filename: loops-audience-segments-api-openapi.yml
+  format: yaml
+  label: Loops Audience segments API
+  slug: loops-audience-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-audience-segments-api-openapi.yml
+- filename: loops-campaign-groups-api-openapi.yml
+  format: yaml
+  label: Loops Campaign groups API
+  slug: loops-campaign-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-campaign-groups-api-openapi.yml
 - filename: loops-campaigns-api-openapi.yml
   format: yaml
   label: Loops Campaigns API
@@ -22,6 +34,12 @@ api_specs:
   slug: loops-components-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-components-api-openapi.yml
+- filename: loops-configuration-api-openapi.yml
+  format: yaml
+  label: Loops Configuration API
+  slug: loops-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-configuration-api-openapi.yml
 - filename: loops-contact-properties-api-openapi.yml
   format: yaml
   label: Loops Contact properties API
@@ -34,18 +52,18 @@ api_specs:
   slug: loops-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-contacts-api-openapi.yml
-- filename: loops-dedicated-sending-ips-api-openapi.yml
-  format: yaml
-  label: Loops Dedicated sending IPs API
-  slug: loops-dedicated-sending-ips-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-dedicated-sending-ips-api-openapi.yml
 - filename: loops-email-messages-api-openapi.yml
   format: yaml
   label: Loops Email messages API
   slug: loops-email-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-email-messages-api-openapi.yml
+- filename: loops-event-patterns-api-openapi.yml
+  format: yaml
+  label: Loops Event patterns API
+  slug: loops-event-patterns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-event-patterns-api-openapi.yml
 - filename: loops-events-api-openapi.yml
   format: yaml
   label: Loops Events API
@@ -70,6 +88,36 @@ api_specs:
   slug: loops-transactional-emails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-transactional-emails-api-openapi.yml
+- filename: loops-transactional-groups-api-openapi.yml
+  format: yaml
+  label: Loops Transactional groups API
+  slug: loops-transactional-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-transactional-groups-api-openapi.yml
+- filename: loops-uploads-api-openapi.yml
+  format: yaml
+  label: Loops Uploads API
+  slug: loops-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-uploads-api-openapi.yml
+- filename: loops-workflow-nodes-api-openapi.yml
+  format: yaml
+  label: Loops Workflow nodes API
+  slug: loops-workflow-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-workflow-nodes-api-openapi.yml
+- filename: loops-workflows-api-openapi.yml
+  format: yaml
+  label: Loops Workflows API
+  slug: loops-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/openapi/loops-workflows-api-openapi.yml
+- filename: loops-webhooks-asyncapi.yml
+  format: yaml
+  label: Loops Webhooks
+  slug: loops-webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/asyncapi/loops-webhooks-asyncapi.yml
 consequence_counts:
   physical: 2
   read: 14
@@ -117,8 +165,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loops/refs/hea
 summary_line: 24 operations · 10 acting
 tags:
 - Email
+- Email API
 - Marketing Automation
 - Transactional Email
+- Lifecycle Email
+- Webhooks
 - SaaS
 - Communications
+- Developer Tools
+- MCP
+- Agents
+- Campaigns
 ---

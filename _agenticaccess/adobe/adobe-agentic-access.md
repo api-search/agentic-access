@@ -124,6 +124,18 @@ api_specs:
   slug: adobe-split-pdf-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-split-pdf-api-openapi.yml
+- filename: adobe-substance-3d-api-openapi.yml
+  format: yaml
+  label: Adobe Substance 3D API
+  slug: adobe-substance-3d-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/_original/adobe-substance-3d-api-openapi.yml
+- filename: adobe-cc-libraries-api-openapi.json
+  format: json
+  label: Adobe Creative Cloud Libraries API
+  slug: adobe-cc-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/_original/adobe-cc-libraries-api-openapi.json
 consequence_counts:
   physical: 1
   read: 2

@@ -1,90 +1,133 @@
 ---
-acting_count: 21
+acting_count: 304
 action_class_counts:
-  acting: 21
-  connected: 7
+  acting: 304
+  connected: 72
 api_specs:
-- filename: vessel-accounts-api-openapi.yml
+- filename: vessel-platform-openapi.yml
   format: yaml
-  label: Vessel Accounts API
-  slug: vessel-accounts-api
+  label: Vessel Platform API
+  slug: platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-accounts-api-openapi.yml
-- filename: vessel-authentication-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-platform-openapi.yml
+- filename: vessel-crm-openapi.yml
   format: yaml
-  label: Vessel Authentication API
-  slug: vessel-authentication-api
+  label: Vessel CRM Unified API
+  slug: crm-unified-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-authentication-api-openapi.yml
-- filename: vessel-connections-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-crm-openapi.yml
+- filename: vessel-engagement-openapi.yml
   format: yaml
-  label: Vessel Connections API
-  slug: vessel-connections-api
+  label: Vessel Sales Engagement Unified API
+  slug: engagement-unified-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-connections-api-openapi.yml
-- filename: vessel-contacts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engagement-openapi.yml
+- filename: vessel-chat-openapi.yml
   format: yaml
-  label: Vessel Contacts API
-  slug: vessel-contacts-api
+  label: Vessel Chat Unified API
+  slug: chat-unified-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-contacts-api-openapi.yml
-- filename: vessel-deals-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-chat-openapi.yml
+- filename: vessel-dialer-openapi.yml
   format: yaml
-  label: Vessel Deals API
-  slug: vessel-deals-api
+  label: Vessel Dialer Unified API
+  slug: dialer-unified-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-deals-api-openapi.yml
-- filename: vessel-engagement-unifications-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-dialer-openapi.yml
+- filename: vessel-marketing-automation-openapi.yml
   format: yaml
-  label: Vessel Engagement Unifications API
-  slug: vessel-engagement-unifications-api
+  label: Vessel Marketing Automation Unified API
+  slug: marketing-automation-unified-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engagement-unifications-api-openapi.yml
-- filename: vessel-integrations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-marketing-automation-openapi.yml
+- filename: vessel-crm-v1-openapi.yml
   format: yaml
-  label: Vessel Integrations API
-  slug: vessel-integrations-api
+  label: Vessel CRM API (v1, legacy)
+  slug: crm-api-v1
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-integrations-api-openapi.yml
-- filename: vessel-leads-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-crm-v1-openapi.yml
+- filename: vessel-engagement-v1-openapi.yml
   format: yaml
-  label: Vessel Leads API
-  slug: vessel-leads-api
+  label: Vessel Engagement API (v1, legacy)
+  slug: engagement-api-v1
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-leads-api-openapi.yml
-- filename: vessel-notes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-engagement-v1-openapi.yml
+- filename: vessel-salesforce-actions-openapi.yml
   format: yaml
-  label: Vessel Notes API
-  slug: vessel-notes-api
+  label: Vessel Salesforce Actions API
+  slug: salesforce-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-notes-api-openapi.yml
-- filename: vessel-passthrough-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-salesforce-actions-openapi.yml
+- filename: vessel-slack-actions-openapi.yml
   format: yaml
-  label: Vessel Passthrough API
-  slug: vessel-passthrough-api
+  label: Vessel Slack Actions API
+  slug: slack-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-passthrough-api-openapi.yml
-- filename: vessel-tasks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-slack-actions-openapi.yml
+- filename: vessel-teams-actions-openapi.yml
   format: yaml
-  label: Vessel Tasks API
-  slug: vessel-tasks-api
+  label: Vessel Microsoft Teams Actions API
+  slug: teams-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-tasks-api-openapi.yml
-- filename: vessel-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-teams-actions-openapi.yml
+- filename: vessel-outreach-actions-openapi.yml
   format: yaml
-  label: Vessel Users API
-  slug: vessel-users-api
+  label: Vessel Outreach Actions API
+  slug: outreach-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-users-api-openapi.yml
-- filename: vessel-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-outreach-actions-openapi.yml
+- filename: vessel-salesloft-actions-openapi.yml
   format: yaml
-  label: Vessel Webhooks API
-  slug: vessel-webhooks-api
+  label: Vessel Salesloft Actions API
+  slug: salesloft-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-salesloft-actions-openapi.yml
+- filename: vessel-apollo-actions-openapi.yml
+  format: yaml
+  label: Vessel Apollo Actions API
+  slug: apollo-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-apollo-actions-openapi.yml
+- filename: vessel-aircall-actions-openapi.yml
+  format: yaml
+  label: Vessel Aircall Actions API
+  slug: aircall-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-aircall-actions-openapi.yml
+- filename: vessel-dialpad-actions-openapi.yml
+  format: yaml
+  label: Vessel Dialpad Actions API
+  slug: dialpad-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-dialpad-actions-openapi.yml
+- filename: vessel-ringcentral-actions-openapi.yml
+  format: yaml
+  label: Vessel RingCentral Actions API
+  slug: ringcentral-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-ringcentral-actions-openapi.yml
+- filename: vessel-mailchimp-actions-openapi.yml
+  format: yaml
+  label: Vessel Mailchimp Actions API
+  slug: mailchimp-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-mailchimp-actions-openapi.yml
+- filename: vessel-activecampaign-actions-openapi.yml
+  format: yaml
+  label: Vessel ActiveCampaign Actions API
+  slug: activecampaign-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-activecampaign-actions-openapi.yml
+- filename: vessel-monday-actions-openapi.yml
+  format: yaml
+  label: Vessel monday.com Actions API
+  slug: monday-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/openapi/vessel-monday-actions-openapi.yml
 consequence_counts:
-  read: 7
-  write: 21
+  physical: 1
+  read: 72
+  write: 303
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -92,12 +135,17 @@ layout: agentic-access
 method: generated
 name: Vessel Agentic Access
 name_suffix: Agentic Access
-notable_actions: []
-operation_count: 28
-overview: 'Vessel exposes 28 API operations that an AI agent could call, of which 21 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+notable_actions:
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /api/actions/salesloft/cadence-memberships/create
+operation_count: 376
+overview: 'Vessel exposes 376 API operations that an AI agent could call, of which 304 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 7 read and 21 write.
+  By consequence: 72 read, 303 write, and 1 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -107,24 +155,53 @@ slug: vessel-agentic-access
 source_filename: vessel-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vessel-crm-openapi.yml, openapi/vessel-platform-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 28\n  by_action_class:\n    acting: 21\n    connected: 7\n  by_consequence:\n    write: 21\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /link/token\n  method: post\n  operationId: createLinkToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /link/exchange\n  method: post\n  operationId: exchangePublicToken\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crm/contacts\n  method: get\n  operationId: getAllContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crm/contacts/create\n  method: post\n  operationId: createContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crm/contacts/update\n  method: post\n  operationId: updateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crm/deals\n  method: get\n  operationId: getAllDeals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crm/deals/create\n  method: post\n  operationId: createDeal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crm/deals/update\n  method: post\n  operationId: updateDeal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
-  \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crm/accounts\n  method: get\n  operationId: getAllAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crm/accounts/create\n  method: post\n  operationId: createAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crm/leads\n  method: get\n  operationId: getAllLeads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crm/leads/create\n  method: post\n  operationId: createLead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
-  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crm/notes\n  method: get\n  operationId: getAllNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crm/notes/create\n  method: post\n  operationId: createNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /crm/tasks\n  method: get\n  operationId: getAllTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /crm/users\n  method: get\n  operationId:\
-  \ getAllUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connection/connection\n  method: delete\n  operationId: deleteConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/list\n  method: post\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/session-token\n  method: post\n  operationId: createSessionToken\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/access-token\n  method: post\n  operationId: exchangeAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connections/list\n  method: post\n  operationId: listConnections\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connections/get\n  method: post\n  operationId: getConnection\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connections/delete\n  method: post\n  operationId: deleteConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /passthrough\n  method: post\n  operationId: passthrough\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method:\
-  \ post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/list\n  method: post\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/delete\n  method: post\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /unifications/engagement/users/list\n  method: post\n  operationId: listEngagementUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/vessel-activecampaign-actions-openapi.yml, openapi/vessel-aircall-actions-openapi.yml,\n  openapi/vessel-apollo-actions-openapi.yml, openapi/vessel-chat-openapi.yml, openapi/vessel-crm-openapi.yml,\n  openapi/vessel-crm-v1-openapi.yml, openapi/vessel-dialer-openapi.yml, openapi/vessel-dialpad-actions-openapi.yml,\n  openapi/vessel-engagement-openapi.yml, openapi/vessel-engagement-v1-openapi.yml, openapi/vessel-mailchimp-actions-openapi.yml,\n  openapi/vessel-marketing-automation-openapi.yml, openapi/vessel-monday-actions-openapi.yml,\n  openapi/vessel-outreach-actions-openapi.yml, openapi/vessel-platform-openapi.yml, openapi/vessel-ringcentral-actions-openapi.yml,\n  openapi/vessel-salesforce-actions-openapi.yml, openapi/vessel-salesloft-actions-openapi.yml,\n  openapi/vessel-slack-actions-openapi.yml, openapi/vessel-teams-actions-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified\
+  \ heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 376\n  by_action_class:\n    acting: 304\n    connected: 72\n  by_consequence:\n    write: 303\n    read: 72\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/actions/activecampaign/contacts/create\n  method: post\n  operationId: create-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/activecampaign/contacts/find\n  method: post\n  operationId: find-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
+  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/activecampaign/contacts/list\n  method: post\n  operationId: list-contacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/activecampaign/contacts/update\n  method: post\n  operationId: update-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/activecampaign/lists/find\n  method: post\n  operationId: find-list\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/activecampaign/lists/list\n  method: post\n  operationId: list-lists\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/activecampaign/users/list\n  method: post\n  operationId: list-users\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/aircall/users/list\n\
+  \  method: post\n  operationId: list-users\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/aircall/users/find\n  method: post\n  operationId: find-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/aircall/users/start-call\n  method: post\n  operationId: start-user-call\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
+  \ - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/aircall/contacts/create\n  method: post\n  operationId: create-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/aircall/contacts/find\n  method: post\n  operationId: find-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/aircall/contacts/list\n  method: post\n  operationId: list-contacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
+  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/aircall/contacts/update\n  method: post\n  operationId: update-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/aircall/calls/find\n  method: post\n  operationId: find-call\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/aircall/calls/list\n  method: post\n  operationId: list-calls\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/accounts/create\n  method: post\n  operationId: create-account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/accounts/search\n  method: post\n  operationId: search-account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/accounts/update\n\
+  \  method: post\n  operationId: update-account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/activities/list\n  method: post\n  operationId: list-activities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/contacts/create\n  method: post\n  operationId: create-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/contacts/search\n  method: post\n  operationId: search-contacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/contacts/update\n  method: post\n  operationId: update-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/custom-fields/create\n  method: post\n  operationId: create-custom-fields\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
+  \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/custom-fields/list\n  method: post\n  operationId: list-custom-fields\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/emails/search\n  method: post\n  operationId: search-emails\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/email-accounts/list\n  method: post\n  operationId:\
+  \ list-email-accounts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/labels/search\n  method: post\n  operationId: search-labels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/people/search\n  method: post\n  operationId: search-people\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
+  \    audit: required\n- path: /api/actions/apollo/tasks/search\n  method: post\n  operationId: search-tasks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/tasks/mark-complete\n  method: post\n  operationId: tasks-mark-complete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/calls/create\n  method: post\n  operationId: create-call\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
+  \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/calls/details\n  method: post\n  operationId: create-call\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/sequences/create\n  method: post\n  operationId: create-sequences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/sequences/search\n  method: post\n  operationId: search-sequences\n  x-agentic-access:\n    action-class: acting\n\
+  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/sequences/start\n  method: post\n  operationId: start-sequences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/sequence-steps/create\n  method: post\n  operationId: create-sequence-steps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/sequence-templates/update\n\
+  \  method: post\n  operationId: update-sequence-templates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/actions/apollo/users/search\n  method: post\n  operationId: search-users\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/chat/users/list\n  method: post\n  operationId: get-all-users\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/chat/channels/list\n  method: post\n  operationId: get-all-channels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/chat/messages/create\n  method: post\n  operationId: post-message\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/chat/messages/update\n  method: post\n  operationId: put-message\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
+  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/info/find\n  method: post\n  operationId: get-info\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/users/list\n  method: post\n  operationId: list-users\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/users/batch-read\n  method: post\n  operationId: batch-read-users\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/users/find\n  method: post\n  operationId: get-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/users/details\n  method: post\n  operationId: get-details-crm-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
+  \ /api/unifications/crm/contacts/list\n  method: post\n  operationId: list-contacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/contacts/batch-read\n  method: post\n  operationId: batch-read-contacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/contacts/find\n  method: post\n  operationId: get-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
+  \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/contacts/create\n  method: post\n  operationId: create-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/contacts/update\n  method: post\n  operationId: update-contact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/contacts/details\n  method: post\n  operationId: get-details-crm-contact\n  x-agentic-access:\n    action-class: acting\n\
+  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/deals/list\n  method: post\n  operationId: list-deals\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/deals/batch-read\n  method: post\n  operationId: batch-read-deals\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/deals/find\n\
+  \  method: post\n  operationId: get-deal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/deals/create\n  method: post\n  operationId: create-deal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/deals/update\n  method: post\n  operationId: update-deal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
+  \      - high-value\n    audit: required\n- path: /api/unifications/crm/deals/details\n  method: post\n  operationId: get-details-crm-deal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/accounts/list\n  method: post\n  operationId: list-accounts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/accounts/batch-read\n  method: post\n  operationId: batch-read-accounts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
+  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/accounts/find\n  method: post\n  operationId: get-account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/accounts/create\n  method: post\n  operationId: create-account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/accounts/update\n  method: post\n  operationId: update-account\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/accounts/details\n  method: post\n  operationId: get-details-crm-account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/leads/list\n  method: post\n  operationId: list-leads\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
+  - path: /api/unifications/crm/leads/batch-read\n  method: post\n  operationId: batch-read-leads\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/leads/find\n  method: post\n  operationId: get-lead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/leads/create\n  method: post\n  operationId: create-lead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/leads/update\n  method: post\n  operationId: update-lead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/custom-fields/create\n  method: post\n  operationId: create-lead-custom-field\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/leads/details\n  method: post\n  operationId: get-details-crm-lead\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/notes/list\n  method: post\n  operationId: list-notes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/notes/batch-read\n  method: post\n  operationId: batch-read-notes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/notes/find\n  method:\
+  \ post\n  operationId: get-note\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/notes/create\n  method: post\n  operationId: create-note\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/notes/update\n  method: post\n  operationId: update-note\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
+  \      - high-value\n    audit: required\n- path: /api/unifications/crm/notes/details\n  method: post\n  operationId: get-details-crm-note\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/tasks/list\n  method: post\n  operationId: list-tasks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/tasks/batch-read\n  method: post\n  operationId: batch-read-tasks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
+  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/tasks/find\n  method: post\n  operationId: get-task\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/tasks/create\n  method: post\n  operationId: create-task\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/tasks/update\n  method: post\n  operationId: update-task\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/tasks/details\n  method: post\n  operationId: get-details-crm-task\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/events/list\n  method: post\n  operationId: list-events\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/events/batch-read\n\
+  \  method: post\n  operationId: batch-read-events\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/events/find\n  method: post\n  operationId: get-event\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unifications/crm/events/create\n  method: post\n  operationId: create-event\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
+  \     - abnormal\n      - high-\n\n# --- truncated at 32 KB (120 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/agentic-access/vessel-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/agentic-access/vessel-agentic-access.yml
-summary_line: 28 operations · 21 acting
+summary_line: 376 operations · 304 acting
 tags:
 - CRM
+- Chat
+- Dialer
 - Embedded Integrations
 - GTM
 - Integrations
 - iPaaS
+- Marketing Automation
 - Sales Engagement
 - Unified API
+- Webhooks
 ---

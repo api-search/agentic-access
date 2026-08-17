@@ -4,6 +4,30 @@ action_class_counts:
   acting: 1
   connected: 19
 api_specs:
+- filename: builtwith-live-feed-asyncapi.yml
+  format: yaml
+  label: BuiltWith Live Feed API
+  slug: builtwith-live-feed-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/asyncapi/builtwith-live-feed-asyncapi.yml
+- filename: builtwith-agent-stripe-topup-openapi.json
+  format: json
+  label: BuiltWith Agent Payment API
+  slug: builtwith-agent-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-agent-stripe-topup-openapi.json
+- filename: builtwith-rest-api-openapi.json
+  format: json
+  label: BuiltWith REST API
+  slug: builtwith-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-rest-api-openapi.json
+- filename: builtwith-x402-pay-per-call-openapi.json
+  format: json
+  label: BuiltWith x402 Pay-per-Call API
+  slug: builtwith-x402-pay-per-call-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/openapi/builtwith-x402-pay-per-call-openapi.json
 - filename: builtwith-bulk-processing-api-openapi.yml
   format: yaml
   label: BuiltWith Bulk Processing API
@@ -92,4 +116,10 @@ tags:
 - Technology Detection
 - Website Analysis
 - Market Research
+- Technographics
+- Sales Intelligence
+- AI Agents
+- Model Context Protocol
+- Agentic Commerce
+- Real-time Data
 ---

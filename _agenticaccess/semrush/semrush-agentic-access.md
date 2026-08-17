@@ -70,4 +70,7 @@ tags:
 - Keyword Research
 - Backlinks
 - Rank Tracking
+- AI Search Visibility
+- Local SEO
+- MCP
 ---

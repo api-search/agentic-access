@@ -109,4 +109,12 @@ tags:
 - FHIR
 - Clinical Data
 - Lab Ordering
+- TEFCA
+- QHIN
+- Health Information Exchange
+- Lab Results
+- Clinical Documents
+- SMART on FHIR
+- Patient Records
+- HL7
 ---

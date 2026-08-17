@@ -52,6 +52,18 @@ api_specs:
   slug: regal-ai-phone-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-phone-numbers-api-openapi.yml
+- filename: regal-ai-users-api-openapi.yml
+  format: yaml
+  label: Regal Users API
+  slug: regal-ai-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-users-api-openapi.yml
+- filename: regal-ai-call-handoffs-api-openapi.yml
+  format: yaml
+  label: Regal Call Handoffs API
+  slug: regal-ai-call-handoffs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-call-handoffs-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4

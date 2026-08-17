@@ -142,6 +142,42 @@ api_specs:
   slug: zoominfo-websights-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-websights-api-api-openapi.yml
+- filename: zoominfo-gtm-data-v1-openapi.json
+  format: json
+  label: ZoomInfo Data API
+  slug: zoominfo-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-data-v1-openapi.json
+- filename: zoominfo-gtm-copilot-v1-openapi.json
+  format: json
+  label: ZoomInfo Copilot API
+  slug: zoominfo-copilot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-copilot-v1-openapi.json
+- filename: zoominfo-gtm-gtm-studio-v1-openapi.json
+  format: json
+  label: ZoomInfo GTM Studio API
+  slug: zoominfo-gtm-studio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-gtm-studio-v1-openapi.json
+- filename: zoominfo-gtm-marketing-v1-openapi.json
+  format: json
+  label: ZoomInfo Marketing API
+  slug: zoominfo-marketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-marketing-v1-openapi.json
+- filename: zoominfo-gtm-agent-v1-openapi.json
+  format: json
+  label: ZoomInfo Agent API
+  slug: zoominfo-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-agent-v1-openapi.json
+- filename: zoominfo-gtm-platform-v1-openapi.json
+  format: json
+  label: ZoomInfo Platform API
+  slug: zoominfo-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-gtm-platform-v1-openapi.json
 consequence_counts:
   read: 69
   write: 30
@@ -206,4 +242,9 @@ tags:
 - Lead Generation
 - Marketing Intelligence
 - Sales Intelligence
+- Intent Data
+- Go To Market
+- Data Enrichment
+- AI Agents
+- MCP
 ---

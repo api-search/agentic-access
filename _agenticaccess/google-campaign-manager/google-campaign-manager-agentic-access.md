@@ -72,4 +72,11 @@ tags:
 - Campaign Management
 - Digital Marketing
 - Reporting
+- Ad Serving
+- Ad Trafficking
+- Attribution
+- Conversion Tracking
+- Marketing
+- Media Buying
+- Google Marketing Platform
 ---

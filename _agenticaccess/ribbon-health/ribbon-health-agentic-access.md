@@ -64,6 +64,12 @@ api_specs:
   slug: ribbon-health-tins-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-tins-api-openapi.yml
+- filename: ribbon-health-price-transparency-v2-api-openapi.yml
+  format: yaml
+  label: Ribbon Health Price Transparency v2 API
+  slug: ribbon-health-price-transparency-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/openapi/ribbon-health-price-transparency-v2-api-openapi.yml
 consequence_counts:
   read: 39
   write: 34

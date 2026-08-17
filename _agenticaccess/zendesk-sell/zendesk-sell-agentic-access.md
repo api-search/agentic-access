@@ -4,6 +4,12 @@ action_class_counts:
   acting: 12
   connected: 6
 api_specs:
+- filename: zendesk-sell.postman_collection.json
+  format: json
+  label: Zendesk Sell (Sales CRM) API
+  slug: sales-crm-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/collections/zendesk-sell.postman_collection.json
 - filename: zendesk-sell-contacts-api-openapi.yml
   format: yaml
   label: Zendesk Sell Contacts API

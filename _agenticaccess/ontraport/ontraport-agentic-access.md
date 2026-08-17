@@ -54,4 +54,8 @@ tags:
 - Ecommerce
 - Landing Pages
 - Membership Sites
+- MCP
+- AI Agents
+- Payments
+- Sales Automation
 ---

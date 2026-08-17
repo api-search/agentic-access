@@ -58,14 +58,14 @@ name: Availity Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 19
-overview: 'availity exposes 19 API operations that an AI agent could call, of which 9 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Availity exposes 19 API operations that an AI agent could call, of which 9 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 10 read and 9 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: availity
+provider_name: Availity
 provider_slug: availity
 slug: availity-agentic-access
 source_filename: availity-agentic-access.yml
@@ -80,5 +80,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/availi
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /value-adds/v2/attachments\n  method: post\n  operationId: submitAuthAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /value-adds/v2/attachments/{id}\n  method: get\n  operationId: getAttachmentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/agentic-access/availity-agentic-access.yml
 summary_line: 19 operations · 9 acting
-tags: []
+tags:
+- Healthcare
+- Clearinghouse
+- HIPAA
+- X12 EDI
+- Eligibility
+- Claims
+- Prior Authorization
+- Revenue Cycle Management
+- Payers
+- Price Transparency
 ---

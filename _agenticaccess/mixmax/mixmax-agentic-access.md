@@ -78,6 +78,10 @@ summary_line: 24 operations · 13 acting
 tags:
 - Company
 - Saas
+- MCP
+- Agents
+- Webhooks
+- OAuth
 - Sales Engagement
 - Email
 - Sales

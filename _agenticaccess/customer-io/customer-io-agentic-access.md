@@ -142,6 +142,24 @@ api_specs:
   slug: customer-io-transactional-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-transactional-api-openapi.yml
+- filename: customer-io-app-api-openapi.json
+  format: json
+  label: Customer.io App API
+  slug: app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-app-api-openapi.json
+- filename: customer-io-pipelines-api-openapi.json
+  format: json
+  label: Customer.io Pipelines API
+  slug: pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-pipelines-api-openapi.json
+- filename: customer-io-reporting-webhooks-openapi.json
+  format: json
+  label: Customer.io Reporting Webhooks
+  slug: reporting-webhooks
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/_original/customer-io-reporting-webhooks-openapi.json
 consequence_counts:
   physical: 3
   read: 23

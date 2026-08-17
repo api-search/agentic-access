@@ -15,6 +15,18 @@ api_specs:
   slug: serper-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-images-api-openapi.yml
+- filename: serper-lens-api-openapi.yml
+  format: yaml
+  label: Serper Lens API
+  slug: serper-lens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-lens-api-openapi.yml
+- filename: serper-locations-api-openapi.yml
+  format: yaml
+  label: Serper Locations API
+  slug: serper-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-locations-api-openapi.yml
 - filename: serper-maps-api-openapi.yml
   format: yaml
   label: Serper Maps API
@@ -39,6 +51,12 @@ api_specs:
   slug: serper-places-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-places-api-openapi.yml
+- filename: serper-reviews-api-openapi.yml
+  format: yaml
+  label: Serper Reviews API
+  slug: serper-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-reviews-api-openapi.yml
 - filename: serper-scholar-api-openapi.yml
   format: yaml
   label: Serper Scholar API
@@ -63,6 +81,12 @@ api_specs:
   slug: serper-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-videos-api-openapi.yml
+- filename: serper-webpage-scrape-api-openapi.yml
+  format: yaml
+  label: Serper Webpage Scrape API
+  slug: serper-webpage-scrape-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-webpage-scrape-api-openapi.yml
 consequence_counts:
   write: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -104,4 +128,16 @@ tags:
 - News
 - Maps
 - Shopping
+- Reviews
+- Lens
+- Scraping
+- Locations
+- SERP API
+- Web Search
+- Agents
+- Patents
+- Scholar
+- Autocomplete
+- Places
+- Videos
 ---

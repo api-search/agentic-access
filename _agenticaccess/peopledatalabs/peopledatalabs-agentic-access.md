@@ -46,6 +46,24 @@ api_specs:
   slug: peopledatalabs-skill-enrichment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-skill-enrichment-api-openapi.yml
+- filename: peopledatalabs-subscription-api-openapi.yml
+  format: yaml
+  label: People Data Labs Subscription API
+  slug: peopledatalabs-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-subscription-api-openapi.yml
+- filename: peopledatalabs-preview-enrichment-api-openapi.yml
+  format: yaml
+  label: People Data Labs Preview Enrichment API
+  slug: peopledatalabs-preview-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-preview-enrichment-api-openapi.yml
+- filename: peopledatalabs-subject-request-api-openapi.yml
+  format: yaml
+  label: People Data Labs Subject Request API
+  slug: peopledatalabs-subject-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/openapi/peopledatalabs-subject-request-api-openapi.yml
 consequence_counts:
   read: 13
   write: 8

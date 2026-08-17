@@ -148,6 +148,18 @@ api_specs:
   slug: beehiiv-subpackage-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-subpackage-workspaces-api-openapi.yml
+- filename: beehiiv-oauth2-api-openapi.yml
+  format: yaml
+  label: beehiiv OAuth2 API
+  slug: beehiiv-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-oauth2-api-openapi.yml
+- filename: beehiiv-webhook-events-openapi.yml
+  format: yaml
+  label: beehiiv Webhook Events
+  slug: beehiiv-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-webhook-events-openapi.yml
 consequence_counts:
   read: 45
   write: 32

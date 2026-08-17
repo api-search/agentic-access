@@ -46,6 +46,12 @@ api_specs:
   slug: squarespace-site-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-site-api-openapi.yml
+- filename: squarespace-commerce-api-v2-openapi.json
+  format: json
+  label: Squarespace Commerce API
+  slug: squarespace-commerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-commerce-api-v2-openapi.json
 consequence_counts:
   physical: 4
   read: 13

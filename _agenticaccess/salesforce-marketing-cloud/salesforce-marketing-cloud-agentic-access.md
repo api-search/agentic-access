@@ -68,9 +68,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-mar
 summary_line: 21 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Automation
+- Content Management
 - Customer Journey
 - Digital Marketing
 - Email
 - Marketing
+- Marketing Automation
+- MCP
+- Mobile Messaging
 - Personalization
+- SMS
+- Webhooks
 ---

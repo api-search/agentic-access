@@ -4,48 +4,96 @@ action_class_counts:
   acting: 12
   connected: 5
 api_specs:
-- filename: punchh-check-in-api-openapi.yml
+- filename: punchh-mobile-api-openapi.yml
   format: yaml
-  label: Punchh Check-In API
-  slug: punchh-check-in-api
+  label: Punchh Mobile API
+  slug: punchh-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-check-in-api-openapi.yml
-- filename: punchh-check-ins-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-mobile-api-openapi.yml
+- filename: punchh-mobile-redemptions-legacy-openapi.yml
   format: yaml
-  label: Punchh Check-Ins API
-  slug: punchh-check-ins-api
+  label: Punchh Redemptions 1.0 (Legacy) API - Mobile
+  slug: punchh-mobile-redemptions-legacy
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-check-ins-api-openapi.yml
-- filename: punchh-configuration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-mobile-redemptions-legacy-openapi.yml
+- filename: punchh-mobile-redemptions-v2-openapi.yml
   format: yaml
-  label: Punchh Configuration API
-  slug: punchh-configuration-api
+  label: Punchh Redemptions 2.0 (New) API - Mobile
+  slug: punchh-mobile-redemptions-v2
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-configuration-api-openapi.yml
-- filename: punchh-offers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-mobile-redemptions-v2-openapi.yml
+- filename: punchh-mobile-subscription-openapi.yml
   format: yaml
-  label: Punchh Offers API
-  slug: punchh-offers-api
+  label: Punchh Subscription API - Mobile
+  slug: punchh-mobile-subscription
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-offers-api-openapi.yml
-- filename: punchh-receipts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-mobile-subscription-openapi.yml
+- filename: punchh-online-ordering-redemptions-legacy-openapi.yml
   format: yaml
-  label: Punchh Receipts API
-  slug: punchh-receipts-api
+  label: Punchh Redemptions 1.0 (Legacy) API - Online Ordering
+  slug: punchh-online-ordering-redemptions-legacy
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-receipts-api-openapi.yml
-- filename: punchh-redemptions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-online-ordering-redemptions-legacy-openapi.yml
+- filename: punchh-online-ordering-redemptions-v2-openapi.yml
   format: yaml
-  label: Punchh Redemptions API
-  slug: punchh-redemptions-api
+  label: Punchh Redemptions 2.0 (New) API - Online Ordering
+  slug: punchh-online-ordering-redemptions-v2
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-redemptions-api-openapi.yml
-- filename: punchh-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-online-ordering-redemptions-v2-openapi.yml
+- filename: punchh-online-ordering-sso-api-openapi.yml
   format: yaml
-  label: Punchh Users API
-  slug: punchh-users-api
+  label: Punchh Online Ordering and SSO API
+  slug: punchh-online-ordering-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-online-ordering-sso-api-openapi.yml
+- filename: punchh-online-ordering-subscription-openapi.yml
+  format: yaml
+  label: Punchh Subscription API - Online Ordering
+  slug: punchh-online-ordering-subscription
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-online-ordering-subscription-openapi.yml
+- filename: punchh-platform-functions-api-openapi.yml
+  format: yaml
+  label: Punchh Platform Functions API
+  slug: punchh-platform-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-platform-functions-api-openapi.yml
+- filename: punchh-platform-functions-headless-offers-openapi.yml
+  format: yaml
+  label: Punchh Headless Offers API - Platform Functions
+  slug: punchh-platform-functions-headless-offers
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-platform-functions-headless-offers-openapi.yml
+- filename: punchh-platform-functions-offers-ingestion-openapi.yml
+  format: yaml
+  label: Punchh Offers Ingestion API - Platform Functions
+  slug: punchh-platform-functions-offers-ingestion
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-platform-functions-offers-ingestion-openapi.yml
+- filename: punchh-platform-functions-subscription-openapi.yml
+  format: yaml
+  label: Punchh Subscription API - Platform Functions
+  slug: punchh-platform-functions-subscription
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-platform-functions-subscription-openapi.yml
+- filename: punchh-pos-api-openapi.yml
+  format: yaml
+  label: Punchh POS API
+  slug: punchh-pos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-pos-api-openapi.yml
+- filename: punchh-pos-redemptions-legacy-openapi.yml
+  format: yaml
+  label: Punchh Redemptions 1.0 (Legacy) API - POS
+  slug: punchh-pos-redemptions-legacy
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-pos-redemptions-legacy-openapi.yml
+- filename: punchh-pos-redemptions-v2-openapi.yml
+  format: yaml
+  label: Punchh Redemptions 2.0 (New) API - POS
+  slug: punchh-pos-redemptions-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/openapi/punchh-pos-redemptions-v2-openapi.yml
 consequence_counts:
   physical: 2
   read: 5
@@ -92,12 +140,16 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/punchh
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/agentic-access/punchh-agentic-access.yml
 summary_line: 17 operations · 12 acting
 tags:
-- Restaurant
+- Gift Cards
+- Guest Engagement
 - Loyalty
 - Marketing
-- Guest Engagement
-- Online Ordering
 - Mobile
+- Offers
+- Online Ordering
+- PAR Technology
 - Point Of Sale
+- Restaurant
+- Restaurant Technology
 - Webhooks
 ---

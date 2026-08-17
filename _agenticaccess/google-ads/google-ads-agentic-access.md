@@ -46,6 +46,12 @@ api_specs:
   slug: google-ads-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-reporting-api-openapi.yml
+- filename: google-ads-api-v25-openapi.yml
+  format: yaml
+  label: Google Ads API
+  slug: google-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-api-v25-openapi.yml
 consequence_counts:
   read: 2
   write: 8

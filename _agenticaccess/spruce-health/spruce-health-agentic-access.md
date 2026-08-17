@@ -1,37 +1,103 @@
 ---
-acting_count: 19
+acting_count: 22
 action_class_counts:
-  acting: 19
-  connected: 19
+  acting: 22
+  connected: 25
 api_specs:
-- filename: spruce-health-contacts-api-openapi.yml
+- filename: spruce-health-contact-fields-openapi.yml
+  format: yaml
+  label: Spruce Health Contact Fields API
+  slug: spruce-health-contact-fields
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-contact-fields-openapi.yml
+- filename: spruce-health-contact-tags-openapi.yml
+  format: yaml
+  label: Spruce Health Contact Tags API
+  slug: spruce-health-contact-tags
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-contact-tags-openapi.yml
+- filename: spruce-health-contacts-openapi.yml
   format: yaml
   label: Spruce Health Contacts API
-  slug: spruce-health-contacts-api
+  slug: spruce-health-contacts
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-contacts-api-openapi.yml
-- filename: spruce-health-conversations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-contacts-openapi.yml
+- filename: spruce-health-conversation-item-openapi.yml
+  format: yaml
+  label: Spruce Health Conversation Item API
+  slug: spruce-health-conversation-item
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-conversation-item-openapi.yml
+- filename: spruce-health-conversation-tags-openapi.yml
+  format: yaml
+  label: Spruce Health Conversation Tags API
+  slug: spruce-health-conversation-tags
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-conversation-tags-openapi.yml
+- filename: spruce-health-conversations-openapi.yml
   format: yaml
   label: Spruce Health Conversations API
-  slug: spruce-health-conversations-api
+  slug: spruce-health-conversations
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-conversations-api-openapi.yml
-- filename: spruce-health-messages-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-conversations-openapi.yml
+- filename: spruce-health-internal-endpoints-openapi.yml
   format: yaml
-  label: Spruce Health Messages API
-  slug: spruce-health-messages-api
+  label: Spruce Health Internal Endpoints API
+  slug: spruce-health-internal-endpoints
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-messages-api-openapi.yml
-- filename: spruce-health-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-internal-endpoints-openapi.yml
+- filename: spruce-health-media-openapi.yml
+  format: yaml
+  label: Spruce Health Media API
+  slug: spruce-health-media
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-media-openapi.yml
+- filename: spruce-health-organization-openapi.yml
+  format: yaml
+  label: Spruce Health Organization API
+  slug: spruce-health-organization
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-organization-openapi.yml
+- filename: spruce-health-phone-lines-openapi.yml
+  format: yaml
+  label: Spruce Health Phone Lines API
+  slug: spruce-health-phone-lines
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-phone-lines-openapi.yml
+- filename: spruce-health-saved-messages-openapi.yml
+  format: yaml
+  label: Spruce Health Saved Messages API
+  slug: spruce-health-saved-messages
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-saved-messages-openapi.yml
+- filename: spruce-health-scheduled-messages-openapi.yml
+  format: yaml
+  label: Spruce Health Scheduled Messages API
+  slug: spruce-health-scheduled-messages
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-scheduled-messages-openapi.yml
+- filename: spruce-health-teams-openapi.yml
+  format: yaml
+  label: Spruce Health Teams API
+  slug: spruce-health-teams
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-teams-openapi.yml
+- filename: spruce-health-transcription-openapi.yml
+  format: yaml
+  label: Spruce Health Transcription API
+  slug: spruce-health-transcription
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-transcription-openapi.yml
+- filename: spruce-health-webhooks-openapi.yml
   format: yaml
   label: Spruce Health Webhooks API
-  slug: spruce-health-webhooks-api
+  slug: spruce-health-webhooks
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/openapi/spruce-health-webhooks-openapi.yml
 consequence_counts:
-  physical: 1
-  read: 19
-  write: 18
+  physical: 2
+  read: 25
+  write: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -44,12 +110,17 @@ notable_actions:
   consequence: physical
   human_in_the_loop: conditional
   method: POST
-  path: /internalendpoints/{endpointId}/messages
-operation_count: 38
-overview: 'Spruce Health exposes 38 API operations that an AI agent could call, of which 19 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+  path: /contacts/{contactId}/invite
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /internalendpoints/{internalEndpointId}/conversations
+operation_count: 47
+overview: 'Spruce Health exposes 47 API operations that an AI agent could call, of which 22 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 19 read, 18 write, and 1 physical.
+  By consequence: 25 read, 20 write, and 2 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -59,29 +130,43 @@ slug: spruce-health-agentic-access
 source_filename: spruce-health-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spruce-health-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 38\n  by_action_class:\n    connected: 19\n    acting: 19\n  by_consequence:\n    read: 19\n    write: 18\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /contacts\n  method: get\n  operationId: listContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts\n  method: post\n  operationId: createContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/search\n  method: get\n  operationId: searchContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/{contactId}\n  method: get\n  operationId: contact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/{contactId}\n  method: patch\n  operationId: updateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}\n  method: delete\n  operationId: deleteContact\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}/conversations\n  method: get\n  operationId: contactConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/{contactId}/integration-links\n  method: get\n  operationId: contactIntegrationLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/{contactId}/integration-links\n  method: post\n  operationId: createContactIntegrationLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n  \
-  \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/fields\n  method: get\n  operationId: contactFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/fields\n  method: post\n  operationId: createContactField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/tags\n  method: get\n  operationId: contactTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/tags\n  method: post\n  operationId: createContactTag\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations\n  method: get\n  operationId: listConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations\n  method: post\n  operationId: createConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{conversationId}\n  method: get\n  operationId: conversation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /conversations/{conversationId}\n  method: patch\n  operationId: updateConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/tags\n  method: get\n  operationId: conversationTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/tags\n  method: post\n  operationId: createConversationTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
-  \ /conversations/{conversationId}/messages\n  method: post\n  operationId: postConversationMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{conversationId}/items\n  method: get\n  operationId: conversationItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{conversationId}/items/{itemId}\n  method: get\n  operationId: conversationItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{conversationId}/items/{itemId}\n  method: delete\n  operationId: deleteConversationItem\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /internalendpoints\n  method: get\n  operationId: internalEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /internalendpoints/{endpointId}/messages\n  method: post\n  operationId: postMessageFromEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /proxy-calls\n  method: post\n  operationId: postCreateProxyCall\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /media\n  method: post\n  operationId: uploadMedia\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduled-messages\n  method: get\n  operationId: listScheduledMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{conversationId}/scheduled-messages\n  method: get\n  operationId: listConversationScheduledMessages\n  x-agentic-access:\n    action-class: connected\n  \
-  \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{conversationId}/scheduled-messages\n  method: post\n  operationId: scheduleConversationMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduled-messages/{scheduledMessageId}\n  method: delete\n  operationId: deleteScheduledMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /saved-messages\n  method: get\n  operationId: listSavedMessages\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints\n  method: get\n  operationId: listWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints\n  method: post\n  operationId: createWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/endpoints/{endpointId}\n  method: get\n  operationId: webhookEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints/{endpointId}\n  method: delete\n  operationId: deleteWebhookEndpoint\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/endpoints/{endpointId}/events\n  method: get\n  operationId: listWebhookEndpointEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints/{endpointId}/paused\n  method: put\n  operationId: modifyWebhookEndpointPaused\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml: "generated: '2026-08-15'\nmethod: generated\nsource: openapi/spruce-health-contact-fields-openapi.yml, openapi/spruce-health-contact-tags-openapi.yml,\n  openapi/spruce-health-contacts-openapi.yml, openapi/spruce-health-conversation-item-openapi.yml,\n  openapi/spruce-health-conversation-tags-openapi.yml, openapi/spruce-health-conversations-openapi.yml,\n  openapi/spruce-health-internal-endpoints-openapi.yml, openapi/spruce-health-media-openapi.yml,\n  openapi/spruce-health-organization-openapi.yml, openapi/spruce-health-phone-lines-openapi.yml,\n  openapi/spruce-health-saved-messages-openapi.yml, openapi/spruce-health-scheduled-messages-openapi.yml,\n  openapi/spruce-health-teams-openapi.yml, openapi/spruce-health-transcription-openapi.yml,\n  openapi/spruce-health-webhooks-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n\
+  \  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 47\n  by_action_class:\n    connected: 25\n    acting: 22\n  by_consequence:\n    read: 25\n    write: 20\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /contacts/fields\n  method: get\n  operationId: ContactFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/fields\n  method: post\n  operationId: CreateContactField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/tags\n  method: get\n  operationId: ContactTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n \
+  \   token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/tags\n  method: post\n  operationId: CreateContactTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts\n  method: get\n  operationId: ListContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts\n  method: post\n  operationId: CreateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}\n  method: delete\n\
+  \  operationId: DeleteContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}\n  method: get\n  operationId: Contact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/{contactId}\n  method: patch\n  operationId: UpdateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}/conversations\n  method: get\n  operationId: ContactConversations\n  x-agentic-access:\n  \
+  \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/{contactId}/integrationlinks\n  method: delete\n  operationId: DeleteContactIntegrationLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}/integrationlinks\n  method: get\n  operationId: ContactIntegrationLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/{contactId}/integrationlinks\n  method: post\n  operationId: CreateContactIntegrationLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
+  \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{contactId}/invite\n  method: post\n  operationId: SendInvite\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/search\n  method: post\n  operationId: SearchContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversationItems/{conversationItemId}\n  method: delete\n  operationId: DeleteConversationItem\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversationItems/{conversationItemId}\n  method: get\n  operationId: ConversationItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/tags\n  method: get\n  operationId: ConversationTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/tags\n  method: post\n  operationId: CreateConversationTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations\n  method: get\n  operationId: ListConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations\n  method: post\n  operationId: CreateConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{conversationId}\n  method: get\n  operationId: Conversation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{conversationId}\n  method: patch\n  operationId: UpdateConversation\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{conversationId}/items\n  method: get\n  operationId: ConversationItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{conversationId}/messages\n  method: post\n  operationId: PostConversationMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /internalendpoints\n  method: get\n  operationId: InternalEndpoints\n  x-agentic-access:\n    action-class: connected\n\
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /internalendpoints/{internalEndpointId}/calls\n  method: post\n  operationId: PostCreateProxyCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /internalendpoints/{internalEndpointId}/conversations\n  method: post\n  operationId: PostMessageFromEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /media\n  method: post\n  operationId: UploadMedia\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization\n  method: get\n  operationId: Organization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization/members\n  method: get\n  operationId: OrganizationMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization/members/{memberId}\n  method: get\n  operationId: OrganizationMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /phonelines\n  method: get\n  operationId: PhoneLines\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /phonelines/{phonelineId}\n  method: get\n  operationId: PhoneLine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /savedmessages\n  method: get\n  operationId: ListSavedMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{conversationId}/scheduledmessages\n  method: get\n  operationId: ListConversationScheduledMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations/{conversationId}/scheduledmessages\n  method: post\n  operationId: ScheduleConversationMessage\n  x-agentic-access:\n \
+  \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduledmessages\n  method: get\n  operationId: ListScheduledMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduledmessages/{scheduledMessageId}\n  method: delete\n  operationId: DeleteScheduledMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{teamId}/members\n  method: get\n  operationId: TeamMembers\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transcriptions/{transcriptionId}\n  method: get\n  operationId: Transcription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints\n  method: get\n  operationId: ListWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints\n  method: post\n  operationId: CreateWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/endpoints/{endpointId}\n  method: delete\n  operationId: DeleteWebhookEndpoint\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/endpoints/{endpointId}\n  method: get\n  operationId: WebhookEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints/{endpointId}/events\n  method: get\n  operationId: ListWebhookEndpointEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/endpoints/{endpointId}/paused\n  method: post\n  operationId: ModifyWebhookEndpointPaused\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
+  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/agentic-access/spruce-health-agentic-access.yml
-summary_line: 38 operations · 19 acting
+summary_line: 47 operations · 22 acting
 tags:
 - Healthcare
 - HIPAA
+- Health Care
 - Communication
 - Secure Messaging
 - Telehealth
+- Patient Engagement
 - Contacts
 - Conversations
 - Messaging
-- Webhooks
+- SMS
+- Voice
 - VoIP
+- Fax
+- Video
+- Webhooks
+- Scheduling
+- Transcription
+- EHR Integration
+- Compliance
 ---

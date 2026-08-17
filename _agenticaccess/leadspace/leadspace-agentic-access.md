@@ -66,6 +66,8 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/leadsp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/agentic-access/leadspace-agentic-access.yml
 summary_line: 9 operations · 6 acting
 tags:
+- MCP
+- AI Agents
 - B2B Data
 - Customer Data Platform
 - Data Enrichment

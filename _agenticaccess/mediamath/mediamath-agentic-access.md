@@ -4,6 +4,18 @@ action_class_counts:
   acting: 88
   connected: 119
 api_specs:
+- filename: mediamath-marketplaces-api-v2-openapi.yml
+  format: yaml
+  label: MediaMath Marketplaces API V2.0
+  slug: mediamath-marketplaces-api-v20
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-marketplaces-api-v2-openapi.yml
+- filename: mediamath-byoa-api-openapi.yml
+  format: yaml
+  label: MediaMath Bring Your Own Algorithm (BYOA) API
+  slug: mediamath-bring-your-own-algorithm-byoa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-byoa-api-openapi.yml
 - filename: mediamath-ad-servers-api-openapi.yml
   format: yaml
   label: MediaMath Ad Servers API
@@ -226,6 +238,36 @@ api_specs:
   slug: mediamath-verticals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-verticals-api-openapi.yml
+- filename: mediamath-audience-segments-api-openapi.yml
+  format: yaml
+  label: MediaMath Audience Segments API
+  slug: mediamath-audience-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-audience-segments-api-openapi.yml
+- filename: mediamath-bof-config-api-openapi.yml
+  format: yaml
+  label: MediaMath BOF Config API
+  slug: mediamath-bof-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-bof-config-api-openapi.yml
+- filename: mediamath-component-creatives-api-openapi.yml
+  format: yaml
+  label: MediaMath Component Creatives API
+  slug: mediamath-component-creatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-component-creatives-api-openapi.yml
+- filename: mediamath-reporting-api-v1-openapi.yml
+  format: yaml
+  label: MediaMath Reporting API V1
+  slug: mediamath-reporting-api-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-reporting-api-v1-openapi.yml
+- filename: mediamath-video-creatives-api-openapi.yml
+  format: yaml
+  label: MediaMath Video Creatives API
+  slug: mediamath-video-creatives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/mediamath-video-creatives-api-openapi.yml
 consequence_counts:
   read: 119
   write: 88

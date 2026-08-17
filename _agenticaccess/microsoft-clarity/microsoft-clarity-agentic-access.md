@@ -41,4 +41,9 @@ tags:
 - Heatmaps
 - Session Recording
 - Web Analytics
+- Behavioral Analytics
+- Product Analytics
+- User Experience
+- Data Export
+- MCP
 ---

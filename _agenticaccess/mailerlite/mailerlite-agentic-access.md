@@ -91,4 +91,10 @@ tags:
 - Automation
 - Newsletters
 - Subscribers
+- Campaigns
+- Webhooks
+- E-commerce
+- Segmentation
+- Transactional Email
+- MCP
 ---

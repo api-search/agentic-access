@@ -28,6 +28,12 @@ api_specs:
   slug: triple-whale-data-out-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-data-out-api-openapi.yml
+- filename: triple-whale-bi-benchmarks-openapi.json
+  format: json
+  label: Triple Whale Benchmarks API
+  slug: triple-whale-benchmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-bi-benchmarks-openapi.json
 consequence_counts:
   physical: 5
   read: 1

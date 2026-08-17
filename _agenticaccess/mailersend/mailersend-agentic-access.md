@@ -101,4 +101,12 @@ tags:
 - SMTP
 - Marketing
 - Communications
+- SMS
+- Messaging
+- Templates
+- Webhooks
+- Email Verification
+- Deliverability
+- Analytics
+- MCP
 ---

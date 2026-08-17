@@ -124,4 +124,10 @@ tags:
 - Custom Actions
 - HIPAA
 - SOC 2
+- MCP
+- Agent Skills
+- Conversational AI
+- SIP
+- Simulations
+- Knowledge Base
 ---

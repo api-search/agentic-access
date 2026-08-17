@@ -87,4 +87,9 @@ tags:
 - Customer Data Platform
 - Analytics
 - Email
+- SMS
+- Transactional Email
+- Webhooks
+- MCP
+- Push Notifications
 ---

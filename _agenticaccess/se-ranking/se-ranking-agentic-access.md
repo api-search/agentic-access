@@ -120,4 +120,7 @@ tags:
 - AI Search
 - GEO
 - Digital Marketing
+- MCP
+- AI Agents
+- Agent Skills
 ---

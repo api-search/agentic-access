@@ -82,6 +82,18 @@ api_specs:
   slug: omnisend-segments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-segments-api-openapi.yml
+- filename: omnisend-automations-api-openapi.yml
+  format: yaml
+  label: Omnisend Automations API
+  slug: omnisend-automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-automations-api-openapi.yml
+- filename: omnisend-event-metadata-api-openapi.yml
+  format: yaml
+  label: Omnisend Event Metadata API
+  slug: omnisend-event-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-event-metadata-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 22
@@ -154,4 +166,9 @@ tags:
 - Forms
 - Popups
 - Web Push
+- Automation Workflows
+- Analytics
+- MCP
+- Agent Ready
+- Transactional Messaging
 ---

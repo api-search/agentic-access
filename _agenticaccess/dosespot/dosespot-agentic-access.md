@@ -4,6 +4,18 @@ action_class_counts:
   acting: 6
   connected: 11
 api_specs:
+- filename: dosespot-rest-api-jumpstart-epcs-v2-swagger.json
+  format: json
+  label: DoseSpot REST API - JumpStart + EPCS - V2
+  slug: dosespot-rest-api-jumpstart-epcs-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/_original/dosespot-rest-api-jumpstart-epcs-v2-swagger.json
+- filename: dosespot-rest-api-full-epcs-v2-swagger.json
+  format: json
+  label: DoseSpot REST API - Full + EPCS - V2
+  slug: dosespot-rest-api-full-epcs-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/openapi/_original/dosespot-rest-api-full-epcs-v2-swagger.json
 - filename: dosespot-medications-api-openapi.yml
   format: yaml
   label: DoseSpot Medications API
@@ -80,4 +92,13 @@ tags:
 - EHR
 - Pharmacy
 - EPCS
+- Prescriptions
+- Clinical
+- Medications
+- Prior Authorization
+- Surescripts
+- Medi-Span
+- Telehealth
+- PDMP
+- Digital Health
 ---

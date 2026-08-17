@@ -73,5 +73,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/veeva-
   \ none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/agentic-access/veeva-agentic-access.yml
 summary_line: 15 operations · 8 acting
-tags: []
+tags:
+- Life Sciences
+- Pharmaceutical
+- Clinical Trials
+- Regulatory
+- Quality Management
+- Document Management
+- Content Management
+- Healthcare
+- SaaS
+- Enterprise
+- MCP
+- Agents
 ---

@@ -78,4 +78,9 @@ tags:
 - Privacy
 - Statistics
 - Web Analytics
+- Open Source
+- Self-Hosted
+- Events
+- Data Export
+- Developer Tools
 ---

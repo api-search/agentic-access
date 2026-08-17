@@ -4,6 +4,18 @@ action_class_counts:
   acting: 6
   connected: 4
 api_specs:
+- filename: google-search-console-url-testing-tools-api-openapi.yml
+  format: yaml
+  label: Google Search Console URL Testing Tools API
+  slug: google-search-console-url-testing-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-url-testing-tools-api-openapi.yml
+- filename: google-search-console-indexing-api-openapi.yml
+  format: yaml
+  label: Google Indexing API
+  slug: google-indexing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-indexing-api-openapi.yml
 - filename: google-search-console-search-analytics-api-openapi.yml
   format: yaml
   label: Google Search Console Search Analytics API
@@ -63,7 +75,11 @@ summary_line: 10 operations · 6 acting
 tags:
 - Analytics
 - Google
+- Indexing
 - Search
+- Search Analytics
 - SEO
+- Sitemaps
+- URL Inspection
 - Webmaster Tools
 ---

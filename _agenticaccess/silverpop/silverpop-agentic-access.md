@@ -84,4 +84,10 @@ tags:
 - Marketing Automation
 - Campaign Management
 - Digital Marketing
+- Transactional Email
+- SMS
+- Customer Data
+- Contact Management
+- Mobile Push
+- Marketing Analytics
 ---

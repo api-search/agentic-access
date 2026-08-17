@@ -485,5 +485,11 @@ tags:
 - Inside Sales
 - Calling
 - SMS
+- WhatsApp
+- Sales Automation
+- Pipeline Management
+- AI Agents
+- MCP
+- Webhooks
 - SaaS
 ---

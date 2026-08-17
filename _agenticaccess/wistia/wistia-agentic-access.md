@@ -4,6 +4,24 @@ action_class_counts:
   acting: 32
   connected: 16
 api_specs:
+- filename: wistia-data-api-v1-openapi.yml
+  format: yaml
+  label: Wistia Data API
+  slug: data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-data-api-v1-openapi.yml
+- filename: wistia-data-api-2026-01-openapi.yml
+  format: yaml
+  label: Wistia Data API 2026-01
+  slug: data-api-2026-01
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-data-api-2026-01-openapi.yml
+- filename: wistia-data-api-modern-edge-openapi.yml
+  format: yaml
+  label: Wistia Data API (modern, edge)
+  slug: data-api-modern-edge
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-data-api-modern-edge-openapi.yml
 - filename: wistia-asyncapi.yml
   format: yaml
   label: Wistia Webhooks
@@ -126,4 +144,8 @@ tags:
 - Lead Generation
 - Webinars
 - B2B Marketing
+- Video Captions
+- Localization
+- MCP
+- Media Management
 ---

@@ -4,6 +4,18 @@ action_class_counts:
   acting: 3
   connected: 8
 api_specs:
+- filename: cerner-millennium-fhir-r4-openapi.yml
+  format: yaml
+  label: Oracle Health Millennium Platform FHIR R4 API
+  slug: oracle-health-millennium-fhir-r4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-millennium-fhir-r4-openapi.yml
+- filename: cerner-millennium-bulk-data-openapi.yml
+  format: yaml
+  label: Oracle Health Millennium Bulk FHIR API
+  slug: oracle-health-bulk-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-millennium-bulk-data-openapi.yml
 - filename: cerner-capability-api-openapi.yml
   format: yaml
   label: Cerner (Oracle Health) Capability API
@@ -58,14 +70,14 @@ name: Cerner Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 11
-overview: 'Cerner (Oracle Health) exposes 11 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Oracle Health (Cerner) exposes 11 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 8 read and 3 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: Cerner (Oracle Health)
+provider_name: Oracle Health (Cerner)
 provider_slug: cerner
 slug: cerner-agentic-access
 source_filename: cerner-agentic-access.yml
@@ -78,18 +90,28 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cerner
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/agentic-access/cerner-agentic-access.yml
 summary_line: 11 operations · 3 acting
 tags:
+- Bulk FHIR
+- CapabilityStatement
+- CareAware
 - Cerner Millennium
+- Clinical Data
 - Code Console
 - EHR
 - Electronic Health Records
 - FHIR
+- Fortune 1000
 - HL7
+- HL7 v2
 - Healthcare
 - Interoperability
+- Millennium Platform
+- Multi-Tenant
 - OAuth 2.0
+- Oracle
 - Oracle Health
 - Patient Access
 - Provider Directory
+- SMART Backend Services
 - SMART on FHIR
-- Fortune 1000
+- US Core
 ---

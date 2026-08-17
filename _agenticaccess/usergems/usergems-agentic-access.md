@@ -62,4 +62,6 @@ tags:
 - CRM
 - Revenue Operations
 - GTM
+- MCP
+- AI Agents
 ---

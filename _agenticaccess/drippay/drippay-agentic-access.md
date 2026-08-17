@@ -327,4 +327,9 @@ tags:
 - MCP
 - CRM
 - Sales Automation
+- Agentic Payments
+- x402
+- Staffing
+- Recruiting
+- Outbound Sales
 ---

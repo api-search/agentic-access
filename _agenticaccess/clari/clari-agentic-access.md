@@ -4,6 +4,12 @@ action_class_counts:
   acting: 7
   connected: 8
 api_specs:
+- filename: clari-copilot-api-openapi.yml
+  format: yaml
+  label: Clari Copilot API
+  slug: clari-copilot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-copilot-api-openapi.yml
 - filename: clari-activity-api-api-openapi.yml
   format: yaml
   label: Clari Activity API API
@@ -110,4 +116,9 @@ tags:
 - Conversation Intelligence
 - B2B
 - Enterprise
+- MCP
+- Agents
+- Sales Engagement
+- Bulk Export
+- Data Ingestion
 ---

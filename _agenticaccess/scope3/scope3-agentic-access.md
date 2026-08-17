@@ -4,6 +4,18 @@ action_class_counts:
   acting: 17
   connected: 13
 api_specs:
+- filename: scope3-buyer-openapi-original.yml
+  format: yaml
+  label: Scope3 Interchange Buyer API
+  slug: scope3-interchange-buyer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/_original/scope3-buyer-openapi-original.yml
+- filename: scope3-storefront-openapi-original.yml
+  format: yaml
+  label: Scope3 Interchange Storefront API
+  slug: scope3-interchange-storefront-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/_original/scope3-storefront-openapi-original.yml
 - filename: scope3-ai-impact-measurement-api-openapi.yml
   format: yaml
   label: Scope3 AI Impact Measurement API
@@ -135,4 +147,9 @@ tags:
 - Measurement
 - Artificial Intelligence
 - Agentic
+- AdCP
+- MCP
+- Programmatic
+- Media Buying
+- Publishing
 ---

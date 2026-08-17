@@ -27,6 +27,12 @@ api_specs:
   slug: tebra-patient-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-patient-api-openapi.yml
+- filename: tebra-fhir-api-openapi.yml
+  format: yaml
+  label: Tebra FHIR API
+  slug: tebra-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-fhir-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -140,4 +140,12 @@ tags:
 - Prescriptions
 - Lab Integration
 - FHIR
+- SMART on FHIR
+- USCDI
+- Interoperability
+- Webhooks
+- OAuth 2.0
+- ONC Certified
+- Telehealth
+- Revenue Cycle Management
 ---

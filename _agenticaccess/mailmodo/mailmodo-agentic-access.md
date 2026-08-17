@@ -34,6 +34,24 @@ api_specs:
   slug: mailmodo-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-templates-api-openapi.yml
+- filename: mailmodo-user-journeys-api-openapi.yml
+  format: yaml
+  label: Mailmodo User Journeys API
+  slug: mailmodo-user-journeys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-user-journeys-api-openapi.yml
+- filename: mailmodo-dynamic-form-api-openapi.yml
+  format: yaml
+  label: Mailmodo Dynamic Form API
+  slug: mailmodo-dynamic-form-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-dynamic-form-api-openapi.yml
+- filename: mailmodo-repeatable-block-api-openapi.yml
+  format: yaml
+  label: Mailmodo Repeatable Block API
+  slug: mailmodo-repeatable-block-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-repeatable-block-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4

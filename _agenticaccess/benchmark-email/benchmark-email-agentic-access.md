@@ -178,6 +178,12 @@ api_specs:
   slug: benchmark-email-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-webhooks-api-openapi.yml
+- filename: benchmark-email-api-openapi.json
+  format: json
+  label: Benchmark Email API
+  slug: benchmark-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-api-openapi.json
 consequence_counts:
   physical: 6
   read: 166
@@ -297,4 +303,12 @@ tags:
 - Automation
 - Transactional Email
 - Marketing
+- Lists
+- Segmentation
+- Reporting
+- Deliverability
+- Sending Domains
+- Email Templates
+- Webhooks
+- Agent Ready
 ---

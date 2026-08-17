@@ -171,4 +171,11 @@ tags:
 - Email Marketing
 - Marketing Automation
 - Multi-Channel Marketing
+- Transactional Messaging
+- Customer Data
+- Adobe Experience Cloud
+- SMS
+- Push Notifications
+- Workflow Automation
+- Privacy
 ---

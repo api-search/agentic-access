@@ -10,27 +10,45 @@ api_specs:
   slug: pverify-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-authentication-api-openapi.yml
-- filename: pverify-batch-api-openapi.yml
-  format: yaml
-  label: pVerify Batch API
-  slug: pverify-batch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-batch-api-openapi.yml
-- filename: pverify-claim-status-api-openapi.yml
-  format: yaml
-  label: pVerify Claim Status API
-  slug: pverify-claim-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-claim-status-api-openapi.yml
 - filename: pverify-eligibility-api-openapi.yml
   format: yaml
   label: pVerify Eligibility API
   slug: pverify-eligibility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-eligibility-api-openapi.yml
+- filename: pverify-dental-eligibility-api-openapi.yml
+  format: yaml
+  label: pVerify Dental Eligibility API
+  slug: pverify-dental-eligibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-dental-eligibility-api-openapi.yml
+- filename: pverify-insurance-discovery-api-openapi.yml
+  format: yaml
+  label: pVerify Insurance Discovery API
+  slug: pverify-insurance-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-insurance-discovery-api-openapi.yml
+- filename: pverify-mbi-lookup-api-openapi.yml
+  format: yaml
+  label: pVerify MBI Lookup API
+  slug: pverify-mbi-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-mbi-lookup-api-openapi.yml
+- filename: pverify-patient-demographic-validator-api-openapi.yml
+  format: yaml
+  label: pVerify Patient Demographic Validator API
+  slug: pverify-patient-demographic-validator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-patient-demographic-validator-api-openapi.yml
+- filename: pverify-claim-status-api-openapi.yml
+  format: yaml
+  label: pVerify Claim Status API
+  slug: pverify-claim-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-claim-status-api-openapi.yml
 - filename: pverify-estimation-api-openapi.yml
   format: yaml
-  label: pVerify Estimation API
+  label: pVerify Patient Cost Estimator API
   slug: pverify-estimation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-estimation-api-openapi.yml
@@ -40,6 +58,30 @@ api_specs:
   slug: pverify-payers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-payers-api-openapi.yml
+- filename: pverify-cgx-widget-api-openapi.yml
+  format: yaml
+  label: pVerify CGX Widget API
+  slug: pverify-cgx-widget-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-cgx-widget-api-openapi.yml
+- filename: pverify-same-or-similar-api-openapi.yml
+  format: yaml
+  label: pVerify Same or Similar API (discontinued)
+  slug: pverify-same-or-similar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-same-or-similar-api-openapi.yml
+- filename: pverify-cmn-api-openapi.yml
+  format: yaml
+  label: pVerify CMN API (discontinued)
+  slug: pverify-cmn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-cmn-api-openapi.yml
+- filename: pverify-snf-api-openapi.yml
+  format: yaml
+  label: pVerify SNF API (discontinued)
+  slug: pverify-snf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-snf-api-openapi.yml
 consequence_counts:
   read: 3
   write: 7
@@ -78,4 +120,12 @@ tags:
 - Claims
 - EDI
 - 270/271
+- 276/277
+- Revenue Cycle
+- Medicare
+- Payers
+- Insurance Discovery
+- Patient Estimation
+- HIPAA
+- Dental
 ---

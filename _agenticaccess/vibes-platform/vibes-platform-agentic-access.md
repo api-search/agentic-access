@@ -4,6 +4,18 @@ action_class_counts:
   acting: 12
   connected: 10
 api_specs:
+- filename: vibes-platform-api-openapi.json
+  format: json
+  label: Vibes Platform API
+  slug: vibes-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-api-openapi.json
+- filename: vibes-platform-rcs-business-messaging-openapi.json
+  format: json
+  label: Vibes RCS Business Messaging API
+  slug: vibes-rcs-business-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/openapi/vibes-platform-rcs-business-messaging-openapi.json
 - filename: vibes-platform-acquisition-campaigns-api-openapi.yml
   format: yaml
   label: Vibes Platform Acquisition Campaigns API

@@ -89,8 +89,12 @@ summary_line: 18 operations · 12 acting
 tags:
 - Analytics
 - Cookie-Free
+- Event Tracking
 - GDPR
+- Goal Conversions
 - Open Source
 - Privacy
+- Self-Hosted
+- Site Management
 - Web Analytics
 ---

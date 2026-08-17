@@ -193,4 +193,10 @@ tags:
 - Sales Intelligence
 - Contact Management
 - Webhooks
+- Buyer Intelligence
+- MCP
+- Agent Tooling
+- CLI
+- SCIM
+- Signal Intelligence
 ---

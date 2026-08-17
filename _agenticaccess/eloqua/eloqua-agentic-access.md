@@ -136,6 +136,12 @@ api_specs:
   slug: eloqua-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/openapi/eloqua-users-api-openapi.yml
+- filename: eloqua-published-swagger.json
+  format: json
+  label: Oracle Eloqua REST API (Oracle-published contract)
+  slug: eloqua-published-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/openapi/eloqua-published-swagger.json
 consequence_counts:
   physical: 1
   read: 48
@@ -208,4 +214,10 @@ tags:
 - Email Marketing
 - Lead Management
 - Marketing Automation
+- Campaign Management
+- Bulk Data
+- Landing Pages
+- Forms
+- Reporting
+- B2B Marketing
 ---

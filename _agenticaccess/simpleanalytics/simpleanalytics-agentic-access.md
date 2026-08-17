@@ -63,4 +63,7 @@ tags:
 - Privacy
 - Cookieless
 - GDPR
+- Events
+- Data Export
+- Europe
 ---

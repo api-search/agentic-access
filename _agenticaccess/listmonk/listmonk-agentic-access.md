@@ -126,6 +126,13 @@ tags:
 - Email
 - Newsletter
 - Mailing List
+- Marketing
+- Transactional Email
+- Campaigns
+- Subscribers
+- Bounce Handling
 - Open Source
 - Self-Hosted
+- Go
+- PostgreSQL
 ---

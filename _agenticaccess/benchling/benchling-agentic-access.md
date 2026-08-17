@@ -346,6 +346,12 @@ api_specs:
   slug: benchling-workflow-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-workflow-tasks-api-openapi.yml
+- filename: benchling-v3-openapi.yaml
+  format: yaml
+  label: Benchling API v3
+  slug: benchling-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-v3-openapi.yaml
 consequence_counts:
   physical: 11
   read: 168

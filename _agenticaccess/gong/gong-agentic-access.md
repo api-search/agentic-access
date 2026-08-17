@@ -215,4 +215,10 @@ tags:
 - Conversation
 - Analytics
 - AI
+- Conversation Intelligence
+- Sales Engagement
+- CRM
+- Forecasting
+- Transcription
+- Agents
 ---

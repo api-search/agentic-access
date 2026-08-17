@@ -4,6 +4,12 @@ action_class_counts:
   acting: 15
   connected: 12
 api_specs:
+- filename: leanplum-api-openapi.json
+  format: json
+  label: Leanplum API
+  slug: leanplum-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/openapi/leanplum-api-openapi.json
 - filename: leanplum-a-b-tests-api-openapi.yml
   format: yaml
   label: Leanplum A/B Tests API

@@ -58,6 +58,12 @@ api_specs:
   slug: canva-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-users-api-openapi.yml
+- filename: canva-connect-api-openapi.yml
+  format: yaml
+  label: Canva Connect API
+  slug: canva-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-connect-api-openapi.yml
 consequence_counts:
   read: 13
   write: 9

@@ -21,6 +21,24 @@ api_specs:
   slug: yoast-seo-head-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-seo-head-api-openapi.yml
+- filename: yoast-abilities-api-openapi.yml
+  format: yaml
+  label: Yoast SEO Abilities API
+  slug: yoast-abilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-abilities-api-openapi.yml
+- filename: yoast-schema-aggregator-openapi.yml
+  format: yaml
+  label: Yoast Schema Aggregator API
+  slug: yoast-schema-aggregator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-schema-aggregator-openapi.yml
+- filename: yoast-myyoast-provisioning-openapi.yml
+  format: yaml
+  label: MyYoast Provisioning API
+  slug: myyoast-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-myyoast-provisioning-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -55,4 +73,9 @@ tags:
 - Content Optimization
 - Schema
 - Metadata
+- Structured Data
+- Headless CMS
+- Content Analysis
+- Agent Readiness
+- Plugins
 ---

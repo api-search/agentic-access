@@ -65,6 +65,11 @@ summary_line: 4 operations · 1 acting
 tags:
 - Direct Mail
 - Handwritten
+- Handwritten Notes
+- Cards
 - Marketing
 - Notes
+- Print
+- Fulfillment
+- Customer Engagement
 ---

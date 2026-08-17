@@ -21,6 +21,18 @@ api_specs:
   slug: ezoic-purchases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-purchases-api-openapi.yml
+- filename: ezoic-big-data-analytics-api-openapi.yml
+  format: yaml
+  label: ezoic Big Data Analytics API
+  slug: ezoic-big-data-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-big-data-analytics-api-openapi.yml
+- filename: ezoic-cdn-api-openapi.yml
+  format: yaml
+  label: ezoic CDN API
+  slug: ezoic-cdn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-cdn-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -55,7 +67,13 @@ tags:
 - AdTech
 - Publisher Monetization
 - Analytics
+- Reporting
 - Subscriptions
+- Paywalls
 - Identity
+- CDN
+- Caching
 - MCP
+- OAuth
+- Agents
 ---

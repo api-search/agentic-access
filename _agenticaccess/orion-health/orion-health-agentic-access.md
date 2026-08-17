@@ -1,0 +1,272 @@
+---
+acting_count: 22
+action_class_counts:
+  acting: 22
+  connected: 69
+api_specs:
+- filename: orion-health-alerts-api-openapi.yml
+  format: yaml
+  label: Orion Health Alerts API
+  slug: orion-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-alerts-api-openapi.yml
+- filename: orion-health-allergyintolerance-api-openapi.yml
+  format: yaml
+  label: Orion Health AllergyIntolerance API
+  slug: orion-allergyintolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-allergyintolerance-api-openapi.yml
+- filename: orion-health-analytics-api-openapi.yml
+  format: yaml
+  label: Orion Health Analytics API
+  slug: orion-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-analytics-api-openapi.yml
+- filename: orion-health-audit-api-openapi.yml
+  format: yaml
+  label: Orion Health Audit API
+  slug: orion-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-audit-api-openapi.yml
+- filename: orion-health-care-programs-api-openapi.yml
+  format: yaml
+  label: Orion Health Care Programs API
+  slug: orion-care-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-care-programs-api-openapi.yml
+- filename: orion-health-careplan-api-openapi.yml
+  format: yaml
+  label: Orion Health CarePlan API
+  slug: orion-careplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-careplan-api-openapi.yml
+- filename: orion-health-cohorts-api-openapi.yml
+  format: yaml
+  label: Orion Health Cohorts API
+  slug: orion-cohorts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-cohorts-api-openapi.yml
+- filename: orion-health-communication-points-api-openapi.yml
+  format: yaml
+  label: Orion Health Communication Points API
+  slug: orion-communication-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-communication-points-api-openapi.yml
+- filename: orion-health-condition-api-openapi.yml
+  format: yaml
+  label: Orion Health Condition API
+  slug: orion-condition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-condition-api-openapi.yml
+- filename: orion-health-configuration-api-openapi.yml
+  format: yaml
+  label: Orion Health Configuration API
+  slug: orion-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-configuration-api-openapi.yml
+- filename: orion-health-consent-api-openapi.yml
+  format: yaml
+  label: Orion Health Consent API
+  slug: orion-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-consent-api-openapi.yml
+- filename: orion-health-diagnosticreport-api-openapi.yml
+  format: yaml
+  label: Orion Health DiagnosticReport API
+  slug: orion-diagnosticreport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-diagnosticreport-api-openapi.yml
+- filename: orion-health-documentreference-api-openapi.yml
+  format: yaml
+  label: Orion Health DocumentReference API
+  slug: orion-documentreference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-documentreference-api-openapi.yml
+- filename: orion-health-documents-api-openapi.yml
+  format: yaml
+  label: Orion Health Documents API
+  slug: orion-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-documents-api-openapi.yml
+- filename: orion-health-encounter-api-openapi.yml
+  format: yaml
+  label: Orion Health Encounter API
+  slug: orion-encounter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-encounter-api-openapi.yml
+- filename: orion-health-immunization-api-openapi.yml
+  format: yaml
+  label: Orion Health Immunization API
+  slug: orion-immunization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-immunization-api-openapi.yml
+- filename: orion-health-lookup-tables-api-openapi.yml
+  format: yaml
+  label: Orion Health Lookup Tables API
+  slug: orion-lookup-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-lookup-tables-api-openapi.yml
+- filename: orion-health-medicationrequest-api-openapi.yml
+  format: yaml
+  label: Orion Health MedicationRequest API
+  slug: orion-medicationrequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-medicationrequest-api-openapi.yml
+- filename: orion-health-message-queues-api-openapi.yml
+  format: yaml
+  label: Orion Health Message Queues API
+  slug: orion-message-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-message-queues-api-openapi.yml
+- filename: orion-health-messages-api-openapi.yml
+  format: yaml
+  label: Orion Health Messages API
+  slug: orion-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-messages-api-openapi.yml
+- filename: orion-health-metadata-api-openapi.yml
+  format: yaml
+  label: Orion Health Metadata API
+  slug: orion-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-metadata-api-openapi.yml
+- filename: orion-health-monitoring-api-openapi.yml
+  format: yaml
+  label: Orion Health Monitoring API
+  slug: orion-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-monitoring-api-openapi.yml
+- filename: orion-health-notifications-api-openapi.yml
+  format: yaml
+  label: Orion Health Notifications API
+  slug: orion-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-notifications-api-openapi.yml
+- filename: orion-health-observation-api-openapi.yml
+  format: yaml
+  label: Orion Health Observation API
+  slug: orion-observation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-observation-api-openapi.yml
+- filename: orion-health-patient-api-openapi.yml
+  format: yaml
+  label: Orion Health Patient API
+  slug: orion-patient-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-patient-api-openapi.yml
+- filename: orion-health-patient-identity-api-openapi.yml
+  format: yaml
+  label: Orion Health Patient Identity API
+  slug: orion-patient-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-patient-identity-api-openapi.yml
+- filename: orion-health-procedure-api-openapi.yml
+  format: yaml
+  label: Orion Health Procedure API
+  slug: orion-procedure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-procedure-api-openapi.yml
+- filename: orion-health-provider-directory-api-openapi.yml
+  format: yaml
+  label: Orion Health Provider Directory API
+  slug: orion-provider-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-provider-directory-api-openapi.yml
+- filename: orion-health-quality-measures-api-openapi.yml
+  format: yaml
+  label: Orion Health Quality Measures API
+  slug: orion-quality-measures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-quality-measures-api-openapi.yml
+- filename: orion-health-registries-api-openapi.yml
+  format: yaml
+  label: Orion Health Registries API
+  slug: orion-registries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-registries-api-openapi.yml
+- filename: orion-health-risk-stratification-api-openapi.yml
+  format: yaml
+  label: Orion Health Risk Stratification API
+  slug: orion-risk-stratification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-risk-stratification-api-openapi.yml
+- filename: orion-health-routes-api-openapi.yml
+  format: yaml
+  label: Orion Health Routes API
+  slug: orion-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/openapi/orion-health-routes-api-openapi.yml
+consequence_counts:
+  read: 69
+  safety-critical: 3
+  write: 19
+description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
+human_in_the_loop: 3
+kind: agentic-access
+layout: agentic-access
+method: generated
+name: Orion Health Agentic Access
+name_suffix: Agentic Access
+notable_actions:
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /communication-points/{commPointId}/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /consent/{consentId}/revoke
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /routes/{routeId}/stop
+operation_count: 91
+overview: 'Orion Health exposes 91 API operations that an AI agent could call, of which 22 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+
+
+  By consequence: 69 read, 19 write, and 3 safety-critical.
+
+
+  3 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
+
+
+  Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
+provider_name: Orion Health
+provider_slug: orion-health
+slug: orion-health-agentic-access
+source_filename: orion-health-agentic-access.yml
+source_heading: Agentic Access
+source_url: ''
+source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/orion-fhir-openapi.yml, openapi/orion-hie-openapi.yml, openapi/orion-population-health-openapi.yml,\n  openapi/orion-rhapsody-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 91\n  by_action_class:\n    connected: 69\n    acting: 22\n  by_consequence:\n    read: 69\n    write: 19\n    safety-critical: 3\n  human_in_the_loop_required: 3\noperations:\n- path: /metadata\n  method: get\n  operationId: getCapabilityStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Patient\n  method: get\n  operationId: searchPatients\n  x-agentic-access:\n    action-class: connected\n\
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Patient\n  method: post\n  operationId: createPatient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Patient/{id}\n  method: get\n  operationId: getPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Patient/{id}\n  method: put\n  operationId: updatePatient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
+  \ /Patient/{id}/_history\n  method: get\n  operationId: getPatientHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Encounter\n  method: get\n  operationId: searchEncounters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Encounter/{id}\n  method: get\n  operationId: getEncounter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Observation\n  method: get\n  operationId: searchObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Observation\n  method: post\n  operationId: createObservation\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Observation/{id}\n  method: get\n  operationId: getObservation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Condition\n  method: get\n  operationId: searchConditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Condition/{id}\n  method: get\n  operationId: getCondition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationRequest\n  method: get\n  operationId: searchMedicationRequests\n  x-agentic-access:\n    action-class: connected\n  \
+  \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationRequest/{id}\n  method: get\n  operationId: getMedicationRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /AllergyIntolerance\n  method: get\n  operationId: searchAllergyIntolerances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /AllergyIntolerance/{id}\n  method: get\n  operationId: getAllergyIntolerance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Procedure\n  method: get\n  operationId: searchProcedures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
+  - path: /Procedure/{id}\n  method: get\n  operationId: getProcedure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DiagnosticReport\n  method: get\n  operationId: searchDiagnosticReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DiagnosticReport/{id}\n  method: get\n  operationId: getDiagnosticReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /CarePlan\n  method: get\n  operationId: searchCarePlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /CarePlan/{id}\n  method: get\n  operationId: getCarePlan\n  x-agentic-access:\n    action-class: connected\n\
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Immunization\n  method: get\n  operationId: searchImmunizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Immunization/{id}\n  method: get\n  operationId: getImmunization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DocumentReference\n  method: get\n  operationId: searchDocumentReferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DocumentReference/{id}\n  method: get\n  operationId: getDocumentReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
+  - path: /patients/match\n  method: post\n  operationId: matchPatient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /patients/{patientId}/identifiers\n  method: get\n  operationId: getPatientIdentifiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patients/{patientId}/record-locator\n  method: get\n  operationId: locatePatientRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents\n  method: get\n  operationId: searchDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
+  \ token:\n      max-ttl: 3600\n    audit: none\n- path: /documents\n  method: post\n  operationId: submitDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{documentId}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consent\n  method: get\n  operationId: searchConsents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consent\n  method: post\n  operationId: createConsent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
+  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /consent/{consentId}\n  method: get\n  operationId: getConsent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consent/{consentId}\n  method: put\n  operationId: updateConsent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /consent/{consentId}/revoke\n  method: post\n  operationId: revokeConsent\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n    \
+  \  purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /providers\n  method: get\n  operationId: searchProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers/{providerId}\n  method: get\n  operationId: getProvider\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications\n  method: get\n  operationId: listNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications/subscriptions\n  method: get\n  operationId: listNotificationSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
+  \ max-ttl: 3600\n    audit: none\n- path: /notifications/subscriptions\n  method: post\n  operationId: createNotificationSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audit-logs\n  method: get\n  operationId: searchAuditLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registries\n  method: get\n  operationId: listRegistries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registries/{registryId}\n  method: get\n  operationId: getRegistry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registries/{registryId}/patients\n  method: get\n  operationId: listRegistryPatients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risk-stratification/scores\n  method: get\n  operationId: listRiskScores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risk-stratification/scores/{patientId}\n  method: get\n  operationId: getPatientRiskScore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cohorts\n  method: get\n  operationId: listCohorts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cohorts\n\
+  \  method: post\n  operationId: createCohort\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cohorts/{cohortId}\n  method: get\n  operationId: getCohort\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cohorts/{cohortId}\n  method: put\n  operationId: updateCohort\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cohorts/{cohortId}\n  method: delete\n  operationId: deleteCohort\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cohorts/{cohortId}/analytics\n  method: get\n  operationId: getCohortAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /care-programs\n  method: get\n  operationId: listCarePrograms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /care-programs/{programId}\n  method: get\n  operationId: getCareProgram\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /care-programs/{programId}/enrollments\n  method: get\n  operationId: listProgramEnrollments\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /care-programs/{programId}/enrollments\n  method: post\n  operationId: enrollPatient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quality-measures\n  method: get\n  operationId: listQualityMeasures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quality-measures/{measureId}/results\n  method: get\n  operationId: getQualityMeasureResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alerts\n\
+  \  method: get\n  operationId: listAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alerts/{alertId}\n  method: put\n  operationId: updateAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/population-summary\n  method: get\n  operationId: getPopulationSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/utilization\n  method: get\n  operationId: getUtilizationAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
+  \ none\n- path: /routes\n  method: get\n  operationId: listRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routes/{routeId}\n  method: get\n  operationId: getRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routes/{routeId}/start\n  method: post\n  operationId: startRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /routes/{routeId}/stop\n  method: post\n  operationId: stopRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
+  \ 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /routes/{routeId}/restart\n  method: post\n  operationId: restartRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /routes/{routeId}/statistics\n  method: get\n  operationId: getRouteStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communication-points\n  method: get\n  operationId: listCommunicationPoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communication-points/{commPointId}\n\
+  \  method: get\n  operationId: getCommunicationPoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communication-points/{commPointId}/start\n  method: post\n  operationId: startCommunicationPoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /communication-points/{commPointId}/stop\n  method: post\n  operationId: stopCommunicationPoint\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\
+  - path: /queues\n  method: get\n  operationId: listQueues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queues/{queueId}\n  method: get\n  operationId: getQueue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queues/{queueId}/messages\n  method: get\n  operationId: listQueueMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messages/{messageId}\n  method: get\n  operationId: getMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messages/search\n  method: get\n  operationId: searchMessages\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messages/{messageId}/reprocess\n  method: post\n  operationId: reprocessMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /monitoring/dashboard\n  method: get\n  operationId: getMonitoringDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitoring/health\n  method: get\n  operationId: getHealthStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitoring/alerts\n  method: get\n  operationId: listMonitoringAlerts\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitoring/alerts/{alertId}/acknowledge\n  method: post\n  operationId: acknowledgeAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lookup-tables\n  method: get\n  operationId: listLookupTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup-tables/{tableId}\n  method: get\n  operationId: getLookupTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookup-tables/{tableId}\n  method: put\n  operationId:\
+  \ updateLookupTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lookup-tables/{tableId}/lookup\n  method: get\n  operationId: lookupValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /configuration/engine\n  method: get\n  operationId: getEngineConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /configuration/components\n  method: get\n  operationId: listComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/agentic-access/orion-health-agentic-access.yml
+summary_line: 91 operations · 22 acting · 3 human-in-the-loop
+tags:
+- Health
+- Public APIs
+---

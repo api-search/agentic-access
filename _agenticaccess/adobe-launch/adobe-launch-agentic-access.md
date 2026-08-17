@@ -28,12 +28,12 @@ api_specs:
   slug: adobe-launch-data-elements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-data-elements-api-openapi.yml
-- filename: adobe-launch-edge-network-api-api-openapi.yml
+- filename: adobe-launch-edge-network-published-openapi.yml
   format: yaml
   label: Adobe Launch Edge Network API API
   slug: adobe-launch-edge-network-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-edge-network-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-edge-network-published-openapi.yml
 - filename: adobe-launch-environments-api-openapi.yml
   format: yaml
   label: Adobe Launch Environments API
@@ -64,12 +64,12 @@ api_specs:
   slug: adobe-launch-libraries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-libraries-api-openapi.yml
-- filename: adobe-launch-media-edge-api-api-openapi.yml
+- filename: adobe-launch-media-edge-published-openapi.yml
   format: yaml
   label: Adobe Launch Media Edge API API
   slug: adobe-launch-media-edge-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-media-edge-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-media-edge-published-openapi.yml
 - filename: adobe-launch-properties-api-openapi.yml
   format: yaml
   label: Adobe Launch Properties API
@@ -100,6 +100,12 @@ api_specs:
   slug: adobe-launch-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-secrets-api-openapi.yml
+- filename: adobe-launch-reactor-api-published-openapi.yml
+  format: yaml
+  label: Adobe Launch Reactor API
+  slug: adobe-launch-reactor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/adobe-launch-reactor-api-published-openapi.yml
 consequence_counts:
   physical: 6
   read: 70

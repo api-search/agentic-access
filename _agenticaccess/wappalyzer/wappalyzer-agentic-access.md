@@ -4,6 +4,18 @@ action_class_counts:
   acting: 3
   connected: 6
 api_specs:
+- filename: wappalyzer-v2-public-openapi.yaml
+  format: yaml
+  label: Wappalyzer Public API
+  slug: wappalyzer-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/openapi/_original/wappalyzer-v2-public-openapi.yaml
+- filename: wappalyzer-metadata-api-openapi.yml
+  format: yaml
+  label: Wappalyzer Metadata API
+  slug: wappalyzer-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/openapi/wappalyzer-metadata-api-openapi.yml
 - filename: wappalyzer-basics-api-openapi.yml
   format: yaml
   label: Wappalyzer Basics API
@@ -72,4 +84,7 @@ tags:
 - Framework Detection
 - Lead Enrichment
 - Sales Intelligence
+- Subdomain Discovery
+- Email Verification
+- Market Research
 ---

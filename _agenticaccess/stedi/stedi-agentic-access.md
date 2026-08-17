@@ -130,6 +130,24 @@ api_specs:
   slug: stedi-x12-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-x12-api-openapi.yml
+- filename: stedi-batch-eligibility-check-api-openapi.yml
+  format: yaml
+  label: Stedi Batch Eligibility Check API
+  slug: stedi-batch-eligibility-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-batch-eligibility-check-api-openapi.yml
+- filename: stedi-eligibility-pdf-api-openapi.yml
+  format: yaml
+  label: Stedi Eligibility PDF API
+  slug: stedi-eligibility-pdf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-eligibility-pdf-api-openapi.yml
+- filename: stedi-event-destinations-api-openapi.yml
+  format: yaml
+  label: Stedi Event Destinations API
+  slug: stedi-event-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/openapi/stedi-event-destinations-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 44

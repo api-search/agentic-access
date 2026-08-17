@@ -86,4 +86,11 @@ tags:
 - Privacy
 - Web Analytics
 - Website Analytics
+- Product Analytics
+- Event Tracking
+- Self-Hosted
+- GDPR
+- Session Replay
+- Heatmaps
+- Marketing Attribution
 ---
