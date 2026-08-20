@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bureau
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/agentic-access/bureau-of-consular-affairs-agentic-access.yml
 summary_line: 18 operations · 3 acting
 tags:
-- Federal Government
+- Federal-Government
 - Passports
 - Travel
 - Travel Advisories

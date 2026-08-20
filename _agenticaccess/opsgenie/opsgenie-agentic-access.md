@@ -194,5 +194,4 @@ tags:
 - Incident Management
 - Monitoring
 - On-Call
-- Operations
 ---

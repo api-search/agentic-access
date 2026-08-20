@@ -236,14 +236,14 @@ tags:
 - Non-Fungible Tokens
 - Marketplace
 - Aggregator
-- Multichain
+- Multi-Chain
 - Ethereum
 - Polygon
 - Arbitrum
 - Flow
 - Web3
 - Blockchain
-- Collections
+- Collection
 - Order Book
 - Trading
 - Indexer

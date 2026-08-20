@@ -137,10 +137,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tienda
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/agentic-access/tiendanube-agentic-access.yml
 summary_line: 38 operations · 20 acting
 tags:
-- E-commerce
+- E-Commerce
 - Retail
 - Latin America
 - Storefront
-- Products
-- Orders
+- Product
+- Order
 ---

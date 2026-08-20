@@ -279,7 +279,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kernel-so/refs
 summary_line: 133 operations · 82 acting · 13 human-in-the-loop
 tags:
 - Agents
-- AI
 - Artificial Intelligence
 - Browser Automation
 - Browsers

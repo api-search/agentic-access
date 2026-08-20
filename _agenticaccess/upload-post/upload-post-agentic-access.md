@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/upload
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/agentic-access/upload-post-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
-- Social Media
+- Social-Media
 - Publishing
 - Video
 - Content

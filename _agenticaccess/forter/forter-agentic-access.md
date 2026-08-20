@@ -86,7 +86,7 @@ tags:
 - Payments
 - Chargebacks
 - Account Protection
-- E-commerce
+- E-Commerce
 - Risk
-- Machine Learning
+- Machine-Learning
 ---

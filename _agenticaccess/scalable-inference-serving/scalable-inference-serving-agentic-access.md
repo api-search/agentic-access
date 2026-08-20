@@ -59,13 +59,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kserve
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/agentic-access/scalable-inference-serving-agentic-access.yml
 summary_line: 9 operations · 2 acting
 tags:
-- AI
+- Artificial Intelligence
 - CNCF
 - Deployment
 - Inference
 - Kubernetes
 - LLM
-- Machine Learning
+- Machine-Learning
 - Model Serving
 - MLOps
 - Scalability

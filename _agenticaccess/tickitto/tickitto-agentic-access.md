@@ -101,7 +101,7 @@ summary_line: 22 operations · 12 acting
 tags:
 - Company
 - Ticketing
-- Events
+- Event
 - Marketplace
 - Travel & Experiences
 - Entertainment

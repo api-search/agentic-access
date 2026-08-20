@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valueray/refs/
 summary_line: 1 operation
 tags:
 - AI/LLM
-- ETF
+- ETFs
 - Financial Data
 - Quantitative
 - Stocks

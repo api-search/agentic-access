@@ -63,7 +63,6 @@ tags:
 - Identity Verification
 - KYC
 - MCP
-- OAuth
 - Security
 - Solana
 - Web3

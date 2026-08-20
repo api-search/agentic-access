@@ -86,8 +86,8 @@ summary_line: 21 operations
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Fashion
 - Trend Forecasting
 - Demand Forecasting

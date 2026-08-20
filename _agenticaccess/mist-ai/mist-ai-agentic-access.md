@@ -1451,9 +1451,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mist-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mist-ai/refs/heads/main/agentic-access/mist-ai-agentic-access.yml
 summary_line: 1037 operations · 521 acting · 15 human-in-the-loop
 tags:
-- AI
-- AIOps
 - Artificial Intelligence
+- AIOps
 - Networking
 - Wi-Fi
 - Wireless LAN
@@ -1463,7 +1462,7 @@ tags:
 - LAN
 - Access Points
 - Switches
-- Routers
+- Router
 - Marvis
 - NAC
 - Access Assurance

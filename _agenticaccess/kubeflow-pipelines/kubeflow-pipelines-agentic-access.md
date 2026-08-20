@@ -69,7 +69,7 @@ summary_line: 13 operations · 6 acting
 tags:
 - Data Science
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Orchestration
 - Pipelines

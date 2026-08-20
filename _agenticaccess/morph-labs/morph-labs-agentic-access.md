@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/morph-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/agentic-access/morph-labs-agentic-access.yml
 summary_line: 3 operations · 3 acting
 tags:
-- AI
+- Artificial Intelligence
 - Code Editing
 - Fast Apply
 - Embeddings

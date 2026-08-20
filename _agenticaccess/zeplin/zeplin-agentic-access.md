@@ -171,5 +171,5 @@ tags:
 - Style Guides
 - Components
 - Assets
-- Webhooks
+- Webhook
 ---

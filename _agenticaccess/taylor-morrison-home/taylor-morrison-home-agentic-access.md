@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taylor-morriso
 summary_line: 11 operations · 1 acting
 tags:
 - Homebuilding
-- Real Estate
+- Real-Estate
 - Fortune 1000
 - New Homes
 - Communities

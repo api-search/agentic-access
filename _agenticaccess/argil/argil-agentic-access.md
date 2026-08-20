@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/argil-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/agentic-access/argil-agentic-access.yml
 summary_line: 20 operations · 11 acting
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Avatars
 - Voice Cloning

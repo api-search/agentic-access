@@ -364,7 +364,7 @@ summary_line: 105 operations · 57 acting
 tags:
 - Membership Management
 - Associations
-- Nonprofit
-- Events
+- Non-Profit
+- Event
 - Payments
 ---

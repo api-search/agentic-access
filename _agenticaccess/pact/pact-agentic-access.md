@@ -67,6 +67,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pact/refs/head
 summary_line: 11 operations · 4 acting
 tags:
 - Contract Testing
-- Open Source
+- Open-Source
 - Testing
 ---

@@ -79,7 +79,7 @@ tags:
 - Delivery
 - Logistics
 - Third Party Logistics
-- Ecommerce
+- E-Commerce
 - Supply Chain
 - Bangladesh
 ---

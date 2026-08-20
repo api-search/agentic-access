@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jetic/refs/hea
 summary_line: 22 operations · 10 acting
 tags:
 - Apache Camel
-- Integrations
+- Integration
 - iPaaS
-- Pro-Code API Composition
+- Pro-Code-API-Composition
 ---

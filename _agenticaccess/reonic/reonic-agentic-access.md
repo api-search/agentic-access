@@ -243,7 +243,7 @@ tags:
 - Photovoltaic
 - Heat Pumps
 - Installer Software
-- SaaS
+- Software-as-a-Service
 - CRM
 - Project Management
 ---

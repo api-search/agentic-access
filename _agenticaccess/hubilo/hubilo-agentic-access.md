@@ -85,7 +85,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/he
 summary_line: 30 operations · 15 acting
 tags:
 - Company
-- Events
+- Event
 - Virtual Events
 - Webinars
 - Event Management

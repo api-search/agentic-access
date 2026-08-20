@@ -328,7 +328,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/adobe-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/agentic-access/adobe-suite-agentic-access.yml
 summary_line: 2861 operations · 1601 acting · 29 human-in-the-loop
 tags:
-- Ai
+- Artificial Intelligence
 - Analytics
 - Automation
 - Commerce

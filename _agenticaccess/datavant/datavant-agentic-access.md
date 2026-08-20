@@ -163,6 +163,6 @@ tags:
 - Medical Records
 - Release of Information
 - Privacy
-- OAuth 2.0
+- Authentication
 - Health Information Exchange
 ---

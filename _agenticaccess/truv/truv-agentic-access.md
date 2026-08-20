@@ -207,6 +207,6 @@ tags:
 - Employment Verification
 - Payroll
 - Direct Deposit
-- Consumer Permissioned Data
+- Consumer-Permissioned Data
 - Fintech
 ---

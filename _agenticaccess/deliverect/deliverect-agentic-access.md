@@ -380,7 +380,7 @@ tags:
 - Restaurant
 - Delivery
 - Online Ordering
-- Point of Sale
+- Point-of-Sale
 - Order Management
 - Integration
 ---

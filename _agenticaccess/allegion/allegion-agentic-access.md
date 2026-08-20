@@ -77,8 +77,8 @@ tags:
 - BLE
 - IoT
 - Security
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 - Schlage
 - Von Duprin
 - ENGAGE

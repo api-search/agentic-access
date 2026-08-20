@@ -172,8 +172,8 @@ summary_line: 81 operations · 40 acting · 1 human-in-the-loop
 tags:
 - Company
 - Commercial Real Estate
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - CRE Financing
 - Lending
 - CRM

@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lamini
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/agentic-access/lamini-agentic-access.yml
 summary_line: 12 operations · 9 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Fine-Tuning
 - Memory Tuning

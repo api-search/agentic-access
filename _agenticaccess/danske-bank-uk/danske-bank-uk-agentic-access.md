@@ -199,7 +199,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/danske
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/agentic-access/danske-bank-uk-agentic-access.yml
 summary_line: 81 operations · 26 acting
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

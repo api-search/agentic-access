@@ -62,7 +62,6 @@ summary_line: 8 operations · 4 acting
 tags:
 - Company
 - Consumer
-- API
 - Bookmarking
 - Resource Capture
 - Read It Later

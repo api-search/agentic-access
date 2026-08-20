@@ -179,7 +179,7 @@ tags:
 - Go
 - Java
 - Microservices
-- Open Source
+- Open-Source
 - RPC
 - Service Discovery
 - Service Mesh

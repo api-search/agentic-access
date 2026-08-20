@@ -107,9 +107,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/civita
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/agentic-access/civitai-agentic-access.yml
 summary_line: 29 operations · 9 acting
 tags:
-- AI
 - Artificial Intelligence
-- Image Generation
+- Image-Generation
 - Video Generation
 - Stable Diffusion
 - SDXL

@@ -123,7 +123,7 @@ tags:
 - Avatars
 - Company Enrichment
 - Contacts
-- Currencies
+- Currency
 - Email Validation
 - Exchange Rates
 - IBAN Validation

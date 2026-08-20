@@ -71,7 +71,7 @@ tags:
 - Crop Data
 - Field Boundaries
 - Harvest
-- OAuth2
+- Authentication
 - Planting
 - Precision Ag
 ---

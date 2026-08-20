@@ -54,12 +54,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osmosis/refs/h
 summary_line: 5 operations · 3 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Reinforcement Learning
 - LLM
 - Post-Training
 - Model Training
 - Agents
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 ---

@@ -73,6 +73,6 @@ summary_line: 9 operations · 1 acting
 tags:
 - Distributed Tracing
 - Observability
-- Open Source
+- Open-Source
 - Microservices
 ---

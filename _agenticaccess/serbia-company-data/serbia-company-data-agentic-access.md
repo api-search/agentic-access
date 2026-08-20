@@ -46,14 +46,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/_origi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serbia-company-data/refs/heads/main/agentic-access/serbia-company-data-agentic-access.yml
 summary_line: 3 operations · 1 acting
 tags:
-- serbia
-- company-data
-- business-registry
-- open-data
+- Serbia
+- Company Data
+- Business Registry
+- Open Data
 - x402
 - base-usdc
-- openapi
-- financial-statements
+- OpenAPI
+- Financial Statements
 - pay-per-call
 - agent-native
 ---

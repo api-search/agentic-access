@@ -127,10 +127,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openshift/refs
 summary_line: 42 operations · 22 acting
 tags:
 - CI/CD
-- Cloud Native
+- Cloud-Native
 - Containers
 - DevOps
 - Enterprise
 - Kubernetes
-- PaaS
+- Platform-as-a-Service
 ---

@@ -5,22 +5,10 @@ action_class_counts:
 api_specs:
 - filename: imperial-college-london-core-api-openapi.yml
   format: yaml
-  label: Imperial College London Core API
-  slug: imperial-college-london-core-api
+  label: Spiral Open Access Repository (DSpace 7 REST API)
+  slug: spiral-dspace-rest
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/openapi/imperial-college-london-core-api-openapi.yml
-- filename: imperial-college-london-discover-api-openapi.yml
-  format: yaml
-  label: Imperial College London Discover API
-  slug: imperial-college-london-discover-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/openapi/imperial-college-london-discover-api-openapi.yml
-- filename: imperial-college-london-root-api-openapi.yml
-  format: yaml
-  label: Imperial College London Root API
-  slug: imperial-college-london-root-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/openapi/imperial-college-london-root-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -45,18 +33,22 @@ slug: imperial-college-london-agentic-access
 source_filename: imperial-college-london-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/imperial-college-london-spiral.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/communities\n  method: get\n  operationId: getCommunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/communities/{uuid}\n  method: get\n  operationId: getCommunity\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/collections\n  method: get\n  operationId: getCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/collections/{uuid}\n  method: get\n  operationId: getCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/items/{uuid}\n  method: get\n  operationId: getItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dso/find\n  method: get\n  operationId: dsoFind\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
-  \ none\n- path: /discover/search/objects\n  method: get\n  operationId: searchObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/_original/imperial-college-london-spiral.yaml\nx-operator: tenant\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/communities\n  method: get\n  operationId: getCommunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/communities/{uuid}\n  method:\
+  \ get\n  operationId: getCommunity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/collections\n  method: get\n  operationId: getCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/collections/{uuid}\n  method: get\n  operationId: getCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/items/{uuid}\n  method: get\n  operationId: getItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dso/find\n  method: get\n  operationId: dsoFind\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
+  \      max-ttl: 3600\n    audit: none\n- path: /discover/search/objects\n  method: get\n  operationId: searchObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/agentic-access/imperial-college-london-agentic-access.yml
 summary_line: 8 operations
 tags:
-- Education
-- Higher Education
 - University
-- Research
+- Higher Education
+- Education
+- Russell Group
 - United Kingdom
+- London
+- Research
+- Institutional Repository
 - Open Access
-- Repository
-- Identity
+- Identity Federation
+- Learning Management
+- Library
 ---

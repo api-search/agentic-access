@@ -103,7 +103,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weave/refs/hea
 summary_line: 38 operations · 11 acting
 tags:
 - Company
-- Communication
+- Communications
 - Messaging
 - Payments
 - Healthcare
@@ -113,5 +113,5 @@ tags:
 - Scheduling
 - SMB
 - Developer Platform
-- OAuth
+- Authentication
 ---

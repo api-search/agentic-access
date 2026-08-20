@@ -208,5 +208,5 @@ tags:
 - LLM
 - ETL
 - Schema Inference
-- Webhooks
+- Webhook
 ---

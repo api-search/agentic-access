@@ -74,8 +74,8 @@ summary_line: 11 operations · 6 acting
 tags:
 - Analytics
 - Big Data
-- Cube
+- cube
 - OLAP
-- Open Source
+- Open-Source
 - SQL
 ---

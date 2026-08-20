@@ -231,7 +231,7 @@ summary_line: 165 operations · 68 acting · 3 human-in-the-loop
 tags:
 - Company
 - Social
-- Social Media
+- Social-Media
 - Posts
 - Real-Time
 - Streaming

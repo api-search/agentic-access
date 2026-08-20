@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kapa-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/agentic-access/kapa-ai-agentic-access.yml
 summary_line: 20 operations · 7 acting
 tags:
-- AI
+- Artificial Intelligence
 - Answer Engine
 - RAG
 - Documentation

@@ -208,15 +208,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hookde
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/agentic-access/hookdeck-agentic-access.yml
 summary_line: 116 operations · 62 acting · 7 human-in-the-loop
 tags:
-- Webhooks
+- Webhook
 - Event Gateways
 - Gateways
-- Events
+- Event
 - Event Infrastructure
 - Event-Driven
 - Messaging
 - Queues
 - Retries
-- Transformations
+- Transformation
 - Observability
 ---

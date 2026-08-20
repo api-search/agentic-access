@@ -131,7 +131,7 @@ tags:
 - Campaigns
 - Subscribers
 - Bounce Handling
-- Open Source
+- Open-Source
 - Self-Hosted
 - Go
 - PostgreSQL

@@ -39,7 +39,7 @@ summary_line: 2 operations
 tags:
 - Insurance
 - Australia
-- Broker
+- Brokers
 - Insurance Broker Network
 - General Insurance
 - Property and Casualty

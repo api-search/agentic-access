@@ -125,6 +125,6 @@ summary_line: 24 operations · 6 acting
 tags:
 - CMS
 - Content Management
-- Open Source
+- Open-Source
 - WordPress
 ---

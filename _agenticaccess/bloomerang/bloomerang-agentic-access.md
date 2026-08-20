@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bloome
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/agentic-access/bloomerang-agentic-access.yml
 summary_line: 27 operations · 10 acting
 tags:
-- Nonprofit
+- Non-Profit
 - Donor Management
 - CRM
 - Fundraising

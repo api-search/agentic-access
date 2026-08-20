@@ -58,5 +58,5 @@ tags:
 - Visual Feedback
 - Session Replay
 - Product Management
-- SaaS
+- Software-as-a-Service
 ---

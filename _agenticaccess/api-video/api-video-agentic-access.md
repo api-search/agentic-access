@@ -43,12 +43,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/api-vi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/agentic-access/api-video-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
-- AI
+- Artificial Intelligence
 - Analytics
 - CDN
 - Encoding
 - Live Streaming
 - Transcription
 - Video
-- Video on Demand
+- Video-on-Demand
 ---

@@ -185,6 +185,6 @@ tags:
 - Software Supply Chain
 - CVE
 - SBOM
-- Open Source
+- Open-Source
 - Patching
 ---

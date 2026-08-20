@@ -244,8 +244,8 @@ summary_line: 113 operations · 62 acting · 2 human-in-the-loop
 tags:
 - GPU
 - Cloud
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Deep Learning
 - Compute
 - DigitalOcean

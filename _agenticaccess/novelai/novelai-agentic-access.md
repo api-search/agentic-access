@@ -209,8 +209,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/novela
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novelai/refs/heads/main/agentic-access/novelai-agentic-access.yml
 summary_line: 52 operations · 35 acting · 35 human-in-the-loop
 tags:
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 - LLM
 - Storytelling
 ---

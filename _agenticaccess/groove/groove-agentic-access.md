@@ -100,8 +100,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/groove
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/agentic-access/groove-agentic-access.yml
 summary_line: 24 operations · 11 acting
 tags:
-- Customer Support
-- Helpdesk
+- Customer-Support
+- Help Desk
 - Shared Inbox
 - Knowledge Base
 - Conversations

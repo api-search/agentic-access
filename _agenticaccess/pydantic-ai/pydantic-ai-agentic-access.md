@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pydant
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/agentic-access/pydantic-ai-agentic-access.yml
 summary_line: 83 operations · 42 acting · 3 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Python
 - LLM

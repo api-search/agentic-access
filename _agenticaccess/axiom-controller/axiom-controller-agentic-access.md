@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axiom-controll
 summary_line: 5 operations · 5 acting
 tags:
 - Analytics
-- Cloud Native
+- Cloud-Native
 - Logging
 - Monitoring
 - Observability

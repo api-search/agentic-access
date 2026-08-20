@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smiths
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smithsonian-institution/refs/heads/main/agentic-access/smithsonian-institution-agentic-access.yml
 summary_line: 5 operations
 tags:
-- Collections
+- Collection
 - Cultural Heritage
 - Museums
 - Open Data

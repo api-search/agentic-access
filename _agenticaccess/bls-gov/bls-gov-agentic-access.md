@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bls-pu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/agentic-access/bls-gov-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
-- Federal Government
+- Federal-Government
 - Labor Statistics
 - Economic Data
 - Consumer Price Index

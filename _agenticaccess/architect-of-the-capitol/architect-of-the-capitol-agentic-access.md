@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aoc-da
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/agentic-access/architect-of-the-capitol-agentic-access.yml
 summary_line: 8 operations
 tags:
-- Federal Government
+- Federal-Government
 - Capitol Hill
 - Congress
 - Historic Preservation

@@ -124,7 +124,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-
 summary_line: 13 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Health Monitoring
-- Notifications
-- Operations
+- Notification
 - Service Status
 ---

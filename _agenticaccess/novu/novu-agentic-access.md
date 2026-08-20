@@ -296,20 +296,20 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/novu-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/agentic-access/novu-agentic-access.yml
 summary_line: 135 operations · 92 acting · 92 human-in-the-loop
 tags:
-- Notifications
+- Notification
 - Messaging
-- In App
+- In-App
 - Email
 - SMS
 - Push
 - Chat
 - Workflows
-- Open Source
+- Open-Source
 - Subscribers
 - Topics
 - Inbox
 - Workflow Orchestration
-- Multi Channel
+- Multi-Channel
 - Digest
 - MCP
 - Framework

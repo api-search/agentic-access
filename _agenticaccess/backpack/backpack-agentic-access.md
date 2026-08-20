@@ -176,7 +176,7 @@ summary_line: 81 operations · 21 acting
 tags:
 - Crypto
 - Exchange
-- Wallet
+- Wallets
 - Trading
 - Perpetuals
 - Solana

@@ -77,7 +77,7 @@ tags:
 - Documents
 - Video
 - Audio
-- Images
+- Image
 - CAD
 - REST API
 ---

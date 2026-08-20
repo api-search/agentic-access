@@ -90,12 +90,11 @@ tags:
 - Contact Relationship Management
 - Contacts
 - CRM
-- Customer Relationship Management
 - Google Workspace
 - Leads
 - Opportunities
 - People
-- Projects
+- Project
 - Sales
-- Tasks
+- Task
 ---

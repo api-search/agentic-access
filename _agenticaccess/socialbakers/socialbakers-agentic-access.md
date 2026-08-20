@@ -96,7 +96,7 @@ summary_line: 41 operations · 29 acting
 tags:
 - Company
 - Marketing
-- Social Media
+- Social-Media
 - Analytics
 - Social Media Analytics
 - Social Listening

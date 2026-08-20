@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/htmlcs
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/agentic-access/htmlcsstoimage-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
-- Image Generation
+- Image-Generation
 - HTML to Image
 - CSS to Image
 - Rendering

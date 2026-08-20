@@ -151,8 +151,7 @@ summary_line: 47 operations · 22 acting
 tags:
 - Healthcare
 - HIPAA
-- Health Care
-- Communication
+- Communications
 - Secure Messaging
 - Telehealth
 - Patient Engagement
@@ -164,7 +163,7 @@ tags:
 - VoIP
 - Fax
 - Video
-- Webhooks
+- Webhook
 - Scheduling
 - Transcription
 - EHR Integration

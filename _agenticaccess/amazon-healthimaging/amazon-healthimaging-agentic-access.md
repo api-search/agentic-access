@@ -71,7 +71,7 @@ summary_line: 18 operations · 13 acting
 tags:
 - Healthcare
 - HIPAA
-- Machine Learning
+- Machine-Learning
 - Medical Imaging
 - DICOM
 ---

@@ -227,10 +227,10 @@ tags:
 - Network Vendor
 - API Management
 - TM Forum
-- Open API
+- OpenAPI
 - CAMARA
 - Standards
 - Orchestration
 - Monetization
-- Open Source
+- Open-Source
 ---

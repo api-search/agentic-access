@@ -37,10 +37,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/01-ai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/01-ai/refs/heads/main/agentic-access/01-ai-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Yi
-- Open Source
+- Open-Source
 - Foundation Models
 - Inference
 ---

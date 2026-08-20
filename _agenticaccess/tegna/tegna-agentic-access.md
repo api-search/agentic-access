@@ -131,6 +131,6 @@ tags:
 - OTT
 - CTV
 - Local News
-- Content API
+- content-api
 - Fortune 500
 ---

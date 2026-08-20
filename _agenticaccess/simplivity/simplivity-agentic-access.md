@@ -145,7 +145,7 @@ tags:
 - Virtualization
 - Backup
 - Disaster Recovery
-- Data Center
+- Data-Center
 - Storage
 - Cloud Infrastructure
 - HPE

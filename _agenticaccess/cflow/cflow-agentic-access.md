@@ -57,7 +57,7 @@ summary_line: 12 operations · 6 acting
 tags:
 - Automations
 - Business Process Automation
-- Integrations
+- Integration
 - No-Code
 - Platform
 - Protocols

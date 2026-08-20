@@ -97,11 +97,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/agentic-access/apache-opennlp-agentic-access.yml
 summary_line: 11 operations · 9 acting
 tags:
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - NLP
 - Text Processing
 - Apache
-- Open Source
+- Open-Source
 - Java
 ---

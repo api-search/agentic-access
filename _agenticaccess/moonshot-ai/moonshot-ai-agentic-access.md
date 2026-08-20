@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/moonsh
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moonshot-ai/refs/heads/main/agentic-access/moonshot-ai-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Long Context

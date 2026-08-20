@@ -157,14 +157,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/losant/refs/he
 summary_line: 237 operations · 142 acting · 1 human-in-the-loop
 tags:
 - IoT
-- Internet Of Things
+- Internet of Things
 - Devices
 - Edge Compute
 - Embedded
 - MQTT
 - Industrial IoT
 - Telemetry
-- Workflow Automation
+- Workflow-Automation
 - Visual Workflow Engine
 - Dashboards
 - Time Series

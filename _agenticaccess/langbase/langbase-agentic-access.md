@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/langba
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/agentic-access/langbase-agentic-access.yml
 summary_line: 23 operations · 18 acting
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - RAG
 - LLM

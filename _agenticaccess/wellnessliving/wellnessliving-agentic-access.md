@@ -165,5 +165,5 @@ tags:
 - Business Management
 - Scheduling
 - Memberships
-- Point of Sale
+- Point-of-Sale
 ---

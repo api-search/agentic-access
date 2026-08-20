@@ -89,11 +89,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/anodot
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/agentic-access/anodot-agentic-access.yml
 summary_line: 34 operations · 11 acting
 tags:
-- AI
+- Artificial Intelligence
 - Anomaly Detection
 - Business Monitoring
 - Cloud Cost Management
 - FinOps
-- Machine Learning
+- Machine-Learning
 - Observability
 ---

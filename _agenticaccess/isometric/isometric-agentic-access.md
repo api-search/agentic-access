@@ -311,6 +311,6 @@ tags:
 - LCA
 - Greenhouse Gas
 - Protocols
-- AI
+- Artificial Intelligence
 - MCP
 ---

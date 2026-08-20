@@ -228,5 +228,5 @@ tags:
 - Monitoring
 - DevOps
 - Source Maps
-- Deployments
+- Deployment
 ---

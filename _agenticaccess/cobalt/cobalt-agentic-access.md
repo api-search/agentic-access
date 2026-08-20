@@ -104,5 +104,5 @@ summary_line: 31 operations · 17 acting
 tags:
 - Automation
 - Embedded iPaaS
-- Integrations
+- Integration
 ---

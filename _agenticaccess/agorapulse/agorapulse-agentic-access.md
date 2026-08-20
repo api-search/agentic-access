@@ -132,7 +132,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agorapulse/ref
 summary_line: 22 operations · 7 acting
 tags:
 - Social Media Management
-- Social Media
+- Social-Media
 - CRM
 - Analytics
 - Publishing

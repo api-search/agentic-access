@@ -1020,6 +1020,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unifie
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/agentic-access/unified-to-agentic-access.yml
 summary_line: 1346 operations · 830 acting
 tags:
-- Integrations
-- Unified API
+- Integration
+- Unified-API
 ---

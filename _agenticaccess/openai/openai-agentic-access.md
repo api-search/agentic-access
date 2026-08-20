@@ -416,7 +416,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/assist
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/agentic-access/openai-agentic-access.yml
 summary_line: 307 operations · 183 acting · 6 human-in-the-loop
 tags:
-- AI
 - Artificial Intelligence
 - Large Language Models
 - T1

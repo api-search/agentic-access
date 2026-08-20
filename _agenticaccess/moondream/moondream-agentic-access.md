@@ -76,8 +76,8 @@ summary_line: 6 operations · 6 acting · 5 human-in-the-loop
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Vision Language Model
 - Object Detection
 - Image Captioning

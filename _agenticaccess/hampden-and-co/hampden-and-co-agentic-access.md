@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/hampde
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/agentic-access/hampden-and-co-agentic-access.yml
 summary_line: 74 operations · 20 acting
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Private Banking
 - Open Banking

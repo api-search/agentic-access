@@ -87,12 +87,12 @@ summary_line: 22 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - RAG
 - Agents
 - LLM
-- Platform as a Service
+- Platform-as-a-Service
 - Chat
-- Workflow Automation
+- Workflow-Automation
 - Vector Search
 ---

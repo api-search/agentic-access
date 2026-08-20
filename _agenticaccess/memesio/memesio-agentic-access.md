@@ -362,7 +362,7 @@ summary_line: 111 operations · 59 acting · 5 human-in-the-loop
 tags:
 - Memes
 - Media
-- Image Generation
+- Image-Generation
 - Content
 - Developer Tools
 ---

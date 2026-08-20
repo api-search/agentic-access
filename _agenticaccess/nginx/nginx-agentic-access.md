@@ -313,9 +313,9 @@ summary_line: 72 operations · 29 acting · 17 human-in-the-loop
 tags:
 - API Gateway
 - Caching
-- Cloud Native
+- Cloud-Native
 - Load Balancer
-- Open Source
+- Open-Source
 - Reverse Proxy
 - Web Server
 ---

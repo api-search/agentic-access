@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/agentic-access/openverse-agentic-access.yml
 summary_line: 17 operations · 4 acting
 tags:
-- Images
+- Image
 - Audio
 - Creative Commons
 - Open Media

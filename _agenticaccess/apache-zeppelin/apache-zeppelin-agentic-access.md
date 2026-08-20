@@ -66,5 +66,5 @@ tags:
 - Interactive Computing
 - Notebook
 - Visualization
-- Open Source
+- Open-Source
 ---

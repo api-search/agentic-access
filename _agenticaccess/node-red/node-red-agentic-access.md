@@ -95,7 +95,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/
 summary_line: 20 operations · 11 acting · 3 human-in-the-loop
 tags:
 - Self-Hosted
-- Workflow Automation
+- Workflow-Automation
 - Flow-Based Programming
 - IoT
 ---

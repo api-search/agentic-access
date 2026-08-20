@@ -182,7 +182,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asapp/refs/hea
 summary_line: 137 operations · 93 acting · 2 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Conversational AI
 - Contact Center
 - Customer Experience

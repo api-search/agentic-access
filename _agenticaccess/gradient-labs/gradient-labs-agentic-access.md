@@ -67,10 +67,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gradie
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/agentic-access/gradient-labs-agentic-access.yml
 summary_line: 11 operations · 10 acting
 tags:
-- AI
-- Customer Support
+- Artificial Intelligence
+- Customer-Support
 - AI Agent
 - Conversations
-- Financial Services
+- Financial-Services
 - Regulated
 ---

@@ -280,6 +280,6 @@ tags:
 - Courses
 - Membership
 - Creator Economy
-- Events
-- Subscriptions
+- Event
+- Subscription
 ---

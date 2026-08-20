@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-agric
 summary_line: 9 operations · 3 acting
 tags:
 - Agriculture
-- Federal Government
+- Federal-Government
 - Library
 - Food
 - Nutrition

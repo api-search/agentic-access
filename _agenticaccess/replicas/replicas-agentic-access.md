@@ -194,7 +194,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replicas/refs/
 summary_line: 99 operations · 57 acting · 5 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Coding Agents
 - Developer Tools
 - Automation

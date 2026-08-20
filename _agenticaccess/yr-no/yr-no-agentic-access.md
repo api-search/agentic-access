@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/hea
 summary_line: 38 operations
 tags:
 - Weather
-- Forecasts
+- Forecast
 - Meteorology
 - Climate
 - Norway

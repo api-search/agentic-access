@@ -106,7 +106,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wiktionary/ref
 summary_line: 24 operations · 3 acting
 tags:
 - Dictionaries
-- Open Source
+- Open-Source
 - Wikimedia
 - MediaWiki
 - Linguistics

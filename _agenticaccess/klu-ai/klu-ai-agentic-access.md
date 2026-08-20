@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/klu-ai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/agentic-access/klu-ai-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - LLM App Platform
 - Prompt Engineering

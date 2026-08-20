@@ -92,7 +92,7 @@ tags:
 - Bitcoin
 - Ethereum
 - USDC
-- Webhooks
+- Webhook
 - Charges
 - Checkouts
 ---

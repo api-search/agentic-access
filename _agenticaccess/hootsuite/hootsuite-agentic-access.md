@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/hootsu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/agentic-access/hootsuite-agentic-access.yml
 summary_line: 76 operations · 39 acting
 tags:
-- Social Media
+- Social-Media
 - Social Media Management
 - Marketing
 - Content Scheduling
@@ -97,6 +97,6 @@ tags:
 - Employee Advocacy
 - Customer Service
 - SCIM
-- OAuth 2.0
-- Webhooks
+- Authentication
+- Webhook
 ---

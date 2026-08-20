@@ -352,7 +352,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/websphere/refs
 summary_line: 154 operations · 67 acting · 8 human-in-the-loop
 tags:
 - Application Server
-- Cloud Native
+- Cloud-Native
 - Enterprise Java
 - J2EE
 - Microservices

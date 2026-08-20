@@ -68,7 +68,7 @@ tags:
 - Tables
 - RAG
 - LLM
-- Open Source
+- Open-Source
 - IBM Research
 - LF AI and Data
 - MCP

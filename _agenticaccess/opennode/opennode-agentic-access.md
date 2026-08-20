@@ -125,7 +125,7 @@ tags:
 - Payment Processing
 - Cryptocurrency
 - Fintech
-- Webhooks
+- Webhook
 - Invoicing
 - Payouts
 - LNURL

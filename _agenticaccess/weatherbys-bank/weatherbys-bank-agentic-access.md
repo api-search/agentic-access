@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/obie-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/agentic-access/weatherbys-bank-agentic-access.yml
 summary_line: 8 operations
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

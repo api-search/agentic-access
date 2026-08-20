@@ -52,7 +52,7 @@ summary_line: 6 operations
 tags:
 - Creator Economy
 - Memberships
-- Subscriptions
+- Subscription
 - Tips
 - Payments
 - Donations

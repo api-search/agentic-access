@@ -60,12 +60,12 @@ summary_line: 4 operations · 3 acting
 tags:
 - AI Inference
 - Large Language Models
-- Dataflow
+- Dataflows
 - Hardware
 - Cloud
-- OpenAI Compatible
+- OpenAI-Compatible
 - Sovereign AI
 - SDK
 - Accelerator
-- Open Source
+- Open-Source
 ---

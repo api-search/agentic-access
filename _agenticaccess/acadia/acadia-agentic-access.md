@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acadia/refs/he
 summary_line: 7 operations · 1 acting
 tags:
 - Connected Worker
-- Knowledge Management
+- Knowledge-Management
 - Manufacturing
 - Skills Management
 - Training

@@ -40,8 +40,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tettra/refs/heads/main/agentic-access/tettra-agentic-access.yml
 summary_line: 2 operations · 1 acting
 tags:
-- Knowledge Management
-- AI
+- Knowledge-Management
+- Artificial Intelligence
 - Team Collaboration
 - Wiki
 - Slack Integration

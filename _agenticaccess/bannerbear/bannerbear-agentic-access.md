@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/banner
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/agentic-access/bannerbear-agentic-access.yml
 summary_line: 29 operations · 11 acting
 tags:
-- Image Generation
+- Image-Generation
 - Video Generation
 - Templates
 - Media

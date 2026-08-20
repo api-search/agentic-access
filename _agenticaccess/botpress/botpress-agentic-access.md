@@ -78,10 +78,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/botpre
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/agentic-access/botpress-agentic-access.yml
 summary_line: 31 operations · 19 acting
 tags:
-- AI
+- Artificial Intelligence
 - Conversational
 - Chat
-- Open Source
+- Open-Source
 - Bot Builder
 - LLM
 ---

@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openkr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/agentic-access/openkruise-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
-- Cloud Native
+- Cloud-Native
 - Controllers
 - Deployment
 - Incubating

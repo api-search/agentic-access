@@ -58,7 +58,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/deepse
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/agentic-access/deepseek-agentic-access.yml
 summary_line: 4 operations · 2 acting
 tags:
-- AI
 - Artificial Intelligence
 - Chat
 - Chat Completion

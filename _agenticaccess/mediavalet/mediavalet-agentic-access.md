@@ -270,7 +270,7 @@ tags:
 - Cloud Storage
 - Metadata
 - Video
-- Images
-- Webhooks
+- Image
+- Webhook
 - Azure
 ---

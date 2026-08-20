@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/daily-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/agentic-access/daily-co-agentic-access.yml
 summary_line: 53 operations · 33 acting · 4 human-in-the-loop
 tags:
-- Realtime
+- Real-Time
 - WebRTC
 - Video
 - Audio

@@ -175,7 +175,7 @@ tags:
 - Marketing Email
 - Email Delivery
 - SMTP
-- Webhooks
+- Webhook
 - Analytics
 - Templates
 - Suppression List

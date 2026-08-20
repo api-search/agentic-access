@@ -132,7 +132,7 @@ tags:
 - Marketing
 - Retail
 - 3D Models
-- Image Generation
+- Image-Generation
 - Workspaces
 - Billing
 - OpenAPI

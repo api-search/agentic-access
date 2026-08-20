@@ -130,7 +130,7 @@ summary_line: 68 operations · 61 acting
 tags:
 - PDF
 - Document Automation
-- AI
+- Artificial Intelligence
 - OCR
 - Invoice Parsing
 - Document Parsing

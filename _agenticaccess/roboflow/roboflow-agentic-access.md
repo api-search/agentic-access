@@ -190,8 +190,8 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/robofl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/agentic-access/roboflow-agentic-access.yml
 summary_line: 39 operations · 30 acting
 tags:
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Artificial Intelligence
 - Object Detection
 - Image Annotation

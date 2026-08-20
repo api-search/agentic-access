@@ -62,9 +62,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mage-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/agentic-access/mage-ai-agentic-access.yml
 summary_line: 15 operations · 9 acting
 tags:
-- Data Pipelines
+- Data Pipeline
 - Orchestration
 - ETL
 - Data Engineering
-- Open Source
+- Open-Source
 ---

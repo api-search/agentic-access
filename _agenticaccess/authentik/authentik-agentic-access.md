@@ -104,8 +104,7 @@ tags:
 - Authorization
 - Identity Provider
 - LDAP
-- OAuth
-- Open Source
+- Open-Source
 - OpenID Connect
 - SAML
 - SCIM

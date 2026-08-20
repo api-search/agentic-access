@@ -65,5 +65,5 @@ tags:
 - Clearing
 - Capital Markets
 - Digital Assets
-- Financial Services
+- Financial-Services
 ---

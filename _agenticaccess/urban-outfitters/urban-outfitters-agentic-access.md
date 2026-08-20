@@ -87,8 +87,8 @@ tags:
 - Retail
 - Fashion
 - Apparel
-- Ecommerce
-- Affiliate
+- E-Commerce
+- Affiliates
 - Marketplace
 - Fortune 1000
 ---

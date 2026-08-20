@@ -52,7 +52,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/ref
 summary_line: 5 operations · 5 acting
 tags:
 - Bot Management
-- Ddos Protection
+- DDoS Protection
 - Security
 - WAF
 - Web Application Firewall

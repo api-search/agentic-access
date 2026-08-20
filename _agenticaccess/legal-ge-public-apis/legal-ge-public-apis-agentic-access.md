@@ -47,17 +47,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/legal-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/agentic-access/legal-ge-public-apis-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
-- legal
-- law
-- legal-services
-- directory
-- georgia
-- ai-agents
-- mcp
-- model-context-protocol
+- Legal
+- Law
+- Legal Services
+- Directory
+- Georgia
+- AI Agents
+- MCP
 - specialists
-- professional-services
-- marketplace
-- multilingual
-- legal-tech
+- Professional Services
+- Marketplace
+- Multilingual
+- Legal Tech
 ---

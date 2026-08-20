@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/landco
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/agentic-access/landcor-agentic-access.yml
 summary_line: 12 operations · 2 acting
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Valuation
 - AVM

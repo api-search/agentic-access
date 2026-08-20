@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/inferl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inferless/refs/heads/main/agentic-access/inferless-agentic-access.yml
 summary_line: 3 operations · 3 acting
 tags:
-- AI
+- Artificial Intelligence
 - ML Inference
 - Serverless GPU
 - Model Deployment

@@ -77,7 +77,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/h
 summary_line: 10 operations · 10 acting
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Analytics
 - CRM
 - Email Marketing

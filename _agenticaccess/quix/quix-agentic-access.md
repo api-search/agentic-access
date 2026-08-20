@@ -117,7 +117,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quix/refs/head
 summary_line: 16 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Stream Processing
-- Real Time
+- Real-Time
 - Kafka
 - Python
 - Streaming Data

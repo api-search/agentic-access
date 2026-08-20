@@ -61,11 +61,11 @@ summary_line: 7 operations · 5 acting
 tags:
 - Company
 - Enterprise
-- Financial Services
+- Financial-Services
 - Debt Collection
 - Loan Recovery
 - Lending
-- Collections
+- Collection
 - Fintech
 - India
 ---

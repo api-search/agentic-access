@@ -339,7 +339,7 @@ summary_line: 215 operations · 116 acting
 tags:
 - Payments
 - Marketplace Payments
-- Digital Wallets
+- Digital Wallet
 - KYC
 - KYB
 - Fund Transfers

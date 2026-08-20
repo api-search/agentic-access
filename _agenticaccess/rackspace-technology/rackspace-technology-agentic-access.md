@@ -184,8 +184,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rackspace-tech
 summary_line: 77 operations · 27 acting · 2 human-in-the-loop
 tags:
 - Cloud
-- Managed Services
-- Multicloud
+- Managed Service
+- Multi-Cloud
 - Infrastructure
 - DevOps
 ---

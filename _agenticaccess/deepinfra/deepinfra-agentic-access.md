@@ -72,14 +72,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/deepin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepinfra/refs/heads/main/agentic-access/deepinfra-agentic-access.yml
 summary_line: 9 operations · 7 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Serverless
-- Open Source
-- OpenAI Compatible
+- Open-Source
+- OpenAI-Compatible
 - Anthropic Compatible
-- Image Generation
+- Image-Generation
 - Audio
 - Embeddings
 ---

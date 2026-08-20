@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/seatge
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/agentic-access/seatgeek-agentic-access.yml
 summary_line: 9 operations
 tags:
-- Events
+- Event
 - Tickets
 - Live Events
 - Concerts

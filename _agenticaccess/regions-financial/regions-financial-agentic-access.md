@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regions-financ
 summary_line: 8 operations · 2 acting · 1 human-in-the-loop
 tags:
 - Banking
-- Financial Services
+- Financial-Services
 - Open Banking
 - FDX
 - Consumer Banking

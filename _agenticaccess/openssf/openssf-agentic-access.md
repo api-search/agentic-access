@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openssf/refs/h
 summary_line: 6 operations · 3 acting
 tags:
 - Linux Foundation
-- Open Source
+- Open-Source
 - Security
 - Supply Chain
 - Vulnerabilities

@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-forecas
 summary_line: 12 operations · 6 acting
 tags:
 - Forecasting
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 - Time Series
 ---

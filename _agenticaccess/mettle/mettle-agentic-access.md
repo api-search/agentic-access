@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/mettle
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/agentic-access/mettle-agentic-access.yml
 summary_line: 12 operations
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Business Banking
 - Open Banking

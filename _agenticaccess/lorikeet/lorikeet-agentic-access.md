@@ -61,10 +61,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lorike
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/agentic-access/lorikeet-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
-- AI
-- Customer Support
+- Artificial Intelligence
+- Customer-Support
 - AI Agent
 - Support Automation
 - Workflows
-- Helpdesk
+- Help Desk
 ---

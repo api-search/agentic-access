@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/rightm
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rightmove/refs/heads/main/agentic-access/rightmove-agentic-access.yml
 summary_line: 4 operations · 2 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Property Portal

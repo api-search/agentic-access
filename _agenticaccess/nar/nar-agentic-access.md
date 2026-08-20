@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/nar-m1
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/agentic-access/nar-agentic-access.yml
 summary_line: 88 operations · 59 acting
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Industry Body
 - MLS

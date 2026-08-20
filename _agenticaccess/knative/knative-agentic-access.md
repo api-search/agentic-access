@@ -114,7 +114,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knative/refs/h
 summary_line: 42 operations · 20 acting
 tags:
 - Auto-Scaling
-- Cloud Native
+- Cloud-Native
 - Event-Driven
 - Graduated
 - Kubernetes

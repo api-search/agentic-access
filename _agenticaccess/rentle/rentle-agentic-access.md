@@ -118,13 +118,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rentle/refs/he
 summary_line: 28 operations · 7 acting
 tags:
 - Company
-- Rental
+- Rentals
 - Commerce
-- E-commerce
+- E-Commerce
 - Circular Economy
 - Resale
-- Subscriptions
+- Subscription
 - Bookings
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

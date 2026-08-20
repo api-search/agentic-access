@@ -61,12 +61,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kubefl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/agentic-access/kubeflow-agentic-access.yml
 summary_line: 13 operations · 5 acting
 tags:
-- AI
+- Artificial Intelligence
 - Deep Learning
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Model Serving
 - Model Training
-- Open Source
+- Open-Source
 ---

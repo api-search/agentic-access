@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emissary-ingre
 summary_line: 20 operations · 11 acting
 tags:
 - API Gateway
-- Cloud Native
+- Cloud-Native
 - Envoy
 - Incubating
 - Ingress

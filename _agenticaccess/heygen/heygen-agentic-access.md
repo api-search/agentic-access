@@ -141,8 +141,8 @@ tags:
 - Video
 - Avatars
 - Voice Cloning
-- Text To Speech
-- Lipsync
+- Text-to-Speech
+- Lip Sync
 - Translation
 - Streaming
 - MCP

@@ -105,9 +105,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/
 summary_line: 22 operations · 9 acting
 tags:
 - Commerce
-- Ecommerce
+- E-Commerce
 - Admin
-- Products
-- Orders
+- Product
+- Order
 - Customers
 ---

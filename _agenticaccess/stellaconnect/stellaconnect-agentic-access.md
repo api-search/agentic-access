@@ -80,5 +80,5 @@ tags:
 - Contact Centers
 - Surveys
 - Customer Experience
-- SaaS
+- Software-as-a-Service
 ---

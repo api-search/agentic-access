@@ -196,7 +196,7 @@ tags:
 - Localization
 - Translation
 - Internationalization
-- Open Source
+- Open-Source
 - Continuous Localization
 - Version Control
 ---

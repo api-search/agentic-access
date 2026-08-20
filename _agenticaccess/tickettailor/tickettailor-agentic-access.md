@@ -95,7 +95,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tickettailor/r
 summary_line: 26 operations · 13 acting
 tags:
 - Event Ticketing
-- Events
+- Event
 - Ticketing
 - Box Office
 - Payments

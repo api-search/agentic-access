@@ -117,10 +117,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/artifa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/agentic-access/artifact-hub-agentic-access.yml
 summary_line: 58 operations · 30 acting · 2 human-in-the-loop
 tags:
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Helm Charts
 - Package Registry
 - Discovery
-- Open Source
+- Open-Source
 ---

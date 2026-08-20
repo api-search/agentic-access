@@ -1098,13 +1098,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/coveo-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/agentic-access/coveo-agentic-access.yml
 summary_line: 1018 operations · 551 acting · 13 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Analytics
 - Catalog
 - Commerce
 - Customers
-- Experiences
-- Machine Learning
+- Experience
+- Machine-Learning
 - Personalization
 - Recommendations
 - Search

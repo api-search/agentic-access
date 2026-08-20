@@ -67,7 +67,7 @@ summary_line: 8 operations · 3 acting
 tags:
 - CME Group
 - Derivatives
-- Financial Services
+- Financial-Services
 - OSTTRA
 - Portfolio Compression
 - Post-Trade Services

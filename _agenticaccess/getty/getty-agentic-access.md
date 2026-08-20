@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getty/refs/hea
 summary_line: 10 operations · 1 acting
 tags:
 - Stock Media
-- Images
+- Image
 - Editorial
 - Video
 - Music

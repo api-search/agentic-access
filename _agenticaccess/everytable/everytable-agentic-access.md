@@ -31,12 +31,12 @@ summary_line: 6 operations
 tags:
 - Company
 - Food
-- Restaurants
+- Restaurant
 - Meal Delivery
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Shopify
 - Social Enterprise
 - Nutrition
-- Subscriptions
+- Subscription
 ---

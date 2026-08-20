@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/xerox-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/agentic-access/xerox-agentic-access.yml
 summary_line: 30 operations · 15 acting
 tags:
-- Document Management
+- Document-Management
 - Enterprise
 - Fortune 500
 - Managed Print Services

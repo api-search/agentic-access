@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openla
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/agentic-access/openlayer-agentic-access.yml
 summary_line: 24 operations · 14 acting
 tags:
-- AI
+- Artificial Intelligence
 - Evaluation
 - Testing
 - Observability

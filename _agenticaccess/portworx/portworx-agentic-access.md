@@ -272,7 +272,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/portwo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/agentic-access/portworx-agentic-access.yml
 summary_line: 131 operations · 82 acting · 9 human-in-the-loop
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Data Management
 - Kubernetes

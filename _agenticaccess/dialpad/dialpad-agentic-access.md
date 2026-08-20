@@ -133,7 +133,7 @@ summary_line: 38 operations · 23 acting · 1 human-in-the-loop
 tags:
 - Communications
 - Voice
-- AI
+- Artificial Intelligence
 - Contact Center
 - UCaaS
 ---

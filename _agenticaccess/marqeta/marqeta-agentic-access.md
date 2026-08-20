@@ -671,8 +671,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/marqet
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/agentic-access/marqeta-agentic-access.yml
 summary_line: 436 operations · 204 acting · 12 human-in-the-loop
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Card Issuing
 - Payments
 - Embedded Finance

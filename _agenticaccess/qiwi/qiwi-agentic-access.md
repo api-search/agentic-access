@@ -93,7 +93,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/head
 summary_line: 21 operations · 12 acting
 tags:
 - Payments
-- Wallet
+- Wallets
 - Payouts
 - Fintech
 - Banking

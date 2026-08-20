@@ -341,9 +341,9 @@ tags:
 - Cryptocurrency
 - Custody
 - Exchange
-- Onramp
+- On-Ramp
 - Payments
 - Trading
-- Wallet
+- Wallets
 - Web3
 ---

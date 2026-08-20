@@ -122,6 +122,6 @@ tags:
 - HCM
 - Human Resources
 - Recruiting
-- SaaS
+- Software-as-a-Service
 - Talent Acquisition
 ---

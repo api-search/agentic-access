@@ -172,7 +172,7 @@ tags:
 - Prediction Markets
 - Trading
 - Prime Brokerage
-- Financial Services
+- Financial-Services
 - Order Management
 - Market Data
 - WebSocket

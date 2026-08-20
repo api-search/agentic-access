@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/realty
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtymole/refs/heads/main/agentic-access/realtymole-agentic-access.yml
 summary_line: 5 operations
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - Rental Estimate
 - Valuation

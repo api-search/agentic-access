@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/h
 summary_line: 22 operations · 12 acting
 tags:
 - E-Signature
-- Document Management
+- Document-Management
 - Electronic Signature
-- Workflow Automation
+- Workflow-Automation
 ---

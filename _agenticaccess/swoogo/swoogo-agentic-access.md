@@ -79,9 +79,9 @@ summary_line: 27 operations · 17 acting
 tags:
 - Event Management
 - Event Registration
-- Events
+- Event
 - Sessions
 - Speakers
 - Attendees
-- SaaS
+- Software-as-a-Service
 ---

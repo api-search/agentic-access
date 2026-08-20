@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/centml
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/agentic-access/centml-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Serverless

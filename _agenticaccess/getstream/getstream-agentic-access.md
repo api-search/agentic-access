@@ -146,5 +146,5 @@ tags:
 - Audio
 - Moderation
 - WebSocket
-- Real Time
+- Real-Time
 ---

@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/writer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/agentic-access/writer-agentic-access.yml
 summary_line: 30 operations · 19 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Enterprise
 - Content Generation

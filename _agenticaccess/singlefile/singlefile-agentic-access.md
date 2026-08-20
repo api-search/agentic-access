@@ -132,7 +132,6 @@ tags:
 - Registered Agent
 - Business Filings
 - Regulatory
-- API
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 ---

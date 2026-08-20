@@ -53,7 +53,7 @@ summary_line: 7 operations
 tags:
 - Load Balancer
 - Networking
-- Open Source
+- Open-Source
 - Traffic Management
 - CNCF
 - Baidu

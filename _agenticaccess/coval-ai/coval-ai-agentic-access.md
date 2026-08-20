@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/coval-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/agentic-access/coval-ai-agentic-access.yml
 summary_line: 80 operations · 43 acting
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Voice AI
 - Simulation

@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/orderd
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/agentic-access/orderdesk-agentic-access.yml
 summary_line: 26 operations · 16 acting
 tags:
-- Ecommerce
+- E-Commerce
 - Order Management
 - Fulfillment
 - Dropshipping

@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lenovo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/agentic-access/lenovo-agentic-access.yml
 summary_line: 8 operations · 2 acting
 tags:
-- Data Center
+- Data-Center
 - Hardware
 - Infrastructure
 - Personal Computers

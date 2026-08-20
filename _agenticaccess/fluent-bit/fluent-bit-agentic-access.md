@@ -75,5 +75,5 @@ tags:
 - Logging
 - Observability
 - Metrics
-- Open Source
+- Open-Source
 ---

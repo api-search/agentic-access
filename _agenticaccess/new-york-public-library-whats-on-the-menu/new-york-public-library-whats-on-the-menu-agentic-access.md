@@ -47,7 +47,7 @@ summary_line: 9 operations
 tags:
 - Libraries
 - Menus
-- Restaurants
+- Restaurant
 - History
 - Open Data
 - Food

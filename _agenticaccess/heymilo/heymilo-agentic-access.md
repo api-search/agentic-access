@@ -173,6 +173,6 @@ tags:
 - Interviewing
 - Candidate Screening
 - Voice AI
-- Webhooks
+- Webhook
 - ATS Integration
 ---

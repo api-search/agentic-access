@@ -219,10 +219,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/
 summary_line: 111 operations · 65 acting · 3 human-in-the-loop
 tags:
 - Vector Database
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Semantic Search
-- Open Source
+- Open-Source
 - GraphQL
 - Kubernetes
 ---

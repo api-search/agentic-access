@@ -270,7 +270,7 @@ tags:
 - Omnichannel
 - Store Locator
 - Appointments
-- Events
+- Event
 - Location Data
 - CMS
 ---

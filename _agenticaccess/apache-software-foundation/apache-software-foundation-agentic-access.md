@@ -89,8 +89,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-softwar
 summary_line: 14 operations
 tags:
 - ASF
-- Open Source
+- Open-Source
 - Governance
-- Projects
+- Project
 - Apache
 ---

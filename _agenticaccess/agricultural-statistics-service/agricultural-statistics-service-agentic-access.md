@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agricultural-s
 summary_line: 3 operations
 tags:
 - Agriculture
-- Federal Government
+- Federal-Government
 - Statistics
 - Open Data
 - Geospatial

@@ -164,6 +164,6 @@ tags:
 - Team Inbox
 - Collaboration
 - Real-Time Messaging
-- Integrations
+- Integration
 - Discontinued
 ---

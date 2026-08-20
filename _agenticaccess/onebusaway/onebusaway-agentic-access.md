@@ -56,7 +56,7 @@ tags:
 - Departures
 - Bus
 - GTFS
-- Open Source
+- Open-Source
 - Stop Data
 - Trip Planning
 - Service Alerts

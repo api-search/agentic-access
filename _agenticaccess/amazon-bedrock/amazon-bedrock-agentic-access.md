@@ -79,11 +79,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/agentic-access/amazon-bedrock-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
-- AI
+- Artificial Intelligence
 - Foundation Models
 - Generative AI
 - LLM
-- Machine Learning
+- Machine-Learning
 - RAG
 - Agents
 - Responsible AI

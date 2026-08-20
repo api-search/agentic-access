@@ -109,10 +109,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/he
 summary_line: 26 operations · 18 acting · 3 human-in-the-loop
 tags:
 - Company
-- Notifications
+- Notification
 - Monitoring
-- Webhooks
-- Real Time
+- Webhook
+- Real-Time
 - Agents
 - MCP
 - Alerts

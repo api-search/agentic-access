@@ -101,6 +101,6 @@ tags:
 - Analytics
 - Authentication
 - Content
-- Social Media
+- Social-Media
 - Video
 ---

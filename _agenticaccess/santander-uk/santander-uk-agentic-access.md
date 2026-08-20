@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/obie-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/santander-uk/refs/heads/main/agentic-access/santander-uk-agentic-access.yml
 summary_line: 86 operations · 20 acting
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

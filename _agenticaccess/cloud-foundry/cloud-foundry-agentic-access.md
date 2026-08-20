@@ -107,7 +107,7 @@ tags:
 - Cloud Foundry Foundation
 - Containers
 - Multi-Cloud
-- Open Source
-- PaaS
+- Open-Source
+- Platform-as-a-Service
 - Platform
 ---

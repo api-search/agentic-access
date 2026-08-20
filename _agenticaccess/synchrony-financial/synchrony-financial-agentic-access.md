@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/synchr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/agentic-access/synchrony-financial-agentic-access.yml
 summary_line: 9 operations · 8 acting
 tags:
-- Financial Services
+- Financial-Services
 - Credit
 - Payments
 - Consumer Finance

@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sam-go
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/agentic-access/sam.gov-agentic-access.yml
 summary_line: 3 operations
 tags:
-- Federal Government
+- Federal-Government
 - Procurement
 - Contracts
 - Entity Management

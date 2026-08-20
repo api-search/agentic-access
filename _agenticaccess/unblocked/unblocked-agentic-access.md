@@ -57,9 +57,9 @@ summary_line: 12 operations · 7 acting
 tags:
 - Company
 - Developer Tools
-- AI
+- Artificial Intelligence
 - Developer Experience
-- Knowledge Management
+- Knowledge-Management
 - Code Review
 - MCP
 - AI Agents

@@ -198,7 +198,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/freest
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/agentic-access/freestyle-sh-agentic-access.yml
 summary_line: 128 operations · 62 acting · 6 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Sandboxes
 - VMs

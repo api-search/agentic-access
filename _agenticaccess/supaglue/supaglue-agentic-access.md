@@ -315,14 +315,14 @@ summary_line: 139 operations · 65 acting
 tags:
 - CRM
 - HRIS
-- Unified API
-- Open Source
-- Integrations
+- Unified-API
+- Open-Source
+- Integration
 - Sales Engagement
 - Ticketing
 - Data Synchronization
 - Marketing Automation
 - Enrichment
-- Webhooks
+- Webhook
 - Archived
 ---

@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/buywhe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/agentic-access/buywhere-agentic-access.yml
 summary_line: 8 operations · 1 acting
 tags:
-- E-commerce
+- E-Commerce
 - Shopping
 - Price Comparison
 - SEA

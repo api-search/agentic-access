@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/notdia
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/agentic-access/notdiamond-agentic-access.yml
 summary_line: 6 operations · 5 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Model Routing
 - Router

@@ -247,12 +247,12 @@ summary_line: 185 operations · 84 acting · 4 human-in-the-loop
 tags:
 - Chess
 - Games
-- Open Source
-- Nonprofit
+- Open-Source
+- Non-Profit
 - Tournaments
 - Puzzles
 - Bots
 - Streaming
 - ND-JSON
-- OAuth
+- Authentication
 ---

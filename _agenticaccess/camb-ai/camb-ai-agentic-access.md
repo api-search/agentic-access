@@ -74,8 +74,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/camb-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/agentic-access/camb-ai-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - Dubbing
 - Translation
 - Transcription

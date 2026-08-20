@@ -91,13 +91,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/reka-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/agentic-access/reka-agentic-access.yml
 summary_line: 13 operations · 9 acting
 tags:
-- AI
-- Multimodal
+- Artificial Intelligence
+- Multi-Modal
 - Large Language Models
 - Vision
 - Speech
 - Foundation Models
-- OpenAI Compatible
+- OpenAI-Compatible
 - SDK
 - Enterprise
 - On-Premises

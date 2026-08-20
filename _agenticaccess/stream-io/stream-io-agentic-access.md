@@ -227,7 +227,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stream
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/agentic-access/stream-io-agentic-access.yml
 summary_line: 659 operations · 497 acting · 18 human-in-the-loop
 tags:
-- Realtime
+- Real-Time
 - Chat
 - Messaging
 - Video

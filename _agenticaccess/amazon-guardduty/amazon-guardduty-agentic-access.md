@@ -96,7 +96,7 @@ summary_line: 67 operations · 48 acting · 2 human-in-the-loop
 tags:
 - Anomaly Detection
 - Compliance
-- Machine Learning
+- Machine-Learning
 - Monitoring
 - Security
 - Threat Detection

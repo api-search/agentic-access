@@ -323,6 +323,6 @@ tags:
 - Security Appliances
 - Cloud-Managed Networking
 - MDM
-- Cameras
+- Camera
 - IoT
 ---

@@ -138,9 +138,9 @@ summary_line: 36 operations · 12 acting
 tags:
 - Print on Demand
 - POD
-- Ecommerce
+- E-Commerce
 - Fulfillment
 - Dropshipping
-- Orders
+- Order
 - Shipping
 ---

@@ -120,8 +120,8 @@ summary_line: 24 operations · 15 acting
 tags:
 - Chat
 - Collaboration
-- Communication
-- Microsoft 365
+- Communications
+- Microsoft-365
 - Productivity
 - Video Conferencing
 ---

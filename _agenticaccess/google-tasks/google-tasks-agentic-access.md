@@ -52,7 +52,7 @@ tags:
 - Google
 - Productivity
 - Task Management
-- Tasks
-- Todo
+- Task
+- To-Do
 - Workspace
 ---

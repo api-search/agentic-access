@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/agentic-access/microsoft-azure-openai-agentic-access.yml
 summary_line: 4 operations · 4 acting
 tags:
-- AI
+- Artificial Intelligence
 - Embeddings
 - GPT
 - Generative AI

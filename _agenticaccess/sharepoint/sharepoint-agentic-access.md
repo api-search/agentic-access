@@ -74,7 +74,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharepoint/ref
 summary_line: 15 operations · 5 acting
 tags:
 - Collaboration
-- Document Management
+- Document-Management
 - Enterprise Content Management
 - Intranet
 - Microsoft

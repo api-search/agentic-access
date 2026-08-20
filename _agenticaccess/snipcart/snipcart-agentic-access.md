@@ -113,10 +113,10 @@ summary_line: 30 operations · 12 acting
 tags:
 - E-Commerce
 - Shopping Cart
-- Orders
-- Products
+- Order
+- Product
 - Payments
-- Webhooks
+- Webhook
 - Headless Commerce
-- Jamstack
+- JAMstack
 ---

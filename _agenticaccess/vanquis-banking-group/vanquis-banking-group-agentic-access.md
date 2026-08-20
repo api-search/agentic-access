@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/obie-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/agentic-access/vanquis-banking-group-agentic-access.yml
 summary_line: 74 operations · 20 acting
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

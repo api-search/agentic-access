@@ -38,13 +38,13 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: mcp/view-com-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/view-com-au/refs/heads/main/agentic-access/view-com-au-agentic-access.yml
 summary_line: 3 operations
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Listings
 - Property Portal
 - PropTech
 - Rentals
 - Off-Market Property Data
-- Model Context Protocol
-- Agent-Native
+- MCP
+- agent-native
 ---

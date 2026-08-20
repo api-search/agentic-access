@@ -58,7 +58,7 @@ summary_line: 4 operations · 4 acting
 tags:
 - Insurance
 - Embedded Insurance
-- Insurance-as-a-Service
+- Insurance As A Service
 - Policy Administration
 - Claims
 ---

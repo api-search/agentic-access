@@ -78,5 +78,5 @@ tags:
 - Mobile Messaging
 - Personalization
 - SMS
-- Webhooks
+- Webhook
 ---

@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/freedo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/agentic-access/freedom-of-information-act-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
-- Federal Government
+- Federal-Government
 - FOIA
 - Transparency
 ---

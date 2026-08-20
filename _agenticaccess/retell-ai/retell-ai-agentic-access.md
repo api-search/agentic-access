@@ -537,9 +537,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/retell
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/agentic-access/retell-ai-agentic-access.yml
 summary_line: 86 operations · 49 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Agents
-- Realtime
+- Real-Time
 - Conversational
 ---

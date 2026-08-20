@@ -180,7 +180,7 @@ summary_line: 100 operations · 37 acting · 1 human-in-the-loop
 tags:
 - Blockchain
 - Cryptocurrency
-- Proof-of-Stake
+- Proof of Stake
 - DeFi
 - Smart Contracts
 ---

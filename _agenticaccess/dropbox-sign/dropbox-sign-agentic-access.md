@@ -79,9 +79,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dropbo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/agentic-access/dropbox-sign-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
-- eSignature
+- E-Signature
 - Electronic Signature
 - Document Signing
-- Workflow Automation
+- Workflow-Automation
 - Documents
 ---

@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perchwell/refs
 summary_line: 18 operations · 8 acting
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - MLS
 - Listings
 - Property Data

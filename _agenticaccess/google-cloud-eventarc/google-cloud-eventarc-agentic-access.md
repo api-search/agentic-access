@@ -43,7 +43,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-e
 summary_line: 10 operations · 5 acting
 tags:
 - Event-Driven
-- Events
+- Event
 - Google Cloud
 - Messaging
 - Serverless

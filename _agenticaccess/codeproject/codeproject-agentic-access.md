@@ -134,10 +134,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/codepr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/agentic-access/codeproject-agentic-access.yml
 summary_line: 42 operations · 29 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Articles
 - Community
-- Computer Vision
+- Computer-Vision
 - Developer Community
 - Face Recognition
 - Forum

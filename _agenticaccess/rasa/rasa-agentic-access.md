@@ -70,12 +70,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/head
 summary_line: 20 operations · 14 acting
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Conversational AI
 - Chatbots
 - Voice Assistants
 - NLU
 - LLM
-- Machine Learning
+- Machine-Learning
 - Agents
 ---

@@ -32,7 +32,7 @@ tags:
 - Company
 - Beauty
 - Cosmetics
-- E-commerce
+- E-Commerce
 - Retail
 - Marketplace
 - Wellness

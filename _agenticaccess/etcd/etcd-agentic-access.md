@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/etcd-h
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/agentic-access/etcd-agentic-access.yml
 summary_line: 38 operations · 38 acting · 4 human-in-the-loop
 tags:
-- Cloud Native
+- Cloud-Native
 - Consensus
 - Distributed Systems
 - Graduated

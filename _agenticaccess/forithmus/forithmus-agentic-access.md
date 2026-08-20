@@ -293,12 +293,11 @@ summary_line: 213 operations · 129 acting · 3 human-in-the-loop
 tags:
 - Medical Imaging
 - Radiology
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Healthcare AI
 - Challenge Platform
 - Benchmarks
 - Research
 - Developer Tools
-- API
 ---

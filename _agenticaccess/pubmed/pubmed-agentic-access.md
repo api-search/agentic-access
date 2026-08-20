@@ -71,14 +71,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/entrez
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pubmed/refs/heads/main/agentic-access/pubmed-agentic-access.yml
 summary_line: 9 operations · 1 acting
 tags:
-- biomedical
-- life science
-- research
-- literature
-- citations
+- Biomedical
+- Life Science
+- Research
+- Literature
+- Citations
 - abstracts
-- MeSH
-- genomics
+- Mesh
+- Genomics
 - PubMed
 - NCBI
 ---

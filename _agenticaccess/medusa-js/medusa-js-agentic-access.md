@@ -105,8 +105,8 @@ summary_line: 18 operations · 7 acting
 tags:
 - Commerce
 - Headless
-- eCommerce
-- Open Source
+- E-Commerce
+- Open-Source
 - Node.js
 - TypeScript
 - Framework

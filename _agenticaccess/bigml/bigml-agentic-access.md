@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/agentic-access/bigml-agentic-access.yml
 summary_line: 108 operations · 63 acting
 tags:
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Predictions
 - Datasets

@@ -223,7 +223,7 @@ summary_line: 81 operations · 42 acting · 2 human-in-the-loop
 tags:
 - Cloud Computing
 - Enterprise Cloud
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Oracle
-- Platform as a Service
+- Platform-as-a-Service
 ---

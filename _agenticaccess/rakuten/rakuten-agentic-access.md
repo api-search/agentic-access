@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rakute
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/agentic-access/rakuten-agentic-access.yml
 summary_line: 3 operations
 tags:
-- E-commerce
+- E-Commerce
 - Travel
 - Books
 - Recipes

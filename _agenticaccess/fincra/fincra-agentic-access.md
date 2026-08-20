@@ -106,7 +106,7 @@ summary_line: 23 operations · 10 acting
 tags:
 - Payments
 - Cross-Border
-- Collections
+- Collection
 - Payouts
 - FX
 - Fintech

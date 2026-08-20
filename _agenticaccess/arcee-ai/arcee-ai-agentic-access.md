@@ -271,13 +271,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/
 summary_line: 237 operations · 125 acting · 4 human-in-the-loop
 tags:
 - Company
-- Ai
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Small Language Models
 - Inference
-- Model Context Protocol
-- Open Source
+- MCP
+- Open-Source
 - Developer Platform
 ---

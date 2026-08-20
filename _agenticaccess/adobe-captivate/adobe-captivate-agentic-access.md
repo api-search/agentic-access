@@ -120,7 +120,7 @@ summary_line: 28 operations · 4 acting
 tags:
 - Authoring
 - Education
-- eLearning
+- E-Learning
 - LMS
 - SCORM
 - Training

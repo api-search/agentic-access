@@ -73,5 +73,5 @@ tags:
 - Customer Communications
 - Contact Center
 - Campaigns
-- Webhooks
+- Webhook
 ---

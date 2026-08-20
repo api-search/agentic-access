@@ -269,12 +269,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/h
 summary_line: 213 operations · 124 acting · 7 human-in-the-loop
 tags:
 - Company
-- Enterprise; Ai
+- Enterprise AI
 - Process Intelligence
 - Automation
 - Agents
 - SAP Migration
-- Operations
 - ERP
 - Transformation
 - Approvals

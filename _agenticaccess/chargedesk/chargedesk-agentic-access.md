@@ -122,7 +122,7 @@ summary_line: 31 operations · 19 acting
 tags:
 - Payments
 - Billing
-- Subscriptions
+- Subscription
 - Charges
 - Refunds
 - Customer Management

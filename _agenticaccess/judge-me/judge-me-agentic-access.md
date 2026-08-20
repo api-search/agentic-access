@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/judge-me/refs/
 summary_line: 6 operations · 2 acting
 tags:
 - Reviews
-- E-commerce
+- E-Commerce
 - Shopify
 - Ratings
 - Social Proof

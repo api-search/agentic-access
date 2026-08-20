@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openfe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-fire-administration/refs/heads/main/agentic-access/united-states-fire-administration-agentic-access.yml
 summary_line: 4 operations
 tags:
-- Federal Government
+- Federal-Government
 - Fire Safety
 - Emergency Management
 - Public Safety

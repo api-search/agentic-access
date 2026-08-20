@@ -208,15 +208,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coactive/refs/
 summary_line: 118 operations · 71 acting · 1 human-in-the-loop
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Multimodal AI
-- Computer Vision
+- Computer-Vision
 - Video Intelligence
 - Image Search
 - Content Intelligence
 - Semantic Search
 - Contextual Advertising
 - Metadata
-- Machine Learning
+- Machine-Learning
 - Media
 ---

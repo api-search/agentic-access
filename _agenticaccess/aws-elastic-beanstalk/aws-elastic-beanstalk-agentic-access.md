@@ -37,9 +37,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aws-el
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/agentic-access/aws-elastic-beanstalk-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Application Deployment
-- Auto Scaling
+- Auto-Scaling
 - Cloud
 - DevOps
 ---

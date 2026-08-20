@@ -290,7 +290,7 @@ tags:
 - Diagnostics
 - Genomics
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Life Sciences
 - Clinical Laboratory
 - Precision Medicine

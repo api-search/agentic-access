@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vectar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/agentic-access/vectara-agentic-access.yml
 summary_line: 34 operations · 23 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Corpora
 - Embeddings

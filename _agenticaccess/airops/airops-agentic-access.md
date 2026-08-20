@@ -63,8 +63,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airops/refs/he
 summary_line: 42 operations · 29 acting · 1 human-in-the-loop
 tags:
 - Company
-- Applications
-- AI
+- Application
+- Artificial Intelligence
 - Content
 - SEO
 - AEO

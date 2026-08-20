@@ -114,7 +114,7 @@ summary_line: 32 operations · 9 acting
 tags:
 - Event Ticketing
 - Ticketing
-- Events
+- Event
 - Registration
 - Payments
 - Webconnex

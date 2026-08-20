@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/consumer-produ
 summary_line: 1 operation
 tags:
 - Consumer Protection
-- Federal Government
+- Federal-Government
 - Hazards
 - Open Data
 - Product Safety

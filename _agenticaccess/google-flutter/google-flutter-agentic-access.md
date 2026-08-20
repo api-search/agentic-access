@@ -48,6 +48,6 @@ tags:
 - Dart
 - Google
 - Mobile Development
-- Open Source
+- Open-Source
 - UI Framework
 ---

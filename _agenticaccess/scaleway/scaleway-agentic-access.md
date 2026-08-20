@@ -575,7 +575,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/scalew
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/agentic-access/scaleway-agentic-access.yml
 summary_line: 419 operations · 257 acting · 10 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Cloud Computing
 - Containers
 - Database

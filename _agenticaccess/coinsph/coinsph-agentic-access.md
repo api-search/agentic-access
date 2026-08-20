@@ -354,7 +354,7 @@ tags:
 - Cryptocurrency Exchange
 - Payments
 - Fintech
-- Wallet
+- Wallets
 - Philippines
 - Trading
 ---

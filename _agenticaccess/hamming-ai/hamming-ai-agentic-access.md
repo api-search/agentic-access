@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hammin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/agentic-access/hamming-ai-agentic-access.yml
 summary_line: 16 operations · 11 acting
 tags:
-- AI
+- Artificial Intelligence
 - Voice Agents
 - LLM
 - Testing

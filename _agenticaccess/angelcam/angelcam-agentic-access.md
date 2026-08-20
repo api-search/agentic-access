@@ -293,12 +293,12 @@ summary_line: 124 operations · 53 acting · 8 human-in-the-loop
 tags:
 - Company
 - Video Surveillance
-- Cameras
+- Camera
 - IP Camera
 - Cloud Recording
 - Video Streaming
 - IoT
 - ONVIF
 - Security
-- Webhooks
+- Webhook
 ---

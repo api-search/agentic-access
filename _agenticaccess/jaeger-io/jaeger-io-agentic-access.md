@@ -59,7 +59,7 @@ tags:
 - APM
 - OpenTelemetry
 - CNCF
-- Cloud Native
+- Cloud-Native
 - Microservices
-- Open Source
+- Open-Source
 ---

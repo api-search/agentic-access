@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/contex
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/agentic-access/context7-agentic-access.yml
 summary_line: 11 operations · 8 acting
 tags:
-- AI
+- Artificial Intelligence
 - Context
 - Documentation
 - LLM

@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cast-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/agentic-access/cast-ai-agentic-access.yml
 summary_line: 38 operations · 18 acting · 1 human-in-the-loop
 tags:
-- Autoscaling
+- Auto-Scaling
 - Cloud Infrastructure
 - Cost Optimization
 - DevOps

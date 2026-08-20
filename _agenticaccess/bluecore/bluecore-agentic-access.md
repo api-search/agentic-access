@@ -102,6 +102,6 @@ tags:
 - Email
 - SMS
 - Messaging
-- eCommerce
+- E-Commerce
 - Consent
 ---

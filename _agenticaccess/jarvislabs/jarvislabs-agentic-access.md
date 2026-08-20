@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jarvis
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/agentic-access/jarvislabs-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
-- AI
+- Artificial Intelligence
 - GPU
 - Cloud
 - Infrastructure

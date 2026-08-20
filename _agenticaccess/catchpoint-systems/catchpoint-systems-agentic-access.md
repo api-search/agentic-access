@@ -261,5 +261,4 @@ tags:
 - Real User Monitoring
 - Network Monitoring
 - Digital Experience Monitoring
-- APIs
 ---

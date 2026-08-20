@@ -80,12 +80,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/inworl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/agentic-access/inworld-ai-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
-- AI
 - Artificial Intelligence
 - Voice
-- Text To Speech
-- Speech To Text
-- Realtime
+- Text-to-Speech
+- Speech-to-Text
+- Real-Time
 - LLM Routing
 - Voice Cloning
 - Conversational AI

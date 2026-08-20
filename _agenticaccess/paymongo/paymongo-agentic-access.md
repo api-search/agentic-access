@@ -105,7 +105,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/
 summary_line: 28 operations · 15 acting · 2 human-in-the-loop
 tags:
 - Payments
-- FinTech
+- Fintech
 - Philippines
 - Southeast Asia
 - GCash

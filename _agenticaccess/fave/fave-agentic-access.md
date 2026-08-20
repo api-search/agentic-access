@@ -71,5 +71,5 @@ tags:
 - Cashback
 - Merchant Services
 - Southeast Asia
-- Webhooks
+- Webhook
 ---

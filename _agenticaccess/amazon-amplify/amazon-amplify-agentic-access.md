@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify
 summary_line: 18 operations · 10 acting
 tags:
 - Frontend
-- Full Stack
+- Full-Stack
 - Hosting
 - Mobile Development
 - Web Applications

@@ -98,8 +98,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/
 summary_line: 46 operations · 17 acting · 2 human-in-the-loop
 tags:
 - API Testing
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Mocking
-- Open Source
+- Open-Source
 ---

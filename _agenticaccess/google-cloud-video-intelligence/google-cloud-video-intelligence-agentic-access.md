@@ -48,7 +48,7 @@ summary_line: 3 operations · 2 acting
 tags:
 - Content Moderation
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - Object Detection
 - Video Analysis
 - Video Intelligence

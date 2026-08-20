@@ -53,10 +53,10 @@ tags:
 - Company
 - E-Commerce
 - Marketplace
-- Print On Demand
+- Print on Demand
 - Manufacturing
 - Retail
-- Affiliate
+- Affiliates
 - Custom Products
 - Order Management
 - Shipping

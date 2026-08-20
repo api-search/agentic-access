@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-
 summary_line: 7 operations · 2 acting
 tags:
 - Booking
-- Buses
+- Bus
 - Coach
 - Europe
 - Mobility

@@ -96,13 +96,13 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/rea-gr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/agentic-access/rea-group-agentic-access.yml
 summary_line: 32 operations · 5 acting
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - Valuations
 - AVM
 - Market Insights
 - Listings
-- Transactions
+- Transaction
 - Address Matching
 - REAXML
 - Partner Portal

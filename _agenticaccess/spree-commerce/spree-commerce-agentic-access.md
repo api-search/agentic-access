@@ -667,8 +667,8 @@ summary_line: 524 operations · 311 acting · 5 human-in-the-loop
 tags:
 - Commerce
 - Headless
-- eCommerce
-- Open Source
+- E-Commerce
+- Open-Source
 - Ruby on Rails
 - Ruby
 - TypeScript

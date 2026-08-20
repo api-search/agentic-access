@@ -107,9 +107,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debbie-collect
 summary_line: 23 operations · 13 acting
 tags:
 - Accounts Receivable
-- Collections
+- Collection
 - Debt Collection
-- FinTech
+- Fintech
 - Payments
-- SaaS
+- Software-as-a-Service
 ---

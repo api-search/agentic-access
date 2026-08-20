@@ -67,8 +67,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sail/refs/head
 summary_line: 10 operations · 5 acting
 tags:
 - Company
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - LLM
 - Inference
 - Agents

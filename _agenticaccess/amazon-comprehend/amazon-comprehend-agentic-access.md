@@ -617,7 +617,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/agentic-access/amazon-comprehend-agentic-access.yml
 summary_line: 84 operations · 84 acting · 9 human-in-the-loop
 tags:
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - NLP
 - Text Analysis

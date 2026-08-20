@@ -95,9 +95,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timescaledb/re
 summary_line: 35 operations · 26 acting · 3 human-in-the-loop
 tags:
 - Database
-- Time-Series
+- Time Series
 - PostgreSQL
-- Open Source
+- Open-Source
 - Cloud
 - Hypertables
 - Continuous Aggregates

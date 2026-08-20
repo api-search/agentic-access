@@ -110,13 +110,13 @@ summary_line: 22 operations · 16 acting
 tags:
 - Embedded Finance
 - Banking as a Service
-- BaaS
+- Backend-as-a-Service
 - Payments
 - ACH
 - Wire
-- Push-to-Card
+- Push to Card
 - Lending
-- Accounts
+- Account
 - Cards
 - Fintech
 - RTP

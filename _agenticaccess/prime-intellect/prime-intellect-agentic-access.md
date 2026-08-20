@@ -182,7 +182,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/prime-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/agentic-access/prime-intellect-agentic-access.yml
 summary_line: 86 operations · 42 acting
 tags:
-- AI
 - Artificial Intelligence
 - Reinforcement Learning
 - GPU Compute
@@ -194,6 +193,6 @@ tags:
 - Environments
 - Evaluations
 - LoRA
-- Open Source
+- Open-Source
 - Agents
 ---

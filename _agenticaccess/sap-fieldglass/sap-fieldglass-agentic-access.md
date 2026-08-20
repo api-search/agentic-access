@@ -104,7 +104,7 @@ summary_line: 14 operations · 3 acting
 tags:
 - Contingent Workforce
 - External Talent
-- Human Capital Management
+- HCM
 - Services Procurement
 - Statements of Work
 - Vendor Management

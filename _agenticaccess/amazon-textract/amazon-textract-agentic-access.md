@@ -64,6 +64,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-textrac
 summary_line: 6 operations · 6 acting
 tags:
 - Document Processing
-- Machine Learning
+- Machine-Learning
 - OCR
 ---

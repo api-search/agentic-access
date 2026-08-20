@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/even-financial
 summary_line: 22 operations · 5 acting
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Embedded Finance
 - Fintech
 - Lending

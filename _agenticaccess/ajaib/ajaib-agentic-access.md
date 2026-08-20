@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ajaib/refs/hea
 summary_line: 14 operations · 6 acting
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investing
 - Brokerage
 - Trading

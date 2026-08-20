@@ -176,7 +176,7 @@ tags:
 - Payment Gateway
 - In-Person Payments
 - EFTPOS
-- Point of Sale
+- Point-of-Sale
 - Online Payments
 - Tap to Pay
 ---

@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aqua-s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/agentic-access/aqua-security-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Kubernetes
 - Runtime Protection

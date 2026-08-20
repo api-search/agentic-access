@@ -335,7 +335,7 @@ tags:
 - DSP
 - Demand-Side Platform
 - Campaign Management
-- Ad Tech
+- AdTech
 - Bidding
 - Audience Segments
 - Creative Management

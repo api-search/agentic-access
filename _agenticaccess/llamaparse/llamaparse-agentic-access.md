@@ -281,7 +281,7 @@ tags:
 - PDF
 - LLM
 - RAG
-- AI
+- Artificial Intelligence
 - Document Intelligence
 - Structured Data Extraction
 ---

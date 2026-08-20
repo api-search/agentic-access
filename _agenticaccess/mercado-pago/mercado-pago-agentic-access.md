@@ -231,12 +231,12 @@ summary_line: 60 operations · 31 acting
 tags:
 - Payments
 - Checkout
-- Subscriptions
-- POS
+- Subscription
+- Point-of-Sale
 - QR
-- PIX
-- SDKs
-- Wallet
+- Pix
+- SDK
+- Wallets
 - Acquiring
 - Lending
 - Issuing

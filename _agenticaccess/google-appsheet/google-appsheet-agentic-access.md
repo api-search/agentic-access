@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/agentic-access/google-appsheet-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- Applications
+- Application
 - Data
 - Google
 - Low-Code

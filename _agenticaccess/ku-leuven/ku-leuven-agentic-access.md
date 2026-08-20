@@ -220,6 +220,12 @@ api_specs:
   slug: ku-leuven-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-workflows-api-openapi.yml
+- filename: ku-leuven-data-services-api-openapi.yml
+  format: yaml
+  label: KU Leuven ICTS Data Services API (OpenSearch gateway)
+  slug: data-services
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/openapi/ku-leuven-data-services-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 282
@@ -343,11 +349,19 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ku-leu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/agentic-access/ku-leuven-agentic-access.yml
 summary_line: 536 operations · 254 acting · 7 human-in-the-loop
 tags:
-- Education
-- Higher Education
 - University
-- Research Data
-- Open Data
+- Higher Education
+- Education
 - Belgium
 - Europe
+- Flanders
+- Research Data
+- Research Repository
+- Open Data
+- Course Catalog
+- Identity Federation
+- OAI-PMH
+- Dataverse
+- OpenSearch
+- Public Research University
 ---

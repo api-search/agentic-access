@@ -83,7 +83,7 @@ summary_line: 20 operations · 11 acting
 tags:
 - Diagrams
 - Documentation
-- AI
+- Artificial Intelligence
 - Technical Documentation
 - Diagramming
 - Architecture

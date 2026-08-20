@@ -42,13 +42,13 @@ summary_line: 2 operations · 1 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Voice
 - Speech Recognition
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - Translation
-- Real Time
+- Real-Time
 - WebSockets
 - Audio
 - Transcription

@@ -245,9 +245,9 @@ summary_line: 135 operations · 57 acting · 1 human-in-the-loop
 tags:
 - Event Ticketing
 - Registration
-- Events
+- Event
 - Ticketing
-- Check-In
+- Check-in
 - Churches
 - Payments
 ---

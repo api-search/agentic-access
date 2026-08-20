@@ -147,9 +147,9 @@ summary_line: 45 operations · 28 acting
 tags:
 - Authentication
 - User Management
-- Open Source
+- Open-Source
 - Self-Hosted
 - Identity
-- Organizations
+- Organization
 - RBAC
 ---

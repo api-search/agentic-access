@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/app-st
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/agentic-access/apple-agentic-access.yml
 summary_line: 22 operations · 9 acting
 tags:
-- Developer
+- Developers
 - iOS
 - macOS
 - Mobile

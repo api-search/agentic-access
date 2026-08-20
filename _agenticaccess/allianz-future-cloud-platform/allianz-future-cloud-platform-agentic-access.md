@@ -78,7 +78,7 @@ summary_line: 8 operations · 3 acting
 tags:
 - Cloud Platform
 - Enterprise
-- Financial Services
+- Financial-Services
 - Insurance
 - Platform Engineering
 - Kubernetes

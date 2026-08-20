@@ -48,10 +48,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/frappe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frappe/refs/heads/main/agentic-access/frappe-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
-- Open Source
+- Open-Source
 - ERP
 - Accounting
 - Inventory
 - Payroll
-- Low Code
+- Low-Code
 ---

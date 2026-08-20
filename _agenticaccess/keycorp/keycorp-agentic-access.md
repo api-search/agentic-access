@@ -94,7 +94,7 @@ summary_line: 4 operations
 tags:
 - Banking
 - Commercial Banking
-- Financial Services
+- Financial-Services
 - Fortune 500
 - Payments
 - United States

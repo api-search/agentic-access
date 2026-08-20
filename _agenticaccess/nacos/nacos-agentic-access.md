@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/hea
 summary_line: 26 operations · 16 acting
 tags:
 - Alibaba
-- Cloud Native
+- Cloud-Native
 - Configuration Management
 - DNS
 - Java

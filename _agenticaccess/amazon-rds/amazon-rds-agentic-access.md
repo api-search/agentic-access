@@ -60,7 +60,7 @@ summary_line: 12 operations
 tags:
 - Cloud Databases
 - Database Service
-- DBaaS
+- Database-as-a-Service
 - Managed Databases
 - Relational Databases
 ---

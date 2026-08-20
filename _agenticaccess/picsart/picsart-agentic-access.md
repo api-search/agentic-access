@@ -214,11 +214,11 @@ summary_line: 91 operations · 69 acting
 tags:
 - Company
 - Consumer
-- Images
+- Image
 - Image Processing
 - Video
 - Generative AI
-- Machine Learning
+- Machine-Learning
 - Media
 - Content Creation
 - Developer Tools

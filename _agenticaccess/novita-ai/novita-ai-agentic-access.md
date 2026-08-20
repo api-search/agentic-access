@@ -40,12 +40,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/novita
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/agentic-access/novita-ai-agentic-access.yml
 summary_line: 4 operations · 3 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - GPU
-- OpenAI Compatible
-- Image Generation
+- OpenAI-Compatible
+- Image-Generation
 - Video Generation
 - Audio
 - Embeddings

@@ -170,7 +170,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/obie-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/agentic-access/lloyds-banking-group-agentic-access.yml
 summary_line: 95 operations · 26 acting
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

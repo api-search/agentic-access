@@ -153,11 +153,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/speake
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/agentic-access/speakeasy-agentic-access.yml
 summary_line: 77 operations · 38 acting · 3 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Documentation
 - MCP
 - Platform
-- SDKs
+- SDK
 - Terraform
 - Testing
 ---

@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/databr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/agentic-access/databricks-agentic-access.yml
 summary_line: 25 operations · 15 acting · 2 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Analytics
 - Apache Spark
 - Big Data
@@ -88,7 +88,7 @@ tags:
 - ETL
 - Identity Management
 - Lakehouse
-- Machine Learning
+- Machine-Learning
 - MLflow
 - Model Serving
 - Security

@@ -51,5 +51,5 @@ tags:
 - Compute
 - Google Cloud
 - HPC
-- Jobs
+- Job
 ---

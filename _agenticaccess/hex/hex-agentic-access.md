@@ -121,7 +121,7 @@ tags:
 - Notebooks
 - Business Intelligence
 - Data Apps
-- AI
+- Artificial Intelligence
 - Agents
 - Semantic Layer
 - Developer Tools

@@ -70,17 +70,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflectionio/r
 summary_line: 20 operations · 10 acting
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Marketing
 - Marketing Automation
 - Email Marketing
 - Customer Data
 - B2B
 - Contacts
-- API
 - MCP
 - Agents
 - Artificial Intelligence
 - Customer Journeys
-- Webhooks
+- Webhook
 ---

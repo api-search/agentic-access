@@ -76,9 +76,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/twelve
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/agentic-access/twelvelabs-agentic-access.yml
 summary_line: 22 operations · 13 acting
 tags:
-- AI
+- Artificial Intelligence
 - Video Understanding
-- Multimodal
+- Multi-Modal
 - Search
 - Embeddings
 ---

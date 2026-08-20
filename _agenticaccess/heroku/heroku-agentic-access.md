@@ -142,5 +142,5 @@ tags:
 - Application Deployment
 - Cloud Platform
 - DevOps
-- PaaS
+- Platform-as-a-Service
 ---

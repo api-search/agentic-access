@@ -189,7 +189,7 @@ tags:
 - Inventory
 - Compliance
 - Traceability
-- eCommerce
+- E-Commerce
 - Distribution
 - Retail
 ---

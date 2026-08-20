@@ -44,10 +44,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thenewsapi/refs/heads/main/agentic-access/thenewsapi-agentic-access.yml
 summary_line: 6 operations
 tags:
-- news
-- articles
-- headlines
-- media
-- aggregation
-- real-time
+- News
+- Articles
+- Headlines
+- Media
+- Aggregation
+- Real-Time
 ---

@@ -179,9 +179,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elementum/refs
 summary_line: 72 operations · 49 acting · 2 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- Workflow
+- Workflows
 - Orchestration
 - Agents
 - Supply Chain

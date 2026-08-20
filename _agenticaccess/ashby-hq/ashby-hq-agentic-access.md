@@ -378,7 +378,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/
 summary_line: 164 operations · 164 acting
 tags:
 - ATS
-- Applicant Tracking System
 - Recruiting
 - Talent Acquisition
 - Sourcing
@@ -387,5 +386,5 @@ tags:
 - Analytics
 - Hiring
 - HR Tech
-- AI
+- Artificial Intelligence
 ---

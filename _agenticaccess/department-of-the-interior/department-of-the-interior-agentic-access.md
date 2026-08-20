@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nps-da
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/agentic-access/department-of-the-interior-agentic-access.yml
 summary_line: 11 operations
 tags:
-- Federal Government
+- Federal-Government
 - Public Lands
 - Natural Resources
 - Geospatial

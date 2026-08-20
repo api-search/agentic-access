@@ -96,5 +96,5 @@ tags:
 - Cost Optimization
 - Cloud
 - Kubernetes
-- Open Source
+- Open-Source
 ---

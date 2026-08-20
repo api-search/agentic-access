@@ -89,6 +89,6 @@ tags:
 - Speech-to-Text
 - Media
 - Journalism
-- AI
+- Artificial Intelligence
 - Captions
 ---

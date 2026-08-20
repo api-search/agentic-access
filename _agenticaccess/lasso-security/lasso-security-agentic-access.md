@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lasso-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/agentic-access/lasso-security-agentic-access.yml
 summary_line: 2 operations · 2 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - GenAI Security
 - Prompt Injection

@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eventb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/agentic-access/eventbrite-agentic-access.yml
 summary_line: 14 operations · 3 acting
 tags:
-- Events
+- Event
 - Event Technology
 - Ticketing
 - Marketplace

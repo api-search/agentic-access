@@ -177,11 +177,11 @@ tags:
 - Prompt Engineering
 - Workflows
 - Evaluations
-- LLM Ops
+- LLMOps
 - RAG
 - Observability
 - Datasets
-- Deployments
+- Deployment
 - Multi-Provider
 - Agent Builder
 - Self-Hosted

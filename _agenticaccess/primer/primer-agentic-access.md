@@ -142,14 +142,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/primer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/agentic-access/primer-agentic-access.yml
 summary_line: 20 operations · 16 acting
 tags:
-- payments
-- payment orchestration
-- payment processing
-- fintech
-- fraud detection
-- smart routing
-- checkout
-- payment methods
-- reconciliation
-- webhooks
+- Payments
+- Payment Orchestration
+- Payment Processing
+- Fintech
+- Fraud Detection
+- Smart Routing
+- Checkout
+- Payment Methods
+- Reconciliation
+- Webhook
 ---

@@ -61,7 +61,7 @@ tags:
 - Personal Weather Stations
 - Hyperlocal
 - Observations
-- Forecasts
+- Forecast
 - Historical Data
 - REST API
 ---

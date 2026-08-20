@@ -152,7 +152,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primis/refs/he
 summary_line: 42 operations · 25 acting · 1 human-in-the-loop
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Logistics
 - Shipping
 - Returns

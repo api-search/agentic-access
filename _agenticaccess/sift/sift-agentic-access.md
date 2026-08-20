@@ -107,7 +107,7 @@ tags:
 - Fraud Prevention
 - Risk
 - Trust and Safety
-- Machine Learning
+- Machine-Learning
 - Payment Fraud
 - Account Takeover
 - Chargebacks

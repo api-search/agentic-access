@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unkey-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/agentic-access/unkey-agentic-access.yml
 summary_line: 42 operations · 41 acting · 4 human-in-the-loop
 tags:
-- API Keys
+- APIKeys
 - Rate Limiting
 - Authentication
 - Developer Platform

@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bjs-wh
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/agentic-access/bjs-wholesale-club-agentic-access.yml
 summary_line: 7 operations · 2 acting
 tags:
-- Ecommerce
+- E-Commerce
 - Membership
 - Retail
 - Wholesale

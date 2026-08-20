@@ -100,12 +100,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openpi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/agentic-access/openpipe-agentic-access.yml
 summary_line: 23 operations · 17 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Fine-Tuning
 - Distillation
 - Inference
-- OpenAI Compatible
+- OpenAI-Compatible
 - Anthropic Compatible
 - Caching
 ---

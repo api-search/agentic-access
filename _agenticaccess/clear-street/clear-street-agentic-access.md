@@ -261,7 +261,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clear-street/r
 summary_line: 98 operations · 35 acting
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Prime Brokerage
 - Trading

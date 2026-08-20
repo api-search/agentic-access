@@ -128,6 +128,6 @@ tags:
 - Containers
 - Docker
 - Build Automation
-- Open Source
+- Open-Source
 - Self-Hosted
 ---

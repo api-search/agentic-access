@@ -42,14 +42,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/rtcsta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/agentic-access/rtcstats-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
-- webrtc
-- observability
-- monitoring
-- debugging
-- real-time-communications
-- video
-- voice
-- ai
-- mcp
-- developer-tools
+- WebRTC
+- Observability
+- Monitoring
+- Debugging
+- Real-Time Communications
+- Video
+- Voice
+- Artificial Intelligence
+- MCP
+- Developer Tools
 ---

@@ -160,6 +160,6 @@ tags:
 - Checkout
 - Reconciliation
 - Fraud
-- 3-D Secure
+- 3D Secure
 - Company
 ---

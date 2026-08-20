@@ -49,14 +49,14 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/rics-d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/agentic-access/rics-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Industry Body
 - Valuation
 - Standards
 - Surveying
 - Property Measurement
-- Regulation
+- Regulations
 - Construction
 - PropTech
 ---

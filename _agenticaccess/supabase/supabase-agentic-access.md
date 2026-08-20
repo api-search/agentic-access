@@ -199,11 +199,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/supaba
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/agentic-access/supabase-agentic-access.yml
 summary_line: 78 operations · 49 acting
 tags:
-- Backend As A Service
+- Backend-as-a-Service
 - PostgreSQL
-- Open Source
+- Open-Source
 - Authentication
-- Real Time
+- Real-Time
 - Storage
 - Edge Functions
 - Database

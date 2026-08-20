@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/umami/refs/hea
 summary_line: 23 operations · 10 acting
 tags:
 - Cookieless Tracking
-- Open Source
+- Open-Source
 - Privacy
 - Web Analytics
 - Website Analytics

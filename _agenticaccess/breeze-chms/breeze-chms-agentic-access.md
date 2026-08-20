@@ -103,9 +103,9 @@ summary_line: 47 operations
 tags:
 - Church Management
 - ChMS
-- Nonprofit
+- Non-Profit
 - Giving
 - Membership
-- Events
+- Event
 - Faith
 ---

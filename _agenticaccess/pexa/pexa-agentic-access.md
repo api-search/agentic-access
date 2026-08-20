@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/pexa-e
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/agentic-access/pexa-agentic-access.yml
 summary_line: 87 operations · 43 acting
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Conveyancing
 - Property Settlement
@@ -137,5 +137,5 @@ tags:
 - PropTech
 - Mortgage
 - Digital Signing
-- Webhooks
+- Webhook
 ---

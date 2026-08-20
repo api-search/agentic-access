@@ -73,12 +73,12 @@ summary_line: 9 operations · 2 acting
 tags:
 - Travel
 - Tours and Activities
-- Experiences
+- Experience
 - Attractions
 - Ticketing
 - Bookings
 - Marketplace
 - Partner API
-- Affiliate
-- Events
+- Affiliates
+- Event
 ---

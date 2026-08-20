@@ -64,5 +64,5 @@ tags:
 - IDP
 - OCR
 - Data Extraction
-- AI
+- Artificial Intelligence
 ---

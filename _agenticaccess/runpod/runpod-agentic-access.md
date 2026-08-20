@@ -106,11 +106,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/runpod
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/agentic-access/runpod-agentic-access.yml
 summary_line: 37 operations · 22 acting · 2 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Cloud
 - Compute
 - GPU
 - Inference
-- Machine Learning
+- Machine-Learning
 - Serverless
 ---

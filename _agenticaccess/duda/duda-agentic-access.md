@@ -101,7 +101,7 @@ tags:
 - Website Builder
 - Agencies
 - White Label
-- SaaS
-- eCommerce
+- Software-as-a-Service
+- E-Commerce
 - CMS
 ---

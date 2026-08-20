@@ -382,7 +382,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-banking-u
 summary_line: 101 operations · 31 acting
 tags:
 - Open Banking
-- Financial Services
+- Financial-Services
 - Payments
 - Account Information
 - PSD2

@@ -335,7 +335,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/structify/refs
 summary_line: 281 operations · 174 acting · 7 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data
 - Web Scraping
 - Data Extraction

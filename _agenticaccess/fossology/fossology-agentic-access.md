@@ -176,5 +176,5 @@ tags:
 - Linux Foundation
 - Scanning
 - SPDX
-- Open Source
+- Open-Source
 ---

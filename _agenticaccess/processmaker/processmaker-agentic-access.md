@@ -114,7 +114,7 @@ summary_line: 64 operations · 38 acting
 tags:
 - BPM
 - Business Process Management
-- Workflow Automation
+- Workflow-Automation
 - BPMN 2.0
 - Low-Code
 - Intelligent Automation

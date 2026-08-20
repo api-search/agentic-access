@@ -74,9 +74,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/haysta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/agentic-access/haystack-ai-agentic-access.yml
 summary_line: 18 operations · 12 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - RAG
-- Open Source
+- Open-Source
 - Orchestration
 ---

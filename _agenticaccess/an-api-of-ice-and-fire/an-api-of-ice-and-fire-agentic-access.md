@@ -58,7 +58,7 @@ summary_line: 7 operations
 tags:
 - Video
 - Public APIs
-- Open Source
+- Open-Source
 - Game of Thrones
 - A Song of Ice and Fire
 - Fan API

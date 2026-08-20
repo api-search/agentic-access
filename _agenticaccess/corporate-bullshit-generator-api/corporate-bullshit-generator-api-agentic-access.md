@@ -49,5 +49,5 @@ tags:
 - Public API
 - REST
 - Test Data
-- Unauthenticated
+- unauthenticated
 ---

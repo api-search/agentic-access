@@ -67,7 +67,7 @@ summary_line: 7 operations · 2 acting
 tags:
 - Apache 2.0
 - CNCF
-- Cloud Native
+- Cloud-Native
 - conmon
 - Container Runtime
 - Containers
@@ -76,7 +76,7 @@ tags:
 - Graduated
 - Kubernetes
 - OCI
-- Open Source
+- Open-Source
 - Prometheus
 - runc
 ---

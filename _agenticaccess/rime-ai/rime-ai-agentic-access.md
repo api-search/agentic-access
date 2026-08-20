@@ -40,9 +40,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rime-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rime-ai/refs/heads/main/agentic-access/rime-ai-agentic-access.yml
 summary_line: 3 operations · 2 acting
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - TTS
-- Realtime
+- Real-Time
 - Conversational
 ---

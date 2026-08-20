@@ -79,7 +79,7 @@ summary_line: 17 operations
 tags:
 - Artists
 - Concerts
-- Events
+- Event
 - Festivals
 - Live Music
 - Music

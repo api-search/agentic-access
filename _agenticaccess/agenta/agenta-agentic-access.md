@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/agenta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/agentic-access/agenta-agentic-access.yml
 summary_line: 25 operations · 19 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLMOps
 - Prompt Management
 - LLM Evaluation

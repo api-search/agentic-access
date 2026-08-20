@@ -69,9 +69,9 @@ tags:
 - Decentralized Finance
 - Yield
 - Yield Optimizer
-- Vaults
+- Vault
 - ERC-4626
-- Cross-chain
+- Cross-Chain
 - Blockchain
 - Crypto
 - Risk

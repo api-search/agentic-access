@@ -354,7 +354,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/junipe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/agentic-access/juniper-agentic-access.yml
 summary_line: 141 operations · 53 acting
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Cloud
 - Enterprise

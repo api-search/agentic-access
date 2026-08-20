@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mendab
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/agentic-access/mendable-agentic-access.yml
 summary_line: 6 operations · 6 acting
 tags:
-- AI
+- Artificial Intelligence
 - Answers
 - Enterprise Search
 - RAG

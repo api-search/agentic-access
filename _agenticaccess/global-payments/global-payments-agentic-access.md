@@ -65,10 +65,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/global
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/agentic-access/global-payments-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
-- eCommerce
+- E-Commerce
 - Payment Processing
 - Payment Technology
 - Payments
-- POS
+- Point-of-Sale
 - Fortune 1000
 ---

@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/hea
 summary_line: 12 operations
 tags:
 - Star Wars
-- Open Source
+- Open-Source
 - Teaching API
 - Public API
 - REST

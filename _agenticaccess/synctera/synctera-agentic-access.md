@@ -336,8 +336,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/syncte
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synctera/refs/heads/main/agentic-access/synctera-agentic-access.yml
 summary_line: 174 operations · 93 acting
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

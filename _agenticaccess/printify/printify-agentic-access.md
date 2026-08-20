@@ -107,7 +107,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/printify/refs/
 summary_line: 33 operations · 18 acting
 tags:
 - Print on Demand
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Fulfillment
 - Merchandise

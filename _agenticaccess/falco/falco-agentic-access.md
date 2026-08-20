@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/falco-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/falco/refs/heads/main/agentic-access/falco-agentic-access.yml
 summary_line: 4 operations · 1 acting
 tags:
-- Cloud Native
+- Cloud-Native
 - eBPF
 - Runtime Security
 - Security

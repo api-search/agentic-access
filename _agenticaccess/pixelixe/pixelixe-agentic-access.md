@@ -53,5 +53,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/
 summary_line: 4 operations · 2 acting
 tags:
 - Graphics
-- Images
+- Image
 ---

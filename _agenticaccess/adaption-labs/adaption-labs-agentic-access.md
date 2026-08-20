@@ -49,8 +49,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaption-labs/
 summary_line: 11 operations · 6 acting
 tags:
 - Company
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Training Data
 - Datasets
 - LLM

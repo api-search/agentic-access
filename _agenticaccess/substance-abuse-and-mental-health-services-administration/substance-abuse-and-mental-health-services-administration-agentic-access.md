@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/samhsa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/agentic-access/substance-abuse-and-mental-health-services-administration-agentic-access.yml
 summary_line: 1 operation
 tags:
-- Federal Government
+- Federal-Government
 - Public Health
 - Behavioral Health
 - Substance Use Disorders

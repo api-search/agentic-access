@@ -247,7 +247,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/resemb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/agentic-access/resemble-ai-agentic-access.yml
 summary_line: 112 operations · 60 acting · 4 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - TTS
 - Voice Cloning

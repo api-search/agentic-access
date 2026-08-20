@@ -51,14 +51,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coredns/refs/h
 summary_line: 3 operations
 tags:
 - Apache 2.0
-- Cloud Native
+- Cloud-Native
 - CNCF
 - DNS
 - Go
 - Graduated
 - Kubernetes
 - Networking
-- Open Source
+- Open-Source
 - Plugins
 - Prometheus
 - Service Discovery

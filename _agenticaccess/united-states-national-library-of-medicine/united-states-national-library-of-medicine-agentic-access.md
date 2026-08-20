@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ncbi-b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/agentic-access/united-states-national-library-of-medicine-agentic-access.yml
 summary_line: 17 operations · 1 acting
 tags:
-- Federal Government
+- Federal-Government
 - Biomedical Research
 - Healthcare
 - Genomics

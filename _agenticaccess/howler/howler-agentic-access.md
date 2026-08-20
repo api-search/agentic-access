@@ -198,7 +198,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/howler/refs/he
 summary_line: 67 operations · 37 acting · 2 human-in-the-loop
 tags:
 - Company
-- Events
+- Event
 - Ticketing
 - Payments
 - Cashless

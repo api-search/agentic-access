@@ -74,9 +74,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs
 summary_line: 13 operations · 7 acting
 tags:
 - Company
-- AI
-- Agents
 - Artificial Intelligence
+- Agents
 - LLM
 - No-Code
 - Automation

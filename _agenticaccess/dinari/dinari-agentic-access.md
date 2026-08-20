@@ -175,9 +175,9 @@ tags:
 - Brokerage
 - Market Data
 - Blockchain
-- Stablecoin
+- Stablecoins
 - Fintech
 - KYC
-- Orders
+- Order
 - Wallets
 ---

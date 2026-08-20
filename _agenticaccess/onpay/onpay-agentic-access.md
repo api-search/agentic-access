@@ -87,14 +87,14 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/onpay-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/agentic-access/onpay-agentic-access.yml
 summary_line: 58 operations · 28 acting
 tags:
-- payroll
-- human-resources
-- employee-benefits
+- Payroll
+- Human Resources
+- Employee Benefits
 - payroll-tax
-- small-business
-- workforce-management
-- fintech
-- hr-tech
-- time-and-attendance
+- Small Business
+- Workforce Management
+- Fintech
+- HR Tech
+- Time and Attendance
 - retirement-401k
 ---

@@ -281,5 +281,5 @@ tags:
 - Cultural Heritage
 - IIIF
 - Public APIs
-- Open Source
+- Open-Source
 ---

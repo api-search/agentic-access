@@ -44,9 +44,9 @@ summary_line: 10 operations · 4 acting
 tags:
 - Cloud Computing
 - Data Analytics
-- IaaS
-- Machine Learning
-- PaaS
-- SaaS
+- Infrastructure-as-a-Service
+- Machine-Learning
+- Platform-as-a-Service
+- Software-as-a-Service
 - Serverless
 ---

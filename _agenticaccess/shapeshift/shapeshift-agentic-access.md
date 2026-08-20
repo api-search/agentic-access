@@ -69,8 +69,7 @@ tags:
 - Ethereum
 - Web3
 - DeFi
-- Wallet
+- Wallets
 - Trading
-- Multichain
-- API
+- Multi-Chain
 ---

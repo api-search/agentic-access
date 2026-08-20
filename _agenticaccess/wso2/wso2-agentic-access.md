@@ -654,7 +654,7 @@ summary_line: 274 operations · 124 acting · 6 human-in-the-loop
 tags:
 - API Management
 - Gateways
-- Open Source
+- Open-Source
 - API Lifecycle
 - GraphQL
 - SOAP

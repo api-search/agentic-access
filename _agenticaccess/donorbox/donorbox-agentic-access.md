@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/donorb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/agentic-access/donorbox-agentic-access.yml
 summary_line: 7 operations
 tags:
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
 - Payments

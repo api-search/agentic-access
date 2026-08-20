@@ -608,7 +608,7 @@ tags:
 - Revenue Intelligence
 - Conversation Intelligence
 - Sales Automation
-- Webhooks
+- Webhook
 - MCP
 - Agents
 - Dialer

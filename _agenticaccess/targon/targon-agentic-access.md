@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/targon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/agentic-access/targon-agentic-access.yml
 summary_line: 6 operations · 4 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Decentralized

@@ -69,12 +69,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/subbly
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/agentic-access/subbly-agentic-access.yml
 summary_line: 21 operations · 10 acting
 tags:
-- Subscriptions
+- Subscription
 - Subscription Commerce
-- Ecommerce
+- E-Commerce
 - Subscription Box
 - Recurring Billing
 - Headless Commerce
 - SDK
-- Webhooks
+- Webhook
 ---

@@ -139,16 +139,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/arkest
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/agentic-access/arkestro-agentic-access.yml
 summary_line: 46 operations · 22 acting
 tags:
-- procurement
-- sourcing
-- supply-chain
-- spend-management
-- e-sourcing
-- supplier-management
-- purchase-orders
+- Procurement
+- Sourcing
+- Supply Chain
+- Spend Management
+- eSourcing
+- Supplier Management
+- Purchase Orders
 - procurement-analytics
-- enterprise-software
+- Enterprise Software
 - predictive-procurement
-- mcp
-- webhooks
+- MCP
+- Webhook
 ---

@@ -56,7 +56,7 @@ summary_line: 12 operations · 5 acting
 tags:
 - Cloud
 - Linux
-- Open Source
+- Open-Source
 - Ubuntu
 - Containers
 - Bare Metal

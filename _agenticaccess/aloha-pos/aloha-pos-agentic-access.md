@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ncr-vo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/agentic-access/aloha-pos-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
-- POS
+- Point-of-Sale
 - Restaurant
 - Hospitality
 - NCR

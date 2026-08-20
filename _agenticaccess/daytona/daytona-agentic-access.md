@@ -253,6 +253,6 @@ tags:
 - GDPR
 - Python
 - TypeScript
-- Open Source
+- Open-Source
 - LSP
 ---

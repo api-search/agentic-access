@@ -100,7 +100,7 @@ summary_line: 202 operations · 102 acting · 2 human-in-the-loop
 tags:
 - Advertising
 - Marketing
-- Social Media
+- Social-Media
 - Ad Campaigns
 - Performance Marketing
 - Conversion Tracking

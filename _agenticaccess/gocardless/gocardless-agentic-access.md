@@ -173,7 +173,7 @@ tags:
 - Direct Debit
 - Bank Debit
 - Recurring Payments
-- Subscriptions
+- Subscription
 - SEPA
 - Bacs
 - ACH

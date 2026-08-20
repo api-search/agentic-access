@@ -187,7 +187,7 @@ tags:
 - Sales
 - B2B
 - Contacts
-- Accounts
+- Account
 - Opportunities
 - Email
 - Automation

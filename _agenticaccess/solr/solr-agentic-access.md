@@ -82,7 +82,7 @@ tags:
 - Search
 - Enterprise Search
 - Full-Text Search
-- Open Source
+- Open-Source
 - Lucene
 - Indexing
 ---

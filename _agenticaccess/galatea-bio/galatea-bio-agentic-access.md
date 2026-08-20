@@ -100,15 +100,15 @@ source_yaml: "generated: '2026-08-16'\nmethod: generated\nsource: openapi/galate
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/agentic-access/galatea-bio-agentic-access.yml
 summary_line: 99 operations · 55 acting · 1 human-in-the-loop
 tags:
-- genomics
-- bioinformatics
-- ancestry
-- precision-medicine
+- Genomics
+- Bioinformatics
+- Ancestry
+- Precision Medicine
 - polygenic-risk-score
-- clinical-laboratory
-- genetic-testing
-- biobank
-- life-sciences
-- health
-- sequencing
+- Clinical Laboratory
+- Genetic Testing
+- Biobank
+- Life Sciences
+- Health
+- Sequencing
 ---

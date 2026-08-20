@@ -140,7 +140,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/h
 summary_line: 54 operations · 31 acting
 tags:
 - Cloud Management
-- Hyperconverged
+- Hyper-Converged
 - Infrastructure
 - Virtualization
 - Kubernetes

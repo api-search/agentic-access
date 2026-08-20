@@ -65,9 +65,9 @@ tags:
 - Cloud
 - TypeScript
 - Go
-- DeveloperTools
-- InfrastructureFromCode
+- Developer Tools
+- Infrastructure from Code
 - Microservices
 - Observability
-- Multicloud
+- Multi-Cloud
 ---

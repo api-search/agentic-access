@@ -159,8 +159,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/replicate/refs
 summary_line: 27 operations · 12 acting
 tags:
 - Artificial Intelligence
-- Machine Learning
-- Image Generation
+- Machine-Learning
+- Image-Generation
 - Language Models
 - Model Deployment
 ---

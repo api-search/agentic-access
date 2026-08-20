@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blaxel
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/agentic-access/blaxel-agentic-access.yml
 summary_line: 65 operations · 34 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Infrastructure
 - Sandboxes

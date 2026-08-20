@@ -39,15 +39,15 @@ source_yaml: "generated: '2026-08-11'\nmethod: generated\nsource: openapi/rugspu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/agentic-access/rugspull-read-api-agentic-access.yml
 summary_line: 9 operations
 tags:
-- bnb-smart-chain
-- bsc
+- BNB Smart Chain
+- BSC
 - wbnb
-- read-only
-- openapi
+- Read Only
+- OpenAPI
 - high-risk
 - discovery-cache
-- defi
-- web3
+- DeFi
+- Web3
 - crypto-market-data
-- indexer
+- Indexer
 ---

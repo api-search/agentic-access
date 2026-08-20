@@ -59,9 +59,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/photor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/agentic-access/photoroom-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
-- AI
+- Artificial Intelligence
 - Image Editing
 - Background Removal
-- E-commerce
+- E-Commerce
 - Visual
 ---

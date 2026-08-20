@@ -42,16 +42,16 @@ source_yaml: "generated: '2026-07-31'\nmethod: searched\nsource: https://drinkol
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/agentic-access/olipop-agentic-access.yml
 summary_line: 13 operations · 8 acting · 1 human-in-the-loop
 tags:
-- beverage
-- consumer-packaged-goods
-- direct-to-consumer
-- ecommerce
-- retail
-- agent-commerce
-- universal-commerce-protocol
-- mcp
-- graphql
-- shopify
+- Beverage
+- Consumer Packaged Goods
+- Direct to Consumer
+- E-Commerce
+- Retail
+- Agent Commerce
+- Universal Commerce Protocol
+- MCP
+- GraphQL
+- Shopify
 - prebiotic-soda
-- functional-beverage
+- Functional Beverage
 ---

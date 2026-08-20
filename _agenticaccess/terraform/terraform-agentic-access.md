@@ -101,9 +101,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hcp-te
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/agentic-access/terraform-agentic-access.yml
 summary_line: 48 operations · 23 acting
 tags:
-- Infrastructure As Code
+- Infrastructure as Code
 - Cloud Infrastructure
 - DevOps
-- Open Source
+- Open-Source
 - HashiCorp
 ---

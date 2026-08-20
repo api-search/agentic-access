@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nebras
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/agentic-access/flatcar-container-linux-agentic-access.yml
 summary_line: 40 operations · 17 acting
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - Immutable Infrastructure
 - Incubating

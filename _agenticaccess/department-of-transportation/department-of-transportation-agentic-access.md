@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/faa-sy
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/agentic-access/department-of-transportation-agentic-access.yml
 summary_line: 20 operations · 1 acting
 tags:
-- Federal Government
+- Federal-Government
 - Transportation
 - Vehicles
 - Aviation

@@ -266,7 +266,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/runloo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/agentic-access/runloop-ai-agentic-access.yml
 summary_line: 302 operations · 154 acting · 8 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - AI Agents
 - Coding Agents
 - Sandboxes
@@ -277,7 +277,7 @@ tags:
 - SWE-Bench
 - MCP
 - Snapshots
-- microVM
+- MicroVM
 - Enterprise
 - SOC 2
 ---

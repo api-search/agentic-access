@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trubri
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/agentic-access/trubrics-agentic-access.yml
 summary_line: 2 operations · 2 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Product Analytics
 - Event Tracking

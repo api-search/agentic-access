@@ -135,12 +135,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openca
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/agentic-access/opencart-agentic-access.yml
 summary_line: 16 operations · 12 acting
 tags:
-- eCommerce
+- E-Commerce
 - Shopping Cart
-- Open Source
+- Open-Source
 - Self-Hosted
-- Products
-- Orders
+- Product
+- Order
 - Customers
 - Categories
 ---

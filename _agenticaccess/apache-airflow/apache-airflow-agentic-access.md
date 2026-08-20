@@ -166,9 +166,9 @@ tags:
 - DAG
 - Data Pipeline
 - ETL
-- Open Source
+- Open-Source
 - Orchestration
 - Python
 - Scheduling
-- Workflow
+- Workflows
 ---

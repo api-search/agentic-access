@@ -38,9 +38,9 @@ summary_line: 6 operations
 tags:
 - Company
 - Debt Collection
-- Financial Services
+- Financial-Services
 - Fintech
-- Machine Learning
-- Collections
+- Machine-Learning
+- Collection
 - Consumer Finance
 ---

@@ -46,7 +46,7 @@ summary_line: 2 operations · 2 acting
 tags:
 - Customer Service
 - CRM
-- Helpdesk
+- Help Desk
 - Messaging
-- AI
+- Artificial Intelligence
 ---

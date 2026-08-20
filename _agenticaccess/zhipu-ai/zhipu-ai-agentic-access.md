@@ -55,10 +55,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zhipu-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/agentic-access/zhipu-ai-agentic-access.yml
 summary_line: 14 operations · 13 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - GLM
 - ChatGLM
-- Multimodal
+- Multi-Modal
 ---

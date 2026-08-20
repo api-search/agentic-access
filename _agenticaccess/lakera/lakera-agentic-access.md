@@ -59,5 +59,4 @@ tags:
 - Guardrails
 - Red Teaming
 - GenAI
-- API
 ---

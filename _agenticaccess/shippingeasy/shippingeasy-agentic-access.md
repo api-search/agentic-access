@@ -67,7 +67,7 @@ tags:
 - Multi-Carrier
 - Labels
 - Order Management
-- Ecommerce
+- E-Commerce
 - Auctane
 - Stamps.com
 ---

@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rentca
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/agentic-access/rentcast-agentic-access.yml
 summary_line: 10 operations
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - Valuation
 - Rental Market

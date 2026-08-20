@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/httpstat/refs/
 summary_line: 2 operations
 tags:
 - HTTP
-- Status Codes
+- Status-Codes
 - Testing
 - Utilities
 ---

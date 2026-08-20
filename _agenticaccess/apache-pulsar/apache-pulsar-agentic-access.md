@@ -90,11 +90,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pulsar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/agentic-access/apache-pulsar-agentic-access.yml
 summary_line: 29 operations · 13 acting
 tags:
-- Cloud Native
+- Cloud-Native
 - Messaging
 - Multi-Tenant
 - Pub-Sub
 - Streaming
 - Apache
-- Open Source
+- Open-Source
 ---

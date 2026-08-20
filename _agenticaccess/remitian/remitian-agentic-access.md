@@ -93,6 +93,6 @@ tags:
 - Payments
 - Fintech
 - Accounting
-- Webhooks
+- Webhook
 - Embedded Payments
 ---

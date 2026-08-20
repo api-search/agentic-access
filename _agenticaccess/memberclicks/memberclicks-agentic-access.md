@@ -88,8 +88,8 @@ tags:
 - Membership Management
 - Association Management
 - AMS
-- Nonprofit
-- Events
+- Non-Profit
+- Event
 - CRM
 - Personify
 ---

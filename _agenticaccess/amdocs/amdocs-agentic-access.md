@@ -66,5 +66,5 @@ tags:
 - Customer Management
 - MVNO
 - 5G
-- SaaS
+- Software-as-a-Service
 ---

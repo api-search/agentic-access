@@ -101,7 +101,7 @@ summary_line: 16 operations · 15 acting
 tags:
 - BPMN
 - Camunda
-- Cloud Native
+- Cloud-Native
 - Distributed Systems
 - Java
 - Microservices

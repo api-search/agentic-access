@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/braint
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braintrust-data/refs/heads/main/agentic-access/braintrust-data-agentic-access.yml
 summary_line: 69 operations · 42 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Evaluation
 - Observability

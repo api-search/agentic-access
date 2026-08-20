@@ -95,10 +95,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/urbanp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/agentic-access/urbanpiper-agentic-access.yml
 summary_line: 16 operations · 14 acting
 tags:
-- Restaurants
+- Restaurant
 - Food Delivery
 - Ordering
-- POS
+- Point-of-Sale
 - Aggregators
 - Commerce
 ---

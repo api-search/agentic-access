@@ -156,10 +156,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/plande
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plandex/refs/heads/main/agentic-access/plandex-agentic-access.yml
 summary_line: 80 operations · 46 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - AI Coding Agent
 - Developer Tools
-- Open Source
+- Open-Source
 - CLI
 - Terminal
 - LLM

@@ -94,7 +94,7 @@ tags:
 - Cloud Cost Management
 - Cloud Intelligence
 - Cost Optimization
-- Multicloud
+- Multi-Cloud
 - Kubernetes
 - Analytics
 - MCP

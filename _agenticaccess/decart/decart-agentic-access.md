@@ -68,12 +68,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decart/refs/he
 summary_line: 75 operations · 67 acting
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Video
 - Video Generation
 - Video Editing
 - Image Editing
-- Real Time
+- Real-Time
 - Generative AI
 - World Models
 - Streaming

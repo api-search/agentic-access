@@ -47,6 +47,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/h
 summary_line: 4 operations · 2 acting
 tags:
 - Marketplace
-- SaaS
+- Software-as-a-Service
 - Software Deals
 ---

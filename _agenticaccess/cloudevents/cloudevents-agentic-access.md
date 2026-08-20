@@ -47,8 +47,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloude
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/agentic-access/cloudevents-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
-- Cloud Native
-- Events
+- Cloud-Native
+- Event
 - Graduated
 - Interoperability
 - Messaging

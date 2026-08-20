@@ -63,7 +63,7 @@ summary_line: 15 operations · 4 acting
 tags:
 - Animals
 - Cats
-- Images
-- Open Source
+- Image
+- Open-Source
 - Public APIs
 ---

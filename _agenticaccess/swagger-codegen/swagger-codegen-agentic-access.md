@@ -62,7 +62,7 @@ summary_line: 10 operations · 3 acting
 tags:
 - Client Libraries
 - Code Generation
-- Open Source
+- Open-Source
 - OpenAPI
 - SDK
 ---

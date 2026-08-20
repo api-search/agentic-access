@@ -133,7 +133,7 @@ summary_line: 57 operations · 1 acting
 tags:
 - Web3
 - Explorer
-- Open Source
+- Open-Source
 - EVM
 - Multi-Chain
 - GraphQL

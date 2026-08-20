@@ -4,66 +4,12 @@ action_class_counts:
   acting: 81
   connected: 76
 api_specs:
-- filename: hku-altmetric-api-openapi.yml
+- filename: hku-identity-openapi.yml
   format: yaml
-  label: University of Hong Kong altmetric API
-  slug: hku-altmetric-api
+  label: HKU AD FS OAuth 2.0 / OpenID Connect Issuer
+  slug: adfs-oidc
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-altmetric-api-openapi.yml
-- filename: hku-articles-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong articles API
-  slug: hku-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-articles-api-openapi.yml
-- filename: hku-authors-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong authors API
-  slug: hku-authors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-authors-api-openapi.yml
-- filename: hku-collections-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong collections API
-  slug: hku-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-collections-api-openapi.yml
-- filename: hku-institutions-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong institutions API
-  slug: hku-institutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-institutions-api-openapi.yml
-- filename: hku-oauth-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong oauth API
-  slug: hku-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-oauth-api-openapi.yml
-- filename: hku-other-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong other API
-  slug: hku-other-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-other-api-openapi.yml
-- filename: hku-profiles-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong profiles API
-  slug: hku-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-profiles-api-openapi.yml
-- filename: hku-projects-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong projects API
-  slug: hku-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-projects-api-openapi.yml
-- filename: hku-symplectic-api-openapi.yml
-  format: yaml
-  label: University of Hong Kong symplectic API
-  slug: hku-symplectic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-symplectic-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-identity-openapi.yml
 consequence_counts:
   read: 76
   safety-critical: 2
@@ -143,7 +89,11 @@ tags:
 - Education
 - Higher Education
 - University
+- Hong Kong
+- Identity Federation
+- Single Sign-On
 - Research Data
 - Open Access
-- Hong Kong
+- Artificial Intelligence
+- Research Computing
 ---

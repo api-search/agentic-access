@@ -72,7 +72,7 @@ tags:
 - Land Data
 - Property Data
 - GeoJSON
-- Real Estate
+- Real-Estate
 - Zoning
 - Ownership
 - Geospatial

@@ -83,5 +83,5 @@ tags:
 - Medical Devices
 - SMART on FHIR
 - Interoperability
-- AI
+- Artificial Intelligence
 ---

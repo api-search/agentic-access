@@ -63,7 +63,7 @@ summary_line: 13 operations · 10 acting
 tags:
 - Cloud Marketplace
 - Procurement
-- SaaS
+- Software-as-a-Service
 - Software Distribution
 - Catalog
 ---

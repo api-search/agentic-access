@@ -100,10 +100,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twenty/refs/he
 summary_line: 42 operations · 25 acting
 tags:
 - CRM
-- Open Source
+- Open-Source
 - REST
 - GraphQL
-- Webhooks
+- Webhook
 - Self-Hosted
 - Companies
 - People

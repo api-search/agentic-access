@@ -171,6 +171,6 @@ tags:
 - Clustering
 - Media Intelligence
 - Financial Intelligence
-- AI
+- Artificial Intelligence
 - Enterprise
 ---

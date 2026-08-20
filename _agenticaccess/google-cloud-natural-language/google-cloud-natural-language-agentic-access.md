@@ -65,7 +65,7 @@ summary_line: 5 operations · 5 acting
 tags:
 - Entity Recognition
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Sentiment Analysis
 - Text Analysis

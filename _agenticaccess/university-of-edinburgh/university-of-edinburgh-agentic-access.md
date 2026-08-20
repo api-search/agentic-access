@@ -1,65 +1,63 @@
 ---
 acting_count: 0
 action_class_counts:
-  connected: 20
+  connected: 14
 api_specs:
-- filename: university-of-edinburgh-bitstreams-api-openapi.yml
+- filename: university-of-edinburgh-datashare-repository-api-openapi.yml
   format: yaml
-  label: University of Edinburgh Bitstreams API
-  slug: university-of-edinburgh-bitstreams-api
+  label: Edinburgh DataShare REST API
+  slug: datashare-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-bitstreams-api-openapi.yml
-- filename: university-of-edinburgh-collections-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-datashare-repository-api-openapi.yml
+- filename: university-of-edinburgh-datashare-oai-pmh-openapi.yml
   format: yaml
-  label: University of Edinburgh Collections API
-  slug: university-of-edinburgh-collections-api
+  label: Edinburgh DataShare OAI-PMH
+  slug: datashare-oai
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-collections-api-openapi.yml
-- filename: university-of-edinburgh-communities-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-datashare-oai-pmh-openapi.yml
+- filename: university-of-edinburgh-era-repository-api-openapi.yml
   format: yaml
-  label: University of Edinburgh Communities API
-  slug: university-of-edinburgh-communities-api
+  label: Edinburgh Research Archive (ERA) REST API
+  slug: era-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-communities-api-openapi.yml
-- filename: university-of-edinburgh-hierarchy-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-era-repository-api-openapi.yml
+- filename: university-of-edinburgh-era-oai-pmh-openapi.yml
   format: yaml
-  label: University of Edinburgh Hierarchy API
-  slug: university-of-edinburgh-hierarchy-api
+  label: Edinburgh Research Archive (ERA) OAI-PMH
+  slug: era-oai
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-hierarchy-api-openapi.yml
-- filename: university-of-edinburgh-items-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-era-oai-pmh-openapi.yml
+- filename: university-of-edinburgh-eidf-data-catalogue-api-openapi.yml
   format: yaml
-  label: University of Edinburgh Items API
-  slug: university-of-edinburgh-items-api
+  label: EIDF Data Catalogue API
+  slug: eidf-data-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-items-api-openapi.yml
-- filename: university-of-edinburgh-registries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-eidf-data-catalogue-api-openapi.yml
+- filename: university-of-edinburgh-elm-api-openapi.yml
   format: yaml
-  label: University of Edinburgh Registries API
-  slug: university-of-edinburgh-registries-api
+  label: ELM — Edinburgh Language Models API
+  slug: elm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-registries-api-openapi.yml
-- filename: university-of-edinburgh-status-api-openapi.yml
-  format: yaml
-  label: University of Edinburgh Status API
-  slug: university-of-edinburgh-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-status-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-elm-api-openapi.yml
 consequence_counts:
-  read: 20
-description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 0
+  generate: 1
+  read: 13
+description: 'Recommended x-agentic-access execution contracts for the institution-operated University of Edinburgh surfaces, derived from the probed OpenAPI documents in this repository. A governance starting point for exposing these APIs to AI agents — review and bind audience per deployment. Regenerated on 2026-08-19: the previous version was derived from the retired DSpace 6 legacy /rest API and classified twenty operations that no longer exist.'
+human_in_the_loop: 1
 kind: agentic-access
 layout: agentic-access
-method: generated
+method: derived
 name: University Of Edinburgh Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
-operation_count: 20
-overview: 'University of Edinburgh exposes 20 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+operation_count: 14
+overview: 'University of Edinburgh exposes 14 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 20 read.
+  By consequence: 13 read.
+
+
+  1 operation are classed safety-critical and should require human-in-the-loop approval at runtime.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -69,21 +67,24 @@ slug: university-of-edinburgh-agentic-access
 source_filename: university-of-edinburgh-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/university-of-edinburgh-datashare-rest.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 20\n  by_action_class:\n    connected: 20\n  by_consequence:\n    read: 20\n  human_in_the_loop_required: 0\noperations:\n- path: /test\n  method: get\n  operationId: getTest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communities\n  method: get\n  operationId: getCommunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communities/top-communities\n  method: get\n  operationId:\
-  \ getTopCommunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communities/{communityId}\n  method: get\n  operationId: getCommunity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communities/{communityId}/collections\n  method: get\n  operationId: getCommunityCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communities/{communityId}/communities\n  method: get\n  operationId: getSubCommunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections\n  method: get\n  operationId: getCollections\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}\n  method: get\n  operationId: getCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/items\n  method: get\n  operationId: getCollectionItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /items\n  method: get\n  operationId: getItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /items/{itemId}\n  method: get\n  operationId: getItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /items/{itemId}/metadata\n\
-  \  method: get\n  operationId: getItemMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /items/{itemId}/bitstreams\n  method: get\n  operationId: getItemBitstreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bitstreams\n  method: get\n  operationId: getBitstreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bitstreams/{bitstreamId}\n  method: get\n  operationId: getBitstream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bitstreams/{bitstreamId}/policy\n  method: get\n  operationId: getBitstreamPolicy\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bitstreams/{bitstreamId}/retrieve\n  method: get\n  operationId: retrieveBitstream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hierarchy\n  method: get\n  operationId: getHierarchy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registries/schema\n  method: get\n  operationId: getSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registries/schema/{schemaPrefix}\n  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml: "generated: '2026-08-19'\nmethod: derived\nsource: openapi/university-of-edinburgh-datashare-repository-api-openapi.yml\noperator: institution\ndescription: >-\n  Recommended x-agentic-access execution contracts for the institution-operated\n  University of Edinburgh surfaces, derived from the probed OpenAPI documents in this\n  repository. A governance starting point for exposing these APIs to AI agents — review\n  and bind audience per deployment. Regenerated on 2026-08-19: the previous version was\n  derived from the retired DSpace 6 legacy /rest API and classified twenty operations\n  that no longer exist.\nsummary:\n  operations: 14\n  by_action_class:\n    connected: 14\n  by_consequence:\n    read: 13\n    generate: 1\n  human_in_the_loop_required: 1\noperations:\n\n- api: Edinburgh DataShare REST API\n  path: /\n  method: get\n  operationId: getRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n    note: Anonymous. Safe\
+  \ for unattended agent use.\n- api: Edinburgh DataShare REST API\n  path: /core/communities\n  method: get\n  operationId: listCommunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n- api: Edinburgh DataShare REST API\n  path: /core/collections\n  method: get\n  operationId: listCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n- api: Edinburgh DataShare REST API\n  path: /discover/search/objects\n  method: get\n  operationId: searchObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n    note: Preferred anonymous route to item metadata, since /core/items requires auth.\n- api: Edinburgh DataShare REST API\n  path: /discover/browses\n  method: get\n  operationId: listBrowses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n- api: Edinburgh DataShare REST API\n  path: /core/items\n\
+  \  method: get\n  operationId: listItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: authenticated\n    note: Returns 401 anonymously on this deployment. Agents must hold a University credential.\n- api: Edinburgh DataShare REST API\n  path: /core/bitstreams\n  method: get\n  operationId: listBitstreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: authenticated\n    note: Returns 401 anonymously. Bitstreams are the binary research data — treat egress as sensitive.\n\n- api: Edinburgh Research Archive (ERA) REST API\n  path: /core/communities\n  method: get\n  operationId: listCommunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n- api: Edinburgh Research Archive (ERA) REST API\n  path: /discover/search/objects\n  method: get\n  operationId: searchObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n\
+  \n- api: Edinburgh DataShare OAI-PMH\n  path: /request\n  method: get\n  operationId: oaiRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n    note: >-\n      Fully anonymous bulk metadata harvesting. Agents must respect resumptionToken flow\n      control and must not treat HTTP 200 as success — OAI returns protocol errors with 200.\n- api: Edinburgh Research Archive (ERA) OAI-PMH\n  path: /request\n  method: get\n  operationId: oaiRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n\n- api: EIDF Data Catalogue API\n  path: /package_search\n  method: get\n  operationId: packageSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n- api: EIDF Data Catalogue API\n  path: /package_show\n  method: get\n  operationId: packageShow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n\n- api: ELM\
+  \ — Edinburgh Language Models API\n  path: /chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: connected\n    consequence: generate\n    audience: authenticated\n    human-in-the-loop: required\n    note: >-\n      Generative inference against a University-operated LLM gateway, billed and governed\n      under Edinburgh's own generative-AI guidance. Requires a bearer token, has no public\n      self-service registration, and should not be driven unattended by an agent.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/agentic-access/university-of-edinburgh-agentic-access.yml
-summary_line: 20 operations
+summary_line: 14 operations · 1 human-in-the-loop
 tags:
-- Education
-- Higher Education
 - University
-- Research Data
-- Open Data
-- Repository
-- OAI-PMH
+- Higher Education
+- Education
 - United Kingdom
 - Scotland
+- Russell Group
+- Research Repository
+- Open Data
+- Identity Federation
+- Research Computing
+- OAI-PMH
+- Artificial Intelligence
 ---

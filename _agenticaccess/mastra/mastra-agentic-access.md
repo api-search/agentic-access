@@ -105,7 +105,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastra/refs/he
 summary_line: 37 operations · 17 acting
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - JavaScript
 - RAG
 - TypeScript

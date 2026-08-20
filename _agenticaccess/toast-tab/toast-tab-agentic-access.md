@@ -188,15 +188,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/toast-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/agentic-access/toast-tab-agentic-access.yml
 summary_line: 46 operations · 26 acting · 1 human-in-the-loop
 tags:
-- Restaurants
-- Point Of Sale
+- Restaurant
+- Point-of-Sale
 - Payments
 - Online Ordering
 - Delivery
 - Loyalty
 - Gift Cards
 - Menus
-- Orders
+- Order
 - Kitchen
 - Labor
 - Scheduling

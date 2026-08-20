@@ -99,11 +99,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amd-de
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/agentic-access/advanced-micro-devices-agentic-access.yml
 summary_line: 13 operations · 3 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Cloud Computing
 - GPU
 - HPC
-- Machine Learning
-- Semiconductor
+- Machine-Learning
+- Semiconductors
 - Fortune 500
 ---

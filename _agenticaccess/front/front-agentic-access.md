@@ -283,7 +283,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/front-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/agentic-access/front-agentic-access.yml
 summary_line: 255 operations · 132 acting
 tags:
-- Customer Support
+- Customer-Support
 - Email
 - Inbox
 - Customer Operations

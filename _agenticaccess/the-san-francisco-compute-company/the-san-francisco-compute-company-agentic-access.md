@@ -192,7 +192,7 @@ tags:
 - Compute
 - Cloud Infrastructure
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Compute Marketplace
 - Reselling
 - Infrastructure

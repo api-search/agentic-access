@@ -351,9 +351,9 @@ summary_line: 171 operations · 86 acting · 1 human-in-the-loop
 tags:
 - BPM
 - Business Process Management
-- Workflow
+- Workflows
 - BPMN
-- Open Source
+- Open-Source
 - Process Automation
 - Java
 - REST API

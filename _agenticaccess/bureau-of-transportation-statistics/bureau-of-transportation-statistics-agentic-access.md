@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bureau
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/agentic-access/bureau-of-transportation-statistics-agentic-access.yml
 summary_line: 5 operations
 tags:
-- Federal Government
+- Federal-Government
 - Statistics
 - Transportation
 - Aviation

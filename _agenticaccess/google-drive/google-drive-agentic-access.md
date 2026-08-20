@@ -43,9 +43,9 @@ summary_line: 8 operations · 5 acting
 tags:
 - Cloud Storage
 - Collaboration
-- Document Management
-- Drive
-- Files
+- Document-Management
+- Drives
+- File
 - Google
 - Storage
 ---

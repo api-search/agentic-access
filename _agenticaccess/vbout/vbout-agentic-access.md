@@ -137,11 +137,11 @@ summary_line: 37 operations · 20 acting
 tags:
 - Marketing Automation
 - Email Marketing
-- Social Media
+- Social-Media
 - Lead Management
 - Landing Pages
 - Chatbots
 - Contacts
 - Campaigns
-- SaaS
+- Software-as-a-Service
 ---

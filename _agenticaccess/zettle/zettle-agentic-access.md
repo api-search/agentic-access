@@ -44,8 +44,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zettle
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/agentic-access/zettle-agentic-access.yml
 summary_line: 3 operations
 tags:
-- Point of Sale
-- POS
+- Point-of-Sale
 - Payments
 - Inventory
 - Finance

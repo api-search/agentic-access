@@ -72,6 +72,6 @@ tags:
 - Kubernetes
 - Docker
 - IPAM
-- Open Source
+- Open-Source
 - CNCF
 ---

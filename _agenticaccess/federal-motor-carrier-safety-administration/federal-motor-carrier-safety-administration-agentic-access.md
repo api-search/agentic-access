@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/federa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/agentic-access/federal-motor-carrier-safety-administration-agentic-access.yml
 summary_line: 7 operations
 tags:
-- Federal Government
+- Federal-Government
 - Safety
 - Transportation
 ---

@@ -99,5 +99,5 @@ tags:
 - Payments
 - Fintech
 - Core Banking
-- Cloud Native
+- Cloud-Native
 ---

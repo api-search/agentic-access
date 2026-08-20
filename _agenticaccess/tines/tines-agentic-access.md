@@ -86,10 +86,10 @@ summary_line: 31 operations · 18 acting
 tags:
 - Security Automation
 - No-Code
-- Workflow Automation
+- Workflow-Automation
 - Security Operations
 - SOAR
 - Incident Response
 - REST API
-- Webhooks
+- Webhook
 ---

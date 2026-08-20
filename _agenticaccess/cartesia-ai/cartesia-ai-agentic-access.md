@@ -190,11 +190,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cartes
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/agentic-access/cartesia-ai-agentic-access.yml
 summary_line: 86 operations · 48 acting
 tags:
-- AI
+- Artificial Intelligence
 - Voice AI
-- Text to Speech
-- Speech to Text
-- Realtime
+- Text-to-Speech
+- Speech-to-Text
+- Real-Time
 - WebSocket
 - Voice Cloning
 - Voice Agents

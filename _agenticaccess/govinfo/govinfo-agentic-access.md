@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/agentic-access/govinfo-agentic-access.yml
 summary_line: 11 operations · 1 acting
 tags:
-- Federal Government
+- Federal-Government
 - Government Publishing
 - Documents
 - Open Data

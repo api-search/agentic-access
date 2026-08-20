@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pieces
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/agentic-access/pieces-agentic-access.yml
 summary_line: 28 operations · 14 acting
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
 - On-Device
 - Local API

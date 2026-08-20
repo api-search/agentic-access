@@ -81,10 +81,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/minima
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/agentic-access/minimax-ai-agentic-access.yml
 summary_line: 18 operations · 14 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
-- Multimodal
+- Multi-Modal
 - Voice
 - Video
 - Music

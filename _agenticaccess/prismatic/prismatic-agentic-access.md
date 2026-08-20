@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prismatic/refs
 summary_line: 4 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Embedded iPaaS
-- Integrations
+- Integration
 - Workflows
 - Connectors
 - AI Agents

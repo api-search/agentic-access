@@ -79,10 +79,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pipeca
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/agentic-access/pipecat-ai-agentic-access.yml
 summary_line: 24 operations · 11 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Voice
-- Multimodal
+- Multi-Modal
 - Agents
-- Realtime
+- Real-Time
 - Framework
 ---

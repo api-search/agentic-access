@@ -198,6 +198,6 @@ tags:
 - Card Payments
 - In-Person Payments
 - Terminals
-- Point of Sale
-- Webhooks
+- Point-of-Sale
+- Webhook
 ---

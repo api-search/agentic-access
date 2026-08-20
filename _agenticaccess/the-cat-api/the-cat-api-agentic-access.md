@@ -69,6 +69,6 @@ summary_line: 17 operations · 6 acting
 tags:
 - Animals
 - Cats
-- Images
+- Image
 - Media
 ---

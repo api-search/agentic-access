@@ -56,7 +56,7 @@ tags:
 - Acquiring
 - Gift Cards
 - Loyalty
-- Subscriptions
+- Subscription
 - Billing
 - Merchant Services
 ---

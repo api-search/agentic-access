@@ -72,6 +72,6 @@ tags:
 - Collaboration
 - Content Management
 - Documentation
-- Knowledge Management
+- Knowledge-Management
 - Wiki
 ---

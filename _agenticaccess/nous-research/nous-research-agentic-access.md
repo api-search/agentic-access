@@ -47,8 +47,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nous-research/
 summary_line: 2 operations · 1 acting
 tags:
 - Company
-- Ai
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Large Language Models
 - Inference
 - Agents

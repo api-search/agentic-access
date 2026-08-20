@@ -74,5 +74,5 @@ tags:
 - Messaging
 - OSGi
 - Apache
-- Open Source
+- Open-Source
 ---

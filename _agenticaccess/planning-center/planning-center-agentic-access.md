@@ -126,8 +126,8 @@ tags:
 - ChMS
 - Faith
 - Giving
-- Events
+- Event
 - Scheduling
 - People
-- Nonprofit
+- Non-Profit
 ---

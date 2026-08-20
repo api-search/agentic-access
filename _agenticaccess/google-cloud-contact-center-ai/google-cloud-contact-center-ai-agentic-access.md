@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/agentic-access/google-cloud-contact-center-ai-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
-- AI
+- Artificial Intelligence
 - Contact Center
 - Conversations
 - Customer Service

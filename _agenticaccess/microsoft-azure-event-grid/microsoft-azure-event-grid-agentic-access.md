@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-grid/refs/heads/main/agentic-access/microsoft-azure-event-grid-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
-- Events
+- Event
 - Event-Driven
 - Pub-Sub
 - Serverless

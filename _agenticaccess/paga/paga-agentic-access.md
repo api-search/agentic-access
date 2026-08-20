@@ -70,6 +70,6 @@ tags:
 - Payments
 - Mobile Money
 - Fintech
-- Collections
+- Collection
 - Nigeria
 ---

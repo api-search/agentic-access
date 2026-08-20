@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/h
 summary_line: 24 operations
 tags:
 - Dogs
-- Images
+- Image
 - Open Data
-- Open Source
+- Open-Source
 ---

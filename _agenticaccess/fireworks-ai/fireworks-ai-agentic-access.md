@@ -256,10 +256,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/firewo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/agentic-access/fireworks-ai-agentic-access.yml
 summary_line: 411 operations · 227 acting · 2 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
-- Multimodal
-- Fine-tuning
+- Multi-Modal
+- Fine-Tuning
 - GPU
 ---

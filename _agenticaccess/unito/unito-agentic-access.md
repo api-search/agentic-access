@@ -54,9 +54,9 @@ summary_line: 6 operations · 1 acting
 tags:
 - Integration
 - Two-Way Sync
-- Workflow Automation
+- Workflow-Automation
 - Project Management
 - Collaboration
 - Embedded Integrations
-- SaaS
+- Software-as-a-Service
 ---

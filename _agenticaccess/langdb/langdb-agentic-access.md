@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/langdb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/agentic-access/langdb-agentic-access.yml
 summary_line: 10 operations · 7 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - AI Gateway
 - Routing

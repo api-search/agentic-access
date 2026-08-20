@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ai21-l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/agentic-access/ai21-labs-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
-- AI
+- Artificial Intelligence
 - Foundation Models
 - LLM
 - Jamba

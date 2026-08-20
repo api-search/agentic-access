@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/knight
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/agentic-access/knight-frank-agentic-access.yml
 summary_line: 11 operations · 1 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Commercial Real Estate

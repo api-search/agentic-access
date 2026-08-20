@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/llamac
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/agentic-access/llamacloud-agentic-access.yml
 summary_line: 19 operations · 8 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Document Parsing
 - Extraction
 - Indexing

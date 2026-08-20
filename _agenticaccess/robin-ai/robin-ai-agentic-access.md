@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/
 summary_line: 14 operations · 6 acting
 tags:
 - Legal
-- LegalTech
+- Legal Tech
 - Contract Review
 - Contract Analysis
 - Contract Lifecycle Management

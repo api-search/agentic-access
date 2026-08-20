@@ -121,7 +121,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs
 summary_line: 25 operations · 5 acting
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Loyalty
 - Payments
 - Dining

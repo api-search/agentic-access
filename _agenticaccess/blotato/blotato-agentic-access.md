@@ -60,9 +60,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blotat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/agentic-access/blotato-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
-- Social Media
+- Social-Media
 - Publishing
-- AI Content
+- AI content
 - Automation
 - Content Creation
 ---

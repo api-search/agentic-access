@@ -49,7 +49,7 @@ summary_line: 6 operations · 2 acting
 tags:
 - Media
 - Video Generation
-- Image Generation
+- Image-Generation
 - Automation
 - Templates
 - Rendering

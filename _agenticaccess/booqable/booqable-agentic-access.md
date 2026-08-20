@@ -170,7 +170,7 @@ tags:
 - Inventory
 - Equipment Rental
 - Bookings
-- Orders
-- E-commerce
+- Order
+- E-Commerce
 - JSON:API
 ---

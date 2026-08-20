@@ -57,10 +57,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads
 summary_line: 6 operations · 2 acting · 1 human-in-the-loop
 tags:
 - Distributed Computing
-- Machine Learning
+- Machine-Learning
 - AI Infrastructure
 - Python
 - Model Serving
-- Open Source
+- Open-Source
 - Compute
 ---

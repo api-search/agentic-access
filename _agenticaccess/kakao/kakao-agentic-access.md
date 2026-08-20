@@ -77,7 +77,7 @@ tags:
 - Search
 - Korea
 - Identity
-- OAuth2
+- Authentication
 - KakaoTalk
 - LLM
 ---

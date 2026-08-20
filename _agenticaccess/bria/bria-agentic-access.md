@@ -156,11 +156,11 @@ summary_line: 104 operations · 83 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence
 - Generative AI
-- Images
-- Image Generation
+- Image
+- Image-Generation
 - Image Editing
 - Video
-- Machine Learning
+- Machine-Learning
 - Media
 - Content
 - Agents

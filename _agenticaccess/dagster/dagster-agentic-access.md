@@ -52,7 +52,7 @@ summary_line: 3 operations · 3 acting
 tags:
 - Data Engineering
 - Data Orchestration
-- Data Pipelines
+- Data Pipeline
 - ETL
 - Workflows
 - Assets

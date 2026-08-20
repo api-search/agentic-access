@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/planab
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/agentic-access/planable-agentic-access.yml
 summary_line: 51 operations · 25 acting · 3 human-in-the-loop
 tags:
-- Social Media
+- Social-Media
 - Content Collaboration
 - Approval Workflows
 - Social Media Management

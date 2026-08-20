@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chowly
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chowly/refs/heads/main/agentic-access/chowly-agentic-access.yml
 summary_line: 3 operations · 1 acting
 tags:
-- Restaurants
+- Restaurant
 - Online Ordering
 - Delivery
 - POS Integration

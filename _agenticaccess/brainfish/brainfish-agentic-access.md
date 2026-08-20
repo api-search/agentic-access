@@ -106,11 +106,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brainfish/refs
 summary_line: 27 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Company
-- AI
-- Customer Support
+- Artificial Intelligence
+- Customer-Support
 - Knowledge Base
 - Help Desk
 - Agents
 - Support Automation
-- SaaS
+- Software-as-a-Service
 ---

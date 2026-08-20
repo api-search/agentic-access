@@ -55,8 +55,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/black-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/agentic-access/black-forest-labs-agentic-access.yml
 summary_line: 13 operations · 9 acting
 tags:
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 - Flux
 - Open Weights
 - BFL

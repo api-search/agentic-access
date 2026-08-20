@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fsis-r
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/food-safety-and-inspection-service/refs/heads/main/agentic-access/food-safety-and-inspection-service-agentic-access.yml
 summary_line: 1 operation
 tags:
-- Federal Government
+- Federal-Government
 - Food
 - Food Safety
 - Inspections

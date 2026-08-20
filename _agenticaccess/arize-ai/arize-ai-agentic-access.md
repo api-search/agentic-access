@@ -39,7 +39,7 @@ summary_line: 1 operation · 1 acting
 tags:
 - LLM Observability
 - ML Monitoring
-- Open Source
+- Open-Source
 - OpenTelemetry
 - Phoenix
 - Tracing

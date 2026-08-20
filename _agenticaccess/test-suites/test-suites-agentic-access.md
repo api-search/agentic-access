@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/test-suites/re
 summary_line: 7 operations · 3 acting
 tags:
 - API Testing
-- Collections
+- Collection
 - Quality Assurance
 - Software Development
 - Test Management

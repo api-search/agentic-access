@@ -201,7 +201,7 @@ summary_line: 49 operations · 6 acting
 tags:
 - Capital Markets
 - Enterprise Software
-- Financial Services
+- Financial-Services
 - Fintech
 - Risk Management
 - Trading

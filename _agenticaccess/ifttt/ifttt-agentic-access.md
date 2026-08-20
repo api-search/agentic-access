@@ -41,7 +41,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ifttt/refs/hea
 summary_line: 3 operations · 2 acting
 tags:
 - Automation
-- Webhooks
+- Webhook
 - iPaaS
 - No-Code
 - Smart Home

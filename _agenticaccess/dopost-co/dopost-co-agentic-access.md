@@ -54,14 +54,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dopost
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/agentic-access/dopost-co-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
-- Social Media
+- Social-Media
 - Scheduling
 - Publishing
 - Instagram
 - Facebook
 - TikTok
 - Pinterest
-- X Twitter
+- X / Twitter
 - YouTube
 - Content Management
 - REST

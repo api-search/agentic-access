@@ -58,9 +58,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pika-l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/agentic-access/pika-labs-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Text-to-Video
-- Multimodal
+- Multi-Modal
 - Generative
 ---

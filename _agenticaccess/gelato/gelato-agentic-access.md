@@ -101,8 +101,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gelato/refs/he
 summary_line: 18 operations · 8 acting
 tags:
 - Print on Demand
-- Ecommerce
+- E-Commerce
 - Fulfillment
 - Distributed Production
-- Orders
+- Order
 ---

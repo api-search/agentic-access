@@ -653,7 +653,7 @@ summary_line: 221 operations · 139 acting · 10 human-in-the-loop
 tags:
 - Advertising
 - Cloud
-- Developer
+- Developers
 - Google
 - Platform
 - Search

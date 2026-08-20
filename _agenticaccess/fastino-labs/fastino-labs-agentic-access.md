@@ -61,7 +61,7 @@ summary_line: 8 operations · 5 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Small Language Models
 - Fine-Tuning
 - Inference

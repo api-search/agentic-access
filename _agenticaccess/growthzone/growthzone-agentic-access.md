@@ -113,6 +113,6 @@ tags:
 - Chambers of Commerce
 - ChamberMaster
 - Member Directory
-- Events
+- Event
 - Billing
 ---

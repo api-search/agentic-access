@@ -69,7 +69,7 @@ summary_line: 16 operations · 3 acting
 tags:
 - Video Conferencing
 - Meetings
-- Communication
+- Communications
 - Collaboration
 - Google Workspace
 - Recordings

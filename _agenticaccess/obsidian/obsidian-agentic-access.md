@@ -97,7 +97,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/
 summary_line: 31 operations · 20 acting
 tags:
 - Productivity
-- Knowledge Management
+- Knowledge-Management
 - Markdown
 - Notes
 - Local-First

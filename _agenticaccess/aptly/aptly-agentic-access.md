@@ -147,10 +147,10 @@ tags:
 - Company
 - Cloud Saas
 - Property Management
-- Real Estate
+- Real-Estate
 - PropTech
 - CRM
-- Workflow Automation
+- Workflow-Automation
 - AI Agents
 - Communications
 - MCP

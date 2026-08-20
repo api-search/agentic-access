@@ -95,12 +95,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/triple
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/agentic-access/triple-whale-agentic-access.yml
 summary_line: 16 operations · 15 acting
 tags:
-- E-commerce
+- E-Commerce
 - Analytics
 - Attribution
 - Shopify
 - Pixel Tracking
 - ROAS
-- DTC
+- Direct to Consumer
 - Marketing
 ---

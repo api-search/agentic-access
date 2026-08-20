@@ -75,7 +75,7 @@ summary_line: 26 operations · 14 acting · 5 human-in-the-loop
 tags:
 - Open Banking
 - Payments
-- FinTech
+- Fintech
 - LatAm
 - Financial Data
 - Account Validation

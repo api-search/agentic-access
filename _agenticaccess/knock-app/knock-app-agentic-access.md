@@ -302,7 +302,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/knock-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/agentic-access/knock-app-agentic-access.yml
 summary_line: 181 operations · 112 acting · 3 human-in-the-loop
 tags:
-- Notifications
+- Notification
 - Messaging
 - Infrastructure
 - Workflows
@@ -313,7 +313,7 @@ tags:
 - In-App
 - Chat
 - Slack
-- Webhooks
+- Webhook
 - MCP
 - AI Agents
 - Developer Platform

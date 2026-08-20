@@ -199,6 +199,6 @@ tags:
 - Inventory Management
 - Assay Management
 - Workflows
-- Webhooks
+- Webhook
 - REST
 ---

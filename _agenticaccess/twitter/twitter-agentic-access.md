@@ -223,7 +223,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/x-api-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/agentic-access/twitter-agentic-access.yml
 summary_line: 163 operations · 67 acting · 3 human-in-the-loop
 tags:
-- Social Media
+- Social-Media
 - Microblogging
 - Real-Time Data
 - Streaming

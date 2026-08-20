@@ -127,9 +127,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ably-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/agentic-access/ably-agentic-access.yml
 summary_line: 44 operations · 25 acting · 1 human-in-the-loop
 tags:
-- Realtime
+- Real-Time
 - WebSockets
-- Pub/Sub
+- Pub-Sub
 - Messaging
 - Streaming
 - Push Notifications

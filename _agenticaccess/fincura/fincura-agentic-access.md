@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/fincur
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/agentic-access/fincura-agentic-access.yml
 summary_line: 67 operations · 29 acting
 tags:
-- Financial Services
+- Financial-Services
 - Lending
 - Credit Analysis
 - Financial Spreading

@@ -73,10 +73,10 @@ summary_line: 8 operations · 5 acting
 tags:
 - AI Coding Assistant
 - Code Completion
-- Open Source
+- Open-Source
 - Developer Tools
 - LLM
-- AI
+- Artificial Intelligence
 - Self-Hosted
 - Code Generation
 - Copilot Alternative

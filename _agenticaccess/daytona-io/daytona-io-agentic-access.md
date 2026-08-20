@@ -320,15 +320,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dayton
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/agentic-access/daytona-io-agentic-access.yml
 summary_line: 330 operations · 180 acting · 12 human-in-the-loop
 tags:
-- AI
-- Agents
 - Artificial Intelligence
+- Agents
 - Cloud
 - Code Execution
 - Computer Use
 - Developer Tools
 - Infrastructure
-- Open Source
+- Open-Source
 - Sandbox
 - Secure Execution
 ---

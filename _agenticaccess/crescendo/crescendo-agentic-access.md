@@ -102,7 +102,7 @@ summary_line: 17 operations · 8 acting
 tags:
 - Company
 - Customer Experience
-- Customer Support
+- Customer-Support
 - Artificial Intelligence
 - AI Agents
 - Contact Center

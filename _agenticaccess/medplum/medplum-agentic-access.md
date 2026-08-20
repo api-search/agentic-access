@@ -43,7 +43,7 @@ summary_line: 8 operations · 4 acting
 tags:
 - Healthcare
 - FHIR
-- Open Source
+- Open-Source
 - Developer Platform
 - HIPAA
 - SMART on FHIR

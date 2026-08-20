@@ -241,5 +241,5 @@ tags:
 - Mobile Wallets
 - BNPL
 - Payouts
-- Subscriptions
+- Subscription
 ---

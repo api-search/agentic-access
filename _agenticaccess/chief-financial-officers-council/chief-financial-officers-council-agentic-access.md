@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chief-financia
 summary_line: 14 operations · 7 acting
 tags:
 - Federal Financial Management
-- Federal Government
+- Federal-Government
 - Finance
 - Government
 - OMB

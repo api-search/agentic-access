@@ -213,6 +213,12 @@ api_specs:
   slug: eth-zurich-util-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-util-api-openapi.yml
+- filename: eth-zurich-firecrest-v2-api-openapi.yml
+  format: yaml
+  label: ETH Zurich – CSCS FirecREST v2 HPC API
+  slug: eth-zurich-firecrest-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/openapi/eth-zurich-firecrest-v2-api-openapi.yml
 consequence_counts:
   read: 78
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -257,11 +263,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eth-zu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/agentic-access/eth-zurich-agentic-access.yml
 summary_line: 78 operations
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Switzerland
+- ETH Domain
 - Research
+- Research Data
+- Research Computing
+- High Performance Computing
 - Library
 - Open Data
-- Switzerland
+- Identity Federation
+- Digital Collections
 ---

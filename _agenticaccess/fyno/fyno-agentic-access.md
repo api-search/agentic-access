@@ -77,9 +77,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fyno-n
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/agentic-access/fyno-agentic-access.yml
 summary_line: 23 operations · 20 acting
 tags:
-- Notifications
+- Notification
 - Messaging
-- Communication
+- Communications
 - Push Notifications
 - Email
 - SMS

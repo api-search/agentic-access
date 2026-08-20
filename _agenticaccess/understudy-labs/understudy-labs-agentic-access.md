@@ -110,8 +110,8 @@ summary_line: 20 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence
 - LLM Gateway
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Model Routing
 - Evaluations
 - Fine-Tuning

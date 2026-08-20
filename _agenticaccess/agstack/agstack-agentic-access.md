@@ -214,7 +214,7 @@ summary_line: 191 operations · 119 acting · 20 human-in-the-loop
 tags:
 - Agriculture
 - Linux Foundation
-- Open Source
+- Open-Source
 - Geospatial
 - Precision Agriculture
 - Linked Data

@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/freepl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/agentic-access/freeplay-agentic-access.yml
 summary_line: 29 operations · 18 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Evaluation
 - Observability

@@ -200,9 +200,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authlete/refs/
 summary_line: 86 operations · 68 acting · 1 human-in-the-loop
 tags:
 - Company
-- OAuth 2.0
-- OpenID Connect
 - Authentication
+- OpenID Connect
 - Authorization
 - Identity
 - API Security

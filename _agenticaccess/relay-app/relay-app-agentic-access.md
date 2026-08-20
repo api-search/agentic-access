@@ -54,9 +54,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs
 summary_line: 8 operations · 3 acting
 tags:
 - Automation
-- Workflow
+- Workflows
 - Integration
 - No-Code
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 ---

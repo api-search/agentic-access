@@ -107,9 +107,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/maven-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/agentic-access/maven-agi-agentic-access.yml
 summary_line: 59 operations · 46 acting
 tags:
-- AI
+- Artificial Intelligence
 - Agents
-- Customer Support
+- Customer-Support
 - Customer Experience
 - Conversational AI
 - Knowledge

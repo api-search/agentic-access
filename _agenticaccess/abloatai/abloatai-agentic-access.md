@@ -105,14 +105,14 @@ source_yaml: "generated: '2026-08-19'\nmethod: generated\nsource: openapi/abloat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/agentic-access/abloatai-agentic-access.yml
 summary_line: 32 operations · 19 acting · 2 human-in-the-loop
 tags:
-- agent-infrastructure
+- Agent Infrastructure
 - multi-agent-coordination
 - concurrency-control
-- state-management
-- database
-- postgres
+- State Management
+- Database
+- Postgres
 - real-time-sync
-- mcp
-- developer-tools
+- MCP
+- Developer Tools
 - backend-infrastructure
 ---

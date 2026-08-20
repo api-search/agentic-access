@@ -67,9 +67,9 @@ summary_line: 7 operations · 1 acting
 tags:
 - Embedded Integrations
 - Integration Platform
-- Integrations
+- Integration
 - iPaaS
 - Marketplace
-- SaaS
-- Workflow Automation
+- Software-as-a-Service
+- Workflow-Automation
 ---

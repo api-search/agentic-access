@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/margin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/agentic-access/marginalia-search-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
-- Open Source
+- Open-Source
 - Search
 - Web Search
 ---

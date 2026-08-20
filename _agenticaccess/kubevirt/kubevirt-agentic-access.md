@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kubevi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/agentic-access/kubevirt-agentic-access.yml
 summary_line: 32 operations · 18 acting · 1 human-in-the-loop
 tags:
-- Cloud Native
+- Cloud-Native
 - Incubating
 - Kubernetes
 - Migration

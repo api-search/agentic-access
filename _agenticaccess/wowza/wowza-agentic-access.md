@@ -403,7 +403,7 @@ tags:
 - Video
 - Streaming
 - Live Streaming
-- Video On Demand
+- Video-on-Demand
 - Transcoding
 - Media Server
 - RTMP
@@ -420,7 +420,7 @@ tags:
 - CDN
 - Video Analytics
 - QoE
-- Webhooks
+- Webhook
 - Edge
 - Surveillance
 - OTT

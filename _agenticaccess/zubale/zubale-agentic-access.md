@@ -146,5 +146,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/he
 summary_line: 21 operations · 19 acting
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 ---

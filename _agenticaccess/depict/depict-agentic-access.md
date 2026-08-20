@@ -283,7 +283,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depict/refs/he
 summary_line: 146 operations · 79 acting
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Merchandising
 - Product Recommendations
 - Search

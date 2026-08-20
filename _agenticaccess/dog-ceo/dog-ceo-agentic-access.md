@@ -58,10 +58,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dog-ceo/refs/h
 summary_line: 10 operations
 tags:
 - Dogs
-- Images
+- Image
 - Animals
-- Open Source
+- Open-Source
 - Free API
-- Machine Learning
+- Machine-Learning
 - Education
 ---

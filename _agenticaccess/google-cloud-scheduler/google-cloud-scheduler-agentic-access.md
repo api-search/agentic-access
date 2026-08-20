@@ -45,7 +45,7 @@ tags:
 - Automation
 - Cron
 - Google Cloud
-- Jobs
+- Job
 - Scheduler
 - Scheduling
 ---

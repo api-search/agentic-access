@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/congre
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/agentic-access/us-house-of-representatives-agentic-access.yml
 summary_line: 19 operations
 tags:
-- Federal Government
+- Federal-Government
 - Legislation
 - Congress
 - Legislative Data

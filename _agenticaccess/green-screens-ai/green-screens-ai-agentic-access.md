@@ -116,10 +116,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/green-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/agentic-access/green-screens-ai-agentic-access.yml
 summary_line: 40 operations · 28 acting
 tags:
-- AI
+- Artificial Intelligence
 - Freight
 - Logistics
-- Machine Learning
+- Machine-Learning
 - Pricing
 - Transportation
 ---

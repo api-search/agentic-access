@@ -77,8 +77,8 @@ summary_line: 24 operations · 12 acting
 tags:
 - DevOps
 - CI/CD
-- Build
-- Open Source
+- Builds
+- Open-Source
 - Hosted
 - GitHub
 ---

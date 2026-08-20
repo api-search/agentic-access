@@ -85,6 +85,6 @@ summary_line: 24 operations · 14 acting
 tags:
 - ERP Integration
 - Logistics
-- Machine Learning
+- Machine-Learning
 - Supply Chain
 ---

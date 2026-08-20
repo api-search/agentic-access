@@ -56,8 +56,8 @@ tags:
 - Cloud Computing
 - Databases
 - Infrastructure
-- Machine Learning
+- Machine-Learning
 - Networking
-- Platform as a Service
+- Platform-as-a-Service
 - Storage
 ---

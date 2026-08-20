@@ -100,6 +100,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-park-
 summary_line: 11 operations
 tags:
 - Conservation
-- Federal Government
+- Federal-Government
 - Parks
 ---

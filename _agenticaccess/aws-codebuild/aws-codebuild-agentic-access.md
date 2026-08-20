@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aws-co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/agentic-access/aws-codebuild-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- Build
+- Builds
 - CI/CD
 - Continuous Integration
 - Developer Tools

@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/llmwhi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/agentic-access/llmwhisperer-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Document Extraction
 - OCR

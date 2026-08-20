@@ -113,7 +113,7 @@ summary_line: 16 operations · 14 acting
 tags:
 - Checkout
 - Payments
-- eCommerce
+- E-Commerce
 - One-Click Checkout
 - Shopper Network
 - Fraud Protection

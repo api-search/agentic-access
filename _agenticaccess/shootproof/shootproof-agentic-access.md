@@ -140,5 +140,5 @@ tags:
 - Digital Downloads
 - Photo Studio Management
 - E-Commerce
-- SaaS
+- Software-as-a-Service
 ---

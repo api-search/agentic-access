@@ -138,7 +138,7 @@ summary_line: 82 operations · 50 acting
 tags:
 - AI Evaluation
 - Observability
-- Open Source
+- Open-Source
 - LLM
 - Tracing
 - Prompts

@@ -224,7 +224,7 @@ summary_line: 110 operations · 47 acting
 tags:
 - Workflow Orchestration
 - Data Pipeline
-- Open Source
+- Open-Source
 - Apache
 - DAG
 - Scheduling

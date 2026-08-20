@@ -137,7 +137,7 @@ tags:
 - Token Sales
 - Tokenized Equities
 - KYC
-- OAuth
+- Authentication
 - Blockchain
 - Digital Assets
 - Embedded Finance

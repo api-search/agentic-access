@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/prompt
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/agentic-access/promptlayer-agentic-access.yml
 summary_line: 16 operations · 11 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Prompt Engineering
 - Prompt Management

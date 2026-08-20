@@ -69,6 +69,6 @@ tags:
 - Conversational
 - Marketing
 - Creators
-- Webhooks
+- Webhook
 - Company
 ---

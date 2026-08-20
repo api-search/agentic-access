@@ -76,5 +76,5 @@ tags:
 - Installments
 - South Africa
 - Fintech
-- E-commerce
+- E-Commerce
 ---

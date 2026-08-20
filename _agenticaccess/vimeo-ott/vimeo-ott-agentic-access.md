@@ -98,6 +98,6 @@ tags:
 - SVOD
 - Streaming
 - Media
-- Subscriptions
+- Subscription
 - VHX
 ---

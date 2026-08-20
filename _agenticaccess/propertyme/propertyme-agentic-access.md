@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/proper
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/agentic-access/propertyme-agentic-access.yml
 summary_line: 86 operations · 38 acting
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Management
 - Rentals

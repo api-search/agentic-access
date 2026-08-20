@@ -56,13 +56,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/agentic-access/pelias-agentic-access.yml
 summary_line: 5 operations
 tags:
-- geocoding
-- reverse geocoding
-- geospatial
-- open source
-- elasticsearch
-- openstreetmap
-- addresses
-- places
-- autocomplete
+- Geocoding
+- Reverse Geocoding
+- Geospatial
+- Open-Source
+- Elasticsearch
+- OpenStreetMap
+- Addresses
+- Places
+- Autocomplete
 ---

@@ -46,6 +46,6 @@ summary_line: 2 operations · 2 acting
 tags:
 - Image Moderation
 - Content Moderation
-- Computer Vision
+- Computer-Vision
 - Weapon Detection
 ---

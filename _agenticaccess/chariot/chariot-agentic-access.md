@@ -278,15 +278,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/h
 summary_line: 86 operations · 35 acting · 3 human-in-the-loop
 tags:
 - Payments
-- Donor Advised Funds
+- Donor-Advised Funds
 - Charitable Giving
-- Nonprofit
+- Non-Profit
 - Fintech
 - DAFpay
 - Grants
 - Disbursements
 - Open Banking
 - FDX
-- Webhooks
+- Webhook
 - Company
 ---

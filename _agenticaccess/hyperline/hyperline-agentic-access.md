@@ -130,7 +130,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs
 summary_line: 42 operations · 27 acting
 tags:
 - Billing
-- Subscriptions
+- Subscription
 - Usage-Based
 - Metering
 - Payments

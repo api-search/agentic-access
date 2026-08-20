@@ -82,12 +82,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tinyfish/refs/
 summary_line: 20 operations · 12 acting
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Web Automation
 - Web Scraping
 - Search
 - Browser Automation
-- Model Context Protocol
+- MCP
 - Data Extraction
 ---

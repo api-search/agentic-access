@@ -129,6 +129,6 @@ summary_line: 31 operations · 24 acting
 tags:
 - Anomaly Detection
 - DevOps
-- Machine Learning
+- Machine-Learning
 - Operational Intelligence
 ---

@@ -302,7 +302,7 @@ summary_line: 194 operations · 96 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Generative AI
 - Sovereign AI
@@ -311,7 +311,7 @@ tags:
 - Semantic Search
 - Vector Search
 - Agents
-- Model Context Protocol
+- MCP
 - Germany
 - Enterprise Software
 - Government

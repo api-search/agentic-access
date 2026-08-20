@@ -181,8 +181,8 @@ tags:
 - Fulfillment
 - 3PL
 - Logistics
-- Ecommerce
-- Orders
+- E-Commerce
+- Order
 - Inventory
 - Shipments
 - Returns

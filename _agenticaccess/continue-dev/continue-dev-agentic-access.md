@@ -41,11 +41,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/contin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/agentic-access/continue-dev-agentic-access.yml
 summary_line: 8 operations · 1 acting
 tags:
-- AI
 - Artificial Intelligence
 - Developer Tools
 - Code Assistant
-- Open Source
+- Open-Source
 - VS Code
 - JetBrains
 - CLI

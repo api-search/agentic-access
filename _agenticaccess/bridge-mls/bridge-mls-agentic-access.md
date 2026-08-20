@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bridge
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/agentic-access/bridge-mls-agentic-access.yml
 summary_line: 21 operations · 4 acting
 tags:
-- Real Estate
+- Real-Estate
 - MLS
 - RESO
 - Listings

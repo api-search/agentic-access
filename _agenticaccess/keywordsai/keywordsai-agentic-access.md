@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/keywor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/agentic-access/keywordsai-agentic-access.yml
 summary_line: 20 operations · 15 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Observability
 - Gateway

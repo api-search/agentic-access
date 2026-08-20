@@ -60,16 +60,16 @@ source_yaml: "generated: '2026-08-12'\nmethod: generated\nsource: openapi/debank
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/agentic-access/debank-agentic-access.yml
 summary_line: 42 operations · 4 acting
 tags:
-- web3
-- defi
-- blockchain
-- crypto
-- portfolio-tracking
-- on-chain-data
-- wallet
+- Web3
+- DeFi
+- Blockchain
+- Crypto
+- Portfolio Tracking
+- On-Chain Data
+- Wallets
 - token-data
-- nft
-- ethereum
-- oauth
-- market-data
+- NFT
+- Ethereum
+- Authentication
+- Market Data
 ---

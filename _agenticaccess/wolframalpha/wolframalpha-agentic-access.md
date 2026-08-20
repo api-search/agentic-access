@@ -45,10 +45,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wolfra
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/agentic-access/wolframalpha-agentic-access.yml
 summary_line: 6 operations
 tags:
-- AI
 - Artificial Intelligence
 - Computational Knowledge
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Public APIs
 - Search

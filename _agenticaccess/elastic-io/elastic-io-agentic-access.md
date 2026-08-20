@@ -200,7 +200,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/elasti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elastic-io/refs/heads/main/agentic-access/elastic-io-agentic-access.yml
 summary_line: 89 operations · 48 acting · 1 human-in-the-loop
 tags:
-- Integrations
+- Integration
 - iPaaS
 - SaaS Integration
 ---

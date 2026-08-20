@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/ccin-e
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/agentic-access/payments-canada-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - Canada
 - Payment Infrastructure

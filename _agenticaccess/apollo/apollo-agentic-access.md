@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apollo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo/refs/heads/main/agentic-access/apollo-agentic-access.yml
 summary_line: 28 operations · 21 acting
 tags:
-- AI
+- Artificial Intelligence
 - B2B Sales
 - CRM
 - Data Enrichment

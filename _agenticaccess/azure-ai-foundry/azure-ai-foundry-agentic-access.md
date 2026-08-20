@@ -91,7 +91,7 @@ tags:
 - Generative AI
 - AI Agents
 - Foundation Models
-- Machine Learning
+- Machine-Learning
 - Cloud
 - Azure
 ---

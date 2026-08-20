@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/landma
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/agentic-access/landmark-information-agentic-access.yml
 summary_line: 51 operations · 32 acting · 1 human-in-the-loop
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Data

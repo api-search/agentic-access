@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/agentic-access/azure-document-intelligence-agentic-access.yml
 summary_line: 27 operations · 14 acting
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - Azure
 - IDP

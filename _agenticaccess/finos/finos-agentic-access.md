@@ -322,8 +322,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/finos-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/agentic-access/finos-agentic-access.yml
 summary_line: 172 operations · 94 acting · 3 human-in-the-loop
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
 - Linux Foundation
-- Open Source
+- Open-Source
 ---

@@ -70,5 +70,5 @@ tags:
 - NPS Surveys
 - Announcements
 - User Segmentation
-- SaaS
+- Software-as-a-Service
 ---

@@ -114,7 +114,7 @@ summary_line: 19 operations · 11 acting
 tags:
 - Shipping
 - Logistics
-- Ecommerce
+- E-Commerce
 - Fulfillment
-- CrossBorder
+- Cross-Border
 ---

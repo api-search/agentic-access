@@ -53,5 +53,5 @@ tags:
 - Business Applications
 - CRM
 - ERP
-- Open Source
+- Open-Source
 ---

@@ -40,7 +40,7 @@ summary_line: 4 operations
 tags:
 - Company
 - Legal
-- LegalTech
+- Legal Tech
 - Artificial Intelligence
 - Sales Enablement
 - Business Development

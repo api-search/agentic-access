@@ -193,5 +193,5 @@ tags:
 - SSO
 - SCIM
 - MCP
-- API Keys
+- APIKeys
 ---

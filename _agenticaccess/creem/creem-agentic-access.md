@@ -90,7 +90,7 @@ summary_line: 22 operations · 13 acting
 tags:
 - Payments
 - Merchant of Record
-- Subscriptions
-- SaaS
+- Subscription
+- Software-as-a-Service
 - Billing
 ---

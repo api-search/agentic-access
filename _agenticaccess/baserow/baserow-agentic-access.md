@@ -532,7 +532,7 @@ summary_line: 385 operations · 238 acting · 10 human-in-the-loop
 tags:
 - No-Code
 - Database
-- Open Source
+- Open-Source
 - REST API
 - Self-Hosted
 - Tables

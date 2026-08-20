@@ -64,7 +64,7 @@ tags:
 - API Testing
 - Java
 - Load Testing
-- Open Source
+- Open-Source
 - Performance Testing
 - Stress Testing
 ---

@@ -84,15 +84,15 @@ source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/refuel
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/agentic-access/refuel-ai-agentic-access.yml
 summary_line: 109 operations · 64 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Data Labeling
 - Data Enrichment
 - Autolabel
-- Machine Learning
+- Machine-Learning
 - Data Quality
 - Training Data
-- Fine Tuning
+- Fine-Tuning
 - Data Transformation
 - Entity Resolution
 - Content Moderation

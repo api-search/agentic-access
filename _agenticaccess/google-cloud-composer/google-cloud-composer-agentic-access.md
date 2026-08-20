@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-c
 summary_line: 8 operations · 3 acting
 tags:
 - Apache Airflow
-- Data Pipelines
+- Data Pipeline
 - Google Cloud
 - Workflow Orchestration
 ---

@@ -94,7 +94,7 @@ tags:
 - Campaigns
 - Address Verification
 - SMS
-- Webhooks
+- Webhook
 - Mailing Lists
 - Fulfillment
 ---

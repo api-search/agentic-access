@@ -280,5 +280,5 @@ tags:
 - Space Robotics
 - Defense
 - Content Management
-- Model Context Protocol
+- MCP
 ---

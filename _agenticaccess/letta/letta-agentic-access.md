@@ -437,7 +437,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/letta-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/agentic-access/letta-agentic-access.yml
 summary_line: 604 operations · 346 acting · 8 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Stateful Agents
 - Memory
@@ -446,5 +446,5 @@ tags:
 - MCP
 - Multi-Agent
 - RAG
-- Open Source
+- Open-Source
 ---

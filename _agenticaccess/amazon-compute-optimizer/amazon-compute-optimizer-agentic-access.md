@@ -168,6 +168,6 @@ summary_line: 21 operations · 21 acting
 tags:
 - Cost Optimization
 - FinOps
-- Machine Learning
+- Machine-Learning
 - Resource Recommendations
 ---

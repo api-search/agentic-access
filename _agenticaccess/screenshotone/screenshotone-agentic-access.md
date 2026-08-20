@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/screen
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/agentic-access/screenshotone-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
-- Images
+- Image
 - Screenshots
 - Web Rendering
 ---

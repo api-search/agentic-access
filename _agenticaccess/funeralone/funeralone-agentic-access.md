@@ -41,7 +41,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/funeralone/ref
 summary_line: 3 operations · 1 acting
 tags:
 - Funeral Homes
-- Deathcare
+- Death Care
 - Obituaries
 - Tribute Videos
 - Memorial Websites

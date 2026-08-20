@@ -133,7 +133,7 @@ summary_line: 31 operations · 14 acting
 tags:
 - Customer Messaging
 - Live Chat
-- Customer Support
+- Customer-Support
 - Conversational Engagement
 - Omnichannel Messaging
 - Chatbots

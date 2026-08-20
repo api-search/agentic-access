@@ -259,7 +259,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/arthur
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/agentic-access/arthur-online-agentic-access.yml
 summary_line: 317 operations · 137 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Management
 - PropTech

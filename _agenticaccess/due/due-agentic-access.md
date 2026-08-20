@@ -207,5 +207,4 @@ tags:
 - Foreign Exchange
 - KYC
 - Wallets
-- API
 ---

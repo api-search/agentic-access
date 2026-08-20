@@ -60,16 +60,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: generated\nsource: openapi/vidmob
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/agentic-access/vidmob-agentic-access.yml
 summary_line: 11 operations · 3 acting
 tags:
-- creative-intelligence
+- Creative Intelligence
 - creative-data
-- advertising
-- marketing
-- media-measurement
-- video
-- computer-vision
-- creative-analytics
-- adtech
-- mcp
+- Advertising
+- Marketing
+- Media Measurement
+- Video
+- Computer-Vision
+- Creative Analytics
+- AdTech
+- MCP
 - agent-native
-- martech
+- MarTech
 ---

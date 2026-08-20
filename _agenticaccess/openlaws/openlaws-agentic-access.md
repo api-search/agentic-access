@@ -77,7 +77,7 @@ tags:
 - Citations
 - Search
 - RAG
-- LegalTech
+- Legal Tech
 - RegTech
 - Compliance
 - GRC

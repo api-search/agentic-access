@@ -112,13 +112,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/agentic-access/bscscan-agentic-access.yml
 summary_line: 71 operations · 1 acting
 tags:
-- blockchain
-- block-explorer
+- Blockchain
+- Block Explorer
 - BNB Smart Chain
 - BSC
 - BEP-20
-- transactions
-- smart-contracts
+- Transaction
+- Smart Contracts
 - DeFi
 - EVM
 ---

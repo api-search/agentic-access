@@ -89,9 +89,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/agentic-access/amazon-kendra-agentic-access.yml
 summary_line: 26 operations · 17 acting
 tags:
-- AI
+- Artificial Intelligence
 - Enterprise Search
-- Knowledge Management
-- Machine Learning
-- Natural Language
+- Knowledge-Management
+- Machine-Learning
+- Natural-Language
 ---

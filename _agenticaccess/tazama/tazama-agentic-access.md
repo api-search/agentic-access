@@ -51,8 +51,8 @@ tags:
 - Fraud Detection
 - Anti-Money Laundering
 - Linux Foundation
-- Open Source
+- Open-Source
 - Transaction Monitoring
 - ISO 20022
-- Real Time
+- Real-Time
 ---

@@ -54,5 +54,5 @@ tags:
 - API Directory
 - API Discovery
 - Free APIs
-- Open Source
+- Open-Source
 ---

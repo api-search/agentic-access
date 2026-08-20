@@ -83,6 +83,6 @@ tags:
 - Diagrams
 - Enterprise
 - Flowcharts
-- Microsoft 365
+- Microsoft-365
 - Visualization
 ---

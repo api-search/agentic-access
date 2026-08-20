@@ -69,8 +69,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/petpooja/refs/
 summary_line: 4 operations · 4 acting
 tags:
 - Restaurant
-- POS
+- Point-of-Sale
 - Online Ordering
-- Menu
+- Menus
 - Food Delivery
 ---

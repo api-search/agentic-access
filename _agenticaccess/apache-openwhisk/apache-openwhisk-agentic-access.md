@@ -76,11 +76,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/agentic-access/apache-openwhisk-agentic-access.yml
 summary_line: 24 operations · 11 acting
 tags:
-- Cloud Native
+- Cloud-Native
 - Event-Driven
-- FaaS
+- Function-as-a-Service
 - Serverless
 - Apache
-- Open Source
+- Open-Source
 - Functions
 ---

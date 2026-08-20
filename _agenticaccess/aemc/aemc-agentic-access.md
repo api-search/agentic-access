@@ -45,7 +45,7 @@ tags:
 - Electricity
 - Gas
 - Utilities
-- Regulation
+- Regulations
 - Smart Metering
 - Consumer Data Right
 - Government

@@ -58,10 +58,10 @@ summary_line: 4 operations · 4 acting
 tags:
 - Company
 - Insurance
-- InsurTech
+- Insurtech
 - Mobility
 - Gig Economy
 - Car Sharing
 - Embedded Insurance
-- Events
+- Event
 ---

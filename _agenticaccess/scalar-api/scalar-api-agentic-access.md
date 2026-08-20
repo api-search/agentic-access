@@ -48,7 +48,7 @@ summary_line: 4 operations · 1 acting
 tags:
 - API Documentation
 - API Client
-- Open Source
+- Open-Source
 - Developer Tools
 - API Reference
 - OpenAPI

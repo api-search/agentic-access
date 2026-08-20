@@ -197,6 +197,5 @@ tags:
 - DeFi
 - Payments
 - Blockchain
-- API
 - AI Agents
 ---

@@ -306,5 +306,5 @@ tags:
 - Documents
 - Trust Accounting
 - Contacts
-- Workflow
+- Workflows
 ---

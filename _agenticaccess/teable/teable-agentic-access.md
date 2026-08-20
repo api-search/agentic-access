@@ -89,5 +89,5 @@ tags:
 - Database
 - Airtable Alternative
 - Postgres
-- Open Source
+- Open-Source
 ---

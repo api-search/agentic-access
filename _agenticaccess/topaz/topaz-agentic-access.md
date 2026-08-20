@@ -70,7 +70,7 @@ tags:
 - Access Control
 - Authorization
 - Fine-Grained Authorization
-- Open Source
+- Open-Source
 - RBAC
 - ReBAC
 - Zanzibar

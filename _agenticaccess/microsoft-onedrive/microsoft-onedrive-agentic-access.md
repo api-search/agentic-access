@@ -64,7 +64,7 @@ summary_line: 18 operations · 7 acting
 tags:
 - Cloud Storage
 - File Storage
-- Files
+- File
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 ---

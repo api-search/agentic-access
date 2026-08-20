@@ -91,7 +91,7 @@ summary_line: 10 operations · 1 acting
 tags:
 - Search
 - Web Search
-- Images
+- Image
 - Videos
 - News
 - Azure AI

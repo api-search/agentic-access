@@ -158,6 +158,6 @@ tags:
 - Kubernetes
 - Continuous Delivery
 - CNCF
-- Open Source
+- Open-Source
 - Operator
 ---

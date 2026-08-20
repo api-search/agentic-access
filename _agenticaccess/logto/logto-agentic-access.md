@@ -365,7 +365,6 @@ tags:
 - Authorization
 - Identity
 - OIDC
-- OAuth
 - SAML
-- Open Source
+- Open-Source
 ---

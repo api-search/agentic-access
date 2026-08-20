@@ -243,7 +243,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discord/refs/h
 summary_line: 298 operations · 167 acting · 2 human-in-the-loop
 tags:
 - Chat
-- Communication
+- Communications
 - Gaming
 - Messaging
 - Social

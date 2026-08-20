@@ -46,6 +46,6 @@ tags:
 - News
 - News Aggregation
 - Media
-- Apilayer
+- APILayer
 - Public APIs
 ---

@@ -83,14 +83,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tidio-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/agentic-access/tidio-agentic-access.yml
 summary_line: 26 operations · 15 acting
 tags:
-- live chat
-- chatbot
-- customer service
-- AI
-- help desk
-- ticketing
-- conversations
-- contacts
-- webhooks
-- widget
+- Live Chat
+- Chatbots
+- Customer Service
+- Artificial Intelligence
+- Help Desk
+- Ticketing
+- Conversations
+- Contacts
+- Webhook
+- Widget
 ---

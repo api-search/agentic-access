@@ -200,10 +200,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/coolif
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/agentic-access/coolify-agentic-access.yml
 summary_line: 136 operations · 74 acting · 1 human-in-the-loop
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Self-Hosting
 - Deployment
-- Open Source
+- Open-Source
 - Containers
 - Docker
 ---

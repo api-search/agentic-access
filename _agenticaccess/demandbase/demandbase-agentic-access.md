@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/demand
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/agentic-access/demandbase-agentic-access.yml
 summary_line: 54 operations · 24 acting
 tags:
-- Account-Based Marketing
+- Account Based Marketing
 - Advertising
 - AI Agents
 - B2B Marketing

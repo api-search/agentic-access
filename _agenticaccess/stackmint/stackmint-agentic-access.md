@@ -50,7 +50,7 @@ summary_line: 11 operations · 5 acting
 tags:
 - AI Governance
 - AI Agents
-- Workflow Automation
+- Workflow-Automation
 - Enterprise AI
 - MCP
 - Semantic Layer

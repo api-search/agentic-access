@@ -80,6 +80,6 @@ tags:
 - Citations
 - Authors
 - Scientific Literature
-- AI
+- Artificial Intelligence
 - Recommendations
 ---

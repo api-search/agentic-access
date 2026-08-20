@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/obie-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/agentic-access/tsb-bank-agentic-access.yml
 summary_line: 31 operations · 6 acting · 1 human-in-the-loop
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

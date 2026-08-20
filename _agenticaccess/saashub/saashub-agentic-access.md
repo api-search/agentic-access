@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saashub/refs/h
 summary_line: 2 operations
 tags:
 - Alternatives
-- SaaS
+- Software-as-a-Service
 - Software Discovery
 - Software Catalog
 ---

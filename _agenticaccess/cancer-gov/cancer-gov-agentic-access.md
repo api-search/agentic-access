@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/ref
 summary_line: 6 operations · 1 acting
 tags:
 - Cancer
-- Federal Government
+- Federal-Government
 - Healthcare
 - Research
 - Clinical Trials

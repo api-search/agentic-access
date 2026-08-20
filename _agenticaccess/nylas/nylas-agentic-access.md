@@ -105,7 +105,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/hea
 summary_line: 22 operations · 8 acting
 tags:
 - Calendar
-- Communication
+- Communications
 - Contacts
 - Email
 - Messaging

@@ -148,8 +148,8 @@ tags:
 - Learning Management System
 - LMS
 - Training
-- eLearning
+- E-Learning
 - Microlearning
 - Corporate Training
-- SaaS
+- Software-as-a-Service
 ---

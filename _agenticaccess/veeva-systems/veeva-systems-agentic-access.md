@@ -67,6 +67,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veeva-systems/
 summary_line: 12 operations · 7 acting
 tags:
 - Healthcare
-- SaaS
+- Software-as-a-Service
 - Life Sciences
 ---

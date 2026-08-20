@@ -46,8 +46,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-transcr
 summary_line: 5 operations · 5 acting
 tags:
 - Audio Processing
-- Machine Learning
+- Machine-Learning
 - Speech Recognition
-- Speech-To-Text
+- Speech-to-Text
 - Transcription
 ---

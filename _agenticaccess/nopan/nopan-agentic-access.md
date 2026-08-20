@@ -127,7 +127,7 @@ summary_line: 16 operations · 12 acting
 tags:
 - Payments
 - Payment Service Provider
-- Account to Account
+- Account-to-Account
 - Wallet Payments
 - Open Banking
 - PSD2

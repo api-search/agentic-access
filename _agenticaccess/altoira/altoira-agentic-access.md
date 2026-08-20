@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/h
 summary_line: 17 operations · 11 acting
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Retirement
 - Self-Directed IRA
 - Alternative Investments

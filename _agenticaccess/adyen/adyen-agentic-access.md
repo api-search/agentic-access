@@ -1410,6 +1410,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/hea
 summary_line: 424 operations · 294 acting · 2 human-in-the-loop
 tags:
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 ---

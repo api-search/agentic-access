@@ -125,11 +125,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/qgiv-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/agentic-access/qgiv-agentic-access.yml
 summary_line: 34 operations · 23 acting
 tags:
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
 - Payments
-- Peer to Peer
-- Events
+- Peer-to-Peer
+- Event
 - Bloomerang
 ---

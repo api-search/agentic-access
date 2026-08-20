@@ -606,11 +606,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/label-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/agentic-access/label-studio-agentic-access.yml
 summary_line: 400 operations · 233 acting · 9 human-in-the-loop
 tags:
-- AI
-- Annotation
 - Artificial Intelligence
+- Annotation
 - Data Labeling
 - LLM
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 ---

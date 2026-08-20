@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bread-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/agentic-access/alliance-data-systems-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
 - Buy Now Pay Later
 - BNPL

@@ -123,7 +123,7 @@ summary_line: 46 operations · 25 acting · 7 human-in-the-loop
 tags:
 - Payments
 - Payment Gateway
-- FinTech
+- Fintech
 - Peru
 - LatAm
 - Cards

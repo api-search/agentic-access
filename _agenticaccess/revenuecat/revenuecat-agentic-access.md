@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/revenu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/agentic-access/revenuecat-agentic-access.yml
 summary_line: 34 operations · 19 acting · 2 human-in-the-loop
 tags:
-- Subscriptions
+- Subscription
 - In-App Purchases
 - Billing
 - Mobile

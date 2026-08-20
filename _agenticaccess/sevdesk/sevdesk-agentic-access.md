@@ -129,7 +129,7 @@ tags:
 - Germany
 - Vouchers
 - Contacts
-- SaaS
+- Software-as-a-Service
 - ERP
 - Financial Software
 ---

@@ -53,6 +53,6 @@ tags:
 - Virtual Workforce
 - Automation
 - Productivity
-- SaaS
+- Software-as-a-Service
 - MCP
 ---

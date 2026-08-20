@@ -64,7 +64,7 @@ summary_line: 8 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Web Analytics
 - Privacy
-- Open Source
+- Open-Source
 - Tracking
 - Self-Hosted
 ---

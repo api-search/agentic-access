@@ -93,9 +93,8 @@ tags:
 - Collaboration
 - Memory
 - Context Graph
-- Model Context Protocol
 - MCP
 - Developer Tools
-- Tasks
+- Task
 - Productivity
 ---

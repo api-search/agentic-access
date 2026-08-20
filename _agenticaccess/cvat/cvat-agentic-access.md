@@ -98,9 +98,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cvat-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/agentic-access/cvat-agentic-access.yml
 summary_line: 36 operations · 20 acting
 tags:
-- Computer Vision
+- Computer-Vision
 - Data Annotation
 - Labeling
 - Datasets
-- Open Source
+- Open-Source
 ---

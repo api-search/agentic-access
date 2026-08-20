@@ -220,7 +220,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/purple
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/agentic-access/purplebricks-agentic-access.yml
 summary_line: 205 operations · 76 acting · 2 human-in-the-loop
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Online Estate Agency

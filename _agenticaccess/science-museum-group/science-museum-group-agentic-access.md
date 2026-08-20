@@ -57,7 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/science-museum
 summary_line: 7 operations
 tags:
 - Museums
-- Collections
+- Collection
 - Cultural Heritage
 - Open Data
 - Science

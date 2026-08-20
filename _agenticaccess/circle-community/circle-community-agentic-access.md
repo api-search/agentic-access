@@ -110,7 +110,7 @@ tags:
 - Creators
 - Courses
 - Memberships
-- Events
+- Event
 - Chat
 - Community Platform
 ---

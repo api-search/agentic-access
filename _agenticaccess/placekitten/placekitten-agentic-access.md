@@ -40,6 +40,6 @@ tags:
 - Animals
 - Public APIs
 - Placeholder
-- Images
+- Image
 - Deprecated
 ---

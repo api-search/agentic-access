@@ -87,7 +87,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs
 summary_line: 35 operations · 20 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Evaluation
 - Testing

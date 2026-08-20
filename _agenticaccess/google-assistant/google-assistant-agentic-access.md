@@ -44,7 +44,7 @@ tags:
 - Actions on Google
 - Conversational AI
 - Google Assistant
-- Natural Language
+- Natural-Language
 - Smart Home
 - Voice Assistant
 ---

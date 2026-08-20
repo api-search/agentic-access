@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/street
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/agentic-access/street-co-agentic-access.yml
 summary_line: 94 operations · 19 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - CRM

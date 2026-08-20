@@ -180,10 +180,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/neonon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/agentic-access/neonone-agentic-access.yml
 summary_line: 137 operations · 77 acting
 tags:
-- Nonprofit
+- Non-Profit
 - CRM
 - Fundraising
 - Donor Management
 - Membership Management
-- Events
+- Event
 ---

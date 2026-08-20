@@ -56,10 +56,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/assemb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/agentic-access/assemblyai-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
-- AI
 - Artificial Intelligence
 - Audio
 - Speech
 - Transcription
-- Speech to Text
+- Speech-to-Text
 ---

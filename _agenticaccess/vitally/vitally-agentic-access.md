@@ -98,7 +98,7 @@ summary_line: 31 operations · 14 acting
 tags:
 - Company
 - Customer Success
-- SaaS
+- Software-as-a-Service
 - CRM
 - NPS
 - Surveys

@@ -97,8 +97,8 @@ summary_line: 27 operations · 14 acting
 tags:
 - Automation
 - No-Code
-- Open Source
-- Workflow
+- Open-Source
+- Workflows
 - AI Agents
 - MCP
 ---

@@ -90,6 +90,6 @@ tags:
 - Java
 - JMAP
 - Mail Server
-- Open Source
+- Open-Source
 - SMTP
 ---

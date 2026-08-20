@@ -566,7 +566,7 @@ tags:
 - Commerce
 - Composable Commerce
 - Headless Commerce
-- E-commerce
+- E-Commerce
 - Retail
 - Cart
 - Catalog
@@ -578,6 +578,6 @@ tags:
 - Promotions
 - Checkout
 - Identity
-- Experiences
+- Experience
 - Agentic Commerce
 ---

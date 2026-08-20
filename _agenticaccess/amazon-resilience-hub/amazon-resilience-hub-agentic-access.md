@@ -78,6 +78,5 @@ summary_line: 21 operations · 15 acting
 tags:
 - Disaster Recovery
 - High Availability
-- Operations
 - Resilience
 ---

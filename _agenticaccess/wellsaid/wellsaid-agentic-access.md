@@ -62,8 +62,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wellsa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/agentic-access/wellsaid-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - Voice
 - Audio
 - TTS

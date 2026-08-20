@@ -119,8 +119,8 @@ tags:
 - Serverless
 - HTTP Messaging
 - Background Jobs
-- Webhooks
+- Webhook
 - Dead Letter Queue
-- CRON
+- Cron
 - Upstash
 ---

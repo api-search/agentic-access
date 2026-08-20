@@ -103,5 +103,5 @@ tags:
 - Market Intelligence
 - Mobility
 - Named Entity Recognition
-- Speech to Text
+- Speech-to-Text
 ---

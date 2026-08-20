@@ -59,13 +59,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/limitl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/agentic-access/limitless-ai-agentic-access.yml
 summary_line: 8 operations · 2 acting
 tags:
-- AI
+- Artificial Intelligence
 - Wearable
 - Pendant
 - Meeting Notes
 - Lifelogs
 - Personal AI
-- API
 - MCP
 - OpenAPI
 ---

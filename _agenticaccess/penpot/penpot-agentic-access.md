@@ -895,7 +895,7 @@ summary_line: 137 operations · 137 acting
 tags:
 - Design
 - Prototyping
-- Open Source
+- Open-Source
 - Self-Hosted
 - Figma Alternative
 - UI Design

@@ -260,7 +260,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/langwa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/agentic-access/langwatch-agentic-access.yml
 summary_line: 133 operations · 85 acting · 3 human-in-the-loop
 tags:
-- AI
 - Artificial Intelligence
 - LLM
 - LLM Observability
@@ -274,7 +273,7 @@ tags:
 - AI Gateway
 - DSPy
 - LangChain
-- Open Source
+- Open-Source
 - MCP
 - FinOps
 ---

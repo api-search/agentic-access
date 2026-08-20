@@ -59,14 +59,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/automa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/agentic-access/automation-preflight-api-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
-- automation
-- integration
-- developer-tools
-- readiness
-- testing
-- url-analysis
-- web-scraping
-- agent-tools
-- quality-assurance
-- site-audit
+- Automation
+- Integration
+- Developer Tools
+- Readiness
+- Testing
+- URL Analysis
+- Web Scraping
+- Agent Tools
+- Quality Assurance
+- Site Audit
 ---

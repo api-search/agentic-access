@@ -47,10 +47,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tensor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/agentic-access/google-tensorflow-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
-- AI
+- Artificial Intelligence
 - Deep Learning
 - Google
-- Machine Learning
+- Machine-Learning
 - Model Serving
-- Open Source
+- Open-Source
 ---

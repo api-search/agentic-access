@@ -53,8 +53,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/listnr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/agentic-access/listnr-agentic-access.yml
 summary_line: 6 operations · 4 acting
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - TTS
 - Voice
 - Speech Synthesis

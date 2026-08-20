@@ -139,8 +139,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decentro/refs/
 summary_line: 22 operations · 16 acting
 tags:
 - Banking
-- Banking-as-a-Service
-- FinTech
+- Banking as a Service
+- Fintech
 - India
 - KYC
 - Ledger

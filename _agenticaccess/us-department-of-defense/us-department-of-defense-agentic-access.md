@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/usace-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/agentic-access/us-department-of-defense-agentic-access.yml
 summary_line: 16 operations
 tags:
-- Federal Government
+- Federal-Government
 - Defense
 - Military
 - Water Management

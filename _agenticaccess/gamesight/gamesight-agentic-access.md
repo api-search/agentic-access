@@ -54,7 +54,7 @@ tags:
 - Marketing
 - Analytics
 - Attribution
-- Measurement
+- Measurements
 - Advertising
 - Creators
 - Game Development

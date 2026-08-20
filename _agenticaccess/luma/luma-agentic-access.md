@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/agentic-access/luma-agentic-access.yml
 summary_line: 62 operations · 40 acting
 tags:
-- Events
+- Event
 - Event Management
 - Ticketing
 - Community

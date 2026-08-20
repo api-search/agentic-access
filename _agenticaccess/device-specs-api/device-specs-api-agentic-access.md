@@ -38,15 +38,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/device
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/agentic-access/device-specs-api-agentic-access.yml
 summary_line: 4 operations
 tags:
-- mobile
-- smartphones
-- phone-specs
-- chipsets
-- hardware
+- Mobile
+- Smartphones
+- Phone Specs
+- Chipsets
+- Hardware
 - mobile-specs
-- devices
+- Devices
 - rapidapi
 - gsmarena
-- reference-data
-- developer-tools
+- Reference Data
+- Developer Tools
 ---

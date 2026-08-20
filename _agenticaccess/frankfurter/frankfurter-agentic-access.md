@@ -72,7 +72,7 @@ tags:
 - Currency Exchange
 - Foreign Exchange
 - FX
-- Open Source
+- Open-Source
 - MIT
 - Self-Hosted
 - Public APIs

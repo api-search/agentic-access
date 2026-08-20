@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/inworl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/agentic-access/inworld-agentic-access.yml
 summary_line: 19 operations · 13 acting
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Characters
 - Games

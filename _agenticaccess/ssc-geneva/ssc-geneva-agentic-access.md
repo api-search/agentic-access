@@ -72,8 +72,8 @@ summary_line: 7 operations · 1 acting
 tags:
 - Fund Accounting
 - Asset Management
-- Portfolio Management
-- Financial Services
+- Portfolio-Management
+- Financial-Services
 - Hedge Funds
 - NAV Calculation
 ---

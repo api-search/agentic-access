@@ -118,5 +118,5 @@ tags:
 - Payments
 - Retail
 - Website Builder
-- Webhooks
+- Webhook
 ---

@@ -111,9 +111,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nats-m
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/agentic-access/nats-agentic-access.yml
 summary_line: 10 operations
 tags:
-- Cloud Native
+- Cloud-Native
 - IoT
 - Message Broker
 - Microservices
-- Pub Sub
+- Pub-Sub
 ---

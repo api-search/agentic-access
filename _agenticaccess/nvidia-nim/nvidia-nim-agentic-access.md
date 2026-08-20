@@ -104,7 +104,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nvidia
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/agentic-access/nvidia-nim-agentic-access.yml
 summary_line: 16 operations · 11 acting
 tags:
-- AI
 - Artificial Intelligence
 - Inference
 - Microservices
@@ -113,5 +112,5 @@ tags:
 - GPU
 - Kubernetes
 - NVIDIA
-- OpenAI Compatible
+- OpenAI-Compatible
 ---

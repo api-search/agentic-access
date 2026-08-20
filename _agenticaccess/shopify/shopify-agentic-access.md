@@ -1379,7 +1379,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopify/refs/h
 summary_line: 1547 operations · 739 acting · 6 human-in-the-loop
 tags:
 - Commerce
-- Ecommerce
+- E-Commerce
 - Payments
 - Retail
 - Shopping Cart

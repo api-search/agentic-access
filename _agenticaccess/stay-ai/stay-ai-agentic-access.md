@@ -104,10 +104,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stay-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/agentic-access/stay-ai-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
-- Subscriptions
+- Subscription
 - Retention
 - Churn
 - Shopify
-- Ecommerce
-- DTC
+- E-Commerce
+- Direct to Consumer
 ---

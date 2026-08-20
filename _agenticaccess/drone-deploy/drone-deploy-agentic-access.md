@@ -46,7 +46,7 @@ tags:
 - LiDAR
 - Construction
 - Agriculture
-- AI
+- Artificial Intelligence
 - Aerial
 - Robotics
 ---

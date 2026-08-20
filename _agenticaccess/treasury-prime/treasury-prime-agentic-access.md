@@ -133,8 +133,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/treasu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/agentic-access/treasury-prime-agentic-access.yml
 summary_line: 38 operations · 17 acting
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

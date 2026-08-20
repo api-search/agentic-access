@@ -51,8 +51,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/baller
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/agentic-access/ballerina-agentic-access.yml
 summary_line: 9 operations
 tags:
-- Integrations
+- Integration
 - Orchestrations
-- Open Source
+- Open-Source
 - Programming Language
 ---

@@ -107,9 +107,9 @@ tags:
 - Blockchain
 - Web3
 - Cryptocurrency
-- Layer-1
+- Layer 1
 - EVM
-- Cross-chain Bridge
+- Cross-Chain Bridge
 - Staking
 - Developer Tools
 ---

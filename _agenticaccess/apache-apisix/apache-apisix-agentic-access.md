@@ -159,10 +159,10 @@ summary_line: 76 operations · 40 acting
 tags:
 - Apache
 - API Gateway
-- Cloud Native
+- Cloud-Native
 - Kubernetes
 - Lua
 - NGINX
-- Open Source
+- Open-Source
 - Traffic Management
 ---

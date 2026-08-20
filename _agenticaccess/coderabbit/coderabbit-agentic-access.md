@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/codera
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/agentic-access/coderabbit-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- AI
+- Artificial Intelligence
 - Code Review
 - Developer Tools
 - Pull Requests

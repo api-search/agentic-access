@@ -126,10 +126,10 @@ tags:
 - Human Resources
 - HR
 - Payroll
-- Human Capital Management
+- HCM
 - Employee Management
 - Time and Attendance
 - Applicant Tracking
-- SaaS
+- Software-as-a-Service
 - Turkey
 ---

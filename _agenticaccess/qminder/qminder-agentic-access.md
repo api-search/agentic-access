@@ -120,6 +120,6 @@ tags:
 - Customer Experience
 - REST
 - GraphQL
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

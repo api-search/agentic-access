@@ -329,6 +329,6 @@ tags:
 - Productivity
 - Scheduling
 - Calendar
-- Open Source
+- Open-Source
 - Booking
 ---

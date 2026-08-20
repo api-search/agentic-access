@@ -65,7 +65,7 @@ summary_line: 7 operations
 tags:
 - CFTC
 - Commitments of Traders
-- Federal Government
+- Federal-Government
 - Financial
 - Futures
 - Open Data

@@ -180,7 +180,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pipedr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/agentic-access/pipedream-agentic-access.yml
 summary_line: 62 operations · 31 acting
 tags:
-- ProCode_API_Composition
+- Pro-Code-API-Composition
 - Workflows
 - Connect
 - MCP

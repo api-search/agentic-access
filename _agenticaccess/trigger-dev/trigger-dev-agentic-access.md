@@ -122,11 +122,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/re
 summary_line: 44 operations · 26 acting · 2 human-in-the-loop
 tags:
 - Developer-First
-- Workflow Automation
+- Workflow-Automation
 - Background Jobs
 - Durable Execution
 - TypeScript
 - AI Agents
-- Realtime
-- Open Source
+- Real-Time
+- Open-Source
 ---

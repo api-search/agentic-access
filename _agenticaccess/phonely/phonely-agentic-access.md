@@ -44,7 +44,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/phonel
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/agentic-access/phonely-agentic-access.yml
 summary_line: 3 operations · 3 acting
 tags:
-- AI
 - Artificial Intelligence
 - Voice AI
 - Voice Agents
@@ -54,8 +53,8 @@ tags:
 - Call Center
 - Contact Center
 - SMS
-- Webhooks
-- Workflow Automation
+- Webhook
+- Workflow-Automation
 - Scheduling
 - CRM
 ---

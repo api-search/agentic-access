@@ -98,6 +98,6 @@ summary_line: 61 operations · 34 acting
 tags:
 - Artificial Intelligence
 - Emotion Detection
-- Machine Learning
+- Machine-Learning
 - Video Analysis
 ---

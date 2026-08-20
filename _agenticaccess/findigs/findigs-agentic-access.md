@@ -42,20 +42,20 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/h
 summary_line: 8 operations · 2 acting
 tags:
 - rental-screening
-- tenant-screening
+- Tenant Screening
 - resident-screening
 - rental-application
-- underwriting
-- decisioning
-- identity-verification
-- income-verification
-- credit-check
-- background-check
-- fraud-detection
-- property-management
-- real-estate
-- proptech
-- fcra
-- fair-housing
-- webhooks
+- Underwriting
+- Decisioning
+- Identity Verification
+- Income Verification
+- Credit Check
+- Background Check
+- Fraud Detection
+- Property Management
+- Real-Estate
+- PropTech
+- FCRA
+- Fair Housing
+- Webhook
 ---

@@ -131,8 +131,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/revert
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revert/refs/heads/main/agentic-access/revert-agentic-access.yml
 summary_line: 51 operations · 25 acting
 tags:
-- Integrations
+- Integration
 - CRM
-- Unified API
-- Open Source
+- Unified-API
+- Open-Source
 ---

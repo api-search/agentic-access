@@ -93,7 +93,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/
 summary_line: 32 operations · 16 acting
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Web Search
 - Agents
 - Deep Research

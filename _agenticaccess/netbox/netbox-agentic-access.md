@@ -265,12 +265,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/netbox
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netbox/refs/heads/main/agentic-access/netbox-agentic-access.yml
 summary_line: 1167 operations · 880 acting · 1 human-in-the-loop
 tags:
-- Data Center
+- Data-Center
 - DCIM
 - Infrastructure as Code
 - IPAM
 - Network Automation
 - Network Management
-- Open Source
+- Open-Source
 - Source of Truth
 ---

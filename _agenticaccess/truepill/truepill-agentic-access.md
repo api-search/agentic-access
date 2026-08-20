@@ -257,6 +257,6 @@ tags:
 - Prior Authorization
 - Electronic Prescribing
 - Pharmacy Transfers
-- Webhooks
+- Webhook
 - HIPAA
 ---

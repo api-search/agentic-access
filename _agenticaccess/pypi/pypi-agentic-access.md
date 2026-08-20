@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pypi/refs/head
 summary_line: 11 operations · 1 acting
 tags:
 - Developer Tools
-- Open Source
+- Open-Source
 - Package Management
 - Packages
 - Python

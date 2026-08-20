@@ -69,10 +69,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sarvam
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/agentic-access/sarvam-ai-agentic-access.yml
 summary_line: 7 operations · 7 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - Translation
 - Indian Languages
 ---

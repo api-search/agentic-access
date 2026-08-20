@@ -84,7 +84,7 @@ tags:
 - Contract Lifecycle
 - Contract Automation
 - Legal
-- LegalTech
+- Legal Tech
 - E-Signature
 - Contracts
 ---

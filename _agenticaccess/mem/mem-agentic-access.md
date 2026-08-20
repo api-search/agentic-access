@@ -87,7 +87,7 @@ summary_line: 64 operations · 38 acting
 tags:
 - Company
 - Notes
-- Knowledge Management
+- Knowledge-Management
 - Productivity
 - Artificial Intelligence
 - Note Taking

@@ -172,8 +172,8 @@ tags:
 - Voice AI
 - Voice Cloning
 - Speech to Speech
-- Text to Speech
+- Text-to-Speech
 - Voice Conversion
-- Real Time
+- Real-Time
 - Media and Entertainment
 ---

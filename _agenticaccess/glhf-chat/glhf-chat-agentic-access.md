@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/glhf-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glhf-chat/refs/heads/main/agentic-access/glhf-chat-agentic-access.yml
 summary_line: 2 operations · 1 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Open Source Models

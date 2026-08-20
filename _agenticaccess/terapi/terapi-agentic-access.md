@@ -72,6 +72,6 @@ tags:
 - Embedded iPaaS
 - Integration
 - Native Integrations
-- Open Source
-- Workflow Automation
+- Open-Source
+- Workflow-Automation
 ---

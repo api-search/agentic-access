@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cilium
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/agentic-access/cilium-agentic-access.yml
 summary_line: 41 operations · 15 acting
 tags:
-- Cloud Native
+- Cloud-Native
 - eBPF
 - Kubernetes
 - Networking

@@ -54,8 +54,8 @@ summary_line: 4 operations · 2 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
-- Image Generation
+- Machine-Learning
+- Image-Generation
 - Video Generation
 - Generative AI
 - Model Optimization

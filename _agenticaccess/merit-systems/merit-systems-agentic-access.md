@@ -77,9 +77,9 @@ tags:
 - Payments
 - x402
 - Micropayments
-- Model Context Protocol
+- MCP
 - Stablecoins
 - API Discovery
-- Open Source
+- Open-Source
 - Developer Tools
 ---

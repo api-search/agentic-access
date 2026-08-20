@@ -144,7 +144,7 @@ tags:
 - CI/CD
 - GitOps
 - Kubernetes
-- Open Source
+- Open-Source
 - Progressive Delivery
 - Workflow Engine
 ---

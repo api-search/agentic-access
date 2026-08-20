@@ -61,7 +61,7 @@ summary_line: 8 operations · 3 acting
 tags:
 - Albums
 - Google
-- Images
+- Image
 - Media
 - Photos
 - Sharing

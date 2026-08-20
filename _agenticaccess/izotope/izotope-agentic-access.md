@@ -55,7 +55,7 @@ tags:
 - Vocal Processing
 - Agent Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
-- Ecommerce
+- MCP
+- E-Commerce
 - Boris FX
 ---

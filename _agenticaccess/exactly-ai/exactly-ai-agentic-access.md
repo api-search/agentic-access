@@ -54,10 +54,10 @@ summary_line: 20 operations · 12 acting
 tags:
 - Company
 - Artificial Intelligence
-- Image Generation
+- Image-Generation
 - Generative AI
 - Creative Tools
 - Brand
-- Machine Learning
+- Machine-Learning
 - Media
 ---

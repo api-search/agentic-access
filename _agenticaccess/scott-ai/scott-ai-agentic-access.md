@@ -269,10 +269,10 @@ summary_line: 139 operations · 82 acting · 2 human-in-the-loop
 tags:
 - Company
 - Coding Agents
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Collaboration
 - Agentic Workflow
-- Model Context Protocol
+- MCP
 - Software Design
 ---

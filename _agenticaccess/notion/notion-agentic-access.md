@@ -80,9 +80,9 @@ tags:
 - Ideas
 - Notes
 - Productivity
-- Projects
+- Project
 - T1
-- Tasks
+- Task
 - Wiki
 - Workspace
 ---

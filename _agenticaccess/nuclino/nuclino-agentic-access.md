@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nuclin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/agentic-access/nuclino-agentic-access.yml
 summary_line: 11 operations · 3 acting
 tags:
-- Knowledge Management
+- Knowledge-Management
 - Team Workspace
 - Documentation
 - Wiki

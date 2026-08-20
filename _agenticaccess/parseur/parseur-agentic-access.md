@@ -86,7 +86,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/parseu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/agentic-access/parseur-agentic-access.yml
 summary_line: 29 operations · 19 acting · 1 human-in-the-loop
 tags:
-- AI
 - Artificial Intelligence
 - Document Parsing
 - Document Processing
@@ -96,7 +95,7 @@ tags:
 - Data Extraction
 - Vision AI
 - Automation
-- Webhooks
+- Webhook
 - Mailboxes
-- SaaS
+- Software-as-a-Service
 ---

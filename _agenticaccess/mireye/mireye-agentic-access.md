@@ -169,7 +169,7 @@ tags:
 - Geographic Information System
 - Location
 - AI Agents
-- Model Context Protocol
+- MCP
 - Government Data
 - Risk
 - Insurance

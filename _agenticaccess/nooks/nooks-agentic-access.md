@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/hea
 summary_line: 37 operations · 13 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Sales Engagement
 - Sales Dialer
 - AI SDR

@@ -38,10 +38,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openfe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/agentic-access/openfeature-agentic-access.yml
 summary_line: 2 operations · 2 acting
 tags:
-- Cloud Native
+- Cloud-Native
 - Feature Flags
 - Feature Management
 - Incubating
-- SDKs
+- SDK
 - Specification
 ---

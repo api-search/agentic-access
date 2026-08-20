@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/federa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/agentic-access/federal-railroad-administration-agentic-access.yml
 summary_line: 5 operations
 tags:
-- Federal Government
+- Federal-Government
 - Railroads
 - Safety
 - Transportation

@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/osmapi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/agentic-access/osmapi-agentic-access.yml
 summary_line: 4 operations · 2 acting
 tags:
-- AI
+- Artificial Intelligence
 - Anthropic
 - Gateway
 - LLM

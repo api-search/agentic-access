@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/houses
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/agentic-access/housesigma-agentic-access.yml
 summary_line: 22 operations
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

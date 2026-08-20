@@ -75,7 +75,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lalal-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/agentic-access/lalal-ai-agentic-access.yml
 summary_line: 15 operations · 15 acting · 2 human-in-the-loop
 tags:
-- AI
 - Artificial Intelligence
 - Audio
 - Audio Processing
@@ -85,6 +84,6 @@ tags:
 - Voice Cloning
 - Voice Changer
 - Music
-- Machine Learning
+- Machine-Learning
 - DSP
 ---

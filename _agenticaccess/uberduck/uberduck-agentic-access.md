@@ -58,8 +58,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uberdu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/agentic-access/uberduck-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - TTS
 - Voice
 - Voice Cloning

@@ -73,5 +73,5 @@ tags:
 - Grafana
 - Microservices
 - Observability
-- Open Source
+- Open-Source
 ---

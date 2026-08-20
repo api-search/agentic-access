@@ -48,7 +48,7 @@ tags:
 - Incident Management
 - On-Call
 - Mobile Alerts
-- Notifications
+- Notification
 - DevOps
 - IT Operations
 - Monitoring

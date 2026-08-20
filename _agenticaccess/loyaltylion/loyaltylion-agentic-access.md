@@ -91,7 +91,7 @@ summary_line: 15 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Loyalty
 - Rewards
-- E-commerce
+- E-Commerce
 - Points
 - Shopify
 - Retention

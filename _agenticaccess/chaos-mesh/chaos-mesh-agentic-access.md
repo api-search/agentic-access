@@ -98,12 +98,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/ref
 summary_line: 75 operations · 40 acting
 tags:
 - Chaos Engineering
-- Cloud Native
+- Cloud-Native
 - CNCF
 - Fault Injection
 - Kubernetes
 - Observability
-- Open Source
+- Open-Source
 - Reliability
 - Resilience
 - Testing

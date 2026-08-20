@@ -64,7 +64,7 @@ summary_line: 5 operations · 4 acting · 3 human-in-the-loop
 tags:
 - Payments
 - Payment Gateway
-- FinTech
+- Fintech
 - MENA
 - UAE
 ---

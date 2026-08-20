@@ -47,16 +47,16 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/superb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/agentic-access/superblocks-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
-- internal tools
-- low-code
-- no-code
-- applications
-- workflows
-- scheduled jobs
-- integrations
-- enterprise
-- AI
-- databases
+- Internal Tools
+- Low-Code
+- No-Code
+- Application
+- Workflows
+- Scheduled Jobs
+- Integration
+- Enterprise
+- Artificial Intelligence
+- Databases
 - REST API
-- developer tools
+- Developer Tools
 ---

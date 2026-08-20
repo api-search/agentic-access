@@ -60,7 +60,7 @@ tags:
 - Enrichment
 - Firmographics
 - Job Postings
-- Jobs
+- Job
 - Lead Generation
 - People Data
 - Sales Intelligence

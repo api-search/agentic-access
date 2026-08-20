@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/xai-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/agentic-access/xai-agentic-access.yml
 summary_line: 33 operations · 16 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Foundation Models
 - Grok

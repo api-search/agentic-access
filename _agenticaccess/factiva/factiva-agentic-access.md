@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/factiv
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/agentic-access/factiva-agentic-access.yml
 summary_line: 22 operations · 4 acting
 tags:
-- AI
+- Artificial Intelligence
 - Business Intelligence
 - Content Aggregation
 - Enterprise Data

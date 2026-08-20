@@ -108,9 +108,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/polyap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/agentic-access/polyapi-agentic-access.yml
 summary_line: 49 operations · 29 acting
 tags:
-- Integrations
+- Integration
 - Microservices
 - Middleware
 - Orchestrations
-- Pro-Code API Composition
+- Pro-Code-API-Composition
 ---

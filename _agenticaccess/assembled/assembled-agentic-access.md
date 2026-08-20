@@ -236,7 +236,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/assemb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/agentic-access/assembled-agentic-access.yml
 summary_line: 70 operations · 41 acting · 3 human-in-the-loop
 tags:
-- Customer Support
+- Customer-Support
 - Workforce Management
 - WFM
 - AI Agents

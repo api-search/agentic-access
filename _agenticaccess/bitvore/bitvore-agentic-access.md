@@ -181,16 +181,16 @@ source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/bitvor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/agentic-access/bitvore-agentic-access.yml
 summary_line: 121 operations · 53 acting
 tags:
-- financial-data
-- market-intelligence
-- alternative-data
-- news-api
-- nlp
-- esg
-- municipal-bonds
-- credit-risk
-- company-data
-- sentiment-analysis
-- unstructured-data
-- fixed-income
+- Financial Data
+- Market Intelligence
+- Alternative Data
+- News API
+- NLP
+- ESG
+- Municipal Bonds
+- Credit Risk
+- Company Data
+- Sentiment Analysis
+- Unstructured Data
+- Fixed Income
 ---

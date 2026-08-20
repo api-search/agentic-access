@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helm/refs/head
 summary_line: 10 operations · 3 acting
 tags:
 - Charts
-- Cloud Native
+- Cloud-Native
 - Container Orchestration
 - DevOps
 - Kubernetes

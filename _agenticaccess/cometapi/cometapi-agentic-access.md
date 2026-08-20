@@ -71,13 +71,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cometa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/agentic-access/cometapi-agentic-access.yml
 summary_line: 7 operations · 6 acting
 tags:
-- AI
+- Artificial Intelligence
 - Aggregator
 - Audio
 - Chat
 - Embeddings
 - Generative AI
-- Images
+- Image
 - LLM
 - Multi-Model
 - OpenAI-Compatible

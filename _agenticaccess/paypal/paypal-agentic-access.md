@@ -418,10 +418,10 @@ tags:
 - Commerce
 - Disputes
 - Invoices
-- Orders
+- Order
 - Payments
 - Payouts
-- Subscriptions
+- Subscription
 - Tokens
-- Webhooks
+- Webhook
 ---

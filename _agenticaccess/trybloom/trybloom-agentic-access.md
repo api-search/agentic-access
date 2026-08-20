@@ -60,7 +60,7 @@ summary_line: 23 operations · 16 acting
 tags:
 - Company
 - Brand Management
-- Image Generation
+- Image-Generation
 - Artificial Intelligence
 - Agents
 - MCP

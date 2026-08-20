@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/realto
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/agentic-access/realtor-ca-agentic-access.yml
 summary_line: 34 operations · 2 acting
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

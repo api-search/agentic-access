@@ -63,12 +63,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localytics/ref
 summary_line: 13 operations · 8 acting
 tags:
 - Company
-- Martech
+- MarTech
 - Mobile Analytics
 - Push Notifications
 - Customer Engagement
 - Marketing Automation
-- APIs
 - Mobile
 - Segmentation
 - Audiences

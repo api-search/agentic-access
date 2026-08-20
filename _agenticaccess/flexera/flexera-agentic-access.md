@@ -274,7 +274,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spot-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/agentic-access/flexera-agentic-access.yml
 summary_line: 119 operations · 65 acting · 1 human-in-the-loop
 tags:
-- Autoscaling
+- Auto-Scaling
 - Cloud Infrastructure
 - Containers
 - Cost Optimization

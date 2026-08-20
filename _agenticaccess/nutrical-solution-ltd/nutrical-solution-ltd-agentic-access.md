@@ -83,6 +83,6 @@ tags:
 - Meal Plans
 - Food Labeling
 - Compliance
-- Restaurants
+- Restaurant
 - GCC
 ---

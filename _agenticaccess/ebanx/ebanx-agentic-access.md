@@ -206,11 +206,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/hea
 summary_line: 29 operations · 29 acting
 tags:
 - Payments
-- Pay-in
+- Pay-In
 - Payouts
 - Foreign Exchange
 - Tokenization
-- LATAM
+- LatAm
 - Emerging Markets
 - Pix
 - Boleto
@@ -218,5 +218,5 @@ tags:
 - SPEI
 - PSE
 - Cross-Border
-- Webhooks
+- Webhook
 ---

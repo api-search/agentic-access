@@ -132,7 +132,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capy/refs/head
 summary_line: 37 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Coding Agent
 - Software Engineering
 - Developer Tools

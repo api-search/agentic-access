@@ -92,7 +92,7 @@ summary_line: 39 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Automation
 - Orchestration
-- State
-- Tasks
+- States
+- Task
 - Workflows
 ---

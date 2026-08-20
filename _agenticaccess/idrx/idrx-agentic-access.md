@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/idrx-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/agentic-access/idrx-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Blockchain

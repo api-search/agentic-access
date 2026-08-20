@@ -277,9 +277,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vapi-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/agentic-access/vapi-agentic-access.yml
 summary_line: 79 operations · 48 acting · 48 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Agents
-- Realtime
+- Real-Time
 - CPaaS
 ---

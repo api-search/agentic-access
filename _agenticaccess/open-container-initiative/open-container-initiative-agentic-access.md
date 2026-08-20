@@ -67,9 +67,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/open-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/agentic-access/open-container-initiative-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - OCI
-- Open Source
+- Open-Source
 - Standards
 ---

@@ -183,10 +183,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ampersand/refs
 summary_line: 81 operations · 44 acting · 1 human-in-the-loop
 tags:
 - Developer Tools
-- Integrations
+- Integration
 - Platform
-- SaaS
-- OAuth
+- Software-as-a-Service
+- Authentication
 - Data Sync
-- Webhooks
+- Webhook
 ---

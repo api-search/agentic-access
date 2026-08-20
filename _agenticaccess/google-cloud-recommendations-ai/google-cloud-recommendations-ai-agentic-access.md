@@ -43,7 +43,7 @@ summary_line: 4 operations · 3 acting
 tags:
 - E-Commerce
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - Personalization
 - Recommendations
 - Retail

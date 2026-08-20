@@ -42,9 +42,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vori/refs/head
 summary_line: 9 operations · 3 acting
 tags:
 - Company
-- Applications
+- Application
 - Grocery
-- Point of Sale
+- Point-of-Sale
 - Retail
 - Inventory
 - Payments

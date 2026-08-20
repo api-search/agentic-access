@@ -352,7 +352,7 @@ summary_line: 84 operations · 51 acting · 1 human-in-the-loop
 tags:
 - Affiliate Marketing
 - Referral Tracking
-- SaaS
+- Software-as-a-Service
 - Commission Management
 - Reward Distribution
 - Promoters
@@ -360,6 +360,6 @@ tags:
 - Influencer Marketing
 - Payouts
 - Attribution
-- Webhooks
+- Webhook
 - MCP
 ---

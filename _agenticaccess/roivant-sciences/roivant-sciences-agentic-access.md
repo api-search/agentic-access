@@ -114,13 +114,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roivant-scienc
 summary_line: 15 operations
 tags:
 - Biotech
-- Pharmaceutical
+- Pharmaceuticals
 - Drug Development
 - Clinical Trials
 - Health Data
 - Tokenization
 - Electronic Health Records
-- Real World Evidence
+- Real-World Evidence
 - Holding Company
 - Healthcare
 ---

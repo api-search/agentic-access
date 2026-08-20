@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nasdaq
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasdaq-omx-group/refs/heads/main/agentic-access/nasdaq-omx-group-agentic-access.yml
 summary_line: 5 operations
 tags:
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Stock Exchange
 - Market Data

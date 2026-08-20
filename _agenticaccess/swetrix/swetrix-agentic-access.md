@@ -134,7 +134,7 @@ tags:
 - Analytics
 - Cookieless Tracking
 - GDPR Compliant
-- Open Source
+- Open-Source
 - Privacy
 - Real-Time Analytics
 - Web Analytics

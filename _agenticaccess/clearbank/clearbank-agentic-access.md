@@ -193,7 +193,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/clearb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/agentic-access/clearbank-agentic-access.yml
 summary_line: 31 operations · 29 acting
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Banking as a Service
 - Embedded Banking

@@ -69,9 +69,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/recraf
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/agentic-access/recraft-agentic-access.yml
 summary_line: 19 operations · 18 acting
 tags:
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 - Design
-- Vector
-- Style
+- Vectors
+- Styles
 ---

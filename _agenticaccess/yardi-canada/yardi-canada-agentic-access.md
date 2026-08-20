@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/yardi-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/agentic-access/yardi-canada-agentic-access.yml
 summary_line: 8 operations
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Management
 - Rentals
@@ -52,5 +52,5 @@ tags:
 - Tenancy
 - Payments
 - MCP
-- AI
+- Artificial Intelligence
 ---

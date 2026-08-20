@@ -75,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-deposi
 summary_line: 7 operations
 tags:
 - Banking
-- Federal Government
+- Federal-Government
 - Financial Data
 - Insurance
 ---

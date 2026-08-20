@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/veryfi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/agentic-access/veryfi-agentic-access.yml
 summary_line: 26 operations · 14 acting
 tags:
-- AI
+- Artificial Intelligence
 - Document Processing
 - Finance
 - Invoices

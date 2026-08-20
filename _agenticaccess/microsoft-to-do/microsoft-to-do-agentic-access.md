@@ -64,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-to-d
 summary_line: 18 operations · 10 acting
 tags:
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Productivity
-- Tasks
+- Task
 ---

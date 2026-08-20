@@ -42,11 +42,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lifera
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liferay/refs/heads/main/agentic-access/liferay-agentic-access.yml
 summary_line: 8 operations · 6 acting
 tags:
-- Open Source
+- Open-Source
 - Digital Experience
 - DXP
 - Roles
-- Users
+- User
 - Permissions
 - Headless
 ---

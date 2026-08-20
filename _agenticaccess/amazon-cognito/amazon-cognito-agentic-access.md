@@ -857,7 +857,6 @@ summary_line: 126 operations · 126 acting · 5 human-in-the-loop
 tags:
 - Authentication
 - Identity
-- OAuth
 - OIDC
 - SAML
 - User Management

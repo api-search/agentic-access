@@ -89,7 +89,7 @@ tags:
 - NoSQL
 - Key-Value Store
 - Distributed Systems
-- Open Source
+- Open-Source
 - Basho
 - CRDT
 ---

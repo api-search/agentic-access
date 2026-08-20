@@ -281,12 +281,12 @@ tags:
 - Company
 - Fintech
 - Insurance
-- InsurTech
+- Insurtech
 - Payments
 - Premium Financing
 - Billing
 - Invoicing
 - Embedded Finance
 - REST API
-- Webhooks
+- Webhook
 ---

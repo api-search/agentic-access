@@ -132,8 +132,8 @@ tags:
 - Mortgage
 - Consumer Lending
 - Account Opening
-- FinTech
+- Fintech
 - Loan Origination
 - Banking
-- Financial Services
+- Financial-Services
 ---

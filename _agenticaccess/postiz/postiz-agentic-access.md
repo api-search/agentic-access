@@ -238,9 +238,9 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/postiz
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/agentic-access/postiz-agentic-access.yml
 summary_line: 248 operations · 143 acting · 122 human-in-the-loop
 tags:
-- Social Media
+- Social-Media
 - Scheduling
-- Open Source
+- Open-Source
 - Content
 - Marketing
 - Agents

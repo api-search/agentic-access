@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs
 summary_line: 7 operations · 6 acting
 tags:
 - Company
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Tabular Data
 - Foundation Models

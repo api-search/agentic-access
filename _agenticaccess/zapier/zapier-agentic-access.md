@@ -99,6 +99,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zapier
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/agentic-access/zapier-agentic-access.yml
 summary_line: 21 operations · 8 acting
 tags:
-- Integrations
+- Integration
 - iPaaS
 ---

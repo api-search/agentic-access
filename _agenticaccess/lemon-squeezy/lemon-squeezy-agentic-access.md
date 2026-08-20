@@ -238,6 +238,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lemon-squeezy/
 summary_line: 55 operations · 13 acting
 tags:
 - Digital Products
-- Ecommerce
-- Products
+- E-Commerce
+- Product
 ---

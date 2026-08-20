@@ -200,7 +200,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/knock-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knock/refs/heads/main/agentic-access/knock-agentic-access.yml
 summary_line: 116 operations · 78 acting · 3 human-in-the-loop
 tags:
-- Notifications
+- Notification
 - Email
 - SMS
 - Push

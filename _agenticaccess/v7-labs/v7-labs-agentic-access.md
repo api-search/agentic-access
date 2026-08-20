@@ -77,10 +77,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/v7-lab
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/agentic-access/v7-labs-agentic-access.yml
 summary_line: 25 operations · 14 acting
 tags:
-- AI
+- Artificial Intelligence
 - Training Data
 - Data Labeling
 - Annotation
 - Document AI
-- Computer Vision
+- Computer-Vision
 ---

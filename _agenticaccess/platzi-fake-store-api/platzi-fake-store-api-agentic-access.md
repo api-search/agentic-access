@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/platzi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/agentic-access/platzi-fake-store-api-agentic-access.yml
 summary_line: 25 operations · 12 acting
 tags:
-- Ecommerce
+- E-Commerce
 - Fake API
 - JWT
 - Prototyping

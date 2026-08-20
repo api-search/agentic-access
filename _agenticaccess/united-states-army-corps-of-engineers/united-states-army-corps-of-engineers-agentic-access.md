@@ -99,7 +99,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-
 summary_line: 20 operations · 3 acting
 tags:
 - Engineering
-- Federal Government
+- Federal-Government
 - Water Resources
 - Hydrology
 - Civil Engineering

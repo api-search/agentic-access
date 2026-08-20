@@ -116,7 +116,7 @@ summary_line: 28 operations · 21 acting
 tags:
 - Artificial Intelligence
 - Embeddings
-- Image Generation
+- Image-Generation
 - Language Models
 - Speech
 ---

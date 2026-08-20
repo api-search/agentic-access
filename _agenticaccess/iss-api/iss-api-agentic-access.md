@@ -52,7 +52,7 @@ tags:
 - Geolocation
 - Astronauts
 - Real-Time
-- Open Source
+- Open-Source
 - Public API
 - Free
 ---

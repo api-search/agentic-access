@@ -82,10 +82,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/freepi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/agentic-access/freepik-agentic-access.yml
 summary_line: 22 operations · 19 acting
 tags:
-- AI
+- Artificial Intelligence
 - Graphics
 - Illustrations
-- Image Generation
+- Image-Generation
 - Photos
 - Video Generation
 ---

@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-army/refs/h
 summary_line: 4 operations
 tags:
 - Army
-- Federal Government
+- Federal-Government
 - Military
 - Defense
 - Open Data

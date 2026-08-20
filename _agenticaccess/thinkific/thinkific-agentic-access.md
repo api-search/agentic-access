@@ -226,8 +226,8 @@ tags:
 - LMS
 - Course Creation
 - Enrollments
-- Users
+- User
 - Education
 - Digital Products
-- Webhooks
+- Webhook
 ---

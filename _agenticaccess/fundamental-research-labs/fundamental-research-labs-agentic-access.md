@@ -54,7 +54,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundamental-re
 summary_line: 10 operations · 3 acting
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Spreadsheets
 - Excel

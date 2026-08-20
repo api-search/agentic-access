@@ -356,7 +356,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/he
 summary_line: 364 operations · 225 acting · 9 human-in-the-loop
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Timekeeping
 - Time Tracking
 - Legal

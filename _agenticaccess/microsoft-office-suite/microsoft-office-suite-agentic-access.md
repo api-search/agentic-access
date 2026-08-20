@@ -69,7 +69,7 @@ tags:
 - Cloud
 - Collaboration
 - Documents
-- Microsoft 365
+- Microsoft-365
 - Office
 - Productivity
 ---

@@ -65,7 +65,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/causa-prima/re
 summary_line: 8 operations · 3 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Fintech
 - E-Invoicing
 - Invoicing

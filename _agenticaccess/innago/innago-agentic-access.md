@@ -110,7 +110,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/innago/refs/he
 summary_line: 21 operations · 7 acting
 tags:
 - Property Management
-- Real Estate
+- Real-Estate
 - Leases
 - Rent Collection
 - Maintenance

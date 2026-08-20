@@ -160,7 +160,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frax/refs/head
 summary_line: 96 operations · 3 acting
 tags:
 - DeFi
-- Stablecoin
+- Stablecoins
 - Fractional-Algorithmic
 - Ethereum
 - frxETH

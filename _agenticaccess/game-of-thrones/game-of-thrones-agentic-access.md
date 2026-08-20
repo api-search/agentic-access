@@ -58,6 +58,6 @@ tags:
 - Houses
 - Fantasy
 - Entertainment
-- Open API
+- OpenAPI
 - Free API
 ---

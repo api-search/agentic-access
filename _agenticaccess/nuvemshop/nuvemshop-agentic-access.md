@@ -136,15 +136,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nuvems
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/agentic-access/nuvemshop-agentic-access.yml
 summary_line: 56 operations · 33 acting
 tags:
-- E-commerce
+- E-Commerce
 - Online Store
 - Latin America
 - Brazil
 - Argentina
 - Storefront
-- Products
-- Orders
+- Product
+- Order
 - Merchants
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

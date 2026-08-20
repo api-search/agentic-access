@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/uk-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/agentic-access/gb-bank-agentic-access.yml
 summary_line: 86 operations · 20 acting
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nation
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/agentic-access/national-geospatial-intelligence-agency-agentic-access.yml
 summary_line: 6 operations
 tags:
-- Federal Government
+- Federal-Government
 - Geospatial
 - Intelligence
 - Defense

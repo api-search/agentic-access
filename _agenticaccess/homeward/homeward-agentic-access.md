@@ -54,10 +54,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homeward/refs/
 summary_line: 5 operations · 4 acting
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Home Finance
 - Mortgage
-- Proptech
+- PropTech
 - Cash Offer
 - Title
 - Lending

@@ -98,7 +98,7 @@ summary_line: 31 operations · 17 acting
 tags:
 - Apache 2.0
 - CNCF
-- Cloud Native
+- Cloud-Native
 - Composition
 - Control Plane
 - Custom Resource Definitions
@@ -106,7 +106,7 @@ tags:
 - Infrastructure as Code
 - Kubernetes
 - Multi-Cloud
-- Open Source
+- Open-Source
 - Platform Engineering
 - Providers
 ---

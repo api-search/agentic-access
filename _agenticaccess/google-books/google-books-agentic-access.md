@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-books/r
 summary_line: 8 operations · 2 acting
 tags:
 - Books
-- eBooks
+- Ebooks
 - Google
 - Library
 - Publishing

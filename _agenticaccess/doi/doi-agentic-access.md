@@ -282,7 +282,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/doi-us
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/agentic-access/doi-agentic-access.yml
 summary_line: 284 operations · 35 acting
 tags:
-- Federal Government
+- Federal-Government
 - National Parks
 - Federal Lands
 - Water Resources

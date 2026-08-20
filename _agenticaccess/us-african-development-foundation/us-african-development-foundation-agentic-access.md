@@ -65,10 +65,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/usadf-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/agentic-access/us-african-development-foundation-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
-- Federal Government
+- Federal-Government
 - International Development
 - Africa
 - Grants
-- Nonprofit
+- Non-Profit
 - Economic Development
 ---

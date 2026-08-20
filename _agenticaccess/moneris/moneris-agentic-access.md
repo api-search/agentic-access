@@ -169,7 +169,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/moneri
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/agentic-access/moneris-agentic-access.yml
 summary_line: 54 operations · 33 acting
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - Payment Processing
 - Card Payments

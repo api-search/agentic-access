@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-econ
 summary_line: 1 operation
 tags:
 - Economics
-- Federal Government
+- Federal-Government
 - GDP
 - National Accounts
 - Statistics

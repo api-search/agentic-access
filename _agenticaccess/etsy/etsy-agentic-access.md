@@ -286,13 +286,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etsy/refs/head
 summary_line: 103 operations · 42 acting
 tags:
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Handmade
 - Listings
-- Orders
+- Order
 - Payments
 - Reviews
 - Shipping
 - Taxonomy
-- OAuth2
+- Authentication
 ---

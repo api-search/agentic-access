@@ -113,7 +113,7 @@ tags:
 - Generative AI
 - Hybrid Cloud
 - Infrastructure
-- Machine Learning
+- Machine-Learning
 - Networking
 - Observability
 - Security

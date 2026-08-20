@@ -92,8 +92,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/interc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/agentic-access/intercom-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
-- AI
+- Artificial Intelligence
 - Customer Service
-- Customer Support
+- Customer-Support
 - Messaging
 ---

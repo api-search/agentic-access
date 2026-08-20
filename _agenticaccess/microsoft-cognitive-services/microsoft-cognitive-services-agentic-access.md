@@ -38,9 +38,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-cogn
 summary_line: 1 operation · 1 acting
 tags:
 - Azure AI
-- Computer Vision
+- Computer-Vision
 - Speech
 - NLP
 - OpenAI
-- Machine Learning
+- Machine-Learning
 ---

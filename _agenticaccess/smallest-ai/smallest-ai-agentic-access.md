@@ -53,9 +53,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smalle
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smallest-ai/refs/heads/main/agentic-access/smallest-ai-agentic-access.yml
 summary_line: 6 operations · 4 acting
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - Voice
-- Realtime
+- Real-Time
 - Voice Agents
 ---

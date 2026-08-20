@@ -354,7 +354,7 @@ tags:
 - Compliance
 - Container Security
 - Kubernetes
-- Open Source
+- Open-Source
 - Runtime Protection
 - Security
 ---

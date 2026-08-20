@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vonage
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/agentic-access/vonage-agentic-access.yml
 summary_line: 25 operations · 18 acting · 3 human-in-the-loop
 tags:
-- Communication
+- Communications
 - Messaging
 - Telecommunications
 - Video Conferencing

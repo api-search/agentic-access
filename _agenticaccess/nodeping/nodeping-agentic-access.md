@@ -90,6 +90,6 @@ summary_line: 25 operations · 14 acting
 tags:
 - Monitoring
 - Uptime
-- Notifications
-- SaaS
+- Notification
+- Software-as-a-Service
 ---

@@ -63,10 +63,10 @@ tags:
 - Consumer Products
 - Hardware
 - Appliances
-- Foodservice
+- Food Service
 - Agentic Commerce
 - Shopify
 - GraphQL
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 ---

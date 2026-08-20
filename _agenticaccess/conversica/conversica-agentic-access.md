@@ -53,5 +53,5 @@ tags:
 - Chat
 - Automotive
 - Higher Education
-- Webhooks
+- Webhook
 ---

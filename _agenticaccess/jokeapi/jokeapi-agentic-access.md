@@ -56,7 +56,7 @@ tags:
 - Jokes
 - Humor
 - Entertainment
-- Open Source
+- Open-Source
 - REST API
 - Games And Comics
 - Public APIs

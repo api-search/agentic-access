@@ -52,7 +52,7 @@ tags:
 - Data Analytics
 - Customer Data Platform
 - CRM
-- Chatbot
+- Chatbots
 - Social Media Management
 - Natural Language Processing
 - Artificial Intelligence

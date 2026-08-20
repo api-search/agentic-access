@@ -101,7 +101,7 @@ tags:
 - No-Code
 - Low-Code
 - Airtable Alternative
-- Open Source
+- Open-Source
 - Spreadsheet
 - REST API
 - Self-Hosted

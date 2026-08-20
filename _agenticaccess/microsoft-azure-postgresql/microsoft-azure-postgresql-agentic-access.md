@@ -50,7 +50,7 @@ summary_line: 7 operations · 3 acting
 tags:
 - Database
 - Managed Database
-- Open Source
+- Open-Source
 - PostgreSQL
 - Relational
 ---

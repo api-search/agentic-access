@@ -112,7 +112,7 @@ tags:
 - Foot Traffic
 - Geospatial
 - Retail Analytics
-- Real Estate
+- Real-Estate
 - Consumer Insights
 - Data
 ---

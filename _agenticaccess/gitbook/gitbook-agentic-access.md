@@ -176,7 +176,7 @@ tags:
 - Content
 - Documentation
 - Experience
-- Integrations
+- Integration
 - Platform
-- SDKs
+- SDK
 ---

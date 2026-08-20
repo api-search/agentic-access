@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/facebo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/agentic-access/facebook-pages-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
-- Social Media
+- Social-Media
 - Facebook
 - Meta Graph API
 - Pages

@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/skyslo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/agentic-access/skyslope-agentic-access.yml
 summary_line: 38 operations · 19 acting
 tags:
-- Real Estate
+- Real-Estate
 - Transaction Management
 - Digital Forms
 - E-Signature

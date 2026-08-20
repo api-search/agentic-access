@@ -64,7 +64,7 @@ summary_line: 16 operations · 9 acting
 tags:
 - Integration Platform
 - Automation
-- Workflow
+- Workflows
 - No-Code
 - IT Process Automation
 - Software As A Utility

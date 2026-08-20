@@ -48,5 +48,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/products-api/r
 summary_line: 6 operations · 4 acting
 tags:
 - Application Programming Interface
-- Products
+- Product
 ---

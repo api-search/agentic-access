@@ -106,12 +106,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/whippy
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/agentic-access/whippy-agentic-access.yml
 summary_line: 33 operations · 17 acting
 tags:
-- Communication
+- Communications
 - Messaging
 - SMS
 - Email
 - Voice
-- AI
+- Artificial Intelligence
 - Campaigns
 - Sequences
 ---

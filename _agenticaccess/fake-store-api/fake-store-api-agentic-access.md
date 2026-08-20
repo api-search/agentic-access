@@ -65,7 +65,7 @@ summary_line: 22 operations · 13 acting
 tags:
 - Customers
 - Fake Data
-- Orders
-- Products
+- Order
+- Product
 - Synthetic Data
 ---

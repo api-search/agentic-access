@@ -65,10 +65,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/doubao
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/agentic-access/doubao-agentic-access.yml
 summary_line: 7 operations · 6 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - ByteDance
-- Multimodal
+- Multi-Modal
 - Volcano Engine
 ---

@@ -57,7 +57,7 @@ summary_line: 15 operations · 5 acting
 tags:
 - Big Data
 - Interactive Computing
-- Open Source
+- Open-Source
 - REST
 - Spark
 ---

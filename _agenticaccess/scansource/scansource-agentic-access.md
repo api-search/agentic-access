@@ -108,8 +108,8 @@ summary_line: 18 operations · 7 acting
 tags:
 - ScanSource
 - Distribution
-- Barcode
-- Point Of Sale
+- Barcodes
+- Point-of-Sale
 - AIDC
 - Inventory
 - Order Management

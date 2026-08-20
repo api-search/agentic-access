@@ -50,9 +50,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lowes-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/agentic-access/lowes-agentic-access.yml
 summary_line: 3 operations
 tags:
-- Ecommerce
+- E-Commerce
 - Home Improvement
-- Products
+- Product
 - Retail
 - Fortune 100
 ---

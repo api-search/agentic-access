@@ -193,7 +193,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cintoo/refs/he
 summary_line: 100 operations · 63 acting
 tags:
 - Company
-- Infrastructure SaaS
+- Infrastructure Saas
 - Reality Capture
 - Digital Twin
 - Point Cloud

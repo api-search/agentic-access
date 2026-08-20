@@ -80,11 +80,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sapien/refs/he
 summary_line: 22 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data Quality
 - Data Labeling
-- Machine Learning
-- Human in the Loop
+- Machine-Learning
+- Human-in-the-Loop
 - Attestation
 - Blockchain
 - Consensus

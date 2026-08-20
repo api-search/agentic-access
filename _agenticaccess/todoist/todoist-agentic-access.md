@@ -106,7 +106,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/h
 summary_line: 41 operations · 23 acting
 tags:
 - Productivity
-- Tasks
+- Task
 - To-Do
 - Task Management
 - Collaboration

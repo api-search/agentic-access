@@ -386,8 +386,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/symphony/refs/
 summary_line: 108 operations · 64 acting · 7 human-in-the-loop
 tags:
 - Collaboration
-- Communication
-- Financial Services
+- Communications
+- Financial-Services
 - Messaging
 - Secure Communication
 ---

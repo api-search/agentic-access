@@ -63,10 +63,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/windsu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/agentic-access/windsurf-agentic-access.yml
 summary_line: 6 operations · 6 acting
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Editor
-- Agent
+- Agents
 - Cascade
 - IDE
 - MCP

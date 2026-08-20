@@ -49,10 +49,10 @@ summary_line: 5 operations · 3 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Conversation Intelligence
-- Customer Support
+- Customer-Support
 - Text Classification
 - Analytics
 - Customer Experience

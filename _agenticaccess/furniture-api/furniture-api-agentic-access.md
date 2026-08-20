@@ -42,6 +42,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/furniture-api/
 summary_line: 5 operations · 3 acting
 tags:
 - Furniture
-- Products
+- Product
 - E-Commerce
 ---

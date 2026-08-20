@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micron
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/agentic-access/micronaut-agentic-access.yml
 summary_line: 13 operations · 3 acting · 1 human-in-the-loop
 tags:
-- Cloud Native
+- Cloud-Native
 - Frameworks
 - Java
 - JVM

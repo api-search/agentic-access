@@ -78,7 +78,7 @@ summary_line: 24 operations · 13 acting
 tags:
 - Security
 - Password Manager
-- Open Source
+- Open-Source
 - Vault
 - Identity
 - SCIM

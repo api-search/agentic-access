@@ -86,6 +86,6 @@ summary_line: 24 operations · 11 acting
 tags:
 - Payments
 - Cards
-- Subscriptions
+- Subscription
 - Refunds
 ---

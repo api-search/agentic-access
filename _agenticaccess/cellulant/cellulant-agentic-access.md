@@ -114,7 +114,7 @@ tags:
 - Bank Transfer
 - Cards
 - Airtime
-- Bill Payment
+- Bill Payments
 - SMS
 - OTP
 - Tingg

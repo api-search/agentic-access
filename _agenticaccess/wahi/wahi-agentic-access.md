@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/wahi-l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wahi/refs/heads/main/agentic-access/wahi-agentic-access.yml
 summary_line: 1 operation
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

@@ -80,7 +80,7 @@ summary_line: 9 operations · 3 acting
 tags:
 - Brokerage
 - Market Data
-- Orders
+- Order
 - Portfolio
 - Trading
 ---

@@ -74,7 +74,7 @@ summary_line: 22 operations
 tags:
 - Drugs
 - Devices
-- Federal Government
+- Federal-Government
 - Food Safety
 - Public Data
 - Recalls

@@ -153,10 +153,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/re
 summary_line: 52 operations · 28 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - MCP
-- Model Context Protocol
 - LLM
 - Inference
 - Gateway

@@ -75,7 +75,7 @@ summary_line: 13 operations · 7 acting
 tags:
 - Debugging
 - Error Tracking
-- Open Source
+- Open-Source
 - Performance Monitoring
 - Session Replay
 - User Behavior

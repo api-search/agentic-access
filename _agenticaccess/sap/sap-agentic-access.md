@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sap-ai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/agentic-access/sap-agentic-access.yml
 summary_line: 33 operations · 14 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - BTP
 - Business Applications
 - Cloud

@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-onen
 summary_line: 17 operations · 6 acting
 tags:
 - Microsoft
-- Microsoft 365
+- Microsoft-365
 - Notebooks
 - Notes
 - Productivity

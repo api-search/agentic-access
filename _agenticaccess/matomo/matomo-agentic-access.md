@@ -434,12 +434,12 @@ summary_line: 560 operations · 2 acting
 tags:
 - Analytics
 - Web Analytics
-- Open Source
+- Open-Source
 - Privacy
 - Data Ownership
 - Self-Hosted
 - GDPR
 - Tag Management
 - Conversion Optimization
-- Model Context Protocol
+- MCP
 ---

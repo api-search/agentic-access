@@ -95,7 +95,7 @@ summary_line: 80 operations · 15 acting
 tags:
 - Event Tracking
 - Funnels
-- Open Source
+- Open-Source
 - Product Analytics
 - Real-Time Analytics
 - User Analytics

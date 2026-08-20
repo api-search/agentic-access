@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/domain
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/agentic-access/domain-group-agentic-access.yml
 summary_line: 221 operations · 76 acting
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Listings
 - Property Data

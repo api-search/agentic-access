@@ -211,7 +211,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/suprse
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/agentic-access/suprsend-agentic-access.yml
 summary_line: 122 operations · 70 acting · 4 human-in-the-loop
 tags:
-- Notifications
+- Notification
 - Multi-Channel
 - Email
 - SMS
@@ -220,6 +220,6 @@ tags:
 - WhatsApp
 - Slack
 - Notification Infrastructure
-- Workflow Automation
+- Workflow-Automation
 - Template Management
 ---

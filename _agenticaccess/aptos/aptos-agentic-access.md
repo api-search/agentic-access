@@ -91,8 +91,8 @@ tags:
 - NFT
 - Smart Contracts
 - DeFi
-- Transactions
-- Accounts
+- Transaction
+- Account
 - GraphQL
 - gRPC
 ---

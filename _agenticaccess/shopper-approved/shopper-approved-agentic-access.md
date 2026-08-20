@@ -67,7 +67,7 @@ summary_line: 6 operations · 2 acting
 tags:
 - Reviews
 - Ratings
-- Ecommerce
+- E-Commerce
 - Customer Feedback
 - Social Proof
 ---

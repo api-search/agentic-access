@@ -54,9 +54,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imgflip/refs/h
 summary_line: 7 operations · 6 acting
 tags:
 - Memes
-- Images
+- Image
 - GIFs
 - Entertainment
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 ---

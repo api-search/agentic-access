@@ -183,14 +183,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/agentic-access/clarifai-agentic-access.yml
 summary_line: 466 operations · 247 acting · 6 human-in-the-loop
 tags:
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - NLP
 - Image Recognition
 - Object Detection
 - Text Analysis
 - Visual Search
-- Machine Learning
+- Machine-Learning
 - Custom Model Training
 - gRPC
 ---

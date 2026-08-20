@@ -113,12 +113,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tito/refs/head
 summary_line: 57 operations · 35 acting
 tags:
 - Event Ticketing
-- Events
+- Event
 - Registration
 - Ticketing
 - Conferences
 - Event Management
 - Attendees
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 ---

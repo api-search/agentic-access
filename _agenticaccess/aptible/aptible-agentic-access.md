@@ -377,7 +377,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/h
 summary_line: 225 operations · 78 acting · 1 human-in-the-loop
 tags:
 - Company
-- Platform as a Service
+- Platform-as-a-Service
 - Cloud Infrastructure
 - Deployment
 - Managed Databases

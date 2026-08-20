@@ -80,11 +80,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groundtruth/re
 summary_line: 318 operations · 63 acting
 tags:
 - Company
-- Martech
+- MarTech
 - Advertising
 - Location Intelligence
 - Marketing
-- Adtech
+- AdTech
 - Location-Based Marketing
 - Advertising API
 - Campaign Management

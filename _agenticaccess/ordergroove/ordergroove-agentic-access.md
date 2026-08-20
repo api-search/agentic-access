@@ -87,12 +87,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/orderg
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/agentic-access/ordergroove-agentic-access.yml
 summary_line: 25 operations · 12 acting
 tags:
-- Subscriptions
+- Subscription
 - Recurring Commerce
 - Relationship Commerce
-- eCommerce
+- E-Commerce
 - Autoship
-- DTC
+- Direct to Consumer
 - Retail
 - Subscription Management
 ---

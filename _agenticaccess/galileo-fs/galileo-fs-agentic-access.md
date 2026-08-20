@@ -116,8 +116,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/galile
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/agentic-access/galileo-fs-agentic-access.yml
 summary_line: 19 operations · 19 acting · 1 human-in-the-loop
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Card Issuing
 - Banking
 - Payments

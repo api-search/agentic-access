@@ -211,6 +211,6 @@ tags:
 - Blood Pressure
 - Activity Tracking
 - Remote Patient Monitoring
-- OAuth2
-- Webhooks
+- Authentication
+- Webhook
 ---

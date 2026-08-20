@@ -51,11 +51,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wonderment/ref
 summary_line: 4 operations
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Order Tracking
 - Post-Purchase
 - Shipping
 - Logistics
 - Shopify
-- Webhooks
+- Webhook
 ---

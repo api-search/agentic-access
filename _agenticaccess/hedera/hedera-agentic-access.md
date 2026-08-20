@@ -109,9 +109,9 @@ tags:
 - Blockchain
 - DLT
 - Hashgraph
-- Transactions
+- Transaction
 - Tokens
-- NFTs
+- NFT
 - Smart Contracts
 - Enterprise
 ---

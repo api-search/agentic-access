@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fashn-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/agentic-access/fashn-agentic-access.yml
 summary_line: 2 operations · 1 acting
 tags:
-- AI
+- Artificial Intelligence
 - Clothing
 - Fashion
 - Virtual Try-On

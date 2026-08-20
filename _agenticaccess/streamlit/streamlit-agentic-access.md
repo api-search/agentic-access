@@ -60,8 +60,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamlit/refs
 summary_line: 8 operations · 4 acting
 tags:
 - Data Science
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Python
 - Web Applications
 ---

@@ -156,6 +156,6 @@ tags:
 - Hospitality
 - Availability
 - Guest CRM
-- Point of Sale
+- Point-of-Sale
 - Japan
 ---

@@ -1017,16 +1017,16 @@ source_yaml: "generated: '2026-08-05'\nmethod: generated\nsource: openapi/smart-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/agentic-access/smart-pension-agentic-access.yml
 summary_line: 383 operations · 180 acting
 tags:
-- pensions
-- retirement
+- Pensions
+- Retirement
 - workplace-pension
 - auto-enrolment
-- payroll
-- fintech
-- financial-services
-- united-kingdom
+- Payroll
+- Fintech
+- Financial-Services
+- United Kingdom
 - master-trust
-- employee-benefits
-- contributions
+- Employee Benefits
+- Contributions
 - papdis
 ---

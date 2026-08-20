@@ -211,7 +211,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/vaultr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/agentic-access/vaultre-agentic-access.yml
 summary_line: 974 operations · 390 acting
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - New Zealand
 - PropTech
@@ -220,5 +220,5 @@ tags:
 - Property Management
 - Rentals
 - Commercial Real Estate
-- Webhooks
+- Webhook
 ---

@@ -660,11 +660,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/reclai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/agentic-access/reclaim-ai-agentic-access.yml
 summary_line: 616 operations · 348 acting · 16 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Scheduling
 - Calendar
 - Productivity
-- Tasks
+- Task
 - Habits
 - Time Management
 - Meetings

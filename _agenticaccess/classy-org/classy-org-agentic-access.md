@@ -114,10 +114,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/classy
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/agentic-access/classy-org-agentic-access.yml
 summary_line: 51 operations · 21 acting
 tags:
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Donations
-- Peer to Peer
+- Peer-to-Peer
 - Philanthropy
 - Payments
 - GoFundMe Pro

@@ -69,11 +69,11 @@ summary_line: 12 operations · 8 acting
 tags:
 - Insurance
 - Insurtech
-- Real Estate
+- Real-Estate
 - Property Management
 - Rentals
 - Security Deposits
 - Renters Insurance
-- Webhooks
+- Webhook
 - Partner API
 ---

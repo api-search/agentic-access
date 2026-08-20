@@ -48,5 +48,5 @@ tags:
 - Pronunciation
 - Speech Recognition
 - Language Learning
-- AI
+- Artificial Intelligence
 ---

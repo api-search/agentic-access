@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/partic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/agentic-access/particle-space-agentic-access.yml
 summary_line: 7 operations
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - PropTech
 - Listings

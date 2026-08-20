@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/contai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/containerd/refs/heads/main/agentic-access/containerd-agentic-access.yml
 summary_line: 1 operation
 tags:
-- Cloud Native
+- Cloud-Native
 - Container Runtime
 - CRI
 - Docker

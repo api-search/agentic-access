@@ -111,7 +111,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/
 summary_line: 29 operations · 18 acting
 tags:
 - E-Commerce
-- Subscriptions
+- Subscription
 - Checkout
 - Pricing
 - Headless Commerce

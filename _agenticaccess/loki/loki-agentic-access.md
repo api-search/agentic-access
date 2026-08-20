@@ -72,6 +72,6 @@ summary_line: 27 operations · 8 acting
 tags:
 - Logging
 - Observability
-- Open Source
+- Open-Source
 - Grafana
 ---

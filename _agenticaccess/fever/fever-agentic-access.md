@@ -77,9 +77,9 @@ tags:
 - Company
 - Consumer
 - Live Entertainment
-- Events
+- Event
 - Ticketing
-- Experiences
+- Experience
 - Reporting
 - MCP
 ---

@@ -76,12 +76,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/epos-n
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/agentic-access/epos-now-agentic-access.yml
 summary_line: 25 operations · 12 acting
 tags:
-- Point of Sale
-- POS
+- Point-of-Sale
 - Retail
 - Hospitality
 - Payments
 - Inventory
 - Commerce
-- Ecommerce
+- E-Commerce
 ---

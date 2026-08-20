@@ -214,9 +214,9 @@ summary_line: 85 operations · 60 acting · 2 human-in-the-loop
 tags:
 - E-Signature
 - Electronic Signature
-- Document Management
+- Document-Management
 - Embedded Signing
-- Webhooks
+- Webhook
 - Templates
 - Identity Verification
 - Compliance

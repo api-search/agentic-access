@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/usda-e
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/agentic-access/united-states-department-of-agriculture-agentic-access.yml
 summary_line: 15 operations
 tags:
-- Federal Government
+- Federal-Government
 - Agriculture
 - Food Safety
 - Nutrition

@@ -84,8 +84,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lightl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/agentic-access/lightly-ai-agentic-access.yml
 summary_line: 31 operations · 11 acting
 tags:
-- AI
-- Computer Vision
+- Artificial Intelligence
+- Computer-Vision
 - Data Curation
 - Active Learning
 - Embeddings

@@ -153,16 +153,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/authen
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/agentic-access/authenticx-agentic-access.yml
 summary_line: 46 operations · 18 acting
 tags:
-- conversation-intelligence
-- healthcare
-- speech-analytics
-- contact-center
-- customer-experience
-- quality-assurance
-- pharmacovigilance
-- patient-experience
-- transcription
-- life-sciences
-- scim
-- oauth2
+- Conversation Intelligence
+- Healthcare
+- Speech Analytics
+- Contact Center
+- Customer Experience
+- Quality Assurance
+- Pharmacovigilance
+- Patient Experience
+- Transcription
+- Life Sciences
+- SCIM
+- Authentication
 ---

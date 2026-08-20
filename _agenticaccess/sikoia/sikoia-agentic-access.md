@@ -170,7 +170,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/he
 summary_line: 71 operations · 31 acting
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Identity Verification
 - KYC
 - KYB

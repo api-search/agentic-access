@@ -110,7 +110,7 @@ tags:
 - Music
 - Streaming
 - Audio
-- OAuth
+- Authentication
 - Catalog
 - Playlists
 ---

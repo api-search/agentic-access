@@ -224,12 +224,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/anthro
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/agentic-access/anthropic-agentic-access.yml
 summary_line: 71 operations · 37 acting · 3 human-in-the-loop
 tags:
-- AI
 - Artificial Intelligence
 - Claude
 - Foundation Models
 - Large Language Models
-- Machine Learning
+- Machine-Learning
 - MCP
 - Agents
 ---

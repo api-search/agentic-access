@@ -83,7 +83,6 @@ source_yaml: "generated: '2026-08-10'\nmethod: generated\nsource: openapi/apieva
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/agentic-access/api-evangelist-agentic-access.yml
 summary_line: 92 operations · 22 acting · 1 human-in-the-loop
 tags:
-- APIs
 - API Evangelist
 - Developer Portal
 - API Research

@@ -132,7 +132,7 @@ summary_line: 31 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Print on Demand
 - Fulfillment
-- Ecommerce
+- E-Commerce
 - Dropshipping
 - Merchandise
 ---

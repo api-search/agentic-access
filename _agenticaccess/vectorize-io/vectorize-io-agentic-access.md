@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vector
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/agentic-access/vectorize-io-agentic-access.yml
 summary_line: 37 operations · 22 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - RAG
 - Vectorization
 - Embeddings

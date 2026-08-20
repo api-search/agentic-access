@@ -180,11 +180,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aza-finance/re
 summary_line: 49 operations · 22 acting
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Foreign Exchange
 - Cross-Border Payments
 - Africa
 - Fintech
-- API
 ---

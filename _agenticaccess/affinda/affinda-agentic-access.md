@@ -194,7 +194,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/affind
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/agentic-access/affinda-agentic-access.yml
 summary_line: 244 operations · 146 acting
 tags:
-- AI
 - Artificial Intelligence
 - Document Processing
 - Intelligent Document Processing

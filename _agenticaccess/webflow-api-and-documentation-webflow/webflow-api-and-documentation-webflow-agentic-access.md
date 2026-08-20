@@ -222,7 +222,7 @@ summary_line: 153 operations · 89 acting
 tags:
 - CMS
 - Content Management
-- Ecommerce
+- E-Commerce
 - No-Code
 - Publishing
 - Web Development

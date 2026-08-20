@@ -117,7 +117,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/h
 summary_line: 86 operations
 tags:
 - Pokémon
-- Open Source
+- Open-Source
 - Open Data
 - REST
 - GraphQL

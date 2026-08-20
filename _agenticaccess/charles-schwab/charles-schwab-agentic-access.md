@@ -107,14 +107,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/charle
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/agentic-access/charles-schwab-agentic-access.yml
 summary_line: 18 operations · 2 acting
 tags:
-- Accounts
+- Account
 - Banking
 - Brokerage
-- Financial Services
+- Financial-Services
 - Investing
 - Market Data
-- OAuth 2.0
-- Orders
+- Authentication
+- Order
 - Trading
 - Fortune 500
 ---

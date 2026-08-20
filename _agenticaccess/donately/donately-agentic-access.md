@@ -83,7 +83,7 @@ summary_line: 22 operations · 10 acting
 tags:
 - Fundraising
 - Donations
-- Nonprofit
+- Non-Profit
 - Payments
 - Donor Management
 - Recurring Giving

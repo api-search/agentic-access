@@ -74,8 +74,8 @@ summary_line: 13 operations · 6 acting
 tags:
 - LLM
 - Long Context
-- AI
-- OpenAI Compatible
-- Multimodal
+- Artificial Intelligence
+- OpenAI-Compatible
+- Multi-Modal
 - China
 ---

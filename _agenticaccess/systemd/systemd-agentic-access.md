@@ -284,14 +284,14 @@ tags:
 - D-Bus
 - Init
 - IPC
-- Journal
+- journal
 - Linux
 - Logging
 - Network
-- Open Source
+- Open-Source
 - PID 1
 - Service Manager
 - System
-- Systemd
+- systemd
 - Varlink
 ---

@@ -135,8 +135,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/loyver
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/agentic-access/loyverse-agentic-access.yml
 summary_line: 32 operations · 10 acting
 tags:
-- Point of Sale
-- POS
+- Point-of-Sale
 - Retail
 - Inventory
 - Cafe and Restaurant

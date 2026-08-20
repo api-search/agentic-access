@@ -74,12 +74,12 @@ summary_line: 10 operations · 6 acting
 tags:
 - Big Data
 - CNCF
-- Cloud Native
+- Cloud-Native
 - Data Engineering
 - Distributed Systems
 - In-Memory Storage
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - Metadata Management
 - Python
 - Zero-Copy

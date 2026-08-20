@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sieve-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sieve/refs/heads/main/agentic-access/sieve-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
-- AI
+- Artificial Intelligence
 - Video
 - Audio
 - Media Processing

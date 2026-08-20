@@ -65,15 +65,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hyperb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/agentic-access/hyperbolic-ai-agentic-access.yml
 summary_line: 5 operations · 4 acting
 tags:
-- AI
 - Artificial Intelligence
 - Compute
 - Decentralized
 - DePIN
 - GPU
-- Image Generation
+- Image-Generation
 - Inference
 - LLM
 - Marketplace
-- Open Source
+- Open-Source
 ---

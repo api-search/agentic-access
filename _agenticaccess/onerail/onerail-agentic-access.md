@@ -647,16 +647,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/onerai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/agentic-access/onerail-agentic-access.yml
 summary_line: 469 operations · 284 acting · 22 human-in-the-loop
 tags:
-- last-mile-delivery
-- delivery-orchestration
-- logistics
-- supply-chain
-- route-optimization
+- Last Mile Delivery
+- Delivery Orchestration
+- Logistics
+- Supply Chain
+- Route Optimization
 - courier-network
-- shipping
-- fleet-management
-- transportation
-- order-management
-- webhooks
-- final-mile
+- Shipping
+- Fleet Management
+- Transportation
+- Order Management
+- Webhook
+- Final Mile
 ---

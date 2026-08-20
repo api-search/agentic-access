@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/packlink/refs/
 summary_line: 24 operations · 9 acting
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Shipping
 - Logistics
 - Parcel Delivery

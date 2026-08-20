@@ -309,5 +309,5 @@ tags:
 - Metrics
 - Traces
 - RUM
-- Open Source
+- Open-Source
 ---

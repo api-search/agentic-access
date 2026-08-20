@@ -278,6 +278,6 @@ tags:
 - Open Knowledge
 - Encyclopedia
 - Knowledge Graph
-- Open Source
+- Open-Source
 - Non-Profit
 ---

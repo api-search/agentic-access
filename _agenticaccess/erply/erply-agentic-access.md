@@ -578,12 +578,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/erply/refs/hea
 summary_line: 351 operations · 248 acting
 tags:
 - Retail
-- Point of Sale
+- Point-of-Sale
 - Inventory
 - Product Information Management
 - CRM
-- Ecommerce
+- E-Commerce
 - Warehouse Management
-- Webhooks
+- Webhook
 - Company
 ---

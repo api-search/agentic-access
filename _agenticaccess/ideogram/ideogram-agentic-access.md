@@ -65,8 +65,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ideogr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/agentic-access/ideogram-agentic-access.yml
 summary_line: 23 operations · 19 acting
 tags:
-- AI
-- Image Generation
+- Artificial Intelligence
+- Image-Generation
 - Text
 - Realistic
 - Editing

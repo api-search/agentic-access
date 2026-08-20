@@ -158,7 +158,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/
 summary_line: 64 operations · 38 acting
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Content Generation
 - Marketing

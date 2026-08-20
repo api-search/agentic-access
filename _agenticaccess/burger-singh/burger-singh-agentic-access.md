@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/burger-singh/r
 summary_line: 15 operations
 tags:
 - Company
-- Restaurants
+- Restaurant
 - Quick Service Restaurant
 - Food and Beverage
 - Franchising

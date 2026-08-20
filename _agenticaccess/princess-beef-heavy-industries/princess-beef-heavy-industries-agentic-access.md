@@ -46,6 +46,6 @@ tags:
 - Editors
 - Governance
 - Platform
-- Products
+- Product
 - Rules
 ---

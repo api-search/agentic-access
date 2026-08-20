@@ -82,11 +82,11 @@ summary_line: 16 operations · 8 acting
 tags:
 - Vector Database
 - Vector Search
-- Multimodal
+- Multi-Modal
 - Semantic Search
 - Embeddings
-- AI
-- Machine Learning
-- Open Source
+- Artificial Intelligence
+- Machine-Learning
+- Open-Source
 - Ecommerce Search
 ---

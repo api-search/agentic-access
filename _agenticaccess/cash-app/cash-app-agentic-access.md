@@ -267,7 +267,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/cash-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/agentic-access/cash-app-agentic-access.yml
 summary_line: 100 operations · 59 acting · 3 human-in-the-loop
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - United States
 - Fintech

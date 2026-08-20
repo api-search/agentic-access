@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openfi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/agentic-access/bloomberg-lp-agentic-access.yml
 summary_line: 4 operations · 3 acting
 tags:
-- Financial Services
+- Financial-Services
 - Market Data
 - News
 - Reference Data

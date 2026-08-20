@@ -176,7 +176,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs
 summary_line: 62 operations · 28 acting
 tags:
 - Company
-- Nonprofits
+- Non-Profit
 - Donations
 - Charitable Giving
 - Fundraising

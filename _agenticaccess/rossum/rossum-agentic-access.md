@@ -65,11 +65,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rossum
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/agentic-access/rossum-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - IDP
 - Invoices
 - OCR
-- Workflow
+- Workflows
 - AP Automation
 ---

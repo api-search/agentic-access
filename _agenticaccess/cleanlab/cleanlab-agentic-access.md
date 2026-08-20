@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cleanl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cleanlab/refs/heads/main/agentic-access/cleanlab-agentic-access.yml
 summary_line: 3 operations · 3 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Trustworthiness
 - Data Quality

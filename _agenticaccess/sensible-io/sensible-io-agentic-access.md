@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sensib
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/agentic-access/sensible-io-agentic-access.yml
 summary_line: 32 operations · 20 acting
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - IDP
 - Extraction

@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/regal-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/agentic-access/regal-ai-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
-- AI
+- Artificial Intelligence
 - AI Agents
 - Voice AI
 - Contact Center

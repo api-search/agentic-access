@@ -80,10 +80,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads
 summary_line: 12 operations · 8 acting
 tags:
 - Food Service
-- Restaurants
+- Restaurant
 - Online Ordering
 - Delivery
-- Point of Sale
+- Point-of-Sale
 - Hospitality
 - Payments
 - Loyalty

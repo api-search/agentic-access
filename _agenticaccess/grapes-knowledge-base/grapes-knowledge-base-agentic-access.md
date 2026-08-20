@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/grapes
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/agentic-access/grapes-knowledge-base-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
-- Knowledge Management
+- Knowledge-Management
 - Knowledge Base
 - Data Management
 - Automation

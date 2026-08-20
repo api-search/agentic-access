@@ -81,9 +81,9 @@ summary_line: 15 operations · 6 acting
 tags:
 - Artificial Intelligence
 - Deep Learning
-- Glossaries
+- Glossary
 - Localization
-- Machine Learning
+- Machine-Learning
 - Machine Translation
 - Translation
 ---

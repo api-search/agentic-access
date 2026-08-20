@@ -83,6 +83,6 @@ tags:
 - Developer Experience
 - MCP
 - Platform
-- SDKs
+- SDK
 - Terraform
 ---

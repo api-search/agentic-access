@@ -315,12 +315,11 @@ summary_line: 107 operations · 60 acting · 3 human-in-the-loop
 tags:
 - AI Agents
 - Authentication
-- Integrations
+- Integration
 - MCP
-- OAuth
 - Sandbox
 - Tools
 - Triggers
-- Unified_API
-- Webhooks
+- Unified-API
+- Webhook
 ---

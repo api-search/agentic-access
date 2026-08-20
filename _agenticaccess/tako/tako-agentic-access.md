@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tako/refs/head
 summary_line: 13 operations · 6 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data
 - Search
 - Answer Engine

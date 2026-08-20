@@ -129,8 +129,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/
 summary_line: 44 operations · 22 acting · 1 human-in-the-loop
 tags:
 - RPA
-- Workflow Automation
+- Workflow-Automation
 - Python
-- Open Source
+- Open-Source
 - Automation
 ---

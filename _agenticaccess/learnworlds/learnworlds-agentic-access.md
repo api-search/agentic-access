@@ -82,7 +82,7 @@ summary_line: 18 operations · 8 acting
 tags:
 - Online Courses
 - LMS
-- eLearning
+- E-Learning
 - Education
 - Course Platform
 - Creator Economy

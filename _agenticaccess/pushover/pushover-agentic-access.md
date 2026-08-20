@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pushov
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/agentic-access/pushover-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
-- Notifications
+- Notification
 - Push Notifications
 - Messaging
 - Alerts

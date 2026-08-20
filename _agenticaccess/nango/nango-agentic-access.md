@@ -70,9 +70,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nango/refs/hea
 summary_line: 21 operations · 14 acting
 tags:
 - AI Agents
-- Integrations
-- OAuth
+- Integration
+- Authentication
 - Syncing
-- Unified API
-- Webhooks
+- Unified-API
+- Webhook
 ---

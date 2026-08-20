@@ -89,8 +89,8 @@ summary_line: 20 operations · 12 acting
 tags:
 - Email
 - Messaging
-- Notifications
-- Pub/Sub
+- Notification
+- Pub-Sub
 - Push Notifications
 - SMS
 ---

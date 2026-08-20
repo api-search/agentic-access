@@ -130,17 +130,17 @@ source_yaml: "generated: '2026-08-05'\nmethod: generated\nsource: openapi/riot-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/agentic-access/riot-agentic-access.yml
 summary_line: 40 operations · 9 acting
 tags:
-- cybersecurity
-- security-awareness
-- human-risk-management
-- phishing-simulation
+- Cybersecurity
+- Security Awareness
+- Human Risk Management
+- Phishing Simulation
 - employee-security
-- security-posture-management
+- Security Posture Management
 - breach-detection
-- email-security
-- saas-security
-- scim
-- webhooks
-- ocsf
-- france
+- Email Security
+- SaaS Security
+- SCIM
+- Webhook
+- OCSF
+- France
 ---

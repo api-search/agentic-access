@@ -54,9 +54,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/flux-i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/agentic-access/flux-agentic-access.yml
 summary_line: 9 operations · 7 acting
 tags:
-- AI
-- Image Generation
-- Machine Learning
-- Open Source
-- Text to Image
+- Artificial Intelligence
+- Image-Generation
+- Machine-Learning
+- Open-Source
+- Text-to-Image
 ---

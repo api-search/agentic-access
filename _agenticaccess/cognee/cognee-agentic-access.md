@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cognee
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/agentic-access/cognee-agentic-access.yml
 summary_line: 22 operations · 10 acting
 tags:
-- AI
+- Artificial Intelligence
 - Memory
 - Knowledge Graph
 - RAG
@@ -89,5 +89,5 @@ tags:
 - Graph Database
 - Vector Search
 - LLM
-- Open Source
+- Open-Source
 ---

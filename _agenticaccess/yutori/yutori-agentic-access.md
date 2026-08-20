@@ -74,7 +74,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yutori/refs/he
 summary_line: 29 operations · 17 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Web Automation
 - Browser Automation

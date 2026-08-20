@@ -203,9 +203,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/courie
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/agentic-access/courier-agentic-access.yml
 summary_line: 103 operations · 60 acting
 tags:
-- Notifications
+- Notification
 - Email
 - SMS
 - Push
-- API
 ---

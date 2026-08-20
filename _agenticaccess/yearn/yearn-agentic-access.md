@@ -59,7 +59,7 @@ summary_line: 9 operations
 tags:
 - DeFi
 - Yield Aggregator
-- Vaults
+- Vault
 - EVM
 - Web3
 - Blockchain

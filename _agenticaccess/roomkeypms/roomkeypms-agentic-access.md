@@ -63,6 +63,6 @@ tags:
 - Property Management System
 - PMS
 - Reservations
-- POS
+- Point-of-Sale
 - Gated API
 ---

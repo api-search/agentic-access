@@ -52,8 +52,8 @@ tags:
 - Agentic Workflows
 - Automation
 - Orchestration
-- Model Context Protocol
-- Integrations
+- MCP
+- Integration
 - Enterprise
 - No-Code
 ---

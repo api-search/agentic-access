@@ -101,7 +101,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anam/refs/head
 summary_line: 44 operations · 26 acting
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Avatars
 - Conversational AI
 - Video

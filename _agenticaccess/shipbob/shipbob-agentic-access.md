@@ -199,9 +199,9 @@ tags:
 - Logistics
 - Fulfillment
 - 3PL
-- Ecommerce
+- E-Commerce
 - Inventory
 - Warehousing
 - Shipping
-- Direct-to-Consumer
+- Direct to Consumer
 ---

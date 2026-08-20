@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/office
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/agentic-access/office-of-the-federal-register-agentic-access.yml
 summary_line: 13 operations
 tags:
-- Federal Government
+- Federal-Government
 - Regulations
 - Federal Register
 - Executive Orders

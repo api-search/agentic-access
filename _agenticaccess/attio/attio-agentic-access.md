@@ -143,7 +143,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attio/refs/hea
 summary_line: 45 operations · 23 acting
 tags:
 - CRM
-- Customer Relationship Management
 - Sales
 - Contacts
 - Companies

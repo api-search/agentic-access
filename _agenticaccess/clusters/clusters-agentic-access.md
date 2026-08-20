@@ -79,7 +79,7 @@ tags:
 - Naming
 - Blockchain
 - Web3
-- Wallet
-- Multichain
+- Wallets
+- Multi-Chain
 - Resolver
 ---

@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/prisma
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prisma-cloud/refs/heads/main/agentic-access/prisma-cloud-agentic-access.yml
 summary_line: 2 operations · 1 acting
 tags:
-- Cloud Native
+- Cloud-Native
 - Cloud Security
 - Compliance
 - Containers

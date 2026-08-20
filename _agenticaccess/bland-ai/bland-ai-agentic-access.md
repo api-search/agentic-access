@@ -54,9 +54,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bland-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bland-ai/refs/heads/main/agentic-access/bland-ai-agentic-access.yml
 summary_line: 4 operations · 2 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Agents
 - Phone
-- Realtime
+- Real-Time
 ---

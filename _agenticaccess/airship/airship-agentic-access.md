@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/airshi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/agentic-access/airship-agentic-access.yml
 summary_line: 29 operations · 16 acting
 tags:
-- Notifications
+- Notification
 - Push
 - Email
 - Mobile

@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/goodlo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/agentic-access/goodlord-agentic-access.yml
 summary_line: 65 operations · 36 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Management

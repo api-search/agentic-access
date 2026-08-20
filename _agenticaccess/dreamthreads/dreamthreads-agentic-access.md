@@ -42,10 +42,10 @@ summary_line: 4 operations · 3 acting
 tags:
 - dream analysis
 - dream interpretation
-- natural language processing
+- Natural Language Processing
 - structured parsing
-- AI agents
-- MCP server
+- AI Agents
+- MCP Server
 - OpenAPI
 - wellness / sleep
 - research tooling

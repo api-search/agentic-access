@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nuclia
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/agentic-access/nuclia-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
-- AI
+- Artificial Intelligence
 - RAG
 - Search
 - Knowledge Base

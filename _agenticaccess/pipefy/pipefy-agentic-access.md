@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pipefy
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/agentic-access/pipefy-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- Workflow Automation
+- Workflow-Automation
 - Business Process Management
 - No-Code
 - BPM

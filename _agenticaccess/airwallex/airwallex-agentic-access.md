@@ -124,7 +124,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airwallex/refs
 summary_line: 18 operations · 10 acting
 tags:
 - Cross-Border Payments
-- FinTech
+- Fintech
 - Foreign Exchange
 - Payments
 - Global

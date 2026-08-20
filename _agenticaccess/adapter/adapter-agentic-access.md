@@ -264,7 +264,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/h
 summary_line: 110 operations · 61 acting · 3 human-in-the-loop
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Cognition
 - Knowledge Graph
 - Memory

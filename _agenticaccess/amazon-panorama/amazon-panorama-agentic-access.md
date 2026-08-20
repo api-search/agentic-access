@@ -85,8 +85,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/agentic-access/amazon-panorama-agentic-access.yml
 summary_line: 34 operations · 15 acting
 tags:
-- Cameras
-- Computer Vision
+- Camera
+- Computer-Vision
 - Edge ML
 - Industrial IoT
 ---

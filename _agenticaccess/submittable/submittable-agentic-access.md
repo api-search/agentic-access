@@ -100,9 +100,9 @@ summary_line: 19 operations · 5 acting
 tags:
 - Submission Management
 - Grants Management
-- Applications
+- Application
 - Forms
-- Nonprofit
+- Non-Profit
 - Corporate Social Responsibility
-- Workflow
+- Workflows
 ---

@@ -50,11 +50,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/citize
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/agentic-access/citizens-financial-agentic-access.yml
 summary_line: 4 operations
 tags:
-- Accounts
+- Account
 - ATMs
 - Banking
 - Open Banking
 - Payments
-- Point of Sale
-- Transactions
+- Point-of-Sale
+- Transaction
 ---

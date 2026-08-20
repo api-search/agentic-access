@@ -221,5 +221,5 @@ tags:
 - Collaboration
 - Messaging
 - Team Chat
-- Webhooks
+- Webhook
 ---

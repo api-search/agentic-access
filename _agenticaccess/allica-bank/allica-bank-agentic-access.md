@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/allica
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/agentic-access/allica-bank-agentic-access.yml
 summary_line: 37 operations · 11 acting
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

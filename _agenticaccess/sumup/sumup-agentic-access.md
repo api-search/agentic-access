@@ -152,8 +152,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/hea
 summary_line: 39 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Payments
-- POS
-- Point of Sale
+- Point-of-Sale
 - Card Readers
 - Checkout
 - Fintech

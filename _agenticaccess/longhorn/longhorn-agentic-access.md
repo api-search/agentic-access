@@ -99,8 +99,8 @@ summary_line: 34 operations · 18 acting
 tags:
 - Backup
 - Block Storage
-- Cloud Native
+- Cloud-Native
 - Incubating
 - Kubernetes
-- Persistent Volumes
+- PersistentVolumes
 ---

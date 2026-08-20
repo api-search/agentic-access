@@ -205,15 +205,15 @@ summary_line: 418 operations · 224 acting · 4 human-in-the-loop
 tags:
 - Sales Funnels
 - Landing Pages
-- E-commerce
+- E-Commerce
 - Marketing
 - Checkout
 - CRM
 - Email Marketing
 - Online Courses
-- Webhooks
+- Webhook
 - Website Builder
-- Subscriptions
+- Subscription
 - Marketing Automation
 - Agent Skills
 ---

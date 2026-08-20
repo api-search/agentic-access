@@ -61,5 +61,5 @@ tags:
 - Quiz
 - Open Data
 - Public APIs
-- Open Source
+- Open-Source
 ---

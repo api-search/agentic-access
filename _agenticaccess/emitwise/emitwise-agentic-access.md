@@ -77,5 +77,5 @@ tags:
 - GHG Protocol
 - Climate
 - Procurement
-- AI
+- Artificial Intelligence
 ---

@@ -209,7 +209,7 @@ summary_line: 65 operations · 20 acting
 tags:
 - Billing
 - Revenue Automation
-- Subscriptions
+- Subscription
 - Invoicing
 - Payments
 - Revenue Recognition

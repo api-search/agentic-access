@@ -47,7 +47,7 @@ tags:
 - Free Email Provider
 - Role Address
 - Quality Score
-- apilayer
+- APILayer
 - Public APIs
 - Data Quality
 - Anti-Fraud

@@ -281,19 +281,19 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/airtm-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/agentic-access/airtm-agentic-access.yml
 summary_line: 69 operations · 28 acting · 1 human-in-the-loop
 tags:
-- payments
-- payouts
-- cross-border-payments
-- fintech
-- digital-wallet
-- stablecoin
-- usdc
-- stellar
-- mass-payouts
-- remittances
-- latin-america
-- emerging-markets
+- Payments
+- Payouts
+- Cross-Border Payments
+- Fintech
+- Digital Wallet
+- Stablecoins
+- USDC
+- Stellar
+- Mass Payouts
+- Remittances
+- Latin America
+- Emerging Markets
 - money-services-business
-- oauth2
-- openid-connect
+- Authentication
+- OpenID Connect
 ---

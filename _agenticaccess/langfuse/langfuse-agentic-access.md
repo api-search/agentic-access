@@ -252,9 +252,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/langfu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/agentic-access/langfuse-agentic-access.yml
 summary_line: 96 operations · 46 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Observability
-- Open Source
+- Open-Source
 - Evaluations
 ---

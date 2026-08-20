@@ -66,10 +66,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/
 summary_line: 6 operations · 2 acting
 tags:
 - Restaurant
-- Point Of Sale
+- Point-of-Sale
 - Online Ordering
 - Delivery
 - Menus
-- Orders
+- Order
 - Integration
 ---

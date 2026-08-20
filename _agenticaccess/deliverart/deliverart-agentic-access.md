@@ -295,10 +295,10 @@ summary_line: 130 operations · 93 acting · 3 human-in-the-loop
 tags:
 - Company
 - Food Delivery
-- Restaurants
+- Restaurant
 - Order Management
 - Logistics
 - Delivery
 - Menu Management
-- Point of Sale
+- Point-of-Sale
 ---

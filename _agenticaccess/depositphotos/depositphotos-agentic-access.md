@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depositphotos/
 summary_line: 1 operation · 1 acting
 tags:
 - Stock Photos
-- Images
+- Image
 - Videos
 - Vectors
 - Media

@@ -251,16 +251,16 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/magicb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/agentic-access/magicbell-agentic-access.yml
 summary_line: 126 operations · 80 acting
 tags:
-- notifications
-- push notifications
-- in-app notifications
-- email
+- Notification
+- Push Notifications
+- In-App Notifications
+- Email
 - SMS
 - Slack
 - Microsoft Teams
-- webhooks
+- Webhook
 - notification inbox
-- multichannel
-- mobile push
-- web push
+- Multi-Channel
+- Mobile Push
+- Web Push
 ---

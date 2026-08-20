@@ -81,9 +81,9 @@ summary_line: 18 operations · 3 acting
 tags:
 - Ansible
 - Automation
-- Collections
+- Collection
 - Configuration Management
 - DevOps
-- Infrastructure As Code
+- Infrastructure as Code
 - Roles
 ---

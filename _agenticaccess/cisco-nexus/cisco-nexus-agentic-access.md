@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cisco-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/agentic-access/cisco-nexus-agentic-access.yml
 summary_line: 18 operations · 9 acting · 2 human-in-the-loop
 tags:
-- Data Center
+- Data-Center
 - Infrastructure
 - Network Automation
 - Networking

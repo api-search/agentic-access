@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zuva-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/agentic-access/zuva-agentic-access.yml
 summary_line: 22 operations · 9 acting
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - Contract Analysis
 - Field Extraction

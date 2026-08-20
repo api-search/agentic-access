@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/offerp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/agentic-access/offerpad-agentic-access.yml
 summary_line: 227 operations · 103 acting
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - iBuyer
 - PropTech

@@ -49,7 +49,7 @@ summary_line: 6 operations · 5 acting
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Luxury
 - Marketplace
 - Product Catalog

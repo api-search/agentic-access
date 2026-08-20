@@ -52,14 +52,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vespa-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/agentic-access/vespa-ai-agentic-access.yml
 summary_line: 2 operations · 1 acting
 tags:
-- AI
+- Artificial Intelligence
 - Search
 - Vector Database
 - Big Data
-- Machine Learning
+- Machine-Learning
 - Semantic Search
 - Retrieval Augmented Generation
-- Open Source
+- Open-Source
 - Tensor
 - Recommendations
 ---

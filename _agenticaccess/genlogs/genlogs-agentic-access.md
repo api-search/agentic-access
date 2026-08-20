@@ -112,6 +112,6 @@ tags:
 - Transportation
 - Insurance
 - Fraud Detection
-- Webhooks
+- Webhook
 - Geospatial
 ---

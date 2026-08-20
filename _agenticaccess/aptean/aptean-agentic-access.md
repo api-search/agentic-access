@@ -73,6 +73,6 @@ tags:
 - Supply Chain
 - Integration
 - Event-Driven
-- Webhooks
+- Webhook
 - Enterprise Software
 ---

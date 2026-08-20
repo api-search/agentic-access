@@ -142,7 +142,7 @@ summary_line: 43 operations · 29 acting
 tags:
 - Billing
 - Enterprise
-- Order to Cash
+- Order-to-Cash
 - Revenue Management
 - SAP
 - Subscription Management

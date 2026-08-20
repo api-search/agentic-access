@@ -356,7 +356,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/method-financi
 summary_line: 128 operations · 55 acting
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Lending
 - Payments

@@ -79,7 +79,7 @@ summary_line: 23 operations · 15 acting
 tags:
 - Chat
 - Messaging
-- Communication
+- Communications
 - SDK
-- Webhooks
+- Webhook
 ---

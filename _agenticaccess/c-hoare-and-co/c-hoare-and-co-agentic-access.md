@@ -149,7 +149,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/c-hoar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/agentic-access/c-hoare-and-co-agentic-access.yml
 summary_line: 66 operations · 20 acting
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Private Bank
 - Open Banking

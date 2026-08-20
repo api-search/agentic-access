@@ -54,14 +54,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taalas/refs/he
 summary_line: 6 operations · 3 acting
 tags:
 - Company
-- artificial-intelligence
-- ai-inference
-- semiconductors
-- ai-accelerator
-- large-language-models
-- llama
-- inference-api
-- openai-compatible
-- hardware
-- deep-tech
+- Artificial Intelligence
+- AI Inference
+- Semiconductors
+- AI Accelerator
+- Large Language Models
+- Llama
+- Inference API
+- OpenAI-Compatible
+- Hardware
+- Deep Tech
 ---

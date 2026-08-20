@@ -96,18 +96,18 @@ source_yaml: "generated: '2026-08-01'\nmethod: generated\nsource: openapi/happyr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/agentic-access/happyrobot-agentic-access.yml
 summary_line: 215 operations · 104 acting
 tags:
-- ai-agents
-- agent-orchestration
-- voice-ai
-- conversational-ai
-- logistics
-- freight
-- supply-chain
-- workflow-automation
-- contact-center
-- telephony
-- mcp
+- AI Agents
+- Agent Orchestration
+- Voice AI
+- Conversational AI
+- Logistics
+- Freight
+- Supply Chain
+- Workflow-Automation
+- Contact Center
+- Telephony
+- MCP
 - agent-native
-- agent-governance
-- enterprise-automation
+- Agent Governance
+- Enterprise Automation
 ---

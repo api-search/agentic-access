@@ -106,5 +106,5 @@ tags:
 - Automation
 - SOAR
 - Orchestration
-- Open Source
+- Open-Source
 ---

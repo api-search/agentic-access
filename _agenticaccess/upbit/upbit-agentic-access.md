@@ -155,7 +155,7 @@ tags:
 - Cryptocurrency
 - Exchange
 - Market Data
-- Orders
+- Order
 - Trading
 - WebSocket
 ---

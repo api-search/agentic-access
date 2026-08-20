@@ -97,6 +97,6 @@ summary_line: 28 operations · 9 acting
 tags:
 - Ruby
 - Package Manager
-- Open Source
+- Open-Source
 - Developer Tools
 ---

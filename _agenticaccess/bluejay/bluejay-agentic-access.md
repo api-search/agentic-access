@@ -447,7 +447,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/h
 summary_line: 174 operations · 128 acting · 1 human-in-the-loop
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Agents
 - Voice AI
 - Conversational AI

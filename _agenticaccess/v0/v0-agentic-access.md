@@ -245,7 +245,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/v0-pla
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/agentic-access/v0-agentic-access.yml
 summary_line: 119 operations · 58 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - App Builder
 - Vercel
 - Code Generation

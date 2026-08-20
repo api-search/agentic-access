@@ -90,7 +90,7 @@ tags:
 - Line Protocol
 - Metrics
 - Observability
-- Open Source
+- Open-Source
 - StatsD
 - TCP
 - UDP

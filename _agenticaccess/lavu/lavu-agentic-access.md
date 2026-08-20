@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lavu/refs/head
 summary_line: 2 operations · 2 acting
 tags:
 - Restaurant
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Inventory
 - Menu Management

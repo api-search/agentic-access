@@ -65,6 +65,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/partnerstack/r
 summary_line: 6 operations · 1 acting
 tags:
 - Partnerships
-- Affiliate
-- SaaS
+- Affiliates
+- Software-as-a-Service
 ---

@@ -64,13 +64,13 @@ summary_line: 15 operations · 11 acting
 tags:
 - Backend
 - Database
-- Events
+- Event
 - Hooks
 - JavaScript
 - NoSQL
 - Queues
 - Serverless
-- Webhooks
+- Webhook
 - Workers
 - Workflows
 ---

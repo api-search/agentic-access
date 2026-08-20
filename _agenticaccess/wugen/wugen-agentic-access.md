@@ -88,7 +88,7 @@ tags:
 - Life Sciences
 - Pharmaceuticals
 - Clinical Trials
-- CAR-T
+- Cart
 - CRISPR
 - Immunotherapy
 - Research

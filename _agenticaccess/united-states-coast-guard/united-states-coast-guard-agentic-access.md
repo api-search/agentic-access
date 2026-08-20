@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cgmix-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/agentic-access/united-states-coast-guard-agentic-access.yml
 summary_line: 8 operations
 tags:
-- Federal Government
+- Federal-Government
 - Maritime Safety
 - Vessel Documentation
 - Emergency Response

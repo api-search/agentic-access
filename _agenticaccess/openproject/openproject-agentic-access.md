@@ -467,7 +467,7 @@ summary_line: 275 operations · 115 acting
 tags:
 - Agile
 - Gantt
-- Open Source
+- Open-Source
 - Project Management
 - Time Tracking
 - Work Packages

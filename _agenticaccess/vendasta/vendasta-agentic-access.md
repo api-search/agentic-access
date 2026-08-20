@@ -376,7 +376,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/
 summary_line: 347 operations · 203 acting · 2 human-in-the-loop
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Marketplace
 - SMB
 - White Label

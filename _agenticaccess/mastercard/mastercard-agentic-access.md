@@ -1197,7 +1197,7 @@ summary_line: 106 operations · 76 acting · 1 human-in-the-loop
 tags:
 - Credit Cards
 - Digital Identity
-- Financial Services
+- Financial-Services
 - Fraud Detection
 - Open Banking
 - Payments

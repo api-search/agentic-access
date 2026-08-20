@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uniona
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/agentic-access/unionai-agentic-access.yml
 summary_line: 29 operations · 11 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - ML
 - Orchestration
 - Workflows

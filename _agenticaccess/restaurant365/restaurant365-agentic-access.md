@@ -106,7 +106,6 @@ tags:
 - Restaurant
 - Accounting
 - Inventory
-- Operations
 - Invoices
 - Reporting
 - OData

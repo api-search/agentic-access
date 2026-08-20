@@ -101,8 +101,8 @@ summary_line: 40 operations · 22 acting · 1 human-in-the-loop
 tags:
 - Voice
 - Voice AI
-- Speech to Text
-- Text to Speech
+- Speech-to-Text
+- Text-to-Speech
 - LLM
 - Telephony
 - API Gateway

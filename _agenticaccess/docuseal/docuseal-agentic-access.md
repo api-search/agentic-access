@@ -59,12 +59,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/
 summary_line: 22 operations · 15 acting
 tags:
 - Document Signing
-- eSignature
+- E-Signature
 - Electronic Signature
-- Document Management
+- Document-Management
 - PDF
 - Templates
-- Open Source
-- Webhooks
+- Open-Source
+- Webhook
 - Embedding
 ---

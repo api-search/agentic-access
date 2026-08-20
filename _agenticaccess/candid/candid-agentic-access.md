@@ -49,7 +49,7 @@ summary_line: 7 operations · 4 acting
 tags:
 - Charities
 - Donations
-- Non-Profits
+- Non-Profit
 - Philanthropy
 - Foundations
 - Grants

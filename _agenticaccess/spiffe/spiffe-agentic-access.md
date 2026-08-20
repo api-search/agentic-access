@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/he
 summary_line: 1 operation
 tags:
 - Authentication
-- Cloud Native
+- Cloud-Native
 - Graduated
 - Identity
 - Security

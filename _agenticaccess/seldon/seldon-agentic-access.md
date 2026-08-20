@@ -371,7 +371,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/he
 summary_line: 147 operations · 81 acting · 1 human-in-the-loop
 tags:
 - MLOps
-- Machine Learning
+- Machine-Learning
 - Model Serving
 - Inference
 - Kubernetes

@@ -48,7 +48,7 @@ summary_line: 5 operations · 1 acting
 tags:
 - Company
 - Customer Experience
-- Customer Support
+- Customer-Support
 - Conversation Intelligence
 - Generative AI
 - Insights

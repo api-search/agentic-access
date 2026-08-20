@@ -87,7 +87,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twenty-crm/ref
 summary_line: 36 operations · 22 acting
 tags:
 - CRM
-- Open Source
+- Open-Source
 - Sales
 - GraphQL
 - REST

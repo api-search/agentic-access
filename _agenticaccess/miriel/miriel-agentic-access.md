@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/he
 summary_line: 21 operations · 21 acting
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Context Engine
 - Retrieval
 - RAG

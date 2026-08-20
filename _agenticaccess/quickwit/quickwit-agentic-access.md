@@ -96,8 +96,8 @@ tags:
 - Log Management
 - Observability
 - Full-Text Search
-- Cloud Native
-- Open Source
+- Cloud-Native
+- Open-Source
 - Distributed Tracing
 - Analytics
 ---

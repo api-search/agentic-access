@@ -163,9 +163,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-ein
 summary_line: 70 operations · 35 acting
 tags:
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - CRM
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
 - Predictive Analytics
 - Salesforce

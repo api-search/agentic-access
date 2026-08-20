@@ -122,7 +122,7 @@ tags:
 - Cross-Platform
 - iOS
 - Mobile Testing
-- Open Source
+- Open-Source
 - OpenJS Foundation
 - Test Automation
 - WebDriver

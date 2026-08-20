@@ -169,7 +169,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/langfl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/agentic-access/langflow-agentic-access.yml
 summary_line: 95 operations · 53 acting · 2 human-in-the-loop
 tags:
-- AI
 - Artificial Intelligence
 - Agents
 - Workflows
@@ -178,6 +177,6 @@ tags:
 - LangChain
 - RAG
 - MCP
-- Open Source
+- Open-Source
 - FastAPI
 ---

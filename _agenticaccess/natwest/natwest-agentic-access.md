@@ -262,7 +262,7 @@ summary_line: 74 operations · 20 acting
 tags:
 - Banking
 - Open Banking
-- Financial Services
+- Financial-Services
 - Payments
 - PSD2
 - FAPI

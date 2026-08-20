@@ -101,6 +101,6 @@ tags:
 - Health Data
 - Fitness
 - Aggregator
-- Webhooks
+- Webhook
 - Digital Health
 ---

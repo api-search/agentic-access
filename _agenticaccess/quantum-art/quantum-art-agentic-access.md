@@ -213,7 +213,7 @@ tags:
 - Quantum as a Service
 - Qiskit
 - Developer Tools
-- Machine Learning
+- Machine-Learning
 - Optimization
 - Finance
 - Chemistry

@@ -409,14 +409,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/re
 summary_line: 201 operations · 109 acting
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Cross-Border Payments
 - Blockchain
 - Cryptocurrency
-- Stablecoin
+- Stablecoins
 - Digital Assets
 - Custody
-- Wallet
+- Wallets
 - Fintech
 ---

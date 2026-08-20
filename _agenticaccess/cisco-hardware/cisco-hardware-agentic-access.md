@@ -82,6 +82,6 @@ tags:
 - Hardware
 - Infrastructure
 - Networking
-- Routers
+- Router
 - Switches
 ---

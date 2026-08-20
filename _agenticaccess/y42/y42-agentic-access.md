@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads
 summary_line: 11 operations · 5 acting
 tags:
 - DataOps
-- Data Pipelines
+- Data Pipeline
 - Orchestration
 - dbt
 - Snowflake

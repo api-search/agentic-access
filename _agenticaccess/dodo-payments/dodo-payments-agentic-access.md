@@ -142,7 +142,7 @@ summary_line: 49 operations · 25 acting
 tags:
 - Payments
 - Merchant of Record
-- Subscriptions
+- Subscription
 - Billing
 - Global Commerce
 ---

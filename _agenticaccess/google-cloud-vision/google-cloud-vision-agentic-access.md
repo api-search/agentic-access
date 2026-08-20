@@ -53,9 +53,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vision/refs/heads/main/agentic-access/google-cloud-vision-agentic-access.yml
 summary_line: 4 operations · 3 acting
 tags:
-- Computer Vision
+- Computer-Vision
 - Google Cloud
 - Image Analysis
-- Machine Learning
+- Machine-Learning
 - OCR
 ---

@@ -50,14 +50,14 @@ summary_line: 2 operations · 2 acting
 tags:
 - Company
 - Payments
-- Financial Services
+- Financial-Services
 - Fintech
 - Checkout
-- Point of Sale
+- Point-of-Sale
 - Acquiring
 - Pix
 - Brazil
 - Banking
-- Webhooks
+- Webhook
 - Tap to Pay
 ---

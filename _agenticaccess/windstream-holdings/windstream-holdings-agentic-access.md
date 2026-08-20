@@ -124,7 +124,7 @@ summary_line: 38 operations · 16 acting · 4 human-in-the-loop
 tags:
 - Broadband
 - Contact Center
-- Managed Services
+- Managed Service
 - Network Communications
 - SD-WAN
 - Telecom

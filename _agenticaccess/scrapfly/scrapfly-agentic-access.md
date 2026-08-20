@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/scrapf
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/agentic-access/scrapfly-agentic-access.yml
 summary_line: 3 operations · 1 acting
 tags:
-- AI
+- Artificial Intelligence
 - Data Extraction
 - Screenshots
 - Web Scraping

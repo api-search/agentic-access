@@ -210,5 +210,5 @@ tags:
 - Personalization
 - Artificial Intelligence
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 ---

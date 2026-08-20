@@ -334,7 +334,7 @@ tags:
 - Payments
 - Canada
 - Embedded Finance
-- Payments as a Service
+- Payments-as-a-Service
 - Account-to-Account
 - EFT
 - Interac e-Transfer

@@ -83,6 +83,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-reserv
 summary_line: 13 operations
 tags:
 - Economics
-- Federal Government
+- Federal-Government
 - Finance
 ---

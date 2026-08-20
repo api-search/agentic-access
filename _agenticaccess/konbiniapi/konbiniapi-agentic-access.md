@@ -80,8 +80,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/konbin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/agentic-access/konbiniapi-agentic-access.yml
 summary_line: 67 operations · 3 acting
 tags:
-- API
-- Social Media
+- Social-Media
 - Instagram
 - TikTok
 - X
@@ -95,7 +94,6 @@ tags:
 - Social Listening
 - Creator Tools
 - MCP
-- Model Context Protocol
 - Agent Skills
 - Agents
 ---

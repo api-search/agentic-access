@@ -582,7 +582,7 @@ summary_line: 200 operations · 85 acting · 2 human-in-the-loop
 tags:
 - Auctions
 - Commerce
-- Products
+- Product
 - Marketplace
 - Fortune 500
 ---

@@ -87,7 +87,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azur
 summary_line: 20 operations · 6 acting
 tags:
 - Automation
-- Build
+- Builds
 - CI/CD
 - Deployment
 - DevOps

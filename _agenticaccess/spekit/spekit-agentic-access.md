@@ -39,16 +39,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/he
 summary_line: 5 operations
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Sales Enablement
 - Revenue Enablement
 - Digital Adoption
-- Knowledge Management
+- Knowledge-Management
 - MCP
 - Artificial Intelligence
 - Analytics
 - Sales
 - Content Management
 - Agents
-- OAuth
+- Authentication
 ---

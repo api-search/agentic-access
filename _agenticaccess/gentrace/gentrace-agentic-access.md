@@ -63,11 +63,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/
 summary_line: 16 operations · 8 acting
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - LLM
 - Evaluation
 - Testing
 - Observability
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 ---

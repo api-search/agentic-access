@@ -68,7 +68,7 @@ summary_line: 11 operations · 4 acting
 tags:
 - API Description
 - Data Integration
-- Open Source
+- Open-Source
 - Query Language
 - Schema
 - Semantic

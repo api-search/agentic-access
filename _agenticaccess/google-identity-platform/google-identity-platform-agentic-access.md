@@ -49,7 +49,6 @@ tags:
 - Google Cloud
 - Identity
 - Multi-Tenancy
-- OAuth
 - OpenID Connect
 - SAML
 ---

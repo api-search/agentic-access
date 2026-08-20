@@ -150,12 +150,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verta/refs/hea
 summary_line: 264 operations · 179 acting
 tags:
 - MLOps
-- Machine Learning
+- Machine-Learning
 - Model Management
 - Experiment Tracking
 - Model Registry
 - Model Versioning
 - Metadata
-- Open Source
+- Open-Source
 - Company
 ---

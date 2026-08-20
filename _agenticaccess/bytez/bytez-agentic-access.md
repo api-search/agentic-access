@@ -42,10 +42,9 @@ summary_line: 3 operations · 1 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Model Inference
 - LLM
 - Open Source AI
-- API
 - Developers
 ---

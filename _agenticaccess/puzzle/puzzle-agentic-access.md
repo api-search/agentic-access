@@ -207,6 +207,6 @@ tags:
 - Fintech
 - General Ledger
 - Payroll
-- Agent-Native
+- agent-native
 - MCP
 ---

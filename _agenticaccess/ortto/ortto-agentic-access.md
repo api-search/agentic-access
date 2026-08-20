@@ -89,7 +89,7 @@ tags:
 - Email
 - SMS
 - Transactional Email
-- Webhooks
+- Webhook
 - MCP
 - Push Notifications
 ---

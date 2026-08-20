@@ -133,7 +133,7 @@ summary_line: 37 operations · 20 acting
 tags:
 - Coffee
 - E-Commerce
-- Developer
+- Developers
 - SSH
 - Ordering
 ---

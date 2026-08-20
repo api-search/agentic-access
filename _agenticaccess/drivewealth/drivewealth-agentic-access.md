@@ -299,8 +299,8 @@ tags:
 - Options
 - Fixed Income
 - Mutual Funds
-- Portfolio Management
+- Portfolio-Management
 - Account Opening
 - KYC
-- Financial Services
+- Financial-Services
 ---

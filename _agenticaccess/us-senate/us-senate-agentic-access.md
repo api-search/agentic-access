@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/us-sen
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/agentic-access/us-senate-agentic-access.yml
 summary_line: 14 operations
 tags:
-- Federal Government
+- Federal-Government
 - Lobbying
 - Government Transparency
 - Campaign Finance

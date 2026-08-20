@@ -219,9 +219,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/podman
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/agentic-access/podman-agentic-access.yml
 summary_line: 193 operations · 115 acting · 8 human-in-the-loop
 tags:
-- Cloud Native
+- Cloud-Native
 - Containers
 - DevOps
 - OCI
-- Open Source
+- Open-Source
 ---

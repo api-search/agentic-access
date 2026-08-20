@@ -47,8 +47,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/speech
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speechify/refs/heads/main/agentic-access/speechify-agentic-access.yml
 summary_line: 5 operations · 4 acting
 tags:
-- AI
-- Text to Speech
+- Artificial Intelligence
+- Text-to-Speech
 - Voice
 - Speech Synthesis
 - Voice Cloning

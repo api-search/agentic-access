@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/exa-ag
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/agentic-access/exa-ai-agentic-access.yml
 summary_line: 66 operations · 36 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Search
 - Web Search
 - Neural Search

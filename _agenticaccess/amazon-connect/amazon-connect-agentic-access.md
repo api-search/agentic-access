@@ -131,6 +131,6 @@ tags:
 - Contact Center
 - Customer Service
 - Voice
-- AI
+- Artificial Intelligence
 - Omnichannel
 ---

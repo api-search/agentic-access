@@ -279,5 +279,5 @@ tags:
 - FinOps
 - Metering
 - Pricing
-- SaaS
+- Software-as-a-Service
 ---

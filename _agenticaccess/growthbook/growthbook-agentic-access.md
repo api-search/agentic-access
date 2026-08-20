@@ -310,7 +310,7 @@ summary_line: 222 operations · 144 acting · 2 human-in-the-loop
 tags:
 - Feature Flags
 - Experimentation
-- Open Source
-- AB Testing
+- Open-Source
+- A/B Testing
 - Analytics
 ---

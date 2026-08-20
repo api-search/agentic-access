@@ -193,7 +193,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glean/refs/hea
 summary_line: 61 operations · 57 acting
 tags:
 - Agents
-- AI
+- Artificial Intelligence
 - Answers
 - Chat
 - Connectors

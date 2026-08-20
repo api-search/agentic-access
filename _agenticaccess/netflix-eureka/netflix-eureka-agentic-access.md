@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eureka
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/agentic-access/netflix-eureka-agentic-access.yml
 summary_line: 13 operations · 6 acting · 2 human-in-the-loop
 tags:
-- Cloud Native
+- Cloud-Native
 - Failover
 - Java
 - Load Balancing

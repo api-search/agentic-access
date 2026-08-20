@@ -259,7 +259,7 @@ tags:
 - Team Collaboration
 - Chat
 - Bots
-- Webhooks
+- Webhook
 - Slash Commands
-- Communication
+- Communications
 ---

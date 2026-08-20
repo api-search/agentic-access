@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ssa-fi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/agentic-access/social-security-administration-agentic-access.yml
 summary_line: 2 operations
 tags:
-- Federal Government
+- Federal-Government
 - Social Security
 - Government API
 - Open Data

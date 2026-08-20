@@ -237,7 +237,7 @@ tags:
 - Guest Engagement
 - Catering
 - Menus
-- Orders
+- Order
 - Loyalty
 - Enterprise
 ---

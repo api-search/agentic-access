@@ -50,7 +50,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mysql/refs/hea
 summary_line: 4 operations · 2 acting · 1 human-in-the-loop
 tags:
 - Database
-- Open Source
+- Open-Source
 - RDBMS
 - Relational Database
 - SQL

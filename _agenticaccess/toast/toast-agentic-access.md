@@ -189,7 +189,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toast/refs/hea
 summary_line: 46 operations · 26 acting · 1 human-in-the-loop
 tags:
 - Food Service
-- Point of Sale
-- Restaurants
+- Point-of-Sale
+- Restaurant
 - Hospitality
 ---

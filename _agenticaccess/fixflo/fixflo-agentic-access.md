@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/fixflo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/agentic-access/fixflo-agentic-access.yml
 summary_line: 165 operations · 75 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Management
 - PropTech

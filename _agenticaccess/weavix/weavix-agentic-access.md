@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/weavix
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/agentic-access/weavix-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
-- Communication
+- Communications
 - Frontline Workers
 - Workforce Management
 - Messaging

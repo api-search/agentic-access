@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/va-app
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/agentic-access/department-of-veterans-affairs-agentic-access.yml
 summary_line: 21 operations · 5 acting
 tags:
-- Federal Government
+- Federal-Government
 - Healthcare
 - Veterans
 ---

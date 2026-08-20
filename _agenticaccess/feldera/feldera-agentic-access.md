@@ -115,5 +115,5 @@ tags:
 - Real-Time Analytics
 - Change Data Capture
 - Materialized Views
-- Data Pipelines
+- Data Pipeline
 ---

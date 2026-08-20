@@ -61,8 +61,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/agentic-access/amazon-lookout-for-vision-agentic-access.yml
 summary_line: 22 operations · 13 acting · 1 human-in-the-loop
 tags:
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Manufacturing
 - Quality Inspection
 - Anomaly Detection

@@ -63,13 +63,11 @@ summary_line: 15 operations · 5 acting
 tags:
 - Agent Infrastructure
 - Agents
-- AI
 - Artificial Intelligence
 - Function Calling
 - MCP
-- Model Context Protocol
-- OAuth
-- Open Source
+- Authentication
+- Open-Source
 - Tool Calling
 - VibeOps
 ---

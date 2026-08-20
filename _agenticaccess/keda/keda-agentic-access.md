@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/keda-m
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/agentic-access/keda-agentic-access.yml
 summary_line: 1 operation
 tags:
-- Autoscaling
+- Auto-Scaling
 - CNCF
 - Event-Driven
 - Graduated

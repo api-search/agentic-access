@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/he
 summary_line: 10 operations · 1 acting
 tags:
 - Critical Infrastructure
-- Data Center
+- Data-Center
 - DCIM
 - Infrastructure Monitoring
 - Power Management

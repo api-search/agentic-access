@@ -100,13 +100,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nanone
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/agentic-access/nanonets-agentic-access.yml
 summary_line: 20 operations · 16 acting
 tags:
-- AI
 - Artificial Intelligence
 - OCR
 - Document AI
 - Intelligent Document Processing
 - Data Extraction
-- Workflow Automation
-- Computer Vision
+- Workflow-Automation
+- Computer-Vision
 - No-Code
 ---

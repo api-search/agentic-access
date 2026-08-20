@@ -94,7 +94,7 @@ summary_line: 34 operations · 18 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Database
 - Analytics
 - Data

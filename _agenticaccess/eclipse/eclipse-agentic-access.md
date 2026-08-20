@@ -83,6 +83,6 @@ summary_line: 8 operations
 tags:
 - Eclipse Foundation
 - Foundation
-- Open Source
+- Open-Source
 - Standards
 ---

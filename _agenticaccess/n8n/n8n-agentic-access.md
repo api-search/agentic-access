@@ -172,5 +172,5 @@ summary_line: 73 operations · 50 acting · 3 human-in-the-loop
 tags:
 - Agents
 - Artificial Intelligence
-- Integrations
+- Integration
 ---

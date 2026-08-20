@@ -74,7 +74,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-guacamo
 summary_line: 14 operations · 7 acting
 tags:
 - Apache
-- Open Source
+- Open-Source
 - RDP
 - Remote Access
 - Remote Desktop

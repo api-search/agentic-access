@@ -53,6 +53,6 @@ tags:
 - Developer Tools
 - OpenAPI
 - CLI
-- Open Source
+- Open-Source
 - Developer Experience
 ---

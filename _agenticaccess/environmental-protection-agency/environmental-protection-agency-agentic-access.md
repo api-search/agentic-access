@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/environmental-
 summary_line: 6 operations
 tags:
 - Environment
-- Federal Government
+- Federal-Government
 - Air Quality
 - Open Data
 ---

@@ -82,8 +82,8 @@ summary_line: 19 operations · 1 acting
 tags:
 - Aquaculture
 - Fish Farming
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Biomass Estimation
 - Sea Lice
 - Fish Welfare

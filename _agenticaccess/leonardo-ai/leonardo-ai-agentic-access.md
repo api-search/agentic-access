@@ -134,9 +134,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/leonar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/agentic-access/leonardo-ai-agentic-access.yml
 summary_line: 53 operations · 32 acting
 tags:
-- AI
 - Artificial Intelligence
-- Image Generation
+- Image-Generation
 - Video Generation
 - Generative AI
 - Creative

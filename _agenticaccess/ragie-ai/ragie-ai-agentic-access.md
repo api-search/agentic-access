@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ragie-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/agentic-access/ragie-ai-agentic-access.yml
 summary_line: 38 operations · 22 acting
 tags:
-- AI
+- Artificial Intelligence
 - RAG
 - Retrieval
 - Vector Search

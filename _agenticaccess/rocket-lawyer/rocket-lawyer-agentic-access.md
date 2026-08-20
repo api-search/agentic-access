@@ -100,12 +100,12 @@ summary_line: 51 operations · 34 acting
 tags:
 - Legal
 - Legal Technology
-- LegalTech
+- Legal Tech
 - Legal Documents
 - Electronic Signature
-- eSignature
+- E-Signature
 - Document Creation
-- Document Management
+- Document-Management
 - Business Formation
 - LLC Formation
 - Registered Agent

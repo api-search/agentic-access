@@ -290,5 +290,5 @@ tags:
 - Authority
 - Decision Governance
 - Audit
-- Open Source
+- Open-Source
 ---

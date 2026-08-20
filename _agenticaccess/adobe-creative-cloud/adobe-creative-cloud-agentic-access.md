@@ -114,12 +114,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/adobe-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/agentic-access/adobe-creative-cloud-agentic-access.yml
 summary_line: 29 operations · 20 acting
 tags:
-- AI/ML
+- Ai Ml
 - Cloud
 - Creative
 - Design
 - Documents
 - Photography
-- SaaS
+- Software-as-a-Service
 - Video
 ---

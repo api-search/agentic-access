@@ -66,5 +66,5 @@ tags:
 - Europe
 - Power
 - Pricing
-- Forecasts
+- Forecast
 ---

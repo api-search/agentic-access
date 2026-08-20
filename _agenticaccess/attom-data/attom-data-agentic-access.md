@@ -113,7 +113,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attom-data/ref
 summary_line: 37 operations
 tags:
 - Property Data
-- Real Estate
+- Real-Estate
 - Location Data
 - Valuation
 - AVM

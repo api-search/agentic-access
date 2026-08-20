@@ -80,7 +80,7 @@ tags:
 - Electric Scooters
 - E-Scooters
 - E-Bikes
-- Bikeshare
+- Bike Share
 - Transportation
 - Urban Mobility
 - GBFS

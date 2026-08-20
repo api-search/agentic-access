@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/notte-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/agentic-access/notte-agentic-access.yml
 summary_line: 33 operations · 18 acting · 2 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Web Agents
 - Browser Automation
 - Sessions

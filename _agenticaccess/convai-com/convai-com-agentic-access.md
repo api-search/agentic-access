@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/convai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/agentic-access/convai-com-agentic-access.yml
 summary_line: 34 operations · 31 acting
 tags:
-- AI
+- Artificial Intelligence
 - Conversational AI
 - Characters
 - NPCs

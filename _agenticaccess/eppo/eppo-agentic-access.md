@@ -69,7 +69,7 @@ summary_line: 13 operations · 7 acting
 tags:
 - Experimentation
 - Feature Flags
-- AB Testing
+- A/B Testing
 - Analytics
 - Statistics
 ---

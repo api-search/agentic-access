@@ -68,7 +68,7 @@ summary_line: 12 operations · 4 acting
 tags:
 - Event Management
 - Ticketing
-- Events
+- Event
 - Registration
 - Virtual Events
 - Sessions

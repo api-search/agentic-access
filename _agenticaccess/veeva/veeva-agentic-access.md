@@ -75,14 +75,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veeva/refs/hea
 summary_line: 15 operations · 8 acting
 tags:
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Clinical Trials
 - Regulatory
 - Quality Management
-- Document Management
+- Document-Management
 - Content Management
 - Healthcare
-- SaaS
+- Software-as-a-Service
 - Enterprise
 - MCP
 - Agents

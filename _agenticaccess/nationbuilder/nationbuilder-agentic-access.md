@@ -362,11 +362,11 @@ tags:
 - Community Organizing
 - CRM
 - Political
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Advocacy
 - Website Builder
-- Events
+- Event
 - Email
 - JSON:API
 ---

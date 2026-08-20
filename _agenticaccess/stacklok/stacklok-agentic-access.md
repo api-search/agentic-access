@@ -178,5 +178,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/
 summary_line: 84 operations · 39 acting · 8 human-in-the-loop
 tags:
 - Company
-- Open Source
+- Open-Source
 ---

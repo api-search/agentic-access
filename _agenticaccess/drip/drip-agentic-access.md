@@ -113,7 +113,7 @@ summary_line: 22 operations · 11 acting
 tags:
 - Email Marketing
 - Marketing Automation
-- Ecommerce
+- E-Commerce
 - Customer Engagement
 - Campaigns
 - Workflows

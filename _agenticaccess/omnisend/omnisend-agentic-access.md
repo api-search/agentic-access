@@ -158,7 +158,7 @@ summary_line: 60 operations · 38 acting
 tags:
 - Email Marketing
 - Marketing Automation
-- Ecommerce
+- E-Commerce
 - SMS Marketing
 - Customer Engagement
 - Segmentation

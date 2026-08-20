@@ -277,7 +277,7 @@ summary_line: 133 operations · 67 acting
 tags:
 - Configuration
 - Data Lake
-- Data Pipelines
+- Data Pipeline
 - Data Routing
 - Edge Computing
 - Infrastructure as Code

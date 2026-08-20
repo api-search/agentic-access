@@ -80,7 +80,7 @@ summary_line: 16 operations · 7 acting
 tags:
 - Apps Script
 - Automation
-- Deployments
+- Deployment
 - Google
 - Google Workspace
 - Scripting

@@ -103,7 +103,7 @@ tags:
 - Procurement
 - Print
 - Direct Mail
-- Workflow
+- Workflows
 - Sourcing
 - Print Procurement
 - Project Management

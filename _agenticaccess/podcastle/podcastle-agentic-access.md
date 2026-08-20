@@ -45,9 +45,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/podcas
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/agentic-access/podcastle-agentic-access.yml
 summary_line: 5 operations · 5 acting
 tags:
-- AI
+- Artificial Intelligence
 - Audio
-- Text to Speech
+- Text-to-Speech
 - Voice Cloning
 - Podcasting
 ---

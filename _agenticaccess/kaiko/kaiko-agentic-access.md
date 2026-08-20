@@ -62,6 +62,6 @@ tags:
 - Institutional
 - FX
 - Indices
-- On-Chain
+- Onchain
 - Streaming
 ---

@@ -130,5 +130,5 @@ tags:
 - Digital Assets
 - Derivatives
 - DeFi
-- On-Chain
+- Onchain
 ---

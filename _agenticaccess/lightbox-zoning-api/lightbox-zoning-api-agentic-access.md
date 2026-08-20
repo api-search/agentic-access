@@ -41,7 +41,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightbox-zonin
 summary_line: 3 operations · 1 acting
 tags:
 - Zoning
-- Real Estate
+- Real-Estate
 - CRE
 - Property
 - Parcels

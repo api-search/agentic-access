@@ -201,8 +201,7 @@ summary_line: 44 operations · 44 acting · 1 human-in-the-loop
 tags:
 - Dry Cleaning
 - Laundry
-- Point of Sale
-- POS
+- Point-of-Sale
 - Field Service
 - Pickup and Delivery
 - SMB Software

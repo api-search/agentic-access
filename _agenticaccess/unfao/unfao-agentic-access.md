@@ -70,12 +70,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/faosta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/agentic-access/unfao-agentic-access.yml
 summary_line: 11 operations
 tags:
-- agriculture
+- Agriculture
 - food security
-- statistics
-- trade
-- land use
-- environment
+- Statistics
+- Trade
+- Land Use
+- Environment
 - UN
-- open data
+- Open Data
 ---

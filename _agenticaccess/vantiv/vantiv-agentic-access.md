@@ -117,8 +117,8 @@ summary_line: 16 operations · 13 acting
 tags:
 - Payments
 - Payment Processing
-- eCommerce
+- E-Commerce
 - Finance
-- FinTech
+- Fintech
 - Fortune 1000
 ---

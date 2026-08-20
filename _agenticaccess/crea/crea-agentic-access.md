@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/crea-r
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/agentic-access/crea-agentic-access.yml
 summary_line: 38 operations · 2 acting
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

@@ -157,7 +157,7 @@ tags:
 - AI Agents
 - Messaging
 - Communications
-- Webhooks
+- Webhook
 - MCP
 - iMessage
 ---

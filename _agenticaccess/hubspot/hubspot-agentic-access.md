@@ -496,6 +496,5 @@ tags:
 - Email Marketing
 - Marketing
 - Marketing Automation
-- Operations
 - Sales
 ---

@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/notifi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/agentic-access/notificationapi-agentic-access.yml
 summary_line: 12 operations · 11 acting
 tags:
-- Notifications
+- Notification
 - Messaging
 - Email
 - SMS

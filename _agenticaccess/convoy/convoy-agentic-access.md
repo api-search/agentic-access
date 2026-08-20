@@ -145,7 +145,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/convoy
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/agentic-access/convoy-agentic-access.yml
 summary_line: 60 operations · 40 acting · 1 human-in-the-loop
 tags:
-- Webhooks
+- Webhook
 - Webhook Gateway
 - Event Delivery
 - Eventing

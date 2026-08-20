@@ -120,7 +120,7 @@ summary_line: 24 operations · 17 acting
 tags:
 - Access Control
 - Authorization
-- Cloud Native
+- Cloud-Native
 - Fine-Grained
 - Incubating
 - Zanzibar

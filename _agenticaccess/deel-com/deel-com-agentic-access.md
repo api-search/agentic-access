@@ -322,6 +322,6 @@ tags:
 - Compliance
 - Immigration
 - Background Checks
-- Webhooks
+- Webhook
 - IT
 ---

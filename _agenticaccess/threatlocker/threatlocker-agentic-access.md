@@ -180,16 +180,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/threat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/agentic-access/threatlocker-agentic-access.yml
 summary_line: 83 operations · 46 acting · 1 human-in-the-loop
 tags:
-- cybersecurity
-- zero-trust
-- endpoint-security
-- application-control
+- Cybersecurity
+- Zero Trust
+- Endpoint Security
+- Application-Control
 - allowlisting
-- ransomware-prevention
-- privileged-access-management
-- network-access-control
-- managed-detection-and-response
-- device-management
-- msp
-- compliance
+- Ransomware Prevention
+- Privileged Access Management
+- Network Access Control
+- Managed Detection and Response
+- Device Management
+- MSP
+- Compliance
 ---

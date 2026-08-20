@@ -89,7 +89,7 @@ summary_line: 8 operations · 5 acting
 tags:
 - Banking
 - Core Banking
-- Financial Services
+- Financial-Services
 - Payments
 - Fintech
 ---

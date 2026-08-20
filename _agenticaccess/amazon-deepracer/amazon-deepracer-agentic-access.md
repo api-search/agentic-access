@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-deeprac
 summary_line: 10 operations · 2 acting
 tags:
 - Autonomous Vehicles
-- Machine Learning
+- Machine-Learning
 - Reinforcement Learning
 - Robotics
 ---

@@ -715,11 +715,11 @@ summary_line: 570 operations · 343 acting · 6 human-in-the-loop
 tags:
 - E-Commerce
 - Headless Commerce
-- Products
-- Orders
+- Product
+- Order
 - Inventory
 - Payments
 - Promotions
-- Open Source
+- Open-Source
 - Ruby on Rails
 ---

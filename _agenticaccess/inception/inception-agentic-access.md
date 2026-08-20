@@ -65,6 +65,6 @@ tags:
 - Artificial Intelligence
 - Diffusion Models
 - Code Completion
-- Machine Learning
+- Machine-Learning
 - Developer Tools
 ---

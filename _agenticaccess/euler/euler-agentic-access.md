@@ -208,7 +208,7 @@ tags:
 - Finance
 - Ethereum
 - Blockchain
-- Vaults
+- Vault
 - Liquidation
 - Interest Rates
 - Permissionless

@@ -91,6 +91,6 @@ tags:
 - Advertising
 - Privacy
 - Browser
-- AI
+- Artificial Intelligence
 - LLM
 ---

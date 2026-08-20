@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/canva-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/agentic-access/canva-agentic-access.yml
 summary_line: 22 operations · 9 acting
 tags:
-- Apps
+- Application
 - Automation
 - Brand Management
 - Collaboration

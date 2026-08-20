@@ -65,7 +65,7 @@ summary_line: 18 operations · 11 acting
 tags:
 - Availability
 - Calendar
-- Events
+- Event
 - Google
 - Google Workspace
 - Scheduling

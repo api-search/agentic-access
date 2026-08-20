@@ -43,6 +43,6 @@ summary_line: 8 operations · 4 acting
 tags:
 - Equipment Monitoring
 - Industrial IoT
-- Machine Learning
+- Machine-Learning
 - Predictive Maintenance
 ---

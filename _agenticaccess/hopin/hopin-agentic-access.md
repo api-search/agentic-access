@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/agentic-access/hopin-agentic-access.yml
 summary_line: 31 operations · 9 acting
 tags:
-- Events
+- Event
 - Virtual Events
 - Hybrid Events
 - Webinars

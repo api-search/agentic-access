@@ -287,6 +287,6 @@ tags:
 - Metering
 - Usage-Based Pricing
 - Revenue Management
-- SaaS
+- Software-as-a-Service
 - Fintech
 ---

@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cherre
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/agentic-access/cherre-agentic-access.yml
 summary_line: 2 operations · 2 acting
 tags:
-- Real Estate
+- Real-Estate
 - Property Intelligence
 - Data Integration
 - Knowledge Graph

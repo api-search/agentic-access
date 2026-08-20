@@ -94,11 +94,11 @@ summary_line: 17 operations · 6 acting
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Video
-- Real Time
+- Real-Time
 - Streaming
-- Machine Learning
+- Machine-Learning
 - Vision Language Models
 - Inference
 - Developer Tools

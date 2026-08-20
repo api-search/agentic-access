@@ -181,7 +181,7 @@ tags:
 - Tracing
 - LLMOps
 - AI Monitoring
-- Open Source
+- Open-Source
 - Prompt Engineering
 - Datasets
 - Experiments

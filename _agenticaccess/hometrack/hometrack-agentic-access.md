@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/hometr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/agentic-access/hometrack-agentic-access.yml
 summary_line: 59 operations · 18 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Valuation

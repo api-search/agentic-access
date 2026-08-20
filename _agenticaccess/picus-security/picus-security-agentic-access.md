@@ -141,14 +141,14 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/picus-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/agentic-access/picus-security-agentic-access.yml
 summary_line: 84 operations · 25 acting
 tags:
-- cybersecurity
-- security-validation
-- breach-and-attack-simulation
-- adversarial-exposure-validation
-- continuous-threat-exposure-management
-- penetration-testing
-- threat-intelligence
+- Cybersecurity
+- Security Validation
+- Breach and Attack Simulation
+- Adversarial Exposure Validation
+- Continuous Threat Exposure Management
+- Penetration Testing
+- Threat Intelligence
 - mitre-attack
-- detection-engineering
-- security-operations
+- Detection Engineering
+- Security Operations
 ---

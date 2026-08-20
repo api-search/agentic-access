@@ -201,7 +201,7 @@ tags:
 - Web3
 - Gaming
 - NFT
-- Wallet
+- Wallets
 - Cryptocurrency
 - Smart Contracts
 - Marketplace

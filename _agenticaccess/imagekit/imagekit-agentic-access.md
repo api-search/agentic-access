@@ -120,12 +120,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/imagek
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/agentic-access/imagekit-agentic-access.yml
 summary_line: 48 operations · 32 acting
 tags:
-- Images
+- Image
 - Video
 - CDN
 - Media
 - Optimization
-- Transformations
+- Transformation
 - Digital Asset Management
 - DAM
 - Storage

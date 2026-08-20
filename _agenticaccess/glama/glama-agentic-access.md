@@ -66,7 +66,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glama/refs/hea
 summary_line: 6 operations · 3 acting
 tags:
 - MCP
-- Model Context Protocol
 - MCP Marketplace
 - MCP Gateway
 - MCP Hosting
@@ -74,7 +73,7 @@ tags:
 - AI Gateway
 - LLM Gateway
 - Connectors
-- OAuth
+- Authentication
 - Observability
 - Multi-Provider
 ---

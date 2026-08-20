@@ -140,10 +140,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/helpsc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/agentic-access/helpscout-agentic-access.yml
 summary_line: 17 operations · 7 acting
 tags:
-- Customer Support
+- Customer-Support
 - Help Desk
 - Email
 - Live Chat
 - Knowledge Base
-- SaaS
+- Software-as-a-Service
 ---

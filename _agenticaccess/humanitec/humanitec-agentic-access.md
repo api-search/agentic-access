@@ -377,7 +377,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/humani
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/agentic-access/humanitec-agentic-access.yml
 summary_line: 221 operations · 119 acting · 1 human-in-the-loop
 tags:
-- Deployments
+- Deployment
 - DevOps
 - Internal Developer Platform
 - Platform Engineering

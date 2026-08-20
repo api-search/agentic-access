@@ -39,7 +39,7 @@ summary_line: 1 operation · 1 acting
 tags:
 - API Composition
 - Serverless Orchestration
-- Workflow
+- Workflows
 - State Machine
 - Automation
 ---

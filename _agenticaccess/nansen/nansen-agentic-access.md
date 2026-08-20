@@ -40,9 +40,9 @@ summary_line: 6 operations
 tags:
 - Web3
 - Crypto
-- On-Chain
+- Onchain
 - Wallet Labels
 - Smart Money
 - Analytics
-- Multi-chain
+- Multi-Chain
 ---

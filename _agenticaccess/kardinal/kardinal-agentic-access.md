@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/
 summary_line: 40 operations · 26 acting · 4 human-in-the-loop
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Route Optimization
 - Vehicle Routing
 - Last Mile Delivery

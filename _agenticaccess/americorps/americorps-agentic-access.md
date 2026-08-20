@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/americ
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/agentic-access/americorps-agentic-access.yml
 summary_line: 4 operations
 tags:
-- Federal Government
+- Federal-Government
 - National Service
 - Volunteerism
 - Community Development

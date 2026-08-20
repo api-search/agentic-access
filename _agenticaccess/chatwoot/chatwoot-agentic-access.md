@@ -259,12 +259,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chatwo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/agentic-access/chatwoot-agentic-access.yml
 summary_line: 144 operations · 82 acting
 tags:
-- Customer Support
+- Customer-Support
 - Messaging
 - Live Chat
-- Omni-channel
+- Omnichannel
 - Conversations
 - Contacts
 - Agents
-- Open Source
+- Open-Source
 ---

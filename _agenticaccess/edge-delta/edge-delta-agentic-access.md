@@ -178,5 +178,5 @@ tags:
 - Monitoring
 - DevOps
 - SRE
-- AI
+- Artificial Intelligence
 ---

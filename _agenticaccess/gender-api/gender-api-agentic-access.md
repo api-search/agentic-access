@@ -50,10 +50,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gender
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/agentic-access/gender-api-agentic-access.yml
 summary_line: 3 operations
 tags:
-- AI
+- Artificial Intelligence
 - Demographics
 - Gender
 - Identity
-- Names
+- Name
 - Personal Data
 ---

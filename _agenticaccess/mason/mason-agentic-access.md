@@ -88,13 +88,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mason/refs/hea
 summary_line: 16 operations · 11 acting
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Commerce
-- AI
+- Artificial Intelligence
 - Agents
 - Content Generation
 - Discounts
 - Promotions
-- Webhooks
+- Webhook
 - Shopify
 ---

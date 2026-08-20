@@ -60,13 +60,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kaito-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/agentic-access/kaito-agentic-access.yml
 summary_line: 9 operations · 8 acting
 tags:
-- AI
+- Artificial Intelligence
 - GPU
 - Inference
 - Kubernetes
 - LLM
-- Machine Learning
-- Open Source
+- Machine-Learning
+- Open-Source
 - Operator
 - RAG
 ---

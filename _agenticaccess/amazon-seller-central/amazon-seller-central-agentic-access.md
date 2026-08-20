@@ -117,13 +117,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/agentic-access/amazon-seller-central-agentic-access.yml
 summary_line: 21 operations · 9 acting
 tags:
-- eCommerce
+- E-Commerce
 - Marketplace
 - Selling Partner
 - Amazon
 - Seller Central
 - Catalog
-- Orders
+- Order
 - Inventory
 - Fulfillment
 ---

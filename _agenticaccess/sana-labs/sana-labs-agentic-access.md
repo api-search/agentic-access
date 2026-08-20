@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sana-l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/agentic-access/sana-labs-agentic-access.yml
 summary_line: 56 operations · 36 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Knowledge
 - Learning
 - LMS

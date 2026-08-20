@@ -58,5 +58,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foreign-agricu
 summary_line: 35 operations
 tags:
 - Agriculture
-- Federal Government
+- Federal-Government
 ---

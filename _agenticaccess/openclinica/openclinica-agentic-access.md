@@ -80,5 +80,5 @@ tags:
 - Clinical Data Management
 - CDISC ODM
 - Healthcare
-- Open Source
+- Open-Source
 ---

@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/agentic-access/gov-uk-notify-agentic-access.yml
 summary_line: 11 operations · 4 acting
 tags:
-- Notifications
+- Notification
 - Email
 - SMS
 - Text Messages

@@ -53,7 +53,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs
 summary_line: 3 operations · 2 acting
 tags:
 - HCM
-- Human Capital Management
 - Payroll
 - Workforce Management
 - Time and Attendance

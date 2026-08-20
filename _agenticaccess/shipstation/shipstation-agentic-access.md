@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shipst
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/agentic-access/shipstation-agentic-access.yml
 summary_line: 36 operations · 19 acting
 tags:
-- Ecommerce
+- E-Commerce
 - Labels
 - Logistics
 - Order Management

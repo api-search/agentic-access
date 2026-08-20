@@ -128,7 +128,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/ref
 summary_line: 39 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Search
 - Answer Engine Optimization
 - Generative Engine Optimization

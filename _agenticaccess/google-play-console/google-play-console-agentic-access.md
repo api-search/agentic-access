@@ -40,7 +40,7 @@ summary_line: 4 operations
 tags:
 - Analytics
 - Android
-- Apps
+- Application
 - Google Play Console
 - Quality
 - Reporting

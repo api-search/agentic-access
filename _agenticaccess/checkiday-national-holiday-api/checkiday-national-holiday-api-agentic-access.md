@@ -40,7 +40,7 @@ summary_line: 3 operations
 tags:
 - Calendar
 - Holidays
-- Events
+- Event
 - Observances
 - Dates
 - Time

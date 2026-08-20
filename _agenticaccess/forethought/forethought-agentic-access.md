@@ -52,9 +52,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/foreth
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/agentic-access/forethought-agentic-access.yml
 summary_line: 4 operations · 3 acting
 tags:
-- AI
 - Artificial Intelligence
-- Customer Support
+- Customer-Support
 - Customer Service
 - Generative AI
 - SupportGPT
@@ -62,6 +61,6 @@ tags:
 - Ticket Triage
 - Agentic AI
 - Voice AI
-- Helpdesk
+- Help Desk
 - Multi-Agent
 ---

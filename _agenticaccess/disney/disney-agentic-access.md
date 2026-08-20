@@ -47,7 +47,7 @@ tags:
 - Entertainment
 - Characters
 - Disney
-- Open Source
+- Open-Source
 - Fan API
 - REST
 - GraphQL

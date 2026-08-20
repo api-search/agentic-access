@@ -57,8 +57,8 @@ tags:
 - Commercial Insurance
 - Underwriting
 - Policy Administration
-- Quote
-- Broker
+- Quotes
+- Brokers
 - Reinsurance
 - Carrier
 - Partner API

@@ -59,10 +59,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/h
 summary_line: 20 operations · 12 acting
 tags:
 - Batch Processing
-- Cloud Native
+- Cloud-Native
 - HPC
 - Incubating
 - Kubernetes
 - Scheduling
-- Machine Learning
+- Machine-Learning
 ---

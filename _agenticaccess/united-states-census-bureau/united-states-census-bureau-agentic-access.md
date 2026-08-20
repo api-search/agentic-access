@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-
 summary_line: 10 operations
 tags:
 - Demographics
-- Federal Government
+- Federal-Government
 - Open Data
 - Statistics
 - Economics

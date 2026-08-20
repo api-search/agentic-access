@@ -62,7 +62,7 @@ summary_line: 11 operations · 7 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Life Sciences
 - Spatial Biology
 - Bioinformatics

@@ -188,7 +188,7 @@ tags:
 - Document Processing
 - Artificial Intelligence
 - Automation
-- Orders
+- Order
 - Invoices
 - ERP
 - B2B

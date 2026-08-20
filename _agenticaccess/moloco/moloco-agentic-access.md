@@ -148,16 +148,16 @@ source_yaml: "generated: '2026-07-31'\nmethod: generated\nsource: openapi/moloco
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/agentic-access/moloco-agentic-access.yml
 summary_line: 203 operations · 131 acting · 2 human-in-the-loop
 tags:
-- advertising
-- adtech
-- demand-side-platform
-- retail-media
-- commerce-media
-- programmatic-advertising
-- campaign-management
-- ad-serving
-- machine-learning
-- mobile-marketing
-- reporting
+- Advertising
+- AdTech
+- Demand-Side Platform
+- Retail Media
+- Commerce Media
+- Programmatic Advertising
+- Campaign Management
+- Ad Serving
+- Machine-Learning
+- Mobile Marketing
+- Reporting
 - user-events
 ---

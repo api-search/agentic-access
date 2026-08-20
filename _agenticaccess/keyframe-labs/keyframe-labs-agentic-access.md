@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/
 summary_line: 8 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Avatars
 - Video
 - Conversational AI

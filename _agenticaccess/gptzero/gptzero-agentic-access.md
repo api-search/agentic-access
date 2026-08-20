@@ -54,10 +54,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/h
 summary_line: 7 operations · 3 acting
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - AI Detection
 - Content Moderation
-- Machine Learning
+- Machine-Learning
 - Text Analysis
 - Natural Language Processing
 - Education

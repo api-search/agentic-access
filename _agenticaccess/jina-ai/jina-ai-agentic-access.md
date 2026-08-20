@@ -60,9 +60,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jina-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/agentic-access/jina-ai-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
-- AI
+- Artificial Intelligence
 - Embeddings
-- Machine Learning
+- Machine-Learning
 - Reranking
 - Search
 ---

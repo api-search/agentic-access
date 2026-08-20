@@ -63,6 +63,6 @@ tags:
 - Telehealth
 - Health and Wellness
 - REST API
-- OAuth2
-- Webhooks
+- Authentication
+- Webhook
 ---

@@ -82,11 +82,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/agno-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/agentic-access/agno-agi-agentic-access.yml
 summary_line: 26 operations · 11 acting
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Multi-Agent
 - LLM
 - Framework
-- Open Source
+- Open-Source
 - Runtime
 ---

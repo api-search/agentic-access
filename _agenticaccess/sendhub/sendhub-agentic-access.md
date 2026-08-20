@@ -89,6 +89,6 @@ tags:
 - Text Messaging
 - Communications
 - Marketing
-- Webhooks
+- Webhook
 - VoIP
 ---

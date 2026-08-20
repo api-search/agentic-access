@@ -85,6 +85,6 @@ summary_line: 10 operations · 2 acting
 tags:
 - Artificial Intelligence
 - Deep Learning
-- Machine Learning
+- Machine-Learning
 - MLOps
 ---

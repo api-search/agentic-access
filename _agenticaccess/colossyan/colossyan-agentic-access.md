@@ -66,9 +66,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/coloss
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/agentic-access/colossyan-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Avatars
-- Text to Video
+- Text-to-Video
 - Learning and Development
 ---

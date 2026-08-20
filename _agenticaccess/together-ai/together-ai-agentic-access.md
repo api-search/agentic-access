@@ -295,7 +295,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/togeth
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/agentic-access/together-ai-agentic-access.yml
 summary_line: 116 operations · 57 acting · 2 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Inference
 - Foundation Models

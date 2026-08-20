@@ -68,6 +68,5 @@ tags:
 - Authorization
 - IAM
 - Identities
-- OAuth
 - OpenID Connect
 ---

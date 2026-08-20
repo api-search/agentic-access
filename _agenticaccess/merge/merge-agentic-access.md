@@ -849,9 +849,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/merge-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/agentic-access/merge-agentic-access.yml
 summary_line: 621 operations · 197 acting · 5 human-in-the-loop
 tags:
-- Integrations
+- Integration
 - Platform
-- Unified API
+- Unified-API
 - Agent Handler
 - LLM Gateway
 ---

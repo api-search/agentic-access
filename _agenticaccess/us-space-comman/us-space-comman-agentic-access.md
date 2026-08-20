@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/us-spa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/agentic-access/us-space-comman-agentic-access.yml
 summary_line: 8 operations · 1 acting
 tags:
-- Federal Government
+- Federal-Government
 - Space
 - Space Situational Awareness
 - Satellite Tracking

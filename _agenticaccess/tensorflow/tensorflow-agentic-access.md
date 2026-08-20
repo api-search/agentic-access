@@ -48,12 +48,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tensor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/agentic-access/tensorflow-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
-- AI
+- Artificial Intelligence
 - Deep Learning
 - JavaScript
-- Machine Learning
+- Machine-Learning
 - Model Serving
 - Neural Networks
-- Open Source
+- Open-Source
 - Python
 ---

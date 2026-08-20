@@ -131,5 +131,5 @@ tags:
 - Attention Economy
 - Fintech
 - WebSocket
-- Real Time
+- Real-Time
 ---

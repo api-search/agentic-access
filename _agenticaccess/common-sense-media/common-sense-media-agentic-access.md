@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/common
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/agentic-access/common-sense-media-agentic-access.yml
 summary_line: 4 operations
 tags:
-- Apps
+- Application
 - Books
 - Media
 - Movies

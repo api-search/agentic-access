@@ -157,7 +157,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mixedb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/agentic-access/mixedbread-ai-agentic-access.yml
 summary_line: 93 operations · 60 acting · 1 human-in-the-loop
 tags:
-- AI
 - Artificial Intelligence
 - Embeddings
 - Reranking
@@ -165,7 +164,7 @@ tags:
 - Retrieval
 - RAG
 - Vector Database
-- Multimodal
+- Multi-Modal
 - Parsing
 - Open Weights
 ---

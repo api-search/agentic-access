@@ -605,7 +605,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amigo/refs/hea
 summary_line: 586 operations · 273 acting · 8 human-in-the-loop
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - AI Agents
 - Voice

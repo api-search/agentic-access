@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/administrative
 summary_line: 4 operations · 4 acting
 tags:
 - Courts
-- Federal Government
+- Federal-Government
 - Legal
 - PACER
 - Case Records

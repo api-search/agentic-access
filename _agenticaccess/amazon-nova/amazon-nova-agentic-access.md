@@ -49,9 +49,9 @@ summary_line: 6 operations · 5 acting
 tags:
 - Foundation Models
 - Generative AI
-- Image Generation
-- Machine Learning
-- Multimodal
+- Image-Generation
+- Machine-Learning
+- Multi-Modal
 - Speech
 - Video Generation
 ---

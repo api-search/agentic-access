@@ -201,6 +201,6 @@ tags:
 - Risk
 - Currency Conversion
 - iGaming
-- eCommerce
-- FinTech
+- E-Commerce
+- Fintech
 ---

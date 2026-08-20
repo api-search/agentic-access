@@ -52,7 +52,7 @@ summary_line: 5 operations
 tags:
 - Content
 - Hotels
-- Images
+- Image
 - Media
 - Travel
 ---

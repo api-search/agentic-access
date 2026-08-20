@@ -351,12 +351,12 @@ summary_line: 352 operations · 126 acting
 tags:
 - Company
 - Commerce
-- eCommerce
+- E-Commerce
 - Marketplace
 - Dropship
 - Retail
 - Catalog
-- Orders
+- Order
 - Retail Media
 - B2B
 ---

@@ -93,7 +93,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adapty/refs/he
 summary_line: 12 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Mobile
-- Subscriptions
+- Subscription
 - In-App Purchases
 - Paywalls
 - Analytics

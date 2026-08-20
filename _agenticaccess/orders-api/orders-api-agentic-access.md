@@ -62,5 +62,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orders-api/ref
 summary_line: 6 operations · 4 acting
 tags:
 - Application Programming Interface
-- Orders
+- Order
 ---

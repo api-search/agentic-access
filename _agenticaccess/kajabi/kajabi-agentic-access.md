@@ -254,6 +254,6 @@ tags:
 - E-Commerce
 - Digital Products
 - Contacts
-- Webhooks
+- Webhook
 - Payments
 ---

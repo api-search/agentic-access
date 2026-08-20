@@ -229,7 +229,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radius/refs/he
 summary_line: 137 operations · 79 acting
 tags:
 - Application Platform
-- Cloud Native
+- Cloud-Native
 - Infrastructure
-- Multi Cloud
+- Multi-Cloud
 ---

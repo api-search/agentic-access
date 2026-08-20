@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/zoopla
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/agentic-access/zoopla-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Property Portal

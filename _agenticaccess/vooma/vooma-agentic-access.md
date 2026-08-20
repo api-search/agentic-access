@@ -135,7 +135,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/hea
 summary_line: 35 operations · 29 acting · 1 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Freight
 - Logistics
 - Transportation

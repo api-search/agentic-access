@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-plan
 summary_line: 22 operations · 11 acting
 tags:
 - Collaboration
-- Microsoft 365
+- Microsoft-365
 - Productivity
 - Project Management
 - Task Management

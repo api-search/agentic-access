@@ -86,6 +86,6 @@ tags:
 - Workflow Orchestration
 - gRPC
 - Workflows
-- Open Source
+- Open-Source
 - Temporal Cloud
 ---

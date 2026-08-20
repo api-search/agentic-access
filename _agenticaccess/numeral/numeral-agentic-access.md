@@ -88,6 +88,6 @@ tags:
 - Sales Tax
 - Tax Compliance
 - Tax Calculation
-- Ecommerce
-- SaaS
+- E-Commerce
+- Software-as-a-Service
 ---

@@ -131,7 +131,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spoton/refs/he
 summary_line: 26 operations · 2 acting
 tags:
 - Restaurant
-- Point of Sale
+- Point-of-Sale
 - Payments
 - Online Ordering
 - Reservations

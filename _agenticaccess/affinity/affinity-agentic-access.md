@@ -110,7 +110,7 @@ tags:
 - Private Equity
 - Venture Capital
 - Contacts
-- Organizations
+- Organization
 - Opportunities
 - Deal Management
 ---

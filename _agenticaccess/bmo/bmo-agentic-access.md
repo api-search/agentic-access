@@ -204,7 +204,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/bmo-ac
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/agentic-access/bmo-agentic-access.yml
 summary_line: 30 operations · 24 acting
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Open Finance

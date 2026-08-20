@@ -157,5 +157,5 @@ tags:
 - Billing
 - Invoicing
 - Payments
-- Subscriptions
+- Subscription
 ---

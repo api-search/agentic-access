@@ -362,7 +362,7 @@ summary_line: 190 operations · 116 acting
 tags:
 - IoT
 - Electronics
-- Open Source
+- Open-Source
 - Devices
 - Dashboards
 - Time Series

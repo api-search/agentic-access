@@ -238,7 +238,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/natural-ai/ref
 summary_line: 76 operations · 43 acting · 6 human-in-the-loop
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Payments
 - Agents
 - Fintech

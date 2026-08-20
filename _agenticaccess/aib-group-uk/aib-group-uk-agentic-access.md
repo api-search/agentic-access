@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/aib-gr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/agentic-access/aib-group-uk-agentic-access.yml
 summary_line: 12 operations
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

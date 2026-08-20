@@ -52,7 +52,7 @@ summary_line: 5 operations
 tags:
 - Kubernetes
 - Service Mesh
-- Open Source
+- Open-Source
 - SMI
 - Traffic Management
 - Dormant

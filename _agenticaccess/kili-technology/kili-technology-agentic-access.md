@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kili-t
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kili-technology/refs/heads/main/agentic-access/kili-technology-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- AI
+- Artificial Intelligence
 - Data Labeling
 - Training Data
 - Annotation

@@ -476,6 +476,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apidec
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/agentic-access/apideck-agentic-access.yml
 summary_line: 251 operations · 143 acting
 tags:
-- Integrations
-- Unified API
+- Integration
+- Unified-API
 ---

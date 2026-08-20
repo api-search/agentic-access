@@ -299,8 +299,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unit-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/agentic-access/unit-co-agentic-access.yml
 summary_line: 138 operations · 73 acting · 8 human-in-the-loop
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

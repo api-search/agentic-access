@@ -305,6 +305,6 @@ tags:
 - Email
 - SMS
 - Customer Data
-- Ecommerce
+- E-Commerce
 - Automation
 ---

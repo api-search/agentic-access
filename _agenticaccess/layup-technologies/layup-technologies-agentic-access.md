@@ -379,6 +379,6 @@ tags:
 - Fintech
 - South Africa
 - DebiCheck
-- E-commerce
+- E-Commerce
 - Merchants
 ---

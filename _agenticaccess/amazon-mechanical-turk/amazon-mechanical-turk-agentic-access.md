@@ -300,6 +300,6 @@ tags:
 - Crowdsourcing
 - Human Intelligence
 - Labor
-- Machine Learning
-- Tasks
+- Machine-Learning
+- Task
 ---

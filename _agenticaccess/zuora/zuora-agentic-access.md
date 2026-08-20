@@ -674,5 +674,5 @@ tags:
 - Billing
 - Finance
 - Payments
-- Subscriptions
+- Subscription
 ---

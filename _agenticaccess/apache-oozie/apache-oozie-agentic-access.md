@@ -61,12 +61,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/agentic-access/apache-oozie-agentic-access.yml
 summary_line: 16 operations · 6 acting
 tags:
-- Workflow
+- Workflows
 - Hadoop
 - Orchestration
 - Scheduling
 - Big Data
 - Apache
 - Java
-- Open Source
+- Open-Source
 ---

@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/f5-ope
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/agentic-access/f5-agentic-access.yml
 summary_line: 21 operations · 12 acting
 tags:
-- Applications
+- Application
 - Security
 - Load Balancing
 - API Gateway

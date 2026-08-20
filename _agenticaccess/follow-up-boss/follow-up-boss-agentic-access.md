@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/follow
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/agentic-access/follow-up-boss-agentic-access.yml
 summary_line: 37 operations · 20 acting
 tags:
-- Real Estate
+- Real-Estate
 - CRM
 - Lead Management
 - Sales Automation

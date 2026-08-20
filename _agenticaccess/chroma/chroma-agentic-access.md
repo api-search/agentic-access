@@ -93,17 +93,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chroma
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/agentic-access/chroma-agentic-access.yml
 summary_line: 44 operations · 26 acting · 1 human-in-the-loop
 tags:
-- AI
-- AI Native
+- Artificial Intelligence
+- AI-Native
 - Apache 2.0
 - Cloud
 - Embeddings
 - Hybrid Search
 - JavaScript
 - LLM
-- Machine Learning
+- Machine-Learning
 - Multi-Modal
-- Open Source
+- Open-Source
 - Python
 - RAG
 - Retrieval

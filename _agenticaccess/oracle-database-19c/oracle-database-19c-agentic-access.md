@@ -63,10 +63,10 @@ summary_line: 12 operations · 7 acting
 tags:
 - Database
 - Enterprise
-- Json
+- JSON
 - Machine-Learning
-- Nosql
+- NoSQL
 - Oracle
-- Rest
-- Sql
+- REST
+- SQL
 ---

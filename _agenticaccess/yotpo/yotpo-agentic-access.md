@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/yotpo-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/agentic-access/yotpo-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
-- eCommerce
+- E-Commerce
 - Reviews
 - Loyalty
 - Retention Marketing

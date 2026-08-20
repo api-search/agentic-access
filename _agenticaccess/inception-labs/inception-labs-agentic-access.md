@@ -60,13 +60,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inception-labs
 summary_line: 7 operations · 3 acting
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Large Language Models
 - Diffusion Models
 - Generative AI
 - Code Completion
 - LLM API
-- OpenAI Compatible
+- OpenAI-Compatible
 - Developer Tools
 - Company
 ---

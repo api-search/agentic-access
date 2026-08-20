@@ -68,9 +68,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pusher
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/agentic-access/pusher-agentic-access.yml
 summary_line: 6 operations · 3 acting · 1 human-in-the-loop
 tags:
-- Realtime
+- Real-Time
 - WebSockets
-- Pub/Sub
+- Pub-Sub
 - Push Notifications
 - Messaging
 ---

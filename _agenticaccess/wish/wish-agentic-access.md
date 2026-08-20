@@ -243,9 +243,9 @@ tags:
 - Marketplace
 - Retail
 - Merchants
-- Orders
-- Products
+- Order
+- Product
 - Fulfillment
 - Shopping
-- OAuth
+- Authentication
 ---

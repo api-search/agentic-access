@@ -57,7 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agency-for-tox
 summary_line: 4 operations
 tags:
 - Diseases
-- Federal Government
+- Federal-Government
 - Public Health
 - Toxic Substances
 - Environmental Health

@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pushbu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/agentic-access/pushbullet-agentic-access.yml
 summary_line: 23 operations · 17 acting
 tags:
-- Notifications
+- Notification
 - Messaging
 - Push Notifications
 - Device Sync

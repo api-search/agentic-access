@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/profound/refs/
 summary_line: 125 operations · 90 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Answer Engine Optimization
 - AEO
 - AI Search

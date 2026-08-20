@@ -61,7 +61,7 @@ summary_line: 6 operations · 4 acting
 tags:
 - Pricing
 - Procurement
-- SaaS
+- Software-as-a-Service
 - Software Spend Management
 - Negotiation
 ---

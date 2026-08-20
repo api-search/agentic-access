@@ -337,7 +337,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/
 summary_line: 352 operations · 198 acting · 8 human-in-the-loop
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Translation
 - Localization
 - Language

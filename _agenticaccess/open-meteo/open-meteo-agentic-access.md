@@ -88,11 +88,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-meteo/ref
 summary_line: 9 operations
 tags:
 - Weather
-- Forecasts
+- Forecast
 - Historical Weather
 - Air Quality
 - Marine
 - Climate
-- Open Source
+- Open-Source
 - Free
 ---

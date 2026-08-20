@@ -243,6 +243,6 @@ summary_line: 53 operations · 7 acting
 tags:
 - Photography
 - Photos
-- Social Media
+- Social-Media
 - Public APIs
 ---

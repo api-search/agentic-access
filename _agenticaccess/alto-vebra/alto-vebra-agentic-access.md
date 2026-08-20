@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/alto-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/agentic-access/alto-vebra-agentic-access.yml
 summary_line: 121 operations · 48 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Listings
@@ -132,8 +132,8 @@ tags:
 - Conveyancing
 - Estate Agency
 - Tenancy
-- Webhooks
-- Events
+- Webhook
+- Event
 - Lettings
 - Sales Progression
 - Property Data

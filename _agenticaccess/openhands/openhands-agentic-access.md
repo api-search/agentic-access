@@ -121,10 +121,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openha
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/agentic-access/openhands-agentic-access.yml
 summary_line: 43 operations · 15 acting · 2 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Autonomous
-- Open Source
+- Open-Source
 - Developer Tools
 - Software Engineering
 - Code Generation

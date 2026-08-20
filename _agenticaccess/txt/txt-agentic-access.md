@@ -79,8 +79,8 @@ tags:
 - Artificial Intelligence
 - LLM
 - Structured Outputs
-- JSON Schema
+- JSON-Schema
 - Inference
 - Developer Tools
-- Machine Learning
+- Machine-Learning
 ---

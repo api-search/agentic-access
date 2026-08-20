@@ -74,10 +74,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cursor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/agentic-access/cursor-agentic-access.yml
 summary_line: 17 operations · 12 acting
 tags:
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Editor
-- Agent
+- Agents
 - IDE
 - Cloud Agents
 ---

@@ -68,14 +68,14 @@ summary_line: 21 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Company
 - Consumer
-- Restaurants
+- Restaurant
 - Reservations
 - Booking
 - Hospitality
-- Point of Sale
+- Point-of-Sale
 - Reviews
 - Marketplace
 - Travel and Dining
-- Webhooks
+- Webhook
 - France
 ---

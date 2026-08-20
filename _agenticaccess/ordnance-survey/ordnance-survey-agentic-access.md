@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/ordnan
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/agentic-access/ordnance-survey-agentic-access.yml
 summary_line: 62 operations · 1 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Land Registry
 - Geospatial

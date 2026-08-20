@@ -56,12 +56,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/payhip
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/agentic-access/payhip-agentic-access.yml
 summary_line: 8 operations · 5 acting · 1 human-in-the-loop
 tags:
-- E-commerce
+- E-Commerce
 - Digital Products
 - Memberships
 - Creators
 - Coupons
 - License Keys
-- Webhooks
+- Webhook
 - Payments
 ---

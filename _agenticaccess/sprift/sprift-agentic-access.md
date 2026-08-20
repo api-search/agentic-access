@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/sprift
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/agentic-access/sprift-agentic-access.yml
 summary_line: 27 operations · 3 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Data

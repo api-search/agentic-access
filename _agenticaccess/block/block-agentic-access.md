@@ -78,9 +78,9 @@ summary_line: 8 operations · 3 acting
 tags:
 - Commerce
 - Cryptocurrency
-- eCommerce
+- E-Commerce
 - Fintech
 - Payments
-- Point Of Sale
+- Point-of-Sale
 - Square
 ---

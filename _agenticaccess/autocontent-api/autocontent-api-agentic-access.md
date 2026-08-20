@@ -78,12 +78,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/autoco
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/agentic-access/autocontent-api-agentic-access.yml
 summary_line: 51 operations · 25 acting
 tags:
-- AI
+- Artificial Intelligence
 - Audio
 - Content Generation
 - Podcasts
 - Video
 - Generative AI
-- Text to Speech
+- Text-to-Speech
 - Automation
 ---

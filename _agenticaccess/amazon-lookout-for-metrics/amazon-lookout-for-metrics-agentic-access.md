@@ -214,7 +214,7 @@ summary_line: 30 operations · 29 acting
 tags:
 - Anomaly Detection
 - Business Intelligence
-- Machine Learning
+- Machine-Learning
 - Metrics
 - Monitoring
 ---

@@ -117,8 +117,8 @@ tags:
 - Metering
 - Invoicing
 - Pricing
-- SaaS
-- Subscriptions
+- Software-as-a-Service
+- Subscription
 - Developer Tools
 - FinOps
 ---

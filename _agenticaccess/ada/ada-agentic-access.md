@@ -107,14 +107,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ada-da
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/agentic-access/ada-agentic-access.yml
 summary_line: 45 operations · 26 acting
 tags:
-- ai
-- customer-service
-- chatbot
-- automation
-- conversational-ai
-- helpdesk
-- crm
-- integrations
-- knowledge-management
-- data-export
+- Artificial Intelligence
+- Customer Service
+- Chatbots
+- Automation
+- Conversational AI
+- Help Desk
+- CRM
+- Integration
+- Knowledge-Management
+- Data Export
 ---

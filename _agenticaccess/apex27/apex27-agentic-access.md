@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/apex27
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/agentic-access/apex27-agentic-access.yml
 summary_line: 129 operations · 70 acting
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Listings

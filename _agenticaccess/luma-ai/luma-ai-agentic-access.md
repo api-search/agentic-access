@@ -85,10 +85,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/luma-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/agentic-access/luma-ai-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
-- Image Generation
+- Image-Generation
 - 3D
 - Dream Machine
-- Multimodal
+- Multi-Modal
 ---

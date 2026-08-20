@@ -62,8 +62,8 @@ summary_line: 10 operations · 2 acting
 tags:
 - Banking
 - Financial Data
-- FinTech
+- Fintech
 - Open Banking
-- Transactions
-- Unified API
+- Transaction
+- Unified-API
 ---

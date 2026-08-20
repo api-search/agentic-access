@@ -71,7 +71,7 @@ summary_line: 16 operations · 13 acting
 tags:
 - Company
 - A/B Testing
-- Ecommerce
+- E-Commerce
 - Pricing
 - Personalization
 - Conversion Rate Optimization
@@ -79,6 +79,6 @@ tags:
 - Analytics
 - Experimentation
 - MCP
-- Webhooks
+- Webhook
 - Profit Optimization
 ---

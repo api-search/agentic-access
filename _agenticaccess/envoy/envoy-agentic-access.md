@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/envoy-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/agentic-access/envoy-agentic-access.yml
 summary_line: 23 operations · 9 acting · 2 human-in-the-loop
 tags:
-- Cloud Native
+- Cloud-Native
 - Load Balancing
 - Proxy
 - Service Mesh

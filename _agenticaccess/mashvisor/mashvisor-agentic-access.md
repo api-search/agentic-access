@@ -69,10 +69,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs
 summary_line: 28 operations
 tags:
 - Company
-- Real Estate
+- Real-Estate
 - Property Data
 - Analytics
-- Rental
+- Rentals
 - Airbnb
 - Investment
 - MLS

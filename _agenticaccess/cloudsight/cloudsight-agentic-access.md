@@ -48,8 +48,8 @@ summary_line: 3 operations · 2 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
-- Computer Vision
+- Machine-Learning
+- Computer-Vision
 - Image Recognition
 - Image Captioning
 - Classification

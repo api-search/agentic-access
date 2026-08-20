@@ -136,9 +136,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/hea
 summary_line: 39 operations · 23 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
-- Workflow Automation
+- Workflow-Automation
 - Enterprise
 - MCP
 - Low-Code

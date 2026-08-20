@@ -71,8 +71,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/segments-ai/re
 summary_line: 23 operations · 13 acting
 tags:
 - Data Labeling
-- Computer Vision
+- Computer-Vision
 - Point Cloud
 - Annotation
-- Machine Learning
+- Machine-Learning
 ---

@@ -60,5 +60,5 @@ tags:
 - Data Integration
 - Data Matching
 - Entity Resolution
-- Machine Learning
+- Machine-Learning
 ---

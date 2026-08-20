@@ -72,10 +72,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uptrai
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/agentic-access/uptrain-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Evaluation
 - LLM Evaluation
 - Observability
-- Open Source
+- Open-Source
 ---

@@ -68,12 +68,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/brella
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/agentic-access/brella-agentic-access.yml
 summary_line: 6 operations
 tags:
-- Events
+- Event
 - Event Networking
 - Matchmaking
 - Event Platform
 - Attendees
 - Engagement
 - Conferences
-- SaaS
+- Software-as-a-Service
 ---

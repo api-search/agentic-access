@@ -76,18 +76,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github-copilot
 summary_line: 19 operations · 5 acting
 tags:
 - Agents
-- AI
 - Artificial Intelligence
 - Code Generation
 - Code Review
-- Coding Agent
+- Coding Agents
 - Custom Instructions
 - Developer Tools
 - Extensions
 - IDE
-- Machine Learning
+- Machine-Learning
 - MCP
 - Metrics
-- Model Context Protocol
 - Productivity
 ---

@@ -55,7 +55,7 @@ tags:
 - OpenAPI
 - MCP
 - Workflows
-- Integrations
+- Integration
 - Agent Runtime
 - Standard Agent
 - Just In Time Tooling

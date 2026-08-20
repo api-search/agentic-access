@@ -93,6 +93,6 @@ tags:
 - AMM
 - Stablecoins
 - Pegged Assets
-- Multi-chain
-- Open Source
+- Multi-Chain
+- Open-Source
 ---

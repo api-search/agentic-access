@@ -70,6 +70,5 @@ summary_line: 14 operations · 13 acting
 tags:
 - Discovery
 - Inventory
-- Operations
 - Resource Management
 ---

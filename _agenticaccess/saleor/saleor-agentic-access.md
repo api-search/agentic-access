@@ -42,9 +42,9 @@ summary_line: 2 operations · 1 acting
 tags:
 - Commerce
 - Headless
-- eCommerce
+- E-Commerce
 - GraphQL
-- Open Source
+- Open-Source
 - Python
 - TypeScript
 ---

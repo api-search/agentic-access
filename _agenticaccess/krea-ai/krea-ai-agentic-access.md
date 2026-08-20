@@ -98,13 +98,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/krea-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/agentic-access/krea-ai-agentic-access.yml
 summary_line: 72 operations · 64 acting
 tags:
-- AI
 - Artificial Intelligence
-- Image Generation
+- Image-Generation
 - Video Generation
 - Generative AI
-- Real Time
-- Multimodal
+- Real-Time
+- Multi-Modal
 - Creative Tools
 - 3D
 - Upscaling

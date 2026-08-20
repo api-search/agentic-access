@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/connel
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/agentic-access/connells-agentic-access.yml
 summary_line: 7 operations
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Brokerage

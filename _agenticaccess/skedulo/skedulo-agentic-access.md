@@ -583,5 +583,5 @@ tags:
 - Dispatch
 - Optimization
 - GraphQL
-- Webhooks
+- Webhook
 ---

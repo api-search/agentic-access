@@ -112,7 +112,7 @@ summary_line: 34 operations · 34 acting · 3 human-in-the-loop
 tags:
 - ML
 - MLOps
-- Open Source
+- Open-Source
 - Experiment Tracking
 - Orchestration
 ---

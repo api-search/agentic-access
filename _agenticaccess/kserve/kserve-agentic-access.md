@@ -56,7 +56,7 @@ summary_line: 10 operations · 3 acting
 tags:
 - Inference
 - Kubernetes
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Model Serving
 ---

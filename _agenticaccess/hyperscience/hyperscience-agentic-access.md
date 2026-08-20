@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hypers
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/agentic-access/hyperscience-agentic-access.yml
 summary_line: 20 operations · 4 acting
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - IDP
 - Enterprise

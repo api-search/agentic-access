@@ -102,7 +102,7 @@ tags:
 - Fintech
 - India
 - UPI
-- Subscriptions
+- Subscription
 - Payouts
 - Checkout
 ---

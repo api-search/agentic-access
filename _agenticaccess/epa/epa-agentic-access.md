@@ -845,10 +845,10 @@ summary_line: 611 operations · 148 acting · 1 human-in-the-loop
 tags:
 - Government
 - Environmental
-- OpenData
-- AirQuality
-- WaterQuality
-- HazardousWaste
+- Open Data
+- Air Quality
+- Water Quality
+- Hazardous Waste
 - Compliance
 - Emissions
 ---

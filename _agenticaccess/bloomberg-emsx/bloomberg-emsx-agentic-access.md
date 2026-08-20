@@ -102,7 +102,7 @@ summary_line: 19 operations · 8 acting
 tags:
 - Bloomberg
 - Execution Management
-- Financial Services
+- Financial-Services
 - Order Management
 - Trading
 ---

@@ -67,7 +67,7 @@ tags:
 - Dashboards
 - Monitoring
 - Observability
-- Open Source
+- Open-Source
 - Time Series
 - Visualization
 ---

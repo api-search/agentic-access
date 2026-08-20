@@ -107,6 +107,6 @@ tags:
 - Billing
 - Entitlements
 - CloudEvents
-- Open Source
-- AI
+- Open-Source
+- Artificial Intelligence
 ---

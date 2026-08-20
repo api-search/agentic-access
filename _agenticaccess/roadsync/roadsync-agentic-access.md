@@ -249,7 +249,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/
 summary_line: 77 operations · 27 acting
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Logistics
 - Trucking

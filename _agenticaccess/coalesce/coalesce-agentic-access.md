@@ -88,9 +88,9 @@ summary_line: 36 operations · 21 acting
 tags:
 - Data Transformation
 - Snowflake
-- Data Pipelines
+- Data Pipeline
 - Data Catalog
 - Data Quality
 - Analytics
-- AI
+- Artificial Intelligence
 ---

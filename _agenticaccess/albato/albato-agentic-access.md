@@ -84,10 +84,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albato/refs/he
 summary_line: 18 operations · 10 acting · 1 human-in-the-loop
 tags:
 - No-Code Automation
-- Workflow Automation
+- Workflow-Automation
 - Embedded iPaaS
 - App Integration
-- Integrations
-- Webhooks
-- White-Label
+- Integration
+- Webhook
+- White Label
 ---

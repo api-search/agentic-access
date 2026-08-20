@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cleanu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/agentic-access/cleanup-pictures-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- AI
+- Artificial Intelligence
 - Image Editing
 - Object Removal
 - Inpainting

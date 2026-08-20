@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/airtab
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/agentic-access/airtable-agentic-access.yml
 summary_line: 56 operations · 36 acting · 1 human-in-the-loop
 tags:
-- Applications
+- Application
 - Collaboration
 - Data
 - Databases

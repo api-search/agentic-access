@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truelayer/refs
 summary_line: 13 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Data API
-- Financial Services
+- Financial-Services
 - Open Banking
 - Payments
 - PSD2

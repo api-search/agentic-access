@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olark/refs/hea
 summary_line: 15 operations · 15 acting
 tags:
 - Live Chat
-- Customer Support
+- Customer-Support
 - Chatbots
 - Customer Engagement
 - Messaging

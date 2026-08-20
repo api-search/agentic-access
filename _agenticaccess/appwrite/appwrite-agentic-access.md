@@ -58,8 +58,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/appwri
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/agentic-access/appwrite-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
-- Applications
-- Backends
+- Application
+- Backend
 - Mobile
-- Open Source
+- Open-Source
 ---

@@ -208,5 +208,4 @@ tags:
 - Automation
 - DevOps
 - Incident Management
-- Operations
 ---

@@ -285,11 +285,11 @@ tags:
 - Marketing
 - Payments
 - Shipping
-- Subscriptions
+- Subscription
 - Headless Commerce
-- Open Source
+- Open-Source
 - .NET
-- Webhooks
+- Webhook
 - Event-Driven
 - CloudEvents
 - GraphQL

@@ -39,16 +39,16 @@ source_yaml: "generated: '2026-08-01'\nmethod: generated\nsource: openapi/intely
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/agentic-access/intelycare-agentic-access.yml
 summary_line: 6 operations · 6 acting
 tags:
-- healthcare
-- healthcare-staffing
-- nursing
-- workforce-management
-- scheduling
-- shift-management
-- timekeeping
-- marketplace
-- webhooks
-- per-diem
-- credentialing
-- post-acute-care
+- Healthcare
+- Healthcare Staffing
+- Nursing
+- Workforce Management
+- Scheduling
+- Shift Management
+- Timekeeping
+- Marketplace
+- Webhook
+- Per Diem
+- Credentialing
+- Post-Acute Care
 ---

@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/intral
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/agentic-access/intralinks-agentic-access.yml
 summary_line: 30 operations · 17 acting · 1 human-in-the-loop
 tags:
-- Document Management
+- Document-Management
 - Secure File Sharing
 - Virtual Data Room
 ---

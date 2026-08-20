@@ -73,7 +73,7 @@ summary_line: 9 operations · 2 acting
 tags:
 - Banking
 - Digital Banking
-- Financial Services
+- Financial-Services
 - Fintech
 - Payments
 - Wealth Management

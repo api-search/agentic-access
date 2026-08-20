@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nected/refs/he
 summary_line: 12 operations · 5 acting
 tags:
 - Low-Code
-- Workflow Automation
+- Workflow-Automation
 - Decision Engine
 - Business Rules
 ---

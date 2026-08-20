@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/obie-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/agentic-access/coventry-building-society-agentic-access.yml
 summary_line: 86 operations · 20 acting
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Building Society
 - Open Banking

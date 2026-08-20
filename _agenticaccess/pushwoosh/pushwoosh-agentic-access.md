@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pushwo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/agentic-access/pushwoosh-agentic-access.yml
 summary_line: 4 operations · 4 acting
 tags:
-- Notifications
+- Notification
 - Push
 - Email
 - SMS

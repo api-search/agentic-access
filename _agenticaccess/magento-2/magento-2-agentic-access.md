@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/magent
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/agentic-access/magento-2-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
-- Ecommerce
+- E-Commerce
 - Commerce
 - Online Store
 - Catalog Management

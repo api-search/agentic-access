@@ -145,7 +145,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clover/refs/he
 summary_line: 36 operations · 18 acting
 tags:
 - Restaurant
-- POS
+- Point-of-Sale
 - Payments
 - Retail
 - SMB

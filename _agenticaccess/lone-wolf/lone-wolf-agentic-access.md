@@ -184,10 +184,10 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/lone-w
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/agentic-access/lone-wolf-agentic-access.yml
 summary_line: 348 operations · 174 acting · 1 human-in-the-loop
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - PropTech
-- Transactions
+- Transaction
 - Transaction Management
 - Brokerage Back Office
 - Real Estate Accounting

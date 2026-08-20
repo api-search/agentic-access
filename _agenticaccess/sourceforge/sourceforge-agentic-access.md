@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/source
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/agentic-access/sourceforge-agentic-access.yml
 summary_line: 28 operations · 12 acting
 tags:
-- Open Source
+- Open-Source
 - Developer Tools
 - Project Management
 - Code Hosting

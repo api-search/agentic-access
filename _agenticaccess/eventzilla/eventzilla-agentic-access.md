@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/agentic-access/eventzilla-agentic-access.yml
 summary_line: 19 operations · 7 acting
 tags:
-- Events
+- Event
 - Ticketing
 - Registration
 - Attendees

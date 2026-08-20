@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/treasu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/agentic-access/u-s-treasury-fiscal-data-agentic-access.yml
 summary_line: 9 operations
 tags:
-- Federal Government
+- Federal-Government
 - Finance
 - Treasury
 - National Debt

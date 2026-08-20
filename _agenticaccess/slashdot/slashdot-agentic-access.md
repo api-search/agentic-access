@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/
 summary_line: 8 operations
 tags:
 - Media
-- Open Source
+- Open-Source
 - Technology News
 - RSS
 ---

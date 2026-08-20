@@ -52,7 +52,7 @@ summary_line: 3 operations
 tags:
 - Company
 - Fintech
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
 - Payments
 - Canada

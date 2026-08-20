@@ -72,11 +72,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deconetwork/re
 summary_line: 8 operations · 4 acting
 tags:
 - Custom Apparel
-- Web to Print
+- Web-to-Print
 - Print Shop Management
-- Orders
-- Products
+- Order
+- Product
 - Inventory
 - Production Workflow
-- E-commerce
+- E-Commerce
 ---

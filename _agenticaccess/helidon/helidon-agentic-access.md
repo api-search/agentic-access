@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/helido
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/agentic-access/helidon-agentic-access.yml
 summary_line: 10 operations
 tags:
-- Cloud Native
+- Cloud-Native
 - Frameworks
 - Java
 - MicroProfile

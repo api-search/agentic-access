@@ -368,7 +368,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maintainx/refs
 summary_line: 169 operations · 113 acting
 tags:
 - Company
-- Physical Ai
+- Physical AI
 - Maintenance
 - CMMS
 - Asset Management

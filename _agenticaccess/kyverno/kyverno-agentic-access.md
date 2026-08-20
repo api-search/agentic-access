@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kyvern
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/agentic-access/kyverno-agentic-access.yml
 summary_line: 13 operations
 tags:
-- Cloud Native
+- Cloud-Native
 - Governance
 - Kubernetes
 - Policy Management

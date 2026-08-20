@@ -41,10 +41,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-play/re
 summary_line: 4 operations · 1 acting
 tags:
 - Android
-- Apps
+- Application
 - Google Play
 - In-App Purchases
 - Mobile
 - Publishing
-- Subscriptions
+- Subscription
 ---

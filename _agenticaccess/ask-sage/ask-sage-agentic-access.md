@@ -320,7 +320,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/
 summary_line: 219 operations · 188 acting · 6 human-in-the-loop
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Generative AI
 - Large Language Models
 - Government

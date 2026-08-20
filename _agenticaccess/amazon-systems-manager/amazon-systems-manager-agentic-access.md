@@ -72,5 +72,4 @@ summary_line: 7 operations · 7 acting
 tags:
 - Automation
 - Management
-- Operations
 ---

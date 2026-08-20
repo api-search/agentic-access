@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/athina
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/agentic-access/athina-agentic-access.yml
 summary_line: 18 operations · 14 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Observability
 - Evaluation

@@ -104,8 +104,8 @@ tags:
 - Marketplace
 - Compute
 - Virtual Machines
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - Bare Metal
 - Spot Instances
 - Containers

@@ -150,7 +150,7 @@ tags:
 - Drug Discovery
 - Life Sciences
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Metabolomics
 - Natural Products
 - Pharmaceuticals

@@ -139,14 +139,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aider-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/agentic-access/aider-agentic-access.yml
 summary_line: 40 operations · 32 acting · 1 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - AI Pair Programming
 - Developer Tools
 - CLI
 - Command Line
 - Coding Assistant
 - Code Generation
-- Open Source
+- Open-Source
 - Python
 - Apache 2.0
 - LLM
@@ -154,7 +154,7 @@ tags:
 - BYO LLM
 - Terminal
 - Polyglot
-- Tree Sitter
+- Tree-sitter
 - Repository Map
 - Pair Programming
 ---

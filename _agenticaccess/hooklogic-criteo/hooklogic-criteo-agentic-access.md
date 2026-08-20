@@ -132,8 +132,7 @@ tags:
 - Commerce
 - Retail Media
 - Advertising
-- E-commerce
+- E-Commerce
 - Marketing
 - Retail
-- APIs
 ---

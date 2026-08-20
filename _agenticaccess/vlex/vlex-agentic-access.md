@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vlex-i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/agentic-access/vlex-agentic-access.yml
 summary_line: 7 operations · 6 acting
 tags:
-- AI
+- Artificial Intelligence
 - Classification
 - Legal Research
 - Legal Tech

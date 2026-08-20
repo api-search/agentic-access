@@ -41,10 +41,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bubble
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bubbles/refs/heads/main/agentic-access/bubbles-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
-- Applications
-- Low Code
-- No Code
+- Application
+- Low-Code
+- No-Code
 - Visual Programming
-- Webhooks
-- Web Apps
+- Webhook
+- Web App
 ---

@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/reques
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/agentic-access/requesty-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Routing
 - Gateway

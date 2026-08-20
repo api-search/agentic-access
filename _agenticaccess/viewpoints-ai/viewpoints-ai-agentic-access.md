@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/
 summary_line: 7 operations · 4 acting
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Market Research
 - Synthetic Personas
 - Consumer Insights

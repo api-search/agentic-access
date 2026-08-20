@@ -46,12 +46,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/beatov
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/agentic-access/beatoven-agentic-access.yml
 summary_line: 2 operations · 1 acting
 tags:
-- AI
 - Artificial Intelligence
 - Music
 - Music Generation
 - Generative Audio
-- Text To Music
+- Text-to-Music
 - Text To SFX
 - Royalty-Free Music
 - Background Music

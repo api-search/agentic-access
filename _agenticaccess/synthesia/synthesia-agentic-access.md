@@ -87,7 +87,7 @@ tags:
 - Generative AI
 - Video
 - Avatars
-- Text To Video
+- Text-to-Video
 - Voices
 - Dubbing
 - Translation

@@ -96,5 +96,5 @@ summary_line: 27 operations · 11 acting
 tags:
 - Donations
 - Fundraising
-- Nonprofits
+- Non-Profit
 ---

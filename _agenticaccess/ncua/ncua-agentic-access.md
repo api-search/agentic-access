@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ncua-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/agentic-access/ncua-agentic-access.yml
 summary_line: 2 operations · 1 acting
 tags:
-- Federal Government
+- Federal-Government
 - Credit Unions
 - Financial Data
 - Call Reports

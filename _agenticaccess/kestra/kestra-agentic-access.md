@@ -75,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kestra/refs/he
 summary_line: 19 operations · 7 acting
 tags:
 - Automation
-- Data Pipelines
+- Data Pipeline
 - Event-Driven
 - Orchestration
 - Workflows

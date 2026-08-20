@@ -51,6 +51,6 @@ tags:
 - Enterprise
 - Google
 - Google Workspace
-- Groups
-- Users
+- Group
+- User
 ---

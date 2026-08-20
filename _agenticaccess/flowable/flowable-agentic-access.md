@@ -548,12 +548,12 @@ summary_line: 498 operations · 234 acting · 4 human-in-the-loop
 tags:
 - BPM
 - Business Process Management
-- Workflow
+- Workflows
 - BPMN
 - CMMN
 - DMN
 - Process Automation
 - Case Management
-- Open Source
+- Open-Source
 - REST API
 ---

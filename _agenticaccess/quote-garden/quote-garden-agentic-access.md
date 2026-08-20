@@ -52,7 +52,7 @@ summary_line: 4 operations
 tags:
 - Quotes
 - Inspiration
-- Open Source
+- Open-Source
 - Free API
 - Node.js
 - MongoDB

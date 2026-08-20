@@ -306,11 +306,11 @@ summary_line: 73 operations · 31 acting · 1 human-in-the-loop
 tags:
 - Banking
 - Central Banking
-- Financial Services
+- Financial-Services
 - ISO 20022
 - Market Infrastructure
 - Messaging
 - Payments
 - Real-Time Payments
-- SWIFT
+- Swift
 ---

@@ -127,7 +127,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orange-busines
 summary_line: 21 operations · 17 acting
 tags:
 - 5G
-- AI
+- Artificial Intelligence
 - B2B
 - CAMARA
 - Cloud

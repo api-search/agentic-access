@@ -188,5 +188,5 @@ tags:
 - Work Orders
 - Customer Management
 - Inventory
-- Projects
+- Project
 ---

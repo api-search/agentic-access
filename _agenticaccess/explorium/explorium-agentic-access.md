@@ -206,6 +206,6 @@ tags:
 - Agent Readiness
 - Sales Intelligence
 - Business Events
-- Webhooks
+- Webhook
 - Market Intelligence
 ---

@@ -148,14 +148,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/argill
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/agentic-access/argilla-agentic-access.yml
 summary_line: 73 operations · 44 acting
 tags:
-- data annotation
+- Data Annotation
 - LLM
 - NLP
 - RLHF
-- machine learning
-- datasets
-- open source
-- human feedback
-- fine-tuning
+- Machine-Learning
+- Datasets
+- Open-Source
+- Human Feedback
+- Fine-Tuning
 - Hugging Face
 ---

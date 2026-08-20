@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/data-analysis-
 summary_line: 4 operations
 tags:
 - Crime Statistics
-- Federal Government
+- Federal-Government
 - NCVS
 - NIBRS
 - Open Data

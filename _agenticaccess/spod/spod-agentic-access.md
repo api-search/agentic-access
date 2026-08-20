@@ -127,7 +127,7 @@ tags:
 - POD
 - Dropshipping
 - Fulfillment
-- E-commerce
+- E-Commerce
 - Merchandise
 - Spreadshirt
 - Spreadconnect

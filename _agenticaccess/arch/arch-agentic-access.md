@@ -143,6 +143,6 @@ tags:
 - Fintech
 - Wealth Management
 - Investment Administration
-- Portfolio Management
+- Portfolio-Management
 - Documents
 ---

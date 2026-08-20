@@ -110,7 +110,7 @@ summary_line: 25 operations · 17 acting · 3 human-in-the-loop
 tags:
 - DevOps
 - Encryption
-- Open Source
+- Open-Source
 - PKI
 - Secrets Management
 - Security

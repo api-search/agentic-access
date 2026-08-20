@@ -249,7 +249,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vijil/refs/hea
 summary_line: 149 operations · 68 acting · 2 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Agent Security
 - AI Safety

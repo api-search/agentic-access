@@ -1733,7 +1733,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce/ref
 summary_line: 389 operations · 172 acting · 5 human-in-the-loop
 tags:
 - Fortune 500
-- AI
+- Artificial Intelligence
 - Analytics
 - Cloud
 - Commerce

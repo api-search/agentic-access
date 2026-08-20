@@ -57,7 +57,7 @@ summary_line: 16 operations · 8 acting
 tags:
 - Company
 - Shopify
-- Ecommerce
+- E-Commerce
 - Photo Editing
 - Image Optimization
 - Image Processing
@@ -65,7 +65,7 @@ tags:
 - Background Removal
 - SEO
 - Automation
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 - Digital Asset Management
 ---

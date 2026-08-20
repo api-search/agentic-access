@@ -131,6 +131,6 @@ tags:
 - Live Music
 - Venues
 - Artists
-- Tour Dates
-- Events
+- tour dates
+- Event
 ---

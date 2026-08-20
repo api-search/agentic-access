@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nation
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-weather-service/refs/heads/main/agentic-access/national-weather-service-agentic-access.yml
 summary_line: 65 operations
 tags:
-- Federal Government
+- Federal-Government
 - Forecasting
 - Weather
 ---

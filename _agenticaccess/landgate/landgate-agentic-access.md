@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/landga
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/agentic-access/landgate-agentic-access.yml
 summary_line: 27 operations
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Land Registry
 - Title

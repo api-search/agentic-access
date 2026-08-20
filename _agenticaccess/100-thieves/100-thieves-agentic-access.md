@@ -48,6 +48,6 @@ tags:
 - E-Commerce
 - Entertainment
 - Media
-- Direct To Consumer
+- Direct to Consumer
 - Agentic Commerce
 ---

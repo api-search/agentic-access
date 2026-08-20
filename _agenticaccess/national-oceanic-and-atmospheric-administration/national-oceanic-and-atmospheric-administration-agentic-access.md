@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-ocean
 summary_line: 1 operation
 tags:
 - Atmosphere
-- Federal Government
+- Federal-Government
 - Oceans
 - Weather
 ---

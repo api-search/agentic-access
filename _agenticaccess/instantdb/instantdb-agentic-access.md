@@ -81,8 +81,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instantdb/refs
 summary_line: 14 operations · 12 acting
 tags:
 - Database
-- Realtime
+- Real-Time
 - Sync
 - Backend
-- Local First
+- Local-First
 ---

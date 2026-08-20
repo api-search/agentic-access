@@ -46,6 +46,6 @@ tags:
 - Analytics
 - Business Intelligence
 - Financial Reporting
-- Hr Data
+- HR Data
 - Reporting
 ---

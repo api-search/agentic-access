@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shippo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/agentic-access/shippo-agentic-access.yml
 summary_line: 29 operations · 11 acting
 tags:
-- Ecommerce
+- E-Commerce
 - Labels
 - Logistics
 - Returns

@@ -57,7 +57,7 @@ tags:
 - Block Storage
 - CNCF
 - Ceph
-- Cloud Native
+- Cloud-Native
 - File Storage
 - Graduated
 - Kubernetes

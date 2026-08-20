@@ -82,11 +82,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/reales
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/agentic-access/realestateapi-agentic-access.yml
 summary_line: 9 operations · 9 acting
 tags:
-- Real Estate
+- Real-Estate
 - Property Data
 - MLS
 - Valuation
 - Geospatial
 - Skip Tracing
-- Prop-Tech
+- PropTech
 ---

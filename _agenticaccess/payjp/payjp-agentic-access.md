@@ -128,9 +128,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/hea
 summary_line: 24 operations · 15 acting · 6 human-in-the-loop
 tags:
 - Payments
-- FinTech
+- Fintech
 - Japan
 - Credit Cards
-- Subscriptions
+- Subscription
 - Tokenization
 ---

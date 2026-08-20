@@ -76,11 +76,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/snaplo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/agentic-access/snaplogic-agentic-access.yml
 summary_line: 16 operations · 9 acting · 2 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - API Management
 - Automation
 - Data Integration
-- Integrations
+- Integration
 - iPaaS
 - Management
 ---

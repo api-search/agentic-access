@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prudential-fin
 summary_line: 3 operations
 tags:
 - Annuities
-- Financial Services
+- Financial-Services
 - Insurance
 - Retirement
 - Fortune 100

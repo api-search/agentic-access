@@ -71,7 +71,7 @@ tags:
 - Package Registry
 - Crates
 - Cargo
-- Open Source
+- Open-Source
 - Developer Tools
 - Rust Foundation
 ---

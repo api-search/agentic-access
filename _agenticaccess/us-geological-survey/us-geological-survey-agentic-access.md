@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/usgs-e
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/agentic-access/us-geological-survey-agentic-access.yml
 summary_line: 13 operations
 tags:
-- Federal Government
+- Federal-Government
 - Earth Science
 - Earthquakes
 - Water Data

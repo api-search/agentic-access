@@ -170,7 +170,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-word
 summary_line: 55 operations · 27 acting
 tags:
 - Documents
-- Microsoft 365
+- Microsoft-365
 - Office
 - Productivity
 - Word Processing

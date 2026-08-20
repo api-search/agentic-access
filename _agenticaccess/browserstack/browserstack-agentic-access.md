@@ -76,13 +76,13 @@ summary_line: 18 operations · 7 acting
 tags:
 - Accessibility
 - Appium
-- Applications
+- Application
 - Automation
 - CI/CD
 - Cross-Browser Testing
 - Enterprise
 - JavaScript
-- Low Code
+- Low-Code
 - Mobile Testing
 - QA
 - Regression Testing

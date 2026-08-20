@@ -63,7 +63,7 @@ tags:
 - Corporate Cards
 - Accounts Payable
 - Card Issuing
-- Reimbursements
+- Reimbursement
 - Budgets
 - Fintech
 ---

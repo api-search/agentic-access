@@ -80,7 +80,7 @@ summary_line: 22 operations
 tags:
 - Sports
 - Sports Data
-- Teams
+- Team
 - Players
-- Events
+- Event
 ---

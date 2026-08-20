@@ -71,6 +71,6 @@ tags:
 - Database
 - Distributed Systems
 - Key-Value Store
-- Open Source
+- Open-Source
 - Rust
 ---

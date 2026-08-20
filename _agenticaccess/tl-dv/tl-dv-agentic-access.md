@@ -60,13 +60,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/hea
 summary_line: 8 operations · 1 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Meetings
 - Transcription
-- Notetaking
+- Note Taking
 - Conversation Intelligence
 - Productivity
 - Video
-- Webhooks
-- API
+- Webhook
 ---

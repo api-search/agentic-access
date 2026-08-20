@@ -102,7 +102,7 @@ tags:
 - Healthcare
 - Hospital System
 - MyChart
-- OAuth 2.0
+- Authentication
 - Patient Access
 - Price Transparency
 - R4

@@ -249,7 +249,7 @@ tags:
 - Cryptocurrency
 - Payments
 - Bitcoin
-- Wallet
+- Wallets
 - KYC
 - Onboarding
 - Fintech

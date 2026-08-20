@@ -98,12 +98,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/r2/refs/heads/
 summary_line: 17 operations · 9 acting
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Embedded Finance
 - Lending
 - Payments
 - Fintech
 - Latin America
 - Revenue-Based Financing
-- Webhooks
+- Webhook
 ---

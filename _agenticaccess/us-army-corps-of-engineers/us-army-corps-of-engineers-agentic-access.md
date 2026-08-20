@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-army-corps-
 summary_line: 9 operations
 tags:
 - Water Resources
-- Federal Government
+- Federal-Government
 - Military Engineering
 - Infrastructure
 - Open Data

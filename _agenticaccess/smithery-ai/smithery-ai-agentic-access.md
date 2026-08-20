@@ -139,10 +139,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smithe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smithery-ai/refs/heads/main/agentic-access/smithery-ai-agentic-access.yml
 summary_line: 55 operations · 32 acting · 6 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - MCP
-- Model Context Protocol
 - Registry
 - Hosting
 - Tools

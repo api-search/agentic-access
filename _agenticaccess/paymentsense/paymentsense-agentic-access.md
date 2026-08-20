@@ -87,6 +87,6 @@ tags:
 - Payment Processing
 - Card Payments
 - Acquiring
-- Point of Sale
+- Point-of-Sale
 - In-Person Payments
 ---

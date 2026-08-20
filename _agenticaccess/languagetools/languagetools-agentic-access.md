@@ -54,10 +54,10 @@ summary_line: 5 operations · 3 acting
 tags:
 - Grammar
 - Spell Check
-- Style
+- Styles
 - Proofreading
 - NLP
 - Natural Language Processing
 - Writing
-- Open Source
+- Open-Source
 ---

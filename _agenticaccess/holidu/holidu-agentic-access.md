@@ -210,5 +210,5 @@ tags:
 - Booking
 - Channel Manager
 - Connectivity
-- Affiliate
+- Affiliates
 ---

@@ -48,7 +48,7 @@ summary_line: 4 operations · 1 acting
 tags:
 - Apache
 - Load Balancer
-- Open Source
+- Open-Source
 - Proxy
 - Reverse Proxy
 - Web Server

@@ -1,250 +1,38 @@
 ---
-acting_count: 271
+acting_count: 0
 action_class_counts:
-  acting: 271
-  connected: 680
+  acting: 0
+  connected: 4
 api_specs:
-- filename: university-of-manchester-activity-api-openapi.yml
+- filename: university-of-manchester-iiif-presentation-api-openapi.yml
   format: yaml
-  label: University of Manchester activity API
-  slug: university-of-manchester-activity-api
+  label: Manchester Digital Collections — IIIF Presentation API
+  slug: iiif-presentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-activity-api-openapi.yml
-- filename: university-of-manchester-application-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-iiif-presentation-api-openapi.yml
+- filename: university-of-manchester-iiif-image-api-openapi.yml
   format: yaml
-  label: University of Manchester application API
-  slug: university-of-manchester-application-api
+  label: Manchester Digital Collections — IIIF Image API
+  slug: iiif-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-application-api-openapi.yml
-- filename: university-of-manchester-authorcollaboration-api-openapi.yml
-  format: yaml
-  label: University of Manchester authorCollaboration API
-  slug: university-of-manchester-authorcollaboration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-authorcollaboration-api-openapi.yml
-- filename: university-of-manchester-award-api-openapi.yml
-  format: yaml
-  label: University of Manchester award API
-  slug: university-of-manchester-award-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-award-api-openapi.yml
-- filename: university-of-manchester-classificationscheme-api-openapi.yml
-  format: yaml
-  label: University of Manchester classificationScheme API
-  slug: university-of-manchester-classificationscheme-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-classificationscheme-api-openapi.yml
-- filename: university-of-manchester-concept-api-openapi.yml
-  format: yaml
-  label: University of Manchester concept API
-  slug: university-of-manchester-concept-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-concept-api-openapi.yml
-- filename: university-of-manchester-contract-api-openapi.yml
-  format: yaml
-  label: University of Manchester contract API
-  slug: university-of-manchester-contract-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-contract-api-openapi.yml
-- filename: university-of-manchester-course-api-openapi.yml
-  format: yaml
-  label: University of Manchester course API
-  slug: university-of-manchester-course-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-course-api-openapi.yml
-- filename: university-of-manchester-dataset-api-openapi.yml
-  format: yaml
-  label: University of Manchester dataSet API
-  slug: university-of-manchester-dataset-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-dataset-api-openapi.yml
-- filename: university-of-manchester-education-api-openapi.yml
-  format: yaml
-  label: University of Manchester education API
-  slug: university-of-manchester-education-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-education-api-openapi.yml
-- filename: university-of-manchester-equipment-api-openapi.yml
-  format: yaml
-  label: University of Manchester equipment API
-  slug: university-of-manchester-equipment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-equipment-api-openapi.yml
-- filename: university-of-manchester-ethicalreview-api-openapi.yml
-  format: yaml
-  label: University of Manchester ethicalReview API
-  slug: university-of-manchester-ethicalreview-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-ethicalreview-api-openapi.yml
-- filename: university-of-manchester-event-api-openapi.yml
-  format: yaml
-  label: University of Manchester event API
-  slug: university-of-manchester-event-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-event-api-openapi.yml
-- filename: university-of-manchester-externalorganization-api-openapi.yml
-  format: yaml
-  label: University of Manchester externalOrganization API
-  slug: university-of-manchester-externalorganization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-externalorganization-api-openapi.yml
-- filename: university-of-manchester-externalperson-api-openapi.yml
-  format: yaml
-  label: University of Manchester externalPerson API
-  slug: university-of-manchester-externalperson-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-externalperson-api-openapi.yml
-- filename: university-of-manchester-fingerprint-api-openapi.yml
-  format: yaml
-  label: University of Manchester fingerprint API
-  slug: university-of-manchester-fingerprint-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-fingerprint-api-openapi.yml
-- filename: university-of-manchester-fundingopportunity-api-openapi.yml
-  format: yaml
-  label: University of Manchester fundingOpportunity API
-  slug: university-of-manchester-fundingopportunity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-fundingopportunity-api-openapi.yml
-- filename: university-of-manchester-impact-api-openapi.yml
-  format: yaml
-  label: University of Manchester impact API
-  slug: university-of-manchester-impact-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-impact-api-openapi.yml
-- filename: university-of-manchester-journal-api-openapi.yml
-  format: yaml
-  label: University of Manchester journal API
-  slug: university-of-manchester-journal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-journal-api-openapi.yml
-- filename: university-of-manchester-keywordgroupconfiguration-api-openapi.yml
-  format: yaml
-  label: University of Manchester keywordGroupConfiguration API
-  slug: university-of-manchester-keywordgroupconfiguration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-keywordgroupconfiguration-api-openapi.yml
-- filename: university-of-manchester-milestone-api-openapi.yml
-  format: yaml
-  label: University of Manchester milestone API
-  slug: university-of-manchester-milestone-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-milestone-api-openapi.yml
-- filename: university-of-manchester-organization-api-openapi.yml
-  format: yaml
-  label: University of Manchester organization API
-  slug: university-of-manchester-organization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-organization-api-openapi.yml
-- filename: university-of-manchester-person-api-openapi.yml
-  format: yaml
-  label: University of Manchester person API
-  slug: university-of-manchester-person-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-person-api-openapi.yml
-- filename: university-of-manchester-personexpertise-api-openapi.yml
-  format: yaml
-  label: University of Manchester personExpertise API
-  slug: university-of-manchester-personexpertise-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-personexpertise-api-openapi.yml
-- filename: university-of-manchester-pressmedia-api-openapi.yml
-  format: yaml
-  label: University of Manchester pressMedia API
-  slug: university-of-manchester-pressmedia-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-pressmedia-api-openapi.yml
-- filename: university-of-manchester-prize-api-openapi.yml
-  format: yaml
-  label: University of Manchester prize API
-  slug: university-of-manchester-prize-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-prize-api-openapi.yml
-- filename: university-of-manchester-project-api-openapi.yml
-  format: yaml
-  label: University of Manchester project API
-  slug: university-of-manchester-project-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-project-api-openapi.yml
-- filename: university-of-manchester-publisher-api-openapi.yml
-  format: yaml
-  label: University of Manchester publisher API
-  slug: university-of-manchester-publisher-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-publisher-api-openapi.yml
-- filename: university-of-manchester-researchoutput-api-openapi.yml
-  format: yaml
-  label: University of Manchester researchOutput API
-  slug: university-of-manchester-researchoutput-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-researchoutput-api-openapi.yml
-- filename: university-of-manchester-role-api-openapi.yml
-  format: yaml
-  label: University of Manchester role API
-  slug: university-of-manchester-role-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-role-api-openapi.yml
-- filename: university-of-manchester-semester-api-openapi.yml
-  format: yaml
-  label: University of Manchester semester API
-  slug: university-of-manchester-semester-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-semester-api-openapi.yml
-- filename: university-of-manchester-specialization-api-openapi.yml
-  format: yaml
-  label: University of Manchester specialization API
-  slug: university-of-manchester-specialization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-specialization-api-openapi.yml
-- filename: university-of-manchester-studentproject-api-openapi.yml
-  format: yaml
-  label: University of Manchester studentProject API
-  slug: university-of-manchester-studentproject-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-studentproject-api-openapi.yml
-- filename: university-of-manchester-studentthesis-api-openapi.yml
-  format: yaml
-  label: University of Manchester studentThesis API
-  slug: university-of-manchester-studentthesis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-studentthesis-api-openapi.yml
-- filename: university-of-manchester-thesaurus-api-openapi.yml
-  format: yaml
-  label: University of Manchester thesaurus API
-  slug: university-of-manchester-thesaurus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-thesaurus-api-openapi.yml
-- filename: university-of-manchester-user-api-openapi.yml
-  format: yaml
-  label: University of Manchester user API
-  slug: university-of-manchester-user-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-user-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/openapi/university-of-manchester-iiif-image-api-openapi.yml
 consequence_counts:
-  read: 680
-  safety-critical: 1
-  write: 270
-description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 1
+  read: 4
+  safety-critical: 0
+  write: 0
+description: 'Recommended x-agentic-access execution contracts for the surfaces the University of Manchester actually operates. Both are anonymous, read-only, cacheable public-heritage APIs — about as safe a target for autonomous agents as exists — so the governance question here is not consequence but courtesy: there is no published rate-limit table and no status page, and an agent that walks 398 canvases per manuscript across 61 manuscripts in one collection can trivially outrun a library image server.'
+human_in_the_loop: 0
 kind: agentic-access
 layout: agentic-access
-method: generated
+method: derived
 name: University Of Manchester Agentic Access
 name_suffix: Agentic Access
-notable_actions:
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /users/{uuid}/actions/reset-password
-operation_count: 951
-overview: 'University of Manchester exposes 951 API operations that an AI agent could call, of which 271 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+notable_actions: []
+operation_count: 4
+overview: 'University of Manchester exposes 4 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 680 read, 270 write, and 1 safety-critical.
-
-
-  1 operation are classed safety-critical and should require human-in-the-loop approval at runtime.
+  By consequence: 4 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -254,47 +42,23 @@ slug: university-of-manchester-agentic-access
 source_filename: university-of-manchester-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/university-of-manchester-pure-rest.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 951\n  by_action_class:\n    connected: 680\n    acting: 271\n  by_consequence:\n    read: 680\n    write: 270\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /activities\n  method: get\n  operationId: activity_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities\n  method: put\n  operationId: activity_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
-  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/allowed-attendance-person-roles\n  method: get\n  operationId: activity_getAllowedAttendancePersonRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-categories\n  method: get\n  operationId: activity_getAllowedCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-classified-identifier-types\n  method: get\n  operationId: activity_getAllowedClassifiedIdentifierTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-consultancy-person-roles\n  method: get\n\
-  \  operationId: activity_getAllowedConsultancyPersonRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-custom-defined-field-values/{propertyName}/classifications\n  method: get\n  operationId: activity_getAllowedCustomDefinedFieldClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-degree-of-recognitions\n  method: get\n  operationId: activity_getAllowedDegreeOfRecognitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-description-types\n  method: get\n  operationId: activity_getAllowedDescriptionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-document-licenses\n  method: get\n  operationId: activity_getAllowedDocumentLicenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-document-types\n  method: get\n  operationId: activity_getAllowedDocumentTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-editorial-work-person-roles\n  method: get\n  operationId: activity_getAllowedEditorialWorkPersonRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-examination-person-roles\n  method: get\n  operationId: activity_getAllowedExaminationPersonRoles\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-host-visitor-countries\n  method: get\n  operationId: activity_getAllowedHostVisitorCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-host-visitor-person-roles\n  method: get\n  operationId: activity_getAllowedHostVisitorPersonRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-image-types\n  method: get\n  operationId: activity_getAllowedImageTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-indicators\n  method: get\n  operationId: activity_getAllowedIndicators\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-keyword-group-configurations\n  method: get\n  operationId: activity_getAllowedKeywordGroupConfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-keyword-group-configurations/{id}/classifications\n  method: get\n  operationId: activity_getAllowedKeywordGroupConfigurationClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-link-types\n  method: get\n  operationId: activity_getAllowedLinkTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-locales\n\
-  \  method: get\n  operationId: activity_getAllowedLocales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-membership-person-roles\n  method: get\n  operationId: activity_getAllowedMembershipPersonRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-other-activity-person-roles\n  method: get\n  operationId: activity_getAllowedOtherActivityPersonRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-talk-person-roles\n  method: get\n  operationId: activity_getAllowedTalkPersonRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
-  \ audit: none\n- path: /activities/allowed-types\n  method: get\n  operationId: activity_getAllowedTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-visit-other-person-roles\n  method: get\n  operationId: activity_getAllowedVisitOtherPersonRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/allowed-workflow-steps\n  method: get\n  operationId: activity_getAllowedWorkflowSteps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/disciplines/allowed-discipline-schemes\n  method: get\n  operationId: activity_getAllowedDisciplineSchemes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/disciplines/{discipline-scheme}/allowed-disciplines\n  method: get\n  operationId: activity_getAllowedDisciplines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/disciplines/{discipline-scheme}/search\n  method: post\n  operationId: activity_listDisciplineAssociations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/file-uploads\n  method: put\n  operationId: activity_fileUploads\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/orderings\n  method: get\n  operationId: activity_getOrderings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/search\n  method: post\n  operationId: activity_query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/{uuid}\n  method: get\n  operationId: activity_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/{uuid}\n  method: put\n  operationId: activity_update\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/{uuid}\n  method: delete\n  operationId: activity_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/{uuid}/actions/lock\n  method: post\n  operationId: activity_lock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/{uuid}/actions/unlock\n\
-  \  method: post\n  operationId: activity_unlock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/{uuid}/dependents\n  method: get\n  operationId: activity_dependents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/{uuid}/disciplines/{discipline-scheme}\n  method: get\n  operationId: activity_getDisciplineAssociation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/{uuid}/disciplines/{discipline-scheme}\n  method: put\n  operationId: activity_putDisciplineAssociation\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activities/{uuid}/files/{fileId}\n  method: get\n  operationId: activity_getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/{uuid}/notes\n  method: get\n  operationId: activity_listNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/{uuid}/notes\n  method: put\n  operationId: activity_createNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n- path: /applications\n  method: get\n  operationId: application_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications\n  method: put\n  operationId: application_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/allowed-applicant-roles\n  method: get\n  operationId: application_getAllowedApplicantRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-application-statuses\n  method: get\n  operationId: application_getAllowedApplicationStatuses\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-budget-account-classifications\n  method: get\n  operationId: application_getAllowedBudgetAccountClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-classified-identifier-types\n  method: get\n  operationId: application_getAllowedClassifiedIdentifierTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-collaborator-types\n  method: get\n  operationId: application_getAllowedCollaboratorTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-custom-defined-field-values/{propertyName}/classifications\n\
-  \  method: get\n  operationId: application_getAllowedCustomDefinedFieldClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-description-types\n  method: get\n  operationId: application_getAllowedDescriptionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-document-licenses\n  method: get\n  operationId: application_getAllowedDocumentLicenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-document-types\n  method: get\n  operationId: application_getAllowedDocumentTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /applications/allowed-document-version-types\n  method: get\n  operationId: application_getAllowedDocumentVersionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-funding-classifications\n  method: get\n  operationId: application_getAllowedFundingClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-keyword-group-configurations\n  method: get\n  operationId: application_getAllowedKeywordGroupConfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-keyword-group-configurations/{id}/classifications\n  method: get\n  operationId: application_getAllowedKeywordGroupConfigurationClassifications\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-link-types\n  method: get\n  operationId: application_getAllowedLinkTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-locales\n  method: get\n  operationId: application_getAllowedLocales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-nature-types\n  method: get\n  operationId: application_getAllowedNatureTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-templates\n  method: get\n  operationId: application_getAllowedTemplates\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-types\n  method: get\n  operationId: application_getAllowedTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/allowed-workflow-steps\n  method: get\n  operationId: application_getAllowedWorkflowSteps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/disciplines/allowed-discipline-schemes\n  method: get\n  operationId: application_getAllowedDisciplineSchemes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/disciplines/{discipline-scheme}/allowed-disciplines\n\
-  \  method: get\n  operationId: application_getAllowedDisciplines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/disciplines/{discipline-scheme}/search\n  method: post\n  operationId: application_listDisciplineAssociations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/file-uploads\n  method: put\n  operationId: application_fileUploads\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/orderings\n\
-  \  method: get\n  operationId: application_getOrderings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/search\n  method: post\n  operationId: application_query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{uuid}\n  method: get\n  operationId: application_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{uuid}\n  method: put\n  operationId: application_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
-  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{uuid}\n  method: delete\n  operationId: application_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{uuid}/actions/lock\n  method: post\n  operationId: application_lock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{uuid}/actions/unlock\n  method: post\n  operationId: application_unlock\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{uuid}/budgets\n  method: get\n  operationId: application_getBudgets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{uuid}/budgets/{id}\n  method: get\n  operationId: application_getBudget\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{uuid}/budgets/{id}\n  method: put\n  operationId: application_updateBudget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{uuid}/cluster\n  method: get\n  operationId: application_getCluster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{uuid}/dependents\n  method: get\n  operationId: application_dependents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{uuid}/disciplines/{discipline-scheme}\n  method: get\n  operationId: application_getDisciplineAssociation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{uuid}/disciplines/{discipline-scheme}\n  method: put\n  operationId: application_putDisciplineAssociation\n  x-agentic-access:\n  \
-  \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{uuid}/files/{fileId}\n  method: get\n  operationId: application_getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{uuid}/notes\n  method: get\n  operationId: application_listNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{uuid}/notes\n  method: put\n  operationId: application_createNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /author-collaborations\n  method: get\n  operationId: authorCollaboration_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /author-collaborations\n  method: put\n  operationId: authorCollaboration_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /author-collaborations/allowed-locales\n  method: get\n  operationId: authorCollaborations_getAllowedLocales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /author-collaborations/allowed-workflow-steps\n\
-  \  method: get\n  operationId: authorCollaborations_getAllowedWorkflowSteps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /author-collaborations/orderings\n  method: get\n  operationId: authorCollaborations_getOrderings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /author-collaborations/search\n  method: post\n  operationId: authorCollaborations_query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /author-collaborations/{uuid}\n  method: get\n  operationId: authorCollaborations_get\n  x-agentic-access:\n    action-class: connected\n   \
-  \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /author-collaborations/{uuid}\n  method: put\n  operationId: authorCollaboration_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /author-collaborations/{uuid}\n  method: delete\n  operationId: authorCollaboration_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /author-collaborations/{uuid}/actions/lock\n  method: post\n  operationId: authorCollaborations_lock\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /author-collaborations/{uuid}/actions/unlock\n  method: post\n  operationId: authorCollaborations_unlock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /author-collaborations/{uuid}/notes\n  method: get\n  operationId: authorCollaborations_listNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /author-collaborations/{uuid}/notes\n  method: put\n  operationId: authorCollaborations_createNote\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /awards\n  method: get\n  operationId: award_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards\n  method: put\n  operationId: award_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /awards/allowed-awardholder-roles\n  method: get\n  operationId: award_getAllowedAwardHolderRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-budget-account-classifications\n  method: get\n  operationId: award_getAllowedBudgetAccountClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-classified-identifier-types\n  method: get\n  operationId: award_getAllowedClassifiedIdentifierTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-collaborator-types\n  method: get\n  operationId: award_getAllowedCollaboratorTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-custom-defined-field-values/{propertyName}/classifications\n  method: get\n  operationId: award_getAllowedCustomDefinedFieldClassifications\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-description-types\n  method: get\n  operationId: award_getAllowedDescriptionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-document-licenses\n  method: get\n  operationId: award_getAllowedDocumentLicenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-document-types\n  method: get\n  operationId: award_getAllowedDocumentTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-document-version-types\n  method: get\n  operationId: award_getAllowedDocumentVersionTypes\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-funding-classifications\n  method: get\n  operationId: award_getAllowedFundingClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-keyword-group-configurations\n  method: get\n  operationId: award_getAllowedKeywordGroupConfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-keyword-group-configurations/{id}/classifications\n  method: get\n  operationId: award_getAllowedKeywordGroupConfigurationClassifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
-  \ /awards/allowed-link-types\n  method: get\n  operationId: award_getAllowedLinkTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-locales\n  method: get\n  operationId: award_getAllowedLocales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-nature-types\n  method: get\n  operationId: award_getAllowedNatureTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /awards/allowed-templates\n  method: get\n  operationId: award_getAllowedTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: rea\n\n# --- truncated at 32 KB (259 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/agentic-access/university-of-manchester-agentic-access.yml\n"
+source_yaml: "---\ngenerated: '2026-08-19'\nmethod: derived\nsource: >-\n  Derived from the two institution-operated contracts in openapi/ (Manchester Digital Collections\n  IIIF Presentation and Image APIs). Replaces a previous artifact that classified 951 operations\n  from Elsevier's Pure specification and is now quarantined.\nx-operator: institution\ndescription: >-\n  Recommended x-agentic-access execution contracts for the surfaces the University of Manchester\n  actually operates. Both are anonymous, read-only, cacheable public-heritage APIs — about as safe a\n  target for autonomous agents as exists — so the governance question here is not consequence but\n  courtesy: there is no published rate-limit table and no status page, and an agent that walks 398\n  canvases per manuscript across 61 manuscripts in one collection can trivially outrun a library\n  image server.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n    acting: 0\n  by_consequence:\n    read: 4\n \
+  \   write: 0\n    safety-critical: 0\n  human_in_the_loop_required: 0\n  authentication_required: false\noperations:\n- path: /iiif/{documentId}\n  method: get\n  operationId: getManifest\n  surface: iiif-presentation-api\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n    human-in-the-loop: false\n    idempotent: true\n    cacheable: true\n    notes: >-\n      Manifests are large — the verified example was 378 KB for 398 canvases. Agents should cache by\n      documentId and avoid re-fetching a manifest to reach a single canvas.\n- path: /iiif/collection/{collectionId}\n  method: get\n  operationId: getCollection\n  surface: iiif-presentation-api\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n    human-in-the-loop: false\n    idempotent: true\n    cacheable: true\n    notes: The correct entry point for discovery; enumerate here rather than guessing document ids.\n- path: /iiif/{identifier}/info.json\n\
+  \  method: get\n  operationId: getImageInfo\n  surface: iiif-image-api\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n    human-in-the-loop: false\n    idempotent: true\n    cacheable: true\n- path: /iiif/{identifier}/{region}/{size}/{rotation}/{quality}.{format}\n  method: get\n  operationId: getImage\n  surface: iiif-image-api\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n    human-in-the-loop: false\n    idempotent: true\n    cacheable: true\n    notes: >-\n      Bounded by the server's own maxWidth/maxHeight of 2000. Prefer the pre-generated sizes listed\n      in info.json over arbitrary derivative requests; each novel region/size combination is work the\n      server has to do.\nguidance:\n  rate_limits: >-\n    None published and none observed in response headers. Treat as a shared academic resource:\n    serialize requests, honour any Retry-After, and contact the Library before bulk\
+  \ harvesting.\n  reuse_terms: https://www.digitalcollections.manchester.ac.uk/terms/\n  attribution_required: >-\n    Yes. Every manifest carries an attribution string naming the University of Manchester and the\n    University of Manchester Library, and agents reproducing content must carry it through.\nexcluded:\n- surface: Elsevier Pure CRIS\n  reason: >-\n    Tenant-operated. The contract, the api-key scheme and the operation set are Elsevier's; agentic\n    governance for it belongs against Elsevier's own profile, not Manchester's.\n- surface: Shibboleth SAML Identity Provider\n  reason: >-\n    Not an agent-callable API. An assertion cannot be obtained without service-provider registration\n    in the UK Access Management Federation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/agentic-access/university-of-manchester-agentic-access.yml
-summary_line: 951 operations · 271 acting · 1 human-in-the-loop
+summary_line: 4 operations
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Open Data
 - United Kingdom
+- Russell Group
+- Library
+- Digital Collections
+- IIIF
+- Identity Federation
+- Research Data
+- Research Computing
 ---

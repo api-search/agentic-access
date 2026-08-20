@@ -74,7 +74,7 @@ tags:
 - AI Agents
 - Virtual Cards
 - Fintech
-- Model Context Protocol
+- MCP
 - Consumer Trust
 - Spending Controls
 - AP2

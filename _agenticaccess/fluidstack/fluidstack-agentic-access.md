@@ -79,13 +79,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fluids
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/agentic-access/fluidstack-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
-- AI
 - Artificial Intelligence
 - GPU
 - Cloud
 - Compute
 - Infrastructure
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Training
 - Inference

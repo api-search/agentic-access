@@ -105,5 +105,5 @@ tags:
 - Artificial Intelligence
 - Security Cameras
 - Emergency Management
-- Computer Vision
+- Computer-Vision
 ---

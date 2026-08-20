@@ -117,11 +117,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zenml-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenml/refs/heads/main/agentic-access/zenml-agentic-access.yml
 summary_line: 25 operations · 7 acting
 tags:
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 - MLOps
 - LLMOps
 - Pipelines
-- Open Source
+- Open-Source
 - Python
 ---

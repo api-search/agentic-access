@@ -81,5 +81,5 @@ tags:
 - Data Marketplace
 - Third-Party Data
 - Analytics
-- Subscriptions
+- Subscription
 ---

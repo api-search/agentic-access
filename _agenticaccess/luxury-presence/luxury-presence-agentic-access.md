@@ -201,11 +201,11 @@ summary_line: 35 operations · 24 acting · 24 human-in-the-loop
 tags:
 - Company
 - Vertical Software
-- Real Estate
+- Real-Estate
 - PropTech
 - CRM
 - Marketing
 - Websites
-- Webhooks
+- Webhook
 - Lead Generation
 ---

@@ -48,7 +48,7 @@ summary_line: 2 operations · 1 acting
 tags:
 - Audio
 - Google Cloud
-- Machine Learning
+- Machine-Learning
 - Speech Synthesis
-- Text-To-Speech
+- Text-to-Speech
 ---

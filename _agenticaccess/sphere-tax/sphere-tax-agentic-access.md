@@ -51,5 +51,5 @@ tags:
 - VAT
 - GST
 - Compliance
-- FinTech
+- Fintech
 ---

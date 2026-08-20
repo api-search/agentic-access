@@ -79,10 +79,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paragon-api/re
 summary_line: 17 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Embedded iPaaS
-- Integrations
+- Integration
 - Embedded Integrations
 - Native Integrations
-- Workflow Automation
+- Workflow-Automation
 - Integration Platform
 - API Integration
 - SaaS Integrations

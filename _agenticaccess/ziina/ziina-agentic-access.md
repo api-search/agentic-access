@@ -85,5 +85,5 @@ tags:
 - UAE
 - MENA
 - Money Transfer
-- Wallet
+- Wallets
 ---

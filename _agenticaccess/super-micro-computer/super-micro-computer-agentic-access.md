@@ -118,7 +118,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/super-micro-co
 summary_line: 35 operations · 12 acting · 2 human-in-the-loop
 tags:
 - Servers
-- Data Center
+- Data-Center
 - Hardware
 - Server Management
 - Redfish

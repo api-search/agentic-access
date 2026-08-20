@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dotloo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/agentic-access/dotloop-agentic-access.yml
 summary_line: 43 operations · 18 acting
 tags:
-- Real Estate
+- Real-Estate
 - Transaction Management
 - Loops
 - Documents

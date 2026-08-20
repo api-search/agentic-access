@@ -40,6 +40,6 @@ summary_line: 3 operations
 tags:
 - Analytics
 - Financial
-- Financial Services
+- Financial-Services
 - Trading
 ---

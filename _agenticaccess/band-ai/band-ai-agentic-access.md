@@ -184,7 +184,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/h
 summary_line: 64 operations · 36 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Multi-Agent
 - Agent Infrastructure

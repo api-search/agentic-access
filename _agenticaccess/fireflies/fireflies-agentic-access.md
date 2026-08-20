@@ -67,10 +67,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/firefl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/agentic-access/fireflies-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- AI
+- Artificial Intelligence
 - Meeting Assistant
 - Transcription
-- Summaries
+- Summary
 - Action Items
 - GraphQL
 - Meetings

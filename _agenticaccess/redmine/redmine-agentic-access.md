@@ -145,7 +145,7 @@ summary_line: 32 operations · 16 acting
 tags:
 - Project Management
 - Issue Tracking
-- Open Source
+- Open-Source
 - Ruby on Rails
 - Bug Tracking
 - Time Tracking

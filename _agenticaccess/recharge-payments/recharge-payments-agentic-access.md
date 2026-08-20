@@ -172,9 +172,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rechar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/agentic-access/recharge-payments-agentic-access.yml
 summary_line: 57 operations · 36 acting
 tags:
-- Subscriptions
+- Subscription
 - Recurring Billing
-- E-commerce
+- E-Commerce
 - Payments
 - Shopify
 - Retention

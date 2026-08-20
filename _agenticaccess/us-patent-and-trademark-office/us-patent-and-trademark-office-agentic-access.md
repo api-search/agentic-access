@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uspto-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/agentic-access/us-patent-and-trademark-office-agentic-access.yml
 summary_line: 41 operations · 8 acting
 tags:
-- Federal Government
+- Federal-Government
 - Patents
 - Trademarks
 - Intellectual Property

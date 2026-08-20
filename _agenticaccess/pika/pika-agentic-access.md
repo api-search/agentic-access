@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pika-i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pika/refs/heads/main/agentic-access/pika-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Text-to-Video
 - Image-to-Video

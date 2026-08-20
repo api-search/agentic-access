@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shutte
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/agentic-access/shutterstock-agentic-access.yml
 summary_line: 95 operations · 28 acting
 tags:
-- Images
+- Image
 - Media
 - Photos
 - Stock Images

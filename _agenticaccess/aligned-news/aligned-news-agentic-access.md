@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aligne
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/agentic-access/aligned-news-agentic-access.yml
 summary_line: 11 operations
 tags:
-- AI
+- Artificial Intelligence
 - News
 - Intelligence
 - MCP

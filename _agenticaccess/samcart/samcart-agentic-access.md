@@ -84,10 +84,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/samcar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/agentic-access/samcart-agentic-access.yml
 summary_line: 16 operations · 4 acting
 tags:
-- E-commerce
+- E-Commerce
 - Checkout
 - Payments
-- Subscriptions
+- Subscription
 - Digital Products
 - Courses
 ---

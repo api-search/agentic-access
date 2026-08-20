@@ -199,7 +199,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orbii/refs/hea
 summary_line: 161 operations · 29 acting
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Lending
 - Credit
 - Fintech

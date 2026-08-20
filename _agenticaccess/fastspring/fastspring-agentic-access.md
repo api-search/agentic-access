@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fastsp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/agentic-access/fastspring-agentic-access.yml
 summary_line: 51 operations · 28 acting
 tags:
-- Ecommerce
+- E-Commerce
 - Merchant of Record
 - Subscription Billing
 - Payments
