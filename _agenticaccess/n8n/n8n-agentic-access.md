@@ -88,6 +88,12 @@ api_specs:
   slug: n8n-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-workflow-api-openapi.yml
+- filename: openapi.yml
+  format: yaml
+  label: n8n Public API
+  slug: n8n-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/n8n-io/n8n-docs/main/docs/api/v1/openapi.yml
 consequence_counts:
   physical: 2
   read: 23
@@ -127,7 +133,7 @@ notable_actions:
   method: PUT
   path: /workflows/{id}/transfer
 operation_count: 73
-overview: 'N8n exposes 73 API operations that an AI agent could call, of which 50 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'n8n exposes 73 API operations that an AI agent could call, of which 50 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 23 read, 45 write, 2 physical, and 3 safety-critical.
@@ -137,7 +143,7 @@ overview: 'N8n exposes 73 API operations that an AI agent could call, of which 5
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: N8n
+provider_name: n8n
 provider_slug: n8n
 slug: n8n-agentic-access
 source_filename: n8n-agentic-access.yml
@@ -173,4 +179,12 @@ tags:
 - Agents
 - Artificial Intelligence
 - Integration
+- Workflow Automation
+- iPaaS
+- No-Code
+- Low-Code
+- AI Agents
+- Orchestration
+- DevOps
+- MCP
 ---
