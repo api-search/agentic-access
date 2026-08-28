@@ -4,6 +4,18 @@ action_class_counts:
   acting: 134
   connected: 143
 api_specs:
+- filename: snyk-oauth2-app-openapi.yml
+  format: yaml
+  label: Snyk OAuth2 API - Authorize
+  slug: oauth2-authorize
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-oauth2-app-openapi.yml
+- filename: snyk-oauth2-token-openapi.yml
+  format: yaml
+  label: Snyk OAuth2 API - Token
+  slug: oauth2-token
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-oauth2-token-openapi.yml
 - filename: snyk-accessrequests-api-openapi.yml
   format: yaml
   label: Snyk AccessRequests API

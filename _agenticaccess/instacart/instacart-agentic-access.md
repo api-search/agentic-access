@@ -58,6 +58,12 @@ api_specs:
   slug: instacart-replacements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-replacements-api-openapi.yml
+- filename: instacart-rest-api-openapi.yml
+  format: yaml
+  label: instacart Rest API
+  slug: instacart-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-rest-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 4
@@ -166,5 +172,16 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/instac
   \  method: post\n  operationId: createShoppingListPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /idp/v1/products/recipe\n  method: post\n  operationId: createRecipePage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/agentic-access/instacart-agentic-access.yml
 summary_line: 23 operations · 19 acting
-tags: []
+tags:
+- Grocery
+- E-Commerce
+- Marketplace
+- Retail
+- Logistics
+- Last Mile Delivery
+- Fulfillment
+- Catalog
+- Advertising
+- Agents
+- MCP
 ---

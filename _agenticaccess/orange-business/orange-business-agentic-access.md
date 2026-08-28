@@ -4,6 +4,12 @@ action_class_counts:
   acting: 17
   connected: 4
 api_specs:
+- filename: orange-business-live-objects-openapi.json
+  format: json
+  label: Orange Business Live Objects API
+  slug: orange-business-live-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/openapi/orange-business-live-objects-openapi.json
 - filename: orange-business-check-device-swap-api-openapi.yml
   format: yaml
   label: Orange Business Check Device Swap API

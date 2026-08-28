@@ -350,4 +350,13 @@ tags:
 - Commerce
 - Retail
 - Fortune 100
+- Marketplace
+- E-Commerce
+- Orders
+- Inventory
+- Fulfillment
+- Supply Chain
+- Seller APIs
+- Webhooks
+- MCP
 ---

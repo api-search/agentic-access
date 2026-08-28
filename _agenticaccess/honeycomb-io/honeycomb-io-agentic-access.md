@@ -130,6 +130,12 @@ api_specs:
   slug: honeycomb-io-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-triggers-api-openapi.yml
+- filename: honeycomb-io-anomaly-detection-api-openapi.yml
+  format: yaml
+  label: Honeycomb Anomaly Detection API
+  slug: honeycomb-io-anomaly-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/openapi/honeycomb-io-anomaly-detection-api-openapi.yml
 consequence_counts:
   read: 35
   write: 50

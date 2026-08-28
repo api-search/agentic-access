@@ -245,4 +245,12 @@ tags:
 - Payments
 - Cards
 - Shopping
+- Banking
+- Checkout
+- Order Management
+- Settlement
+- Open Banking
+- PSD2
+- Consumer Credit
+- Sweden
 ---
