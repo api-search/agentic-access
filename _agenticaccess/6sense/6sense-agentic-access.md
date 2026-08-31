@@ -60,7 +60,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/6sense
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/agentic-access/6sense-agentic-access.yml
 summary_line: 7 operations · 5 acting
 tags:
-- Account Based Marketing
+- ABM
+- Account-Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics

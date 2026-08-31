@@ -72,7 +72,7 @@ tags:
 - Prospecting
 - Lead Generation
 - Email Finder
-- Account Based Marketing
+- ABM
 - CRM Enrichment
 - Marketing
 - Sales

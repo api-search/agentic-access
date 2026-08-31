@@ -104,9 +104,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/backen
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/agentic-access/backendless-agentic-access.yml
 summary_line: 26 operations · 16 acting · 1 human-in-the-loop
 tags:
-- Backend-as-a-Service
+- BaaS
+- Backend as a Service
 - Visual Development
-- Low-Code
+- Low Code
 - Database
 - Real-Time
 ---

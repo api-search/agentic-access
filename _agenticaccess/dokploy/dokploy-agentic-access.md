@@ -485,7 +485,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dokplo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/agentic-access/dokploy-agentic-access.yml
 summary_line: 526 operations · 339 acting · 15 human-in-the-loop
 tags:
-- Platform-as-a-Service
+- PaaS
 - Self-Hosted
 - Open-Source
 - Docker

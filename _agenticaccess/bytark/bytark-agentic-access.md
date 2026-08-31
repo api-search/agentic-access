@@ -55,7 +55,7 @@ summary_line: 7 operations · 5 acting
 tags:
 - Video
 - Streaming
-- Video-on-Demand
+- Video on Demand
 - Live Streaming
 - CDN
 - Object Storage

@@ -81,8 +81,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/xano-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/agentic-access/xano-agentic-access.yml
 summary_line: 37 operations · 21 acting
 tags:
-- No-Code
-- Backend-as-a-Service
+- No Code
+- Backend as a Service
+- BaaS
 - API Builder
 - Database
 - Serverless

@@ -60,7 +60,7 @@ summary_line: 4 operations · 3 acting
 tags:
 - AI Inference
 - Large Language Models
-- Dataflows
+- Dataflow
 - Hardware
 - Cloud
 - OpenAI-Compatible

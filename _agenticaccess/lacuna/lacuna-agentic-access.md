@@ -55,7 +55,7 @@ tags:
 - Songwriting
 - Generative AI
 - MCP Server
-- AgentSkill
+- Agent Skill
 - A2A
 - Developer Tools
 ---

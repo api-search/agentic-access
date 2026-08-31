@@ -101,7 +101,7 @@ summary_line: 31 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Compute
 - Interactive Computing
-- Kernel
+- Kernels
 - Notebooks
 - Portable
 - Workbooks

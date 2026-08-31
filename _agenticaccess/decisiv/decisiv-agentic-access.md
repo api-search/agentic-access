@@ -578,14 +578,14 @@ summary_line: 272 operations · 108 acting
 tags:
 - Company
 - commercial-vehicle
-- Fleet Management
+- fleet-management
 - service-relationship-management
-- Telematics
-- Asset Management
+- telematics
+- asset-management
 - maintenance-and-repair
-- Heavy Duty Trucking
+- heavy-duty-trucking
 - Transportation
-- Dealer Management
-- JSON:API
+- dealer-management
+- json-api
 - Webhook
 ---

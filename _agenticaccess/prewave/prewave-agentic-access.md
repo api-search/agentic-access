@@ -238,7 +238,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prewave/refs/h
 summary_line: 117 operations · 46 acting · 2 human-in-the-loop
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Supply Chain
 - Risk Intelligence
 - Sustainability

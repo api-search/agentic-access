@@ -72,16 +72,16 @@ source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/harmon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/agentic-access/harmonic-ai-agentic-access.yml
 summary_line: 113 operations · 70 acting
 tags:
-- Startup Intelligence
-- Venture Capital
-- Company Data
-- People Data
+- startup-intelligence
+- venture-capital
+- company-data
+- people-data
 - investor-data
 - funding-data
 - Data Enrichment
-- Sales Intelligence
+- sales-intelligence
 - Market Intelligence
-- GraphQL
+- graphql
 - MCP
 - agent-native
 ---

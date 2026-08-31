@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/
 summary_line: 10 operations · 5 acting
 tags:
 - Deployment
-- Platform-as-a-Service
+- PaaS
 - Infrastructure
 - DevOps
 ---

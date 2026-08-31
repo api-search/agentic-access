@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/simple
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/agentic-access/simplelegal-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
-- E-Billing
+- eBilling
 - Enterprise Legal Management
 - Legal Operations
 - Legal Spend Management

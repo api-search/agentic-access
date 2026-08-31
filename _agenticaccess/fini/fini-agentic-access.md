@@ -119,6 +119,6 @@ tags:
 - Knowledge-Management
 - Conversational AI
 - Voice AI
-- Help Desk
+- Helpdesk
 - Regulated Industries
 ---

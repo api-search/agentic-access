@@ -125,9 +125,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/he
 summary_line: 64 operations · 36 acting
 tags:
 - Automation
-- Data Sync
+- DataSync
 - Gateways
-- No-Code
+- NoCode
 - Streaming
 - Workflows
 ---

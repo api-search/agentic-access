@@ -123,7 +123,7 @@ tags:
 - Covers
 - Libraries
 - Open Data
-- Reading lists
+- Reading Lists
 - Search
 - Subjects
 ---

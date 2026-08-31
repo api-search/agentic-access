@@ -22,6 +22,12 @@ api_specs:
   slug: adobe-premiere-representations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-representations-api-openapi.yml
+- filename: adobe-premiere-cc-libraries-api-openapi.json
+  format: json
+  label: Adobe Creative Cloud Libraries API
+  slug: adobe-creative-cloud-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-cc-libraries-api-openapi.json
 consequence_counts:
   read: 5
   write: 5

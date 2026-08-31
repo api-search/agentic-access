@@ -237,7 +237,7 @@ summary_line: 74 operations · 19 acting
 tags:
 - Cannabis
 - ERP
-- Seed-to-Sale
+- Seed to Sale
 - Compliance
 - Inventory Management
 - Supply Chain

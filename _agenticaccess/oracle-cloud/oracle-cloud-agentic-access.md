@@ -223,15 +223,15 @@ summary_line: 81 operations · 42 acting · 2 human-in-the-loop
 tags:
 - Cloud Computing
 - Enterprise Cloud
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Oracle
 - Platform-as-a-Service
 - Compute
-- Object-Storage
-- Identity-and-Access-Management
+- Object Storage
+- Identity and Access Management
 - Database
 - Kubernetes
 - Serverless
 - Monitoring
-- Event-Driven
+- Event Driven
 ---

@@ -75,10 +75,10 @@ source_yaml: "generated: '2026-08-11'\nmethod: generated\nsource: openapi/qr-cod
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/agentic-access/qr-code-crafter-agentic-access.yml
 summary_line: 19 operations · 13 acting
 tags:
-- QR Code
-- QR Code Generation
-- Static Qr
-- Dynamic QR
+- QR code
+- QR code generation
+- static QR
+- dynamic QR
 - dynamic redirects
 - image export
 - bulk generation

@@ -122,7 +122,7 @@ tags:
 - Human Resources
 - Benefits
 - Health Insurance
-- 401k
+- 401(k)
 - Time Off
 - Compliance
 - Small Business

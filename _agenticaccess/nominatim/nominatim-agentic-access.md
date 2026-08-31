@@ -77,7 +77,7 @@ tags:
 - Geocoding
 - OpenStreetMap
 - Maps
-- Location Services
-- Open-Source
+- LocationServices
+- OpenSource
 - Public APIs
 ---

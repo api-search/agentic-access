@@ -74,10 +74,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uppsal
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/agentic-access/uppsala-agentic-access.yml
 summary_line: 7 operations
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
 - Sweden
+- Public Research University
+- Research Data
+- Institutional Repository
+- Identity Federation
+- Research Computing
+- Conflict Data
+- Open Access
 ---

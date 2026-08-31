@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/agentic-access/amazon-clean-rooms-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
-- Clean Rooms
+- Cleanrooms
 - Data Collaboration
 - Privacy
 - Analytics

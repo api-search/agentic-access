@@ -86,6 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudwatch/ref
 summary_line: 25 operations · 25 acting · 1 human-in-the-loop
 tags:
 - Alarms
+- Aws
 - Dashboards
 - Logs
 - Metrics

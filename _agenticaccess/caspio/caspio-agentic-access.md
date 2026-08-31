@@ -81,8 +81,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/caspio
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/agentic-access/caspio-agentic-access.yml
 summary_line: 22 operations · 10 acting
 tags:
-- Low-Code
-- No-Code
+- Low Code
+- No Code
 - Database
 - Application Platform
 - Cloud Database

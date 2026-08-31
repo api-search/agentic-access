@@ -87,7 +87,7 @@ summary_line: 12 operations · 5 acting
 tags:
 - Bills of Lading
 - Documentation
-- eBOL
+- eBoL
 - EssDocs
 - MLETR
 - Shipping

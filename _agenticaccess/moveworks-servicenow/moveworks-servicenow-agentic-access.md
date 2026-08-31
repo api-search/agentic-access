@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moveworks-serv
 summary_line: 5 operations
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - AI Assistant
 - Agentic AI
 - Enterprise Automation

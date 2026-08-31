@@ -108,6 +108,6 @@ tags:
 - Containers
 - Multi-Cloud
 - Open-Source
-- Platform-as-a-Service
+- PaaS
 - Platform
 ---

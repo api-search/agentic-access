@@ -275,7 +275,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/virto-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/agentic-access/virto-commerce-agentic-access.yml
 summary_line: 426 operations · 283 acting · 9 human-in-the-loop
 tags:
-- B2B E-Commerce
+- B2B eCommerce
 - Catalog Management
 - Order Management
 - Pricing

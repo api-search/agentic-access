@@ -87,7 +87,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/he
 summary_line: 24 operations · 4 acting
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Employee Engagement
 - Employee Experience
 - HR Tech

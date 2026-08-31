@@ -68,7 +68,7 @@ summary_line: 12 operations · 4 acting
 tags:
 - Company
 - Fintech
-- Stablecoins
+- Stablecoin
 - Digital Dollar
 - Payments
 - Cryptocurrency

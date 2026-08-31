@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/he
 summary_line: 6 operations · 4 acting
 tags:
 - Artificial Intelligence
-- Text-to-Speech
+- Text to Speech
 - TTS
 - Voice
 - Speech Synthesis

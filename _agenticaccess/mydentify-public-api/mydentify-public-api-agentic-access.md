@@ -79,14 +79,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/mydent
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/agentic-access/mydentify-public-api-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
-- Product Discovery
+- product discovery
 - startup directories
-- Leaderboards
-- Research
+- leaderboards
+- research
 - Software-as-a-Service
 - Developer Tools
 - agent-native
 - llms-txt
-- Agent Skills
+- agent skills
 - Directories
 ---

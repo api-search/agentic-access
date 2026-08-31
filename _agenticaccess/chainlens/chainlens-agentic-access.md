@@ -331,7 +331,7 @@ tags:
 - DeFi
 - Ethereum
 - EVM
-- NFT
+- NFTs
 - Smart Contracts
 - Web3
 ---

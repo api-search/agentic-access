@@ -132,5 +132,5 @@ tags:
 - DevOps
 - Enterprise
 - Kubernetes
-- Platform-as-a-Service
+- PaaS
 ---

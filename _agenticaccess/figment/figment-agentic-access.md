@@ -306,16 +306,16 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/figmen
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/agentic-access/figment-agentic-access.yml
 summary_line: 129 operations · 87 acting · 1 human-in-the-loop
 tags:
-- Staking
+- staking
 - Blockchain
-- Digital Assets
-- Proof of Stake
-- Validators
-- Institutional Finance
+- digital-assets
+- proof-of-stake
+- validators
+- institutional-finance
 - rewards-reporting
-- Ethereum
-- Solana
-- Web3 Infrastructure
-- Custody
+- ethereum
+- solana
+- web3-infrastructure
+- custody
 - x402
 ---

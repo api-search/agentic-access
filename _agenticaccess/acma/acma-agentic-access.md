@@ -85,7 +85,7 @@ tags:
 - Broadcasting
 - Numbering
 - Do Not Call Register
-- Radio Communications
+- Radiocommunications
 - Licensing
 - Open Data
 - Government

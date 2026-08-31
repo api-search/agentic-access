@@ -4,6 +4,42 @@ action_class_counts:
   acting: 13
   connected: 17
 api_specs:
+- filename: acronis-resource-policy-management-v4-openapi.json
+  format: json
+  label: Acronis Resource and Policy Management API
+  slug: resource-and-policy-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-resource-policy-management-v4-openapi.json
+- filename: acronis-advanced-automation-v1-openapi.json
+  format: json
+  label: Acronis Advanced Automation API
+  slug: advanced-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-advanced-automation-v1-openapi.json
+- filename: acronis-events-v1-openapi.json
+  format: json
+  label: Acronis Event Manager API
+  slug: event-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-events-v1-openapi.json
+- filename: acronis-disaster-recovery-v2-openapi.json
+  format: json
+  label: Acronis Disaster Recovery Service API
+  slug: disaster-recovery-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-disaster-recovery-v2-openapi.json
+- filename: acronis-mdr-v1-openapi.json
+  format: json
+  label: Acronis Endpoint Detection and Response API
+  slug: endpoint-detection-and-response-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-mdr-v1-openapi.json
+- filename: acronis-vaultman-v1-openapi.json
+  format: json
+  label: Acronis Vault Manager REST API
+  slug: vault-manager-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-vaultman-v1-openapi.json
 - filename: acronis-activities-api-openapi.yml
   format: yaml
   label: Acronis Activities API
@@ -16,12 +52,12 @@ api_specs:
   slug: acronis-agent-updates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-agent-updates-api-openapi.yml
-- filename: acronis-agents-api-openapi.yml
-  format: yaml
+- filename: acronis-agents-v2-openapi.json
+  format: json
   label: Acronis Agents API
   slug: acronis-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-agents-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-agents-v2-openapi.json
 - filename: acronis-authentication-api-openapi.yml
   format: yaml
   label: Acronis Authentication API
@@ -46,12 +82,12 @@ api_specs:
   slug: acronis-licensing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-licensing-api-openapi.yml
-- filename: acronis-tasks-api-openapi.yml
-  format: yaml
+- filename: acronis-tasks-v2-openapi.json
+  format: json
   label: Acronis Tasks API
   slug: acronis-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-tasks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-tasks-v2-openapi.json
 - filename: acronis-tenants-api-openapi.yml
   format: yaml
   label: Acronis Tenants API
@@ -70,6 +106,30 @@ api_specs:
   slug: acronis-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-users-api-openapi.yml
+- filename: acronis-account-management-v2-openapi.json
+  format: json
+  label: Acronis Account Management API
+  slug: account-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-account-management-v2-openapi.json
+- filename: acronis-alerts-v1-openapi.json
+  format: json
+  label: Acronis Alert Manager API
+  slug: alert-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-alerts-v1-openapi.json
+- filename: acronis-pricelist-v1-openapi.json
+  format: json
+  label: Acronis Price List API
+  slug: price-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-pricelist-v1-openapi.json
+- filename: acronis-files-v1-openapi.json
+  format: json
+  label: Acronis File Sync & Share API
+  slug: file-sync-and-share-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-files-v1-openapi.json
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -119,4 +179,9 @@ tags:
 - Cybersecurity
 - Data Protection
 - Endpoint Management
+- Backup and Recovery
+- Disaster Recovery
+- Managed Service Providers
+- Endpoint Detection and Response
+- Cloud Storage
 ---

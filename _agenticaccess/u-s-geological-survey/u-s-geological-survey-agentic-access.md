@@ -3,6 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 11
 api_specs:
+- filename: openapi
+  format: yaml
+  label: USGS Water Data APIs
+  slug: water-data-ogc-api
+  spec_type: OpenAPI
+  url: https://api.waterdata.usgs.gov/ogcapi/v0/openapi
 - filename: u-s-geological-survey-catalog-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Catalog API
@@ -279,7 +285,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/usgs-e
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/agentic-access/u-s-geological-survey-agentic-access.yml
 summary_line: 11 operations
 tags:
-- Federal Government
+- Federal-Government
 - Geological
 - Earth Science
 - Natural Resources

@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads
 summary_line: 12 operations · 5 acting
 tags:
 - Experimentation
-- A/B Testing
+- AB Testing
 - Personalization
 - Conversion Optimization
 - Feature Flags

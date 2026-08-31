@@ -88,5 +88,5 @@ tags:
 - Terraform Provider
 - API Reference
 - DevTools
-- API-First
+- API First
 ---

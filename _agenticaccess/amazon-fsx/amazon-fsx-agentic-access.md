@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/agentic-access/amazon-fsx-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- Filesystem
+- File Systems
 - Lustre
 - NetApp
 - OpenZFS

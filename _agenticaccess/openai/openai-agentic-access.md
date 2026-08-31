@@ -424,17 +424,5 @@ summary_line: 307 operations · 183 acting · 6 human-in-the-loop
 tags:
 - Artificial Intelligence
 - Large Language Models
-- Machine Learning
-- Generative AI
-- Foundation Models
-- Embeddings
-- Speech Recognition
-- Text To Speech
-- Image Generation
-- Content Moderation
-- Vector Search
-- Agents
-- Model Context Protocol
-- Developer Tools
 - T1
 ---

@@ -138,7 +138,7 @@ tags:
 - Cars
 - License Plate Decoder
 - OBD-II
-- Power-Sports
+- Power Sports
 - Vehicle API
 - Vehicle Specifications
 - Vehicles

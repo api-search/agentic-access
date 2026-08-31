@@ -90,5 +90,5 @@ tags:
 - Image-Generation
 - 3D
 - Dream Machine
-- Multi-Modal
+- Multimodal
 ---

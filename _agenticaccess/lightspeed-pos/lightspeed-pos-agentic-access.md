@@ -255,7 +255,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lights
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/agentic-access/lightspeed-pos-agentic-access.yml
 summary_line: 124 operations · 53 acting
 tags:
-- Point-of-Sale
+- POS
 - Retail
 - Restaurant
 - E-Commerce

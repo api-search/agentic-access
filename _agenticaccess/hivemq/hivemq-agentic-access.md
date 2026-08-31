@@ -79,6 +79,6 @@ tags:
 - IoT
 - Messaging
 - Message Broker
-- Pub-Sub
+- Pub Sub
 - WebSocket
 ---

@@ -64,20 +64,20 @@ summary_line: 17 operations · 5 acting
 tags:
 - dermatology-api
 - ai-dermatology
-- Medical Imaging
-- Telemedicine
+- medical-imaging
+- telemedicine
 - skin-analysis
 - REST API
 - OpenAPI
 - llms-txt
 - ce-marked
-- White Label
-- Healthcare
-- Medical AI
-- Computer-Vision
-- Medical Device
-- ICD-10
+- white-label
+- healthcare
+- medical-ai
+- computer-vision
+- medical-device
+- icd-10
 - image-classification
-- Clinical Decision Support
+- clinical-decision-support
 - triage
 ---

@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-augment
 summary_line: 5 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Amazon Augmented AI
-- Human-in-the-Loop
+- Human In The Loop
 - Machine-Learning
 - AI Review
 ---

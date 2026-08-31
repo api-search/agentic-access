@@ -102,6 +102,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delighted/refs
 summary_line: 18 operations · 9 acting
 tags:
 - NPS
+- Net Promoter Score
 - CSAT
 - Customer Satisfaction
 - CES

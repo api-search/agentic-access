@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs
 summary_line: 17 operations · 9 acting
 tags:
 - Company
-- Ai Ml
+- AI/ML
 - Generative AI
 - Conversational AI
 - LLM Gateway

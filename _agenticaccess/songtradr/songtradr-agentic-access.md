@@ -71,15 +71,15 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/songtr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/agentic-access/songtradr-agentic-access.yml
 summary_line: 19 operations · 8 acting · 2 human-in-the-loop
 tags:
-- Music
-- Music Licensing
-- Sync Licensing
-- Music Metadata
+- music
+- music-licensing
+- sync-licensing
+- music-metadata
 - audio-tagging
-- Semantic Search
-- Machine-Learning
+- semantic-search
+- machine-learning
 - Media
-- Entertainment
-- Rights Management
+- entertainment
+- rights-management
 - Audio
 ---

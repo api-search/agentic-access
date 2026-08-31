@@ -102,14 +102,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unstru
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/agentic-access/unstructured-agentic-access.yml
 summary_line: 46 operations · 24 acting
 tags:
-- Document Processing
+- document-processing
 - ETL
 - RAG
 - LLM
 - PDF
 - OCR
-- Data Ingestion
-- Chunking
+- data-ingestion
+- chunking
 - Embeddings
 - Artificial Intelligence
 ---

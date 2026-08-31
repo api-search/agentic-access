@@ -136,7 +136,7 @@ summary_line: 23 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Gaming
 - Backend
-- Backend-as-a-Service
+- BaaS
 - Live Services
 - Player Accounts
 - Commerce

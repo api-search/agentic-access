@@ -61,7 +61,7 @@ summary_line: 7 operations · 3 acting
 tags:
 - Anti Malware
 - Blacklist
-- Cybersecurity
+- Cyber Security
 - IP Reputation
 - Network Security
 - Public APIs

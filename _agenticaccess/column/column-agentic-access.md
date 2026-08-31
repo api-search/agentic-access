@@ -202,7 +202,7 @@ summary_line: 44 operations · 21 acting
 tags:
 - Fintech
 - Banking
-- Backend-as-a-Service
+- BaaS
 - ACH
 - Wires
 ---

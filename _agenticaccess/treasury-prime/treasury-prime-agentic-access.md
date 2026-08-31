@@ -134,7 +134,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/treasury-prime
 summary_line: 38 operations · 17 acting
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Banking
 - Payments
 - Card Issuing

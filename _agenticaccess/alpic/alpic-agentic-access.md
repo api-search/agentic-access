@@ -95,7 +95,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/hea
 summary_line: 24 operations · 11 acting
 tags:
 - Company
-- Ai Ml
+- Ai/Ml
 - MCP
 - Cloud Platform
 - Developer Tools

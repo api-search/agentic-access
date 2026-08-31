@@ -62,7 +62,7 @@ tags:
 - Rubrics
 - Verifiers
 - RL Environments
-- Multi-Modal
+- Multimodal
 - Internationalization
 - Labeling
 ---

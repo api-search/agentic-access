@@ -268,7 +268,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/
 summary_line: 365 operations · 166 acting · 2 human-in-the-loop
 tags:
 - Company
-- MarTech
+- Martech
 - Marketing
 - Marketing Automation
 - Customer Engagement

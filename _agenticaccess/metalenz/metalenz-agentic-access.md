@@ -89,7 +89,7 @@ tags:
 - Face Authentication
 - Polarization Imaging
 - 3D Sensing
-- Computer Vision
+- Computer-Vision
 - Consumer Electronics
 - Automotive
 - Robotics

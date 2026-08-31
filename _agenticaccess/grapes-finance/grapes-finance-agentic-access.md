@@ -78,9 +78,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/grapes
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/agentic-access/grapes-finance-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
-- Stablecoins
-- On-Ramp
-- Off-Ramp
+- Stablecoin
+- Onramp
+- Offramp
 - Fiat
 - Payments
 - Cryptocurrency

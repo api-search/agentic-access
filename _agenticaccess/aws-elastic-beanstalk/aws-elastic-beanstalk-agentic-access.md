@@ -39,7 +39,7 @@ summary_line: 1 operation · 1 acting
 tags:
 - Platform-as-a-Service
 - Application Deployment
-- Auto-Scaling
+- Auto Scaling
 - Cloud
 - DevOps
 ---

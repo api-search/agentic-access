@@ -90,7 +90,7 @@ summary_line: 22 operations · 12 acting
 tags:
 - Company
 - Warranties
-- Protection-Plans
+- Protection Plans
 - Consumer Electronics
 - Repairs
 - Insurance

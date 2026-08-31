@@ -5,10 +5,16 @@ action_class_counts:
 api_specs:
 - filename: lund-publication-api-openapi.yml
   format: yaml
-  label: Lund University Publication API
+  label: Lund University Publications Search API
   slug: lund-publication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-publication-api-openapi.yml
+- filename: lund-student-papers-api-openapi.yml
+  format: yaml
+  label: LUP Student Papers Search API
+  slug: lup-student-papers
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-student-papers-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -37,12 +43,16 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lund-l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/agentic-access/lund-agentic-access.yml
 summary_line: 2 operations
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Sweden
+- Europe
 - Research
-- Library
-- Open Data
+- Research Repository
 - Publications
+- Library
+- Open Metadata
+- Identity Federation
+- OAI-PMH
 ---

@@ -672,7 +672,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/h
 summary_line: 436 operations · 204 acting · 12 human-in-the-loop
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Card Issuing
 - Payments
 - Embedded Finance

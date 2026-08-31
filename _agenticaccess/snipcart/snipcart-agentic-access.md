@@ -118,5 +118,5 @@ tags:
 - Payments
 - Webhook
 - Headless Commerce
-- JAMstack
+- Jamstack
 ---

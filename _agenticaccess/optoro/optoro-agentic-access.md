@@ -221,14 +221,14 @@ source_yaml: "generated: '2026-08-26'\nmethod: generated\nsource: openapi/optoro
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/agentic-access/optoro-agentic-access.yml
 summary_line: 32 operations · 23 acting
 tags:
-- Returns Management
-- Reverse Logistics
+- returns-management
+- reverse-logistics
 - Retail
 - Supply Chain
-- eCommerce
-- Fulfillment
-- Drop Ship
+- E-Commerce
+- fulfillment
+- drop-ship
 - Inventory
-- Webhooks
-- Order Management
+- Webhook
+- order-management
 ---

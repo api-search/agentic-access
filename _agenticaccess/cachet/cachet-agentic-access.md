@@ -58,7 +58,7 @@ summary_line: 4 operations · 4 acting
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Mobility
 - Gig Economy
 - Car Sharing

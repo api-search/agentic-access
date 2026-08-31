@@ -108,18 +108,18 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/agentic-access/coyote-agentic-access.yml
 summary_line: 22 operations · 11 acting
 tags:
-- Freight Brokerage
+- freight brokerage
 - Logistics
 - Truckload
 - LTL
-- Less-Than-Truckload
+- less-than-truckload
 - Shipping
-- Supply Chain
+- supply chain
 - freight quotes
-- Shipment Tracking
-- Load Management
+- shipment tracking
+- load management
 - 3PL
-- Customs Brokerage
+- customs brokerage
 - carrier API
 - shipper API
 ---

@@ -86,7 +86,7 @@ summary_line: 13 operations · 6 acting
 tags:
 - Voice
 - TTS
-- Text-to-Speech
+- Text to Speech
 - Voice Cloning
 - Voice Agents
 - Streaming

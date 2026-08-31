@@ -345,9 +345,4 @@ tags:
 - Machine-Learning
 - MCP
 - Agents
-- Agent Skills
-- Generative AI
-- Model Context Protocol
-- LLM APIs
-- AI Safety
 ---

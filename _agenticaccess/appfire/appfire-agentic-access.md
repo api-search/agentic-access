@@ -84,16 +84,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/appfir
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appfire/refs/heads/main/agentic-access/appfire-agentic-access.yml
 summary_line: 41 operations · 27 acting · 2 human-in-the-loop
 tags:
-- Atlassian
-- Jira
-- Confluence
-- Project Portfolio Management
-- Work Management
-- Time Tracking
-- OKR
-- Workflow-Automation
-- Azure DevOps
+- atlassian
+- jira
+- confluence
+- project-portfolio-management
+- work-management
+- time-tracking
+- okr
+- workflow-automation
+- azure-devops
 - marketplace-apps
-- Document Workflow
-- Enterprise Software
+- document-workflow
+- enterprise-software
 ---

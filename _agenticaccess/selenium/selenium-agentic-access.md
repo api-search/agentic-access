@@ -84,7 +84,7 @@ summary_line: 13 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Automation
 - Browsers
-- End-to-End Testing
+- End-To-End Testing
 - Quality Assurance
 - Testing
 - WebDriver

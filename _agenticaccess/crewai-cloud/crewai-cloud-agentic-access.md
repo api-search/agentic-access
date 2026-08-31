@@ -72,5 +72,5 @@ tags:
 - Managed Agents
 - Automations
 - Observability
-- Human-in-the-Loop
+- Human In The Loop
 ---

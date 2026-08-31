@@ -243,15 +243,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/sarj-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/agentic-access/sarj-ai-developer-api-agentic-access.yml
 summary_line: 118 operations · 70 acting · 2 human-in-the-loop
 tags:
-- Voice AI
-- Voice Agents
-- Conversational AI
+- voice AI
+- voice agents
+- conversational AI
 - Arabic AI
-- Outbound Calls
-- Telephony
-- Speech-to-Text
-- Text-to-Speech
-- Voice Cloning
+- outbound calls
+- telephony
+- speech to text
+- text to speech
+- voice cloning
 - MCP
 - agent-native
 - Saudi Arabia

@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/
 summary_line: 10 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Identity
 - Authentication
 - OpenID Connect

@@ -59,13 +59,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/routif
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/agentic-access/routific-agentic-access.yml
 summary_line: 6 operations · 5 acting
 tags:
-- Route Optimization
+- RouteOptimization
 - VRP
-- Pickup and Delivery
+- PickupAndDelivery
 - Logistics
-- Last Mile Delivery
+- LastMileDelivery
 - Delivery
-- Fleet Management
+- FleetManagement
 - Dispatch
-- Delivery Management
+- DeliveryManagement
 ---

@@ -105,6 +105,6 @@ tags:
 - Bus
 - Booking
 - Mobility
-- Multi-Modal
+- Multimodal
 - Ticketing
 ---

@@ -118,6 +118,12 @@ api_specs:
   slug: acquia-teams-and-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-teams-and-permissions-api-openapi.yml
+- filename: acquia-content-api-openapi.yaml
+  format: yaml
+  label: Acquia Content API
+  slug: acquia-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-content-api-openapi.yaml
 consequence_counts:
   physical: 8
   read: 354
@@ -313,4 +319,10 @@ summary_line: 638 operations · 284 acting · 24 human-in-the-loop
 tags:
 - Content
 - Experience
+- Drupal
+- DXP
+- CMS
+- Digital Asset Management
+- Cloud Hosting
+- Headless
 ---

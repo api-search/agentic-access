@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/goto-g
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/agentic-access/goto-gojek-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
-- Super App
+- Superapp
 - Ride Hailing
 - Food Delivery
 - Last-Mile Logistics

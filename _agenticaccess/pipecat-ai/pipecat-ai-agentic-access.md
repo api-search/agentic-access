@@ -81,7 +81,7 @@ summary_line: 24 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence
 - Voice
-- Multi-Modal
+- Multimodal
 - Agents
 - Real-Time
 - Framework

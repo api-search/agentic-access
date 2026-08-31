@@ -156,13 +156,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads
 summary_line: 45 operations · 26 acting
 tags:
 - Artificial Intelligence
-- Customer Service
+- customer-service
 - Chatbots
-- Automation
-- Conversational AI
-- Help Desk
+- automation
+- conversational-ai
+- helpdesk
 - CRM
 - Integration
-- Knowledge-Management
-- Data Export
+- knowledge-management
+- data-export
 ---

@@ -129,7 +129,7 @@ summary_line: 44 operations · 25 acting · 1 human-in-the-loop
 tags:
 - Real-Time
 - WebSockets
-- Pub-Sub
+- Pub/Sub
 - Messaging
 - Streaming
 - Push Notifications

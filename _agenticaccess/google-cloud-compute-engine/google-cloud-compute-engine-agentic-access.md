@@ -61,7 +61,7 @@ summary_line: 7 operations · 2 acting
 tags:
 - Compute
 - Google Cloud
-- Infrastructure-as-a-Service
+- IaaS
 - Infrastructure
 - Virtual Machines
 ---

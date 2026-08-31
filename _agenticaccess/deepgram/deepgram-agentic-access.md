@@ -119,8 +119,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/
 summary_line: 24 operations · 11 acting
 tags:
 - Artificial Intelligence
-- Speech-to-Text
-- Text-to-Speech
+- Speech-To-Text
+- Text-To-Speech
 - Transcription
 - Voice AI
 ---

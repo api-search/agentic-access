@@ -148,8 +148,8 @@ tags:
 - Company
 - Ai Ml
 - App Builder
-- Low-Code
-- No-Code
+- Low Code
+- No Code
 - Developer Tools
 - AI Agents
 - Mobile

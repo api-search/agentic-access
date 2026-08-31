@@ -195,5 +195,5 @@ tags:
 - Fixtures
 - Injuries
 - Prediction Markets
-- Model Context Protocol
+- MCP
 ---

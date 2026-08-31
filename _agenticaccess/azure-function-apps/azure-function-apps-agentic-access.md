@@ -68,7 +68,7 @@ summary_line: 37 operations · 26 acting
 tags:
 - Azure
 - Compute
-- Function-as-a-Service
+- FaaS
 - Functions
 - Serverless
 ---

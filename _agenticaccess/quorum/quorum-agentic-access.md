@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/he
 summary_line: 9 operations · 2 acting
 tags:
 - Energy
-- Oil and Gas
+- Oil & Gas
 - Upstream
 - Land Management
 - Royalty Accounting

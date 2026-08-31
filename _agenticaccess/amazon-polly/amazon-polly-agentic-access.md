@@ -70,7 +70,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Speech Synthesis
-- Text-to-Speech
+- Text-To-Speech
 - TTS
 - Voice
 - SSML

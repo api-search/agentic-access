@@ -231,7 +231,7 @@ tags:
 - Instant Payments
 - SEPA
 - Smart Transfer
-- Request to Pay
+- Request To Pay
 - Buy Now Pay Later
 - E-Mandates
 - Account-to-Account

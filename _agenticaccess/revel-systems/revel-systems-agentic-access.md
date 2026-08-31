@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/revel-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revel-systems/refs/heads/main/agentic-access/revel-systems-agentic-access.yml
 summary_line: 13 operations · 5 acting
 tags:
-- Point-of-Sale
+- POS
 - Restaurant
 - Retail
 - iPad

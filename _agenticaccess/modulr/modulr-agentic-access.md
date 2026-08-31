@@ -335,7 +335,7 @@ summary_line: 207 operations · 136 acting · 4 human-in-the-loop
 tags:
 - Payments
 - United Kingdom
-- Banking as a Service
+- Banking-as-a-Service
 - Embedded Finance
 - Payment Processing
 - Account-to-Account

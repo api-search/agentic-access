@@ -57,14 +57,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/agentic-access/noaa-erddap-agentic-access.yml
 summary_line: 9 operations
 tags:
-- Oceanography
-- Meteorology
-- Climate
-- Environmental Data
+- oceanography
+- meteorology
+- climate
+- environmental data
 - gridded data
-- Tabular Data
-- Scientific Data
-- Government
+- tabular data
+- scientific data
+- government
 - NOAA
-- Open Data
+- open data
 ---

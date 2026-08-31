@@ -875,24 +875,24 @@ source_yaml: "generated: '2026-08-17'\nmethod: generated\nsource: openapi/wazo-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wazo/refs/heads/main/agentic-access/wazo-agentic-access.yml
 summary_line: 932 operations · 540 acting · 26 human-in-the-loop
 tags:
-- Telephony
-- VoIP
-- Unified Communications
-- UCaaS
-- Contact Center
+- telephony
+- voip
+- unified-communications
+- ucaas
+- contact-center
 - SIP
 - asterisk
 - WebRTC
 - Open-Source
-- Self-Hosted
-- White Label
-- PBX
-- MSP
-- Call Center
+- self-hosted
+- white-label
+- pbx
+- msp
+- call-center
 - Provisioning
 - Webhook
-- Event-Driven
+- event-driven
 - Chat
-- Presence
+- presence
 - CDR
 ---

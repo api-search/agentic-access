@@ -259,7 +259,7 @@ tags:
 - Banking
 - Fintech
 - Acquiring
-- Point-of-Sale
+- POS
 - Collection
 - Disbursements
 - Virtual Accounts

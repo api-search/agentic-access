@@ -34,7 +34,7 @@ tags:
 - Beauty
 - Retail
 - Commerce
-- Ecommerce
+- E-Commerce
 - Consumer Services
 - Shopify
 - Agentic Commerce

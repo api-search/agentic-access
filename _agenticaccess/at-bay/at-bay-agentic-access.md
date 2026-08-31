@@ -74,7 +74,7 @@ tags:
 - Tech E&O
 - Professional Liability
 - MPL
-- Managed Detection and Response
+- Managed Detection And Response
 - MDR
 - Security Monitoring
 - Email Security
@@ -82,7 +82,7 @@ tags:
 - Incident Response
 - Brokers
 - Quoting
-- Bindings
+- Binding
 - Policy Lifecycle
 - Webhook
 ---

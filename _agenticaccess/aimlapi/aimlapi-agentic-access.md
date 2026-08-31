@@ -64,6 +64,12 @@ api_specs:
   slug: aimlapi-wip-completions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-wip-completions-api-openapi.yml
+- filename: aimlapi-inference-openapi.yml
+  format: yaml
+  label: AIMLAPI Inference API
+  slug: aimlapi-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-inference-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1

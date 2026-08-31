@@ -71,11 +71,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unfao/refs/hea
 summary_line: 11 operations
 tags:
 - Agriculture
-- food security
+- Food Security
 - Statistics
 - Trade
-- Land Use
-- Environment
+- land use
+- environment
 - UN
-- Open Data
+- open data
 ---

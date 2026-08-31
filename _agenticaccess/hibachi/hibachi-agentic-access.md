@@ -99,13 +99,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/h
 summary_line: 27 operations · 8 acting
 tags:
 - Company
-- DeFi
+- Defi
 - Cryptocurrency
 - Exchange
 - Perpetual Futures
 - Trading
 - Derivatives
-- Stablecoins
+- Stablecoin
 - WebSocket
 - Blockchain
 ---

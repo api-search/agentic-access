@@ -4,60 +4,18 @@ action_class_counts:
   acting: 1
   connected: 22
 api_specs:
-- filename: nthu-announcements-api-openapi.yml
+- filename: nthu-oauth-api-openapi.yml
   format: yaml
-  label: National Tsing Hua University Announcements API
-  slug: nthu-announcements-api
+  label: NTHU Academic Information System OAuth 2.0 Service
+  slug: nthu-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-announcements-api-openapi.yml
-- filename: nthu-buses-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-oauth-api-openapi.yml
+- filename: nthu-data-api.yaml
   format: yaml
-  label: National Tsing Hua University Buses API
-  slug: nthu-buses-api
+  label: NTHU Data API
+  slug: nthu-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-buses-api-openapi.yml
-- filename: nthu-courses-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Courses API
-  slug: nthu-courses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-courses-api-openapi.yml
-- filename: nthu-departments-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Departments API
-  slug: nthu-departments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-departments-api-openapi.yml
-- filename: nthu-dining-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Dining API
-  slug: nthu-dining-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-dining-api-openapi.yml
-- filename: nthu-energy-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Energy API
-  slug: nthu-energy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-energy-api-openapi.yml
-- filename: nthu-libraries-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Libraries API
-  slug: nthu-libraries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-libraries-api-openapi.yml
-- filename: nthu-locations-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Locations API
-  slug: nthu-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-locations-api-openapi.yml
-- filename: nthu-newsletters-api-openapi.yml
-  format: yaml
-  label: National Tsing Hua University Newsletters API
-  slug: nthu-newsletters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/nthu-newsletters-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/openapi/_original/nthu-data-api.yaml
 consequence_counts:
   read: 22
   write: 1
@@ -96,6 +54,12 @@ tags:
 - Higher Education
 - University
 - Taiwan
+- Public Research University
+- Identity
+- OAuth
 - Open Data
 - Campus
+- Course Catalog
+- Research Repository
+- Library
 ---

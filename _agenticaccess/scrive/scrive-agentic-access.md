@@ -134,7 +134,7 @@ tags:
 - E-Signature
 - Electronic Signing
 - Digital Identity
-- eID
+- e-ID
 - BankID
 - MitID
 - Nordic

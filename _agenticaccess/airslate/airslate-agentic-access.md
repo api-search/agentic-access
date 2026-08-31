@@ -135,7 +135,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airslate/refs/
 summary_line: 45 operations · 32 acting · 1 human-in-the-loop
 tags:
 - Document Automation
-- E-Signature
+- eSignature
 - Workflows
 - PDF
 - No-Code

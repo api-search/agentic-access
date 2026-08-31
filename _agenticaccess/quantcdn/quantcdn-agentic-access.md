@@ -351,7 +351,7 @@ tags:
 - CDN
 - Edge
 - Static Hosting
-- JAMstack
+- Jamstack
 - DNS
 - WAF
 - Edge Computing

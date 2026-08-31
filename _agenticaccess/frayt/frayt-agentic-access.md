@@ -97,8 +97,8 @@ tags:
 - Company
 - Last Mile Delivery
 - Logistics
-- Couriers
-- On-Demand Delivery
+- Courier
+- On Demand Delivery
 - Shipping
 - Freight
 - Supply Chain

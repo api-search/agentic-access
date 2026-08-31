@@ -111,7 +111,7 @@ summary_line: 18 operations · 2 acting
 tags:
 - Cloud
 - Containers
-- DevOps
+- Devops
 - Enterprise
 - Linux
 - Security

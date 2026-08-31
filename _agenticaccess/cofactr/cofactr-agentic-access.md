@@ -47,12 +47,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/h
 summary_line: 4 operations · 1 acting
 tags:
 - Company
-- Physical AI
+- Physical Ai
 - Component Intelligence
 - Electronics
 - Supply Chain
 - Procurement
 - Manufacturing
 - Hardware
-- Bill of Materials
+- Bill Of Materials
 ---

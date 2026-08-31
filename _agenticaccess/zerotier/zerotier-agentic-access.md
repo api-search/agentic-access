@@ -108,7 +108,7 @@ summary_line: 38 operations · 16 acting · 2 human-in-the-loop
 tags:
 - Company
 - Networking
-- Software Defined Networking
+- Software-Defined Networking
 - SDN
 - VPN
 - Security

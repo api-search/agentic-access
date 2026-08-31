@@ -76,7 +76,7 @@ tags:
 - Observability
 - Telemetry
 - ROS
-- ROS 2
+- ROS2
 - Edge Devices
 - Physical Operations
 - Incident Management

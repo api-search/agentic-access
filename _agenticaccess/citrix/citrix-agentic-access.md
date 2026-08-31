@@ -193,7 +193,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/he
 summary_line: 69 operations · 37 acting
 tags:
 - Application Delivery
-- Desktop as a Service
+- Desktop-As-A-Service
 - Networking
 - Virtualization
 - Workspace

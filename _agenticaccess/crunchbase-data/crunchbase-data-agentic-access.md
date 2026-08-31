@@ -140,10 +140,10 @@ summary_line: 421 operations · 153 acting
 tags:
 - Company Data
 - Web Intelligence
-- funding-data
+- Funding Data
 - Firmographics
 - B2B Data
-- investor-data
+- Investor Data
 - Reference Data
 - Private Markets
 - Predictions

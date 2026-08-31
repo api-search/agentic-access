@@ -229,17 +229,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/done/refs/head
 summary_line: 27 operations · 27 acting · 1 human-in-the-loop
 tags:
 - Developer Tools
-- Utility APIs
+- utility-apis
 - AI Agents
 - agent-native
 - x402
 - pay-per-call
 - Web3
-- Crypto Payments
-- DNS
+- crypto-payments
+- dns
 - Domains
-- Email Security
-- Network Security
+- email-security
+- network-security
 - SEO
 - OCR
 - Data

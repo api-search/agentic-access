@@ -101,16 +101,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riot/refs/head
 summary_line: 40 operations · 9 acting
 tags:
 - Cybersecurity
-- Security Awareness
-- Human Risk Management
-- Phishing Simulation
+- security-awareness
+- human-risk-management
+- phishing-simulation
 - employee-security
-- Security Posture Management
+- security-posture-management
 - breach-detection
-- Email Security
-- SaaS Security
+- email-security
+- saas-security
 - SCIM
 - Webhook
-- OCSF
-- France
+- ocsf
+- france
 ---

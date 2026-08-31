@@ -310,7 +310,7 @@ tags:
 - Wearables
 - Lab Testing
 - Digital Health
-- Health Tech
+- Healthtech
 - Healthcare
 - HIPAA
 - HealthKit

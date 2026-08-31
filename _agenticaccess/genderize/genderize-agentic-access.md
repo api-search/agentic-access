@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genderize/refs
 summary_line: 1 operation
 tags:
 - Gender
-- Name
+- Names
 - Prediction
 - Demographics
 - Machine-Learning

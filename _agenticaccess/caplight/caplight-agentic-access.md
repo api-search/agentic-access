@@ -132,14 +132,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/caplig
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/agentic-access/caplight-agentic-access.yml
 summary_line: 26 operations
 tags:
-- Private Markets
-- Secondary Market
+- private-markets
+- secondary-market
 - Market Data
-- Venture Capital
-- Company Data
+- venture-capital
+- company-data
 - investor-data
-- Funding Rounds
-- Pricing Data
+- funding-rounds
+- pricing-data
 - Financial Data
 - Fintech
 - MCP

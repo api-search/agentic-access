@@ -48,12 +48,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/scalab
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalable-software-and-systems/refs/heads/main/agentic-access/scalable-software-and-systems-agentic-access.yml
 summary_line: 11 operations · 7 acting
 tags:
-- API-First
+- API First
 - Architecture Patterns
 - CQRS
 - Distributed Systems
 - Enterprise
-- Event-Driven
+- Event Driven
 - Microservices
 - Scalable Architecture
 - Software Engineering

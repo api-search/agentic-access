@@ -85,7 +85,7 @@ summary_line: 24 operations · 15 acting
 tags:
 - Company
 - Voice
-- Text-to-Speech
+- Text to Speech
 - Dubbing
 - Localization
 - Speech Synthesis

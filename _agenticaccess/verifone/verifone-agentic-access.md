@@ -320,7 +320,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verifone/refs/
 summary_line: 78 operations · 60 acting
 tags:
 - Payments
-- Point-of-Sale
+- POS
 - Terminal Management
 - E-Commerce
 - Fintech

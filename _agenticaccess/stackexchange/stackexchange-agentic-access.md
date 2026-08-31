@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stacke
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/agentic-access/stackexchange-agentic-access.yml
 summary_line: 70 operations
 tags:
-- Q&A
+- Q And A
 - Developer Community
 - Knowledge Graph
 - Stack Overflow

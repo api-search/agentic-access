@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/he
 summary_line: 5 operations
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Sales Enablement
 - Revenue Enablement
 - Digital Adoption

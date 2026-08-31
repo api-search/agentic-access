@@ -61,7 +61,7 @@ summary_line: 7 operations · 4 acting
 tags:
 - Commercial Insurance
 - Insurance
-- Property and Casualty
+- Property And Casualty
 - Small Business
 - Workers Compensation
 - Fortune 1000

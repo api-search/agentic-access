@@ -710,15 +710,15 @@ source_yaml: "generated: '2026-08-12'\nmethod: generated\nsource: openapi/voyant
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/agentic-access/voyant-agentic-access.yml
 summary_line: 787 operations · 350 acting · 4 human-in-the-loop
 tags:
-- Artificial Intelligence
-- Context Management
-- Brand Governance
-- Product Marketing
+- artificial-intelligence
+- context-management
+- brand-governance
+- product-marketing
 - gtm-operations
-- Marketing Automation
-- Content Generation
+- marketing-automation
+- content-generation
 - Competitive Intelligence
-- Semantic Search
+- semantic-search
 - RAG
 - MCP
 - agent-native

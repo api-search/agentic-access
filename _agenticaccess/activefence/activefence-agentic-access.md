@@ -90,16 +90,16 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/active
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/agentic-access/activefence-agentic-access.yml
 summary_line: 18 operations · 16 acting · 1 human-in-the-loop
 tags:
-- AI Safety
-- AI Security
-- Trust and Safety
-- Content Moderation
-- Guardrails
-- Red Teaming
-- LLM Security
-- Prompt Injection
-- AI Governance
-- Risk Scoring
-- User Generated Content
-- Child Safety
+- ai-safety
+- ai-security
+- trust-and-safety
+- content-moderation
+- guardrails
+- red-teaming
+- llm-security
+- prompt-injection
+- ai-governance
+- risk-scoring
+- user-generated-content
+- child-safety
 ---

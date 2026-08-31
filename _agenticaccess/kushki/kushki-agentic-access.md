@@ -186,7 +186,7 @@ tags:
 - PSE
 - Webpay
 - SPEI
-- Pix
+- PIX
 - OXXO
 - PagoEfectivo
 - Fintech

@@ -287,5 +287,5 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/codat-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/agentic-access/codat-agentic-access.yml
 summary_line: 240 operations · 70 acting
 tags:
-- Unified-API
+- Unified_API
 ---

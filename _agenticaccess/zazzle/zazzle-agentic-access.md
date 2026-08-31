@@ -53,7 +53,7 @@ tags:
 - Company
 - E-Commerce
 - Marketplace
-- Print on Demand
+- Print On Demand
 - Manufacturing
 - Retail
 - Affiliates

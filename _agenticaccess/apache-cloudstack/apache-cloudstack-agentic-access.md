@@ -61,7 +61,7 @@ summary_line: 8 operations · 1 acting
 tags:
 - Apache
 - Cloud
-- Infrastructure-as-a-Service
+- IaaS
 - Infrastructure
 - Open-Source
 - Virtualization

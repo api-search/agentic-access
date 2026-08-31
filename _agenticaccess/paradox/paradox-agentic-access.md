@@ -150,7 +150,7 @@ summary_line: 59 operations · 34 acting
 tags:
 - Artificial Intelligence
 - Candidate Screening
-- Chatbots
+- Chatbot
 - Conversational AI
 - Hiring Automation
 - HR Technology

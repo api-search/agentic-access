@@ -37,16 +37,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/nutrie
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nutrientsdb/refs/heads/main/agentic-access/nutrientsdb-agentic-access.yml
 summary_line: 1 operation
 tags:
-- Nutrition
-- Food
-- Nutrients
-- Food Composition
+- nutrition
+- food
+- nutrients
+- food-composition
 - Data
 - Search
-- Sample Data
+- sample-data
 - Dataset
 - ai-builders
-- Reference Data
+- reference-data
 - Open Data
 - keyless-api
 ---

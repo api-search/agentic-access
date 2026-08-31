@@ -145,6 +145,6 @@ tags:
 - Web Scraping
 - Headless Browsers
 - Agent Infrastructure
-- Model Context Protocol
+- MCP
 - Cloud Browsers
 ---

@@ -155,7 +155,7 @@ summary_line: 67 operations · 37 acting · 2 human-in-the-loop
 tags:
 - Object Storage
 - Cloud Storage
-- S3 Compatible
+- S3-Compatible
 - Egress-Free
 - Buckets
 - Developer Platform

@@ -58,6 +58,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-timestr
 summary_line: 7 operations · 7 acting
 tags:
 - Database
-- IoT
+- Iot
 - Time Series
 ---

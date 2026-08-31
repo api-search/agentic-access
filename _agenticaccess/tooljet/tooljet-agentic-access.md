@@ -75,12 +75,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/toolje
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/agentic-access/tooljet-agentic-access.yml
 summary_line: 23 operations · 15 acting
 tags:
-- Low-Code
-- Internal Tools
+- low-code
+- internal tools
 - Open-Source
-- Application Builder
-- Workflow-Automation
-- No-Code
+- application builder
+- workflow automation
+- no-code
 - Dashboards
 - AI Agents
 ---

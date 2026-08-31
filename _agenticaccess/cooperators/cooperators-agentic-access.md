@@ -66,7 +66,7 @@ tags:
 - Life Insurance
 - Group Benefits
 - Embedded Insurance
-- Cooperative
+- Co-operative
 - Wealth Management
 - Partner API
 ---

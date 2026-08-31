@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reka/refs/head
 summary_line: 13 operations · 9 acting
 tags:
 - Artificial Intelligence
-- Multi-Modal
+- Multimodal
 - Large Language Models
 - Vision
 - Speech

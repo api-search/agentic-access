@@ -95,7 +95,7 @@ summary_line: 27 operations · 1 acting
 tags:
 - Fast Food
 - Restaurant
-- Food and Beverage
+- Food & Beverage
 - Loyalty
 - Mobile Ordering
 - Catering

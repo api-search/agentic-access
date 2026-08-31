@@ -403,7 +403,7 @@ tags:
 - Video
 - Streaming
 - Live Streaming
-- Video-on-Demand
+- Video On Demand
 - Transcoding
 - Media Server
 - RTMP

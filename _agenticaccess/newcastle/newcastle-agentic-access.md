@@ -3,28 +3,34 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
+- filename: newcastle-digitised-objects-api-openapi.yml
+  format: yaml
+  label: Digitised Objects Repository Search and Data API
+  slug: digitised-objects
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-digitised-objects-api-openapi.yml
 - filename: newcastle-entity-api-openapi.yml
   format: yaml
-  label: Newcastle University Entity API
-  slug: newcastle-entity-api
+  label: Urban Observatory API (Urban Sciences Building) — Entity
+  slug: urban-observatory-entity
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-entity-api-openapi.yml
 - filename: newcastle-feed-api-openapi.yml
   format: yaml
-  label: Newcastle University Feed API
-  slug: newcastle-feed-api
+  label: Urban Observatory API (Urban Sciences Building) — Feed
+  slug: urban-observatory-feed
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-feed-api-openapi.yml
 - filename: newcastle-summary-api-openapi.yml
   format: yaml
-  label: Newcastle University Summary API
-  slug: newcastle-summary-api
+  label: Urban Observatory API (Urban Sciences Building) — Summary
+  slug: urban-observatory-summary
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-summary-api-openapi.yml
 - filename: newcastle-timeseries-api-openapi.yml
   format: yaml
-  label: Newcastle University Timeseries API
-  slug: newcastle-timeseries-api
+  label: Urban Observatory API (Urban Sciences Building) — Timeseries
+  slug: urban-observatory-timeseries
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-timeseries-api-openapi.yml
 consequence_counts:
@@ -56,12 +62,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/newcas
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/agentic-access/newcastle-agentic-access.yml
 summary_line: 6 operations
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United Kingdom
-- Open Data
+- Russell Group
 - Research Data
-- Smart Cities
+- Open Data
 - Digital Library
+- Identity Federation
+- Smart Cities
+- Cultural Heritage
 ---

@@ -424,6 +424,6 @@ tags:
 - Compute
 - Storage
 - Kubernetes
-- Database-as-a-Service
+- DBaaS
 - Europe
 ---

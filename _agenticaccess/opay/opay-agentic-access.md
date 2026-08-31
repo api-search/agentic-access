@@ -89,7 +89,7 @@ tags:
 - Card Payments
 - USSD
 - Agent Banking
-- Point-of-Sale
+- POS
 - Bill Payments
 - Airtime
 - Cashier

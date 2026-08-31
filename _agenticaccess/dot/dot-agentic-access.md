@@ -85,7 +85,7 @@ tags:
 - Transportation
 - Trucking
 - Aviation
-- Vehicle Safety
+- VehicleSafety
 - Transit
 - Open Data
 ---

@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-nifi/re
 summary_line: 11 operations · 7 acting · 3 human-in-the-loop
 tags:
 - Data Integration
-- Dataflows
+- Dataflow
 - ETL
 - IoT
 - Streaming

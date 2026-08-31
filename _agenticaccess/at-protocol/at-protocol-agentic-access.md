@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/at-pro
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/agentic-access/at-protocol-agentic-access.yml
 summary_line: 20 operations · 8 acting · 3 human-in-the-loop
 tags:
-- At-Protocol
+- AT Protocol
 - atproto
 - Bluesky
 - Federation

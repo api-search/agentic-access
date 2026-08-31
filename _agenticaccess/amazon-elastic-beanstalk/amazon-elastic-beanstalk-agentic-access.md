@@ -60,9 +60,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic
 summary_line: 5 operations · 3 acting
 tags:
 - Amazon Web Services
-- Auto-Scaling
+- Auto Scaling
 - Deployment
 - Elastic Beanstalk
-- Platform-as-a-Service
+- PaaS
+- Platform As A Service
 - Web Applications
 ---

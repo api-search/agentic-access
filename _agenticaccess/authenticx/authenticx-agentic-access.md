@@ -154,15 +154,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authenticx/ref
 summary_line: 46 operations · 18 acting
 tags:
 - Conversation Intelligence
-- Healthcare
-- Speech Analytics
-- Contact Center
-- Customer Experience
-- Quality Assurance
-- Pharmacovigilance
-- Patient Experience
+- healthcare
+- speech-analytics
+- contact-center
+- customer-experience
+- quality-assurance
+- pharmacovigilance
+- patient-experience
 - Transcription
-- Life Sciences
+- life-sciences
 - SCIM
 - Authentication
 ---

@@ -46,7 +46,7 @@ summary_line: 3 operations · 3 acting
 tags:
 - Healthcare
 - EHR
-- e-Prescribing
+- E-Prescribing
 - Clinical Data
 - ONC Certified
 - CCDS

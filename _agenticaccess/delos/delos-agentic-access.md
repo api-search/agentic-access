@@ -127,15 +127,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delos/refs/hea
 summary_line: 39 operations · 23 acting · 1 human-in-the-loop
 tags:
 - wellness-real-estate
-- Indoor Air Quality
+- indoor-air-quality
 - indoor-environmental-quality
-- IoT
-- Smart Buildings
-- Building Automation
-- Air Purification
+- iot
+- smart-buildings
+- building-automation
+- air-purification
 - environmental-sensors
-- Commercial Real Estate
+- commercial-real-estate
 - healthy-buildings
-- Hospitality
+- hospitality
 - ESG
 ---

@@ -80,7 +80,7 @@ summary_line: 10 operations · 3 acting
 tags:
 - Food and Beverage
 - Restaurant
-- Back of House
+- Back Of House
 - Inventory
 - Procurement
 - Recipes

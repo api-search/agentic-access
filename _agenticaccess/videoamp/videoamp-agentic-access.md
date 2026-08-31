@@ -174,15 +174,15 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/videoa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/agentic-access/videoamp-agentic-access.yml
 summary_line: 118 operations · 57 acting · 4 human-in-the-loop
 tags:
-- Media Measurement
+- media-measurement
 - Advertising
-- AdTech
+- adtech
 - tv-currency
-- Audience Measurement
-- Media Planning
-- Streaming
+- audience-measurement
+- media-planning
+- streaming
 - Attribution
-- Data Collaboration
+- data-collaboration
 - MCP
 - agent-native
 ---

@@ -71,7 +71,7 @@ tags:
 - Yield Optimizer
 - Vault
 - ERC-4626
-- Cross-Chain
+- Cross-chain
 - Blockchain
 - Crypto
 - Risk

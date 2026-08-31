@@ -58,7 +58,7 @@ summary_line: 26 operations · 20 acting
 tags:
 - Cloud Computing
 - Compute
-- Infrastructure-as-a-Service
+- IaaS
 - Infrastructure
 - Virtual Machines
 ---

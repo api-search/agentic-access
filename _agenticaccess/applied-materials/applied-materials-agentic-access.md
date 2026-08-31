@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/applie
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/applied-materials/refs/heads/main/agentic-access/applied-materials-agentic-access.yml
 summary_line: 4 operations · 1 acting
 tags:
-- Semiconductors
+- Semiconductor
 - Manufacturing
 - Equipment
 - Fab Operations

@@ -227,20 +227,20 @@ source_yaml: "generated: '2026-08-17'\nmethod: generated\nsource: openapi/dotfil
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/agentic-access/dotfile-agentic-access.yml
 summary_line: 100 operations · 57 acting
 tags:
-- KYB
-- KYC
+- kyb
+- kyc
 - AML
-- Business Verification
+- business-verification
 - Identity Verification
 - Compliance
-- RegTech
+- regtech
 - Onboarding
-- Sanctions Screening
-- Document Verification
-- Fraud Detection
-- Company Data
-- Beneficial Ownership
-- Case Management
-- Electronic Signature
+- sanctions-screening
+- document-verification
+- fraud-detection
+- company-data
+- beneficial-ownership
+- case-management
+- electronic-signature
 - Webhook
 ---

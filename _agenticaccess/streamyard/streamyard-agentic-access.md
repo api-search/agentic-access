@@ -57,7 +57,7 @@ summary_line: 14 operations · 7 acting
 tags:
 - Broadcasting
 - Live Streaming
-- Multistreaming
+- Multi-Streaming
 - Recordings
 - Video
 ---

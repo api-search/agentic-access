@@ -128,7 +128,7 @@ summary_line: 45 operations · 28 acting · 3 human-in-the-loop
 tags:
 - Search
 - Search as a Service
-- Full-Text Search
+- Full Text Search
 - Indexing
 - Developer Tools
 ---

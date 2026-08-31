@@ -351,10 +351,10 @@ tags:
 - SPEI
 - Mexico
 - Latin America
-- LatAm
+- LATAM
 - Fintech
 - Subscription
-- Anti-Fraud
+- Antifraud
 - Checkout
 - BNPL
 - 3D Secure

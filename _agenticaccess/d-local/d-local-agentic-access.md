@@ -186,7 +186,7 @@ summary_line: 49 operations · 27 acting · 1 human-in-the-loop
 tags:
 - Payments
 - Payouts
-- Emerging Markets
+- EmergingMarkets
 - LatAm
 - Africa
 - Asia

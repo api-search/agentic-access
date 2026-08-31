@@ -95,7 +95,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signaturely/re
 summary_line: 27 operations · 15 acting
 tags:
 - Electronic Signature
-- E-Signature
+- eSignature
 - Document Signing
 - E-Signature API
 - Contracts

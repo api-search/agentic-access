@@ -118,5 +118,5 @@ tags:
 - Lead Management
 - Marketing
 - Webhook
-- SEP
+- Sales Engagement Platform
 ---

@@ -103,7 +103,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/h
 summary_line: 36 operations · 19 acting
 tags:
 - Hosting
-- Platform-as-a-Service
+- PaaS
 - Cloud
 - Deployment
 - Databases

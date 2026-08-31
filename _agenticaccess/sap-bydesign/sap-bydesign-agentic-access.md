@@ -97,7 +97,7 @@ summary_line: 26 operations · 7 acting
 tags:
 - ERP
 - Cloud
-- Mid-Market
+- Midmarket
 - Financials
 - CRM
 - Procurement

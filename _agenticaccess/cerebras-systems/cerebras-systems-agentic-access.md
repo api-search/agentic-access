@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerebras-syste
 summary_line: 8 operations · 3 acting
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Artificial Intelligence
 - Machine-Learning
 - Inference

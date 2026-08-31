@@ -39,7 +39,7 @@ summary_line: 1 operation · 1 acting
 tags:
 - Payments
 - Open Banking
-- Pay by Bank
+- Pay By Bank
 - GraphQL
 - Africa
 - South Africa

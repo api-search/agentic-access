@@ -165,7 +165,7 @@ tags:
 - Payment Gateway
 - Indonesia
 - Southeast Asia
-- SNAP
+- Snap
 - E-Wallet
 - Virtual Account
 - Cards

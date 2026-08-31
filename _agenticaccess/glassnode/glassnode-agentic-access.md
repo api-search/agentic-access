@@ -108,7 +108,7 @@ summary_line: 14 operations
 tags:
 - Web3
 - Crypto
-- Onchain
+- On-Chain
 - Analytics
 - Metrics
 - Bitcoin

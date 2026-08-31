@@ -55,11 +55,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lmnt-s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/agentic-access/lmnt-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
-- Text-to-Speech
-- Voice Synthesis
-- Voice Cloning
-- Audio Streaming
-- Conversational AI
-- Low Latency
-- Real-Time Audio
+- text-to-speech
+- voice synthesis
+- voice cloning
+- audio streaming
+- conversational AI
+- low latency
+- real-time audio
 ---

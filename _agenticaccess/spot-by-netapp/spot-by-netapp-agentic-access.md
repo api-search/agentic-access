@@ -110,5 +110,5 @@ tags:
 - Azure
 - GCP
 - Cost Optimization
-- Auto-Scaling
+- Auto Scaling
 ---

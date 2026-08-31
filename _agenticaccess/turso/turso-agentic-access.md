@@ -97,6 +97,6 @@ tags:
 - Edge Computing
 - SQLite
 - Developer Tools
-- Multi-Tenant
+- Multi-tenant
 - AI Agents
 ---

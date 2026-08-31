@@ -77,7 +77,7 @@ tags:
 - LLM Platform
 - Prompt Management
 - Evaluations
-- LLMOps
+- LLM Ops
 - Observability
 - Datasets
 - Prompts

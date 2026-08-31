@@ -48,6 +48,6 @@ tags:
 - Audio Processing
 - Machine-Learning
 - Speech Recognition
-- Speech-to-Text
+- Speech-To-Text
 - Transcription
 ---

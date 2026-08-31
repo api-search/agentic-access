@@ -165,10 +165,10 @@ summary_line: 65 operations · 27 acting
 tags:
 - Company
 - Crypto
-- Stablecoins
+- Stablecoin
 - Payments
 - Brazil
-- Pix
+- PIX
 - Fintech
 - Blockchain
 - Digital Assets

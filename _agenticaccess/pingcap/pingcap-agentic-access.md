@@ -298,16 +298,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/pingca
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/agentic-access/pingcap-agentic-access.yml
 summary_line: 192 operations · 93 acting · 5 human-in-the-loop
 tags:
-- Distributed SQL
+- distributed-sql
 - Database
 - tidb
 - htap
 - mysql-compatible
-- Cloud Database
-- Database-as-a-Service
-- Vector Search
-- Data Migration
-- Change Data Capture
+- cloud-database
+- dbaas
+- vector-search
+- data-migration
+- change-data-capture
 - Open-Source
 - Infrastructure
 ---

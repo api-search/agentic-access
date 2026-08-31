@@ -57,5 +57,5 @@ tags:
 - Inference
 - Open-Source
 - Alibaba
-- Multi-Modal
+- Multimodal
 ---

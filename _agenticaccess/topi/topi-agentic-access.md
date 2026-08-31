@@ -108,7 +108,7 @@ tags:
 - Company
 - Fintech
 - Hardware as a Service
-- Rentals
+- Rental
 - Embedded Finance
 - B2B Payments
 - Financing

@@ -164,7 +164,7 @@ summary_line: 85 operations · 35 acting · 2 human-in-the-loop
 tags:
 - Media
 - Streaming
-- Real-Time Streaming
+- Real-time Streaming
 - WebRTC
 - Live Streaming
 - Low Latency

@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/scalab
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalable-systems/refs/heads/main/agentic-access/scalable-systems-agentic-access.yml
 summary_line: 1 operation · 1 acting · 1 human-in-the-loop
 tags:
-- Auto-Scaling
+- Auto Scaling
 - Caching
 - Cloud Infrastructure
 - Distributed Systems

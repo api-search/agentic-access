@@ -63,7 +63,7 @@ tags:
 - Healthcare
 - Pediatrics
 - FHIR
-- SMART on FHIR
+- SMART On FHIR
 - Patient Access
 - Provider Directory
 - CMS Interoperability

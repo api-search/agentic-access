@@ -355,13 +355,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/virust
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virustotal/refs/heads/main/agentic-access/virustotal-agentic-access.yml
 summary_line: 206 operations · 56 acting · 11 human-in-the-loop
 tags:
-- Anti Malware
+- Anti-Malware
 - Threat Intelligence
 - Security
 - File Analysis
 - URL Analysis
 - YARA
-- IOC
+- IoC
 - Sandbox
 - MITRE ATT&CK
 - Google Cloud

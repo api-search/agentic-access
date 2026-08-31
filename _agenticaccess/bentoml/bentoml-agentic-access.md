@@ -505,8 +505,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bentom
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/agentic-access/bentoml-agentic-access.yml
 summary_line: 222 operations · 106 acting · 4 human-in-the-loop
 tags:
-- Machine-Learning
-- Model Serving
+- machine learning
+- model serving
 - Inference
 - Artificial Intelligence
 - REST API

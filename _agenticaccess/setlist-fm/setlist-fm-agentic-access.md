@@ -173,6 +173,6 @@ tags:
 - Live Music
 - Venues
 - Artists
-- tour dates
+- Tour Dates
 - Event
 ---

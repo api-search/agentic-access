@@ -5,10 +5,16 @@ action_class_counts:
 api_specs:
 - filename: lancaster-oai2-api-openapi.yml
   format: yaml
-  label: Lancaster University Oai2 API
+  label: Lancaster EPrints OAI-PMH 2.0 Interface
   slug: lancaster-oai2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-oai2-api-openapi.yml
+- filename: lancaster-identityfederation-api-openapi.yml
+  format: yaml
+  label: Lancaster Shibboleth Identity Provider (SAML 2.0 metadata)
+  slug: identity-federation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/openapi/lancaster-identityfederation-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -37,11 +43,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lancas
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/agentic-access/lancaster-agentic-access.yml
 summary_line: 1 operation
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United Kingdom
-- Research
+- N8 Research Partnership
+- Research Data
+- Institutional Repository
+- Identity Federation
 - Library
-- Open Data
+- Open Source
 ---

@@ -181,15 +181,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/threatlocker/r
 summary_line: 83 operations · 46 acting · 1 human-in-the-loop
 tags:
 - Cybersecurity
-- Zero Trust
-- Endpoint Security
-- Application-Control
+- zero-trust
+- endpoint-security
+- application-control
 - allowlisting
-- Ransomware Prevention
-- Privileged Access Management
-- Network Access Control
-- Managed Detection and Response
-- Device Management
-- MSP
+- ransomware-prevention
+- privileged-access-management
+- network-access-control
+- managed-detection-and-response
+- device-management
+- msp
 - Compliance
 ---

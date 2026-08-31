@@ -184,7 +184,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/common-room/re
 summary_line: 54 operations · 11 acting
 tags:
 - Community Intelligence
-- Go-To-Market
+- Go-to-Market
 - Member Signals
 - GitHub
 - Slack

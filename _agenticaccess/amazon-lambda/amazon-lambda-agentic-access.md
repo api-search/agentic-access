@@ -50,7 +50,7 @@ summary_line: 11 operations · 7 acting
 tags:
 - Compute
 - Event-Driven
-- Function-as-a-Service
+- FaaS
 - Functions
 - Serverless
 ---

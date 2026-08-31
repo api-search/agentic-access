@@ -162,7 +162,7 @@ tags:
 - Outbound
 - Sales
 - Deliverability
-- Email Warm-up
+- Email Warmup
 - Automation
 - Sequences
 ---

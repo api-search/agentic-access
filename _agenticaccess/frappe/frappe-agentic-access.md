@@ -53,5 +53,5 @@ tags:
 - Accounting
 - Inventory
 - Payroll
-- Low-Code
+- Low Code
 ---

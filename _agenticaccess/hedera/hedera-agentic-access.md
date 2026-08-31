@@ -111,7 +111,7 @@ tags:
 - Hashgraph
 - Transaction
 - Tokens
-- NFT
+- NFTs
 - Smart Contracts
 - Enterprise
 ---

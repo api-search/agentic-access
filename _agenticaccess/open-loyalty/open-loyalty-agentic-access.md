@@ -114,5 +114,5 @@ tags:
 - Loyalty Program
 - Customer Engagement
 - Headless
-- API-First
+- API First
 ---

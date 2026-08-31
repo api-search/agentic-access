@@ -73,14 +73,14 @@ source_yaml: "generated: '2026-08-27'\nmethod: generated\nsource: openapi/pexafy
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/agentic-access/pexafy-agentic-access.yml
 summary_line: 37 operations · 10 acting
 tags:
-- images
-- photos
-- stock photos
-- image search
-- semantic search
-- computer vision
-- embeddings
-- mcp
+- Image
+- Photos
+- Stock Photos
+- Image Search
+- Semantic Search
+- Computer-Vision
+- Embeddings
+- MCP
 - agent-native
-- content licensing
+- Content Licensing
 ---

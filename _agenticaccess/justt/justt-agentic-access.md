@@ -169,8 +169,8 @@ tags:
 - Disputes
 - Fraud
 - Risk
-- Financial Services
+- Financial-Services
 - E-Commerce
 - Artificial Intelligence
-- Webhooks
+- Webhook
 ---
