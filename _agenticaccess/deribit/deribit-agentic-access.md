@@ -39,42 +39,18 @@ api_specs:
   slug: deribit-combo-books-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-combo-books-api-openapi.yml
-- filename: deribit-mark-price-api-openapi.yml
-  format: yaml
-  label: Deribit Mark Price API
-  slug: deribit-mark-price-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-mark-price-api-openapi.yml
 - filename: deribit-market-data-api-openapi.yml
   format: yaml
   label: Deribit Market Data API
   slug: deribit-market-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-market-data-api-openapi.yml
-- filename: deribit-matching-engine-api-openapi.yml
-  format: yaml
-  label: Deribit Matching Engine API
-  slug: deribit-matching-engine-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-matching-engine-api-openapi.yml
 - filename: deribit-portfolio-management-api-openapi.yml
   format: yaml
   label: Deribit Portfolio Management API
   slug: deribit-portfolio-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-portfolio-management-api-openapi.yml
-- filename: deribit-private-api-openapi.yml
-  format: yaml
-  label: Deribit Private API
-  slug: deribit-private-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-private-api-openapi.yml
-- filename: deribit-public-api-openapi.yml
-  format: yaml
-  label: Deribit Public API
-  slug: deribit-public-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-public-api-openapi.yml
 - filename: deribit-session-management-api-openapi.yml
   format: yaml
   label: Deribit Session Management API
@@ -105,12 +81,6 @@ api_specs:
   slug: deribit-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-wallet-api-openapi.yml
-- filename: deribit-websocket-only-api-openapi.yml
-  format: yaml
-  label: Deribit WebSocket Only API
-  slug: deribit-websocket-only-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-websocket-only-api-openapi.yml
 consequence_counts:
   read: 351
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

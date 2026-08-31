@@ -106,6 +106,12 @@ api_specs:
   slug: novu-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/openapi/novu-workflows-api-openapi.yml
+- filename: novu-webhooks-api-openapi.yml
+  format: yaml
+  label: Novu Webhooks API
+  slug: novu-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/openapi/novu-webhooks-api-openapi.yml
 consequence_counts:
   read: 43
   safety-critical: 92

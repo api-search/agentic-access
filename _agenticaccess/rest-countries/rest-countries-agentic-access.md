@@ -69,6 +69,12 @@ api_specs:
   slug: rest-countries-translation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rest-countries/refs/heads/main/openapi/rest-countries-translation-api-openapi.yml
+- filename: rest-countries-countries-api-openapi.yml
+  format: yaml
+  label: REST Countries Countries API
+  slug: rest-countries-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rest-countries/refs/heads/main/openapi/rest-countries-countries-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 101
   connected: 75
 api_specs:
-- filename: university-of-chicago-knowledge-repository-api-openapi.yml
-  format: yaml
-  label: Knowledge@UChicago Repository REST API
-  slug: knowledge-invenio-rest
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-knowledge-repository-api-openapi.yml
 - filename: university-of-chicago-admin-user-api-openapi.yml
   format: yaml
   label: University of Chicago Gen3 Fence — admin/user API
@@ -232,6 +226,18 @@ api_specs:
   slug: university-of-chicago-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-user-api-openapi.yml
+- filename: university-of-chicago-communities-api-openapi.yml
+  format: yaml
+  label: University of Chicago Communities API
+  slug: university-of-chicago-communities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-communities-api-openapi.yml
+- filename: university-of-chicago-records-api-openapi.yml
+  format: yaml
+  label: University of Chicago Records API
+  slug: university-of-chicago-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-records-api-openapi.yml
 consequence_counts:
   read: 75
   safety-critical: 1

@@ -46,14 +46,14 @@ name: Rockwell Factorytalk Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 10
-overview: 'rockwell-factorytalk exposes 10 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Rockwell FactoryTalk exposes 10 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 7 read and 3 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: rockwell-factorytalk
+provider_name: Rockwell FactoryTalk
 provider_slug: rockwell-factorytalk
 slug: rockwell-factorytalk-agentic-access
 source_filename: rockwell-factorytalk-agentic-access.yml

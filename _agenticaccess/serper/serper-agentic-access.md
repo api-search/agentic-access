@@ -81,12 +81,12 @@ api_specs:
   slug: serper-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-videos-api-openapi.yml
-- filename: serper-webpage-scrape-api-openapi.yml
+- filename: serper-scrape-api-openapi.yml
   format: yaml
-  label: Serper Webpage Scrape API
-  slug: serper-webpage-scrape-api
+  label: Serper Scrape API
+  slug: serper-scrape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-webpage-scrape-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-scrape-api-openapi.yml
 consequence_counts:
   write: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

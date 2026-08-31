@@ -4,6 +4,12 @@ action_class_counts:
   acting: 33
   connected: 34
 api_specs:
+- filename: lumos-openapi.json
+  format: json
+  label: Lumos REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/openapi/lumos-openapi.json
 - filename: lumos-accesspolicies-api-openapi.yml
   format: yaml
   label: Lumos AccessPolicies API

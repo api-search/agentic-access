@@ -4,18 +4,18 @@ action_class_counts:
   acting: 16
   connected: 6
 api_specs:
+- filename: metaplane-api-openapi.yml
+  format: yaml
+  label: Metaplane API
+  slug: metaplane
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/_original/metaplane-api-openapi.yml
 - filename: metaplane-connections-api-openapi.yml
   format: yaml
   label: Metaplane Connections API
   slug: metaplane-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-connections-api-openapi.yml
-- filename: metaplane-datapoints-api-openapi.yml
-  format: yaml
-  label: Metaplane Datapoints API
-  slug: metaplane-datapoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-datapoints-api-openapi.yml
 - filename: metaplane-monitors-api-openapi.yml
   format: yaml
   label: Metaplane Monitors API
@@ -65,4 +65,12 @@ summary_line: 22 operations · 16 acting
 tags:
 - AIOps
 - Data Observability
+- Data Quality
+- Anomaly Detection
+- Data Lineage
+- Monitoring
+- Analytics
+- Data Engineering
+- dbt
+- Snowflake
 ---

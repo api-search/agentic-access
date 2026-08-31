@@ -70,14 +70,14 @@ name: Ibm Quantum Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 30
-overview: 'ibm-quantum exposes 30 API operations that an AI agent could call, of which 8 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'IBM Quantum exposes 30 API operations that an AI agent could call, of which 8 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 22 read and 8 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: ibm-quantum
+provider_name: IBM Quantum
 provider_slug: ibm-quantum
 slug: ibm-quantum-agentic-access
 source_filename: ibm-quantum-agentic-access.yml

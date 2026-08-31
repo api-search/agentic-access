@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: yardi-canada-status-openapi.yml
+- filename: yardi-canada-components-api-openapi.yml
   format: yaml
-  label: Yardi Systems Status API
-  slug: yardi-systems-status-api
+  label: Yardi Canada Components API
+  slug: yardi-canada-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-status-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-components-api-openapi.yml
+- filename: yardi-canada-incidents-api-openapi.yml
+  format: yaml
+  label: Yardi Canada Incidents API
+  slug: yardi-canada-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-incidents-api-openapi.yml
+- filename: yardi-canada-maintenance-api-openapi.yml
+  format: yaml
+  label: Yardi Canada Maintenance API
+  slug: yardi-canada-maintenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-maintenance-api-openapi.yml
+- filename: yardi-canada-status-api-openapi.yml
+  format: yaml
+  label: Yardi Canada Status API
+  slug: yardi-canada-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-status-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

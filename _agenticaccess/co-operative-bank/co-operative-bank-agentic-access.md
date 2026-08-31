@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: obie-open-data-api-standard-swagger.json
-  format: json
-  label: The Co-operative Bank Open Data API (OBIE standard)
-  slug: open-data-api
+- filename: co-operative-bank-atm-api-openapi.yml
+  format: yaml
+  label: The Co-operative Bank ATM API
+  slug: co-operative-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/openapi/obie-open-data-api-standard-swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/openapi/co-operative-bank-atm-api-openapi.yml
+- filename: co-operative-bank-bca-api-openapi.yml
+  format: yaml
+  label: The Co-operative Bank BCA API
+  slug: co-operative-bank-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/openapi/co-operative-bank-bca-api-openapi.yml
+- filename: co-operative-bank-branch-api-openapi.yml
+  format: yaml
+  label: The Co-operative Bank Branch API
+  slug: co-operative-bank-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/openapi/co-operative-bank-branch-api-openapi.yml
+- filename: co-operative-bank-ccc-api-openapi.yml
+  format: yaml
+  label: The Co-operative Bank CCC API
+  slug: co-operative-bank-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/openapi/co-operative-bank-ccc-api-openapi.yml
+- filename: co-operative-bank-pca-api-openapi.yml
+  format: yaml
+  label: The Co-operative Bank PCA API
+  slug: co-operative-bank-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/openapi/co-operative-bank-pca-api-openapi.yml
+- filename: co-operative-bank-sme-api-openapi.yml
+  format: yaml
+  label: The Co-operative Bank SME API
+  slug: co-operative-bank-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/openapi/co-operative-bank-sme-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

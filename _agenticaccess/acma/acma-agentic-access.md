@@ -3,12 +3,48 @@ acting_count: 0
 action_class_counts:
   connected: 22
 api_specs:
-- filename: acma-spectrum-licensing-openapi.yml
+- filename: acma-access-areas-api-openapi.yml
   format: yaml
-  label: ACMA Spectrum Licensing API
-  slug: spectrum-licensing
+  label: ACMA Access areas API
+  slug: acma-access-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-spectrum-licensing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-access-areas-api-openapi.yml
+- filename: acma-antennas-api-openapi.yml
+  format: yaml
+  label: ACMA Antennas API
+  slug: acma-antennas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-antennas-api-openapi.yml
+- filename: acma-clients-api-openapi.yml
+  format: yaml
+  label: ACMA Clients API
+  slug: acma-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-clients-api-openapi.yml
+- filename: acma-licence-categories-api-openapi.yml
+  format: yaml
+  label: ACMA Licence categories API
+  slug: acma-licence-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-licence-categories-api-openapi.yml
+- filename: acma-licences-api-openapi.yml
+  format: yaml
+  label: ACMA Licences API
+  slug: acma-licences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-licences-api-openapi.yml
+- filename: acma-registrations-api-openapi.yml
+  format: yaml
+  label: ACMA Registrations API
+  slug: acma-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-registrations-api-openapi.yml
+- filename: acma-sites-api-openapi.yml
+  format: yaml
+  label: ACMA Sites API
+  slug: acma-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/openapi/acma-sites-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

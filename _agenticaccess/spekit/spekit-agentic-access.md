@@ -3,12 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: spekit-openapi.yml
+- filename: spekit-searches-api-openapi.yml
   format: yaml
-  label: Spekit API
-  slug: spekit-api
+  label: Spekit Searches API
+  slug: spekit-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-searches-api-openapi.yml
+- filename: spekit-spek-reactions-api-openapi.yml
+  format: yaml
+  label: Spekit Spek Reactions API
+  slug: spekit-spek-reactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-spek-reactions-api-openapi.yml
+- filename: spekit-spek-views-api-openapi.yml
+  format: yaml
+  label: Spekit Spek Views API
+  slug: spekit-spek-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-spek-views-api-openapi.yml
+- filename: spekit-user-activities-api-openapi.yml
+  format: yaml
+  label: Spekit User Activities API
+  slug: spekit-user-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-user-activities-api-openapi.yml
+- filename: spekit-users-api-openapi.yml
+  format: yaml
+  label: Spekit Users API
+  slug: spekit-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-users-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,24 +3,36 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: western-power-outage-openapi.yml
+- filename: western-power-content-api-openapi.yml
   format: yaml
-  label: Western Power Outage Web API
-  slug: western-power-outage-web-api
+  label: Western Power Content API
+  slug: western-power-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-outage-openapi.yml
-- filename: western-power-corporate-web-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-content-api-openapi.yml
+- filename: western-power-metadata-api-openapi.yml
   format: yaml
-  label: Western Power Corporate Web API
-  slug: western-power-corporate-web-api
+  label: Western Power Metadata API
+  slug: western-power-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-corporate-web-openapi.yml
-- filename: western-power-arcgis-outage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-metadata-api-openapi.yml
+- filename: western-power-outages-api-openapi.yml
   format: yaml
-  label: Western Power Outage Areas Feature Service
-  slug: western-power-outage-areas-feature-service
+  label: Western Power Outages API
+  slug: western-power-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-arcgis-outage-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-outages-api-openapi.yml
+- filename: western-power-query-api-openapi.yml
+  format: yaml
+  label: Western Power Query API
+  slug: western-power-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-query-api-openapi.yml
+- filename: western-power-search-api-openapi.yml
+  format: yaml
+  label: Western Power Search API
+  slug: western-power-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/openapi/western-power-search-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

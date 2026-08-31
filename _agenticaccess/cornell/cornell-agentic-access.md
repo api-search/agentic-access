@@ -15,12 +15,12 @@ api_specs:
   slug: library-catalog
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-library-catalog-api-openapi.yml
-- filename: cugir-geospatial-api-openapi.yml
+- filename: cornell-cugir-api-openapi.yml
   format: yaml
-  label: CUGIR — Cornell University Geospatial Information Repository API
-  slug: cugir
+  label: Cornell University Cugir API
+  slug: cornell-cugir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cugir-geospatial-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-cugir-api-openapi.yml
 consequence_counts:
   read: 11
 description: 'Recommended x-agentic-access execution contracts for the surfaces Cornell University itself operates, classified heuristically from the OpenAPI. Regenerated 2026-08-19: the 2026-07-15 file covered 15 operations across five CODI specs, four of which describe surfaces that are dead or vendor-operated (Cornell Dining, Cornell Days, the campus map, and the Localist events calendar). Every operation below is an unauthenticated public read verified live on 2026-08-19.'

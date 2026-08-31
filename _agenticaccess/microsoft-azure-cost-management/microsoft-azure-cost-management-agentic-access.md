@@ -28,14 +28,14 @@ name: Microsoft Azure Cost Management Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 7
-overview: 'microsoft-azure-cost-management exposes 7 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Azure Cost Management exposes 7 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 4 read and 3 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: microsoft-azure-cost-management
+provider_name: Azure Cost Management
 provider_slug: microsoft-azure-cost-management
 slug: microsoft-azure-cost-management-agentic-access
 source_filename: microsoft-azure-cost-management-agentic-access.yml

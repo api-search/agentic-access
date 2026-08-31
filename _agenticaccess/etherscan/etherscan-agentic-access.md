@@ -9,42 +9,6 @@ api_specs:
   slug: etherscan-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-accounts-api-openapi.yml
-- filename: etherscan-blocks-api-openapi.yml
-  format: yaml
-  label: Etherscan Blocks API
-  slug: etherscan-blocks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-blocks-api-openapi.yml
-- filename: etherscan-contracts-api-openapi.yml
-  format: yaml
-  label: Etherscan Contracts API
-  slug: etherscan-contracts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-contracts-api-openapi.yml
-- filename: etherscan-gas-tracker-api-openapi.yml
-  format: yaml
-  label: Etherscan Gas Tracker API
-  slug: etherscan-gas-tracker-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-gas-tracker-api-openapi.yml
-- filename: etherscan-stats-api-openapi.yml
-  format: yaml
-  label: Etherscan Stats API
-  slug: etherscan-stats-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-stats-api-openapi.yml
-- filename: etherscan-tokens-api-openapi.yml
-  format: yaml
-  label: Etherscan Tokens API
-  slug: etherscan-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-tokens-api-openapi.yml
-- filename: etherscan-transactions-api-openapi.yml
-  format: yaml
-  label: Etherscan Transactions API
-  slug: etherscan-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-transactions-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

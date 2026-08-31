@@ -34,6 +34,12 @@ api_specs:
   slug: gradient-labs-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-messages-api-openapi.yml
+- filename: gradient-labs-gradient-labs-api-api-openapi.yml
+  format: yaml
+  label: Gradient Labs Gradient Labs API
+  slug: gradient-labs-gradient-labs-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-gradient-labs-api-api-openapi.yml
 consequence_counts:
   read: 1
   write: 10

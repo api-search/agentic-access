@@ -39,6 +39,24 @@ api_specs:
   slug: creditbenchmark-portfolio-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-portfolio-analytics-api-openapi.yml
+- filename: creditbenchmark-data-api-openapi.yml
+  format: yaml
+  label: Credit Benchmark Data API
+  slug: creditbenchmark-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-data-api-openapi.yml
+- filename: creditbenchmark-entity-resolution-api-openapi.yml
+  format: yaml
+  label: Credit Benchmark Entity Resolution API
+  slug: creditbenchmark-entity-resolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-entity-resolution-api-openapi.yml
+- filename: creditbenchmark-metadata-api-openapi.yml
+  format: yaml
+  label: Credit Benchmark Metadata API
+  slug: creditbenchmark-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/openapi/creditbenchmark-metadata-api-openapi.yml
 consequence_counts:
   write: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

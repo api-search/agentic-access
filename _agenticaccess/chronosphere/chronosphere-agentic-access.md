@@ -4,6 +4,12 @@ action_class_counts:
   acting: 92
   connected: 57
 api_specs:
+- filename: chronosphere-config-v1-openapi3.json
+  format: json
+  label: Chronosphere
+  slug: chronosphere
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/_original/chronosphere-config-v1-openapi3.json
 - filename: chronosphere-bucket-api-openapi.yml
   format: yaml
   label: Chronosphere Bucket API
@@ -196,6 +202,18 @@ api_specs:
   slug: chronosphere-tracetailsamplingrules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-tracetailsamplingrules-api-openapi.yml
+- filename: chronosphere-data-v1-api-openapi.json
+  format: json
+  label: Chronosphere Data V1 API
+  slug: chronosphere-data-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-data-v1-api-openapi.json
+- filename: chronosphere-state-v1-api-openapi.json
+  format: json
+  label: Chronosphere State V1 API
+  slug: chronosphere-state-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/openapi/chronosphere-state-v1-api-openapi.json
 consequence_counts:
   read: 57
   write: 92
@@ -259,6 +277,18 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chrono
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/agentic-access/chronosphere-agentic-access.yml
 summary_line: 149 operations · 92 acting
 tags:
-- AIOps
 - Observability
+- AIOps
+- Monitoring
+- Metrics
+- Logging
+- Distributed Tracing
+- Telemetry
+- OpenTelemetry
+- Prometheus
+- Alerting
+- SLO
+- Infrastructure as Code
+- MCP
+- Agent Ready
 ---

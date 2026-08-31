@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 19
 api_specs:
-- filename: openprescribing-openapi.yml
+- filename: openprescribing-spending-api-openapi.yml
   format: yaml
-  label: OpenPrescribing API
-  slug: openprescribing-openapi
+  label: OpenPrescribing Spending API
+  slug: openprescribing-spending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-spending-api-openapi.yml
+- filename: openprescribing-measures-api-openapi.yml
+  format: yaml
+  label: OpenPrescribing Measures API
+  slug: openprescribing-measures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-measures-api-openapi.yml
+- filename: openprescribing-measures-api-openapi.yml
+  format: yaml
+  label: OpenPrescribing Measures API
+  slug: openprescribing-measures-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-measures-api-openapi.yml
+- filename: openprescribing-reference-api-openapi.yml
+  format: yaml
+  label: OpenPrescribing Reference API
+  slug: openprescribing-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-reference-api-openapi.yml
+- filename: openprescribing-spending-api-openapi.yml
+  format: yaml
+  label: OpenPrescribing Spending API
+  slug: openprescribing-spending-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-spending-api-openapi.yml
+- filename: openprescribing-tariff-api-openapi.yml
+  format: yaml
+  label: OpenPrescribing Tariff API
+  slug: openprescribing-tariff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-tariff-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -76,6 +76,12 @@ api_specs:
   slug: end-close-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/openapi/end-close-records-api-openapi.yml
+- filename: end-close-end-close-api-api-openapi.yml
+  format: yaml
+  label: End Close End Close API
+  slug: end-close-end-close-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/openapi/end-close-end-close-api-api-openapi.yml
 consequence_counts:
   read: 27
   safety-critical: 1

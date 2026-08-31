@@ -4,12 +4,6 @@ action_class_counts:
   acting: 14
   connected: 11
 api_specs:
-- filename: formassembly-admin-api-openapi.yml
-  format: yaml
-  label: FormAssembly Admin API
-  slug: formassembly-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-admin-api-openapi.yml
 - filename: formassembly-aggregates-api-openapi.yml
   format: yaml
   label: FormAssembly Aggregates API

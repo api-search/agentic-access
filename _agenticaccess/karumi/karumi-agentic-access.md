@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: karumi-public-api-openapi.json
-  format: json
-  label: Karumi Public API
-  slug: karumi-public-api
+- filename: karumi-analytics-api-openapi.yml
+  format: yaml
+  label: Karumi Analytics API
+  slug: karumi-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-public-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-analytics-api-openapi.yml
+- filename: karumi-sessions-api-openapi.yml
+  format: yaml
+  label: Karumi Sessions API
+  slug: karumi-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-sessions-api-openapi.yml
+- filename: karumi-targets-api-openapi.yml
+  format: yaml
+  label: Karumi Targets API
+  slug: karumi-targets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-targets-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

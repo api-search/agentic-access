@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: liquid-death-storefront-openapi.yml
+- filename: liquid-death-catalog-api-openapi.yml
   format: yaml
-  label: Liquid Death Storefront Read-Only JSON API
-  slug: liquid-death-storefront-read-only-json-api
+  label: Liquid Death Catalog API
+  slug: liquid-death-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/openapi/liquid-death-storefront-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/openapi/liquid-death-catalog-api-openapi.yml
+- filename: liquid-death-discovery-api-openapi.yml
+  format: yaml
+  label: Liquid Death Discovery API
+  slug: liquid-death-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/openapi/liquid-death-discovery-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

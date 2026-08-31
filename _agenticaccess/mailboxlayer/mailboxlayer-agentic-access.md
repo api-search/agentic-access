@@ -9,6 +9,18 @@ api_specs:
   slug: mailboxlayer-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/openapi/mailboxlayer-verification-api-openapi.yml
+- filename: mailboxlayer-bulk-check-api-openapi.yml
+  format: yaml
+  label: Mailboxlayer Bulk Check API
+  slug: mailboxlayer-bulk-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/openapi/mailboxlayer-bulk-check-api-openapi.yml
+- filename: mailboxlayer-check-api-openapi.yml
+  format: yaml
+  label: Mailboxlayer Check API
+  slug: mailboxlayer-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/openapi/mailboxlayer-check-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

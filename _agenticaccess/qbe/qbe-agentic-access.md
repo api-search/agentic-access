@@ -4,18 +4,18 @@ action_class_counts:
   acting: 15
   connected: 2
 api_specs:
-- filename: qbe-anzo-digital-brokers-openapi.yml
+- filename: qbe-ctp-switch-api-openapi.yml
   format: yaml
-  label: QBE Australia ANZO Digital Brokers Experience API
-  slug: qbe-anzo-digital-brokers-api
+  label: QBE Insurance CTP Switch API
+  slug: qbe-ctp-switch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/openapi/qbe-anzo-digital-brokers-openapi.yml
-- filename: qbe-ctp-switch-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/openapi/qbe-ctp-switch-api-openapi.yml
+- filename: qbe-digital-brokers-api-openapi.yml
   format: yaml
-  label: QBE Australia CTP Switch Service
-  slug: qbe-ctp-switch-service-api
+  label: QBE Insurance Digital Brokers API
+  slug: qbe-digital-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/openapi/qbe-ctp-switch-service-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/openapi/qbe-digital-brokers-api-openapi.yml
 consequence_counts:
   read: 2
   write: 15

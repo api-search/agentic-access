@@ -4,12 +4,6 @@ action_class_counts:
   acting: 11
   connected: 3
 api_specs:
-- filename: plunk-api-openapi.json
-  format: json
-  label: Plunk API
-  slug: plunk-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/_original/plunk-api-openapi.json
 - filename: plunk-campaigns-api-openapi.yml
   format: yaml
   label: Plunk Campaigns API
@@ -34,6 +28,24 @@ api_specs:
   slug: plunk-transactional-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-transactional-api-openapi.yml
+- filename: plunk-public-api-api-openapi.yml
+  format: yaml
+  label: Plunk Public API
+  slug: plunk-public-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-public-api-api-openapi.yml
+- filename: plunk-segments-api-openapi.yml
+  format: yaml
+  label: Plunk Segments API
+  slug: plunk-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-segments-api-openapi.yml
+- filename: plunk-templates-api-openapi.yml
+  format: yaml
+  label: Plunk Templates API
+  slug: plunk-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-templates-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 3

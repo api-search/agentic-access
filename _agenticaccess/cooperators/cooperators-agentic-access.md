@@ -4,12 +4,18 @@ action_class_counts:
   acting: 9
   connected: 1
 api_specs:
-- filename: cooperators-duuo-platform-openapi.yml
+- filename: cooperators-event-insurance-api-openapi.yml
   format: yaml
-  label: Duuo Platform API
-  slug: duuo-platform-api
+  label: The Co-operators Event Insurance API
+  slug: cooperators-event-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/openapi/cooperators-duuo-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/openapi/cooperators-event-insurance-api-openapi.yml
+- filename: cooperators-tenant-insurance-api-openapi.yml
+  format: yaml
+  label: The Co-operators Tenant Insurance API
+  slug: cooperators-tenant-insurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/openapi/cooperators-tenant-insurance-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 1

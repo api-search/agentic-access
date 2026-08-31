@@ -27,6 +27,12 @@ api_specs:
   slug: marketdata-app-stocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-stocks-api-openapi.yml
+- filename: marketdata-app-v1-api-openapi.yml
+  format: yaml
+  label: Market Data V1 API
+  slug: marketdata-app-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/openapi/marketdata-app-v1-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

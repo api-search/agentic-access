@@ -4,12 +4,6 @@ action_class_counts:
   acting: 12
   connected: 12
 api_specs:
-- filename: cronitor-monitors-api-openapi.yml
-  format: yaml
-  label: Cronitor Monitors API
-  slug: monitors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-monitors-api-openapi.yml
 - filename: cronitor-cronitor-telemetry-api-api-openapi.yml
   format: yaml
   label: Cronitor Cronitor Telemetry API API
@@ -34,12 +28,6 @@ api_specs:
   slug: cronitor-p-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-p-api-openapi.yml
-- filename: cronitor-search-api-openapi.yml
-  format: yaml
-  label: Cronitor Search API
-  slug: cronitor-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-search-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12

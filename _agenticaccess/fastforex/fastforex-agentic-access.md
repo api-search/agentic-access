@@ -27,24 +27,6 @@ api_specs:
   slug: fastforex-fx-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-fx-api-openapi.yml
-- filename: fastforex-plan-extra-api-openapi.yml
-  format: yaml
-  label: FastForex plan-extra API
-  slug: fastforex-plan-extra-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-plan-extra-api-openapi.yml
-- filename: fastforex-plan-one-api-openapi.yml
-  format: yaml
-  label: FastForex plan-one API
-  slug: fastforex-plan-one-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-plan-one-api-openapi.yml
-- filename: fastforex-plan-premium-api-openapi.yml
-  format: yaml
-  label: FastForex plan-premium API
-  slug: fastforex-plan-premium-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/openapi/fastforex-plan-premium-api-openapi.yml
 consequence_counts:
   read: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

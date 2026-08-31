@@ -181,7 +181,7 @@ notable_actions:
   method: POST
   path: /vrp-consents
 operation_count: 71
-overview: 'token-io exposes 71 API operations that an AI agent could call, of which 24 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Token.io exposes 71 API operations that an AI agent could call, of which 24 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 47 read, 13 write, 10 physical, and 1 safety-critical.
@@ -191,7 +191,7 @@ overview: 'token-io exposes 71 API operations that an AI agent could call, of wh
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: token-io
+provider_name: Token.io
 provider_slug: token-io
 slug: token-io-agentic-access
 source_filename: token-io-agentic-access.yml

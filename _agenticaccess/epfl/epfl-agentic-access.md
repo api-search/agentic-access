@@ -15,12 +15,12 @@ api_specs:
   slug: memento-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/_original/epfl-memento.yaml
-- filename: epfl-getprime-api-openapi.yml
+- filename: epfl-primers-api-openapi.yml
   format: yaml
-  label: EPFL GETprime qPCR Primer API
-  slug: getprime
+  label: EPFL Primers API
+  slug: epfl-primers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/epfl-getprime-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/epfl-primers-api-openapi.yml
 consequence_counts:
   read: 33
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

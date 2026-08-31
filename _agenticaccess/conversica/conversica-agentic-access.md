@@ -3,12 +3,18 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: conversica-integrations-api-openapi.yml
+- filename: conversica-conversica-integrations-api-api-openapi.yml
   format: yaml
-  label: Conversica Integrations API
-  slug: integrations-api
+  label: Conversica Conversica Integrations API
+  slug: conversica-conversica-integrations-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/openapi/conversica-integrations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/openapi/conversica-conversica-integrations-api-api-openapi.yml
+- filename: conversica-leads-api-openapi.yml
+  format: yaml
+  label: Conversica Leads API
+  slug: conversica-leads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/openapi/conversica-leads-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

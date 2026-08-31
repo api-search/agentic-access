@@ -2,12 +2,12 @@
 acting_count: 0
 action_class_counts: {}
 api_specs:
-- filename: columbia-library-hours-openapi.yml
+- filename: columbia-locations-api-openapi.yml
   format: yaml
-  label: Columbia University Libraries Hours API
-  slug: library-hours
+  label: Columbia University Locations API
+  slug: columbia-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/openapi/columbia-library-hours-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/openapi/columbia-locations-api-openapi.yml
 consequence_counts: {}
 description: 'What an autonomous agent can actually do with Columbia University. The answer is narrow and it is unusually well-defined: exactly one API is agent-callable end to end, and the rest of the institution''s estate is actively defended against automated clients by two different challenge products.'
 human_in_the_loop: 0

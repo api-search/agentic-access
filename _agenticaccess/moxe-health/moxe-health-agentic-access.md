@@ -4,18 +4,18 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: moxe-health-chart-retrieval-initiate-openapi.json
-  format: json
-  label: Moxe Health Chart Retrieval API
-  slug: moxe-health-chart-retrieval-api
+- filename: moxe-health-claims-api-openapi.yml
+  format: yaml
+  label: Moxe Health Claims API
+  slug: moxe-health-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/openapi/moxe-health-chart-retrieval-initiate-openapi.json
-- filename: moxe-health-claim-management-initiate-openapi.json
-  format: json
-  label: Moxe Health Claim Management API
-  slug: moxe-health-claim-management-api
+  url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/openapi/moxe-health-claims-api-openapi.yml
+- filename: moxe-health-patient-api-openapi.yml
+  format: yaml
+  label: Moxe Health Patient API
+  slug: moxe-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/openapi/moxe-health-claim-management-initiate-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/openapi/moxe-health-patient-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2

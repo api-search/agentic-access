@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 32
 api_specs:
-- filename: endeavour-energy-open-data-explore-api-v2-1-openapi.json
-  format: json
-  label: Endeavour Energy Open Data Explore API
-  slug: endeavour-energy-open-data-explore-api
+- filename: endeavour-energy-catalog-api-openapi.yml
+  format: yaml
+  label: Endeavour Energy Catalog API
+  slug: endeavour-energy-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/openapi/endeavour-energy-open-data-explore-api-v2-1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/openapi/endeavour-energy-catalog-api-openapi.yml
+- filename: endeavour-energy-dataset-api-openapi.yml
+  format: yaml
+  label: Endeavour Energy Dataset API
+  slug: endeavour-energy-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/openapi/endeavour-energy-dataset-api-openapi.yml
 consequence_counts:
   read: 32
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

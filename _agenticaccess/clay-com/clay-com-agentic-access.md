@@ -4,12 +4,30 @@ action_class_counts:
   acting: 8
   connected: 5
 api_specs:
-- filename: clay-com-public-api-openapi.json
-  format: json
-  label: Clay Public API
-  slug: public-api
+- filename: clay-com-me-api-openapi.yml
+  format: yaml
+  label: Clay Me API
+  slug: clay-com-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-public-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-me-api-openapi.yml
+- filename: clay-com-routines-api-openapi.yml
+  format: yaml
+  label: Clay Routines API
+  slug: clay-com-routines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-routines-api-openapi.yml
+- filename: clay-com-search-api-openapi.yml
+  format: yaml
+  label: Clay Search API
+  slug: clay-com-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-search-api-openapi.yml
+- filename: clay-com-tables-api-openapi.yml
+  format: yaml
+  label: Clay Tables API
+  slug: clay-com-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/openapi/clay-com-tables-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8

@@ -76,6 +76,12 @@ api_specs:
   slug: nortech-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-workspace-api-openapi.yml
+- filename: nortech-historicaldata-api-openapi.yml
+  format: yaml
+  label: Nortech Historical Data API
+  slug: nortech-historicaldata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/openapi/nortech-historicaldata-api-openapi.yml
 consequence_counts:
   read: 31
   write: 19

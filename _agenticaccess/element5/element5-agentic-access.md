@@ -22,6 +22,12 @@ api_specs:
   slug: element5-object-store-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-object-store-api-openapi.yml
+- filename: element5-automation-api-openapi.yml
+  format: yaml
+  label: Element5 Automation API
+  slug: element5-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-automation-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4

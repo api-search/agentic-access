@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 10
 api_specs:
-- filename: nats-monitoring-api-openapi.yml
-  format: yaml
-  label: NATS Monitoring API
-  slug: nats-monitoring-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-monitoring-api-openapi.yml
 - filename: nats-messaging-asyncapi.yml
   format: yaml
   label: NATS Messaging API
@@ -81,6 +75,12 @@ api_specs:
   slug: nats-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-subscriptions-api-openapi.yml
+- filename: nats-monitoring-api-openapi.yml
+  format: yaml
+  label: NATS Monitoring API
+  slug: nats-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-monitoring-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: albacross-reveal-openapi.yml
+- filename: albacross-company-api-openapi.yml
   format: yaml
-  label: Albacross Reveal API
-  slug: albacross-reveal-api
+  label: Albacross Company API
+  slug: albacross-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/openapi/albacross-reveal-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/openapi/albacross-company-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

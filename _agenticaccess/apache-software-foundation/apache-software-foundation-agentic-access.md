@@ -3,24 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 14
 api_specs:
-- filename: apache-software-foundation-projects-api-openapi.yml
-  format: yaml
-  label: Apache Software Foundation Projects API
-  slug: projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-projects-api-openapi.yml
 - filename: apache-software-foundation-committees-api-openapi.yml
   format: yaml
   label: Apache Software Foundation Committees API
   slug: apache-software-foundation-committees-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-committees-api-openapi.yml
-- filename: apache-software-foundation-foundation-api-openapi.yml
-  format: yaml
-  label: Apache Software Foundation Foundation API
-  slug: apache-software-foundation-foundation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-foundation-api-openapi.yml
 - filename: apache-software-foundation-groups-api-openapi.yml
   format: yaml
   label: Apache Software Foundation Groups API
@@ -51,12 +39,6 @@ api_specs:
   slug: apache-software-foundation-podlings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-podlings-api-openapi.yml
-- filename: apache-software-foundation-releases-api-openapi.yml
-  format: yaml
-  label: Apache Software Foundation Releases API
-  slug: apache-software-foundation-releases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-releases-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

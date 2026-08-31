@@ -106,12 +106,6 @@ api_specs:
   slug: statsig-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-users-api-openapi.yml
-- filename: statsig-webhooks-api-openapi.yml
-  format: yaml
-  label: statsig Webhooks API
-  slug: statsig-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-webhooks-api-openapi.yml
 consequence_counts:
   read: 23
   safety-critical: 5

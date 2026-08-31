@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: syncly-social-mcp-openapi.json
-  format: json
-  label: Syncly Social MCP Server
-  slug: syncly-social-mcp-server
+- filename: syncly-health-api-openapi.yml
+  format: yaml
+  label: Syncly Health API
+  slug: syncly-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/openapi/syncly-social-mcp-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/openapi/syncly-health-api-openapi.yml
+- filename: syncly-well-known-api-openapi.yml
+  format: yaml
+  label: Syncly .well Known API
+  slug: syncly-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/openapi/syncly-well-known-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

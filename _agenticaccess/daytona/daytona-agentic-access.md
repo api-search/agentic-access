@@ -118,6 +118,12 @@ api_specs:
   slug: daytona-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daytona/refs/heads/main/openapi/daytona-workspace-api-openapi.yml
+- filename: daytona-daytona-api-openapi.yml
+  format: yaml
+  label: Daytona Daytona API
+  slug: daytona-daytona-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daytona/refs/heads/main/openapi/daytona-daytona-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 108

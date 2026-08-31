@@ -4,18 +4,24 @@ action_class_counts:
   acting: 23
   connected: 22
 api_specs:
-- filename: china-mobile-onenet-studio-openapi.yml
+- filename: china-mobile-application-development-api-openapi.yml
   format: yaml
-  label: OneNET Studio Application API
-  slug: onenet-studio-application-api
+  label: China Mobile Application Development API
+  slug: china-mobile-application-development-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-onenet-studio-openapi.yml
-- filename: china-mobile-vcs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-application-development-api-openapi.yml
+- filename: china-mobile-device-management-api-openapi.yml
   format: yaml
-  label: OneNET Voice Call Service (VCS) API
-  slug: onenet-voice-call-service
+  label: China Mobile Device Management API
+  slug: china-mobile-device-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-vcs-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-device-management-api-openapi.yml
+- filename: china-mobile-voice-call-service-api-openapi.yml
+  format: yaml
+  label: China Mobile Voice Call Service API
+  slug: china-mobile-voice-call-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-voice-call-service-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 22

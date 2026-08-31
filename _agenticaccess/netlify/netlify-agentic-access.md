@@ -214,6 +214,48 @@ api_specs:
   slug: netlify-x-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-x-internal-api-openapi.yml
+- filename: netlify-agentrunner-api-openapi.yml
+  format: yaml
+  label: Netlify Agent Runner API
+  slug: netlify-agentrunner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunner-api-openapi.yml
+- filename: netlify-agentrunnerhook-api-openapi.yml
+  format: yaml
+  label: Netlify Agent Runner Hook API
+  slug: netlify-agentrunnerhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunnerhook-api-openapi.yml
+- filename: netlify-agentrunnersession-api-openapi.yml
+  format: yaml
+  label: Netlify Agent Runner Session API
+  slug: netlify-agentrunnersession-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-agentrunnersession-api-openapi.yml
+- filename: netlify-aigateway-api-openapi.yml
+  format: yaml
+  label: Netlify AI Gateway API
+  slug: netlify-aigateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-aigateway-api-openapi.yml
+- filename: netlify-database-api-openapi.yml
+  format: yaml
+  label: Netlify Database API
+  slug: netlify-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-database-api-openapi.yml
+- filename: netlify-edgefunction-api-openapi.yml
+  format: yaml
+  label: Netlify Edge Function API
+  slug: netlify-edgefunction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-edgefunction-api-openapi.yml
+- filename: netlify-service-api-openapi.yml
+  format: yaml
+  label: Netlify Service API
+  slug: netlify-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-service-api-openapi.yml
 consequence_counts:
   physical: 19
   read: 60

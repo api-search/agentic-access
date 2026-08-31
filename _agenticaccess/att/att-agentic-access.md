@@ -4,6 +4,12 @@ action_class_counts:
   acting: 26
   connected: 16
 api_specs:
+- filename: att-oauth-api-openapi.yml
+  format: yaml
+  label: AT&T OAuth 2.0 API
+  slug: att-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-oauth-api-openapi.yml
 - filename: att-authentication-api-openapi.yml
   format: yaml
   label: AT&T Authentication API
@@ -142,6 +148,36 @@ api_specs:
   slug: att-threat-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-threat-subscriptions-api-openapi.yml
+- filename: att-device-status-api-openapi.yml
+  format: yaml
+  label: AT&T Device Status API
+  slug: att-device-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-device-status-api-openapi.yml
+- filename: att-network-insights-api-openapi.yml
+  format: yaml
+  label: AT&T Network Insights API
+  slug: att-network-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-network-insights-api-openapi.yml
+- filename: att-oauth-api-openapi.yml
+  format: yaml
+  label: AT&T O Auth API
+  slug: att-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-oauth-api-openapi.yml
+- filename: att-quality-on-demand-api-openapi.yml
+  format: yaml
+  label: AT&T Quality on Demand API
+  slug: att-quality-on-demand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-quality-on-demand-api-openapi.yml
+- filename: att-sms-api-openapi.yml
+  format: yaml
+  label: AT&T SMS API
+  slug: att-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-sms-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 16

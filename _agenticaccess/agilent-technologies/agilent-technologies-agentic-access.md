@@ -58,14 +58,14 @@ name: Agilent Technologies Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 11
-overview: 'agilent-technologies exposes 11 API operations that an AI agent could call, of which 2 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Agilent Technologies exposes 11 API operations that an AI agent could call, of which 2 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 9 read and 2 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: agilent-technologies
+provider_name: Agilent Technologies
 provider_slug: agilent-technologies
 slug: agilent-technologies-agentic-access
 source_filename: agilent-technologies-agentic-access.yml

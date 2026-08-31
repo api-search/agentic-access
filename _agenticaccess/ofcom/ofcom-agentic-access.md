@@ -3,18 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: ofcom-connected-nations-broadband-api-openapi.yml
+- filename: ofcom-coverage-api-openapi.yml
   format: yaml
-  label: Ofcom Connected Nations Broadband API
-  slug: ofcom-connected-nations-broadband-api
+  label: Ofcom Coverage API
+  slug: ofcom-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/openapi/ofcom-connected-nations-broadband-api-openapi.yml
-- filename: ofcom-connected-nations-mobile-api-openapi.yml
-  format: yaml
-  label: Ofcom Connected Nations Mobile API
-  slug: ofcom-connected-nations-mobile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/openapi/ofcom-connected-nations-mobile-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/openapi/ofcom-coverage-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

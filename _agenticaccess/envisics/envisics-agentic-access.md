@@ -21,12 +21,6 @@ api_specs:
   slug: envisics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-media-api-openapi.yml
-- filename: envisics-taxonomy-api-openapi.yml
-  format: yaml
-  label: Envisics Taxonomy API
-  slug: envisics-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-taxonomy-api-openapi.yml
 - filename: envisics-search-api-openapi.yml
   format: yaml
   label: Envisics Search API
@@ -51,6 +45,24 @@ api_specs:
   slug: envisics-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-seo-api-openapi.yml
+- filename: envisics-categories-api-openapi.yml
+  format: yaml
+  label: Envisics Categories API
+  slug: envisics-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-categories-api-openapi.yml
+- filename: envisics-tags-api-openapi.yml
+  format: yaml
+  label: Envisics Tags API
+  slug: envisics-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-tags-api-openapi.yml
+- filename: envisics-users-api-openapi.yml
+  format: yaml
+  label: Envisics Users API
+  slug: envisics-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-users-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

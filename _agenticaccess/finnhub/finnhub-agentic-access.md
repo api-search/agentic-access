@@ -45,6 +45,12 @@ api_specs:
   slug: finnhub-stock-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-stock-api-openapi.yml
+- filename: finnhub-default-api-openapi.yml
+  format: yaml
+  label: Finnhub Default API
+  slug: finnhub-default-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-default-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

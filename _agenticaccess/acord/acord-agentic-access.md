@@ -61,8 +61,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acord/refs/hea
 summary_line: 10 operations · 5 acting
 tags:
 - Claims
+- Data Standards
 - Insurance
 - Policy
+- Property Casualty
+- Reinsurance
 - Standards
 - Underwriting
+- XML
 ---

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: amazon-ses-sesv2-openapi.yml
-  format: yaml
-  label: Amazon SES v2 API
-  slug: amazon-ses-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/_original/amazon-ses-sesv2-openapi.yml
 - filename: amazon-ses-contact-lists-api-openapi.yml
   format: yaml
   label: Amazon SES Contact Lists API
@@ -34,6 +28,12 @@ api_specs:
   slug: amazon-ses-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/amazon-ses-templates-api-openapi.yml
+- filename: amazon-ses-email-api-openapi.yml
+  format: yaml
+  label: Amazon SES Email API
+  slug: amazon-ses-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/amazon-ses-email-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 2

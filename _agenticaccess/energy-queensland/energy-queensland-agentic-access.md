@@ -3,24 +3,60 @@ acting_count: 0
 action_class_counts:
   connected: 27
 api_specs:
-- filename: energy-queensland-cds-energy-openapi.yml
+- filename: energy-queensland-data-holder-customers-api-openapi.yml
   format: yaml
-  label: Ergon Energy Retail CDR Energy Product Reference Data API
-  slug: ergon-energy-retail-cdr-energy-product-reference-data-api
+  label: Energy Queensland Data Holder Customers API
+  slug: energy-queensland-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-cds-energy-openapi.yml
-- filename: energy-queensland-cds-common-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-data-holder-customers-api-openapi.yml
+- filename: energy-queensland-data-holder-operations-api-openapi.yml
   format: yaml
-  label: Ergon Energy Retail CDR Discovery API
-  slug: ergon-energy-retail-cdr-discovery-api
+  label: Energy Queensland Data Holder Operations API
+  slug: energy-queensland-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-cds-common-openapi.yml
-- filename: energy-queensland-cds-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-data-holder-operations-api-openapi.yml
+- filename: energy-queensland-distributed-energy-resources-api-openapi.yml
   format: yaml
-  label: Ergon Energy Retail CDR Energy Consumer Data API
-  slug: ergon-energy-retail-cdr-energy-consumer-data-api
+  label: Energy Queensland Distributed Energy Resources API
+  slug: energy-queensland-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-cds-energy-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-distributed-energy-resources-api-openapi.yml
+- filename: energy-queensland-electricity-service-points-api-openapi.yml
+  format: yaml
+  label: Energy Queensland Electricity Service Points API
+  slug: energy-queensland-electricity-service-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-electricity-service-points-api-openapi.yml
+- filename: energy-queensland-electricity-usage-api-openapi.yml
+  format: yaml
+  label: Energy Queensland Electricity Usage API
+  slug: energy-queensland-electricity-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-electricity-usage-api-openapi.yml
+- filename: energy-queensland-energy-account-balances-api-openapi.yml
+  format: yaml
+  label: Energy Queensland Energy Account Balances API
+  slug: energy-queensland-energy-account-balances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-account-balances-api-openapi.yml
+- filename: energy-queensland-energy-account-billing-api-openapi.yml
+  format: yaml
+  label: Energy Queensland Energy Account Billing API
+  slug: energy-queensland-energy-account-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-account-billing-api-openapi.yml
+- filename: energy-queensland-energy-accounts-api-openapi.yml
+  format: yaml
+  label: Energy Queensland Energy Accounts API
+  slug: energy-queensland-energy-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-accounts-api-openapi.yml
+- filename: energy-queensland-energy-plans-api-openapi.yml
+  format: yaml
+  label: Energy Queensland Energy Plans API
+  slug: energy-queensland-energy-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/openapi/energy-queensland-energy-plans-api-openapi.yml
 consequence_counts:
   read: 27
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

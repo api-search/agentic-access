@@ -64,6 +64,12 @@ api_specs:
   slug: tito-webhook-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-webhook-endpoints-api-openapi.yml
+- filename: tito-tito-admin-api-api-openapi.yml
+  format: yaml
+  label: Tito Tito Admin API
+  slug: tito-tito-admin-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/openapi/tito-tito-admin-api-api-openapi.yml
 consequence_counts:
   read: 22
   write: 35

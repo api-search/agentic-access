@@ -3,30 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: polyteia-dataset-api-openapi.yml
-  format: yaml
-  label: Polyteia Dataset API
-  slug: polyteia-dataset-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/openapi/polyteia-dataset-api-openapi.yml
 - filename: polyteia-organization-api-openapi.yml
   format: yaml
   label: Polyteia Organization API
   slug: polyteia-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/openapi/polyteia-organization-api-openapi.yml
-- filename: polyteia-solution-api-openapi.yml
-  format: yaml
-  label: Polyteia Solution API
-  slug: polyteia-solution-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/openapi/polyteia-solution-api-openapi.yml
-- filename: polyteia-workspace-api-openapi.yml
-  format: yaml
-  label: Polyteia Workspace API
-  slug: polyteia-workspace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/openapi/polyteia-workspace-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

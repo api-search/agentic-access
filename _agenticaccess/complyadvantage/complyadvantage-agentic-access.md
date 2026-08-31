@@ -4,6 +4,12 @@ action_class_counts:
   acting: 10
   connected: 9
 api_specs:
+- filename: complyadvantage-mesh-api-openapi.json
+  format: json
+  label: ComplyAdvantage Mesh Platform API
+  slug: complyadvantage-mesh-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-mesh-api-openapi.json
 - filename: complyadvantage-case-management-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Case Management API

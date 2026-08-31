@@ -226,4 +226,12 @@ tags:
 - Infrastructure-as-a-Service
 - Oracle
 - Platform-as-a-Service
+- Compute
+- Object-Storage
+- Identity-and-Access-Management
+- Database
+- Kubernetes
+- Serverless
+- Monitoring
+- Event-Driven
 ---

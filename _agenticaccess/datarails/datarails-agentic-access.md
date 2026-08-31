@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: datarails-financeos-mcp-openapi.json
-  format: json
-  label: Datarails FinanceOS MCP Server
-  slug: financeos-mcp
+- filename: datarails-health-api-openapi.yml
+  format: yaml
+  label: Datarails Health API
+  slug: datarails-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-financeos-mcp-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-health-api-openapi.yml
+- filename: datarails-oauth-api-openapi.yml
+  format: yaml
+  label: Datarails OAUTH API
+  slug: datarails-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-oauth-api-openapi.yml
+- filename: datarails-ready-api-openapi.yml
+  format: yaml
+  label: Datarails Ready API
+  slug: datarails-ready-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-ready-api-openapi.yml
+- filename: datarails-well-known-api-openapi.yml
+  format: yaml
+  label: Datarails .well Known API
+  slug: datarails-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-well-known-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

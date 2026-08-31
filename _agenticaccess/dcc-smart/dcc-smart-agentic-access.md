@@ -3,12 +3,18 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: dcc-boxed-duis-signing-tool-openapi.yml
+- filename: dcc-smart-sign-api-openapi.yml
   format: yaml
-  label: DCC Boxed DUIS Signing Tool API
-  slug: dcc-boxed-duis-signing-tool-api
+  label: Smart DCC Sign API
+  slug: dcc-smart-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/openapi/dcc-boxed-duis-signing-tool-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/openapi/dcc-smart-sign-api-openapi.yml
+- filename: dcc-smart-verify-api-openapi.yml
+  format: yaml
+  label: Smart DCC Verify API
+  slug: dcc-smart-verify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/openapi/dcc-smart-verify-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

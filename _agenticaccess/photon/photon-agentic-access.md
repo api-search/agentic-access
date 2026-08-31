@@ -2,12 +2,24 @@
 acting_count: 0
 action_class_counts: {}
 api_specs:
-- filename: photon-website-api-openapi.json
-  format: json
-  label: Photon Website API
-  slug: photon-website-api
+- filename: photon-agent-discovery-api-openapi.yml
+  format: yaml
+  label: Photon Agent discovery API
+  slug: photon-agent-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-website-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-agent-discovery-api-openapi.yml
+- filename: photon-newsletter-api-openapi.yml
+  format: yaml
+  label: Photon Newsletter API
+  slug: photon-newsletter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-newsletter-api-openapi.yml
+- filename: photon-onboarding-api-openapi.yml
+  format: yaml
+  label: Photon Onboarding API
+  slug: photon-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-onboarding-api-openapi.yml
 consequence_counts: {}
 description: ''
 human_in_the_loop: 0

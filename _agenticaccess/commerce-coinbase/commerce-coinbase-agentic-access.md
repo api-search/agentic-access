@@ -22,6 +22,12 @@ api_specs:
   slug: commerce-coinbase-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-events-api-openapi.yml
+- filename: commerce-coinbase-webhooks-api-openapi.yml
+  format: yaml
+  label: Coinbase Commerce Webhooks API
+  slug: commerce-coinbase-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 6

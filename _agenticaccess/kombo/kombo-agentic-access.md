@@ -52,6 +52,12 @@ api_specs:
   slug: kombo-unified-lms-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-unified-lms-api-api-openapi.yml
+- filename: kombo-kombo-api-api-openapi.yml
+  format: yaml
+  label: Kombo Kombo API
+  slug: kombo-kombo-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/openapi/kombo-kombo-api-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 59

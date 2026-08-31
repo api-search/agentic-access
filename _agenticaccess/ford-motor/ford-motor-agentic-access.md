@@ -20,14 +20,14 @@ name: Ford Motor Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 1
-overview: 'ford-motor exposes 1 API operation that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Ford Motor Company exposes 1 API operation that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 1 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: ford-motor
+provider_name: Ford Motor Company
 provider_slug: ford-motor
 slug: ford-motor-agentic-access
 source_filename: ford-motor-agentic-access.yml

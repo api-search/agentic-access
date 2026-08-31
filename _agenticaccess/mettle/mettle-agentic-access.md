@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: mettle-open-data-api-openapi.json
-  format: json
-  label: Mettle Open Data Product API
-  slug: mettle-open-data-product-api
+- filename: mettle-atm-api-openapi.yml
+  format: yaml
+  label: Mettle ATM API
+  slug: mettle-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-open-data-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-atm-api-openapi.yml
+- filename: mettle-bca-api-openapi.yml
+  format: yaml
+  label: Mettle BCA API
+  slug: mettle-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-bca-api-openapi.yml
+- filename: mettle-branch-api-openapi.yml
+  format: yaml
+  label: Mettle Branch API
+  slug: mettle-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-branch-api-openapi.yml
+- filename: mettle-ccc-api-openapi.yml
+  format: yaml
+  label: Mettle CCC API
+  slug: mettle-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-ccc-api-openapi.yml
+- filename: mettle-pca-api-openapi.yml
+  format: yaml
+  label: Mettle PCA API
+  slug: mettle-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-pca-api-openapi.yml
+- filename: mettle-sme-api-openapi.yml
+  format: yaml
+  label: Mettle SME API
+  slug: mettle-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-sme-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

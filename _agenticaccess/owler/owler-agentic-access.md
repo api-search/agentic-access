@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: owler-enterprise-api-openapi.yml
+- filename: owler-company-premium-api-api-openapi.yml
   format: yaml
-  label: Owler Enterprise API
-  slug: owler-enterprise-api
+  label: Owler Company Premium API
+  slug: owler-company-premium-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-enterprise-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-company-premium-api-api-openapi.yml
+- filename: owler-competitor-premium-api-api-openapi.yml
+  format: yaml
+  label: Owler Competitor Premium API
+  slug: owler-competitor-premium-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-competitor-premium-api-api-openapi.yml
+- filename: owler-feed-api-api-openapi.yml
+  format: yaml
+  label: Owler Feed API
+  slug: owler-feed-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-feed-api-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

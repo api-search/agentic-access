@@ -82,6 +82,12 @@ api_specs:
   slug: apollo-io-miscellaneous-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/openapi/apollo-io-miscellaneous-api-openapi.yml
+- filename: apollo-io-users-api-openapi.yml
+  format: yaml
+  label: Apollo.io Users API
+  slug: apollo-io-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/openapi/apollo-io-users-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 26

@@ -2,48 +2,66 @@
 acting_count: 0
 action_class_counts: {}
 api_specs:
-- filename: group14-technologies-resources-openapi.yml
-  format: yaml
-  label: Group14 Technologies Resources API
-  slug: group14-technologies-resources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-resources-openapi.yml
-- filename: group14-technologies-content-openapi.yml
-  format: yaml
-  label: Group14 Technologies Content API
-  slug: group14-technologies-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-content-openapi.yml
-- filename: group14-technologies-careers-openapi.yml
-  format: yaml
-  label: Group14 Technologies Careers API
-  slug: group14-technologies-careers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-careers-openapi.yml
-- filename: group14-technologies-locations-openapi.yml
-  format: yaml
-  label: Group14 Technologies Locations API
-  slug: group14-technologies-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-locations-openapi.yml
-- filename: group14-technologies-media-openapi.yml
-  format: yaml
-  label: Group14 Technologies Media API
-  slug: group14-technologies-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-media-openapi.yml
-- filename: group14-technologies-search-openapi.yml
-  format: yaml
-  label: Group14 Technologies Search API
-  slug: group14-technologies-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-search-openapi.yml
-- filename: group14-technologies-discovery-openapi.yml
+- filename: group14-technologies-discovery-api-openapi.yml
   format: yaml
   label: Group14 Technologies Discovery API
   slug: group14-technologies-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-discovery-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-discovery-api-openapi.yml
+- filename: group14-technologies-job-openings-api-openapi.yml
+  format: yaml
+  label: Group14 Technologies Job Openings API
+  slug: group14-technologies-job-openings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-job-openings-api-openapi.yml
+- filename: group14-technologies-locations-api-openapi.yml
+  format: yaml
+  label: Group14 Technologies Locations API
+  slug: group14-technologies-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-locations-api-openapi.yml
+- filename: group14-technologies-media-api-openapi.yml
+  format: yaml
+  label: Group14 Technologies Media API
+  slug: group14-technologies-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-media-api-openapi.yml
+- filename: group14-technologies-pages-api-openapi.yml
+  format: yaml
+  label: Group14 Technologies Pages API
+  slug: group14-technologies-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-pages-api-openapi.yml
+- filename: group14-technologies-posts-api-openapi.yml
+  format: yaml
+  label: Group14 Technologies Posts API
+  slug: group14-technologies-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-posts-api-openapi.yml
+- filename: group14-technologies-resources-api-openapi.yml
+  format: yaml
+  label: Group14 Technologies Resources API
+  slug: group14-technologies-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-resources-api-openapi.yml
+- filename: group14-technologies-search-api-openapi.yml
+  format: yaml
+  label: Group14 Technologies Search API
+  slug: group14-technologies-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-search-api-openapi.yml
+- filename: group14-technologies-taxonomy-api-openapi.yml
+  format: yaml
+  label: Group14 Technologies Taxonomy API
+  slug: group14-technologies-taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-taxonomy-api-openapi.yml
+- filename: group14-technologies-video-api-openapi.yml
+  format: yaml
+  label: Group14 Technologies Video API
+  slug: group14-technologies-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/openapi/group14-technologies-video-api-openapi.yml
 consequence_counts: {}
 description: Recommended x-agentic-access contract for the Group14 Technologies surface. Group14 publishes no agent policy, so this is API Evangelist's classification of what an autonomous agent may safely do here — generated from the derived operations, not asserted on the provider's behalf.
 human_in_the_loop: 0

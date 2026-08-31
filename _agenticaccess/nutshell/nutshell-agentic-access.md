@@ -4,18 +4,6 @@ action_class_counts:
   acting: 47
   connected: 69
 api_specs:
-- filename: nutshell-api.json
-  format: json
-  label: Nutshell REST API
-  slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/_original/nutshell-api.json
-- filename: nutshell-accounts-api-openapi.yml
-  format: yaml
-  label: Nutshell Accounts (Companies) API
-  slug: nutshell-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-accounts-api-openapi.yml
 - filename: nutshell-activities-api-openapi.yml
   format: yaml
   label: Nutshell Activities API
@@ -34,12 +22,6 @@ api_specs:
   slug: nutshell-competitors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-competitors-api-openapi.yml
-- filename: nutshell-contacts-api-openapi.yml
-  format: yaml
-  label: Nutshell Contacts (People) API
-  slug: nutshell-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-contacts-api-openapi.yml
 - filename: nutshell-editions-api-openapi.yml
   format: yaml
   label: Nutshell Editions API
@@ -52,18 +34,6 @@ api_specs:
   slug: nutshell-emails-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-emails-api-openapi.yml
-- filename: nutshell-events-api-openapi.yml
-  format: yaml
-  label: Nutshell Events (Timeline) API
-  slug: nutshell-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-events-api-openapi.yml
-- filename: nutshell-filters-api-openapi.yml
-  format: yaml
-  label: Nutshell Filters API
-  slug: nutshell-filters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-filters-api-openapi.yml
 - filename: nutshell-forms-api-openapi.yml
   format: yaml
   label: Nutshell Forms API
@@ -100,18 +70,6 @@ api_specs:
   slug: nutshell-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-notes-api-openapi.yml
-- filename: nutshell-pipelines-api-openapi.yml
-  format: yaml
-  label: Nutshell Pipelines (Stagesets) API
-  slug: nutshell-pipelines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-pipelines-api-openapi.yml
-- filename: nutshell-product-categories-api-openapi.yml
-  format: yaml
-  label: Nutshell Product Categories API
-  slug: nutshell-product-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-product-categories-api-openapi.yml
 - filename: nutshell-products-api-openapi.yml
   format: yaml
   label: Nutshell Products API
@@ -154,6 +112,42 @@ api_specs:
   slug: nutshell-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-users-api-openapi.yml
+- filename: nutshell-accounts-companies-api-openapi.yml
+  format: yaml
+  label: Nutshell Accounts (Companies) API
+  slug: nutshell-accounts-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-accounts-companies-api-openapi.yml
+- filename: nutshell-contacts-people-api-openapi.yml
+  format: yaml
+  label: Nutshell Contacts (People) API
+  slug: nutshell-contacts-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-contacts-people-api-openapi.yml
+- filename: nutshell-events-timeline-api-openapi.yml
+  format: yaml
+  label: Nutshell Events (Timeline) API
+  slug: nutshell-events-timeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-events-timeline-api-openapi.yml
+- filename: nutshell-filter-api-openapi.yml
+  format: yaml
+  label: Nutshell Filter API
+  slug: nutshell-filter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-filter-api-openapi.yml
+- filename: nutshell-productcategories-api-openapi.yml
+  format: yaml
+  label: Nutshell Product Categories API
+  slug: nutshell-productcategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-productcategories-api-openapi.yml
+- filename: nutshell-stagesets-pipelines-api-openapi.yml
+  format: yaml
+  label: Nutshell Stagesets (Pipelines) API
+  slug: nutshell-stagesets-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/openapi/nutshell-stagesets-pipelines-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 69

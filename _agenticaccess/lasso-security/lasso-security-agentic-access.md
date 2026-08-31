@@ -9,12 +9,6 @@ api_specs:
   slug: lasso-security-classify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/openapi/lasso-security-classify-api-openapi.yml
-- filename: lasso-security-masking-api-openapi.yml
-  format: yaml
-  label: Lasso Security Masking API
-  slug: lasso-security-masking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/openapi/lasso-security-masking-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

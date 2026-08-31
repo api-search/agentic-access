@@ -6,34 +6,40 @@ action_class_counts:
 api_specs:
 - filename: university-of-basel-admin-api-api-openapi.yml
   format: yaml
-  label: University of Basel Admin API API
+  label: DaSCH DSP-API — Admin API
   slug: university-of-basel-admin-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-admin-api-api-openapi.yml
 - filename: university-of-basel-api-v2-api-openapi.yml
   format: yaml
-  label: University of Basel API v2 API
+  label: DaSCH DSP-API — API v2
   slug: university-of-basel-api-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-api-v2-api-openapi.yml
 - filename: university-of-basel-api-v3-api-openapi.yml
   format: yaml
-  label: University of Basel API v3 API
+  label: DaSCH DSP-API — API v3
   slug: university-of-basel-api-v3-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-api-v3-api-openapi.yml
 - filename: university-of-basel-management-api-api-openapi.yml
   format: yaml
-  label: University of Basel Management API API
+  label: DaSCH DSP-API — Management API
   slug: university-of-basel-management-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-management-api-api-openapi.yml
 - filename: university-of-basel-ontology-mappings-api-openapi.yml
   format: yaml
-  label: University of Basel Ontology Mappings API
+  label: DaSCH DSP-API — Ontology Mappings
   slug: university-of-basel-ontology-mappings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-ontology-mappings-api-openapi.yml
+- filename: university-of-basel-experimental-api-openapi.yml
+  format: yaml
+  label: University of Basel Experimental API
+  slug: university-of-basel-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/openapi/university-of-basel-experimental-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 81

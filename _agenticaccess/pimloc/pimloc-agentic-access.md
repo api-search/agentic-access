@@ -28,6 +28,12 @@ api_specs:
   slug: pimloc-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-projects-api-openapi.yml
+- filename: pimloc-secure-redact-api-api-openapi.yml
+  format: yaml
+  label: Pimloc Secure Redact API
+  slug: pimloc-secure-redact-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-secure-redact-api-api-openapi.yml
 consequence_counts:
   read: 11
   write: 11

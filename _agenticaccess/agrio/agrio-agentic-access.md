@@ -10,12 +10,6 @@ api_specs:
   slug: agrio-balance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-balance-api-openapi.yml
-- filename: agrio-credit-api-openapi.yml
-  format: yaml
-  label: agrio Credit API
-  slug: agrio-credit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-credit-api-openapi.yml
 - filename: agrio-crops-api-openapi.yml
   format: yaml
   label: agrio Crops API
@@ -28,12 +22,6 @@ api_specs:
   slug: agrio-diagnose-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-diagnose-api-openapi.yml
-- filename: agrio-diagnosis-api-openapi.yml
-  format: yaml
-  label: agrio Diagnosis API
-  slug: agrio-diagnosis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-diagnosis-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

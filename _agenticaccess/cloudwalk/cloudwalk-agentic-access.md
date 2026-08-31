@@ -3,12 +3,24 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: cloudwalk-infinitepay-checkout-openapi.yml
+- filename: cloudwalk-checkout-links-api-openapi.yml
   format: yaml
-  label: InfinitePay Checkout API
-  slug: infinitepay-checkout-api
+  label: CloudWalk Checkout Links API
+  slug: cloudwalk-checkout-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/openapi/cloudwalk-infinitepay-checkout-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/openapi/cloudwalk-checkout-links-api-openapi.yml
+- filename: cloudwalk-infinitepay-checkout-api-api-openapi.yml
+  format: yaml
+  label: CloudWalk InfinitePay Checkout API
+  slug: cloudwalk-infinitepay-checkout-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/openapi/cloudwalk-infinitepay-checkout-api-api-openapi.yml
+- filename: cloudwalk-payments-api-openapi.yml
+  format: yaml
+  label: CloudWalk Payments API
+  slug: cloudwalk-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/openapi/cloudwalk-payments-api-openapi.yml
 consequence_counts:
   physical: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

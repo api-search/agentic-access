@@ -28,14 +28,14 @@ name: Microsoft Azure Container Instances Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 7
-overview: 'microsoft-azure-container-instances exposes 7 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Azure Container Instances exposes 7 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 4 read and 3 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: microsoft-azure-container-instances
+provider_name: Azure Container Instances
 provider_slug: microsoft-azure-container-instances
 slug: microsoft-azure-container-instances-agentic-access
 source_filename: microsoft-azure-container-instances-agentic-access.yml

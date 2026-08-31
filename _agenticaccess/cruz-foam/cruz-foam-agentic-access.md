@@ -27,12 +27,6 @@ api_specs:
   slug: cruz-foam-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/openapi/cruz-foam-media-api-openapi.yml
-- filename: cruz-foam-taxonomy-api-openapi.yml
-  format: yaml
-  label: Cruz Foam Taxonomy API
-  slug: cruz-foam-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/openapi/cruz-foam-taxonomy-api-openapi.yml
 - filename: cruz-foam-search-api-openapi.yml
   format: yaml
   label: Cruz Foam Search API
@@ -57,6 +51,30 @@ api_specs:
   slug: cruz-foam-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/openapi/cruz-foam-seo-api-openapi.yml
+- filename: cruz-foam-categories-api-openapi.yml
+  format: yaml
+  label: Cruz Foam Categories API
+  slug: cruz-foam-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/openapi/cruz-foam-categories-api-openapi.yml
+- filename: cruz-foam-portfolio-categories-api-openapi.yml
+  format: yaml
+  label: Cruz Foam Portfolio Categories API
+  slug: cruz-foam-portfolio-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/openapi/cruz-foam-portfolio-categories-api-openapi.yml
+- filename: cruz-foam-tags-api-openapi.yml
+  format: yaml
+  label: Cruz Foam Tags API
+  slug: cruz-foam-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/openapi/cruz-foam-tags-api-openapi.yml
+- filename: cruz-foam-users-api-openapi.yml
+  format: yaml
+  label: Cruz Foam Users API
+  slug: cruz-foam-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/openapi/cruz-foam-users-api-openapi.yml
 consequence_counts:
   read: 23
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

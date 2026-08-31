@@ -45,6 +45,12 @@ api_specs:
   slug: openexchangerates-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-usage-api-openapi.yml
+- filename: openexchangerates-rates-api-openapi.yml
+  format: yaml
+  label: Open Exchange Rates Rates API
+  slug: openexchangerates-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-rates-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

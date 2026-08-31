@@ -3,18 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 32
 api_specs:
-- filename: hydro-quebec-open-data-explore-api-v2-1-openapi.json
-  format: json
-  label: Hydro-Québec Open Data Explore API v2.1
-  slug: hydro-quebec-open-data-explore-api-v2-1
+- filename: hydro-quebec-catalog-api-openapi.yml
+  format: yaml
+  label: Hydro-Québec Catalog API
+  slug: hydro-quebec-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-open-data-explore-api-v2-1-openapi.json
-- filename: hydro-quebec-open-data-explore-api-v2-0-openapi.json
-  format: json
-  label: Hydro-Québec Open Data Explore API v2.0
-  slug: hydro-quebec-open-data-explore-api-v2-0
+  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-catalog-api-openapi.yml
+- filename: hydro-quebec-dataset-api-openapi.yml
+  format: yaml
+  label: Hydro-Québec Dataset API
+  slug: hydro-quebec-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-open-data-explore-api-v2-0-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-dataset-api-openapi.yml
 consequence_counts:
   read: 32
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

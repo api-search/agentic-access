@@ -4,30 +4,30 @@ action_class_counts:
   acting: 5
   connected: 7
 api_specs:
-- filename: segmind-account-api-openapi.yml
-  format: yaml
-  label: Segmind Account API
-  slug: segmind-account-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-account-api-openapi.yml
-- filename: segmind-fine-tuning-api-openapi.yml
-  format: yaml
-  label: Segmind Fine-tuning API
-  slug: segmind-fine-tuning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-fine-tuning-api-openapi.yml
 - filename: segmind-inference-api-openapi.yml
   format: yaml
   label: Segmind Inference API
   slug: segmind-inference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-inference-api-openapi.yml
+- filename: segmind-account-api-openapi.yml
+  format: yaml
+  label: Segmind Account API
+  slug: segmind-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-account-api-openapi.yml
 - filename: segmind-storage-api-openapi.yml
   format: yaml
   label: Segmind Storage API
   slug: segmind-storage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-storage-api-openapi.yml
+- filename: segmind-fine-tuning-api-openapi.yml
+  format: yaml
+  label: Segmind Fine-tuning API
+  slug: segmind-fine-tuning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/openapi/segmind-fine-tuning-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -59,5 +59,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/segmin
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /finetune/request/upload/pre-signed-url\n  method: get\n  operationId: getFinetuneUploadUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finetune/request/file/download\n  method: get\n  operationId: downloadFinetuneFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /upload-asset\n  method: post\n  operationId: uploadAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/agentic-access/segmind-agentic-access.yml
 summary_line: 12 operations · 5 acting
-tags: []
+tags:
+- Artificial Intelligence
+- Machine Learning
+- Generative AI
+- Inference
+- Image Generation
+- Video Generation
+- Text to Image
+- Text to Video
+- Serverless
+- GPU
+- Workflows
+- Fine-Tuning
 ---

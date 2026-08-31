@@ -58,6 +58,12 @@ api_specs:
   slug: vooma-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-webhooks-api-openapi.yml
+- filename: vooma-api-api-openapi.yml
+  format: yaml
+  label: Vooma API
+  slug: vooma-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/openapi/vooma-api-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 6

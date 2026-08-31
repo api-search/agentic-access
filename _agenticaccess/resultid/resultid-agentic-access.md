@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 9
 api_specs:
-- filename: resultid-api-openapi.yml
+- filename: resultid-endpoints-api-openapi.yml
   format: yaml
-  label: Resultid API
-  slug: resultid-api
+  label: Resultid Endpoints API
+  slug: resultid-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/openapi/resultid-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/openapi/resultid-endpoints-api-openapi.yml
+- filename: resultid-insight-endpoints-api-openapi.yml
+  format: yaml
+  label: Resultid Insight endpoints API
+  slug: resultid-insight-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/resultid/refs/heads/main/openapi/resultid-insight-endpoints-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

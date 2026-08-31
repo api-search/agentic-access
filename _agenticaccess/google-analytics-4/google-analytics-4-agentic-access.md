@@ -4,18 +4,24 @@ action_class_counts:
   acting: 149
   connected: 98
 api_specs:
-- filename: google-analytics-4-data-v1beta-openapi.yml
+- filename: google-analytics-4-accounts-api-openapi.yml
   format: yaml
-  label: Google Analytics Data API
-  slug: google-analytics-data-api
+  label: Google Analytics 4 Accounts API
+  slug: google-analytics-4-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/openapi/google-analytics-4-data-v1beta-openapi.yml
-- filename: google-analytics-4-admin-v1beta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/openapi/google-analytics-4-accounts-api-openapi.yml
+- filename: google-analytics-4-accountsummaries-api-openapi.yml
   format: yaml
-  label: Google Analytics Admin API
-  slug: google-analytics-admin-api
+  label: Google Analytics 4 Account Summaries API
+  slug: google-analytics-4-accountsummaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/openapi/google-analytics-4-admin-v1beta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/openapi/google-analytics-4-accountsummaries-api-openapi.yml
+- filename: google-analytics-4-properties-api-openapi.yml
+  format: yaml
+  label: Google Analytics 4 Properties API
+  slug: google-analytics-4-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/openapi/google-analytics-4-properties-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 98

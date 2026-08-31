@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: kpmg-discovery-api-openapi.yml
-  format: yaml
-  label: KPMG Discovery API
-  slug: kpmg-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-discovery-api-openapi.yml
 - filename: kpmg-movements-api-openapi.yml
   format: yaml
   label: KPMG Movements API

@@ -76,6 +76,12 @@ api_specs:
   slug: hellosign-unclaimed-draft-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-unclaimed-draft-api-openapi.yml
+- filename: hellosign-callbacks-and-events-api-openapi.yml
+  format: yaml
+  label: Dropbox Sign (HelloSign) Callbacks and Events API
+  slug: hellosign-callbacks-and-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/openapi/hellosign-callbacks-and-events-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 27

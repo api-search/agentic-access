@@ -46,6 +46,24 @@ api_specs:
   slug: acceldata-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/acceldata-users-api-openapi.yml
+- filename: acceldata-catalog-api-openapi.json
+  format: json
+  label: Acceldata Catalog API
+  slug: acceldata-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/_original/acceldata-catalog-api-openapi.json
+- filename: acceldata-administration-api-openapi.json
+  format: json
+  label: Acceldata Administration API
+  slug: acceldata-administration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/_original/acceldata-administration-api-openapi.json
+- filename: acceldata-tags-api-openapi.json
+  format: json
+  label: Acceldata Tag Services API
+  slug: acceldata-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/_original/acceldata-tags-api-openapi.json
 consequence_counts:
   read: 7
   write: 2

@@ -4,24 +4,24 @@ action_class_counts:
   acting: 1
   connected: 6
 api_specs:
-- filename: demio-openapi.yml
+- filename: demio-events-api-openapi.yml
   format: yaml
   label: Demio Events API
   slug: demio-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-openapi.yml
-- filename: demio-openapi.yml
-  format: yaml
-  label: Demio Reports API
-  slug: demio-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-openapi.yml
-- filename: demio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-events-api-openapi.yml
+- filename: demio-intro-api-openapi.yml
   format: yaml
   label: Demio Intro API
   slug: demio-intro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-intro-api-openapi.yml
+- filename: demio-reports-api-openapi.yml
+  format: yaml
+  label: Demio Reports API
+  slug: demio-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-reports-api-openapi.yml
 consequence_counts:
   read: 6
   write: 1

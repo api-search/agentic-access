@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 16
 api_specs:
-- filename: ssen-transmission-opendatasoft-explore-v2.1-openapi.json
-  format: json
-  label: SSEN Transmission Open Data Explore API
-  slug: ssen-transmission-open-data-explore-api
+- filename: ssen-catalog-api-openapi.yml
+  format: yaml
+  label: Scottish and Southern Electricity Networks Catalog API
+  slug: ssen-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/openapi/ssen-transmission-opendatasoft-explore-v2.1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/openapi/ssen-catalog-api-openapi.yml
+- filename: ssen-dataset-api-openapi.yml
+  format: yaml
+  label: Scottish and Southern Electricity Networks Dataset API
+  slug: ssen-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/openapi/ssen-dataset-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -41,4 +41,9 @@ tags:
 - Genomic
 - Health Records
 - Healthcare
+- Population Health
+- Longitudinal Record
+- Interoperability
+- Clinical Data
+- Analytics
 ---

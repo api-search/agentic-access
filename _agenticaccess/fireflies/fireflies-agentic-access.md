@@ -3,42 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: fireflies-ai-apps-api-openapi.yml
-  format: yaml
-  label: Fireflies.ai AI Apps API
-  slug: fireflies-ai-apps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-ai-apps-api-openapi.yml
-- filename: fireflies-audio-upload-api-openapi.yml
-  format: yaml
-  label: Fireflies.ai Audio Upload API
-  slug: fireflies-audio-upload-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-audio-upload-api-openapi.yml
-- filename: fireflies-bites-api-openapi.yml
-  format: yaml
-  label: Fireflies.ai Bites API
-  slug: fireflies-bites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-bites-api-openapi.yml
-- filename: fireflies-live-meetings-api-openapi.yml
-  format: yaml
-  label: Fireflies.ai Live Meetings API
-  slug: fireflies-live-meetings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-live-meetings-api-openapi.yml
 - filename: fireflies-transcripts-api-openapi.yml
   format: yaml
   label: Fireflies.ai Transcripts API
   slug: fireflies-transcripts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-transcripts-api-openapi.yml
-- filename: fireflies-users-api-openapi.yml
-  format: yaml
-  label: Fireflies.ai Users API
-  slug: fireflies-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-users-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

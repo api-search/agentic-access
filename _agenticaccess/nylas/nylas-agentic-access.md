@@ -4,12 +4,6 @@ action_class_counts:
   acting: 8
   connected: 14
 api_specs:
-- filename: nylas-api.yaml
-  format: yaml
-  label: Nylas API
-  slug: nylas-api
-  spec_type: OpenAPI
-  url: https://developer.nylas.com/_spec-files/nylas-api.yaml
 - filename: nylas-admin-api-openapi.yml
   format: yaml
   label: Nylas Admin API
@@ -82,12 +76,12 @@ api_specs:
   slug: nylas-notetaker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-notetaker-api-openapi.yml
-- filename: nylas-templates-workflows-api-openapi.yml
+- filename: nylas-templates-and-workflows-api-openapi.yml
   format: yaml
   label: Nylas Templates and Workflows API
-  slug: nylas-templates-workflows-api
+  slug: nylas-templates-and-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-templates-workflows-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/openapi/nylas-templates-and-workflows-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14

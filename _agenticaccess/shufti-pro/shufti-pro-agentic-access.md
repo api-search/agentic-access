@@ -2,6 +2,19 @@
 acting_count: 3
 action_class_counts:
   acting: 3
+api_specs:
+- filename: shufti-pro-status-api-openapi.yml
+  format: yaml
+  label: Shufti Pro Status API
+  slug: shufti-pro-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/openapi/shufti-pro-status-api-openapi.yml
+- filename: shufti-pro-verification-api-openapi.yml
+  format: yaml
+  label: Shufti Pro Verification API
+  slug: shufti-pro-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/openapi/shufti-pro-verification-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

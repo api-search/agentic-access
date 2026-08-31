@@ -4,12 +4,6 @@ action_class_counts:
   acting: 34
   connected: 38
 api_specs:
-- filename: segment-pixel-tracking-api-openapi.yml
-  format: yaml
-  label: Segment Pixel Tracking API
-  slug: pixel-tracking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/openapi/segment-pixel-tracking-api-openapi.yml
 - filename: segment-alias-api-openapi.yml
   format: yaml
   label: segment Alias API

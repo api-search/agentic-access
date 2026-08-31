@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: open-insurance-certificate-of-currency-openapi.json
-  format: json
-  label: Open Certificate of Currency API
-  slug: open-certificate-of-currency-api
+- filename: open-insurance-policy-api-openapi.yml
+  format: yaml
+  label: Open Policy API
+  slug: open-insurance-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/openapi/open-insurance-certificate-of-currency-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/openapi/open-insurance-policy-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

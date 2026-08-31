@@ -4,12 +4,6 @@ action_class_counts:
   acting: 53
   connected: 31
 api_specs:
-- filename: openapi-flow.yaml
-  format: yaml
-  label: Hanko Flow API
-  slug: flow-api
-  spec_type: OpenAPI
-  url: https://docs.hanko.io/openapi-flow.yaml
 - filename: hanko-audit-logs-api-openapi.yml
   format: yaml
   label: Hanko Audit Logs API

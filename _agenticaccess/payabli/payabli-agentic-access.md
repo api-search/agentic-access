@@ -202,6 +202,12 @@ api_specs:
   slug: payabli-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-wallet-api-openapi.yml
+- filename: payabli-webhooks-api-openapi.yml
+  format: yaml
+  label: Payabli Webhooks API
+  slug: payabli-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/openapi/payabli-webhooks-api-openapi.yml
 consequence_counts:
   physical: 40
   read: 143

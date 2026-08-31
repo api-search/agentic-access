@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: steadfast-group-flood-risk-tracker-openapi.yml
+- filename: steadfast-group-address-api-openapi.yml
   format: yaml
-  label: Steadfast Flood Risk Tracker API
-  slug: flood-risk-tracker
+  label: Steadfast Group Address API
+  slug: steadfast-group-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/openapi/steadfast-group-flood-risk-tracker-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/openapi/steadfast-group-address-api-openapi.yml
+- filename: steadfast-group-risk-api-openapi.yml
+  format: yaml
+  label: Steadfast Group Risk API
+  slug: steadfast-group-risk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/openapi/steadfast-group-risk-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

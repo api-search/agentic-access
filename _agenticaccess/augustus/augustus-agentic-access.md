@@ -82,6 +82,12 @@ api_specs:
   slug: augustus-webhook-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-webhook-subscriptions-api-openapi.yml
+- filename: augustus-webhook-events-api-openapi.yml
+  format: yaml
+  label: Augustus Webhook Events API
+  slug: augustus-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-webhook-events-api-openapi.yml
 consequence_counts:
   read: 25
   safety-critical: 12

@@ -178,6 +178,12 @@ api_specs:
   slug: buttondown-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-webhooks-api-openapi.yml
+- filename: buttondown-buttondown-webhooks-api-api-openapi.yml
+  format: yaml
+  label: Buttondown Buttondown Webhooks API
+  slug: buttondown-buttondown-webhooks-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-buttondown-webhooks-api-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 62

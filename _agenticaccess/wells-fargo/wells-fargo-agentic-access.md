@@ -72,14 +72,14 @@ notable_actions:
   method: DELETE
   path: /v2/ach/payments/{paymentId}
 operation_count: 14
-overview: 'wells-fargo exposes 14 API operations that an AI agent could call, of which 4 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Wells Fargo exposes 14 API operations that an AI agent could call, of which 4 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 10 read and 4 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: wells-fargo
+provider_name: Wells Fargo
 provider_slug: wells-fargo
 slug: wells-fargo-agentic-access
 source_filename: wells-fargo-agentic-access.yml

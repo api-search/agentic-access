@@ -4,12 +4,12 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: equals-memories-openapi.yml
+- filename: equals-memories-api-openapi.yml
   format: yaml
   label: Equals Memories API
   slug: equals-memories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/openapi/equals-memories-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/openapi/equals-memories-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

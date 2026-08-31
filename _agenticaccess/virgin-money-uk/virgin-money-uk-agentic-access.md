@@ -3,12 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 12
 api_specs:
-- filename: obie-opendata-api-standard-openapi.json
-  format: json
-  label: Virgin Money UK Open Data API
-  slug: open-data-api
+- filename: virgin-money-uk-atm-api-openapi.yml
+  format: yaml
+  label: Virgin Money UK ATM API
+  slug: virgin-money-uk-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/obie-opendata-api-standard-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-atm-api-openapi.yml
+- filename: virgin-money-uk-bca-api-openapi.yml
+  format: yaml
+  label: Virgin Money UK BCA API
+  slug: virgin-money-uk-bca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-bca-api-openapi.yml
+- filename: virgin-money-uk-branch-api-openapi.yml
+  format: yaml
+  label: Virgin Money UK Branch API
+  slug: virgin-money-uk-branch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-branch-api-openapi.yml
+- filename: virgin-money-uk-ccc-api-openapi.yml
+  format: yaml
+  label: Virgin Money UK CCC API
+  slug: virgin-money-uk-ccc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-ccc-api-openapi.yml
+- filename: virgin-money-uk-pca-api-openapi.yml
+  format: yaml
+  label: Virgin Money UK PCA API
+  slug: virgin-money-uk-pca-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-pca-api-openapi.yml
+- filename: virgin-money-uk-sme-api-openapi.yml
+  format: yaml
+  label: Virgin Money UK SME API
+  slug: virgin-money-uk-sme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-sme-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
