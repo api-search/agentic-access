@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/
 summary_line: 9 operations · 1 acting
 tags:
 - Networking
-- WiFi
+- Wi-Fi
 - Switching
 - Routing
 - Surveillance

@@ -155,7 +155,7 @@ summary_line: 45 operations · 25 acting
 tags:
 - Payments
 - Payment Gateway
-- PIX
+- Pix
 - Boleto
 - Brazil
 ---

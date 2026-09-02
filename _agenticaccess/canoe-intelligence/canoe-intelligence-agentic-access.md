@@ -108,16 +108,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/canoe-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/agentic-access/canoe-intelligence-agentic-access.yml
 summary_line: 50 operations · 26 acting
 tags:
-- alternative-investments
-- private-markets
-- document-automation
-- data-extraction
-- fund-administration
+- Alternative Investments
+- Private Markets
+- Document Automation
+- Data Extraction
+- Fund Administration
 - capital-calls
 - k-1-tax-documents
-- portfolio-reporting
+- Portfolio Reporting
 - Financial-Services
 - Fintech
-- wealth-management
-- institutional-investors
+- Wealth Management
+- Institutional Investors
 ---

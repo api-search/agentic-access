@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/
 summary_line: 5 operations · 1 acting
 tags:
 - Application
-- Backends
+- Backend
 - Mobile
 - Open-Source
 ---

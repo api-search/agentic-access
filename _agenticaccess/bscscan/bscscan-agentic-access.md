@@ -113,12 +113,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/h
 summary_line: 71 operations · 1 acting
 tags:
 - Blockchain
-- block-explorer
+- Block Explorer
 - BNB Smart Chain
 - BSC
 - BEP-20
 - Transaction
-- smart-contracts
+- Smart Contracts
 - DeFi
 - EVM
 ---

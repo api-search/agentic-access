@@ -100,7 +100,7 @@ summary_line: 41 operations · 24 acting
 tags:
 - Insurance
 - Embedded Insurance
-- InsurTech
-- Insurance as a Service
+- Insurtech
+- Insurance As A Service
 - Protection
 ---

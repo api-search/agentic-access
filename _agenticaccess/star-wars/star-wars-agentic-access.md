@@ -72,7 +72,7 @@ tags:
 - Star Wars
 - Science Fiction
 - Entertainment
-- Films
+- Film
 - Characters
 - Planets
 - Starships

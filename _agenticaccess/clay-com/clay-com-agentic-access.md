@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/
 summary_line: 13 operations · 8 acting
 tags:
 - Prospecting
-- GTM
+- Go-To-Market
 - Sales
 - Enrichment
 - Automation

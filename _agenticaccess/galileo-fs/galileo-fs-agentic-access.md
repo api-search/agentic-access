@@ -117,7 +117,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galileo-fs/ref
 summary_line: 19 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Fintech
-- BaaS
+- Backend-as-a-Service
 - Card Issuing
 - Banking
 - Payments

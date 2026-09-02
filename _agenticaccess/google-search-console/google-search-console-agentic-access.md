@@ -79,7 +79,7 @@ tags:
 - Search
 - Search Analytics
 - SEO
-- Sitemaps
+- Sitemap
 - URL Inspection
 - Webmaster Tools
 ---

@@ -64,5 +64,5 @@ tags:
 - Reference Data
 - Regions
 - States
-- Time Zones
+- Timezones
 ---

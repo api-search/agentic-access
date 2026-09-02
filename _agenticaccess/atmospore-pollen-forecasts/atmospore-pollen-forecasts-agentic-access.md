@@ -56,16 +56,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/atmosp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/agentic-access/atmospore-pollen-forecasts-agentic-access.yml
 summary_line: 4 operations
 tags:
-- weather
-- pollen
-- allergy
-- environmental-data
+- Weather
+- Pollen
+- Allergy
+- Environmental Data
 - Health
-- geospatial
-- forecasting
-- smart-home
+- Geospatial
+- Forecasting
+- Smart Home
 - MCP
 - OpenAPI
-- norway
-- climate
+- Norway
+- Climate
 ---

@@ -283,17 +283,17 @@ summary_line: 69 operations · 28 acting · 1 human-in-the-loop
 tags:
 - Payments
 - Payouts
-- cross-border-payments
+- Cross-Border Payments
 - Fintech
-- digital-wallet
-- stablecoin
+- Digital Wallet
+- Stablecoins
 - USDC
-- stellar
-- mass-payouts
-- remittances
-- latin-america
-- emerging-markets
+- Stellar
+- Mass Payouts
+- Remittances
+- Latin America
+- Emerging Markets
 - money-services-business
 - Authentication
-- openid-connect
+- OpenID Connect
 ---

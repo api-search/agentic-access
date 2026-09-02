@@ -115,7 +115,6 @@ summary_line: 31 operations · 18 acting
 tags:
 - CRM
 - Sales
-- Customer Relationship Management
 - Dynamics 365
 - Microsoft
 - Dataverse

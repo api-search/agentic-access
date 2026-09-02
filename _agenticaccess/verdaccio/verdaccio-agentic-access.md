@@ -99,14 +99,14 @@ summary_line: 24 operations · 11 acting · 1 human-in-the-loop
 tags:
 - npm
 - Registry
-- package-manager
+- Package Manager
 - private-registry
 - Proxy
-- nodejs
+- Node.js
 - Open-Source
-- self-hosted
-- yarn
+- Self-Hosted
+- YARN
 - pnpm
-- docker
-- kubernetes
+- Docker
+- Kubernetes
 ---

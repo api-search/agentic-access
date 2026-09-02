@@ -304,7 +304,7 @@ tags:
 - Customer-Support
 - Messaging
 - Live Chat
-- Omni-channel
+- Omnichannel
 - Conversations
 - Contacts
 - Agents

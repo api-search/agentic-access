@@ -129,7 +129,7 @@ tags:
 - Biomedical
 - Research
 - PubMed
-- ClinicalTrials
+- Clinical Trials
 - PubChem
 - Genomics
 - Health

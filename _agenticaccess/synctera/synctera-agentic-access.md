@@ -337,7 +337,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synctera/refs/
 summary_line: 174 operations · 93 acting
 tags:
 - Fintech
-- BaaS
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

@@ -351,6 +351,6 @@ tags:
 - Direct Debit
 - Confirmation of Payee
 - Cross-Border
-- Banking-as-a-Service
+- Banking as a Service
 - Embedded Payments
 ---

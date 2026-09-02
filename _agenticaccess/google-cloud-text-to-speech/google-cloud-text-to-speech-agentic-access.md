@@ -50,5 +50,5 @@ tags:
 - Google Cloud
 - Machine-Learning
 - Speech Synthesis
-- Text-To-Speech
+- Text-to-Speech
 ---

@@ -185,5 +185,5 @@ tags:
 - MCP
 - Fintech
 - Cards
-- Onramp
+- On-Ramp
 ---

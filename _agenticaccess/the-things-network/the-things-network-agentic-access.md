@@ -531,7 +531,7 @@ summary_line: 329 operations · 174 acting · 3 human-in-the-loop
 tags:
 - LoRaWAN
 - IoT
-- Internet Of Things
+- Internet of Things
 - Open-Source
 - Network Server
 - LPWAN

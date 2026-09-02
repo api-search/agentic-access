@@ -62,7 +62,7 @@ summary_line: 10 operations · 3 acting
 tags:
 - Social-Media
 - Publishing
-- AI Content
+- AI content
 - Automation
 - Content Creation
 ---

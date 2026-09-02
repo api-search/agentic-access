@@ -140,7 +140,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesphere/ref
 summary_line: 80 operations · 50 acting · 1 human-in-the-loop
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Cloud
 - Deployment
 - Developer Tools

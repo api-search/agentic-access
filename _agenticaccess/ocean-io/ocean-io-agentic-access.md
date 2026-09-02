@@ -103,7 +103,7 @@ tags:
 - B2B
 - Enrichment
 - Lookalike
-- ABM
+- Account Based Marketing
 - Prospecting
 - Company Data
 - People Data

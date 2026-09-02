@@ -44,7 +44,7 @@ tags:
 - Database
 - API Management
 - Backend
-- No Code
+- No-Code
 - SQL
 - PostgreSQL
 - MySQL
@@ -55,6 +55,6 @@ tags:
 - SQL Server
 - Webhook
 - OpenAPI
-- Low Code
+- Low-Code
 - Egypt
 ---

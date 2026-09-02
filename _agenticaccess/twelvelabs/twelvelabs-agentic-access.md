@@ -78,7 +78,7 @@ summary_line: 22 operations · 13 acting
 tags:
 - Artificial Intelligence
 - Video Understanding
-- Multimodal
+- Multi-Modal
 - Search
 - Embeddings
 ---

@@ -131,7 +131,7 @@ tags:
 - Video Generation
 - Captions
 - Subtitles
-- Text to Speech
+- Text-to-Speech
 - AI Avatars
 - Content Creation
 - Media

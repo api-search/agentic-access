@@ -61,13 +61,13 @@ summary_line: 12 operations · 12 acting
 tags:
 - Company
 - Agriculture
-- agtech
-- pollination
+- AgTech
+- Pollination
 - beekeeping
-- precision-agriculture
-- iot
-- sensors
-- environmental-data
+- Precision Agriculture
+- IoT
+- Sensors
+- Environmental Data
 - MCP
 - agent-native
 ---

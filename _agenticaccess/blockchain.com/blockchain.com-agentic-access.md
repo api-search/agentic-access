@@ -127,16 +127,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/blockc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/agentic-access/blockchain.com-agentic-access.yml
 summary_line: 35 operations · 5 acting
 tags:
-- cryptocurrency
-- bitcoin
+- Cryptocurrency
+- Bitcoin
 - Blockchain
-- exchange
+- Exchange
 - Trading
 - Market Data
 - Payments
-- on-ramp
+- On-Ramp
 - Wallets
-- block-explorer
+- Block Explorer
 - Fintech
 - Webhook
 ---

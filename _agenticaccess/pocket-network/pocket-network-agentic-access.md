@@ -153,7 +153,7 @@ tags:
 - Decentralized Infrastructure
 - Pocket Network
 - Grove
-- PATH
+- Path
 - Shannon
 - Cosmos
 - POKT

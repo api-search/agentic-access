@@ -868,16 +868,16 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/events
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/agentic-access/eventscom-agentic-access.yml
 summary_line: 979 operations · 598 acting · 291 human-in-the-loop
 tags:
-- event-management
+- Event Management
 - Ticketing
-- event-registration
-- event-marketing
-- sponsorship
-- event-discovery
-- data-platform
-- business-intelligence
-- artificial-intelligence
+- Event Registration
+- Event Marketing
+- Sponsorship
+- Event Discovery
+- Data Platform
+- Business Intelligence
+- Artificial Intelligence
 - MCP
 - agent-native
-- no-code
+- No-Code
 ---

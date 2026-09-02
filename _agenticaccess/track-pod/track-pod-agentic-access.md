@@ -213,7 +213,7 @@ tags:
 - Delivery
 - Last Mile
 - Logistics
-- Proof Of Delivery
+- Proof of Delivery
 - Electronic Proof Of Delivery
 - EPOD
 - Route Planning
@@ -221,7 +221,7 @@ tags:
 - Dispatch
 - Fleet Management
 - Driver Tracking
-- Courier
+- Couriers
 - Field Service
 - Transportation
 - Shipping

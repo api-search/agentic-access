@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/signea
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/agentic-access/signeasy-agentic-access.yml
 summary_line: 12 operations · 9 acting
 tags:
-- eSignature
+- E-Signature
 - Electronic Signature
 - Documents
 - Contract Management

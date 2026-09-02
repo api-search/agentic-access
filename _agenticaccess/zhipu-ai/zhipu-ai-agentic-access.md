@@ -60,5 +60,5 @@ tags:
 - Inference
 - GLM
 - ChatGLM
-- Multimodal
+- Multi-Modal
 ---

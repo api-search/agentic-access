@@ -232,9 +232,9 @@ tags:
 - Payments
 - Checkout
 - Subscription
-- POS
+- Point-of-Sale
 - QR
-- PIX
+- Pix
 - SDK
 - Wallets
 - Acquiring

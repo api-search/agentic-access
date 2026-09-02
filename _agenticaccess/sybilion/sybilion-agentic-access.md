@@ -92,14 +92,14 @@ summary_line: 11 operations · 3 acting
 tags:
 - Industrial market intelligence
 - Commodity price forecasting
-- Economic forecasting
+- Economic Forecasting
 - Time-series forecasting
 - Procurement
-- Supply-chain risk
+- Supply Chain Risk
 - Trading analytics
 - AI decision support
 - MCP
-- Agent-native
-- Causal inference
-- Anomaly detection
+- agent-native
+- Causal Inference
+- Anomaly Detection
 ---

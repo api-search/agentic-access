@@ -254,7 +254,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catchpoint/ref
 summary_line: 145 operations · 54 acting
 tags:
 - Company
-- Devops
+- DevOps
 - Monitoring
 - Observability
 - Internet Performance Monitoring

@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/victoriametric
 summary_line: 25 operations · 13 acting
 tags:
 - Database
-- Time-Series
+- Time Series
 - Monitoring
 - Open-Source
 - Prometheus

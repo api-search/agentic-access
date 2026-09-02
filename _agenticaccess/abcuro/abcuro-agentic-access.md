@@ -109,15 +109,15 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/abcuro
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/agentic-access/abcuro-agentic-access.yml
 summary_line: 30 operations
 tags:
-- biotechnology
-- pharmaceuticals
-- immunology
-- autoimmune-disease
-- oncology
-- clinical-trials
-- life-sciences
-- drug-development
-- healthcare
+- Biotechnology
+- Pharmaceuticals
+- Immunology
+- Autoimmune Disease
+- Oncology
+- Clinical Trials
+- Life Sciences
+- Drug Development
+- Healthcare
 - content-api
-- wordpress
+- WordPress
 ---

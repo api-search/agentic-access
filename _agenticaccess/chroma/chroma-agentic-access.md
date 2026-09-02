@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/he
 summary_line: 44 operations · 26 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence
-- AI Native
+- AI-Native
 - Apache 2.0
 - Cloud
 - Embeddings

@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/narake
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/agentic-access/narakeet-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
-- Text to Speech
+- Text-to-Speech
 - TTS
 - Voice
 - Audio

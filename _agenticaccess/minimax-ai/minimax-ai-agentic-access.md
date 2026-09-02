@@ -84,7 +84,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Inference
-- Multimodal
+- Multi-Modal
 - Voice
 - Video
 - Music

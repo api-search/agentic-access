@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/
 summary_line: 5 operations · 3 acting
 tags:
 - Artificial Intelligence
-- Text to Speech
+- Text-to-Speech
 - TTS
 - Voice
 - Voice Cloning

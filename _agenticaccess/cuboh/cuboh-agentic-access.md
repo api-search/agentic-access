@@ -108,6 +108,6 @@ tags:
 - Restaurant
 - Online Ordering
 - Delivery
-- POS
+- Point-of-Sale
 - Order Aggregation
 ---

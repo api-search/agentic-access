@@ -300,7 +300,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/h
 summary_line: 138 operations · 73 acting · 8 human-in-the-loop
 tags:
 - Fintech
-- BaaS
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

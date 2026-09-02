@@ -111,6 +111,6 @@ tags:
 - Machine-Learning
 - Invoices
 - Receipts
-- IDs
+- IDS
 - Computer-Vision
 ---

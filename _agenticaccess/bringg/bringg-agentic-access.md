@@ -373,7 +373,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bringg
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/agentic-access/bringg-agentic-access.yml
 summary_line: 136 operations · 100 acting
 tags:
-- Last-Mile Delivery
+- Last Mile Delivery
 - Delivery Orchestration
 - Fulfillment
 - Logistics

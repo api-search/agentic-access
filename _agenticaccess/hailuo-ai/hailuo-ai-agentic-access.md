@@ -70,7 +70,7 @@ tags:
 - Generative AI
 - Text-to-Video
 - Image-to-Video
-- Text to Speech
+- Text-to-Speech
 - LLM
 - Foundation Models
 ---

@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/agentic-access/microsoft-bicep-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
-- ARM Templates
+- ArmTemplates
 - Azure
 - Cloud
 - Deployment

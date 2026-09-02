@@ -90,7 +90,7 @@ summary_line: 46 operations · 19 acting
 tags:
 - Company
 - Gaming
-- Mods
+- MODS
 - Minecraft
 - Game Content
 - Developer Platform

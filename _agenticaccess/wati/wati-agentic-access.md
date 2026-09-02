@@ -65,7 +65,7 @@ tags:
 - WhatsApp
 - Messaging
 - Customer Engagement
-- Chatbot
+- Chatbots
 - Business Communication
 - CRM
 ---

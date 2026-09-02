@@ -69,16 +69,16 @@ source_yaml: "generated: '2026-08-01'\nmethod: generated\nsource: openapi/nowsta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/agentic-access/nowsta-agentic-access.yml
 summary_line: 6 operations · 6 acting
 tags:
-- workforce-management
+- Workforce Management
 - staff-scheduling
 - shift-scheduling
-- time-and-attendance
-- hourly-workforce
+- Time and Attendance
+- Hourly Workforce
 - gig-work
 - event-staffing
-- hospitality
+- Hospitality
 - staffing-agency
-- vendor-management
-- payroll
-- human-resources
+- Vendor Management
+- Payroll
+- Human Resources
 ---

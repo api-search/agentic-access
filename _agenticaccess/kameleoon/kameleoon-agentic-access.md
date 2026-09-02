@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs
 summary_line: 5 operations · 2 acting
 tags:
 - Experimentation
-- AB Testing
+- A/B Testing
 - Personalization
 - Feature Flags
 - Artificial Intelligence

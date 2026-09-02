@@ -56,7 +56,7 @@ tags:
 - Company
 - Marketplace
 - Logistics
-- Courier
+- Couriers
 - Last Mile Delivery
 - B2B Commerce
 - Bangladesh

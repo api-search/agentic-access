@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/
 summary_line: 16 operations · 8 acting
 tags:
 - Artificial Intelligence
-- Text to Speech
+- Text-to-Speech
 - Voice
 - Audio
 - TTS

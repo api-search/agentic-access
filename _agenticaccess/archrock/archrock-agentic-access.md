@@ -58,7 +58,7 @@ summary_line: 5 operations
 tags:
 - Natural Gas
 - Compression Services
-- Oil And Gas
+- Oil and Gas
 - Energy
 - Industrial
 - 'NYSE: AROC'

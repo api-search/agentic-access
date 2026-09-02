@@ -160,7 +160,7 @@ tags:
 - Compliance
 - Biometrics
 - Document Verification
-- Facematch
+- Face Match
 - Liveness
 - GovCheck
 - Watchlist

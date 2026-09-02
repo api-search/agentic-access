@@ -84,7 +84,7 @@ tags:
 - CLM
 - Contract Lifecycle
 - Legal
-- eSignature
+- E-Signature
 - Contracts
 - Document Automation
 - Legal Tech

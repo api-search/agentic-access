@@ -78,7 +78,7 @@ tags:
 - Open Banking
 - Open Finance
 - Financial Data Exchange
-- Consumer Permissioned
+- Consumer-Permissioned
 - Account Data
 - Transaction
 - Investments

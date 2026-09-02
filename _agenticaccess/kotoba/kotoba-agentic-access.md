@@ -46,7 +46,7 @@ tags:
 - Voice
 - Speech Recognition
 - Speech-to-Text
-- Text to Speech
+- Text-to-Speech
 - Translation
 - Real-Time
 - WebSockets

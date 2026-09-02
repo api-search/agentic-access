@@ -222,7 +222,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/agentic-access/ispring-agentic-access.yml
 summary_line: 141 operations · 90 acting · 3 human-in-the-loop
 tags:
-- eLearning
+- E-Learning
 - LMS
 - Learning Management System
 - Training

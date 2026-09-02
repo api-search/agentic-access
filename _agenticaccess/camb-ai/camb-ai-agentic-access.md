@@ -75,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/h
 summary_line: 17 operations · 8 acting
 tags:
 - Artificial Intelligence
-- Text to Speech
+- Text-to-Speech
 - Dubbing
 - Translation
 - Transcription

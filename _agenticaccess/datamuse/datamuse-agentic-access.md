@@ -45,7 +45,7 @@ summary_line: 2 operations
 tags:
 - Word Finding
 - Lexical Search
-- Natural Language
+- Natural-Language
 - Vocabulary
 - Synonyms
 - Antonyms

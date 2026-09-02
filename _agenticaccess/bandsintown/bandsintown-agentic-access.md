@@ -43,14 +43,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bandsi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/agentic-access/bandsintown-agentic-access.yml
 summary_line: 2 operations
 tags:
-- concerts
-- live music
+- Concerts
+- Live Music
 - Event
-- artists
-- venues
-- music discovery
+- Artists
+- Venues
+- Music Discovery
 - tour dates
 - Tickets
 - fan notifications
-- entertainment
+- Entertainment
 ---

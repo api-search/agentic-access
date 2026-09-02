@@ -112,9 +112,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/ref
 summary_line: 28 operations · 28 acting · 1 human-in-the-loop
 tags:
 - Amazon
-- Aws
 - Containers
 - Docker
-- Ecs
+- ECS
 - Orchestration
 ---

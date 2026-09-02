@@ -104,7 +104,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flow-blockchai
 summary_line: 22 operations · 2 acting
 tags:
 - Blockchain
-- NFTs
+- NFT
 - Games
 - DeFi
 - Layer 1

@@ -158,5 +158,5 @@ tags:
 - Disputes
 - Channel Partners
 - E-Commerce
-- POS
+- Point-of-Sale
 ---

@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/h
 summary_line: 14 operations · 5 acting
 tags:
 - B2B
-- Hubs
+- Hub
 - Integration
 - Workflows
 ---

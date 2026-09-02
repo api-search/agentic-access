@@ -140,7 +140,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/h
 summary_line: 45 operations · 31 acting
 tags:
 - Banking as a Service
-- BaaS
+- Backend-as-a-Service
 - Pix
 - Boleto
 - TED

@@ -78,7 +78,7 @@ summary_line: 24 operations · 11 acting
 tags:
 - Cloud-Native
 - Event-Driven
-- FaaS
+- Function-as-a-Service
 - Serverless
 - Apache
 - Open-Source

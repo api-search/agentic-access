@@ -92,10 +92,10 @@ tags:
 - Explorer
 - Avalanche
 - EVM
-- Multichain
+- Multi-Chain
 - Web3
 - Transaction
 - Smart Contracts
-- NFTs
+- NFT
 - DeFi
 ---

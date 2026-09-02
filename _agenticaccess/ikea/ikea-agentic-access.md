@@ -66,7 +66,7 @@ tags:
 - Retail
 - Home Furnishings
 - Consumer Products
-- Opensource
+- Open-Source
 - Community
 - Unofficial API
 - Smart Home

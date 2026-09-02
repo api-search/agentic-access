@@ -75,6 +75,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloud-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/agentic-access/temporal-agentic-access.yml
 summary_line: 19 operations · 9 acting
 tags:
-- ProCode_API_Composition
+- Pro-Code-API-Composition
 - Workflows
 ---

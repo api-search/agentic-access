@@ -295,22 +295,22 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcp360/refs/he
 summary_line: 178 operations · 106 acting
 tags:
 - MCP
-- mcp-server
-- mcp-gateway
+- MCP Server
+- MCP Gateway
 - AI Agents
-- agent-tools
-- tool-integration
-- unified-api
-- api-gateway
-- no-code
-- llmstxt
+- Agent Tools
+- Tool Integration
+- Unified-API
+- API Gateway
+- No-Code
+- llms-txt
 - SEO
 - Search
-- serp
+- SERP
 - Web Scraping
-- e-commerce
-- whois
-- dns
-- geolocation
-- email-verification
+- E-Commerce
+- WHOIS
+- DNS
+- Geolocation
+- Email Verification
 ---

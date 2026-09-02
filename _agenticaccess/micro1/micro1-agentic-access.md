@@ -76,14 +76,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/micro1/refs/he
 summary_line: 18 operations · 10 acting
 tags:
 - Company
-- recruiting
-- hiring
-- ai-interviews
-- talent-assessment
-- candidate-screening
-- applicant-tracking
-- human-resources
-- proctoring
+- Recruiting
+- Hiring
+- AI Interviews
+- Talent Assessment
+- Candidate Screening
+- Applicant Tracking
+- Human Resources
+- Proctoring
 - Webhook
 - agent-native
 - AI Training Data

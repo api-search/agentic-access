@@ -528,14 +528,14 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/crusoe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/agentic-access/crusoe-agentic-access.yml
 summary_line: 464 operations · 198 acting · 4 human-in-the-loop
 tags:
-- ai-infrastructure
-- cloud-computing
-- gpu-compute
-- machine-learning
+- AI Infrastructure
+- Cloud Computing
+- GPU Compute
+- Machine-Learning
 - Inference
-- kubernetes
-- object-storage
-- infrastructure-as-a-service
+- Kubernetes
+- Object Storage
+- Infrastructure-as-a-Service
 - Energy
 - MCP
 ---

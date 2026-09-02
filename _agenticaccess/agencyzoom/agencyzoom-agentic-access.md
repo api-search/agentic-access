@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agencyzoom/ref
 summary_line: 36 operations · 21 acting
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - CRM
 - Sales Automation
 - Agency Management

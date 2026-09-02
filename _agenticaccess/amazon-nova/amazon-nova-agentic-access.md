@@ -51,7 +51,7 @@ tags:
 - Generative AI
 - Image-Generation
 - Machine-Learning
-- Multimodal
+- Multi-Modal
 - Speech
 - Video Generation
 ---

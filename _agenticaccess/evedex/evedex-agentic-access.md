@@ -839,15 +839,15 @@ source_yaml: "generated: '2026-08-26'\nmethod: generated\nsource: openapi/evedex
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/agentic-access/evedex-agentic-access.yml
 summary_line: 557 operations · 281 acting · 14 human-in-the-loop
 tags:
-- cryptocurrency-exchange
-- defi
-- decentralized-exchange
-- derivatives
-- perpetual-futures
-- trading
-- market-data
-- blockchain
-- web3
+- Cryptocurrency Exchange
+- DeFi
+- Decentralized Exchange
+- Derivatives
+- Perpetual Futures
+- Trading
+- Market Data
+- Blockchain
+- Web3
 - arbitrum-layer3
-- fintech
+- Fintech
 ---

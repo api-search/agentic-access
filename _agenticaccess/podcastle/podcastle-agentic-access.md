@@ -47,7 +47,7 @@ summary_line: 5 operations · 5 acting
 tags:
 - Artificial Intelligence
 - Audio
-- Text to Speech
+- Text-to-Speech
 - Voice Cloning
 - Podcasting
 ---

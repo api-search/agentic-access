@@ -65,12 +65,12 @@ summary_line: 10 operations
 tags:
 - Anime
 - Studio Ghibli
-- Films
+- Film
 - Characters
 - Locations
 - Species
 - Vehicles
 - Public APIs
 - Open-Source
-- Read-Only
+- Read Only
 ---

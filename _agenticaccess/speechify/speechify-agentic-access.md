@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speechify/refs
 summary_line: 5 operations · 4 acting
 tags:
 - Artificial Intelligence
-- Text to Speech
+- Text-to-Speech
 - Voice
 - Speech Synthesis
 - Voice Cloning

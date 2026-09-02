@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unreal
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/agentic-access/unrealspeech-agentic-access.yml
 summary_line: 4 operations · 3 acting
 tags:
-- Text to Speech
+- Text-to-Speech
 - TTS
 - Speech Synthesis
 - Audio

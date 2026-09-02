@@ -111,7 +111,7 @@ summary_line: 34 operations · 23 acting
 tags:
 - Object Storage
 - IPFS
-- S3-Compatible
+- S3 Compatible
 - Decentralized Storage
 - Pinning
 - Web3

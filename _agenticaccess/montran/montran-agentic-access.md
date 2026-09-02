@@ -312,5 +312,5 @@ tags:
 - Messaging
 - Payments
 - Real-Time Payments
-- SWIFT
+- Swift
 ---

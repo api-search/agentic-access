@@ -107,7 +107,7 @@ tags:
 - Electric Vehicles
 - Payments
 - Mobility
-- e-Mobility
+- E-Mobility
 - Charge Point Operator
 - Energy
 ---

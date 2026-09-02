@@ -304,7 +304,7 @@ summary_line: 135 operations · 92 acting · 92 human-in-the-loop
 tags:
 - Notification
 - Messaging
-- In App
+- In-App
 - Email
 - SMS
 - Push
@@ -315,7 +315,7 @@ tags:
 - Topics
 - Inbox
 - Workflow Orchestration
-- Multi Channel
+- Multi-Channel
 - Digest
 - MCP
 - Framework

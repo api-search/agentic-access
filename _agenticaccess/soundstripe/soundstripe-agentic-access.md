@@ -98,7 +98,7 @@ tags:
 - Music
 - Sound Effects
 - Stock Video
-- Royalty Free
+- Royalty-Free
 - Licensing
 - Subscription
 - Creators

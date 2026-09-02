@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/glide-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/agentic-access/glide-apps-agentic-access.yml
 summary_line: 12 operations · 8 acting
 tags:
-- No Code
+- No-Code
 - App Builder
 - Tables
 - Big Tables

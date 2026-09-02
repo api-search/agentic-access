@@ -92,15 +92,15 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/zillap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/agentic-access/zillapi-agentic-access.yml
 summary_line: 29 operations · 8 acting · 1 human-in-the-loop
 tags:
-- real estate
-- proptech
-- property data
-- zillow
-- zestimate
-- valuation
+- Real-Estate
+- PropTech
+- Property Data
+- Zillow
+- Zestimate
+- Valuation
 - AVM
 - Listings
 - MCP
-- AI agent
+- AI Agent
 - REST API
 ---

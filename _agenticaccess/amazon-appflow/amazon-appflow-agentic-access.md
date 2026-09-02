@@ -75,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow
 summary_line: 25 operations · 24 acting · 2 human-in-the-loop
 tags:
 - Connectors
-- Data Flow
+- Dataflows
 - Data Integration
 - ETL
 - Integration

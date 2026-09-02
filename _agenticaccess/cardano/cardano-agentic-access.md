@@ -181,7 +181,7 @@ summary_line: 127 operations · 6 acting
 tags:
 - Blockchain
 - Cryptocurrency
-- Proof-of-Stake
+- Proof of Stake
 - Smart Contracts
 - Web3
 ---

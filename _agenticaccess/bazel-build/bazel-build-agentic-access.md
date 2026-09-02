@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bazel-build/re
 summary_line: 5 operations
 tags:
 - Build Systems
-- Build Tool
+- Build Tools
 - Bzlmod
 - CI/CD
 - Developer Tools

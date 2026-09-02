@@ -246,7 +246,7 @@ tags:
 - Localization
 - Translation
 - i18n
-- l10n
+- L10n
 - Language
 - Content Management
 - Workflow-Automation

@@ -102,7 +102,7 @@ tags:
 - Voice
 - Voice AI
 - Speech-to-Text
-- Text to Speech
+- Text-to-Speech
 - LLM
 - Telephony
 - API Gateway

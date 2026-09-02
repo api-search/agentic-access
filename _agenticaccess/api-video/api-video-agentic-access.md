@@ -50,5 +50,5 @@ tags:
 - Live Streaming
 - Transcription
 - Video
-- Video on Demand
+- Video-on-Demand
 ---

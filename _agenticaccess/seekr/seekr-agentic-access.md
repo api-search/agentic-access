@@ -296,22 +296,22 @@ source_yaml: "generated: '2026-08-05'\nmethod: generated\nsource: openapi/seekr-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/agentic-access/seekr-agentic-access.yml
 summary_line: 212 operations · 113 acting
 tags:
-- artificial-intelligence
-- generative-ai
+- Artificial Intelligence
+- Generative AI
 - Agents
-- llm
+- LLM
 - Fine-Tuning
 - Inference
 - RAG
-- vector-database
-- explainability
-- ai-governance
-- model-evaluation
-- observability
-- geospatial-intelligence
-- defense
-- government
-- regulated-industries
+- Vector Database
+- Explainability
+- AI Governance
+- Model Evaluation
+- Observability
+- Geospatial Intelligence
+- Defense
+- Government
+- Regulated Industries
 - MCP
 - agent-native
 ---

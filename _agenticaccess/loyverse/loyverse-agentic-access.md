@@ -136,7 +136,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/
 summary_line: 32 operations · 10 acting
 tags:
 - Point-of-Sale
-- POS
 - Retail
 - Inventory
 - Cafe and Restaurant

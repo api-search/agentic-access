@@ -156,7 +156,7 @@ tags:
 - Smart Contracts
 - Node Operators
 - Validator
-- rETH
+- Reth
 - RPL
 - Minipool
 - Decentralized Finance

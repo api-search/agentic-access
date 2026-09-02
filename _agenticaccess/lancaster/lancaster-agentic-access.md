@@ -52,5 +52,5 @@ tags:
 - Institutional Repository
 - Identity Federation
 - Library
-- Open Source
+- Open-Source
 ---

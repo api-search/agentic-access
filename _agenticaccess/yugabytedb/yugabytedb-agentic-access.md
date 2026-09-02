@@ -636,7 +636,7 @@ summary_line: 895 operations · 571 acting · 33 human-in-the-loop
 tags:
 - Cloud Database
 - Database
-- DBaaS
+- Database-as-a-Service
 - Distributed SQL
 - PostgreSQL
 ---

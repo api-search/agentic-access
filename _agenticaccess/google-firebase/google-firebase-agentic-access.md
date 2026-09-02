@@ -55,7 +55,7 @@ summary_line: 6 operations · 5 acting
 tags:
 - Analytics
 - Authentication
-- Backend as a Service
+- Backend-as-a-Service
 - Cloud Messaging
 - Google Cloud
 - Hosting

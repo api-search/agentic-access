@@ -190,12 +190,12 @@ source_yaml: "generated: 2026-08-01\nmethod: declared\npublisher: Xquik\nsource:
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/agentic-access/xquik-agentic-access.yml
 summary_line: 127 operations · 56 acting · 56 human-in-the-loop
 tags:
-- social media data
+- social-media-data
 - X / Twitter
-- social listening
-- data extraction
-- automation
+- Social Listening
+- Data Extraction
+- Automation
 - Webhook
 - MCP
-- developer API
+- Developer API
 ---

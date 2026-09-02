@@ -224,18 +224,18 @@ source_yaml: "generated: '2026-08-05'\nmethod: generated\nsource: openapi/securi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/agentic-access/securitize-agentic-access.yml
 summary_line: 125 operations · 64 acting · 64 human-in-the-loop
 tags:
-- tokenization
-- digital-securities
-- real-world-assets
-- capital-markets
-- fund-administration
-- transfer-agent
-- kyc
+- Tokenization
+- Digital Securities
+- Real World Assets
+- Capital Markets
+- Fund Administration
+- Transfer Agent
+- KYC
 - AML
 - Identity Verification
 - Blockchain
-- broker-dealer
-- private-credit
+- Broker-Dealer
+- Private Credit
 - MCP
 - Webhook
 ---

@@ -196,7 +196,7 @@ tags:
 - Embedded Finance
 - Accounts Payable
 - Accounts Receivable
-- BillPay
+- Bill Pay
 - Invoicing
 - Payments
 - Vertical SaaS

@@ -119,15 +119,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/he
 summary_line: 48 operations · 22 acting · 3 human-in-the-loop
 tags:
 - Company
-- fraud-detection
-- document-verification
+- Fraud Detection
+- Document Verification
 - Identity Verification
-- income-verification
-- property-management
-- multifamily
-- real-estate
-- proptech
-- tenant-screening
-- rental-applications
+- Income Verification
+- Property Management
+- Multifamily
+- Real-Estate
+- PropTech
+- Tenant Screening
+- Rental Applications
 - Webhook
 ---

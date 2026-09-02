@@ -64,7 +64,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activtrak/refs
 summary_line: 23 operations · 10 acting
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Workforce Analytics
 - Productivity
 - Employee Monitoring

@@ -712,15 +712,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1fort/refs/hea
 summary_line: 574 operations · 241 acting · 2 human-in-the-loop
 tags:
 - Insurance
-- insurtech
-- commercial-insurance
-- cyber-insurance
-- insurance-broker
+- Insurtech
+- Commercial Insurance
+- Cyber Insurance
+- Insurance Broker
 - Quoting
-- policy-management
+- Policy Management
 - premium-finance
 - Payments
-- workflow-automation
-- artificial-intelligence
-- agentic-ai
+- Workflow-Automation
+- Artificial Intelligence
+- Agentic AI
 ---

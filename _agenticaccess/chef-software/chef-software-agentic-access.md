@@ -305,5 +305,4 @@ tags:
 - Infrastructure as Code
 - Cloud
 - Continuous Compliance
-- Node Management
 ---

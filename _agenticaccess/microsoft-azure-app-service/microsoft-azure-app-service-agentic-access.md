@@ -51,6 +51,6 @@ tags:
 - App Service
 - Hosting
 - Microsoft Azure
-- PaaS
-- Web Apps
+- Platform-as-a-Service
+- Web App
 ---

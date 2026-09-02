@@ -169,7 +169,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suger/refs/hea
 summary_line: 106 operations · 64 acting
 tags:
 - Cloud Marketplace
-- GTM
+- Go-To-Market
 - Software-as-a-Service
 - Billing
 - Entitlement

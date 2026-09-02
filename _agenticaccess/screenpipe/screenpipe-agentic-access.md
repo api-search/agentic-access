@@ -187,7 +187,7 @@ tags:
 - Screen Memory
 - Audio Transcription
 - Meeting Intelligence
-- Local First
+- Local-First
 - Privacy
 - AI Agents
 - MCP

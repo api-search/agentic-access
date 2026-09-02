@@ -95,13 +95,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/
 summary_line: 47 operations · 25 acting
 tags:
 - Company
-- whiskey
-- spirits
-- beverage-alcohol
-- consumer-packaged-goods
-- distillery
-- hospitality
+- Whiskey
+- Spirits
+- Beverage Alcohol
+- Consumer Packaged Goods
+- Distillery
+- Hospitality
 - Event
-- tennessee
-- wordpress
+- Tennessee
+- WordPress
 ---

@@ -69,7 +69,7 @@ summary_line: 20 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Cloud
 - Edge to Cloud
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Compute
 - Storage
 - Networking

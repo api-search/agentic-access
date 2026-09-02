@@ -78,15 +78,15 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/clozd-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/agentic-access/clozd-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
-- win-loss-analysis
-- customer-feedback
-- decision-intelligence
-- sales-intelligence
-- market-research
+- Win-Loss Analysis
+- Customer Feedback
+- Decision Intelligence
+- Sales Intelligence
+- Market Research
 - Competitive Intelligence
-- voice-of-customer
-- revenue-intelligence
-- saas
+- Voice of Customer
+- Revenue Intelligence
+- Software-as-a-Service
 - MCP
 - agent-native
 ---

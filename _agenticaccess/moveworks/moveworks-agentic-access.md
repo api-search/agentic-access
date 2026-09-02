@@ -123,6 +123,6 @@ tags:
 - Enterprise Automation
 - Conversational AI
 - Employee Experience
-- IT Service Management
+- ITSM
 - Enterprise Search
 ---

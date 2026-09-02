@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/truewo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/agentic-access/truework-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
-- Verifications
+- Verification
 - Income Verification
 - Employment Verification
 - VOIE

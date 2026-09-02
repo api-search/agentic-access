@@ -129,7 +129,7 @@ tags:
 - Web3
 - Blockchain
 - DeFi
-- Safe
+- SAFe
 - Gnosis
 - Wallets
 ---

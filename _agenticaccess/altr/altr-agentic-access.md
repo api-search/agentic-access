@@ -548,20 +548,20 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/altr-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/agentic-access/altr-agentic-access.yml
 summary_line: 375 operations · 190 acting · 10 human-in-the-loop
 tags:
-- data-security
-- data-governance
-- data-masking
-- tokenization
-- data-classification
-- access-control
-- snowflake
-- databricks
+- Data Security
+- Data Governance
+- Data Masking
+- Tokenization
+- Data Classification
+- Access Control
+- Snowflake
+- Databricks
 - format-preserving-encryption
-- database-activity-monitoring
-- rbac
+- Database Activity Monitoring
+- RBAC
 - PII
 - Compliance
-- data-privacy
+- Data Privacy
 - MCP
 - agent-native
 ---

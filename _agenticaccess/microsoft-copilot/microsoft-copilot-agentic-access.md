@@ -68,7 +68,7 @@ tags:
 - Agents
 - AI Assistant
 - Artificial Intelligence
-- Chatbot
+- Chatbots
 - Copilot
 - Extensibility
 - Generative AI

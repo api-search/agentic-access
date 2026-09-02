@@ -226,9 +226,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payt/refs/head
 summary_line: 54 operations · 23 acting
 tags:
 - Company
-- Applicative SaaS
+- Applicative Saas
 - Accounts Receivable
-- Order to Cash
+- Order-to-Cash
 - Invoicing
 - Debt Collection
 - Payments

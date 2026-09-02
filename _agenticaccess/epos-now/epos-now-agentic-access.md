@@ -77,7 +77,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/
 summary_line: 25 operations · 12 acting
 tags:
 - Point-of-Sale
-- POS
 - Retail
 - Hospitality
 - Payments

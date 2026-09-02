@@ -409,7 +409,7 @@ tags:
 - MySQL
 - Open-Source
 - Cloud Database
-- DBaaS
+- Database-as-a-Service
 - Data Streaming
 - Data Platform
 ---

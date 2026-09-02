@@ -183,14 +183,14 @@ summary_line: 121 operations · 53 acting
 tags:
 - Financial Data
 - Market Intelligence
-- alternative-data
-- news-api
+- Alternative Data
+- News API
 - NLP
 - ESG
-- municipal-bonds
-- credit-risk
-- company-data
-- sentiment-analysis
-- unstructured-data
-- fixed-income
+- Municipal Bonds
+- Credit Risk
+- Company Data
+- Sentiment Analysis
+- Unstructured Data
+- Fixed Income
 ---

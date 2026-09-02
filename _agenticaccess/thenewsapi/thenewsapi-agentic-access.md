@@ -46,7 +46,7 @@ summary_line: 6 operations
 tags:
 - News
 - Articles
-- headlines
+- Headlines
 - Media
 - Aggregation
 - Real-Time

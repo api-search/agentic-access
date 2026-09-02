@@ -142,13 +142,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picus-security
 summary_line: 84 operations · 25 acting
 tags:
 - Cybersecurity
-- security-validation
-- breach-and-attack-simulation
-- adversarial-exposure-validation
-- continuous-threat-exposure-management
-- penetration-testing
+- Security Validation
+- Breach and Attack Simulation
+- Adversarial Exposure Validation
+- Continuous Threat Exposure Management
+- Penetration Testing
 - Threat Intelligence
 - mitre-attack
-- detection-engineering
-- security-operations
+- Detection Engineering
+- Security Operations
 ---

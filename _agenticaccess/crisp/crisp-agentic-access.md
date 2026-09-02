@@ -64,7 +64,7 @@ summary_line: 14 operations · 8 acting
 tags:
 - Customer Service
 - Live Chat
-- Helpdesk
+- Help Desk
 - Messaging
 - Chatbots
 ---

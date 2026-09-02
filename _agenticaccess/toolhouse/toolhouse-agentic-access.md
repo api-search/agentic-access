@@ -126,7 +126,7 @@ tags:
 - Agent Infrastructure
 - AI Agents
 - AI Workers
-- Backend as a Service
+- Backend-as-a-Service
 - MCP
 - MCP Discovery
 - RAG

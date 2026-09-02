@@ -143,13 +143,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primer/refs/he
 summary_line: 20 operations · 16 acting
 tags:
 - Payments
-- payment orchestration
-- payment processing
+- Payment Orchestration
+- Payment Processing
 - Fintech
-- fraud detection
-- smart routing
-- checkout
+- Fraud Detection
+- Smart Routing
+- Checkout
 - Payment Methods
-- reconciliation
+- Reconciliation
 - Webhook
 ---

@@ -204,7 +204,7 @@ summary_line: 86 operations · 48 acting
 tags:
 - Artificial Intelligence
 - Voice AI
-- Text to Speech
+- Text-to-Speech
 - Speech-to-Text
 - Real-Time
 - WebSocket

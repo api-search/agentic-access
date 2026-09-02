@@ -68,7 +68,7 @@ summary_line: 13 operations · 1 acting
 tags:
 - Company
 - Blockchain
-- Zero-Knowledge
+- Zero Knowledge
 - Cryptography
 - Privacy
 - Web3

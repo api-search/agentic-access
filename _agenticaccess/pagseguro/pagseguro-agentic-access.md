@@ -180,7 +180,7 @@ tags:
 - Cards
 - Subscription
 - Recurring
-- POS
+- Point-of-Sale
 - Card Reader
 - Marketplace
 - Split

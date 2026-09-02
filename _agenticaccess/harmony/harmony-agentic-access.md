@@ -42,7 +42,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/harmon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/agentic-access/harmony-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
-- IT Service Management
+- ITSM
 - Service Desk
 - Ticketing
 - Enterprise Service Management

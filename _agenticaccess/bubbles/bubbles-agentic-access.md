@@ -42,9 +42,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bubbles/refs/h
 summary_line: 8 operations · 5 acting
 tags:
 - Application
-- Low Code
-- No Code
+- Low-Code
+- No-Code
 - Visual Programming
 - Webhook
-- Web Apps
+- Web App
 ---

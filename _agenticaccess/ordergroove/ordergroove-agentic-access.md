@@ -92,7 +92,7 @@ tags:
 - Relationship Commerce
 - E-Commerce
 - Autoship
-- DTC
+- Direct to Consumer
 - Retail
 - Subscription Management
 ---

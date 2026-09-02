@@ -253,5 +253,5 @@ tags:
 - Bitcoin
 - Ordinals
 - Runes
-- Multi-chain
+- Multi-Chain
 ---

@@ -393,7 +393,7 @@ summary_line: 168 operations · 95 acting · 1 human-in-the-loop
 tags:
 - Cloud Platform
 - Deployment
-- PaaS
+- Platform-as-a-Service
 - Serverless
 - Serverless GPU
 - AI Infrastructure

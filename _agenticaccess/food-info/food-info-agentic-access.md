@@ -49,7 +49,7 @@ summary_line: 8 operations · 2 acting
 tags:
 - Nutrition
 - Food
-- Food Composition
+- food-composition
 - Nutrients
 - Data
 - Open Data

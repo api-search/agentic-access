@@ -79,7 +79,7 @@ summary_line: 17 operations
 tags:
 - DeFi
 - Options Trading
-- On-Chain
+- Onchain
 - Arbitrum
 - Ethereum
 - Liquidity Pools
