@@ -52,6 +52,12 @@ api_specs:
   slug: echo-global-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-token-api-openapi.yml
+- filename: echosync-carrier-api.json
+  format: json
+  label: EchoSync Carrier API
+  slug: carrier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echosync-carrier-api.json
 consequence_counts:
   physical: 5
   read: 7

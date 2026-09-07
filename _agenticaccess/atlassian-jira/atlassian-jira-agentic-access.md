@@ -52,6 +52,24 @@ api_specs:
   slug: atlassian-jira-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-users-api-openapi.yml
+- filename: atlassian-jira-platform-openapi.json
+  format: json
+  label: Atlassian Jira Cloud Platform REST API v3
+  slug: atlassian-jira-cloud-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-platform-openapi.json
+- filename: atlassian-jira-software-openapi.json
+  format: json
+  label: Jira Software Cloud API
+  slug: atlassian-jira-software-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-software-openapi.json
+- filename: atlassian-jira-service-management-openapi.json
+  format: json
+  label: Jira Service Management REST API
+  slug: atlassian-jira-service-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/openapi/atlassian-jira-service-management-openapi.json
 consequence_counts:
   read: 8
   write: 7

@@ -4,36 +4,18 @@ action_class_counts:
   acting: 8
   connected: 7
 api_specs:
-- filename: atlassian-confluence-content-v1-api-openapi.yml
-  format: yaml
-  label: Atlassian Confluence Content (v1) API
-  slug: atlassian-confluence-content-v1-api
+- filename: atlassian-confluence-rest-v2-openapi.json
+  format: json
+  label: Confluence Cloud REST API v2
+  slug: confluence-cloud-rest-api-v2
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-content-v1-api-openapi.yml
-- filename: atlassian-confluence-labels-v2-api-openapi.yml
-  format: yaml
-  label: Atlassian Confluence Labels (v2) API
-  slug: atlassian-confluence-labels-v2-api
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-rest-v2-openapi.json
+- filename: atlassian-confluence-rest-v1-openapi.json
+  format: json
+  label: Confluence Cloud REST API v1
+  slug: confluence-cloud-rest-api-v1
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-labels-v2-api-openapi.yml
-- filename: atlassian-confluence-pages-v2-api-openapi.yml
-  format: yaml
-  label: Atlassian Confluence Pages (v2) API
-  slug: atlassian-confluence-pages-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-pages-v2-api-openapi.yml
-- filename: atlassian-confluence-search-v1-api-openapi.yml
-  format: yaml
-  label: Atlassian Confluence Search (v1) API
-  slug: atlassian-confluence-search-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-search-v1-api-openapi.yml
-- filename: atlassian-confluence-spaces-v2-api-openapi.yml
-  format: yaml
-  label: Atlassian Confluence Spaces (v2) API
-  slug: atlassian-confluence-spaces-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-spaces-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/openapi/atlassian-confluence-rest-v1-openapi.json
 consequence_counts:
   read: 7
   write: 8
@@ -74,4 +56,8 @@ tags:
 - Documentation
 - Knowledge-Management
 - Wiki
+- MCP
+- GraphQL
+- Agents
+- Productivity
 ---

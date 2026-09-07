@@ -4,6 +4,18 @@ action_class_counts:
   acting: 5
   connected: 7
 api_specs:
+- filename: canonical-snapd-rest-api-openapi.yml
+  format: yaml
+  label: snapd REST API
+  slug: snapd-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-snapd-rest-api-openapi.yml
+- filename: canonical-landscape-debarchive-api-openapi.yml
+  format: yaml
+  label: Landscape API
+  slug: landscape-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-landscape-debarchive-api-openapi.yml
 - filename: canonical-assertions-api-openapi.yml
   format: yaml
   label: Canonical Assertions API
@@ -22,6 +34,72 @@ api_specs:
   slug: canonical-snaps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-snaps-api-openapi.yml
+- filename: canonical-lxd-rest-api-openapi.yml
+  format: yaml
+  label: LXD REST API
+  slug: lxd-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-lxd-rest-api-openapi.yml
+- filename: canonical-ubuntu-security-api-openapi.json
+  format: json
+  label: Ubuntu Security API
+  slug: ubuntu-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-ubuntu-security-api-openapi.json
+- filename: canonical-pebble-api-openapi.yml
+  format: yaml
+  label: Pebble API
+  slug: pebble-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-pebble-api-openapi.yml
+- filename: canonical-testflinger-api-openapi.json
+  format: json
+  label: Testflinger API
+  slug: testflinger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-testflinger-api-openapi.json
+- filename: canonical-hardware-api-openapi.json
+  format: json
+  label: Ubuntu Hardware API (hwapi)
+  slug: hardware-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-hardware-api-openapi.json
+- filename: canonical-identity-platform-api-openapi.yml
+  format: yaml
+  label: Canonical Identity Platform API
+  slug: identity-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-identity-platform-api-openapi.yml
+- filename: canonical-test-observer-api-openapi.json
+  format: json
+  label: Test Observer API
+  slug: test-observer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-test-observer-api-openapi.json
+- filename: canonical-anbox-cloud-ams-api-openapi.json
+  format: json
+  label: Anbox Cloud AMS API
+  slug: anbox-cloud-ams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-anbox-cloud-ams-api-openapi.json
+- filename: canonical-anbox-stream-gateway-api-openapi.json
+  format: json
+  label: Anbox Stream Gateway API
+  slug: anbox-stream-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-anbox-stream-gateway-api-openapi.json
+- filename: canonical-cos-registration-server-api-openapi.yml
+  format: yaml
+  label: COS Registration Server API
+  slug: cos-registration-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-cos-registration-server-api-openapi.yml
+- filename: canonical-microceph-api-openapi.yml
+  format: yaml
+  label: MicroCeph REST API
+  slug: microceph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-microceph-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5

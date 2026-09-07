@@ -150,7 +150,7 @@ notable_actions:
   method: PUT
   path: /pos/v1/merchant/{merchant_long_id}/orders/{order_uuid}/status
 operation_count: 35
-overview: 'grubhub exposes 35 API operations that an AI agent could call, of which 18 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Grubhub exposes 35 API operations that an AI agent could call, of which 18 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 17 read, 12 write, 3 physical, and 3 safety-critical.
@@ -160,7 +160,7 @@ overview: 'grubhub exposes 35 API operations that an AI agent could call, of whi
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: grubhub
+provider_name: Grubhub
 provider_slug: grubhub
 slug: grubhub-agentic-access
 source_filename: grubhub-agentic-access.yml

@@ -52,6 +52,12 @@ api_specs:
   slug: atproto-sync-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/openapi/atproto-sync-api-openapi.yml
+- filename: at-protocol-asyncapi.yml
+  format: yaml
+  label: AT Protocol Relay & Firehose
+  slug: relay-firehose
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/asyncapi/at-protocol-asyncapi.yml
 consequence_counts:
   read: 26
   write: 11

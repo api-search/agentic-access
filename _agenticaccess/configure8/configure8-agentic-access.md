@@ -4,6 +4,12 @@ action_class_counts:
   acting: 13
   connected: 5
 api_specs:
+- filename: configure8-c8-public-api-openapi.json
+  format: json
+  label: Configure8 REST API
+  slug: idp-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/openapi/configure8-c8-public-api-openapi.json
 - filename: configure8-catalog-entities-api-openapi.yml
   format: yaml
   label: Configure8 Catalog Entities API

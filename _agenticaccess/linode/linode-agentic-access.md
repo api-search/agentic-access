@@ -147,7 +147,7 @@ notable_actions:
   method: POST
   path: /account/payments
 operation_count: 116
-overview: 'linode exposes 116 API operations that an AI agent could call, of which 56 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Linode exposes 116 API operations that an AI agent could call, of which 56 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 60 read, 53 write, 1 physical, and 2 safety-critical.
@@ -157,7 +157,7 @@ overview: 'linode exposes 116 API operations that an AI agent could call, of whi
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: linode
+provider_name: Linode
 provider_slug: linode
 slug: linode-agentic-access
 source_filename: linode-agentic-access.yml

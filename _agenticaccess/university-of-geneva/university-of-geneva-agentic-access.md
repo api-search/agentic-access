@@ -6,19 +6,19 @@ action_class_counts:
 api_specs:
 - filename: university-of-geneva-access-api-openapi.yml
   format: yaml
-  label: University of Geneva Access API
+  label: Yareta Access API
   slug: university-of-geneva-access-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-access-api-openapi.yml
 - filename: university-of-geneva-ingest-api-openapi.yml
   format: yaml
-  label: University of Geneva Ingest API
+  label: Yareta Ingest API
   slug: university-of-geneva-ingest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-ingest-api-openapi.yml
 - filename: university-of-geneva-oai-pmh-api-openapi.yml
   format: yaml
-  label: University of Geneva OAI-PMH API
+  label: Yareta OAI-PMH Provider API
   slug: university-of-geneva-oai-pmh-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-oai-pmh-api-openapi.yml
@@ -214,9 +214,13 @@ tags:
 - Education
 - Higher Education
 - University
+- Public Research University
 - Open Science
 - Research Data
 - Institutional Repository
+- Research Repository
+- Identity Federation
+- OAI-PMH
 - Switzerland
 - Europe
 ---

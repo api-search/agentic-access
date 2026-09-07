@@ -148,6 +148,18 @@ api_specs:
   slug: scalar-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-workspace-api-openapi.yml
+- filename: scalar-api-registry-management-api-openapi.yml
+  format: yaml
+  label: Scalar Registry Management API
+  slug: scalar-api-registry-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-api-registry-management-api-openapi.yml
+- filename: scalar-api-registry-read-api-openapi.yml
+  format: yaml
+  label: Scalar Registry Read API
+  slug: scalar-api-registry-read-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-api-registry-read-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 49

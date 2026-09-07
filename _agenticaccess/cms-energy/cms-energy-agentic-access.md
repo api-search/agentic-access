@@ -34,6 +34,12 @@ api_specs:
   slug: cms-energy-meters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-meters-api-openapi.yml
+- filename: cms-energy-outage-map-api-openapi.yml
+  format: yaml
+  label: Consumers Energy Outage Map ArcGIS REST API
+  slug: cms-energy-outage-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-outage-map-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1

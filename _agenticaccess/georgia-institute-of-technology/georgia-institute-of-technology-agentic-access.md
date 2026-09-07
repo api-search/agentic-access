@@ -4,10 +4,16 @@ action_class_counts:
   acting: 6
   connected: 8
 api_specs:
+- filename: georgia-institute-of-technology-gtplaces-openapi.yml
+  format: yaml
+  label: GT Places API
+  slug: gt-places
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-gtplaces-openapi.yml
 - filename: georgia-institute-of-technology-api-api-openapi.yml
   format: yaml
-  label: Georgia Institute of Technology API API
-  slug: georgia-institute-of-technology-api-api
+  label: Georgia Tech SUMS REST API
+  slug: sums
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-api-api-openapi.yml
 consequence_counts:
@@ -43,11 +49,16 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/georgi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/agentic-access/georgia-institute-of-technology-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
-- Library
+- Higher Education
+- Education
 - United States
+- Institute of Technology
+- Public Research University
+- Research Repository
+- Identity Federation
+- Course Catalog
+- Library
+- Open Data
+- Research
 ---

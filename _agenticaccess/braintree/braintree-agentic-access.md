@@ -102,14 +102,14 @@ notable_actions:
   method: POST
   path: /transactions/{transactionId}/refund
 operation_count: 25
-overview: 'braintree exposes 25 API operations that an AI agent could call, of which 16 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Braintree exposes 25 API operations that an AI agent could call, of which 16 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 9 read, 11 write, and 5 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: braintree
+provider_name: Braintree
 provider_slug: braintree
 slug: braintree-agentic-access
 source_filename: braintree-agentic-access.yml

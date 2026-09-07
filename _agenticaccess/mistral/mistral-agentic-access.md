@@ -82,6 +82,18 @@ api_specs:
   slug: mistral-training-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-training-jobs-api-openapi.yml
+- filename: mistral-embeddings-api-openapi.yml
+  format: yaml
+  label: Mistral Embeddings API
+  slug: mistral-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-embeddings-api-openapi.yml
+- filename: mistral-moderation-api-openapi.yml
+  format: yaml
+  label: Mistral Moderation API
+  slug: mistral-moderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-moderation-api-openapi.yml
 consequence_counts:
   read: 10
   write: 19

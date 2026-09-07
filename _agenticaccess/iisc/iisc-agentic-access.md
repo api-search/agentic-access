@@ -3,30 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
-- filename: iisc-bitstreams-api-openapi.yml
-  format: yaml
-  label: Indian Institute of Science Bangalore Bitstreams API
-  slug: iisc-bitstreams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/openapi/iisc-bitstreams-api-openapi.yml
-- filename: iisc-collections-api-openapi.yml
-  format: yaml
-  label: Indian Institute of Science Bangalore Collections API
-  slug: iisc-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/openapi/iisc-collections-api-openapi.yml
 - filename: iisc-communities-api-openapi.yml
   format: yaml
-  label: Indian Institute of Science Bangalore Communities API
-  slug: iisc-communities-api
+  label: ETD@IISc DSpace 6 REST API
+  slug: etd-dspace-rest
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/openapi/iisc-communities-api-openapi.yml
-- filename: iisc-items-api-openapi.yml
-  format: yaml
-  label: Indian Institute of Science Bangalore Items API
-  slug: iisc-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/openapi/iisc-items-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,9 +42,15 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
-- Open Access
-- Institutional Repository
-- OAI-PMH
 - India
+- Institute of Eminence
+- Research
+- Research Repository
+- Open Access
+- OAI-PMH
+- Identity Federation
+- Shibboleth
+- Library
+- Learning Management
+- Research Computing
 ---

@@ -28,6 +28,48 @@ api_specs:
   slug: apiclarity-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-features-api-openapi.yml
+- filename: apiclarity-bfla-module-openapi.yml
+  format: yaml
+  label: APIClarity BFLA Module API
+  slug: apiclarity-bfla-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-bfla-module-openapi.yml
+- filename: apiclarity-fuzzer-module-openapi.yml
+  format: yaml
+  label: APIClarity Fuzzer Module API
+  slug: apiclarity-fuzzer-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-fuzzer-module-openapi.yml
+- filename: apiclarity-trace-analyzer-module-openapi.yml
+  format: yaml
+  label: APIClarity Trace Analyzer Module API
+  slug: apiclarity-trace-analyzer-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-trace-analyzer-module-openapi.yml
+- filename: apiclarity-spec-differ-module-openapi.yml
+  format: yaml
+  label: APIClarity Spec Differ Module API
+  slug: apiclarity-spec-differ-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-spec-differ-module-openapi.yml
+- filename: apiclarity-spec-reconstructor-module-openapi.yml
+  format: yaml
+  label: APIClarity Spec Reconstructor Module API
+  slug: apiclarity-spec-reconstructor-module-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-spec-reconstructor-module-openapi.yml
+- filename: apiclarity-plugins-telemetry-swagger.yml
+  format: yaml
+  label: APIClarity Plugins Telemetry API
+  slug: apiclarity-plugins-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-plugins-telemetry-swagger.yml
+- filename: apiclarity-notifications-openapi.yml
+  format: yaml
+  label: APIClarity Notifications API
+  slug: apiclarity-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/openapi/apiclarity-notifications-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 3

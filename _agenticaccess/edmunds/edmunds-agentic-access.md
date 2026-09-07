@@ -9,6 +9,12 @@ api_specs:
   slug: edmunds-vehicle-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/openapi/edmunds-vehicle-api-openapi.yml
+- filename: edmunds-cars-openapi.yml
+  format: yaml
+  label: Edmunds Cars API
+  slug: edmunds-cars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/openapi/edmunds-cars-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,4 +47,9 @@ tags:
 - Automobiles
 - Cars
 - Vehicles
+- Vehicle Data
+- Dealerships
+- Reviews
+- Pricing
+- Automotive
 ---

@@ -72,4 +72,7 @@ tags:
 - Monitoring
 - Status Pages
 - On-Call
+- Error Tracking
+- OpenTelemetry
+- Model Context Protocol
 ---

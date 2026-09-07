@@ -4,30 +4,60 @@ action_class_counts:
   acting: 4
   connected: 3
 api_specs:
-- filename: amtrust-financial-services-appetite-api-openapi.yml
-  format: yaml
-  label: AmTrust Financial Services Appetite API
-  slug: amtrust-financial-services-appetite-api
+- filename: amtrust-financial-services-digital-wc-api-openapi.json
+  format: json
+  label: AmTrust Digital WC API
+  slug: amtrust-financial-services-digital-wc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-appetite-api-openapi.yml
-- filename: amtrust-financial-services-authentication-api-openapi.yml
-  format: yaml
-  label: AmTrust Financial Services Authentication API
-  slug: amtrust-financial-services-authentication-api
+  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-digital-wc-api-openapi.json
+- filename: amtrust-financial-services-digital-bop-api-openapi.json
+  format: json
+  label: AmTrust Digital BOP API
+  slug: amtrust-financial-services-digital-bop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-authentication-api-openapi.yml
-- filename: amtrust-financial-services-policies-api-openapi.yml
-  format: yaml
-  label: AmTrust Financial Services Policies API
-  slug: amtrust-financial-services-policies-api
+  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-digital-bop-api-openapi.json
+- filename: amtrust-financial-services-digital-cyber-api-openapi.json
+  format: json
+  label: AmTrust Digital Cyber API
+  slug: amtrust-financial-services-digital-cyber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-policies-api-openapi.yml
-- filename: amtrust-financial-services-quotes-api-openapi.yml
-  format: yaml
-  label: AmTrust Financial Services Quotes API
-  slug: amtrust-financial-services-quotes-api
+  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-digital-cyber-api-openapi.json
+- filename: amtrust-financial-services-digital-es-api-openapi.json
+  format: json
+  label: AmTrust Digital E&S API
+  slug: amtrust-financial-services-digital-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-quotes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-digital-es-api-openapi.json
+- filename: amtrust-financial-services-digital-pac-api-openapi.json
+  format: json
+  label: AmTrust Digital PAC API
+  slug: amtrust-financial-services-digital-pac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-digital-pac-api-openapi.json
+- filename: amtrust-financial-services-reinsurance-contract-entry-api-openapi.json
+  format: json
+  label: AmTrust Reinsurance Contract Entry API
+  slug: amtrust-financial-services-reinsurance-contract-entry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-reinsurance-contract-entry-api-openapi.json
+- filename: amtrust-financial-services-experience-claims-medical-case-api-openapi.json
+  format: json
+  label: AmTrust Experience Claims Medical Case API
+  slug: amtrust-financial-services-experience-claims-medical-case-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-experience-claims-medical-case-api-openapi.json
+- filename: amtrust-financial-services-experience-next-gen-bond-pro-api-openapi.json
+  format: json
+  label: AmTrust Experience Next Gen Bond Pro API
+  slug: amtrust-financial-services-experience-next-gen-bond-pro-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-experience-next-gen-bond-pro-api-openapi.json
+- filename: amtrust-financial-services-conversa-engine-api-openapi.json
+  format: json
+  label: AmTrust Conversa Engine API
+  slug: amtrust-financial-services-conversa-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-conversa-engine-api-openapi.json
 consequence_counts:
   read: 3
   write: 4
@@ -65,4 +95,10 @@ tags:
 - Small Business
 - Workers Compensation
 - Fortune 1000
+- Underwriting
+- Claims
+- Policy
+- Reinsurance
+- Cyber Insurance
+- Surety
 ---

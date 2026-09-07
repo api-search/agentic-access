@@ -40,6 +40,12 @@ api_specs:
   slug: developerhub-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-versions-api-openapi.yml
+- filename: developerhub-changelog-api-openapi.yml
+  format: yaml
+  label: DeveloperHub Changelog API
+  slug: developerhub-changelog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-changelog-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -88,4 +94,8 @@ tags:
 - Developer Portals
 - Documentation
 - Knowledge Base
+- OpenAPI
+- Docs as Code
+- Model Context Protocol
+- Agent Skills
 ---

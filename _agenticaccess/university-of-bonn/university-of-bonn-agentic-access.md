@@ -57,10 +57,20 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/univer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/agentic-access/university-of-bonn-agentic-access.yml
 summary_line: 7 operations
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Germany
+- Public Research University
 - Research Data
 - Open Data
-- Germany
+- Open Science
+- Institutional Repository
+- Dataverse
+- OAI-PMH
+- Identity Federation
+- Shibboleth
+- DFN-AAI
+- Research Computing
+- Scholarly Publishing
 ---

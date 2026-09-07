@@ -4,6 +4,60 @@ action_class_counts:
   acting: 177
   connected: 86
 api_specs:
+- filename: snowflake-artifact-repository-api-openapi.yml
+  format: yaml
+  label: Snowflake Artifact Repository API
+  slug: snowflake-artifact-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-artifact-repository-api-openapi.yml
+- filename: snowflake-cortex-embed-api-openapi.yml
+  format: yaml
+  label: Cortex Embed API
+  slug: cortex-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-embed-api-openapi.yml
+- filename: snowflake-network-rule-api-openapi.yml
+  format: yaml
+  label: Snowflake Network Rule API
+  slug: snowflake-network-rule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-network-rule-api-openapi.yml
+- filename: snowflake-password-policy-api-openapi.yml
+  format: yaml
+  label: Snowflake Password Policy API
+  slug: snowflake-password-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-password-policy-api-openapi.yml
+- filename: snowflake-secret-api-openapi.yml
+  format: yaml
+  label: Snowflake Secret API
+  slug: snowflake-secret-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-secret-api-openapi.yml
+- filename: snowflake-sequence-api-openapi.yml
+  format: yaml
+  label: Snowflake Sequence API
+  slug: snowflake-sequence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-sequence-api-openapi.yml
+- filename: snowflake-spark-connect-api-openapi.yml
+  format: yaml
+  label: Snowflake Spark Connect API
+  slug: snowflake-spark-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-spark-connect-api-openapi.yml
+- filename: snowflake-streamlit-api-openapi.yml
+  format: yaml
+  label: Snowflake Streamlit API
+  slug: snowflake-streamlit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-streamlit-api-openapi.yml
+- filename: snowflake-tag-api-openapi.yml
+  format: yaml
+  label: Snowflake Tag API
+  slug: snowflake-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-tag-api-openapi.yml
 - filename: snowflake-account-api-openapi.yml
   format: yaml
   label: Snowflake account API
@@ -220,6 +274,18 @@ api_specs:
   slug: snowflake-warehouse-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-warehouse-api-openapi.yml
+- filename: snowflake-cortex-generic-anthropic-api-openapi.yml
+  format: yaml
+  label: Cortex Messages API
+  slug: snowflake-cortex-generic-anthropic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-generic-anthropic-api-openapi.yml
+- filename: snowflake-cortex-generic-openai-api-openapi.yml
+  format: yaml
+  label: Cortex Chat Completions API
+  slug: snowflake-cortex-generic-openai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/openapi/snowflake-cortex-generic-openai-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 86
@@ -368,9 +434,16 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/accoun
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/agentic-access/snowflake-agentic-access.yml
 summary_line: 263 operations · 177 acting · 14 human-in-the-loop
 tags:
-- Data Lakes
-- Data Sharing
-- Data Warehousing
-- Database
+- Data
+- Data Warehouse
+- Data Lakehouse
+- Cloud Data Platform
+- Analytics
+- Artificial Intelligence
+- Data Engineering
+- Data Governance
 - SQL
+- Apache Iceberg
+- Model Context Protocol
+- T1
 ---

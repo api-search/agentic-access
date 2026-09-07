@@ -46,9 +46,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aol-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/agentic-access/aol-agentic-access.yml
 summary_line: 4 operations · 1 acting
 tags:
-- Advertising
 - Digital Media
-- Entertainment
 - News
+- Entertainment
+- Advertising
+- Identity
+- OpenID Connect
+- Authentication
+- Email
+- Consumer Internet
 - Fortune 1000
 ---

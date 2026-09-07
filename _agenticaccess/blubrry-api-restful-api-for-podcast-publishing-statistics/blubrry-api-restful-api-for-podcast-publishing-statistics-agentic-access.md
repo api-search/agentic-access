@@ -22,6 +22,12 @@ api_specs:
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api-openapi.yml
+- filename: blubrry-api-restful-api-for-podcast-publishing-statistics-podcaster-openapi.yaml
+  format: yaml
+  label: Blubrry Podcast Hosting & Statistics API (v2)
+  slug: blubrry-podcast-hosting-statistics-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-podcaster-openapi.yaml
 consequence_counts:
   read: 19
   write: 8

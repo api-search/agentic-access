@@ -40,4 +40,8 @@ tags:
 - Networking
 - Security
 - VPN
+- IPsec
+- Hybrid Cloud
+- Connectivity
+- Infrastructure
 ---

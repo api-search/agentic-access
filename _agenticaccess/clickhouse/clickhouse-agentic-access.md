@@ -28,6 +28,12 @@ api_specs:
   slug: clickhouse-replicas-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-replicas-status-api-openapi.yml
+- filename: clickhouse-cloud-api-openapi.json
+  format: json
+  label: ClickHouse Cloud API
+  slug: clickhouse-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-cloud-api-openapi.json
 consequence_counts:
   read: 4
   write: 1

@@ -52,14 +52,14 @@ name: Taylor Morrison Home Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 11
-overview: 'taylor-morrison-home exposes 11 API operations that an AI agent could call, of which 1 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Taylor Morrison Home exposes 11 API operations that an AI agent could call, of which 1 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 10 read and 1 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: taylor-morrison-home
+provider_name: Taylor Morrison Home
 provider_slug: taylor-morrison-home
 slug: taylor-morrison-home-agentic-access
 source_filename: taylor-morrison-home-agentic-access.yml

@@ -58,14 +58,14 @@ name: Duck Creek Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 13
-overview: 'duck-creek exposes 13 API operations that an AI agent could call, of which 6 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Duck Creek exposes 13 API operations that an AI agent could call, of which 6 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 7 read and 6 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: duck-creek
+provider_name: Duck Creek
 provider_slug: duck-creek
 slug: duck-creek-agentic-access
 source_filename: duck-creek-agentic-access.yml

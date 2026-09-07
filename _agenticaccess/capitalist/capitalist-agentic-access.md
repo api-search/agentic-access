@@ -3,9 +3,15 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
+- filename: capitalist-integration-api-openapi.json
+  format: json
+  label: Capitalist API
+  slug: capitalist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-integration-api-openapi.json
 - filename: capitalist-capitalist-payments-api-api-openapi.yml
   format: yaml
-  label: Capitalist Capitalist Payments API API
+  label: Capitalist Payments API (v1, deprecated)
   slug: capitalist-capitalist-payments-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-capitalist-payments-api-api-openapi.yml

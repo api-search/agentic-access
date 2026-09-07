@@ -202,7 +202,7 @@ notable_actions:
   method: POST
   path: /payments/types
 operation_count: 54
-overview: 'booking-com exposes 54 API operations that an AI agent could call, of which 49 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Booking Com exposes 54 API operations that an AI agent could call, of which 49 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 5 read, 41 write, 7 physical, and 1 safety-critical.
@@ -212,7 +212,7 @@ overview: 'booking-com exposes 54 API operations that an AI agent could call, of
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: booking-com
+provider_name: Booking Com
 provider_slug: booking-com
 slug: booking-com-agentic-access
 source_filename: booking-com-agentic-access.yml

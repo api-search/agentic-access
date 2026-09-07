@@ -21,6 +21,12 @@ api_specs:
   slug: agco-telemetry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-telemetry-api-openapi.yml
+- filename: agco-ats-api-openapi.json
+  format: json
+  label: AGCO ATS API
+  slug: agco-ats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-ats-api-openapi.json
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -32,14 +38,14 @@ name: Agco Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 3
-overview: 'agco exposes 3 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Agco exposes 3 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 3 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: agco
+provider_name: Agco
 provider_slug: agco
 slug: agco-agentic-access
 source_filename: agco-agentic-access.yml
@@ -51,4 +57,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agco/refs/head
 summary_line: 3 operations
 tags:
 - Fortune 500
+- Agriculture
+- Farm Equipment
+- Manufacturing
+- Telematics
+- Precision Agriculture
+- Diagnostics
 ---

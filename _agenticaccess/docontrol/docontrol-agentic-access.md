@@ -46,4 +46,10 @@ summary_line: 2 operations · 2 acting
 tags:
 - Data Security
 - SaaS Security
+- Data Access Governance
+- Data Loss Prevention
+- Insider Risk Management
+- SSPM
+- GraphQL
+- MCP
 ---

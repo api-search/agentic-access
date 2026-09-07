@@ -33,6 +33,12 @@ api_specs:
   slug: artemis-neows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/openapi/artemis-neows-api-openapi.yml
+- filename: artemis-techport-swagger.json
+  format: json
+  label: NASA TechPort API
+  slug: nasa-techport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/openapi/artemis-techport-swagger.json
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

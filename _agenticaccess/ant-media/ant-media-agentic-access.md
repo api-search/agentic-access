@@ -34,6 +34,18 @@ api_specs:
   slug: ant-media-vods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/openapi/ant-media-vods-api-openapi.yml
+- filename: ant-media-management-api-openapi.yml
+  format: yaml
+  label: Ant Media Management API
+  slug: ant-media-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/openapi/ant-media-management-api-openapi.yml
+- filename: ant-media-cluster-api-openapi.yml
+  format: yaml
+  label: Ant Media Cluster API
+  slug: ant-media-cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/openapi/ant-media-cluster-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 32

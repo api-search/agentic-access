@@ -34,6 +34,18 @@ api_specs:
   slug: autocontent-api-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-video-api-openapi.yml
+- filename: autocontent-api-platform-v1-openapi.json
+  format: json
+  label: AutoContent Platform API v1
+  slug: platform-api-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-platform-v1-openapi.json
+- filename: autocontent-api-legacy-content-openapi.json
+  format: json
+  label: AutoContent legacy Content API
+  slug: legacy-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-legacy-content-openapi.json
 consequence_counts:
   read: 26
   write: 25

@@ -147,14 +147,14 @@ notable_actions:
   method: PUT
   path: /v2/post_checkout/orders/{order_id}/items/{order_item_id}/replacement
 operation_count: 23
-overview: 'instacart exposes 23 API operations that an AI agent could call, of which 19 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Instacart exposes 23 API operations that an AI agent could call, of which 19 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 4 read, 5 write, and 14 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: instacart
+provider_name: Instacart
 provider_slug: instacart
 slug: instacart-agentic-access
 source_filename: instacart-agentic-access.yml

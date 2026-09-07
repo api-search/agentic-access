@@ -52,7 +52,7 @@ notable_actions:
   method: DELETE
   path: /enrollments/{enrollment_id}
 operation_count: 13
-overview: 'aflac exposes 13 API operations that an AI agent could call, of which 5 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Aflac exposes 13 API operations that an AI agent could call, of which 5 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 8 read, 4 write, and 1 safety-critical.
@@ -62,7 +62,7 @@ overview: 'aflac exposes 13 API operations that an AI agent could call, of which
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: aflac
+provider_name: Aflac
 provider_slug: aflac
 slug: aflac-agentic-access
 source_filename: aflac-agentic-access.yml
@@ -77,4 +77,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/hea
 summary_line: 13 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Fortune 500
+- Insurance
+- Supplemental Insurance
+- Employee Benefits
+- Claims
+- Enrollment
+- Policy Administration
+- Enterprise Integration
 ---

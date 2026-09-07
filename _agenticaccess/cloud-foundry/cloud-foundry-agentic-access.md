@@ -4,6 +4,18 @@ action_class_counts:
   acting: 16
   connected: 13
 api_specs:
+- filename: cloud-foundry-capi-v3-openapi.yaml
+  format: yaml
+  label: Cloud Foundry Cloud Controller API v3
+  slug: capi-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-capi-v3-openapi.yaml
+- filename: cloud-foundry-open-service-broker-api-openapi.yaml
+  format: yaml
+  label: Open Service Broker API
+  slug: open-service-broker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-open-service-broker-api-openapi.yaml
 - filename: cloud-foundry-apps-api-openapi.yml
   format: yaml
   label: Cloud Foundry Apps API
@@ -52,6 +64,12 @@ api_specs:
   slug: cloud-foundry-spaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-spaces-api-openapi.yml
+- filename: cloud-foundry-app-autoscaler-policy-api-openapi.yaml
+  format: yaml
+  label: Cloud Foundry App Autoscaler API
+  slug: app-autoscaler
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/openapi/cloud-foundry-app-autoscaler-policy-api-openapi.yaml
 consequence_counts:
   physical: 1
   read: 13

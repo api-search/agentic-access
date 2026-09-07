@@ -147,6 +147,60 @@ api_specs:
   slug: loc-treaty-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/loc-treaty-api-openapi.yml
+- filename: library-of-congress-bills-api-openapi.yml
+  format: yaml
+  label: Library of Congress Bills API
+  slug: library-of-congress-bills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/library-of-congress-bills-api-openapi.yml
+- filename: library-of-congress-committees-api-openapi.yml
+  format: yaml
+  label: Library of Congress Committees API
+  slug: library-of-congress-committees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/library-of-congress-committees-api-openapi.yml
+- filename: library-of-congress-congressional-record-api-openapi.yml
+  format: yaml
+  label: Library of Congress Congressional Record API
+  slug: library-of-congress-congressional-record-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/library-of-congress-congressional-record-api-openapi.yml
+- filename: library-of-congress-issues-api-openapi.yml
+  format: yaml
+  label: Library of Congress Issues API
+  slug: library-of-congress-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/library-of-congress-issues-api-openapi.yml
+- filename: library-of-congress-laws-api-openapi.yml
+  format: yaml
+  label: Library of Congress Laws API
+  slug: library-of-congress-laws-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/library-of-congress-laws-api-openapi.yml
+- filename: library-of-congress-members-api-openapi.yml
+  format: yaml
+  label: Library of Congress Members API
+  slug: library-of-congress-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/library-of-congress-members-api-openapi.yml
+- filename: library-of-congress-pages-api-openapi.yml
+  format: yaml
+  label: Library of Congress Pages API
+  slug: library-of-congress-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/library-of-congress-pages-api-openapi.yml
+- filename: library-of-congress-resources-api-openapi.yml
+  format: yaml
+  label: Library of Congress Resources API
+  slug: library-of-congress-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/library-of-congress-resources-api-openapi.yml
+- filename: library-of-congress-titles-api-openapi.yml
+  format: yaml
+  label: Library of Congress Titles API
+  slug: library-of-congress-titles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/openapi/library-of-congress-titles-api-openapi.yml
 consequence_counts:
   read: 121
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

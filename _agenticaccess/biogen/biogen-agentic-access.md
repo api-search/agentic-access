@@ -16,6 +16,12 @@ api_specs:
   slug: biogen-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/openapi/biogen-services-api-openapi.yml
+- filename: biogen-cdp-export-api-openapi.yml
+  format: yaml
+  label: Biogen CDP Export API (Non-Production)
+  slug: biogen-cdp-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/openapi/biogen-cdp-export-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

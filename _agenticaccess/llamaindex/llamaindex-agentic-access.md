@@ -135,7 +135,7 @@ notable_actions:
   method: PUT
   path: /pipelines/{pipelineId}/files
 operation_count: 43
-overview: 'llamaindex exposes 43 API operations that an AI agent could call, of which 22 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Llamaindex exposes 43 API operations that an AI agent could call, of which 22 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 21 read, 20 write, and 2 safety-critical.
@@ -145,7 +145,7 @@ overview: 'llamaindex exposes 43 API operations that an AI agent could call, of 
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: llamaindex
+provider_name: Llamaindex
 provider_slug: llamaindex
 slug: llamaindex-agentic-access
 source_filename: llamaindex-agentic-access.yml

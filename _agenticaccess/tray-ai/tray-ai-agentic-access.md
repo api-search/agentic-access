@@ -127,4 +127,11 @@ tags:
 - iPaaS
 - AI Agents
 - MCP
+- Orchestration
+- Workflow Automation
+- Connectors
+- Agent Gateway
+- Embedded Integration
+- Enterprise Automation
+- Model Context Protocol
 ---

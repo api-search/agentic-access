@@ -4,36 +4,60 @@ action_class_counts:
   acting: 4
   connected: 10
 api_specs:
-- filename: azure-ad-applications-api-openapi.yml
+- filename: azure-ad-graph-applications-openapi.yml
   format: yaml
   label: Azure Active Directory Applications API
   slug: azure-ad-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-applications-api-openapi.yml
-- filename: azure-ad-directory-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/_original/azure-ad-graph-applications-openapi.yml
+- filename: azure-ad-graph-identity-directorymanagement-openapi.yml
   format: yaml
   label: Azure Active Directory Directory API
   slug: azure-ad-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-directory-api-openapi.yml
-- filename: azure-ad-groups-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/_original/azure-ad-graph-identity-directorymanagement-openapi.yml
+- filename: azure-ad-graph-groups-openapi.yml
   format: yaml
   label: Azure Active Directory Groups API
   slug: azure-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-groups-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/_original/azure-ad-graph-groups-openapi.yml
 - filename: azure-ad-me-api-openapi.yml
   format: yaml
   label: Azure Active Directory Me API
   slug: azure-ad-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-me-api-openapi.yml
-- filename: azure-ad-users-api-openapi.yml
+- filename: azure-ad-graph-users-openapi.yml
   format: yaml
   label: Azure Active Directory Users API
   slug: azure-ad-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/azure-ad-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/_original/azure-ad-graph-users-openapi.yml
+- filename: azure-ad-graph-identity-signins-openapi.yml
+  format: yaml
+  label: Microsoft Entra ID Sign-Ins and Policies API
+  slug: azure-ad-signins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/_original/azure-ad-graph-identity-signins-openapi.yml
+- filename: azure-ad-graph-identity-governance-openapi.yml
+  format: yaml
+  label: Microsoft Entra ID Governance API
+  slug: azure-ad-governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/_original/azure-ad-graph-identity-governance-openapi.yml
+- filename: azure-ad-graph-directoryobjects-openapi.yml
+  format: yaml
+  label: Microsoft Entra ID Directory Objects API
+  slug: azure-ad-directory-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/_original/azure-ad-graph-directoryobjects-openapi.yml
+- filename: azure-ad-graph-changenotifications-openapi.yml
+  format: yaml
+  label: Microsoft Entra ID Change Notifications API
+  slug: azure-ad-change-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/openapi/_original/azure-ad-graph-changenotifications-openapi.yml
 consequence_counts:
   read: 10
   write: 4
@@ -46,14 +70,14 @@ name: Azure Ad Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 14
-overview: 'Azure Active Directory exposes 14 API operations that an AI agent could call, of which 4 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Microsoft Entra ID (formerly Azure AD) exposes 14 API operations that an AI agent could call, of which 4 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 10 read and 4 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: Azure Active Directory
+provider_name: Microsoft Entra ID (formerly Azure AD)
 provider_slug: azure-ad
 slug: azure-ad-agentic-access
 source_filename: azure-ad-agentic-access.yml

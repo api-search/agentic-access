@@ -4,6 +4,12 @@ action_class_counts:
   acting: 7
   connected: 5
 api_specs:
+- filename: authelia-api-openapi.yml
+  format: yaml
+  label: Authelia API
+  slug: authelia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-api-openapi.yml
 - filename: authelia-discovery-api-openapi.yml
   format: yaml
   label: Authelia Discovery API

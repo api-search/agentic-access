@@ -81,7 +81,7 @@ notable_actions:
   method: POST
   path: /extensions
 operation_count: 37
-overview: 'fly-io exposes 37 API operations that an AI agent could call, of which 24 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Fly Io exposes 37 API operations that an AI agent could call, of which 24 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 13 read, 21 write, 2 physical, and 1 safety-critical.
@@ -91,7 +91,7 @@ overview: 'fly-io exposes 37 API operations that an AI agent could call, of whic
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: fly-io
+provider_name: Fly Io
 provider_slug: fly-io
 slug: fly-io-agentic-access
 source_filename: fly-io-agentic-access.yml

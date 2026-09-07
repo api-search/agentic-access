@@ -45,6 +45,18 @@ api_specs:
   slug: sportsdb-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/sportsdb-teams-api-openapi.yml
+- filename: thesportsdb-lists-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Lists API
+  slug: thesportsdb-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/thesportsdb-lists-api-openapi.yml
+- filename: thesportsdb-seasons-api-openapi.yml
+  format: yaml
+  label: TheSportsDB Seasons API
+  slug: thesportsdb-seasons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/openapi/thesportsdb-seasons-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

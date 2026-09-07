@@ -70,14 +70,14 @@ name: Cohere Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 18
-overview: 'cohere exposes 18 API operations that an AI agent could call, of which 11 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Cohere exposes 18 API operations that an AI agent could call, of which 11 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 7 read and 11 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: cohere
+provider_name: Cohere
 provider_slug: cohere
 slug: cohere-agentic-access
 source_filename: cohere-agentic-access.yml

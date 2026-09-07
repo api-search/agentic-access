@@ -3,6 +3,42 @@ acting_count: 0
 action_class_counts:
   connected: 8
 api_specs:
+- filename: elsevier-scopus-swagger.json
+  format: json
+  label: Elsevier Scopus APIs
+  slug: elsevier-scopus-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scopus-swagger.json
+- filename: elsevier-sciencedirect-swagger.json
+  format: json
+  label: Elsevier ScienceDirect APIs
+  slug: elsevier-sciencedirect-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-sciencedirect-swagger.json
+- filename: elsevier-scival-swagger.json
+  format: json
+  label: Elsevier SciVal API
+  slug: elsevier-scival-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-scival-swagger.json
+- filename: elsevier-engineering-village-swagger.json
+  format: json
+  label: Elsevier Engineering Village API
+  slug: elsevier-engineering-village-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-engineering-village-swagger.json
+- filename: elsevier-retrieval-swagger.json
+  format: json
+  label: Elsevier Retrieval APIs
+  slug: elsevier-retrieval-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-retrieval-swagger.json
+- filename: elsevier-metadata-swagger.json
+  format: json
+  label: Elsevier Metadata APIs
+  slug: elsevier-metadata-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/openapi/elsevier-metadata-swagger.json
 - filename: elsevier-abstract-api-openapi.yml
   format: yaml
   label: Elsevier Abstract API

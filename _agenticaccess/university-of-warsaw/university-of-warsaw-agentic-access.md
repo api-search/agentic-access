@@ -33,6 +33,18 @@ api_specs:
   slug: university-of-warsaw-fac-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-fac-api-openapi.yml
+- filename: university-of-warsaw-jaskier-api-openapi.yml
+  format: yaml
+  label: Jaskier API
+  slug: jaskier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-jaskier-api-openapi.yml
+- filename: university-of-warsaw-sp4eu-api-openapi.yml
+  format: yaml
+  label: Student Portal 4EU+ API
+  slug: sp4eu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/openapi/university-of-warsaw-sp4eu-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +79,13 @@ tags:
 - Higher Education
 - University
 - Poland
+- Europe
+- 4EU+ Alliance
 - Academic Data
+- Course Catalog
 - Research Data
+- Research Repository
+- Identity Federation
+- Library
 - Open Data
 ---

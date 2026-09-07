@@ -21,6 +21,12 @@ api_specs:
   slug: game-of-thrones-houses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/game-of-thrones-houses-api-openapi.yml
+- filename: an-api-of-ice-and-fire-root-api-openapi.yml
+  format: yaml
+  label: An API of Ice And Fire Root API
+  slug: an-api-of-ice-and-fire-root-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/openapi/an-api-of-ice-and-fire-root-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

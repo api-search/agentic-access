@@ -3,6 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
+- filename: assertible-triggers-api-openapi.yml
+  format: yaml
+  label: Assertible API
+  slug: assertible-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/openapi/assertible-triggers-api-openapi.yml
 - filename: assertible-deployments-api-openapi.yml
   format: yaml
   label: Assertible Deployments API

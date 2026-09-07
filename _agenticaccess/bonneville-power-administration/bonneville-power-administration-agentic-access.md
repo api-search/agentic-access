@@ -33,6 +33,12 @@ api_specs:
   slug: bonneville-power-administration-transmission-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-transmission-api-openapi.yml
+- filename: bonneville-power-administration-data-search-api-openapi.yml
+  format: yaml
+  label: Bonneville Power Administration Data Search API
+  slug: bonneville-power-administration-data-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-data-search-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -64,14 +64,14 @@ name: Drupal Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 33
-overview: 'drupal exposes 33 API operations that an AI agent could call, of which 17 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Drupal exposes 33 API operations that an AI agent could call, of which 17 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 16 read and 17 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: drupal
+provider_name: Drupal
 provider_slug: drupal
 slug: drupal-agentic-access
 source_filename: drupal-agentic-access.yml

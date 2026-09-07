@@ -1,67 +1,126 @@
 ---
-acting_count: 3
+acting_count: 417
 action_class_counts:
-  acting: 3
-  connected: 7
+  acting: 417
+  connected: 337
 api_specs:
-- filename: dotcms-authentication-api-openapi.yml
-  format: yaml
-  label: dotCMS Authentication API
-  slug: dotcms-authentication-api
+- filename: dotcms-rest-api-openapi.json
+  format: json
+  label: dotCMS REST API
+  slug: rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-authentication-api-openapi.yml
-- filename: dotcms-content-api-openapi.yml
-  format: yaml
-  label: dotCMS Content API
-  slug: dotcms-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-content-api-openapi.yml
-- filename: dotcms-navigation-api-openapi.yml
-  format: yaml
-  label: dotCMS Navigation API
-  slug: dotcms-navigation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-navigation-api-openapi.yml
-- filename: dotcms-search-api-openapi.yml
-  format: yaml
-  label: dotCMS Search API
-  slug: dotcms-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-search-api-openapi.yml
-- filename: dotcms-sites-api-openapi.yml
-  format: yaml
-  label: dotCMS Sites API
-  slug: dotcms-sites-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-sites-api-openapi.yml
-- filename: dotcms-users-api-openapi.yml
-  format: yaml
-  label: dotCMS Users API
-  slug: dotcms-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-users-api-openapi.yml
-- filename: dotcms-workflow-api-openapi.yml
-  format: yaml
-  label: dotCMS Workflow API
-  slug: dotcms-workflow-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-workflow-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/openapi/dotcms-rest-api-openapi.json
 consequence_counts:
-  read: 7
-  write: 3
+  physical: 5
+  read: 337
+  safety-critical: 13
+  write: 399
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 0
+human_in_the_loop: 13
 kind: agentic-access
 layout: agentic-access
 method: generated
 name: Dotcms Agentic Access
 name_suffix: Agentic Access
-notable_actions: []
-operation_count: 10
-overview: 'dotCMS exposes 10 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+notable_actions:
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /api/license/resetLicense/{params}
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /api/v1/agents/a11y/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: PUT
+  path: /api/v1/apitoken/{tokenId}/revoke
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /api/v1/changePassword
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /api/v1/dotauth/sessionrefs/revoke
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /api/v1/esindex/reindex
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /api/v1/forgotpassword
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /api/v1/maintenance/_sessions
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /api/v1/maintenance/_sessions/{token}
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /api/v1/maintenance/_shutdown
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /api/v1/maintenance/_shutdownCluster
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: PUT
+  path: /api/v1/osgi/jar/{jar}/_stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: PUT
+  path: /api/v1/permissions/{assetId}/_reset
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PUT
+  path: /api/v1/categories/_sort
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: DELETE
+  path: /api/v1/osgi/jar/{jar}
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PUT
+  path: /api/v1/osgi/jar/{jar}/_deploy
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PUT
+  path: /api/v1/workflow/reorder/step/{stepId}/order/{order}
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PUT
+  path: /api/v1/workflow/reorder/steps/{stepId}/actions/{actionId}
+operation_count: 754
+overview: 'dotCMS exposes 754 API operations that an AI agent could call, of which 417 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 7 read and 3 write.
+  By consequence: 337 read, 399 write, 5 physical, and 13 safety-critical.
+
+
+  13 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -71,14 +130,52 @@ slug: dotcms-agentic-access
 source_filename: dotcms-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dotcms-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    acting: 3\n    connected: 7\n  by_consequence:\n    write: 3\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/authentication/api-token\n  method: post\n  operationId: requestApiToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/current\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/content/{idOrInode}\n  method: get\n  operationId: getContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workflow/actions/default/fire/PUBLISH\n  method: post\n  operationId: firePublish\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workflow/actions\n  method: get\n  operationId: listWorkflowActions\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/content/_search\n  method: post\n  operationId: searchContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/nav/{path}\n  method: get\n  operationId: getNavigation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/site\n  method: get\n  operationId: listSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/site/currentSite\n  method: get\n  operationId: getCurrentSite\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml: "generated: '2026-09-06'\nmethod: generated\nsource: openapi/dotcms-rest-api-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 754\n  by_action_class:\n    connected: 337\n    acting: 417\n  by_consequence:\n    read: 337\n    write: 399\n    safety-critical: 13\n    physical: 5\n  human_in_the_loop_required: 13\noperations:\n- path: /api/v1/ai/providers\n  method: get\n  operationId: listAiProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ai/providers/test/{capability}\n  method: post\n  operationId: testAiProviderConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ai/completions/config\n  method: get\n  operationId: getAiConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ai/completions/config\n  method: put\n  operationId: saveAiConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ai/completions/rawPrompt\n  method: post\n  operationId: rawPrompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
+  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ai/completions\n  method: post\n  operationId: summarizeFromContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ai/embeddings/count\n  method: get\n  operationId: count_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ai/embeddings/count\n  method: post\n  operationId: count\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ai/embeddings\n  method: post\n  operationId: embed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ai/embeddings\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ai/embeddings/db\n  method: delete\n  operationId: dropAndRecreateTables\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ai/embeddings/indexCount\n  method: get\n  operationId: indexCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ai/embeddings/test\n  method: get\n  operationId: textResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ai/image/generate\n  method: get\n  operationId: indexByInode_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ai/image/generate\n  method: post\n  operationId: handleImageRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
+  \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ai/image/test\n  method: get\n  operationId: indexByInode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ai/search/related\n  method: get\n  operationId: relatedByGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ai/search/related\n  method: post\n  operationId: relatedByPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ai/search\n  method:\
+  \ get\n  operationId: searchByGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ai/search\n  method: post\n  operationId: searchByPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ai/search/test\n  method: get\n  operationId: testResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ai/text/generate\n  method: get\n  operationId: doGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ai/text/generate\n\
+  \  method: post\n  operationId: doPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotauth/oauth/exchange\n  method: post\n  operationId: exchange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotauth/oauth/exchange\n  method: options\n  operationId: exchangePreflight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dotauth/sites/{hostId}\n  method: get\n  operationId: getDotAuthConfig\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dotauth/sites/{hostId}\n  method: put\n  operationId: saveDotAuthConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotauth/sites/{hostId}\n  method: delete\n  operationId: clearDotAuthConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotauth/headless\n  method: put\n  operationId: saveDotAuthHeadlessConfig\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotauth/headless\n  method: delete\n  operationId: clearDotAuthHeadlessConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotauth/discover/oidc\n  method: post\n  operationId: discoverDotAuthOidc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotauth/export\n\
+  \  method: post\n  operationId: exportDotAuthAppSecrets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotauth/fetch/saml-metadata\n  method: post\n  operationId: fetchSamlMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotauth/saml/metadata/{hostId}\n  method: get\n  operationId: getSamlSpMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dotauth/import\n  method: post\n  operationId:\
+  \ importDotAuthAppSecrets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotauth/sites\n  method: get\n  operationId: listDotAuthSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dotauth/sessionrefs/revoke\n  method: post\n  operationId: revokeDotAuthSessionRefs\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/dotauth/oauth/session\n  method: delete\n\
+  \  operationId: logout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotsaml/login/{idpConfigId}\n  method: get\n  operationId: doLogin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dotsaml/login/{idpConfigId}\n  method: post\n  operationId: processLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotsaml/logout/{idpConfigId}\n  method: get\n  operationId: logoutGet\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dotsaml/logout/{idpConfigId}\n  method: post\n  operationId: logoutPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dotsaml/metadata/{idpConfigId}\n  method: get\n  operationId: metadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/fieldTypes\n  method: get\n  operationId: getFieldTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/js/{folder}\n  method: get\n  operationId:\
+  \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/js/{folder}\n  method: put\n  operationId: putMultipart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/{folder}\n  method: post\n  operationId: postMultipart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/{folder}\n  method: delete\n  operationId: delete_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
+  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/{folder}\n  method: patch\n  operationId: patchMultipart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/{folder}/{pathParam}\n  method: get\n  operationId: get_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/js/{folder}/{pathParam}\n  method: put\n  operationId: putMultipart_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
+  \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/{folder}/{pathParam}\n  method: post\n  operationId: postMultipart_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/{folder}/{pathParam}\n  method: delete\n  operationId: delete_2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/{folder}/{pathParam}\n  method: patch\n  operationId: patchMultipart_1\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/dynamic/{pathParam}\n  method: get\n  operationId: dynamicGet_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/js/dynamic/{pathParam}\n  method: put\n  operationId: dynamicPut_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/dynamic/{pathParam}\n  method: post\n  operationId: dynamicPost_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n  \
+  \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/dynamic/{pathParam}\n  method: delete\n  operationId: dynamicDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/dynamic/{pathParam}\n  method: patch\n  operationId: dynamicPatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/dynamic\n  method: get\n  operationId: dynamicGet\n  x-agentic-access:\n    action-class: connected\n\
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/js/dynamic\n  method: put\n  operationId: dynamicPut\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/js/dynamic\n  method: post\n  operationId: dynamicPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/auditPublishing/get/{bundleId}\n  method: get\n  operationId: get_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
+  \   audit: none\n- path: /api/auditPublishing/getAll\n  method: post\n  operationId: getAll\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/layout/{params}\n  method: get\n  operationId: getLayout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bundlePublisher/publish\n  method: post\n  operationId: publish\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bundle/all\n  method: delete\n  operationId:\
+  \ deleteAll\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bundle/all/fail\n  method: delete\n  operationId: deleteAllFail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bundle/all/success\n  method: delete\n  operationId: deleteAllSuccess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
+  - path: /api/bundle/ids\n  method: delete\n  operationId: deleteBundlesByIdentifiers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bundle/olderthan/{olderThan}\n  method: delete\n  operationId: deleteBundlesOlderThan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bundle/deleteenvironmentpushhistory/{params}\n  method: get\n  operationId: deleteEnvironmentPushHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
+  - path: /api/bundle/deletepushhistory/{params}\n  method: get\n  operationId: deletePushHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bundle/_download/{bundleId}\n  method: get\n  operationId: downloadBundle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bundle/{bundleId}/manifest\n  method: get\n  operationId: downloadManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bundle/_generate\n  method: post\n  operationId: generateBundle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /api/bundle/{bundleId}/assets\n  method: get\n  operationId: getPublishQueueElements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bundle/getunsendbundles/{params}\n  method: get\n  operationId: getUnsendBundles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bundle/updatebundle/{params}\n  method: get\n  operationId: updateBundle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bundle\n  method: post\n  operationId: uploadBundleAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bundle/sync\n  method: post\n  operationId: uploadBundleSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/deleteEndpoint\n  method: post\n  operationId: deleteEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/deleteEnvironment\n  method: post\n  operationId: deleteEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
+  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/regenerateKey\n  method: post\n  operationId: regenerateKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/saveCompanyAuthTypeInfo\n  method: post\n  operationId: saveCompanyAuthTypeInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/saveCompanyBasicInfo\n  method: post\n  operationId:\
+  \ saveCompanyBasicInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/saveCompanyLocaleInfo\n  method: post\n  operationId: saveCompanyLocaleInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/saveCompanyLogo\n  method: post\n  operationId: saveCompanyLogo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
+  \   - high-value\n    audit: required\n- path: /api/cluster/getESConfigProperties/{params}\n  method: get\n  operationId: getESConfigProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/cluster/licenseRepoStatus\n  method: get\n  operationId: getLicenseRepoStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/cluster/getNodesStatus/{params}\n  method: get\n  operationId: getNodesInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/cluster/remove/{params}\n  method: post\n  operationId: removeFromCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
+  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/cluster/test\n  method: get\n  operationId: testCluster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/content/canLock/{params}\n  method: put\n  operationId: canLockContentLegacy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/content/{params}\n  method: get\n  operationId: getContentLegacy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/content/{params}\n  method: put\n  operationId:\
+  \ singlePutContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/content/{params}\n  method: post\n  operationId: singlePostContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/content/indexcount/{query}\n  method: get\n  operationId: indexCountContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/content/indexsearch/{query}/sortby/{sortby}/limit/{limit}/offset/{offset}\n  method: get\n  operationId:\
+  \ indexSearchContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/content/lock/{params}\n  method: put\n  operationId: lockContentLegacy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/content/unlock/{params}\n  method: put\n  operationId: unlockContentLegacy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/environments/endpoints\n  method: get\n  operationId: getEndpoints\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/environments/endpoints\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/environments/endpoints/{id}\n  method: put\n  operationId: update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/environments/endpoints/{id}\n  method: delete\n  operationId: delete_3\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/environments/endpoints/{endpointId}\n  method: get\n  operationId: getEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/environments/endpoints/environment/{environmentId}\n  method: get\n  operationId: getEndpointsByEnvironmentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/environment\n  method: get\n  operationId: loadAllEnvironments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/environment\n  method: post\n  operationId:\
+  \ create_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the\n\n# --- truncated at 32 KB (218 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/agentic-access/dotcms-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/agentic-access/dotcms-agentic-access.yml
-summary_line: 10 operations · 3 acting
+summary_line: 754 operations · 417 acting · 13 human-in-the-loop
 tags:
 - CMS
 - Content
 - Content Management
+- Headless CMS
+- Digital Experience
+- Content Delivery
+- Workflows
+- GraphQL
+- MCP
+- Java
 ---

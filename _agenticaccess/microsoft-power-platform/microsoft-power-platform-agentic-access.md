@@ -16,6 +16,12 @@ api_specs:
   slug: microsoft-power-platform-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/openapi/microsoft-power-platform-records-api-openapi.yml
+- filename: microsoft-power-platform-enterprise-policies-openapi.json
+  format: json
+  label: Power Platform Enterprise Policies (Azure Resource Manager)
+  slug: microsoft-power-platform-enterprise-policies
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/openapi/_original/microsoft-power-platform-enterprise-policies-openapi.json
 consequence_counts:
   read: 5
   write: 3

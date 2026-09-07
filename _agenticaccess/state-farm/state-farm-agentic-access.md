@@ -22,6 +22,24 @@ api_specs:
   slug: state-farm-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-quotes-api-openapi.yml
+- filename: state-farm-insurance-coverage-api-openapi.yml
+  format: yaml
+  label: State Farm Insurance Coverage API
+  slug: state-farm-insurance-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-insurance-coverage-api-openapi.yml
+- filename: state-farm-insurance-policies-api-openapi.yml
+  format: yaml
+  label: State Farm Insurance Policies API
+  slug: state-farm-insurance-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-insurance-policies-api-openapi.yml
+- filename: state-farm-insurance-quotes-api-openapi.yml
+  format: yaml
+  label: State Farm Insurance Quotes API
+  slug: state-farm-insurance-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-insurance-quotes-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2

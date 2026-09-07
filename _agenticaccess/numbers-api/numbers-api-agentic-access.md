@@ -39,6 +39,12 @@ api_specs:
   slug: numbers-api-year-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-api-year-api-openapi.yml
+- filename: numbers-batch-api-openapi.yml
+  format: yaml
+  label: Numbers API Batch API
+  slug: numbers-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/openapi/numbers-batch-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

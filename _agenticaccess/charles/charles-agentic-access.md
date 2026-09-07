@@ -6,22 +6,46 @@ action_class_counts:
 api_specs:
 - filename: charles-languages-api-openapi.yml
   format: yaml
-  label: Charles University languages API
+  label: LINDAT Translation Languages API
   slug: charles-languages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-languages-api-openapi.yml
 - filename: charles-models-api-openapi.yml
   format: yaml
-  label: Charles University models API
+  label: LINDAT Translation Models API
   slug: charles-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-models-api-openapi.yml
 - filename: charles-root-api-openapi.yml
   format: yaml
-  label: Charles University root API
+  label: LINDAT Translation Root API
   slug: charles-root-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-root-api-openapi.yml
+- filename: charles-udpipe-api-openapi.yml
+  format: yaml
+  label: LINDAT UDPipe API
+  slug: lindat-udpipe
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-udpipe-api-openapi.yml
+- filename: charles-nametag-api-openapi.yml
+  format: yaml
+  label: LINDAT NameTag API
+  slug: lindat-nametag
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-nametag-api-openapi.yml
+- filename: charles-morphodita-api-openapi.yml
+  format: yaml
+  label: LINDAT MorphoDiTa API
+  slug: lindat-morphodita
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-morphodita-api-openapi.yml
+- filename: charles-korektor-api-openapi.yml
+  format: yaml
+  label: LINDAT Korektor API
+  slug: lindat-korektor
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/openapi/charles-korektor-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -59,14 +83,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/charle
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/agentic-access/charles-agentic-access.yml
 summary_line: 7 operations · 2 acting
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Open Data
-- Repository
-- OAI-PMH
-- Natural Language Processing
 - Czechia
 - Europe
+- Language Technology
+- Natural Language Processing
+- Machine Translation
+- Research Repository
+- Identity Federation
+- OAI-PMH
+- CLARIN
 ---

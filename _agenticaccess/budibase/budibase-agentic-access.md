@@ -34,6 +34,12 @@ api_specs:
   slug: budibase-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-users-api-openapi.yml
+- filename: budibase-public-api-openapi.yml
+  format: yaml
+  label: Budibase Public API
+  slug: budibase-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-public-api-openapi.yml
 consequence_counts:
   read: 9
   write: 17

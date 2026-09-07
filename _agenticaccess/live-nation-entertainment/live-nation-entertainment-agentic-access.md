@@ -38,14 +38,14 @@ name: Live Nation Entertainment Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 7
-overview: 'live-nation-entertainment exposes 7 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Live Nation Entertainment exposes 7 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 7 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: live-nation-entertainment
+provider_name: Live Nation Entertainment
 provider_slug: live-nation-entertainment
 slug: live-nation-entertainment-agentic-access
 source_filename: live-nation-entertainment-agentic-access.yml

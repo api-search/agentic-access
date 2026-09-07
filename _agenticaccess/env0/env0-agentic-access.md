@@ -120,4 +120,9 @@ tags:
 - Infrastructure as Code
 - DevOps
 - Cloud
+- Terraform
+- OpenTofu
+- Platform Engineering
+- Cloud Governance
+- Drift Detection
 ---

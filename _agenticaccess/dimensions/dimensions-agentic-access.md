@@ -51,4 +51,10 @@ tags:
 - Patents
 - Clinical Trials
 - Jupyter Notebooks
+- Scientometrics
+- Bibliometrics
+- Research Intelligence
+- Datasets
+- Policy Documents
+- MCP
 ---

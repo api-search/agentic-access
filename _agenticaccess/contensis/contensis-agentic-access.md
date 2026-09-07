@@ -60,4 +60,9 @@ tags:
 - CMS
 - Content
 - Headless CMS
+- Content Management
+- Digital Experience Platform
+- Content Delivery
+- Webhooks
+- Higher Education
 ---

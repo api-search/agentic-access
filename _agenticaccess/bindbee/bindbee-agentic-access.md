@@ -33,6 +33,12 @@ api_specs:
   slug: bindbee-time-off-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-time-off-api-openapi.yml
+- filename: bindbee-unified-api-openapi.json
+  format: json
+  label: Bindbee Unified API
+  slug: bindbee-unified-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-unified-api-openapi.json
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,4 +72,9 @@ tags:
 - HR Integration
 - HRIS
 - Workforce
+- Unified API
+- Payroll
+- LMS
+- Employee Data
+- Integrations
 ---

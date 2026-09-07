@@ -16,6 +16,12 @@ api_specs:
   slug: factorial-hr-core-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-me-api-openapi.yml
+- filename: factorial-resources-api-openapi.yml
+  format: yaml
+  label: Factorial Resources API
+  slug: factorial-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-resources-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2

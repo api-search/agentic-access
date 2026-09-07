@@ -28,6 +28,18 @@ api_specs:
   slug: arcbest-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-tracking-api-openapi.yml
+- filename: arcbest-expedite-customer-api-openapi.yml
+  format: yaml
+  label: ArcBest Expedite Customer API
+  slug: arcbest-expedite-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-expedite-customer-api-openapi.yml
+- filename: arcbest-expedite-tms-api-openapi.yml
+  format: yaml
+  label: ArcBest Expedite Third Party TMS API
+  slug: arcbest-expedite-tms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-expedite-tms-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 2
@@ -71,4 +83,10 @@ tags:
 - Supply Chain
 - Shipping
 - Transportation
+- Expedite
+- Truckload
+- EDI
+- Bill of Lading
+- Rate Quote
+- Shipment Tracking
 ---

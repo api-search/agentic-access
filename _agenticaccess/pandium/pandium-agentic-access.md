@@ -34,6 +34,12 @@ api_specs:
   slug: pandium-tenants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-tenants-api-openapi.yml
+- filename: pandium-builds-api-openapi.yml
+  format: yaml
+  label: Pandium Builds API
+  slug: pandium-builds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-builds-api-openapi.yml
 consequence_counts:
   read: 9
   write: 5
@@ -71,4 +77,5 @@ tags:
 - Hub
 - Integration
 - Workflows
+- iPaaS
 ---

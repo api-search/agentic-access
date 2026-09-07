@@ -3,6 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 13
 api_specs:
+- filename: british-columbia-data-catalogue-bcdc-api-openapi.json
+  format: json
+  label: BC Data Catalogue CKAN API
+  slug: ckan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-bcdc-api-openapi.json
 - filename: british-columbia-data-catalogue-datasets-api-openapi.yml
   format: yaml
   label: British Columbia Data Catalogue Datasets API
@@ -77,4 +83,9 @@ tags:
 - Provincial Data
 - CKAN
 - Geospatial
+- OGC
+- WMS
+- WFS
+- Dataset Search
+- Public Sector
 ---

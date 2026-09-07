@@ -106,14 +106,14 @@ name: Dev To Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 42
-overview: 'dev-to exposes 42 API operations that an AI agent could call, of which 15 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Dev To exposes 42 API operations that an AI agent could call, of which 15 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 27 read and 15 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: dev-to
+provider_name: Dev To
 provider_slug: dev-to
 slug: dev-to-agentic-access
 source_filename: dev-to-agentic-access.yml

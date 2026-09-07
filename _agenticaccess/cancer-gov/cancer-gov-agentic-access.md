@@ -4,6 +4,24 @@ action_class_counts:
   acting: 1
   connected: 5
 api_specs:
+- filename: cancer-gov-seer-openapi.yml
+  format: yaml
+  label: NCI SEER API
+  slug: seer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-seer-openapi.yml
+- filename: cancer-gov-modac-openapi.yml
+  format: yaml
+  label: NCI MoDaC API
+  slug: modac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-modac-openapi.yml
+- filename: cancer-gov-evs-openapi.yml
+  format: yaml
+  label: NCI EVS Terminology API
+  slug: evs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-evs-openapi.yml
 - filename: cancer-gov-diseases-api-openapi.yml
   format: yaml
   label: Cancer.gov Diseases API
@@ -28,6 +46,36 @@ api_specs:
   slug: cancer-gov-trials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-trials-api-openapi.yml
+- filename: cancer-gov-glossary-openapi.yml
+  format: yaml
+  label: NCI Glossary Term API
+  slug: glossary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-glossary-openapi.yml
+- filename: cancer-gov-drug-dictionary-openapi.yml
+  format: yaml
+  label: NCI Drug Dictionary API
+  slug: drug-dictionary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-drug-dictionary-openapi.yml
+- filename: cancer-gov-sitewide-search-openapi.yml
+  format: yaml
+  label: Cancer.gov Site-Wide Search API
+  slug: sitewide-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-sitewide-search-openapi.yml
+- filename: cancer-gov-best-bets-openapi.yml
+  format: yaml
+  label: Cancer.gov Best Bets API
+  slug: best-bets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-best-bets-openapi.yml
+- filename: cancer-gov-r4r-openapi.yml
+  format: yaml
+  label: NCI Resources for Researchers API
+  slug: r4r-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/openapi/cancer-gov-r4r-openapi.yml
 consequence_counts:
   read: 5
   write: 1

@@ -159,6 +159,12 @@ api_specs:
   slug: done-website-uptime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-website-uptime-api-openapi.yml
+- filename: done-email-verifier-validator-api-openapi.yml
+  format: yaml
+  label: _done email verifier API
+  slug: done-email-verifier-validator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/openapi/done-email-verifier-validator-api-openapi.yml
 consequence_counts:
   physical: 4
   safety-critical: 1

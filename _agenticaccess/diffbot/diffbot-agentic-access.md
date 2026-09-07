@@ -4,48 +4,60 @@ action_class_counts:
   acting: 1
   connected: 13
 api_specs:
-- filename: diffbot-natural-language-api-openapi.yml
-  format: yaml
+- filename: diffbot-extract-openapi.json
+  format: json
+  label: Diffbot Extract API
+  slug: diffbot-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-extract-openapi.json
+- filename: diffbot-crawl-openapi.json
+  format: json
+  label: Diffbot Crawl API
+  slug: diffbot-crawl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-crawl-openapi.json
+- filename: diffbot-bulk-openapi.json
+  format: json
+  label: Diffbot Bulk Extract API
+  slug: diffbot-bulk-extract-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-bulk-openapi.json
+- filename: diffbot-dql-openapi.json
+  format: json
+  label: Diffbot DQL API
+  slug: diffbot-dql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-dql-openapi.json
+- filename: diffbot-enhance-openapi.json
+  format: json
+  label: Diffbot Enhance API
+  slug: diffbot-enhance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-enhance-openapi.json
+- filename: diffbot-natural-language-openapi.json
+  format: json
   label: Diffbot Natural Language API
   slug: diffbot-natural-language-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-natural-language-api-openapi.yml
-- filename: diffbot-extract-api-openapi.yml
-  format: yaml
-  label: Diffbot Extract API
-  slug: diffbot-extract-api
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-natural-language-openapi.json
+- filename: diffbot-web-search-openapi.json
+  format: json
+  label: Diffbot Web Search API
+  slug: diffbot-web-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-extract-api-openapi.yml
-- filename: diffbot-crawl-api-openapi.yml
-  format: yaml
-  label: Diffbot Crawl API
-  slug: diffbot-crawl-api
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-web-search-openapi.json
+- filename: diffbot-account-openapi.json
+  format: json
+  label: Diffbot Account API
+  slug: diffbot-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-crawl-api-openapi.yml
-- filename: diffbot-crawl-api-openapi.yml
-  format: yaml
-  label: Diffbot Crawl API
-  slug: diffbot-crawl-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-crawl-api-openapi.yml
-- filename: diffbot-extract-api-openapi.yml
-  format: yaml
-  label: Diffbot Extract API
-  slug: diffbot-extract-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-extract-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-account-openapi.json
 - filename: diffbot-knowledge-graph-api-openapi.yml
   format: yaml
   label: Diffbot Knowledge Graph API
   slug: diffbot-knowledge-graph-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-knowledge-graph-api-openapi.yml
-- filename: diffbot-natural-language-api-openapi.yml
-  format: yaml
-  label: Diffbot Natural Language API
-  slug: diffbot-natural-language-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-natural-language-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -87,4 +99,10 @@ tags:
 - Harvesting
 - Scraping
 - Web
+- Knowledge Graph
+- Crawling
+- Web Search
+- Natural Language
+- Entity Resolution
+- AI
 ---

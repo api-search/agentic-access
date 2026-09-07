@@ -229,11 +229,19 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/emory-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/agentic-access/emory-agentic-access.yml
 summary_line: 344 operations · 187 acting · 4 human-in-the-loop
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Private Research University
+- Association of American Universities
+- United States
+- Georgia
+- Atlanta
 - Research
 - Libraries
-- United States
-- Atlanta
+- Research Repository
+- Library Catalog
+- Course Catalog
+- Identity Federation
+- Digital Pathology
 ---

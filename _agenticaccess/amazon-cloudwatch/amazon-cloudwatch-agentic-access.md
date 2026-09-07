@@ -21,6 +21,12 @@ api_specs:
   slug: amazon-cloudwatch-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-metrics-api-openapi.yml
+- filename: aws-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch Amazon CloudWatch API API
+  slug: aws-cloudwatch-amazon-cloudwatch-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/aws-cloudwatch-amazon-cloudwatch-api-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

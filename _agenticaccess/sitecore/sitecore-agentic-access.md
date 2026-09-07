@@ -241,14 +241,14 @@ notable_actions:
   method: POST
   path: /v2.1/guests/{guestRef}/orders/{orderRef}/items
 operation_count: 107
-overview: 'sitecore exposes 107 API operations that an AI agent could call, of which 64 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Sitecore exposes 107 API operations that an AI agent could call, of which 64 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 43 read, 54 write, and 10 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: sitecore
+provider_name: Sitecore
 provider_slug: sitecore
 slug: sitecore-agentic-access
 source_filename: sitecore-agentic-access.yml

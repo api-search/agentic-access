@@ -32,14 +32,14 @@ name: Pg And E Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 5
-overview: 'pg-and-e exposes 5 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Pg And E exposes 5 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 5 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: pg-and-e
+provider_name: Pg And E
 provider_slug: pg-and-e
 slug: pg-and-e-agentic-access
 source_filename: pg-and-e-agentic-access.yml

@@ -39,6 +39,18 @@ api_specs:
   slug: fiscaldata-securities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/fiscaldata-securities-api-openapi.yml
+- filename: u-s-treasury-fiscal-data-national-debt-api-openapi.yml
+  format: yaml
+  label: U.S. Treasury Fiscal Data National Debt API
+  slug: u-s-treasury-fiscal-data-national-debt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/u-s-treasury-fiscal-data-national-debt-api-openapi.yml
+- filename: u-s-treasury-fiscal-data-treasury-statements-api-openapi.yml
+  format: yaml
+  label: U.S. Treasury Fiscal Data Treasury Statements API
+  slug: u-s-treasury-fiscal-data-treasury-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/openapi/u-s-treasury-fiscal-data-treasury-statements-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
