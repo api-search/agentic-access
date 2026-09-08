@@ -69,4 +69,12 @@ tags:
 - Health Insurance
 - FHIR
 - Interoperability
+- CMS Interoperability
+- SMART on FHIR
+- Da Vinci PDEX
+- CARIN Blue Button
+- Payer
+- Provider Directory
+- Formulary
+- HL7
 ---

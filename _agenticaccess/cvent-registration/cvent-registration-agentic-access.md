@@ -46,6 +46,66 @@ api_specs:
   slug: cvent-registration-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-webhooks-api-openapi.yml
+- filename: cvent-registration-orders-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Orders and Transactions API
+  slug: cvent-registration-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-orders-api-openapi.yml
+- filename: cvent-registration-surveys-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Surveys API
+  slug: cvent-registration-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-surveys-api-openapi.yml
+- filename: cvent-registration-speakers-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Speakers API
+  slug: cvent-registration-speakers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-speakers-api-openapi.yml
+- filename: cvent-registration-seating-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Seating and Badging API
+  slug: cvent-registration-seating-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-seating-api-openapi.yml
+- filename: cvent-registration-discounts-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Discounts API
+  slug: cvent-registration-discounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-discounts-api-openapi.yml
+- filename: cvent-registration-custom-fields-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Custom Fields API
+  slug: cvent-registration-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-custom-fields-api-openapi.yml
+- filename: cvent-registration-event-travel-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Event Travel API
+  slug: cvent-registration-event-travel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-event-travel-api-openapi.yml
+- filename: cvent-registration-attendee-activities-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Attendee Activities API
+  slug: cvent-registration-attendee-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-attendee-activities-api-openapi.yml
+- filename: cvent-registration-scim-api-openapi.yml
+  format: yaml
+  label: Cvent Registration SCIM User Provisioning API
+  slug: cvent-registration-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-scim-api-openapi.yml
+- filename: cvent-registration-usage-api-openapi.yml
+  format: yaml
+  label: Cvent Registration Usage and Quota API
+  slug: cvent-registration-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-usage-api-openapi.yml
 consequence_counts:
   read: 9
   write: 11
@@ -90,6 +150,9 @@ tags:
 - Payments
 - Registration
 - REST API
+- SCIM
+- SDKs
+- SOAP
 - Ticketing
 - Webhook
 ---

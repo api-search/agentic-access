@@ -56,4 +56,10 @@ tags:
 - Mapping
 - Location
 - Spatial Analysis
+- Geocoding
+- Routing
+- Places
+- OGC
+- GraphQL
+- MCP
 ---
