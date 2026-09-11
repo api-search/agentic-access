@@ -144,4 +144,8 @@ tags:
 - Functions
 - WebAssembly
 - Serverless
+- Edge Computing
+- Serverless Functions
+- Spin
+- Developer Tools
 ---

@@ -97,4 +97,9 @@ tags:
 - Automobiles
 - Cars
 - Vehicles
+- Connected Vehicle
+- Automotive
+- Telematics
+- Electric Vehicles
+- Fleet
 ---

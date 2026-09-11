@@ -3,6 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 35
 api_specs:
+- filename: foreign-agricultural-service-fas-open-data-swagger.json
+  format: json
+  label: USDA FAS Open Data API
+  slug: fas-open-data
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/openapi/_original/foreign-agricultural-service-fas-open-data-swagger.json
 - filename: foreign-agricultural-service-esr-api-openapi.yml
   format: yaml
   label: Foreign Agricultural Service ESR API
@@ -59,4 +65,9 @@ summary_line: 35 operations
 tags:
 - Agriculture
 - Federal-Government
+- Trade
+- Open-Data
+- Commodities
+- Exports
+- Government
 ---

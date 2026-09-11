@@ -52,8 +52,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/first-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/agentic-access/first-street-agentic-access.yml
 summary_line: 3 operations · 2 acting
 tags:
+- Climate
+- Risk
 - Environment
 - Modeling
-- Risk
-- Climate
+- Geospatial
+- Insurance
+- Real Estate
+- Data
+- GraphQL
+- Mapping
 ---

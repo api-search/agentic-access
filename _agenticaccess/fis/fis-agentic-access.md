@@ -34,6 +34,12 @@ api_specs:
   slug: fis-wire-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/openapi/fis-wire-transfers-api-openapi.yml
+- filename: fis-accounting-data-as-a-service-openapi.json
+  format: json
+  label: FIS Accounting Data as a Service
+  slug: fis-accounting-data-as-a-service
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/openapi/_original/fis-accounting-data-as-a-service-openapi.json
 consequence_counts:
   physical: 4
   read: 3
