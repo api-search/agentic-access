@@ -112,7 +112,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/proces
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/agentic-access/processmaker-agentic-access.yml
 summary_line: 64 operations · 38 acting
 tags:
-- BPM
 - Business Process Management
 - Workflow-Automation
 - BPMN 2.0

@@ -493,4 +493,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft/refs
 summary_line: 178 operations · 88 acting
 tags:
 - Fortune 100
+- Microsoft
 ---

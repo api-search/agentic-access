@@ -4,48 +4,18 @@ action_class_counts:
   acting: 50
   connected: 32
 api_specs:
-- filename: dify-service-api-openapi.json
-  format: json
-  label: Dify
-  slug: dify
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/_original/dify-service-api-openapi.json
-- filename: dify-chat-api-openapi.yml
-  format: yaml
-  label: Dify Chat Messages API
-  slug: dify-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-chat-api-openapi.yml
-- filename: dify-completion-api-openapi.yml
-  format: yaml
-  label: Dify Completion Messages API
-  slug: dify-completion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-completion-api-openapi.yml
 - filename: dify-conversations-api-openapi.yml
   format: yaml
   label: Dify Conversations API
   slug: dify-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-conversations-api-openapi.yml
-- filename: dify-datasets-api-openapi.yml
-  format: yaml
-  label: Dify Knowledge Bases API
-  slug: dify-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-datasets-api-openapi.yml
 - filename: dify-files-api-openapi.yml
   format: yaml
   label: Dify Files API
   slug: dify-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-files-api-openapi.yml
-- filename: dify-workflows-api-openapi.yml
-  format: yaml
-  label: Dify Workflow Runs API
-  slug: dify-workflows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-workflows-api-openapi.yml
 - filename: dify-applications-api-openapi.yml
   format: yaml
   label: Dify Applications API
@@ -118,6 +88,30 @@ api_specs:
   slug: dify-knowledge-pipeline-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-knowledge-pipeline-api-openapi.yml
+- filename: dify-chat-messages-api-openapi.yml
+  format: yaml
+  label: Dify Chat Messages API
+  slug: dify-chat-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-chat-messages-api-openapi.yml
+- filename: dify-completion-messages-api-openapi.yml
+  format: yaml
+  label: Dify Completion Messages API
+  slug: dify-completion-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-completion-messages-api-openapi.yml
+- filename: dify-knowledge-bases-api-openapi.yml
+  format: yaml
+  label: Dify Knowledge Bases API
+  slug: dify-knowledge-bases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-knowledge-bases-api-openapi.yml
+- filename: dify-workflow-runs-api-openapi.yml
+  format: yaml
+  label: Dify Workflow Runs API
+  slug: dify-workflow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/openapi/dify-workflow-runs-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 32
@@ -209,9 +203,9 @@ tags:
 - Backend-as-a-Service
 - Agents
 - Workflows
-- Knowledge Management
+- Knowledge-Management
 - RAG
-- Model Context Protocol
-- Low Code
-- Open Source
+- MCP
+- Low-Code
+- Open-Source
 ---

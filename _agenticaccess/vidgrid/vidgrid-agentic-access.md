@@ -85,5 +85,5 @@ tags:
 - Video Hosting
 - Webhook
 - Training
-- HR
+- Human Resources
 ---

@@ -60,7 +60,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evisort/refs/h
 summary_line: 5 operations · 3 acting
 tags:
 - Contract Lifecycle Management
-- CLM
 - Contract Intelligence
 - Document AI
 - Legal Tech

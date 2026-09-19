@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: develop-health-public-api-api-openapi.yml
   format: yaml
-  label: Develop Health public-api API
+  label: Develop Health public-api
   slug: develop-health-public-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/openapi/develop-health-public-api-api-openapi.yml

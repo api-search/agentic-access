@@ -4,12 +4,6 @@ action_class_counts:
   acting: 13
   connected: 14
 api_specs:
-- filename: dyte-livestreams-api-openapi.yml
-  format: yaml
-  label: Dyte Livestreams API
-  slug: dyte-livestreams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-livestreams-api-openapi.yml
 - filename: dyte-meetings-api-openapi.yml
   format: yaml
   label: Dyte Meetings API
@@ -40,6 +34,12 @@ api_specs:
   slug: dyte-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-webhooks-api-openapi.yml
+- filename: dyte-live-streams-api-openapi.yml
+  format: yaml
+  label: Dyte Live Streams API
+  slug: dyte-live-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/openapi/dyte-live-streams-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 2

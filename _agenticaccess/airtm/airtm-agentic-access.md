@@ -10,12 +10,6 @@ api_specs:
   slug: airtm-account-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-account-status-api-openapi.yml
-- filename: airtm-apikeys-api-openapi.yml
-  format: yaml
-  label: Airtm API Keys API
-  slug: airtm-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-apikeys-api-openapi.yml
 - filename: airtm-bulk-payments-api-openapi.yml
   format: yaml
   label: Airtm Bulk Payments API
@@ -142,6 +136,12 @@ api_specs:
   slug: airtm-withdrawals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-withdrawals-api-openapi.yml
+- filename: airtm-api-keys-api-openapi.yml
+  format: yaml
+  label: Airtm API Keys API
+  slug: airtm-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/openapi/airtm-api-keys-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 41

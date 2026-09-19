@@ -51,4 +51,5 @@ tags:
 - Multi-Tenancy
 - OpenID Connect
 - SAML
+- Identity Federation
 ---

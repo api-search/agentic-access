@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: alpha-vantage-stock-time-series-api-openapi.yml
-  format: yaml
-  label: Alpha Vantage Stock Time Series API
-  slug: alpha-vantage-stock-time-series-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/openapi/alpha-vantage-stock-time-series-api-openapi.yml
 - filename: alpha-vantage-query-api-openapi.yml
   format: yaml
   label: Alpha Vantage Query API

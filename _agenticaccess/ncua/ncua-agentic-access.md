@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ncua/refs/head
 summary_line: 2 operations · 1 acting
 tags:
 - Federal-Government
-- Credit Unions
+- Credit Union
 - Financial Data
 - Call Reports
 - Banking

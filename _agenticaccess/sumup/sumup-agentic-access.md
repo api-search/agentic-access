@@ -153,7 +153,7 @@ summary_line: 39 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Payments
 - Point-of-Sale
-- Card Readers
+- Card Reader
 - Checkout
 - Fintech
 - Mobile Payments

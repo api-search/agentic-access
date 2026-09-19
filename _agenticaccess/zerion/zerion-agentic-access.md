@@ -28,12 +28,6 @@ api_specs:
   slug: zerion-gas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-gas-api-openapi.yml
-- filename: zerion-nfts-api-openapi.yml
-  format: yaml
-  label: Zerion nfts API
-  slug: zerion-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-nfts-api-openapi.yml
 - filename: zerion-subscriptions-to-transactions-api-openapi.yml
   format: yaml
   label: Zerion subscriptions to transactions API
@@ -58,6 +52,12 @@ api_specs:
   slug: zerion-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-wallets-api-openapi.yml
+- filename: zerion-nfts-api-openapi.yml
+  format: yaml
+  label: Zerion Nfts API
+  slug: zerion-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/openapi/zerion-nfts-api-openapi.yml
 consequence_counts:
   read: 31
   safety-critical: 1

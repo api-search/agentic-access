@@ -155,7 +155,7 @@ tags:
 - Brokerage
 - Trading
 - Finance
-- Equities
+- Stocks
 - Options
 - Market Data
 - Streaming

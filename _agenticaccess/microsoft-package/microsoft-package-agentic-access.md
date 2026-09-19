@@ -21,12 +21,12 @@ api_specs:
   slug: microsoft-package-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-search-api-openapi.yml
-- filename: microsoft-package-serviceindex-api-openapi.yml
+- filename: microsoft-package-service-index-api-openapi.yml
   format: yaml
-  label: Microsoft Package ServiceIndex API
-  slug: microsoft-package-serviceindex-api
+  label: Microsoft Package Service Index API
+  slug: microsoft-package-service-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-serviceindex-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-service-index-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -57,6 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-pack
 summary_line: 5 operations
 tags:
 - Azure Artifacts
+- Developer Tools
 - Microsoft
 - NuGet
 - Package Management

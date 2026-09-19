@@ -226,12 +226,6 @@ api_specs:
   slug: outreach-role-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-role-api-openapi.yml
-- filename: outreach-ruleset-api-openapi.yml
-  format: yaml
-  label: Outreach Ruleset API
-  slug: outreach-ruleset-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-ruleset-api-openapi.yml
 - filename: outreach-sequence-api-openapi.yml
   format: yaml
   label: Outreach Sequence API
@@ -316,6 +310,12 @@ api_specs:
   slug: outreach-webhook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-webhook-api-openapi.yml
+- filename: outreach-rule-set-api-openapi.yml
+  format: yaml
+  label: Outreach Rule Set API
+  slug: outreach-rule-set-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/openapi/outreach-rule-set-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 93
@@ -430,4 +430,5 @@ tags:
 - Prospecting
 - Agents
 - MCP
+- Outreach
 ---

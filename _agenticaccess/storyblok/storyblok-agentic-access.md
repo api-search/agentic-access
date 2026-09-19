@@ -28,12 +28,6 @@ api_specs:
   slug: storyblok-components-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-components-api-openapi.yml
-- filename: storyblok-datasources-api-openapi.yml
-  format: yaml
-  label: Storyblok Datasources API
-  slug: storyblok-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-datasources-api-openapi.yml
 - filename: storyblok-image-transformation-api-openapi.yml
   format: yaml
   label: Storyblok Image Transformation API
@@ -70,6 +64,12 @@ api_specs:
   slug: storyblok-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-webhooks-api-openapi.yml
+- filename: storyblok-data-sources-api-openapi.yml
+  format: yaml
+  label: Storyblok Data Sources API
+  slug: storyblok-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/openapi/storyblok-data-sources-api-openapi.yml
 consequence_counts:
   read: 24
   write: 14

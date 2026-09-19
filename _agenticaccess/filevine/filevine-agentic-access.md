@@ -52,12 +52,12 @@ api_specs:
   slug: filevine-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-webhooks-api-openapi.yml
-- filename: filevine-timeentries-api-openapi.yml
+- filename: filevine-time-entries-api-openapi.yml
   format: yaml
-  label: Filevine TimeEntries API
-  slug: filevine-timeentries-api
+  label: Filevine Time Entries API
+  slug: filevine-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-timeentries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-time-entries-api-openapi.yml
 consequence_counts:
   read: 11
   write: 14
@@ -97,7 +97,7 @@ summary_line: 25 operations · 14 acting
 tags:
 - Legal
 - Case Management
-- Matters
+- Matter
 - Intake
 - Documents
 - LOIS

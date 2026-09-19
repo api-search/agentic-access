@@ -16,12 +16,6 @@ api_specs:
   slug: openbmc-chassis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-chassis-api-openapi.yml
-- filename: openbmc-eventservice-api-openapi.yml
-  format: yaml
-  label: OpenBMC EventService API
-  slug: openbmc-eventservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-eventservice-api-openapi.yml
 - filename: openbmc-managers-api-openapi.yml
   format: yaml
   label: OpenBMC Managers API
@@ -30,7 +24,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-managers-api-openapi.yml
 - filename: openbmc-openbmc-redfish-api-api-openapi.yml
   format: yaml
-  label: OpenBMC OpenBMC Redfish API API
+  label: OpenBMC Redfish API
   slug: openbmc-openbmc-redfish-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-openbmc-redfish-api-api-openapi.yml
@@ -46,12 +40,18 @@ api_specs:
   slug: openbmc-systems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-systems-api-openapi.yml
-- filename: openbmc-updateservice-api-openapi.yml
+- filename: openbmc-event-service-api-openapi.yml
   format: yaml
-  label: OpenBMC UpdateService API
-  slug: openbmc-updateservice-api
+  label: OpenBMC Event Service API
+  slug: openbmc-event-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-updateservice-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-event-service-api-openapi.yml
+- filename: openbmc-update-service-api-openapi.yml
+  format: yaml
+  label: OpenBMC Update Service API
+  slug: openbmc-update-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-update-service-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 3
@@ -107,5 +107,5 @@ tags:
 - Firmware
 - Hardware
 - Linux Foundation
-- Server
+- Servers
 ---

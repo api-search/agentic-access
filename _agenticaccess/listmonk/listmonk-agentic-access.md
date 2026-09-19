@@ -160,7 +160,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/
 summary_line: 53 operations · 34 acting · 1 human-in-the-loop
 tags:
 - Email
-- Newsletter
+- Newsletters
 - Mailing List
 - Marketing
 - Transactional Email

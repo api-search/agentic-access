@@ -58,12 +58,6 @@ api_specs:
   slug: cloudflare-databases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-databases-api-openapi.yml
-- filename: cloudflare-datasets-api-openapi.yml
-  format: yaml
-  label: Cloudflare Datasets API
-  slug: cloudflare-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-datasets-api-openapi.yml
 - filename: cloudflare-deployments-api-openapi.yml
   format: yaml
   label: Cloudflare Deployments API
@@ -142,12 +136,6 @@ api_specs:
   slug: cloudflare-indexes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-indexes-api-openapi.yml
-- filename: cloudflare-ips-api-openapi.yml
-  format: yaml
-  label: Cloudflare Ips API
-  slug: cloudflare-ips-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-ips-api-openapi.yml
 - filename: cloudflare-key-value-pairs-api-openapi.yml
   format: yaml
   label: Cloudflare Key-Value Pairs API
@@ -166,12 +154,6 @@ api_specs:
   slug: cloudflare-live-inputs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-live-inputs-api-openapi.yml
-- filename: cloudflare-logpush-jobs-api-openapi.yml
-  format: yaml
-  label: Cloudflare Logpush Jobs API
-  slug: cloudflare-logpush-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-logpush-jobs-api-openapi.yml
 - filename: cloudflare-logs-api-openapi.yml
   format: yaml
   label: Cloudflare Logs API
@@ -220,18 +202,6 @@ api_specs:
   slug: cloudflare-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-organizations-api-openapi.yml
-- filename: cloudflare-ownership-api-openapi.yml
-  format: yaml
-  label: Cloudflare Ownership API
-  slug: cloudflare-ownership-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-ownership-api-openapi.yml
-- filename: cloudflare-projects-api-openapi.yml
-  format: yaml
-  label: Cloudflare Projects API
-  slug: cloudflare-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-projects-api-openapi.yml
 - filename: cloudflare-purge-api-openapi.yml
   format: yaml
   label: Cloudflare Purge API
@@ -346,6 +316,12 @@ api_specs:
   slug: cloudflare-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-zones-api-openapi.yml
+- filename: cloudflare-ips-api-openapi.yml
+  format: yaml
+  label: Cloudflare Ips API
+  slug: cloudflare-ips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/openapi/cloudflare-ips-api-openapi.yml
 consequence_counts:
   physical: 48
   read: 1542
@@ -554,4 +530,5 @@ tags:
 - Security
 - Serverless
 - Web Performance
+- Cloudflare
 ---

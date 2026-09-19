@@ -58,7 +58,7 @@ tags:
 - Identity Management
 - Open Standard
 - Security
-- Single Sign-On
 - SSO
 - XML
+- Identity Federation
 ---

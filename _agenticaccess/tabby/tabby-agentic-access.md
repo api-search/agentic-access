@@ -90,7 +90,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tabby-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/agentic-access/tabby-agentic-access.yml
 summary_line: 19 operations · 12 acting
 tags:
-- BNPL
 - Buy Now Pay Later
 - Consumer Finance
 - E-Commerce
@@ -99,5 +98,5 @@ tags:
 - MENA
 - Payments
 - Saudi Arabia
-- UAE
+- United Arab Emirates
 ---

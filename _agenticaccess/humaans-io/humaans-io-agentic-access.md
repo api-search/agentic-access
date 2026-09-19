@@ -141,9 +141,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/humaan
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/agentic-access/humaans-io-agentic-access.yml
 summary_line: 63 operations · 31 acting
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - People Operations
 - People Analytics
 - Onboarding
@@ -154,6 +153,6 @@ tags:
 - Workflow-Automation
 - AI Companion
 - Agentic AI
-- UK
+- United Kingdom
 - London
 ---

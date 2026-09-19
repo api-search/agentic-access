@@ -34,12 +34,6 @@ api_specs:
   slug: creed-azure-tts-test-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-azure-tts-test-api-openapi.yml
-- filename: creed-b2b-api-openapi.yml
-  format: yaml
-  label: Creed b2b API
-  slug: creed-b2b-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-b2b-api-openapi.yml
 - filename: creed-bible-progress-api-openapi.yml
   format: yaml
   label: Creed bible-progress API
@@ -298,6 +292,12 @@ api_specs:
   slug: creed-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-webhooks-api-openapi.yml
+- filename: creed-b2-b-api-openapi.yml
+  format: yaml
+  label: Creed B2 B API
+  slug: creed-b2-b-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-b2-b-api-openapi.yml
 consequence_counts:
   physical: 20
   read: 84

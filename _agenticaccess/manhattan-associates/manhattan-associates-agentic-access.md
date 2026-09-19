@@ -115,5 +115,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/manhat
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/agentic-access/manhattan-associates-agentic-access.yml
 summary_line: 17 operations · 10 acting
-tags: []
+tags:
+- Logistics
+- Supply Chain
+- Platform
+- Software-as-a-Service
+- Transportation
 ---

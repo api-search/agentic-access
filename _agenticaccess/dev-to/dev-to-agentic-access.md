@@ -22,18 +22,6 @@ api_specs:
   slug: dev-to-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-comments-api-openapi.yml
-- filename: dev-to-displayads-api-openapi.yml
-  format: yaml
-  label: dev-to DisplayAds API
-  slug: dev-to-displayads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-displayads-api-openapi.yml
-- filename: dev-to-followedtags-api-openapi.yml
-  format: yaml
-  label: dev-to FollowedTags API
-  slug: dev-to-followedtags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-followedtags-api-openapi.yml
 - filename: dev-to-followers-api-openapi.yml
   format: yaml
   label: dev-to Followers API
@@ -52,30 +40,12 @@ api_specs:
   slug: dev-to-pages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-pages-api-openapi.yml
-- filename: dev-to-podcastepisodes-api-openapi.yml
-  format: yaml
-  label: dev-to PodcastEpisodes API
-  slug: dev-to-podcastepisodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-podcastepisodes-api-openapi.yml
-- filename: dev-to-profileimages-api-openapi.yml
-  format: yaml
-  label: dev-to ProfileImages API
-  slug: dev-to-profileimages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-profileimages-api-openapi.yml
 - filename: dev-to-reactions-api-openapi.yml
   format: yaml
   label: dev-to Reactions API
   slug: dev-to-reactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-reactions-api-openapi.yml
-- filename: dev-to-readinglist-api-openapi.yml
-  format: yaml
-  label: dev-to ReadingList API
-  slug: dev-to-readinglist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-readinglist-api-openapi.yml
 - filename: dev-to-tags-api-openapi.yml
   format: yaml
   label: dev-to Tags API
@@ -94,6 +64,36 @@ api_specs:
   slug: dev-to-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-webhooks-api-openapi.yml
+- filename: dev-to-display-ads-api-openapi.yml
+  format: yaml
+  label: Dev To Display Ads API
+  slug: dev-to-display-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-display-ads-api-openapi.yml
+- filename: dev-to-followed-tags-api-openapi.yml
+  format: yaml
+  label: Dev To Followed Tags API
+  slug: dev-to-followed-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-followed-tags-api-openapi.yml
+- filename: dev-to-podcast-episodes-api-openapi.yml
+  format: yaml
+  label: Dev To Podcast Episodes API
+  slug: dev-to-podcast-episodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-podcast-episodes-api-openapi.yml
+- filename: dev-to-profile-images-api-openapi.yml
+  format: yaml
+  label: Dev To profile images API
+  slug: dev-to-profile-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-profile-images-api-openapi.yml
+- filename: dev-to-reading-list-api-openapi.yml
+  format: yaml
+  label: Dev To Reading List API
+  slug: dev-to-reading-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/openapi/dev-to-reading-list-api-openapi.yml
 consequence_counts:
   read: 27
   write: 15
@@ -133,5 +133,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dev-to
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhookById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/agentic-access/dev-to-agentic-access.yml
 summary_line: 42 operations · 15 acting
-tags: []
+tags:
+- Developer Community
+- Content
+- Publishing
+- Social
+- Blogging
+- Open-Source
+- Articles
+- Webhook
 ---

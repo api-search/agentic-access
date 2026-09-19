@@ -33,12 +33,6 @@ api_specs:
   slug: envisics-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-discovery-api-openapi.yml
-- filename: envisics-oembed-api-openapi.yml
-  format: yaml
-  label: Envisics oEmbed API
-  slug: envisics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-oembed-api-openapi.yml
 - filename: envisics-seo-api-openapi.yml
   format: yaml
   label: Envisics SEO Metadata API
@@ -63,6 +57,12 @@ api_specs:
   slug: envisics-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-users-api-openapi.yml
+- filename: envisics-o-embed-api-openapi.yml
+  format: yaml
+  label: Envisics o Embed API
+  slug: envisics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/openapi/envisics-o-embed-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

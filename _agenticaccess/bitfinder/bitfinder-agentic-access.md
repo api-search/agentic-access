@@ -52,7 +52,6 @@ summary_line: 6 operations
 tags:
 - Company
 - Air Quality
-- Internet of Things
 - IoT
 - Environmental Monitoring
 - Smart Home

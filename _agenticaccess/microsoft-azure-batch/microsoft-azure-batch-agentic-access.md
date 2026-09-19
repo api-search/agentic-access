@@ -4,6 +4,18 @@ action_class_counts:
   acting: 4
   connected: 4
 api_specs:
+- filename: microsoft-azure-batch-batch-service-openapi.json
+  format: json
+  label: Azure Batch Service API
+  slug: microsoft-azure-batch-batch-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/_original/microsoft-azure-batch-batch-service-openapi.json
+- filename: microsoft-azure-batch-management-openapi.json
+  format: json
+  label: Azure Batch Management API
+  slug: microsoft-azure-batch-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/_original/microsoft-azure-batch-management-openapi.json
 - filename: microsoft-azure-batch-jobs-api-openapi.yml
   format: yaml
   label: microsoft-azure-batch Jobs API
@@ -53,5 +65,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ scope:\n    - user_impersonation\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/agentic-access/microsoft-azure-batch-agentic-access.yml
 summary_line: 8 operations · 4 acting
-tags: []
+tags:
+- Batch
+- Compute
+- Job Scheduling
+- High Performance Computing
+- Cloud
+- Microsoft
+- Azure
+- Parallel Processing
+- Scheduling
+- Infrastructure
 ---

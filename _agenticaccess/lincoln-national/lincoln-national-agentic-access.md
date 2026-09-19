@@ -55,7 +55,7 @@ tags:
 - Annuities
 - Benefits
 - Enrollment
-- HR
+- Human Resources
 - Insurance
 - Retirement
 - Fortune 500

@@ -53,6 +53,6 @@ tags:
 - Astronauts
 - Real-Time
 - Open-Source
-- Public API
+- Public APIs
 - Free
 ---

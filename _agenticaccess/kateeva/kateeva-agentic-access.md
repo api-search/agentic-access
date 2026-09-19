@@ -39,18 +39,18 @@ api_specs:
   slug: kateeva-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-discovery-api-openapi.yml
-- filename: kateeva-oembed-api-openapi.yml
-  format: yaml
-  label: Kateeva oEmbed API
-  slug: kateeva-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-oembed-api-openapi.yml
 - filename: kateeva-seo-api-openapi.yml
   format: yaml
   label: Kateeva SEO Metadata API
   slug: kateeva-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-seo-api-openapi.yml
+- filename: kateeva-o-embed-api-openapi.yml
+  format: yaml
+  label: Kateeva o Embed API
+  slug: kateeva-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-o-embed-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified from the OpenAPI. Every operation on this surface is an anonymous read, so every contract is action-class connected / consequence read with no human-in-the-loop requirement and no audit obligation. A governance starting point for exposing this API to AI agents — review and bind audience per deployment.

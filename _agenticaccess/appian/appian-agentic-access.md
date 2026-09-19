@@ -82,7 +82,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appian/refs/he
 summary_line: 6 operations · 2 acting
 tags:
 - Automation
-- BPM
 - Business Process Management
 - Enterprise Software
 - Low-Code

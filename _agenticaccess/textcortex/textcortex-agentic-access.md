@@ -61,7 +61,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Text Generation
-- Large Language Models
+- LLM
 - Chat Completions
 - OpenAI-Compatible
 - Content Generation

@@ -625,7 +625,7 @@ tags:
 - Order Management
 - Fulfillment
 - Logistics
-- Marketplaces
+- Marketplace
 - Storefront
 - Catalog
 - Shipping

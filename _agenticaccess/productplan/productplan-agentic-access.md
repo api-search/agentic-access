@@ -102,7 +102,7 @@ summary_line: 64 operations · 32 acting
 tags:
 - Roadmapping
 - Product Management
-- OKR
+- OKRs
 - Roadmaps
 - Features
 - Product Strategy

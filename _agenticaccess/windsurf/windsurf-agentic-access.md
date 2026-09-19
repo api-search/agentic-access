@@ -27,30 +27,12 @@ api_specs:
   slug: windsurf-usageconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-usageconfiguration-api-openapi.yml
-- filename: windsurf-useranalytics-api-openapi.yml
+- filename: windsurf-user-analytics-api-openapi.yml
   format: yaml
-  label: Windsurf UserAnalytics API
-  slug: windsurf-useranalytics-api
+  label: Windsurf User Analytics API
+  slug: windsurf-user-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-useranalytics-api-openapi.yml
-- filename: windsurfrules-analytics-api-openapi.yml
-  format: yaml
-  label: Windsurf analytics API
-  slug: windsurfrules-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-analytics-api-openapi.yml
-- filename: windsurfrules-billing-api-openapi.yml
-  format: yaml
-  label: Windsurf billing API
-  slug: windsurfrules-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-billing-api-openapi.yml
-- filename: windsurfrules-teams-api-openapi.yml
-  format: yaml
-  label: Windsurf teams API
-  slug: windsurfrules-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurfrules-teams-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-user-analytics-api-openapi.yml
 consequence_counts:
   write: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

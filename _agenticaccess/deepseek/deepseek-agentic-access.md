@@ -60,9 +60,8 @@ summary_line: 4 operations · 2 acting
 tags:
 - Artificial Intelligence
 - Chat
-- Chat Completion
+- Chat Completions
 - LLM
-- Large Language Models
 - Reasoning
 - Code Completion
 ---

@@ -114,7 +114,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trakst
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/agentic-access/trakstar-agentic-access.yml
 summary_line: 34 operations · 12 acting
 tags:
-- HR
 - Human Resources
 - Performance Management
 - Talent Management

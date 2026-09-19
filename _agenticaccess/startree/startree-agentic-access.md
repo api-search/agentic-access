@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: startree-query-api-api-openapi.yml
   format: yaml
-  label: StarTree Query API API
+  label: StarTree Query API
   slug: startree-query-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/openapi/startree-query-api-api-openapi.yml

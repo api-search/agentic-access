@@ -246,7 +246,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-widgets-api-openapi.yml
 - filename: workos-workos-connect-api-openapi.yml
   format: yaml
-  label: WorkOS workos-connect API
+  label: WorkOS-connect API
   slug: workos-workos-connect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-workos-connect-api-openapi.yml
@@ -454,4 +454,5 @@ tags:
 - B2B SaaS
 - Agents
 - MCP
+- Identity Federation
 ---

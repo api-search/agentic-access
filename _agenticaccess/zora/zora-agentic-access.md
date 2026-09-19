@@ -4,12 +4,6 @@ action_class_counts:
   acting: 3
   connected: 25
 api_specs:
-- filename: zora-apikey-api-openapi.yml
-  format: yaml
-  label: Zora ApiKey API
-  slug: zora-apikey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zora/refs/heads/main/openapi/zora-apikey-api-openapi.yml
 - filename: zora-coin-api-openapi.yml
   format: yaml
   label: Zora Coin API
@@ -172,6 +166,12 @@ api_specs:
   slug: zora-wallettradeactivity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zora/refs/heads/main/openapi/zora-wallettradeactivity-api-openapi.yml
+- filename: zora-api-key-api-openapi.yml
+  format: yaml
+  label: Zora API Key API
+  slug: zora-api-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zora/refs/heads/main/openapi/zora-api-key-api-openapi.yml
 consequence_counts:
   read: 25
   write: 3

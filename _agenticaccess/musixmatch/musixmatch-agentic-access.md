@@ -72,5 +72,5 @@ summary_line: 16 operations
 tags:
 - Lyrics
 - Music
-- Translations
+- Translation
 ---

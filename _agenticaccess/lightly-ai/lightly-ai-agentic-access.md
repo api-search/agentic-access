@@ -10,12 +10,6 @@ api_specs:
   slug: lightly-ai-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-datasets-api-openapi.yml
-- filename: lightly-ai-datasources-api-openapi.yml
-  format: yaml
-  label: Lightly Datasources API
-  slug: lightly-ai-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-datasources-api-openapi.yml
 - filename: lightly-ai-embeddings-api-openapi.yml
   format: yaml
   label: Lightly Embeddings API
@@ -46,6 +40,12 @@ api_specs:
   slug: lightly-ai-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-tags-api-openapi.yml
+- filename: lightly-ai-data-sources-api-openapi.yml
+  format: yaml
+  label: Lightly Data Sources API
+  slug: lightly-ai-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/openapi/lightly-ai-data-sources-api-openapi.yml
 consequence_counts:
   read: 20
   write: 11

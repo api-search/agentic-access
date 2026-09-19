@@ -52,12 +52,6 @@ api_specs:
   slug: magic-moment-fetch-sfdc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-fetch-sfdc-api-openapi.yml
-- filename: magic-moment-healthcheck-api-openapi.yml
-  format: yaml
-  label: Magic Moment Healthcheck API
-  slug: magic-moment-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-healthcheck-api-openapi.yml
 - filename: magic-moment-mail-api-openapi.yml
   format: yaml
   label: Magic Moment Mail API
@@ -76,12 +70,6 @@ api_specs:
   slug: magic-moment-microsoft365-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-microsoft365-api-openapi.yml
-- filename: magic-moment-oauth2-api-openapi.yml
-  format: yaml
-  label: Magic Moment Oauth2 API
-  slug: magic-moment-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-oauth2-api-openapi.yml
 - filename: magic-moment-performance-api-openapi.yml
   format: yaml
   label: Magic Moment Performance API
@@ -148,6 +136,18 @@ api_specs:
   slug: magic-moment-zoom-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-zoom-api-openapi.yml
+- filename: magic-moment-oauth2-api-openapi.yml
+  format: yaml
+  label: Magic Moment Oauth2 API
+  slug: magic-moment-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-oauth2-api-openapi.yml
+- filename: magic-moment-health-check-api-openapi.yml
+  format: yaml
+  label: Magic Moment Health Check API
+  slug: magic-moment-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/openapi/magic-moment-health-check-api-openapi.yml
 consequence_counts:
   read: 60
   write: 51

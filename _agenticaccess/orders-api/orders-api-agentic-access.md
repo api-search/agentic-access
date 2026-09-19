@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: orders-api-orders-api-openapi.yml
   format: yaml
-  label: Orders Orders API
+  label: Orders API
   slug: orders-api-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orders-api/refs/heads/main/openapi/orders-api-orders-api-openapi.yml

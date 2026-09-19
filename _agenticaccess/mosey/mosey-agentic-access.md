@@ -128,6 +128,6 @@ tags:
 - State Compliance
 - Tax
 - Payroll
-- HR
+- Human Resources
 - Business Operations
 ---

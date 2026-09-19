@@ -59,5 +59,5 @@ tags:
 - Passports
 - Travel
 - Travel Advisories
-- Visas
+- Visa
 ---

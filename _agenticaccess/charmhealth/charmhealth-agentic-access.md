@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 15
 api_specs:
-- filename: charmhealth-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: CharmHealth AllergyIntolerance API
-  slug: charmhealth-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-allergyintolerance-api-openapi.yml
 - filename: charmhealth-appointment-api-openapi.yml
   format: yaml
   label: CharmHealth Appointment API
@@ -21,12 +15,6 @@ api_specs:
   slug: charmhealth-capability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-capability-api-openapi.yml
-- filename: charmhealth-careplan-api-openapi.yml
-  format: yaml
-  label: CharmHealth CarePlan API
-  slug: charmhealth-careplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-careplan-api-openapi.yml
 - filename: charmhealth-careteam-api-openapi.yml
   format: yaml
   label: CharmHealth CareTeam API
@@ -39,12 +27,6 @@ api_specs:
   slug: charmhealth-condition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-condition-api-openapi.yml
-- filename: charmhealth-documentreference-api-openapi.yml
-  format: yaml
-  label: CharmHealth DocumentReference API
-  slug: charmhealth-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-documentreference-api-openapi.yml
 - filename: charmhealth-encounter-api-openapi.yml
   format: yaml
   label: CharmHealth Encounter API
@@ -57,12 +39,6 @@ api_specs:
   slug: charmhealth-immunization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-immunization-api-openapi.yml
-- filename: charmhealth-medicationrequest-api-openapi.yml
-  format: yaml
-  label: CharmHealth MedicationRequest API
-  slug: charmhealth-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-medicationrequest-api-openapi.yml
 - filename: charmhealth-observation-api-openapi.yml
   format: yaml
   label: CharmHealth Observation API
@@ -87,6 +63,30 @@ api_specs:
   slug: charmhealth-practitioner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-practitioner-api-openapi.yml
+- filename: charmhealth-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: CharmHealth Allergy Intolerance API
+  slug: charmhealth-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-allergy-intolerance-api-openapi.yml
+- filename: charmhealth-care-plan-api-openapi.yml
+  format: yaml
+  label: CharmHealth Care plan API
+  slug: charmhealth-care-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-care-plan-api-openapi.yml
+- filename: charmhealth-document-reference-api-openapi.yml
+  format: yaml
+  label: CharmHealth Document Reference API
+  slug: charmhealth-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-document-reference-api-openapi.yml
+- filename: charmhealth-medication-request-api-openapi.yml
+  format: yaml
+  label: CharmHealth Medication Request API
+  slug: charmhealth-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-medication-request-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

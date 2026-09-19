@@ -16,12 +16,6 @@ api_specs:
   slug: agntcy-appservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-appservice-api-openapi.yml
-- filename: agntcy-authservice-api-openapi.yml
-  format: yaml
-  label: AGNTCY Auth Service API
-  slug: agntcy-authservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-authservice-api-openapi.yml
 - filename: agntcy-badgeservice-api-openapi.yml
   format: yaml
   label: AGNTCY Badge Service API
@@ -124,6 +118,12 @@ api_specs:
   slug: agntcy-vcservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-vcservice-api-openapi.yml
+- filename: agntcy-auth-service-api-openapi.yml
+  format: yaml
+  label: AGNTCY Auth Service API
+  slug: agntcy-auth-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/openapi/agntcy-auth-service-api-openapi.yml
 consequence_counts:
   read: 50
   safety-critical: 9

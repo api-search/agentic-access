@@ -94,6 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/agentic-access/microsoft-azure-repo-agentic-access.yml
 summary_line: 24 operations · 10 acting
 tags:
+- Developer Tools
 - DevOps
 - Git
 - Repositories

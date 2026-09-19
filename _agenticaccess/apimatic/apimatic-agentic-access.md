@@ -4,12 +4,6 @@ action_class_counts:
   acting: 5
   connected: 1
 api_specs:
-- filename: apimatic-apis-api-openapi.yml
-  format: yaml
-  label: APIMatic APIs API
-  slug: apimatic-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-apis-api-openapi.yml
 - filename: apimatic-portals-api-openapi.yml
   format: yaml
   label: APIMatic Portals API
@@ -34,6 +28,12 @@ api_specs:
   slug: apimatic-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-validation-api-openapi.yml
+- filename: apimatic-apis-api-openapi.yml
+  format: yaml
+  label: APIMatic AP Is API
+  slug: apimatic-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-apis-api-openapi.yml
 consequence_counts:
   read: 1
   write: 5
@@ -68,6 +68,7 @@ tags:
 - API Transformation
 - Code Generation
 - Developer Experience
+- Developer Tools
 - Documentation
 - SDK Generation
 ---

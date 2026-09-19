@@ -62,6 +62,7 @@ tags:
 - Automation
 - CI/CD
 - Contract Testing
+- Developer Tools
 - Quality Assurance
 - Software Development
 - Testing

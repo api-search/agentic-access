@@ -60,6 +60,6 @@ tags:
 - Market Data
 - Finance
 - OHLCV
-- Exchanges
+- Exchange
 - Blockchain
 ---

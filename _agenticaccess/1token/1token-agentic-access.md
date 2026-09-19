@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: 1token-1ndex-openapi.yml
+- filename: 1token-public-api-openapi.yml
   format: yaml
-  label: 1Token 1ndex Public Strategy Overview API
-  slug: 1token-1ndex-public-strategy-overview-api
+  label: 1Token Public API
+  slug: 1token-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/openapi/1token-1ndex-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/openapi/1token-public-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -39,7 +39,7 @@ summary_line: 1 operation
 tags:
 - Digital Assets
 - Crypto
-- Portfolio Management
+- Portfolio-Management
 - Risk Management
 - Fund Administration
 - Reconciliation

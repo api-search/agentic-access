@@ -232,12 +232,6 @@ api_specs:
   slug: slack-team-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-team-api-openapi.yml
-- filename: slack-usergroups-api-openapi.yml
-  format: yaml
-  label: Slack Usergroups API
-  slug: slack-usergroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-usergroups-api-openapi.yml
 - filename: slack-users-api-openapi.yml
   format: yaml
   label: Slack Users API
@@ -256,6 +250,12 @@ api_specs:
   slug: slack-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-workflows-api-openapi.yml
+- filename: slack-user-groups-api-openapi.yml
+  format: yaml
+  label: Slack User Groups API
+  slug: slack-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-user-groups-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 107
@@ -366,4 +366,5 @@ tags:
 - Productivity
 - T1
 - Team Communication
+- Slack
 ---

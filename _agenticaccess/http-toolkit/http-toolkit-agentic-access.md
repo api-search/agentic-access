@@ -76,7 +76,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/http-toolkit/r
 summary_line: 10 operations · 4 acting · 1 human-in-the-loop
 tags:
 - HTTP
-- HTTPS
 - Debugging
 - Proxy
 - Interception

@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 735
 api_specs:
-- filename: owasp-zap-accesscontrol-api-openapi.yml
-  format: yaml
-  label: OWASP ZAP accessControl API
-  slug: owasp-zap-accesscontrol-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-accesscontrol-api-openapi.yml
 - filename: owasp-zap-acsrf-api-openapi.yml
   format: yaml
   label: OWASP ZAP acsrf API
@@ -117,12 +111,6 @@ api_specs:
   slug: owasp-zap-forceduser-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-forceduser-api-openapi.yml
-- filename: owasp-zap-graphql-api-openapi.yml
-  format: yaml
-  label: OWASP ZAP graphql API
-  slug: owasp-zap-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-graphql-api-openapi.yml
 - filename: owasp-zap-httpsessions-api-openapi.yml
   format: yaml
   label: OWASP ZAP httpSessions API
@@ -159,12 +147,6 @@ api_specs:
   slug: owasp-zap-oast-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-oast-api-openapi.yml
-- filename: owasp-zap-openapi-api-openapi.yml
-  format: yaml
-  label: OWASP ZAP openapi API
-  slug: owasp-zap-openapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-openapi-api-openapi.yml
 - filename: owasp-zap-paramdigger-api-openapi.yml
   format: yaml
   label: OWASP ZAP paramDigger API
@@ -255,12 +237,6 @@ api_specs:
   slug: owasp-zap-selenium-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-selenium-api-openapi.yml
-- filename: owasp-zap-sessionmanagement-api-openapi.yml
-  format: yaml
-  label: OWASP ZAP sessionManagement API
-  slug: owasp-zap-sessionmanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-sessionmanagement-api-openapi.yml
 - filename: owasp-zap-soap-api-openapi.yml
   format: yaml
   label: OWASP ZAP soap API
@@ -297,6 +273,30 @@ api_specs:
   slug: owasp-zap-websocket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-websocket-api-openapi.yml
+- filename: owasp-zap-access-control-api-openapi.yml
+  format: yaml
+  label: OWASP ZAP Access Control API
+  slug: owasp-zap-access-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-access-control-api-openapi.yml
+- filename: owasp-zap-graph-ql-api-openapi.yml
+  format: yaml
+  label: OWASP ZAP Graph QL API
+  slug: owasp-zap-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-graph-ql-api-openapi.yml
+- filename: owasp-zap-open-api-api-openapi.yml
+  format: yaml
+  label: OWASP ZAP Open API
+  slug: owasp-zap-open-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-open-api-api-openapi.yml
+- filename: owasp-zap-session-management-api-openapi.yml
+  format: yaml
+  label: OWASP ZAP Session Management API
+  slug: owasp-zap-session-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/openapi/owasp-zap-session-management-api-openapi.yml
 consequence_counts:
   read: 735
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

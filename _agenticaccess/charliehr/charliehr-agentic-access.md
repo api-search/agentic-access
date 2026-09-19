@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/charli
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/agentic-access/charliehr-agentic-access.yml
 summary_line: 13 operations
 tags:
-- HR
+- Human Resources
 - HRIS
 - People
 - Leave

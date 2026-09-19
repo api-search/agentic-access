@@ -4,24 +4,18 @@ action_class_counts:
   acting: 1
   connected: 2
 api_specs:
-- filename: choozle-accounts-api-openapi.yml
-  format: yaml
-  label: Choozle Accounts API
-  slug: choozle-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/openapi/choozle-accounts-api-openapi.yml
 - filename: choozle-authorization-api-openapi.yml
   format: yaml
   label: Choozle Authorization API
   slug: choozle-authorization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/openapi/choozle-authorization-api-openapi.yml
-- filename: choozle-reports-api-openapi.yml
+- filename: choozle-reporting-api-openapi.yml
   format: yaml
-  label: Choozle Reports API
-  slug: choozle-reports-api
+  label: Choozle Reporting API
+  slug: choozle-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/openapi/choozle-reports-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/openapi/choozle-reporting-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1
@@ -55,7 +49,6 @@ tags:
 - Digital Advertising
 - Programmatic Advertising
 - DSP
-- Demand-Side Platform
 - Advertising Reporting
 - Campaign Reporting
 - Display Advertising
@@ -63,7 +56,7 @@ tags:
 - CTV
 - Video Advertising
 - Native Advertising
-- DOOH
+- Digital Out Of Home
 - Reporting
 - Real-Time Bidding
 - RTB

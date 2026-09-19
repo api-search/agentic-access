@@ -1,8 +1,8 @@
 ---
-acting_count: 40
+acting_count: 228
 action_class_counts:
-  acting: 40
-  connected: 53
+  acting: 228
+  connected: 256
 api_specs:
 - filename: deel-com-adjustments-api-openapi.yml
   format: yaml
@@ -48,7 +48,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-custom-fields-api-openapi.yml
 - filename: deel-com-deel-it-api-openapi.yml
   format: yaml
-  label: Deel Deel IT API
+  label: Deel IT API
   slug: deel-com-deel-it-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-deel-it-api-openapi.yml
@@ -238,564 +238,588 @@ api_specs:
   slug: deel-com-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-webhooks-api-openapi.yml
-- filename: deel-default-api-openapi.yml
+- filename: deel-com-default-api-openapi.yml
   format: yaml
-  label: Deel Default API
-  slug: deel-default-api
+  label: Deel Com Default API
+  slug: deel-com-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-default-api-openapi.yml
-- filename: deel-subpackage-accounting-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-default-api-openapi.yml
+- filename: deel-com-subpackage-accounting-api-openapi.yml
   format: yaml
-  label: Deel subpackage_accounting API
-  slug: deel-subpackage-accounting-api
+  label: Deel Subpackage Accounting API
+  slug: deel-com-subpackage-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-accounting-api-openapi.yml
-- filename: deel-subpackage-adjustments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-accounting-api-openapi.yml
+- filename: deel-com-subpackage-adjustments-api-openapi.yml
   format: yaml
-  label: Deel subpackage_adjustments API
-  slug: deel-subpackage-adjustments-api
+  label: Deel Subpackage Adjustments API
+  slug: deel-com-subpackage-adjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-adjustments-api-openapi.yml
-- filename: deel-subpackage-assets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-adjustments-api-openapi.yml
+- filename: deel-com-subpackage-assets-api-openapi.yml
   format: yaml
-  label: Deel subpackage_assets API
-  slug: deel-subpackage-assets-api
+  label: Deel Subpackage Assets API
+  slug: deel-com-subpackage-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-assets-api-openapi.yml
-- filename: deel-subpackage-ats-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-assets-api-openapi.yml
+- filename: deel-com-subpackage-ats-api-openapi.yml
   format: yaml
-  label: Deel subpackage_ats API
-  slug: deel-subpackage-ats-api
+  label: Deel Subpackage Ats API
+  slug: deel-com-subpackage-ats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-ats-api-openapi.yml
-- filename: deel-subpackage-candidates-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-ats-api-openapi.yml
+- filename: deel-com-subpackage-candidates-api-openapi.yml
   format: yaml
-  label: Deel subpackage_candidates API
-  slug: deel-subpackage-candidates-api
+  label: Deel Subpackage Candidates API
+  slug: deel-com-subpackage-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-candidates-api-openapi.yml
-- filename: deel-subpackage-consent-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-candidates-api-openapi.yml
+- filename: deel-com-subpackage-consent-api-openapi.yml
   format: yaml
-  label: Deel subpackage_consent API
-  slug: deel-subpackage-consent-api
+  label: Deel Subpackage Consent API
+  slug: deel-com-subpackage-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-consent-api-openapi.yml
-- filename: deel-subpackage-contractoramendments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-consent-api-openapi.yml
+- filename: deel-com-subpackage-contractoramendments-api-openapi.yml
   format: yaml
-  label: Deel subpackage_contractorAmendments API
-  slug: deel-subpackage-contractoramendments-api
+  label: Deel Subpackage Contractor Amendments API
+  slug: deel-com-subpackage-contractoramendments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-contractoramendments-api-openapi.yml
-- filename: deel-subpackage-contractorhiring-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-contractoramendments-api-openapi.yml
+- filename: deel-com-subpackage-contractorhiring-api-openapi.yml
   format: yaml
-  label: Deel subpackage_contractorHiring API
-  slug: deel-subpackage-contractorhiring-api
+  label: Deel Subpackage Contractor Hiring API
+  slug: deel-com-subpackage-contractorhiring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-contractorhiring-api-openapi.yml
-- filename: deel-subpackage-contracts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-contractorhiring-api-openapi.yml
+- filename: deel-com-subpackage-contracts-api-openapi.yml
   format: yaml
-  label: Deel subpackage_contracts API
-  slug: deel-subpackage-contracts-api
+  label: Deel Subpackage Contracts API
+  slug: deel-com-subpackage-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-contracts-api-openapi.yml
-- filename: deel-subpackage-costcalculator-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-contracts-api-openapi.yml
+- filename: deel-com-subpackage-costcalculator-api-openapi.yml
   format: yaml
-  label: Deel subpackage_costCalculator API
-  slug: deel-subpackage-costcalculator-api
+  label: Deel Subpackage Cost Calculator API
+  slug: deel-com-subpackage-costcalculator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-costcalculator-api-openapi.yml
-- filename: deel-subpackage-costcenters-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-costcalculator-api-openapi.yml
+- filename: deel-com-subpackage-costcenters-api-openapi.yml
   format: yaml
-  label: Deel subpackage_costCenters API
-  slug: deel-subpackage-costcenters-api
+  label: Deel Subpackage Cost Centers API
+  slug: deel-com-subpackage-costcenters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-costcenters-api-openapi.yml
-- filename: deel-subpackage-customfieldscontracts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-costcenters-api-openapi.yml
+- filename: deel-com-subpackage-customfieldscontracts-api-openapi.yml
   format: yaml
-  label: Deel subpackage_customFieldsContracts API
-  slug: deel-subpackage-customfieldscontracts-api
+  label: Deel Subpackage Custom Fields Contracts API
+  slug: deel-com-subpackage-customfieldscontracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-customfieldscontracts-api-openapi.yml
-- filename: deel-subpackage-customfieldspeople-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-customfieldscontracts-api-openapi.yml
+- filename: deel-com-subpackage-customfieldspeople-api-openapi.yml
   format: yaml
-  label: Deel subpackage_customFieldsPeople API
-  slug: deel-subpackage-customfieldspeople-api
+  label: Deel Subpackage Custom Fields People API
+  slug: deel-com-subpackage-customfieldspeople-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-customfieldspeople-api-openapi.yml
-- filename: deel-subpackage-deelasaservice-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-customfieldspeople-api-openapi.yml
+- filename: deel-com-subpackage-deelasaservice-api-openapi.yml
   format: yaml
-  label: Deel subpackage_deelAsAService API
-  slug: deel-subpackage-deelasaservice-api
+  label: Deel Subpackage Deel As A Service API
+  slug: deel-com-subpackage-deelasaservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-deelasaservice-api-openapi.yml
-- filename: deel-subpackage-employeeinformation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-deelasaservice-api-openapi.yml
+- filename: deel-com-subpackage-employeeinformation-api-openapi.yml
   format: yaml
-  label: Deel subpackage_employeeInformation API
-  slug: deel-subpackage-employeeinformation-api
+  label: Deel Subpackage Employee Information API
+  slug: deel-com-subpackage-employeeinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-employeeinformation-api-openapi.yml
-- filename: deel-subpackage-employees-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-employeeinformation-api-openapi.yml
+- filename: deel-com-subpackage-employees-api-openapi.yml
   format: yaml
-  label: Deel subpackage_employees API
-  slug: deel-subpackage-employees-api
+  label: Deel Subpackage Employees API
+  slug: deel-com-subpackage-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-employees-api-openapi.yml
-- filename: deel-subpackage-enrollments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-employees-api-openapi.yml
+- filename: deel-com-subpackage-enrollments-api-openapi.yml
   format: yaml
-  label: Deel subpackage_enrollments API
-  slug: deel-subpackage-enrollments-api
+  label: Deel Subpackage Enrollments API
+  slug: deel-com-subpackage-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-enrollments-api-openapi.yml
-- filename: deel-subpackage-eoramendments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-enrollments-api-openapi.yml
+- filename: deel-com-subpackage-eoramendments-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorAmendments API
-  slug: deel-subpackage-eoramendments-api
+  label: Deel Subpackage Eor Amendments API
+  slug: deel-com-subpackage-eoramendments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eoramendments-api-openapi.yml
-- filename: deel-subpackage-eorbenefits-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eoramendments-api-openapi.yml
+- filename: deel-com-subpackage-eorbenefits-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorBenefits API
-  slug: deel-subpackage-eorbenefits-api
+  label: Deel Subpackage Eor Benefits API
+  slug: deel-com-subpackage-eorbenefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorbenefits-api-openapi.yml
-- filename: deel-subpackage-eorcontract-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorbenefits-api-openapi.yml
+- filename: deel-com-subpackage-eorcontract-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorContract API
-  slug: deel-subpackage-eorcontract-api
+  label: Deel Subpackage Eor Contract API
+  slug: deel-com-subpackage-eorcontract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorcontract-api-openapi.yml
-- filename: deel-subpackage-eorcontractdocuments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorcontract-api-openapi.yml
+- filename: deel-com-subpackage-eorcontractdocuments-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorContractDocuments API
-  slug: deel-subpackage-eorcontractdocuments-api
+  label: Deel Subpackage Eor Contract Documents API
+  slug: deel-com-subpackage-eorcontractdocuments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorcontractdocuments-api-openapi.yml
-- filename: deel-subpackage-eorhiring-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorcontractdocuments-api-openapi.yml
+- filename: deel-com-subpackage-eorhiring-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorHiring API
-  slug: deel-subpackage-eorhiring-api
+  label: Deel Subpackage Eor Hiring API
+  slug: deel-com-subpackage-eorhiring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorhiring-api-openapi.yml
-- filename: deel-subpackage-eorjobscopes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorhiring-api-openapi.yml
+- filename: deel-com-subpackage-eorjobscopes-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorJobScopes API
-  slug: deel-subpackage-eorjobscopes-api
+  label: Deel Subpackage Eor Job Scopes API
+  slug: deel-com-subpackage-eorjobscopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorjobscopes-api-openapi.yml
-- filename: deel-subpackage-eoroffboarding-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorjobscopes-api-openapi.yml
+- filename: deel-com-subpackage-eoroffboarding-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorOffboarding API
-  slug: deel-subpackage-eoroffboarding-api
+  label: Deel Subpackage Eor Offboarding API
+  slug: deel-com-subpackage-eoroffboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eoroffboarding-api-openapi.yml
-- filename: deel-subpackage-eorpayslips-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eoroffboarding-api-openapi.yml
+- filename: deel-com-subpackage-eorprojectassignment-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorPayslips API
-  slug: deel-subpackage-eorpayslips-api
+  label: Deel Subpackage Eor Project Assignment API
+  slug: deel-com-subpackage-eorprojectassignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorpayslips-api-openapi.yml
-- filename: deel-subpackage-eorprojectassignment-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorprojectassignment-api-openapi.yml
+- filename: deel-com-subpackage-eorterminations-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorProjectAssignment API
-  slug: deel-subpackage-eorprojectassignment-api
+  label: Deel Subpackage Eor Terminations API
+  slug: deel-com-subpackage-eorterminations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorprojectassignment-api-openapi.yml
-- filename: deel-subpackage-eorterminations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorterminations-api-openapi.yml
+- filename: deel-com-subpackage-eorworkeraccounts-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorTerminations API
-  slug: deel-subpackage-eorterminations-api
+  label: Deel Subpackage Eor Worker Accounts API
+  slug: deel-com-subpackage-eorworkeraccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorterminations-api-openapi.yml
-- filename: deel-subpackage-eorworkeraccounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorworkeraccounts-api-openapi.yml
+- filename: deel-com-subpackage-eorworkeragreements-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorWorkerAccounts API
-  slug: deel-subpackage-eorworkeraccounts-api
+  label: Deel Subpackage Eor Worker Agreements API
+  slug: deel-com-subpackage-eorworkeragreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorworkeraccounts-api-openapi.yml
-- filename: deel-subpackage-eorworkeragreements-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorworkeragreements-api-openapi.yml
+- filename: deel-com-subpackage-eorworkerbanks-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorWorkerAgreements API
-  slug: deel-subpackage-eorworkeragreements-api
+  label: Deel Subpackage Eor Worker Banks API
+  slug: deel-com-subpackage-eorworkerbanks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorworkeragreements-api-openapi.yml
-- filename: deel-subpackage-eorworkerbanks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorworkerbanks-api-openapi.yml
+- filename: deel-com-subpackage-eorworkerbenefits-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorWorkerBanks API
-  slug: deel-subpackage-eorworkerbanks-api
+  label: Deel Subpackage Eor Worker Benefits API
+  slug: deel-com-subpackage-eorworkerbenefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorworkerbanks-api-openapi.yml
-- filename: deel-subpackage-eorworkerbenefits-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorworkerbenefits-api-openapi.yml
+- filename: deel-com-subpackage-eorworkercompliance-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorWorkerBenefits API
-  slug: deel-subpackage-eorworkerbenefits-api
+  label: Deel Subpackage Eor Worker Compliance API
+  slug: deel-com-subpackage-eorworkercompliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorworkerbenefits-api-openapi.yml
-- filename: deel-subpackage-eorworkercompliance-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorworkercompliance-api-openapi.yml
+- filename: deel-com-subpackage-eorworkerdocuments-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorWorkerCompliance API
-  slug: deel-subpackage-eorworkercompliance-api
+  label: Deel Subpackage Eor Worker Documents API
+  slug: deel-com-subpackage-eorworkerdocuments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorworkercompliance-api-openapi.yml
-- filename: deel-subpackage-eorworkerdocuments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorworkerdocuments-api-openapi.yml
+- filename: deel-com-subpackage-eorworkerinformation-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorWorkerDocuments API
-  slug: deel-subpackage-eorworkerdocuments-api
+  label: Deel Subpackage Eor Worker Information API
+  slug: deel-com-subpackage-eorworkerinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorworkerdocuments-api-openapi.yml
-- filename: deel-subpackage-eorworkerinformation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorworkerinformation-api-openapi.yml
+- filename: deel-com-subpackage-eorworkermailboxes-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorWorkerInformation API
-  slug: deel-subpackage-eorworkerinformation-api
+  label: Deel Subpackage Eor Worker Mailboxes API
+  slug: deel-com-subpackage-eorworkermailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorworkerinformation-api-openapi.yml
-- filename: deel-subpackage-eorworkermailboxes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorworkermailboxes-api-openapi.yml
+- filename: deel-com-subpackage-eorworkeroffboarding-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorWorkerMailboxes API
-  slug: deel-subpackage-eorworkermailboxes-api
+  label: Deel Subpackage Eor Worker Offboarding API
+  slug: deel-com-subpackage-eorworkeroffboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorworkermailboxes-api-openapi.yml
-- filename: deel-subpackage-eorworkeroffboarding-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorworkeroffboarding-api-openapi.yml
+- filename: deel-com-subpackage-eorworkerpayslips-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorWorkerOffboarding API
-  slug: deel-subpackage-eorworkeroffboarding-api
+  label: Deel Subpackage Eor Worker Payslips API
+  slug: deel-com-subpackage-eorworkerpayslips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorworkeroffboarding-api-openapi.yml
-- filename: deel-subpackage-eorworkerpayslips-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-eorworkerpayslips-api-openapi.yml
+- filename: deel-com-subpackage-equitytokens-api-openapi.yml
   format: yaml
-  label: Deel subpackage_eorWorkerPayslips API
-  slug: deel-subpackage-eorworkerpayslips-api
+  label: Deel Subpackage Equity Tokens API
+  slug: deel-com-subpackage-equitytokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-eorworkerpayslips-api-openapi.yml
-- filename: deel-subpackage-equitytokens-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-equitytokens-api-openapi.yml
+- filename: deel-com-subpackage-forms-api-openapi.yml
   format: yaml
-  label: Deel subpackage_equityTokens API
-  slug: deel-subpackage-equitytokens-api
+  label: Deel Subpackage Forms API
+  slug: deel-com-subpackage-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-equitytokens-api-openapi.yml
-- filename: deel-subpackage-forms-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-forms-api-openapi.yml
+- filename: deel-com-subpackage-globalpayroll-api-openapi.yml
   format: yaml
-  label: Deel subpackage_forms API
-  slug: deel-subpackage-forms-api
+  label: Deel Subpackage Global Payroll API
+  slug: deel-com-subpackage-globalpayroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-forms-api-openapi.yml
-- filename: deel-subpackage-globalpayroll-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-globalpayroll-api-openapi.yml
+- filename: deel-com-subpackage-gphiring-api-openapi.yml
   format: yaml
-  label: Deel subpackage_globalPayroll API
-  slug: deel-subpackage-globalpayroll-api
+  label: Deel Subpackage Gp Hiring API
+  slug: deel-com-subpackage-gphiring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-globalpayroll-api-openapi.yml
-- filename: deel-subpackage-gphiring-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-gphiring-api-openapi.yml
+- filename: deel-com-subpackage-groups-api-openapi.yml
   format: yaml
-  label: Deel subpackage_gpHiring API
-  slug: deel-subpackage-gphiring-api
+  label: Deel Subpackage Groups API
+  slug: deel-com-subpackage-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-gphiring-api-openapi.yml
-- filename: deel-subpackage-groups-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-groups-api-openapi.yml
+- filename: deel-com-subpackage-hrxdocuments-api-openapi.yml
   format: yaml
-  label: Deel subpackage_groups API
-  slug: deel-subpackage-groups-api
+  label: Deel Subpackage Hrx Documents API
+  slug: deel-com-subpackage-hrxdocuments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-groups-api-openapi.yml
-- filename: deel-subpackage-hrxdocuments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-hrxdocuments-api-openapi.yml
+- filename: deel-com-subpackage-icinvoicingtaxes-api-openapi.yml
   format: yaml
-  label: Deel subpackage_hrxDocuments API
-  slug: deel-subpackage-hrxdocuments-api
+  label: Deel Subpackage Ic Invoicing Taxes API
+  slug: deel-com-subpackage-icinvoicingtaxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-hrxdocuments-api-openapi.yml
-- filename: deel-subpackage-icinvoicingtaxes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-icinvoicingtaxes-api-openapi.yml
+- filename: deel-com-subpackage-immigration-api-openapi.yml
   format: yaml
-  label: Deel subpackage_icInvoicingTaxes API
-  slug: deel-subpackage-icinvoicingtaxes-api
+  label: Deel Subpackage Immigration API
+  slug: deel-com-subpackage-immigration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-icinvoicingtaxes-api-openapi.yml
-- filename: deel-subpackage-immigration-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-immigration-api-openapi.yml
+- filename: deel-com-subpackage-integrations-api-openapi.yml
   format: yaml
-  label: Deel subpackage_immigration API
-  slug: deel-subpackage-immigration-api
+  label: Deel Subpackage Integrations API
+  slug: deel-com-subpackage-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-immigration-api-openapi.yml
-- filename: deel-subpackage-integrations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-integrations-api-openapi.yml
+- filename: deel-com-subpackage-invoiceadjustments-api-openapi.yml
   format: yaml
-  label: Deel subpackage_integrations API
-  slug: deel-subpackage-integrations-api
+  label: Deel Subpackage Invoice Adjustments API
+  slug: deel-com-subpackage-invoiceadjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-integrations-api-openapi.yml
-- filename: deel-subpackage-invoiceadjustments-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-invoiceadjustments-api-openapi.yml
+- filename: deel-com-subpackage-knowledgehub-api-openapi.yml
   format: yaml
-  label: Deel subpackage_invoiceAdjustments API
-  slug: deel-subpackage-invoiceadjustments-api
+  label: Deel Subpackage Knowledge Hub API
+  slug: deel-com-subpackage-knowledgehub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-invoiceadjustments-api-openapi.yml
-- filename: deel-subpackage-knowledgehub-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-knowledgehub-api-openapi.yml
+- filename: deel-com-subpackage-learning-api-openapi.yml
   format: yaml
-  label: Deel subpackage_knowledgeHub API
-  slug: deel-subpackage-knowledgehub-api
+  label: Deel Subpackage Learning API
+  slug: deel-com-subpackage-learning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-knowledgehub-api-openapi.yml
-- filename: deel-subpackage-learning-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-learning-api-openapi.yml
+- filename: deel-com-subpackage-legalentities-api-openapi.yml
   format: yaml
-  label: Deel subpackage_learning API
-  slug: deel-subpackage-learning-api
+  label: Deel Subpackage Legal Entities API
+  slug: deel-com-subpackage-legalentities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-learning-api-openapi.yml
-- filename: deel-subpackage-legalentities-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-legalentities-api-openapi.yml
+- filename: deel-com-subpackage-listcycles-api-openapi.yml
   format: yaml
-  label: Deel subpackage_legalEntities API
-  slug: deel-subpackage-legalentities-api
+  label: Deel Subpackage List Cycles API
+  slug: deel-com-subpackage-listcycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-legalentities-api-openapi.yml
-- filename: deel-subpackage-listcycles-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-listcycles-api-openapi.yml
+- filename: deel-com-subpackage-lookups-api-openapi.yml
   format: yaml
-  label: Deel subpackage_listCycles API
-  slug: deel-subpackage-listcycles-api
+  label: Deel Subpackage Lookups API
+  slug: deel-com-subpackage-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-listcycles-api-openapi.yml
-- filename: deel-subpackage-lookups-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-lookups-api-openapi.yml
+- filename: deel-com-subpackage-managers-api-openapi.yml
   format: yaml
-  label: Deel subpackage_lookups API
-  slug: deel-subpackage-lookups-api
+  label: Deel Subpackage Managers API
+  slug: deel-com-subpackage-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-lookups-api-openapi.yml
-- filename: deel-subpackage-magiclink-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-managers-api-openapi.yml
+- filename: deel-com-subpackage-milestones-api-openapi.yml
   format: yaml
-  label: Deel subpackage_magicLink API
-  slug: deel-subpackage-magiclink-api
+  label: Deel Subpackage Milestones API
+  slug: deel-com-subpackage-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-magiclink-api-openapi.yml
-- filename: deel-subpackage-managers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-milestones-api-openapi.yml
+- filename: deel-com-subpackage-offboarding-api-openapi.yml
   format: yaml
-  label: Deel subpackage_managers API
-  slug: deel-subpackage-managers-api
+  label: Deel Subpackage Offboarding API
+  slug: deel-com-subpackage-offboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-managers-api-openapi.yml
-- filename: deel-subpackage-milestones-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-offboarding-api-openapi.yml
+- filename: deel-com-subpackage-offcycle-api-openapi.yml
   format: yaml
-  label: Deel subpackage_milestones API
-  slug: deel-subpackage-milestones-api
+  label: Deel Subpackage Off Cycle API
+  slug: deel-com-subpackage-offcycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-milestones-api-openapi.yml
-- filename: deel-subpackage-offboarding-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-offcycle-api-openapi.yml
+- filename: deel-com-subpackage-onboarding-api-openapi.yml
   format: yaml
-  label: Deel subpackage_offboarding API
-  slug: deel-subpackage-offboarding-api
+  label: Deel Subpackage Onboarding API
+  slug: deel-com-subpackage-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-offboarding-api-openapi.yml
-- filename: deel-subpackage-offcycle-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-onboarding-api-openapi.yml
+- filename: deel-com-subpackage-orders-api-openapi.yml
   format: yaml
-  label: Deel subpackage_offCycle API
-  slug: deel-subpackage-offcycle-api
+  label: Deel Subpackage Orders API
+  slug: deel-com-subpackage-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-offcycle-api-openapi.yml
-- filename: deel-subpackage-onboarding-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-orders-api-openapi.yml
+- filename: deel-com-subpackage-organizations-api-openapi.yml
   format: yaml
-  label: Deel subpackage_onboarding API
-  slug: deel-subpackage-onboarding-api
+  label: Deel Subpackage Organizations API
+  slug: deel-com-subpackage-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-onboarding-api-openapi.yml
-- filename: deel-subpackage-orders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-organizations-api-openapi.yml
+- filename: deel-com-subpackage-organizationstructure-api-openapi.yml
   format: yaml
-  label: Deel subpackage_orders API
-  slug: deel-subpackage-orders-api
+  label: Deel Subpackage Organization Structure API
+  slug: deel-com-subpackage-organizationstructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-orders-api-openapi.yml
-- filename: deel-subpackage-organizations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-organizationstructure-api-openapi.yml
+- filename: deel-com-subpackage-organizationtasks-api-openapi.yml
   format: yaml
-  label: Deel subpackage_organizations API
-  slug: deel-subpackage-organizations-api
+  label: Deel Subpackage Organization Tasks API
+  slug: deel-com-subpackage-organizationtasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-organizations-api-openapi.yml
-- filename: deel-subpackage-organizationstructure-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-organizationtasks-api-openapi.yml
+- filename: deel-com-subpackage-payouts-api-openapi.yml
   format: yaml
-  label: Deel subpackage_organizationStructure API
-  slug: deel-subpackage-organizationstructure-api
+  label: Deel Subpackage Payouts API
+  slug: deel-com-subpackage-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-organizationstructure-api-openapi.yml
-- filename: deel-subpackage-organizationtasks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-payouts-api-openapi.yml
+- filename: deel-com-subpackage-payroll-api-openapi.yml
   format: yaml
-  label: Deel subpackage_organizationTasks API
-  slug: deel-subpackage-organizationtasks-api
+  label: Deel Subpackage Payroll API
+  slug: deel-com-subpackage-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-organizationtasks-api-openapi.yml
-- filename: deel-subpackage-payouts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-payroll-api-openapi.yml
+- filename: deel-com-subpackage-payslips-api-openapi.yml
   format: yaml
-  label: Deel subpackage_payouts API
-  slug: deel-subpackage-payouts-api
+  label: Deel Subpackage Payslips API
+  slug: deel-com-subpackage-payslips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-payouts-api-openapi.yml
-- filename: deel-subpackage-payroll-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-payslips-api-openapi.yml
+- filename: deel-com-subpackage-paystubs-api-openapi.yml
   format: yaml
-  label: Deel subpackage_payroll API
-  slug: deel-subpackage-payroll-api
+  label: Deel Subpackage Paystubs API
+  slug: deel-com-subpackage-paystubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-payroll-api-openapi.yml
-- filename: deel-subpackage-payslips-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-paystubs-api-openapi.yml
+- filename: deel-com-subpackage-people-api-openapi.yml
   format: yaml
-  label: Deel subpackage_payslips API
-  slug: deel-subpackage-payslips-api
+  label: Deel Subpackage People API
+  slug: deel-com-subpackage-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-payslips-api-openapi.yml
-- filename: deel-subpackage-paystubs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-people-api-openapi.yml
+- filename: deel-com-subpackage-personalinformation-api-openapi.yml
   format: yaml
-  label: Deel subpackage_paystubs API
-  slug: deel-subpackage-paystubs-api
+  label: Deel Subpackage Personal Information API
+  slug: deel-com-subpackage-personalinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-paystubs-api-openapi.yml
-- filename: deel-subpackage-people-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-personalinformation-api-openapi.yml
+- filename: deel-com-subpackage-plans401k-api-openapi.yml
   format: yaml
-  label: Deel subpackage_people API
-  slug: deel-subpackage-people-api
+  label: Deel Subpackage Plans401 K API
+  slug: deel-com-subpackage-plans401k-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-people-api-openapi.yml
-- filename: deel-subpackage-personalinformation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-plans401k-api-openapi.yml
+- filename: deel-com-subpackage-policies-api-openapi.yml
   format: yaml
-  label: Deel subpackage_personalInformation API
-  slug: deel-subpackage-personalinformation-api
+  label: Deel Subpackage Policies API
+  slug: deel-com-subpackage-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-personalinformation-api-openapi.yml
-- filename: deel-subpackage-plans401k-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-policies-api-openapi.yml
+- filename: deel-com-subpackage-positions-api-openapi.yml
   format: yaml
-  label: Deel subpackage_plans401K API
-  slug: deel-subpackage-plans401k-api
+  label: Deel Subpackage Positions API
+  slug: deel-com-subpackage-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-plans401k-api-openapi.yml
-- filename: deel-subpackage-policies-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-positions-api-openapi.yml
+- filename: deel-com-subpackage-projects-api-openapi.yml
   format: yaml
-  label: Deel subpackage_policies API
-  slug: deel-subpackage-policies-api
+  label: Deel Subpackage Projects API
+  slug: deel-com-subpackage-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-policies-api-openapi.yml
-- filename: deel-subpackage-positions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-projects-api-openapi.yml
+- filename: deel-com-subpackage-reports-api-openapi.yml
   format: yaml
-  label: Deel subpackage_positions API
-  slug: deel-subpackage-positions-api
+  label: Deel Subpackage Reports API
+  slug: deel-com-subpackage-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-positions-api-openapi.yml
-- filename: deel-subpackage-projects-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-reports-api-openapi.yml
+- filename: deel-com-subpackage-screenings-api-openapi.yml
   format: yaml
-  label: Deel subpackage_projects API
-  slug: deel-subpackage-projects-api
+  label: Deel Subpackage Screenings API
+  slug: deel-com-subpackage-screenings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-projects-api-openapi.yml
-- filename: deel-subpackage-reports-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-screenings-api-openapi.yml
+- filename: deel-com-subpackage-serviceproviderconfig-api-openapi.yml
   format: yaml
-  label: Deel subpackage_reports API
-  slug: deel-subpackage-reports-api
+  label: Deel Subpackage Service Provider Config API
+  slug: deel-com-subpackage-serviceproviderconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-reports-api-openapi.yml
-- filename: deel-subpackage-screenings-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-serviceproviderconfig-api-openapi.yml
+- filename: deel-com-subpackage-tasks-api-openapi.yml
   format: yaml
-  label: Deel subpackage_screenings API
-  slug: deel-subpackage-screenings-api
+  label: Deel Subpackage Tasks API
+  slug: deel-com-subpackage-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-screenings-api-openapi.yml
-- filename: deel-subpackage-serviceproviderconfig-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-tasks-api-openapi.yml
+- filename: deel-com-subpackage-terminations-api-openapi.yml
   format: yaml
-  label: Deel subpackage_serviceProviderConfig API
-  slug: deel-subpackage-serviceproviderconfig-api
+  label: Deel Subpackage Terminations API
+  slug: deel-com-subpackage-terminations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-serviceproviderconfig-api-openapi.yml
-- filename: deel-subpackage-tasks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-terminations-api-openapi.yml
+- filename: deel-com-subpackage-timeoff-api-openapi.yml
   format: yaml
-  label: Deel subpackage_tasks API
-  slug: deel-subpackage-tasks-api
+  label: Deel Subpackage Time Off API
+  slug: deel-com-subpackage-timeoff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-tasks-api-openapi.yml
-- filename: deel-subpackage-terminations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-timeoff-api-openapi.yml
+- filename: deel-com-subpackage-timesheets-api-openapi.yml
   format: yaml
-  label: Deel subpackage_terminations API
-  slug: deel-subpackage-terminations-api
+  label: Deel Subpackage Timesheets API
+  slug: deel-com-subpackage-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-terminations-api-openapi.yml
-- filename: deel-subpackage-timeoff-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-timesheets-api-openapi.yml
+- filename: deel-com-subpackage-timetracking-api-openapi.yml
   format: yaml
-  label: Deel subpackage_timeOff API
-  slug: deel-subpackage-timeoff-api
+  label: Deel Subpackage Time Tracking API
+  slug: deel-com-subpackage-timetracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-timeoff-api-openapi.yml
-- filename: deel-subpackage-timesheets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-timetracking-api-openapi.yml
+- filename: deel-com-subpackage-timetrackingshifts-api-openapi.yml
   format: yaml
-  label: Deel subpackage_timesheets API
-  slug: deel-subpackage-timesheets-api
+  label: Deel Subpackage Time Tracking Shifts API
+  slug: deel-com-subpackage-timetrackingshifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-timesheets-api-openapi.yml
-- filename: deel-subpackage-timetracking-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-timetrackingshifts-api-openapi.yml
+- filename: deel-com-subpackage-treasury-api-openapi.yml
   format: yaml
-  label: Deel subpackage_timeTracking API
-  slug: deel-subpackage-timetracking-api
+  label: Deel Subpackage Treasury API
+  slug: deel-com-subpackage-treasury-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-timetracking-api-openapi.yml
-- filename: deel-subpackage-timetrackingshifts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-treasury-api-openapi.yml
+- filename: deel-com-subpackage-user-api-openapi.yml
   format: yaml
-  label: Deel subpackage_timeTrackingShifts API
-  slug: deel-subpackage-timetrackingshifts-api
+  label: Deel Subpackage User API
+  slug: deel-com-subpackage-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-timetrackingshifts-api-openapi.yml
-- filename: deel-subpackage-treasury-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-user-api-openapi.yml
+- filename: deel-com-subpackage-users-api-openapi.yml
   format: yaml
-  label: Deel subpackage_treasury API
-  slug: deel-subpackage-treasury-api
+  label: Deel Subpackage Users API
+  slug: deel-com-subpackage-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-treasury-api-openapi.yml
-- filename: deel-subpackage-user-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-users-api-openapi.yml
+- filename: deel-com-subpackage-webhooks-api-openapi.yml
   format: yaml
-  label: Deel subpackage_user API
-  slug: deel-subpackage-user-api
+  label: Deel Subpackage Webhooks API
+  slug: deel-com-subpackage-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-user-api-openapi.yml
-- filename: deel-subpackage-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-webhooks-api-openapi.yml
+- filename: deel-com-subpackage-workerhr-api-openapi.yml
   format: yaml
-  label: Deel subpackage_users API
-  slug: deel-subpackage-users-api
+  label: Deel Subpackage Worker Hr API
+  slug: deel-com-subpackage-workerhr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-users-api-openapi.yml
-- filename: deel-subpackage-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-workerhr-api-openapi.yml
+- filename: deel-com-subpackage-workerinformation-api-openapi.yml
   format: yaml
-  label: Deel subpackage_webhooks API
-  slug: deel-subpackage-webhooks-api
+  label: Deel Subpackage Worker Information API
+  slug: deel-com-subpackage-workerinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-webhooks-api-openapi.yml
-- filename: deel-subpackage-workerhr-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-workerinformation-api-openapi.yml
+- filename: deel-com-subpackage-workerrelations-api-openapi.yml
   format: yaml
-  label: Deel subpackage_workerHr API
-  slug: deel-subpackage-workerhr-api
+  label: Deel Subpackage Worker Relations API
+  slug: deel-com-subpackage-workerrelations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-workerhr-api-openapi.yml
-- filename: deel-subpackage-workerinformation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-workerrelations-api-openapi.yml
+- filename: deel-com-subpackage-workers-api-openapi.yml
   format: yaml
-  label: Deel subpackage_workerInformation API
-  slug: deel-subpackage-workerinformation-api
+  label: Deel Subpackage Workers API
+  slug: deel-com-subpackage-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-workerinformation-api-openapi.yml
-- filename: deel-subpackage-workerrelations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-workers-api-openapi.yml
+- filename: deel-com-subpackage-workersession-api-openapi.yml
   format: yaml
-  label: Deel subpackage_workerRelations API
-  slug: deel-subpackage-workerrelations-api
+  label: Deel Subpackage Worker Session API
+  slug: deel-com-subpackage-workersession-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-workerrelations-api-openapi.yml
-- filename: deel-subpackage-workers-api-openapi.yml
-  format: yaml
-  label: Deel subpackage_workers API
-  slug: deel-subpackage-workers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-workers-api-openapi.yml
-- filename: deel-subpackage-workersession-api-openapi.yml
-  format: yaml
-  label: Deel subpackage_workerSession API
-  slug: deel-subpackage-workersession-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-subpackage-workersession-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/openapi/deel-com-subpackage-workersession-api-openapi.yml
 consequence_counts:
-  physical: 3
-  read: 53
-  write: 37
+  physical: 17
+  read: 256
+  safety-critical: 5
+  write: 206
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 0
+human_in_the_loop: 5
 kind: agentic-access
 layout: agentic-access
 method: generated
 name: Deel Com Agentic Access
 name_suffix: Agentic Access
 notable_actions:
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /contracts/{contract_id}/terminations
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /timesheets/presets
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /timesheets/presets/{id}
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: PATCH
+  path: /timesheets/presets/{id}
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /timesheets/root-presets
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /contracts/{contract_id}/invitations
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /contracts/{contract_id}/off-cycle-payments
 - action_class: acting
   consequence: physical
   human_in_the_loop: conditional
@@ -810,12 +834,75 @@ notable_actions:
   consequence: physical
   human_in_the_loop: conditional
   method: POST
+  path: /invoice-adjustments
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: DELETE
+  path: /invoice-adjustments/{id}
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PATCH
+  path: /invoice-adjustments/{id}
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /invoice-adjustments/{id}/reviews
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
   path: /off-cycle
-operation_count: 93
-overview: 'Deel exposes 93 API operations that an AI agent could call, of which 40 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PATCH
+  path: /payouts/auto-withdrawal-setting
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /payouts/contractors/methods
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PUT
+  path: /payouts/contractors/methods/{id}
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /payouts/contractors/settings/auto_withdraw
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /payouts/employees/methods
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /payouts/employees/methods/bank_transfers/requirements
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: DELETE
+  path: /payouts/employees/methods/{id}
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /payouts/withdrawals
+operation_count: 484
+overview: 'Deel exposes 484 API operations that an AI agent could call, of which 228 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 53 read, 37 write, and 3 physical.
+  By consequence: 256 read, 206 write, 17 physical, and 5 safety-critical.
+
+
+  5 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -825,41 +912,46 @@ slug: deel-com-agentic-access
 source_filename: deel-com-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/deel-ats-api-openapi.yml, openapi/deel-contractors-api-openapi.yml, openapi/deel-core-api-openapi.yml,\n  openapi/deel-eor-api-openapi.yml, openapi/deel-global-payroll-api-openapi.yml, openapi/deel-hris-api-openapi.yml,\n  openapi/deel-platform-extensions-api-openapi.yml, openapi/deel-webhooks-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 93\n  by_action_class:\n    connected: 53\n    acting: 40\n  by_consequence:\n    read: 53\n    write: 37\n    physical: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /ats/jobs\n  method: get\n  operationId: getAtsJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /ats/jobs\n  method: post\n  operationId: createAtsJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/jobs/{job_id}/postings\n  method: get\n  operationId: getAtsJobPostings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/candidates\n  method: get\n  operationId: getAtsCandidates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/candidates\n  method: post\n  operationId: createAtsCandidate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/applications\n  method: get\n  operationId: getAtsApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/applications\n  method: post\n  operationId: createAtsApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/applications/{application_id}/stage\n  method: patch\n  operationId: advanceApplicationStage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n  \
-  \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/offers\n  method: post\n  operationId: createAtsOffer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/offers/{offer_id}\n  method: get\n  operationId: getAtsOffer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/departments\n  method: get\n  operationId: getAtsDepartments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/employment-types\n  method: get\n  operationId: getAtsEmploymentTypes\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/locations\n  method: get\n  operationId: getAtsLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/ic\n  method: post\n  operationId: createIcContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/external-id\n  method: patch\n  operationId: addExternalId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/amendments\n  method: post\n  operationId: createContractorAmendment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/amendments/bulk-sign\n  method: post\n  operationId: bulkSignAmendments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timesheets\n  method: get\n  operationId: getTimesheets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /timesheets\n  method: post\n  operationId: createTimesheet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timesheets/{timesheet_id}/review\n  method: post\n  operationId: reviewTimesheet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/milestones\n  method: get\n  operationId: getMilestones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  - path: /contracts/{contract_id}/milestones\n  method: post\n  operationId: createMilestone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /off-cycle\n  method: post\n  operationId: createOffCyclePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ic-invoicing/taxes/{contract_id}\n  method: get\n  operationId: getIcInvoicingTaxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
-  \    audit: none\n- path: /organizations\n  method: get\n  operationId: getOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/structure\n  method: get\n  operationId: getOrganizationStructure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /legal-entities\n  method: get\n  operationId: getLegalEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /legal-entities\n  method: post\n  operationId: createLegalEntity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /contracts\n  method: get\n  operationId: getContracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/{contract_id}\n  method: get\n  operationId: getContract\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoice-adjustments\n  method: get\n  operationId: getInvoiceAdjustments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoice-adjustments\n  method: post\n  operationId: createInvoiceAdjustment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lookups/countries\n  method: get\n  operationId: getCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/currencies\n  method: get\n  operationId: getCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/job-titles\n  method: get\n  operationId: getJobTitles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/seniority-levels\n  method: get\n  operationId: getSeniorityLevels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  - path: /magic-link\n  method: post\n  operationId: createMagicLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /managers\n  method: get\n  operationId: getManagers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /managers\n  method: post\n  operationId: createManager\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom-fields/contracts\n  method: get\n  operationId: getCustomFieldsContracts\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eor/employment-cost\n  method: post\n  operationId: calculateEmploymentCost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/hiring-guide/{country_code}\n  method: get\n  operationId: getEorHiringGuideByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eor/start-date\n  method: get\n  operationId: getStartDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eor/additional-costs\n  method: get\n  operationId:\
-  \ getAdditionalCosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eor/contracts\n  method: post\n  operationId: createEorContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/contracts/{contract_id}/accept-quote\n  method: post\n  operationId: acceptEorQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/contracts/{contract_id}/cancel\n  method: post\n  operationId: cancelEorContract\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/contracts/{contract_id}/amendments\n  method: post\n  operationId: createEorAmendment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/contracts/{contract_id}/terminations\n  method: post\n  operationId: createEorTermination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /eor/benefits/{country_code}\n  method: get\n  operationId: getEorBenefitsByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eor/workers/{worker_id}\n  method: get\n  operationId: getEorWorker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eor/workers/{worker_id}/payslips\n  method: get\n  operationId: getEorWorkerPayslips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gp/payroll-events\n  method: get\n  operationId: getPayrollEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gp/payroll-events/{event_id}\n  method: get\n  operationId:\
-  \ getPayrollEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gp/adjustments\n  method: get\n  operationId: getAdjustments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gp/adjustments\n  method: post\n  operationId: createAdjustment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gp/time-tracking/shifts\n  method: get\n  operationId: getShifts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gp/time-tracking/shifts\n  method: post\n\
-  \  operationId: createShift\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payslips\n  method: get\n  operationId: getPayslips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paystubs\n  method: get\n  operationId: getPaystubs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gp/contracts\n  method: post\n  operationId: createGpContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n    \
-  \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people\n  method: get\n  operationId: getPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people\n  method: post\n  operationId: createPersonWithoutContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people/{person_id}\n  method: get\n  operationId: getPersonById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{person_id}/working-location\n  method: patch\n  operationId: updateWorkingLocation\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time-off/policies\n  method: get\n  operationId: getTimeOffPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /time-off/requests\n  method: get\n  operationId: getTimeOffRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /time-off/requests\n  method: post\n  operationId: createTimeOffRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
-  \   - high-value\n    audit: required\n- path: /time-off/requests/{request_id}/review\n  method: post\n  operationId: reviewTimeOffRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time-off/requests/{request_id}\n  method: delete\n  operationId: cancelTimeOffRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time-off/entitlements/{person_id}\n  method: get\n  operationId: getEntitlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /time-off/work-schedule/{person_id}\n  method: get\n  operationId: getWorkSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users\n  method: get\n  operationId: scimListUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users\n  method: post\n  operationId: scimCreateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/Users/{user_id}\n  method: get\n  operationId: scimGetUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users/{user_id}\n  method: patch\n  operationId: scimPatchUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/Users/{user_id}\n  method: delete\n  operationId: scimDeleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /screenings\n  method: get\n  operationId: getScreenings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /screenings\n\
-  \  method: post\n  operationId: createScreening\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /screenings/{screening_id}\n  method: get\n  operationId: getScreening\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /immigration/visa-types\n  method: get\n  operationId: getVisaTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /immigration/business-visa/requirements\n  method: get\n  operationId: getBusinessVisaRequirement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /immigration/cases\n  method: get\n  operationId: getImmigrationCases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /immigration/cases/{case_id}\n  method: get\n  operationId: getImmigrationCase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /immigration/cases/{case_id}/required-documents/{document_id}\n  method: post\n  operationId: uploadRequiredDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deel-it/assets\n  method: get\n  operationId: getDeelItAssets\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deel-it/orders\n  method: post\n  operationId: createAssetOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
-  \ - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/events\n\
-  \  method: get\n  operationId: getWebhookEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/deel-com-adjustments-api-openapi.yml, openapi/deel-com-applications-api-openapi.yml,\n  openapi/deel-com-candidates-api-openapi.yml, openapi/deel-com-contractor-amendments-api-openapi.yml,\n  openapi/deel-com-contractor-hiring-api-openapi.yml, openapi/deel-com-contracts-api-openapi.yml,\n  openapi/deel-com-custom-fields-api-openapi.yml, openapi/deel-com-deel-it-api-openapi.yml,\n  openapi/deel-com-default-api-openapi.yml, openapi/deel-com-eor-amendments-api-openapi.yml,\n  openapi/deel-com-eor-benefits-api-openapi.yml, openapi/deel-com-eor-cost-calculator-api-openapi.yml,\n  openapi/deel-com-eor-hiring-api-openapi.yml, openapi/deel-com-eor-terminations-api-openapi.yml,\n  openapi/deel-com-eor-worker-information-api-openapi.yml, openapi/deel-com-global-payroll-api-openapi.yml,\n  openapi/deel-com-gp-hiring-api-openapi.yml, openapi/deel-com-ic-invoicing-taxes-api-openapi.yml,\n  openapi/deel-com-immigration-api-openapi.yml,\
+  \ openapi/deel-com-invoice-adjustments-api-openapi.yml,\n  openapi/deel-com-jobs-api-openapi.yml, openapi/deel-com-legal-entities-api-openapi.yml, openapi/deel-com-lookups-api-openapi.yml,\n  openapi/deel-com-magic-link-api-openapi.yml, openapi/deel-com-managers-api-openapi.yml, openapi/deel-com-milestones-api-openapi.yml,\n  openapi/deel-com-off-cycle-api-openapi.yml, openapi/deel-com-offers-api-openapi.yml, openapi/deel-com-organizations-api-openapi.yml,\n  openapi/deel-com-payslips-api-openapi.yml, openapi/deel-com-paystubs-api-openapi.yml, openapi/deel-com-people-api-openapi.yml,\n  openapi/deel-com-reference-data-api-openapi.yml, openapi/deel-com-scim-api-openapi.yml, openapi/deel-com-screenings-api-openapi.yml,\n  openapi/deel-com-subpackage-accounting-api-openapi.yml, openapi/deel-com-subpackage-adjustments-api-openapi.yml,\n  openapi/deel-com-subpackage-assets-api-openapi.yml, openapi/deel-com-subpackage-ats-api-openapi.yml,\n  openapi/deel-com-subpackage-candidates-api-openapi.yml,\
+  \ openapi/deel-com-subpackage-consent-api-openapi.yml,\n  openapi/deel-com-subpackage-contractoramendments-api-openapi.yml, openapi/deel-com-subpackage-contractorhiring-api-openapi.yml,\n  openapi/deel-com-subpackage-contracts-api-openapi.yml, openapi/deel-com-subpackage-costcalculator-api-openapi.yml,\n  openapi/deel-com-subpackage-costcenters-api-openapi.yml, openapi/deel-com-subpackage-customfieldscontracts-api-openapi.yml,\n  openapi/deel-com-subpackage-customfieldspeople-api-openapi.yml, openapi/deel-com-subpackage-deelasaservice-api-openapi.yml,\n  openapi/deel-com-subpackage-employeeinformation-api-openapi.yml, openapi/deel-com-subpackage-employees-api-openapi.yml,\n  openapi/deel-com-subpackage-enrollments-api-openapi.yml, openapi/deel-com-subpackage-eoramendments-api-openapi.yml,\n  openapi/deel-com-subpackage-eorbenefits-api-openapi.yml, openapi/deel-com-subpackage-eorcontract-api-openapi.yml,\n  openapi/deel-com-subpackage-eorcontractdocuments-api-openapi.yml, openapi/deel-com-subpackage-eorhiring-api-openapi.yml,\n\
+  \  openapi/deel-com-subpackage-eorjobscopes-api-openapi.yml, openapi/deel-com-subpackage-eoroffboarding-api-openapi.yml,\n  openapi/deel-com-subpackage-eorprojectassignment-api-openapi.yml, openapi/deel-com-subpackage-eorterminations-api-openapi.yml,\n  openapi/deel-com-subpackage-eorworkeraccounts-api-openapi.yml, openapi/deel-com-subpackage-eorworkeragreements-api-openapi.yml,\n  openapi/deel-com-subpackage-eorworkerbanks-api-openapi.yml, openapi/deel-com-subpackage-eorworkerbenefits-api-openapi.yml,\n  openapi/deel-com-subpackage-eorworkercompliance-api-openapi.yml, openapi/deel-com-subpackage-eorworkerdocuments-api-openapi.yml,\n  openapi/deel-com-subpackage-eorworkerinformation-api-openapi.yml, openapi/deel-com-subpackage-eorworkermailboxes-api-openapi.yml,\n  openapi/deel-com-subpackage-eorworkeroffboarding-api-openapi.yml, openapi/deel-com-subpackage-eorworkerpayslips-api-openapi.yml,\n  openapi/deel-com-subpackage-equitytokens-api-openapi.yml, openapi/deel-com-subpackage-forms-api-openapi.yml,\n\
+  \  openapi/deel-com-subpackage-globalpayroll-api-openapi.yml, openapi/deel-com-subpackage-gphiring-api-openapi.yml,\n  openapi/deel-com-subpackage-groups-api-openapi.yml, openapi/deel-com-subpackage-hrxdocuments-api-openapi.yml,\n  openapi/deel-com-subpackage-icinvoicingtaxes-api-openapi.yml, openapi/deel-com-subpackage-immigration-api-openapi.yml,\n  openapi/deel-com-subpackage-integrations-api-openapi.yml, openapi/deel-com-subpackage-invoiceadjustments-api-openapi.yml,\n  openapi/deel-com-subpackage-knowledgehub-api-openapi.yml, openapi/deel-com-subpackage-learning-api-openapi.yml,\n  openapi/deel-com-subpackage-legalentities-api-openapi.yml, openapi/deel-com-subpackage-listcycles-api-openapi.yml,\n  openapi/deel-com-subpackage-lookups-api-openapi.yml, openapi/deel-com-subpackage-managers-api-openapi.yml,\n  openapi/deel-com-subpackage-milestones-api-openapi.yml, openapi/deel-com-subpackage-offboarding-api-openapi.yml,\n  openapi/deel-com-subpackage-offcycle-api-openapi.yml, openapi/deel-com-subpackage-onboarding-api-openapi.yml,\n\
+  \  openapi/deel-com-subpackage-orders-api-openapi.yml, openapi/deel-com-subpackage-organizations-api-openapi.yml,\n  openapi/deel-com-subpackage-organizationstructure-api-openapi.yml, openapi/deel-com-subpackage-organizationtasks-api-openapi.yml,\n  openapi/deel-com-subpackage-payouts-api-openapi.yml, openapi/deel-com-subpackage-payroll-api-openapi.yml,\n  openapi/deel-com-subpackage-payslips-api-openapi.yml, openapi/deel-com-subpackage-paystubs-api-openapi.yml,\n  openapi/deel-com-subpackage-people-api-openapi.yml, openapi/deel-com-subpackage-personalinformation-api-openapi.yml,\n  openapi/deel-com-subpackage-plans401k-api-openapi.yml, openapi/deel-com-subpackage-policies-api-openapi.yml,\n  openapi/deel-com-subpackage-positions-api-openapi.yml, openapi/deel-com-subpackage-projects-api-openapi.yml,\n  openapi/deel-com-subpackage-reports-api-openapi.yml, openapi/deel-com-subpackage-screenings-api-openapi.yml,\n  openapi/deel-com-subpackage-serviceproviderconfig-api-openapi.yml, openapi/deel-com-subpackage-tasks-api-openapi.yml,\n\
+  \  openapi/deel-com-subpackage-terminations-api-openapi.yml, openapi/deel-com-subpackage-timeoff-api-openapi.yml,\n  openapi/deel-com-subpackage-timesheets-api-openapi.yml, openapi/deel-com-subpackage-timetracking-api-openapi.yml,\n  openapi/deel-com-subpackage-timetrackingshifts-api-openapi.yml, openapi/deel-com-subpackage-treasury-api-openapi.yml,\n  openapi/deel-com-subpackage-user-api-openapi.yml, openapi/deel-com-subpackage-users-api-openapi.yml,\n  openapi/deel-com-subpackage-webhooks-api-openapi.yml, openapi/deel-com-subpackage-workerhr-api-openapi.yml,\n  openapi/deel-com-subpackage-workerinformation-api-openapi.yml, openapi/deel-com-subpackage-workerrelations-api-openapi.yml,\n  openapi/deel-com-subpackage-workers-api-openapi.yml, openapi/deel-com-subpackage-workersession-api-openapi.yml,\n  openapi/deel-com-time-off-api-openapi.yml, openapi/deel-com-time-tracking-api-openapi.yml,\n  openapi/deel-com-timesheets-api-openapi.yml, openapi/deel-com-webhook-events-api-openapi.yml,\n\
+  \  openapi/deel-com-webhooks-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 484\n  by_action_class:\n    connected: 256\n    acting: 228\n  by_consequence:\n    read: 256\n    write: 206\n    physical: 17\n    safety-critical: 5\n  human_in_the_loop_required: 5\noperations:\n- path: /gp/adjustments\n  method: get\n  operationId: getAdjustments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gp/adjustments\n  method: post\n  operationId: createAdjustment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/applications\n  method: get\n  operationId: getAtsApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/applications\n  method: post\n  operationId: createAtsApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/applications/{application_id}/stage\n  method: patch\n  operationId: advanceApplicationStage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
+  \   - abnormal\n      - high-value\n    audit: required\n- path: /ats/candidates\n  method: get\n  operationId: getAtsCandidates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/candidates\n  method: post\n  operationId: createAtsCandidate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/amendments\n  method: post\n  operationId: createContractorAmendment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
+  - path: /contracts/{contract_id}/amendments/bulk-sign\n  method: post\n  operationId: bulkSignAmendments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/ic\n  method: post\n  operationId: createIcContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/external-id\n  method: patch\n  operationId: addExternalId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts\n  method: get\n  operationId: getContracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/{contract_id}\n  method: get\n  operationId: getContract\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom-fields/contracts\n  method: get\n  operationId: getCustomFieldsContracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deel-it/assets\n  method: get\n  operationId: getDeelItAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deel-it/orders\n\
+  \  method: post\n  operationId: createAssetOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profiles\n  method: patch\n  operationId: profiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/contracts/{contract_id}/amendments\n  method: post\n  operationId: createEorAmendment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/benefits/{country_code}\n  method: get\n  operationId: getEorBenefitsByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eor/employment-cost\n  method: post\n  operationId: calculateEmploymentCost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/hiring-guide/{country_code}\n  method: get\n  operationId: getEorHiringGuideByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eor/start-date\n  method: get\n  operationId: getStartDate\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eor/additional-costs\n  method: get\n  operationId: getAdditionalCosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eor/contracts\n  method: post\n  operationId: createEorContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/contracts/{contract_id}/accept-quote\n  method: post\n  operationId: acceptEorQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/contracts/{contract_id}/cancel\n  method: post\n  operationId: cancelEorContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/contracts/{contract_id}/terminations\n  method: post\n  operationId: createEorTermination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eor/workers/{worker_id}\n  method: get\n  operationId: getEorWorker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eor/workers/{worker_id}/payslips\n  method: get\n  operationId: getEorWorkerPayslips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gp/payroll-events\n  method: get\n  operationId: getPayrollEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gp/payroll-events/{event_id}\n  method: get\n  operationId: getPayrollEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gp/contracts\n  method: post\n  operationId: createGpContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ic-invoicing/taxes/{contract_id}\n  method: get\n  operationId: getIcInvoicingTaxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /immigration/visa-types\n  method: get\n  operationId: getVisaTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /immigration/business-visa/requirements\n  method: get\n  operationId: getBusinessVisaRequirement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /immigration/cases\n  method: get\n  operationId: getImmigrationCases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
+  \ max-ttl: 3600\n    audit: none\n- path: /immigration/cases/{case_id}\n  method: get\n  operationId: getImmigrationCase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /immigration/cases/{case_id}/required-documents/{document_id}\n  method: post\n  operationId: uploadRequiredDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoice-adjustments\n  method: get\n  operationId: getInvoiceAdjustments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoice-adjustments\n  method: post\n  operationId: createInvoiceAdjustment\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/jobs\n  method: get\n  operationId: getAtsJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/jobs\n  method: post\n  operationId: createAtsJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/jobs/{job_id}/postings\n  method: get\n  operationId: getAtsJobPostings\n  x-agentic-access:\n    action-class: connected\n   \
+  \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /legal-entities\n  method: get\n  operationId: getLegalEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /legal-entities\n  method: post\n  operationId: createLegalEntity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lookups/countries\n  method: get\n  operationId: getCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/currencies\n  method: get\n  operationId: getCurrencies\n  x-agentic-access:\n    action-class: connected\n\
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/job-titles\n  method: get\n  operationId: getJobTitles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/seniority-levels\n  method: get\n  operationId: getSeniorityLevels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /magic-link\n  method: post\n  operationId: createMagicLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /managers\n  method: get\n  operationId: getManagers\n  x-agentic-access:\n    action-class: connected\n\
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /managers\n  method: post\n  operationId: createManager\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/milestones\n  method: get\n  operationId: getMilestones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/{contract_id}/milestones\n  method: post\n  operationId: createMilestone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
+  \      - high-value\n    audit: required\n- path: /off-cycle\n  method: post\n  operationId: createOffCyclePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/offers\n  method: post\n  operationId: createAtsOffer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/offers/{offer_id}\n  method: get\n  operationId: getAtsOffer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
+  \  audit: none\n- path: /organizations\n  method: get\n  operationId: getOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/structure\n  method: get\n  operationId: getOrganizationStructure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payslips\n  method: get\n  operationId: getPayslips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paystubs\n  method: get\n  operationId: getPaystubs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people\n  method: get\n  operationId: getPeople\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people\n  method: post\n  operationId: createPersonWithoutContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people/{person_id}\n  method: get\n  operationId: getPersonById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{person_id}/working-location\n  method: patch\n  operationId: updateWorkingLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
+  \ high-value\n    audit: required\n- path: /ats/departments\n  method: get\n  operationId: getAtsDepartments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/employment-types\n  method: get\n  operationId: getAtsEmploymentTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/locations\n  method: get\n  operationId: getAtsLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users\n  method: get\n  operationId: scimListUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users\n  method: post\n  operationId: scimCreateUser\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/Users/{user_id}\n  method: get\n  operationId: scimGetUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users/{user_id}\n  method: patch\n  operationId: scimPatchUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/Users/{user_id}\n  method: delete\n  operationId: scimDeleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
+  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /screenings\n  method: get\n  operationId: getScreenings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /screenings\n  method: post\n  operationId: createScreening\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /screenings/{screening_id}\n  method: get\n  operationId: getScreening\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{id}/download\n\
+  \  method: get\n  operationId: get-billing-invoice-download-link\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{invoice_id}\n  method: get\n  operationId: get-invoice-by-id-v-2026-01-01\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/{payment_id}/breakdown\n  method: get\n  operationId: retrieve-a-payment-breakdown-v-2026-01-01\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/deel\n  method: get\n  operationId: retrieve-deel-invoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices\n  method: get\n  operationId: retrieve-invoices\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: get\n  operationId: retrieve-payment-receipts-v-2026-01-01\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /adjustments\n  method: post\n  operationId: create-contract-adjustment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /adjustments/{id}\n  method: delete\n  operationId: delete-contract-adjustment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /adjustments/{id}\n  method: get\n  operationId: get-contract-adjustment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /adjustments/{id}\n  method: patch\n  operationId: update-contract-adjustment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/adjustments\n  method: get\n  operationId: get-contract-adjustments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /adjustments/categories\n  method: get\n  operationId: get-adjustment-categories\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /it/assets/{asset_id}\n  method: get\n  operationId: get-it-asset-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /it/assets\n  method: get\n  operationId: get-it-assets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ats/applications/{application_id}/notes\n  method: post\n  operationId: add-note-to-an-application-v-2026-01-01\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/applications/{application_id}/interview-plan-stages\n\
+  \  method: post\n  operationId: associate-application-with-an-interview-plan-stage-v-2026-01-01\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ats/applications\n  method: post\n  operationId: create-ats-application-v-2026-01-01\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\n\n# --- truncated at 32 KB (148 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/agentic-access/deel-com-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/agentic-access/deel-com-agentic-access.yml
-summary_line: 93 operations · 40 acting
+summary_line: 484 operations · 228 acting · 5 human-in-the-loop
 tags:
-- HR
+- Human Resources
 - Payroll
 - Global Payroll
-- EOR
 - Employer of Record
 - Contractors
 - HRIS

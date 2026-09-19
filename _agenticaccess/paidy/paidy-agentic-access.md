@@ -76,7 +76,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paidy/refs/hea
 summary_line: 11 operations · 8 acting
 tags:
 - Buy Now Pay Later
-- BNPL
 - Payments
 - Japan
 - Checkout

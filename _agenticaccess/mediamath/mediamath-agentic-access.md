@@ -405,7 +405,6 @@ summary_line: 207 operations · 88 acting
 tags:
 - Programmatic Advertising
 - DSP
-- Demand-Side Platform
 - Campaign Management
 - AdTech
 - Bidding

@@ -60,7 +60,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-issue-tracker-api-openapi.yml
 - filename: bitbucket-pipelines-pipelines-api-openapi.yml
   format: yaml
-  label: Bitbucket Pipelines Pipelines API
+  label: Bitbucket Pipelines API
   slug: bitbucket-pipelines-pipelines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-pipelines-api-openapi.yml
@@ -76,12 +76,6 @@ api_specs:
   slug: bitbucket-pipelines-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-properties-api-openapi.yml
-- filename: bitbucket-pipelines-pullrequests-api-openapi.yml
-  format: yaml
-  label: Bitbucket Pipelines Pullrequests API
-  slug: bitbucket-pipelines-pullrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-pullrequests-api-openapi.yml
 - filename: bitbucket-pipelines-refs-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines Refs API
@@ -142,6 +136,12 @@ api_specs:
   slug: bitbucket-pipelines-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-workspaces-api-openapi.yml
+- filename: bitbucket-pipelines-pull-requests-api-openapi.yml
+  format: yaml
+  label: Bitbucket Pipelines Pull Requests API
+  slug: bitbucket-pipelines-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-pull-requests-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 181
@@ -292,4 +292,5 @@ tags:
 - Bitbucket
 - Hosted
 - Self-Hosted Runners
+- Developer Tools
 ---

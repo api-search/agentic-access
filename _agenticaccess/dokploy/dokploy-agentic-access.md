@@ -22,12 +22,6 @@ api_specs:
   slug: dokploy-application-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/openapi/dokploy-application-api-openapi.yml
-- filename: dokploy-auditlog-api-openapi.yml
-  format: yaml
-  label: Dokploy auditLog API
-  slug: dokploy-auditlog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/openapi/dokploy-auditlog-api-openapi.yml
 - filename: dokploy-backup-api-openapi.yml
   format: yaml
   label: Dokploy backup API
@@ -244,12 +238,6 @@ api_specs:
   slug: dokploy-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/openapi/dokploy-settings-api-openapi.yml
-- filename: dokploy-sshkey-api-openapi.yml
-  format: yaml
-  label: Dokploy sshKey API
-  slug: dokploy-sshkey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/openapi/dokploy-sshkey-api-openapi.yml
 - filename: dokploy-sso-api-openapi.yml
   format: yaml
   label: Dokploy sso API
@@ -292,6 +280,18 @@ api_specs:
   slug: dokploy-whitelabeling-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/openapi/dokploy-whitelabeling-api-openapi.yml
+- filename: dokploy-audit-log-api-openapi.yml
+  format: yaml
+  label: Dokploy Audit Log API
+  slug: dokploy-audit-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/openapi/dokploy-audit-log-api-openapi.yml
+- filename: dokploy-ssh-key-api-openapi.yml
+  format: yaml
+  label: Dokploy SSH Key API
+  slug: dokploy-ssh-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dokploy/refs/heads/main/openapi/dokploy-ssh-key-api-openapi.yml
 consequence_counts:
   physical: 28
   read: 187
@@ -492,5 +492,5 @@ tags:
 - Docker Swarm
 - Deployment
 - Traefik
-- Databases
+- Database
 ---

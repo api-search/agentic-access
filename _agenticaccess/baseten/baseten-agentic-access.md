@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/h
 summary_line: 2 operations · 2 acting
 tags:
 - Artificial Intelligence
-- ML
+- Machine-Learning
 - Inference
 - Deployment
 - MLOps

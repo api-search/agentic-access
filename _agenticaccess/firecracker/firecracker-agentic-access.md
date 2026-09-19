@@ -42,7 +42,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-entropy-api-openapi.yml
 - filename: firecracker-firecracker-api-api-openapi.yml
   format: yaml
-  label: Firecracker Firecracker API API
+  label: Firecracker API
   slug: firecracker-firecracker-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/openapi/firecracker-firecracker-api-api-openapi.yml
@@ -169,7 +169,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firecracker/re
 summary_line: 38 operations · 29 acting · 1 human-in-the-loop
 tags:
 - Containers
-- MicroVMs
+- MicroVM
 - Open-Source
 - Serverless
 - Virtualization

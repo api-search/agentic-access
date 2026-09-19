@@ -22,12 +22,6 @@ api_specs:
   slug: appmixer-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-authentication-api-openapi.yml
-- filename: appmixer-data-stores-api-openapi.yml
-  format: yaml
-  label: Appmixer Data Stores API
-  slug: appmixer-data-stores-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-data-stores-api-openapi.yml
 - filename: appmixer-files-api-openapi.yml
   format: yaml
   label: Appmixer Files API
@@ -76,6 +70,12 @@ api_specs:
   slug: appmixer-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-users-api-openapi.yml
+- filename: appmixer-datastores-api-openapi.yml
+  format: yaml
+  label: Appmixer Datastores API
+  slug: appmixer-datastores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-datastores-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1

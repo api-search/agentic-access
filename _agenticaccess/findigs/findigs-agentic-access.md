@@ -62,7 +62,7 @@ tags:
 - Identity Verification
 - Income Verification
 - Credit Check
-- Background Check
+- Background Checks
 - Fraud Detection
 - Property Management
 - Real-Estate

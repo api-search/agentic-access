@@ -276,7 +276,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/art-institute-
 summary_line: 103 operations
 tags:
 - Art And Design
-- Museum
+- Museums
 - Open Data
 - Cultural Heritage
 - IIIF

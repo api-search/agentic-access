@@ -4,15 +4,9 @@ action_class_counts:
   acting: 5
   connected: 5
 api_specs:
-- filename: google-chat-integrations-for-workspace-customemojis-api-openapi.yml
-  format: yaml
-  label: Google Chat Integrations for Workspace CustomEmojis API
-  slug: google-chat-integrations-for-workspace-customemojis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-customemojis-api-openapi.yml
 - filename: google-chat-integrations-for-workspace-google-chat-api-api-openapi.yml
   format: yaml
-  label: Google Chat Integrations for Workspace Google Chat API API
+  label: Google Chat Integrations for Workspace Google Chat API
   slug: google-chat-integrations-for-workspace-google-chat-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-google-chat-api-api-openapi.yml
@@ -46,6 +40,12 @@ api_specs:
   slug: google-chat-integrations-for-workspace-spaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-spaces-api-openapi.yml
+- filename: google-chat-integrations-for-workspace-custom-emojis-api-openapi.yml
+  format: yaml
+  label: Google Chat Integrations for Workspace Custom Emojis API
+  slug: google-chat-integrations-for-workspace-custom-emojis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-custom-emojis-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -89,7 +89,7 @@ tags:
 - Messaging
 - Collaboration
 - Chat Apps
-- Spaces
+- Space
 - Slash Commands
 - Bots
 ---

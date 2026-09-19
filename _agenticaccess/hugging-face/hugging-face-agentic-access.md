@@ -178,5 +178,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/huggin
   \ getMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokenize\n  method: post\n  operationId: tokenize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/agentic-access/hugging-face-agentic-access.yml
 summary_line: 68 operations · 35 acting
-tags: []
+tags:
+- Computer-Vision
+- Embeddings
+- Image-Generation
+- LLM
+- Hugging Face
 ---

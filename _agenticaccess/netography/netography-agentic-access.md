@@ -28,12 +28,6 @@ api_specs:
   slug: netography-auto-thresholds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/openapi/netography-auto-thresholds-api-openapi.yml
-- filename: netography-block-list-api-openapi.yml
-  format: yaml
-  label: Netography Block List API
-  slug: netography-block-list-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/openapi/netography-block-list-api-openapi.yml
 - filename: netography-configuration-api-openapi.yml
   format: yaml
   label: Netography Configuration API
@@ -172,6 +166,12 @@ api_specs:
   slug: netography-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/openapi/netography-users-api-openapi.yml
+- filename: netography-blocklist-api-openapi.yml
+  format: yaml
+  label: Netography Blocklist API
+  slug: netography-blocklist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netography/refs/heads/main/openapi/netography-blocklist-api-openapi.yml
 consequence_counts:
   read: 72
   safety-critical: 14

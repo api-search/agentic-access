@@ -200,9 +200,9 @@ summary_line: 128 operations · 62 acting · 6 human-in-the-loop
 tags:
 - Artificial Intelligence
 - Agents
-- Sandboxes
+- Sandbox
 - VMs
-- MicroVMs
+- MicroVM
 - Git
 - Code Execution
 - JavaScript

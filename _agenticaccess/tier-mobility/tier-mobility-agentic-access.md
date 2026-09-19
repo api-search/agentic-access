@@ -67,7 +67,7 @@ tags:
 - Micromobility
 - Shared Mobility
 - E-Scooter
-- E-Bike
+- E-Bikes
 - Transportation
 - Smart Cities
 - MaaS

@@ -1,8 +1,8 @@
 ---
-acting_count: 17655
+acting_count: 7537
 action_class_counts:
-  acting: 17655
-  connected: 19450
+  acting: 7537
+  connected: 8404
 api_specs:
 - filename: microsoft-graph-admin-admin-api-openapi.yml
   format: yaml
@@ -22,12 +22,6 @@ api_specs:
   slug: microsoft-graph-admin-adminreportsettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-admin-adminreportsettings-api-openapi.yml
-- filename: microsoft-graph-admin-consent-policy-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Admin Consent Policy API
-  slug: microsoft-graph-admin-consent-policy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-admin-consent-policy-api-openapi.yml
 - filename: microsoft-graph-admin-edge-api-openapi.yml
   format: yaml
   label: Microsoft Graph Admin.edge API
@@ -52,18 +46,6 @@ api_specs:
   slug: microsoft-graph-admin-sharepoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-admin-sharepoint-api-openapi.yml
-- filename: microsoft-graph-administration-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Administration API
-  slug: microsoft-graph-administration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-administration-api-openapi.yml
-- filename: microsoft-graph-administrative-units-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Administrative Units API
-  slug: microsoft-graph-administrative-units-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-administrative-units-api-openapi.yml
 - filename: microsoft-graph-agreement-acceptances-api-openapi.yml
   format: yaml
   label: Microsoft Graph Agreement Acceptances API
@@ -124,18 +106,6 @@ api_specs:
   slug: microsoft-graph-agreements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-agreements-api-openapi.yml
-- filename: microsoft-graph-app-catalogs-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph App Catalogs API
-  slug: microsoft-graph-app-catalogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-app-catalogs-api-openapi.yml
-- filename: microsoft-graph-app-catalogs-teams-apps-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph App Catalogs Teams Apps API
-  slug: microsoft-graph-app-catalogs-teams-apps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-app-catalogs-teams-apps-api-openapi.yml
 - filename: microsoft-graph-appcatalogs-appcatalogs-api-openapi.yml
   format: yaml
   label: Microsoft Graph appCatalogs.appCatalogs API
@@ -148,48 +118,6 @@ api_specs:
   slug: microsoft-graph-appcatalogs-teamsapp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-appcatalogs-teamsapp-api-openapi.yml
-- filename: microsoft-graph-application-templates-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Application Templates API
-  slug: microsoft-graph-application-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-application-templates-api-openapi.yml
-- filename: microsoft-graph-application-templates-instantiate-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Application Templates Instantiate API
-  slug: microsoft-graph-application-templates-instantiate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-application-templates-instantiate-api-openapi.yml
-- filename: microsoft-graph-applications-add-key-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Add Key API
-  slug: microsoft-graph-applications-add-key-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-add-key-api-openapi.yml
-- filename: microsoft-graph-applications-add-password-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Add Password API
-  slug: microsoft-graph-applications-add-password-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-add-password-api-openapi.yml
-- filename: microsoft-graph-applications-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications API
-  slug: microsoft-graph-applications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-api-openapi.yml
-- filename: microsoft-graph-applications-app-id-app-id-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications(app Id='{app Id}') API
-  slug: microsoft-graph-applications-app-id-app-id-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-app-id-app-id-api-openapi.yml
-- filename: microsoft-graph-applications-app-management-policies-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications App Management Policies API
-  slug: microsoft-graph-applications-app-management-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-app-management-policies-api-openapi.yml
 - filename: microsoft-graph-applications-application-actions-api-openapi.yml
   format: yaml
   label: Microsoft Graph applications.application.Actions API
@@ -214,156 +142,36 @@ api_specs:
   slug: microsoft-graph-applications-appmanagementpolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-appmanagementpolicy-api-openapi.yml
-- filename: microsoft-graph-applications-check-member-groups-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Check Member Groups API
-  slug: microsoft-graph-applications-check-member-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-check-member-groups-api-openapi.yml
-- filename: microsoft-graph-applications-check-member-objects-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Check Member Objects API
-  slug: microsoft-graph-applications-check-member-objects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-check-member-objects-api-openapi.yml
-- filename: microsoft-graph-applications-created-on-behalf-of-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Created on Behalf Of API
-  slug: microsoft-graph-applications-created-on-behalf-of-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-created-on-behalf-of-api-openapi.yml
-- filename: microsoft-graph-applications-delta-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Delta() API
-  slug: microsoft-graph-applications-delta-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-delta-api-openapi.yml
 - filename: microsoft-graph-applications-directoryobject-api-openapi.yml
   format: yaml
   label: Microsoft Graph applications.directoryObject API
   slug: microsoft-graph-applications-directoryobject-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-directoryobject-api-openapi.yml
-- filename: microsoft-graph-applications-extension-properties-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Extension Properties API
-  slug: microsoft-graph-applications-extension-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-extension-properties-api-openapi.yml
 - filename: microsoft-graph-applications-extensionproperty-api-openapi.yml
   format: yaml
   label: Microsoft Graph applications.extensionProperty API
   slug: microsoft-graph-applications-extensionproperty-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-extensionproperty-api-openapi.yml
-- filename: microsoft-graph-applications-federated-identity-credentials-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Federated Identity Credentials API
-  slug: microsoft-graph-applications-federated-identity-credentials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-federated-identity-credentials-api-openapi.yml
-- filename: microsoft-graph-applications-federated-identity-credentials-name-name-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Federated Identity Credentials(name='{name}') API
-  slug: microsoft-graph-applications-federated-identity-credentials-name-name-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-federated-identity-credentials-name-name-api-openapi.yml
 - filename: microsoft-graph-applications-federatedidentitycredential-api-openapi.yml
   format: yaml
   label: Microsoft Graph applications.federatedIdentityCredential API
   slug: microsoft-graph-applications-federatedidentitycredential-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-federatedidentitycredential-api-openapi.yml
-- filename: microsoft-graph-applications-get-available-extension-properties-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Get Available Extension Properties API
-  slug: microsoft-graph-applications-get-available-extension-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-get-available-extension-properties-api-openapi.yml
-- filename: microsoft-graph-applications-get-by-ids-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Get by Ids API
-  slug: microsoft-graph-applications-get-by-ids-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-get-by-ids-api-openapi.yml
-- filename: microsoft-graph-applications-get-member-groups-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Get Member Groups API
-  slug: microsoft-graph-applications-get-member-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-get-member-groups-api-openapi.yml
-- filename: microsoft-graph-applications-get-member-objects-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Get Member Objects API
-  slug: microsoft-graph-applications-get-member-objects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-get-member-objects-api-openapi.yml
-- filename: microsoft-graph-applications-home-realm-discovery-policies-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Home Realm Discovery Policies API
-  slug: microsoft-graph-applications-home-realm-discovery-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-home-realm-discovery-policies-api-openapi.yml
 - filename: microsoft-graph-applications-homerealmdiscoverypolicy-api-openapi.yml
   format: yaml
   label: Microsoft Graph applications.homeRealmDiscoveryPolicy API
   slug: microsoft-graph-applications-homerealmdiscoverypolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-homerealmdiscoverypolicy-api-openapi.yml
-- filename: microsoft-graph-applications-logo-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Logo API
-  slug: microsoft-graph-applications-logo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-logo-api-openapi.yml
-- filename: microsoft-graph-applications-owners-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Owners API
-  slug: microsoft-graph-applications-owners-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-owners-api-openapi.yml
-- filename: microsoft-graph-applications-remove-key-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Remove Key API
-  slug: microsoft-graph-applications-remove-key-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-remove-key-api-openapi.yml
-- filename: microsoft-graph-applications-remove-password-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Remove Password API
-  slug: microsoft-graph-applications-remove-password-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-remove-password-api-openapi.yml
-- filename: microsoft-graph-applications-restore-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Restore API
-  slug: microsoft-graph-applications-restore-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-restore-api-openapi.yml
-- filename: microsoft-graph-applications-set-verified-publisher-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Set Verified Publisher API
-  slug: microsoft-graph-applications-set-verified-publisher-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-set-verified-publisher-api-openapi.yml
 - filename: microsoft-graph-applications-synchronization-api-openapi.yml
   format: yaml
   label: Microsoft Graph Applications Synchronization API
   slug: microsoft-graph-applications-synchronization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-synchronization-api-openapi.yml
-- filename: microsoft-graph-applications-token-issuance-policies-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Token Issuance Policies API
-  slug: microsoft-graph-applications-token-issuance-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-token-issuance-policies-api-openapi.yml
-- filename: microsoft-graph-applications-token-lifetime-policies-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Token Lifetime Policies API
-  slug: microsoft-graph-applications-token-lifetime-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-token-lifetime-policies-api-openapi.yml
 - filename: microsoft-graph-applications-tokenissuancepolicy-api-openapi.yml
   format: yaml
   label: Microsoft Graph applications.tokenIssuancePolicy API
@@ -376,24 +184,6 @@ api_specs:
   slug: microsoft-graph-applications-tokenlifetimepolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-tokenlifetimepolicy-api-openapi.yml
-- filename: microsoft-graph-applications-unique-name-unique-name-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications(unique Name='{unique Name}') API
-  slug: microsoft-graph-applications-unique-name-unique-name-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-unique-name-unique-name-api-openapi.yml
-- filename: microsoft-graph-applications-unset-verified-publisher-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Unset Verified Publisher API
-  slug: microsoft-graph-applications-unset-verified-publisher-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-unset-verified-publisher-api-openapi.yml
-- filename: microsoft-graph-applications-validate-properties-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Applications Validate Properties API
-  slug: microsoft-graph-applications-validate-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applications-validate-properties-api-openapi.yml
 - filename: microsoft-graph-applicationtemplates-applicationtemplate-actions-api-openapi.yml
   format: yaml
   label: Microsoft Graph applicationTemplates.applicationTemplate.Actions API
@@ -406,30 +196,6 @@ api_specs:
   slug: microsoft-graph-applicationtemplates-applicationtemplate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-applicationtemplates-applicationtemplate-api-openapi.yml
-- filename: microsoft-graph-audit-logs-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Audit Logs API
-  slug: microsoft-graph-audit-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-audit-logs-api-openapi.yml
-- filename: microsoft-graph-audit-logs-directory-audits-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Audit Logs Directory Audits API
-  slug: microsoft-graph-audit-logs-directory-audits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-audit-logs-directory-audits-api-openapi.yml
-- filename: microsoft-graph-audit-logs-provisioning-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Audit Logs Provisioning API
-  slug: microsoft-graph-audit-logs-provisioning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-audit-logs-provisioning-api-openapi.yml
-- filename: microsoft-graph-audit-logs-sign-ins-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Audit Logs Sign Ins API
-  slug: microsoft-graph-audit-logs-sign-ins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-audit-logs-sign-ins-api-openapi.yml
 - filename: microsoft-graph-auditlogs-auditlogroot-api-openapi.yml
   format: yaml
   label: Microsoft Graph auditLogs.auditLogRoot API
@@ -472,12 +238,6 @@ api_specs:
   slug: microsoft-graph-authenticationmethodspolicy-authenticationmethodspolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-authenticationmethodspolicy-authenticationmethodspolicy-api-openapi.yml
-- filename: microsoft-graph-browser-site-lists-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Browser Site Lists API
-  slug: microsoft-graph-browser-site-lists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-browser-site-lists-api-openapi.yml
 - filename: microsoft-graph-certificatebasedauthconfiguration-certificatebasedauthconfiguration-api-openapi.yml
   format: yaml
   label: Microsoft Graph certificateBasedAuthConfiguration.certificateBasedAuthConfiguration API
@@ -682,12 +442,6 @@ api_specs:
   slug: microsoft-graph-contracts-contract-functions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-contracts-contract-functions-api-openapi.yml
-- filename: microsoft-graph-copilot-administration-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Copilot Administration API
-  slug: microsoft-graph-copilot-administration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-copilot-administration-api-openapi.yml
 - filename: microsoft-graph-copilot-aiinteractionhistory-api-openapi.yml
   format: yaml
   label: Microsoft Graph copilot.aiInteractionHistory API
@@ -1414,12 +1168,6 @@ api_specs:
   slug: microsoft-graph-drives-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-drives-user-api-openapi.yml
-- filename: microsoft-graph-edge-browser-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Edge Browser API
-  slug: microsoft-graph-edge-browser-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-edge-browser-api-openapi.yml
 - filename: microsoft-graph-education-educationclass-api-openapi.yml
   format: yaml
   label: Microsoft Graph education.educationClass API
@@ -1672,12 +1420,6 @@ api_specs:
   slug: microsoft-graph-groupsettingtemplates-groupsettingtemplate-functions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-groupsettingtemplates-groupsettingtemplate-functions-api-openapi.yml
-- filename: microsoft-graph-identity-authentication-events-flows-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Identity Authentication Events Flows API
-  slug: microsoft-graph-identity-authentication-events-flows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-identity-authentication-events-flows-api-openapi.yml
 - filename: microsoft-graph-identity-authenticationeventlistener-api-openapi.yml
   format: yaml
   label: Microsoft Graph identity.authenticationEventListener API
@@ -1846,12 +1588,6 @@ api_specs:
   slug: microsoft-graph-informationprotection-threatassessmentrequest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-informationprotection-threatassessmentrequest-api-openapi.yml
-- filename: microsoft-graph-internet-explorer-mode-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Internet Explorer Mode API
-  slug: microsoft-graph-internet-explorer-mode-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-internet-explorer-mode-api-openapi.yml
 - filename: microsoft-graph-invitations-directoryobject-api-openapi.yml
   format: yaml
   label: Microsoft Graph invitations.directoryObject API
@@ -2146,12 +1882,6 @@ api_specs:
   slug: microsoft-graph-me-userteamwork-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-me-userteamwork-api-openapi.yml
-- filename: microsoft-graph-microsoft-365-apps-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Microsoft 365 Apps API
-  slug: microsoft-graph-microsoft-365-apps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-microsoft-365-apps-api-openapi.yml
 - filename: microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-api-openapi.yml
   format: yaml
   label: Microsoft Graph oauth2PermissionGrants.oAuth2PermissionGrant API
@@ -2458,12 +2188,6 @@ api_specs:
   slug: microsoft-graph-privacy-subjectrightsrequest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-privacy-subjectrightsrequest-api-openapi.yml
-- filename: microsoft-graph-report-settings-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Report Settings API
-  slug: microsoft-graph-report-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-report-settings-api-openapi.yml
 - filename: microsoft-graph-reports-authenticationmethodsroot-api-openapi.yml
   format: yaml
   label: Microsoft Graph reports.authenticationMethodsRoot API
@@ -2650,12 +2374,6 @@ api_specs:
   slug: microsoft-graph-security-triggertypesroot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-security-triggertypesroot-api-openapi.yml
-- filename: microsoft-graph-service-announcements-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph Service Announcements API
-  slug: microsoft-graph-service-announcements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-service-announcements-api-openapi.yml
 - filename: microsoft-graph-serviceprincipals-appmanagementpolicy-api-openapi.yml
   format: yaml
   label: Microsoft Graph servicePrincipals.appManagementPolicy API
@@ -2752,12 +2470,6 @@ api_specs:
   slug: microsoft-graph-serviceprincipals-tokenlifetimepolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-serviceprincipals-tokenlifetimepolicy-api-openapi.yml
-- filename: microsoft-graph-sharepoint-api-openapi.yml
-  format: yaml
-  label: Microsoft Graph SharePoint API
-  slug: microsoft-graph-sharepoint-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-sharepoint-api-openapi.yml
 - filename: microsoft-graph-shares-driveitem-api-openapi.yml
   format: yaml
   label: Microsoft Graph shares.driveItem API
@@ -3389,12 +3101,12 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/openapi/microsoft-graph-users-userteamwork-api-openapi.yml
 consequence_counts:
-  physical: 247
-  read: 19450
-  safety-critical: 93
-  write: 17315
+  physical: 117
+  read: 8404
+  safety-critical: 44
+  write: 7376
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 93
+human_in_the_loop: 44
 kind: agentic-access
 layout: agentic-access
 method: generated
@@ -3410,22 +3122,7 @@ notable_actions:
   consequence: safety-critical
   human_in_the_loop: required
   method: POST
-  path: /communications/calls/{call-id}/participants/{participant-id}/stopHoldMusic
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
   path: /deviceManagement/deviceManagementPartners/{deviceManagementPartner-id}/terminate
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /deviceManagement/deviceManagementPartners/{deviceManagementPartner-id}/terminate
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /deviceManagement/managedDevices/{managedDevice-id}/disableLostMode
 - action_class: acting
   consequence: safety-critical
   human_in_the_loop: required
@@ -3440,22 +3137,7 @@ notable_actions:
   consequence: safety-critical
   human_in_the_loop: required
   method: POST
-  path: /deviceManagement/managedDevices/{managedDevice-id}/rebootNow
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
   path: /deviceManagement/managedDevices/{managedDevice-id}/resetPasscode
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /deviceManagement/managedDevices/{managedDevice-id}/resetPasscode
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /deviceManagement/managedDevices/{managedDevice-id}/shutDown
 - action_class: acting
   consequence: safety-critical
   human_in_the_loop: required
@@ -3470,37 +3152,12 @@ notable_actions:
   consequence: safety-critical
   human_in_the_loop: required
   method: POST
-  path: /deviceManagement/virtualEndpoint/cloudPCs/{cloudPC-id}/reboot
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /groups/{group-id}/resetUnseenCount
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
   path: /groups/{group-id}/resetUnseenCount
 - action_class: acting
   consequence: safety-critical
   human_in_the_loop: required
   method: POST
   path: /identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: PATCH
-  path: /identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: DELETE
-  path: /identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}
 - action_class: acting
   consequence: safety-critical
   human_in_the_loop: required
@@ -3524,16 +3181,71 @@ notable_actions:
 - action_class: acting
   consequence: safety-critical
   human_in_the_loop: required
-  method: PUT
-  path: /identity/b2xUserFlows/{b2xIdentityUserFlow-id}/languages/{userFlowLanguageConfiguration-id}/overridesPages/{userFlowLanguagePage-id}/$value
-operation_count: 37105
-overview: 'Microsoft Graph exposes 37105 API operations that an AI agent could call, of which 17655 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+  method: POST
+  path: /identityGovernance/accessReviews/definitions/{accessReviewScheduleDefinition-id}/instances/{accessReviewInstance-id}/resetDecisions
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /identityGovernance/accessReviews/definitions/{accessReviewScheduleDefinition-id}/instances/{accessReviewInstance-id}/stages/{accessReviewStage-id}/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /identityGovernance/accessReviews/definitions/{accessReviewScheduleDefinition-id}/instances/{accessReviewInstance-id}/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /identityGovernance/accessReviews/definitions/{accessReviewScheduleDefinition-id}/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /me/authentication/methods/{authenticationMethod-id}/resetPassword
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /me/authentication/phoneMethods/{phoneAuthenticationMethod-id}/disableSmsSignIn
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /me/cloudPCs/{cloudPC-id}/reboot
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /me/inferenceClassification/overrides
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: PATCH
+  path: /me/inferenceClassification/overrides/{inferenceClassificationOverride-id}
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /me/inferenceClassification/overrides/{inferenceClassificationOverride-id}
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /me/managedDevices/{managedDevice-id}/disableLostMode
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /me/managedDevices/{managedDevice-id}/rebootNow
+operation_count: 15941
+overview: 'Microsoft Graph exposes 15941 API operations that an AI agent could call, of which 7537 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 19450 read, 17315 write, 247 physical, and 93 safety-critical.
+  By consequence: 8404 read, 7376 write, 117 physical, and 44 safety-critical.
 
 
-  93 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
+  44 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -3543,42 +3255,41 @@ slug: microsoft-graph-agentic-access
 source_filename: microsoft-graph-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/admin-openapi-original.yml, openapi/agreementacceptances-openapi-original.yml,\n  openapi/agreements-openapi-original.yml, openapi/appcatalogs-openapi-original.yml, openapi/applications-openapi-original.yml,\n  openapi/applicationtemplates-openapi-original.yml, openapi/auditlogs-openapi-original.yml,\n  openapi/authenticationmethodconfigurations-openapi-original.yml, openapi/authenticationmethodspolicy-openapi-original.yml,\n  openapi/certificatebasedauthconfiguration-openapi-original.yml, openapi/chats-openapi-original.yml,\n  openapi/communications-openapi-original.yml, openapi/compliance-openapi-original.yml, openapi/connections-openapi-original.yml,\n  openapi/contacts-openapi-original.yml, openapi/contracts-openapi-original.yml, openapi/copilot-openapi-original.yml,\n  openapi/datapolicyoperations-openapi-original.yml, openapi/deviceappmanagement-openapi-original.yml,\n  openapi/devicemanagement-openapi-original.yml,\
-  \ openapi/devices-openapi-original.yml, openapi/directory-openapi-original.yml,\n  openapi/directoryobjects-openapi-original.yml, openapi/directoryroles-openapi-original.yml,\n  openapi/directoryroletemplates-openapi-original.yml, openapi/domaindnsrecords-openapi-original.yml,\n  openapi/domains-openapi-original.yml, openapi/drives-openapi-original.yml, openapi/education-openapi-original.yml,\n  openapi/employeeexperience-openapi-original.yml, openapi/external-openapi-original.yml, openapi/filteroperators-openapi-original.yml,\n  openapi/functions-openapi-original.yml, openapi/grouplifecyclepolicies-openapi-original.yml,\n  openapi/groups-openapi-original.yml, openapi/groupsettings-openapi-original.yml, openapi/groupsettingtemplates-openapi-original.yml,\n  openapi/identity-openapi-original.yml, openapi/identitygovernance-openapi-original.yml, openapi/identityprotection-openapi-original.yml,\n  openapi/identityproviders-openapi-original.yml, openapi/informationprotection-openapi-original.yml,\n\
-  \  openapi/invitations-openapi-original.yml, openapi/me-openapi-original.yml, openapi/microsoft-graph-api-openapi.yml,\n  openapi/oauth2permissiongrants-openapi-original.yml, openapi/organization-openapi-original.yml,\n  openapi/permissiongrants-openapi-original.yml, openapi/places-openapi-original.yml, openapi/planner-openapi-original.yml,\n  openapi/policies-openapi-original.yml, openapi/print-openapi-original.yml, openapi/privacy-openapi-original.yml,\n  openapi/reports-openapi-original.yml, openapi/rolemanagement-openapi-original.yml, openapi/schemaextensions-openapi-original.yml,\n  openapi/scopedrolememberships-openapi-original.yml, openapi/search-openapi-original.yml, openapi/security-openapi-original.yml,\n  openapi/serviceprincipals-openapi-original.yml, openapi/shares-openapi-original.yml, openapi/sites-openapi-original.yml,\n  openapi/solutions-openapi-original.yml, openapi/storage-openapi-original.yml, openapi/subscribedskus-openapi-original.yml,\n  openapi/subscriptions-openapi-original.yml,\
-  \ openapi/teams-openapi-original.yml, openapi/teamstemplates-openapi-original.yml,\n  openapi/teamwork-openapi-original.yml, openapi/tenantrelationships-openapi-original.yml, openapi/users-openapi-original.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 37105\n  by_action_class:\n    connected: 19450\n    acting: 17655\n  by_consequence:\n    read: 19450\n    write: 17315\n    physical: 247\n    safety-critical: 93\n  human_in_the_loop_required: 93\noperations:\n- path: /admin\n  method: get\n  operationId: getAdmin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin\n  method: patch\n  operationId: updateAdmin\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/edge\n  method: get\n  operationId: getAdminEdge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/edge\n  method: patch\n  operationId: updateAdminEdge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/edge\n  method: delete\n  operationId: deleteAdminEdge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
-  \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/edge/internetExplorerMode\n  method: get\n  operationId: getEdgeInternetExplorerMode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/edge/internetExplorerMode\n  method: patch\n  operationId: updateEdgeInternetExplorerMode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/edge/internetExplorerMode\n  method: delete\n  operationId: deleteEdgeInternetExplorerMode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
-  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/edge/internetExplorerMode/siteLists\n  method: get\n  operationId: listBrowserSiteLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/edge/internetExplorerMode/siteLists\n  method: post\n  operationId: createBrowserSiteList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}\n  method: get\n  operationId: getBrowserSiteList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}\n  method: patch\n  operationId: updateBrowserSiteList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/edge/internetExplorerMode/siteLists/{browserSiteList-id}\n  method: delete\n  operationId: deleteBrowserSiteList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/microsoft365Apps\n  method: get\n  operationId: getMicrosoft365Apps\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/microsoft365Apps\n  method: patch\n  operationId: updateMicrosoft365Apps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/reportSettings\n  method: get\n  operationId: getReportSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/reportSettings\n  method: patch\n  operationId: updateReportSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
-  \ abnormal\n      - high-value\n    audit: required\n- path: /admin/serviceAnnouncement\n  method: get\n  operationId: getServiceAnnouncement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/sharepoint\n  method: get\n  operationId: getSharePointSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/sharepoint\n  method: patch\n  operationId: updateSharePointSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /copilot/admin\n  method: get\n  operationId: getCopilotAdmin\n  x-agentic-access:\n    action-class: connected\n \
-  \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /directory/administrativeUnits\n  method: get\n  operationId: listAdministrativeUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /directory/administrativeUnits\n  method: post\n  operationId: createAdministrativeUnit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /directory/administrativeUnits/{administrativeUnit-id}\n  method: get\n  operationId: getAdministrativeUnit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /directory/administrativeUnits/{administrativeUnit-id}\n\
-  \  method: patch\n  operationId: updateAdministrativeUnit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /directory/administrativeUnits/{administrativeUnit-id}\n  method: delete\n  operationId: deleteAdministrativeUnit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policies/adminConsentRequestPolicy\n  method: get\n  operationId: getAdminConsentRequestPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policies/adminConsentRequestPolicy\n\
-  \  method: patch\n  operationId: updateAdminConsentRequestPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreementAcceptances\n  method: get\n  operationId: listAgreementAcceptances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreementAcceptances\n  method: post\n  operationId: createAgreementAcceptance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreementAcceptances/{agreementAcceptance-id}\n \
-  \ method: get\n  operationId: getAgreementAcceptance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreementAcceptances/{agreementAcceptance-id}\n  method: patch\n  operationId: updateAgreementAcceptance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreementAcceptances/{agreementAcceptance-id}\n  method: delete\n  operationId: deleteAgreementAcceptance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreementAcceptances/$count\n\
-  \  method: get\n  operationId: countAgreementAcceptances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identityGovernance/termsOfUse/agreementAcceptances\n  method: get\n  operationId: listIdentityGovernanceAgreementAcceptances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identityGovernance/termsOfUse/agreementAcceptances\n  method: post\n  operationId: createIdentityGovernanceAgreementAcceptance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identityGovernance/termsOfUse/agreementAcceptances/{agreementAcceptance-id}\n  method: get\n\
-  \  operationId: getIdentityGovernanceAgreementAcceptance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identityGovernance/termsOfUse/agreementAcceptances/{agreementAcceptance-id}\n  method: patch\n  operationId: updateIdentityGovernanceAgreementAcceptance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identityGovernance/termsOfUse/agreementAcceptances/{agreementAcceptance-id}\n  method: delete\n  operationId: deleteIdentityGovernanceAgreementAcceptance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identityGovernance/termsOfUse/agreementAcceptances/$count\n  method: get\n  operationId: countIdentityGovernanceAgreementAcceptances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/agreementAcceptances\n  method: get\n  operationId: listCurrentUserAgreementAcceptances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/agreementAcceptances/{agreementAcceptance-id}\n  method: get\n  operationId: getCurrentUserAgreementAcceptance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/agreementAcceptances/$count\n  method: get\n  operationId: countCurrentUserAgreementAcceptances\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user-id}/agreementAcceptances\n  method: get\n  operationId: listUserAgreementAcceptances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user-id}/agreementAcceptances/{agreementAcceptance-id}\n  method: get\n  operationId: getUserAgreementAcceptance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user-id}/agreementAcceptances/$count\n  method: get\n  operationId: countUserAgreementAcceptances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements\n  method: get\n  operationId: listAgreements\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements\n  method: post\n  operationId: createAgreement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}\n  method: get\n  operationId: getAgreement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/{agreement-id}\n  method: patch\n  operationId: updateAgreement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}\n  method: delete\n  operationId: deleteAgreement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}/acceptances\n  method: get\n  operationId: listAgreementAcceptances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/{agreement-id}/acceptances\n  method: post\n  operationId: createAgreementAcceptance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
-  \    - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}/acceptances/{agreementAcceptance-id}\n  method: get\n  operationId: getAgreementAcceptance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/{agreement-id}/acceptances/{agreementAcceptance-id}\n  method: patch\n  operationId: updateAgreementAcceptance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}/acceptances/{agreementAcceptance-id}\n  method: delete\n  operationId: deleteAgreementAcceptance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}/acceptances/$count\n  method: get\n  operationId: countAgreementAcceptances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/{agreement-id}/file\n  method: get\n  operationId: getAgreementFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/{agreement-id}/file\n  method: patch\n  operationId: updateAgreementFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /agreements/{agreement-id}/file\n  method: delete\n  operationId: deleteAgreementFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}/file/localizations\n  method: get\n  operationId: listAgreementFileLocalizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/{agreement-id}/file/localizations\n  method: post\n  operationId: createAgreementFileLocalization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}\n  method: get\n  operationId: getAgreementFileLocalization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}\n  method: patch\n  operationId: updateAgreementFileLocalization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}\n  method: delete\n  operationId: deleteAgreementFileLocalization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions\n  method: get\n  operationId: listAgreementFileLocalizationVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions\n  method: post\n  operationId: createAgreementFileLocalizationVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}\n\
-  \  method: get\n  operationId: getAgreementFileLocalizationVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}\n  method: patch\n  operationId: updateAgreementFileLocalizationVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}/file/localizations/{agreementFileLocalization-id}/versions/{agreementFileVersion-id}\n  method: delete\n  operationId: deleteAgreementFileLocalizationVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/{agreement-id}/files\n  method: get\n  operationId: listAgreementFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agreements/{agreement-id}/files\n  method: post\n  operationId: createAgreementFileItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agreements/$count\n  method: get\n  operationId: countAgreements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appCatalogs\n\
-  \  method: get\n  operationId: listAppCatalogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appCatalogs\n  method: patch\n  operationId: updateAppCatalogs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /appCatalogs/teamsApps\n  method: get\n  operationId: listAppCatalogsTeamsApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appCatalogs/teamsApps\n  method: post\n  operationId: createAppCatalogsTeamsApps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
-  \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /appCatalogs/teamsApps/{teamsApp-id}\n  method: get\n  operationId: getAppCatalogsTeamsApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appCatalogs/teamsApps/{teamsApp-id}\n  method: patch\n  operationId: updateAppCatalogsTeamsApps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /appCatalogs/teamsApps/{teamsApp-id}\n  method: delete\n  operationId: deleteAppCatalogsTeamsApps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
-  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /appCatalogs/teamsApps/{teamsApp-id}/appDefinitions\n  method: get\n  operationId: getAppCatalogsTeamsAppsAppDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appCatalogs/teamsApps/{teamsApp-id}/appDefinitions\n  method: post\n  operationId: createAppCatalogsTeamsAppsAppDefinitions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}\n  method: get\n  operationId: getAppCatalogsTeamsAppsAppDefinitions1\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}\n  method: patch\n  operationId: updateAppCatalogsTeamsAppsAppDefinitions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}\n  method: delete\n  operationId: deleteAppCatalogsTeamsAppsAppDefinitions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/bot\n  method: get\n  operationId: getAppCatalogsTeamsAppsAppDefinitionsBot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/bot\n  method: patch\n  operationId: updateAppCatalogsTeamsAppsAppDefinitionsBot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/{teamsAppDefinition-id}/bot\n  method: delete\n  operationId: deleteAppCatalogsTeamsAppsAppDefinitionsBot\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /appCatalogs/teamsApps/{teamsApp-id}/appDefinitions/$count\n  method: get\n  operationId: countAppCatalogsTeamsAppsAppDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appCatalogs/teamsApps/$count\n  method: get\n  operationId: countAppCatalogsTeamsApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications\n  method: get\n  operationId: listApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications\n  method: post\n \
-  \ operationId: createApplications\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{application-id}\n  method: get\n  operationId: getApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{application-id}\n  method: patch\n  operationId: updateApplications\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in\n\n# --- truncated at 32 KB (13733 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/agentic-access/microsoft-graph-agentic-access.yml\n"
+source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/microsoft-graph-admin-admin-api-openapi.yml, openapi/microsoft-graph-admin-adminmicrosoft365apps-api-openapi.yml,\n  openapi/microsoft-graph-admin-adminreportsettings-api-openapi.yml, openapi/microsoft-graph-admin-edge-api-openapi.yml,\n  openapi/microsoft-graph-admin-peopleadminsettings-api-openapi.yml, openapi/microsoft-graph-admin-serviceannouncement-api-openapi.yml,\n  openapi/microsoft-graph-admin-sharepoint-api-openapi.yml, openapi/microsoft-graph-agreement-acceptances-api-openapi.yml,\n  openapi/microsoft-graph-agreement-file-localizations-api-openapi.yml, openapi/microsoft-graph-agreement-file-versions-api-openapi.yml,\n  openapi/microsoft-graph-agreement-files-api-openapi.yml, openapi/microsoft-graph-agreementacceptances-agreementacceptance-api-openapi.yml,\n  openapi/microsoft-graph-agreements-agreement-api-openapi.yml, openapi/microsoft-graph-agreements-agreementacceptance-api-openapi.yml,\n  openapi/microsoft-graph-agreements-agreementfile-api-openapi.yml,\
+  \ openapi/microsoft-graph-agreements-agreementfilelocalization-api-openapi.yml,\n  openapi/microsoft-graph-agreements-api-openapi.yml, openapi/microsoft-graph-appcatalogs-appcatalogs-api-openapi.yml,\n  openapi/microsoft-graph-appcatalogs-teamsapp-api-openapi.yml, openapi/microsoft-graph-applications-application-actions-api-openapi.yml,\n  openapi/microsoft-graph-applications-application-api-openapi.yml, openapi/microsoft-graph-applications-application-functions-api-openapi.yml,\n  openapi/microsoft-graph-applications-appmanagementpolicy-api-openapi.yml, openapi/microsoft-graph-applications-directoryobject-api-openapi.yml,\n  openapi/microsoft-graph-applications-extensionproperty-api-openapi.yml, openapi/microsoft-graph-applications-federatedidentitycredential-api-openapi.yml,\n  openapi/microsoft-graph-applications-homerealmdiscoverypolicy-api-openapi.yml, openapi/microsoft-graph-applications-synchronization-api-openapi.yml,\n  openapi/microsoft-graph-applications-tokenissuancepolicy-api-openapi.yml,\
+  \ openapi/microsoft-graph-applications-tokenlifetimepolicy-api-openapi.yml,\n  openapi/microsoft-graph-applicationtemplates-applicationtemplate-actions-api-openapi.yml,\n  openapi/microsoft-graph-applicationtemplates-applicationtemplate-api-openapi.yml, openapi/microsoft-graph-auditlogs-auditlogroot-api-openapi.yml,\n  openapi/microsoft-graph-auditlogs-directoryaudit-api-openapi.yml, openapi/microsoft-graph-auditlogs-provisioningobjectsummary-api-openapi.yml,\n  openapi/microsoft-graph-auditlogs-signin-api-openapi.yml, openapi/microsoft-graph-authenticationmethodconfigurations-authenticationmethodconfiguration-api-openapi.yml,\n  openapi/microsoft-graph-authenticationmethodspolicy-authenticationmethodconfiguration-api-openapi.yml,\n  openapi/microsoft-graph-authenticationmethodspolicy-authenticationmethodspolicy-api-openapi.yml,\n  openapi/microsoft-graph-certificatebasedauthconfiguration-certificatebasedauthconfiguration-api-openapi.yml,\n  openapi/microsoft-graph-chats-chat-actions-api-openapi.yml,\
+  \ openapi/microsoft-graph-chats-chat-api-openapi.yml,\n  openapi/microsoft-graph-chats-chat-functions-api-openapi.yml, openapi/microsoft-graph-chats-chatmessage-api-openapi.yml,\n  openapi/microsoft-graph-chats-chatmessageinfo-api-openapi.yml, openapi/microsoft-graph-chats-conversationmember-api-openapi.yml,\n  openapi/microsoft-graph-chats-pinnedchatmessageinfo-api-openapi.yml, openapi/microsoft-graph-chats-resourcespecificpermissiongrant-api-openapi.yml,\n  openapi/microsoft-graph-chats-teamsappinstallation-api-openapi.yml, openapi/microsoft-graph-chats-teamstab-api-openapi.yml,\n  openapi/microsoft-graph-communications-call-api-openapi.yml, openapi/microsoft-graph-communications-callrecord-api-openapi.yml,\n  openapi/microsoft-graph-communications-cloudcommunications-actions-api-openapi.yml, openapi/microsoft-graph-communications-cloudcommunications-api-openapi.yml,\n  openapi/microsoft-graph-communications-cloudcommunications-functions-api-openapi.yml, openapi/microsoft-graph-communications-onlinemeeting-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-communications-onlinemeetingengagementconversation-api-openapi.yml,\n  openapi/microsoft-graph-communications-presence-api-openapi.yml, openapi/microsoft-graph-compliance-compliance-api-openapi.yml,\n  openapi/microsoft-graph-connections-connectionoperation-api-openapi.yml, openapi/microsoft-graph-connections-externalconnection-api-openapi.yml,\n  openapi/microsoft-graph-connections-externalgroup-api-openapi.yml, openapi/microsoft-graph-connections-externalitem-api-openapi.yml,\n  openapi/microsoft-graph-connections-schema-api-openapi.yml, openapi/microsoft-graph-contacts-directoryobject-api-openapi.yml,\n  openapi/microsoft-graph-contacts-onpremisessyncbehavior-api-openapi.yml, openapi/microsoft-graph-contacts-orgcontact-actions-api-openapi.yml,\n  openapi/microsoft-graph-contacts-orgcontact-api-openapi.yml, openapi/microsoft-graph-contacts-orgcontact-functions-api-openapi.yml,\n  openapi/microsoft-graph-contacts-serviceprovisioningerror-api-openapi.yml, openapi/microsoft-graph-contracts-contract-actions-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-contracts-contract-api-openapi.yml, openapi/microsoft-graph-contracts-contract-functions-api-openapi.yml,\n  openapi/microsoft-graph-copilot-aiinteractionhistory-api-openapi.yml, openapi/microsoft-graph-copilot-aiuser-api-openapi.yml,\n  openapi/microsoft-graph-copilot-copilotadmin-api-openapi.yml, openapi/microsoft-graph-copilot-copilotreportroot-api-openapi.yml,\n  openapi/microsoft-graph-copilot-copilotroot-actions-api-openapi.yml, openapi/microsoft-graph-copilot-copilotroot-api-openapi.yml,\n  openapi/microsoft-graph-current-user-acceptances-api-openapi.yml, openapi/microsoft-graph-datapolicyoperations-datapolicyoperation-api-openapi.yml,\n  openapi/microsoft-graph-deviceappmanagement-androidmanagedappprotection-api-openapi.yml, openapi/microsoft-graph-deviceappmanagement-defaultmanagedappprotection-api-openapi.yml,\n  openapi/microsoft-graph-deviceappmanagement-deviceappmanagement-actions-api-openapi.yml, openapi/microsoft-graph-deviceappmanagement-deviceappmanagement-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-deviceappmanagement-iosmanagedappprotection-api-openapi.yml, openapi/microsoft-graph-deviceappmanagement-managedapppolicy-api-openapi.yml,\n  openapi/microsoft-graph-deviceappmanagement-managedappregistration-api-openapi.yml, openapi/microsoft-graph-deviceappmanagement-managedappstatus-api-openapi.yml,\n  openapi/microsoft-graph-deviceappmanagement-manageddevicemobileappconfiguration-api-openapi.yml,\n  openapi/microsoft-graph-deviceappmanagement-managedebook-api-openapi.yml, openapi/microsoft-graph-deviceappmanagement-mdmwindowsinformationprotectionpolicy-api-openapi.yml,\n  openapi/microsoft-graph-deviceappmanagement-mobileapp-api-openapi.yml, openapi/microsoft-graph-deviceappmanagement-mobileappcategory-api-openapi.yml,\n  openapi/microsoft-graph-deviceappmanagement-mobileapprelationship-api-openapi.yml, openapi/microsoft-graph-deviceappmanagement-targetedmanagedappconfiguration-api-openapi.yml,\n  openapi/microsoft-graph-deviceappmanagement-vpptoken-api-openapi.yml,\
+  \ openapi/microsoft-graph-deviceappmanagement-windowsinformationprotectionpolicy-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-applepushnotificationcertificate-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-auditevent-api-openapi.yml, openapi/microsoft-graph-devicemanagement-compliancemanagementpartner-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-detectedapp-api-openapi.yml, openapi/microsoft-graph-devicemanagement-deviceandappmanagementroleassignment-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-devicecategory-api-openapi.yml, openapi/microsoft-graph-devicemanagement-devicecompliancepolicy-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-devicecompliancepolicydevicestatesummary-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-devicecompliancepolicysettingstatesummary-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-deviceconfiguration-api-openapi.yml, openapi/microsoft-graph-devicemanagement-deviceconfigurationdevicestatesummary-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-devicemanagement-deviceenrollmentconfiguration-api-openapi.yml, openapi/microsoft-graph-devicemanagement-devicemanagement-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-devicemanagement-functions-api-openapi.yml, openapi/microsoft-graph-devicemanagement-devicemanagementexchangeconnector-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-devicemanagementpartner-api-openapi.yml, openapi/microsoft-graph-devicemanagement-devicemanagementreports-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-devicemanagementtroubleshootingevent-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-importedwindowsautopilotdeviceidentity-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-iosupdatedevicestatus-api-openapi.yml, openapi/microsoft-graph-devicemanagement-manageddevice-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-manageddeviceoverview-api-openapi.yml, openapi/microsoft-graph-devicemanagement-mobileapptroubleshootingevent-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-devicemanagement-mobilethreatdefenseconnector-api-openapi.yml, openapi/microsoft-graph-devicemanagement-notificationmessagetemplate-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-onpremisesconditionalaccesssettings-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-remoteassistancepartner-api-openapi.yml, openapi/microsoft-graph-devicemanagement-resourceoperation-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-roledefinition-api-openapi.yml, openapi/microsoft-graph-devicemanagement-softwareupdatestatussummary-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-termsandconditions-api-openapi.yml, openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthapplicationperformance-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondetails-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondeviceid-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyosversion-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdevicemodelperformance-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformance-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformancedetails-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsapphealthosversionperformance-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsbaseline-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticscategory-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsdeviceperformance-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsdevicescores-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartuphistory-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocess-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocessperformance-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsmetrichistory-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsmodelscores-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsoverview-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsscorehistory-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywherehardwarereadinessmetric-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremetric-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremodelperformance-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-virtualendpoint-api-openapi.yml,\
+  \ openapi/microsoft-graph-devicemanagement-windowsautopilotdeviceidentity-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-windowsinformationprotectionapplearningsummary-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-windowsinformationprotectionnetworklearningsummary-api-openapi.yml,\n  openapi/microsoft-graph-devicemanagement-windowsmalwareinformation-api-openapi.yml, openapi/microsoft-graph-devices-device-actions-api-openapi.yml,\n  openapi/microsoft-graph-devices-device-api-openapi.yml, openapi/microsoft-graph-devices-device-functions-api-openapi.yml,\n  openapi/microsoft-graph-devices-directoryobject-api-openapi.yml, openapi/microsoft-graph-devices-extension-api-openapi.yml,\n  openapi/microsoft-graph-directory-administrativeunit-api-openapi.yml, openapi/microsoft-graph-directory-attributeset-api-openapi.yml,\n  openapi/microsoft-graph-directory-companysubscription-api-openapi.yml, openapi/microsoft-graph-directory-customsecurityattributedefinition-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-directory-devicelocalcredentialinfo-api-openapi.yml, openapi/microsoft-graph-directory-directory-api-openapi.yml,\n  openapi/microsoft-graph-directory-directoryobject-api-openapi.yml, openapi/microsoft-graph-directory-identityproviderbase-api-openapi.yml,\n  openapi/microsoft-graph-directory-onpremisesdirectorysynchronization-api-openapi.yml, openapi/microsoft-graph-directory-publickeyinfrastructureroot-api-openapi.yml,\n  openapi/microsoft-graph-directoryobjects-directoryobject-actions-api-openapi.yml, openapi/microsoft-graph-directoryobjects-directoryobject-api-openapi.yml,\n  openapi/microsoft-graph-directoryobjects-directoryobject-functions-api-openapi.yml, openapi/microsoft-graph-directoryroles-directoryobject-api-openapi.yml,\n  openapi/microsoft-graph-directoryroles-directoryrole-actions-api-openapi.yml, openapi/microsoft-graph-directoryroles-directoryrole-api-openapi.yml,\n  openapi/microsoft-graph-directoryroles-directoryrole-functions-api-openapi.yml,\
+  \ openapi/microsoft-graph-directoryroles-scopedrolemembership-api-openapi.yml,\n  openapi/microsoft-graph-directoryroletemplates-directoryroletemplate-actions-api-openapi.yml,\n  openapi/microsoft-graph-directoryroletemplates-directoryroletemplate-api-openapi.yml, openapi/microsoft-graph-directoryroletemplates-directoryroletemplate-functions-api-openapi.yml,\n  openapi/microsoft-graph-domaindnsrecords-domaindnsrecord-api-openapi.yml, openapi/microsoft-graph-domains-directoryobject-api-openapi.yml,\n  openapi/microsoft-graph-domains-domain-actions-api-openapi.yml, openapi/microsoft-graph-domains-domain-api-openapi.yml,\n  openapi/microsoft-graph-domains-domaindnsrecord-api-openapi.yml, openapi/microsoft-graph-domains-internaldomainfederation-api-openapi.yml,\n  openapi/microsoft-graph-drives-drive-actions-api-openapi.yml, openapi/microsoft-graph-drives-drive-api-openapi.yml,\n  openapi/microsoft-graph-drives-drive-functions-api-openapi.yml, openapi/microsoft-graph-drives-driveitem-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-drives-list-api-openapi.yml, openapi/microsoft-graph-drives-user-api-openapi.yml,\n  openapi/microsoft-graph-education-educationclass-api-openapi.yml, openapi/microsoft-graph-education-educationroot-api-openapi.yml,\n  openapi/microsoft-graph-education-educationschool-api-openapi.yml, openapi/microsoft-graph-education-educationuser-api-openapi.yml,\n  openapi/microsoft-graph-education-reportsroot-api-openapi.yml, openapi/microsoft-graph-employeeexperience-community-api-openapi.yml,\n  openapi/microsoft-graph-employeeexperience-employeeexperience-api-openapi.yml, openapi/microsoft-graph-employeeexperience-engagementasyncoperation-api-openapi.yml,\n  openapi/microsoft-graph-employeeexperience-engagementrole-api-openapi.yml, openapi/microsoft-graph-employeeexperience-learningcourseactivity-api-openapi.yml,\n  openapi/microsoft-graph-employeeexperience-learningprovider-api-openapi.yml, openapi/microsoft-graph-external-external-api-openapi.yml,\n  openapi/microsoft-graph-external-externalconnection-api-openapi.yml,\
+  \ openapi/microsoft-graph-filteroperators-filteroperatorschema-api-openapi.yml,\n  openapi/microsoft-graph-functions-attributemappingfunctionschema-api-openapi.yml, openapi/microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-actions-api-openapi.yml,\n  openapi/microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-api-openapi.yml, openapi/microsoft-graph-groups-approleassignment-api-openapi.yml,\n  openapi/microsoft-graph-groups-calendar-api-openapi.yml, openapi/microsoft-graph-groups-conversation-api-openapi.yml,\n  openapi/microsoft-graph-groups-conversationthread-api-openapi.yml, openapi/microsoft-graph-groups-directoryobject-api-openapi.yml,\n  openapi/microsoft-graph-groups-drive-api-openapi.yml, openapi/microsoft-graph-groups-event-api-openapi.yml,\n  openapi/microsoft-graph-groups-extension-api-openapi.yml, openapi/microsoft-graph-groups-group-actions-api-openapi.yml,\n  openapi/microsoft-graph-groups-group-api-openapi.yml, openapi/microsoft-graph-groups-group-functions-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-groups-grouplifecyclepolicy-api-openapi.yml, openapi/microsoft-graph-groups-groupsetting-api-openapi.yml,\n  openapi/microsoft-graph-groups-onenote-api-openapi.yml, openapi/microsoft-graph-groups-onpremisessyncbehavior-api-openapi.yml,\n  openapi/microsoft-graph-groups-plannergroup-api-openapi.yml, openapi/microsoft-graph-groups-profilephoto-api-openapi.yml,\n  openapi/microsoft-graph-groups-resourcespecificpermissiongrant-api-openapi.yml, openapi/microsoft-graph-groups-serviceprovisioningerror-api-openapi.yml,\n  openapi/microsoft-graph-groups-site-api-openapi.yml, openapi/microsoft-graph-groups-team-api-openapi.yml,\n  openapi/microsoft-graph-groupsettings-groupsetting-api-openapi.yml, openapi/microsoft-graph-groupsettingtemplates-groupsettingtemplate-actions-api-openapi.yml,\n  openapi/microsoft-graph-groupsettingtemplates-groupsettingtemplate-api-openapi.yml, openapi/microsoft-graph-groupsettingtemplates-groupsettingtemplate-functions-api-openapi.yml,\n \
+  \ openapi/microsoft-graph-identity-authenticationeventlistener-api-openapi.yml, openapi/microsoft-graph-identity-authenticationeventsflow-api-openapi.yml,\n  openapi/microsoft-graph-identity-b2xidentityuserflow-api-openapi.yml, openapi/microsoft-graph-identity-conditionalaccessroot-api-openapi.yml,\n  openapi/microsoft-graph-identity-customauthenticationextension-api-openapi.yml, openapi/microsoft-graph-identity-governance-acceptances-api-openapi.yml,\n  openapi/microsoft-graph-identity-identityapiconnector-api-openapi.yml, openapi/microsoft-graph-identity-identitycontainer-api-openapi.yml,\n  openapi/microsoft-graph-identity-identityproviderbase-api-openapi.yml, openapi/microsoft-graph-identity-identityuserflowattribute-api-openapi.yml,\n  openapi/microsoft-graph-identity-riskpreventioncontainer-api-openapi.yml, openapi/microsoft-graph-identitygovernance-accessreviewset-api-openapi.yml,\n  openapi/microsoft-graph-identitygovernance-appconsentapprovalroute-api-openapi.yml, openapi/microsoft-graph-identitygovernance-entitlementmanagement-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-identitygovernance-identitygovernance-api-openapi.yml, openapi/microsoft-graph-identitygovernance-lifecycleworkflowscontainer-api-openapi.yml,\n  openapi/microsoft-graph-identitygovernance-privilegedaccessroot-api-openapi.yml, openapi/microsoft-graph-identitygovernance-termsofusecontainer-api-openapi.yml,\n  openapi/microsoft-graph-identityprotection-identityprotectionroot-api-openapi.yml, openapi/microsoft-graph-identityprotection-riskdetection-api-openapi.yml,\n  openapi/microsoft-graph-identityprotection-riskyserviceprincipal-api-openapi.yml, openapi/microsoft-graph-identityprotection-riskyuser-api-openapi.yml,\n  openapi/microsoft-graph-identityprotection-serviceprincipalriskdetection-api-openapi.yml,\n  openapi/microsoft-graph-identityproviders-identityprovider-api-openapi.yml, openapi/microsoft-graph-identityproviders-identityprovider-functions-api-openapi.yml,\n  openapi/microsoft-graph-informationprotection-bitlocker-api-openapi.yml, openapi/microsoft-graph-informationprotection-informationprotection-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-informationprotection-threatassessmentrequest-api-openapi.yml, openapi/microsoft-graph-invitations-directoryobject-api-openapi.yml,\n  openapi/microsoft-graph-invitations-invitation-api-openapi.yml, openapi/microsoft-graph-invitations-user-api-openapi.yml,\n  openapi/microsoft-graph-me-agreementacceptance-api-openapi.yml, openapi/microsoft-graph-me-approleassignment-api-openapi.yml,\n  openapi/microsoft-graph-me-authentication-api-openapi.yml, openapi/microsoft-graph-me-calendar-api-openapi.yml,\n  openapi/microsoft-graph-me-calendargroup-api-openapi.yml, openapi/microsoft-graph-me-chat-api-openapi.yml,\n  openapi/microsoft-graph-me-cloudclipboardroot-api-openapi.yml, openapi/microsoft-graph-me-cloudpc-api-openapi.yml,\n  openapi/microsoft-graph-me-contact-api-openapi.yml, openapi/microsoft-graph-me-contactfolder-api-openapi.yml,\n  openapi/microsoft-graph-me-devicemanagementtroubleshootingevent-api-openapi.yml, openapi/microsoft-graph-me-directoryobject-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-me-drive-api-openapi.yml, openapi/microsoft-graph-me-employeeexperienceuser-api-openapi.yml,\n  openapi/microsoft-graph-me-event-api-openapi.yml, openapi/microsoft-graph-me-extension-api-openapi.yml,\n  openapi/microsoft-graph-me-inferenceclassification-api-openapi.yml, openapi/microsoft-graph-me-iteminsights-api-openapi.yml,\n  openapi/microsoft-graph-me-licensedetails-api-openapi.yml, openapi/microsoft-graph-me-mailboxsettings-api-openapi.yml,\n  openapi/microsoft-graph-me-mailfolder-api-openapi.yml, openapi/microsoft-graph-me-managedappregistration-api-openapi.yml,\n  openapi/microsoft-graph-me-manageddevice-api-openapi.yml, openapi/microsoft-graph-me-message-api-openapi.yml,\n  openapi/microsoft-graph-me-oauth2permissiongrant-api-openapi.yml, openapi/microsoft-graph-me-onenote-api-openapi.yml,\n  openapi/microsoft-graph-me-onlinemeeting-api-openapi.yml, openapi/microsoft-graph-me-outlookuser-api-openapi.yml,\n  openapi/microsoft-graph-me-person-api-openapi.yml,\
+  \ openapi/microsoft-graph-me-planneruser-api-openapi.yml,\n  openapi/microsoft-graph-me-presence-api-openapi.yml, openapi/microsoft-graph-me-profilephoto-api-openapi.yml,\n  openapi/microsoft-graph-me-resourcespecificpermissiongrant-api-openapi.yml, openapi/microsoft-graph-me-scopedrolemembership-api-openapi.yml,\n  openapi/microsoft-graph-me-serviceprovisioningerror-api-openapi.yml, openapi/microsoft-graph-me-site-api-openapi.yml,\n  openapi/microsoft-graph-me-team-api-openapi.yml, openapi/microsoft-graph-me-todo-api-openapi.yml,\n  openapi/microsoft-graph-me-user-actions-api-openapi.yml, openapi/microsoft-graph-me-user-api-openapi.yml,\n  openapi/microsoft-graph-me-user-functions-api-openapi.yml, openapi/microsoft-graph-me-useractivity-api-openapi.yml,\n  openapi/microsoft-graph-me-userdatasecurityandgovernance-api-openapi.yml, openapi/microsoft-graph-me-usersettings-api-openapi.yml,\n  openapi/microsoft-graph-me-usersolutionroot-api-openapi.yml, openapi/microsoft-graph-me-userteamwork-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-api-openapi.yml, openapi/microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-functions-api-openapi.yml,\n  openapi/microsoft-graph-organization-certificatebasedauthconfiguration-api-openapi.yml, openapi/microsoft-graph-organization-extension-api-openapi.yml,\n  openapi/microsoft-graph-organization-organization-actions-api-openapi.yml, openapi/microsoft-graph-organization-organization-api-openapi.yml,\n  openapi/microsoft-graph-organization-organization-functions-api-openapi.yml, openapi/microsoft-graph-organization-organizationalbranding-api-openapi.yml,\n  openapi/microsoft-graph-permissiongrants-resourcespecificpermissiongrant-actions-api-openapi.yml,\n  openapi/microsoft-graph-permissiongrants-resourcespecificpermissiongrant-api-openapi.yml,\n  openapi/microsoft-graph-permissiongrants-resourcespecificpermissiongrant-functions-api-openapi.yml,\n  openapi/microsoft-graph-places-buildingmap-api-openapi.yml,\
+  \ openapi/microsoft-graph-places-checkinclaim-api-openapi.yml,\n  openapi/microsoft-graph-places-place-api-openapi.yml, openapi/microsoft-graph-places-place-functions-api-openapi.yml,\n  openapi/microsoft-graph-places-room-api-openapi.yml, openapi/microsoft-graph-places-workspace-api-openapi.yml,\n  openapi/microsoft-graph-planner-planner-api-openapi.yml, openapi/microsoft-graph-planner-plannerbucket-api-openapi.yml,\n  openapi/microsoft-graph-planner-plannerplan-api-openapi.yml, openapi/microsoft-graph-planner-plannertask-api-openapi.yml,\n  openapi/microsoft-graph-policies-activitybasedtimeoutpolicy-api-openapi.yml, openapi/microsoft-graph-policies-adminconsentrequestpolicy-api-openapi.yml,\n  openapi/microsoft-graph-policies-appmanagementpolicy-api-openapi.yml, openapi/microsoft-graph-policies-authenticationflowspolicy-api-openapi.yml,\n  openapi/microsoft-graph-policies-authenticationmethodspolicy-api-openapi.yml, openapi/microsoft-graph-policies-authenticationstrengthpolicy-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-policies-authorizationpolicy-api-openapi.yml, openapi/microsoft-graph-policies-claimsmappingpolicy-api-openapi.yml,\n  openapi/microsoft-graph-policies-conditionalaccesspolicy-api-openapi.yml, openapi/microsoft-graph-policies-crosstenantaccesspolicy-api-openapi.yml,\n  openapi/microsoft-graph-policies-deviceregistrationpolicy-api-openapi.yml, openapi/microsoft-graph-policies-featurerolloutpolicy-api-openapi.yml,\n  openapi/microsoft-graph-policies-homerealmdiscoverypolicy-api-openapi.yml, openapi/microsoft-graph-policies-identitysecuritydefaultsenforcementpolicy-api-openapi.yml,\n  openapi/microsoft-graph-policies-permissiongrantpolicy-api-openapi.yml, openapi/microsoft-graph-policies-policyroot-api-openapi.yml,\n  openapi/microsoft-graph-policies-tenantappmanagementpolicy-api-openapi.yml, openapi/microsoft-graph-policies-tokenissuancepolicy-api-openapi.yml,\n  openapi/microsoft-graph-policies-tokenlifetimepolicy-api-openapi.yml, openapi/microsoft-graph-policies-unifiedrolemanagementpolicy-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-policies-unifiedrolemanagementpolicyassignment-api-openapi.yml, openapi/microsoft-graph-print-print-api-openapi.yml,\n  openapi/microsoft-graph-print-printconnector-api-openapi.yml, openapi/microsoft-graph-print-printer-api-openapi.yml,\n  openapi/microsoft-graph-print-printershare-api-openapi.yml, openapi/microsoft-graph-print-printoperation-api-openapi.yml,\n  openapi/microsoft-graph-print-printservice-api-openapi.yml, openapi/microsoft-graph-print-printtaskdefinition-api-openapi.yml,\n  openapi/microsoft-graph-privacy-privacy-api-openapi.yml, openapi/microsoft-graph-privacy-subjectrightsrequest-api-openapi.yml,\n  openapi/microsoft-graph-reports-authenticationmethodsroot-api-openapi.yml, openapi/microsoft-graph-reports-partners-api-openapi.yml,\n  openapi/microsoft-graph-reports-printusagebyprinter-api-openapi.yml, openapi/microsoft-graph-reports-printusagebyuser-api-openapi.yml,\n  openapi/microsoft-graph-reports-reportroot-api-openapi.yml, openapi/microsoft-graph-reports-reportroot-functions-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-reports-securityreportsroot-api-openapi.yml, openapi/microsoft-graph-rolemanagement-rbacapplication-api-openapi.yml,\n  openapi/microsoft-graph-rolemanagement-rolemanagement-api-openapi.yml, openapi/microsoft-graph-schemaextensions-schemaextension-api-openapi.yml,\n  openapi/microsoft-graph-scopedrolememberships-scopedrolemembership-api-openapi.yml, openapi/microsoft-graph-search-acronym-api-openapi.yml,\n  openapi/microsoft-graph-search-bookmark-api-openapi.yml, openapi/microsoft-graph-search-qna-api-openapi.yml,\n  openapi/microsoft-graph-search-searchentity-actions-api-openapi.yml, openapi/microsoft-graph-search-searchentity-api-openapi.yml,\n  openapi/microsoft-graph-security-alert-api-openapi.yml, openapi/microsoft-graph-security-attacksimulationroot-api-openapi.yml,\n  openapi/microsoft-graph-security-casesroot-api-openapi.yml, openapi/microsoft-graph-security-identitycontainer-api-openapi.yml,\n  openapi/microsoft-graph-security-incident-api-openapi.yml,\
+  \ openapi/microsoft-graph-security-labelsroot-api-openapi.yml,\n  openapi/microsoft-graph-security-securescore-api-openapi.yml, openapi/microsoft-graph-security-securescorecontrolprofile-api-openapi.yml,\n  openapi/microsoft-graph-security-security-actions-api-openapi.yml, openapi/microsoft-graph-security-security-api-openapi.yml,\n  openapi/microsoft-graph-security-subjectrightsrequest-api-openapi.yml, openapi/microsoft-graph-security-tenantdatasecurityandgovernance-api-openapi.yml,\n  openapi/microsoft-graph-security-threatintelligence-api-openapi.yml, openapi/microsoft-graph-security-triggersroot-api-openapi.yml,\n  openapi/microsoft-graph-security-triggertypesroot-api-openapi.yml, openapi/microsoft-graph-serviceprincipals-appmanagementpolicy-api-openapi.yml,\n  openapi/microsoft-graph-serviceprincipals-approleassignment-api-openapi.yml, openapi/microsoft-graph-serviceprincipals-claimsmappingpolicy-api-openapi.yml,\n  openapi/microsoft-graph-serviceprincipals-delegatedpermissionclassification-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-serviceprincipals-directoryobject-api-openapi.yml, openapi/microsoft-graph-serviceprincipals-endpoint-api-openapi.yml,\n  openapi/microsoft-graph-serviceprincipals-federatedidentitycredential-api-openapi.yml, openapi/microsoft-graph-serviceprincipals-homerealmdiscoverypolicy-api-openapi.yml,\n  openapi/microsoft-graph-serviceprincipals-oauth2permissiongrant-api-openapi.yml, openapi/microsoft-graph-serviceprincipals-remotedesktopsecurityconfiguration-api-openapi.yml,\n  openapi/microsoft-graph-serviceprincipals-serviceprincipal-actions-api-openapi.yml, openapi/microsoft-graph-serviceprincipals-serviceprincipal-api-openapi.yml,\n  openapi/microsoft-graph-serviceprincipals-serviceprincipal-functions-api-openapi.yml, openapi/microsoft-graph-serviceprincipals-synchronization-api-openapi.yml,\n  openapi/microsoft-graph-serviceprincipals-tokenissuancepolicy-api-openapi.yml, openapi/microsoft-graph-serviceprincipals-tokenlifetimepolicy-api-openapi.yml,\n  openapi/microsoft-graph-shares-driveitem-api-openapi.yml,\
+  \ openapi/microsoft-graph-shares-list-api-openapi.yml,\n  openapi/microsoft-graph-shares-listitem-api-openapi.yml, openapi/microsoft-graph-shares-permission-api-openapi.yml,\n  openapi/microsoft-graph-shares-shareddriveitem-api-openapi.yml, openapi/microsoft-graph-shares-site-api-openapi.yml,\n  openapi/microsoft-graph-shares-user-api-openapi.yml, openapi/microsoft-graph-sites-baseitem-api-openapi.yml,\n  openapi/microsoft-graph-sites-basesitepage-api-openapi.yml, openapi/microsoft-graph-sites-columndefinition-api-openapi.yml,\n  openapi/microsoft-graph-sites-contenttype-api-openapi.yml, openapi/microsoft-graph-sites-drive-api-openapi.yml,\n  openapi/microsoft-graph-sites-itemanalytics-api-openapi.yml, openapi/microsoft-graph-sites-list-api-openapi.yml,\n  openapi/microsoft-graph-sites-onenote-api-openapi.yml, openapi/microsoft-graph-sites-permission-api-openapi.yml,\n  openapi/microsoft-graph-sites-richlongrunningoperation-api-openapi.yml, openapi/microsoft-graph-sites-site-actions-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-sites-site-api-openapi.yml, openapi/microsoft-graph-sites-site-functions-api-openapi.yml,\n  openapi/microsoft-graph-sites-store-api-openapi.yml, openapi/microsoft-graph-sites-user-api-openapi.yml,\n  openapi/microsoft-graph-solutions-backuprestoreroot-api-openapi.yml, openapi/microsoft-graph-solutions-bookingbusiness-api-openapi.yml,\n  openapi/microsoft-graph-solutions-bookingcurrency-api-openapi.yml, openapi/microsoft-graph-solutions-solutionsroot-api-openapi.yml,\n  openapi/microsoft-graph-solutions-virtualeventsroot-api-openapi.yml, openapi/microsoft-graph-storage-filestorage-api-openapi.yml,\n  openapi/microsoft-graph-storage-storage-api-openapi.yml, openapi/microsoft-graph-storage-storagesettings-api-openapi.yml,\n  openapi/microsoft-graph-subscribedskus-subscribedsku-api-openapi.yml, openapi/microsoft-graph-subscriptions-subscription-actions-api-openapi.yml,\n  openapi/microsoft-graph-subscriptions-subscription-api-openapi.yml, openapi/microsoft-graph-teams-channel-api-openapi.yml,\n\
+  \  openapi/microsoft-graph-teams-conversationmember-ap\n\n# --- truncated at 32 KB (5893 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/agentic-access/microsoft-graph-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/agentic-access/microsoft-graph-agentic-access.yml
-summary_line: 37105 operations · 17655 acting · 93 human-in-the-loop
+summary_line: 15941 operations · 7537 acting · 44 human-in-the-loop
 tags:
 - Azure AD
 - Collaboration

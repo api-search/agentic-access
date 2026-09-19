@@ -75,7 +75,7 @@ tags:
 - Company
 - Business Intelligence
 - Company Data
-- Investors
+- Investor
 - Funding
 - Sales Intelligence
 - Market Research

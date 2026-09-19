@@ -70,7 +70,6 @@ summary_line: 18 operations · 6 acting
 tags:
 - Contract Management
 - Contract Lifecycle Management
-- CLM
 - Contracts
 - Artificial Intelligence
 - Legal

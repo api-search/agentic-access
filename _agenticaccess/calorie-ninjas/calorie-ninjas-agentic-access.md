@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas
 summary_line: 3 operations · 1 acting
 tags:
 - Beverages
-- Foods
+- Food
 - Image Recognition
 - Nutrition
 - Recipes

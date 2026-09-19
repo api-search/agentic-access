@@ -140,7 +140,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akeneo/refs/he
 summary_line: 54 operations · 26 acting
 tags:
 - Product Information Management
-- PIM
 - Product Data
 - Catalog Management
 - Commerce

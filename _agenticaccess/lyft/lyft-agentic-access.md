@@ -79,5 +79,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lyft-c
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rides/{id}/receipt\n  method: get\n  operationId: getRideReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/agentic-access/lyft-agentic-access.yml
 summary_line: 19 operations · 6 acting
-tags: []
+tags:
+- Transportation
+- Mobility
+- Ride Hailing
+- Micromobility
+- Bike Share
+- Scooters
+- GBFS
+- Logistics
+- Travel
 ---

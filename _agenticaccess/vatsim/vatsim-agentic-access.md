@@ -70,12 +70,6 @@ api_specs:
   slug: vatsim-metar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-metar-api-openapi.yml
-- filename: vatsim-oauth2-api-openapi.yml
-  format: yaml
-  label: VATSIM OAuth2 API
-  slug: vatsim-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-oauth2-api-openapi.yml
 - filename: vatsim-orgs-api-openapi.yml
   format: yaml
   label: VATSIM orgs API
@@ -100,6 +94,12 @@ api_specs:
   slug: vatsim-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-users-api-openapi.yml
+- filename: vatsim-oauth2-api-openapi.yml
+  format: yaml
+  label: VATSIM O Auth2 API
+  slug: vatsim-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-oauth2-api-openapi.yml
 consequence_counts:
   read: 32
   write: 2

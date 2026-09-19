@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openrouter/ref
 summary_line: 12 operations · 5 acting
 tags:
 - Artificial Intelligence
-- Gateway
-- Large Language Models
+- Gateways
+- LLM
 - Router
 ---

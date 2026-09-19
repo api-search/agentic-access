@@ -16,12 +16,6 @@ api_specs:
   slug: pitney-bowes-manifests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-manifests-api-openapi.yml
-- filename: pitney-bowes-oauth-api-openapi.yml
-  format: yaml
-  label: Pitney Bowes Oauth API
-  slug: pitney-bowes-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-oauth-api-openapi.yml
 - filename: pitney-bowes-pickups-api-openapi.yml
   format: yaml
   label: Pitney Bowes Pickups API
@@ -52,6 +46,12 @@ api_specs:
   slug: pitney-bowes-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-tracking-api-openapi.yml
+- filename: pitney-bowes-oauth-api-openapi.yml
+  format: yaml
+  label: Pitney Bowes OAUTH API
+  slug: pitney-bowes-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-oauth-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 3

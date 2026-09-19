@@ -4,18 +4,18 @@ action_class_counts:
   acting: 2
   connected: 1
 api_specs:
-- filename: traceable-graphql-api-openapi.yml
-  format: yaml
-  label: Traceable GraphQL API
-  slug: traceable-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-graphql-api-openapi.yml
 - filename: traceable-specifications-api-openapi.yml
   format: yaml
   label: Traceable Specifications API
   slug: traceable-specifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-specifications-api-openapi.yml
+- filename: traceable-graph-ql-api-openapi.yml
+  format: yaml
+  label: Traceable Graph QL API
+  slug: traceable-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-graph-ql-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2
@@ -50,6 +50,7 @@ tags:
 - API Protection
 - API Security
 - API Testing
+- Developer Tools
 - Observability
 - Security
 - Threat Detection

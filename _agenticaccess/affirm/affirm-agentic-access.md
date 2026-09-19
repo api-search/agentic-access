@@ -128,7 +128,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/he
 summary_line: 29 operations · 18 acting
 tags:
 - Fintech
-- BNPL
+- Buy Now Pay Later
 - Lending
 - Payments
 - Consumer

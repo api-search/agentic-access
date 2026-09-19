@@ -53,7 +53,7 @@ tags:
 - AI Audio
 - Machine Learning Audio
 - Vocal Processing
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 - E-Commerce

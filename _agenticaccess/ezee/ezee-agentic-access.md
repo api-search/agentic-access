@@ -45,7 +45,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ezee/refs/head
 summary_line: 2 operations · 2 acting
 tags:
 - Hospitality
-- Hotel
+- Hotels
 - PMS
 - Channel Manager
 - Reservations

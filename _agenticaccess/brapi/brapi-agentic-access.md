@@ -80,7 +80,7 @@ tags:
 - Finance
 - Brazilian Financial Data
 - Stock Market
-- Investments
+- Investment
 - Economic Indicators
 - Cryptocurrency
 ---

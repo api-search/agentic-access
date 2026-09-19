@@ -16,12 +16,12 @@ api_specs:
   slug: google-cloud-vision-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vision/refs/heads/main/openapi/google-cloud-vision-images-api-openapi.yml
-- filename: google-cloud-vision-productsearch-api-openapi.yml
+- filename: google-cloud-vision-product-search-api-openapi.yml
   format: yaml
-  label: Google Cloud Vision ProductSearch API
-  slug: google-cloud-vision-productsearch-api
+  label: Google Cloud Vision Product Search API
+  slug: google-cloud-vision-product-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vision/refs/heads/main/openapi/google-cloud-vision-productsearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vision/refs/heads/main/openapi/google-cloud-vision-product-search-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3

@@ -58,4 +58,5 @@ tags:
 - Translation
 - i18n
 - Developer Tools
+- Internationalization
 ---

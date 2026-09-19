@@ -22,12 +22,6 @@ api_specs:
   slug: simplifi-simplifipay-card-program-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-card-program-api-openapi.yml
-- filename: simplifi-simplifipay-document-api-openapi.yml
-  format: yaml
-  label: Simplifi/Simplifipay Document API
-  slug: simplifi-simplifipay-document-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/openapi/simplifi-simplifipay-document-api-openapi.yml
 - filename: simplifi-simplifipay-fee-api-openapi.yml
   format: yaml
   label: Simplifi/Simplifipay Fee API
@@ -76,14 +70,14 @@ notable_actions:
   method: POST
   path: /v1/card-program/transfer-fund
 operation_count: 52
-overview: 'Simplifi/Simplifipay exposes 52 API operations that an AI agent could call, of which 39 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Simplifipay exposes 52 API operations that an AI agent could call, of which 39 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 13 read, 38 write, and 1 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: Simplifi/Simplifipay
+provider_name: Simplifipay
 provider_slug: simplifi-simplifipay
 slug: simplifi-simplifipay-agentic-access
 source_filename: simplifi-simplifipay-agentic-access.yml

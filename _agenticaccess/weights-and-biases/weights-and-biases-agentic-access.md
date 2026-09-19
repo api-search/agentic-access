@@ -97,9 +97,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/weight
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/agentic-access/weights-and-biases-agentic-access.yml
 summary_line: 29 operations · 27 acting
 tags:
-- ML
+- Machine-Learning
 - MLOps
 - Experiment Tracking
 - Model Registry
-- GenAI
+- Generative AI
 ---

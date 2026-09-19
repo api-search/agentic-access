@@ -868,7 +868,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/small-improvem
 summary_line: 575 operations · 318 acting · 10 human-in-the-loop
 tags:
 - Performance Management
-- HR
+- Human Resources
 - Employee Feedback
 - OKRs
 - 1:1 Meetings

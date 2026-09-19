@@ -176,7 +176,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kushki/refs/he
 summary_line: 28 operations · 20 acting
 tags:
 - Payments
-- LatAm
+- Latin America
 - Andean Region
 - Card Payments
 - Subscription

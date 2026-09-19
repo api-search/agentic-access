@@ -166,12 +166,6 @@ api_specs:
   slug: trustarc-nymity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/openapi/trustarc-nymity-api-openapi.yml
-- filename: trustarc-permissionprofiles-api-openapi.yml
-  format: yaml
-  label: TrustArc Permission Profiles API
-  slug: trustarc-permissionprofiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/openapi/trustarc-permissionprofiles-api-openapi.yml
 - filename: trustarc-preface-api-openapi.yml
   format: yaml
   label: TrustArc Preface API
@@ -238,12 +232,6 @@ api_specs:
   slug: trustarc-userprofiles-activations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/openapi/trustarc-userprofiles-activations-api-openapi.yml
-- filename: trustarc-userprofiles-api-openapi.yml
-  format: yaml
-  label: TrustArc User Profiles API
-  slug: trustarc-userprofiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/openapi/trustarc-userprofiles-api-openapi.yml
 - filename: trustarc-userprofiles-users-api-openapi.yml
   format: yaml
   label: TrustArc User Profiles Users API
@@ -304,6 +292,18 @@ api_specs:
   slug: trustarc-xauths-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/openapi/trustarc-xauths-api-openapi.yml
+- filename: trustarc-permission-profiles-api-openapi.yml
+  format: yaml
+  label: TrustArc Permission Profiles API
+  slug: trustarc-permission-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/openapi/trustarc-permission-profiles-api-openapi.yml
+- filename: trustarc-user-profiles-api-openapi.yml
+  format: yaml
+  label: TrustArc User Profiles API
+  slug: trustarc-user-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/openapi/trustarc-user-profiles-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 144
@@ -488,7 +488,7 @@ tags:
 - AI Governance
 - Responsible AI
 - Compliance
-- Certifications
+- Certification
 - RegTech
 - Trust Center
 - Enterprise Saas

@@ -52,12 +52,6 @@ api_specs:
   slug: red-hat-3scale-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-invoices-api-openapi.yml
-- filename: red-hat-3scale-oauth-api-openapi.yml
-  format: yaml
-  label: Red Hat 3scale OAuth API
-  slug: red-hat-3scale-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-oauth-api-openapi.yml
 - filename: red-hat-3scale-payment-transactions-api-openapi.yml
   format: yaml
   label: Red Hat 3scale Payment Transactions API
@@ -82,6 +76,12 @@ api_specs:
   slug: red-hat-3scale-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-services-api-openapi.yml
+- filename: red-hat-3scale-oauth-api-openapi.yml
+  format: yaml
+  label: Red Hat 3scale O Auth API
+  slug: red-hat-3scale-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/openapi/red-hat-3scale-oauth-api-openapi.yml
 consequence_counts:
   read: 22
   write: 10
@@ -123,6 +123,7 @@ tags:
 - API Gateway
 - API Management
 - Developer Portal
+- Developer Tools
 - Enterprise
 - Red Hat
 ---

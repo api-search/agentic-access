@@ -194,7 +194,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/grist-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/agentic-access/grist-agentic-access.yml
 summary_line: 120 operations · 75 acting · 3 human-in-the-loop
 tags:
-- Spreadsheet
+- Spreadsheets
 - Database
 - Collaboration
 - No-Code

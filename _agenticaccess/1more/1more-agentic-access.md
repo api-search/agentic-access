@@ -46,8 +46,8 @@ tags:
 - Headphones
 - Retail
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 ---

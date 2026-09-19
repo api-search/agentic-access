@@ -87,8 +87,8 @@ summary_line: 15 operations · 8 acting
 tags:
 - Background Screening
 - Identity Verification
-- Background Check
-- HR Tech
+- Background Checks
+- Human Resources
 - Compliance
 - Gated API
 ---

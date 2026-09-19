@@ -4,12 +4,6 @@ action_class_counts:
   acting: 6
   connected: 5
 api_specs:
-- filename: google-beyondcorp-appconnections-api-openapi.yml
-  format: yaml
-  label: Google BeyondCorp AppConnections API
-  slug: google-beyondcorp-appconnections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-appconnections-api-openapi.yml
 - filename: google-beyondcorp-appconnectors-api-openapi.yml
   format: yaml
   label: Google BeyondCorp AppConnectors API
@@ -22,6 +16,12 @@ api_specs:
   slug: google-beyondcorp-securitygateways-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-securitygateways-api-openapi.yml
+- filename: google-beyondcorp-app-connections-api-openapi.yml
+  format: yaml
+  label: Google BeyondCorp App Connections API
+  slug: google-beyondcorp-app-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-app-connections-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6

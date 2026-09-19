@@ -34,12 +34,6 @@ api_specs:
   slug: 7shifts-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-locations-api-openapi.yml
-- filename: 7shifts-oauth-api-openapi.yml
-  format: yaml
-  label: 7shifts OAuth API
-  slug: 7shifts-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-oauth-api-openapi.yml
 - filename: 7shifts-reporting-api-openapi.yml
   format: yaml
   label: 7shifts Reporting API
@@ -94,6 +88,12 @@ api_specs:
   slug: 7shifts-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-webhooks-api-openapi.yml
+- filename: 7shifts-oauth-api-openapi.yml
+  format: yaml
+  label: 7shifts O Auth API
+  slug: 7shifts-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-oauth-api-openapi.yml
 consequence_counts:
   read: 19
   write: 14

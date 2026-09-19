@@ -105,7 +105,7 @@ summary_line: 16 operations · 7 acting
 tags:
 - Payments
 - Government
-- UK
+- United Kingdom
 - Public Sector
 - REST
 - PCI DSS

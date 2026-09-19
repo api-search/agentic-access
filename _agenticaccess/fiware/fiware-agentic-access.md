@@ -127,7 +127,7 @@ summary_line: 63 operations · 41 acting
 tags:
 - Context Information
 - Devices
-- Internet of Things
+- IoT
 - Linked Data
 - NGSI
 - Smart Cities

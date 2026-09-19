@@ -28,15 +28,9 @@ api_specs:
   slug: greenhouse-education-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-education-api-openapi.yml
-- filename: greenhouse-graphql-api-openapi.yml
-  format: yaml
-  label: Greenhouse Graphql API
-  slug: greenhouse-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-graphql-api-openapi.yml
 - filename: greenhouse-greenhouse-job-board-api-api-openapi.yml
   format: yaml
-  label: Greenhouse Greenhouse Job Board API API
+  label: Greenhouse Job Board API
   slug: greenhouse-greenhouse-job-board-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-greenhouse-job-board-api-api-openapi.yml
@@ -76,6 +70,12 @@ api_specs:
   slug: greenhouse-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-users-api-openapi.yml
+- filename: greenhouse-graph-ql-api-openapi.yml
+  format: yaml
+  label: Greenhouse Graph QL API
+  slug: greenhouse-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-graph-ql-api-openapi.yml
 consequence_counts:
   read: 27
   write: 13
@@ -119,5 +119,5 @@ tags:
 - Candidates
 - Job
 - Onboarding
-- HR
+- Human Resources
 ---

@@ -52,5 +52,5 @@ tags:
 - Company Profiles
 - Job Search
 - Hiring
-- HR Tech
+- Human Resources
 ---

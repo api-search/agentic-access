@@ -52,4 +52,12 @@ summary_line: 2 operations · 2 acting
 tags:
 - Finance
 - Payments
+- Banking
+- Open Banking
+- PSD2
+- SEPA
+- Card Processing
+- Payouts
+- Electronic Money Institution
+- Europe
 ---

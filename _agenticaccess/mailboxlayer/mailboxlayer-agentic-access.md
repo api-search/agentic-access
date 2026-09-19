@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: mailboxlayer-verification-api-openapi.yml
-  format: yaml
-  label: mailboxlayer Verification API
-  slug: mailboxlayer-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/openapi/mailboxlayer-verification-api-openapi.yml
 - filename: mailboxlayer-bulk-check-api-openapi.yml
   format: yaml
   label: Mailboxlayer Bulk Check API

@@ -474,5 +474,5 @@ tags:
 - Access Control
 - Authentication
 - Identity Management
-- Single Sign-On
+- SSO
 ---

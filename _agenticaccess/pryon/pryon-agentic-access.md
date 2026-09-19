@@ -22,12 +22,6 @@ api_specs:
   slug: pryon-content-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pryon/refs/heads/main/openapi/pryon-content-service-api-openapi.yml
-- filename: pryon-contentservice-api-openapi.yml
-  format: yaml
-  label: Pryon Content Service API
-  slug: pryon-contentservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pryon/refs/heads/main/openapi/pryon-contentservice-api-openapi.yml
 - filename: pryon-exchange-api-openapi.yml
   format: yaml
   label: Pryon Exchange API
@@ -82,12 +76,6 @@ api_specs:
   slug: pryon-knowledge-collection-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pryon/refs/heads/main/openapi/pryon-knowledge-collection-service-api-openapi.yml
-- filename: pryon-knowledgecollectionservice-api-openapi.yml
-  format: yaml
-  label: Pryon Knowledge Collection Service API
-  slug: pryon-knowledgecollectionservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pryon/refs/heads/main/openapi/pryon-knowledgecollectionservice-api-openapi.yml
 - filename: pryon-knowledgedomain-api-openapi.yml
   format: yaml
   label: Pryon Knowledge Domain API
@@ -136,18 +124,18 @@ api_specs:
   slug: pryon-subjects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pryon/refs/heads/main/openapi/pryon-subjects-api-openapi.yml
-- filename: pryon-texttospeech-api-openapi.yml
-  format: yaml
-  label: Pryon Text To Speech API
-  slug: pryon-texttospeech-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pryon/refs/heads/main/openapi/pryon-texttospeech-api-openapi.yml
 - filename: pryon-userdefinedmetadata-api-openapi.yml
   format: yaml
   label: Pryon User Defined Metadata API
   slug: pryon-userdefinedmetadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pryon/refs/heads/main/openapi/pryon-userdefinedmetadata-api-openapi.yml
+- filename: pryon-text-to-speech-api-openapi.yml
+  format: yaml
+  label: Pryon Text To Speech API
+  slug: pryon-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pryon/refs/heads/main/openapi/pryon-text-to-speech-api-openapi.yml
 consequence_counts:
   read: 130
   write: 146
@@ -211,7 +199,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pryon/refs/hea
 summary_line: 276 operations · 146 acting
 tags:
 - Artificial Intelligence
-- Retrieval Augmented Generation
+- RAG
 - Enterprise Search
 - Knowledge-Management
 - Generative AI

@@ -16,12 +16,6 @@ api_specs:
   slug: ubuntu-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-categories-api-openapi.yml
-- filename: ubuntu-cves-api-openapi.yml
-  format: yaml
-  label: Ubuntu CVEs API
-  slug: ubuntu-cves-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-cves-api-openapi.yml
 - filename: ubuntu-distributions-api-openapi.yml
   format: yaml
   label: Ubuntu Distributions API
@@ -76,6 +70,12 @@ api_specs:
   slug: ubuntu-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-search-api-openapi.yml
+- filename: ubuntu-cves-api-openapi.yml
+  format: yaml
+  label: Ubuntu CV Es API
+  slug: ubuntu-cves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-cves-api-openapi.yml
 consequence_counts:
   read: 16
   write: 2

@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vercel
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/agentic-access/vercel-agentic-access.yml
 summary_line: 6 operations · 4 acting
 tags:
-- AI Gateways
+- AI Gateway
 - Gateways
 - Observability
 - Webhook

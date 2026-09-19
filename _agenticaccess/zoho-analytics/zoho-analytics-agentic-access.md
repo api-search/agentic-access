@@ -174,6 +174,6 @@ tags:
 - Reports
 - Data Import
 - Data Export
-- Workspaces
-- Visualizations
+- Workspace
+- Visualization
 ---

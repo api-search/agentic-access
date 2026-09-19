@@ -39,7 +39,7 @@ summary_line: 1 operation
 tags:
 - Gender
 - Name
-- Prediction
+- Predictions
 - Demographics
 - Machine-Learning
 - Statistics

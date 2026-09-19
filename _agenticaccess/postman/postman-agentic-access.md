@@ -1,8 +1,8 @@
 ---
-acting_count: 43
+acting_count: 157
 action_class_counts:
-  acting: 43
-  connected: 35
+  acting: 157
+  connected: 129
 api_specs:
 - filename: postman-webhooks-asyncapi.yml
   format: yaml
@@ -60,7 +60,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-analytics-api-openapi.yml
 - filename: postman-api-api-openapi.yml
   format: yaml
-  label: Postman api API
+  label: Postman api
   slug: postman-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-api-api-openapi.yml
@@ -70,54 +70,12 @@ api_specs:
   slug: postman-apicatalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-apicatalog-api-openapi.yml
-- filename: postman-apisecurity-api-openapi.yml
-  format: yaml
-  label: Postman apiSecurity API
-  slug: postman-apisecurity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-apisecurity-api-openapi.yml
-- filename: postman-auditlogs-api-openapi.yml
-  format: yaml
-  label: Postman auditLogs API
-  slug: postman-auditlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-auditlogs-api-openapi.yml
 - filename: postman-billing-api-openapi.yml
   format: yaml
   label: Postman billing API
   slug: postman-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-billing-api-openapi.yml
-- filename: postman-collectionaccesskeys-api-openapi.yml
-  format: yaml
-  label: Postman collectionAccessKeys API
-  slug: postman-collectionaccesskeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-collectionaccesskeys-api-openapi.yml
-- filename: postman-collectionfolders-api-openapi.yml
-  format: yaml
-  label: Postman collectionFolders API
-  slug: postman-collectionfolders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-collectionfolders-api-openapi.yml
-- filename: postman-collectionitems-api-openapi.yml
-  format: yaml
-  label: Postman collectionItems API
-  slug: postman-collectionitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-collectionitems-api-openapi.yml
-- filename: postman-collectionrequests-api-openapi.yml
-  format: yaml
-  label: Postman collectionRequests API
-  slug: postman-collectionrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-collectionrequests-api-openapi.yml
-- filename: postman-collectionresponses-api-openapi.yml
-  format: yaml
-  label: Postman collectionResponses API
-  slug: postman-collectionresponses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-collectionresponses-api-openapi.yml
 - filename: postman-comments-api-openapi.yml
   format: yaml
   label: Postman comments API
@@ -142,60 +100,24 @@ api_specs:
   slug: postman-import-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-import-api-openapi.yml
-- filename: postman-oauth20-api-openapi.yml
-  format: yaml
-  label: Postman oAuth20 API
-  slug: postman-oauth20-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-oauth20-api-openapi.yml
 - filename: postman-postbot-api-openapi.yml
   format: yaml
   label: Postman postbot API
   slug: postman-postbot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-postbot-api-openapi.yml
-- filename: postman-privateapinetwork-api-openapi.yml
-  format: yaml
-  label: Postman privateApiNetwork API
-  slug: postman-privateapinetwork-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-privateapinetwork-api-openapi.yml
-- filename: postman-pullrequests-api-openapi.yml
-  format: yaml
-  label: Postman pullRequests API
-  slug: postman-pullrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-pullrequests-api-openapi.yml
 - filename: postman-scim-api-openapi.yml
   format: yaml
   label: Postman scim API
   slug: postman-scim-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-scim-api-openapi.yml
-- filename: postman-sdks-api-openapi.yml
-  format: yaml
-  label: Postman sdKs API
-  slug: postman-sdks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-sdks-api-openapi.yml
 - filename: postman-search-api-openapi.yml
   format: yaml
   label: Postman search API
   slug: postman-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-search-api-openapi.yml
-- filename: postman-secretscanner-api-openapi.yml
-  format: yaml
-  label: Postman secretScanner API
-  slug: postman-secretscanner-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-secretscanner-api-openapi.yml
-- filename: postman-serviceaccounts-api-openapi.yml
-  format: yaml
-  label: Postman serviceAccounts API
-  slug: postman-serviceaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-serviceaccounts-api-openapi.yml
 - filename: postman-specs-api-openapi.yml
   format: yaml
   label: Postman specs API
@@ -214,36 +136,12 @@ api_specs:
   slug: postman-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-users-api-openapi.yml
-- filename: postman-api-comments-api-openapi.yml
-  format: yaml
-  label: Postman API Comments API
-  slug: postman-api-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-api-comments-api-openapi.yml
 - filename: postman-api-schemas-api-openapi.yml
   format: yaml
   label: Postman API Schemas API
   slug: postman-api-schemas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-api-schemas-api-openapi.yml
-- filename: postman-api-versions-api-openapi.yml
-  format: yaml
-  label: Postman API Versions API
-  slug: postman-api-versions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-api-versions-api-openapi.yml
-- filename: postman-apis-api-openapi.yml
-  format: yaml
-  label: Postman APIS API
-  slug: postman-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-apis-api-openapi.yml
-- filename: postman-audit-logs-api-openapi.yml
-  format: yaml
-  label: Postman Audit Logs API
-  slug: postman-audit-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-audit-logs-api-openapi.yml
 - filename: postman-collection-runs-api-openapi.yml
   format: yaml
   label: Postman Collection Runs API
@@ -268,12 +166,6 @@ api_specs:
   slug: postman-network-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-network-requests-api-openapi.yml
-- filename: postman-private-api-network-api-openapi.yml
-  format: yaml
-  label: Postman Private API Network API
-  slug: postman-private-api-network-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-private-api-network-api-openapi.yml
 - filename: postman-secret-scanner-api-openapi.yml
   format: yaml
   label: Postman Secret Scanner API
@@ -286,22 +178,129 @@ api_specs:
   slug: postman-server-responses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-server-responses-api-openapi.yml
+- filename: postman-sdks-api-openapi.yml
+  format: yaml
+  label: Postman Sd Ks API
+  slug: postman-sdks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-sdks-api-openapi.yml
+- filename: postman-api-security-api-openapi.yml
+  format: yaml
+  label: Postman API Security API
+  slug: postman-api-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-api-security-api-openapi.yml
+- filename: postman-audit-logs-api-openapi.yml
+  format: yaml
+  label: Postman Audit Logs API
+  slug: postman-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-audit-logs-api-openapi.yml
+- filename: postman-collection-access-keys-api-openapi.yml
+  format: yaml
+  label: Postman Collection Access Keys API
+  slug: postman-collection-access-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-collection-access-keys-api-openapi.yml
+- filename: postman-collection-folders-api-openapi.yml
+  format: yaml
+  label: Postman Collection Folders API
+  slug: postman-collection-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-collection-folders-api-openapi.yml
+- filename: postman-collection-items-api-openapi.yml
+  format: yaml
+  label: Postman Collection Items API
+  slug: postman-collection-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-collection-items-api-openapi.yml
+- filename: postman-collection-requests-api-openapi.yml
+  format: yaml
+  label: Postman Collection Requests API
+  slug: postman-collection-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-collection-requests-api-openapi.yml
+- filename: postman-collection-responses-api-openapi.yml
+  format: yaml
+  label: Postman Collection Responses API
+  slug: postman-collection-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-collection-responses-api-openapi.yml
+- filename: postman-oauth-2-0-api-openapi.yml
+  format: yaml
+  label: Postman OAuth 2.0 API
+  slug: postman-oauth-2-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-oauth-2-0-api-openapi.yml
+- filename: postman-private-api-network-api-openapi.yml
+  format: yaml
+  label: Postman Private API Network API
+  slug: postman-private-api-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-private-api-network-api-openapi.yml
+- filename: postman-pull-requests-api-openapi.yml
+  format: yaml
+  label: Postman Pull Requests API
+  slug: postman-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-pull-requests-api-openapi.yml
+- filename: postman-service-accounts-api-openapi.yml
+  format: yaml
+  label: Postman Service Accounts API
+  slug: postman-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-service-accounts-api-openapi.yml
 consequence_counts:
-  read: 35
-  write: 43
+  physical: 5
+  read: 129
+  safety-critical: 1
+  write: 151
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 0
+human_in_the_loop: 1
 kind: agentic-access
 layout: agentic-access
 method: generated
 name: Postman Agentic Access
 name_suffix: Agentic Access
-notable_actions: []
-operation_count: 78
-overview: 'Postman exposes 78 API operations that an AI agent could call, of which 43 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+notable_actions:
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /oauth2/token/revoke
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /collection-folders-transfers
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /collection-requests-transfers
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /collection-responses-transfers
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /workspaces/{workspaceId}/element-transfers
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PATCH
+  path: /workspaces/{workspaceId}/transfers
+operation_count: 286
+overview: 'Postman exposes 286 API operations that an AI agent could call, of which 157 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 35 read and 43 write.
+  By consequence: 129 read, 151 write, 5 physical, and 1 safety-critical.
+
+
+  1 operation are classed safety-critical and should require human-in-the-loop approval at runtime.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -311,33 +310,42 @@ slug: postman-agentic-access
 source_filename: postman-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/postman-apis-api-openapi.yml, openapi/postman-audit-logs-api-openapi.yml, openapi/postman-collection-runs-api-openapi.yml,\n  openapi/postman-collections-api-openapi.yml, openapi/postman-environments-api-openapi.yml,\n  openapi/postman-mock-servers-api-openapi.yml, openapi/postman-monitors-api-openapi.yml, openapi/postman-private-api-network-api-openapi.yml,\n  openapi/postman-secret-scanner-api-openapi.yml, openapi/postman-tags-api-openapi.yml, openapi/postman-webhooks-api-openapi.yml,\n  openapi/postman-workspaces-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 78\n  by_action_class:\n    connected: 35\n    acting: 43\n  by_consequence:\n    read: 35\n    write: 43\n\
-  \  human_in_the_loop_required: 0\noperations:\n- path: /apis\n  method: get\n  operationId: getAllApis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis\n  method: post\n  operationId: createApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}\n  method: get\n  operationId: getApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}\n  method: put\n  operationId: updateApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
-  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}\n  method: delete\n  operationId: deleteApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/versions\n  method: get\n  operationId: getApiVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/versions\n  method: post\n  operationId: createApiVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/versions/{versionId}\n  method: get\n  operationId: getApiVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/versions/{versionId}\n  method: put\n  operationId: updateApiVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/versions/{versionId}\n  method: delete\n  operationId: deleteApiVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
-  \  - high-value\n    audit: required\n- path: /apis/{apiId}/schemas\n  method: get\n  operationId: getApiSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/schemas\n  method: post\n  operationId: createApiSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/schemas/{schemaId}\n  method: get\n  operationId: getApiSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/schemas/{schemaId}/files\n  method: get\n  operationId: getApiSchemaFiles\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/comments\n  method: get\n  operationId: getApiComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/comments\n  method: post\n  operationId: createApiComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audit/logs\n  method: get\n  operationId: getAuditLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/runs\n  method: get\n  operationId: getCollectionRuns\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/runs/{runId}\n  method: get\n  operationId: getCollectionRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections\n  method: get\n  operationId: getAllCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections\n  method: post\n  operationId: createCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}\n  method: get\n  operationId: getCollection\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}\n  method: put\n  operationId: updateCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}\n  method: delete\n  operationId: deleteCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/requests\n  method: get\n  operationId: getCollectionRequests\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/folders\n  method: get\n  operationId: getCollectionFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/responses\n  method: get\n  operationId: getCollectionResponses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/fork/{collectionId}\n  method: post\n  operationId: forkCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/merge\n  method:\
-  \ post\n  operationId: mergeCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /environments\n  method: get\n  operationId: getAllEnvironments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /environments\n  method: post\n  operationId: createEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /environments/{environmentId}\n  method: get\n  operationId: getEnvironment\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /environments/{environmentId}\n  method: put\n  operationId: updateEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /environments/{environmentId}\n  method: delete\n  operationId: deleteEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mocks\n  method: get\n  operationId: getAllMocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
-  \  token:\n      max-ttl: 3600\n    audit: none\n- path: /mocks\n  method: post\n  operationId: createMock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mocks/{mockId}\n  method: get\n  operationId: getMock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mocks/{mockId}\n  method: put\n  operationId: updateMock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mocks/{mockId}\n  method: delete\n  operationId: deleteMock\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mocks/{mockId}/publish\n  method: post\n  operationId: publishMock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mocks/{mockId}/unpublish\n  method: delete\n  operationId: unpublishMock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
-  \ /mocks/{mockId}/serverResponses\n  method: get\n  operationId: getMockServerResponses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mocks/{mockId}/serverResponses\n  method: post\n  operationId: createServerResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mocks/{mockId}/serverResponses/{serverResponseId}\n  method: put\n  operationId: updateServerResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
-  \ /mocks/{mockId}/serverResponses/{serverResponseId}\n  method: delete\n  operationId: deleteServerResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mocks/{mockId}/call-logs\n  method: get\n  operationId: getMockCallLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitors\n  method: get\n  operationId: getAllMonitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitors\n  method: post\n  operationId: createMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
-  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /monitors/{monitorId}\n  method: get\n  operationId: getMonitor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitors/{monitorId}\n  method: put\n  operationId: updateMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /monitors/{monitorId}\n  method: delete\n  operationId: deleteMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /monitors/{monitorId}/run\n  method: post\n  operationId: runMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /network/private\n  method: get\n  operationId: getPrivateNetworkElements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network/private\n  method: post\n  operationId: addNetworkElement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /network/private/{elementType}/{elementId}\n  method: put\n  operationId: updateNetworkElement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /network/private/{elementType}/{elementId}\n  method: delete\n  operationId: removeNetworkElement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /network/private/network-folder\n  method: get\n  operationId: getNetworkFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /network/private/network-folder\n  method: post\n  operationId: createNetworkFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /network/private/network-folder/{folderId}\n  method: put\n  operationId: updateNetworkFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /network/private/network-folder/{folderId}\n  method: delete\n  operationId: deleteNetworkFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /network/private/network-request\n  method: get\n  operationId: getNetworkRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network/private/network-request/{requestId}/approve\n  method: put\n  operationId: approveNetworkRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /network/private/network-request/{requestId}/deny\n  method: put\n  operationId: denyNetworkRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
-  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secret-scanner/detected-secrets\n  method: get\n  operationId: getDetectedSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secret-scanner/detected-secrets/{secretId}\n  method: get\n  operationId: getDetectedSecret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secret-scanner/detected-secrets/{secretId}\n  method: put\n  operationId: resolveDetectedSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
-  \ high-value\n    audit: required\n- path: /secret-scanner/detected-secrets/{secretId}/locations\n  method: get\n  operationId: getSecretLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secret-scanner/secret-types\n  method: get\n  operationId: getSecretTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{entityType}/{entityId}\n  method: get\n  operationId: getEntityTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{entityType}/{entityId}\n  method: put\n  operationId: updateEntityTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces\n  method: get\n  operationId: getAllWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n  \
-  \  audit: required\n- path: /workspaces/{workspaceId}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}\n  method: put\n  operationId: updateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}\n  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/global-variables\n\
-  \  method: get\n  operationId: getWorkspaceGlobalVariables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/global-variables\n  method: put\n  operationId: updateWorkspaceGlobalVariables\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/postman-analytics-api-openapi.yml, openapi/postman-api-api-openapi.yml, openapi/postman-api-schemas-api-openapi.yml,\n  openapi/postman-api-security-api-openapi.yml, openapi/postman-apicatalog-api-openapi.yml,\n  openapi/postman-audit-logs-api-openapi.yml, openapi/postman-billing-api-openapi.yml, openapi/postman-collection-access-keys-api-openapi.yml,\n  openapi/postman-collection-folders-api-openapi.yml, openapi/postman-collection-items-api-openapi.yml,\n  openapi/postman-collection-requests-api-openapi.yml, openapi/postman-collection-responses-api-openapi.yml,\n  openapi/postman-collection-runs-api-openapi.yml, openapi/postman-collections-api-openapi.yml,\n  openapi/postman-comments-api-openapi.yml, openapi/postman-components-api-openapi.yml, openapi/postman-environments-api-openapi.yml,\n  openapi/postman-groups-api-openapi.yml, openapi/postman-import-api-openapi.yml, openapi/postman-mocks-api-openapi.yml,\n  openapi/postman-monitors-api-openapi.yml,\
+  \ openapi/postman-network-elements-api-openapi.yml,\n  openapi/postman-network-folders-api-openapi.yml, openapi/postman-network-requests-api-openapi.yml,\n  openapi/postman-oauth-2-0-api-openapi.yml, openapi/postman-postbot-api-openapi.yml, openapi/postman-private-api-network-api-openapi.yml,\n  openapi/postman-pull-requests-api-openapi.yml, openapi/postman-scim-api-openapi.yml, openapi/postman-sdks-api-openapi.yml,\n  openapi/postman-search-api-openapi.yml, openapi/postman-secret-scanner-api-openapi.yml, openapi/postman-server-responses-api-openapi.yml,\n  openapi/postman-service-accounts-api-openapi.yml, openapi/postman-specs-api-openapi.yml, openapi/postman-tags-api-openapi.yml,\n  openapi/postman-teams-api-openapi.yml, openapi/postman-users-api-openapi.yml, openapi/postman-webhooks-api-openapi.yml,\n  openapi/postman-workspaces-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for\
+  \ exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 286\n  by_action_class:\n    connected: 129\n    acting: 157\n  by_consequence:\n    read: 129\n    write: 151\n    physical: 5\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /analytics\n  method: get\n  operationId: getAnalyticsData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics-metadata\n  method: get\n  operationId: getAnalyticsMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis\n  method: get\n  operationId: getApis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis\n\
+  \  method: post\n  operationId: createApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}\n  method: get\n  operationId: getApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}\n  method: put\n  operationId: updateApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}\n  method: delete\n  operationId: deleteApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/collections\n  method: post\n  operationId: addApiCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/collections/{collectionId}\n  method: get\n  operationId: getApiCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/collections/{collectionId}/comments\n  method: get\n  operationId: getApiCollectionComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/collections/{collectionId}/comments\n  method: post\n  operationId: createApiCollectionComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/collections/{collectionId}/comments/{commentId}\n  method: put\n  operationId: updateApiCollectionComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/collections/{collectionId}/comments/{commentId}\n  method: delete\n  operationId: deleteApiCollectionComment\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/collections/{collectionId}/sync-with-schema-tasks\n  method: put\n  operationId: syncCollectionWithSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/comments\n  method: get\n  operationId: getApiComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/comments\n  method: post\n  operationId: createApiComment\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/comments/{commentId}\n  method: put\n  operationId: updateApiComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/comments/{commentId}\n  method: delete\n  operationId: deleteApiComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
+  \ path: /apis/{apiId}/schemas\n  method: post\n  operationId: createApiSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/schemas/{schemaId}\n  method: get\n  operationId: getApiSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/schemas/{schemaId}/files\n  method: get\n  operationId: getApiSchemaFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/schemas/{schemaId}/files/{file-path}\n  method: get\n  operationId: getApiSchemaFileContents\n  x-agentic-access:\n    action-class: connected\n  \
+  \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/schemas/{schemaId}/files/{file-path}\n  method: put\n  operationId: createUpdateApiSchemaFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/schemas/{schemaId}/files/{file-path}\n  method: delete\n  operationId: deleteApiSchemaFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/tasks/{taskId}\n  method: get\n  operationId: getStatusOfAnAsyncApiTask\n  x-agentic-access:\n   \
+  \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/versions\n  method: get\n  operationId: getApiVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/versions\n  method: post\n  operationId: createApiVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/versions/{versionId}\n  method: get\n  operationId: getApiVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/versions/{versionId}\n  method: put\n\
+  \  operationId: updateApiVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/versions/{versionId}\n  method: delete\n  operationId: deleteApiVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/schemas\n  method: get\n  operationId: getApiSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/schemas\n  method: post\n  operationId: createApiSchema\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/schemas/{schemaId}\n  method: get\n  operationId: getApiSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/schemas/{schemaId}/files\n  method: get\n  operationId: getApiSchemaFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /security/api-validation\n  method: post\n  operationId: schemaSecurityValidation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-catalog/discovery-services\n  method: get\n  operationId: getApiCatalogDiscoveryServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-catalog/discovery-services\n  method: post\n  operationId: postApiCatalogDiscoveryServices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-catalog/discovery-services/{serviceId}\n  method: get\n  operationId: getApiCatalogDiscoveryService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-catalog/services\n\
+  \  method: get\n  operationId: getApiCatalogServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-catalog/services/{serviceId}\n  method: get\n  operationId: getApiCatalogService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-catalog/services/{serviceId}/endpoints\n  method: get\n  operationId: getApiCatalogServiceEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-catalog/services/{serviceId}/monitor-runs\n  method: get\n  operationId: getApiCatalogServiceMonitorRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-catalog/services/{serviceId}/spec-lints\n\
+  \  method: get\n  operationId: getApiCatalogServiceSpecificationLints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-catalog/services/{serviceId}/ci-runs\n  method: get\n  operationId: getApiCatalogServiceCiRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-catalog/system-environments\n  method: get\n  operationId: getApiCatalogSystemEnvironments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-catalog/system-environments\n  method: post\n  operationId: createApiCatalogSystemEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
+  \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-catalog/system-environments/{systemEnvironmentId}\n  method: get\n  operationId: getApiCatalogSystemEnvironment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-catalog/system-environments/{systemEnvironmentId}\n  method: patch\n  operationId: updateApiCatalogSystemEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-catalog/system-environments/{systemEnvironmentId}/associations\n  method: get\n  operationId: getApiCatalogSystemEnvironmentAssociations\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-catalog/system-environments/{systemEnvironmentId}/associations\n  method: post\n  operationId: addApiCatalogSystemEnvironmentAssociations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-catalog/system-environments/{systemEnvironmentId}/associations\n  method: delete\n  operationId: removeApiCatalogSystemEnvironmentAssociations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audit/logs\n  method: get\n  operationId: getAuditLogs\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audit-actions\n  method: get\n  operationId: getAuditLogEventActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts\n  method: get\n  operationId: getAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/invoices\n  method: get\n  operationId: getAccountInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collection-access-keys\n  method: get\n  operationId: getCollectionAccessKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /collection-access-keys/{keyId}\n  method: delete\n  operationId: deleteCollectionAccessKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/folders/{folderId}/comments\n  method: get\n  operationId: getFolderComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/folders/{folderId}/comments\n  method: post\n  operationId: createFolderComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/folders/{folderId}/comments/{commentId}\n  method: put\n  operationId: updateFolderComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/folders/{folderId}/comments/{commentId}\n  method: delete\n  operationId: deleteFolderComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/folders\n  method: post\n  operationId: createCollectionFolder\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/requests\n  method: post\n  operationId: createCollectionRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/responses\n  method: post\n  operationId: createCollectionResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
+  \ audit: required\n- path: /collections/{collectionId}/folders/{folderId}\n  method: get\n  operationId: getCollectionFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/folders/{folderId}\n  method: put\n  operationId: updateCollectionFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/folders/{folderId}\n  method: delete\n  operationId: deleteCollectionFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
+  \      - high-value\n    audit: required\n- path: /collections/{collectionId}/requests/{requestId}\n  method: get\n  operationId: getCollectionRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/requests/{requestId}\n  method: put\n  operationId: updateCollectionRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/requests/{requestId}\n  method: delete\n  operationId: deleteCollectionRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/responses/{responseId}\n  method: get\n  operationId: getCollectionResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/responses/{responseId}\n  method: put\n  operationId: updateCollectionResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/responses/{responseId}\n  method: delete\n  operationId: deleteCollectionResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/requests/{requestId}/comments\n  method: get\n  operationId: getRequestComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/requests/{requestId}/comments\n  method: post\n  operationId: createRequestComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/requests/{requestId}/comments/{commentId}\n  method: put\n  operationId: updateRequestComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/requests/{requestId}/comments/{commentId}\n  method: delete\n  operationId: deleteRequestComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/responses/{responseId}/comments\n  method: get\n  operationId: getResponseComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/responses/{responseId}/comments\n  method: post\n  operationId: createResponseComment\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/responses/{responseId}/comments/{commentId}\n  method: put\n  operationId: updateResponseComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/responses/{responseId}/comments/{commentId}\n  method: delete\n  operationId: deleteResponseComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/runs\n  method: get\n  operationId: getCollectionRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/runs/{runId}\n  method: get\n  operationId: getCollectionRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collection-merges\n  method: put\n  operationId: asyncMergePullCollectionFork\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collection-merges-tasks/{taskId}\n  method: get\n  operationId: asyncMergePullCollectionTaskStatus\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections\n  method: get\n  operationId: getCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections\n  method: post\n  operationId: createCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/collection-forks\n  method: get\n  operationId: getCollectionsForkedByUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/fork/{collectionId}\n  method:\
+  \ post\n  operationId: createCollectionFork\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/merge\n  method: post\n  operationId: mergeCollectionFork\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}\n  method: get\n  operationId: getCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}\n  method: put\n  operationId: putCollection\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}\n  method: delete\n  operationId: deleteCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}\n  method: patch\n  operationId: patchCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/comments\n\
+  \  method: get\n  operationId: getCollectionComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/comments\n  method: post\n  operationId: createCollectionComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/comments/{commentId}\n  method: put\n  operationId: updateCollectionComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/comments/{commentId}\n\
+  \  method: delete\n  operationId: deleteCollectionComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/duplicates\n  method: post\n  operationId: duplicateCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/forks\n  method: get\n  operationId: getCollectionForks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subj\n\n# --- truncated at 32 KB (85 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/agentic-access/postman-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/agentic-access/postman-agentic-access.yml
-summary_line: 78 operations · 43 acting
+summary_line: 286 operations · 157 acting · 1 human-in-the-loop
 tags:
 - AI Agent Builder
 - AI Agents
@@ -359,8 +367,8 @@ tags:
 - Collection
 - Compliance
 - Discovery
-- Environments
-- Flows
+- Environment
+- Flow
 - GraphQL
 - gRPC
 - HTTP
@@ -377,11 +385,11 @@ tags:
 - Public API Network
 - Secret Scanning
 - Spec Hub
-- Specifications
+- Specification
 - SSO
 - Testing
 - Vault
 - WebSocket
 - Workflows
-- Workspaces
+- Workspace
 ---

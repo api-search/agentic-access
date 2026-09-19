@@ -49,5 +49,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pg-and
   \ 3600\n    audit: none\n- path: /GreenButtonConnect/espi/1_1/resource/Subscription/{subscriptionId}/UsagePoint\n  method: get\n  operationId: listUsagePoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GreenButtonConnect/espi/1_1/resource/Subscription/{subscriptionId}/UsagePoint/{usagePointId}/MeterReading\n  method: get\n  operationId: listMeterReadings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GreenButtonConnect/espi/1_1/resource/Subscription/{subscriptionId}/UsagePoint/{usagePointId}/MeterReading/{meterReadingId}/IntervalBlock\n  method: get\n  operationId: listIntervalBlocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/agentic-access/pg-and-e-agentic-access.yml
 summary_line: 5 operations
-tags: []
+tags:
+- Energy
+- Utilities
+- Electricity
+- Natural Gas
+- California
+- United States
+- Smart Metering
+- Green Button
+- ESPI
+- Energy Usage Data
+- Investor-Owned Utility
+- Customer Data Access
 ---

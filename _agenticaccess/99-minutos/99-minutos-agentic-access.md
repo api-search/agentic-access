@@ -22,12 +22,6 @@ api_specs:
   slug: 99-minutos-locations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-locations-api-openapi.yml
-- filename: 99-minutos-oauth-api-openapi.yml
-  format: yaml
-  label: 99 Minutos oauth API
-  slug: 99-minutos-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-oauth-api-openapi.yml
 - filename: 99-minutos-orders-api-openapi.yml
   format: yaml
   label: 99 Minutos Orders API
@@ -58,6 +52,12 @@ api_specs:
   slug: 99-minutos-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-webhooks-api-openapi.yml
+- filename: 99-minutos-oauth-api-openapi.yml
+  format: yaml
+  label: 99 Minutos OAUTH API
+  slug: 99-minutos-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/openapi/99-minutos-oauth-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 13

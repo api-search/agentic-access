@@ -50,7 +50,7 @@ tags:
 - PropTech
 - Agent Platform
 - CRM
-- Partner APIs
+- Partner API
 - Marketplace
 - Austin Texas
 ---

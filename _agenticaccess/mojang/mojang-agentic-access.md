@@ -146,6 +146,6 @@ tags:
 - Gaming
 - Identity
 - Player Profiles
-- Session
+- Sessions
 - Public APIs
 ---

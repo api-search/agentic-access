@@ -93,5 +93,5 @@ tags:
 - Bare Metal
 - NVIDIA
 - InfiniBand
-- Data Centers
+- Data-Center
 ---

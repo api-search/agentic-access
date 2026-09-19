@@ -199,7 +199,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sage-h
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/agentic-access/sage-hr-agentic-access.yml
 summary_line: 53 operations · 25 acting · 2 human-in-the-loop
 tags:
-- HR
+- Human Resources
 - HRIS
 - People
 - SMB

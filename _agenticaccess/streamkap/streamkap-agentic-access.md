@@ -104,7 +104,7 @@ summary_line: 32 operations · 17 acting
 tags:
 - Streaming
 - ETL
-- CDC
+- Change Data Capture
 - Kafka
 - Flink
 - Data Integration

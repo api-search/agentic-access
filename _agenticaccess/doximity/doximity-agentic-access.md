@@ -4,18 +4,18 @@ action_class_counts:
   acting: 3
   connected: 7
 api_specs:
-- filename: doximity-oauth-api-openapi.yml
-  format: yaml
-  label: Doximity OAuth API
-  slug: doximity-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-oauth-api-openapi.yml
 - filename: doximity-openid-connect-api-openapi.yml
   format: yaml
   label: Doximity OpenID Connect API
   slug: doximity-openid-connect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-openid-connect-api-openapi.yml
+- filename: doximity-oauth-api-openapi.yml
+  format: yaml
+  label: Doximity O Auth API
+  slug: doximity-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-oauth-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1

@@ -76,12 +76,6 @@ api_specs:
   slug: yodlee-payment-processor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-payment-processor-api-openapi.yml
-- filename: yodlee-provideraccounts-api-openapi.yml
-  format: yaml
-  label: Yodlee ProviderAccounts API
-  slug: yodlee-provideraccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-provideraccounts-api-openapi.yml
 - filename: yodlee-providers-api-openapi.yml
   format: yaml
   label: Yodlee Providers API
@@ -130,6 +124,12 @@ api_specs:
   slug: yodlee-verify-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-verify-account-api-openapi.yml
+- filename: yodlee-provider-accounts-api-openapi.yml
+  format: yaml
+  label: Yodlee Provider Accounts API
+  slug: yodlee-provider-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/openapi/yodlee-provider-accounts-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 50

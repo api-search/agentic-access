@@ -4,12 +4,6 @@ action_class_counts:
   acting: 25
   connected: 21
 api_specs:
-- filename: culqi-3ds-api-openapi.yml
-  format: yaml
-  label: Culqi 3DS API
-  slug: culqi-3ds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-3ds-api-openapi.yml
 - filename: culqi-cards-api-openapi.yml
   format: yaml
   label: Culqi Cards API
@@ -76,6 +70,12 @@ api_specs:
   slug: culqi-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-transfers-api-openapi.yml
+- filename: culqi-3-ds-api-openapi.yml
+  format: yaml
+  label: Culqi 3 DS API
+  slug: culqi-3-ds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-3-ds-api-openapi.yml
 consequence_counts:
   read: 21
   write: 25
@@ -125,7 +125,7 @@ tags:
 - Payment Gateway
 - Fintech
 - Peru
-- LatAm
+- Latin America
 - Cards
 - Yape
 ---

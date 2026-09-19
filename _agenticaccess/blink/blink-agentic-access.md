@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blink/refs/hea
 summary_line: 3 operations
 tags:
 - EV Charging
-- Electric Vehicle
+- Electric Vehicles
 - Charging Stations
 - OCPI
 - OCPP

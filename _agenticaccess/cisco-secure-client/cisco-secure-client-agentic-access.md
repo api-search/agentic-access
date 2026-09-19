@@ -4,18 +4,6 @@ action_class_counts:
   acting: 9
   connected: 6
 api_specs:
-- filename: cisco-secure-client-accesspolicies-api-openapi.yml
-  format: yaml
-  label: Cisco Secure Client AccessPolicies API
-  slug: cisco-secure-client-accesspolicies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-accesspolicies-api-openapi.yml
-- filename: cisco-secure-client-accessrules-api-openapi.yml
-  format: yaml
-  label: Cisco Secure Client AccessRules API
-  slug: cisco-secure-client-accessrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-accessrules-api-openapi.yml
 - filename: cisco-secure-client-authentication-api-openapi.yml
   format: yaml
   label: Cisco Secure Client Authentication API
@@ -40,6 +28,18 @@ api_specs:
   slug: cisco-secure-client-networkobjects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-networkobjects-api-openapi.yml
+- filename: cisco-secure-client-access-policies-api-openapi.yml
+  format: yaml
+  label: Cisco Secure Client Access Policies API
+  slug: cisco-secure-client-access-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-access-policies-api-openapi.yml
+- filename: cisco-secure-client-access-rules-api-openapi.yml
+  format: yaml
+  label: Cisco Secure Client Access Rules API
+  slug: cisco-secure-client-access-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/openapi/cisco-secure-client-access-rules-api-openapi.yml
 consequence_counts:
   read: 6
   write: 9

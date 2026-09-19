@@ -88,8 +88,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/absentify/refs
 summary_line: 40 operations · 23 acting
 tags:
 - Absence Management
-- HR
+- Human Resources
 - Leave Management
 - Microsoft Teams
-- Human Resources
 ---

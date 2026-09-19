@@ -98,10 +98,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uplist
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/agentic-access/uplisting-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
-- Vacation Rental
+- Vacation Rentals
 - Short-Term Rental
 - Channel Manager
 - Property Management
-- Bookings
+- Booking
 - Hospitality
 ---

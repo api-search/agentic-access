@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pubmed/refs/he
 summary_line: 9 operations · 1 acting
 tags:
 - Biomedical
-- Life Science
+- Life Sciences
 - Research
 - Literature
 - Citations

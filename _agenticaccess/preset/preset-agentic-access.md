@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/preset
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/agentic-access/preset-agentic-access.yml
 summary_line: 21 operations · 11 acting
 tags:
-- BI
+- Business Intelligence
 - Analytics
 - Superset
 - Dashboards

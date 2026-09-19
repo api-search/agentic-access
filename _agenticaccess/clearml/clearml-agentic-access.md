@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/clearm
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/agentic-access/clearml-agentic-access.yml
 summary_line: 34 operations · 34 acting · 3 human-in-the-loop
 tags:
-- ML
+- Machine-Learning
 - MLOps
 - Open-Source
 - Experiment Tracking

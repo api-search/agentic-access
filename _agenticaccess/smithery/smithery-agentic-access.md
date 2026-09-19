@@ -185,7 +185,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smithery/refs/
 summary_line: 107 operations · 60 acting · 12 human-in-the-loop
 tags:
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - MCP
 - AI Agents
 - Developer Tools

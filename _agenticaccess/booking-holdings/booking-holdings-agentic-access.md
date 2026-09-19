@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bookin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/agentic-access/booking-holdings-agentic-access.yml
 summary_line: 39 operations · 39 acting
 tags:
-- Accommodations
+- Accommodation
 - Airlines
 - Car Rentals
 - Hospitality

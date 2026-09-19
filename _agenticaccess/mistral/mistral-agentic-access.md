@@ -22,12 +22,6 @@ api_specs:
   slug: mistral-batch-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-batch-jobs-api-openapi.yml
-- filename: mistral-chat-api-openapi.yml
-  format: yaml
-  label: Mistral AI Chat API
-  slug: mistral-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-chat-api-openapi.yml
 - filename: mistral-embeddings-api-openapi.yml
   format: yaml
   label: Mistral AI Embeddings API
@@ -131,5 +125,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mistra
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chat/moderations\n  method: post\n  operationId: createChatModeration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocr\n  method: post\n  operationId: processDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/agentic-access/mistral-agentic-access.yml
 summary_line: 29 operations · 19 acting
-tags: []
+tags:
+- Embeddings
+- Machine-Learning
+- Agents
+- OCR
+- LLM
 ---

@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: windfall-data-windfall-api-api-openapi.yml
   format: yaml
-  label: Windfall Data Windfall API API
+  label: Windfall Data Windfall API
   slug: windfall-data-windfall-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/windfall-data/refs/heads/main/openapi/windfall-data-windfall-api-api-openapi.yml

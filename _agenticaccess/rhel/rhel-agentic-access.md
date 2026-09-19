@@ -9,12 +9,6 @@ api_specs:
   slug: rhel-advisories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-advisories-api-openapi.yml
-- filename: rhel-cves-api-openapi.yml
-  format: yaml
-  label: Red Hat Enterprise Linux CVEs API
-  slug: rhel-cves-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-cves-api-openapi.yml
 - filename: rhel-oval-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux OVAL API
@@ -33,6 +27,12 @@ api_specs:
   slug: rhel-systems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-systems-api-openapi.yml
+- filename: rhel-cves-api-openapi.yml
+  format: yaml
+  label: Red Hat Enterprise Linux CV Es API
+  slug: rhel-cves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-cves-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

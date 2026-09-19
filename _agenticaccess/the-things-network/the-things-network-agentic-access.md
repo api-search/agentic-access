@@ -262,12 +262,6 @@ api_specs:
   slug: the-things-network-managedgatewaywifiprofileconfigurationservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-managedgatewaywifiprofileconfigurationservice-api-openapi.yml
-- filename: the-things-network-notificationservice-api-openapi.yml
-  format: yaml
-  label: The Things Network / The Things Stack NotificationService API
-  slug: the-things-network-notificationservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-notificationservice-api-openapi.yml
 - filename: the-things-network-ns-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack Ns API
@@ -304,12 +298,6 @@ api_specs:
   slug: the-things-network-oauthauthorizationregistry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-oauthauthorizationregistry-api-openapi.yml
-- filename: the-things-network-organizationaccess-api-openapi.yml
-  format: yaml
-  label: The Things Network / The Things Stack OrganizationAccess API
-  slug: the-things-network-organizationaccess-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-organizationaccess-api-openapi.yml
 - filename: the-things-network-organizationregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack OrganizationRegistry API
@@ -322,12 +310,6 @@ api_specs:
   slug: the-things-network-pba-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-pba-api-openapi.yml
-- filename: the-things-network-useraccess-api-openapi.yml
-  format: yaml
-  label: The Things Network / The Things Stack UserAccess API
-  slug: the-things-network-useraccess-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-useraccess-api-openapi.yml
 - filename: the-things-network-userbookmarkregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack UserBookmarkRegistry API
@@ -352,6 +334,24 @@ api_specs:
   slug: the-things-network-usersessionregistry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-usersessionregistry-api-openapi.yml
+- filename: the-things-network-notification-service-api-openapi.yml
+  format: yaml
+  label: The Things Network / The Things Stack Notification Service API
+  slug: the-things-network-notification-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-notification-service-api-openapi.yml
+- filename: the-things-network-organization-access-api-openapi.yml
+  format: yaml
+  label: The Things Network / The Things Stack Organization Access API
+  slug: the-things-network-organization-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-organization-access-api-openapi.yml
+- filename: the-things-network-user-access-api-openapi.yml
+  format: yaml
+  label: The Things Network / The Things Stack User Access API
+  slug: the-things-network-user-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-user-access-api-openapi.yml
 consequence_counts:
   physical: 19
   read: 155
@@ -531,7 +531,6 @@ summary_line: 329 operations · 174 acting · 3 human-in-the-loop
 tags:
 - LoRaWAN
 - IoT
-- Internet of Things
 - Open-Source
 - Network Server
 - LPWAN

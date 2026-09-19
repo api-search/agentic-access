@@ -34,12 +34,6 @@ api_specs:
   slug: trello-checklists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-checklists-api-openapi.yml
-- filename: trello-customfields-api-openapi.yml
-  format: yaml
-  label: trello CustomFields API
-  slug: trello-customfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-customfields-api-openapi.yml
 - filename: trello-labels-api-openapi.yml
   format: yaml
   label: trello Labels API
@@ -94,6 +88,18 @@ api_specs:
   slug: trello-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-webhooks-api-openapi.yml
+- filename: trello-custom-fields-api-openapi.yml
+  format: yaml
+  label: Trello Custom Fields API
+  slug: trello-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-custom-fields-api-openapi.yml
+- filename: trello-rest-api-openapi.json
+  format: json
+  label: Trello REST API
+  slug: trello-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-rest-api-openapi.json
 consequence_counts:
   read: 48
   write: 53
@@ -151,5 +157,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trello
   \    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/agentic-access/trello-agentic-access.yml
 summary_line: 101 operations · 53 acting
-tags: []
+tags:
+- Project Management
+- Kanban
+- Task Management
+- Collaboration
+- Productivity
+- Workflows
+- Boards
+- Atlassian
 ---

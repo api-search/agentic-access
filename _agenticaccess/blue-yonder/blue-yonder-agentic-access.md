@@ -64,5 +64,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blue-y
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wms/v1/tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/agentic-access/blue-yonder-agentic-access.yml
 summary_line: 7 operations · 2 acting
-tags: []
+tags:
+- Supply Chain
+- Forecasting
+- Retail
+- Logistics
+- API Management
 ---

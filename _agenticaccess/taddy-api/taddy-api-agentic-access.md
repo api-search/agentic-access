@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: taddy-api-graphql-api-openapi.yml
+- filename: taddy-api-graph-ql-api-openapi.yml
   format: yaml
-  label: Taddy API GraphQL API
-  slug: taddy-api-graphql-api
+  label: Taddy API Graph QL API
+  slug: taddy-api-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taddy-api/refs/heads/main/openapi/taddy-api-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/taddy-api/refs/heads/main/openapi/taddy-api-graph-ql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

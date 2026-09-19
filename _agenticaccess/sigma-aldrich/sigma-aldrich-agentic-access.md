@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sigma-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/agentic-access/sigma-aldrich-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
-- Life Science
+- Life Sciences
 - Chemistry
 - Biochemistry
 - Laboratory

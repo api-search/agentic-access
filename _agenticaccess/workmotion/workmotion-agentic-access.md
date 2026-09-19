@@ -82,9 +82,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workmotion/ref
 summary_line: 20 operations · 10 acting
 tags:
 - Employer of Record
-- EOR
 - Global Employment
-- HR
+- Human Resources
 - Payroll
 - Onboarding
 - Contractors

@@ -120,7 +120,7 @@ summary_line: 42 operations · 18 acting
 tags:
 - Accounting
 - Bookkeeping
-- HR
+- Human Resources
 - Payroll
 - Invoicing
 - Finance

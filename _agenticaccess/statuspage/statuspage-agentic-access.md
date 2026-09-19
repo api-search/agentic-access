@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/status
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/agentic-access/statuspage-agentic-access.yml
 summary_line: 29 operations · 14 acting
 tags:
-- Status Page
+- Status Pages
 - Incident Communication
 - Incident Management
 - Uptime

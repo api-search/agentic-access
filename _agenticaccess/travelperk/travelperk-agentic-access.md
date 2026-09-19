@@ -73,5 +73,5 @@ tags:
 - Travel Management
 - Expenses
 - Invoices
-- Bookings
+- Booking
 ---

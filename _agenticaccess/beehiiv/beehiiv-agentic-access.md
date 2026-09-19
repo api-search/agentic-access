@@ -236,8 +236,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/beehii
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/agentic-access/beehiiv-agentic-access.yml
 summary_line: 77 operations · 32 acting
 tags:
-- Newsletter
-- Creator
+- Newsletters
+- Creators
 - Email
 - Subscription
 - Publishing

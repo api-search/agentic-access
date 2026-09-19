@@ -102,7 +102,7 @@ tags:
 - Banking
 - Deposits
 - Fintech
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Deposit Network
 - Treasury

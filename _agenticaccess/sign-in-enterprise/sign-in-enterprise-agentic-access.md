@@ -4,12 +4,6 @@ action_class_counts:
   acting: 18
   connected: 25
 api_specs:
-- filename: sign-in-enterprise-auditlogs-api-openapi.yml
-  format: yaml
-  label: Sign In Enterprise AuditLogs API
-  slug: sign-in-enterprise-auditlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-auditlogs-api-openapi.yml
 - filename: sign-in-enterprise-batches-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Batches API
@@ -22,12 +16,6 @@ api_specs:
   slug: sign-in-enterprise-capacities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-capacities-api-openapi.yml
-- filename: sign-in-enterprise-emailtemplates-api-openapi.yml
-  format: yaml
-  label: Sign In Enterprise EmailTemplates API
-  slug: sign-in-enterprise-emailtemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-emailtemplates-api-openapi.yml
 - filename: sign-in-enterprise-groupvisits-api-openapi.yml
   format: yaml
   label: Sign In Enterprise GroupVisits API
@@ -70,12 +58,6 @@ api_specs:
   slug: sign-in-enterprise-registrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-registrations-api-openapi.yml
-- filename: sign-in-enterprise-signins-api-openapi.yml
-  format: yaml
-  label: Sign In Enterprise Signins API
-  slug: sign-in-enterprise-signins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-signins-api-openapi.yml
 - filename: sign-in-enterprise-users-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Users API
@@ -88,6 +70,24 @@ api_specs:
   slug: sign-in-enterprise-watchlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-watchlists-api-openapi.yml
+- filename: sign-in-enterprise-audit-logs-api-openapi.yml
+  format: yaml
+  label: Sign In Enterprise Audit Logs API
+  slug: sign-in-enterprise-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-audit-logs-api-openapi.yml
+- filename: sign-in-enterprise-email-templates-api-openapi.yml
+  format: yaml
+  label: Sign In Enterprise Email Templates API
+  slug: sign-in-enterprise-email-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-email-templates-api-openapi.yml
+- filename: sign-in-enterprise-sign-ins-api-openapi.yml
+  format: yaml
+  label: Sign In Enterprise Sign Ins API
+  slug: sign-in-enterprise-sign-ins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-sign-ins-api-openapi.yml
 consequence_counts:
   read: 25
   write: 18

@@ -4,24 +4,6 @@ action_class_counts:
   acting: 134
   connected: 143
 api_specs:
-- filename: snyk-oauth2-app-openapi.yml
-  format: yaml
-  label: Snyk OAuth2 API - Authorize
-  slug: oauth2-authorize
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-oauth2-app-openapi.yml
-- filename: snyk-oauth2-token-openapi.yml
-  format: yaml
-  label: Snyk OAuth2 API - Token
-  slug: oauth2-token
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-oauth2-token-openapi.yml
-- filename: snyk-accessrequests-api-openapi.yml
-  format: yaml
-  label: Snyk AccessRequests API
-  slug: snyk-accessrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-accessrequests-api-openapi.yml
 - filename: snyk-aibom-api-openapi.yml
   format: yaml
   label: Snyk AiBom API
@@ -82,12 +64,6 @@ api_specs:
   slug: snyk-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-collection-api-openapi.yml
-- filename: snyk-containerimage-api-openapi.yml
-  format: yaml
-  label: Snyk ContainerImage API
-  slug: snyk-containerimage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-containerimage-api-openapi.yml
 - filename: snyk-containerregistryimportpolicy-api-openapi.yml
   format: yaml
   label: Snyk ContainerRegistryImportPolicy API
@@ -178,12 +154,6 @@ api_specs:
   slug: snyk-learn-progress-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-learn-progress-api-openapi.yml
-- filename: snyk-openapi-api-openapi.yml
-  format: yaml
-  label: Snyk OpenAPI API
-  slug: snyk-openapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-openapi-api-openapi.yml
 - filename: snyk-opensourcesettings-api-openapi.yml
   format: yaml
   label: Snyk OpenSourceSettings API
@@ -208,12 +178,6 @@ api_specs:
   slug: snyk-package-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-package-version-api-openapi.yml
-- filename: snyk-personalaccesstoken-api-openapi.yml
-  format: yaml
-  label: Snyk PersonalAccessToken API
-  slug: snyk-personalaccesstoken-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-personalaccesstoken-api-openapi.yml
 - filename: snyk-policies-api-openapi.yml
   format: yaml
   label: Snyk Policies API
@@ -244,12 +208,6 @@ api_specs:
   slug: snyk-sbom-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-sbom-api-openapi.yml
-- filename: snyk-serviceaccounts-api-openapi.yml
-  format: yaml
-  label: Snyk ServiceAccounts API
-  slug: snyk-serviceaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-serviceaccounts-api-openapi.yml
 - filename: snyk-slack-api-openapi.yml
   format: yaml
   label: Snyk Slack API
@@ -292,6 +250,42 @@ api_specs:
   slug: snyk-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-users-api-openapi.yml
+- filename: snyk-oauth2-api-openapi.yml
+  format: yaml
+  label: Snyk Oauth2 API
+  slug: snyk-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-oauth2-api-openapi.yml
+- filename: snyk-access-requests-api-openapi.yml
+  format: yaml
+  label: Snyk Access Requests API
+  slug: snyk-access-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-access-requests-api-openapi.yml
+- filename: snyk-container-image-api-openapi.yml
+  format: yaml
+  label: Snyk Container Image API
+  slug: snyk-container-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-container-image-api-openapi.yml
+- filename: snyk-open-api-api-openapi.yml
+  format: yaml
+  label: Snyk Open API
+  slug: snyk-open-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-open-api-api-openapi.yml
+- filename: snyk-personal-access-token-api-openapi.yml
+  format: yaml
+  label: Snyk Personal Access Token API
+  slug: snyk-personal-access-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-personal-access-token-api-openapi.yml
+- filename: snyk-service-accounts-api-openapi.yml
+  format: yaml
+  label: Snyk Service Accounts API
+  slug: snyk-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-service-accounts-api-openapi.yml
 consequence_counts:
   physical: 22
   read: 143

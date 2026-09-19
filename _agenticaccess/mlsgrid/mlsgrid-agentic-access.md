@@ -74,5 +74,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mlsgri
   \ get\n  operationId: listLookups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/agentic-access/mlsgrid-agentic-access.yml
 summary_line: 8 operations
-tags: []
+tags:
+- Real-Estate
+- Property Listings
+- MLS
+- RESO
+- Data Replication
+- OData
+- Housing
+- Data Licensing
+- IDX
+- Property Data
 ---

@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: ansible-roles-ansible-galaxy-roles-collections-api-api-openapi.yml
   format: yaml
-  label: Ansible Roles Ansible Galaxy Roles & Collections API API
+  label: Ansible Roles Ansible Galaxy Roles & Collections API
   slug: ansible-roles-ansible-galaxy-roles-collections-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-ansible-galaxy-roles-collections-api-api-openapi.yml
@@ -30,7 +30,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-namespaces-api-openapi.yml
 - filename: ansible-roles-roles-api-openapi.yml
   format: yaml
-  label: Ansible Roles Roles API
+  label: Ansible Roles API
   slug: ansible-roles-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/openapi/ansible-roles-roles-api-openapi.yml

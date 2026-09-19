@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: agstack-api-api-openapi.yml
   format: yaml
-  label: AgStack Foundation api API
+  label: AgStack Foundation api
   slug: agstack-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-api-api-openapi.yml

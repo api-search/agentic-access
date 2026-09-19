@@ -58,12 +58,6 @@ api_specs:
   slug: sendcloud-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-labels-api-openapi.yml
-- filename: sendcloud-oauth2-api-openapi.yml
-  format: yaml
-  label: Sendcloud OAuth2 API
-  slug: sendcloud-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-oauth2-api-openapi.yml
 - filename: sendcloud-orders-api-openapi.yml
   format: yaml
   label: Sendcloud Orders API
@@ -160,6 +154,12 @@ api_specs:
   slug: sendcloud-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-webhooks-api-openapi.yml
+- filename: sendcloud-oauth2-api-openapi.yml
+  format: yaml
+  label: Sendcloud O Auth2 API
+  slug: sendcloud-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/openapi/sendcloud-oauth2-api-openapi.yml
 consequence_counts:
   physical: 20
   read: 52
@@ -325,7 +325,7 @@ tags:
 - Shipping
 - Logistics
 - E-Commerce
-- Carriers
+- Carrier
 - Labels
 - Returns
 - Tracking

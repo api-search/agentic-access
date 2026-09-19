@@ -42,6 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalability-te
 summary_line: 8 operations · 4 acting
 tags:
 - API Testing
+- Developer Tools
 - Load Testing
 - Performance Testing
 - Scalability

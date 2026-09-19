@@ -132,7 +132,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mockserver/ref
 summary_line: 20 operations · 20 acting · 12 human-in-the-loop
 tags:
 - Mocking
-- Mock Server
+- Mock Servers
 - Testing
 - Service Virtualization
 - HTTP

@@ -123,4 +123,5 @@ tags:
 - Identity
 - B2B SaaS
 - Agent Auth
+- Identity Federation
 ---

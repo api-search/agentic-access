@@ -73,6 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jupyterlab/ref
 summary_line: 12 operations · 3 acting
 tags:
 - Data Science
+- Developer Tools
 - Extensions
 - IDE
 - Interactive Computing

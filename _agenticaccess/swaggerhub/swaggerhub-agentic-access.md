@@ -4,12 +4,6 @@ action_class_counts:
   acting: 22
   connected: 16
 api_specs:
-- filename: swaggerhub-apis-api-openapi.yml
-  format: yaml
-  label: SwaggerHub APIs API
-  slug: swaggerhub-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-apis-api-openapi.yml
 - filename: swaggerhub-domains-api-openapi.yml
   format: yaml
   label: SwaggerHub Domains API
@@ -58,6 +52,12 @@ api_specs:
   slug: swaggerhub-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-teams-api-openapi.yml
+- filename: swaggerhub-apis-api-openapi.yml
+  format: yaml
+  label: SwaggerHub AP Is API
+  slug: swaggerhub-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/openapi/swaggerhub-apis-api-openapi.yml
 consequence_counts:
   read: 16
   write: 22
@@ -102,6 +102,7 @@ tags:
 - API Design
 - API Management
 - API Registry
+- Developer Tools
 - Documentation
 - OpenAPI
 - SmartBear

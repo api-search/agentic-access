@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: spacelift-graphql-api-openapi.yml
+- filename: spacelift-graph-ql-api-openapi.yml
   format: yaml
-  label: Spacelift GraphQL API
-  slug: spacelift-graphql-api
+  label: Spacelift Graph QL API
+  slug: spacelift-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/openapi/spacelift-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/spacelift/refs/heads/main/openapi/spacelift-graph-ql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

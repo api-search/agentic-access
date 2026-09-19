@@ -46,6 +46,6 @@ tags:
 - Business Profiles
 - Google
 - Local Business
-- Locations
+- Location
 - Reviews
 ---

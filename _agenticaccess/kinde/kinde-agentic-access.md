@@ -10,12 +10,6 @@ api_specs:
   slug: kinde-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-api-keys-api-openapi.yml
-- filename: kinde-apis-api-openapi.yml
-  format: yaml
-  label: Kinde APIs API
-  slug: kinde-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-apis-api-openapi.yml
 - filename: kinde-applications-api-openapi.yml
   format: yaml
   label: Kinde Applications API
@@ -112,12 +106,6 @@ api_specs:
   slug: kinde-mfa-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-mfa-api-openapi.yml
-- filename: kinde-oauth-api-openapi.yml
-  format: yaml
-  label: Kinde OAuth API
-  slug: kinde-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-oauth-api-openapi.yml
 - filename: kinde-organizations-api-openapi.yml
   format: yaml
   label: Kinde Organizations API
@@ -184,6 +172,18 @@ api_specs:
   slug: kinde-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-webhooks-api-openapi.yml
+- filename: kinde-apis-api-openapi.yml
+  format: yaml
+  label: Kinde AP Is API
+  slug: kinde-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-apis-api-openapi.yml
+- filename: kinde-oauth-api-openapi.yml
+  format: yaml
+  label: Kinde O Auth API
+  slug: kinde-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/openapi/kinde-oauth-api-openapi.yml
 consequence_counts:
   read: 68
   safety-critical: 13
@@ -321,7 +321,7 @@ tags:
 - Customer Identity
 - Identity Management
 - OpenID Connect
-- Single Sign-On
+- SSO
 - Multi-Factor Authentication
 - Role-Based Access Control
 - Feature Flags

@@ -140,7 +140,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads
 summary_line: 54 operations · 35 acting
 tags:
 - Link Management
-- URL Shortener
+- URL Shorteners
 - Analytics
 - Conversion Tracking
 - Affiliate Programs

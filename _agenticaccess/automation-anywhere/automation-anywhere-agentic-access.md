@@ -16,12 +16,6 @@ api_specs:
   slug: automation-anywhere-allocations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-allocations-api-openapi.yml
-- filename: automation-anywhere-attributevalues-api-openapi.yml
-  format: yaml
-  label: automation-anywhere AttributeValues API
-  slug: automation-anywhere-attributevalues-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-attributevalues-api-openapi.yml
 - filename: automation-anywhere-auditdata-api-openapi.yml
   format: yaml
   label: automation-anywhere AuditData API
@@ -100,12 +94,6 @@ api_specs:
   slug: automation-anywhere-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-roles-api-openapi.yml
-- filename: automation-anywhere-taskdata-api-openapi.yml
-  format: yaml
-  label: automation-anywhere TaskData API
-  slug: automation-anywhere-taskdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-taskdata-api-openapi.yml
 - filename: automation-anywhere-users-api-openapi.yml
   format: yaml
   label: automation-anywhere Users API
@@ -118,18 +106,30 @@ api_specs:
   slug: automation-anywhere-workitemmodels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-workitemmodels-api-openapi.yml
-- filename: automation-anywhere-workitems-api-openapi.yml
-  format: yaml
-  label: automation-anywhere WorkItems API
-  slug: automation-anywhere-workitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-workitems-api-openapi.yml
 - filename: automation-anywhere-workspaces-api-openapi.yml
   format: yaml
   label: automation-anywhere Workspaces API
   slug: automation-anywhere-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-workspaces-api-openapi.yml
+- filename: automation-anywhere-attribute-values-api-openapi.yml
+  format: yaml
+  label: Automation Anywhere Attribute Values API
+  slug: automation-anywhere-attribute-values-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-attribute-values-api-openapi.yml
+- filename: automation-anywhere-task-data-api-openapi.yml
+  format: yaml
+  label: Automation Anywhere Task Data API
+  slug: automation-anywhere-task-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-task-data-api-openapi.yml
+- filename: automation-anywhere-work-items-api-openapi.yml
+  format: yaml
+  label: Automation Anywhere Work Items API
+  slug: automation-anywhere-work-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-work-items-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 20
@@ -192,5 +192,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/automa
   \ createWorkItemsFromFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/agentic-access/automation-anywhere-agentic-access.yml
 summary_line: 69 operations · 49 acting
-tags: []
+tags:
+- RPA
+- Robotic Process Automation
+- Intelligent Automation
+- Agentic Process Automation
+- AI Agents
+- Workflow-Automation
+- Document Automation
+- Process Orchestration
+- Enterprise Automation
+- Bots
 ---

@@ -113,7 +113,7 @@ tags:
 - Machine-Learning
 - Open-Source
 - Model Routing
-- Evaluations
+- Evaluation
 - Fine-Tuning
 - AI Infrastructure
 - Developer Tools

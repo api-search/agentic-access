@@ -1312,12 +1312,6 @@ api_specs:
   slug: automattic-nudge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/openapi/automattic-nudge-api-openapi.yml
-- filename: automattic-oauth2-api-openapi.yml
-  format: yaml
-  label: Automattic Oauth2 API
-  slug: automattic-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/openapi/automattic-oauth2-api-openapi.yml
 - filename: automattic-odie-api-openapi.yml
   format: yaml
   label: Automattic Odie API
@@ -2302,6 +2296,12 @@ api_specs:
   slug: automattic-zendesk-notification-staging-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/openapi/automattic-zendesk-notification-staging-api-openapi.yml
+- filename: automattic-oauth2-api-openapi.yml
+  format: yaml
+  label: Automattic Oauth2 API
+  slug: automattic-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automattic/refs/heads/main/openapi/automattic-oauth2-api-openapi.yml
 consequence_counts:
   physical: 96
   read: 1166

@@ -104,5 +104,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aws-la
   \      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/agentic-access/aws-lambda-agentic-access.yml
 summary_line: 38 operations · 23 acting
-tags: []
+tags:
+- Serverless
+- Monitoring
+- Observability
+- Logging
+- Telemetry
+- AWS Lambda
 ---

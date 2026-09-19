@@ -34,12 +34,6 @@ api_specs:
   slug: pluralsight-dora-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-dora-metrics-api-openapi.yml
-- filename: pluralsight-graphql-api-openapi.yml
-  format: yaml
-  label: Pluralsight GraphQL API
-  slug: pluralsight-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-graphql-api-openapi.yml
 - filename: pluralsight-integrations-api-openapi.yml
   format: yaml
   label: Pluralsight Integrations API
@@ -70,12 +64,6 @@ api_specs:
   slug: pluralsight-repos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-repos-api-openapi.yml
-- filename: pluralsight-teams-api-openapi.yml
-  format: yaml
-  label: Pluralsight Teams API
-  slug: pluralsight-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-teams-api-openapi.yml
 - filename: pluralsight-tickets-api-openapi.yml
   format: yaml
   label: Pluralsight Tickets API
@@ -88,6 +76,12 @@ api_specs:
   slug: pluralsight-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-users-api-openapi.yml
+- filename: pluralsight-graph-ql-api-openapi.yml
+  format: yaml
+  label: Pluralsight Graph QL API
+  slug: pluralsight-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-graph-ql-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1

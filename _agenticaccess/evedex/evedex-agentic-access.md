@@ -22,12 +22,6 @@ api_specs:
   slug: evedex-aml-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-aml-api-openapi.yml
-- filename: evedex-apikey-api-openapi.yml
-  format: yaml
-  label: EVEDEX API Key API
-  slug: evedex-apikey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-apikey-api-openapi.yml
 - filename: evedex-article-api-openapi.yml
   format: yaml
   label: EVEDEX Article API
@@ -304,12 +298,6 @@ api_specs:
   slug: evedex-message-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-message-api-openapi.yml
-- filename: evedex-mobileapp-api-openapi.yml
-  format: yaml
-  label: EVEDEX Mobile App API
-  slug: evedex-mobileapp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-mobileapp-api-openapi.yml
 - filename: evedex-module-api-openapi.yml
   format: yaml
   label: EVEDEX Module API
@@ -334,24 +322,12 @@ api_specs:
   slug: evedex-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-notifications-api-openapi.yml
-- filename: evedex-oauth-api-openapi.yml
-  format: yaml
-  label: EVEDEX OAUTH API
-  slug: evedex-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-oauth-api-openapi.yml
 - filename: evedex-order-api-openapi.yml
   format: yaml
   label: EVEDEX Order API
   slug: evedex-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-order-api-openapi.yml
-- filename: evedex-paymentservice-api-openapi.yml
-  format: yaml
-  label: EVEDEX Payment Service API
-  slug: evedex-paymentservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-paymentservice-api-openapi.yml
 - filename: evedex-paysystem-api-openapi.yml
   format: yaml
   label: EVEDEX Paysystem API
@@ -382,12 +358,6 @@ api_specs:
   slug: evedex-product-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-product-api-openapi.yml
-- filename: evedex-promocodes-api-openapi.yml
-  format: yaml
-  label: EVEDEX Promocodes API
-  slug: evedex-promocodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-promocodes-api-openapi.yml
 - filename: evedex-public-profile-api-openapi.yml
   format: yaml
   label: EVEDEX Public profile API
@@ -472,12 +442,6 @@ api_specs:
   slug: evedex-sharecontent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-sharecontent-api-openapi.yml
-- filename: evedex-shortlink-api-openapi.yml
-  format: yaml
-  label: EVEDEX Short Link API
-  slug: evedex-shortlink-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-shortlink-api-openapi.yml
 - filename: evedex-simulator-api-openapi.yml
   format: yaml
   label: EVEDEX Simulator API
@@ -520,12 +484,6 @@ api_specs:
   slug: evedex-strategy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-strategy-api-openapi.yml
-- filename: evedex-subaccount-api-openapi.yml
-  format: yaml
-  label: EVEDEX Sub Account API
-  slug: evedex-subaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-subaccount-api-openapi.yml
 - filename: evedex-subscription-api-openapi.yml
   format: yaml
   label: EVEDEX Subscription API
@@ -646,6 +604,48 @@ api_specs:
   slug: evedex-yield-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-yield-api-openapi.yml
+- filename: evedex-oauth-api-openapi.yml
+  format: yaml
+  label: EVEDEX OAUTH API
+  slug: evedex-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-oauth-api-openapi.yml
+- filename: evedex-api-key-api-openapi.yml
+  format: yaml
+  label: EVEDEX API Key API
+  slug: evedex-api-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-api-key-api-openapi.yml
+- filename: evedex-mobile-app-api-openapi.yml
+  format: yaml
+  label: EVEDEX Mobile App API
+  slug: evedex-mobile-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-mobile-app-api-openapi.yml
+- filename: evedex-payment-service-api-openapi.yml
+  format: yaml
+  label: EVEDEX Payment Service API
+  slug: evedex-payment-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-payment-service-api-openapi.yml
+- filename: evedex-promo-codes-api-openapi.yml
+  format: yaml
+  label: EVEDEX Promo Codes API
+  slug: evedex-promo-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-promo-codes-api-openapi.yml
+- filename: evedex-short-link-api-openapi.yml
+  format: yaml
+  label: EVEDEX Short Link API
+  slug: evedex-short-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-short-link-api-openapi.yml
+- filename: evedex-sub-account-api-openapi.yml
+  format: yaml
+  label: EVEDEX Sub Account API
+  slug: evedex-sub-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/openapi/evedex-sub-account-api-openapi.yml
 consequence_counts:
   physical: 31
   read: 276

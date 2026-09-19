@@ -65,7 +65,7 @@ summary_line: 23 operations · 6 acting
 tags:
 - Email Testing
 - Email Previews
-- Email Clients
+- Email Client
 - Spam Testing
 - Accessibility
 - HTML Validation

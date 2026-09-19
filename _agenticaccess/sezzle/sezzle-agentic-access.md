@@ -126,7 +126,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/he
 summary_line: 27 operations · 15 acting
 tags:
 - Buy Now Pay Later
-- BNPL
 - Payments
 - Installments
 - Fintech

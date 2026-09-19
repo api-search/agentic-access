@@ -118,7 +118,7 @@ tags:
 - Event Management
 - Ticketing
 - Community
-- Calendars
+- Calendar
 - Guests
 - Attendance
 ---

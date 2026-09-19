@@ -28,12 +28,6 @@ api_specs:
   slug: indykite-authorization-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-authorization-policies-api-openapi.yml
-- filename: indykite-authzen-api-openapi.yml
-  format: yaml
-  label: Indykite AuthZEN API
-  slug: indykite-authzen-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-authzen-api-openapi.yml
 - filename: indykite-capture-api-openapi.yml
   format: yaml
   label: Indykite Capture API
@@ -46,12 +40,6 @@ api_specs:
   slug: indykite-contx-iq-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-contx-iq-api-openapi.yml
-- filename: indykite-dataschema-api-openapi.yml
-  format: yaml
-  label: Indykite DataSchema API
-  slug: indykite-dataschema-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-dataschema-api-openapi.yml
 - filename: indykite-deprecated-api-openapi.yml
   format: yaml
   label: Indykite Deprecated API
@@ -64,12 +52,6 @@ api_specs:
   slug: indykite-entity-matching-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-entity-matching-api-openapi.yml
-- filename: indykite-entitymatching-api-openapi.yml
-  format: yaml
-  label: Indykite EntityMatching API
-  slug: indykite-entitymatching-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-entitymatching-api-openapi.yml
 - filename: indykite-event-sinks-api-openapi.yml
   format: yaml
   label: Indykite Event Sinks API
@@ -130,6 +112,18 @@ api_specs:
   slug: indykite-trust-score-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-trust-score-api-openapi.yml
+- filename: indykite-auth-zen-api-openapi.yml
+  format: yaml
+  label: Indykite Auth ZEN API
+  slug: indykite-auth-zen-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-auth-zen-api-openapi.yml
+- filename: indykite-data-schema-api-openapi.yml
+  format: yaml
+  label: Indykite Data Schema API
+  slug: indykite-data-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/openapi/indykite-data-schema-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 32

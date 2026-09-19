@@ -310,7 +310,7 @@ tags:
 - Net Zero
 - LCA
 - Greenhouse Gas
-- Protocols
+- Protocol
 - Artificial Intelligence
 - MCP
 ---

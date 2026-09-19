@@ -40,12 +40,6 @@ api_specs:
   slug: shutterstock-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-images-api-openapi.yml
-- filename: shutterstock-oauth-api-openapi.yml
-  format: yaml
-  label: Shutterstock oauth API
-  slug: shutterstock-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-oauth-api-openapi.yml
 - filename: shutterstock-test-api-openapi.yml
   format: yaml
   label: Shutterstock test API
@@ -64,6 +58,12 @@ api_specs:
   slug: shutterstock-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-videos-api-openapi.yml
+- filename: shutterstock-oauth-api-openapi.yml
+  format: yaml
+  label: Shutterstock OAUTH API
+  slug: shutterstock-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-oauth-api-openapi.yml
 consequence_counts:
   read: 67
   write: 28
@@ -124,7 +124,7 @@ tags:
 - Media
 - Photos
 - Stock Images
-- Videos
+- Video
 - Audio
 - Licensing
 - Creative Content

@@ -178,6 +178,12 @@ api_specs:
   slug: gainsight-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-users-api-openapi.yml
+- filename: gainsight-px-rest-api-openapi.yml
+  format: yaml
+  label: Gainsight PX REST API
+  slug: gainsight-px-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-px-rest-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 42
@@ -241,5 +247,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gainsi
   \ abnormal\n      - high-value\n    audit: required\n- path: /v1/companies/{companyId}\n  method: delete\n  operationId: deleteCompany\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/people\n  method: get\n  operationId: listPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reports\n  method: post\n  operationId: runReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/agentic-access/gainsight-agentic-access.yml
 summary_line: 97 operations · 55 acting
-tags: []
+tags:
+- Customer Success
+- Customer Experience
+- Product Analytics
+- Customer Communities
+- Customer Health
+- Customer Education
+- Software-as-a-Service
+- MCP
+- Retention
 ---

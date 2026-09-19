@@ -4,54 +4,60 @@ action_class_counts:
   acting: 1
   connected: 10
 api_specs:
+- filename: workday-advanced-compensation-compensation-rest-v3-openapi.json
+  format: json
+  label: Workday Compensation REST API v3
+  slug: workday-compensation-rest-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-compensation-rest-v3-openapi.json
 - filename: workday-advanced-compensation-bonus-plans-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Bonus Plans API
   slug: workday-advanced-compensation-bonus-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-bonus-plans-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-bonus-plans-api-openapi.yml
 - filename: workday-advanced-compensation-compensation-budgets-api-openapi.yml
   format: yaml
-  label: Workday Advanced Compensation Compensation Budgets API
+  label: Workday Advanced Compensation Budgets API
   slug: workday-advanced-compensation-compensation-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-compensation-budgets-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-compensation-budgets-api-openapi.yml
 - filename: workday-advanced-compensation-compensation-grades-api-openapi.yml
   format: yaml
-  label: Workday Advanced Compensation Compensation Grades API
+  label: Workday Advanced Compensation Grades API
   slug: workday-advanced-compensation-compensation-grades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-compensation-grades-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-compensation-grades-api-openapi.yml
 - filename: workday-advanced-compensation-compensation-plans-api-openapi.yml
   format: yaml
-  label: Workday Advanced Compensation Compensation Plans API
+  label: Workday Advanced Compensation Plans API
   slug: workday-advanced-compensation-compensation-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-compensation-plans-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-compensation-plans-api-openapi.yml
 - filename: workday-advanced-compensation-compensation-reviews-api-openapi.yml
   format: yaml
-  label: Workday Advanced Compensation Compensation Reviews API
+  label: Workday Advanced Compensation Reviews API
   slug: workday-advanced-compensation-compensation-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-compensation-reviews-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-compensation-reviews-api-openapi.yml
 - filename: workday-advanced-compensation-employee-compensation-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Employee Compensation API
   slug: workday-advanced-compensation-employee-compensation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-employee-compensation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-employee-compensation-api-openapi.yml
 - filename: workday-advanced-compensation-merit-plans-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Merit Plans API
   slug: workday-advanced-compensation-merit-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-merit-plans-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-merit-plans-api-openapi.yml
 - filename: workday-advanced-compensation-stock-plans-api-openapi.yml
   format: yaml
   label: Workday Advanced Compensation Stock Plans API
   slug: workday-advanced-compensation-stock-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/workday-advanced-compensation-stock-plans-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/openapi/_ae-authored/workday-advanced-compensation-stock-plans-api-openapi.yml
 consequence_counts:
   read: 10
   write: 1
@@ -83,5 +89,16 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workda
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/agentic-access/workday-advanced-compensation-agentic-access.yml
 summary_line: 11 operations · 1 acting
-tags: []
+tags:
+- Compensation
+- Human Resources
+- Payroll
+- HCM
+- Enterprise Software
+- Total Rewards
+- Bonus
+- Merit
+- Stock Compensation
+- SOAP
+- Software-as-a-Service
 ---

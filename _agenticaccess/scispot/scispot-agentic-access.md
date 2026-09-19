@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scispot/refs/h
 summary_line: 18 operations · 7 acting
 tags:
 - Laboratory
-- Life Science
+- Life Sciences
 - LIMS
 - ELN
 - Biotech

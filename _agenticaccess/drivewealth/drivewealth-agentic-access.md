@@ -294,7 +294,7 @@ tags:
 - Fractional Shares
 - Trading
 - Fintech
-- Equities
+- Stocks
 - ETFs
 - Options
 - Fixed Income

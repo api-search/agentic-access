@@ -163,7 +163,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/keka-h
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keka/refs/heads/main/agentic-access/keka-agentic-access.yml
 summary_line: 99 operations · 27 acting · 1 human-in-the-loop
 tags:
-- HR
 - Human Resources
 - Payroll
 - Attendance

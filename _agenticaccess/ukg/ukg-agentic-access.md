@@ -88,7 +88,7 @@ summary_line: 18 operations · 2 acting
 tags:
 - HCM
 - Workforce Management
-- HR
+- Human Resources
 - Payroll
 - Time and Attendance
 - Benefits

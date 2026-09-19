@@ -114,7 +114,7 @@ summary_line: 39 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Agents
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Workflows
 - Orchestration
 ---

@@ -738,7 +738,7 @@ tags:
 - Identity
 - Credentials
 - IoT
-- Smart Building
+- Smart Buildings
 - Avigilon Alta
 - Motorola Solutions
 ---

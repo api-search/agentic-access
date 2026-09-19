@@ -28,12 +28,6 @@ api_specs:
   slug: boxc-customsproducts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-customsproducts-api-openapi.yml
-- filename: boxc-entrypoints-api-openapi.yml
-  format: yaml
-  label: Boxc EntryPoints API
-  slug: boxc-entrypoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-entrypoints-api-openapi.yml
 - filename: boxc-estimate-api-openapi.yml
   format: yaml
   label: Boxc Estimate API
@@ -118,12 +112,6 @@ api_specs:
   slug: boxc-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-users-api-openapi.yml
-- filename: boxc-validateaddress-api-openapi.yml
-  format: yaml
-  label: Boxc ValidateAddress API
-  slug: boxc-validateaddress-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-validateaddress-api-openapi.yml
 - filename: boxc-warehouses-api-openapi.yml
   format: yaml
   label: Boxc Warehouses API
@@ -136,6 +124,18 @@ api_specs:
   slug: boxc-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-webhooks-api-openapi.yml
+- filename: boxc-entry-points-api-openapi.yml
+  format: yaml
+  label: Boxc Entry Points API
+  slug: boxc-entry-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-entry-points-api-openapi.yml
+- filename: boxc-validate-address-api-openapi.yml
+  format: yaml
+  label: Boxc Validate Address API
+  slug: boxc-validate-address-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-validate-address-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 34

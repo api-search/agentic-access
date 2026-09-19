@@ -33,12 +33,6 @@ api_specs:
   slug: siftingio-dex-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-dex-api-openapi.yml
-- filename: siftingio-economiccalendar-api-openapi.yml
-  format: yaml
-  label: SiftingIO Economic Calendar API
-  slug: siftingio-economiccalendar-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-economiccalendar-api-openapi.yml
 - filename: siftingio-filers-api-openapi.yml
   format: yaml
   label: SiftingIO Filers API
@@ -75,6 +69,12 @@ api_specs:
   slug: siftingio-stocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-stocks-api-openapi.yml
+- filename: siftingio-economic-calendar-api-openapi.yml
+  format: yaml
+  label: SiftingIO Economic Calendar API
+  slug: siftingio-economic-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/openapi/siftingio-economic-calendar-api-openapi.yml
 consequence_counts:
   read: 37
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -45,7 +45,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-quicksi
 summary_line: 3 operations
 tags:
 - Analytics
-- BI
 - Business Intelligence
 - Dashboards
 - Machine-Learning

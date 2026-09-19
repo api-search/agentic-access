@@ -142,6 +142,54 @@ api_specs:
   slug: tidb-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/openapi/tidb-status-api-openapi.yml
+- filename: tidb-cloud-dedicated-v1beta1-openapi-original.json
+  format: json
+  label: TiDB Cloud Dedicated API
+  slug: tidb-cloud-dedicated-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/openapi/_original/tidb-cloud-dedicated-v1beta1-openapi-original.json
+- filename: tidb-cloud-starter-essential-v1beta1-openapi-original.json
+  format: json
+  label: TiDB Cloud Starter and Essential API
+  slug: tidb-cloud-starter-essential-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/openapi/_original/tidb-cloud-starter-essential-v1beta1-openapi-original.json
+- filename: tidb-cloud-premium-v1beta2-openapi-original.json
+  format: json
+  label: TiDB Cloud Premium API
+  slug: tidb-cloud-premium-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/openapi/_original/tidb-cloud-premium-v1beta2-openapi-original.json
+- filename: tidb-cloud-dataservice-v1beta1-openapi-original.json
+  format: json
+  label: TiDB Cloud Data Service API
+  slug: tidb-cloud-data-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/openapi/_original/tidb-cloud-dataservice-v1beta1-openapi-original.json
+- filename: tidb-cloud-iam-v1beta1-openapi-original.json
+  format: json
+  label: TiDB Cloud IAM API
+  slug: tidb-cloud-iam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/openapi/_original/tidb-cloud-iam-v1beta1-openapi-original.json
+- filename: tidb-cloud-billing-v1beta1-openapi-original.json
+  format: json
+  label: TiDB Cloud Billing API
+  slug: tidb-cloud-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/openapi/_original/tidb-cloud-billing-v1beta1-openapi-original.json
+- filename: tidb-cloud-msp-v1beta1-openapi-original.json
+  format: json
+  label: TiDB Cloud MSP API
+  slug: tidb-cloud-msp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/openapi/_original/tidb-cloud-msp-v1beta1-openapi-original.json
+- filename: tidb-cloud-v1beta-openapi-original.json
+  format: json
+  label: TiDB Cloud API v1beta
+  slug: tidb-cloud-api-v1beta
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/openapi/_original/tidb-cloud-v1beta-openapi-original.json
 consequence_counts:
   physical: 1
   read: 42
@@ -206,5 +254,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tidb-c
   \      - abnormal\n      - high-value\n    audit: required\n- path: /stats/dump/{db}/{table}\n  method: get\n  operationId: dumpTableStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /debug/zip\n  method: get\n  operationId: downloadDebugZip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/agentic-access/tidb-agentic-access.yml
 summary_line: 74 operations · 32 acting · 1 human-in-the-loop
-tags: []
+tags:
+- Database
+- Distributed SQL
+- HTAP
+- Cloud
+- Open-Source
+- Vector Search
+- Data Infrastructure
+- Database-as-a-Service
+- MySQL Compatible
+- Artificial Intelligence
 ---

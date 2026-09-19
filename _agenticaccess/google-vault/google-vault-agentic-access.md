@@ -34,12 +34,12 @@ api_specs:
   slug: google-vault-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-operations-api-openapi.yml
-- filename: google-vault-savedqueries-api-openapi.yml
+- filename: google-vault-saved-queries-api-openapi.yml
   format: yaml
-  label: Google Vault SavedQueries API
-  slug: google-vault-savedqueries-api
+  label: Google Vault Saved Queries API
+  slug: google-vault-saved-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-savedqueries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-saved-queries-api-openapi.yml
 consequence_counts:
   read: 11
   write: 22
@@ -79,5 +79,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \    - abnormal\n      - high-value\n    audit: required\n- path: /v1/operations/{operationsId}:cancel\n  method: post\n  operationId: operations.cancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/agentic-access/google-vault-agentic-access.yml
 summary_line: 33 operations · 22 acting
-tags: []
+tags:
+- eDiscovery
+- Legal Hold
+- Information Governance
+- Compliance
+- Archiving
+- Retention
+- Google Workspace
+- Audit
 ---

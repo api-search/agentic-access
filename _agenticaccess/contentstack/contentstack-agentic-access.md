@@ -275,5 +275,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/conten
   \  method: get\n  operationId: getAllExperiences\n  x-agentic-acc\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/agentic-access/contentstack-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/agentic-access/contentstack-agentic-access.yml
 summary_line: 132 operations · 68 acting
-tags: []
+tags:
+- Headless CMS
+- Content Management
+- Content Delivery
+- Digital Experience
+- Personalization
+- GraphQL
+- MCP
+- SCIM
+- Composable Commerce
+- Agentic AI
+- Webhook
+- Image Delivery
 ---

@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 23
 api_specs:
-- filename: traefik-entrypoints-api-openapi.yml
-  format: yaml
-  label: Traefik Labs Entrypoints API
-  slug: traefik-entrypoints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-entrypoints-api-openapi.yml
 - filename: traefik-health-api-openapi.yml
   format: yaml
   label: Traefik Labs Health API
@@ -39,6 +33,12 @@ api_specs:
   slug: traefik-udp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-udp-api-openapi.yml
+- filename: traefik-entry-points-api-openapi.yml
+  format: yaml
+  label: Traefik Labs Entry Points API
+  slug: traefik-entry-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-entry-points-api-openapi.yml
 consequence_counts:
   read: 23
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

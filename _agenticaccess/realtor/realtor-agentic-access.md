@@ -70,5 +70,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/realto
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents/list\n  method: get\n  operationId: listAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finance/rates\n  method: get\n  operationId: getMortgageRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/agentic-access/realtor-agentic-access.yml
 summary_line: 8 operations · 1 acting
-tags: []
+tags:
+- Agents
+- Real-Estate
+- Brokers
+- CRM
+- Delivery
 ---

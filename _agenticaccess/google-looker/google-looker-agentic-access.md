@@ -51,5 +51,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: getAllUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /looks\n  method: get\n  operationId: getAllLooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /looks/{look_id}/run/{result_format}\n  method: get\n  operationId: runLook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/agentic-access/google-looker-agentic-access.yml
 summary_line: 5 operations · 1 acting
-tags: []
+tags:
+- Analytics
+- Business Intelligence
+- Data Visualization
+- Reporting
 ---

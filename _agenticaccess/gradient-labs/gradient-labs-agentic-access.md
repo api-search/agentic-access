@@ -75,7 +75,7 @@ summary_line: 11 operations · 10 acting
 tags:
 - Artificial Intelligence
 - Customer-Support
-- AI Agent
+- AI Agents
 - Conversations
 - Financial-Services
 - Regulated

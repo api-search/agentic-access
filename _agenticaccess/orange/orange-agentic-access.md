@@ -46,11 +46,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/orange
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/agentic-access/orange-agentic-access.yml
 summary_line: 2 operations · 1 acting
 tags:
-- Network
+- Networks
 - Telecom
 - Identity
 - Messaging
 - Location
-- Payment
+- Payments
 - IoT
 ---

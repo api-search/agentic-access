@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spring
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/agentic-access/spring-boot-admin-console-agentic-access.yml
 summary_line: 15 operations · 4 acting · 1 human-in-the-loop
 tags:
-- Actuator
+- Actuators
 - Administration
 - Java
 - Microservices

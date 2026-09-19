@@ -4,12 +4,12 @@ action_class_counts:
   acting: 249
   connected: 61
 api_specs:
-- filename: openapi.yaml
+- filename: heroiclabs-nakama-api-openapi.yml
   format: yaml
   label: Nakama API
   slug: nakama-api
   spec_type: OpenAPI
-  url: https://heroiclabs.github.io/nakama-docs/
+  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-nakama-api-openapi.yml
 - filename: heroiclabs-console-api-openapi.yml
   format: yaml
   label: Heroic Labs Console API

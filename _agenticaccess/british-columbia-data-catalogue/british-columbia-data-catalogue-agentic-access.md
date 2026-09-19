@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 13
 api_specs:
-- filename: british-columbia-data-catalogue-bcdc-api-openapi.json
-  format: json
-  label: BC Data Catalogue CKAN API
-  slug: ckan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-bcdc-api-openapi.json
 - filename: british-columbia-data-catalogue-datasets-api-openapi.yml
   format: yaml
   label: British Columbia Data Catalogue Datasets API
@@ -45,6 +39,12 @@ api_specs:
   slug: british-columbia-data-catalogue-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-tags-api-openapi.yml
+- filename: british-columbia-data-catalogue-action-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Action API
+  slug: british-columbia-data-catalogue-action-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-action-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

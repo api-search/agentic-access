@@ -22,15 +22,9 @@ api_specs:
   slug: gmx-balances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-balances-api-openapi.yml
-- filename: gmx-buyback-api-openapi.yml
-  format: yaml
-  label: GMX Buyback API
-  slug: gmx-buyback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-buyback-api-openapi.yml
 - filename: gmx-gmx-account-api-openapi.yml
   format: yaml
-  label: GMX GMX Account API
+  label: GMX Account API
   slug: gmx-gmx-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-gmx-account-api-openapi.yml
@@ -112,6 +106,12 @@ api_specs:
   slug: gmx-trades-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-trades-api-openapi.yml
+- filename: gmx-buy-back-api-openapi.yml
+  format: yaml
+  label: GMX Buy Back API
+  slug: gmx-buy-back-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/openapi/gmx-buy-back-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 24

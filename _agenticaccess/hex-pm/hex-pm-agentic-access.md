@@ -28,12 +28,6 @@ api_specs:
   slug: hex-pm-index-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hex-pm/refs/heads/main/openapi/hex-pm-index-api-openapi.yml
-- filename: hex-pm-oauth-api-openapi.yml
-  format: yaml
-  label: Hex.pm OAuth API
-  slug: hex-pm-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex-pm/refs/heads/main/openapi/hex-pm-oauth-api-openapi.yml
 - filename: hex-pm-organizations-api-openapi.yml
   format: yaml
   label: Hex.pm Organizations API
@@ -76,6 +70,12 @@ api_specs:
   slug: hex-pm-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hex-pm/refs/heads/main/openapi/hex-pm-utilities-api-openapi.yml
+- filename: hex-pm-oauth-api-openapi.yml
+  format: yaml
+  label: Hex.pm O Auth API
+  slug: hex-pm-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex-pm/refs/heads/main/openapi/hex-pm-oauth-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 3

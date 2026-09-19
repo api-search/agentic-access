@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: aws-codebuild-aws-codebuild-api-api-openapi.yml
   format: yaml
-  label: AWS CodeBuild AWS CodeBuild API API
+  label: AWS CodeBuild AWS CodeBuild API
   slug: aws-codebuild-aws-codebuild-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-api-api-openapi.yml

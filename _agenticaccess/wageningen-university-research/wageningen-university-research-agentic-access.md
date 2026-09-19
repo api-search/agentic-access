@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 55
 api_specs:
-- filename: wageningen-university-research-library-oai-pmh-openapi.yml
-  format: yaml
-  label: WUR Library OAI-PMH API
-  slug: wageningen-university-research-library-oai-pmh
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-library-oai-pmh-openapi.yml
 - filename: wageningen-university-research-altitude-api-openapi.yml
   format: yaml
   label: Wageningen University & Research Altitude API
@@ -39,6 +33,12 @@ api_specs:
   slug: wageningen-university-research-return-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-return-api-openapi.yml
+- filename: wageningen-university-research-oai-pmh-api-openapi.yml
+  format: yaml
+  label: Wageningen University & Research OAI PMH API
+  slug: wageningen-university-research-oai-pmh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-oai-pmh-api-openapi.yml
 consequence_counts:
   read: 55
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

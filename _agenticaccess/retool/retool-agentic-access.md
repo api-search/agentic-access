@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retool/refs/he
 summary_line: 17 operations · 10 acting
 tags:
 - Admin Panel
-- Dashboard
+- Dashboards
 - Internal Tools
 - Low-Code
 - No-Code

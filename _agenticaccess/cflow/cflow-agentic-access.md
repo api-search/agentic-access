@@ -55,12 +55,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cflow-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/agentic-access/cflow-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
-- Automations
+- Automation
 - Business Process Automation
 - Integration
 - No-Code
 - Platform
-- Protocols
+- Protocol
 - Rules
 - Workflows
 ---

@@ -2,18 +2,18 @@
 acting_count: 0
 action_class_counts: {}
 api_specs:
-- filename: keio-koara-oai-pmh-openapi.yml
+- filename: keio-iiif-api-openapi.yml
   format: yaml
-  label: KOARA OAI-PMH Metadata API
-  slug: koara-oai-pmh
+  label: Keio University IIIF API
+  slug: keio-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-koara-oai-pmh-openapi.yml
-- filename: keio-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-iiif-api-openapi.yml
+- filename: keio-metadata-harvesting-api-openapi.yml
   format: yaml
-  label: Keio Media Center Digital Collections IIIF API
-  slug: iiif
+  label: Keio University Metadata Harvesting API
+  slug: keio-metadata-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-metadata-harvesting-api-openapi.yml
 consequence_counts: {}
 description: 'What an AI agent arriving at Keio University can actually do. The finding is mixed in an interesting way: the institution publishes none of the modern agent-facing conventions and, on its main web estate, not even the old ones — but the two surfaces it does operate are among the friendliest an agent could ask for, because they are anonymous, standards-described and self-describing. An agent that knows OAI-PMH or IIIF can consume Keio''s scholarly and digitised holdings today with no key, no negotiation and no account.'
 human_in_the_loop: 0

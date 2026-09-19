@@ -98,7 +98,7 @@ tags:
 - Health
 - Epidemiology
 - Influenza
-- Vaccine
+- Vaccines
 - Open Data
 - Public Health
 ---

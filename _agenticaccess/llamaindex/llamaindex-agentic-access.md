@@ -167,5 +167,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/llamai
   \ getParseJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parse/jobs/{jobId}/result\n  method: get\n  operationId: getParseJobResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/agentic-access/llamaindex-agentic-access.yml
 summary_line: 43 operations · 22 acting · 2 human-in-the-loop
-tags: []
+tags:
+- Agents
+- Framework
+- LLM
+- Open-Source
+- RAG
+- LlamaIndex
 ---

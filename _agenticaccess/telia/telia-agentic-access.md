@@ -45,7 +45,7 @@ summary_line: 2 operations
 tags:
 - Telecommunications
 - Sweden
-- Nordics
+- Nordic
 - Baltics
 - Mobile Network Operator
 - Network APIs

@@ -43,7 +43,7 @@ tags:
 - Node Monitoring
 - Observability
 - Infrastructure
-- Validators
+- Validator
 - DevOps
 - Alerting
 - LLM Observability

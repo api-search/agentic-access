@@ -124,5 +124,5 @@ summary_line: 38 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Odds
 - Sports Betting
-- Sportsbooks
+- Sportsbook
 ---

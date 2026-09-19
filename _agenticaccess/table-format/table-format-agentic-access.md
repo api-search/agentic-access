@@ -22,12 +22,6 @@ api_specs:
   slug: table-format-namespaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-namespaces-api-openapi.yml
-- filename: table-format-oauth2-api-openapi.yml
-  format: yaml
-  label: Table Format OAuth2 API
-  slug: table-format-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-oauth2-api-openapi.yml
 - filename: table-format-tables-api-openapi.yml
   format: yaml
   label: Table Format Tables API
@@ -40,6 +34,12 @@ api_specs:
   slug: table-format-views-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-views-api-openapi.yml
+- filename: table-format-oauth2-api-openapi.yml
+  format: yaml
+  label: Table Format O Auth2 API
+  slug: table-format-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-oauth2-api-openapi.yml
 consequence_counts:
   read: 7
   write: 11

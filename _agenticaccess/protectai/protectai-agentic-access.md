@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/protectai/refs
 summary_line: 8 operations · 4 acting
 tags:
 - Artificial Intelligence
-- ML
+- Machine-Learning
 - Security
 - LLM
 - Guardrails

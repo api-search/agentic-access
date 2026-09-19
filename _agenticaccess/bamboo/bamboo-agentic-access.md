@@ -318,7 +318,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bamboo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bamboo/refs/heads/main/agentic-access/bamboo-agentic-access.yml
 summary_line: 102 operations · 30 acting · 22 human-in-the-loop
 tags:
-- Investments
+- Investment
 - Stocks
 - Fractional Shares
 - Africa

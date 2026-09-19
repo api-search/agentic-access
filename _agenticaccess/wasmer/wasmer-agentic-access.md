@@ -4,12 +4,12 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: wasmer-graphql-api-openapi.yml
+- filename: wasmer-graph-ql-api-openapi.yml
   format: yaml
-  label: Wasmer GraphQL API
-  slug: wasmer-graphql-api
+  label: Wasmer Graph QL API
+  slug: wasmer-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wasmer/refs/heads/main/openapi/wasmer-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/wasmer/refs/heads/main/openapi/wasmer-graph-ql-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1

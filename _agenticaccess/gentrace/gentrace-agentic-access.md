@@ -22,12 +22,12 @@ api_specs:
   slug: gentrace-pipelines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-pipelines-api-openapi.yml
-- filename: gentrace-testcases-api-openapi.yml
+- filename: gentrace-test-cases-api-openapi.yml
   format: yaml
-  label: Gentrace TestCases API
-  slug: gentrace-testcases-api
+  label: Gentrace Test Cases API
+  slug: gentrace-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-testcases-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-test-cases-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8

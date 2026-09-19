@@ -106,6 +106,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/he
 summary_line: 21 operations · 15 acting
 tags:
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Models
 ---

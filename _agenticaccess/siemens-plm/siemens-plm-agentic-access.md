@@ -423,7 +423,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/siemens-plm/re
 summary_line: 292 operations · 157 acting
 tags:
 - PLM
-- Product Lifecycle Management
 - Teamcenter
 - NX
 - Solid Edge

@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: persons-api-persons-api-openapi.yml
   format: yaml
-  label: Persons Persons API
+  label: Persons API
   slug: persons-api-persons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/persons-api/refs/heads/main/openapi/persons-api-persons-api-openapi.yml

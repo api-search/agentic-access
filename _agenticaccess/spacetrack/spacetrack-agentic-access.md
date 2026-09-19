@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spacetrack/ref
 summary_line: 22 operations · 1 acting
 tags:
 - Space
-- Satellites
+- Satellite
 - TLE
 - Orbital Data
 - Space Surveillance

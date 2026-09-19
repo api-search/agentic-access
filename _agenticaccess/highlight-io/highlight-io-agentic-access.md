@@ -27,12 +27,6 @@ api_specs:
   slug: highlight-io-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-traces-api-openapi.yml
-- filename: highlight-io-webhooks-api-openapi.yml
-  format: yaml
-  label: Highlight (highlight.io) Webhooks API
-  slug: highlight-io-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/openapi/highlight-io-webhooks-api-openapi.yml
 consequence_counts:
   write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

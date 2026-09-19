@@ -113,7 +113,7 @@ summary_line: 33 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Company
 - Time Tracking
-- HR
+- Human Resources
 - Workforce Management
 - Absence Management
 - Project Tracking

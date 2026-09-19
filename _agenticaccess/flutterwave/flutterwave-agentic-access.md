@@ -34,12 +34,6 @@ api_specs:
   slug: flutterwave-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-webhooks-api-openapi.yml
-- filename: flutterwave-accountresolution-api-openapi.yml
-  format: yaml
-  label: Flutterwave AccountResolution API
-  slug: flutterwave-accountresolution-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-accountresolution-api-openapi.yml
 - filename: flutterwave-chargebacks-api-openapi.yml
   format: yaml
   label: Flutterwave Chargebacks API
@@ -82,12 +76,6 @@ api_specs:
   slug: flutterwave-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-orders-api-openapi.yml
-- filename: flutterwave-paymentmethods-api-openapi.yml
-  format: yaml
-  label: Flutterwave PaymentMethods API
-  slug: flutterwave-paymentmethods-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-paymentmethods-api-openapi.yml
 - filename: flutterwave-rates-api-openapi.yml
   format: yaml
   label: Flutterwave Rates API
@@ -112,12 +100,24 @@ api_specs:
   slug: flutterwave-senders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-senders-api-openapi.yml
-- filename: flutterwave-virtualaccounts-api-openapi.yml
+- filename: flutterwave-account-resolution-api-openapi.yml
   format: yaml
-  label: Flutterwave VirtualAccounts API
-  slug: flutterwave-virtualaccounts-api
+  label: Flutterwave Account Resolution API
+  slug: flutterwave-account-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-virtualaccounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-account-resolution-api-openapi.yml
+- filename: flutterwave-payment-methods-api-openapi.yml
+  format: yaml
+  label: Flutterwave Payment Methods API
+  slug: flutterwave-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-payment-methods-api-openapi.yml
+- filename: flutterwave-virtual-accounts-api-openapi.yml
+  format: yaml
+  label: Flutterwave Virtual Accounts API
+  slug: flutterwave-virtual-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-virtual-accounts-api-openapi.yml
 consequence_counts:
   physical: 19
   read: 30
@@ -266,7 +266,7 @@ tags:
 - Cards
 - Africa
 - Fintech
-- Remittance
+- Remittances
 - Virtual Accounts
 - Chargebacks
 - Multi-Currency

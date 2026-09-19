@@ -395,7 +395,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ashby-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/agentic-access/ashby-agentic-access.yml
 summary_line: 164 operations · 164 acting
 tags:
-- HR
+- Human Resources
 - ATS
 - Recruiting
 - Analytics

@@ -121,7 +121,7 @@ summary_line: 39 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Automotive
 - Connected Car
-- Connected Vehicle
+- Connected Vehicles
 - Daimler
 - Fleet Management
 - Mercedes me

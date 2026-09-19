@@ -131,7 +131,7 @@ tags:
 - Reviews
 - Lens
 - Scraping
-- Locations
+- Location
 - SERP API
 - Web Search
 - Agents
@@ -139,5 +139,5 @@ tags:
 - Scholar
 - Autocomplete
 - Places
-- Videos
+- Video
 ---

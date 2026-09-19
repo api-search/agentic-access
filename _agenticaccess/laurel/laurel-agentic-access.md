@@ -34,12 +34,6 @@ api_specs:
   slug: laurel-codes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/openapi/laurel-codes-api-openapi.yml
-- filename: laurel-codetypes-api-openapi.yml
-  format: yaml
-  label: Laurel CodeTypes API
-  slug: laurel-codetypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/openapi/laurel-codetypes-api-openapi.yml
 - filename: laurel-customers-api-openapi.yml
   format: yaml
   label: Laurel Customers API
@@ -88,12 +82,6 @@ api_specs:
   slug: laurel-health-check-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/openapi/laurel-health-check-api-openapi.yml
-- filename: laurel-healthcheck-api-openapi.yml
-  format: yaml
-  label: Laurel HealthCheck API
-  slug: laurel-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/openapi/laurel-healthcheck-api-openapi.yml
 - filename: laurel-impersonation-events-api-openapi.yml
   format: yaml
   label: Laurel Impersonation Events API
@@ -130,12 +118,6 @@ api_specs:
   slug: laurel-narrative-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/openapi/laurel-narrative-templates-api-openapi.yml
-- filename: laurel-oauth-api-openapi.yml
-  format: yaml
-  label: Laurel OAuth API
-  slug: laurel-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/openapi/laurel-oauth-api-openapi.yml
 - filename: laurel-onboarding-profiles-api-openapi.yml
   format: yaml
   label: Laurel Onboarding Profiles API
@@ -244,6 +226,12 @@ api_specs:
   slug: laurel-working-timekeepers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/openapi/laurel-working-timekeepers-api-openapi.yml
+- filename: laurel-oauth-api-openapi.yml
+  format: yaml
+  label: Laurel O Auth API
+  slug: laurel-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/openapi/laurel-oauth-api-openapi.yml
 consequence_counts:
   read: 139
   safety-critical: 9

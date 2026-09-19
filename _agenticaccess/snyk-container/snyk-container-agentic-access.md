@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: snyk-container-container-projects-api-openapi.yml
   format: yaml
-  label: Snyk Container Container Projects API
+  label: Snyk Container Projects API
   slug: snyk-container-container-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-container-projects-api-openapi.yml

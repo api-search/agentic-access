@@ -4,12 +4,6 @@ action_class_counts:
   acting: 9
   connected: 31
 api_specs:
-- filename: athenahealth-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: athenahealth AllergyIntolerance API
-  slug: athena-health-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/openapi/athenahealth-allergyintolerance-api-openapi.yml
 - filename: athenahealth-appointment-api-openapi.yml
   format: yaml
   label: athenahealth Appointment API
@@ -64,12 +58,6 @@ api_specs:
   slug: athena-health-diagnosticreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/openapi/athenahealth-diagnosticreport-api-openapi.yml
-- filename: athenahealth-documentreference-api-openapi.yml
-  format: yaml
-  label: athenahealth DocumentReference API
-  slug: athena-health-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/openapi/athenahealth-documentreference-api-openapi.yml
 - filename: athenahealth-documents-api-openapi.yml
   format: yaml
   label: athenahealth Documents API
@@ -94,12 +82,6 @@ api_specs:
   slug: athena-health-immunization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/openapi/athenahealth-immunization-api-openapi.yml
-- filename: athenahealth-medicationrequest-api-openapi.yml
-  format: yaml
-  label: athenahealth MedicationRequest API
-  slug: athena-health-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/openapi/athenahealth-medicationrequest-api-openapi.yml
 - filename: athenahealth-observation-api-openapi.yml
   format: yaml
   label: athenahealth Observation API
@@ -136,6 +118,24 @@ api_specs:
   slug: athena-health-subscription-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/openapi/athenahealth-subscription-api-openapi.yml
+- filename: athenahealth-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: athenahealth Allergy Intolerance API
+  slug: athenahealth-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/openapi/athenahealth-allergy-intolerance-api-openapi.yml
+- filename: athenahealth-document-reference-api-openapi.yml
+  format: yaml
+  label: athenahealth Document Reference API
+  slug: athenahealth-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/openapi/athenahealth-document-reference-api-openapi.yml
+- filename: athenahealth-medication-request-api-openapi.yml
+  format: yaml
+  label: athenahealth Medication Request API
+  slug: athenahealth-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/openapi/athenahealth-medication-request-api-openapi.yml
 consequence_counts:
   read: 31
   write: 9

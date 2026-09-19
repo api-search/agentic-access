@@ -10,12 +10,6 @@ api_specs:
   slug: rest-api
   spec_type: Postman
   url: https://github.com/fac/postman-freeagent-api-collection
-- filename: freeagent-bankaccounts-api-openapi.yml
-  format: yaml
-  label: FreeAgent BankAccounts API
-  slug: freeagent-bankaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-bankaccounts-api-openapi.yml
 - filename: freeagent-contacts-api-openapi.yml
   format: yaml
   label: FreeAgent Contacts API
@@ -28,6 +22,12 @@ api_specs:
   slug: freeagent-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-invoices-api-openapi.yml
+- filename: freeagent-bank-accounts-api-openapi.yml
+  format: yaml
+  label: FreeAgent Bank Accounts API
+  slug: freeagent-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-bank-accounts-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 8

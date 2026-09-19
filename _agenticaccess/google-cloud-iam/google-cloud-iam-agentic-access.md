@@ -63,7 +63,7 @@ summary_line: 11 operations · 6 acting
 tags:
 - Access Management
 - Google Cloud
-- IAM
+- Identity and Access Management
 - Identity
 - Permissions
 - Security

@@ -75,6 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven-central/
 summary_line: 8 operations · 4 acting
 tags:
 - Artifacts
+- Developer Tools
 - Java
 - JVM
 - Maven

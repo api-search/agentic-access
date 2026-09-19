@@ -76,6 +76,54 @@ api_specs:
   slug: doordash-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/doordash-stores-api-openapi.yml
+- filename: doordash-ads-openapi.yml
+  format: yaml
+  label: DoorDash Ads API
+  slug: doordash-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/_original/doordash-ads-openapi.yml
+- filename: doordash-storefront-openapi.yml
+  format: yaml
+  label: DoorDash Storefront API
+  slug: doordash-storefront-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/_original/doordash-storefront-openapi.yml
+- filename: doordash-parcel-openapi.yml
+  format: yaml
+  label: DoorDash Parcel API
+  slug: doordash-parcel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/_original/doordash-parcel-openapi.yml
+- filename: doordash-drive-refunds-openapi.yml
+  format: yaml
+  label: DoorDash Drive Refunds API
+  slug: doordash-drive-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/_original/doordash-drive-refunds-openapi.yml
+- filename: doordash-drive-redelivery-openapi.yml
+  format: yaml
+  label: DoorDash Drive Redelivery API
+  slug: doordash-drive-redelivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/_original/doordash-drive-redelivery-openapi.yml
+- filename: doordash-drive-dasher-feedback-openapi.yml
+  format: yaml
+  label: DoorDash Drive Dasher Feedback API
+  slug: doordash-drive-dasher-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/_original/doordash-drive-dasher-feedback-openapi.yml
+- filename: doordash-external-checkout-openapi.yml
+  format: yaml
+  label: DoorDash Checkout API
+  slug: doordash-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/_original/doordash-external-checkout-openapi.yml
+- filename: doordash-marketplace-legacy-openapi.yml
+  format: yaml
+  label: DoorDash Marketplace (legacy) API
+  slug: doordash-marketplace-legacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/openapi/_original/doordash-marketplace-legacy-openapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -129,5 +177,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/doorda
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/{report_id}/reportlink\n  method: get\n  operationId: getReportLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/agentic-access/doordash-agentic-access.yml
 summary_line: 42 operations · 30 acting
-tags: []
+tags:
+- Delivery
+- Logistics
+- Last Mile
+- On-Demand
+- Food Delivery
+- Local Commerce
+- Marketplace
+- Restaurant
+- Grocery
+- Retail
+- Fulfillment
+- Webhook
 ---

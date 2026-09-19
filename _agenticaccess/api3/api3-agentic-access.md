@@ -55,7 +55,7 @@ tags:
 - Blockchain
 - Oracle
 - Decentralized
-- Data Feeds
+- Data Feed
 - Price Feeds
 - Web3
 - DeFi

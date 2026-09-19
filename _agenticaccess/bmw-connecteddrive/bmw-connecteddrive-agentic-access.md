@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmw-connectedd
 summary_line: 11 operations · 2 acting
 tags:
 - Automotive
-- Connected Vehicle
+- Connected Vehicles
 - Telematics
 - Vehicle Data
 - CarData

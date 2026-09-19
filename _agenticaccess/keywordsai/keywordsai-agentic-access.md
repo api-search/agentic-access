@@ -96,6 +96,6 @@ tags:
 - Artificial Intelligence
 - LLM
 - Observability
-- Gateway
+- Gateways
 - Monitoring
 ---

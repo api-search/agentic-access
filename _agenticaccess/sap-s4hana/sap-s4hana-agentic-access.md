@@ -106,7 +106,6 @@ summary_line: 15 operations · 6 acting
 tags:
 - Business Applications
 - Cloud
-- Enterprise Resource Planning
 - ERP
 - Finance
 - Human Resources

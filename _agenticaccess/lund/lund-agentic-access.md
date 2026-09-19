@@ -9,12 +9,6 @@ api_specs:
   slug: lund-publication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-publication-api-openapi.yml
-- filename: lund-student-papers-api-openapi.yml
-  format: yaml
-  label: LUP Student Papers Search API
-  slug: lup-student-papers
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/openapi/lund-student-papers-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

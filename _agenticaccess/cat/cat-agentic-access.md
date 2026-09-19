@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: cat-cat-caterpillar-telematics-api-api-openapi.yml
   format: yaml
-  label: CAT CAT Caterpillar Telematics API API
+  label: CAT Caterpillar Telematics API
   slug: cat-cat-caterpillar-telematics-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cat/refs/heads/main/openapi/cat-cat-caterpillar-telematics-api-api-openapi.yml

@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: microsoft-cognitive-services-imageanalysis-api-openapi.yml
+- filename: microsoft-cognitive-services-image-analysis-api-openapi.yml
   format: yaml
-  label: Microsoft Cognitive Services ImageAnalysis API
-  slug: microsoft-cognitive-services-imageanalysis-api
+  label: Microsoft Cognitive Services Image Analysis API
+  slug: microsoft-cognitive-services-image-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-cognitive-services/refs/heads/main/openapi/microsoft-cognitive-services-imageanalysis-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-cognitive-services/refs/heads/main/openapi/microsoft-cognitive-services-image-analysis-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

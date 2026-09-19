@@ -52,5 +52,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \  method: get\n  operationId: listMachineVulnerabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerabilities\n  method: get\n  operationId: listVulnerabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerabilities/{vulnerabilityId}\n  method: get\n  operationId: getVulnerability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerabilities/{vulnerabilityId}/machineReferences\n  method: get\n  operationId: listVulnerabilityMachineReferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/agentic-access/microsoft-defender-agentic-access.yml
 summary_line: 10 operations · 1 acting
-tags: []
+tags:
+- Cloud Security
+- Data Protection
+- Threat Intelligence
+- Email Security
 ---

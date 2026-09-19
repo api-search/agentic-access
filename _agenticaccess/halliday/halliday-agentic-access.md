@@ -94,7 +94,7 @@ tags:
 - Blockchain
 - Web3
 - On-Ramp
-- Swaps
+- Swap
 - DeFi
 - Agentic Workflows
 - Fintech

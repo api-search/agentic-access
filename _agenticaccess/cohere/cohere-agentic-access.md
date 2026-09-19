@@ -92,5 +92,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cohere
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/agentic-access/cohere-agentic-access.yml
 summary_line: 18 operations · 11 acting
-tags: []
+tags:
+- Artificial Intelligence
+- Natural Language Processing
+- Embeddings
+- Vector Search
+- Tokenization
+- LLM
 ---

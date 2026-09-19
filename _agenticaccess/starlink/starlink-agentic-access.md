@@ -152,7 +152,7 @@ tags:
 - United States
 - Satellite
 - Broadband
-- Non-Terrestrial Networks
+- Non-Terrestrial Network
 - Connectivity
 - Device Management
 - Telemetry

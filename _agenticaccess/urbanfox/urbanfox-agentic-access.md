@@ -22,12 +22,6 @@ api_specs:
   slug: urbanfox-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-metrics-api-openapi.yml
-- filename: urbanfox-oauth-api-openapi.yml
-  format: yaml
-  label: UrbanFox OAuth API
-  slug: urbanfox-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-oauth-api-openapi.yml
 - filename: urbanfox-snippet-api-openapi.yml
   format: yaml
   label: UrbanFox Snippet API
@@ -40,6 +34,12 @@ api_specs:
   slug: urbanfox-tenants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-tenants-api-openapi.yml
+- filename: urbanfox-oauth-api-openapi.yml
+  format: yaml
+  label: UrbanFox O Auth API
+  slug: urbanfox-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-oauth-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6

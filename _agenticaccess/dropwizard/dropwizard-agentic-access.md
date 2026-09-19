@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dropwizard/ref
 summary_line: 7 operations · 3 acting
 tags:
 - API Development
-- Frameworks
+- Framework
 - Java
 - Microservices
 - REST

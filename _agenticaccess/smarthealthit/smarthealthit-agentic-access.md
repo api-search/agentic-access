@@ -73,6 +73,6 @@ tags:
 - Clinical Data
 - Clinical Records
 - Patient Facing
-- Open Standards
+- Open Standard
 - Interoperability
 ---

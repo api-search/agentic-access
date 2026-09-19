@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: deepsource-graphql-api-openapi.yml
+- filename: deepsource-graph-ql-api-openapi.yml
   format: yaml
-  label: DeepSource GraphQL API
-  slug: deepsource-graphql-api
+  label: DeepSource Graph QL API
+  slug: deepsource-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/openapi/deepsource-graph-ql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -42,4 +42,5 @@ tags:
 - Code Review
 - Security
 - GraphQL
+- Developer Tools
 ---

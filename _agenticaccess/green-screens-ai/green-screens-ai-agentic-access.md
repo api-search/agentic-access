@@ -4,18 +4,24 @@ action_class_counts:
   acting: 28
   connected: 12
 api_specs:
-- filename: green-screens-ai-analytics-api-openapi.yml
+- filename: green-screens-ai-prediction-api-openapi.yml
   format: yaml
-  label: Green Screens AI Analytics API
-  slug: green-screens-ai-analytics-api
+  label: Green Screens AI Prediction API
+  slug: green-screens-ai-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-analytics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-prediction-api-openapi.yml
 - filename: green-screens-ai-auth-api-openapi.yml
   format: yaml
   label: Green Screens AI Auth API
   slug: green-screens-ai-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-auth-api-openapi.yml
+- filename: green-screens-ai-analytics-api-openapi.yml
+  format: yaml
+  label: Green Screens AI Analytics API
+  slug: green-screens-ai-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-analytics-api-openapi.yml
 - filename: green-screens-ai-bids-api-openapi.yml
   format: yaml
   label: Green Screens AI Bids API
@@ -28,18 +34,6 @@ api_specs:
   slug: green-screens-ai-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-history-api-openapi.yml
-- filename: green-screens-ai-marketintelligence-api-openapi.yml
-  format: yaml
-  label: Green Screens AI MarketIntelligence API
-  slug: green-screens-ai-marketintelligence-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-marketintelligence-api-openapi.yml
-- filename: green-screens-ai-prediction-api-openapi.yml
-  format: yaml
-  label: Green Screens AI Prediction API
-  slug: green-screens-ai-prediction-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-prediction-api-openapi.yml
 - filename: green-screens-ai-pricing-api-openapi.yml
   format: yaml
   label: Green Screens AI Pricing API
@@ -58,6 +52,12 @@ api_specs:
   slug: green-screens-ai-tms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-tms-api-openapi.yml
+- filename: green-screens-ai-market-intelligence-api-openapi.yml
+  format: yaml
+  label: Green Screens AI Market Intelligence API
+  slug: green-screens-ai-market-intelligence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-market-intelligence-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 12

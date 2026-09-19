@@ -106,6 +106,12 @@ api_specs:
   slug: statsig-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-users-api-openapi.yml
+- filename: statsig-console-api-openapi.json
+  format: json
+  label: statsig Console API
+  slug: statsig-console-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/openapi/statsig-console-api-openapi.json
 consequence_counts:
   read: 23
   safety-critical: 5
@@ -183,5 +189,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/statsi
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /download_config_specs\n  method: post\n  operationId: downloadConfigSpecs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /log_event\n  method: post\n  operationId: logServerEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/agentic-access/statsig-agentic-access.yml
 summary_line: 66 operations · 43 acting · 5 human-in-the-loop
-tags: []
+tags:
+- Feature Flags
+- Experimentation
+- A/B Testing
+- Product Analytics
+- Session Replay
+- Developer Tools
+- Data Warehouse
+- Configuration Management
 ---

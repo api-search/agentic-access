@@ -73,6 +73,7 @@ summary_line: 8 operations · 1 acting
 tags:
 - CI/CD
 - Code Quality
+- Developer Tools
 - DevOps
 - Security
 - SonarCloud

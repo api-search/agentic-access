@@ -92,7 +92,7 @@ tags:
 - Shipping
 - Logistics
 - Last Mile
-- Parcels
+- Parcel
 - E-Commerce
 - Carbon Neutral
 - Small Business

@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: unrealspeech-speech-api-openapi.yml
   format: yaml
-  label: Unreal Speech Speech API
+  label: Unreal Speech API
   slug: unrealspeech-speech-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/refs/heads/main/openapi/unrealspeech-speech-api-openapi.yml

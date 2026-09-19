@@ -174,10 +174,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canto/refs/hea
 summary_line: 75 operations · 50 acting
 tags:
 - Digital Asset Management
-- DAM
 - Brand Assets
 - Image
-- Videos
+- Video
 - Documents
 - Media Library
 - Asset Distribution

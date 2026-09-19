@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/high-mobility/
 summary_line: 7 operations · 3 acting
 tags:
 - Automotive
-- Connected Cars
+- Connected Car
 - IoT
 - Vehicle Data
 ---

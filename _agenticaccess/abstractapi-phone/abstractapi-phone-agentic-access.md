@@ -39,7 +39,7 @@ summary_line: 1 operation
 tags:
 - Number Verification
 - Phone Validation
-- Phone Number
+- Phone Numbers
 - Phone Number Lookup
 - Verification
 - Carrier Lookup

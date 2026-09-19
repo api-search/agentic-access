@@ -178,12 +178,12 @@ api_specs:
   slug: buttondown-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-webhooks-api-openapi.yml
-- filename: buttondown-buttondown-webhooks-api-api-openapi.yml
+- filename: buttondown-buttondown-api-api-openapi.yml
   format: yaml
-  label: Buttondown Buttondown Webhooks API
-  slug: buttondown-buttondown-webhooks-api-api
+  label: Buttondown Buttondown API
+  slug: buttondown-buttondown-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-buttondown-webhooks-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-buttondown-api-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 62
@@ -269,7 +269,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buttondown/ref
 summary_line: 133 operations · 71 acting
 tags:
 - Analytics
-- Automations
+- Automation
 - Email
 - Markdown
 - Newsletters

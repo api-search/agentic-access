@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: modal-labs-modal-web-endpoints-representative-api-openapi.yml
   format: yaml
-  label: Modal Modal Web Endpoints (Representative) API
+  label: Modal Web Endpoints (Representative) API
   slug: modal-labs-modal-web-endpoints-representative-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/modal-labs/refs/heads/main/openapi/modal-labs-modal-web-endpoints-representative-api-openapi.yml
@@ -44,6 +44,6 @@ tags:
 - Compute
 - GPU
 - AI Infrastructure
-- Sandboxes
+- Sandbox
 - Infrastructure as Code
 ---

@@ -114,7 +114,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/
 summary_line: 33 operations · 25 acting · 6 human-in-the-loop
 tags:
 - API Mocking
-- Mock Server
+- Mock Servers
 - Mocking
 - Platform
 - Stubs

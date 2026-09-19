@@ -176,7 +176,7 @@ tags:
 - LLM Platform
 - Prompt Engineering
 - Workflows
-- Evaluations
+- Evaluation
 - LLMOps
 - RAG
 - Observability

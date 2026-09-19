@@ -120,5 +120,5 @@ tags:
 - MQTT
 - Homie
 - Electrification Bus
-- On-Premise
+- On-Premises
 ---

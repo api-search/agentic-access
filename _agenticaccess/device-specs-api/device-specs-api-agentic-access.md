@@ -45,7 +45,7 @@ tags:
 - Hardware
 - mobile-specs
 - Devices
-- rapidapi
+- RapidAPI
 - gsmarena
 - Reference Data
 - Developer Tools

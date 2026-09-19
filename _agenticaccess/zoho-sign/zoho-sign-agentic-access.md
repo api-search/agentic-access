@@ -59,10 +59,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/agentic-access/zoho-sign-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
-- Electronic Signatures
+- Electronic Signature
 - E-Signature
 - Document-Management
-- Digital Signatures
+- Digital Signature
 - Signature Workflows
 - Templates
 - Compliance

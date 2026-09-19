@@ -93,10 +93,10 @@ summary_line: 24 operations · 10 human-in-the-loop
 tags:
 - Affiliate Marketing
 - Affiliate Network
-- Commission
+- Commissions
 - Product Search
 - Publishers
-- Advertiser
+- Advertisers
 - GraphQL
 - E-Commerce
 - Product Feeds

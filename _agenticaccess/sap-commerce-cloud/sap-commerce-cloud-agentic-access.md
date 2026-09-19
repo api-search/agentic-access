@@ -70,12 +70,6 @@ api_specs:
   slug: sap-commerce-cloud-consents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/sap-commerce-cloud-consents-api-openapi.yml
-- filename: sap-commerce-cloud-cronjobs-api-openapi.yml
-  format: yaml
-  label: SAP Commerce Cloud CronJobs API
-  slug: sap-commerce-cloud-cronjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/sap-commerce-cloud-cronjobs-api-openapi.yml
 - filename: sap-commerce-cloud-customers-api-openapi.yml
   format: yaml
   label: SAP Commerce Cloud Customers API
@@ -148,6 +142,12 @@ api_specs:
   slug: sap-commerce-cloud-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/sap-commerce-cloud-users-api-openapi.yml
+- filename: sap-commerce-cloud-cron-jobs-api-openapi.yml
+  format: yaml
+  label: SAP Commerce Cloud Cron Jobs API
+  slug: sap-commerce-cloud-cron-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/sap-commerce-cloud-cron-jobs-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 50

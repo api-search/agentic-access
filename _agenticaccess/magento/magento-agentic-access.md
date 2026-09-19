@@ -148,5 +148,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/magent
   \  operationId: listStoreConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/agentic-access/magento-agentic-access.yml
 summary_line: 38 operations · 22 acting
-tags: []
+tags:
+- E-Commerce
+- Catalog
+- Headless Commerce
+- Magento
 ---

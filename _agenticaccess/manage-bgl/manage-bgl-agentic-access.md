@@ -77,6 +77,6 @@ tags:
 - Insulin
 - Blood Glucose
 - Remote Patient Monitoring
-- Telemedicine
+- Telehealth
 - REST API
 ---

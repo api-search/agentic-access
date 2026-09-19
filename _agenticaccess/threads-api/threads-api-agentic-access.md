@@ -109,7 +109,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/threads-api/re
 summary_line: 32 operations · 10 acting · 2 human-in-the-loop
 tags:
 - Social
-- Social Networks
+- Social Network
 - Meta
 - Publishing
 - Media

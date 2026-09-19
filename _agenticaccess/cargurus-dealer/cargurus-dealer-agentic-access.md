@@ -62,7 +62,7 @@ tags:
 - Automotive
 - Marketplace
 - Car Listings
-- Dealer
+- Dealers
 - Vehicle Pricing
 - Reviews
 - Inventory

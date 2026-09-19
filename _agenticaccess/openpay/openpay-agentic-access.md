@@ -4,12 +4,6 @@ action_class_counts:
   acting: 25
   connected: 23
 api_specs:
-- filename: openpay-bankaccounts-api-openapi.yml
-  format: yaml
-  label: Openpay BankAccounts API
-  slug: openpay-bankaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-bankaccounts-api-openapi.yml
 - filename: openpay-cards-api-openapi.yml
   format: yaml
   label: Openpay Cards API
@@ -70,6 +64,12 @@ api_specs:
   slug: openpay-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-webhooks-api-openapi.yml
+- filename: openpay-bank-accounts-api-openapi.yml
+  format: yaml
+  label: Openpay Bank Accounts API
+  slug: openpay-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-bank-accounts-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 23

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 2
   connected: 3
 api_specs:
-- filename: apigit-apis-api-openapi.yml
-  format: yaml
-  label: APIGit APIs API
-  slug: apigit-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-apis-api-openapi.yml
 - filename: apigit-mocks-api-openapi.yml
   format: yaml
   label: APIGit Mocks API
@@ -28,6 +22,12 @@ api_specs:
   slug: apigit-tests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-tests-api-openapi.yml
+- filename: apigit-apis-api-openapi.yml
+  format: yaml
+  label: APIGit AP Is API
+  slug: apigit-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-apis-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -60,6 +60,7 @@ summary_line: 5 operations · 2 acting
 tags:
 - API Design
 - API Lifecycle
+- Developer Tools
 - Documentation
 - Git
 - Governance

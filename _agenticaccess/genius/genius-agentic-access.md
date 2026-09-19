@@ -96,7 +96,7 @@ summary_line: 30 operations · 5 acting
 tags:
 - Music
 - Lyrics
-- Annotations
+- Annotation
 - Crowdsourced
 - Reference Data
 - Public APIs

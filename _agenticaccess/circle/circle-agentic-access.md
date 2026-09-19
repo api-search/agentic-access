@@ -4,12 +4,6 @@ action_class_counts:
   acting: 18
   connected: 12
 api_specs:
-- filename: circle-nfts-api-openapi.yml
-  format: yaml
-  label: Circle NFTs API
-  slug: circle-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-nfts-api-openapi.yml
 - filename: circle-signing-api-openapi.yml
   format: yaml
   label: Circle Signing API
@@ -40,6 +34,12 @@ api_specs:
   slug: circle-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-wallets-api-openapi.yml
+- filename: circle-nfts-api-openapi.yml
+  format: yaml
+  label: Circle NF Ts API
+  slug: circle-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-nfts-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12

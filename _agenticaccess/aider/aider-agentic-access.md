@@ -28,12 +28,6 @@ api_specs:
   slug: aider-git-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-git-api-openapi.yml
-- filename: aider-io-api-openapi.yml
-  format: yaml
-  label: Aider IO API
-  slug: aider-io-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-io-api-openapi.yml
 - filename: aider-launch-api-openapi.yml
   format: yaml
   label: Aider Launch API
@@ -88,6 +82,12 @@ api_specs:
   slug: aider-web-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-web-api-openapi.yml
+- filename: aider-i-o-api-openapi.yml
+  format: yaml
+  label: Aider I/O API
+  slug: aider-i-o-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-i-o-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1

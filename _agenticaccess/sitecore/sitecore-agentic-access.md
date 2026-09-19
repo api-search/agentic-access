@@ -290,5 +290,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/siteco
   \    audit: required\n- path: /authoring/publishing/v1/jobs/{id}\n  method: get\n  operationId: getPublishingJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authoring/publishing/v1/jobs/{jobId}/cancel\n  method: post\n  operationId: cancelPublishingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authoring/publishing/v1/jobs/summary\n  method: get\n  operationId: getPublishingJobSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/agentic-access/sitecore-agentic-access.yml
 summary_line: 107 operations · 64 acting
-tags: []
+tags:
+- Headless CMS
+- Customer Data Platform
+- Content Management
 ---

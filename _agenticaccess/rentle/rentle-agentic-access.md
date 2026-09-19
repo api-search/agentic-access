@@ -136,7 +136,7 @@ tags:
 - Circular Economy
 - Resale
 - Subscription
-- Bookings
+- Booking
 - Webhook
 - Software-as-a-Service
 ---

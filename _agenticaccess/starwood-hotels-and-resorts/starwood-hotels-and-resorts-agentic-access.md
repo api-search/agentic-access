@@ -49,5 +49,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/starwo
   \ get\n  operationId: getHotelAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/agentic-access/starwood-hotels-and-resorts-agentic-access.yml
 summary_line: 3 operations
-tags: []
+tags:
+- Hotels
+- Travel
+- Hospitality
+- Loyalty
+- Rewards
+- Content
 ---

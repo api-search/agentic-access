@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adrenalineshoc
 summary_line: 13 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Company
-- Beverage
+- Beverages
 - Energy Drinks
 - Consumer Packaged Goods
 - Retail

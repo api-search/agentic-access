@@ -65,5 +65,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rockwe
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/agentic-access/rockwell-factorytalk-agentic-access.yml
 summary_line: 10 operations · 3 acting
-tags: []
+tags:
+- Automation
+- Manufacturing
+- Cloud
+- Recipes
 ---

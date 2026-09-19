@@ -28,12 +28,6 @@ api_specs:
   slug: escape-beta-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-beta-api-openapi.yml
-- filename: escape-customrules-api-openapi.yml
-  format: yaml
-  label: Escape CustomRules API
-  slug: escape-customrules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-customrules-api-openapi.yml
 - filename: escape-emails-api-openapi.yml
   format: yaml
   label: Escape Emails API
@@ -124,6 +118,12 @@ api_specs:
   slug: escape-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-workflows-api-openapi.yml
+- filename: escape-custom-rules-api-openapi.yml
+  format: yaml
+  label: Escape Custom Rules API
+  slug: escape-custom-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/escape/refs/heads/main/openapi/escape-custom-rules-api-openapi.yml
 consequence_counts:
   read: 64
   write: 104

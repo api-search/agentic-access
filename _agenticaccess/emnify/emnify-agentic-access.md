@@ -249,7 +249,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/he
 summary_line: 214 operations · 105 acting · 1 human-in-the-loop
 tags:
 - IoT
-- Internet of Things
 - Cellular Connectivity
 - IoT SIM
 - eSIM
@@ -259,4 +258,5 @@ tags:
 - NTN-IoT
 - Satellite
 - SuperNetwork
+- Machine-to-Machine
 ---

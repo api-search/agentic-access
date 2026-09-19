@@ -93,7 +93,7 @@ summary_line: 13 operations · 9 acting
 tags:
 - Artificial Intelligence
 - Multi-Modal
-- Large Language Models
+- LLM
 - Vision
 - Speech
 - Foundation Models

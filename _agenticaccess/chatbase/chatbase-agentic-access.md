@@ -70,7 +70,7 @@ summary_line: 16 operations · 10 acting
 tags:
 - Artificial Intelligence
 - Chatbots
-- AI Agent
+- AI Agents
 - Customer-Support
 - Conversational AI
 ---

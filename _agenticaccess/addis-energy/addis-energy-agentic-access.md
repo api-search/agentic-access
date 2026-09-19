@@ -44,12 +44,12 @@ api_specs:
   slug: addis-energy-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-discovery-api-openapi.yml
-- filename: addis-energy-oembed-api-openapi.yml
+- filename: addis-energy-o-embed-api-openapi.yml
   format: yaml
-  label: Addis Energy oEmbed API
-  slug: addis-energy-oembed-api
+  label: Addis Energy o Embed API
+  slug: addis-energy-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-o-embed-api-openapi.yml
 consequence_counts: {}
 description: 'RECOMMENDED x-agentic-access contracts for the public Addis Energy surface. This is an API Evangelist recommendation authored on the provider''s behalf, NOT a declaration Addis Energy has made — the company publishes no agent policy of any kind. The classification is simple because the surface is: every anonymously reachable operation is a safe, reversible, unauthenticated read.'
 human_in_the_loop: 0

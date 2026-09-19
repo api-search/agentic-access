@@ -4,12 +4,6 @@ action_class_counts:
   acting: 64
   connected: 47
 api_specs:
-- filename: openprovider-additionaldata-api-openapi.yml
-  format: yaml
-  label: Openprovider AdditionalData API
-  slug: openprovider-additionaldata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openprovider/refs/heads/main/openapi/openprovider-additionaldata-api-openapi.yml
 - filename: openprovider-approveremail-api-openapi.yml
   format: yaml
   label: Openprovider ApproverEmail API
@@ -82,12 +76,6 @@ api_specs:
   slug: openprovider-email-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openprovider/refs/heads/main/openapi/openprovider-email-api-openapi.yml
-- filename: openprovider-emailverification-api-openapi.yml
-  format: yaml
-  label: Openprovider EmailVerification API
-  slug: openprovider-emailverification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openprovider/refs/heads/main/openapi/openprovider-emailverification-api-openapi.yml
 - filename: openprovider-invoiceservice-api-openapi.yml
   format: yaml
   label: Openprovider InvoiceService API
@@ -208,6 +196,18 @@ api_specs:
   slug: openprovider-zoneservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openprovider/refs/heads/main/openapi/openprovider-zoneservice-api-openapi.yml
+- filename: openprovider-additional-data-api-openapi.yml
+  format: yaml
+  label: Openprovider Additional Data API
+  slug: openprovider-additional-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprovider/refs/heads/main/openapi/openprovider-additional-data-api-openapi.yml
+- filename: openprovider-email-verification-api-openapi.yml
+  format: yaml
+  label: Openprovider Email Verification API
+  slug: openprovider-email-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openprovider/refs/heads/main/openapi/openprovider-email-verification-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 47

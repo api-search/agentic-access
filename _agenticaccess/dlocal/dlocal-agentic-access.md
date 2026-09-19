@@ -182,7 +182,7 @@ summary_line: 34 operations · 18 acting
 tags:
 - Payments
 - Emerging Markets
-- Payins
+- Pay-In
 - Payouts
 - Fintech
 - Latin America

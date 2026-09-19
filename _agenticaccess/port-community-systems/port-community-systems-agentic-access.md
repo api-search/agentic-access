@@ -67,7 +67,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/port-community
 summary_line: 9 operations · 5 acting
 tags:
 - Maritime
-- Port
+- Ports
 - Logistics
 - Customs
 - Cargo

@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contractbook/r
 summary_line: 16 operations · 9 acting
 tags:
 - Contract Management
-- CLM
+- Contract Lifecycle Management
 - Contract Lifecycle
 - Legal
 - E-Signature

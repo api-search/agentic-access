@@ -212,7 +212,7 @@ summary_line: 57 operations · 33 acting · 1 human-in-the-loop
 tags:
 - Sales
 - Revenue Intelligence
-- Conversation
+- Conversations
 - Analytics
 - Artificial Intelligence
 - Conversation Intelligence

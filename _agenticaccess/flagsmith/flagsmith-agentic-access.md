@@ -97,5 +97,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/flagsm
   \      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/agentic-access/flagsmith-agentic-access.yml
 summary_line: 35 operations · 17 acting
-tags: []
+tags:
+- Feature Flags
+- Remote Config
+- Release Management
+- A/B Testing
+- Experimentation
+- Segmentation
+- Developer Tools
+- DevOps
+- Open-Source
+- Software-as-a-Service
+- MCP
+- Agent Ready
 ---

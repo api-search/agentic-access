@@ -22,12 +22,6 @@ api_specs:
   slug: devtron-bulk-other-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/openapi/devtron-bulk-other-api-openapi.yml
-- filename: devtron-bulkupdate-api-openapi.yml
-  format: yaml
-  label: Devtron BulkUpdate API
-  slug: devtron-bulkupdate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/openapi/devtron-bulkupdate-api-openapi.yml
 - filename: devtron-cache-management-api-openapi.yml
   format: yaml
   label: Devtron Cache Management API
@@ -66,7 +60,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/openapi/devtron-deployment-history-api-openapi.yml
 - filename: devtron-devtron-server-version-api-openapi.yml
   format: yaml
-  label: Devtron Devtron Server version API
+  label: Devtron Server version API
   slug: devtron-devtron-server-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/openapi/devtron-devtron-server-version-api-openapi.yml
@@ -172,6 +166,12 @@ api_specs:
   slug: devtron-workflow-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/openapi/devtron-workflow-management-api-openapi.yml
+- filename: devtron-bulk-update-api-openapi.yml
+  format: yaml
+  label: Devtron Bulk Update API
+  slug: devtron-bulk-update-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/openapi/devtron-bulk-update-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 52
@@ -249,4 +249,5 @@ tags:
 - Software Delivery
 - FinOps
 - Observability
+- Developer Tools
 ---

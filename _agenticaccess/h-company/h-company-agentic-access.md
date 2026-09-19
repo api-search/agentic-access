@@ -152,7 +152,7 @@ tags:
 - Automation
 - Machine-Learning
 - Browser Automation
-- LLMs
+- LLM
 - MCP
 - Developer Tools
 ---

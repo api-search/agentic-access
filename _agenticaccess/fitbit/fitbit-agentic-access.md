@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fitbit
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/agentic-access/fitbit-agentic-access.yml
 summary_line: 55 operations · 18 acting · 1 human-in-the-loop
 tags:
-- Wearable
+- Wearables
 - Health
 - Fitness
 - Activity Tracking

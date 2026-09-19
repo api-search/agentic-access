@@ -10,12 +10,6 @@ api_specs:
   slug: google-photos-albums-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/openapi/google-photos-albums-api-openapi.yml
-- filename: google-photos-mediaitems-api-openapi.yml
-  format: yaml
-  label: Google Photos Library MediaItems API
-  slug: google-photos-mediaitems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/openapi/google-photos-mediaitems-api-openapi.yml
 - filename: google-photos-mediaitems-search-api-openapi.yml
   format: yaml
   label: Google Photos Library MediaItems:search API
@@ -28,6 +22,12 @@ api_specs:
   slug: google-photos-sharedalbums-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/openapi/google-photos-sharedalbums-api-openapi.yml
+- filename: google-photos-media-items-api-openapi.yml
+  format: yaml
+  label: Google Photos Library Media Items API
+  slug: google-photos-media-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/openapi/google-photos-media-items-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3

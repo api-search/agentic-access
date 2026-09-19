@@ -152,5 +152,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/freshd
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/tickets\n  method: get\n  operationId: searchTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/contacts\n  method: get\n  operationId: searchContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/companies\n  method: get\n  operationId: searchCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/agentic-access/freshdesk-agentic-access.yml
 summary_line: 82 operations · 44 acting
-tags: []
+tags:
+- Automation
+- Customer-Support
+- Application
 ---

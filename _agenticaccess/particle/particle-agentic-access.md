@@ -88,12 +88,6 @@ api_specs:
   slug: particle-logic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/openapi/particle-logic-api-openapi.yml
-- filename: particle-oauth-api-openapi.yml
-  format: yaml
-  label: Particle OAuth API
-  slug: particle-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/openapi/particle-oauth-api-openapi.yml
 - filename: particle-organizations-api-openapi.yml
   format: yaml
   label: Particle Organizations API
@@ -136,12 +130,6 @@ api_specs:
   slug: particle-serviceagreements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/openapi/particle-serviceagreements-api-openapi.yml
-- filename: particle-sims-api-openapi.yml
-  format: yaml
-  label: Particle Sims API
-  slug: particle-sims-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/openapi/particle-sims-api-openapi.yml
 - filename: particle-team-api-openapi.yml
   format: yaml
   label: Particle Team API
@@ -172,6 +160,18 @@ api_specs:
   slug: particle-serial-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/openapi/particle-serial-numbers-api-openapi.yml
+- filename: particle-oauth-api-openapi.yml
+  format: yaml
+  label: Particle O Auth API
+  slug: particle-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/openapi/particle-oauth-api-openapi.yml
+- filename: particle-sims-api-openapi.yml
+  format: yaml
+  label: Particle Sims API
+  slug: particle-sims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/openapi/particle-sims-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 72
@@ -251,7 +251,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/particle/refs/
 summary_line: 138 operations · 66 acting · 1 human-in-the-loop
 tags:
 - IoT
-- Internet of Things
 - Cellular
 - Wi-Fi
 - Bluetooth

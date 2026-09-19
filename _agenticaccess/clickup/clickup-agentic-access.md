@@ -40,12 +40,6 @@ api_specs:
   slug: clickup-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-lists-api-openapi.yml
-- filename: clickup-oauth-api-openapi.yml
-  format: yaml
-  label: clickup OAuth API
-  slug: clickup-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-oauth-api-openapi.yml
 - filename: clickup-spaces-api-openapi.yml
   format: yaml
   label: clickup Spaces API
@@ -82,6 +76,24 @@ api_specs:
   slug: clickup-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-webhooks-api-openapi.yml
+- filename: clickup-oauth-api-openapi.yml
+  format: yaml
+  label: Clickup O Auth API
+  slug: clickup-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-oauth-api-openapi.yml
+- filename: clickup-api-v2-reference-openapi.json
+  format: json
+  label: ClickUp API v2
+  slug: clickup-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-api-v2-reference-openapi.json
+- filename: clickup-public-api-v3-openapi.json
+  format: json
+  label: ClickUp Public API v3
+  slug: clickup-api-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-public-api-v3-openapi.json
 consequence_counts:
   read: 35
   safety-critical: 1
@@ -142,5 +154,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/clicku
   \ high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/agentic-access/clickup-agentic-access.yml
 summary_line: 75 operations · 40 acting · 1 human-in-the-loop
-tags: []
+tags:
+- Project Management
+- Work Management
+- Productivity
+- Collaboration
+- Task
+- Documents
+- Chat
+- Time Tracking
+- MCP
 ---

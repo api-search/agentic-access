@@ -4,12 +4,6 @@ action_class_counts:
   acting: 28
   connected: 1
 api_specs:
-- filename: amazon-detective-datasources-api-openapi.yml
-  format: yaml
-  label: Amazon Detective Datasources API
-  slug: amazon-detective-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-datasources-api-openapi.yml
 - filename: amazon-detective-graph-api-openapi.yml
   format: yaml
   label: Amazon Detective Graph API
@@ -46,6 +40,12 @@ api_specs:
   slug: amazon-detective-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-tags-api-openapi.yml
+- filename: amazon-detective-data-sources-api-openapi.yml
+  format: yaml
+  label: Amazon Detective Data Sources API
+  slug: amazon-detective-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-data-sources-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 1
@@ -107,6 +107,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-detecti
 summary_line: 29 operations · 28 acting · 1 human-in-the-loop
 tags:
 - Forensics
-- Investigation
+- Investigations
 - Security
 ---

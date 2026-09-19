@@ -4,18 +4,18 @@ action_class_counts:
   acting: 5
   connected: 2
 api_specs:
-- filename: google-cloud-armor-securitypolicies-api-openapi.yml
-  format: yaml
-  label: Google Cloud Armor SecurityPolicies API
-  slug: google-cloud-armor-securitypolicies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/openapi/google-cloud-armor-securitypolicies-api-openapi.yml
 - filename: google-cloud-armor-securitypolicyrules-api-openapi.yml
   format: yaml
   label: Google Cloud Armor SecurityPolicyRules API
   slug: google-cloud-armor-securitypolicyrules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/openapi/google-cloud-armor-securitypolicyrules-api-openapi.yml
+- filename: google-cloud-armor-security-policies-api-openapi.yml
+  format: yaml
+  label: Google Cloud Armor Security Policies API
+  slug: google-cloud-armor-security-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/openapi/google-cloud-armor-security-policies-api-openapi.yml
 consequence_counts:
   read: 2
   write: 5

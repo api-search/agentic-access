@@ -406,12 +406,6 @@ api_specs:
   slug: fastly-sudo-mode-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/openapi/fastly-sudo-mode-api-openapi.yml
-- filename: fastly-timeseries-api-openapi.yml
-  format: yaml
-  label: Fastly Timeseries API
-  slug: fastly-timeseries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/openapi/fastly-timeseries-api-openapi.yml
 - filename: fastly-tls-activations-api-openapi.yml
   format: yaml
   label: Fastly TLS Activations API
@@ -484,6 +478,12 @@ api_specs:
   slug: fastly-websites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/openapi/fastly-websites-api-openapi.yml
+- filename: fastly-time-series-api-openapi.yml
+  format: yaml
+  label: Fastly Time Series API
+  slug: fastly-time-series-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/openapi/fastly-time-series-api-openapi.yml
 consequence_counts:
   read: 126
   safety-critical: 7

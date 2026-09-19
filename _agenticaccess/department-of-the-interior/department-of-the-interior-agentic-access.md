@@ -57,12 +57,12 @@ api_specs:
   slug: department-of-the-interior-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/openapi/department-of-the-interior-sites-api-openapi.yml
-- filename: department-of-the-interior-visitorcenters-api-openapi.yml
+- filename: department-of-the-interior-visitor-centers-api-openapi.yml
   format: yaml
-  label: Department of the Interior VisitorCenters API
-  slug: department-of-the-interior-visitorcenters-api
+  label: Department of the Interior Visitor Centers API
+  slug: department-of-the-interior-visitor-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/openapi/department-of-the-interior-visitorcenters-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/openapi/department-of-the-interior-visitor-centers-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -41,7 +41,7 @@ tags:
 - Real-Estate
 - Property Records
 - Assessor
-- Parcels
+- Parcel
 - APN
 - FIPS
 - Deeds

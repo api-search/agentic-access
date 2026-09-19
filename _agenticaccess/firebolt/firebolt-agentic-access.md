@@ -6,16 +6,10 @@ action_class_counts:
 api_specs:
 - filename: firebolt-firebolt-rest-api-api-openapi.yml
   format: yaml
-  label: Firebolt Firebolt REST API API
+  label: Firebolt REST API
   slug: firebolt-firebolt-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/openapi/firebolt-firebolt-rest-api-api-openapi.yml
-- filename: firebolt-oauth-api-openapi.yml
-  format: yaml
-  label: Firebolt Oauth API
-  slug: firebolt-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/openapi/firebolt-oauth-api-openapi.yml
 - filename: firebolt-query-api-openapi.yml
   format: yaml
   label: Firebolt Query API
@@ -28,6 +22,12 @@ api_specs:
   slug: firebolt-web-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/openapi/firebolt-web-api-openapi.yml
+- filename: firebolt-oauth-api-openapi.yml
+  format: yaml
+  label: Firebolt OAUTH API
+  slug: firebolt-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/openapi/firebolt-oauth-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3

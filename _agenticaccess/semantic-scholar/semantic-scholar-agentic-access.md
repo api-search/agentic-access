@@ -76,7 +76,7 @@ summary_line: 20 operations · 3 acting
 tags:
 - Academic
 - Research
-- Papers
+- Paper
 - Citations
 - Authors
 - Scientific Literature

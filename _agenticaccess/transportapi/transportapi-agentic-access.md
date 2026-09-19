@@ -59,7 +59,7 @@ summary_line: 7 operations
 tags:
 - Public Transit
 - Transport
-- UK
+- United Kingdom
 - Real-Time
 - Journey Planning
 - Bus

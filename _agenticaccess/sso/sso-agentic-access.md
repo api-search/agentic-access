@@ -99,6 +99,6 @@ tags:
 - OIDC
 - SAML
 - Security
-- Single Sign-On
 - SSO
+- Identity Federation
 ---

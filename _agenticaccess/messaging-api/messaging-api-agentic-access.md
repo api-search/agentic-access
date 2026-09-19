@@ -49,5 +49,5 @@ summary_line: 6 operations · 4 acting
 tags:
 - API Pattern
 - Messaging
-- Template
+- Templates
 ---

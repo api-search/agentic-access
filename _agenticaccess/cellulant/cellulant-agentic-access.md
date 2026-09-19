@@ -107,11 +107,11 @@ tags:
 - Mobile Money
 - Checkout
 - Payouts
-- Disbursement
+- Disbursements
 - Africa
 - Pan-African
 - Fintech
-- Bank Transfer
+- Bank Transfers
 - Cards
 - Airtime
 - Bill Payments

@@ -54,10 +54,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cultur
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/agentic-access/culture-amp-agentic-access.yml
 summary_line: 19 operations
 tags:
-- HR
+- Human Resources
 - Employee Engagement
 - Performance Management
 - People Analytics
 - Surveys
-- Human Resources
 ---

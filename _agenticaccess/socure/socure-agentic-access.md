@@ -10,12 +10,6 @@ api_specs:
   slug: socure-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-alerts-api-openapi.yml
-- filename: socure-id-api-openapi.yml
-  format: yaml
-  label: socure ID+ API
-  slug: socure-id-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/openapi/socure-id-api-openapi.yml
 - filename: socure-monitoring-api-openapi.yml
   format: yaml
   label: socure Monitoring API
@@ -66,5 +60,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/socure
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/3.0/watchlist/monitoring/alerts\n  method: get\n  operationId: listMonitoringAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/3.0/watchlist/monitoring/alerts/{alertId}\n  method: patch\n  operationId: updateMonitoringAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/agentic-access/socure-agentic-access.yml
 summary_line: 12 operations · 9 acting
-tags: []
+tags:
+- Orchestration
+- Workflows
+- Identity Verification
+- Fraud Prevention
+- Alerts
+- Monitoring
 ---

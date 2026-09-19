@@ -76,12 +76,6 @@ api_specs:
   slug: cognite-data-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/openapi/cognite-data-products-api-openapi.yml
-- filename: cognite-data-sets-api-openapi.yml
-  format: yaml
-  label: Cognite Data sets API
-  slug: cognite-data-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/openapi/cognite-data-sets-api-openapi.yml
 - filename: cognite-destinations-api-openapi.yml
   format: yaml
   label: Cognite Destinations API
@@ -538,6 +532,12 @@ api_specs:
   slug: cognite-writeback-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/openapi/cognite-writeback-requests-api-openapi.yml
+- filename: cognite-datasets-api-openapi.yml
+  format: yaml
+  label: Cognite Datasets API
+  slug: cognite-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/openapi/cognite-datasets-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 272

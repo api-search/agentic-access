@@ -232,5 +232,5 @@ tags:
 - Payment Facilitation
 - Merchant Onboarding
 - Payouts
-- Marketplaces
+- Marketplace
 ---

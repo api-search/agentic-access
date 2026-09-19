@@ -9,18 +9,18 @@ api_specs:
   slug: red-hat-enterprise-linux-8-advisories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/openapi/red-hat-enterprise-linux-8-advisories-api-openapi.yml
-- filename: red-hat-enterprise-linux-8-cves-api-openapi.yml
-  format: yaml
-  label: Red Hat Enterprise Linux 8 CVEs API
-  slug: red-hat-enterprise-linux-8-cves-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/openapi/red-hat-enterprise-linux-8-cves-api-openapi.yml
 - filename: red-hat-enterprise-linux-8-oval-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux 8 OVAL API
   slug: red-hat-enterprise-linux-8-oval-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/openapi/red-hat-enterprise-linux-8-oval-api-openapi.yml
+- filename: red-hat-enterprise-linux-8-cves-api-openapi.yml
+  format: yaml
+  label: Red Hat Enterprise Linux 8 CV Es API
+  slug: red-hat-enterprise-linux-8-cves-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/openapi/red-hat-enterprise-linux-8-cves-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

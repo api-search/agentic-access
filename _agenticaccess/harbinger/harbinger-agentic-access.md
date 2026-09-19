@@ -45,18 +45,18 @@ api_specs:
   slug: harbinger-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-discovery-api-openapi.yml
-- filename: harbinger-oembed-api-openapi.yml
-  format: yaml
-  label: Harbinger Motors oEmbed API
-  slug: harbinger-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-oembed-api-openapi.yml
 - filename: harbinger-seo-api-openapi.yml
   format: yaml
   label: Harbinger Motors SEO Metadata API
   slug: harbinger-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-seo-api-openapi.yml
+- filename: harbinger-o-embed-api-openapi.yml
+  format: yaml
+  label: Harbinger o Embed API
+  slug: harbinger-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-o-embed-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified from the derived OpenAPI. Every publicly reachable operation on this surface is an anonymous read with no side effect and nothing to reverse, so the classification is uniform — that uniformity is the finding, not a shortcut. A governance starting point for exposing this API to AI agents; review and bind audience per deployment.

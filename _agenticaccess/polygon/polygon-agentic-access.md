@@ -9,42 +9,6 @@ api_specs:
   slug: websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-websocket-asyncapi.yml
-- filename: polygon-aggregates-api-openapi.yml
-  format: yaml
-  label: Polygon Aggregates API
-  slug: polygon-aggregates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-aggregates-api-openapi.yml
-- filename: polygon-books-api-openapi.yml
-  format: yaml
-  label: Polygon Books API
-  slug: polygon-books-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-books-api-openapi.yml
-- filename: polygon-contracts-api-openapi.yml
-  format: yaml
-  label: Polygon Contracts API
-  slug: polygon-contracts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-contracts-api-openapi.yml
-- filename: polygon-conversion-api-openapi.yml
-  format: yaml
-  label: Polygon Conversion API
-  slug: polygon-conversion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-conversion-api-openapi.yml
-- filename: polygon-corporateactions-api-openapi.yml
-  format: yaml
-  label: Polygon CorporateActions API
-  slug: polygon-corporateactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-corporateactions-api-openapi.yml
-- filename: polygon-dailybars-api-openapi.yml
-  format: yaml
-  label: Polygon DailyBars API
-  slug: polygon-dailybars-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-dailybars-api-openapi.yml
 - filename: polygon-markets-api-openapi.yml
   format: yaml
   label: Polygon Markets API
@@ -57,18 +21,6 @@ api_specs:
   slug: polygon-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-news-api-openapi.yml
-- filename: polygon-quotes-api-openapi.yml
-  format: yaml
-  label: Polygon Quotes API
-  slug: polygon-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-quotes-api-openapi.yml
-- filename: polygon-snapshots-api-openapi.yml
-  format: yaml
-  label: Polygon Snapshots API
-  slug: polygon-snapshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-snapshots-api-openapi.yml
 - filename: polygon-tickers-api-openapi.yml
   format: yaml
   label: Polygon Tickers API
@@ -429,6 +381,48 @@ api_specs:
   slug: polygon-us-stocks-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-us-stocks-reference-api-openapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Stocks API
+  slug: polygonio-stocks-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Options API
+  slug: polygonio-options-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Indices API
+  slug: polygonio-indices-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Forex API
+  slug: polygonio-forex-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Crypto API
+  slug: polygonio-crypto-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Futures API
+  slug: polygonio-futures-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-corporate-actions-api-openapi.yml
+  format: yaml
+  label: Polygon Corporate Actions API
+  slug: polygon-corporate-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-corporate-actions-api-openapi.yml
 consequence_counts:
   read: 175
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -440,14 +434,14 @@ name: Polygon Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 175
-overview: 'Polygon exposes 175 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Massive (formerly Polygon.io) exposes 175 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 175 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: Polygon
+provider_name: Massive (formerly Polygon.io)
 provider_slug: polygon
 slug: polygon-agentic-access
 source_filename: polygon-agentic-access.yml
@@ -500,7 +494,7 @@ tags:
 - Crypto
 - Indices
 - Futures
-- WebSockets
+- WebSocket
 - Real-Time
 - Historical
 - Public APIs

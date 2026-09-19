@@ -4,18 +4,18 @@ action_class_counts:
   acting: 26
   connected: 19
 api_specs:
+- filename: ada-end-users-api-openapi.yml
+  format: yaml
+  label: Ada End Users API
+  slug: ada-end-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-end-users-api-openapi.yml
 - filename: ada-conversations-api-openapi.yml
   format: yaml
   label: Ada Conversations API
   slug: ada-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-conversations-api-openapi.yml
-- filename: ada-auditlog-api-openapi.yml
-  format: yaml
-  label: Ada Audit Log API
-  slug: ada-auditlog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-auditlog-api-openapi.yml
 - filename: ada-channels-api-openapi.yml
   format: yaml
   label: Ada Channels API
@@ -40,12 +40,6 @@ api_specs:
   slug: ada-deletechatterdata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-deletechatterdata-api-openapi.yml
-- filename: ada-endusers-api-openapi.yml
-  format: yaml
-  label: Ada End Users API
-  slug: ada-endusers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-endusers-api-openapi.yml
 - filename: ada-getdeletionjob-api-openapi.yml
   format: yaml
   label: Ada Get Deletion Job API
@@ -106,18 +100,6 @@ api_specs:
   slug: ada-variables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-variables-api-openapi.yml
-- filename: ada-webhookmanagement-api-openapi.yml
-  format: yaml
-  label: Ada Webhook Management API
-  slug: ada-webhookmanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-webhookmanagement-api-openapi.yml
-- filename: openapi.yaml
-  format: yaml
-  label: Ada REST API
-  slug: ada-rest-api
-  spec_type: OpenAPI
-  url: https://docs.ada.cx/openapi.yaml
 - filename: ada-knowledge-api-openapi.yml
   format: yaml
   label: Ada Knowledge API
@@ -130,6 +112,30 @@ api_specs:
   slug: ada-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-conversations-api-openapi.yml
+- filename: ada-end-users-api-openapi.yml
+  format: yaml
+  label: Ada End Users API
+  slug: ada-end-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-end-users-api-openapi.yml
+- filename: ada-audit-log-api-openapi.yml
+  format: yaml
+  label: Ada Audit Log API
+  slug: ada-audit-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-audit-log-api-openapi.yml
+- filename: ada-end-users-api-openapi.yml
+  format: yaml
+  label: Ada End Users API
+  slug: ada-end-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-end-users-api-openapi.yml
+- filename: ada-webhook-management-api-openapi.yml
+  format: yaml
+  label: Ada Webhook Management API
+  slug: ada-webhook-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-webhook-management-api-openapi.yml
 consequence_counts:
   read: 19
   write: 26

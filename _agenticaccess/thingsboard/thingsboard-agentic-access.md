@@ -545,7 +545,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thingsboard/re
 summary_line: 491 operations · 228 acting · 226 human-in-the-loop
 tags:
 - IoT
-- Internet of Things
 - Device Management
 - Telemetry
 - Open-Source

@@ -10,12 +10,6 @@ api_specs:
   slug: synthesia-assets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-assets-api-openapi.yml
-- filename: synthesia-auditlogs-api-openapi.yml
-  format: yaml
-  label: Synthesia AuditLogs API
-  slug: synthesia-auditlogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-auditlogs-api-openapi.yml
 - filename: synthesia-dubbing-api-openapi.yml
   format: yaml
   label: Synthesia Dubbing API
@@ -46,6 +40,12 @@ api_specs:
   slug: synthesia-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-webhooks-api-openapi.yml
+- filename: synthesia-audit-logs-api-openapi.yml
+  format: yaml
+  label: Synthesia Audit Logs API
+  slug: synthesia-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/openapi/synthesia-audit-logs-api-openapi.yml
 consequence_counts:
   read: 14
   write: 13
@@ -88,7 +88,7 @@ tags:
 - Video
 - Avatars
 - Text-to-Video
-- Voices
+- Voice
 - Dubbing
 - Translation
 - Templates

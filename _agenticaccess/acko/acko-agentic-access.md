@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: acko-apis-api-openapi.yml
   format: yaml
-  label: Acko APIs API
+  label: Acko AP Is API
   slug: acko-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/openapi/acko-apis-api-openapi.yml

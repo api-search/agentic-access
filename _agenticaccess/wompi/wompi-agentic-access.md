@@ -78,7 +78,7 @@ tags:
 - Payments
 - Fintech
 - Colombia
-- LatAm
+- Latin America
 - Payment Gateway
 - PSE
 - Nequi

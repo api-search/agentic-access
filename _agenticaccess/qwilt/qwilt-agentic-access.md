@@ -79,7 +79,6 @@ tags:
 - Company
 - Media
 - CDN
-- Content Delivery Network
 - Edge Computing
 - Video Streaming
 - Open Caching

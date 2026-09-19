@@ -124,7 +124,6 @@ summary_line: 46 operations · 27 acting · 1 human-in-the-loop
 tags:
 - Company
 - Human Resources
-- HR
 - Payroll
 - HCM
 - Employee Management

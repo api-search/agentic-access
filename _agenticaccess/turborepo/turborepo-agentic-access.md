@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/turbor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/agentic-access/turborepo-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
-- Build System
+- Build Systems
 - Monorepo
 - JavaScript
 - TypeScript

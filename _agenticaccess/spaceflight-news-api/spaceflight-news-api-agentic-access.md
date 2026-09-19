@@ -1,63 +1,8 @@
 ---
-acting_count: 0
-action_class_counts:
-  connected: 7
-api_specs:
-- filename: spaceflight-news-api-articles-api-openapi.yml
-  format: yaml
-  label: Spaceflight News API Articles API
-  slug: spaceflight-news-api-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-articles-api-openapi.yml
-- filename: spaceflight-news-api-blogs-api-openapi.yml
-  format: yaml
-  label: Spaceflight News API Blogs API
-  slug: spaceflight-news-api-blogs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-blogs-api-openapi.yml
-- filename: spaceflight-news-api-info-api-openapi.yml
-  format: yaml
-  label: Spaceflight News API Info API
-  slug: spaceflight-news-api-info-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-info-api-openapi.yml
-- filename: spaceflight-news-api-reports-api-openapi.yml
-  format: yaml
-  label: Spaceflight News API Reports API
-  slug: spaceflight-news-api-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/openapi/spaceflight-news-api-reports-api-openapi.yml
-consequence_counts:
-  read: 7
-description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 0
-kind: agentic-access
-layout: agentic-access
-method: generated
-name: Spaceflight News Api Agentic Access
-name_suffix: Agentic Access
-notable_actions: []
-operation_count: 7
-overview: 'Spaceflight News API exposes 7 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
-
-
-  By consequence: 7 read.
-
-
-  Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: Spaceflight News API
-provider_slug: spaceflight-news-api
-slug: spaceflight-news-api-agentic-access
-source_filename: spaceflight-news-api-agentic-access.yml
-source_heading: Agentic Access
-source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spaceflight-news-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /articles/\n  method: get\n  operationId: listArticles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /articles/{id}/\n  method: get\n  operationId: getArticle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blogs/\n  method: get\n  operationId: listBlogs\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blogs/{id}/\n  method: get\n  operationId: getBlog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{id}/\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/\n  method: get\n  operationId: getInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/agentic-access/spaceflight-news-api-agentic-access.yml
-summary_line: 7 operations
-tags:
-- News
-- Space
-- Spaceflight
-- Media
+layout: redirect
+title: Moved to spaceflight-news
+redirect_to: /providers/spaceflight-news/
+sitemap: false
+# Generated by build_tombstones() from network/_data/retired.yml.
+# spaceflight-news-api was merged into spaceflight-news; do not hand-edit.
 ---

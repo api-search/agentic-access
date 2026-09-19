@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: chargetrip-graphql-api-openapi.yml
+- filename: chargetrip-graph-ql-api-openapi.yml
   format: yaml
-  label: Chargetrip GraphQL API
-  slug: chargetrip-graphql-api
+  label: Chargetrip Graph QL API
+  slug: chargetrip-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/openapi/chargetrip-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/openapi/chargetrip-graph-ql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

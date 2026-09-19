@@ -30,13 +30,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/openapi/linode-images-api-openapi.yml
 - filename: linode-linode-instances-api-openapi.yml
   format: yaml
-  label: linode Linode Instances API
+  label: linode Instances API
   slug: linode-linode-instances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/openapi/linode-linode-instances-api-openapi.yml
 - filename: linode-linode-kubernetes-engine-lke-api-openapi.yml
   format: yaml
-  label: linode Linode Kubernetes Engine (LKE) API
+  label: linode Kubernetes Engine (LKE) API
   slug: linode-linode-kubernetes-engine-lke-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/openapi/linode-linode-kubernetes-engine-lke-api-openapi.yml
@@ -199,5 +199,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/linode
   \ getManagedServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /managed/services\n  method: post\n  operationId: createManagedService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /managed/contacts\n  method: get\n  operationId: getManagedContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /managed/issues\n  method: get\n  operationId: getManagedIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/agentic-access/linode-agentic-access.yml
 summary_line: 116 operations · 56 acting · 2 human-in-the-loop
-tags: []
+tags:
+- Cloud Computing
+- Infrastructure-as-a-Service
+- Virtual Machines
+- Kubernetes
+- Object Storage
+- Block Storage
+- DNS
+- Managed Database
+- Networking
+- GPU
+- Load Balancer
+- Developer Tools
 ---

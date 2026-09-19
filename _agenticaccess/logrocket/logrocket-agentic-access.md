@@ -4,12 +4,6 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: logrocket-graphql-api-openapi.yml
-  format: yaml
-  label: LogRocket GraphQL API
-  slug: logrocket-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-graphql-api-openapi.yml
 - filename: logrocket-data-export-api-openapi.yml
   format: yaml
   label: LogRocket Data Export API
@@ -28,6 +22,12 @@ api_specs:
   slug: logrocket-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-users-api-openapi.yml
+- filename: logrocket-graph-ql-api-openapi.yml
+  format: yaml
+  label: LogRocket Graph QL API
+  slug: logrocket-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-graph-ql-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

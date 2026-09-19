@@ -208,7 +208,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/widen/refs/hea
 summary_line: 90 operations · 48 acting · 3 human-in-the-loop
 tags:
 - Digital Asset Management
-- DAM
 - Media
 - Assets
 - Metadata

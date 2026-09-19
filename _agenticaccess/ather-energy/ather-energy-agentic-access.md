@@ -44,6 +44,6 @@ tags:
 - Energy
 - EV Charging
 - Mobility
-- Internet of Things
+- IoT
 - India
 ---

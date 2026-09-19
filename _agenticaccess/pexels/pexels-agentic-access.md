@@ -53,5 +53,5 @@ summary_line: 9 operations
 tags:
 - Photos
 - Stock Media
-- Videos
+- Video
 ---

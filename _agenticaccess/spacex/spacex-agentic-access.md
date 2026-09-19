@@ -135,8 +135,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/he
 summary_line: 43 operations · 13 acting
 tags:
 - Space
-- Launch
-- Satellites
+- Launches
+- Satellite
 - Starlink
 - Falcon 9
 - Falcon Heavy

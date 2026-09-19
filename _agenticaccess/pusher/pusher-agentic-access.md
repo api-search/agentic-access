@@ -69,7 +69,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pusher/refs/he
 summary_line: 6 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Real-Time
-- WebSockets
+- WebSocket
 - Pub-Sub
 - Push Notifications
 - Messaging

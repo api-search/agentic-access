@@ -54,7 +54,7 @@ summary_line: 5 operations · 1 acting
 tags:
 - Benefits
 - HCM
-- HR
+- Human Resources
 - Paychex Flex
 - Payroll
 - Time and Attendance

@@ -48,7 +48,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-exclusions-api-openapi.yml
 - filename: google-cloud-logging-google-cloud-logging-api-api-openapi.yml
   format: yaml
-  label: Google Cloud Logging Google Cloud Logging API API
+  label: Google Cloud Logging Google Cloud Logging API
   slug: google-cloud-logging-google-cloud-logging-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-google-cloud-logging-api-api-openapi.yml
@@ -97,4 +97,10 @@ tags:
 - Logging
 - Monitoring
 - Observability
+- Telemetry
+- Log Management
+- SRE
+- DevOps
+- OpenTelemetry
+- Google Cloud
 ---

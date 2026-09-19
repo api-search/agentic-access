@@ -310,7 +310,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/misskey/refs/h
 summary_line: 439 operations · 412 acting · 6 human-in-the-loop
 tags:
 - Open-Source
-- Social Networks
+- Social Network
 - Fediverse
 - ActivityPub
 - Decentralized

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 35
   connected: 37
 api_specs:
-- filename: physna-clientcredentials-api-openapi.yml
-  format: yaml
-  label: Physna ClientCredentials API
-  slug: physna-clientcredentials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-clientcredentials-api-openapi.yml
 - filename: physna-collections-api-openapi.yml
   format: yaml
   label: Physna Collections API
@@ -52,6 +46,12 @@ api_specs:
   slug: physna-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-users-api-openapi.yml
+- filename: physna-client-credentials-api-openapi.yml
+  format: yaml
+  label: Physna Client Credentials API
+  slug: physna-client-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/openapi/physna-client-credentials-api-openapi.yml
 consequence_counts:
   read: 37
   write: 35

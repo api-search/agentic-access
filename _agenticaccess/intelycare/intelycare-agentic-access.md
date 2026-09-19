@@ -15,18 +15,18 @@ api_specs:
   slug: intelycare-shift-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-shift-api-openapi.yml
-- filename: intelycare-timecard-api-openapi.yml
-  format: yaml
-  label: IntelyCare Timecard API
-  slug: intelycare-timecard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-timecard-api-openapi.yml
 - filename: intelycare-webhook-events-api-openapi.yml
   format: yaml
   label: IntelyCare Webhook Events API
   slug: intelycare-webhook-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-webhook-events-api-openapi.yml
+- filename: intelycare-time-card-api-openapi.yml
+  format: yaml
+  label: IntelyCare Time Card API
+  slug: intelycare-time-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-time-card-api-openapi.yml
 consequence_counts:
   write: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

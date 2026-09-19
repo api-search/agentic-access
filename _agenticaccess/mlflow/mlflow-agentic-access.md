@@ -77,9 +77,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mlflow
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/agentic-access/mlflow-agentic-access.yml
 summary_line: 23 operations · 17 acting
 tags:
-- ML
+- Machine-Learning
 - MLOps
-- GenAI
+- Generative AI
 - Experiment Tracking
 - Open-Source
 ---

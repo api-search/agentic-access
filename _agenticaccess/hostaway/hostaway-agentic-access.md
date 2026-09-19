@@ -101,7 +101,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/
 summary_line: 23 operations · 11 acting
 tags:
 - Vacation Rentals
-- Short-Term Rentals
+- Short-Term Rental
 - Property Management
 - Channel Manager
 - Airbnb

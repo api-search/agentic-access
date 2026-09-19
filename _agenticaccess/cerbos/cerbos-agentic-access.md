@@ -4,12 +4,6 @@ action_class_counts:
   acting: 12
   connected: 10
 api_specs:
-- filename: cerbos-authzen-api-openapi.yml
-  format: yaml
-  label: Cerbos AuthZEN API
-  slug: cerbos-authzen-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-authzen-api-openapi.yml
 - filename: cerbos-admin-audit-api-openapi.yml
   format: yaml
   label: Cerbos Admin Audit API
@@ -34,12 +28,6 @@ api_specs:
   slug: cerbos-admin-store-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-admin-store-api-openapi.yml
-- filename: cerbos-authzen-api-openapi.yml
-  format: yaml
-  label: Cerbos AuthZEN API
-  slug: cerbos-authzen-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-authzen-api-openapi.yml
 - filename: cerbos-check-api-openapi.yml
   format: yaml
   label: Cerbos Check API
@@ -58,6 +46,12 @@ api_specs:
   slug: cerbos-server-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-server-api-openapi.yml
+- filename: cerbos-auth-zen-api-openapi.yml
+  format: yaml
+  label: Cerbos Auth ZEN API
+  slug: cerbos-auth-zen-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-auth-zen-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1

@@ -70,12 +70,6 @@ api_specs:
   slug: runwhen-explorer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/openapi/runwhen-explorer-api-openapi.yml
-- filename: runwhen-graphql-api-openapi.yml
-  format: yaml
-  label: RunWhen Graphql API
-  slug: runwhen-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/openapi/runwhen-graphql-api-openapi.yml
 - filename: runwhen-health-api-openapi.yml
   format: yaml
   label: RunWhen health API
@@ -232,12 +226,6 @@ api_specs:
   slug: runwhen-slo-v4-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/openapi/runwhen-slo-v4-api-openapi.yml
-- filename: runwhen-slos-api-openapi.yml
-  format: yaml
-  label: RunWhen slos API
-  slug: runwhen-slos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/openapi/runwhen-slos-api-openapi.yml
 - filename: runwhen-slx-v4-api-openapi.yml
   format: yaml
   label: RunWhen slx-v4 API
@@ -310,6 +298,18 @@ api_specs:
   slug: runwhen-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/openapi/runwhen-workspaces-api-openapi.yml
+- filename: runwhen-slos-api-openapi.yml
+  format: yaml
+  label: RunWhen Slos API
+  slug: runwhen-slos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/openapi/runwhen-slos-api-openapi.yml
+- filename: runwhen-graph-ql-api-openapi.yml
+  format: yaml
+  label: RunWhen Graph QL API
+  slug: runwhen-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/openapi/runwhen-graph-ql-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 236

@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rippli
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/agentic-access/rippling-agentic-access.yml
 summary_line: 29 operations · 10 acting
 tags:
-- HR
+- Human Resources
 - HCM
 - Payroll
 - IT
@@ -67,4 +67,5 @@ tags:
 - SCIM
 - Devices
 - Spend Management
+- Identity Federation
 ---

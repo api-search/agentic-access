@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/countr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/agentic-access/country-io-agentic-access.yml
 summary_line: 6 operations
 tags:
-- Capitals
+- Capital
 - Continents
 - Countries
 - Currency

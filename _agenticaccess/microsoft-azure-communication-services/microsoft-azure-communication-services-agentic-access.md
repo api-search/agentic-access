@@ -61,5 +61,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ /emails:send\n  method: post\n  operationId: sendEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/agentic-access/microsoft-azure-communication-services-agentic-access.yml
 summary_line: 5 operations · 5 acting
-tags: []
+tags:
+- Email
+- Identity
+- SMS
 ---

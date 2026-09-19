@@ -275,7 +275,7 @@ tags:
 - Property Management
 - Real-Estate
 - Rental Properties
-- Single-Family Rentals
+- Single-Family Rental
 - Leases
 - Tenants
 - Maintenance

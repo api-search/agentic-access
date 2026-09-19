@@ -58,5 +58,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stedi-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/agentic-access/edi-214-agentic-access.yml
 summary_line: 5 operations · 3 acting
-tags: []
+tags:
+- EDI
+- Logistics
+- Transaction
 ---

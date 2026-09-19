@@ -16,12 +16,6 @@ api_specs:
   slug: tiktok-ads-ad-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-ad-api-openapi.yml
-- filename: tiktok-ads-adgroup-api-openapi.yml
-  format: yaml
-  label: TikTok Marketing API Adgroup API
-  slug: tiktok-ads-adgroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-adgroup-api-openapi.yml
 - filename: tiktok-ads-ads-management-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Ads Management API
@@ -112,6 +106,12 @@ api_specs:
   slug: tiktok-ads-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-video-api-openapi.yml
+- filename: tiktok-ads-ad-group-api-openapi.yml
+  format: yaml
+  label: TikTok Marketing API Ad Group API
+  slug: tiktok-ads-ad-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-ad-group-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 100

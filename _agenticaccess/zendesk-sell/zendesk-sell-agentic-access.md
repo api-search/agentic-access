@@ -67,6 +67,6 @@ tags:
 - Sales Automation
 - Leads
 - Deals
-- Pipeline
+- Pipelines
 - Customer Experience
 ---

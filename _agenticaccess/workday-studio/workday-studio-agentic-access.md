@@ -132,10 +132,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-studio
 summary_line: 22 operations · 11 acting
 tags:
 - Cloud
+- Developer Tools
 - Development
 - Enterprise
 - Finance
-- HR
+- Human Resources
 - IDE
 - Integration
 ---

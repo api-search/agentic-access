@@ -46,12 +46,12 @@ api_specs:
   slug: surveymonkey-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-users-api-openapi.yml
-- filename: surveymonkey-workgroups-api-openapi.yml
+- filename: surveymonkey-work-groups-api-openapi.yml
   format: yaml
-  label: SurveyMonkey Workgroups API
-  slug: surveymonkey-workgroups-api
+  label: SurveyMonkey Work Groups API
+  slug: surveymonkey-work-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-workgroups-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-work-groups-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 24

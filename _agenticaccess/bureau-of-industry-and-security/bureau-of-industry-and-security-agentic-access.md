@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: bureau-of-industry-and-security-csl-apim-export.yaml
-  format: yaml
-  label: Consolidated Screening List (CSL) API
-  slug: consolidated-screening-list-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-industry-and-security/refs/heads/main/openapi/_original/bureau-of-industry-and-security-csl-apim-export.yaml
 - filename: bureau-of-industry-and-security-search-api-openapi.yml
   format: yaml
   label: Bureau of Industry and Security Search API
@@ -45,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-indu
 summary_line: 2 operations
 tags:
 - Compliance
-- Export Controls
+- Export Control
 - Federal-Government
 - Industries
 - National Security

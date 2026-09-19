@@ -60,11 +60,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/he
 summary_line: 5 operations · 3 acting
 tags:
 - MCP
-- MCP Servers
+- MCP Server
 - MCP Hosting
 - Connectors
 - Authentication
-- Sandboxes
+- Sandbox
 - Agent Training
 - Reinforcement Learning
 - White Label

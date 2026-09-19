@@ -349,7 +349,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/activi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activiti/refs/heads/main/agentic-access/activiti-agentic-access.yml
 summary_line: 171 operations · 86 acting · 1 human-in-the-loop
 tags:
-- BPM
 - Business Process Management
 - Workflows
 - BPMN

@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: replicant-replicant-api-openapi.yml
   format: yaml
-  label: Replicant Replicant API
+  label: Replicant API
   slug: replicant-replicant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/openapi/replicant-replicant-api-openapi.yml

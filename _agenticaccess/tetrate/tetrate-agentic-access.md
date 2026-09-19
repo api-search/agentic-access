@@ -4,12 +4,6 @@ action_class_counts:
   acting: 22
   connected: 17
 api_specs:
-- filename: tetrate-apis-api-openapi.yml
-  format: yaml
-  label: Tetrate APIs API
-  slug: tetrate-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-apis-api-openapi.yml
 - filename: tetrate-applications-api-openapi.yml
   format: yaml
   label: Tetrate Applications API
@@ -64,6 +58,12 @@ api_specs:
   slug: tetrate-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-workspaces-api-openapi.yml
+- filename: tetrate-apis-api-openapi.yml
+  format: yaml
+  label: Tetrate AP Is API
+  slug: tetrate-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/openapi/tetrate-apis-api-openapi.yml
 consequence_counts:
   read: 17
   write: 22

@@ -4,6 +4,12 @@ action_class_counts:
   acting: 40
   connected: 22
 api_specs:
+- filename: elevenlabs-openapi.json
+  format: json
+  label: ElevenLabs API
+  slug: elevenlabs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-openapi.json
 - filename: elevenlabs-agents-api-openapi.yml
   format: yaml
   label: elevenlabs Agents API
@@ -148,14 +154,14 @@ name: Elevenlabs Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 62
-overview: 'Elevenlabs exposes 62 API operations that an AI agent could call, of which 40 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'ElevenLabs exposes 62 API operations that an AI agent could call, of which 40 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 22 read and 40 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: Elevenlabs
+provider_name: ElevenLabs
 provider_slug: elevenlabs
 slug: elevenlabs-agentic-access
 source_filename: elevenlabs-agentic-access.yml
@@ -184,5 +190,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eleven
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/voice-library\n  method: get\n  operationId: listSharedVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/voice-library/{public_user_id}/{voice_id}/add\n  method: post\n  operationId: addSharedVoice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/agentic-access/elevenlabs-agentic-access.yml
 summary_line: 62 operations · 40 acting
-tags: []
+tags:
+- Artificial Intelligence
+- Text-to-Speech
+- Speech-to-Text
+- Voice
+- Audio
+- Machine-Learning
+- Conversational AI
+- Agents
+- Dubbing
+- Music Generation
 ---

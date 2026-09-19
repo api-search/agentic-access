@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: amazon-storage-gateway-amazon-storage-gateway-rest-api-api-openapi.yml
   format: yaml
-  label: Amazon Storage Gateway Amazon Storage Gateway REST API API
+  label: Amazon Storage Gateway Amazon Storage Gateway REST API
   slug: amazon-storage-gateway-amazon-storage-gateway-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/openapi/amazon-storage-gateway-amazon-storage-gateway-rest-api-api-openapi.yml
@@ -656,7 +656,7 @@ summary_line: 95 operations · 95 acting · 3 human-in-the-loop
 tags:
 - Backup
 - File Storage
-- Gateway
+- Gateways
 - Hybrid Cloud
 - Storage
 ---

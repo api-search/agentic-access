@@ -22,12 +22,6 @@ api_specs:
   slug: dreamfactory-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-app-api-openapi.yml
-- filename: dreamfactory-appgroup-api-openapi.yml
-  format: yaml
-  label: DreamFactory AppGroup API
-  slug: dreamfactory-appgroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-appgroup-api-openapi.yml
 - filename: dreamfactory-cors-api-openapi.yml
   format: yaml
   label: DreamFactory CORS API
@@ -40,12 +34,6 @@ api_specs:
   slug: dreamfactory-custom-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-custom-api-openapi.yml
-- filename: dreamfactory-emailtemplate-api-openapi.yml
-  format: yaml
-  label: DreamFactory EmailTemplate API
-  slug: dreamfactory-emailtemplate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-emailtemplate-api-openapi.yml
 - filename: dreamfactory-environment-api-openapi.yml
   format: yaml
   label: DreamFactory Environment API
@@ -100,6 +88,18 @@ api_specs:
   slug: dreamfactory-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-user-api-openapi.yml
+- filename: dreamfactory-app-group-api-openapi.yml
+  format: yaml
+  label: DreamFactory App Group API
+  slug: dreamfactory-app-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-app-group-api-openapi.yml
+- filename: dreamfactory-email-template-api-openapi.yml
+  format: yaml
+  label: DreamFactory Email Template API
+  slug: dreamfactory-email-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-email-template-api-openapi.yml
 consequence_counts:
   read: 24
   safety-critical: 1

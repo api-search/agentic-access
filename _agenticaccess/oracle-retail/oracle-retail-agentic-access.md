@@ -28,12 +28,6 @@ api_specs:
   slug: oracle-retail-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-orders-api-openapi.yml
-- filename: oracle-retail-purchaseorders-api-openapi.yml
-  format: yaml
-  label: Oracle Retail PurchaseOrders API
-  slug: oracle-retail-purchaseorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-purchaseorders-api-openapi.yml
 - filename: oracle-retail-returns-api-openapi.yml
   format: yaml
   label: Oracle Retail Returns API
@@ -46,6 +40,12 @@ api_specs:
   slug: oracle-retail-suppliers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-suppliers-api-openapi.yml
+- filename: oracle-retail-purchase-orders-api-openapi.yml
+  format: yaml
+  label: Oracle Retail Purchase Orders API
+  slug: oracle-retail-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-purchase-orders-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 8

@@ -280,14 +280,14 @@ summary_line: 90 operations · 69 acting · 10 human-in-the-loop
 tags:
 - Boot
 - Cgroups
-- Container
+- Containers
 - D-Bus
 - Init
 - IPC
-- Journal
+- Journals
 - Linux
 - Logging
-- Network
+- Networks
 - Open-Source
 - PID 1
 - Service Manager

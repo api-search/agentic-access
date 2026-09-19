@@ -21,12 +21,6 @@ api_specs:
   slug: nuvei-user-payment-options-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-user-payment-options-api-openapi.yml
-- filename: nuvei-3ds-api-openapi.yml
-  format: yaml
-  label: Nuvei 3DS API
-  slug: nuvei-3ds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-3ds-api-openapi.yml
 - filename: nuvei-dcc-api-openapi.yml
   format: yaml
   label: Nuvei DCC API
@@ -69,6 +63,12 @@ api_specs:
   slug: nuvei-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-status-api-openapi.yml
+- filename: nuvei-3-ds-api-openapi.yml
+  format: yaml
+  label: Nuvei 3 DS API
+  slug: nuvei-3-ds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/openapi/nuvei-3-ds-api-openapi.yml
 consequence_counts:
   physical: 15
   safety-critical: 1

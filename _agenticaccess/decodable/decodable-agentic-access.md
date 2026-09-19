@@ -76,5 +76,5 @@ tags:
 - Debezium
 - Real-Time Data
 - Data Pipeline
-- CDC
+- Change Data Capture
 ---

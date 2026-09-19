@@ -12,7 +12,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/openapi/google-search-ads-360-customers-api-openapi.yml
 - filename: google-search-ads-360-google-search-ads-360-reporting-api-api-openapi.yml
   format: yaml
-  label: Google Search Ads 360 Reporting Google Search Ads 360 Reporting API API
+  label: Google Search Ads 360 Reporting Google Search Ads 360 Reporting API
   slug: google-search-ads-360-google-search-ads-360-reporting-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/openapi/google-search-ads-360-google-search-ads-360-reporting-api-api-openapi.yml
@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-search-
 summary_line: 4 operations · 2 acting
 tags:
 - Campaign Management
-- Conversions
+- Conversion
 - Keywords
 - Reporting
 - Search Ads 360

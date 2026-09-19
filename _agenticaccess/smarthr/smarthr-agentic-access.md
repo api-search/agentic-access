@@ -77,7 +77,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smarth
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/agentic-access/smarthr-agentic-access.yml
 summary_line: 27 operations · 16 acting
 tags:
-- HR
 - Human Resources
 - HRIS
 - Labor Management

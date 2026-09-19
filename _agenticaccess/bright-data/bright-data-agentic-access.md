@@ -34,12 +34,6 @@ api_specs:
   slug: bright-data-delivery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-delivery-api-openapi.yml
-- filename: bright-data-ips-api-openapi.yml
-  format: yaml
-  label: Bright Data IPs API
-  slug: bright-data-ips-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-ips-api-openapi.yml
 - filename: bright-data-lookup-api-openapi.yml
   format: yaml
   label: Bright Data Lookup API
@@ -94,6 +88,12 @@ api_specs:
   slug: bright-data-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-zones-api-openapi.yml
+- filename: bright-data-ips-api-openapi.yml
+  format: yaml
+  label: Bright Data I Ps API
+  slug: bright-data-ips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-ips-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 29

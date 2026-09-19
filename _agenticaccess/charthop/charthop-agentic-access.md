@@ -46,12 +46,6 @@ api_specs:
   slug: charthop-app-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-app-api-openapi.yml
-- filename: charthop-appconfig-api-openapi.yml
-  format: yaml
-  label: Charthop appConfig API
-  slug: charthop-appconfig-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-appconfig-api-openapi.yml
 - filename: charthop-approval-api-openapi.yml
   format: yaml
   label: Charthop approval API
@@ -316,12 +310,6 @@ api_specs:
   slug: charthop-notification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-notification-api-openapi.yml
-- filename: charthop-oauth-api-openapi.yml
-  format: yaml
-  label: Charthop oauth API
-  slug: charthop-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-oauth-api-openapi.yml
 - filename: charthop-org-api-openapi.yml
   format: yaml
   label: Charthop org API
@@ -478,12 +466,6 @@ api_specs:
   slug: charthop-time-off-ledger-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-time-off-ledger-api-openapi.yml
-- filename: charthop-timeoff-api-openapi.yml
-  format: yaml
-  label: Charthop timeoff API
-  slug: charthop-timeoff-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-timeoff-api-openapi.yml
 - filename: charthop-timeoffadjustment-api-openapi.yml
   format: yaml
   label: Charthop timeoffAdjustment API
@@ -526,6 +508,24 @@ api_specs:
   slug: charthop-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-well-known-api-openapi.yml
+- filename: charthop-oauth-api-openapi.yml
+  format: yaml
+  label: Charthop OAUTH API
+  slug: charthop-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-oauth-api-openapi.yml
+- filename: charthop-app-config-api-openapi.yml
+  format: yaml
+  label: Charthop App Config API
+  slug: charthop-app-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-app-config-api-openapi.yml
+- filename: charthop-time-off-api-openapi.yml
+  format: yaml
+  label: Charthop Time Off API
+  slug: charthop-time-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/openapi/charthop-time-off-api-openapi.yml
 consequence_counts:
   physical: 19
   read: 308
@@ -720,12 +720,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charthop/refs/
 summary_line: 738 operations · 430 acting · 11 human-in-the-loop
 tags:
 - Company
-- HR
+- Human Resources
 - People Analytics
 - HRIS
 - Workforce Planning
 - Compensation
-- Human Resources
 - Org Chart
 - MCP
 ---

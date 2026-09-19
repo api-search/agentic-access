@@ -4,12 +4,6 @@ action_class_counts:
   acting: 11
   connected: 28
 api_specs:
-- filename: cubefs-acls-api-openapi.yml
-  format: yaml
-  label: CubeFS ACLs API
-  slug: cubefs-acls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-acls-api-openapi.yml
 - filename: cubefs-buckets-api-openapi.yml
   format: yaml
   label: CubeFS Buckets API
@@ -22,12 +16,6 @@ api_specs:
   slug: cubefs-cluster-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-cluster-api-openapi.yml
-- filename: cubefs-datanodes-api-openapi.yml
-  format: yaml
-  label: CubeFS DataNodes API
-  slug: cubefs-datanodes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-datanodes-api-openapi.yml
 - filename: cubefs-datapartitions-api-openapi.yml
   format: yaml
   label: CubeFS DataPartitions API
@@ -70,6 +58,18 @@ api_specs:
   slug: cubefs-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-volumes-api-openapi.yml
+- filename: cubefs-acls-api-openapi.yml
+  format: yaml
+  label: CubeFS AC Ls API
+  slug: cubefs-acls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-acls-api-openapi.yml
+- filename: cubefs-data-nodes-api-openapi.yml
+  format: yaml
+  label: CubeFS Data Nodes API
+  slug: cubefs-data-nodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-data-nodes-api-openapi.yml
 consequence_counts:
   read: 28
   write: 11

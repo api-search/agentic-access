@@ -30,7 +30,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-subpackage-tenantproperties-api-openapi.yml
 - filename: truework-truework-webhooks-api-openapi.yml
   format: yaml
-  label: Truework Truework Webhooks API
+  label: Truework Webhooks API
   slug: truework-truework-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/openapi/truework-truework-webhooks-api-openapi.yml
@@ -100,7 +100,7 @@ tags:
 - VOIE
 - Mortgage
 - Lending
-- Credit Unions
+- Credit Union
 - Identity
 - KYC
 - Fintech

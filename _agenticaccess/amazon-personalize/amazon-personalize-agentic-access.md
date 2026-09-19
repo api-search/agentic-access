@@ -40,7 +40,6 @@ tags:
 - Artificial Intelligence
 - Customer Experience
 - Machine-Learning
-- ML
 - Personalization
 - Recommendations
 ---

@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: coyote-associated-entities-api-api-openapi.yml
   format: yaml
-  label: Coyote Logistics Associated Entities API API
+  label: Coyote Logistics Associated Entities API
   slug: coyote-associated-entities-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/openapi/coyote-associated-entities-api-api-openapi.yml

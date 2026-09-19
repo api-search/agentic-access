@@ -231,12 +231,6 @@ api_specs:
   slug: thorchain-rune-pool-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thorchain/refs/heads/main/openapi/thorchain-rune-pool-api-openapi.yml
-- filename: thorchain-runepool-api-openapi.yml
-  format: yaml
-  label: THORChain Runepool API
-  slug: thorchain-runepool-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thorchain/refs/heads/main/openapi/thorchain-runepool-api-openapi.yml
 - filename: thorchain-saver-api-openapi.yml
   format: yaml
   label: THORChain Saver API
@@ -323,7 +317,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/thorchain/refs/heads/main/openapi/thorchain-tcy-stakers-api-openapi.yml
 - filename: thorchain-thorchain-website-discovery-api-openapi.yml
   format: yaml
-  label: THORChain THORChain Website Discovery API
+  label: THORChain Website Discovery API
   slug: thorchain-thorchain-website-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thorchain/refs/heads/main/openapi/thorchain-thorchain-website-discovery-api-openapi.yml

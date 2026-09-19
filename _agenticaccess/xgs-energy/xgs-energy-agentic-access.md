@@ -44,12 +44,12 @@ api_specs:
   slug: xgs-energy-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-discovery-api-openapi.yml
-- filename: xgs-energy-oembed-api-openapi.yml
+- filename: xgs-energy-o-embed-api-openapi.yml
   format: yaml
-  label: XGS Energy oEmbed API
-  slug: xgs-energy-oembed-api
+  label: XGS Energy o Embed API
+  slug: xgs-energy-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-o-embed-api-openapi.yml
 consequence_counts: {}
 description: 'Recommended x-agentic-access contract for the XGS Energy public surface. Every documented operation is an anonymous read of public website content: no writes, no cost, no consent boundary, no reversibility question. This is a recommendation by API Evangelist, not a contract XGS Energy publishes.'
 human_in_the_loop: 0

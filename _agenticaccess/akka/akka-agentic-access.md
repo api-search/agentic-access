@@ -55,7 +55,7 @@ summary_line: 7 operations · 2 acting
 tags:
 - Actor Model
 - Distributed Systems
-- Frameworks
+- Framework
 - Java
 - Microservices
 - Reactive

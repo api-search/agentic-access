@@ -99,12 +99,6 @@ api_specs:
   slug: amberdata-liquidity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-liquidity-api-openapi.yml
-- filename: amberdata-marketcap-api-openapi.yml
-  format: yaml
-  label: Amberdata Marketcap API
-  slug: amberdata-marketcap-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-marketcap-api-openapi.yml
 - filename: amberdata-metrics-api-openapi.yml
   format: yaml
   label: Amberdata Metrics API
@@ -171,6 +165,12 @@ api_specs:
   slug: amberdata-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-volumes-api-openapi.yml
+- filename: amberdata-market-cap-api-openapi.yml
+  format: yaml
+  label: Amberdata Market Cap API
+  slug: amberdata-market-cap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/openapi/amberdata-market-cap-api-openapi.yml
 consequence_counts:
   read: 240
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

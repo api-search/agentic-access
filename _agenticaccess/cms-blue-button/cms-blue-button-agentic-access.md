@@ -27,12 +27,12 @@ api_specs:
   slug: cms-blue-button-patient-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-patient-api-openapi.yml
-- filename: cms-blue-button-userinfo-api-openapi.yml
+- filename: cms-blue-button-user-info-api-openapi.yml
   format: yaml
-  label: CMS Blue Button 2.0 UserInfo API
-  slug: cms-blue-button-userinfo-api
+  label: CMS Blue Button 2.0 User Info API
+  slug: cms-blue-button-user-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-userinfo-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/openapi/cms-blue-button-user-info-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

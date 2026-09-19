@@ -81,9 +81,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zoho-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/agentic-access/zoho-people-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
-- HR
-- HRMS
 - Human Resources
+- HRMS
 - HRIS
 - Employee Management
 - Attendance

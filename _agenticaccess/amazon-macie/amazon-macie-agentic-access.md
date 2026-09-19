@@ -52,12 +52,6 @@ api_specs:
   slug: amazon-macie-custom-data-identifiers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-custom-data-identifiers-api-openapi.yml
-- filename: amazon-macie-datasources-api-openapi.yml
-  format: yaml
-  label: Amazon Macie Datasources API
-  slug: amazon-macie-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-datasources-api-openapi.yml
 - filename: amazon-macie-findings-api-openapi.yml
   format: yaml
   label: Amazon Macie Findings API
@@ -90,7 +84,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-jobs-api-openapi.yml
 - filename: amazon-macie-macie-api-openapi.yml
   format: yaml
-  label: Amazon Macie Macie API
+  label: Amazon Macie API
   slug: amazon-macie-macie-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-macie-api-openapi.yml
@@ -148,6 +142,12 @@ api_specs:
   slug: amazon-macie-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-usage-api-openapi.yml
+- filename: amazon-macie-data-sources-api-openapi.yml
+  format: yaml
+  label: Amazon Macie Data Sources API
+  slug: amazon-macie-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-data-sources-api-openapi.yml
 consequence_counts:
   read: 30
   safety-critical: 2

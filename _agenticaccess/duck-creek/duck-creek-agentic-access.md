@@ -78,5 +78,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/duck-c
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/agentic-access/duck-creek-agentic-access.yml
 summary_line: 13 operations · 6 acting
-tags: []
+tags:
+- Insurance
+- Payments
+- Claims
+- Payment Processing
+- Product
 ---

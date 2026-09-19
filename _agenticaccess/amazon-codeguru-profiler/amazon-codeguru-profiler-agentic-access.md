@@ -10,12 +10,6 @@ api_specs:
   slug: amazon-codeguru-profiler-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-internal-api-openapi.yml
-- filename: amazon-codeguru-profiler-profilinggroups-api-openapi.yml
-  format: yaml
-  label: Amazon CodeGuru Profiler ProfilingGroups API
-  slug: amazon-codeguru-profiler-profilinggroups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-profilinggroups-api-openapi.yml
 - filename: amazon-codeguru-profiler-profilinggroups-clienttoken-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Profiler ProfilingGroups#clientToken API
@@ -28,6 +22,12 @@ api_specs:
   slug: amazon-codeguru-profiler-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-tags-api-openapi.yml
+- filename: amazon-codeguru-profiler-profiling-groups-api-openapi.yml
+  format: yaml
+  label: Amazon CodeGuru Profiler Profiling Groups API
+  slug: amazon-codeguru-profiler-profiling-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-profiling-groups-api-openapi.yml
 consequence_counts:
   read: 10
   write: 13

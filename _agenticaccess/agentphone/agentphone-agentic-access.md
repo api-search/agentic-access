@@ -64,12 +64,6 @@ api_specs:
   slug: agentphone-registration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-registration-api-openapi.yml
-- filename: agentphone-sub-accounts-api-openapi.yml
-  format: yaml
-  label: AgentPhone sub-accounts API
-  slug: agentphone-sub-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-sub-accounts-api-openapi.yml
 - filename: agentphone-usage-api-openapi.yml
   format: yaml
   label: AgentPhone usage API
@@ -82,6 +76,12 @@ api_specs:
   slug: agentphone-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-webhooks-api-openapi.yml
+- filename: agentphone-subaccounts-api-openapi.yml
+  format: yaml
+  label: AgentPhone Subaccounts API
+  slug: agentphone-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-subaccounts-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 35

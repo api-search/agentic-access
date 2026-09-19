@@ -69,7 +69,7 @@ summary_line: 30 operations · 14 acting
 tags:
 - Access Governance
 - Compliance
-- IAM
+- Identity and Access Management
 - Identity Management
 - Identity Security
 - Security

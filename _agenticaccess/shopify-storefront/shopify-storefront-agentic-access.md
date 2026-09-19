@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: shopify-storefront-graphql-api-openapi.yml
+- filename: shopify-storefront-graph-ql-api-openapi.yml
   format: yaml
-  label: Shopify Storefront API GraphQL API
-  slug: shopify-storefront-graphql-api
+  label: Shopify Storefront API Graph QL API
+  slug: shopify-storefront-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/openapi/shopify-storefront-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/openapi/shopify-storefront-graph-ql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

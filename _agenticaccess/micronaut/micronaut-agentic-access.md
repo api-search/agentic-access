@@ -106,7 +106,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs
 summary_line: 13 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Cloud-Native
-- Frameworks
+- Framework
 - Java
 - JVM
 - Microservices

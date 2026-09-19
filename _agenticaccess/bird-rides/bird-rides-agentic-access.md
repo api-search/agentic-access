@@ -78,7 +78,7 @@ tags:
 - Micromobility
 - Shared Mobility
 - Electric Scooters
-- E-Scooters
+- E-Scooter
 - E-Bikes
 - Bike Share
 - Transportation

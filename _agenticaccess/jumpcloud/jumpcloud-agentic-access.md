@@ -69,4 +69,5 @@ tags:
 - MDM
 - IT Operations
 - Zero Trust
+- Identity Federation
 ---

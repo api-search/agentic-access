@@ -70,7 +70,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thingspeak/ref
 summary_line: 21 operations · 9 acting
 tags:
 - IoT
-- Internet of Things
 - Analytics
 - Time Series
 - MQTT

@@ -154,5 +154,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/whatsa
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/agentic-access/whatsapp-agentic-access.yml
 summary_line: 43 operations · 27 acting
-tags: []
+tags:
+- Messaging
+- Forms
+- Self-Hosted
+- Analytics
 ---

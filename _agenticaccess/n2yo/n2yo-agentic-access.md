@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/n2yo-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/agentic-access/n2yo-agentic-access.yml
 summary_line: 5 operations
 tags:
-- Satellites
+- Satellite
 - Space
 - Tracking
 ---

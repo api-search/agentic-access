@@ -82,5 +82,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/perfor
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{id}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/agentic-access/perforce-agentic-access.yml
 summary_line: 27 operations · 15 acting
-tags: []
+tags:
+- Version Control
+- Project Management
+- Automation
+- DevOps
+- REST API
 ---

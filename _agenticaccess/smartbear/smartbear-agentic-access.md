@@ -4,12 +4,6 @@ action_class_counts:
   acting: 16
   connected: 13
 api_specs:
-- filename: smartbear-apis-api-openapi.yml
-  format: yaml
-  label: SmartBear APIs API
-  slug: smartbear-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-apis-api-openapi.yml
 - filename: smartbear-domains-api-openapi.yml
   format: yaml
   label: SmartBear Domains API
@@ -34,6 +28,12 @@ api_specs:
   slug: smartbear-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-projects-api-openapi.yml
+- filename: smartbear-apis-api-openapi.yml
+  format: yaml
+  label: SmartBear AP Is API
+  slug: smartbear-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-apis-api-openapi.yml
 consequence_counts:
   read: 13
   write: 16
@@ -76,6 +76,7 @@ tags:
 - API Documentation
 - API Testing
 - Contract Testing
+- Developer Tools
 - Governance
 - Monitoring
 - Platform

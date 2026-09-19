@@ -116,7 +116,7 @@ tags:
 - LMS
 - Canvas
 - Courses
-- Enrollments
+- Enrollment
 - Assignments
 - Grades
 - Discussions

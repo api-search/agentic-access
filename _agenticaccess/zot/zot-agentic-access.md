@@ -48,7 +48,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-tags-api-openapi.yml
 - filename: zot-zot-api-openapi.yml
   format: yaml
-  label: Zot Zot API
+  label: Zot API
   slug: zot-zot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zot/refs/heads/main/openapi/zot-zot-api-openapi.yml

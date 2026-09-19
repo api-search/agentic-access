@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: monad-monad-json-rpc-api-api-openapi.yml
   format: yaml
-  label: Monad Monad JSON RPC API API
+  label: Monad JSON RPC API
   slug: monad-monad-json-rpc-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/monad/refs/heads/main/openapi/monad-monad-json-rpc-api-api-openapi.yml
@@ -44,4 +44,5 @@ tags:
 - Parallel Execution
 - JSON-RPC
 - MonadBFT
+- Monad
 ---

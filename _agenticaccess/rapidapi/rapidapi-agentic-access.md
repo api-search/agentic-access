@@ -16,12 +16,6 @@ api_specs:
   slug: rapidapi-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rapidapi/refs/heads/main/openapi/rapidapi-analytics-api-openapi.yml
-- filename: rapidapi-apis-api-openapi.yml
-  format: yaml
-  label: RapidAPI Apis API
-  slug: rapidapi-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rapidapi/refs/heads/main/openapi/rapidapi-apis-api-openapi.yml
 - filename: rapidapi-applications-api-openapi.yml
   format: yaml
   label: RapidAPI Applications API
@@ -82,12 +76,6 @@ api_specs:
   slug: rapidapi-gateways-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rapidapi/refs/heads/main/openapi/rapidapi-gateways-api-openapi.yml
-- filename: rapidapi-graphql-api-openapi.yml
-  format: yaml
-  label: RapidAPI GraphQL API
-  slug: rapidapi-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rapidapi/refs/heads/main/openapi/rapidapi-graphql-api-openapi.yml
 - filename: rapidapi-locations-api-openapi.yml
   format: yaml
   label: RapidAPI Locations API
@@ -178,6 +166,18 @@ api_specs:
   slug: rapidapi-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rapidapi/refs/heads/main/openapi/rapidapi-users-api-openapi.yml
+- filename: rapidapi-apis-api-openapi.yml
+  format: yaml
+  label: RapidAPI APIS API
+  slug: rapidapi-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rapidapi/refs/heads/main/openapi/rapidapi-apis-api-openapi.yml
+- filename: rapidapi-graph-ql-api-openapi.yml
+  format: yaml
+  label: RapidAPI Graph QL API
+  slug: rapidapi-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rapidapi/refs/heads/main/openapi/rapidapi-graph-ql-api-openapi.yml
 consequence_counts:
   read: 45
   write: 48
@@ -240,4 +240,6 @@ tags:
 - API Gateway
 - API Design
 - Enterprise
+- Developer Tools
+- RapidAPI
 ---

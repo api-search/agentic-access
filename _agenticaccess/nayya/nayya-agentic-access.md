@@ -116,7 +116,7 @@ tags:
 - Insurtech
 - Health
 - Decision Support
-- HR Tech
+- Human Resources
 - Enrollment
 - Recommendations
 - Artificial Intelligence

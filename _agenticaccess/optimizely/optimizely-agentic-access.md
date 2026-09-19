@@ -1,8 +1,8 @@
 ---
-acting_count: 65
+acting_count: 1802
 action_class_counts:
-  acting: 65
-  connected: 70
+  acting: 1802
+  connected: 1728
 api_specs:
 - filename: optimizely-assets-api-openapi.yml
   format: yaml
@@ -106,12 +106,6 @@ api_specs:
   slug: optimizely-flags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-flags-api-openapi.yml
-- filename: optimizely-graphql-api-openapi.yml
-  format: yaml
-  label: Optimizely GraphQL API
-  slug: optimizely-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-graphql-api-openapi.yml
 - filename: optimizely-labels-api-openapi.yml
   format: yaml
   label: Optimizely Labels API
@@ -268,18 +262,6 @@ api_specs:
   slug: optimizely-affiliates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-affiliates-api-openapi.yml
-- filename: optimizely-api-reference-api-openapi.yml
-  format: yaml
-  label: Optimizely API Reference API
-  slug: optimizely-api-reference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-api-reference-api-openapi.yml
-- filename: optimizely-applepay-api-openapi.yml
-  format: yaml
-  label: Optimizely Applepay API
-  slug: optimizely-applepay-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-applepay-api-openapi.yml
 - filename: optimizely-application-es-logs-api-openapi.yml
   format: yaml
   label: Optimizely Application Es Logs API
@@ -370,12 +352,6 @@ api_specs:
   slug: optimizely-batch-sending-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-batch-sending-api-openapi.yml
-- filename: optimizely-bestbets-api-openapi.yml
-  format: yaml
-  label: Optimizely 🏆 BestBets API
-  slug: optimizely-bestbets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-bestbets-api-openapi.yml
 - filename: optimizely-bill-to-address-fields-api-openapi.yml
   format: yaml
   label: Optimizely Bill To Address Fields API
@@ -430,12 +406,6 @@ api_specs:
   slug: optimizely-budget-calendars-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-budget-calendars-api-openapi.yml
-- filename: optimizely-budgetcalendars-api-openapi.yml
-  format: yaml
-  label: Optimizely Budgetcalendars API
-  slug: optimizely-budgetcalendars-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-budgetcalendars-api-openapi.yml
 - filename: optimizely-budgets-api-openapi.yml
   format: yaml
   label: Optimizely Budgets API
@@ -802,12 +772,6 @@ api_specs:
   slug: optimizely-databaseexports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-databaseexports-api-openapi.yml
-- filename: optimizely-datafile-api-openapi.yml
-  format: yaml
-  label: Optimizely Datafile API
-  slug: optimizely-datafile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-datafile-api-openapi.yml
 - filename: optimizely-dealer-categories-api-openapi.yml
   format: yaml
   label: Optimizely Dealer Categories API
@@ -1024,12 +988,6 @@ api_specs:
   slug: optimizely-global-synonyms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-global-synonyms-api-openapi.yml
-- filename: optimizely-googlepay-api-openapi.yml
-  format: yaml
-  label: Optimizely Googlepay API
-  slug: optimizely-googlepay-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-googlepay-api-openapi.yml
 - filename: optimizely-groups-api-openapi.yml
   format: yaml
   label: Optimizely Groups API
@@ -1264,12 +1222,6 @@ api_specs:
   slug: optimizely-nodes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-nodes-api-openapi.yml
-- filename: optimizely-oauth-api-openapi.yml
-  format: yaml
-  label: Optimizely OAUTH API
-  slug: optimizely-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-oauth-api-openapi.yml
 - filename: optimizely-object-schema-api-openapi.yml
   format: yaml
   label: Optimizely Object schema API
@@ -1296,7 +1248,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-opt-in-processes-api-openapi.yml
 - filename: optimizely-optimizely-edge-decider-api-openapi.yml
   format: yaml
-  label: Optimizely Optimizely Edge Decider API
+  label: Optimizely Edge Decider API
   slug: optimizely-optimizely-edge-decider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-optimizely-edge-decider-api-openapi.yml
@@ -1372,12 +1324,6 @@ api_specs:
   slug: optimizely-orderfeed-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-orderfeed-api-openapi.yml
-- filename: optimizely-orderstatusmappings-api-openapi.yml
-  format: yaml
-  label: Optimizely Orderstatusmappings API
-  slug: optimizely-orderstatusmappings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-orderstatusmappings-api-openapi.yml
 - filename: optimizely-override-api-openapi.yml
   format: yaml
   label: Optimizely Override API
@@ -2188,12 +2134,6 @@ api_specs:
   slug: optimizely-token-ex-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-token-ex-config-api-openapi.yml
-- filename: optimizely-tokenexconfig-api-openapi.yml
-  format: yaml
-  label: Optimizely Tokenexconfig API
-  slug: optimizely-tokenexconfig-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-tokenexconfig-api-openapi.yml
 - filename: optimizely-track-api-openapi.yml
   format: yaml
   label: Optimizely Track API
@@ -2218,12 +2158,6 @@ api_specs:
   slug: optimizely-translation-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-translation-properties-api-openapi.yml
-- filename: optimizely-translationdictionaries-api-openapi.yml
-  format: yaml
-  label: Optimizely Translationdictionaries API
-  slug: optimizely-translationdictionaries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-translationdictionaries-api-openapi.yml
 - filename: optimizely-uploader-api-openapi.yml
   format: yaml
   label: Optimizely Uploader API
@@ -2356,18 +2290,6 @@ api_specs:
   slug: optimizely-vmi-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-vmi-notes-api-openapi.yml
-- filename: optimizely-vmibins-api-openapi.yml
-  format: yaml
-  label: Optimizely Vmi Bins API
-  slug: optimizely-vmibins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-vmibins-api-openapi.yml
-- filename: optimizely-vmilocations-api-openapi.yml
-  format: yaml
-  label: Optimizely Vmi Locations API
-  slug: optimizely-vmilocations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-vmilocations-api-openapi.yml
 - filename: optimizely-warehouse-alternates-api-openapi.yml
   format: yaml
   label: Optimizely Warehouse Alternates API
@@ -2494,12 +2416,6 @@ api_specs:
   slug: optimizely-wish-list-shares-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-wish-list-shares-api-openapi.yml
-- filename: optimizely-wish-lists-api-openapi.yml
-  format: yaml
-  label: Optimizely Wish Lists API
-  slug: optimizely-wish-lists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-wish-lists-api-openapi.yml
 - filename: optimizely-wishlists-api-openapi.yml
   format: yaml
   label: Optimizely Wishlists API
@@ -2518,13 +2434,43 @@ api_specs:
   slug: optimizely-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-workflows-api-openapi.yml
+- filename: optimizely-oauth-api-openapi.yml
+  format: yaml
+  label: Optimizely OAUTH API
+  slug: optimizely-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-oauth-api-openapi.yml
+- filename: optimizely-apple-pay-api-openapi.yml
+  format: yaml
+  label: Optimizely Apple Pay API
+  slug: optimizely-apple-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-apple-pay-api-openapi.yml
+- filename: optimizely-best-bets-api-openapi.yml
+  format: yaml
+  label: Optimizely Best Bets API
+  slug: optimizely-best-bets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-best-bets-api-openapi.yml
+- filename: optimizely-data-file-api-openapi.yml
+  format: yaml
+  label: Optimizely Data File API
+  slug: optimizely-data-file-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-data-file-api-openapi.yml
+- filename: optimizely-google-pay-api-openapi.yml
+  format: yaml
+  label: Optimizely Google Pay API
+  slug: optimizely-google-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-google-pay-api-openapi.yml
 consequence_counts:
-  physical: 2
-  read: 70
-  safety-critical: 1
-  write: 62
+  physical: 211
+  read: 1728
+  safety-critical: 18
+  write: 1573
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 1
+human_in_the_loop: 18
 kind: agentic-access
 layout: agentic-access
 method: generated
@@ -2535,25 +2481,135 @@ notable_actions:
   consequence: safety-critical
   human_in_the_loop: required
   method: POST
+  path: /api/v1.0/projects/{projectId}/deployments/{deploymentId}/reset
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /api/v1/admin/SearchStopwords
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: PUT
+  path: /api/v1/admin/SearchStopwords({id})
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /api/v1/admin/SearchStopwords({id})
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: PATCH
+  path: /api/v1/admin/SearchStopwords({id})
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /api/v1/admin/SystemSettings/Default.restore
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /api/v1/admin/searchstopwords/delete
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /api/v1/admin/systemsettings/restore
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /projects/{project_id}/environments/{environment_key}/reports/{report_key}/reset-results
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
   path: /projects/{project_id}/flags/{flag_key}/environments/{environment_key}/ruleset/disabled
 - action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: PUT
+  path: /resources/stopwords
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /resources/stopwords
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
   method: POST
-  path: /events
+  path: /v1/override
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /{clientId}/confirmations/{confirmationMailId}/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /{clientId}/responses/bounces/{recipientId}
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /{clientId}/smartcampaigns/{campaignId}/messages/{mailingId}/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /{clientId}/smartcampaigns/{campaignId}/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /{clientId}/transactionalmail/{transactionalMailId}/stop
 - action_class: acting
   consequence: physical
   human_in_the_loop: conditional
   method: POST
-  path: /{clientId}/transactionalmail
-operation_count: 135
-overview: 'Optimizely exposes 135 API operations that an AI agent could call, of which 65 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+  path: /api/v1.0/projects/{projectId}/deployments
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /api/v1.0/projects/{projectId}/deployments/{deploymentId}/complete
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /api/v1/accounts/current/paymentprofiles
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: DELETE
+  path: /api/v1/accounts/current/paymentprofiles/{AccountPaymentProfileId}
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PATCH
+  path: /api/v1/accounts/current/paymentprofiles/{AccountPaymentProfileId}
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PATCH
+  path: /api/v1/accounts/{accountId}/shiptos
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /api/v1/admin/CustomerOrderChanges
+operation_count: 3530
+overview: 'Optimizely exposes 3530 API operations that an AI agent could call, of which 1802 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 70 read, 62 write, 2 physical, and 1 safety-critical.
+  By consequence: 1728 read, 1573 write, 211 physical, and 18 safety-critical.
 
 
-  1 operation are classed safety-critical and should require human-in-the-loop approval at runtime.
+  18 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -2563,43 +2619,41 @@ slug: optimizely-agentic-access
 source_filename: optimizely-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/optimizely-campaign-openapi.yml, openapi/optimizely-cmp-openapi.yml, openapi/optimizely-commerce-service-openapi.yml,\n  openapi/optimizely-content-delivery-openapi.yml, openapi/optimizely-content-management-openapi.yml,\n  openapi/optimizely-data-platform-openapi.yml, openapi/optimizely-feature-experimentation-openapi.yml,\n  openapi/optimizely-graph-openapi.yml, openapi/optimizely-web-experimentation-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 135\n  by_action_class:\n    connected: 70\n    acting: 65\n  by_consequence:\n    read: 70\n    write: 62\n    physical: 2\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /{clientId}/recipients/{recipientListId}\n\
-  \  method: get\n  operationId: listRecipients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{clientId}/recipients/{recipientListId}\n  method: post\n  operationId: addRecipient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{clientId}/recipients/{recipientListId}/{recipientId}\n  method: get\n  operationId: getRecipient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{clientId}/recipients/{recipientListId}/{recipientId}\n  method: put\n  operationId: updateRecipient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
-  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{clientId}/recipients/{recipientListId}/{recipientId}\n  method: delete\n  operationId: deleteRecipient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{clientId}/smartcampaigns\n  method: get\n  operationId: listSmartCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{clientId}/smartcampaigns/{campaignId}\n  method: get\n  operationId: getSmartCampaign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
-  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{clientId}/smartcampaigns/{campaignId}/start\n  method: post\n  operationId: startSmartCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{clientId}/smartcampaigns/{campaignId}/pause\n  method: post\n  operationId: pauseSmartCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{clientId}/transactionalmail\n  method: post\n  operationId: sendTransactionalMail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
-  \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{clientId}/mailinglists\n  method: get\n  operationId: listMailingLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{clientId}/mailinglists/{mailingListId}\n  method: get\n  operationId: getMailingList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{clientId}/unsubscribes\n  method: get\n  operationId: listUnsubscribes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{clientId}/unsubscribes\n  method:\
-  \ post\n  operationId: addUnsubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{clientId}/assets\n  method: get\n  operationId: listAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{clientId}/assets\n  method: post\n  operationId: uploadAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets\n  method: get\n  operationId: listAssets\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets\n  method: post\n  operationId: createAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/{assetId}\n  method: get\n  operationId: getAsset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/{assetId}\n  method: put\n  operationId: updateAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/{assetId}\n\
-  \  method: delete\n  operationId: deleteAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: post\n  operationId: createTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{taskId}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
-  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{taskId}\n  method: put\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaigns\n  method: get\n  operationId: listCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /campaigns/{campaignId}\n  method: get\n  operationId: getCampaign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /content\n  method: get\n  operationId: listContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /content/{contentId}\n  method: get\n  operationId: getContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /labels\n  method: get\n  operationId: listLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/catalogs\n  method: get\n  operationId: listCatalogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/catalogs\n  method: post\n  operationId: createCatalog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /commerce/catalogs/{catalogName}\n  method: get\n  operationId: getCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/catalogs/{catalogName}\n  method: put\n  operationId: updateCatalog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commerce/catalogs/{catalogName}\n  method: delete\n  operationId: deleteCatalog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /commerce/entries/{entryCode}\n  method: get\n  operationId: getCatalogEntry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/entries/{entryCode}\n  method: put\n  operationId: updateCatalogEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commerce/entries/{entryCode}\n  method: delete\n  operationId: deleteCatalogEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commerce/entries/{entryCode}/commondraft/{language}\n\
-  \  method: put\n  operationId: updateCatalogEntryDraft\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commerce/nodes/{nodeCode}\n  method: get\n  operationId: getCatalogNode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/nodes/{nodeCode}\n  method: put\n  operationId: updateCatalogNode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commerce/nodes/{nodeCode}\n  method: delete\n  operationId: deleteCatalogNode\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commerce/entries/{entryCode}/noderelations\n  method: get\n  operationId: getEntryNodeRelations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/entries/{entryCode}/noderelations\n  method: put\n  operationId: updateEntryNodeRelations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commerce/orders/{customerId}/all\n  method: get\n  operationId: listCustomerOrders\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/orders/{orderGroupId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/orders/search/{start}/{maxCount}\n  method: get\n  operationId: searchOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commerce/customers/{customerId}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /content\n  method: get\n  operationId: listContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /content/{contentId}\n  method: get\n  operationId: getContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /content/{contentId}/children\n  method: get\n  operationId: getContentChildren\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /content/{contentId}/ancestors\n  method: get\n  operationId: getContentAncestors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site\n  method: get\n  operationId: listSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contenttypes\n  method: get\n  operationId: listContentTypes\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: post\n  operationId: createContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{contentGuid}\n  method: get\n  operationId: getContentByGuid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{contentGuid}\n  method: put\n  operationId: updateContentByGuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
-  \ abnormal\n      - high-value\n    audit: required\n- path: /{contentGuid}\n  method: patch\n  operationId: patchContentByGuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{contentGuid}\n  method: delete\n  operationId: deleteContentByGuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{contentGuid}/move\n  method: post\n  operationId: moveContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n  \
-  \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{contentReference}\n  method: get\n  operationId: getContentByReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: post\n  operationId: sendEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profiles\n  method: post\n  operationId: upsertProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profiles/{identifier_field}/{identifier_value}\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /objects/{object_type}\n  method: post\n  operationId: upsertObjects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /objects/{object_type}/{object_id}\n  method: get\n  operationId: getObject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schema/objects\n  method: get\n  operationId: listSchemaObjects\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schema/objects/{object_type}\n  method: get\n  operationId: getSchemaObject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schema/objects/{object_type}\n  method: post\n  operationId: createSchemaObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schema/objects/{object_type}/fields\n  method: post\n  operationId: createSchemaField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /segments\n  method: get\n  operationId: listSegments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
-  \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}\n  method: patch\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /environments\n  method: get\n  operationId: listEnvironments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /environments\n  method: post\n  operationId: createEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
-  \ /environments/{environment_id}\n  method: get\n  operationId: getEnvironment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /environments/{environment_id}\n  method: patch\n  operationId: updateEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/flags\n  method: get\n  operationId: listFlags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/flags\n  method: post\n  operationId: createFlag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/flags/{flag_key}\n  method: get\n  operationId: getFlag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/flags/{flag_key}\n  method: patch\n  operationId: updateFlag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/flags/{flag_key}\n  method: delete\n  operationId: deleteFlag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
-  \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/flags/{flag_key}/environments/{environment_key}/ruleset\n  method: get\n  operationId: getRuleset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/flags/{flag_key}/environments/{environment_key}/ruleset\n  method: patch\n  operationId: updateRuleset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/flags/{flag_key}/environments/{environment_key}/ruleset/enabled\n  method: post\n  operationId: enableRuleset\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/flags/{flag_key}/environments/{environment_key}/ruleset/disabled\n  method: post\n  operationId: disableRuleset\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /experiments\n  method: get\n  operationId: listExperiments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experiments\n  method: post\n  operationId: createExperiment\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiments/{experiment_id}\n  method: get\n  operationId: getExperiment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experiments/{experiment_id}\n  method: patch\n  operationId: updateExperiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiments/{experiment_id}\n  method: delete\n  operationId: deleteExperiment\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audiences\n  method: get\n  operationId: listAudiences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audiences\n  method: post\n  operationId: createAudience\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audiences/{audience_id}\n  method: get\n  operationId: getAudience\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
-  \    audit: none\n- path: /audiences/{audience_id}\n  method: patch\n  operationId: updateAudience\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /features\n  method: get\n  operationId: listFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /features/{feature_id}\n  method: get\n  operationId: getFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /attributes\n  method: get\n  operationId: listAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
-  \    audit: none\n- path: /content/v2\n  method: post\n  operationId: executeGraphQLQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /content/v2\n  method: get\n  operationId: executeGraphQLQueryGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
-  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}\n  method: patch\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n    \
-  \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiments\n  method: get\n  operationId: listExperiments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experiments\n  method: post\n  operationId: createExperiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiments/{experiment_id}\n  method: get\n  operationId: getExperiment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experiments/{experiment_id}\n  method: patch\n  operationId: updateExperiment\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiments/{experiment_id}\n  method: delete\n  operationId: deleteExperiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiments/{experiment_id}/results\n  method: get\n  operationId: getExperimentResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /campaigns\n  method: get\n  operationId: listCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /campaigns\n  method: post\n  operationId: createCampaign\n  x-agentic-access:\n    action-class: actin\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/agentic-access/optimizely-agentic-access.yml\n"
+source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/optimizely-accounts-api-openapi.yml, openapi/optimizely-activate-api-openapi.yml,\n  openapi/optimizely-admin-action-configurations-api-openapi.yml, openapi/optimizely-admin-action-permissions-api-openapi.yml,\n  openapi/optimizely-admin-user-profile-passwords-api-openapi.yml, openapi/optimizely-admin-user-profile-preferences-api-openapi.yml,\n  openapi/optimizely-admin-user-profile-websites-api-openapi.yml, openapi/optimizely-admin-user-profiles-api-openapi.yml,\n  openapi/optimizely-adyen-api-openapi.yml, openapi/optimizely-affiliates-api-openapi.yml, openapi/optimizely-apple-pay-api-openapi.yml,\n  openapi/optimizely-application-es-logs-api-openapi.yml, openapi/optimizely-application-logs-api-openapi.yml,\n  openapi/optimizely-application-messages-api-openapi.yml, openapi/optimizely-assets-api-openapi.yml,\n  openapi/optimizely-attachments-api-openapi.yml, openapi/optimizely-attribute-types-api-openapi.yml,\n  openapi/optimizely-attribute-values-api-openapi.yml,\
+  \ openapi/optimizely-attributes-api-openapi.yml,\n  openapi/optimizely-attribution-api-openapi.yml, openapi/optimizely-audiences-api-openapi.yml,\n  openapi/optimizely-audits-api-openapi.yml, openapi/optimizely-autocomplete-api-openapi.yml,\n  openapi/optimizely-available-languages-api-openapi.yml, openapi/optimizely-badge-attribute-values-api-openapi.yml,\n  openapi/optimizely-badge-products-api-openapi.yml, openapi/optimizely-badges-api-openapi.yml,\n  openapi/optimizely-batch-api-openapi.yml, openapi/optimizely-batch-sending-api-openapi.yml,\n  openapi/optimizely-best-bets-api-openapi.yml, openapi/optimizely-bill-to-address-fields-api-openapi.yml,\n  openapi/optimizely-billtos-api-openapi.yml, openapi/optimizely-blob-storage-containers-api-openapi.yml,\n  openapi/optimizely-blocklist-entries-api-openapi.yml, openapi/optimizely-brand-category-images-api-openapi.yml,\n  openapi/optimizely-brand-compliance-api-openapi.yml, openapi/optimizely-brandalphabet-api-openapi.yml,\n  openapi/optimizely-brands-api-openapi.yml,\
+  \ openapi/optimizely-budget-calendars-api-openapi.yml,\n  openapi/optimizely-budgets-api-openapi.yml, openapi/optimizely-campaigns-api-openapi.yml,\n  openapi/optimizely-carrier-packages-api-openapi.yml, openapi/optimizely-carrier-zone-postal-code-ranges-api-openapi.yml,\n  openapi/optimizely-carrier-zone-rates-api-openapi.yml, openapi/optimizely-carrier-zones-api-openapi.yml,\n  openapi/optimizely-carriers-api-openapi.yml, openapi/optimizely-carts-api-openapi.yml, openapi/optimizely-catalog-entries-api-openapi.yml,\n  openapi/optimizely-catalog-entry-relations-api-openapi.yml, openapi/optimizely-catalog-nodes-api-openapi.yml,\n  openapi/optimizely-catalogpages-api-openapi.yml, openapi/optimizely-catalogs-api-openapi.yml,\n  openapi/optimizely-categories-api-openapi.yml, openapi/optimizely-category-attribute-types-api-openapi.yml,\n  openapi/optimizely-category-attribute-values-api-openapi.yml, openapi/optimizely-category-persona-extendeds-api-openapi.yml,\n  openapi/optimizely-category-personas-api-openapi.yml,\
+  \ openapi/optimizely-category-products-api-openapi.yml,\n  openapi/optimizely-category-related-products-api-openapi.yml, openapi/optimizely-category-tax-exemptions-api-openapi.yml,\n  openapi/optimizely-change-approvals-api-openapi.yml, openapi/optimizely-change-history-api-openapi.yml,\n  openapi/optimizely-changes-api-openapi.yml, openapi/optimizely-checks-api-openapi.yml, openapi/optimizely-click-profiles-api-openapi.yml,\n  openapi/optimizely-collaborators-api-openapi.yml, openapi/optimizely-compliance-api-openapi.yml,\n  openapi/optimizely-config-api-openapi.yml, openapi/optimizely-confirmations-api-openapi.yml,\n  openapi/optimizely-consent-api-openapi.yml, openapi/optimizely-consent-legacy-api-openapi.yml,\n  openapi/optimizely-content-api-openapi.yml, openapi/optimizely-content-item-fields-api-openapi.yml,\n  openapi/optimizely-content-items-api-openapi.yml, openapi/optimizely-content-managers-api-openapi.yml,\n  openapi/optimizely-content-page-states-api-openapi.yml, openapi/optimizely-content-types-api-openapi.yml,\n\
+  \  openapi/optimizely-contents-api-openapi.yml, openapi/optimizely-countries-api-openapi.yml,\n  openapi/optimizely-country-vat-rates-api-openapi.yml, openapi/optimizely-coupon-blocks-api-openapi.yml,\n  openapi/optimizely-credit-card-transactions-api-openapi.yml, openapi/optimizely-criteria-types-api-openapi.yml,\n  openapi/optimizely-currencies-api-openapi.yml, openapi/optimizely-currency-rates-api-openapi.yml,\n  openapi/optimizely-custom-blocklists-api-openapi.yml, openapi/optimizely-custom-fields-api-openapi.yml,\n  openapi/optimizely-custom-properties-api-openapi.yml, openapi/optimizely-customer-budgets-api-openapi.yml,\n  openapi/optimizely-customer-carriers-api-openapi.yml, openapi/optimizely-customer-cost-codes-api-openapi.yml,\n  openapi/optimizely-customer-order-changes-api-openapi.yml, openapi/optimizely-customer-order-gift-cards-api-openapi.yml,\n  openapi/optimizely-customer-order-promotions-api-openapi.yml, openapi/optimizely-customer-order-taxes-api-openapi.yml,\n  openapi/optimizely-customer-orders-api-openapi.yml,\
+  \ openapi/optimizely-customer-product-set-products-api-openapi.yml,\n  openapi/optimizely-customer-product-sets-api-openapi.yml, openapi/optimizely-customer-product-visibility-additions-api-openapi.yml,\n  openapi/optimizely-customer-product-visibility-exceptions-api-openapi.yml, openapi/optimizely-customer-products-api-openapi.yml,\n  openapi/optimizely-customer-user-profiles-api-openapi.yml, openapi/optimizely-customers-api-openapi.yml,\n  openapi/optimizely-dashboard-panel-positions-api-openapi.yml, openapi/optimizely-dashboardpanels-api-openapi.yml,\n  openapi/optimizely-data-file-api-openapi.yml, openapi/optimizely-data-generation-api-openapi.yml,\n  openapi/optimizely-database-scripts-api-openapi.yml, openapi/optimizely-databaseexports-api-openapi.yml,\n  openapi/optimizely-dealer-categories-api-openapi.yml, openapi/optimizely-dealer-products-api-openapi.yml,\n  openapi/optimizely-dealers-api-openapi.yml, openapi/optimizely-decide-api-openapi.yml, openapi/optimizely-definition-v2-api-openapi.yml,\n\
+  \  openapi/optimizely-definition-v3-api-openapi.yml, openapi/optimizely-deliveries-api-openapi.yml,\n  openapi/optimizely-deployments-api-openapi.yml, openapi/optimizely-device-tokens-api-openapi.yml,\n  openapi/optimizely-documents-api-openapi.yml, openapi/optimizely-email-api-openapi.yml, openapi/optimizely-email-lists-api-openapi.yml,\n  openapi/optimizely-email-message-addresses-api-openapi.yml, openapi/optimizely-email-message-attachments-api-openapi.yml,\n  openapi/optimizely-email-message-delivery-attempts-api-openapi.yml, openapi/optimizely-email-messages-api-openapi.yml,\n  openapi/optimizely-email-subscriber-email-lists-api-openapi.yml, openapi/optimizely-email-subscribers-api-openapi.yml,\n  openapi/optimizely-email-templates-api-openapi.yml, openapi/optimizely-emailattachments-api-openapi.yml,\n  openapi/optimizely-entity-api-openapi.yml, openapi/optimizely-entity-configurations-api-openapi.yml,\n  openapi/optimizely-entity-definitions-api-openapi.yml, openapi/optimizely-entity-permissions-api-openapi.yml,\n\
+  \  openapi/optimizely-environments-api-openapi.yml, openapi/optimizely-events-api-openapi.yml,\n  openapi/optimizely-experiment-participants-api-openapi.yml, openapi/optimizely-experiments-api-openapi.yml,\n  openapi/optimizely-experimentsummary-api-openapi.yml, openapi/optimizely-export-credentials-api-openapi.yml,\n  openapi/optimizely-exports-api-openapi.yml, openapi/optimizely-extensions-api-openapi.yml,\n  openapi/optimizely-features-api-openapi.yml, openapi/optimizely-feederdata-api-openapi.yml,\n  openapi/optimizely-fields-api-openapi.yml, openapi/optimizely-fields-schema-api-openapi.yml,\n  openapi/optimizely-flags-api-openapi.yml, openapi/optimizely-folders-api-openapi.yml, openapi/optimizely-forms-api-openapi.yml,\n  openapi/optimizely-gift-card-transactions-api-openapi.yml, openapi/optimizely-gift-cards-api-openapi.yml,\n  openapi/optimizely-global-synonyms-api-openapi.yml, openapi/optimizely-google-pay-api-openapi.yml,\n  openapi/optimizely-groups-api-openapi.yml, openapi/optimizely-holdouts-api-openapi.yml,\
+  \ openapi/optimizely-html-redirects-api-openapi.yml,\n  openapi/optimizely-identifiers-api-openapi.yml, openapi/optimizely-impressions-usage-api-openapi.yml,\n  openapi/optimizely-integration-connections-api-openapi.yml, openapi/optimizely-integration-job-es-logs-api-openapi.yml,\n  openapi/optimizely-integration-job-logs-api-openapi.yml, openapi/optimizely-integration-job-parameters-api-openapi.yml,\n  openapi/optimizely-integration-jobs-api-openapi.yml, openapi/optimizely-invoice-histories-api-openapi.yml,\n  openapi/optimizely-invoice-history-lines-api-openapi.yml, openapi/optimizely-invoice-history-taxes-api-openapi.yml,\n  openapi/optimizely-invoices-api-openapi.yml, openapi/optimizely-job-definition-parameters-api-openapi.yml,\n  openapi/optimizely-job-definition-step-field-maps-api-openapi.yml, openapi/optimizely-job-definition-step-parameters-api-openapi.yml,\n  openapi/optimizely-job-definition-steps-api-openapi.yml, openapi/optimizely-job-definitions-api-openapi.yml,\n  openapi/optimizely-jobquotes-api-openapi.yml,\
+  \ openapi/optimizely-labels-api-openapi.yml, openapi/optimizely-languages-api-openapi.yml,\n  openapi/optimizely-library-api-openapi.yml, openapi/optimizely-list-attributes-api-openapi.yml,\n  openapi/optimizely-lists-api-openapi.yml, openapi/optimizely-local-tax-rate-tax-exemptions-api-openapi.yml,\n  openapi/optimizely-local-tax-rates-api-openapi.yml, openapi/optimizely-logs-api-openapi.yml,\n  openapi/optimizely-lookup-api-openapi.yml, openapi/optimizely-mail-archive-api-openapi.yml,\n  openapi/optimizely-mail-id-api-openapi.yml, openapi/optimizely-mailing-lists-api-openapi.yml,\n  openapi/optimizely-message-audits-api-openapi.yml, openapi/optimizely-message-statuses-api-openapi.yml,\n  openapi/optimizely-message-targets-api-openapi.yml, openapi/optimizely-message-templates-api-openapi.yml,\n  openapi/optimizely-messages-api-openapi.yml, openapi/optimizely-milestones-api-openapi.yml,\n  openapi/optimizely-mobilecontent-api-openapi.yml, openapi/optimizely-mobius-themes-api-openapi.yml,\n\
+  \  openapi/optimizely-nodes-api-openapi.yml, openapi/optimizely-oauth-api-openapi.yml, openapi/optimizely-object-schema-api-openapi.yml,\n  openapi/optimizely-objects-api-openapi.yml, openapi/optimizely-odpimport-api-openapi.yml,\n  openapi/optimizely-oidc-api-openapi.yml, openapi/optimizely-opt-in-processes-api-openapi.yml,\n  openapi/optimizely-optimizely-edge-decider-api-openapi.yml, openapi/optimizely-order-histories-api-openapi.yml,\n  openapi/optimizely-order-history-lines-api-openapi.yml, openapi/optimizely-order-history-promotions-api-openapi.yml,\n  openapi/optimizely-order-history-taxes-api-openapi.yml, openapi/optimizely-order-line-requisitions-api-openapi.yml,\n  openapi/optimizely-order-line-rfqs-api-openapi.yml, openapi/optimizely-order-line-vats-api-openapi.yml,\n  openapi/optimizely-order-lines-api-openapi.yml, openapi/optimizely-order-promotion-codes-api-openapi.yml,\n  openapi/optimizely-order-status-mappings-api-openapi.yml, openapi/optimizely-orderapprovals-api-openapi.yml,\n\
+  \  openapi/optimizely-orderfeed-api-openapi.yml, openapi/optimizely-orders-api-openapi.yml, openapi/optimizely-override-api-openapi.yml,\n  openapi/optimizely-page-state-contexts-api-openapi.yml, openapi/optimizely-page-states-api-openapi.yml,\n  openapi/optimizely-page-temporaries-api-openapi.yml, openapi/optimizely-page-urls-api-openapi.yml,\n  openapi/optimizely-page-versions-api-openapi.yml, openapi/optimizely-pages-api-openapi.yml,\n  openapi/optimizely-payment-methods-api-openapi.yml, openapi/optimizely-paymentauthentication-api-openapi.yml,\n  openapi/optimizely-paymetric-api-openapi.yml, openapi/optimizely-persona-user-profiles-api-openapi.yml,\n  openapi/optimizely-personalized-attachments-api-openapi.yml, openapi/optimizely-personas-api-openapi.yml,\n  openapi/optimizely-pinned-results-api-openapi.yml, openapi/optimizely-plan-api-openapi.yml,\n  openapi/optimizely-plugins-api-openapi.yml, openapi/optimizely-price-matrices-api-openapi.yml,\n  openapi/optimizely-product-also-purchased-withs-api-openapi.yml,\
+  \ openapi/optimizely-product-attribute-values-api-openapi.yml,\n  openapi/optimizely-product-images-api-openapi.yml, openapi/optimizely-product-kit-section-options-api-openapi.yml,\n  openapi/optimizely-product-kit-sections-api-openapi.yml, openapi/optimizely-product-lines-api-openapi.yml,\n  openapi/optimizely-product-related-products-api-openapi.yml, openapi/optimizely-product-tax-exemptions-api-openapi.yml,\n  openapi/optimizely-product-top-sellers-api-openapi.yml, openapi/optimizely-product-unit-of-measures-api-openapi.yml,\n  openapi/optimizely-product-warehouses-api-openapi.yml, openapi/optimizely-products-api-openapi.yml,\n  openapi/optimizely-productsrssfeed-api-openapi.yml, openapi/optimizely-profiles-api-openapi.yml,\n  openapi/optimizely-projects-api-openapi.yml, openapi/optimizely-promotion-result-products-api-openapi.yml,\n  openapi/optimizely-promotion-result-types-api-openapi.yml, openapi/optimizely-promotion-results-api-openapi.yml,\n  openapi/optimizely-promotions-api-openapi.yml,\
+  \ openapi/optimizely-property-attribute-configurations-api-openapi.yml,\n  openapi/optimizely-property-configurations-api-openapi.yml, openapi/optimizely-property-permissions-api-openapi.yml,\n  openapi/optimizely-publishing-api-openapi.yml, openapi/optimizely-punch-out-customer-user-profile-maps-api-openapi.yml,\n  openapi/optimizely-punch-out-order-request-extrinsics-api-openapi.yml, openapi/optimizely-punch-out-order-request-item-out-extrinsics-api-openapi.yml,\n  openapi/optimizely-punch-out-order-request-item-outs-api-openapi.yml, openapi/optimizely-punch-out-order-request-messages-api-openapi.yml,\n  openapi/optimizely-punch-out-order-requests-api-openapi.yml, openapi/optimizely-punch-out-session-accesses-api-openapi.yml,\n  openapi/optimizely-punch-out-session-extrinsics-api-openapi.yml, openapi/optimizely-punch-out-session-item-ins-api-openapi.yml,\n  openapi/optimizely-punch-out-sessions-api-openapi.yml, openapi/optimizely-punch-out-setup-requests-api-openapi.yml,\n  openapi/optimizely-punchout-api-openapi.yml,\
+  \ openapi/optimizely-push-notification-logs-api-openapi.yml,\n  openapi/optimizely-push-notification-messages-api-openapi.yml, openapi/optimizely-query-graphql-api-openapi.yml,\n  openapi/optimizely-quotes-api-openapi.yml, openapi/optimizely-rating-services-api-openapi.yml,\n  openapi/optimizely-reachability-api-openapi.yml, openapi/optimizely-realtimecartinventory-api-openapi.yml,\n  openapi/optimizely-realtimeinventory-api-openapi.yml, openapi/optimizely-realtimepricing-api-openapi.yml,\n  openapi/optimizely-realtimesegments-api-openapi.yml, openapi/optimizely-recipient-lists-api-openapi.yml,\n  openapi/optimizely-recipients-api-openapi.yml, openapi/optimizely-recommendations-api-openapi.yml,\n  openapi/optimizely-relationships-schema-api-openapi.yml, openapi/optimizely-reports-api-openapi.yml,\n  openapi/optimizely-requisitions-api-openapi.yml, openapi/optimizely-resources-api-openapi.yml,\n  openapi/optimizely-responses-api-openapi.yml, openapi/optimizely-restriction-group-customer-additions-api-openapi.yml,\n\
+  \  openapi/optimizely-restriction-group-customer-exceptions-api-openapi.yml, openapi/optimizely-restriction-group-customers-api-openapi.yml,\n  openapi/optimizely-restriction-group-product-additions-api-openapi.yml, openapi/optimizely-restriction-group-product-exceptions-api-openapi.yml,\n  openapi/optimizely-restriction-group-products-api-openapi.yml, openapi/optimizely-restriction-group-websites-api-openapi.yml,\n  openapi/optimizely-restriction-groups-api-openapi.yml, openapi/optimizely-roles-api-openapi.yml,\n  openapi/optimizely-rule-clause-customers-api-openapi.yml, openapi/optimizely-rule-clause-products-api-openapi.yml,\n  openapi/optimizely-rule-clauses-api-openapi.yml, openapi/optimizely-rule-managers-api-openapi.yml,\n  openapi/optimizely-rule-type-options-api-openapi.yml, openapi/optimizely-rule-types-api-openapi.yml,\n  openapi/optimizely-rules-api-openapi.yml, openapi/optimizely-rulesets-api-openapi.yml, openapi/optimizely-salespersons-api-openapi.yml,\n  openapi/optimizely-save-api-openapi.yml,\
+  \ openapi/optimizely-scheduled-change-api-openapi.yml,\n  openapi/optimizely-scheduled-changes-api-openapi.yml, openapi/optimizely-scheduled-jobs-api-openapi.yml,\n  openapi/optimizely-schema-api-openapi.yml, openapi/optimizely-search-api-openapi.yml, openapi/optimizely-search-boost-analyzers-api-openapi.yml,\n  openapi/optimizely-search-boosts-api-openapi.yml, openapi/optimizely-search-stopwords-api-openapi.yml,\n  openapi/optimizely-search-synonyms-api-openapi.yml, openapi/optimizely-search-term-redirects-api-openapi.yml,\n  openapi/optimizely-sections-api-openapi.yml, openapi/optimizely-segments-api-openapi.yml,\n  openapi/optimizely-send-odp-event-api-openapi.yml, openapi/optimizely-sessions-api-openapi.yml,\n  openapi/optimizely-settings-api-openapi.yml, openapi/optimizely-ship-charges-api-openapi.yml,\n  openapi/optimizely-ship-rates-api-openapi.yml, openapi/optimizely-ship-rules-api-openapi.yml,\n  openapi/optimizely-ship-to-address-fields-api-openapi.yml, openapi/optimizely-ship-vias-api-openapi.yml,\n\
+  \  openapi/optimizely-shipment-package-lines-api-openapi.yml, openapi/optimizely-shipment-packages-api-openapi.yml,\n  openapi/optimizely-shipments-api-openapi.yml, openapi/optimizely-site-api-openapi.yml, openapi/optimizely-sites-api-openapi.yml,\n  openapi/optimizely-smart-campaigns-api-openapi.yml, openapi/optimizely-specifications-api-openapi.yml,\n  openapi/optimizely-spire-logs-api-openapi.yml, openapi/optimizely-spreedly-api-openapi.yml,\n  openapi/optimizely-spreedly-config-api-openapi.yml, openapi/optimizely-sso-clients-api-openapi.yml,\n  openapi/optimizely-state-tax-exemptions-api-openapi.yml, openapi/optimizely-states-api-openapi.yml,\n  openapi/optimizely-structured-contents-api-openapi.yml, openapi/optimizely-style-classes-api-openapi.yml,\n  openapi/optimizely-style-trait-value-products-api-openapi.yml, openapi/optimizely-style-trait-values-api-openapi.yml,\n  openapi/optimizely-style-traits-api-openapi.yml, openapi/optimizely-subject-access-requests-api-openapi.yml,\n \
+  \ openapi/optimizely-subscription-lines-api-openapi.yml, openapi/optimizely-subscription-products-api-openapi.yml,\n  openapi/optimizely-subscriptions-api-openapi.yml, openapi/optimizely-system-files-api-openapi.yml,\n  openapi/optimizely-system-folders-api-openapi.yml, openapi/optimizely-system-list-values-api-openapi.yml,\n  openapi/optimizely-system-lists-api-openapi.yml, openapi/optimizely-system-settings-api-openapi.yml,\n  openapi/optimizely-task-step-api-openapi.yml, openapi/optimizely-tasks-api-openapi.yml, openapi/optimizely-tax-exemptions-api-openapi.yml,\n  openapi/optimizely-team-management-api-openapi.yml, openapi/optimizely-teams-api-openapi.yml,\n  openapi/optimizely-telemetry-api-openapi.yml, openapi/optimizely-templates-api-openapi.yml,\n  openapi/optimizely-themes-api-openapi.yml, openapi/optimizely-token-ex-config-api-openapi.yml,\n  openapi/optimizely-track-api-openapi.yml, openapi/optimizely-transactional-mail-api-openapi.yml,\n  openapi/optimizely-transactional-mails-api-openapi.yml,\
+  \ openapi/optimizely-translation-dictionaries-api-openapi.yml,\n  openapi/optimizely-translation-properties-api-openapi.yml, openapi/optimizely-unsubscribes-api-openapi.yml,\n  openapi/optimizely-uploader-api-openapi.yml, openapi/optimizely-user-api-openapi.yml, openapi/optimizely-user-files-api-openapi.yml,\n  openapi/optimizely-user-payment-profiles-api-openapi.yml, openapi/optimizely-user-profile-email-lists-api-openapi.yml,\n  openapi/optimizely-user-profile-passwords-api-openapi.yml, openapi/optimizely-user-profile-websites-api-openapi.yml,\n  openapi/optimizely-user-profile-wish-list-favorites-api-openapi.yml, openapi/optimizely-user-profile-wish-list-hides-api-openapi.yml,\n  openapi/optimizely-user-profile-wish-list-tags-api-openapi.yml, openapi/optimizely-user-profiles-api-openapi.yml,\n  openapi/optimizely-users-api-openapi.yml, openapi/optimizely-variable-definitions-api-openapi.yml,\n  openapi/optimizely-variations-api-openapi.yml, openapi/optimizely-vat-codes-api-openapi.yml,\n\
+  \  openapi/optimizely-vendors-api-openapi.yml, openapi/optimizely-version-histories-api-openapi.yml,\n  openapi/optimizely-version-history-actions-api-openapi.yml, openapi/optimizely-vmi-bins-api-openapi.yml,\n  openapi/optimizely-vmi-counts-api-openapi.yml, openapi/optimizely-vmi-locations-api-openapi.yml,\n  openapi/optimizely-vmi-notes-api-openapi.yml, openapi/optimizely-warehouse-alternates-api-openapi.yml,\n  openapi/optimizely-warehouse-websites-api-openapi.yml, openapi/optimizely-warehouses-api-openapi.yml,\n  openapi/optimizely-webhooks-api-openapi.yml, openapi/optimizely-website-allowed-customers-api-openapi.yml,\n  openapi/optimizely-website-carriers-api-openapi.yml, openapi/optimizely-website-countries-api-openapi.yml,\n  openapi/optimizely-website-currencies-api-openapi.yml, openapi/optimizely-website-dealers-api-openapi.yml,\n  openapi/optimizely-website-languages-api-openapi.yml, openapi/optimizely-website-product-cross-sells-api-openapi.yml,\n  openapi/optimizely-website-promotions-api-openapi.yml,\
+  \ openapi/optimizely-website-sitemaps-api-openapi.yml,\n  openapi/optimizely-website-states-api-openapi.yml, openapi/optimizely-websites-api-openapi.yml,\n  openapi/optimizely-wish-list-customer-additions-api-openapi.yml, openapi/optimizely-wish-list-customer-exceptions-api-openapi.yml,\n  openapi/optimizely-wish-list-customers-api-openapi.yml, openapi/optimizely-wish-list-email-schedules-api-openapi.yml,\n  openapi/optimizely-wish-list-products-api-openapi.yml, openapi/optimizely-wish-list-shares-api-openapi.yml,\n  openapi/optimizely-wishlists-api-openapi.yml, openapi/optimizely-work-requests-api-openapi.yml,\n  openapi/optimizely-workflows-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3530\n  by_action_class:\n    acting: 1802\n   \
+  \ connected: 1728\n  by_consequence:\n    physical: 211\n    read: 1728\n    write: 1573\n    safety-critical: 18\n  human_in_the_loop_required: 18\noperations:\n- path: /api/v1/accounts/{accountId}/shiptos\n  method: patch\n  operationId: AccountShipTosV1_Patch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts\n  method: get\n  operationId: AccountsV1_GetCollectionAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/accounts\n  method: post\n  operationId: AccountsV1_PostAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/{accountId}\n  method: get\n  operationId: AccountsV1_GetAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/accounts/{accountId}\n  method: patch\n  operationId: AccountsV1_PatchAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/vmi/import\n  method: post\n  operationId: AccountsV1_PostVmiAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n   \
+  \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/vmi/{vmiUserId}\n  method: patch\n  operationId: AccountsV1_PatchVmiAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/current/paymentprofiles\n  method: get\n  operationId: AccountPaymentProfilesV1_GetCollectionAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/accounts/current/paymentprofiles\n  method: post\n  operationId: AccountPaymentProfilesV1_PostAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/accounts/current/paymentprofiles/{AccountPaymentProfileId}\n  method: get\n  operationId: AccountPaymentProfilesV1_GetAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/accounts/current/paymentprofiles/{AccountPaymentProfileId}\n  method: delete\n  operationId: AccountPaymentProfilesV1_DeleteAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
+  \    audit: required\n- path: /api/v1/accounts/current/paymentprofiles/{AccountPaymentProfileId}\n  method: patch\n  operationId: AccountPaymentProfilesV1_PatchAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/activate\n  method: post\n  operationId: activate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/admin/AdminActionConfigurations\n  method: get\n  operationId: AdminActionConfigurations_Get\n  x-agentic-access:\n    action-class: connected\n\
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/AdminActionConfigurations\n  method: post\n  operationId: AdminActionConfigurations_Post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/admin/AdminActionConfigurations({id})\n  method: get\n  operationId: AdminActionConfigurations_GetById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/AdminActionConfigurations({id})\n  method: put\n  operationId: AdminActionConfigurations_PutById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
+  \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/admin/AdminActionConfigurations({id})\n  method: delete\n  operationId: AdminActionConfigurations_DeleteById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/admin/AdminActionConfigurations({id})\n  method: patch\n  operationId: AdminActionConfigurations_PatchById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/admin/AdminActionConfigurations/Default.Default()\n\
+  \  method: get\n  operationId: AdminActionConfigurations_Default\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/adminactionconfigurations/delete\n  method: delete\n  operationId: AdminActionConfigurations_DeleteRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/admin/adminactionconfigurations({key})/actionpermissions({adminactionpermissionKey})\n  method: get\n  operationId: AdminActionConfigurations_GetActionPermissionByKeyAndAdminactionpermissionkey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/adminactionconfigurations({key})/customproperties({custompropertyKey})\n\
+  \  method: get\n  operationId: AdminActionConfigurations_GetCustomPropertyByKeyAndCustompropertykey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/AdminActionPermissions\n  method: get\n  operationId: AdminActionPermissions_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/AdminActionPermissions\n  method: post\n  operationId: AdminActionPermissions_Post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/admin/AdminActionPermissions({id})\n  method: get\n  operationId: AdminActionPermissions_GetById\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/AdminActionPermissions({id})\n  method: put\n  operationId: AdminActionPermissions_PutById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/admin/AdminActionPermissions({id})\n  method: delete\n  operationId: AdminActionPermissions_DeleteById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/admin/AdminActionPermissions({id})\n  method: patch\n  operationId: AdminActionPermissions_PatchById\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/admin/AdminActionPermissions/Default.Default()\n  method: get\n  operationId: AdminActionPermissions_Default\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/adminactionpermissions/delete\n  method: delete\n  operationId: AdminActionPermissions_DeleteRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: req\n\n# --- truncated at 32 KB (1126 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/agentic-access/optimizely-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/agentic-access/optimizely-agentic-access.yml
-summary_line: 135 operations · 65 acting · 1 human-in-the-loop
+summary_line: 3530 operations · 1802 acting · 18 human-in-the-loop
 tags:
 - A/B Testing
 - Content Management

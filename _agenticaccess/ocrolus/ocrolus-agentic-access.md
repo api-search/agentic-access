@@ -70,12 +70,6 @@ api_specs:
   slug: ocrolus-legacy-cash-flow-analytics-deprecated-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/openapi/ocrolus-legacy-cash-flow-analytics-deprecated-api-openapi.yml
-- filename: ocrolus-oauth-api-openapi.yml
-  format: yaml
-  label: Ocrolus Oauth API
-  slug: ocrolus-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/openapi/ocrolus-oauth-api-openapi.yml
 - filename: ocrolus-org-level-webhooks-api-openapi.yml
   format: yaml
   label: Ocrolus Org Level Webhooks API
@@ -100,6 +94,12 @@ api_specs:
   slug: ocrolus-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/openapi/ocrolus-webhooks-api-openapi.yml
+- filename: ocrolus-oauth-api-openapi.yml
+  format: yaml
+  label: Ocrolus OAUTH API
+  slug: ocrolus-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/openapi/ocrolus-oauth-api-openapi.yml
 consequence_counts:
   read: 48
   safety-critical: 1

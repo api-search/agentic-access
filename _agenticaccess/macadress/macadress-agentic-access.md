@@ -4,12 +4,24 @@ action_class_counts:
   acting: 0
   connected: 4
 api_specs:
-- filename: macadress-openapi.yaml
+- filename: macadress-healthz-api-openapi.yml
   format: yaml
-  label: macadress.com API
-  slug: macadresscom-api
+  label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Healthz API'
+  slug: macadress-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-healthz-api-openapi.yml
+- filename: macadress-mac-api-openapi.yml
+  format: yaml
+  label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Mac API'
+  slug: macadress-mac-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-mac-api-openapi.yml
+- filename: macadress-vendors-api-openapi.yml
+  format: yaml
+  label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Vendors API'
+  slug: macadress-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-vendors-api-openapi.yml
 consequence_counts:
   physical: 0
   read: 4

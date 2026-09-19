@@ -10,12 +10,6 @@ api_specs:
   slug: vinaudit-getownershipcost-php-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-getownershipcost-php-api-openapi.yml
-- filename: vinaudit-marketvalue-api-openapi.yml
-  format: yaml
-  label: VINaudit Marketvalue API
-  slug: vinaudit-marketvalue-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-marketvalue-api-openapi.yml
 - filename: vinaudit-pullreport-api-openapi.yml
   format: yaml
   label: VINaudit Pullreport API
@@ -46,6 +40,12 @@ api_specs:
   slug: vinaudit-specifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-specifications-api-openapi.yml
+- filename: vinaudit-market-value-api-openapi.yml
+  format: yaml
+  label: VINaudit Market Value API
+  slug: vinaudit-market-value-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-market-value-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7

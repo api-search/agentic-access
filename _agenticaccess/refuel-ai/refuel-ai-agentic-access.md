@@ -58,12 +58,6 @@ api_specs:
   slug: refuel-ai-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-projects-api-openapi.yml
-- filename: refuel-ai-refuel-cloud-api-api-openapi.yml
-  format: yaml
-  label: Refuel Refuel Cloud API
-  slug: refuel-ai-refuel-cloud-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-refuel-cloud-api-api-openapi.yml
 - filename: refuel-ai-schema-api-openapi.yml
   format: yaml
   label: Refuel Schema API
@@ -118,6 +112,12 @@ api_specs:
   slug: refuel-ai-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-webhooks-api-openapi.yml
+- filename: refuel-ai-fastapi-api-openapi.yml
+  format: yaml
+  label: Refuel Fast API
+  slug: refuel-ai-fastapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/openapi/refuel-ai-fastapi-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 45

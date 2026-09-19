@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/foursquare/ref
 summary_line: 8 operations
 tags:
 - Restaurant
-- Locations
+- Location
 - Places
 - Geocoding
 - Recommendations

@@ -39,7 +39,7 @@ summary_line: 1 operation · 1 acting
 tags:
 - Food
 - Ingredients
-- Parsers
+- Parser
 - Recipes
 - USDA
 ---

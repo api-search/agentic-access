@@ -4,6 +4,12 @@ action_class_counts:
   acting: 33
   connected: 34
 api_specs:
+- filename: prisma-postgres-management-api-openapi.json
+  format: json
+  label: Prisma Postgres Management API
+  slug: prisma-postgres-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/openapi/prisma-postgres-management-api-openapi.json
 - filename: prisma-aggregation-api-openapi.yml
   format: yaml
   label: Prisma Aggregation API
@@ -199,5 +205,17 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/prisma
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/agentic-access/prisma-agentic-access.yml
 summary_line: 67 operations · 33 acting · 1 human-in-the-loop
-tags: []
+tags:
+- Database
+- Postgres
+- ORM
+- Developer Tools
+- Application Hosting
+- Serverless
+- Object Storage
+- TypeScript
+- MCP
+- AI Agents
+- Provisioning
+- Data Platform
 ---

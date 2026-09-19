@@ -58,6 +58,6 @@ tags:
 - Broadcasting
 - Live Streaming
 - Multistreaming
-- Recordings
+- Recording
 - Video
 ---

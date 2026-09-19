@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/payloc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/agentic-access/paylocity-agentic-access.yml
 summary_line: 29 operations · 13 acting
 tags:
-- HR
+- Human Resources
 - Payroll
 - HCM
 - Benefits

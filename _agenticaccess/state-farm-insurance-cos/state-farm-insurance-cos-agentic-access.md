@@ -52,5 +52,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/state-
   \    - renters:policy:write\n    - renters:quote\n- path: /renters/coverage-options\n  method: get\n  operationId: listCoverageOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - renters:policy:read\n    - renters:policy:write\n    - renters:quote\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/agentic-access/state-farm-insurance-cos-agentic-access.yml
 summary_line: 5 operations · 2 acting
-tags: []
+tags:
+- Insurance
+- API Gateway
+- B2B
+- Mortgage
+- Verification
 ---

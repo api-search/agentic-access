@@ -4,12 +4,6 @@ action_class_counts:
   acting: 9
   connected: 6
 api_specs:
-- filename: sap-business-one-businesspartners-api-openapi.yml
-  format: yaml
-  label: SAP Business One BusinessPartners API
-  slug: sap-business-one-businesspartners-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-businesspartners-api-openapi.yml
 - filename: sap-business-one-businesspartners-cardcode-api-openapi.yml
   format: yaml
   label: SAP Business One BusinessPartners('{CardCode}') API
@@ -58,6 +52,12 @@ api_specs:
   slug: sap-business-one-orders-docentry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-orders-docentry-api-openapi.yml
+- filename: sap-business-one-business-partners-api-openapi.yml
+  format: yaml
+  label: SAP Business One Business Partners API
+  slug: sap-business-one-business-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-business-partners-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -104,7 +104,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-business-o
 summary_line: 15 operations · 9 acting
 tags:
 - ERP
-- Enterprise Resource Planning
 - Accounting
 - Inventory Management
 - CRM

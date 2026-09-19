@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/regrid
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/agentic-access/regrid-agentic-access.yml
 summary_line: 22 operations · 4 acting
 tags:
-- Parcels
+- Parcel
 - Land Data
 - Property Data
 - GeoJSON

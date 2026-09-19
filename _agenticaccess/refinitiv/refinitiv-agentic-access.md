@@ -201,5 +201,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/refini
   \ listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupId}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupId}/resolutionToolkit\n  method: get\n  operationId: getResolutionToolkit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reference/profile/{profileId}\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/agentic-access/refinitiv-agentic-access.yml
 summary_line: 47 operations · 16 acting
-tags: []
+tags:
+- Financial Data
+- Streaming
+- Trading
+- News
 ---

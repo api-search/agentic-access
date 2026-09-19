@@ -47,5 +47,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \  method: delete\n  operationId: deletePrivateendpoints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/agentic-access/microsoft-azure-private-link-agentic-access.yml
 summary_line: 7 operations · 3 acting
-tags: []
+tags:
+- Networking
+- Private Connectivity
+- Cloud Infrastructure
+- Virtual Networks
+- DNS
+- Security
+- Azure Resource Manager
+- Infrastructure-as-a-Service
 ---

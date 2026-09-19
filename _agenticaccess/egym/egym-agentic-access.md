@@ -130,12 +130,6 @@ api_specs:
   slug: egym-migrating-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-migrating-members-api-openapi.yml
-- filename: egym-oauth-api-openapi.yml
-  format: yaml
-  label: EGYM O Auth API
-  slug: egym-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-oauth-api-openapi.yml
 - filename: egym-open-exercise-workouts-api-openapi.yml
   format: yaml
   label: EGYM Open Exercise Workouts API
@@ -220,6 +214,12 @@ api_specs:
   slug: egym-workouts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-workouts-api-openapi.yml
+- filename: egym-oauth-api-openapi.yml
+  format: yaml
+  label: EGYM O Auth API
+  slug: egym-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-oauth-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 55

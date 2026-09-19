@@ -70,12 +70,6 @@ api_specs:
   slug: lichess-messaging-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-messaging-api-openapi.yml
-- filename: lichess-oauth-api-openapi.yml
-  format: yaml
-  label: Lichess OAuth API
-  slug: lichess-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-oauth-api-openapi.yml
 - filename: lichess-opening-explorer-api-openapi.yml
   format: yaml
   label: Lichess Opening Explorer API
@@ -142,6 +136,12 @@ api_specs:
   slug: lichess-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-users-api-openapi.yml
+- filename: lichess-oauth-api-openapi.yml
+  format: yaml
+  label: Lichess O Auth API
+  slug: lichess-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-oauth-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 101

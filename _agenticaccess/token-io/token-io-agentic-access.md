@@ -112,6 +112,24 @@ api_specs:
   slug: token-io-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-webhooks-api-openapi.yml
+- filename: token-io-rest-api-swagger.json
+  format: json
+  label: Token.io REST API (full platform)
+  slug: token-io-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-rest-api-swagger.json
+- filename: token-io-refunds-bnpp-openapi.json
+  format: json
+  label: Token.io Refunds API (Payments REST 2.0)
+  slug: token-io-refunds-bnpp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-refunds-bnpp-openapi.json
+- filename: token-io-bank-integration-openapi.json
+  format: json
+  label: Token Bank Integration API
+  slug: token-io-bank-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-bank-integration-openapi.json
 consequence_counts:
   physical: 10
   read: 47
@@ -221,5 +239,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/token-
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/agentic-access/token-io-agentic-access.yml
 summary_line: 71 operations · 24 acting · 1 human-in-the-loop
-tags: []
+tags:
+- Payments
+- Open Banking
+- Banking
+- Financial-Services
+- Account-to-Account
+- PSD2
+- Variable Recurring Payments
+- Account Information Services
+- Payment Initiation
+- Fintech
 ---

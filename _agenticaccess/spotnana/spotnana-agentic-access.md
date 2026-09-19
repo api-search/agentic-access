@@ -355,7 +355,7 @@ tags:
 - Travel Management
 - Booking
 - Air
-- Hotel
+- Hotels
 - Payments
 - Travel as a Service
 ---

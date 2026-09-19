@@ -67,12 +67,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/breath
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/agentic-access/breathe-hr-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - Employee Management
 - Absence Management
 - Holiday Tracking
 - SMB
-- UK
+- United Kingdom
 ---

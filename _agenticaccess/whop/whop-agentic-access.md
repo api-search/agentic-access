@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/whop-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/agentic-access/whop-agentic-access.yml
 summary_line: 51 operations · 30 acting
 tags:
-- Memberships
+- Membership
 - Payments
 - Creator Economy
 - Marketplace

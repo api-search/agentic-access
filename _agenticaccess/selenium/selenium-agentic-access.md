@@ -83,7 +83,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/
 summary_line: 13 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Automation
-- Browsers
+- Browser
 - End-to-End Testing
 - Quality Assurance
 - Testing

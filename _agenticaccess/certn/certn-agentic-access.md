@@ -77,7 +77,7 @@ tags:
 - Identity Verification
 - Criminal Record Check
 - Screening
-- HR Tech
+- Human Resources
 - Compliance
 - Trust and Safety
 ---

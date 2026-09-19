@@ -48,7 +48,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-model-repository-api-openapi.yml
 - filename: triton-server-metadata-api-openapi.yml
   format: yaml
-  label: Triton Inference Server Server Metadata API
+  label: Triton Inference Server Metadata API
   slug: triton-server-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-server-metadata-api-openapi.yml

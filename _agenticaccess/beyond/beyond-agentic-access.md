@@ -34,12 +34,6 @@ api_specs:
   slug: beyond-listings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-listings-api-openapi.yml
-- filename: beyond-oauth2-api-openapi.yml
-  format: yaml
-  label: Beyond OAuth2 API
-  slug: beyond-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-oauth2-api-openapi.yml
 - filename: beyond-users-api-openapi.yml
   format: yaml
   label: Beyond Users API
@@ -52,6 +46,12 @@ api_specs:
   slug: beyond-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-webhooks-api-openapi.yml
+- filename: beyond-oauth2-api-openapi.yml
+  format: yaml
+  label: Beyond O Auth2 API
+  slug: beyond-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/openapi/beyond-oauth2-api-openapi.yml
 consequence_counts:
   read: 18
   write: 13
@@ -96,7 +96,7 @@ tags:
 - Consumer
 - Travel
 - Hospitality
-- Short-Term Rentals
+- Short-Term Rental
 - Vacation Rentals
 - Revenue Management
 - Dynamic Pricing

@@ -52,12 +52,6 @@ api_specs:
   slug: worldpay-beneficial-owners-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-beneficial-owners-api-openapi.yml
-- filename: worldpay-cardpayments-api-openapi.yml
-  format: yaml
-  label: Worldpay CardPayments API
-  slug: worldpay-cardpayments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-cardpayments-api-openapi.yml
 - filename: worldpay-cardverifications-api-openapi.yml
   format: yaml
   label: Worldpay CardVerifications API
@@ -70,12 +64,6 @@ api_specs:
   slug: worldpay-exemptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-exemptions-api-openapi.yml
-- filename: worldpay-foreignexchange-api-openapi.yml
-  format: yaml
-  label: Worldpay ForeignExchange API
-  slug: worldpay-foreignexchange-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-foreignexchange-api-openapi.yml
 - filename: worldpay-fraudsight-api-openapi.yml
   format: yaml
   label: Worldpay Fraudsight API
@@ -148,12 +136,6 @@ api_specs:
   slug: worldpay-payment-pages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-payment-pages-api-openapi.yml
-- filename: worldpay-paymentqueries-api-openapi.yml
-  format: yaml
-  label: Worldpay PaymentQueries API
-  slug: worldpay-paymentqueries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-paymentqueries-api-openapi.yml
 - filename: worldpay-payout-instruments-api-openapi.yml
   format: yaml
   label: Worldpay Payout instruments API
@@ -208,6 +190,24 @@ api_specs:
   slug: worldpay-verifiedtokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-verifiedtokens-api-openapi.yml
+- filename: worldpay-card-payments-api-openapi.yml
+  format: yaml
+  label: Worldpay Card Payments API
+  slug: worldpay-card-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-card-payments-api-openapi.yml
+- filename: worldpay-foreign-exchange-api-openapi.yml
+  format: yaml
+  label: Worldpay Foreign Exchange API
+  slug: worldpay-foreign-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-foreign-exchange-api-openapi.yml
+- filename: worldpay-payment-queries-api-openapi.yml
+  format: yaml
+  label: Worldpay Payment Queries API
+  slug: worldpay-payment-queries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/openapi/worldpay-payment-queries-api-openapi.yml
 consequence_counts:
   physical: 42
   read: 28

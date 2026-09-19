@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/countr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/agentic-access/country-state-city-api-agentic-access.yml
 summary_line: 9 operations
 tags:
-- Capitals
+- Capital
 - Cities
 - Countries
 - Currency
@@ -64,5 +64,5 @@ tags:
 - Reference Data
 - Regions
 - States
-- Timezones
+- Timezone
 ---

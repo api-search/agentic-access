@@ -41,6 +41,6 @@ tags:
 - Synthetic Data
 - Mock Data
 - Open-Source
-- Public API
+- Public APIs
 - Free API
 ---

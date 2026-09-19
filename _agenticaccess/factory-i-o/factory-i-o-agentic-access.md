@@ -57,6 +57,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factory-i-o/re
 summary_line: 15 operations · 10 acting
 tags:
 - Industrial Automation
-- Simulations
+- Simulation
 - Software Simulation
 ---

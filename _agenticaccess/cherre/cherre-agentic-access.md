@@ -9,12 +9,12 @@ api_specs:
   slug: cherre-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-auth-api-openapi.yml
-- filename: cherre-graphql-api-openapi.yml
+- filename: cherre-graph-ql-api-openapi.yml
   format: yaml
-  label: Cherre GraphQL API
-  slug: cherre-graphql-api
+  label: Cherre Graph QL API
+  slug: cherre-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-graph-ql-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

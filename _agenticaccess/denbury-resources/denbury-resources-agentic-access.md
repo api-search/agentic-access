@@ -26,12 +26,12 @@ api_specs:
   slug: denbury-resources-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-discovery-api-openapi.yml
-- filename: denbury-resources-oembed-api-openapi.yml
+- filename: denbury-resources-o-embed-api-openapi.yml
   format: yaml
-  label: Denbury Resources oEmbed API
-  slug: denbury-resources-oembed-api
+  label: Denbury Resources o Embed API
+  slug: denbury-resources-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-o-embed-api-openapi.yml
 consequence_counts: {}
 description: 'Recommended x-agentic-access classification for every operation Denbury Inc.''s public surface exposes. This is an API Evangelist RECOMMENDATION, not a Denbury publication — Denbury declares no agent policy of any kind. The classification is unusually simple here because the surface is uniformly read-only: twelve GET operations, no credentials, no side effects, nothing to escalate.'
 human_in_the_loop: 0

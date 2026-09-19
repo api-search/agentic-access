@@ -22,12 +22,6 @@ api_specs:
   slug: tableaux-de-bord-dashboards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-dashboards-api-openapi.yml
-- filename: tableaux-de-bord-datasources-api-openapi.yml
-  format: yaml
-  label: Tableaux De Bord Datasources API
-  slug: tableaux-de-bord-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-datasources-api-openapi.yml
 - filename: tableaux-de-bord-folders-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Folders API
@@ -52,6 +46,12 @@ api_specs:
   slug: tableaux-de-bord-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-users-api-openapi.yml
+- filename: tableaux-de-bord-data-sources-api-openapi.yml
+  format: yaml
+  label: Tableaux De Bord Data Sources API
+  slug: tableaux-de-bord-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-data-sources-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10

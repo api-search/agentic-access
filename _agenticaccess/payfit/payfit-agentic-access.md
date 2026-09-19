@@ -81,7 +81,6 @@ summary_line: 17 operations · 3 acting
 tags:
 - Payroll
 - Human Resources
-- HR Tech
 - Europe Payroll
 - Time and Attendance
 - Employee Management

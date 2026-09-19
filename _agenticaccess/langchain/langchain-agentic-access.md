@@ -232,12 +232,6 @@ api_specs:
   slug: langchain-nps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langchain/refs/heads/main/openapi/langchain-nps-api-openapi.yml
-- filename: langchain-oauth-api-openapi.yml
-  format: yaml
-  label: LangChain oauth API
-  slug: langchain-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langchain/refs/heads/main/openapi/langchain-oauth-api-openapi.yml
 - filename: langchain-ok-api-openapi.yml
   format: yaml
   label: LangChain Ok API
@@ -400,6 +394,12 @@ api_specs:
   slug: langchain-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langchain/refs/heads/main/openapi/langchain-workspaces-api-openapi.yml
+- filename: langchain-oauth-api-openapi.yml
+  format: yaml
+  label: LangChain OAUTH API
+  slug: langchain-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langchain/refs/heads/main/openapi/langchain-oauth-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 197
@@ -549,7 +549,7 @@ summary_line: 506 operations · 309 acting · 8 human-in-the-loop
 tags:
 - Agents
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - LLM Observability
 - Tracing
 - Evaluation

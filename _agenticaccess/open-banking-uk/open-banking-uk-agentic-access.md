@@ -386,7 +386,7 @@ tags:
 - Payments
 - Account Information
 - PSD2
-- UK
+- United Kingdom
 - Banking
 - Fintech
 - Regulated

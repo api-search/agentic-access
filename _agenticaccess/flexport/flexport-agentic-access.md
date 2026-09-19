@@ -40,12 +40,6 @@ api_specs:
   slug: flexport-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-products-api-openapi.yml
-- filename: flexport-purchaseorders-api-openapi.yml
-  format: yaml
-  label: Flexport PurchaseOrders API
-  slug: flexport-purchaseorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-purchaseorders-api-openapi.yml
 - filename: flexport-shipments-api-openapi.yml
   format: yaml
   label: Flexport Shipments API
@@ -58,6 +52,12 @@ api_specs:
   slug: flexport-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-webhooks-api-openapi.yml
+- filename: flexport-purchase-orders-api-openapi.yml
+  format: yaml
+  label: Flexport Purchase Orders API
+  slug: flexport-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-purchase-orders-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 19

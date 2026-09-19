@@ -4,12 +4,6 @@ action_class_counts:
   acting: 21
   connected: 10
 api_specs:
-- filename: smsapi-2fa-api-openapi.yml
-  format: yaml
-  label: SMSAPI 2FA API
-  slug: smsapi-2fa-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-2fa-api-openapi.yml
 - filename: smsapi-blacklist-api-openapi.yml
   format: yaml
   label: SMSAPI Blacklist API
@@ -70,6 +64,12 @@ api_specs:
   slug: smsapi-vms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-vms-api-openapi.yml
+- filename: smsapi-2-fa-api-openapi.yml
+  format: yaml
+  label: SMSAPI 2 FA API
+  slug: smsapi-2-fa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-2-fa-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 10

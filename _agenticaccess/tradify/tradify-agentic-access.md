@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/h
 summary_line: 9 operations · 3 acting
 tags:
 - Job Management
-- Trades
+- Trade
 - Field Service
 - Scheduling
 - Quoting

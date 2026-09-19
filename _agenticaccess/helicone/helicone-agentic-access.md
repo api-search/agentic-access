@@ -295,7 +295,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/helico
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/agentic-access/helicone-agentic-access.yml
 summary_line: 267 operations · 201 acting · 1 human-in-the-loop
 tags:
-- AI Gateways
+- AI Gateway
 - AI Monitoring
 - Gateways
 - LLM Observability

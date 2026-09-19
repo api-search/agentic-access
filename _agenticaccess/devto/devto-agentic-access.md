@@ -76,12 +76,6 @@ api_specs:
   slug: devto-reactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/devto/refs/heads/main/openapi/devto-reactions-api-openapi.yml
-- filename: devto-readinglist-api-openapi.yml
-  format: yaml
-  label: DEV Community readinglist API
-  slug: devto-readinglist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/devto/refs/heads/main/openapi/devto-readinglist-api-openapi.yml
 - filename: devto-segments-api-openapi.yml
   format: yaml
   label: DEV Community segments API
@@ -118,6 +112,12 @@ api_specs:
   slug: devto-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/devto/refs/heads/main/openapi/devto-videos-api-openapi.yml
+- filename: devto-reading-list-api-openapi.yml
+  format: yaml
+  label: DEV Community Reading List API
+  slug: devto-reading-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/devto/refs/heads/main/openapi/devto-reading-list-api-openapi.yml
 consequence_counts:
   read: 66
   write: 42

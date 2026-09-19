@@ -249,7 +249,7 @@ summary_line: 56 operations · 26 acting
 tags:
 - Publishing
 - Newsletters
-- Memberships
+- Membership
 - Subscription
 - CMS
 - Open-Source

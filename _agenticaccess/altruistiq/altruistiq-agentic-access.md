@@ -4,12 +4,6 @@ action_class_counts:
   acting: 29
   connected: 15
 api_specs:
-- filename: altruistiq-datasource-api-openapi.yml
-  format: yaml
-  label: Altruistiq Datasource API
-  slug: altruistiq-datasource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-datasource-api-openapi.yml
 - filename: altruistiq-export-api-openapi.yml
   format: yaml
   label: Altruistiq Export API
@@ -58,6 +52,12 @@ api_specs:
   slug: altruistiq-security-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-security-api-openapi.yml
+- filename: altruistiq-data-source-api-openapi.yml
+  format: yaml
+  label: Altruistiq Data Source API
+  slug: altruistiq-data-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-data-source-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 25

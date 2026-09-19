@@ -459,12 +459,6 @@ api_specs:
   slug: iso-new-england-performancescore-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/openapi/iso-new-england-performancescore-api-openapi.yml
-- filename: iso-new-england-powersystem-api-openapi.yml
-  format: yaml
-  label: ISO New England Powersystem API
-  slug: iso-new-england-powersystem-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/openapi/iso-new-england-powersystem-api-openapi.yml
 - filename: iso-new-england-powersystemconditions-api-openapi.yml
   format: yaml
   label: ISO New England Powersystemconditions API
@@ -549,6 +543,12 @@ api_specs:
   slug: iso-new-england-whlsecost-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/openapi/iso-new-england-whlsecost-api-openapi.yml
+- filename: iso-new-england-power-system-api-openapi.yml
+  format: yaml
+  label: ISO New England Power System API
+  slug: iso-new-england-power-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/openapi/iso-new-england-power-system-api-openapi.yml
 consequence_counts:
   read: 489
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

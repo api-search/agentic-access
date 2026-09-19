@@ -230,9 +230,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hr-par
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hr-partner/refs/heads/main/agentic-access/hr-partner-agentic-access.yml
 summary_line: 47 operations · 8 acting
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - Employee Records
 - Leave Management
 - Recruitment

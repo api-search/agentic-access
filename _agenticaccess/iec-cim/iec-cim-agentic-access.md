@@ -62,5 +62,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/iec-ci
   \  method: get\n  operationId: listWorkOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/agentic-access/iec-cim-agentic-access.yml
 summary_line: 8 operations
-tags: []
+tags:
+- Energy
+- Utilities
+- Metering
 ---

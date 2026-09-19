@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/r
 summary_line: 13 operations · 12 acting
 tags:
 - Barcodes
-- Conversions
+- Conversion
 - Documents
 - Image Recognition
 - Natural-Language

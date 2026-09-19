@@ -4,12 +4,6 @@ action_class_counts:
   acting: 13
   connected: 6
 api_specs:
-- filename: software-ag-apis-api-openapi.yml
-  format: yaml
-  label: Software AG APIs API
-  slug: software-ag-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-apis-api-openapi.yml
 - filename: software-ag-applications-api-openapi.yml
   format: yaml
   label: Software AG Applications API
@@ -28,6 +22,12 @@ api_specs:
   slug: software-ag-publishing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-publishing-api-openapi.yml
+- filename: software-ag-apis-api-openapi.yml
+  format: yaml
+  label: Software AG AP Is API
+  slug: software-ag-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-apis-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 2

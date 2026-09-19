@@ -333,9 +333,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smokeball/refs
 summary_line: 233 operations · 119 acting
 tags:
 - Legal
-- Law Firm
+- Law Firms
 - Practice Management
-- Matters
+- Matter
 - Contacts
 - Documents
 - Billing

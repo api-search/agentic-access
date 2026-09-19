@@ -43,5 +43,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/buildp
   \  method: get\n  operationId: getBuildpackVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/agentic-access/buildpacks-io-agentic-access.yml
 summary_line: 3 operations
-tags: []
+tags:
+- Cloud Native Buildpacks
+- Container Images
+- Build Automation
+- CNCF
+- Open-Source
+- Developer Tools
+- OCI
+- Specification
+- Supply Chain
+- Registry
 ---

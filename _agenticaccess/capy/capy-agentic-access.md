@@ -133,7 +133,7 @@ summary_line: 37 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Company
 - Artificial Intelligence
-- AI Coding Agent
+- AI Coding Agents
 - Software Engineering
 - Developer Tools
 - Automation

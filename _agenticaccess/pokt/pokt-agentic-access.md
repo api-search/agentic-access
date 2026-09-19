@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: pokt-api-api-openapi.yml
   format: yaml
-  label: Pocket Network API API
+  label: Pocket Network API
   slug: pokt-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-api-api-openapi.yml

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 55
   connected: 31
 api_specs:
-- filename: swagger.json
-  format: json
-  label: Social Tables Events API (Legacy)
-  slug: events-api
-  spec_type: OpenAPI
-  url: https://developer.socialtables.com/swagger.json
 - filename: cvent-social-tables-authentication-api-openapi.yml
   format: yaml
   label: Cvent Social Tables Authentication API
@@ -193,7 +187,7 @@ tags:
 - Event
 - Floor Plans
 - Hospitality
-- Hotel
+- Hotels
 - Meetings
 - Seating
 - Seating Charts

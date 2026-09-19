@@ -152,5 +152,5 @@ tags:
 - Fediverse
 - Link Aggregator
 - Open-Source
-- Social Networks
+- Social Network
 ---

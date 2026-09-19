@@ -10,12 +10,6 @@ api_specs:
   slug: ups-address-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-address-validation-api-openapi.yml
-- filename: ups-oauth-api-openapi.yml
-  format: yaml
-  label: UPS OAuth API
-  slug: ups-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-oauth-api-openapi.yml
 - filename: ups-paperless-documents-api-openapi.yml
   format: yaml
   label: UPS Paperless Documents API
@@ -52,6 +46,12 @@ api_specs:
   slug: ups-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-tracking-api-openapi.yml
+- filename: ups-oauth-api-openapi.yml
+  format: yaml
+  label: UPS O Auth API
+  slug: ups-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-oauth-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 1

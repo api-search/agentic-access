@@ -4,24 +4,12 @@ action_class_counts:
   acting: 30
   connected: 55
 api_specs:
-- filename: canvas-medical-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: Canvas Medical AllergyIntolerance API
-  slug: canvas-medical-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-allergyintolerance-api-openapi.yml
 - filename: canvas-medical-appointment-api-openapi.yml
   format: yaml
   label: Canvas Medical Appointment API
   slug: canvas-medical-appointment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-appointment-api-openapi.yml
-- filename: canvas-medical-careplan-api-openapi.yml
-  format: yaml
-  label: Canvas Medical CarePlan API
-  slug: canvas-medical-careplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-careplan-api-openapi.yml
 - filename: canvas-medical-careteam-api-openapi.yml
   format: yaml
   label: Canvas Medical CareTeam API
@@ -64,12 +52,6 @@ api_specs:
   slug: canvas-medical-diagnosticreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-diagnosticreport-api-openapi.yml
-- filename: canvas-medical-documentreference-api-openapi.yml
-  format: yaml
-  label: Canvas Medical DocumentReference API
-  slug: canvas-medical-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-documentreference-api-openapi.yml
 - filename: canvas-medical-encounter-api-openapi.yml
   format: yaml
   label: Canvas Medical Encounter API
@@ -94,12 +76,6 @@ api_specs:
   slug: canvas-medical-location-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-location-api-openapi.yml
-- filename: canvas-medical-medicationrequest-api-openapi.yml
-  format: yaml
-  label: Canvas Medical MedicationRequest API
-  slug: canvas-medical-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-medicationrequest-api-openapi.yml
 - filename: canvas-medical-metadata-api-openapi.yml
   format: yaml
   label: Canvas Medical Metadata API
@@ -172,6 +148,30 @@ api_specs:
   slug: canvas-medical-task-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-task-api-openapi.yml
+- filename: canvas-medical-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: Canvas Medical Allergy Intolerance API
+  slug: canvas-medical-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-allergy-intolerance-api-openapi.yml
+- filename: canvas-medical-care-plan-api-openapi.yml
+  format: yaml
+  label: Canvas Medical Care plan API
+  slug: canvas-medical-care-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-care-plan-api-openapi.yml
+- filename: canvas-medical-document-reference-api-openapi.yml
+  format: yaml
+  label: Canvas Medical Document Reference API
+  slug: canvas-medical-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-document-reference-api-openapi.yml
+- filename: canvas-medical-medication-request-api-openapi.yml
+  format: yaml
+  label: Canvas Medical Medication Request API
+  slug: canvas-medical-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-medication-request-api-openapi.yml
 consequence_counts:
   read: 55
   write: 30

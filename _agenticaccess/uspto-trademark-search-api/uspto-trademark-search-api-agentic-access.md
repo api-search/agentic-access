@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uspto-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/agentic-access/uspto-trademark-search-api-agentic-access.yml
 summary_line: 5 operations
 tags:
-- Brand
+- Brands
 - Brand Protection
 - Business
 - Data
@@ -70,6 +70,6 @@ tags:
 - Intellectual Property
 - Legal
 - Search
-- Trademark
+- Trademarks
 - USPTO
 ---

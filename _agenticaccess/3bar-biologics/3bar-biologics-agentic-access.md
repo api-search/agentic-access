@@ -20,12 +20,6 @@ api_specs:
   slug: 3bar-biologics-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3bar-biologics/refs/heads/main/openapi/3bar-biologics-media-api-openapi.yml
-- filename: 3bar-biologics-taxonomy-api-openapi.yml
-  format: yaml
-  label: 3Bar Biologics Taxonomy API
-  slug: 3bar-biologics-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3bar-biologics/refs/heads/main/openapi/3bar-biologics-taxonomy-api-openapi.yml
 - filename: 3bar-biologics-users-api-openapi.yml
   format: yaml
   label: 3Bar Biologics Users API
@@ -44,18 +38,30 @@ api_specs:
   slug: 3bar-biologics-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3bar-biologics/refs/heads/main/openapi/3bar-biologics-discovery-api-openapi.yml
-- filename: 3bar-biologics-oembed-api-openapi.yml
-  format: yaml
-  label: 3Bar Biologics oEmbed API
-  slug: 3bar-biologics-oembed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3bar-biologics/refs/heads/main/openapi/3bar-biologics-oembed-api-openapi.yml
 - filename: 3bar-biologics-seo-api-openapi.yml
   format: yaml
   label: 3Bar Biologics SEO Metadata API
   slug: 3bar-biologics-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/3bar-biologics/refs/heads/main/openapi/3bar-biologics-seo-api-openapi.yml
+- filename: 3bar-biologics-categories-api-openapi.yml
+  format: yaml
+  label: 3Bar Biologics Categories API
+  slug: 3bar-biologics-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3bar-biologics/refs/heads/main/openapi/3bar-biologics-categories-api-openapi.yml
+- filename: 3bar-biologics-tags-api-openapi.yml
+  format: yaml
+  label: 3Bar Biologics Tags API
+  slug: 3bar-biologics-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3bar-biologics/refs/heads/main/openapi/3bar-biologics-tags-api-openapi.yml
+- filename: 3bar-biologics-o-embed-api-openapi.yml
+  format: yaml
+  label: 3Bar Biologics o Embed API
+  slug: 3bar-biologics-o-embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3bar-biologics/refs/heads/main/openapi/3bar-biologics-o-embed-api-openapi.yml
 consequence_counts: {}
 description: Recommended x-agentic-access contracts for the 3Bar Biologics public content API, classified per operation. This is a RECOMMENDATION authored by API Evangelist, not a contract the provider publishes — 3Bar Biologics makes no statement about agent access at all. The classification is unusually simple here because the entire anonymously reachable surface is read-only.
 human_in_the_loop: 0

@@ -64,12 +64,6 @@ api_specs:
   slug: receeve-journey-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-journey-api-openapi.yml
-- filename: receeve-landingpage-api-openapi.yml
-  format: yaml
-  label: Receeve LandingPage API
-  slug: receeve-landingpage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-landingpage-api-openapi.yml
 - filename: receeve-message-api-openapi.yml
   format: yaml
   label: Receeve Message API
@@ -88,6 +82,12 @@ api_specs:
   slug: receeve-security-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-security-api-openapi.yml
+- filename: receeve-landing-page-api-openapi.yml
+  format: yaml
+  label: Receeve Landing Page API
+  slug: receeve-landing-page-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/openapi/receeve-landing-page-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 12

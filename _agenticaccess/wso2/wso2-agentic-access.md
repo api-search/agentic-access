@@ -88,12 +88,6 @@ api_specs:
   slug: wso2-api-provider-change-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-api-provider-change-api-openapi.yml
-- filename: wso2-apikeys-api-openapi.yml
-  format: yaml
-  label: WSO2 APIKeys API
-  slug: wso2-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-apikeys-api-openapi.yml
 - filename: wso2-apis-api-openapi.yml
   format: yaml
   label: WSO2 APIs API
@@ -208,12 +202,6 @@ api_specs:
   slug: wso2-deny-policy-individual-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-deny-policy-individual-api-openapi.yml
-- filename: wso2-end-points-api-openapi.yml
-  format: yaml
-  label: WSO2 End Points API
-  slug: wso2-end-points-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-end-points-api-openapi.yml
 - filename: wso2-environments-api-openapi.yml
   format: yaml
   label: WSO2 Environments API
@@ -298,18 +286,6 @@ api_specs:
   slug: wso2-labels-collection-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-labels-collection-api-openapi.yml
-- filename: wso2-llmprovider-api-openapi.yml
-  format: yaml
-  label: WSO2 LLMProvider API
-  slug: wso2-llmprovider-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-llmprovider-api-openapi.yml
-- filename: wso2-llmproviders-api-openapi.yml
-  format: yaml
-  label: WSO2 LLMProviders API
-  slug: wso2-llmproviders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-llmproviders-api-openapi.yml
 - filename: wso2-local-entry-api-openapi.yml
   format: yaml
   label: WSO2 Local Entry API
@@ -378,7 +354,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-recommendations-api-openapi.yml
 - filename: wso2-redeploy-api-api-openapi.yml
   format: yaml
-  label: WSO2 Redeploy Api API
+  label: WSO2 Redeploy Api
   slug: wso2-redeploy-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-redeploy-api-api-openapi.yml
@@ -510,7 +486,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-transaction-records-api-openapi.yml
 - filename: wso2-undeploy-api-api-openapi.yml
   format: yaml
-  label: WSO2 Undeploy Api API
+  label: WSO2 Undeploy Api
   slug: wso2-undeploy-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-undeploy-api-api-openapi.yml
@@ -544,6 +520,30 @@ api_specs:
   slug: wso2-workflows-individual-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-workflows-individual-api-openapi.yml
+- filename: wso2-api-keys-api-openapi.yml
+  format: yaml
+  label: WSO2 API Keys API
+  slug: wso2-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-api-keys-api-openapi.yml
+- filename: wso2-endpoints-api-openapi.yml
+  format: yaml
+  label: WSO2 Endpoints API
+  slug: wso2-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-endpoints-api-openapi.yml
+- filename: wso2-llm-provider-api-openapi.yml
+  format: yaml
+  label: WSO2 LLM Provider API
+  slug: wso2-llm-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-llm-provider-api-openapi.yml
+- filename: wso2-llm-providers-api-openapi.yml
+  format: yaml
+  label: WSO2 LLM Providers API
+  slug: wso2-llm-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-llm-providers-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 150

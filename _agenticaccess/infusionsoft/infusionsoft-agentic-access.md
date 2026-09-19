@@ -88,12 +88,6 @@ api_specs:
   slug: infusionsoft-display-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infusionsoft/refs/heads/main/openapi/infusionsoft-display-forms-api-openapi.yml
-- filename: infusionsoft-e-commerce-api-openapi.yml
-  format: yaml
-  label: Infusionsoft (Keap) E Commerce API
-  slug: infusionsoft-e-commerce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infusionsoft/refs/heads/main/openapi/infusionsoft-e-commerce-api-openapi.yml
 - filename: infusionsoft-email-address-api-openapi.yml
   format: yaml
   label: Infusionsoft (Keap) Email Address API
@@ -352,6 +346,12 @@ api_specs:
   slug: infusionsoft-user-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infusionsoft/refs/heads/main/openapi/infusionsoft-user-info-api-openapi.yml
+- filename: infusionsoft-ecommerce-api-openapi.yml
+  format: yaml
+  label: Infusionsoft (Keap) Ecommerce API
+  slug: infusionsoft-ecommerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infusionsoft/refs/heads/main/openapi/infusionsoft-ecommerce-api-openapi.yml
 consequence_counts:
   physical: 43
   read: 249

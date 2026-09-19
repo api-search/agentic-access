@@ -91,5 +91,5 @@ tags:
 - Channel Manager
 - Hotel Distribution
 - OTA
-- Bookings
+- Booking
 ---

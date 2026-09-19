@@ -215,7 +215,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/h
 summary_line: 107 operations · 65 acting
 tags:
 - IoT
-- Internet of Things
 - Devices
 - Data Storage
 - Dashboards

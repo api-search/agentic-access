@@ -46,7 +46,7 @@ tags:
 - JSON
 - Mock Data
 - Phrases
-- Public API
+- Public APIs
 - REST
 - Test Data
 - unauthenticated

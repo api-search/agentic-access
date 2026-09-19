@@ -94,12 +94,6 @@ api_specs:
   slug: scalar-schemas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-schemas-api-openapi.yml
-- filename: scalar-sdks-api-openapi.yml
-  format: yaml
-  label: Scalar sdks API
-  slug: scalar-sdks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-sdks-api-openapi.yml
 - filename: scalar-share-api-openapi.yml
   format: yaml
   label: Scalar share API
@@ -148,18 +142,12 @@ api_specs:
   slug: scalar-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-workspace-api-openapi.yml
-- filename: scalar-api-registry-management-api-openapi.yml
+- filename: scalar-sdks-api-openapi.yml
   format: yaml
-  label: Scalar Registry Management API
-  slug: scalar-api-registry-management-api
+  label: Scalar SDKS API
+  slug: scalar-sdks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-api-registry-management-api-openapi.yml
-- filename: scalar-api-registry-read-api-openapi.yml
-  format: yaml
-  label: Scalar Registry Read API
-  slug: scalar-api-registry-read-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-api-registry-read-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/openapi/scalar-sdks-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 49
@@ -280,7 +268,7 @@ summary_line: 224 operations · 175 acting · 3 human-in-the-loop
 tags:
 - API Client
 - API Documentation
-- API References
+- API Reference
 - Code Generation
 - Developer Tools
 - OpenAPI

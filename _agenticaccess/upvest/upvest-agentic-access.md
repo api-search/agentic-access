@@ -296,7 +296,7 @@ summary_line: 70 operations · 27 acting
 tags:
 - Banking Infrastructure
 - Fintech
-- Investments
+- Investment
 - Securities
 - Fractional Investing
 - Custody

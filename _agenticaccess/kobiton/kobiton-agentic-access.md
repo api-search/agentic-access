@@ -10,12 +10,6 @@ api_specs:
   slug: kobiton-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-apps-api-openapi.yml
-- filename: kobiton-data-sets-api-openapi.yml
-  format: yaml
-  label: Kobiton Data Sets API
-  slug: kobiton-data-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-data-sets-api-openapi.yml
 - filename: kobiton-devices-api-openapi.yml
   format: yaml
   label: Kobiton Devices API
@@ -40,6 +34,12 @@ api_specs:
   slug: kobiton-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-sessions-api-openapi.yml
+- filename: kobiton-datasets-api-openapi.yml
+  format: yaml
+  label: Kobiton Datasets API
+  slug: kobiton-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/openapi/kobiton-datasets-api-openapi.yml
 consequence_counts:
   read: 7
   write: 19

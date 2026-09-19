@@ -99,7 +99,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs
 summary_line: 23 operations
 tags:
 - Company
-- Data Centers
+- Data-Center
 - Liquid Cooling
 - Thermal Management
 - Direct-to-Chip Cooling

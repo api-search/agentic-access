@@ -57,7 +57,7 @@ tags:
 - Hospitality
 - accommodation-data
 - hotel-api
-- Vacation Rental
+- Vacation Rentals
 - Short-Term Rental
 - Airbnb
 - Booking.com

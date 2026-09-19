@@ -128,7 +128,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ably/refs/head
 summary_line: 44 operations · 25 acting · 1 human-in-the-loop
 tags:
 - Real-Time
-- WebSockets
+- WebSocket
 - Pub-Sub
 - Messaging
 - Streaming

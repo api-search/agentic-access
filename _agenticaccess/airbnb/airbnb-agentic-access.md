@@ -120,5 +120,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/airbnb
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/agentic-access/airbnb-agentic-access.yml
 summary_line: 34 operations · 19 acting
-tags: []
+tags:
+- Reservations
+- Hospitality
+- Travel
+- Airbnb
 ---

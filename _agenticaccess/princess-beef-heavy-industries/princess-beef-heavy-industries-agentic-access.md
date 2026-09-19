@@ -43,7 +43,7 @@ summary_line: 6 operations · 3 acting
 tags:
 - Commerce
 - Documentation
-- Editors
+- Editor
 - Governance
 - Platform
 - Product

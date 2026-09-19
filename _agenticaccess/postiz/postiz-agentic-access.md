@@ -94,12 +94,6 @@ api_specs:
   slug: postiz-monitor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-monitor-api-openapi.yml
-- filename: postiz-oauth-api-openapi.yml
-  format: yaml
-  label: Postiz O Auth API
-  slug: postiz-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-oauth-api-openapi.yml
 - filename: postiz-oauth-app-api-openapi.yml
   format: yaml
   label: Postiz OAuth App API
@@ -172,6 +166,12 @@ api_specs:
   slug: postiz-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-webhooks-api-openapi.yml
+- filename: postiz-oauth-api-openapi.yml
+  format: yaml
+  label: Postiz O Auth API
+  slug: postiz-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/openapi/postiz-oauth-api-openapi.yml
 consequence_counts:
   read: 105
   safety-critical: 122

@@ -67,7 +67,8 @@ summary_line: 12 operations · 5 acting
 tags:
 - Code
 - Compiling
+- Developer Tools
 - Development Environment
-- Programming Languages
+- Programming Language
 - Version Control
 ---

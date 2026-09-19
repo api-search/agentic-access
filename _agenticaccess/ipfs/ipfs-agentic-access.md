@@ -88,12 +88,6 @@ api_specs:
   slug: ipfs-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-files-api-openapi.yml
-- filename: ipfs-filestore-api-openapi.yml
-  format: yaml
-  label: IPFS Filestore API
-  slug: ipfs-filestore-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-filestore-api-openapi.yml
 - filename: ipfs-get-api-openapi.yml
   format: yaml
   label: IPFS Get API
@@ -148,12 +142,6 @@ api_specs:
   slug: ipfs-object-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-object-api-openapi.yml
-- filename: ipfs-p2p-api-openapi.yml
-  format: yaml
-  label: IPFS P2p API
-  slug: ipfs-p2p-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-p2p-api-openapi.yml
 - filename: ipfs-pin-api-openapi.yml
   format: yaml
   label: IPFS Pin API
@@ -232,6 +220,18 @@ api_specs:
   slug: ipfs-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-version-api-openapi.yml
+- filename: ipfs-file-store-api-openapi.yml
+  format: yaml
+  label: IPFS File Store API
+  slug: ipfs-file-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-file-store-api-openapi.yml
+- filename: ipfs-p2-p-api-openapi.yml
+  format: yaml
+  label: IPFS P2 P API
+  slug: ipfs-p2-p-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/openapi/ipfs-p2-p-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 1
@@ -312,5 +312,5 @@ tags:
 - File Storage
 - DAG
 - Pinning
-- Gateway
+- Gateways
 ---

@@ -164,6 +164,6 @@ tags:
 - Spa
 - Business Management
 - Scheduling
-- Memberships
+- Membership
 - Point-of-Sale
 ---

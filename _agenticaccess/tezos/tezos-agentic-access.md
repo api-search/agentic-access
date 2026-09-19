@@ -218,7 +218,7 @@ tags:
 - Smart Contracts
 - NFT
 - Tokens
-- Delegations
+- Delegation
 - Staking
 - Governance
 - FA1.2

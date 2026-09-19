@@ -49,7 +49,7 @@ summary_line: 5 operations · 2 acting
 tags:
 - Expense Management
 - Finance
-- Invoice
+- Invoices
 - SAP
 - Travel
 ---

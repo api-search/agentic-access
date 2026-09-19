@@ -65,5 +65,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/inttra
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/agentic-access/e2open-agentic-access.yml
 summary_line: 9 operations · 4 acting
-tags: []
+tags:
+- Logistics
+- Supply Chain
+- Transportation
+- Booking
 ---

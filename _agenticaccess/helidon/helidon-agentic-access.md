@@ -21,12 +21,12 @@ api_specs:
   slug: helidon-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-metrics-api-openapi.yml
-- filename: helidon-openapi-api-openapi.yml
+- filename: helidon-open-api-api-openapi.yml
   format: yaml
-  label: Helidon OpenAPI API
-  slug: helidon-openapi-api
+  label: Helidon Open API
+  slug: helidon-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-openapi-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/openapi/helidon-open-api-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helidon/refs/h
 summary_line: 10 operations
 tags:
 - Cloud-Native
-- Frameworks
+- Framework
 - Java
 - MicroProfile
 - Microservices

@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargosmart/ref
 summary_line: 8 operations · 1 acting
 tags:
 - Booking
-- Container
+- Containers
 - Documentation
 - GSBN
 - IQAX

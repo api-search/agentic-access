@@ -246,10 +246,16 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-teams-api-openapi.yml
 - filename: github-github-v3-rest-api-api-openapi.yml
   format: yaml
-  label: GitHub GitHub V3 REST API API
+  label: GitHub V3 REST API
   slug: github-github-v3-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-v3-rest-api-api-openapi.yml
+- filename: github-github-application-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Application API
+  slug: github-github-application-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-github-application-api-api-openapi.yml
 consequence_counts:
   physical: 71
   read: 1228
@@ -443,9 +449,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github/refs/he
 summary_line: 2431 operations · 1203 acting · 31 human-in-the-loop
 tags:
 - Code
+- Developer Tools
 - Pipelines
 - Platform
 - Software Development
 - Source Control
 - T1
+- GitHub
 ---

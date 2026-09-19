@@ -150,5 +150,17 @@ source_yaml: "generated: '2026-07-16'\nmethod: generated\nsource: openapi/github
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/agentic-access/github-actions-agentic-access.yml
 summary_line: 82 operations · 39 acting · 2 human-in-the-loop
-tags: []
+tags:
+- CI/CD
+- Continuous Integration
+- Continuous Deployment
+- DevOps
+- Pipelines
+- Workflows
+- Automation
+- Developer Tools
+- Software Development
+- Build Automation
+- T1
+- GitHub
 ---

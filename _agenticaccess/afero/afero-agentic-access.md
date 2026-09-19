@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/afero/refs/hea
 summary_line: 25 operations · 12 acting
 tags:
 - Company
-- Internet of Things
+- IoT
 - IoT Platform
 - Connected Devices
 - Device Management

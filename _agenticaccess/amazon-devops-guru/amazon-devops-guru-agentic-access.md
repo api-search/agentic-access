@@ -58,12 +58,6 @@ api_specs:
   slug: amazon-devops-guru-list-log-anomalies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/openapi/amazon-devops-guru-list-log-anomalies-api-openapi.yml
-- filename: amazon-devops-guru-monitoredresources-api-openapi.yml
-  format: yaml
-  label: Amazon DevOps Guru MonitoredResources API
-  slug: amazon-devops-guru-monitoredresources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/openapi/amazon-devops-guru-monitoredresources-api-openapi.yml
 - filename: amazon-devops-guru-organization-api-openapi.yml
   format: yaml
   label: Amazon DevOps Guru Organization API
@@ -88,6 +82,12 @@ api_specs:
   slug: amazon-devops-guru-service-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/openapi/amazon-devops-guru-service-integrations-api-openapi.yml
+- filename: amazon-devops-guru-monitored-resources-api-openapi.yml
+  format: yaml
+  label: Amazon DevOps Guru Monitored Resources API
+  slug: amazon-devops-guru-monitored-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/openapi/amazon-devops-guru-monitored-resources-api-openapi.yml
 consequence_counts:
   read: 7
   write: 24

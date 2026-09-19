@@ -64,8 +64,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/navis/refs/hea
 summary_line: 8 operations
 tags:
 - Maritime
-- Port
+- Ports
 - Terminal
-- Container
+- Containers
 - Logistics
 ---

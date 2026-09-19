@@ -44,4 +44,5 @@ tags:
 - JSON-RPC
 - Smart Wallet
 - Bridge
+- Base
 ---

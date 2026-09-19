@@ -11,7 +11,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/asyncapi/starknet-asyncapi.yml
 - filename: starknet-starknet-json-rpc-api-api-openapi.yml
   format: yaml
-  label: Starknet Starknet JSON RPC API API
+  label: Starknet JSON RPC API
   slug: starknet-starknet-json-rpc-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/openapi/starknet-starknet-json-rpc-api-api-openapi.yml
@@ -51,4 +51,5 @@ tags:
 - STARK
 - JSON-RPC
 - Bridge
+- Starknet
 ---

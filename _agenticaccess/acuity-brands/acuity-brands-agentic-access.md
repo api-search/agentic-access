@@ -21,12 +21,12 @@ api_specs:
   slug: acuity-brands-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-orders-api-openapi.yml
-- filename: acuity-brands-webpages-api-openapi.yml
+- filename: acuity-brands-web-pages-api-openapi.yml
   format: yaml
-  label: acuity-brands Webpages API
-  slug: acuity-brands-webpages-api
+  label: Acuity Brands Web Pages API
+  slug: acuity-brands-web-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-webpages-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands-web-pages-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

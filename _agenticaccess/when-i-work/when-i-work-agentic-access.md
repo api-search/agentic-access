@@ -206,5 +206,5 @@ tags:
 - Team Messaging
 - Hourly Workers
 - Labor Forecasting
-- HR
+- Human Resources
 ---

@@ -178,12 +178,6 @@ api_specs:
   slug: miro-mind-map-nodes-experimental-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-mind-map-nodes-experimental-api-openapi.yml
-- filename: miro-oauth-api-openapi.yml
-  format: yaml
-  label: Miro OAuth API
-  slug: miro-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-oauth-api-openapi.yml
 - filename: miro-organization-members-api-openapi.yml
   format: yaml
   label: Miro Organization Members API
@@ -310,6 +304,12 @@ api_specs:
   slug: miro-user-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-user-groups-api-openapi.yml
+- filename: miro-oauth-api-openapi.yml
+  format: yaml
+  label: Miro O Auth API
+  slug: miro-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-oauth-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 85

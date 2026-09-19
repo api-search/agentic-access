@@ -102,7 +102,7 @@ summary_line: 44 operations · 25 acting
 tags:
 - Video Interviewing
 - Recruitment
-- HR Tech
+- Human Resources
 - ATS
 - Screening
 - Async Video

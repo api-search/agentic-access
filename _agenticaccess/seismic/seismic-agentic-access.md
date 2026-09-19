@@ -156,5 +156,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/seismi
   \ none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/agentic-access/seismic-agentic-access.yml
 summary_line: 57 operations · 20 acting
-tags: []
+tags:
+- Sales Enablement
+- Content Management
+- Document Generation
+- Sales Content
+- Buyer Engagement
+- Revenue Enablement
+- Analytics
+- Learning
+- SCIM
+- MCP
 ---

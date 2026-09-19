@@ -90,7 +90,6 @@ tags:
 - Time Tracking
 - Workforce Management
 - Employee Management
-- HR
 - Attendance
 - Absence Management
 - Scheduling

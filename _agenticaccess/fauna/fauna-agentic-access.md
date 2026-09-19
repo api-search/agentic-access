@@ -10,12 +10,6 @@ api_specs:
   slug: event-streaming-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/asyncapi/fauna-event-streaming-asyncapi.yml
-- filename: fauna-graphql-api-openapi.yml
-  format: yaml
-  label: Fauna GraphQL API
-  slug: graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-graphql-api-openapi.yml
 - filename: fauna-eventfeeds-api-openapi.yml
   format: yaml
   label: fauna EventFeeds API
@@ -34,6 +28,12 @@ api_specs:
   slug: fauna-schema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-schema-api-openapi.yml
+- filename: fauna-graph-ql-api-openapi.yml
+  format: yaml
+  label: Fauna Graph QL API
+  slug: fauna-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-graph-ql-api-openapi.yml
 consequence_counts:
   read: 2
   write: 8
@@ -65,5 +65,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fauna-
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphql\n  method: post\n  operationId: executeGraphQLQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /import\n  method: post\n  operationId: importGraphQLSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/agentic-access/fauna-agentic-access.yml
 summary_line: 10 operations · 8 acting
-tags: []
+tags:
+- Database
+- Document Database
+- Serverless
+- Distributed Systems
+- Change Data Capture
+- GraphQL
+- Cloud
+- Developer Tools
 ---

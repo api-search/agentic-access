@@ -100,12 +100,6 @@ api_specs:
   slug: terminal-use-namespaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-namespaces-api-openapi.yml
-- filename: terminal-use-oauth-api-openapi.yml
-  format: yaml
-  label: Terminal Use OAuth API
-  slug: terminal-use-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-oauth-api-openapi.yml
 - filename: terminal-use-organizations-api-openapi.yml
   format: yaml
   label: Terminal Use Organizations API
@@ -172,6 +166,12 @@ api_specs:
   slug: terminal-use-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-versions-api-openapi.yml
+- filename: terminal-use-oauth-api-openapi.yml
+  format: yaml
+  label: Terminal Use O Auth API
+  slug: terminal-use-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/openapi/terminal-use-oauth-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 73

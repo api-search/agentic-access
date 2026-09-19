@@ -102,7 +102,7 @@ tags:
 - Low-Code
 - Airtable Alternative
 - Open-Source
-- Spreadsheet
+- Spreadsheets
 - REST API
 - Self-Hosted
 ---

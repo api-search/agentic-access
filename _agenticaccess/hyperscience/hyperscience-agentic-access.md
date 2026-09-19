@@ -97,6 +97,6 @@ tags:
 - IDP
 - Enterprise
 - Automation
-- GenAI
+- Generative AI
 - FedRAMP
 ---

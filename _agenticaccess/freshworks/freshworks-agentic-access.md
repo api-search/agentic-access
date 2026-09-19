@@ -324,5 +324,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/freshw
   \ high-value\n    audit: required\n- path: /changes/{change_id}\n  method: delete\n  operationId: deleteChange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/agentic-access/freshworks-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/agentic-access/freshworks-agentic-access.yml
 summary_line: 158 operations · 70 acting
-tags: []
+tags:
+- Analytics
+- Campaigns
+- Email Marketing
+- Marketing
+- Marketing Automation
+- Freshworks
 ---

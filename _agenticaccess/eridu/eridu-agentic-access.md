@@ -39,12 +39,12 @@ api_specs:
   slug: eridu-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-discovery-api-openapi.yml
-- filename: eridu-oembed-api-openapi.yml
+- filename: eridu-o-embed-api-openapi.yml
   format: yaml
-  label: Eridu oEmbed API
-  slug: eridu-oembed-api
+  label: Eridu o Embed API
+  slug: eridu-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-o-embed-api-openapi.yml
 consequence_counts:
   read: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -82,7 +82,7 @@ tags:
 - AI Infrastructure
 - Networking
 - Semiconductors
-- Data Centers
+- Data-Center
 - Silicon
 - Network Switching
 - Interconnect

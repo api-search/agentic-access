@@ -52,12 +52,6 @@ api_specs:
   slug: purplebricks-bland-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/openapi/purplebricks-bland-api-openapi.yml
-- filename: purplebricks-contactus-api-openapi.yml
-  format: yaml
-  label: Purplebricks Contact Us API
-  slug: purplebricks-contactus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/openapi/purplebricks-contactus-api-openapi.yml
 - filename: purplebricks-conveyancingquote-api-openapi.yml
   format: yaml
   label: Purplebricks Conveyancing Quote API
@@ -190,24 +184,12 @@ api_specs:
   slug: purplebricks-owners-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/openapi/purplebricks-owners-api-openapi.yml
-- filename: purplebricks-performancereport-api-openapi.yml
-  format: yaml
-  label: Purplebricks Performance Report API
-  slug: purplebricks-performancereport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/openapi/purplebricks-performancereport-api-openapi.yml
 - filename: purplebricks-phoneverification-api-openapi.yml
   format: yaml
   label: Purplebricks Phone Verification API
   slug: purplebricks-phoneverification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/openapi/purplebricks-phoneverification-api-openapi.yml
-- filename: purplebricks-postcode-api-openapi.yml
-  format: yaml
-  label: Purplebricks Post Code API
-  slug: purplebricks-postcode-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/openapi/purplebricks-postcode-api-openapi.yml
 - filename: purplebricks-preactive-api-openapi.yml
   format: yaml
   label: Purplebricks Preactive API
@@ -352,6 +334,24 @@ api_specs:
   slug: purplebricks-zooplabranch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/openapi/purplebricks-zooplabranch-api-openapi.yml
+- filename: purplebricks-contact-us-api-openapi.yml
+  format: yaml
+  label: Purplebricks Contact Us API
+  slug: purplebricks-contact-us-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/openapi/purplebricks-contact-us-api-openapi.yml
+- filename: purplebricks-performance-report-api-openapi.yml
+  format: yaml
+  label: Purplebricks Performance Report API
+  slug: purplebricks-performance-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/openapi/purplebricks-performance-report-api-openapi.yml
+- filename: purplebricks-post-code-api-openapi.yml
+  format: yaml
+  label: Purplebricks Post Code API
+  slug: purplebricks-post-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/purplebricks/refs/heads/main/openapi/purplebricks-post-code-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 129

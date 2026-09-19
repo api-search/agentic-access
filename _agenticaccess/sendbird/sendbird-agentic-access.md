@@ -66,5 +66,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sendbi
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}/mute\n  method: post\n  operationId: muteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/agentic-access/sendbird-agentic-access.yml
 summary_line: 13 operations · 8 acting
-tags: []
+tags:
+- Customer-Support
+- Voice
+- Video
+- Omnichannel
+- WhatsApp
+- SMS
 ---

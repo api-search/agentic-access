@@ -10,12 +10,6 @@ api_specs:
   slug: trading-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-trading-api-openapi.yml
-- filename: alpaca-oauth-api-openapi.yml
-  format: yaml
-  label: Alpaca OAuth API
-  slug: oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-oauth-api-openapi.yml
 - filename: alpaca-accounts-api-openapi.yml
   format: yaml
   label: Alpaca Accounts API
@@ -48,7 +42,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-corporate-actions-api-openapi.yml
 - filename: alpaca-crypto-pricing-data-api-api-openapi.yml
   format: yaml
-  label: Alpaca Crypto Pricing Data API API
+  label: Alpaca Crypto Pricing Data API
   slug: alpaca-crypto-pricing-data-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-crypto-pricing-data-api-api-openapi.yml
@@ -96,7 +90,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-screener-api-openapi.yml
 - filename: alpaca-stock-pricing-data-api-api-openapi.yml
   format: yaml
-  label: Alpaca Stock Pricing Data API API
+  label: Alpaca Stock Pricing Data API
   slug: alpaca-stock-pricing-data-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-stock-pricing-data-api-api-openapi.yml
@@ -106,6 +100,12 @@ api_specs:
   slug: alpaca-watchlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-watchlist-api-openapi.yml
+- filename: alpaca-oauth-api-openapi.yml
+  format: yaml
+  label: Alpaca O Auth API
+  slug: alpaca-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/openapi/alpaca-oauth-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 80

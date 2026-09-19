@@ -172,7 +172,7 @@ summary_line: 32 operations · 20 acting
 tags:
 - Payroll
 - Global Workforce
-- HR
+- Human Resources
 - Payments
 - Employer of Record
 - Contractor Management

@@ -157,7 +157,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plandex/refs/h
 summary_line: 80 operations · 46 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence
-- AI Coding Agent
+- AI Coding Agents
 - Developer Tools
 - Open-Source
 - CLI

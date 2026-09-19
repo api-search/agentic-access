@@ -64,7 +64,7 @@ summary_line: 31 operations · 20 acting · 2 human-in-the-loop
 tags:
 - Data Analytics
 - Interactive Computing
-- Notebook
+- Notebooks
 - Visualization
 - Open-Source
 ---

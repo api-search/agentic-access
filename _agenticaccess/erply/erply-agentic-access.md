@@ -100,12 +100,6 @@ api_specs:
   slug: erply-franchise-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-franchise-products-api-openapi.yml
-- filename: erply-import-export-api-openapi.yml
-  format: yaml
-  label: Erply Import & Export API
-  slug: erply-import-export-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-import-export-api-openapi.yml
 - filename: erply-item-api-openapi.yml
   format: yaml
   label: Erply item API
@@ -388,6 +382,12 @@ api_specs:
   slug: erply-workorder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-workorder-api-openapi.yml
+- filename: erply-import-and-export-api-openapi.yml
+  format: yaml
+  label: Erply Import And Export API
+  slug: erply-import-and-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/openapi/erply-import-and-export-api-openapi.yml
 consequence_counts:
   physical: 29
   read: 103

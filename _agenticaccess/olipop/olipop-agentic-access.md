@@ -42,12 +42,12 @@ source_yaml: "generated: '2026-07-31'\nmethod: searched\nsource: https://drinkol
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/agentic-access/olipop-agentic-access.yml
 summary_line: 13 operations · 8 acting · 1 human-in-the-loop
 tags:
-- Beverage
+- Beverages
 - Consumer Packaged Goods
 - Direct to Consumer
 - E-Commerce
 - Retail
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 - GraphQL

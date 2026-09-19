@@ -112,5 +112,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/he
 summary_line: 73 operations · 48 acting
 tags:
 - Artificial Intelligence
-- Vector Databases
+- Vector Database
 ---

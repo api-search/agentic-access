@@ -74,6 +74,6 @@ tags:
 - KYC
 - Background Checks
 - Fraud Prevention
-- LatAm
+- Latin America
 - WhatsApp
 ---

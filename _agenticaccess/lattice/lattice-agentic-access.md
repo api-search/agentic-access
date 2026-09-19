@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lattic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/agentic-access/lattice-agentic-access.yml
 summary_line: 29 operations · 6 acting
 tags:
-- HR
+- Human Resources
 - People Management
 - Performance Management
 - OKRs

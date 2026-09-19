@@ -85,7 +85,7 @@ summary_line: 15 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Company
 - Access Control
-- Smart Building
+- Smart Buildings
 - PropTech
 - Physical Security
 - IoT

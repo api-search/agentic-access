@@ -75,9 +75,8 @@ tags:
 - Accounting
 - Cloud Applications
 - Enterprise Performance Management
-- Enterprise Resource Planning
-- EPM
 - ERP
+- EPM
 - Financial Management
 - Financial Reporting
 ---

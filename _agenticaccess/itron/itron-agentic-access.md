@@ -63,10 +63,9 @@ summary_line: 13 operations · 8 acting
 tags:
 - Itron
 - Utilities
-- Smart Meters
+- Smart Meter
 - Smart Grid
 - Smart Cities
-- Internet of Things
 - IoT
 - Energy
 - Water

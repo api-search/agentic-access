@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: monte-carlo-graphql-api-openapi.yml
+- filename: monte-carlo-graph-ql-api-openapi.yml
   format: yaml
-  label: Monte Carlo Graphql API
-  slug: monte-carlo-graphql-api
+  label: Monte Carlo Graph QL API
+  slug: monte-carlo-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/openapi/monte-carlo-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/openapi/monte-carlo-graph-ql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

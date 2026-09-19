@@ -10,12 +10,6 @@ api_specs:
   slug: perses-dashboards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-dashboards-api-openapi.yml
-- filename: perses-datasources-api-openapi.yml
-  format: yaml
-  label: Perses Datasources API
-  slug: perses-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-datasources-api-openapi.yml
 - filename: perses-global-datasources-api-openapi.yml
   format: yaml
   label: Perses Global Datasources API
@@ -28,6 +22,12 @@ api_specs:
   slug: perses-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-projects-api-openapi.yml
+- filename: perses-data-sources-api-openapi.yml
+  format: yaml
+  label: Perses Data Sources API
+  slug: perses-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/openapi/perses-data-sources-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12

@@ -33,12 +33,6 @@ api_specs:
   slug: university-of-lausanne-iris-repository-dspace-rest-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-iris-repository-dspace-rest-api-api-openapi.yml
-- filename: university-of-lausanne-oai-pmh-api-openapi.yml
-  format: yaml
-  label: IRIS OAI-PMH
-  slug: university-of-lausanne-oai-pmh-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/openapi/university-of-lausanne-oai-pmh-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

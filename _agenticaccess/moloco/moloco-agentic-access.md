@@ -4,18 +4,6 @@ action_class_counts:
   acting: 131
   connected: 72
 api_specs:
-- filename: moloco-adaccount-api-openapi.yml
-  format: yaml
-  label: MOLOCO Ad Account API
-  slug: moloco-adaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-adaccount-api-openapi.yml
-- filename: moloco-adgroup-api-openapi.yml
-  format: yaml
-  label: MOLOCO Ad Group API
-  slug: moloco-adgroup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-adgroup-api-openapi.yml
 - filename: moloco-admanageraccount-api-openapi.yml
   format: yaml
   label: MOLOCO Ad Manager Account API
@@ -52,12 +40,6 @@ api_specs:
   slug: moloco-campaignsummary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-campaignsummary-api-openapi.yml
-- filename: moloco-changehistory-api-openapi.yml
-  format: yaml
-  label: MOLOCO Change History API
-  slug: moloco-changehistory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-changehistory-api-openapi.yml
 - filename: moloco-cohortsummary-api-openapi.yml
   format: yaml
   label: MOLOCO Cohort Summary API
@@ -88,12 +70,6 @@ api_specs:
   slug: moloco-customtargeting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-customtargeting-api-openapi.yml
-- filename: moloco-dataexport-api-openapi.yml
-  format: yaml
-  label: MOLOCO Data Export API
-  slug: moloco-dataexport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-dataexport-api-openapi.yml
 - filename: moloco-decision-api-openapi.yml
   format: yaml
   label: MOLOCO Decision API
@@ -160,12 +136,6 @@ api_specs:
   slug: moloco-report-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-report-api-openapi.yml
-- filename: moloco-reportexport-api-openapi.yml
-  format: yaml
-  label: MOLOCO Report Export API
-  slug: moloco-reportexport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-reportexport-api-openapi.yml
 - filename: moloco-reserveddisplay-api-openapi.yml
   format: yaml
   label: MOLOCO Reserved Display API
@@ -208,12 +178,6 @@ api_specs:
   slug: moloco-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-token-api-openapi.yml
-- filename: moloco-trackinglink-api-openapi.yml
-  format: yaml
-  label: MOLOCO Tracking Link API
-  slug: moloco-trackinglink-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-trackinglink-api-openapi.yml
 - filename: moloco-user-api-openapi.yml
   format: yaml
   label: MOLOCO User API
@@ -226,12 +190,6 @@ api_specs:
   slug: moloco-userdatadeletionrequest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-userdatadeletionrequest-api-openapi.yml
-- filename: moloco-userspace-api-openapi.yml
-  format: yaml
-  label: MOLOCO Userspace API
-  slug: moloco-userspace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-userspace-api-openapi.yml
 - filename: moloco-wallet-api-openapi.yml
   format: yaml
   label: MOLOCO Wallet API
@@ -250,6 +208,48 @@ api_specs:
   slug: moloco-workplacesummary-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-workplacesummary-api-openapi.yml
+- filename: moloco-ad-account-api-openapi.yml
+  format: yaml
+  label: MOLOCO Ad Account API
+  slug: moloco-ad-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-ad-account-api-openapi.yml
+- filename: moloco-ad-group-api-openapi.yml
+  format: yaml
+  label: MOLOCO Ad Group API
+  slug: moloco-ad-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-ad-group-api-openapi.yml
+- filename: moloco-change-history-api-openapi.yml
+  format: yaml
+  label: MOLOCO Change History API
+  slug: moloco-change-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-change-history-api-openapi.yml
+- filename: moloco-data-export-api-openapi.yml
+  format: yaml
+  label: MOLOCO Data Export API
+  slug: moloco-data-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-data-export-api-openapi.yml
+- filename: moloco-report-export-api-openapi.yml
+  format: yaml
+  label: MOLOCO Report Export API
+  slug: moloco-report-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-report-export-api-openapi.yml
+- filename: moloco-tracking-link-api-openapi.yml
+  format: yaml
+  label: MOLOCO Tracking Link API
+  slug: moloco-tracking-link-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-tracking-link-api-openapi.yml
+- filename: moloco-user-space-api-openapi.yml
+  format: yaml
+  label: MOLOCO User Space API
+  slug: moloco-user-space-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/openapi/moloco-user-space-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 72
@@ -360,7 +360,7 @@ summary_line: 203 operations · 131 acting · 2 human-in-the-loop
 tags:
 - Advertising
 - AdTech
-- Demand-Side Platform
+- DSP
 - Retail Media
 - Commerce Media
 - Programmatic Advertising

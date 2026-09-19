@@ -104,7 +104,6 @@ summary_line: 48 operations · 33 acting
 tags:
 - LLM
 - Artificial Intelligence
-- Large Language Models
 - LLM Routing
 - Model Gateway
 - AI Gateway

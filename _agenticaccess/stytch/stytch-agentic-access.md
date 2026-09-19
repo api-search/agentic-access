@@ -178,12 +178,6 @@ api_specs:
   slug: stytch-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/openapi/stytch-members-api-openapi.yml
-- filename: stytch-oauth-api-openapi.yml
-  format: yaml
-  label: Stytch OAuth API
-  slug: stytch-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/openapi/stytch-oauth-api-openapi.yml
 - filename: stytch-organization-api-openapi.yml
   format: yaml
   label: Stytch Organization API
@@ -286,6 +280,12 @@ api_specs:
   slug: stytch-webauthn-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/openapi/stytch-webauthn-api-openapi.yml
+- filename: stytch-oauth-api-openapi.yml
+  format: yaml
+  label: Stytch O Auth API
+  slug: stytch-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/openapi/stytch-oauth-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 56
@@ -487,4 +487,5 @@ tags:
 - MCP
 - AI Agents
 - Developer Tools
+- Identity Federation
 ---

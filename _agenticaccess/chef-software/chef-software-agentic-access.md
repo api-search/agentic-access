@@ -70,12 +70,6 @@ api_specs:
   slug: chef-software-infraproxy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-infraproxy-api-openapi.yml
-- filename: chef-software-jobscheduler-api-openapi.yml
-  format: yaml
-  label: Chef Software JobScheduler API
-  slug: chef-software-jobscheduler-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-jobscheduler-api-openapi.yml
 - filename: chef-software-jobsservice-api-openapi.yml
   format: yaml
   label: Chef Software JobsService API
@@ -184,6 +178,12 @@ api_specs:
   slug: chef-software-usersettingsservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-usersettingsservice-api-openapi.yml
+- filename: chef-software-job-scheduler-api-openapi.yml
+  format: yaml
+  label: Chef Software Job Scheduler API
+  slug: chef-software-job-scheduler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/openapi/chef-software-job-scheduler-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 112

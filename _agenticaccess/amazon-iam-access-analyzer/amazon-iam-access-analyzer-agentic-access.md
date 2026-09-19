@@ -30,7 +30,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-analyzed-resource-api-openapi.yml
 - filename: amazon-iam-access-analyzer-analyzer-api-openapi.yml
   format: yaml
-  label: Amazon IAM Access Analyzer Analyzer API
+  label: Amazon IAM Access Analyzer API
   slug: amazon-iam-access-analyzer-analyzer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-analyzer-api-openapi.yml
@@ -104,7 +104,7 @@ summary_line: 28 operations · 17 acting
 tags:
 - Access Control
 - Compliance
-- IAM
+- Identity and Access Management
 - Policy Management
 - Security
 ---

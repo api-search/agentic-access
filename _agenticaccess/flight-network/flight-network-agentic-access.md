@@ -32,7 +32,7 @@ tags:
 - Travel
 - Canada
 - Aviation
-- Airline
+- Airlines
 - OTA
 - Booking
 - Distribution

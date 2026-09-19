@@ -34,12 +34,6 @@ api_specs:
   slug: tink-com-businessaccountverificationreports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-businessaccountverificationreports-api-openapi.yml
-- filename: tink-com-cashflow-api-openapi.yml
-  format: yaml
-  label: Tink CashFlow API
-  slug: tink-com-cashflow-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-cashflow-api-openapi.yml
 - filename: tink-com-categories-api-openapi.yml
   format: yaml
   label: Tink Categories API
@@ -106,12 +100,6 @@ api_specs:
   slug: tink-com-mandates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-mandates-api-openapi.yml
-- filename: tink-com-oauth-api-openapi.yml
-  format: yaml
-  label: Tink OAuth API
-  slug: tink-com-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-oauth-api-openapi.yml
 - filename: tink-com-payments-api-openapi.yml
   format: yaml
   label: Tink Payments API
@@ -148,12 +136,24 @@ api_specs:
   slug: tink-com-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-user-api-openapi.yml
-- filename: tink-com-webhookendpoints-api-openapi.yml
+- filename: tink-com-oauth-api-openapi.yml
   format: yaml
-  label: Tink WebhookEndpoints API
-  slug: tink-com-webhookendpoints-api
+  label: Tink O Auth API
+  slug: tink-com-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-webhookendpoints-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-oauth-api-openapi.yml
+- filename: tink-com-cash-flow-api-openapi.yml
+  format: yaml
+  label: Tink Cash Flow API
+  slug: tink-com-cash-flow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-cash-flow-api-openapi.yml
+- filename: tink-com-webhook-endpoints-api-openapi.yml
+  format: yaml
+  label: Tink Webhook Endpoints API
+  slug: tink-com-webhook-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/openapi/tink-com-webhook-endpoints-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 38

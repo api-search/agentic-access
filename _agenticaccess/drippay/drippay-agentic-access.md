@@ -4,12 +4,6 @@ action_class_counts:
   acting: 136
   connected: 109
 api_specs:
-- filename: drippay-billablemetrics-api-openapi.yml
-  format: yaml
-  label: Drippay BillableMetrics API
-  slug: drippay-billablemetrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/openapi/drippay-billablemetrics-api-openapi.yml
 - filename: drippay-business-api-openapi.yml
   format: yaml
   label: Drippay Business API
@@ -142,6 +136,12 @@ api_specs:
   slug: drippay-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/openapi/drippay-workflows-api-openapi.yml
+- filename: drippay-billable-metrics-api-openapi.yml
+  format: yaml
+  label: Drippay Billable Metrics API
+  slug: drippay-billable-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/openapi/drippay-billable-metrics-api-openapi.yml
 consequence_counts:
   physical: 19
   read: 109

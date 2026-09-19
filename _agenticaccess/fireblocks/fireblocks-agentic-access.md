@@ -114,7 +114,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/openapi/fireblocks-fiat-accounts-api-openapi.yml
 - filename: fireblocks-fireblocks-network-api-openapi.yml
   format: yaml
-  label: fireblocks Fireblocks Network API
+  label: fireblocks Network API
   slug: fireblocks-fireblocks-network-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/openapi/fireblocks-fireblocks-network-api-openapi.yml
@@ -405,5 +405,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/firebl
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nfts/ownership/tokens\n  method: get\n  operationId: getOwnershipTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nfts/ownership/assets\n  method: get\n  operationId: listOwnedTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nfts/ownership/collections\n  method: get\n  operationId: listOwnedCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nfts/tokens/{id}\n  method: put\n  operationId: refreshNFTMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    a\n\n# --- truncated at 32 KB (90 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/agentic-access/fireblocks-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/agentic-access/fireblocks-agentic-access.yml
 summary_line: 303 operations · 160 acting · 3 human-in-the-loop
-tags: []
+tags:
+- Digital Assets
+- Custody
+- Vault
+- Transaction
+- Tokenization
+- Stablecoins
 ---

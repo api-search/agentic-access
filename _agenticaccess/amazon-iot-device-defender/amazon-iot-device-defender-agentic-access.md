@@ -136,12 +136,6 @@ api_specs:
   slug: amazon-iot-device-defender-dimensions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-dimensions-api-openapi.yml
-- filename: amazon-iot-device-defender-domainconfigurations-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender DomainConfigurations API
-  slug: amazon-iot-device-defender-domainconfigurations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-domainconfigurations-api-openapi.yml
 - filename: amazon-iot-device-defender-dynamic-thing-groups-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender Dynamic Thing Groups API
@@ -208,12 +202,6 @@ api_specs:
   slug: amazon-iot-device-defender-keys-and-certificate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-keys-and-certificate-api-openapi.yml
-- filename: amazon-iot-device-defender-loggingoptions-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender LoggingOptions API
-  slug: amazon-iot-device-defender-loggingoptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-loggingoptions-api-openapi.yml
 - filename: amazon-iot-device-defender-managed-job-templates-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender Managed Job Templates API
@@ -232,12 +220,6 @@ api_specs:
   slug: amazon-iot-device-defender-mitigationactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-mitigationactions-api-openapi.yml
-- filename: amazon-iot-device-defender-otaupdates-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender OtaUpdates API
-  slug: amazon-iot-device-defender-otaupdates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-otaupdates-api-openapi.yml
 - filename: amazon-iot-device-defender-policies-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender Policies API
@@ -388,24 +370,12 @@ api_specs:
   slug: amazon-iot-device-defender-untag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-untag-api-openapi.yml
-- filename: amazon-iot-device-defender-v2logginglevel-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender V2LoggingLevel API
-  slug: amazon-iot-device-defender-v2logginglevel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-v2logginglevel-api-openapi.yml
 - filename: amazon-iot-device-defender-v2logginglevel-targettype-targetname-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender V2LoggingLevel#targetType&targetName API
   slug: amazon-iot-device-defender-v2logginglevel-targettype-targetname-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-v2logginglevel-targettype-targetname-api-openapi.yml
-- filename: amazon-iot-device-defender-v2loggingoptions-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Device Defender V2LoggingOptions API
-  slug: amazon-iot-device-defender-v2loggingoptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-v2loggingoptions-api-openapi.yml
 - filename: amazon-iot-device-defender-violation-events-starttime-endtime-api-openapi.yml
   format: yaml
   label: Amazon IoT Device Defender Violation Events#startTime&endTime API
@@ -418,6 +388,36 @@ api_specs:
   slug: amazon-iot-device-defender-violations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-violations-api-openapi.yml
+- filename: amazon-iot-device-defender-domain-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Defender Domain Configurations API
+  slug: amazon-iot-device-defender-domain-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-domain-configurations-api-openapi.yml
+- filename: amazon-iot-device-defender-logging-options-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Defender Logging Options API
+  slug: amazon-iot-device-defender-logging-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-logging-options-api-openapi.yml
+- filename: amazon-iot-device-defender-ota-updates-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Defender OTA Updates API
+  slug: amazon-iot-device-defender-ota-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-ota-updates-api-openapi.yml
+- filename: amazon-iot-device-defender-v2-logging-level-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Defender V2 Logging Level API
+  slug: amazon-iot-device-defender-v2-logging-level-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-v2-logging-level-api-openapi.yml
+- filename: amazon-iot-device-defender-v2-logging-options-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Device Defender V2 Logging Options API
+  slug: amazon-iot-device-defender-v2-logging-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-v2-logging-options-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 97

@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rivers
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/agentic-access/riverside-agentic-access.yml
 summary_line: 12 operations · 3 acting
 tags:
-- Podcast
+- Podcasts
 - Video Recording
 - Media
 - Content Creation

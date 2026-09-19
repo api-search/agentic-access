@@ -16,12 +16,6 @@ api_specs:
   slug: osisoft-pi-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-attributes-api-openapi.yml
-- filename: osisoft-pi-batchrequests-api-openapi.yml
-  format: yaml
-  label: osisoft-pi BatchRequests API
-  slug: osisoft-pi-batchrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-batchrequests-api-openapi.yml
 - filename: osisoft-pi-dataservers-api-openapi.yml
   format: yaml
   label: osisoft-pi DataServers API
@@ -52,6 +46,12 @@ api_specs:
   slug: osisoft-pi-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-streams-api-openapi.yml
+- filename: osisoft-pi-batch-requests-api-openapi.yml
+  format: yaml
+  label: OSIsoft PI System Batch Requests API
+  slug: osisoft-pi-batch-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/openapi/osisoft-pi-batch-requests-api-openapi.yml
 consequence_counts:
   read: 11
   write: 1
@@ -83,5 +83,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/osisof
   - path: /batch\n  method: post\n  operationId: executeBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/agentic-access/osisoft-pi-agentic-access.yml
 summary_line: 12 operations · 1 acting
-tags: []
+tags:
+- Manufacturing
+- Cloud
+- IoT
+- Time Series
 ---

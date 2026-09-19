@@ -120,7 +120,7 @@ summary_line: 63 operations · 36 acting
 tags:
 - Field Service
 - Job Management
-- Trades
+- Trade
 - Scheduling
 - Dispatch
 - Invoicing

@@ -61,7 +61,7 @@ summary_line: 7 operations · 4 acting
 tags:
 - Artificial Intelligence
 - Audio
-- Podcast
+- Podcasts
 - Text-to-Speech
 - Generative Audio
 ---

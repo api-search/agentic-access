@@ -22,12 +22,6 @@ api_specs:
   slug: process-street-data-set-incoming-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/openapi/process-street-data-set-incoming-webhooks-api-openapi.yml
-- filename: process-street-data-sets-api-openapi.yml
-  format: yaml
-  label: Process Street Data Sets API
-  slug: process-street-data-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/openapi/process-street-data-sets-api-openapi.yml
 - filename: process-street-file-uploads-api-openapi.yml
   format: yaml
   label: Process Street File Uploads API
@@ -172,6 +166,12 @@ api_specs:
   slug: process-street-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/openapi/process-street-workflows-api-openapi.yml
+- filename: process-street-datasets-api-openapi.yml
+  format: yaml
+  label: Process Street Datasets API
+  slug: process-street-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/openapi/process-street-datasets-api-openapi.yml
 consequence_counts:
   read: 62
   write: 88

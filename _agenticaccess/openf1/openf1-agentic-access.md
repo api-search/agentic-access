@@ -101,7 +101,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/he
 summary_line: 13 operations
 tags:
 - Formula 1
-- Motorsport
+- Motorsports
 - Telemetry
 - Real-Time
 - Sports

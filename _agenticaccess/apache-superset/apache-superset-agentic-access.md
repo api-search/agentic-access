@@ -112,12 +112,6 @@ api_specs:
   slug: apache-superset-security-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-security-api-openapi.yml
-- filename: apache-superset-sqllab-api-openapi.yml
-  format: yaml
-  label: Apache Superset Sqllab API
-  slug: apache-superset-sqllab-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-sqllab-api-openapi.yml
 - filename: apache-superset-tag-api-openapi.yml
   format: yaml
   label: Apache Superset Tag API
@@ -130,6 +124,12 @@ api_specs:
   slug: apache-superset-theme-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-theme-api-openapi.yml
+- filename: apache-superset-sql-lab-api-openapi.yml
+  format: yaml
+  label: Apache Superset SQL Lab API
+  slug: apache-superset-sql-lab-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/openapi/apache-superset-sql-lab-api-openapi.yml
 consequence_counts:
   read: 62
   safety-critical: 1
@@ -203,8 +203,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-superse
 summary_line: 146 operations · 84 acting · 1 human-in-the-loop
 tags:
 - Analytics
-- BI
-- Dashboard
+- Business Intelligence
+- Dashboards
 - Data Visualization
 - SQL
 - Open-Source

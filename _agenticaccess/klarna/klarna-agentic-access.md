@@ -76,12 +76,6 @@ api_specs:
   slug: klarna-merchant-urls-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-merchant-urls-validation-api-openapi.yml
-- filename: klarna-merchantcard-api-openapi.yml
-  format: yaml
-  label: Klarna Merchantcard API
-  slug: klarna-merchantcard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-merchantcard-api-openapi.yml
 - filename: klarna-orders-api-openapi.yml
   format: yaml
   label: Klarna Orders API
@@ -118,6 +112,12 @@ api_specs:
   slug: klarna-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-transactions-api-openapi.yml
+- filename: klarna-merchant-card-api-openapi.yml
+  format: yaml
+  label: Klarna Merchant Card API
+  slug: klarna-merchant-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-merchant-card-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 18
@@ -241,7 +241,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/he
 summary_line: 37 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Fintech
-- BNPL
+- Buy Now Pay Later
 - Payments
 - Cards
 - Shopping

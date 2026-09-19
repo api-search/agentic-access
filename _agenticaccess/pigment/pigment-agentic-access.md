@@ -4,12 +4,6 @@ action_class_counts:
   acting: 11
   connected: 8
 api_specs:
-- filename: pigment-applicationapi-api-openapi.yml
-  format: yaml
-  label: Pigment ApplicationApi API
-  slug: pigment-applicationapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-applicationapi-api-openapi.yml
 - filename: pigment-blocksapi-api-openapi.yml
   format: yaml
   label: Pigment BlocksApi API
@@ -28,12 +22,6 @@ api_specs:
   slug: pigment-exportv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-exportv1-api-openapi.yml
-- filename: pigment-importapi-api-openapi.yml
-  format: yaml
-  label: Pigment ImportApi API
-  slug: pigment-importapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-importapi-api-openapi.yml
 - filename: pigment-importconfigurationapi-api-openapi.yml
   format: yaml
   label: Pigment ImportConfigurationApi API
@@ -52,6 +40,18 @@ api_specs:
   slug: pigment-viewapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-viewapi-api-openapi.yml
+- filename: pigment-application-api-api-openapi.yml
+  format: yaml
+  label: Pigment Application API
+  slug: pigment-application-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-application-api-api-openapi.yml
+- filename: pigment-import-api-api-openapi.yml
+  format: yaml
+  label: Pigment Import API
+  slug: pigment-import-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/openapi/pigment-import-api-api-openapi.yml
 consequence_counts:
   read: 8
   write: 11

@@ -124,6 +124,6 @@ tags:
 - Payroll
 - Human Resources
 - Benefits
-- Investments
+- Investment
 - Wealth Management
 ---

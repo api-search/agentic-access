@@ -314,5 +314,5 @@ tags:
 - Cloud Development Environments
 - AI Agents
 - Infrastructure
-- Workspaces
+- Workspace
 ---

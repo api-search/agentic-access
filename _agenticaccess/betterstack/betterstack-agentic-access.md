@@ -74,5 +74,5 @@ tags:
 - On-Call
 - Error Tracking
 - OpenTelemetry
-- Model Context Protocol
+- MCP
 ---

@@ -3,12 +3,12 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: photon-health-graphql-api-openapi.yml
+- filename: photon-health-graph-ql-api-openapi.yml
   format: yaml
-  label: Photon Health GraphQL API
-  slug: photon-health-graphql-api
+  label: Photon Health Graph QL API
+  slug: photon-health-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-graphql-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/photon-health/refs/heads/main/openapi/photon-health-graph-ql-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

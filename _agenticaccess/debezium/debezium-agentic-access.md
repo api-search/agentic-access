@@ -79,9 +79,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debezium/refs/
 summary_line: 19 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Apache Kafka
-- CDC
 - Change Data Capture
-- Databases
+- Database
 - Event Streaming
 - Open-Source
 ---

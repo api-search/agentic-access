@@ -18,7 +18,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-cash-receipts-api-openapi.yml
 - filename: toss-payments-payments-api-openapi.yml
   format: yaml
-  label: Toss Payments Payments API
+  label: Toss Payments API
   slug: toss-payments-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/openapi/toss-payments-payments-api-openapi.yml
@@ -112,7 +112,7 @@ tags:
 - South Korea
 - Cards
 - Easy Pay
-- Virtual Account
+- Virtual Accounts
 - Billing
 - Checkout
 - Fintech

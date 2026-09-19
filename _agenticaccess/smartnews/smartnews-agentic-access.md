@@ -76,12 +76,6 @@ api_specs:
   slug: smartnews-media-file-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-media-file-api-openapi.yml
-- filename: smartnews-oauth-api-openapi.yml
-  format: yaml
-  label: SmartNews oauth API
-  slug: smartnews-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-oauth-api-openapi.yml
 - filename: smartnews-pixel-api-openapi.yml
   format: yaml
   label: SmartNews pixel API
@@ -94,6 +88,12 @@ api_specs:
   slug: smartnews-smart-view-article-keyword-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-smart-view-article-keyword-api-openapi.yml
+- filename: smartnews-oauth-api-openapi.yml
+  format: yaml
+  label: SmartNews OAUTH API
+  slug: smartnews-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/openapi/smartnews-oauth-api-openapi.yml
 consequence_counts:
   read: 25
   safety-critical: 1

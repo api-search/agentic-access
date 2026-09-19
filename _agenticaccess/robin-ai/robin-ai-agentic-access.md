@@ -72,13 +72,12 @@ tags:
 - Contract Review
 - Contract Analysis
 - Contract Lifecycle Management
-- CLM
 - Document Extraction
 - Structured Data
 - Legal AI
 - Artificial Intelligence
 - Word Add-In
-- Playbook
+- Playbooks
 - Redlining
 - Obligation Tracking
 - Anthropic

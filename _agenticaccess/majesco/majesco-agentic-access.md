@@ -66,5 +66,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/majesc
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /quotes\n  method: post\n  operationId: createQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/agentic-access/majesco-agentic-access.yml
 summary_line: 12 operations · 7 acting
-tags: []
+tags:
+- Insurance
+- Insurtech
+- Policy Administration
+- Claims
+- Billing
+- Underwriting
+- Life and Annuity
+- Property and Casualty
+- Absence Management
+- Enterprise Software
 ---

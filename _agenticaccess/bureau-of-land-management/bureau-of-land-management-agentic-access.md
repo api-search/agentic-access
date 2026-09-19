@@ -3,12 +3,54 @@ acting_count: 0
 action_class_counts:
   connected: 17
 api_specs:
-- filename: bureau-of-land-management-gbp-hub-search-openapi.json
-  format: json
-  label: BLM GBP Hub Search API (OGC API - Records)
-  slug: blm-gbp-hub-search-api
+- filename: bureau-of-land-management-catalog-api-openapi.yml
+  format: yaml
+  label: Bureau of Land Management Catalog API
+  slug: bureau-of-land-management-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-gbp-hub-search-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-catalog-api-openapi.yml
+- filename: bureau-of-land-management-collection-api-openapi.yml
+  format: yaml
+  label: Bureau of Land Management Collection API
+  slug: bureau-of-land-management-collection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-collection-api-openapi.yml
+- filename: bureau-of-land-management-geoservice-beta-api-openapi.yml
+  format: yaml
+  label: Bureau of Land Management Geoservice Beta API
+  slug: bureau-of-land-management-geoservice-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-geoservice-beta-api-openapi.yml
+- filename: bureau-of-land-management-ogcitem-api-openapi.yml
+  format: yaml
+  label: Bureau of Land Management Ogc Item API
+  slug: bureau-of-land-management-ogcitem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcitem-api-openapi.yml
+- filename: bureau-of-land-management-ogcitemaggregation-api-openapi.yml
+  format: yaml
+  label: Bureau of Land Management Ogc Item Aggregation API
+  slug: bureau-of-land-management-ogcitemaggregation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcitemaggregation-api-openapi.yml
+- filename: bureau-of-land-management-ogcroot-api-openapi.yml
+  format: yaml
+  label: Bureau of Land Management Ogc Root API
+  slug: bureau-of-land-management-ogcroot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcroot-api-openapi.yml
+- filename: bureau-of-land-management-ogcrootconformance-api-openapi.yml
+  format: yaml
+  label: Bureau of Land Management Ogc Root Conformance API
+  slug: bureau-of-land-management-ogcrootconformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcrootconformance-api-openapi.yml
+- filename: bureau-of-land-management-queryable-api-openapi.yml
+  format: yaml
+  label: Bureau of Land Management Queryable API
+  slug: bureau-of-land-management-queryable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-queryable-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -49,8 +91,8 @@ tags:
 - GIS
 - Geospatial
 - Mining
-- Public-Lands
-- Open-Data
+- Public Lands
+- Open Data
 - OGC
 - Cadastral
 - Recreation

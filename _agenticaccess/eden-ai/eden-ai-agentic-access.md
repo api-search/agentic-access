@@ -1,101 +1,487 @@
 ---
-acting_count: 28
+acting_count: 129
 action_class_counts:
-  acting: 28
-  connected: 25
+  acting: 129
+  connected: 75
 api_specs:
-- filename: eden-ai-audio-features-openapi.json
-  format: json
+- filename: eden-ai-ai-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Ai Detection API
+  slug: eden-ai-ai-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-ai-detection-api-openapi.yml
+- filename: eden-ai-anonymization-api-openapi.yml
+  format: yaml
+  label: Eden AI Anonymization API
+  slug: eden-ai-anonymization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-anonymization-api-openapi.yml
+- filename: eden-ai-anonymization-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Anonymization Async API
+  slug: eden-ai-anonymization-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-anonymization-async-api-openapi.yml
+- filename: eden-ai-anthropic-messages-api-openapi.yml
+  format: yaml
+  label: Eden AI Anthropic Messages API
+  slug: eden-ai-anthropic-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-anthropic-messages-api-openapi.yml
+- filename: eden-ai-audio-api-openapi.yml
+  format: yaml
   label: Eden AI Audio API
   slug: eden-ai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-audio-features-openapi.json
-- filename: eden-ai-image-features-openapi.json
-  format: json
-  label: Eden AI Image API
-  slug: eden-ai-image-api
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-audio-api-openapi.yml
+- filename: eden-ai-auth-keys-api-openapi.yml
+  format: yaml
+  label: Eden AI Auth Keys API
+  slug: eden-ai-auth-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-image-features-openapi.json
-- filename: eden-ai-ocr-features-openapi.json
-  format: json
-  label: Eden AI OCR API
-  slug: eden-ai-ocr-api
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-auth-keys-api-openapi.yml
+- filename: eden-ai-automatic-translation-api-openapi.yml
+  format: yaml
+  label: Eden AI Automatic Translation API
+  slug: eden-ai-automatic-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-ocr-features-openapi.json
-- filename: eden-ai-text-features-openapi.json
-  format: json
-  label: Eden AI Text API
-  slug: eden-ai-text-api
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-automatic-translation-api-openapi.yml
+- filename: eden-ai-automl-classification-api-openapi.yml
+  format: yaml
+  label: Eden AI Automl Classification API
+  slug: eden-ai-automl-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-text-features-openapi.json
-- filename: eden-ai-translation-features-openapi.json
-  format: json
-  label: Eden AI Translation API
-  slug: eden-ai-translation-api
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-automl-classification-api-openapi.yml
+- filename: eden-ai-background-removal-api-openapi.yml
+  format: yaml
+  label: Eden AI Background Removal API
+  slug: eden-ai-background-removal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-translation-features-openapi.json
-- filename: eden-ai-v3-openapi.json
-  format: json
-  label: Eden AI API V3
-  slug: eden-ai-v3-api
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-background-removal-api-openapi.yml
+- filename: eden-ai-bank-check-parsing-api-openapi.yml
+  format: yaml
+  label: Eden AI Bank Check Parsing API
+  slug: eden-ai-bank-check-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-v3-openapi.json
-- filename: eden-ai-video-features-openapi.json
-  format: json
-  label: Eden AI Video API
-  slug: eden-ai-video-api
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-bank-check-parsing-api-openapi.yml
+- filename: eden-ai-chat-api-openapi.yml
+  format: yaml
+  label: Eden AI Chat API
+  slug: eden-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-video-features-openapi.json
-- filename: eden-ai-llm-features-openapi.json
-  format: json
-  label: Eden AI LLM API (v2)
-  slug: eden-ai-llm-api
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-chat-api-openapi.yml
+- filename: eden-ai-code-generation-api-openapi.yml
+  format: yaml
+  label: Eden AI Code Generation API
+  slug: eden-ai-code-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-llm-features-openapi.json
-- filename: eden-ai-multimodal-features-openapi.json
-  format: json
-  label: Eden AI Multimodal API
-  slug: eden-ai-multimodal-api
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-code-generation-api-openapi.yml
+- filename: eden-ai-collections-api-openapi.yml
+  format: yaml
+  label: Eden AI Collections API
+  slug: eden-ai-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-multimodal-features-openapi.json
-- filename: eden-ai-user-management-openapi.json
-  format: json
-  label: Eden AI User Management API
-  slug: eden-ai-user-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-user-management-openapi.json
-- filename: eden-ai-cost-monitoring-openapi.json
-  format: json
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-collections-api-openapi.yml
+- filename: eden-ai-cost-monitoring-api-openapi.yml
+  format: yaml
   label: Eden AI Cost Monitoring API
   slug: eden-ai-cost-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-cost-monitoring-openapi.json
-- filename: eden-ai-organization-management-openapi.json
-  format: json
-  label: Eden AI Organization Management API
-  slug: eden-ai-organization-management-api
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-cost-monitoring-api-openapi.yml
+- filename: eden-ai-custom-document-parsing-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Custom Document Parsing Async API
+  slug: eden-ai-custom-document-parsing-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/_original/eden-ai-organization-management-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-custom-document-parsing-async-api-openapi.yml
+- filename: eden-ai-data-extraction-api-openapi.yml
+  format: yaml
+  label: Eden AI Data Extraction API
+  slug: eden-ai-data-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-data-extraction-api-openapi.yml
+- filename: eden-ai-deepfake-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Deepfake Detection API
+  slug: eden-ai-deepfake-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-deepfake-detection-api-openapi.yml
+- filename: eden-ai-deepfake-detection-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Deepfake Detection Async API
+  slug: eden-ai-deepfake-detection-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-deepfake-detection-async-api-openapi.yml
+- filename: eden-ai-document-translation-api-openapi.yml
+  format: yaml
+  label: Eden AI Document Translation API
+  slug: eden-ai-document-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-document-translation-api-openapi.yml
+- filename: eden-ai-embeddings-api-openapi.yml
+  format: yaml
+  label: Eden AI Embeddings API
+  slug: eden-ai-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-embeddings-api-openapi.yml
+- filename: eden-ai-emotion-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Emotion Detection API
+  slug: eden-ai-emotion-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-emotion-detection-api-openapi.yml
+- filename: eden-ai-entity-sentiment-api-openapi.yml
+  format: yaml
+  label: Eden AI Entity Sentiment API
+  slug: eden-ai-entity-sentiment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-entity-sentiment-api-openapi.yml
+- filename: eden-ai-explicit-content-api-openapi.yml
+  format: yaml
+  label: Eden AI Explicit Content API
+  slug: eden-ai-explicit-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-explicit-content-api-openapi.yml
+- filename: eden-ai-explicit-content-detection-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Explicit Content Detection Async API
+  slug: eden-ai-explicit-content-detection-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-explicit-content-detection-async-api-openapi.yml
+- filename: eden-ai-face-compare-api-openapi.yml
+  format: yaml
+  label: Eden AI Face Compare API
+  slug: eden-ai-face-compare-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-face-compare-api-openapi.yml
+- filename: eden-ai-face-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Face Detection API
+  slug: eden-ai-face-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-face-detection-api-openapi.yml
+- filename: eden-ai-face-detection-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Face Detection Async API
+  slug: eden-ai-face-detection-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-face-detection-async-api-openapi.yml
+- filename: eden-ai-face-recognition-api-openapi.yml
+  format: yaml
+  label: Eden AI Face Recognition API
+  slug: eden-ai-face-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-face-recognition-api-openapi.yml
+- filename: eden-ai-files-management-api-openapi.yml
+  format: yaml
+  label: Eden AI files management API
+  slug: eden-ai-files-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-files-management-api-openapi.yml
+- filename: eden-ai-financial-parser-api-openapi.yml
+  format: yaml
+  label: Eden AI Financial Parser API
+  slug: eden-ai-financial-parser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-financial-parser-api-openapi.yml
+- filename: eden-ai-generation-api-openapi.yml
+  format: yaml
+  label: Eden AI Generation API
+  slug: eden-ai-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-generation-api-openapi.yml
+- filename: eden-ai-generation-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Generation Async API
+  slug: eden-ai-generation-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-generation-async-api-openapi.yml
+- filename: eden-ai-groups-api-openapi.yml
+  format: yaml
+  label: Eden AI Groups API
+  slug: eden-ai-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-groups-api-openapi.yml
+- filename: eden-ai-identity-parser-api-openapi.yml
+  format: yaml
+  label: Eden AI Identity Parser API
+  slug: eden-ai-identity-parser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-identity-parser-api-openapi.yml
+- filename: eden-ai-image-api-openapi.yml
+  format: yaml
+  label: Eden AI Image API
+  slug: eden-ai-image-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-image-api-openapi.yml
+- filename: eden-ai-images-api-openapi.yml
+  format: yaml
+  label: Eden AI Images API
+  slug: eden-ai-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-images-api-openapi.yml
+- filename: eden-ai-info-api-openapi.yml
+  format: yaml
+  label: Eden AI Info API
+  slug: eden-ai-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-info-api-openapi.yml
+- filename: eden-ai-keys-api-openapi.yml
+  format: yaml
+  label: Eden AI Keys API
+  slug: eden-ai-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-keys-api-openapi.yml
+- filename: eden-ai-keyword-extraction-api-openapi.yml
+  format: yaml
+  label: Eden AI Keyword Extraction API
+  slug: eden-ai-keyword-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-keyword-extraction-api-openapi.yml
+- filename: eden-ai-label-detection-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Label Detection Async API
+  slug: eden-ai-label-detection-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-label-detection-async-api-openapi.yml
+- filename: eden-ai-landmark-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Landmark Detection API
+  slug: eden-ai-landmark-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-landmark-detection-api-openapi.yml
+- filename: eden-ai-language-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Language Detection API
+  slug: eden-ai-language-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-language-detection-api-openapi.yml
+- filename: eden-ai-logo-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Logo Detection API
+  slug: eden-ai-logo-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-logo-detection-api-openapi.yml
+- filename: eden-ai-logo-detection-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Logo Detection Async API
+  slug: eden-ai-logo-detection-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-logo-detection-async-api-openapi.yml
+- filename: eden-ai-members-api-openapi.yml
+  format: yaml
+  label: Eden AI Members API
+  slug: eden-ai-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-members-api-openapi.yml
+- filename: eden-ai-models-api-openapi.yml
+  format: yaml
+  label: Eden AI Models API
+  slug: eden-ai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-models-api-openapi.yml
+- filename: eden-ai-moderation-api-openapi.yml
+  format: yaml
+  label: Eden AI Moderation API
+  slug: eden-ai-moderation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-moderation-api-openapi.yml
+- filename: eden-ai-moderations-api-openapi.yml
+  format: yaml
+  label: Eden AI Moderations API
+  slug: eden-ai-moderations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-moderations-api-openapi.yml
+- filename: eden-ai-named-entity-recognition-api-openapi.yml
+  format: yaml
+  label: Eden AI Named Entity Recognition API
+  slug: eden-ai-named-entity-recognition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-named-entity-recognition-api-openapi.yml
+- filename: eden-ai-object-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Object Detection API
+  slug: eden-ai-object-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-object-detection-api-openapi.yml
+- filename: eden-ai-object-tracking-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Object Tracking Async API
+  slug: eden-ai-object-tracking-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-object-tracking-async-api-openapi.yml
+- filename: eden-ai-ocr-api-openapi.yml
+  format: yaml
+  label: Eden AI Ocr API
+  slug: eden-ai-ocr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-ocr-api-openapi.yml
+- filename: eden-ai-ocr-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Ocr Async API
+  slug: eden-ai-ocr-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-ocr-async-api-openapi.yml
+- filename: eden-ai-ocr-tables-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Ocr Tables Async API
+  slug: eden-ai-ocr-tables-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-ocr-tables-async-api-openapi.yml
+- filename: eden-ai-person-tracking-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Person Tracking Async API
+  slug: eden-ai-person-tracking-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-person-tracking-async-api-openapi.yml
+- filename: eden-ai-plagia-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Plagia Detection API
+  slug: eden-ai-plagia-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-plagia-detection-api-openapi.yml
+- filename: eden-ai-prompt-optimization-api-openapi.yml
+  format: yaml
+  label: Eden AI Prompt Optimization API
+  slug: eden-ai-prompt-optimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-prompt-optimization-api-openapi.yml
+- filename: eden-ai-question-answer-api-openapi.yml
+  format: yaml
+  label: Eden AI Question Answer API
+  slug: eden-ai-question-answer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-question-answer-api-openapi.yml
+- filename: eden-ai-question-answer-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Question Answer Async API
+  slug: eden-ai-question-answer-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-question-answer-async-api-openapi.yml
+- filename: eden-ai-responses-api-openapi.yml
+  format: yaml
+  label: Eden AI Responses API
+  slug: eden-ai-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-responses-api-openapi.yml
+- filename: eden-ai-resume-parser-api-openapi.yml
+  format: yaml
+  label: Eden AI Resume Parser API
+  slug: eden-ai-resume-parser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-resume-parser-api-openapi.yml
+- filename: eden-ai-search-api-openapi.yml
+  format: yaml
+  label: Eden AI Search API
+  slug: eden-ai-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-search-api-openapi.yml
+- filename: eden-ai-sentiment-analysis-api-openapi.yml
+  format: yaml
+  label: Eden AI Sentiment Analysis API
+  slug: eden-ai-sentiment-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-sentiment-analysis-api-openapi.yml
+- filename: eden-ai-shot-change-detection-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Shot Change Detection Async API
+  slug: eden-ai-shot-change-detection-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-shot-change-detection-async-api-openapi.yml
+- filename: eden-ai-speech-to-text-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Speech To Text Async API
+  slug: eden-ai-speech-to-text-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-speech-to-text-async-api-openapi.yml
+- filename: eden-ai-spell-check-api-openapi.yml
+  format: yaml
+  label: Eden AI Spell Check API
+  slug: eden-ai-spell-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-spell-check-api-openapi.yml
+- filename: eden-ai-summarize-api-openapi.yml
+  format: yaml
+  label: Eden AI Summarize API
+  slug: eden-ai-summarize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-summarize-api-openapi.yml
+- filename: eden-ai-text-api-openapi.yml
+  format: yaml
+  label: Eden AI Text API
+  slug: eden-ai-text-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-text-api-openapi.yml
+- filename: eden-ai-text-detection-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Text Detection Async API
+  slug: eden-ai-text-detection-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-text-detection-async-api-openapi.yml
+- filename: eden-ai-text-to-speech-api-openapi.yml
+  format: yaml
+  label: Eden AI Text To Speech API
+  slug: eden-ai-text-to-speech-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-text-to-speech-api-openapi.yml
+- filename: eden-ai-text-to-speech-async-api-openapi.yml
+  format: yaml
+  label: Eden AI Text To Speech Async API
+  slug: eden-ai-text-to-speech-async-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-text-to-speech-async-api-openapi.yml
+- filename: eden-ai-topic-extraction-api-openapi.yml
+  format: yaml
+  label: Eden AI Topic Extraction API
+  slug: eden-ai-topic-extraction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-topic-extraction-api-openapi.yml
+- filename: eden-ai-translation-api-openapi.yml
+  format: yaml
+  label: Eden AI Translation API
+  slug: eden-ai-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-translation-api-openapi.yml
+- filename: eden-ai-universal-ai-api-openapi.yml
+  format: yaml
+  label: Eden AI Universal AI API
+  slug: eden-ai-universal-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-universal-ai-api-openapi.yml
+- filename: eden-ai-usage-api-openapi.yml
+  format: yaml
+  label: Eden AI Usage API
+  slug: eden-ai-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-usage-api-openapi.yml
+- filename: eden-ai-user-management-api-openapi.yml
+  format: yaml
+  label: Eden AI User Management API
+  slug: eden-ai-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-user-management-api-openapi.yml
+- filename: eden-ai-whoami-api-openapi.yml
+  format: yaml
+  label: Eden AI Whoami API
+  slug: eden-ai-whoami-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/openapi/eden-ai-whoami-api-openapi.yml
 consequence_counts:
-  destructive: 7
-  read: 25
-  write: 21
-description: Recommended x-agentic-access execution contracts, classified from the FIRST-PARTY Eden AI contracts harvested from api.edenai.run on 2026-09-06. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. REPLACES a 2026-07-15 version built from openapi/_original/eden-ai-openapi.yml, whose nine camelCase operationIds do not appear in anything Eden AI publishes (see provenance.yml).
-human_in_the_loop: 6
+  read: 75
+  write: 129
+description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
+human_in_the_loop: 0
 kind: agentic-access
 layout: agentic-access
 method: generated
 name: Eden Ai Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
-operation_count: 53
-overview: 'Eden AI exposes 53 API operations that an AI agent could call, of which 28 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+operation_count: 204
+overview: 'Eden AI exposes 204 API operations that an AI agent could call, of which 129 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 25 read and 21 write.
-
-
-  6 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
+  By consequence: 75 read and 129 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -105,42 +491,51 @@ slug: eden-ai-agentic-access
 source_filename: eden-ai-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-06'\nmethod: generated\nsource: openapi/_original/eden-ai-v3-openapi.json + openapi/_original/eden-ai-organization-management-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified from the FIRST-PARTY Eden AI contracts\n  harvested from api.edenai.run on 2026-09-06. A governance starting point for exposing this API to AI agents —\n  review and bind audience per deployment. REPLACES a 2026-07-15 version built from openapi/_original/eden-ai-openapi.yml,\n  whose nine camelCase operationIds do not appear in anything Eden AI publishes (see provenance.yml).\nrisk_notes:\n- Inference operations SPEND MONEY on completion and there is no Idempotency-Key header anywhere in the contract,\n  so a retried call is a second charge. Bound spend per key (balance, balance_reset_period) and with guardrails\n  rather than relying on request-level replay protection.\n- Errors can arrive inside a 2xx when every fallback is exhausted; an agent\
-  \ that treats HTTP 200 as success will\n  bill for and act on failures.\n- A sandbox_api_token gives a true rehearsal mode on the same endpoints at no cost — prefer it for any unattended\n  dry run.\n- DELETE /v3/manage/keys/{key_id} is documented as irreversible.\nsummary:\n  operations: 53\n  by_action_class:\n    connected: 25\n    acting: 28\n  by_consequence:\n    read: 25\n    write: 21\n    destructive: 7\n  human_in_the_loop_required: 6\noperations:\n- path: /v3/info\n  method: get\n  operationId: list_features_v3_info_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/info/{feature}\n  method: get\n  operationId: list_subfeatures_v3_info__feature__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/info/{feature}/{subfeature}\n  method: get\n  operationId: get_feature_info_v3_info__feature___subfeature__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/chat/completions\n  method: post\n  operationId: chat_completions_v3_chat_completions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility:\
-  \ none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - budget-threshold\n- path: /v3/responses\n  method: post\n  operationId: create_response_v3_responses_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - budget-threshold\n- path: /v3/responses/{response_id}\n  method: get\n  operationId: retrieve_response_v3_responses__response_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/responses/{response_id}\n  method: delete\n  operationId: delete_response_v3_responses__response_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: destructive\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - bulk-delete\n      - abnormal\n    reversibility: none\n- path: /v3/moderations\n  method: post\n  operationId: create_moderation_v3_moderations_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n      - budget-threshold\n- path: /v3/moderations/models\n  method: get\n  operationId: list_moderation_models_v3_moderations_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/embeddings\n  method: post\n  operationId: create_embeddings_v3_embeddings_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - budget-threshold\n\
-  - path: /v3/embeddings/models\n  method: get\n  operationId: list_embeddings_models_v3_embeddings_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/v1/messages\n  method: post\n  operationId: create_anthropic_message_v3_v1_messages_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - budget-threshold\n- path: /v3/v1/messages/count_tokens\n  method:\
-  \ post\n  operationId: count_anthropic_tokens_v3_v1_messages_count_tokens_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/images/generations\n  method: post\n  operationId: image_generations_v3_images_generations_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - budget-threshold\n- path: /v3/images/edits\n  method: post\n  operationId: image_edits_v3_images_edits_post\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - budget-threshold\n- path: /v3/images/models\n  method: get\n  operationId: list_image_models_v3_images_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/audio/transcriptions\n  method: post\n  operationId: audio_transcriptions_v3_audio_transcriptions_post\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - budget-threshold\n- path: /v3/audio/transcriptions/models\n  method: get\n  operationId: list_transcription_models_v3_audio_transcriptions_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/audio/speech\n  method: post\n  operationId: audio_speech_v3_audio_speech_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
-  \ required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - budget-threshold\n- path: /v3/audio/speech/models\n  method: get\n  operationId: list_speech_models_v3_audio_speech_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/models\n  method: get\n  operationId: list_models_v3_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n   \
-  \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/universal-ai\n  method: post\n  operationId: universal_ai_v3_universal_ai_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - budget-threshold\n- path: /v3/universal-ai/async\n  method: post\n  operationId: create_async_job_v3_universal_ai_async_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n  \
-  \    cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - budget-threshold\n- path: /v3/universal-ai/async\n  method: get\n  operationId: list_async_jobs_v3_universal_ai_async_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/universal-ai/async/{job_id}\n  method: get\n  operationId: get_async_job_v3_universal_ai_async__job_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \    reversibility: documented\n- path: /v3/universal-ai/async/{job_id}\n  method: delete\n  operationId: delete_async_job_v3_universal_ai_async__job_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: destructive\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - bulk-delete\n      - abnormal\n    reversibility: none\n- path: /v3/universal-ai/collections\n  method: post\n  operationId: create_collection_v3_universal_ai_collections_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n      - budget-threshold\n- path: /v3/universal-ai/collections\n  method: get\n  operationId: list_collections_v3_universal_ai_collections_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/universal-ai/collections/{collection_id}\n  method: get\n  operationId: get_collection_v3_universal_ai_collections__collection_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/universal-ai/collections/{collection_id}\n  method: delete\n  operationId: delete_collection_v3_universal_ai_collections__collection_id__delete\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: destructive\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - bulk-delete\n      - abnormal\n    reversibility: none\n- path: /v3/universal-ai/collections/{collection_id}/items\n  method: post\n  operationId: add_item_v3_universal_ai_collections__collection_id__items_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    spend:\n      billed: true\n      currency: USD\n      cost-field: cost\n      note: Billed on completion. No idempotency key exists, so a retry is a second charge.\n    reversibility: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - budget-threshold\n- path: /v3/universal-ai/collections/{collection_id}/items\n  method: get\n\
-  \  operationId: list_items_v3_universal_ai_collections__collection_id__items_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/universal-ai/collections/{collection_id}/items/{item_id}\n  method: delete\n  operationId: delete_item_v3_universal_ai_collections__collection_id__items__item_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: destructive\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - bulk-delete\n      - abnormal\n    reversibility: none\n- path: /v3/upload\n  method: post\n  operationId: upload_file_v3_upload_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n\
-  \      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/upload\n  method: get\n  operationId: list_files_v3_upload_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/upload\n  method: delete\n  operationId: delete_all_files_v3_upload_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: destructive\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - bulk-delete\n      - abnormal\n    reversibility: none\n- path: /v3/upload/delete\n  method: post\n  operationId: delete_files_by_ids_v3_upload_delete_post\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/manage/auth-keys/\n  method: get\n  operationId: manage_auth_keys_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/manage/auth-keys/\n  method: post\n  operationId: manage_auth_keys_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    scope:\n    - manage:mint\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - credential-issuance\n      - credential-revocation\n  \
-  \  reversibility: rotatable\n- path: /v3/manage/auth-keys/{key_id}/\n  method: delete\n  operationId: manage_auth_keys_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: destructive\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    scope:\n    - manage:mint\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - credential-issuance\n      - credential-revocation\n    reversibility: irreversible\n- path: /v3/manage/groups/\n  method: get\n  operationId: manage_groups_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/manage/groups/{external_group_id}/\n  method: get\n  operationId: manage_groups_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/manage/keys/\n  method: get\n  operationId: manage_keys_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/manage/keys/\n  method: post\n  operationId: manage_keys_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    scope:\n    - manage:write\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - credential-issuance\n      - credential-revocation\n    reversibility: rotatable\n- path: /v3/manage/keys/{key_id}/\n  method: get\n  operationId:\
-  \ manage_keys_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/manage/keys/{key_id}/\n  method: patch\n  operationId: manage_keys_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    scope:\n    - manage:write\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - credential-issuance\n      - credential-revocation\n    reversibility: rotatable\n- path: /v3/manage/keys/{key_id}/\n  method: delete\n  operationId: manage_keys_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: destructive\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    scope:\n    - manage:write\n \
-  \   escalation:\n      human-in-the-loop: required\n      triggers:\n      - credential-issuance\n      - credential-revocation\n    reversibility: irreversible\n- path: /v3/manage/keys/{key_id}/rotate/\n  method: post\n  operationId: manage_keys_rotate_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    scope:\n    - manage:write\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - credential-issuance\n      - credential-revocation\n    reversibility: rotatable\n- path: /v3/manage/keys/{key_id}/usage/\n  method: get\n  operationId: manage_keys_usage_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/manage/members/\n  method:\
-  \ get\n  operationId: manage_members_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/manage/members/{email}/role/\n  method: patch\n  operationId: manage_members_role_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    token:\n      max-ttl: 900\n    audit: required\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n- path: /v3/manage/usage/\n  method: get\n  operationId: manage_usage_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \    reversibility: documented\n- path: /v3/manage/whoami/\n  method: get\n  operationId: manage_whoami_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    reversibility: documented\n"
+source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/eden-ai-ai-detection-api-openapi.yml, openapi/eden-ai-anonymization-api-openapi.yml,\n  openapi/eden-ai-anonymization-async-api-openapi.yml, openapi/eden-ai-anthropic-messages-api-openapi.yml,\n  openapi/eden-ai-audio-api-openapi.yml, openapi/eden-ai-auth-keys-api-openapi.yml, openapi/eden-ai-automatic-translation-api-openapi.yml,\n  openapi/eden-ai-automl-classification-api-openapi.yml, openapi/eden-ai-background-removal-api-openapi.yml,\n  openapi/eden-ai-bank-check-parsing-api-openapi.yml, openapi/eden-ai-chat-api-openapi.yml,\n  openapi/eden-ai-code-generation-api-openapi.yml, openapi/eden-ai-collections-api-openapi.yml,\n  openapi/eden-ai-cost-monitoring-api-openapi.yml, openapi/eden-ai-custom-document-parsing-async-api-openapi.yml,\n  openapi/eden-ai-data-extraction-api-openapi.yml, openapi/eden-ai-deepfake-detection-api-openapi.yml,\n  openapi/eden-ai-deepfake-detection-async-api-openapi.yml, openapi/eden-ai-document-translation-api-openapi.yml,\n\
+  \  openapi/eden-ai-embeddings-api-openapi.yml, openapi/eden-ai-emotion-detection-api-openapi.yml,\n  openapi/eden-ai-entity-sentiment-api-openapi.yml, openapi/eden-ai-explicit-content-api-openapi.yml,\n  openapi/eden-ai-explicit-content-detection-async-api-openapi.yml, openapi/eden-ai-face-compare-api-openapi.yml,\n  openapi/eden-ai-face-detection-api-openapi.yml, openapi/eden-ai-face-detection-async-api-openapi.yml,\n  openapi/eden-ai-face-recognition-api-openapi.yml, openapi/eden-ai-files-management-api-openapi.yml,\n  openapi/eden-ai-financial-parser-api-openapi.yml, openapi/eden-ai-generation-api-openapi.yml,\n  openapi/eden-ai-generation-async-api-openapi.yml, openapi/eden-ai-groups-api-openapi.yml,\n  openapi/eden-ai-identity-parser-api-openapi.yml, openapi/eden-ai-image-api-openapi.yml, openapi/eden-ai-images-api-openapi.yml,\n  openapi/eden-ai-info-api-openapi.yml, openapi/eden-ai-keys-api-openapi.yml, openapi/eden-ai-keyword-extraction-api-openapi.yml,\n  openapi/eden-ai-label-detection-async-api-openapi.yml,\
+  \ openapi/eden-ai-landmark-detection-api-openapi.yml,\n  openapi/eden-ai-language-detection-api-openapi.yml, openapi/eden-ai-logo-detection-api-openapi.yml,\n  openapi/eden-ai-logo-detection-async-api-openapi.yml, openapi/eden-ai-members-api-openapi.yml,\n  openapi/eden-ai-models-api-openapi.yml, openapi/eden-ai-moderation-api-openapi.yml, openapi/eden-ai-moderations-api-openapi.yml,\n  openapi/eden-ai-named-entity-recognition-api-openapi.yml, openapi/eden-ai-object-detection-api-openapi.yml,\n  openapi/eden-ai-object-tracking-async-api-openapi.yml, openapi/eden-ai-ocr-api-openapi.yml,\n  openapi/eden-ai-ocr-async-api-openapi.yml, openapi/eden-ai-ocr-tables-async-api-openapi.yml,\n  openapi/eden-ai-person-tracking-async-api-openapi.yml, openapi/eden-ai-plagia-detection-api-openapi.yml,\n  openapi/eden-ai-prompt-optimization-api-openapi.yml, openapi/eden-ai-question-answer-api-openapi.yml,\n  openapi/eden-ai-question-answer-async-api-openapi.yml, openapi/eden-ai-responses-api-openapi.yml,\n\
+  \  openapi/eden-ai-resume-parser-api-openapi.yml, openapi/eden-ai-search-api-openapi.yml, openapi/eden-ai-sentiment-analysis-api-openapi.yml,\n  openapi/eden-ai-shot-change-detection-async-api-openapi.yml, openapi/eden-ai-speech-to-text-async-api-openapi.yml,\n  openapi/eden-ai-spell-check-api-openapi.yml, openapi/eden-ai-summarize-api-openapi.yml, openapi/eden-ai-text-api-openapi.yml,\n  openapi/eden-ai-text-detection-async-api-openapi.yml, openapi/eden-ai-text-to-speech-api-openapi.yml,\n  openapi/eden-ai-text-to-speech-async-api-openapi.yml, openapi/eden-ai-topic-extraction-api-openapi.yml,\n  openapi/eden-ai-translation-api-openapi.yml, openapi/eden-ai-universal-ai-api-openapi.yml,\n  openapi/eden-ai-usage-api-openapi.yml, openapi/eden-ai-user-management-api-openapi.yml, openapi/eden-ai-whoami-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents —\
+  \ review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 204\n  by_action_class:\n    acting: 129\n    connected: 75\n  by_consequence:\n    write: 129\n    read: 75\n  human_in_the_loop_required: 0\noperations:\n- path: /image/ai_detection/\n  method: post\n  operationId: image_ai_detection_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text/ai_detection/\n  method: post\n  operationId: text_ai_detection_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
+  \ /image/anonymization/\n  method: post\n  operationId: image_anonymization_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text/anonymization/\n  method: post\n  operationId: text_anonymization_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocr/anonymization_async/\n  method: get\n  operationId: ocr_anonymization_async_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocr/anonymization_async/\n\
+  \  method: post\n  operationId: ocr_anonymization_async_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocr/anonymization_async/\n  method: delete\n  operationId: ocr_anonymization_async_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocr/anonymization_async/{public_id}/\n  method: get\n  operationId: ocr_anonymization_async_retrieve_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/v1/messages\n\
+  \  method: post\n  operationId: create_anthropic_message_v3_v1_messages_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/v1/messages/count_tokens\n  method: post\n  operationId: count_anthropic_tokens_v3_v1_messages_count_tokens_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audio/speech_to_text_async\n  method: post\n  operationId: audioSpeechToTextAsyncCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
+  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audio/speech_to_text_async/{public_id}\n  method: get\n  operationId: audioSpeechToTextAsyncGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/audio/transcriptions\n  method: post\n  operationId: audio_transcriptions_v3_audio_transcriptions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/audio/transcriptions/models\n  method: get\n  operationId: list_transcription_models_v3_audio_transcriptions_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/audio/speech\n  method: post\n  operationId: audio_speech_v3_audio_speech_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/audio/speech/models\n  method: get\n  operationId: list_speech_models_v3_audio_speech_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /manage/auth-keys/\n  method: get\n  operationId: manage_auth_keys_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /manage/auth-keys/\n  method: post\n  operationId: manage_auth_keys_create\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /manage/auth-keys/{key_id}/\n  method: delete\n  operationId: manage_auth_keys_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /translation/automatic_translation/\n  method: post\n  operationId: translation_automatic_translation_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
+  \    audit: required\n- path: /image/automl_classification/create_project/\n  method: post\n  operationId: image_automl_classification_create_project_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/automl_classification/delete_project/\n  method: post\n  operationId: image_automl_classification_delete_project_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/automl_classification/list_projects/\n  method: get\n  operationId: image_automl_classification_list_projects_retrieve\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/automl_classification/predict_async/\n  method: get\n  operationId: image_automl_classification_predict_async_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/automl_classification/predict_async/\n  method: post\n  operationId: image_automl_classification_predict_async_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/automl_classification/predict_async/{public_id}/\n  method: get\n  operationId: image_automl_classification_predict_async_retrieve_2\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/automl_classification/train_async/\n  method: get\n  operationId: image_automl_classification_train_async_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/automl_classification/train_async/\n  method: post\n  operationId: image_automl_classification_train_async_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/automl_classification/train_async/{public_id}/\n  method: get\n  operationId: image_automl_classification_train_async_retrieve_2\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/automl_classification/upload_data_async/\n  method: get\n  operationId: image_automl_classification_upload_data_async_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/automl_classification/upload_data_async/\n  method: post\n  operationId: image_automl_classification_upload_data_async_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/automl_classification/upload_data_async/{public_id}/\n  method: get\n  operationId: image_automl_classification_upload_data_async_retrieve_2\n  x-agentic-access:\n    action-class: connected\n   \
+  \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/background_removal/\n  method: post\n  operationId: image_background_removal_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocr/bank_check_parsing/\n  method: post\n  operationId: ocr_bank_check_parsing_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /llm/chat/\n  method: post\n  operationId: llm_chat_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /multimodal/chat/\n  method: post\n  operationId: multimodal_multimodal_chat_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text/chat/\n  method: post\n  operationId: text_chat_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text/chat/stream/\n  method: post\n  operationId: text_chat_stream_create\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/chat/completions\n  method: post\n  operationId: chat_completions_v3_chat_completions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text/code_generation/\n  method: post\n  operationId: text_code_generation_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
+  - path: /v3/universal-ai/collections\n  method: post\n  operationId: create_collection_v3_universal_ai_collections_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/universal-ai/collections\n  method: get\n  operationId: list_collections_v3_universal_ai_collections_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/universal-ai/collections/{collection_id}\n  method: get\n  operationId: get_collection_v3_universal_ai_collections__collection_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/universal-ai/collections/{collection_id}\n\
+  \  method: delete\n  operationId: delete_collection_v3_universal_ai_collections__collection_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/universal-ai/collections/{collection_id}/items\n  method: post\n  operationId: add_item_v3_universal_ai_collections__collection_id__items_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/universal-ai/collections/{collection_id}/items\n  method: get\n  operationId: list_items_v3_universal_ai_collections__collection_id__items_get\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/universal-ai/collections/{collection_id}/items/{item_id}\n  method: delete\n  operationId: delete_item_v3_universal_ai_collections__collection_id__items__item_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cost_management/\n  method: get\n  operationId: cost_management_root_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cost_management/credits/\n  method: get\n  operationId: cost_management_<Display Name of your Subfeature>\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocr/custom_document_parsing_async/\n  method: get\n  operationId: ocr_custom_document_parsing_async_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocr/custom_document_parsing_async/\n  method: post\n  operationId: ocr_custom_document_parsing_async_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocr/custom_document_parsing_async/\n  method: delete\n  operationId: ocr_custom_document_parsing_async_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocr/custom_document_parsing_async/{public_id}/\n  method: get\n  operationId: ocr_custom_document_parsing_async_retrieve_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocr/data_extraction/\n  method: post\n  operationId: ocr_data_extraction_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/deepfake_detection/\n  method: post\n  operationId: image_deepfake_detection_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
+  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video/deepfake_detection_async/\n  method: get\n  operationId: video_deepfake_detection_async_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /video/deepfake_detection_async/\n  method: post\n  operationId: video_deepfake_detection_async_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video/deepfake_detection_async/\n  method: delete\n  operationId: video_deepfake_detection_async_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
+  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video/deepfake_detection_async/{public_id}/\n  method: get\n  operationId: video_deepfake_detection_async_retrieve_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translation/document_translation/\n  method: post\n  operationId: translation_document_translation_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/embeddings/\n  method: post\n  operationId: image_embeddings_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
+  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text/embeddings/\n  method: post\n  operationId: text_embeddings_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/embeddings\n  method: post\n  operationId: create_embeddings_v3_embeddings_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/embeddings/models\n  method: get\n  operationId: list_embeddings_models_v3_embeddings_models_get\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /text/emotion_detection/\n  method: post\n  operationId: text_emotion_detection_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text/entity_sentiment/\n  method: post\n  operationId: text_entity_sentiment_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/explicit_content/\n  method: post\n  operationId: image_explicit_content_create\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video/explicit_content_detection_async/\n  method: get\n  operationId: video_explicit_content_detection_async_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /video/explicit_content_detection_async/\n  method: post\n  operationId: video_explicit_content_detection_async_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video/explicit_content_detection_async/\n  method: delete\n\
+  \  operationId: video_explicit_content_detection_async_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video/explicit_content_detection_async/{public_id}/\n  method: get\n  operationId: video_explicit_content_detection_async_retrieve_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/face_compare/\n  method: post\n  operationId: image_face_compare_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
+  \ /image/face_detection/\n  method: post\n  operationId: image_face_detection_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video/face_detection_async/\n  method: get\n  operationId: video_face_detection_async_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /video/face_detection_async/\n  method: post\n  operationId: video_face_detection_async_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
+  \ /video/face_detection_async/\n  method: delete\n  operationId: video_face_detection_async_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video/face_detection_async/{public_id}/\n  method: get\n  operationId: video_face_detection_async_retrieve_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/face_recognition/add_face/\n  method: post\n  operationId: image_face_recognition_add_face_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
+  \ high-value\n    audit: required\n- path: /image/face_recognition/delete_face/\n  method: post\n  operationId: image_face_recognition_delete_face_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/face_recognition/list_faces/\n  method: get\n  operationId: image_face_recognition_list_faces_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/face_recognition/recognize/\n  method: post\n  operationId: image_face_recognition_recognize_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/upload\n  method: post\n  operationId: upload_file_v3_upload_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/upload\n  method: get\n  operationId: list_files_v3_upload_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/upload\n  method: delete\n  operationId: delete_all_files_v3_upload_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
+  \ high-value\n    audit: required\n- path: /v3/upload/delete\n  method: post\n  operationId: delete_files_by_ids_v3_upload_delete_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocr/financial_parser/\n  method: post\n  operationId: ocr_financial_parser_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/generation/\n  method: post\n  o\n\n# --- truncated at 32 KB (67 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/agentic-access/eden-ai-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/agentic-access/eden-ai-agentic-access.yml
-summary_line: 53 operations · 28 acting · 6 human-in-the-loop
+summary_line: 204 operations · 129 acting
 tags:
 - Artificial Intelligence
 - AI Gateway
 - LLM
-- Machine Learning
+- Machine-Learning
 - OCR
 - Translation
 - Speech
-- Computer Vision
-- Model Context Protocol
+- Computer-Vision
+- MCP
 - Emotion Detection
 ---

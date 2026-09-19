@@ -4,12 +4,6 @@ action_class_counts:
   acting: 59
   connected: 44
 api_specs:
-- filename: soda-data-cloud-api-v4-openapi.yml
-  format: yaml
-  label: Soda Cloud API v4
-  slug: soda-data
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/_original/soda-data-cloud-api-v4-openapi.yml
 - filename: soda-data-attributes-api-openapi.yml
   format: yaml
   label: Soda Attributes API
@@ -40,12 +34,6 @@ api_specs:
   slug: soda-data-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-datasets-api-openapi.yml
-- filename: soda-data-datasources-api-openapi.yml
-  format: yaml
-  label: Soda Datasources API
-  slug: soda-data-datasources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-datasources-api-openapi.yml
 - filename: soda-data-discovered-datasets-api-openapi.yml
   format: yaml
   label: Soda Discovered Datasets API
@@ -100,6 +88,12 @@ api_specs:
   slug: soda-data-utility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-utility-api-openapi.yml
+- filename: soda-data-data-sources-api-openapi.yml
+  format: yaml
+  label: Soda Data Sources API
+  slug: soda-data-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-data-sources-api-openapi.yml
 consequence_counts:
   read: 44
   safety-critical: 1

@@ -10,12 +10,6 @@ api_specs:
   slug: google-shopping-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/openapi/google-shopping-accounts-api-openapi.yml
-- filename: google-shopping-datafeeds-api-openapi.yml
-  format: yaml
-  label: Google Content API for Shopping Datafeeds API
-  slug: google-shopping-datafeeds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/openapi/google-shopping-datafeeds-api-openapi.yml
 - filename: google-shopping-orders-api-openapi.yml
   format: yaml
   label: Google Content API for Shopping Orders API
@@ -28,6 +22,12 @@ api_specs:
   slug: google-shopping-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/openapi/google-shopping-products-api-openapi.yml
+- filename: google-shopping-data-feeds-api-openapi.yml
+  format: yaml
+  label: Google Content API for Shopping Data Feeds API
+  slug: google-shopping-data-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/openapi/google-shopping-data-feeds-api-openapi.yml
 consequence_counts:
   read: 5
   write: 2

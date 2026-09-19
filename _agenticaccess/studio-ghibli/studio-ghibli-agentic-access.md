@@ -67,7 +67,7 @@ tags:
 - Studio Ghibli
 - Film
 - Characters
-- Locations
+- Location
 - Species
 - Vehicles
 - Public APIs

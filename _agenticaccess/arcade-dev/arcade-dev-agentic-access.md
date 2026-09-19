@@ -97,5 +97,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/arcade
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workers/{id}/health\n  method: get\n  operationId: workers-health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workers/{id}/tools\n  method: get\n  operationId: tools-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/agentic-access/arcade-dev-agentic-access.yml
 summary_line: 56 operations · 30 acting
-tags: []
+tags:
+- Authorization
+- LLM
+- Plugins
 ---

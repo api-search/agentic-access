@@ -100,7 +100,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/h
 summary_line: 29 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence
-- ML
+- Machine-Learning
 - Orchestration
 - Workflows
 - MLOps

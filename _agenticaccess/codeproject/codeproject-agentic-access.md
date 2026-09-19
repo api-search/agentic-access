@@ -140,7 +140,7 @@ tags:
 - Computer-Vision
 - Developer Community
 - Face Recognition
-- Forum
+- Forums
 - Knowledge Base
 - License Plate Recognition
 - Object Detection

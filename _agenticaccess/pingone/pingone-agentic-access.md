@@ -77,8 +77,9 @@ tags:
 - Identity
 - Authentication
 - Authorization
-- Single Sign-On
+- SSO
 - Multi-Factor Authentication
-- IAM
+- Identity and Access Management
 - CIAM
+- Identity Federation
 ---

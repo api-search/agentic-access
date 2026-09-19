@@ -58,12 +58,6 @@ api_specs:
   slug: mireye-meta-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-meta-api-openapi.yml
-- filename: mireye-oauth-api-openapi.yml
-  format: yaml
-  label: Mireye Oauth API
-  slug: mireye-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-oauth-api-openapi.yml
 - filename: mireye-readyz-api-openapi.yml
   format: yaml
   label: Mireye Readyz API
@@ -106,6 +100,12 @@ api_specs:
   slug: mireye-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-well-known-api-openapi.yml
+- filename: mireye-oauth-api-openapi.yml
+  format: yaml
+  label: Mireye OAUTH API
+  slug: mireye-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-oauth-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 3

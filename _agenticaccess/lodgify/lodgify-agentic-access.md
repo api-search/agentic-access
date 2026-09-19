@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lodgif
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/agentic-access/lodgify-agentic-access.yml
 summary_line: 23 operations · 11 acting
 tags:
-- Vacation Rental
+- Vacation Rentals
 - Property Management
 - Booking
 - Channel Manager

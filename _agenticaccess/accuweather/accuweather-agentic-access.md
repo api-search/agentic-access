@@ -15,12 +15,6 @@ api_specs:
   slug: accuweather-ads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-ads-api-openapi.yml
-- filename: accuweather-airquality-api-openapi.yml
-  format: yaml
-  label: AccuWeather AirQuality API
-  slug: accuweather-airquality-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-airquality-api-openapi.yml
 - filename: accuweather-autocomplete-api-openapi.yml
   format: yaml
   label: AccuWeather Autocomplete API
@@ -129,6 +123,12 @@ api_specs:
   slug: accuweather-wintercast-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-wintercast-api-openapi.yml
+- filename: accuweather-air-quality-api-openapi.yml
+  format: yaml
+  label: AccuWeather Air Quality API
+  slug: accuweather-air-quality-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-air-quality-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

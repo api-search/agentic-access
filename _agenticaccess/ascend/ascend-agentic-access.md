@@ -52,12 +52,6 @@ api_specs:
   slug: ascend-financeestimate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-financeestimate-api-openapi.yml
-- filename: ascend-installmentplans-api-openapi.yml
-  format: yaml
-  label: Ascend InstallmentPlans API
-  slug: ascend-installmentplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-installmentplans-api-openapi.yml
 - filename: ascend-installments-api-openapi.yml
   format: yaml
   label: Ascend Installments API
@@ -82,12 +76,6 @@ api_specs:
   slug: ascend-loans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-loans-api-openapi.yml
-- filename: ascend-onetimepayments-api-openapi.yml
-  format: yaml
-  label: Ascend OneTimePayments API
-  slug: ascend-onetimepayments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-onetimepayments-api-openapi.yml
 - filename: ascend-organization-account-users-api-openapi.yml
   format: yaml
   label: Ascend Organization Account Users API
@@ -142,6 +130,18 @@ api_specs:
   slug: ascend-wholesalers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-wholesalers-api-openapi.yml
+- filename: ascend-installment-plans-api-openapi.yml
+  format: yaml
+  label: Ascend Installment Plans API
+  slug: ascend-installment-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-installment-plans-api-openapi.yml
+- filename: ascend-one-time-payments-api-openapi.yml
+  format: yaml
+  label: Ascend One-Time Payments API
+  slug: ascend-one-time-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/openapi/ascend-one-time-payments-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 37

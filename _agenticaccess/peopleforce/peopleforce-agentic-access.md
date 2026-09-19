@@ -78,7 +78,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/people
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/agentic-access/peopleforce-agentic-access.yml
 summary_line: 15 operations · 4 acting
 tags:
-- HR
 - Human Resources
 - Recruitment
 - Employees

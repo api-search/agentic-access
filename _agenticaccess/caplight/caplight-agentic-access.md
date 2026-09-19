@@ -69,12 +69,6 @@ api_specs:
   slug: caplight-live-orderbook-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-live-orderbook-api-openapi.yml
-- filename: caplight-marketprice-api-openapi.yml
-  format: yaml
-  label: Caplight Market Price API
-  slug: caplight-marketprice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-marketprice-api-openapi.yml
 - filename: caplight-news-api-openapi.yml
   format: yaml
   label: Caplight News API
@@ -99,6 +93,12 @@ api_specs:
   slug: caplight-trade-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-trade-history-api-openapi.yml
+- filename: caplight-market-price-api-openapi.yml
+  format: yaml
+  label: Caplight Market Price API
+  slug: caplight-market-price-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/openapi/caplight-market-price-api-openapi.yml
 consequence_counts:
   read: 26
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

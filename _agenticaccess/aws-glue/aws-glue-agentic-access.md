@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: aws-glue-aws-glue-api-api-openapi.yml
   format: yaml
-  label: AWS Glue AWS Glue API API
+  label: AWS Glue AWS Glue API
   slug: aws-glue-aws-glue-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aws-glue/refs/heads/main/openapi/aws-glue-aws-glue-api-api-openapi.yml

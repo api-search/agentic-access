@@ -4,12 +4,6 @@ action_class_counts:
   acting: 63
   connected: 12
 api_specs:
-- filename: demisto-apikeys-api-openapi.yml
-  format: yaml
-  label: Demisto Apikeys API
-  slug: demisto-apikeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-apikeys-api-openapi.yml
 - filename: demisto-automation-api-openapi.yml
   format: yaml
   label: Demisto Automation API
@@ -70,12 +64,6 @@ api_specs:
   slug: demisto-incidenttype-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-incidenttype-api-openapi.yml
-- filename: demisto-incidenttypes-api-openapi.yml
-  format: yaml
-  label: Demisto Incidenttypes API
-  slug: demisto-incidenttypes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-incidenttypes-api-openapi.yml
 - filename: demisto-indicator-api-openapi.yml
   format: yaml
   label: Demisto Indicator API
@@ -148,6 +136,18 @@ api_specs:
   slug: demisto-widgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-widgets-api-openapi.yml
+- filename: demisto-api-keys-api-openapi.yml
+  format: yaml
+  label: Demisto API Keys API
+  slug: demisto-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-api-keys-api-openapi.yml
+- filename: demisto-incident-types-api-openapi.yml
+  format: yaml
+  label: Demisto Incident Types API
+  slug: demisto-incident-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/openapi/demisto-incident-types-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 2

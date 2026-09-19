@@ -101,7 +101,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/
 summary_line: 29 operations · 17 acting
 tags:
 - Employee Experience
-- HR
+- Human Resources
 - Engagement
 - Pulse Surveys
 - Performance Management

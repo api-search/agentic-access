@@ -16,12 +16,6 @@ api_specs:
   slug: queries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-queries-api-openapi.yml
-- filename: honeycomb-slos-api-openapi.yml
-  format: yaml
-  label: Honeycomb SLOs API
-  slug: slos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-slos-api-openapi.yml
 - filename: honeycomb-datasets-api-openapi.yml
   format: yaml
   label: Honeycomb Datasets API
@@ -136,6 +130,12 @@ api_specs:
   slug: honeycomb-service-maps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-service-maps-api-openapi.yml
+- filename: honeycomb-slos-api-openapi.yml
+  format: yaml
+  label: Honeycomb SL Os API
+  slug: honeycomb-slos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/openapi/honeycomb-slos-api-openapi.yml
 consequence_counts:
   read: 54
   write: 79
@@ -198,5 +198,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/honeyc
   \      - abnormal\n      - high-value\n    audit: required\n- path: /1/queries/{dataset\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/agentic-access/honeycomb-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/agentic-access/honeycomb-agentic-access.yml
 summary_line: 133 operations · 79 acting
-tags: []
+tags:
+- Observability
+- Telemetry
+- Analytics
+- Data Management
 ---

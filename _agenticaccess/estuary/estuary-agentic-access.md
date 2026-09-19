@@ -99,7 +99,6 @@ tags:
 - Data Integration
 - Streaming ETL
 - Change Data Capture
-- CDC
 - Real-Time Data
 - Data Pipeline
 ---

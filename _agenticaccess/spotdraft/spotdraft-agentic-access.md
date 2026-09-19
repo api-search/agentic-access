@@ -395,7 +395,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs
 summary_line: 182 operations · 106 acting · 1 human-in-the-loop
 tags:
 - Contract Lifecycle Management
-- CLM
 - Contracts
 - Legal Tech
 - E-Signature

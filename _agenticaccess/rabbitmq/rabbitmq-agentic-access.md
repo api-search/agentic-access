@@ -134,5 +134,5 @@ tags:
 - Event Streaming
 - Message Broker
 - Messaging
-- Queue
+- Queues
 ---

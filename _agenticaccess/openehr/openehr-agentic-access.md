@@ -4,42 +4,102 @@ action_class_counts:
   acting: 49
   connected: 48
 api_specs:
-- filename: openehr-ehr-openapi.yml
+- filename: openehr-adl1-4-api-openapi.yml
+  format: yaml
+  label: openEHR ADL1.4 API
+  slug: openehr-adl1-4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-adl1-4-api-openapi.yml
+- filename: openehr-adl2-api-openapi.yml
+  format: yaml
+  label: openEHR ADL2 API
+  slug: openehr-adl2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-adl2-api-openapi.yml
+- filename: openehr-agent-api-openapi.yml
+  format: yaml
+  label: openEHR AGENT API
+  slug: openehr-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-agent-api-openapi.yml
+- filename: openehr-composition-api-openapi.yml
+  format: yaml
+  label: openEHR COMPOSITION API
+  slug: openehr-composition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-composition-api-openapi.yml
+- filename: openehr-contribution-api-openapi.yml
+  format: yaml
+  label: openEHR CONTRIBUTION API
+  slug: openehr-contribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-contribution-api-openapi.yml
+- filename: openehr-directory-api-openapi.yml
+  format: yaml
+  label: openEHR DIRECTORY API
+  slug: openehr-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-directory-api-openapi.yml
+- filename: openehr-ehr-api-openapi.yml
   format: yaml
   label: openEHR EHR API
-  slug: ehr
+  slug: openehr-ehr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-ehr-openapi.yml
-- filename: openehr-query-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-ehr-api-openapi.yml
+- filename: openehr-ehr-status-api-openapi.yml
+  format: yaml
+  label: openEHR EHR STATUS API
+  slug: openehr-ehr-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-ehr-status-api-openapi.yml
+- filename: openehr-group-api-openapi.yml
+  format: yaml
+  label: openEHR GROUP API
+  slug: openehr-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-group-api-openapi.yml
+- filename: openehr-item-tag-api-openapi.yml
+  format: yaml
+  label: openEHR ITEM TAG API
+  slug: openehr-item-tag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-item-tag-api-openapi.yml
+- filename: openehr-options-api-openapi.yml
+  format: yaml
+  label: openEHR Options API
+  slug: openehr-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-options-api-openapi.yml
+- filename: openehr-organisation-api-openapi.yml
+  format: yaml
+  label: openEHR ORGANISATION API
+  slug: openehr-organisation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-organisation-api-openapi.yml
+- filename: openehr-person-api-openapi.yml
+  format: yaml
+  label: openEHR PERSON API
+  slug: openehr-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-person-api-openapi.yml
+- filename: openehr-query-api-openapi.yml
   format: yaml
   label: openEHR Query API
-  slug: query
+  slug: openehr-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-query-openapi.yml
-- filename: openehr-definition-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-query-api-openapi.yml
+- filename: openehr-role-api-openapi.yml
   format: yaml
-  label: openEHR Definition API
-  slug: definition
+  label: openEHR ROLE API
+  slug: openehr-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-definition-openapi.yml
-- filename: openehr-system-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-role-api-openapi.yml
+- filename: openehr-versioned-party-api-openapi.yml
   format: yaml
-  label: openEHR System API
-  slug: system
+  label: openEHR VERSIONED PARTY API
+  slug: openehr-versioned-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-system-openapi.yml
-- filename: openehr-demographic-openapi.yml
-  format: yaml
-  label: openEHR Demographic API
-  slug: demographic
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-demographic-openapi.yml
-- filename: openehr-admin-openapi.yml
-  format: yaml
-  label: openEHR Admin API
-  slug: admin
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-admin-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/openapi/openehr-versioned-party-api-openapi.yml
 consequence_counts:
   read: 48
   write: 49
@@ -113,5 +173,5 @@ tags:
 - ADL
 - Clinical Modelling
 - Reference Model
-- Not-for-profit
+- Not-for-Profit
 ---

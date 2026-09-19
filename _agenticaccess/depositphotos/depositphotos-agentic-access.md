@@ -39,7 +39,7 @@ summary_line: 1 operation · 1 acting
 tags:
 - Stock Photos
 - Image
-- Videos
+- Video
 - Vectors
 - Media
 - Creative Assets

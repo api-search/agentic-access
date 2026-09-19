@@ -57,5 +57,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hotjar
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site_id}/surveys/{survey_id}\n  method: get\n  operationId: getSurvey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site_id}/surveys/{survey_id}/responses\n  method: get\n  operationId: listSurveyResponses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/user-lookup\n  method: post\n  operationId: userLookup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/agentic-access/hotjar-agentic-access.yml
 summary_line: 5 operations · 2 acting
-tags: []
+tags:
+- Analytics
+- Surveys
+- Tracking
+- Personalization
+- Segmentation
 ---

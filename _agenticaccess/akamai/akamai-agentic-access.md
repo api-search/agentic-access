@@ -328,12 +328,6 @@ api_specs:
   slug: akamai-evasive-path-match-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/openapi/akamai-evasive-path-match-api-openapi.yml
-- filename: akamai-events-api-openapi.yml
-  format: yaml
-  label: Akamai Events API
-  slug: akamai-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/openapi/akamai-events-api-openapi.yml
 - filename: akamai-failover-hostnames-api-openapi.yml
   format: yaml
   label: Akamai Failover hostnames API
@@ -352,12 +346,6 @@ api_specs:
   slug: akamai-general-policy-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/openapi/akamai-general-policy-settings-api-openapi.yml
-- filename: akamai-graphql-api-openapi.yml
-  format: yaml
-  label: Akamai GraphQL API
-  slug: akamai-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/openapi/akamai-graphql-api-openapi.yml
 - filename: akamai-groups-api-openapi.yml
   format: yaml
   label: Akamai Groups API
@@ -850,6 +838,12 @@ api_specs:
   slug: akamai-watermark-limits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/openapi/akamai-watermark-limits-api-openapi.yml
+- filename: akamai-graph-ql-api-openapi.yml
+  format: yaml
+  label: Akamai Graph QL API
+  slug: akamai-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/openapi/akamai-graph-ql-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 262

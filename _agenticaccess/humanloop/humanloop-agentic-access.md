@@ -76,7 +76,7 @@ summary_line: 20 operations · 8 acting
 tags:
 - LLM Platform
 - Prompt Management
-- Evaluations
+- Evaluation
 - LLMOps
 - Observability
 - Datasets

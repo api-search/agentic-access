@@ -63,7 +63,7 @@ summary_line: 13 operations · 7 acting
 tags:
 - Artificial Intelligence
 - Customer-Support
-- AI Agent
+- AI Agents
 - Support Automation
 - Workflows
 - Help Desk

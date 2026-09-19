@@ -40,12 +40,6 @@ api_specs:
   slug: dfns-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-policies-api-openapi.yml
-- filename: dfns-serviceaccounts-api-openapi.yml
-  format: yaml
-  label: Dfns ServiceAccounts API
-  slug: dfns-serviceaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-serviceaccounts-api-openapi.yml
 - filename: dfns-signatures-api-openapi.yml
   format: yaml
   label: Dfns Signatures API
@@ -76,6 +70,12 @@ api_specs:
   slug: dfns-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-webhooks-api-openapi.yml
+- filename: dfns-service-accounts-api-openapi.yml
+  format: yaml
+  label: Dfns Service Accounts API
+  slug: dfns-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-service-accounts-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 23

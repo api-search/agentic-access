@@ -107,7 +107,7 @@ tags:
 - UPS
 - Utility
 - Industrial
-- Building
+- Buildings
 - Mobility
 - AI Factory
 - Energy

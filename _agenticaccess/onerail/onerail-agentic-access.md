@@ -36,7 +36,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-authentication-api-openapi.yml
 - filename: onerail-blob-storage-api-api-openapi.yml
   format: yaml
-  label: OneRail Blob Storage API API
+  label: OneRail Blob Storage API
   slug: onerail-blob-storage-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-blob-storage-api-api-openapi.yml
@@ -124,12 +124,6 @@ api_specs:
   slug: onerail-delivery-rating-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-delivery-rating-api-openapi.yml
-- filename: onerail-deliverynote-api-openapi.yml
-  format: yaml
-  label: OneRail Delivery Note API
-  slug: onerail-deliverynote-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-deliverynote-api-openapi.yml
 - filename: onerail-deliverynotificationstatuses-api-openapi.yml
   format: yaml
   label: OneRail Delivery Notification Statuses API
@@ -202,12 +196,6 @@ api_specs:
   slug: onerail-freight-audit-pay-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-freight-audit-pay-api-openapi.yml
-- filename: onerail-healthcheck-api-openapi.yml
-  format: yaml
-  label: OneRail Health Check API
-  slug: onerail-healthcheck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-healthcheck-api-openapi.yml
 - filename: onerail-holiday-api-openapi.yml
   format: yaml
   label: OneRail Holiday API
@@ -274,12 +262,6 @@ api_specs:
   slug: onerail-memwatch-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-memwatch-api-openapi.yml
-- filename: onerail-oauth2-api-openapi.yml
-  format: yaml
-  label: OneRail O Auth2 API
-  slug: onerail-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-oauth2-api-openapi.yml
 - filename: onerail-order-api-openapi.yml
   format: yaml
   label: OneRail Order API
@@ -454,6 +436,24 @@ api_specs:
   slug: onerail-visibility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-visibility-api-openapi.yml
+- filename: onerail-oauth2-api-openapi.yml
+  format: yaml
+  label: OneRail O Auth2 API
+  slug: onerail-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-oauth2-api-openapi.yml
+- filename: onerail-delivery-note-api-openapi.yml
+  format: yaml
+  label: OneRail Delivery Note API
+  slug: onerail-delivery-note-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-delivery-note-api-openapi.yml
+- filename: onerail-health-check-api-openapi.yml
+  format: yaml
+  label: OneRail Health Check API
+  slug: onerail-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/openapi/onerail-health-check-api-openapi.yml
 consequence_counts:
   physical: 68
   read: 185

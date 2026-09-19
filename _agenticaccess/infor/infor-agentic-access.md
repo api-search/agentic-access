@@ -12,7 +12,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-ion-documents-api-openapi.yml
 - filename: infor-m3-api-api-openapi.yml
   format: yaml
-  label: Infor M3 API API
+  label: Infor M3 API
   slug: infor-m3-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-m3-api-api-openapi.yml

@@ -142,7 +142,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandfolder/re
 summary_line: 73 operations · 38 acting
 tags:
 - Digital Asset Management
-- DAM
 - Brand Management
 - Assets
 - Media

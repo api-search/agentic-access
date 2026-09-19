@@ -356,7 +356,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cumulocity/ref
 summary_line: 128 operations · 72 acting · 10 human-in-the-loop
 tags:
 - IoT
-- Internet of Things
 - Industrial IoT
 - AIoT
 - Device Management

@@ -112,12 +112,6 @@ api_specs:
   slug: openobserve-pipelines-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openobserve/refs/heads/main/openapi/openobserve-pipelines-api-openapi.yml
-- filename: openobserve-ratelimit-api-openapi.yml
-  format: yaml
-  label: OpenObserve Ratelimit API
-  slug: openobserve-ratelimit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openobserve/refs/heads/main/openapi/openobserve-ratelimit-api-openapi.yml
 - filename: openobserve-report-api-openapi.yml
   format: yaml
   label: OpenObserve Report API
@@ -166,12 +160,6 @@ api_specs:
   slug: openobserve-service-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openobserve/refs/heads/main/openapi/openobserve-service-streams-api-openapi.yml
-- filename: openobserve-serviceaccounts-api-openapi.yml
-  format: yaml
-  label: OpenObserve ServiceAccounts API
-  slug: openobserve-serviceaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openobserve/refs/heads/main/openapi/openobserve-serviceaccounts-api-openapi.yml
 - filename: openobserve-short-url-api-openapi.yml
   format: yaml
   label: OpenObserve Short Url API
@@ -202,6 +190,18 @@ api_specs:
   slug: openobserve-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openobserve/refs/heads/main/openapi/openobserve-users-api-openapi.yml
+- filename: openobserve-rate-limit-api-openapi.yml
+  format: yaml
+  label: OpenObserve Rate Limit API
+  slug: openobserve-rate-limit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openobserve/refs/heads/main/openapi/openobserve-rate-limit-api-openapi.yml
+- filename: openobserve-service-accounts-api-openapi.yml
+  format: yaml
+  label: OpenObserve Service Accounts API
+  slug: openobserve-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openobserve/refs/heads/main/openapi/openobserve-service-accounts-api-openapi.yml
 consequence_counts:
   read: 85
   safety-critical: 7

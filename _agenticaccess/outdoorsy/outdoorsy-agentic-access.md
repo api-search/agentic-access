@@ -58,12 +58,6 @@ api_specs:
   slug: outdoorsy-bookings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-bookings-api-openapi.yml
-- filename: outdoorsy-bookingservices-api-openapi.yml
-  format: yaml
-  label: Outdoorsy Booking Services API
-  slug: outdoorsy-bookingservices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-bookingservices-api-openapi.yml
 - filename: outdoorsy-bookingtransactions-api-openapi.yml
   format: yaml
   label: Outdoorsy Booking Transactions API
@@ -160,12 +154,6 @@ api_specs:
   slug: outdoorsy-gethomepageparks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-gethomepageparks-api-openapi.yml
-- filename: outdoorsy-giftcards-api-openapi.yml
-  format: yaml
-  label: Outdoorsy Gift Cards API
-  slug: outdoorsy-giftcards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-giftcards-api-openapi.yml
 - filename: outdoorsy-ics-calendars-api-openapi.yml
   format: yaml
   label: Outdoorsy Ics Calendars API
@@ -196,12 +184,6 @@ api_specs:
   slug: outdoorsy-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-messages-api-openapi.yml
-- filename: outdoorsy-messagetemplates-api-openapi.yml
-  format: yaml
-  label: Outdoorsy Message Templates API
-  slug: outdoorsy-messagetemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-messagetemplates-api-openapi.yml
 - filename: outdoorsy-notes-to-renters-api-openapi.yml
   format: yaml
   label: Outdoorsy Notes To Renters API
@@ -322,12 +304,6 @@ api_specs:
   slug: outdoorsy-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-transactions-api-openapi.yml
-- filename: outdoorsy-twofactorauth-api-openapi.yml
-  format: yaml
-  label: Outdoorsy Two Factor Auth API
-  slug: outdoorsy-twofactorauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-twofactorauth-api-openapi.yml
 - filename: outdoorsy-usagebaseditems-api-openapi.yml
   format: yaml
   label: Outdoorsy Usage Based Items API
@@ -376,6 +352,30 @@ api_specs:
   slug: outdoorsy-wishlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-wishlists-api-openapi.yml
+- filename: outdoorsy-booking-services-api-openapi.yml
+  format: yaml
+  label: Outdoorsy Booking services API
+  slug: outdoorsy-booking-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-booking-services-api-openapi.yml
+- filename: outdoorsy-gift-cards-api-openapi.yml
+  format: yaml
+  label: Outdoorsy Gift Cards API
+  slug: outdoorsy-gift-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-gift-cards-api-openapi.yml
+- filename: outdoorsy-message-templates-api-openapi.yml
+  format: yaml
+  label: Outdoorsy Message Templates API
+  slug: outdoorsy-message-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-message-templates-api-openapi.yml
+- filename: outdoorsy-two-factor-auth-api-openapi.yml
+  format: yaml
+  label: Outdoorsy Two Factor Auth API
+  slug: outdoorsy-two-factor-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/openapi/outdoorsy-two-factor-auth-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 162
@@ -514,7 +514,7 @@ tags:
 - Marketplace
 - Rentals
 - Recreational Vehicles
-- Bookings
+- Booking
 - Search
 - Payments
 - Insurance

@@ -22,12 +22,6 @@ api_specs:
   slug: shopmy-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-links-api-openapi.yml
-- filename: shopmy-oauth-api-openapi.yml
-  format: yaml
-  label: ShopMy OAuth API
-  slug: shopmy-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-oauth-api-openapi.yml
 - filename: shopmy-order-reporting-api-openapi.yml
   format: yaml
   label: ShopMy Order Reporting API
@@ -40,6 +34,12 @@ api_specs:
   slug: shopmy-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-profile-api-openapi.yml
+- filename: shopmy-oauth-api-openapi.yml
+  format: yaml
+  label: ShopMy O Auth API
+  slug: shopmy-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-oauth-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4

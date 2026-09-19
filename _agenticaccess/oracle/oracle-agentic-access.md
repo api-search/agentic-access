@@ -1,8 +1,8 @@
 ---
-acting_count: 7
+acting_count: 4376
 action_class_counts:
-  acting: 7
-  connected: 8
+  acting: 4376
+  connected: 3394
 api_specs:
 - filename: oracle-accessgovernancecp-api-openapi.yml
   format: yaml
@@ -10,18 +10,6 @@ api_specs:
   slug: oracle-accessgovernancecp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-accessgovernancecp-api-openapi.yml
-- filename: oracle-accessrequest-api-openapi.yml
-  format: yaml
-  label: Oracle Access Request API
-  slug: oracle-accessrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-accessrequest-api-openapi.yml
-- filename: oracle-accessrequests-api-openapi.yml
-  format: yaml
-  label: Oracle Access Requests API
-  slug: oracle-accessrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-accessrequests-api-openapi.yml
 - filename: oracle-account-api-openapi.yml
   format: yaml
   label: Oracle Account API
@@ -136,12 +124,6 @@ api_specs:
   slug: oracle-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-attributes-api-openapi.yml
-- filename: oracle-audit-api-openapi.yml
-  format: yaml
-  label: Oracle Audit API
-  slug: oracle-audit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-audit-api-openapi.yml
 - filename: oracle-autoscaling-api-openapi.yml
   format: yaml
   label: Oracle Auto Scaling API
@@ -310,12 +292,6 @@ api_specs:
   slug: oracle-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-config-api-openapi.yml
-- filename: oracle-connectorplugins-api-openapi.yml
-  format: yaml
-  label: Oracle Connector Plugins API
-  slug: oracle-connectorplugins-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-connectorplugins-api-openapi.yml
 - filename: oracle-containerengine-api-openapi.yml
   format: yaml
   label: Oracle Container Engine API
@@ -328,12 +304,6 @@ api_specs:
   slug: oracle-containerinstance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-containerinstance-api-openapi.yml
-- filename: oracle-containerregistry-api-openapi.yml
-  format: yaml
-  label: Oracle Container Registry API
-  slug: oracle-containerregistry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-containerregistry-api-openapi.yml
 - filename: oracle-costad-api-openapi.yml
   format: yaml
   label: Oracle Cost Ad API
@@ -388,12 +358,6 @@ api_specs:
   slug: oracle-databasetoolsruntime-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-databasetoolsruntime-api-openapi.yml
-- filename: oracle-datacatalog-api-openapi.yml
-  format: yaml
-  label: Oracle Data Catalog API
-  slug: oracle-datacatalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-datacatalog-api-openapi.yml
 - filename: oracle-dataflow-api-openapi.yml
   format: yaml
   label: Oracle Data Flow API
@@ -406,18 +370,6 @@ api_specs:
   slug: oracle-datainfracc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-datainfracc-api-openapi.yml
-- filename: oracle-dataintegration-api-openapi.yml
-  format: yaml
-  label: Oracle Data Integration API
-  slug: oracle-dataintegration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-dataintegration-api-openapi.yml
-- filename: oracle-datalabeling-api-openapi.yml
-  format: yaml
-  label: Oracle Data Labeling API
-  slug: oracle-datalabeling-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-datalabeling-api-openapi.yml
 - filename: oracle-datalabelingmanagement-api-openapi.yml
   format: yaml
   label: Oracle Data Labeling Management API
@@ -514,24 +466,12 @@ api_specs:
   slug: oracle-desktopservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-desktopservice-api-openapi.yml
-- filename: oracle-devops-api-openapi.yml
-  format: yaml
-  label: Oracle Devops API
-  slug: oracle-devops-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-devops-api-openapi.yml
 - filename: oracle-diagnosability-api-openapi.yml
   format: yaml
   label: Oracle Diagnosability API
   slug: oracle-diagnosability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-diagnosability-api-openapi.yml
-- filename: oracle-disasterrecovery-api-openapi.yml
-  format: yaml
-  label: Oracle Disaster Recovery API
-  slug: oracle-disasterrecovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-disasterrecovery-api-openapi.yml
 - filename: oracle-discovery-api-openapi.yml
   format: yaml
   label: Oracle Discovery API
@@ -574,12 +514,6 @@ api_specs:
   slug: oracle-dns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-dns-api-openapi.yml
-- filename: oracle-documentgenerator-api-openapi.yml
-  format: yaml
-  label: Oracle Documentgenerator API
-  slug: oracle-documentgenerator-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-documentgenerator-api-openapi.yml
 - filename: oracle-domain-api-openapi.yml
   format: yaml
   label: Oracle Domain API
@@ -646,12 +580,6 @@ api_specs:
   slug: oracle-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-events-api-openapi.yml
-- filename: oracle-filestorage-api-openapi.yml
-  format: yaml
-  label: Oracle File Storage API
-  slug: oracle-filestorage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-filestorage-api-openapi.yml
 - filename: oracle-fleetappsmanagement-api-openapi.yml
   format: yaml
   label: Oracle Fleet Apps Management API
@@ -802,12 +730,6 @@ api_specs:
   slug: oracle-greetings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-greetings-api-openapi.yml
-- filename: oracle-healthchecks-api-openapi.yml
-  format: yaml
-  label: Oracle Health Checks API
-  slug: oracle-healthchecks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-healthchecks-api-openapi.yml
 - filename: oracle-identity-api-openapi.yml
   format: yaml
   label: Oracle Identity API
@@ -940,12 +862,6 @@ api_specs:
   slug: oracle-listenrichmentjobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-listenrichmentjobs-api-openapi.yml
-- filename: oracle-loadbalancer-api-openapi.yml
-  format: yaml
-  label: Oracle Load Balancer API
-  slug: oracle-loadbalancer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-loadbalancer-api-openapi.yml
 - filename: oracle-lockbox-api-openapi.yml
   format: yaml
   label: Oracle Lockbox API
@@ -976,12 +892,6 @@ api_specs:
   slug: oracle-loggingmanagement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-loggingmanagement-api-openapi.yml
-- filename: oracle-logsearch-api-openapi.yml
-  format: yaml
-  label: Oracle Log Search API
-  slug: oracle-logsearch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-logsearch-api-openapi.yml
 - filename: oracle-lustrefilestorage-api-openapi.yml
   format: yaml
   label: Oracle Lustre File Storage API
@@ -1126,12 +1036,6 @@ api_specs:
   slug: oracle-networkfirewall-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-networkfirewall-api-openapi.yml
-- filename: oracle-networkloadbalancer-api-openapi.yml
-  format: yaml
-  label: Oracle Network Load Balancer API
-  slug: oracle-networkloadbalancer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-networkloadbalancer-api-openapi.yml
 - filename: oracle-nosql-api-openapi.yml
   format: yaml
   label: Oracle Nosql API
@@ -1150,12 +1054,6 @@ api_specs:
   slug: oracle-notificationdataplane-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-notificationdataplane-api-openapi.yml
-- filename: oracle-objectstorage-api-openapi.yml
-  format: yaml
-  label: Oracle Object Storage API
-  slug: oracle-objectstorage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-objectstorage-api-openapi.yml
 - filename: oracle-ocbagentsvc-api-openapi.yml
   format: yaml
   label: Oracle Ocb Agent Svc API
@@ -1308,37 +1206,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-optimizer-api-openapi.yml
 - filename: oracle-oracledbazureblobcontainer-api-openapi.yml
   format: yaml
-  label: Oracle Oracle DB Azure Blob Container API
+  label: Oracle DB Azure Blob Container API
   slug: oracle-oracledbazureblobcontainer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazureblobcontainer-api-openapi.yml
 - filename: oracle-oracledbazureblobmount-api-openapi.yml
   format: yaml
-  label: Oracle Oracle DB Azure Blob Mount API
+  label: Oracle DB Azure Blob Mount API
   slug: oracle-oracledbazureblobmount-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazureblobmount-api-openapi.yml
 - filename: oracle-oracledbazureconnector-api-openapi.yml
   format: yaml
-  label: Oracle Oracle DB Azure Connector API
+  label: Oracle DB Azure Connector API
   slug: oracle-oracledbazureconnector-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazureconnector-api-openapi.yml
 - filename: oracle-oracledbazurekey-api-openapi.yml
   format: yaml
-  label: Oracle Oracle Db Azure Key API
+  label: Oracle Db Azure Key API
   slug: oracle-oracledbazurekey-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazurekey-api-openapi.yml
 - filename: oracle-oracledbazurevault-api-openapi.yml
   format: yaml
-  label: Oracle Oracle Db Azure Vault API
+  label: Oracle Db Azure Vault API
   slug: oracle-oracledbazurevault-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazurevault-api-openapi.yml
 - filename: oracle-oracledbazurevaultassociation-api-openapi.yml
   format: yaml
-  label: Oracle Oracle Db Azure Vault Association API
+  label: Oracle Db Azure Vault Association API
   slug: oracle-oracledbazurevaultassociation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-oracledbazurevaultassociation-api-openapi.yml
@@ -1384,12 +1282,6 @@ api_specs:
   slug: oracle-plugin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-plugin-api-openapi.yml
-- filename: oracle-pluginconfig-api-openapi.yml
-  format: yaml
-  label: Oracle Pluginconfig API
-  slug: oracle-pluginconfig-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-pluginconfig-api-openapi.yml
 - filename: oracle-postgresql-api-openapi.yml
   format: yaml
   label: Oracle Postgresql API
@@ -1456,12 +1348,6 @@ api_specs:
   slug: oracle-quotas-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-quotas-api-openapi.yml
-- filename: oracle-ratecard-api-openapi.yml
-  format: yaml
-  label: Oracle Ratecard API
-  slug: oracle-ratecard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-ratecard-api-openapi.yml
 - filename: oracle-recipientinvitation-api-openapi.yml
   format: yaml
   label: Oracle Recipient Invitation API
@@ -1510,12 +1396,6 @@ api_specs:
   slug: oracle-resourceanalyticsinstance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-resourceanalyticsinstance-api-openapi.yml
-- filename: oracle-resourcemanager-api-openapi.yml
-  format: yaml
-  label: Oracle Resource Manager API
-  slug: oracle-resourcemanager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-resourcemanager-api-openapi.yml
 - filename: oracle-resources-api-openapi.yml
   format: yaml
   label: Oracle Resources API
@@ -1570,12 +1450,6 @@ api_specs:
   slug: oracle-scheduledactivity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-scheduledactivity-api-openapi.yml
-- filename: oracle-scheduledjob-api-openapi.yml
-  format: yaml
-  label: Oracle Scheduled Job API
-  slug: oracle-scheduledjob-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-scheduledjob-api-openapi.yml
 - filename: oracle-sddc-api-openapi.yml
   format: yaml
   label: Oracle Sddc API
@@ -1630,12 +1504,6 @@ api_specs:
   slug: oracle-serviceattachment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-serviceattachment-api-openapi.yml
-- filename: oracle-servicecatalog-api-openapi.yml
-  format: yaml
-  label: Oracle Service Catalog API
-  slug: oracle-servicecatalog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-servicecatalog-api-openapi.yml
 - filename: oracle-serviceconnector-api-openapi.yml
   format: yaml
   label: Oracle Service Connector API
@@ -1804,12 +1672,6 @@ api_specs:
   slug: oracle-tenancyattachment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-tenancyattachment-api-openapi.yml
-- filename: oracle-threatintel-api-openapi.yml
-  format: yaml
-  label: Oracle Threatintel API
-  slug: oracle-threatintel-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-threatintel-api-openapi.yml
 - filename: oracle-trace-api-openapi.yml
   format: yaml
   label: Oracle Trace API
@@ -1822,18 +1684,6 @@ api_specs:
   slug: oracle-usageapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-usageapi-api-openapi.yml
-- filename: oracle-usagelimits-api-openapi.yml
-  format: yaml
-  label: Oracle Usagelimits API
-  slug: oracle-usagelimits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-usagelimits-api-openapi.yml
-- filename: oracle-usageplans-api-openapi.yml
-  format: yaml
-  label: Oracle Usage Plans API
-  slug: oracle-usageplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-usageplans-api-openapi.yml
 - filename: oracle-vanitydomain-api-openapi.yml
   format: yaml
   label: Oracle Vanity Domain API
@@ -1870,12 +1720,6 @@ api_specs:
   slug: oracle-vnmonitoring-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-vnmonitoring-api-openapi.yml
-- filename: oracle-vulnerabilityscanning-api-openapi.yml
-  format: yaml
-  label: Oracle Vulnerability Scanning API
-  slug: oracle-vulnerabilityscanning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-vulnerabilityscanning-api-openapi.yml
 - filename: oracle-waa-api-openapi.yml
   format: yaml
   label: Oracle Waa API
@@ -1918,12 +1762,6 @@ api_specs:
   slug: oracle-workrequest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-workrequest-api-openapi.yml
-- filename: oracle-workrequests-api-openapi.yml
-  format: yaml
-  label: Oracle Work Requests API
-  slug: oracle-workrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-workrequests-api-openapi.yml
 - filename: oracle-zpr-api-openapi.yml
   format: yaml
   label: Oracle Zpr API
@@ -1936,12 +1774,163 @@ api_specs:
   slug: oracle-zprtopology-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-zprtopology-api-openapi.yml
+- filename: oracle-access-request-api-openapi.yml
+  format: yaml
+  label: Oracle Access Request API
+  slug: oracle-access-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-access-request-api-openapi.yml
+- filename: oracle-access-requests-api-openapi.yml
+  format: yaml
+  label: Oracle Access Requests API
+  slug: oracle-access-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-access-requests-api-openapi.yml
+- filename: oracle-connector-plugins-api-openapi.yml
+  format: yaml
+  label: Oracle Connector Plugins API
+  slug: oracle-connector-plugins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-connector-plugins-api-openapi.yml
+- filename: oracle-container-registry-api-openapi.yml
+  format: yaml
+  label: Oracle Container Registry API
+  slug: oracle-container-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-container-registry-api-openapi.yml
+- filename: oracle-data-catalog-api-openapi.yml
+  format: yaml
+  label: Oracle Data Catalog API
+  slug: oracle-data-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-data-catalog-api-openapi.yml
+- filename: oracle-data-integration-api-openapi.yml
+  format: yaml
+  label: Oracle Data Integration API
+  slug: oracle-data-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-data-integration-api-openapi.yml
+- filename: oracle-data-labeling-api-openapi.yml
+  format: yaml
+  label: Oracle Data Labeling API
+  slug: oracle-data-labeling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-data-labeling-api-openapi.yml
+- filename: oracle-dev-ops-api-openapi.yml
+  format: yaml
+  label: Oracle Dev Ops API
+  slug: oracle-dev-ops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-dev-ops-api-openapi.yml
+- filename: oracle-disaster-recovery-api-openapi.yml
+  format: yaml
+  label: Oracle Disaster Recovery API
+  slug: oracle-disaster-recovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-disaster-recovery-api-openapi.yml
+- filename: oracle-file-storage-api-openapi.yml
+  format: yaml
+  label: Oracle File Storage API
+  slug: oracle-file-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-file-storage-api-openapi.yml
+- filename: oracle-health-checks-api-openapi.yml
+  format: yaml
+  label: Oracle Health Checks API
+  slug: oracle-health-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-health-checks-api-openapi.yml
+- filename: oracle-load-balancer-api-openapi.yml
+  format: yaml
+  label: Oracle Load Balancer API
+  slug: oracle-load-balancer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-load-balancer-api-openapi.yml
+- filename: oracle-log-search-api-openapi.yml
+  format: yaml
+  label: Oracle Log Search API
+  slug: oracle-log-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-log-search-api-openapi.yml
+- filename: oracle-network-load-balancer-api-openapi.yml
+  format: yaml
+  label: Oracle network Load Balancer API
+  slug: oracle-network-load-balancer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-network-load-balancer-api-openapi.yml
+- filename: oracle-object-storage-api-openapi.yml
+  format: yaml
+  label: Oracle Object Storage API
+  slug: oracle-object-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-object-storage-api-openapi.yml
+- filename: oracle-plugin-config-api-openapi.yml
+  format: yaml
+  label: Oracle plugin config API
+  slug: oracle-plugin-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-plugin-config-api-openapi.yml
+- filename: oracle-rate-card-api-openapi.yml
+  format: yaml
+  label: Oracle Rate Card API
+  slug: oracle-rate-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-rate-card-api-openapi.yml
+- filename: oracle-resource-manager-api-openapi.yml
+  format: yaml
+  label: Oracle Resource Manager API
+  slug: oracle-resource-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-resource-manager-api-openapi.yml
+- filename: oracle-scheduled-job-api-openapi.yml
+  format: yaml
+  label: Oracle Scheduled Job API
+  slug: oracle-scheduled-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-scheduled-job-api-openapi.yml
+- filename: oracle-service-catalog-api-openapi.yml
+  format: yaml
+  label: Oracle Service Catalog API
+  slug: oracle-service-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-service-catalog-api-openapi.yml
+- filename: oracle-threat-intel-api-openapi.yml
+  format: yaml
+  label: Oracle Threat Intel API
+  slug: oracle-threat-intel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-threat-intel-api-openapi.yml
+- filename: oracle-usage-limits-api-openapi.yml
+  format: yaml
+  label: Oracle usage limits API
+  slug: oracle-usage-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-usage-limits-api-openapi.yml
+- filename: oracle-usage-plans-api-openapi.yml
+  format: yaml
+  label: Oracle Usage Plans API
+  slug: oracle-usage-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-usage-plans-api-openapi.yml
+- filename: oracle-vulnerability-scanning-api-openapi.yml
+  format: yaml
+  label: Oracle Vulnerability Scanning API
+  slug: oracle-vulnerability-scanning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-vulnerability-scanning-api-openapi.yml
+- filename: oracle-work-requests-api-openapi.yml
+  format: yaml
+  label: Oracle Work Requests API
+  slug: oracle-work-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oracle-work-requests-api-openapi.yml
 consequence_counts:
-  read: 8
-  safety-critical: 1
-  write: 6
+  physical: 225
+  read: 3394
+  safety-critical: 173
+  write: 3978
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 1
+human_in_the_loop: 173
 kind: agentic-access
 layout: agentic-access
 method: generated
@@ -1951,16 +1940,136 @@ notable_actions:
 - action_class: acting
   consequence: safety-critical
   human_in_the_loop: required
+  method: POST
+  path: /20180608/keys/{keyId}/actions/disable
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /accessRequests/{accessRequestId}/action/revoke
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /actions/downloadPrivilegeScript
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: PUT
+  path: /admin/v1/UserPasswordResetter/{userPasswordResetterId}
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /analyticsInstances/{analyticsInstanceId}/actions/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /applications/{applicationId}/actions/cascadingDeleteApplication
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /auditTrails/{auditTrailId}/actions/resume
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /auditTrails/{auditTrailId}/actions/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
   method: DELETE
-  path: /instances/{instanceId}
-operation_count: 15
-overview: 'Oracle exposes 15 API operations that an AI agent could call, of which 7 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+  path: /autonomousContainerDatabases/{autonomousContainerDatabaseId}
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /autonomousDatabases/{autonomousDatabaseId}/actions/disableDatabaseManagement
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /autonomousDatabases/{autonomousDatabaseId}/actions/disableDatabaseManagement
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /autonomousDatabases/{autonomousDatabaseId}/actions/disableOperationsInsights
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /autonomousDatabases/{autonomousDatabaseId}/actions/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: DELETE
+  path: /autonomousExadataInfrastructures/{autonomousExadataInfrastructureId}
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /awrHubSources/{awrHubSourceId}/actions/disable
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /batchContexts/{batchContextId}/actions/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /batchJobPools/{batchJobPoolId}/actions/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /bdsInstances/{bdsInstanceId}/actions/disableOdhServiceCertificate
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /bdsInstances/{bdsInstanceId}/actions/resetPassword
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /bdsInstances/{bdsInstanceId}/actions/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /blockchainPlatforms/{blockchainPlatformId}/actions/stop
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /certificateAuthorities/{certificateAuthorityId}/version/{certificateAuthorityVersionNumber}/actions/revoke
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /certificates/{certificateId}/version/{certificateVersionNumber}/actions/revoke
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /channels/{channelId}/actions/reset
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /cloudDbSystems/{cloudDbSystemId}/actions/disableDatabaseManagement
+operation_count: 7770
+overview: 'Oracle exposes 7770 API operations that an AI agent could call, of which 4376 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 8 read, 6 write, and 1 safety-critical.
+  By consequence: 3394 read, 3978 write, 225 physical, and 173 safety-critical.
 
 
-  1 operation are classed safety-critical and should require human-in-the-loop approval at runtime.
+  173 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -1970,13 +2079,42 @@ slug: oracle-agentic-access
 source_filename: oracle-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oci-compute-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 15\n  by_action_class:\n    connected: 8\n    acting: 7\n  by_consequence:\n    read: 8\n    write: 6\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /instances\n  method: get\n  operationId: listInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances\n  method: post\n  operationId: launchInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/{instanceId}\n  method: get\n  operationId: getInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instances/{instanceId}\n  method: put\n  operationId: updateInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/{instanceId}\n  method: delete\n  operationId: terminateInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
-  \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /instances/{instanceId}/actions/{action}\n  method: post\n  operationId: instanceAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shapes\n  method: get\n  operationId: listShapes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images\n  method: get\n  operationId: listImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images\n  method: post\n  operationId: createImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
-  \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/{imageId}\n  method: get\n  operationId: getImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images/{imageId}\n  method: put\n  operationId: updateImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/{imageId}\n  method: delete\n  operationId: deleteImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vnicAttachments\n  method: get\n  operationId: listVnicAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /volumeAttachments\n  method: get\n  operationId: listVolumeAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instanceConsoleConnections\n  method: get\n  operationId: listInstanceConsoleConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/oracle-access-request-api-openapi.yml, openapi/oracle-access-requests-api-openapi.yml,\n  openapi/oracle-accessgovernancecp-api-openapi.yml, openapi/oracle-account-api-openapi.yml,\n  openapi/oracle-aidataplatform-api-openapi.yml, openapi/oracle-aiservicedocument-api-openapi.yml,\n  openapi/oracle-aiservicelanguage-api-openapi.yml, openapi/oracle-aiservicespeech-api-openapi.yml,\n  openapi/oracle-aiservicevision-api-openapi.yml, openapi/oracle-analytics-api-openapi.yml,\n  openapi/oracle-announcement-api-openapi.yml, openapi/oracle-announcementspreferences-api-openapi.yml,\n  openapi/oracle-announcementsubscription-api-openapi.yml, openapi/oracle-apigateway-api-openapi.yml,\n  openapi/oracle-apimetadata-api-openapi.yml, openapi/oracle-apmdomain-api-openapi.yml, openapi/oracle-apmsynthetic-api-openapi.yml,\n  openapi/oracle-applicationdependencymanagement-api-openapi.yml, openapi/oracle-appmgmtcontrol-api-openapi.yml,\n\
+  \  openapi/oracle-approvaltemplate-api-openapi.yml, openapi/oracle-artifacts-api-openapi.yml,\n  openapi/oracle-attributes-api-openapi.yml, openapi/oracle-autoscaling-api-openapi.yml, openapi/oracle-bastion-api-openapi.yml,\n  openapi/oracle-batchcomputing-api-openapi.yml, openapi/oracle-bds-api-openapi.yml, openapi/oracle-billingschedule-api-openapi.yml,\n  openapi/oracle-blockchainplatform-api-openapi.yml, openapi/oracle-blockstorage-api-openapi.yml,\n  openapi/oracle-budget-api-openapi.yml, openapi/oracle-byol-api-openapi.yml, openapi/oracle-byolallocation-api-openapi.yml,\n  openapi/oracle-cancelenrichmentjob-api-openapi.yml, openapi/oracle-capacitymanagement-api-openapi.yml,\n  openapi/oracle-certificates-api-openapi.yml, openapi/oracle-certificatesmanagement-api-openapi.yml,\n  openapi/oracle-channels-api-openapi.yml, openapi/oracle-cloudaccountresource-api-openapi.yml,\n  openapi/oracle-cloudaccountsresource-api-openapi.yml, openapi/oracle-cloudguard-api-openapi.yml,\n  openapi/oracle-cluster-api-openapi.yml,\
+  \ openapi/oracle-clusterplacementgroupscp-api-openapi.yml,\n  openapi/oracle-commitment-api-openapi.yml, openapi/oracle-common-api-openapi.yml, openapi/oracle-compute-api-openapi.yml,\n  openapi/oracle-computecloudatcustomer-api-openapi.yml, openapi/oracle-computedusage-api-openapi.yml,\n  openapi/oracle-computeinstanceagent-api-openapi.yml, openapi/oracle-computemanagement-api-openapi.yml,\n  openapi/oracle-config-api-openapi.yml, openapi/oracle-connector-plugins-api-openapi.yml, openapi/oracle-container-registry-api-openapi.yml,\n  openapi/oracle-containerengine-api-openapi.yml, openapi/oracle-containerinstance-api-openapi.yml,\n  openapi/oracle-costad-api-openapi.yml, openapi/oracle-dashboard-api-openapi.yml, openapi/oracle-dashboardgroup-api-openapi.yml,\n  openapi/oracle-dashxapis-api-openapi.yml, openapi/oracle-data-catalog-api-openapi.yml, openapi/oracle-data-integration-api-openapi.yml,\n  openapi/oracle-data-labeling-api-openapi.yml, openapi/oracle-database-api-openapi.yml, openapi/oracle-databasemigration-api-openapi.yml,\n\
+  \  openapi/oracle-databaserecovery-api-openapi.yml, openapi/oracle-databasetools-api-openapi.yml,\n  openapi/oracle-databasetoolsruntime-api-openapi.yml, openapi/oracle-dataflow-api-openapi.yml,\n  openapi/oracle-datainfracc-api-openapi.yml, openapi/oracle-datalabelingmanagement-api-openapi.yml,\n  openapi/oracle-datamaskingactivity-api-openapi.yml, openapi/oracle-dataplane-api-openapi.yml,\n  openapi/oracle-datasafe-api-openapi.yml, openapi/oracle-datascience-api-openapi.yml, openapi/oracle-datastore-api-openapi.yml,\n  openapi/oracle-datastorecluster-api-openapi.yml, openapi/oracle-dbbackups-api-openapi.yml,\n  openapi/oracle-dbmanagement-api-openapi.yml, openapi/oracle-dbmulticloudawsprovider-api-openapi.yml,\n  openapi/oracle-dbmulticloudgcpprovider-api-openapi.yml, openapi/oracle-dbsystem-api-openapi.yml,\n  openapi/oracle-delegateaccesscontrol-api-openapi.yml, openapi/oracle-demandsignal-api-openapi.yml,\n  openapi/oracle-deployment-api-openapi.yml, openapi/oracle-desktopservice-api-openapi.yml,\n\
+  \  openapi/oracle-dev-ops-api-openapi.yml, openapi/oracle-diagnosability-api-openapi.yml, openapi/oracle-disaster-recovery-api-openapi.yml,\n  openapi/oracle-discovery-api-openapi.yml, openapi/oracle-distributedautonomousdbservice-api-openapi.yml,\n  openapi/oracle-distributeddbprivateendpointservice-api-openapi.yml, openapi/oracle-distributeddbservice-api-openapi.yml,\n  openapi/oracle-distributeddbworkrequestservice-api-openapi.yml, openapi/oracle-dkim-tag-api-openapi.yml,\n  openapi/oracle-dns-api-openapi.yml, openapi/oracle-domain-api-openapi.yml, openapi/oracle-domaingovernance-api-openapi.yml,\n  openapi/oracle-dynamicset-api-openapi.yml, openapi/oracle-ekm-api-openapi.yml, openapi/oracle-email-configuration-tag-api-openapi.yml,\n  openapi/oracle-email-domain-tag-api-openapi.yml, openapi/oracle-email-ippool-tag-api-openapi.yml,\n  openapi/oracle-email-return-path-tag-api-openapi.yml, openapi/oracle-esxihost-api-openapi.yml,\n  openapi/oracle-event-api-openapi.yml, openapi/oracle-events-api-openapi.yml,\
+  \ openapi/oracle-file-storage-api-openapi.yml,\n  openapi/oracle-fleetappsmanagement-api-openapi.yml, openapi/oracle-fleetappsmanagementadmin-api-openapi.yml,\n  openapi/oracle-fleetappsmanagementcatalog-api-openapi.yml, openapi/oracle-fleetappsmanagementmaintenancewindow-api-openapi.yml,\n  openapi/oracle-fleetappsmanagementoperations-api-openapi.yml, openapi/oracle-fleetappsmanagementprovision-api-openapi.yml,\n  openapi/oracle-fleetappsmanagementrunbooks-api-openapi.yml, openapi/oracle-fleetappsmanagementworkrequest-api-openapi.yml,\n  openapi/oracle-fleetsoftwareupdate-api-openapi.yml, openapi/oracle-functionsinvoke-api-openapi.yml,\n  openapi/oracle-functionsmanagement-api-openapi.yml, openapi/oracle-fusionenvironment-api-openapi.yml,\n  openapi/oracle-fusionenvironmentfamily-api-openapi.yml, openapi/oracle-gateway-api-openapi.yml,\n  openapi/oracle-generateenrichmentjob-api-openapi.yml, openapi/oracle-generatesqlfromnljob-api-openapi.yml,\n  openapi/oracle-generativeai-api-openapi.yml,\
+  \ openapi/oracle-generativeaiagent-api-openapi.yml,\n  openapi/oracle-generativeaiagentruntime-api-openapi.yml, openapi/oracle-generativeaiinference-api-openapi.yml,\n  openapi/oracle-genericartifactscontent-api-openapi.yml, openapi/oracle-getenrichmentjob-api-openapi.yml,\n  openapi/oracle-goldengate-api-openapi.yml, openapi/oracle-governance-api-openapi.yml, openapi/oracle-greetings-api-openapi.yml,\n  openapi/oracle-health-checks-api-openapi.yml, openapi/oracle-identity-api-openapi.yml, openapi/oracle-identitydomains-api-openapi.yml,\n  openapi/oracle-incident-api-openapi.yml, openapi/oracle-integrationinstance-api-openapi.yml,\n  openapi/oracle-inventory-api-openapi.yml, openapi/oracle-invoicesummary-api-openapi.yml, openapi/oracle-iot-api-openapi.yml,\n  openapi/oracle-javadownload-api-openapi.yml, openapi/oracle-javamanagementservice-api-openapi.yml,\n  openapi/oracle-jmsutils-api-openapi.yml, openapi/oracle-kafkacluster-api-openapi.yml, openapi/oracle-kmscrypto-api-openapi.yml,\n\
+  \  openapi/oracle-kmshsmcluster-api-openapi.yml, openapi/oracle-kmsmanagement-api-openapi.yml,\n  openapi/oracle-kmsvault-api-openapi.yml, openapi/oracle-licensemanager-api-openapi.yml, openapi/oracle-lifecycleenvironment-api-openapi.yml,\n  openapi/oracle-limits-api-openapi.yml, openapi/oracle-limitsincrease-api-openapi.yml, openapi/oracle-link-api-openapi.yml,\n  openapi/oracle-linkfeatures-api-openapi.yml, openapi/oracle-listenrichmentjobs-api-openapi.yml,\n  openapi/oracle-load-balancer-api-openapi.yml, openapi/oracle-lockbox-api-openapi.yml, openapi/oracle-lockboxaccesscontextattribute-api-openapi.yml,\n  openapi/oracle-log-search-api-openapi.yml, openapi/oracle-loganalytics-api-openapi.yml, openapi/oracle-logging-api-openapi.yml,\n  openapi/oracle-loggingmanagement-api-openapi.yml, openapi/oracle-lustrefilestorage-api-openapi.yml,\n  openapi/oracle-macdevice-api-openapi.yml, openapi/oracle-macorder-api-openapi.yml, openapi/oracle-managedinstance-api-openapi.yml,\n  openapi/oracle-managedinstancegroup-api-openapi.yml,\
+  \ openapi/oracle-managedmysqldatabases-api-openapi.yml,\n  openapi/oracle-management-api-openapi.yml, openapi/oracle-managementagent-api-openapi.yml,\n  openapi/oracle-managementappliance-api-openapi.yml, openapi/oracle-managementstation-api-openapi.yml,\n  openapi/oracle-marketplace-api-openapi.yml, openapi/oracle-marketplacepublisher-api-openapi.yml,\n  openapi/oracle-mediaservices-api-openapi.yml, openapi/oracle-mediastream-api-openapi.yml,\n  openapi/oracle-metadata-api-openapi.yml, openapi/oracle-migration-api-openapi.yml, openapi/oracle-monitoredregion-api-openapi.yml,\n  openapi/oracle-monitoring-api-openapi.yml, openapi/oracle-multicloudresourcediscovery-api-openapi.yml,\n  openapi/oracle-multicloudresources-api-openapi.yml, openapi/oracle-multicloudsmetadata-api-openapi.yml,\n  openapi/oracle-multicloudsubscriptions-api-openapi.yml, openapi/oracle-mysqlaas-api-openapi.yml,\n  openapi/oracle-network-load-balancer-api-openapi.yml, openapi/oracle-networkfirewall-api-openapi.yml,\n\
+  \  openapi/oracle-nosql-api-openapi.yml, openapi/oracle-notificationcontrolplane-api-openapi.yml,\n  openapi/oracle-notificationdataplane-api-openapi.yml, openapi/oracle-object-storage-api-openapi.yml,\n  openapi/oracle-ocbagentsvc-api-openapi.yml, openapi/oracle-occdemandsignal-api-openapi.yml,\n  openapi/oracle-occmetricalarm-api-openapi.yml, openapi/oracle-occmetrics-api-openapi.yml,\n  openapi/oracle-oceinstance-api-openapi.yml, openapi/oracle-ocicachebackup-api-openapi.yml,\n  openapi/oracle-ocicacheconfigset-api-openapi.yml, openapi/oracle-ocicachedefaultconfigset-api-openapi.yml,\n  openapi/oracle-ocicacheuser-api-openapi.yml, openapi/oracle-oda-api-openapi.yml, openapi/oracle-odapackage-api-openapi.yml,\n  openapi/oracle-omhubnetworkanchor-api-openapi.yml, openapi/oracle-omhubresourceanchor-api-openapi.yml,\n  openapi/oracle-onboarding-api-openapi.yml, openapi/oracle-opainstance-api-openapi.yml, openapi/oracle-opensearchcluster-api-openapi.yml,\n  openapi/oracle-opensearchclusterbackup-api-openapi.yml,\
+  \ openapi/oracle-opensearchclusterpipeline-api-openapi.yml,\n  openapi/oracle-operationresource-api-openapi.yml, openapi/oracle-operationsinsights-api-openapi.yml,\n  openapi/oracle-operationsresource-api-openapi.yml, openapi/oracle-operatoractions-api-openapi.yml,\n  openapi/oracle-operatorcontrol-api-openapi.yml, openapi/oracle-operatorcontrolassignment-api-openapi.yml,\n  openapi/oracle-optimizer-api-openapi.yml, openapi/oracle-oracledbazureblobcontainer-api-openapi.yml,\n  openapi/oracle-oracledbazureblobmount-api-openapi.yml, openapi/oracle-oracledbazureconnector-api-openapi.yml,\n  openapi/oracle-oracledbazurekey-api-openapi.yml, openapi/oracle-oracledbazurevault-api-openapi.yml,\n  openapi/oracle-oracledbazurevaultassociation-api-openapi.yml, openapi/oracle-orders-api-openapi.yml,\n  openapi/oracle-organization-api-openapi.yml, openapi/oracle-organizationsubscription-api-openapi.yml,\n  openapi/oracle-partner-api-openapi.yml, openapi/oracle-partnerintegeration-api-openapi.yml,\n\
+  \  openapi/oracle-perfhub-api-openapi.yml, openapi/oracle-plugin-api-openapi.yml, openapi/oracle-plugin-config-api-openapi.yml,\n  openapi/oracle-postgresql-api-openapi.yml, openapi/oracle-privateserviceaccess-api-openapi.yml,\n  openapi/oracle-privilegedapicontrol-api-openapi.yml, openapi/oracle-privilegedapirequests-api-openapi.yml,\n  openapi/oracle-privilegedapiworkrequest-api-openapi.yml, openapi/oracle-purchaseentitlementresource-api-openapi.yml,\n  openapi/oracle-purchaseentitlementsresource-api-openapi.yml, openapi/oracle-query-api-openapi.yml,\n  openapi/oracle-queue-api-openapi.yml, openapi/oracle-queueadmin-api-openapi.yml, openapi/oracle-quotas-api-openapi.yml,\n  openapi/oracle-rate-card-api-openapi.yml, openapi/oracle-recipientinvitation-api-openapi.yml,\n  openapi/oracle-redirect-api-openapi.yml, openapi/oracle-rediscluster-api-openapi.yml, openapi/oracle-redisidentity-api-openapi.yml,\n  openapi/oracle-refreshactivity-api-openapi.yml, openapi/oracle-replicas-api-openapi.yml,\
+  \ openapi/oracle-reportingmanagedinstance-api-openapi.yml,\n  openapi/oracle-resource-manager-api-openapi.yml, openapi/oracle-resourceanalyticsinstance-api-openapi.yml,\n  openapi/oracle-resources-api-openapi.yml, openapi/oracle-resourcesearch-api-openapi.yml, openapi/oracle-rewards-api-openapi.yml,\n  openapi/oracle-rovercluster-api-openapi.yml, openapi/oracle-roverentitlement-api-openapi.yml,\n  openapi/oracle-rovernode-api-openapi.yml, openapi/oracle-s3objectstorage-api-openapi.yml,\n  openapi/oracle-schedule-api-openapi.yml, openapi/oracle-scheduled-job-api-openapi.yml, openapi/oracle-scheduledactivity-api-openapi.yml,\n  openapi/oracle-sddc-api-openapi.yml, openapi/oracle-secrets-api-openapi.yml, openapi/oracle-securityattribute-api-openapi.yml,\n  openapi/oracle-seexadatasecuritygroupresource-api-openapi.yml, openapi/oracle-seexadatasecuritygroupsresource-api-openapi.yml,\n  openapi/oracle-sender-tag-api-openapi.yml, openapi/oracle-senderinvitation-api-openapi.yml,\n  openapi/oracle-service-api-openapi.yml,\
+  \ openapi/oracle-service-catalog-api-openapi.yml, openapi/oracle-serviceattachment-api-openapi.yml,\n  openapi/oracle-serviceconnector-api-openapi.yml, openapi/oracle-servicedefinitionresource-api-openapi.yml,\n  openapi/oracle-servicedefinitionsresource-api-openapi.yml, openapi/oracle-serviceentitlementresource-api-openapi.yml,\n  openapi/oracle-serviceentitlementsresource-api-openapi.yml, openapi/oracle-serviceinstanceresource-api-openapi.yml,\n  openapi/oracle-serviceinstancesresource-api-openapi.yml, openapi/oracle-servicemanagerproxy-api-openapi.yml,\n  openapi/oracle-seserviceconfigurationresource-api-openapi.yml, openapi/oracle-seserviceconfigurationsresource-api-openapi.yml,\n  openapi/oracle-shape-api-openapi.yml, openapi/oracle-siexadataburstingresource-api-openapi.yml,\n  openapi/oracle-siexadatasecuritygroupassignmentresource-api-openapi.yml, openapi/oracle-siexadatasecuritygroupassignmentsresource-api-openapi.yml,\n  openapi/oracle-siserviceconfigurationresource-api-openapi.yml,\
+  \ openapi/oracle-siserviceconfigurationsresource-api-openapi.yml,\n  openapi/oracle-softwaresource-api-openapi.yml, openapi/oracle-sqltuning-api-openapi.yml, openapi/oracle-stackmonitoring-api-openapi.yml,\n  openapi/oracle-stream-api-openapi.yml, openapi/oracle-streamadmin-api-openapi.yml, openapi/oracle-submit-email-tag-api-openapi.yml,\n  openapi/oracle-submit-raw-email-tag-api-openapi.yml, openapi/oracle-subscribedservice-api-openapi.yml,\n  openapi/oracle-subscribers-api-openapi.yml, openapi/oracle-subscription-api-openapi.yml, openapi/oracle-suppression-tag-api-openapi.yml,\n  openapi/oracle-tenancyattachment-api-openapi.yml, openapi/oracle-threat-intel-api-openapi.yml,\n  openapi/oracle-trace-api-openapi.yml, openapi/oracle-usage-limits-api-openapi.yml, openapi/oracle-usage-plans-api-openapi.yml,\n  openapi/oracle-usageapi-api-openapi.yml, openapi/oracle-vanitydomain-api-openapi.yml, openapi/oracle-vaults-api-openapi.yml,\n  openapi/oracle-vbinstance-api-openapi.yml, openapi/oracle-vbsinstance-api-openapi.yml,\
+  \ openapi/oracle-virtualnetwork-api-openapi.yml,\n  openapi/oracle-vnmonitoring-api-openapi.yml, openapi/oracle-vulnerability-scanning-api-openapi.yml,\n  openapi/oracle-waa-api-openapi.yml, openapi/oracle-waas-api-openapi.yml, openapi/oracle-waf-api-openapi.yml,\n  openapi/oracle-weblogicmanagementservice-api-openapi.yml, openapi/oracle-weblogicmanagementserviceconfiguration-api-openapi.yml,\n  openapi/oracle-work-request-tag-api-openapi.yml, openapi/oracle-work-requests-api-openapi.yml,\n  openapi/oracle-workrequest-api-openapi.yml, openapi/oracle-zpr-api-openapi.yml, openapi/oracle-zprtopology-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7770\n  by_action_class:\n    connected: 3394\n    acting: 4376\n  by_consequence:\n    read: 3394\n\
+  \    write: 3978\n    physical: 225\n    safety-critical: 173\n  human_in_the_loop_required: 173\noperations:\n- path: /accessRequests\n  method: get\n  operationId: ListAccessRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accessRequests\n  method: post\n  operationId: CreateAccessRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accessRequests/actions/export\n  method: post\n  operationId: ExportAccessRequests\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
+  \    - abnormal\n      - high-value\n    audit: required\n- path: /accessRequests/{accessRequestId}\n  method: get\n  operationId: GetAccessRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accessRequests/{accessRequestId}/accessMaterials\n  method: get\n  operationId: GetAccessMaterials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accessRequests/{accessRequestId}/actions/handle\n  method: post\n  operationId: HandleAccessRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accessRequests/{accessRequestId}/actions/remind\n  method:\
+  \ post\n  operationId: RemindAccessRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accessRequests/{accessRequestId}/internal\n  method: get\n  operationId: GetAccessRequestInternal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accessRequests\n  method: get\n  operationId: ListAccessRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accessRequests/{accessRequestId}\n  method: get\n  operationId: GetAccessRequest\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accessRequests/{accessRequestId}/action/approve\n  method: post\n  operationId: ApproveAccessRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accessRequests/{accessRequestId}/action/reject\n  method: post\n  operationId: RejectAccessRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accessRequests/{accessRequestId}/action/revoke\n  method: post\n  operationId: RevokeAccessRequest\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /accessRequests/{accessRequestId}/auditLogReport\n  method: get\n  operationId: GetAuditLogReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accessRequests/{accessRequestId}/history\n  method: get\n  operationId: ListAccessRequestHistories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /governanceInstances\n  method: get\n  operationId: ListGovernanceInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
+  \    audit: none\n- path: /governanceInstances\n  method: post\n  operationId: CreateGovernanceInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /governanceInstances/configuration\n  method: get\n  operationId: GetGovernanceInstanceConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /governanceInstances/configuration\n  method: put\n  operationId: UpdateGovernanceInstanceConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
+  \    audit: required\n- path: /governanceInstances/{governanceInstanceId}\n  method: delete\n  operationId: DeleteGovernanceInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /governanceInstances/{governanceInstanceId}\n  method: get\n  operationId: GetGovernanceInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /governanceInstances/{governanceInstanceId}\n  method: put\n  operationId: UpdateGovernanceInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
+  \      - high-value\n    audit: required\n- path: /governanceInstances/{governanceInstanceId}/actions/addLock\n  method: post\n  operationId: AddGovernanceInstanceLock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /governanceInstances/{governanceInstanceId}/actions/changeCompartment\n  method: post\n  operationId: ChangeGovernanceInstanceCompartment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /governanceInstances/{governanceInstanceId}/actions/removeLock\n  method: post\n  operationId: RemoveGovernanceInstanceLock\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workRequests\n  method: get\n  operationId: ListWorkRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workRequests/{workRequestId}\n  method: delete\n  operationId: CancelWorkRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workRequests/{workRequestId}\n  method: get\n  operationId: GetWorkRequest\n  x-agentic-access:\n    action-class: connected\n \
+  \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workRequests/{workRequestId}/errors\n  method: get\n  operationId: ListWorkRequestErrors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workRequests/{workRequestId}/logs\n  method: get\n  operationId: ListWorkRequestLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /launchEligibility\n  method: get\n  operationId: GetLaunchEligibility\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /thirdPartyPaidListingEligibility\n  method: get\n  operationId: GetThirdPartyPaidListingEligibility\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workRequests\n  method: get\n  operationId: ListWorkRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workRequests/{workRequestId}\n  method: delete\n  operationId: CancelWorkRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workRequests/{workRequestId}\n  method: get\n  operationId: GetWorkRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workRequests/{workRequestId}/errors\n  method: get\n  operationId: ListWorkRequestErrors\n  x-agentic-access:\n \
+  \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workRequests/{workRequestId}/logs\n  method: get\n  operationId: ListWorkRequestLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aiDataPlatforms\n  method: get\n  operationId: ListAiDataPlatforms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aiDataPlatforms\n  method: post\n  operationId: CreateAiDataPlatform\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /aiDataPlatforms/{aiDataPlatformId}\n  method:\
+  \ delete\n  operationId: DeleteAiDataPlatform\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /aiDataPlatforms/{aiDataPlatformId}\n  method: get\n  operationId: GetAiDataPlatform\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aiDataPlatforms/{aiDataPlatformId}\n  method: put\n  operationId: UpdateAiDataPlatform\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /aiDataPlatforms/{aiDataPlatformId}/actions/changeCompartment\n\
+  \  method: post\n  operationId: ChangeAiDataPlatformCompartment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /actions/analyzeDocument\n  method: post\n  operationId: AnalyzeDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /modelTypes/{modelType}\n  method: get\n  operationId: GetModelType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models\n  method: get\n  operationId: ListModels\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models\n  method: post\n  operationId: CreateModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/{modelId}\n  method: delete\n  operationId: DeleteModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/{modelId}\n  method: get\n  operationId: GetModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
+  \ 3600\n    audit: none\n- path: /models/{modelId}\n  method: patch\n  operationId: PatchModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/{modelId}\n  method: put\n  operationId: UpdateModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/{modelId}/actions/addLock\n  method: post\n  operationId: AddModelLock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/{modelId}/actions/changeCompartment\n  method: post\n  operationId: ChangeModelCompartment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/{modelId}/actions/removeLock\n  method: post\n  operationId: RemoveModelLock\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processorJobs\n  method: post\n  operationId: CreateProcessorJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processorJobs/{processorJobId}\n  method: get\n  operationId: GetProcessorJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \n\n# --- truncated at 32 KB (2407 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/agentic-access/oracle-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/agentic-access/oracle-agentic-access.yml
-summary_line: 15 operations · 7 acting · 1 human-in-the-loop
+summary_line: 7770 operations · 4376 acting · 173 human-in-the-loop
 tags:
 - Cloud
 - Database

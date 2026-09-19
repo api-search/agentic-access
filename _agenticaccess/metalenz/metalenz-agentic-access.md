@@ -39,12 +39,12 @@ api_specs:
   slug: metalenz-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-discovery-api-openapi.yml
-- filename: metalenz-oembed-api-openapi.yml
+- filename: metalenz-o-embed-api-openapi.yml
   format: yaml
-  label: Metalenz oEmbed API
-  slug: metalenz-oembed-api
+  label: Metalenz o Embed API
+  slug: metalenz-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-oembed-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/openapi/metalenz-o-embed-api-openapi.yml
 consequence_counts:
   read: 23
 description: Recommended x-agentic-access execution contracts, classified from the OpenAPI. Every operation on this surface is an anonymous read, so every contract is action-class connected / consequence read with no human-in-the-loop requirement and no audit obligation. A governance starting point for exposing this API to AI agents — review and bind audience per deployment.

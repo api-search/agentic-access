@@ -105,6 +105,6 @@ tags:
 - Applicant Tracking
 - Frontline Hiring
 - Hourly Workforce
-- HR Tech
+- Human Resources
 - Onboarding
 ---

@@ -69,12 +69,6 @@ api_specs:
   slug: coingecko-networks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-networks-api-openapi.yml
-- filename: coingecko-nfts-api-openapi.yml
-  format: yaml
-  label: CoinGecko NFTs API
-  slug: coingecko-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-nfts-api-openapi.yml
 - filename: coingecko-ohlcv-api-openapi.yml
   format: yaml
   label: CoinGecko OHLCV API
@@ -135,6 +129,12 @@ api_specs:
   slug: coingecko-trending-pools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-trending-pools-api-openapi.yml
+- filename: coingecko-nfts-api-openapi.yml
+  format: yaml
+  label: CoinGecko NF Ts API
+  slug: coingecko-nfts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-nfts-api-openapi.yml
 consequence_counts:
   read: 68
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -185,7 +185,7 @@ tags:
 - Decentralized Exchanges
 - DeFi
 - DEX
-- Exchanges
+- Exchange
 - Liquidity Pools
 - Market Data
 - NFT

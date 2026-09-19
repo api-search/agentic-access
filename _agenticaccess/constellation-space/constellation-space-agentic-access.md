@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constellation-
 summary_line: 3 operations · 2 acting
 tags:
 - Company
-- Satellites
+- Satellite
 - Space
 - Telemetry
 - Machine-Learning

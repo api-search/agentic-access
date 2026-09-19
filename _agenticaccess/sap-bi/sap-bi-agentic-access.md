@@ -16,12 +16,6 @@ api_specs:
   slug: sap-bi-connections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-connections-api-openapi.yml
-- filename: sap-bi-data-flows-api-openapi.yml
-  format: yaml
-  label: SAP Business Intelligence Data Flows API
-  slug: sap-bi-data-flows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-data-flows-api-openapi.yml
 - filename: sap-bi-data-import-api-openapi.yml
   format: yaml
   label: SAP Business Intelligence Data Import API
@@ -130,6 +124,12 @@ api_specs:
   slug: sap-bi-views-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-views-api-openapi.yml
+- filename: sap-bi-dataflows-api-openapi.yml
+  format: yaml
+  label: SAP Business Intelligence Dataflows API
+  slug: sap-bi-dataflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-dataflows-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 47

@@ -4,6 +4,12 @@ action_class_counts:
   acting: 7
   connected: 8
 api_specs:
+- filename: level2-hub-controller-openapi.json
+  format: json
+  label: Level2 Hub API
+  slug: level2-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/openapi/level2-hub-controller-openapi.json
 - filename: level2-backtesting-api-openapi.yml
   format: yaml
   label: level2 Backtesting API
@@ -88,5 +94,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/level2
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/agentic-access/level2-agentic-access.yml
 summary_line: 15 operations · 7 acting · 1 human-in-the-loop
-tags: []
+tags:
+- Trading
+- Fintech
+- Financial-Services
+- Automation
+- No-Code
+- Backtesting
+- Strategies
+- Brokerage
+- Market Data
+- Prediction Markets
 ---

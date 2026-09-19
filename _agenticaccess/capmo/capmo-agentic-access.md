@@ -262,6 +262,6 @@ tags:
 - Project Management
 - Construction Tech
 - Field Management
-- Building
+- Buildings
 - DACH
 ---

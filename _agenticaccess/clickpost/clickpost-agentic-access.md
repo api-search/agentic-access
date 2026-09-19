@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/clickp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/agentic-access/clickpost-agentic-access.yml
 summary_line: 10 operations · 7 acting
 tags:
-- Carriers
+- Carrier
 - Delivery
 - E-commerce Logistics
 - Logistics

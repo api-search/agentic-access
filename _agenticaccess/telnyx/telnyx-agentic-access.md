@@ -364,12 +364,6 @@ api_specs:
   slug: telnyx-ip-ranges-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-ip-ranges-api-openapi.yml
-- filename: telnyx-ips-api-openapi.yml
-  format: yaml
-  label: Telnyx IPs API
-  slug: telnyx-ips-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-ips-api-openapi.yml
 - filename: telnyx-managed-accounts-api-openapi.yml
   format: yaml
   label: Telnyx Managed Accounts API
@@ -402,7 +396,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-mdr-usage-reports-api-openapi.yml
 - filename: telnyx-media-storage-api-api-openapi.yml
   format: yaml
-  label: Telnyx Media Storage API API
+  label: Telnyx Media Storage API
   slug: telnyx-media-storage-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-media-storage-api-api-openapi.yml
@@ -1018,6 +1012,12 @@ api_specs:
   slug: telnyx-callbacks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-callbacks-api-openapi.yml
+- filename: telnyx-ips-api-openapi.yml
+  format: yaml
+  label: Telnyx I Ps API
+  slug: telnyx-ips-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-ips-api-openapi.yml
 consequence_counts:
   physical: 89
   read: 485

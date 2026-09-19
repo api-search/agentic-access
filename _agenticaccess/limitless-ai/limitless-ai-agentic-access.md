@@ -24,7 +24,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/openapi/limitless-ai-lifelogs-api-openapi.yml
 - filename: limitless-ai-limitless-developer-api-api-openapi.yml
   format: yaml
-  label: Limitless Limitless Developer API API
+  label: Limitless Developer API
   slug: limitless-ai-limitless-developer-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/openapi/limitless-ai-limitless-developer-api-api-openapi.yml
@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/r
 summary_line: 8 operations · 2 acting
 tags:
 - Artificial Intelligence
-- Wearable
+- Wearables
 - Pendant
 - Meeting Notes
 - Lifelogs

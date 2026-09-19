@@ -28,12 +28,6 @@ api_specs:
   slug: signoz-channels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-channels-api-openapi.yml
-- filename: signoz-cloudintegration-api-openapi.yml
-  format: yaml
-  label: SigNoz cloudintegration API
-  slug: signoz-cloudintegration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-cloudintegration-api-openapi.yml
 - filename: signoz-dashboard-api-openapi.yml
   format: yaml
   label: SigNoz dashboard API
@@ -136,12 +130,6 @@ api_specs:
   slug: signoz-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-rules-api-openapi.yml
-- filename: signoz-serviceaccount-api-openapi.yml
-  format: yaml
-  label: SigNoz serviceaccount API
-  slug: signoz-serviceaccount-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-serviceaccount-api-openapi.yml
 - filename: signoz-sessions-api-openapi.yml
   format: yaml
   label: SigNoz sessions API
@@ -178,6 +166,18 @@ api_specs:
   slug: signoz-zeus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-zeus-api-openapi.yml
+- filename: signoz-cloud-integration-api-openapi.yml
+  format: yaml
+  label: SigNoz Cloud Integration API
+  slug: signoz-cloud-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-cloud-integration-api-openapi.yml
+- filename: signoz-service-account-api-openapi.yml
+  format: yaml
+  label: SigNoz Service Account API
+  slug: signoz-service-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/openapi/signoz-service-account-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 73

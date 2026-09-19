@@ -148,7 +148,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/he
 summary_line: 52 operations · 27 acting
 tags:
 - Field Service Management
-- Trades
+- Trade
 - Job Management
 - Project Management
 - Scheduling

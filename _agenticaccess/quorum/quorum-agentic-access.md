@@ -4,12 +4,6 @@ action_class_counts:
   acting: 2
   connected: 7
 api_specs:
-- filename: quorum-divisionorders-api-openapi.yml
-  format: yaml
-  label: Quorum Software DivisionOrders API
-  slug: quorum-divisionorders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-divisionorders-api-openapi.yml
 - filename: quorum-leases-api-openapi.yml
   format: yaml
   label: Quorum Software Leases API
@@ -34,6 +28,12 @@ api_specs:
   slug: quorum-wells-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-wells-api-openapi.yml
+- filename: quorum-division-orders-api-openapi.yml
+  format: yaml
+  label: Quorum Software Division Orders API
+  slug: quorum-division-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-division-orders-api-openapi.yml
 consequence_counts:
   read: 7
   write: 2

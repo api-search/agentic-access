@@ -113,5 +113,5 @@ tags:
 - Integration
 - Messaging
 - Middleware
-- Queue
+- Queues
 ---

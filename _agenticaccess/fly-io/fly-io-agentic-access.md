@@ -22,12 +22,6 @@ api_specs:
   slug: fly-io-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-apps-api-openapi.yml
-- filename: fly-io-oauth-api-openapi.yml
-  format: yaml
-  label: fly-io OAuth API
-  slug: fly-io-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-oauth-api-openapi.yml
 - filename: fly-io-sso-api-openapi.yml
   format: yaml
   label: fly-io SSO API
@@ -52,6 +46,12 @@ api_specs:
   slug: fly-io-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-webhooks-api-openapi.yml
+- filename: fly-io-oauth-api-openapi.yml
+  format: yaml
+  label: Fly Io O Auth API
+  slug: fly-io-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-oauth-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -112,5 +112,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fly-io
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tokens/oidc\n  method: post\n  operationId: getOidcToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/agentic-access/fly-io-agentic-access.yml
 summary_line: 37 operations · 24 acting · 1 human-in-the-loop
-tags: []
+tags:
+- Platform
+- Infrastructure
+- Edge Computing
+- Networking
 ---

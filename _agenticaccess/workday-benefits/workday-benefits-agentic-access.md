@@ -40,6 +40,18 @@ api_specs:
   slug: workday-benefits-time-off-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-time-off-plans-api-openapi.yml
+- filename: workday-benefits-benefit-enrollment-event-offerings-openapi.json
+  format: json
+  label: Workday Benefit Enrollment Event Offerings API
+  slug: workday-benefits-benefit-enrollment-event-offerings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-enrollment-event-offerings-openapi.json
+- filename: workday-benefits-benefit-partner-openapi.json
+  format: json
+  label: Workday Benefit Partner API
+  slug: workday-benefits-benefit-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-partner-openapi.json
 consequence_counts:
   read: 8
   write: 2
@@ -71,5 +83,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workda
   \      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/agentic-access/workday-benefits-agentic-access.yml
 summary_line: 10 operations · 2 acting
-tags: []
+tags:
+- Benefits
+- Human Resources
+- HCM
+- Enterprise
+- Payroll
+- Employee Benefits
+- SOAP
+- OpenAPI
 ---

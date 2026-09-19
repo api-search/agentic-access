@@ -235,6 +235,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudsmith/ref
 summary_line: 349 operations · 229 acting · 4 human-in-the-loop
 tags:
 - Artifact Management
+- Developer Tools
 - DevOps
 - DevSecOps
 - Distribution

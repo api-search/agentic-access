@@ -42,6 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-e
 summary_line: 6 operations · 3 acting
 tags:
 - Debugging
+- Developer Tools
 - Error Reporting
 - Errors
 - Exceptions

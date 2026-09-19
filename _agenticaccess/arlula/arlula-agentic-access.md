@@ -87,5 +87,5 @@ tags:
 - Geospatial
 - Imagery
 - Remote Sensing
-- Satellites
+- Satellite
 ---

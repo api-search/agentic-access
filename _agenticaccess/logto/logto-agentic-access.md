@@ -367,4 +367,5 @@ tags:
 - OIDC
 - SAML
 - Open-Source
+- Identity Federation
 ---

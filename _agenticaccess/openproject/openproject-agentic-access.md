@@ -142,12 +142,6 @@ api_specs:
   slug: openproject-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/openapi/openproject-notifications-api-openapi.yml
-- filename: openproject-oauth-2-api-openapi.yml
-  format: yaml
-  label: OpenProject OAuth 2 API
-  slug: openproject-oauth-2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/openapi/openproject-oauth-2-api-openapi.yml
 - filename: openproject-portfolios-api-openapi.yml
   format: yaml
   label: OpenProject Portfolios API
@@ -310,12 +304,6 @@ api_specs:
   slug: openproject-user-working-times-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/openapi/openproject-user-working-times-api-openapi.yml
-- filename: openproject-userpreferences-api-openapi.yml
-  format: yaml
-  label: OpenProject UserPreferences API
-  slug: openproject-userpreferences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/openapi/openproject-userpreferences-api-openapi.yml
 - filename: openproject-users-api-openapi.yml
   format: yaml
   label: OpenProject Users API
@@ -358,12 +346,6 @@ api_specs:
   slug: openproject-work-schedule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/openapi/openproject-work-schedule-api-openapi.yml
-- filename: openproject-workpackages-api-openapi.yml
-  format: yaml
-  label: OpenProject WorkPackages API
-  slug: openproject-workpackages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/openapi/openproject-workpackages-api-openapi.yml
 - filename: openproject-workspace-api-openapi.yml
   format: yaml
   label: OpenProject Workspace API
@@ -376,6 +358,18 @@ api_specs:
   slug: openproject-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/openapi/openproject-workspaces-api-openapi.yml
+- filename: openproject-oauth2-api-openapi.yml
+  format: yaml
+  label: OpenProject O Auth2 API
+  slug: openproject-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/openapi/openproject-oauth2-api-openapi.yml
+- filename: openproject-user-preferences-api-openapi.yml
+  format: yaml
+  label: OpenProject User Preferences API
+  slug: openproject-user-preferences-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openproject/refs/heads/main/openapi/openproject-user-preferences-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 160

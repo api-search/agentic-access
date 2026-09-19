@@ -120,7 +120,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitly/refs/hea
 summary_line: 94 operations · 27 acting
 tags:
 - Links
-- URL Shortener
+- URL Shorteners
 - QR Codes
 - Analytics
 - Marketing

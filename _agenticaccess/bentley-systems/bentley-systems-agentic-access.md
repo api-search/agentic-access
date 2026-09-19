@@ -304,12 +304,6 @@ api_specs:
   slug: bentley-systems-observations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/openapi/bentley-systems-observations-api-openapi.yml
-- filename: bentley-systems-odata-api-openapi.yml
-  format: yaml
-  label: Bentley Systems ODATA API
-  slug: bentley-systems-odata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/openapi/bentley-systems-odata-api-openapi.yml
 - filename: bentley-systems-parameters-api-openapi.yml
   format: yaml
   label: Bentley Systems Parameters API
@@ -520,6 +514,12 @@ api_specs:
   slug: bentley-systems-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/openapi/bentley-systems-workspaces-api-openapi.yml
+- filename: bentley-systems-odata-api-openapi.yml
+  format: yaml
+  label: Bentley Systems ODATA API
+  slug: bentley-systems-odata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/openapi/bentley-systems-odata-api-openapi.yml
 consequence_counts:
   read: 144
   write: 175

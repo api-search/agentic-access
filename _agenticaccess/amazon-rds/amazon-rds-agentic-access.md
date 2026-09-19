@@ -61,6 +61,6 @@ tags:
 - Cloud Databases
 - Database Service
 - Database-as-a-Service
-- Managed Databases
+- Managed Database
 - Relational Databases
 ---

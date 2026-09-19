@@ -1,7 +1,7 @@
 ---
 acting_count: 0
 action_class_counts:
-  connected: 14
+  connected: 34
 api_specs:
 - filename: tebra-documents-api-openapi.yml
   format: yaml
@@ -27,18 +27,6 @@ api_specs:
   slug: tebra-patient-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-patient-api-openapi.yml
-- filename: tebra-allergyintolerance-api-openapi.yml
-  format: yaml
-  label: Tebra Allergy Intolerance API
-  slug: tebra-allergyintolerance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-allergyintolerance-api-openapi.yml
-- filename: tebra-careplan-api-openapi.yml
-  format: yaml
-  label: Tebra Care Plan API
-  slug: tebra-careplan-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-careplan-api-openapi.yml
 - filename: tebra-careteam-api-openapi.yml
   format: yaml
   label: Tebra Care Team API
@@ -63,12 +51,6 @@ api_specs:
   slug: tebra-diagnosticreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-diagnosticreport-api-openapi.yml
-- filename: tebra-documentreference-api-openapi.yml
-  format: yaml
-  label: Tebra Document Reference API
-  slug: tebra-documentreference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-documentreference-api-openapi.yml
 - filename: tebra-encounter-api-openapi.yml
   format: yaml
   label: Tebra Encounter API
@@ -99,12 +81,6 @@ api_specs:
   slug: tebra-medication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-medication-api-openapi.yml
-- filename: tebra-medicationrequest-api-openapi.yml
-  format: yaml
-  label: Tebra Medication Request API
-  slug: tebra-medicationrequest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-medicationrequest-api-openapi.yml
 - filename: tebra-observation-api-openapi.yml
   format: yaml
   label: Tebra Observation API
@@ -123,12 +99,6 @@ api_specs:
   slug: tebra-practitioner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-practitioner-api-openapi.yml
-- filename: tebra-practitionerrole-api-openapi.yml
-  format: yaml
-  label: Tebra Practitioner Role API
-  slug: tebra-practitionerrole-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-practitionerrole-api-openapi.yml
 - filename: tebra-procedure-api-openapi.yml
   format: yaml
   label: Tebra Procedure API
@@ -141,8 +111,38 @@ api_specs:
   slug: tebra-provenance-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-provenance-api-openapi.yml
+- filename: tebra-allergy-intolerance-api-openapi.yml
+  format: yaml
+  label: Tebra Allergy Intolerance API
+  slug: tebra-allergy-intolerance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-allergy-intolerance-api-openapi.yml
+- filename: tebra-care-plan-api-openapi.yml
+  format: yaml
+  label: Tebra Care plan API
+  slug: tebra-care-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-care-plan-api-openapi.yml
+- filename: tebra-document-reference-api-openapi.yml
+  format: yaml
+  label: Tebra Document Reference API
+  slug: tebra-document-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-document-reference-api-openapi.yml
+- filename: tebra-medication-request-api-openapi.yml
+  format: yaml
+  label: Tebra Medication Request API
+  slug: tebra-medication-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-medication-request-api-openapi.yml
+- filename: tebra-practitioner-role-api-openapi.yml
+  format: yaml
+  label: Tebra Practitioner Role API
+  slug: tebra-practitioner-role-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-practitioner-role-api-openapi.yml
 consequence_counts:
-  read: 14
+  read: 34
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -151,11 +151,11 @@ method: generated
 name: Tebra Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
-operation_count: 14
-overview: 'Tebra exposes 14 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+operation_count: 34
+overview: 'Tebra exposes 34 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 14 read.
+  By consequence: 34 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -165,12 +165,17 @@ slug: tebra-agentic-access
 source_filename: tebra-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tebra-clinical-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 14\n  by_action_class:\n    connected: 14\n  by_consequence:\n    read: 14\n  human_in_the_loop_required: 0\noperations:\n- path: /patient\n  method: get\n  operationId: getPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/allergyIntolerance/medication\n  method: get\n  operationId: getAllergyIntolerance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/carePlan\n  method: get\n\
-  \  operationId: getCarePlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/condition/problemList\n  method: get\n  operationId: getProblemList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/device\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/diagnosticReport\n  method: get\n  operationId: getDiagnosticReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/encounter\n  method: get\n  operationId: getEncounter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
-  \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/goal\n  method: get\n  operationId: getGoal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/immunization\n  method: get\n  operationId: getImmunization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/medicationStatement\n  method: get\n  operationId: getMedicationStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/observation/vitalSigns\n  method: get\n  operationId: getVitalSigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/procedure\n\
-  \  method: get\n  operationId: getProcedure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/smokingStatus\n  method: get\n  operationId: getSmokingStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/binary/summary\n  method: get\n  operationId: getBinarySummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/tebra-allergy-intolerance-api-openapi.yml, openapi/tebra-care-plan-api-openapi.yml,\n  openapi/tebra-careteam-api-openapi.yml, openapi/tebra-clinical-api-openapi.yml, openapi/tebra-condition-api-openapi.yml,\n  openapi/tebra-device-api-openapi.yml, openapi/tebra-diagnosticreport-api-openapi.yml, openapi/tebra-document-reference-api-openapi.yml,\n  openapi/tebra-documents-api-openapi.yml, openapi/tebra-encounter-api-openapi.yml, openapi/tebra-goal-api-openapi.yml,\n  openapi/tebra-immunization-api-openapi.yml, openapi/tebra-location-api-openapi.yml, openapi/tebra-medication-api-openapi.yml,\n  openapi/tebra-medication-request-api-openapi.yml, openapi/tebra-observation-api-openapi.yml,\n  openapi/tebra-organization-api-openapi.yml, openapi/tebra-patient-api-openapi.yml, openapi/tebra-practitioner-api-openapi.yml,\n  openapi/tebra-practitioner-role-api-openapi.yml, openapi/tebra-procedure-api-openapi.yml,\n  openapi/tebra-provenance-api-openapi.yml\n\
+  description: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 34\n  by_action_class:\n    connected: 34\n  by_consequence:\n    read: 34\n  human_in_the_loop_required: 0\noperations:\n- path: /AllergyIntolerance\n  method: get\n  operationId: getAllergyIntolerance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /CarePlan\n  method: get\n  operationId: getCarePlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /CareTeam\n  method: get\n  operationId: getCareTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/allergyIntolerance/medication\n  method: get\n  operationId: getAllergyIntolerance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/carePlan\n  method: get\n  operationId: getCarePlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/condition/problemList\n  method: get\n  operationId: getProblemList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/device\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/diagnosticReport\n  method:\
+  \ get\n  operationId: getDiagnosticReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/encounter\n  method: get\n  operationId: getEncounter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/goal\n  method: get\n  operationId: getGoal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/immunization\n  method: get\n  operationId: getImmunization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/medicationStatement\n  method: get\n  operationId: getMedicationStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/observation/vitalSigns\n  method: get\n  operationId: getVitalSigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/procedure\n  method: get\n  operationId: getProcedure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/smokingStatus\n  method: get\n  operationId: getSmokingStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Condition\n  method: get\n  operationId: getCondition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Device\n  method: get\n  operationId:\
+  \ getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DiagnosticReport\n  method: get\n  operationId: getDiagnosticReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DocumentReference\n  method: get\n  operationId: getDocumentReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient/binary/summary\n  method: get\n  operationId: getBinarySummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Encounter\n  method: get\n  operationId: getEncounter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
+  \ token:\n      max-ttl: 3600\n    audit: none\n- path: /Goal\n  method: get\n  operationId: getGoal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Immunization\n  method: get\n  operationId: getImmunization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Location\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Medication\n  method: get\n  operationId: getMedication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationRequest\n  method: get\n  operationId: getMedicationRequest\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Observation\n  method: get\n  operationId: getObservation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Organization\n  method: get\n  operationId: getOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patient\n  method: get\n  operationId: getPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Patient\n  method: get\n  operationId: getPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Practitioner\n  method: get\n  operationId:\
+  \ getPractitioner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /PractitionerRole\n  method: get\n  operationId: getPractitionerRole\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Procedure\n  method: get\n  operationId: getProcedure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Provenance\n  method: get\n  operationId: getProvenance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/agentic-access/tebra-agentic-access.yml
-summary_line: 14 operations
+summary_line: 34 operations
 tags:
 - Healthcare
 - Practice Management

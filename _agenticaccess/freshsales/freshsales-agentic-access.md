@@ -52,18 +52,6 @@ api_specs:
   slug: freshsales-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-products-api-openapi.yml
-- filename: freshsales-salesaccounts-api-openapi.yml
-  format: yaml
-  label: Freshsales SalesAccounts API
-  slug: freshsales-salesaccounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-salesaccounts-api-openapi.yml
-- filename: freshsales-salesactivities-api-openapi.yml
-  format: yaml
-  label: Freshsales SalesActivities API
-  slug: freshsales-salesactivities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-salesactivities-api-openapi.yml
 - filename: freshsales-search-api-openapi.yml
   format: yaml
   label: Freshsales Search API
@@ -76,6 +64,18 @@ api_specs:
   slug: freshsales-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-tasks-api-openapi.yml
+- filename: freshsales-sales-accounts-api-openapi.yml
+  format: yaml
+  label: Freshsales Sales Accounts API
+  slug: freshsales-sales-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-sales-accounts-api-openapi.yml
+- filename: freshsales-sales-activities-api-openapi.yml
+  format: yaml
+  label: Freshsales Sales Activities API
+  slug: freshsales-sales-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/openapi/freshsales-sales-activities-api-openapi.yml
 consequence_counts:
   read: 15
   write: 27
@@ -122,7 +122,7 @@ tags:
 - Sales
 - Contacts
 - Deals
-- Pipeline
+- Pipelines
 - Lead Management
 - Freshworks
 ---

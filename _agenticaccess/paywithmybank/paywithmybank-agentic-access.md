@@ -4,12 +4,6 @@ action_class_counts:
   acting: 15
   connected: 16
 api_specs:
-- filename: paywithmybank-accountdata-api-openapi.yml
-  format: yaml
-  label: PayWithMyBank (Trustly) accountData API
-  slug: paywithmybank-accountdata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-accountdata-api-openapi.yml
 - filename: paywithmybank-accounts-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) accounts API
@@ -28,12 +22,6 @@ api_specs:
   slug: paywithmybank-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-customers-api-openapi.yml
-- filename: paywithmybank-disputemanagement-api-openapi.yml
-  format: yaml
-  label: PayWithMyBank (Trustly) disputeManagement API
-  slug: paywithmybank-disputemanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-disputemanagement-api-openapi.yml
 - filename: paywithmybank-identity-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) identity API
@@ -46,12 +34,6 @@ api_specs:
   slug: paywithmybank-networkcheckapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-networkcheckapi-api-openapi.yml
-- filename: paywithmybank-paymentproviders-api-openapi.yml
-  format: yaml
-  label: PayWithMyBank (Trustly) paymentProviders API
-  slug: paywithmybank-paymentproviders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-paymentproviders-api-openapi.yml
 - filename: paywithmybank-payments-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) payments API
@@ -76,6 +58,24 @@ api_specs:
   slug: paywithmybank-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-api-api-openapi.yml
+- filename: paywithmybank-account-data-api-openapi.yml
+  format: yaml
+  label: PayWithMyBank (Trustly) Account Data API
+  slug: paywithmybank-account-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-account-data-api-openapi.yml
+- filename: paywithmybank-dispute-management-api-openapi.yml
+  format: yaml
+  label: PayWithMyBank (Trustly) Dispute Management API
+  slug: paywithmybank-dispute-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-dispute-management-api-openapi.yml
+- filename: paywithmybank-payment-providers-api-openapi.yml
+  format: yaml
+  label: PayWithMyBank (Trustly) Payment Providers API
+  slug: paywithmybank-payment-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-payment-providers-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 16

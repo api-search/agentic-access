@@ -88,7 +88,7 @@ tags:
 - PDF
 - HTML to PDF
 - Document Conversion
-- Screenshot
+- Screenshots
 - Chromium
 - REST API
 ---

@@ -92,5 +92,5 @@ tags:
 - Conversations
 - Contacts
 - Webhook
-- Widget
+- Widgets
 ---

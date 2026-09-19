@@ -648,7 +648,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/
 summary_line: 291 operations · 238 acting · 1 human-in-the-loop
 tags:
 - Hospitality
-- Hotel
+- Hotels
 - PMS
 - Property Management
 - Travel

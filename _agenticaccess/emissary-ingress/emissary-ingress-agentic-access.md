@@ -4,12 +4,6 @@ action_class_counts:
   acting: 11
   connected: 9
 api_specs:
-- filename: emissary-ingress-authservice-api-openapi.yml
-  format: yaml
-  label: Emissary-Ingress AuthService API
-  slug: emissary-ingress-authservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-authservice-api-openapi.yml
 - filename: emissary-ingress-host-api-openapi.yml
   format: yaml
   label: Emissary-Ingress Host API
@@ -34,6 +28,12 @@ api_specs:
   slug: emissary-ingress-tlscontext-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-tlscontext-api-openapi.yml
+- filename: emissary-ingress-auth-service-api-openapi.yml
+  format: yaml
+  label: Emissary-Ingress Auth Service API
+  slug: emissary-ingress-auth-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/openapi/emissary-ingress-auth-service-api-openapi.yml
 consequence_counts:
   read: 9
   write: 11

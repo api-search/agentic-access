@@ -136,12 +136,6 @@ api_specs:
   slug: tribe-payments-order-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-order-status-api-openapi.yml
-- filename: tribe-payments-p2p-api-openapi.yml
-  format: yaml
-  label: Tribe Payments P2 P API
-  slug: tribe-payments-p2p-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-p2p-api-openapi.yml
 - filename: tribe-payments-payment-api-openapi.yml
   format: yaml
   label: Tribe Payments Payment API
@@ -150,7 +144,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-payment-api-openapi.yml
 - filename: tribe-payments-payments-api-openapi.yml
   format: yaml
-  label: Tribe Payments Payments API
+  label: Tribe Payments API
   slug: tribe-payments-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-payments-api-openapi.yml
@@ -232,6 +226,12 @@ api_specs:
   slug: tribe-payments-user-actions-trigger-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-user-actions-trigger-api-openapi.yml
+- filename: tribe-payments-p2-p-api-openapi.yml
+  format: yaml
+  label: Tribe Payments P2 P API
+  slug: tribe-payments-p2-p-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/openapi/tribe-payments-p2-p-api-openapi.yml
 consequence_counts:
   physical: 20
   read: 26

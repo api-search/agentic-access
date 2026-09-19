@@ -42,7 +42,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icims/refs/hea
 summary_line: 6 operations · 3 acting
 tags:
 - Applicant Tracking
-- HR
+- Human Resources
 - Recruiting
 - Talent Acquisition
 ---

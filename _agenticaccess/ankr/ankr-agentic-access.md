@@ -4,12 +4,6 @@ action_class_counts:
   acting: 20
   connected: 6
 api_specs:
-- filename: ankr-evm-api-openapi.yml
-  format: yaml
-  label: ankr EVM API
-  slug: ankr-evm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-evm-api-openapi.yml
 - filename: ankr-metrics-api-openapi.yml
   format: yaml
   label: ankr Metrics API
@@ -100,5 +94,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ankr-a
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/agentic-access/ankr-agentic-access.yml
 summary_line: 26 operations · 20 acting
-tags: []
+tags:
+- Web3
+- EVM
+- NFT
 ---

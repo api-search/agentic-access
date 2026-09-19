@@ -90,5 +90,15 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/drupal
   \  operationId: createComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/agentic-access/drupal-agentic-access.yml
 summary_line: 33 operations · 17 acting
-tags: []
+tags:
+- Content Management
+- CMS
+- Open-Source
+- JSON:API
+- GraphQL
+- Headless
+- PHP
+- Self-Hosted
+- Publishing
+- Digital Experience
 ---

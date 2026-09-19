@@ -35,7 +35,7 @@ tags:
 - Automotive
 - Automotive Retail
 - Vehicle Inventory
-- Dealerships
+- Dealership
 - Retail
 - Agentic Access
 - llms-txt

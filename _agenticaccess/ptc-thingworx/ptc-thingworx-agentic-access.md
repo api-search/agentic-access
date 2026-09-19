@@ -77,5 +77,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ptc-th
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DataShapes/{dataShapeName}\n  method: get\n  operationId: getDataShape\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/agentic-access/ptc-thingworx-agentic-access.yml
 summary_line: 11 operations · 2 acting
-tags: []
+tags:
+- Manufacturing
+- IoT
+- WebSocket
+- CAD
 ---
