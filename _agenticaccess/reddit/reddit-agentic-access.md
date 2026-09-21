@@ -129,6 +129,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/reddit
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/agentic-access/reddit-agentic-access.yml
 summary_line: 84 operations · 34 acting
 tags:
+- Reddit
 - Advertising
 - Communities
 - Content

@@ -119,6 +119,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/agentic-access/apache-flink-agentic-access.yml
 summary_line: 69 operations · 14 acting · 2 human-in-the-loop
 tags:
+- Apache Flink
 - Apache
 - Batch Processing
 - Big Data

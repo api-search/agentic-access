@@ -3291,6 +3291,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/micros
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/agentic-access/microsoft-graph-agentic-access.yml
 summary_line: 15941 operations · 7537 acting · 44 human-in-the-loop
 tags:
+- Microsoft Graph
 - Azure AD
 - Collaboration
 - Contacts

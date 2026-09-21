@@ -329,6 +329,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/walmar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/agentic-access/walmart-agentic-access.yml
 summary_line: 171 operations · 82 acting · 2 human-in-the-loop
 tags:
+- Walmart
 - Commerce
 - Retail
 - Fortune 100

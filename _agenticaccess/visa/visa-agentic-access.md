@@ -521,6 +521,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/b2b-vi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/agentic-access/visa-agentic-access.yml
 summary_line: 106 operations · 92 acting · 11 human-in-the-loop
 tags:
+- Visa
 - Account
 - Banking
 - Credit Cards

@@ -988,6 +988,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kong-g
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/agentic-access/kong-agentic-access.yml
 summary_line: 1242 operations · 782 acting · 122 human-in-the-loop
 tags:
+- Kong
 - API Gateway
 - AI Gateway
 - AI Connectivity

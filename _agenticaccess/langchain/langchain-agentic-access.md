@@ -547,9 +547,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/langch
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langchain/refs/heads/main/agentic-access/langchain-agentic-access.yml
 summary_line: 506 operations · 309 acting · 8 human-in-the-loop
 tags:
+- LLM
+- LangChain
 - Agents
 - Artificial Intelligence
-- LLM
 - LLM Observability
 - Tracing
 - Evaluation

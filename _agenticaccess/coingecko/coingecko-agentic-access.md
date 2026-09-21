@@ -179,13 +179,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/coinge
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/agentic-access/coingecko-agentic-access.yml
 summary_line: 68 operations
 tags:
+- Exchange
+- CoinGecko
 - Aggregator
 - Blockchain
 - Cryptocurrency
 - Decentralized Exchanges
 - DeFi
 - DEX
-- Exchange
 - Liquidity Pools
 - Market Data
 - NFT

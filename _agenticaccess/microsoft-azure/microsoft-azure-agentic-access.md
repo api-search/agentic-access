@@ -10011,6 +10011,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/access
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/agentic-access/microsoft-azure-agentic-access.yml
 summary_line: 12778 operations · 6530 acting · 347 human-in-the-loop
 tags:
+- Microsoft Azure
 - API Management
 - Cloud
 - Cloud Computing

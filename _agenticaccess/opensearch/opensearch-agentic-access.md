@@ -132,6 +132,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/opense
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/agentic-access/opensearch-agentic-access.yml
 summary_line: 47 operations · 27 acting
 tags:
+- OpenSearch
 - Search
 - Analytics
 - Observability

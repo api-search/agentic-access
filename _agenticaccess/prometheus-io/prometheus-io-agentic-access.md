@@ -156,6 +156,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/promet
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/agentic-access/prometheus-io-agentic-access.yml
 summary_line: 57 operations · 22 acting
 tags:
+- Prometheus
 - Monitoring
 - Metrics
 - Observability

@@ -1055,6 +1055,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: generated\nsource: openapi/canvas
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/agentic-access/canvas-agentic-access.yml
 summary_line: 1148 operations · 566 acting · 29 human-in-the-loop
 tags:
+- Canvas
 - Education
 - EdTech
 - GraphQL

@@ -115,6 +115,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spring
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/agentic-access/spring-agentic-access.yml
 summary_line: 17 operations · 1 acting
 tags:
+- Spring Framework
 - Artificial Intelligence
 - Cloud-Native
 - Enterprise

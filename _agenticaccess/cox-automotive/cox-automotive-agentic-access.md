@@ -232,6 +232,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: generated\nsource: openapi/cox-au
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/agentic-access/cox-automotive-agentic-access.yml
 summary_line: 100 operations · 24 acting
 tags:
+- Cox Automotive
 - Automotive
 - Vehicle Data
 - Vehicle Valuations

@@ -99,6 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/metaba
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/agentic-access/metabase-agentic-access.yml
 summary_line: 24 operations · 11 acting
 tags:
+- Metabase
 - Analytics
 - Business Intelligence
 - Dashboards

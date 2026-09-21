@@ -2116,6 +2116,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/oracle
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/agentic-access/oracle-agentic-access.yml
 summary_line: 7770 operations · 4376 acting · 173 human-in-the-loop
 tags:
+- Oracle
 - Cloud
 - Database
 - Enterprise

@@ -236,6 +236,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gitea-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/agentic-access/gitea-agentic-access.yml
 summary_line: 944 operations · 470 acting · 12 human-in-the-loop
 tags:
+- Gitea
 - Git
 - Source Control
 - DevOps

@@ -131,6 +131,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blocks
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/agentic-access/blockscout-agentic-access.yml
 summary_line: 57 operations · 1 acting
 tags:
+- Blockscout
 - Web3
 - Explorer
 - Open-Source

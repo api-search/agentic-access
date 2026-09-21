@@ -312,13 +312,14 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/adobe-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/agentic-access/adobe-agentic-access.yml
 summary_line: 96 operations · 60 acting
 tags:
+- E-Signature
+- Adobe
 - Fortune 1000
 - Analytics
 - Creative Cloud
 - Digital Asset Management
 - Document Services
 - E-Commerce
-- E-Signature
 - Experience Cloud
 - Generative AI
 - Marketing

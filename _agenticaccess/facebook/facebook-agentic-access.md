@@ -183,6 +183,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/facebo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/agentic-access/facebook-agentic-access.yml
 summary_line: 47 operations · 15 acting
 tags:
+- Facebook
 - Fortune 500
 - Advertising
 - Content Publishing

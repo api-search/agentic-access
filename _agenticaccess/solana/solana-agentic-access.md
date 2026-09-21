@@ -91,6 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/solana
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/agentic-access/solana-agentic-access.yml
 summary_line: 52 operations · 52 acting
 tags:
+- Solana
 - Blockchain
 - Cryptocurrency
 - Web3

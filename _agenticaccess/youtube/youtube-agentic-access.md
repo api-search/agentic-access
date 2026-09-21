@@ -205,9 +205,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/youtub
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/agentic-access/youtube-agentic-access.yml
 summary_line: 91 operations · 55 acting
 tags:
+- Video
+- YouTube
 - Google
 - Media
 - Social
 - Streaming
-- Video
 ---

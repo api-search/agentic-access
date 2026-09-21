@@ -33,12 +33,6 @@ api_specs:
   slug: amazon-dynamodb-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-transactions-api-openapi.yml
-- filename: dynamodb-streams-asyncapi.yml
-  format: yaml
-  label: Amazon DynamoDB Streams API
-  slug: amazon-dynamodb-streams-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/asyncapi/dynamodb-streams-asyncapi.yml
 consequence_counts:
   write: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

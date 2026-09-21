@@ -84,6 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/swift-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/agentic-access/swift-agentic-access.yml
 summary_line: 22 operations
 tags:
+- Swift
 - Banking
 - Cross-Border Payments
 - Financial Messaging

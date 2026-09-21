@@ -347,6 +347,11 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/postma
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/agentic-access/postman-agentic-access.yml
 summary_line: 286 operations · 157 acting · 1 human-in-the-loop
 tags:
+- Environment
+- Flow
+- Specification
+- Workspace
+- Postman
 - AI Agent Builder
 - AI Agents
 - API Catalog
@@ -367,8 +372,6 @@ tags:
 - Collection
 - Compliance
 - Discovery
-- Environment
-- Flow
 - GraphQL
 - gRPC
 - HTTP
@@ -385,11 +388,9 @@ tags:
 - Public API Network
 - Secret Scanning
 - Spec Hub
-- Specification
 - SSO
 - Testing
 - Vault
 - WebSocket
 - Workflows
-- Workspace
 ---

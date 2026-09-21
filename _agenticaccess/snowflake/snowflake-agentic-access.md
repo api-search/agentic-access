@@ -434,6 +434,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/accoun
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/agentic-access/snowflake-agentic-access.yml
 summary_line: 263 operations · 177 acting · 14 human-in-the-loop
 tags:
+- Snowflake
 - Data
 - Data Warehouse
 - Data Lakehouse

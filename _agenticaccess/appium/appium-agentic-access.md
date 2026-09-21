@@ -118,6 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/appium
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/agentic-access/appium-agentic-access.yml
 summary_line: 32 operations · 18 acting · 1 human-in-the-loop
 tags:
+- Appium
 - Android
 - Cross-Platform
 - iOS

@@ -162,6 +162,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/contac
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/agentic-access/servicenow-agentic-access.yml
 summary_line: 44 operations · 21 acting · 1 human-in-the-loop
 tags:
+- ServiceNow
 - Automation
 - Cloud Services
 - Digital Workflows

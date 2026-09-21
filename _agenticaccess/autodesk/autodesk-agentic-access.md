@@ -364,6 +364,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/autode
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/agentic-access/autodesk-agentic-access.yml
 summary_line: 153 operations · 66 acting · 1 human-in-the-loop
 tags:
+- Digital Twin
+- Autodesk
 - Fortune 1000
 - 3D Modeling
 - Architecture
@@ -371,7 +373,6 @@ tags:
 - CAD
 - Construction
 - Design
-- Digital Twin
 - Engineering
 - Manufacturing
 - Media and Entertainment

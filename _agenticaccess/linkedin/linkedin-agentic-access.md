@@ -511,6 +511,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/linked
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/agentic-access/linkedin-agentic-access.yml
 summary_line: 148 operations · 62 acting · 2 human-in-the-loop
 tags:
+- LinkedIn
 - Business
 - Careers
 - Marketing

@@ -111,12 +111,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/instru
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/agentic-access/instructure-agentic-access.yml
 summary_line: 23 operations · 5 acting
 tags:
+- Enrollment
+- Instructure
 - EdTech
 - Education
 - LMS
 - Canvas
 - Courses
-- Enrollment
 - Assignments
 - Grades
 - Discussions

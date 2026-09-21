@@ -354,6 +354,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/paypal
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/agentic-access/paypal-agentic-access.yml
 summary_line: 111 operations · 75 acting
 tags:
+- PayPal
 - Billing
 - Commerce
 - Disputes

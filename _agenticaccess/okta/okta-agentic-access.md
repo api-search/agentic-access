@@ -337,12 +337,13 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/okta-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/agentic-access/okta-agentic-access.yml
 summary_line: 341 operations · 210 acting · 15 human-in-the-loop
 tags:
+- SSO
+- Okta
 - Identity
 - Workforce Identity
 - Customer Identity
 - Authentication
 - Authorization
-- SSO
 - Multi-Factor Authentication
 - Identity Governance
 - Privileged Access

@@ -53,6 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/meta-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/agentic-access/meta-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
+- Meta
 - Advertising
 - Analytics
 - Artificial Intelligence

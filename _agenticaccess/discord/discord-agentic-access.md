@@ -182,6 +182,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/discor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/agentic-access/discord-agentic-access.yml
 summary_line: 298 operations · 167 acting · 2 human-in-the-loop
 tags:
+- Discord
 - Chat
 - Communications
 - Gaming

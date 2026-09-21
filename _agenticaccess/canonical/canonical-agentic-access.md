@@ -749,6 +749,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/canoni
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/agentic-access/canonical-agentic-access.yml
 summary_line: 812 operations · 414 acting · 3 human-in-the-loop
 tags:
+- Canonical
 - Cloud
 - Linux
 - Open-Source

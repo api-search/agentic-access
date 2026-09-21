@@ -111,6 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/transi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/agentic-access/transit-agentic-access.yml
 summary_line: 7 operations
 tags:
+- Transit
 - Public Transit
 - Real-Time
 - Trip Planning

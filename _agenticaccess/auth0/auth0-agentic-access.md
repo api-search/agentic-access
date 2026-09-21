@@ -629,6 +629,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/auth0-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/agentic-access/auth0-agentic-access.yml
 summary_line: 458 operations · 272 acting · 11 human-in-the-loop
 tags:
+- Auth0
 - AI Agents
 - Authentication
 - Authorization

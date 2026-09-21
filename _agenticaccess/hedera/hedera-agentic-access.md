@@ -105,6 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/agentic-access/hedera-agentic-access.yml
 summary_line: 48 operations · 2 acting
 tags:
+- Hedera
 - Distributed Ledger
 - Blockchain
 - DLT

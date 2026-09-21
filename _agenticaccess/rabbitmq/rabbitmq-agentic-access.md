@@ -129,10 +129,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rabbit
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/agentic-access/rabbitmq-agentic-access.yml
 summary_line: 45 operations · 19 acting
 tags:
+- Queues
+- RabbitMQ
 - AMQP
 - Distributed Systems
 - Event Streaming
 - Message Broker
 - Messaging
-- Queues
 ---

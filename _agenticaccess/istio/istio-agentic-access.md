@@ -125,6 +125,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/istio-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/agentic-access/istio-agentic-access.yml
 summary_line: 60 operations · 36 acting
 tags:
+- Istio
 - CNCF
 - Kubernetes
 - Microservices

@@ -287,6 +287,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nginx-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/agentic-access/nginx-agentic-access.yml
 summary_line: 72 operations · 29 acting · 17 human-in-the-loop
 tags:
+- NGINX
 - API Gateway
 - Caching
 - Cloud-Native

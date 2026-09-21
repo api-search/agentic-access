@@ -108,10 +108,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/d-id-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/agentic-access/d-id-agentic-access.yml
 summary_line: 32 operations · 16 acting
 tags:
+- Avatars
+- DID
 - AI Video
 - Digital Humans
 - Talking Head
-- Avatars
 - Generative AI
 - Video Generation
 - Real-Time Streaming

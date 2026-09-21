@@ -137,6 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dapr-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/agentic-access/dapr-agentic-access.yml
 summary_line: 49 operations · 33 acting · 1 human-in-the-loop
 tags:
+- Dapr
 - Distributed Systems
 - Microservices
 - Platform

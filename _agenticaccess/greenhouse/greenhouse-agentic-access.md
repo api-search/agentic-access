@@ -114,10 +114,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/greenh
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/agentic-access/greenhouse-agentic-access.yml
 summary_line: 40 operations · 13 acting
 tags:
+- Human Resources
+- Greenhouse
 - ATS
 - Recruiting
 - Candidates
 - Job
 - Onboarding
-- Human Resources
 ---

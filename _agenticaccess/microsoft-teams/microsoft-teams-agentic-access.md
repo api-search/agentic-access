@@ -118,6 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/agentic-access/microsoft-teams-agentic-access.yml
 summary_line: 24 operations · 15 acting
 tags:
+- Microsoft Teams
 - Chat
 - Collaboration
 - Communications

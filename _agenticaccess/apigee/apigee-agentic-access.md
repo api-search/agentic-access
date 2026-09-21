@@ -367,6 +367,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apigee
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/agentic-access/apigee-agentic-access.yml
 summary_line: 184 operations · 105 acting · 1 human-in-the-loop
 tags:
+- Apigee
 - Advanced API Security
 - Agentic AI
 - Analytics

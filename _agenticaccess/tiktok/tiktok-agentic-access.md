@@ -99,6 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tiktok
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/agentic-access/tiktok-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
+- TikTok
 - Advertising
 - Commerce
 - Content

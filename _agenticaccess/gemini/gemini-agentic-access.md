@@ -66,6 +66,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gemini
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/agentic-access/gemini-agentic-access.yml
 summary_line: 11 operations · 7 acting
 tags:
+- LLM
+- Gemini
 - Agents
 - Artificial Intelligence
 - Audio Understanding
@@ -76,7 +78,6 @@ tags:
 - Function Calling
 - Generative AI
 - Image-Generation
-- LLM
 - Machine-Learning
 - Multi-Modal
 - Structured Output

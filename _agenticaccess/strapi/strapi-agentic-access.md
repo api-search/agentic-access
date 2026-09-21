@@ -181,6 +181,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/strapi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/agentic-access/strapi-agentic-access.yml
 summary_line: 58 operations · 34 acting · 4 human-in-the-loop
 tags:
+- Strapi
 - CMS
 - Content Management
 - Headless CMS

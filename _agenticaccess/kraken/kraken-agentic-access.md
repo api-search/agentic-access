@@ -267,6 +267,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kraken
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/agentic-access/kraken-agentic-access.yml
 summary_line: 71 operations · 45 acting
 tags:
+- Kraken
 - Cryptocurrency
 - Exchange
 - Trading

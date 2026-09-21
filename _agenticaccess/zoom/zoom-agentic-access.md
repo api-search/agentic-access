@@ -183,11 +183,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zoom-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/agentic-access/zoom-agentic-access.yml
 summary_line: 217 operations · 206 acting · 2 human-in-the-loop
 tags:
+- Video
+- Zoom
 - Chat
 - Collaboration
 - Communications
 - Meetings
 - Video Conferencing
-- Video
 - Webinars
 ---

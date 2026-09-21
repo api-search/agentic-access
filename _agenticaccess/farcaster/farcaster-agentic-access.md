@@ -93,6 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/farcas
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/agentic-access/farcaster-agentic-access.yml
 summary_line: 27 operations · 3 acting
 tags:
+- Farcaster
 - Social
 - Decentralized
 - Protocol

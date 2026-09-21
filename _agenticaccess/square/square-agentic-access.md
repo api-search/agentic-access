@@ -449,8 +449,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/square
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/agentic-access/square-agentic-access.yml
 summary_line: 305 operations · 189 acting · 3 human-in-the-loop
 tags:
-- Restaurant
 - Booking
+- Location
+- Square
+- Restaurant
 - Catalog
 - Checkout
 - Customers
@@ -461,7 +463,6 @@ tags:
 - Inventory
 - Invoicing
 - Labor
-- Location
 - Loyalty
 - Merchants
 - Order

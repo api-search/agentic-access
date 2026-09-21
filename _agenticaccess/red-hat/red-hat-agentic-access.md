@@ -271,6 +271,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/red-ha
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/agentic-access/red-hat-agentic-access.yml
 summary_line: 77 operations · 27 acting
 tags:
+- Red Hat
 - Cloud
 - Containers
 - Enterprise

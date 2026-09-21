@@ -179,6 +179,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blockf
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/agentic-access/cardano-agentic-access.yml
 summary_line: 127 operations · 6 acting
 tags:
+- Cardano
 - Blockchain
 - Cryptocurrency
 - Proof of Stake

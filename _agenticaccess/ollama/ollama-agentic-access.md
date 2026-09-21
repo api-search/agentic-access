@@ -105,7 +105,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ollama
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/agentic-access/ollama-agentic-access.yml
 summary_line: 21 operations · 15 acting
 tags:
-- Artificial Intelligence
 - LLM
+- Ollama
+- Artificial Intelligence
 - Models
 ---

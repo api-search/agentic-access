@@ -137,6 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openst
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/agentic-access/openstack-agentic-access.yml
 summary_line: 41 operations · 19 acting · 1 human-in-the-loop
 tags:
+- OpenStack
 - Cloud Platform
 - Infrastructure-as-a-Service
 - Open-Source

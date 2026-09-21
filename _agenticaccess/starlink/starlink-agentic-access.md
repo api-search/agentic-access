@@ -148,11 +148,12 @@ source_yaml: "generated: '2026-07-25'\nmethod: generated\nsource: openapi/starli
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/agentic-access/starlink-agentic-access.yml
 summary_line: 63 operations · 36 acting · 3 human-in-the-loop
 tags:
+- Non-Terrestrial Network
+- Starlink
 - Telecommunications
 - United States
 - Satellite
 - Broadband
-- Non-Terrestrial Network
 - Connectivity
 - Device Management
 - Telemetry

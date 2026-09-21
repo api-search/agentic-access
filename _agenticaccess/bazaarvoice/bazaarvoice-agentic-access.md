@@ -230,6 +230,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/bazaar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/agentic-access/bazaarvoice-agentic-access.yml
 summary_line: 79 operations · 30 acting
 tags:
+- BazaarVoice
 - Company
 - Reviews
 - Ratings

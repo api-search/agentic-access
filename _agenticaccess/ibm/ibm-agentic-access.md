@@ -101,13 +101,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ibm-cl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/agentic-access/ibm-agentic-access.yml
 summary_line: 39 operations · 26 acting · 2 human-in-the-loop
 tags:
+- Database
+- IBM
 - API Management
 - Artificial Intelligence
 - Billing
 - Cloud Computing
 - Containers
 - Data Governance
-- Database
 - DevOps
 - Enterprise
 - Generative AI

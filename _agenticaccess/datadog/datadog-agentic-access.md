@@ -857,10 +857,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/datado
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/agentic-access/datadog-agentic-access.yml
 summary_line: 558 operations · 324 acting · 4 human-in-the-loop
 tags:
+- Visualization
+- Datadog
 - Analytics
 - Dashboards
 - Monitoring
 - Platform
 - T1
-- Visualization
 ---

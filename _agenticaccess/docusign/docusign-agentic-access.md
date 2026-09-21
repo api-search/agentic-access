@@ -920,10 +920,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/docusi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/agentic-access/docusign-agentic-access.yml
 summary_line: 505 operations · 275 acting · 7 human-in-the-loop
 tags:
+- Electronic Signature
+- DocuSign
 - Agreements
 - Contracts
 - Digital Transaction Management
 - Documents
-- Electronic Signature
 - E-Signature
 ---

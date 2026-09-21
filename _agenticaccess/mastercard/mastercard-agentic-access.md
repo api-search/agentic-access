@@ -790,6 +790,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/master
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/agentic-access/mastercard-agentic-access.yml
 summary_line: 237 operations · 171 acting · 4 human-in-the-loop
 tags:
+- Mastercard
 - Credit Cards
 - Digital Identity
 - Financial-Services

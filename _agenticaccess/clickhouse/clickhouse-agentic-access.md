@@ -171,6 +171,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/clickh
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/agentic-access/clickhouse-agentic-access.yml
 summary_line: 153 operations · 81 acting · 1 human-in-the-loop
 tags:
+- ClickHouse
 - Analytics
 - Cloud Database
 - Column-Oriented
