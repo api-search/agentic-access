@@ -151,7 +151,7 @@ summary_line: 104 operations · 52 acting
 tags:
 - Company
 - Git
-- Self-hosted
-- Open-source
+- Self-Hosted
+- Open-Source
 - Go
 ---

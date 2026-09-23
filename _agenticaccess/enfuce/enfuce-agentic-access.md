@@ -107,6 +107,6 @@ tags:
 - Company
 - Payments
 - Card Issuing
-- FinTech
+- Fintech
 - API Platform
 ---
