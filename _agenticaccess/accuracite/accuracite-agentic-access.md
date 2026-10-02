@@ -2,6 +2,13 @@
 acting_count: 2
 action_class_counts:
   acting: 2
+api_specs:
+- filename: accuracite-api-openapi.json
+  format: json
+  label: AccuraCite API API
+  slug: accuracite-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/openapi/_original/accuracite-api-openapi.json
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
