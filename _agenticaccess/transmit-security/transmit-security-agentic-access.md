@@ -137,7 +137,7 @@ tags:
 - Authentication
 - Passkeys
 - WebAuthn
-- Fraud Detection
+- Fraud Prevention
 - Risk Management
 - Identity Verification
 - Orchestration

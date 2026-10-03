@@ -4,12 +4,6 @@ action_class_counts:
   acting: 2
   connected: 4
 api_specs:
-- filename: appian-openapi.yml
-  format: yaml
-  label: Appian Application Package Details API
-  slug: appian
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/openapi/appian-openapi.yml
 - filename: appian-export-api-openapi.yml
   format: yaml
   label: Appian Export API

@@ -493,4 +493,6 @@ summary_line: 178 operations · 88 acting
 tags:
 - Fortune 100
 - Microsoft
+- Software
+- Cloud
 ---
