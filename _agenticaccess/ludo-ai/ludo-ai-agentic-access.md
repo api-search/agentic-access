@@ -4,18 +4,6 @@ action_class_counts:
   acting: 14
   connected: 6
 api_specs:
-- filename: ludo-ai-3d-models-api-openapi.yml
-  format: yaml
-  label: Ludo.ai 3D Models API
-  slug: ludo-ai-3d-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-3d-models-api-openapi.yml
-- filename: ludo-ai-animation-api-openapi.yml
-  format: yaml
-  label: Ludo.ai Animation API
-  slug: ludo-ai-animation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-animation-api-openapi.yml
 - filename: ludo-ai-audio-api-openapi.yml
   format: yaml
   label: Ludo.ai Audio API
@@ -40,6 +28,66 @@ api_specs:
   slug: ludo-ai-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-video-api-openapi.yml
+- filename: ludo-ai-3d-models-api-openapi.yml
+  format: yaml
+  label: Ludo.ai 3D Models API
+  slug: ludo-ai-3d-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-3d-models-api-openapi.yml
+- filename: ludo-ai-account-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Account API
+  slug: ludo-ai-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-account-api-openapi.yml
+- filename: ludo-ai-animation-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Animation API
+  slug: ludo-ai-animation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-animation-api-openapi.yml
+- filename: ludo-ai-authentication-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Authentication API
+  slug: ludo-ai-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-authentication-api-openapi.yml
+- filename: ludo-ai-documentation-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Documentation API
+  slug: ludo-ai-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-documentation-api-openapi.yml
+- filename: ludo-ai-files-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Files API
+  slug: ludo-ai-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-files-api-openapi.yml
+- filename: ludo-ai-generations-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Generations API
+  slug: ludo-ai-generations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-generations-api-openapi.yml
+- filename: ludo-ai-jobs-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Jobs API
+  slug: ludo-ai-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-jobs-api-openapi.yml
+- filename: ludo-ai-spritesheets-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Spritesheets API
+  slug: ludo-ai-spritesheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-spritesheets-api-openapi.yml
+- filename: ludo-ai-videos-api-openapi.yml
+  format: yaml
+  label: Ludo.ai Videos API
+  slug: ludo-ai-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/openapi/ludo-ai-videos-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -94,4 +142,8 @@ tags:
 - Asset Generation
 - Game Design
 - Game Development
+- Game Asset Generation
+- AI Art
+- Sprite Sheets
+- Video Assets - Artificial Intelligence - Asset Generation - Game Design - Game Development
 ---
