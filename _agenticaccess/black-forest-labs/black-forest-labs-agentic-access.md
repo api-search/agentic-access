@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/black-forest-l
 summary_line: 13 operations · 9 acting
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Flux
 - Open Weights
 - BFL

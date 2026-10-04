@@ -167,9 +167,9 @@ tags:
 - Payments
 - Chargebacks
 - Disputes
-- Fraud
-- Risk
-- Financial-Services
+- Fraud Prevention
+- Risk Management
+- Financial Services
 - E-Commerce
 - Artificial Intelligence
 - Webhook

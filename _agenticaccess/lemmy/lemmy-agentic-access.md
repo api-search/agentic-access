@@ -147,10 +147,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/agentic-access/lemmy-agentic-access.yml
 summary_line: 52 operations · 32 acting · 1 human-in-the-loop
 tags:
-- Communities
+- Community
 - Federated
 - Fediverse
 - Link Aggregator
-- Open-Source
+- Open Source
 - Social Network
 ---

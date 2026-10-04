@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/avenue-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/agentic-access/avenue-bank-agentic-access.yml
 summary_line: 19 operations
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

@@ -272,7 +272,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propertyware/r
 summary_line: 162 operations · 86 acting
 tags:
 - Property Management
-- Real-Estate
+- Real Estate
 - Rental Properties
 - Single-Family Rental
 - Leases

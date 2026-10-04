@@ -6,82 +6,100 @@ action_class_counts:
 api_specs:
 - filename: stacklok-clients-api-openapi.yml
   format: yaml
-  label: Stacklok clients API
+  label: Stacklok Clients API
   slug: stacklok-clients-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-clients-api-openapi.yml
 - filename: stacklok-discovery-api-openapi.yml
   format: yaml
-  label: Stacklok discovery API
+  label: Stacklok Discovery API
   slug: stacklok-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-discovery-api-openapi.yml
 - filename: stacklok-groups-api-openapi.yml
   format: yaml
-  label: Stacklok groups API
+  label: Stacklok Groups API
   slug: stacklok-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-groups-api-openapi.yml
 - filename: stacklok-logs-api-openapi.yml
   format: yaml
-  label: Stacklok logs API
+  label: Stacklok Logs API
   slug: stacklok-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-logs-api-openapi.yml
 - filename: stacklok-registry-api-openapi.yml
   format: yaml
-  label: Stacklok registry API
+  label: Stacklok Registry API
   slug: stacklok-registry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registry-api-openapi.yml
 - filename: stacklok-registry-servers-api-openapi.yml
   format: yaml
-  label: Stacklok registry-servers API
+  label: Stacklok Registry Servers API
   slug: stacklok-registry-servers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registry-servers-api-openapi.yml
 - filename: stacklok-registry-skills-api-openapi.yml
   format: yaml
-  label: Stacklok registry-skills API
+  label: Stacklok Registry Skills API
   slug: stacklok-registry-skills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registry-skills-api-openapi.yml
 - filename: stacklok-secrets-api-openapi.yml
   format: yaml
-  label: Stacklok secrets API
+  label: Stacklok Secrets API
   slug: stacklok-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-secrets-api-openapi.yml
 - filename: stacklok-skills-api-openapi.yml
   format: yaml
-  label: Stacklok skills API
+  label: Stacklok Skills API
   slug: stacklok-skills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-skills-api-openapi.yml
 - filename: stacklok-system-api-openapi.yml
   format: yaml
-  label: Stacklok system API
+  label: Stacklok System API
   slug: stacklok-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-system-api-openapi.yml
-- filename: stacklok-v1-api-openapi.yml
-  format: yaml
-  label: Stacklok v1 API
-  slug: stacklok-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-v1-api-openapi.yml
 - filename: stacklok-version-api-openapi.yml
   format: yaml
-  label: Stacklok version API
+  label: Stacklok Version API
   slug: stacklok-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-version-api-openapi.yml
 - filename: stacklok-workloads-api-openapi.yml
   format: yaml
-  label: Stacklok workloads API
+  label: Stacklok Workloads API
   slug: stacklok-workloads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-workloads-api-openapi.yml
+- filename: stacklok-entries-api-openapi.yml
+  format: yaml
+  label: Stacklok Entries API
+  slug: stacklok-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-entries-api-openapi.yml
+- filename: stacklok-me-api-openapi.yml
+  format: yaml
+  label: Stacklok Me API
+  slug: stacklok-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-me-api-openapi.yml
+- filename: stacklok-registries-api-openapi.yml
+  format: yaml
+  label: Stacklok Registries API
+  slug: stacklok-registries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-registries-api-openapi.yml
+- filename: stacklok-sources-api-openapi.yml
+  format: yaml
+  label: Stacklok Sources API
+  slug: stacklok-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/heads/main/openapi/stacklok-sources-api-openapi.yml
 consequence_counts:
   read: 45
   safety-critical: 8
@@ -178,5 +196,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacklok/refs/
 summary_line: 84 operations · 39 acting · 8 human-in-the-loop
 tags:
 - Company
-- Open-Source
+- Open Source
+- A2A
 ---

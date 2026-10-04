@@ -70,6 +70,6 @@ tags:
 - Cloud-Native
 - Containers
 - OCI
-- Open-Source
+- Open Source
 - Standards
 ---

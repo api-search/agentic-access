@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/h
 summary_line: 17 operations · 6 acting
 tags:
 - Lab Management
-- Inventory Management
+- Inventory
 - Life Sciences
 - Procurement
 - Ordering

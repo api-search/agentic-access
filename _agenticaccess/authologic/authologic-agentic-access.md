@@ -4,12 +4,6 @@ action_class_counts:
   acting: 4
   connected: 10
 api_specs:
-- filename: authologic-aml-api-openapi.yml
-  format: yaml
-  label: Authologic AML API
-  slug: authologic-aml-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/openapi/authologic-aml-api-openapi.yml
 - filename: authologic-advanced-api-openapi.yml
   format: yaml
   label: Authologic Advanced API

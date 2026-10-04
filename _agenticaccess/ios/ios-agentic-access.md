@@ -1359,6 +1359,5 @@ tags:
 - In-App Purchases
 - Subscription
 - Authentication
-- Wallets
 - Developer Platform
 ---

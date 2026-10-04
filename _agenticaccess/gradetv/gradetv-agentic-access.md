@@ -338,7 +338,7 @@ tags:
 - EPG
 - TV Guide
 - Content Aggregation
-- agent-native
+- Agent-Native
 - MCP
 - x402
 - Micropayments

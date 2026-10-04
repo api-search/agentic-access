@@ -109,7 +109,7 @@ summary_line: 33 operations · 12 acting
 tags:
 - Enterprise Social
 - Microsoft
-- Social Networking
+- Social Network
 - Viva Engage
 - Yammer
 ---

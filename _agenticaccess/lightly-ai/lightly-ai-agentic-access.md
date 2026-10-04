@@ -85,7 +85,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightly-ai/ref
 summary_line: 31 operations · 11 acting
 tags:
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Data Curation
 - Active Learning
 - Embeddings

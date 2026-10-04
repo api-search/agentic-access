@@ -72,7 +72,7 @@ tags:
 - Templates
 - Digital Signature
 - Workflows
-- Document-Management
+- Document Management
 - Secure Documents
 - Compliance
 - HIPAA

@@ -2,25 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 8
-api_specs:
-- filename: hyperice-collections-api-openapi.yml
-  format: yaml
-  label: Hyperice Collections API
-  slug: hyperice-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-collections-api-openapi.yml
-- filename: hyperice-discovery-api-openapi.yml
-  format: yaml
-  label: Hyperice Discovery API
-  slug: hyperice-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-discovery-api-openapi.yml
-- filename: hyperice-products-api-openapi.yml
-  format: yaml
-  label: Hyperice Products API
-  slug: hyperice-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-products-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

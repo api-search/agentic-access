@@ -88,7 +88,7 @@ tags:
 - Super App
 - Ride Hailing
 - Food Delivery
-- Last-Mile Logistics
+- Last Mile Delivery
 - E-Commerce
 - Digital Payments
 - Indonesia

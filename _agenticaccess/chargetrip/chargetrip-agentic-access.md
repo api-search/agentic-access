@@ -37,9 +37,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/charge
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/agentic-access/chargetrip-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- EV
+- Electric Vehicles
 - Routing
 - Charging Stations
 - GraphQL
 - Mobility
+- Real-Time
 ---

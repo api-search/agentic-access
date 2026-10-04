@@ -187,7 +187,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/planet
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/agentic-access/planetscale-agentic-access.yml
 summary_line: 60 operations · 30 acting
 tags:
-- Application
-- Authorization
-- Edge Computing
+- Database
+- MySQL
+- PostgreSQL
+- Serverless
 ---

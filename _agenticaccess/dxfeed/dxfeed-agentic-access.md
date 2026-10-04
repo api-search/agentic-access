@@ -386,7 +386,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: generated\nsource: openapi/dxfeed
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/agentic-access/dxfeed-agentic-access.yml
 summary_line: 269 operations · 119 acting · 119 human-in-the-loop
 tags:
-- Financial
+- Finance
 - Market Data
 - Real-Time
 - Historical Data

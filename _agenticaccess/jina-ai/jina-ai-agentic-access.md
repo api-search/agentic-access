@@ -62,7 +62,7 @@ summary_line: 9 operations · 5 acting
 tags:
 - Artificial Intelligence
 - Embeddings
-- Machine-Learning
+- Machine Learning
 - Reranking
 - Search
 ---

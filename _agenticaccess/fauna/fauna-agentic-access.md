@@ -74,4 +74,5 @@ tags:
 - GraphQL
 - Cloud
 - Developer Tools
+- Defunct
 ---

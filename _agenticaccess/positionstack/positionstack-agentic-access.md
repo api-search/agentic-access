@@ -50,4 +50,5 @@ tags:
 - Address Validation
 - APILayer
 - Public APIs
+- Geospatial
 ---

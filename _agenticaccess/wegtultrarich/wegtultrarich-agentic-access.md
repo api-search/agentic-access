@@ -58,7 +58,6 @@ summary_line: 6 operations
 tags:
 - wealth inequality
 - economic inequality
-- Finance
 - Economics
 - Education
 - Journalism

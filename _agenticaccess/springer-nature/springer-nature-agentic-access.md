@@ -44,9 +44,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spring
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/agentic-access/springer-nature-agentic-access.yml
 summary_line: 4 operations
 tags:
-- Academic Publishing
+- Scholarly Publishing
 - Open Access
 - Research
 - Scholarly Content
-- Scientific Publishing
+- Publishing
 ---

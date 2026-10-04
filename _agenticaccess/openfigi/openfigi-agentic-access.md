@@ -52,6 +52,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openfi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/agentic-access/openfigi-agentic-access.yml
 summary_line: 4 operations · 3 acting
 tags:
-- Financial
+- Finance
 - Instruments
 ---

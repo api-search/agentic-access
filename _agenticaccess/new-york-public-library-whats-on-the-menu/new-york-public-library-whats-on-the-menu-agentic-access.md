@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/new-yo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/agentic-access/new-york-public-library-whats-on-the-menu-agentic-access.yml
 summary_line: 9 operations
 tags:
-- Libraries
+- Library
 - Menus
 - Restaurant
 - History

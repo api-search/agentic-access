@@ -127,4 +127,5 @@ tags:
 - Incentives
 - Loyalty
 - Rewards As A Service
+- Loyalty & Incentives
 ---

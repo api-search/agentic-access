@@ -80,7 +80,7 @@ tags:
 - Company
 - Estate Planning
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Legal Tech
 - Document AI
 - Family Office

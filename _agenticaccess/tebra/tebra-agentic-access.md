@@ -3,12 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 34
 api_specs:
-- filename: tebra-documents-api-openapi.yml
-  format: yaml
-  label: Tebra Documents API
-  slug: tebra-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-documents-api-openapi.yml
 - filename: tebra-clinical-api-openapi.yml
   format: yaml
   label: Tebra Clinical API

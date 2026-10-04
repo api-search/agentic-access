@@ -190,6 +190,84 @@ api_specs:
   slug: pingcap-trends-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-trends-api-openapi.yml
+- filename: pingcap-account-api-openapi.yml
+  format: yaml
+  label: PingCAP Account API
+  slug: pingcap-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-account-api-openapi.yml
+- filename: pingcap-chat2data-api-openapi.yml
+  format: yaml
+  label: PingCAP Chat2 Data API
+  slug: pingcap-chat2data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-chat2data-api-openapi.yml
+- filename: pingcap-data-summaries-api-openapi.yml
+  format: yaml
+  label: PingCAP Data Summaries API
+  slug: pingcap-data-summaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-data-summaries-api-openapi.yml
+- filename: pingcap-ddl-api-openapi.yml
+  format: yaml
+  label: PingCAP DDL API
+  slug: pingcap-ddl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-ddl-api-openapi.yml
+- filename: pingcap-diagnostics-api-openapi.yml
+  format: yaml
+  label: PingCAP Diagnostics API
+  slug: pingcap-diagnostics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-diagnostics-api-openapi.yml
+- filename: pingcap-mvcc-api-openapi.yml
+  format: yaml
+  label: PingCAP MVCC API
+  slug: pingcap-mvcc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-mvcc-api-openapi.yml
+- filename: pingcap-schema-api-openapi.yml
+  format: yaml
+  label: PingCAP Schema API
+  slug: pingcap-schema-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-schema-api-openapi.yml
+- filename: pingcap-sessions-api-openapi.yml
+  format: yaml
+  label: PingCAP Sessions API
+  slug: pingcap-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-sessions-api-openapi.yml
+- filename: pingcap-settings-api-openapi.yml
+  format: yaml
+  label: PingCAP Settings API
+  slug: pingcap-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-settings-api-openapi.yml
+- filename: pingcap-sql-refinement-api-openapi.yml
+  format: yaml
+  label: PingCAP SQL Refinement API
+  slug: pingcap-sql-refinement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-sql-refinement-api-openapi.yml
+- filename: pingcap-statistics-api-openapi.yml
+  format: yaml
+  label: PingCAP Statistics API
+  slug: pingcap-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-statistics-api-openapi.yml
+- filename: pingcap-status-api-openapi.yml
+  format: yaml
+  label: PingCAP Status API
+  slug: pingcap-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-status-api-openapi.yml
+- filename: pingcap-tidb-cloud-premium-instance-api-openapi.yml
+  format: yaml
+  label: PingCAP TiDB Cloud Premium Instance API
+  slug: pingcap-tidb-cloud-premium-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/openapi/pingcap-tidb-cloud-premium-instance-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 99
@@ -308,6 +386,6 @@ tags:
 - Vector Search
 - Data Migration
 - Change Data Capture
-- Open-Source
+- Open Source
 - Infrastructure
 ---

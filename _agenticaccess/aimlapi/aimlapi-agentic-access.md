@@ -163,10 +163,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/h
 summary_line: 21 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - AI Models
 - LLM
-- Image-Generation
+- Image Generation
 - Video Generation
 - Speech
 - Embeddings

@@ -118,7 +118,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supertokens/re
 summary_line: 31 operations · 20 acting · 2 human-in-the-loop
 tags:
 - Authentication
-- Open-Source
+- Open Source
 - Session Management
 - Social Login
 - Passwordless
@@ -127,4 +127,5 @@ tags:
 - Multi-Tenancy
 - Node.js
 - Self-Hosted
+- Identity Federation
 ---

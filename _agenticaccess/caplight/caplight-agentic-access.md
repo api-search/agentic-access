@@ -143,5 +143,5 @@ tags:
 - Financial Data
 - Fintech
 - MCP
-- agent-native
+- Agent-Native
 ---

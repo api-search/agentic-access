@@ -12,7 +12,7 @@ api_specs:
 - filename: nats-jetstream-api-asyncapi.yml
   format: yaml
   label: NATS JetStream Management API
-  slug: nats-jetstream-api
+  slug: nats-jetstream-management-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/properties/nats-jetstream-api-asyncapi.yml
 - filename: nats-accounts-api-openapi.yml
@@ -105,4 +105,5 @@ tags:
 - Message Broker
 - Microservices
 - Pub-Sub
+- Real-Time
 ---

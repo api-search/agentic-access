@@ -1023,7 +1023,7 @@ tags:
 - auto-enrolment
 - Payroll
 - Fintech
-- Financial-Services
+- Financial Services
 - United Kingdom
 - master-trust
 - Employee Benefits

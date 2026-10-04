@@ -82,9 +82,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anysphere-curs
 summary_line: 105 operations · 53 acting · 1 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Coding
-- Developer-Tools
+- Developer Tools
 - Automation
 - Platform
 ---

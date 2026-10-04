@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: minicor-external-api-openapi.yml
   format: yaml
-  label: Minicor external API
+  label: Minicor External API
   slug: minicor-external-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/openapi/minicor-external-api-openapi.yml
@@ -46,7 +46,7 @@ tags:
 - Desktop Automation
 - RPA
 - Computer Use Agents
-- Workflow-Automation
+- Workflow Automation
 - Healthcare
 - Legacy Systems
 - AI Agents

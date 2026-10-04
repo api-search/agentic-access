@@ -74,6 +74,6 @@ tags:
 - Artificial Intelligence
 - Legal
 - Agreements
-- Document-Management
+- Document Management
 - Contract Analytics
 ---

@@ -118,14 +118,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shell/refs/hea
 summary_line: 28 operations · 9 acting
 tags:
 - Aviation
-- Electric Vehicle Charging
+- EV Charging
 - Energy
 - Fleet Management
 - Fuel
 - Gas
 - Loyalty
 - Lubricants
-- Mobility
 - Oil and Gas
 - Renewable Energy
 ---

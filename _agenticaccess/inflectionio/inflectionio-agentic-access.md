@@ -82,4 +82,5 @@ tags:
 - Artificial Intelligence
 - Customer Journey
 - Webhook
+- A2A
 ---

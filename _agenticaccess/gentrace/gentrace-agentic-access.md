@@ -68,6 +68,7 @@ tags:
 - Evaluation
 - Testing
 - Observability
-- Machine-Learning
+- Machine Learning
 - Developer Tools
+- Defunct
 ---

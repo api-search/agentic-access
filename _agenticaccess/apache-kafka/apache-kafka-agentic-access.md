@@ -133,6 +133,7 @@ tags:
 - Distributed Systems
 - Event Streaming
 - Messaging
-- Open-Source
+- Open Source
 - Pub-Sub
+- Real-Time
 ---

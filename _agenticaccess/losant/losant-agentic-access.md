@@ -134,7 +134,7 @@ tags:
 - MQTT
 - Industrial IoT
 - Telemetry
-- Workflow-Automation
+- Workflow Automation
 - Visual Workflow Engine
 - Dashboards
 - Time Series

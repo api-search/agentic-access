@@ -1,7 +1,7 @@
 ---
-acting_count: 10
+acting_count: 0
 action_class_counts:
-  acting: 10
+  connected: 10
 api_specs:
 - filename: demandsphere-keywords-api-openapi.yml
   format: yaml
@@ -28,7 +28,7 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-sites-api-openapi.yml
 consequence_counts:
-  write: 10
+  read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -38,10 +38,10 @@ name: Demandsphere Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 10
-overview: 'DemandSphere exposes 10 API operations that an AI agent could call, of which 10 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'DemandSphere exposes 10 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 10 write.
+  By consequence: 10 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -51,13 +51,12 @@ slug: demandsphere-agentic-access
 source_filename: demandsphere-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/_original/demandsphere-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    acting: 10\n  by_consequence:\n    write: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /keywords/keyword_groups_detail/list\n  method: post\n  operationId: Keywords_KeywordGroupsDetail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keywords/keywords_performance_detail/list\n  method: post\n  operationId: Keywords_KeywordsPerformanceDetail\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keywords/landing_matches/list\n  method: post\n  operationId: Keywords_LandingMatches\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keywords/local_rankings/list\n  method: post\n  operationId: Keywords_LocalRankings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /keywords/ranking_trends/list\n  method: post\n  operationId: Keywords_RankingTrends\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keywords/search_engines/list\n  method: post\n  operationId: Keywords_SearchEngines\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pages/landings_history/list\n  method: post\n  operationId: Pages_LandingsHistory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
-  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search_engines/summary/list\n  method: post\n  operationId: SearchEngines_Summary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/hierarchy/list\n  method: post\n  operationId: Sites_HierarchyList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/properties/list\n  method: post\n  operationId: Sites_PropertiesList\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/demandsphere-keywords-api-openapi.yml, openapi/demandsphere-pages-api-openapi.yml,\n  openapi/demandsphere-searchengines-api-openapi.yml, openapi/demandsphere-sites-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /keywords/keyword_groups_detail/list\n  method: post\n  operationId: Keywords_KeywordGroupsDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/keywords_performance_detail/list\n  method: post\n  operationId: Keywords_KeywordsPerformanceDetail\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/landing_matches/list\n  method: post\n  operationId: Keywords_LandingMatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/local_rankings/list\n  method: post\n  operationId: Keywords_LocalRankings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/ranking_trends/list\n  method: post\n  operationId: Keywords_RankingTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/search_engines/list\n  method: post\n  operationId: Keywords_SearchEngines\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pages/landings_history/list\n  method: post\n  operationId: Pages_LandingsHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search_engines/summary/list\n  method: post\n  operationId: SearchEngines_Summary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/hierarchy/list\n  method: post\n  operationId: Sites_HierarchyList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/properties/list\n  method: post\n  operationId: Sites_PropertiesList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
+  \      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/agentic-access/demandsphere-agentic-access.yml
-summary_line: 10 operations · 10 acting
+summary_line: 10 operations
 tags:
 - Company
 - SEO

@@ -146,7 +146,7 @@ tags:
 - OCR
 - Data Extraction
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Document Intelligence
 - Structured Data
 ---

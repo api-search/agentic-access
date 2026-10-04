@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/life-sciences/
 summary_line: 5 operations
 tags:
 - Life Sciences
-- Biotech
+- Biotechnology
 - Pharma
 - Healthcare
 - Clinical Trials

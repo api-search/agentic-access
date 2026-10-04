@@ -65,7 +65,8 @@ summary_line: 7 operations
 tags:
 - Agriculture
 - Farm Management
-- Financial
+- Finance
 - Crop Planning
 - Agronomy
+- AgTech
 ---

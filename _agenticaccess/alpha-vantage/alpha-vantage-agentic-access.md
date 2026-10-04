@@ -49,4 +49,5 @@ tags:
 - News
 - Sentiment
 - Free
+- Financial Data
 ---

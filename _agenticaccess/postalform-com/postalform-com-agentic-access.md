@@ -4,18 +4,60 @@ action_class_counts:
   acting: 24
   connected: 20
 api_specs:
-- filename: postalform-com-machine-payments-openapi.json
-  format: json
-  label: PostalForm Machine Payments API
-  slug: postalform-machine-payments-api
+- filename: postalform-com-api-keys-api-openapi.yml
+  format: yaml
+  label: PostalForm Api Keys API
+  slug: postalform-com-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-machine-payments-openapi.json
-- filename: postalform-com-projects-openapi.json
-  format: json
-  label: PostalForm Projects Public API
-  slug: postalform-projects-public-api
+  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-api-keys-api-openapi.yml
+- filename: postalform-com-credits-api-openapi.yml
+  format: yaml
+  label: PostalForm Credits API
+  slug: postalform-com-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-projects-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-credits-api-openapi.yml
+- filename: postalform-com-documents-api-openapi.yml
+  format: yaml
+  label: PostalForm Documents API
+  slug: postalform-com-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-documents-api-openapi.yml
+- filename: postalform-com-letters-api-openapi.yml
+  format: yaml
+  label: PostalForm Letters API
+  slug: postalform-com-letters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-letters-api-openapi.yml
+- filename: postalform-com-machine-api-openapi.yml
+  format: yaml
+  label: PostalForm Machine API
+  slug: postalform-com-machine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-machine-api-openapi.yml
+- filename: postalform-com-postcards-api-openapi.yml
+  format: yaml
+  label: PostalForm Postcards API
+  slug: postalform-com-postcards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-postcards-api-openapi.yml
+- filename: postalform-com-return-receipts-api-openapi.yml
+  format: yaml
+  label: PostalForm Return Receipts API
+  slug: postalform-com-return-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-return-receipts-api-openapi.yml
+- filename: postalform-com-webhook-endpoints-api-openapi.yml
+  format: yaml
+  label: PostalForm Webhook Endpoints API
+  slug: postalform-com-webhook-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-webhook-endpoints-api-openapi.yml
+- filename: postalform-com-webhook-events-api-openapi.yml
+  format: yaml
+  label: PostalForm Webhook Events API
+  slug: postalform-com-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postalform-com/refs/heads/main/openapi/postalform-com-webhook-events-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 20
@@ -152,6 +194,6 @@ tags:
 - x402
 - Machine Payments
 - Webhook
-- agent-native
+- Agent-Native
 - United States
 ---

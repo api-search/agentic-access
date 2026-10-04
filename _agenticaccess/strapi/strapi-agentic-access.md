@@ -186,5 +186,5 @@ tags:
 - Content Management
 - Headless CMS
 - Node.js
-- Open-Source
+- Open Source
 ---

@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: curve-finance-crvusd-api-openapi.yml
   format: yaml
-  label: Curve Finance crvUSD API
+  label: Curve Finance Crv USD API
   slug: curve-finance-crvusd-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-crvusd-api-openapi.yml
@@ -94,5 +94,5 @@ tags:
 - Stablecoins
 - Pegged Assets
 - Multi-Chain
-- Open-Source
+- Open Source
 ---

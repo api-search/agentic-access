@@ -124,7 +124,7 @@ summary_line: 52 operations · 29 acting
 tags:
 - Company
 - Compliance
-- Regulatory Technology
+- RegTech
 - State Compliance
 - Tax
 - Payroll

@@ -44,13 +44,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/agentic-access/google-gemini-agentic-access.yml
 summary_line: 3 operations · 3 acting
 tags:
-- Agentic AI
+- AI Agents
 - Artificial Intelligence
 - Code Generation
 - Embeddings
 - Generative AI
-- Image-Generation
+- Image Generation
 - LLM
-- Machine-Learning
+- Machine Learning
 - Multi-Modal
+- Real-Time
 ---

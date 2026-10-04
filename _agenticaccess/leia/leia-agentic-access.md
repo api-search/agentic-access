@@ -65,7 +65,7 @@ summary_line: 12 operations · 10 acting
 tags:
 - 3D
 - Spatial Computing
-- Computer-Vision
+- Computer Vision
 - depth-estimation
 - Image Processing
 - Video Processing

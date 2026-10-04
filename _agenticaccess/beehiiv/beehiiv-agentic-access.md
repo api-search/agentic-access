@@ -243,4 +243,5 @@ tags:
 - Publishing
 - Media
 - Advertising
+- Creator Economy
 ---

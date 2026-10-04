@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orange/refs/he
 summary_line: 2 operations · 1 acting
 tags:
 - Networks
-- Telecom
+- Telecommunications
 - Identity
 - Messaging
 - Location

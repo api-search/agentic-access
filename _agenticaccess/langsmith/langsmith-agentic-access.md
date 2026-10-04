@@ -1,156 +1,156 @@
 ---
-acting_count: 343
+acting_count: 335
 action_class_counts:
-  acting: 343
-  connected: 213
+  acting: 335
+  connected: 221
 api_specs:
 - filename: langsmith-access-policies-api-openapi.yml
   format: yaml
-  label: LangSmith access_policies API
+  label: LangSmith Access Policies API
   slug: langsmith-access-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-access-policies-api-openapi.yml
 - filename: langsmith-ace-api-openapi.yml
   format: yaml
-  label: LangSmith ace API
+  label: LangSmith Ace API
   slug: langsmith-ace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-ace-api-openapi.yml
 - filename: langsmith-agents-api-openapi.yml
   format: yaml
-  label: LangSmith agents API
+  label: LangSmith Agents API
   slug: langsmith-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-agents-api-openapi.yml
 - filename: langsmith-alert-rules-api-openapi.yml
   format: yaml
-  label: LangSmith alert_rules API
+  label: LangSmith Alert Rules API
   slug: langsmith-alert-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-alert-rules-api-openapi.yml
 - filename: langsmith-annotation-queues-api-openapi.yml
   format: yaml
-  label: LangSmith annotation-queues API
+  label: LangSmith Annotation Queues API
   slug: langsmith-annotation-queues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-annotation-queues-api-openapi.yml
 - filename: langsmith-api-key-api-openapi.yml
   format: yaml
-  label: LangSmith api-key API
+  label: LangSmith API Key API
   slug: langsmith-api-key-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-api-key-api-openapi.yml
 - filename: langsmith-audit-logs-api-openapi.yml
   format: yaml
-  label: LangSmith audit-logs API
+  label: LangSmith Audit Logs API
   slug: langsmith-audit-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-audit-logs-api-openapi.yml
 - filename: langsmith-auth-api-openapi.yml
   format: yaml
-  label: LangSmith auth API
+  label: LangSmith Auth API
   slug: langsmith-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-auth-api-openapi.yml
 - filename: langsmith-aws-marketplace-api-openapi.yml
   format: yaml
-  label: LangSmith aws_marketplace API
+  label: LangSmith Aws Marketplace API
   slug: langsmith-aws-marketplace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-aws-marketplace-api-openapi.yml
 - filename: langsmith-backfills-api-openapi.yml
   format: yaml
-  label: LangSmith backfills API
+  label: LangSmith Backfills API
   slug: langsmith-backfills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-backfills-api-openapi.yml
 - filename: langsmith-beacon-api-openapi.yml
   format: yaml
-  label: LangSmith beacon API
+  label: LangSmith Beacon API
   slug: langsmith-beacon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-beacon-api-openapi.yml
 - filename: langsmith-bulk-exports-api-openapi.yml
   format: yaml
-  label: LangSmith bulk-exports API
+  label: LangSmith Bulk Exports API
   slug: langsmith-bulk-exports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-bulk-exports-api-openapi.yml
 - filename: langsmith-charts-api-openapi.yml
   format: yaml
-  label: LangSmith charts API
+  label: LangSmith Charts API
   slug: langsmith-charts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-charts-api-openapi.yml
 - filename: langsmith-comments-api-openapi.yml
   format: yaml
-  label: LangSmith comments API
+  label: LangSmith Comments API
   slug: langsmith-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-comments-api-openapi.yml
 - filename: langsmith-commits-api-openapi.yml
   format: yaml
-  label: LangSmith commits API
+  label: LangSmith Commits API
   slug: langsmith-commits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-commits-api-openapi.yml
 - filename: langsmith-data-planes-api-openapi.yml
   format: yaml
-  label: LangSmith data_planes API
+  label: LangSmith Data Planes API
   slug: langsmith-data-planes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-data-planes-api-openapi.yml
 - filename: langsmith-datasets-api-openapi.yml
   format: yaml
-  label: LangSmith datasets API
+  label: LangSmith Datasets API
   slug: langsmith-datasets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-datasets-api-openapi.yml
 - filename: langsmith-directories-api-openapi.yml
   format: yaml
-  label: LangSmith directories API
+  label: LangSmith Directories API
   slug: langsmith-directories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-directories-api-openapi.yml
 - filename: langsmith-evaluators-api-openapi.yml
   format: yaml
-  label: LangSmith evaluators API
+  label: LangSmith Evaluators API
   slug: langsmith-evaluators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-evaluators-api-openapi.yml
 - filename: langsmith-examples-api-openapi.yml
   format: yaml
-  label: LangSmith examples API
+  label: LangSmith Examples API
   slug: langsmith-examples-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-examples-api-openapi.yml
 - filename: langsmith-experiment-view-overrides-api-openapi.yml
   format: yaml
-  label: LangSmith experiment-view-overrides API
+  label: LangSmith Experiment View Overrides API
   slug: langsmith-experiment-view-overrides-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-experiment-view-overrides-api-openapi.yml
 - filename: langsmith-experiments-api-openapi.yml
   format: yaml
-  label: LangSmith experiments API
+  label: LangSmith Experiments API
   slug: langsmith-experiments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-experiments-api-openapi.yml
 - filename: langsmith-features-api-openapi.yml
   format: yaml
-  label: LangSmith features API
+  label: LangSmith Features API
   slug: langsmith-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-features-api-openapi.yml
 - filename: langsmith-feedback-api-openapi.yml
   format: yaml
-  label: LangSmith feedback API
+  label: LangSmith Feedback API
   slug: langsmith-feedback-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-feedback-api-openapi.yml
 - filename: langsmith-feedback-configs-api-openapi.yml
   format: yaml
-  label: LangSmith feedback-configs API
+  label: LangSmith Feedback Configs API
   slug: langsmith-feedback-configs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-feedback-configs-api-openapi.yml
@@ -192,79 +192,79 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-fleet-usage-api-openapi.yml
 - filename: langsmith-fleet-webhooks-api-openapi.yml
   format: yaml
-  label: LangSmith fleet_webhooks API
+  label: LangSmith Fleet Webhooks API
   slug: langsmith-fleet-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-fleet-webhooks-api-openapi.yml
 - filename: langsmith-gateway-api-openapi.yml
   format: yaml
-  label: LangSmith gateway API
+  label: LangSmith Gateway API
   slug: langsmith-gateway-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-gateway-api-openapi.yml
 - filename: langsmith-gateway-policies-api-openapi.yml
   format: yaml
-  label: LangSmith gateway-policies API
+  label: LangSmith Gateway Policies API
   slug: langsmith-gateway-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-gateway-policies-api-openapi.yml
 - filename: langsmith-hub-environments-api-openapi.yml
   format: yaml
-  label: LangSmith hub_environments API
+  label: LangSmith Hub Environments API
   slug: langsmith-hub-environments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-hub-environments-api-openapi.yml
 - filename: langsmith-info-api-openapi.yml
   format: yaml
-  label: LangSmith info API
+  label: LangSmith Info API
   slug: langsmith-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-info-api-openapi.yml
 - filename: langsmith-integrations-api-openapi.yml
   format: yaml
-  label: LangSmith integrations API
+  label: LangSmith Integrations API
   slug: langsmith-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-integrations-api-openapi.yml
 - filename: langsmith-likes-api-openapi.yml
   format: yaml
-  label: LangSmith likes API
+  label: LangSmith Likes API
   slug: langsmith-likes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-likes-api-openapi.yml
 - filename: langsmith-mcp-api-openapi.yml
   format: yaml
-  label: LangSmith mcp API
+  label: LangSmith MCP API
   slug: langsmith-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-mcp-api-openapi.yml
 - filename: langsmith-mcp-vendors-api-openapi.yml
   format: yaml
-  label: LangSmith mcp_vendors API
+  label: LangSmith MCP Vendors API
   slug: langsmith-mcp-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-mcp-vendors-api-openapi.yml
 - filename: langsmith-me-api-openapi.yml
   format: yaml
-  label: LangSmith me API
+  label: LangSmith Me API
   slug: langsmith-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-me-api-openapi.yml
 - filename: langsmith-metrics-api-openapi.yml
   format: yaml
-  label: LangSmith metrics API
+  label: LangSmith Metrics API
   slug: langsmith-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-metrics-api-openapi.yml
 - filename: langsmith-model-price-map-api-openapi.yml
   format: yaml
-  label: LangSmith model-price-map API
+  label: LangSmith Model Price Map API
   slug: langsmith-model-price-map-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-model-price-map-api-openapi.yml
 - filename: langsmith-nps-api-openapi.yml
   format: yaml
-  label: LangSmith nps API
+  label: LangSmith Nps API
   slug: langsmith-nps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-nps-api-openapi.yml
@@ -276,7 +276,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-ok-api-openapi.yml
 - filename: langsmith-optimization-jobs-api-openapi.yml
   format: yaml
-  label: LangSmith optimization-jobs API
+  label: LangSmith Optimization Jobs API
   slug: langsmith-optimization-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-optimization-jobs-api-openapi.yml
@@ -288,67 +288,67 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-organizations-api-openapi.yml
 - filename: langsmith-orgs-api-openapi.yml
   format: yaml
-  label: LangSmith orgs API
+  label: LangSmith Orgs API
   slug: langsmith-orgs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-orgs-api-openapi.yml
 - filename: langsmith-ownerships-api-openapi.yml
   format: yaml
-  label: LangSmith ownerships API
+  label: LangSmith Ownerships API
   slug: langsmith-ownerships-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-ownerships-api-openapi.yml
 - filename: langsmith-playground-settings-api-openapi.yml
   format: yaml
-  label: LangSmith playground-settings API
+  label: LangSmith Playground Settings API
   slug: langsmith-playground-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-playground-settings-api-openapi.yml
 - filename: langsmith-prompt-webhooks-api-openapi.yml
   format: yaml
-  label: LangSmith prompt-webhooks API
+  label: LangSmith Prompt Webhooks API
   slug: langsmith-prompt-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-prompt-webhooks-api-openapi.yml
 - filename: langsmith-prompts-api-openapi.yml
   format: yaml
-  label: LangSmith prompts API
+  label: LangSmith Prompts API
   slug: langsmith-prompts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-prompts-api-openapi.yml
 - filename: langsmith-public-api-openapi.yml
   format: yaml
-  label: LangSmith public API
+  label: LangSmith Public API
   slug: langsmith-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-public-api-openapi.yml
 - filename: langsmith-repos-api-openapi.yml
   format: yaml
-  label: LangSmith repos API
+  label: LangSmith Repos API
   slug: langsmith-repos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-repos-api-openapi.yml
 - filename: langsmith-run-api-openapi.yml
   format: yaml
-  label: LangSmith run API
+  label: LangSmith Run API
   slug: langsmith-run-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-run-api-openapi.yml
 - filename: langsmith-runs-api-openapi.yml
   format: yaml
-  label: LangSmith runs API
+  label: LangSmith Runs API
   slug: langsmith-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-runs-api-openapi.yml
 - filename: langsmith-sandboxes-api-openapi.yml
   format: yaml
-  label: LangSmith sandboxes API
+  label: LangSmith Sandboxes API
   slug: langsmith-sandboxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-sandboxes-api-openapi.yml
 - filename: langsmith-sandboxes-internal-api-openapi.yml
   format: yaml
-  label: LangSmith sandboxes-internal API
+  label: LangSmith Sandboxes Internal API
   slug: langsmith-sandboxes-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-sandboxes-internal-api-openapi.yml
@@ -360,61 +360,61 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-scim-tokens-api-openapi.yml
 - filename: langsmith-service-accounts-api-openapi.yml
   format: yaml
-  label: LangSmith service-accounts API
+  label: LangSmith Service Accounts API
   slug: langsmith-service-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-service-accounts-api-openapi.yml
 - filename: langsmith-sessions-api-openapi.yml
   format: yaml
-  label: LangSmith sessions API
+  label: LangSmith Sessions API
   slug: langsmith-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-sessions-api-openapi.yml
 - filename: langsmith-settings-api-openapi.yml
   format: yaml
-  label: LangSmith settings API
+  label: LangSmith Settings API
   slug: langsmith-settings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-settings-api-openapi.yml
 - filename: langsmith-skills-api-openapi.yml
   format: yaml
-  label: LangSmith skills API
+  label: LangSmith Skills API
   slug: langsmith-skills-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-skills-api-openapi.yml
 - filename: langsmith-tag-transitions-api-openapi.yml
   format: yaml
-  label: LangSmith tag-transitions API
+  label: LangSmith Tag Transitions API
   slug: langsmith-tag-transitions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-tag-transitions-api-openapi.yml
 - filename: langsmith-tags-api-openapi.yml
   format: yaml
-  label: LangSmith tags API
+  label: LangSmith Tags API
   slug: langsmith-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-tags-api-openapi.yml
 - filename: langsmith-tenant-api-openapi.yml
   format: yaml
-  label: LangSmith tenant API
+  label: LangSmith Tenant API
   slug: langsmith-tenant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-tenant-api-openapi.yml
 - filename: langsmith-threads-api-openapi.yml
   format: yaml
-  label: LangSmith threads API
+  label: LangSmith Threads API
   slug: langsmith-threads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-threads-api-openapi.yml
 - filename: langsmith-tools-api-openapi.yml
   format: yaml
-  label: LangSmith tools API
+  label: LangSmith Tools API
   slug: langsmith-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-tools-api-openapi.yml
 - filename: langsmith-tracer-sessions-api-openapi.yml
   format: yaml
-  label: LangSmith tracer-sessions API
+  label: LangSmith Tracer Sessions API
   slug: langsmith-tracer-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-tracer-sessions-api-openapi.yml
@@ -426,13 +426,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-ttl-settings-api-openapi.yml
 - filename: langsmith-usage-limits-api-openapi.yml
   format: yaml
-  label: LangSmith usage-limits API
+  label: LangSmith Usage Limits API
   slug: langsmith-usage-limits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-usage-limits-api-openapi.yml
 - filename: langsmith-workspaces-api-openapi.yml
   format: yaml
-  label: LangSmith workspaces API
+  label: LangSmith Workspaces API
   slug: langsmith-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-workspaces-api-openapi.yml
@@ -444,11 +444,11 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/openapi/langsmith-oauth-api-openapi.yml
 consequence_counts:
   physical: 8
-  read: 213
-  safety-critical: 14
-  write: 321
+  read: 221
+  safety-critical: 16
+  write: 311
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 14
+human_in_the_loop: 16
 kind: agentic-access
 layout: agentic-access
 method: generated
@@ -475,6 +475,16 @@ notable_actions:
   human_in_the_loop: required
   method: POST
   path: /oauth/revoke
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /openai/v1/chat/completions
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /openai/v1/responses
 - action_class: acting
   consequence: safety-critical
   human_in_the_loop: required
@@ -566,13 +576,13 @@ notable_actions:
   method: POST
   path: /aws-marketplace/register
 operation_count: 556
-overview: 'LangSmith exposes 556 API operations that an AI agent could call, of which 343 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'LangSmith exposes 556 API operations that an AI agent could call, of which 335 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 213 read, 321 write, 8 physical, and 14 safety-critical.
+  By consequence: 221 read, 311 write, 8 physical, and 16 safety-critical.
 
 
-  14 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
+  16 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -582,46 +592,47 @@ slug: langsmith-agentic-access
 source_filename: langsmith-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/langsmith-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 556\n  by_action_class:\n    connected: 213\n    acting: 343\n  by_consequence:\n    read: 213\n    write: 321\n    physical: 8\n    safety-critical: 14\n  human_in_the_loop_required: 14\noperations:\n- path: /api/v1/info\n  method: get\n  operationId: get_server_info_api_v1_info_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/info/health\n  method: get\n  operationId: get_health_info_api_v1_info_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/metrics/queue/{queue_name}\n  method: get\n  operationId: get_queue_metrics_api_v1_metrics_queue__queue_name__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sessions/{session_id}/dashboard\n  method: post\n  operationId: get_tracing_project_prebuilt_dashboard_api_v1_sessions__session_id__dashboard_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}\n  method: get\n  operationId: read_tracer_session_api_v1_sessions__session_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /api/v1/sessions/{session_id}\n  method: patch\n  operationId: update_tracer_session_api_v1_sessions__session_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}\n  method: delete\n  operationId: delete_tracer_session_api_v1_sessions__session_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions\n  method: get\n  operationId: read_tracer_sessions_api_v1_sessions_get\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sessions\n  method: post\n  operationId: create_tracer_session_api_v1_sessions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions\n  method: delete\n  operationId: delete_tracer_sessions_api_v1_sessions_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}/metadata\n  method: get\n  operationId: read_tracer_sessions_runs_metadata_api_v1_sessions__session_id__metadata_get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sessions/{session_id}/views\n  method: get\n  operationId: read_filter_views_api_v1_sessions__session_id__views_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sessions/{session_id}/views\n  method: post\n  operationId: create_filter_view_api_v1_sessions__session_id__views_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}/views/{view_id}\n  method: get\n  operationId: read_filter_view_api_v1_sessions__session_id__views__view_id__get\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sessions/{session_id}/views/{view_id}\n  method: patch\n  operationId: update_filter_view_api_v1_sessions__session_id__views__view_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}/views/{view_id}\n  method: delete\n  operationId: delete_filter_view_api_v1_sessions__session_id__views__view_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
-  \ path: /api/v1/sessions/{session_id}/views/{view_id}/rename\n  method: patch\n  operationId: rename_filter_view_api_v1_sessions__session_id__views__view_id__rename_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}/insights\n  method: get\n  operationId: _Beta__Get_Insights_Jobs_api_v1_sessions__session_id__insights_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sessions/{session_id}/insights\n  method: post\n  operationId: _Beta__Create_Insights_Job_api_v1_sessions__session_id__insights_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
-  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}/insights/configs\n  method: get\n  operationId: _Beta__Get_Insights_Job_Configs_api_v1_sessions__session_id__insights_configs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sessions/{session_id}/insights/configs\n  method: post\n  operationId: _Beta__Create_Insights_Job_Config_api_v1_sessions__session_id__insights_configs_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}/insights/configs/generate\n  method:\
-  \ post\n  operationId: _Beta__Auto_Generate_Insights_Job_Config_api_v1_sessions__session_id__insights_configs_generate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}/insights/configs/{config_id}\n  method: patch\n  operationId: _Beta__Update_Insights_Job_Config_api_v1_sessions__session_id__insights_configs__config_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}/insights/configs/{config_id}\n  method: delete\n  operationId: _Beta__Delete_Insights_Job_Config_api_v1_sessions__session_id__insights_configs__config_id__delete\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}/insights/{job_id}\n  method: get\n  operationId: _Beta__Get_Insights_Job_api_v1_sessions__session_id__insights__job_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sessions/{session_id}/insights/{job_id}\n  method: patch\n  operationId: _Beta__Update_Insights_Job_api_v1_sessions__session_id__insights__job_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
-  \ high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}/insights/{job_id}\n  method: delete\n  operationId: _Beta__Delete_Insights_Job_api_v1_sessions__session_id__insights__job_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions/{session_id}/insights/{job_id}/clusters/{cluster_id}\n  method: get\n  operationId: _Beta__Get_Run_Cluster_from_Insights_Job_api_v1_sessions__session_id__insights__job_id__clusters__cluster_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sessions/{session_id}/insights/{job_id}/runs\n  method: get\n  operationId: _Beta__Get_Runs_from_Insights_Job_api_v1_sessions__session_id__insights__job_id__runs_get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces\n  method: post\n  operationId: create_workspace_api_v1_workspaces_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces\n  method: get\n  operationId: list_workspaces_api_v1_workspaces_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/{workspace_id}\n  method: patch\n  operationId: patch_workspace_api_v1_workspaces__workspace_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/{workspace_id}\n  method: delete\n  operationId: delete_workspace_api_v1_workspaces__workspace_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/current/stats\n  method: get\n  operationId: get_current_workspace_stats_api_v1_workspaces_current_stats_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/usage_limits\n  method: get\n  operationId: get_current_workspace_usage_limits_info_api_v1_workspaces_current_usage_limits_get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/shared\n  method: get\n  operationId: get_shared_tokens_api_v1_workspaces_current_shared_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/shared\n  method: delete\n  operationId: bulk_unshare_entities_api_v1_workspaces_current_shared_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/current/secrets\n  method: get\n  operationId: list_current_workspace_secrets_api_v1_workspaces_current_secrets_get\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/secrets\n  method: post\n  operationId: upsert_current_workspace_secrets_api_v1_workspaces_current_secrets_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/current/secrets/encrypted\n  method: get\n  operationId: get_current_workspace_encrypted_secrets_api_v1_workspaces_current_secrets_encrypted_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/tag-keys\n  method: get\n  operationId: list_tag_keys_api_v1_workspaces_current_tag_keys_get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/tag-keys\n  method: post\n  operationId: create_tag_key_api_v1_workspaces_current_tag_keys_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/current/tag-keys/{tag_key_id}\n  method: patch\n  operationId: update_tag_key_api_v1_workspaces_current_tag_keys__tag_key_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
-  \ /api/v1/workspaces/current/tag-keys/{tag_key_id}\n  method: get\n  operationId: get_tag_key_api_v1_workspaces_current_tag_keys__tag_key_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/tag-keys/{tag_key_id}\n  method: delete\n  operationId: delete_tag_key_api_v1_workspaces_current_tag_keys__tag_key_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/current/tag-keys/{tag_key_id}/tag-values\n  method: post\n  operationId: create_tag_value_api_v1_workspaces_current_tag_keys__tag_key_id__tag_values_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/current/tag-keys/{tag_key_id}/tag-values\n  method: get\n  operationId: list_tag_values_api_v1_workspaces_current_tag_keys__tag_key_id__tag_values_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/tag-keys/{tag_key_id}/tag-values/{tag_value_id}\n  method: get\n  operationId: get_tag_value_api_v1_workspaces_current_tag_keys__tag_key_id__tag_values__tag_value_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/tag-keys/{tag_key_id}/tag-values/{tag_value_id}\n  method: patch\n  operationId: update_tag_value_api_v1_workspaces_current_tag_keys__tag_key_id__tag_values__tag_value_id__patch\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/current/tag-keys/{tag_key_id}/tag-values/{tag_value_id}\n  method: delete\n  operationId: delete_tag_value_api_v1_workspaces_current_tag_keys__tag_key_id__tag_values__tag_value_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/current/taggings\n  method: post\n  operationId: create_tagging_api_v1_workspaces_current_taggings_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
-  \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/current/taggings\n  method: get\n  operationId: list_taggings_api_v1_workspaces_current_taggings_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/taggings/{tagging_id}\n  method: delete\n  operationId: delete_tagging_api_v1_workspaces_current_taggings__tagging_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/current/tags\n  method: get\n  operationId: list_tags_api_v1_workspaces_current_tags_get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/tags/resource\n  method: get\n  operationId: list_tags_for_resource_api_v1_workspaces_current_tags_resource_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/current/tags/resources\n  method: post\n  operationId: list_tags_for_resources_api_v1_workspaces_current_tags_resources_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/audit-logs\n  method: get\n  operationId: get_audit_logs_api_v1_audit_logs_get\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ttl-settings\n  method: get\n  operationId: list_ttl_settings_api_v1_ttl_settings_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ttl-settings\n  method: put\n  operationId: upsert_ttl_settings_api_v1_ttl_settings_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/orgs/ttl-settings\n  method: get\n  operationId: list_ttl_settings_api_v1_orgs_ttl_settings_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  - path: /api/v1/orgs/ttl-settings\n  method: put\n  operationId: upsert_ttl_settings_api_v1_orgs_ttl_settings_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/examples/count\n  method: get\n  operationId: count_examples_api_v1_examples_count_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/examples/{example_id}\n  method: get\n  operationId: read_example_api_v1_examples__example_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/examples/{example_id}\n  method: patch\n  operationId: update_example_api_v1_examples__example_id__patch\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/examples/{example_id}\n  method: delete\n  operationId: delete_example_api_v1_examples__example_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/examples\n  method: get\n  operationId: read_examples_api_v1_examples_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/examples\n  method: post\n  operationId: create_example_api_v1_examples_post\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/examples\n  method: delete\n  operationId: delete_examples_api_v1_examples_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/examples/bulk\n  method: post\n  operationId: create_examples_api_v1_examples_bulk_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
-  \  - high-value\n    audit: required\n- path: /api/v1/examples/bulk\n  method: patch\n  operationId: legacy_update_examples_api_v1_examples_bulk_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/examples/upload/{dataset_id}\n  method: post\n  operationId: upload_examples_from_csv_api_v1_examples_upload__dataset_id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/examples/validate\n  method: post\n  operationId: validate_example_api_v1_examples_validate_post\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/examples/validate/bulk\n  method: post\n  operationId: validate_examples_api_v1_examples_validate_bulk_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/datasets\n  method: get\n  operationId: read_datasets_api_v1_datasets_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/datasets\n  method: post\n  operationId: create_dataset_api_v1_datasets_post\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/datasets\n  method: delete\n  operationId: delete_datasets_api_v1_datasets_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/datasets/stream\n  method: get\n  operationId: read_datasets_stream_api_v1_datasets_stream_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/datasets/{dataset_id}\n  method: get\n  operationId: read_dataset_api_v1_datasets__dataset_id__get\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/datasets/{dataset_id}\n  method: delete\n  operationId: delete_dataset_api_v1_datasets__dataset_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/datasets/{dataset_id}\n  method: patch\n  operationId: update_dataset_api_v1_datasets__dataset_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/datasets/upload\n  method: post\n  operationId: upload_csv_dataset_api_v1_datasets_upload_post\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/datasets/upload-experiment\n  method: post\n  operationId: upload_experiment_api_v1_datasets_upload_experiment_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/datasets/{dataset_id}/versions\n  method: get\n  operationId: get_dataset_versions_api_v1_datasets__dataset_id__versions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/datasets/{dataset_id}/versions/diff\n\
-  \  method: get\n  operationId: diff_dataset_versions_api_v1_datasets__dataset_id__versions_diff_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/datasets/{dataset_id}/version\n  method: get\n  operationId: get_dataset_version_api_v1_datasets__dataset_id__version_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/datasets/{dataset_id}/tags\n  method: put\n  operationId: update_dataset_version_api_v1_datasets__dataset_id__tags_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/datasets/{dataset_id}/openai\n  method:\
-  \ get\n  operationId: download_dataset_openai_api_v1_datasets__dataset_id__openai_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/datasets/{dataset_id}/openai_ft\n  method: get\n  operationId: download_dataset_openai_ft_api_v1_datasets__dataset_id__openai_ft_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/datasets/{dataset_id}/csv\n  method: get\n  operationId: download_dataset_csv_api_v1_datasets__dataset_id__csv_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/datasets/{dataset_id}/jsonl\n  method: get\n  operationId: download_dataset_jsonl_api_v1_datasets__dataset_id__jsonl_get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/datasets/{dataset_id}/runs\n  method: post\n  operationId: read_examples_with_runs_api_v1_datasets__dataset_id__runs_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/datasets/{dataset_id}/group/runs\n  method: post\n  operationId: read_examples_with_runs_grouped_api_v1_datasets__dataset_id__group_runs_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/datasets/{dataset_id}/runs/delta\n  method: post\n\
-  \  operationId: read_delta_api_v1_datasets__dataset_id__runs_delta_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (177 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/agentic-access/langsmith-agentic-access.yml\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/langsmith-access-policies-api-openapi.yml, openapi/langsmith-ace-api-openapi.yml,\n  openapi/langsmith-agents-api-openapi.yml, openapi/langsmith-alert-rules-api-openapi.yml, openapi/langsmith-annotation-queues-api-openapi.yml,\n  openapi/langsmith-api-key-api-openapi.yml, openapi/langsmith-audit-logs-api-openapi.yml, openapi/langsmith-auth-api-openapi.yml,\n  openapi/langsmith-aws-marketplace-api-openapi.yml, openapi/langsmith-backfills-api-openapi.yml,\n  openapi/langsmith-beacon-api-openapi.yml, openapi/langsmith-bulk-exports-api-openapi.yml,\n  openapi/langsmith-charts-api-openapi.yml, openapi/langsmith-comments-api-openapi.yml, openapi/langsmith-commits-api-openapi.yml,\n  openapi/langsmith-data-planes-api-openapi.yml, openapi/langsmith-datasets-api-openapi.yml,\n  openapi/langsmith-directories-api-openapi.yml, openapi/langsmith-evaluators-api-openapi.yml,\n  openapi/langsmith-examples-api-openapi.yml, openapi/langsmith-experiment-view-overrides-api-openapi.yml,\n\
+  \  openapi/langsmith-experiments-api-openapi.yml, openapi/langsmith-features-api-openapi.yml,\n  openapi/langsmith-feedback-api-openapi.yml, openapi/langsmith-feedback-configs-api-openapi.yml,\n  openapi/langsmith-fleet-auth-api-openapi.yml, openapi/langsmith-fleet-github-app-api-openapi.yml,\n  openapi/langsmith-fleet-integrations-api-openapi.yml, openapi/langsmith-fleet-mcp-api-openapi.yml,\n  openapi/langsmith-fleet-threads-api-openapi.yml, openapi/langsmith-fleet-usage-api-openapi.yml,\n  openapi/langsmith-fleet-webhooks-api-openapi.yml, openapi/langsmith-gateway-api-openapi.yml,\n  openapi/langsmith-gateway-policies-api-openapi.yml, openapi/langsmith-hub-environments-api-openapi.yml,\n  openapi/langsmith-info-api-openapi.yml, openapi/langsmith-integrations-api-openapi.yml, openapi/langsmith-likes-api-openapi.yml,\n  openapi/langsmith-mcp-api-openapi.yml, openapi/langsmith-mcp-vendors-api-openapi.yml, openapi/langsmith-me-api-openapi.yml,\n  openapi/langsmith-metrics-api-openapi.yml,\
+  \ openapi/langsmith-model-price-map-api-openapi.yml,\n  openapi/langsmith-nps-api-openapi.yml, openapi/langsmith-oauth-api-openapi.yml, openapi/langsmith-ok-api-openapi.yml,\n  openapi/langsmith-optimization-jobs-api-openapi.yml, openapi/langsmith-organizations-api-openapi.yml,\n  openapi/langsmith-orgs-api-openapi.yml, openapi/langsmith-ownerships-api-openapi.yml, openapi/langsmith-playground-settings-api-openapi.yml,\n  openapi/langsmith-prompt-webhooks-api-openapi.yml, openapi/langsmith-prompts-api-openapi.yml,\n  openapi/langsmith-public-api-openapi.yml, openapi/langsmith-repos-api-openapi.yml, openapi/langsmith-run-api-openapi.yml,\n  openapi/langsmith-runs-api-openapi.yml, openapi/langsmith-sandboxes-api-openapi.yml, openapi/langsmith-sandboxes-internal-api-openapi.yml,\n  openapi/langsmith-scim-tokens-api-openapi.yml, openapi/langsmith-service-accounts-api-openapi.yml,\n  openapi/langsmith-sessions-api-openapi.yml, openapi/langsmith-settings-api-openapi.yml, openapi/langsmith-skills-api-openapi.yml,\n\
+  \  openapi/langsmith-tag-transitions-api-openapi.yml, openapi/langsmith-tags-api-openapi.yml,\n  openapi/langsmith-tenant-api-openapi.yml, openapi/langsmith-threads-api-openapi.yml, openapi/langsmith-tools-api-openapi.yml,\n  openapi/langsmith-tracer-sessions-api-openapi.yml, openapi/langsmith-ttl-settings-api-openapi.yml,\n  openapi/langsmith-usage-limits-api-openapi.yml, openapi/langsmith-workspaces-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 556\n  by_action_class:\n    connected: 221\n    acting: 335\n  by_consequence:\n    read: 221\n    write: 311\n    physical: 8\n    safety-critical: 16\n  human_in_the_loop_required: 16\noperations:\n- path: /v1/platform/orgs/current/access-policies\n  method: get\n  operationId: getV1PlatformOrgsCurrentAccessPolicies\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/platform/orgs/current/access-policies\n  method: post\n  operationId: postV1PlatformOrgsCurrentAccessPolicies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/platform/orgs/current/access-policies/roles/{role_id}/access-policies\n  method: post\n  operationId: postV1PlatformOrgsCurrentAccessPoliciesRolesByRoleIdAccessPolicies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
+  - path: /v1/platform/orgs/current/access-policies/{access_policy_id}\n  method: get\n  operationId: getV1PlatformOrgsCurrentAccessPoliciesByAccessPolicyId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/platform/orgs/current/access-policies/{access_policy_id}\n  method: delete\n  operationId: deleteV1PlatformOrgsCurrentAccessPoliciesByAccessPolicyId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ace/execute\n  method: post\n  operationId: execute_api_v1_ace_execute_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n  \
+  \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/fleet/agents\n  method: get\n  operationId: getV1FleetAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fleet/agents\n  method: post\n  operationId: postV1FleetAgents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/fleet/agents/{agentID}\n  method: get\n  operationId: getV1FleetAgentsByAgentID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fleet/agents/{agentID}\n  method: patch\n  operationId: patchV1FleetAgentsByAgentID\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/platform/alerts/{session_id}\n  method: post\n  operationId: postV1PlatformAlertsBySessionId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/platform/alerts/{session_id}/test\n  method: post\n  operationId: postV1PlatformAlertsBySessionIdTest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
+  \ - abnormal\n      - high-value\n    audit: required\n- path: /v1/platform/alerts/{session_id}/{alert_rule_id}\n  method: get\n  operationId: getV1PlatformAlertsBySessionIdByAlertRuleId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/platform/alerts/{session_id}/{alert_rule_id}\n  method: delete\n  operationId: deleteV1PlatformAlertsBySessionIdByAlertRuleId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/platform/alerts/{session_id}/{alert_rule_id}\n  method: patch\n  operationId: patchV1PlatformAlertsBySessionIdByAlertRuleId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
+  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues\n  method: get\n  operationId: get_annotation_queues_api_v1_annotation_queues_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/annotation-queues\n  method: post\n  operationId: create_annotation_queue_api_v1_annotation_queues_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues\n  method: delete\n  operationId: delete_annotation_queues_api_v1_annotation_queues_delete\n  x-agentic-access:\n    action-class: acting\n \
+  \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues/populate\n  method: post\n  operationId: populate_annotation_queue_api_v1_annotation_queues_populate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues/{queue_id}\n  method: delete\n  operationId: delete_annotation_queue_api_v1_annotation_queues__queue_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n   \
+  \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues/{queue_id}\n  method: patch\n  operationId: update_annotation_queue_api_v1_annotation_queues__queue_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues/{queue_id}\n  method: get\n  operationId: get_annotation_queue_api_v1_annotation_queues__queue_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/annotation-queues/{queue_id}/runs\n  method: post\n  operationId: add_runs_to_annotation_queue_api_v1_annotation_queues__queue_id__runs_post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues/{queue_id}/runs\n  method: get\n  operationId: get_runs_from_annotation_queue_api_v1_annotation_queues__queue_id__runs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/annotation-queues/{queue_id}/runs/by-key\n  method: post\n  operationId: add_runs_to_annotation_queue_by_key_api_v1_annotation_queues__queue_id__runs_by_key_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues/{queue_id}/export\n\
+  \  method: post\n  operationId: export_annotation_queue_archived_runs_api_v1_annotation_queues__queue_id__export_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues/{queue_id}/run/{index}\n  method: get\n  operationId: get_run_from_annotation_queue_api_v1_annotation_queues__queue_id__run__index__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/annotation-queues/{run_id}/queues\n  method: get\n  operationId: get_annotation_queues_for_run_api_v1_annotation_queues__run_id__queues_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
+  \    audit: none\n- path: /api/v1/annotation-queues/{queue_id}/runs/{queue_run_id}\n  method: patch\n  operationId: update_run_in_annotation_queue_api_v1_annotation_queues__queue_id__runs__queue_run_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues/{queue_id}/runs/{queue_run_id}\n  method: delete\n  operationId: delete_run_from_annotation_queue_api_v1_annotation_queues__queue_id__runs__queue_run_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues/{queue_id}/runs/delete\n\
+  \  method: post\n  operationId: delete_runs_from_annotation_queue_api_v1_annotation_queues__queue_id__runs_delete_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues/{queue_id}/total_size\n  method: get\n  operationId: get_total_size_from_annotation_queue_api_v1_annotation_queues__queue_id__total_size_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/annotation-queues/{queue_id}/total_archived\n  method: get\n  operationId: get_total_archived_from_annotation_queue_api_v1_annotation_queues__queue_id__total_archived_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/annotation-queues/{queue_id}/size\n  method: get\n  operationId: get_size_from_annotation_queue_api_v1_annotation_queues__queue_id__size_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/annotation-queues/status/{annotation_queue_run_id}\n  method: post\n  operationId: create_identity_annotation_queue_run_status_api_v1_annotation_queues_status__annotation_queue_run_id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/annotation-queues/{queue_id}/runs/resolve/{queue_run_id}\n  method: get\n  operationId: resolve_annotation_queue_run_api_v1_annotation_queues__queue_id__runs_resolve__queue_run_id__get\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/platform/annotation-queues/{queue_id}/reviewers\n  method: post\n  operationId: postV1PlatformAnnotationQueuesByQueueIdReviewers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/platform/annotation-queues/{queue_id}/reviewers/{identity_id}\n  method: delete\n  operationId: deleteV1PlatformAnnotationQueuesByQueueIdReviewersByIdentityId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
+  \ required\n- path: /api/v1/api-key\n  method: get\n  operationId: get_api_keys_api_v1_api_key_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api-key\n  method: post\n  operationId: generate_api_key_api_v1_api_key_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/api-key/{api_key_id}\n  method: delete\n  operationId: delete_api_key_api_v1_api_key__api_key_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
+  \ required\n- path: /api/v1/api-key/current\n  method: get\n  operationId: get_personal_access_tokens_api_v1_api_key_current_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api-key/current\n  method: post\n  operationId: generate_personal_access_token_api_v1_api_key_current_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/api-key/current/{pat_id}\n  method: delete\n  operationId: delete_personal_access_token_api_v1_api_key_current__pat_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/audit-logs\n  method: get\n  operationId: get_audit_logs_api_v1_audit_logs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/login\n  method: post\n  operationId: login_api_v1_login_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sso/email-verification/send\n  method: post\n  operationId: send_sso_email_confirmation_api_v1_sso_email_verification_send_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n\
+  \      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sso/email-verification/status\n  method: post\n  operationId: check_sso_email_verification_status_api_v1_sso_email_verification_status_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sso/email-verification/confirm\n  method: post\n  operationId: confirm_sso_user_email_api_v1_sso_email_verification_confirm_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
+  \   audit: required\n- path: /api/v1/sso/settings/{sso_login_slug}\n  method: get\n  operationId: get_sso_settings_api_v1_sso_settings__sso_login_slug__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sso/email-lookup\n  method: post\n  operationId: lookup_sso_by_email_api_v1_sso_email_lookup_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/public\n  method: get\n  operationId: getAuthPublic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aws-marketplace/register\n  method: post\n  operationId: postAwsMarketplaceRegister\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
+  \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/platform/ops/backfills/restart\n  method: post\n  operationId: postV1PlatformOpsBackfillsRestart\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/beacon/usage-snapshot\n  method: post\n  operationId: postV1BeaconUsageSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/bulk-exports\n  method:\
+  \ get\n  operationId: get_bulk_exports_api_v1_bulk_exports_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bulk-exports\n  method: post\n  operationId: create_bulk_export_api_v1_bulk_exports_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/bulk-exports/destinations\n  method: get\n  operationId: get_bulk_export_destinations_api_v1_bulk_exports_destinations_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bulk-exports/destinations\n  method: post\n  operationId: create_bulk_export_destination_api_v1_bulk_exports_destinations_post\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/bulk-exports/runs\n  method: get\n  operationId: get_bulk_export_runs_filtered_api_v1_bulk_exports_runs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bulk-exports/{bulk_export_id}\n  method: get\n  operationId: get_bulk_export_api_v1_bulk_exports__bulk_export_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bulk-exports/{bulk_export_id}\n  method: patch\n  operationId: cancel_bulk_export_api_v1_bulk_exports__bulk_export_id__patch\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/bulk-exports/destinations/{destination_id}\n  method: get\n  operationId: get_bulk_export_destination_api_v1_bulk_exports_destinations__destination_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bulk-exports/destinations/{destination_id}\n  method: patch\n  operationId: update_bulk_export_destination_api_v1_bulk_exports_destinations__destination_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
+  \ required\n- path: /api/v1/bulk-exports/{bulk_export_id}/runs\n  method: get\n  operationId: get_bulk_export_runs_api_v1_bulk_exports__bulk_export_id__runs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bulk-exports/{bulk_export_id}/runs/{run_id}\n  method: get\n  operationId: get_bulk_export_run_api_v1_bulk_exports__bulk_export_id__runs__run_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/charts/section/clone\n  method: post\n  operationId: clone_section_api_v1_charts_section_clone_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
+  \ required\n- path: /api/v1/charts/section\n  method: get\n  operationId: read_sections_api_v1_charts_section_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/charts/section\n  method: post\n  operationId: create_section_api_v1_charts_section_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/charts\n  method: post\n  operationId: read_charts_api_v1_charts_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
+  - path: /api/v1/charts/preview\n  method: post\n  operationId: read_chart_preview_api_v1_charts_preview_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/charts/create\n  method: post\n  operationId: create_chart_api_v1_charts_create_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/charts/{chart_id}\n  method: post\n  operationId: read_single_chart_api_v1_charts__chart_id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
+  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/charts/{chart_id}\n  method: patch\n  operationId: update_chart_api_v1_charts__chart_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/charts/{chart_id}\n  method: delete\n  operationId: delete_chart_api_v1_charts__chart_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/charts/section/{section_id}\n  method: post\n  operationId:\
+  \ read_single_section_api_v1_charts_section__section_id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/charts/section/{section_id}\n  method: patch\n  operationId: update_section_api_v1_charts_section__section_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/charts/section/{section_id}\n  method: delete\n  operationId: delete_section_api_v1_charts_section__section_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
+  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/org-charts/section\n  method: get\n  operationId: org_read_sections_api_v1_org_charts_section_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/org-charts/section\n  method: post\n  operationId: org_create_section_api_v1_org_charts_section_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/org-charts\n  method: post\n  operationId: org_read_charts_api_v1_org_charts_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
+  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/org-charts/preview\n  method: post\n  operationId: org_read_chart_preview_api_v1_org_charts_preview_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (188 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/agentic-access/langsmith-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/agentic-access/langsmith-agentic-access.yml
-summary_line: 556 operations · 343 acting · 14 human-in-the-loop
+summary_line: 556 operations · 335 acting · 16 human-in-the-loop
 tags:
 - Artificial Intelligence
 - LLM
 - Observability
 - Evaluation
 - LangChain
+- A2A
 ---

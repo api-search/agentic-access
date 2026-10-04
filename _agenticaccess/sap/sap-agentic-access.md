@@ -173,4 +173,6 @@ tags:
 - Enterprise
 - ERP
 - Integration
+- Real-Time
+- A2A
 ---

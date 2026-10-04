@@ -49,4 +49,6 @@ tags:
 - Infrastructure
 - MetaMask
 - ConsenSys
+- Real-Time
+- Ethereum
 ---

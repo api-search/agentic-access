@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/attom-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/agentic-access/attomdata-agentic-access.yml
 summary_line: 47 operations
 tags:
-- Real-Estate
+- Real Estate
 - Property Data
 - Property Intelligence
 - Mortgage
@@ -166,6 +166,5 @@ tags:
 - Neighborhood
 - POI
 - Insurance
-- Mortgage Technology
 - PropTech
 ---

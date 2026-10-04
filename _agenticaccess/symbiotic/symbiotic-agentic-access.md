@@ -47,4 +47,5 @@ summary_line: 22 operations · 1 acting
 tags:
 - Company
 - Crypto Defi
+- A2A
 ---

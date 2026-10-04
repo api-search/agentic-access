@@ -61,8 +61,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pinpoi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/agentic-access/pinpoint-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
-- ATS
-- Recruitment
+- Applicant Tracking
+- Recruiting
 - Hiring
 - Human Resources
 - JSON:API

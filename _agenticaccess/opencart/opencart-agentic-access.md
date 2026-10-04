@@ -137,7 +137,7 @@ summary_line: 16 operations · 12 acting
 tags:
 - E-Commerce
 - Shopping Cart
-- Open-Source
+- Open Source
 - Self-Hosted
 - Product
 - Order

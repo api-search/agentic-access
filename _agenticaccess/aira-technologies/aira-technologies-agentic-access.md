@@ -2,67 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 24
-api_specs:
-- filename: aira-technologies-posts-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Posts API
-  slug: aira-technologies-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-posts-api-openapi.yml
-- filename: aira-technologies-pages-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Pages API
-  slug: aira-technologies-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-pages-api-openapi.yml
-- filename: aira-technologies-articles-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Articles API
-  slug: aira-technologies-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-articles-api-openapi.yml
-- filename: aira-technologies-events-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Events API
-  slug: aira-technologies-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-events-api-openapi.yml
-- filename: aira-technologies-media-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Media API
-  slug: aira-technologies-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-media-api-openapi.yml
-- filename: aira-technologies-search-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Search API
-  slug: aira-technologies-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-search-api-openapi.yml
-- filename: aira-technologies-discovery-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Discovery API
-  slug: aira-technologies-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-discovery-api-openapi.yml
-- filename: aira-technologies-categories-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Categories API
-  slug: aira-technologies-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-categories-api-openapi.yml
-- filename: aira-technologies-users-api-openapi.yml
-  format: yaml
-  label: Aira Technologies Users API
-  slug: aira-technologies-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-users-api-openapi.yml
-- filename: aira-technologies-o-embed-api-openapi.yml
-  format: yaml
-  label: Aira Technologies o Embed API
-  slug: aira-technologies-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/openapi/aira-technologies-o-embed-api-openapi.yml
 consequence_counts:
   read: 24
 description: Recommended x-agentic-access execution contracts, classified from the OpenAPI documents in this repo. Every anonymously reachable operation on this surface is a read against a public marketing content API, so every contract classifies the same way — action-class connected, consequence read, no human in the loop, no audit requirement. There is no write, no money movement, no personal data and no irreversible action to govern here. A governance starting point for exposing this API to AI agents; review and bind audience per deployment.
@@ -103,11 +42,10 @@ tags:
 - Telecommunications
 - Wireless
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - 5G
 - Radio Access Network
 - Network Automation
 - Generative AI
 - Observability
-- Content
 ---

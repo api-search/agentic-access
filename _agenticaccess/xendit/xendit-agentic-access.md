@@ -135,7 +135,7 @@ tags:
 - Indonesia
 - Philippines
 - Disbursements
-- E-Wallet
+- Digital Wallet
 - Virtual Accounts
 - Cards
 - Financial Infrastructure

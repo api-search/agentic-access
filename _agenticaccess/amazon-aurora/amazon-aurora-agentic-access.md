@@ -93,4 +93,5 @@ tags:
 - MySQL
 - PostgreSQL
 - Relational Database
+- Database
 ---

@@ -90,7 +90,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/
 summary_line: 31 operations · 17 acting
 tags:
 - Bot Mitigation
-- Fraud Protection
+- Fraud Prevention
 - Account Protection
 - Ad Fraud
 - DDoS

@@ -137,10 +137,9 @@ source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/findlo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/findlocal/refs/heads/main/agentic-access/findlocal-agentic-access.yml
 summary_line: 18 operations
 tags:
-- Events
-- API
+- Event
 - Hyperlocal
 - Community
 - Data
-- OpenData
+- Open Data
 ---

@@ -92,9 +92,9 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/appen-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/agentic-access/appen-agentic-access.yml
 summary_line: 32 operations · 28 acting
 tags:
-- AI
+- Artificial Intelligence
 - Data
 - Annotation
-- TrainingData
+- Training Data
 - Enterprise
 ---

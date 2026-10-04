@@ -50,7 +50,7 @@ tags:
 - GraphQL
 - Modules
 - OCI
-- Open-Source
+- Open Source
 - Pipelines
 - Programmable Pipelines
 - SDK

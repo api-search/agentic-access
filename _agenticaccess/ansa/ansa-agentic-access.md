@@ -136,4 +136,5 @@ tags:
 - Digital Wallet
 - Loyalty
 - Incentives
+- Loyalty & Incentives
 ---

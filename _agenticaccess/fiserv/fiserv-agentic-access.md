@@ -271,7 +271,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/he
 summary_line: 42 operations · 27 acting
 tags:
 - Banking
-- Financial
+- Finance
 - Payments
 - Wealth Management
 - Fortune 500

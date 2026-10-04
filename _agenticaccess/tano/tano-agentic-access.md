@@ -75,4 +75,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tano/refs/head
 summary_line: 17 operations · 9 acting
 tags:
 - Company
+- A2A
 ---

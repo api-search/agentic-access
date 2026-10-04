@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: rsperformance-online-ai-gateway-openapi.yml
+- filename: rsperformance-online-search-api-openapi.yml
   format: yaml
-  label: RS Performance AI Gateway API
-  slug: rs-performance-ai-gateway-api
+  label: RS Performance Search API
+  slug: rsperformance-online-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/openapi/rsperformance-online-ai-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/openapi/rsperformance-online-search-api-openapi.yml
+- filename: rsperformance-online-well-known-api-openapi.yml
+  format: yaml
+  label: RS Performance .well Known API
+  slug: rsperformance-online-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rsperformance-online/refs/heads/main/openapi/rsperformance-online-well-known-api-openapi.yml
 consequence_counts:
   read: 3
 description: 'Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/. Curated 2026-09-19: all three operations are reads; the surface has no write, so no human-in-the-loop trigger applies. Note the provider''s OTHER agent surfaces do have writes outside this OpenAPI — A2A message/send creates a task and the MCP tools write_intake_note and diagnostic_ingest_brand_knowledge write to the provider''s store (see mcp/ and conventions/).'
@@ -48,7 +54,7 @@ tags:
 - Semantic Search
 - A2A
 - MCP
-- agent-native
+- Agent-Native
 - Local Business
 - Poland
 ---

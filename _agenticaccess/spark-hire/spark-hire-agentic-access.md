@@ -102,5 +102,5 @@ tags:
 - Hiring
 - Human Resources
 - Talent Assessment
-- ATS
+- Applicant Tracking
 ---

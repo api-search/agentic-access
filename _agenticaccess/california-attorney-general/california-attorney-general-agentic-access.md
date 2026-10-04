@@ -4,12 +4,48 @@ action_class_counts:
   acting: 3
   connected: 65
 api_specs:
-- filename: california-attorney-general-openjustice-jsonapi-openapi.yml
+- filename: california-attorney-general-content-api-openapi.yml
   format: yaml
-  label: OpenJustice Open Data Portal JSON:API
-  slug: openjustice-open-data-portal-jsonapi
+  label: California Attorney General Content API
+  slug: california-attorney-general-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-openjustice-jsonapi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-content-api-openapi.yml
+- filename: california-attorney-general-discovery-api-openapi.yml
+  format: yaml
+  label: California Attorney General Discovery API
+  slug: california-attorney-general-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-discovery-api-openapi.yml
+- filename: california-attorney-general-feedback-api-openapi.yml
+  format: yaml
+  label: California Attorney General Feedback API
+  slug: california-attorney-general-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-feedback-api-openapi.yml
+- filename: california-attorney-general-files-api-openapi.yml
+  format: yaml
+  label: California Attorney General Files API
+  slug: california-attorney-general-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-files-api-openapi.yml
+- filename: california-attorney-general-paragraphs-api-openapi.yml
+  format: yaml
+  label: California Attorney General Paragraphs API
+  slug: california-attorney-general-paragraphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-paragraphs-api-openapi.yml
+- filename: california-attorney-general-site-configuration-api-openapi.yml
+  format: yaml
+  label: California Attorney General Site Configuration API
+  slug: california-attorney-general-site-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-site-configuration-api-openapi.yml
+- filename: california-attorney-general-taxonomies-api-openapi.yml
+  format: yaml
+  label: California Attorney General Taxonomies API
+  slug: california-attorney-general-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-taxonomies-api-openapi.yml
 consequence_counts:
   read: 65
   write: 3
@@ -55,7 +91,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: generated\nsource: openapi/califo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/agentic-access/california-attorney-general-agentic-access.yml
 summary_line: 68 operations · 3 acting
 tags:
-- State-Government
+- State Government
 - California
 - Criminal Justice
 - Open Data

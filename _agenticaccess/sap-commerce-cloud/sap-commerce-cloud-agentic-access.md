@@ -238,7 +238,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-commerce-c
 summary_line: 81 operations · 31 acting
 tags:
 - B2B
-- B2C
+- Consumer
 - Commerce
 - Customer Experience
 - E-Commerce

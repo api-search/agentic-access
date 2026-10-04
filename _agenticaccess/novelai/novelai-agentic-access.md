@@ -210,7 +210,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novelai/refs/h
 summary_line: 52 operations · 35 acting · 35 human-in-the-loop
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - LLM
 - Storytelling
 ---

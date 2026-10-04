@@ -73,7 +73,7 @@ summary_line: 12 operations · 12 acting
 tags:
 - LLM
 - Inference
-- Open-Source
+- Open Source
 - GPU
 - OpenAI-Compatible
 - Self-Hosted

@@ -50,7 +50,7 @@ tags:
 - Artificial Intelligence
 - Deep Learning
 - Google
-- Machine-Learning
+- Machine Learning
 - Model Serving
-- Open-Source
+- Open Source
 ---

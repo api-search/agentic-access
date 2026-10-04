@@ -1,8 +1,8 @@
 ---
-acting_count: 157
+acting_count: 155
 action_class_counts:
-  acting: 157
-  connected: 129
+  acting: 155
+  connected: 131
 api_specs:
 - filename: postman-webhooks-asyncapi.yml
   format: yaml
@@ -54,85 +54,79 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-mocks-api-openapi.yml
 - filename: postman-analytics-api-openapi.yml
   format: yaml
-  label: Postman analytics API
+  label: Postman Analytics API
   slug: postman-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-analytics-api-openapi.yml
-- filename: postman-api-api-openapi.yml
-  format: yaml
-  label: Postman api
-  slug: postman-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-api-api-openapi.yml
 - filename: postman-apicatalog-api-openapi.yml
   format: yaml
-  label: Postman apiCatalog API
+  label: Postman API Catalog API
   slug: postman-apicatalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-apicatalog-api-openapi.yml
 - filename: postman-billing-api-openapi.yml
   format: yaml
-  label: Postman billing API
+  label: Postman Billing API
   slug: postman-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-billing-api-openapi.yml
 - filename: postman-comments-api-openapi.yml
   format: yaml
-  label: Postman comments API
+  label: Postman Comments API
   slug: postman-comments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-comments-api-openapi.yml
 - filename: postman-components-api-openapi.yml
   format: yaml
-  label: Postman components API
+  label: Postman Components API
   slug: postman-components-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-components-api-openapi.yml
 - filename: postman-groups-api-openapi.yml
   format: yaml
-  label: Postman groups API
+  label: Postman Groups API
   slug: postman-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-groups-api-openapi.yml
 - filename: postman-import-api-openapi.yml
   format: yaml
-  label: Postman import API
+  label: Postman Import API
   slug: postman-import-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-import-api-openapi.yml
 - filename: postman-postbot-api-openapi.yml
   format: yaml
-  label: Postman postbot API
+  label: Postman Postbot API
   slug: postman-postbot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-postbot-api-openapi.yml
 - filename: postman-scim-api-openapi.yml
   format: yaml
-  label: Postman scim API
+  label: Postman SCIM API
   slug: postman-scim-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-scim-api-openapi.yml
 - filename: postman-search-api-openapi.yml
   format: yaml
-  label: Postman search API
+  label: Postman Search API
   slug: postman-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-search-api-openapi.yml
 - filename: postman-specs-api-openapi.yml
   format: yaml
-  label: Postman specs API
+  label: Postman Specs API
   slug: postman-specs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-specs-api-openapi.yml
 - filename: postman-teams-api-openapi.yml
   format: yaml
-  label: Postman teams API
+  label: Postman Teams API
   slug: postman-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-teams-api-openapi.yml
 - filename: postman-users-api-openapi.yml
   format: yaml
-  label: Postman users API
+  label: Postman Users API
   slug: postman-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-users-api-openapi.yml
@@ -180,10 +174,16 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-server-responses-api-openapi.yml
 - filename: postman-sdks-api-openapi.yml
   format: yaml
-  label: Postman Sd Ks API
+  label: Postman SDKs API
   slug: postman-sdks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-sdks-api-openapi.yml
+- filename: postman-apis-api-openapi.yml
+  format: yaml
+  label: Postman APIs API
+  slug: postman-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-apis-api-openapi.yml
 - filename: postman-api-security-api-openapi.yml
   format: yaml
   label: Postman API Security API
@@ -252,9 +252,9 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/openapi/postman-service-accounts-api-openapi.yml
 consequence_counts:
   physical: 5
-  read: 129
+  read: 131
   safety-critical: 1
-  write: 151
+  write: 149
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 1
 kind: agentic-access
@@ -294,10 +294,10 @@ notable_actions:
   method: PATCH
   path: /workspaces/{workspaceId}/transfers
 operation_count: 286
-overview: 'Postman exposes 286 API operations that an AI agent could call, of which 157 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Postman exposes 286 API operations that an AI agent could call, of which 155 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 129 read, 151 write, 5 physical, and 1 safety-critical.
+  By consequence: 131 read, 149 write, 5 physical, and 1 safety-critical.
 
 
   1 operation are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -310,9 +310,9 @@ slug: postman-agentic-access
 source_filename: postman-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/postman-analytics-api-openapi.yml, openapi/postman-api-api-openapi.yml, openapi/postman-api-schemas-api-openapi.yml,\n  openapi/postman-api-security-api-openapi.yml, openapi/postman-apicatalog-api-openapi.yml,\n  openapi/postman-audit-logs-api-openapi.yml, openapi/postman-billing-api-openapi.yml, openapi/postman-collection-access-keys-api-openapi.yml,\n  openapi/postman-collection-folders-api-openapi.yml, openapi/postman-collection-items-api-openapi.yml,\n  openapi/postman-collection-requests-api-openapi.yml, openapi/postman-collection-responses-api-openapi.yml,\n  openapi/postman-collection-runs-api-openapi.yml, openapi/postman-collections-api-openapi.yml,\n  openapi/postman-comments-api-openapi.yml, openapi/postman-components-api-openapi.yml, openapi/postman-environments-api-openapi.yml,\n  openapi/postman-groups-api-openapi.yml, openapi/postman-import-api-openapi.yml, openapi/postman-mocks-api-openapi.yml,\n  openapi/postman-monitors-api-openapi.yml,\
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/postman-analytics-api-openapi.yml, openapi/postman-api-api-openapi.yml, openapi/postman-api-schemas-api-openapi.yml,\n  openapi/postman-api-security-api-openapi.yml, openapi/postman-apicatalog-api-openapi.yml,\n  openapi/postman-audit-logs-api-openapi.yml, openapi/postman-billing-api-openapi.yml, openapi/postman-collection-access-keys-api-openapi.yml,\n  openapi/postman-collection-folders-api-openapi.yml, openapi/postman-collection-items-api-openapi.yml,\n  openapi/postman-collection-requests-api-openapi.yml, openapi/postman-collection-responses-api-openapi.yml,\n  openapi/postman-collection-runs-api-openapi.yml, openapi/postman-collections-api-openapi.yml,\n  openapi/postman-comments-api-openapi.yml, openapi/postman-components-api-openapi.yml, openapi/postman-environments-api-openapi.yml,\n  openapi/postman-groups-api-openapi.yml, openapi/postman-import-api-openapi.yml, openapi/postman-mocks-api-openapi.yml,\n  openapi/postman-monitors-api-openapi.yml,\
   \ openapi/postman-network-elements-api-openapi.yml,\n  openapi/postman-network-folders-api-openapi.yml, openapi/postman-network-requests-api-openapi.yml,\n  openapi/postman-oauth-2-0-api-openapi.yml, openapi/postman-postbot-api-openapi.yml, openapi/postman-private-api-network-api-openapi.yml,\n  openapi/postman-pull-requests-api-openapi.yml, openapi/postman-scim-api-openapi.yml, openapi/postman-sdks-api-openapi.yml,\n  openapi/postman-search-api-openapi.yml, openapi/postman-secret-scanner-api-openapi.yml, openapi/postman-server-responses-api-openapi.yml,\n  openapi/postman-service-accounts-api-openapi.yml, openapi/postman-specs-api-openapi.yml, openapi/postman-tags-api-openapi.yml,\n  openapi/postman-teams-api-openapi.yml, openapi/postman-users-api-openapi.yml, openapi/postman-webhooks-api-openapi.yml,\n  openapi/postman-workspaces-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for\
-  \ exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 286\n  by_action_class:\n    connected: 129\n    acting: 157\n  by_consequence:\n    read: 129\n    write: 151\n    physical: 5\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /analytics\n  method: get\n  operationId: getAnalyticsData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics-metadata\n  method: get\n  operationId: getAnalyticsMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis\n  method: get\n  operationId: getApis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis\n\
+  \ exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 286\n  by_action_class:\n    connected: 131\n    acting: 155\n  by_consequence:\n    read: 131\n    write: 149\n    physical: 5\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /analytics\n  method: get\n  operationId: getAnalyticsData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics-metadata\n  method: get\n  operationId: getAnalyticsMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis\n  method: get\n  operationId: getApis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis\n\
   \  method: post\n  operationId: createApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}\n  method: get\n  operationId: getApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}\n  method: put\n  operationId: updateApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}\n  method: delete\n  operationId: deleteApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/collections\n  method: post\n  operationId: addApiCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/collections/{collectionId}\n  method: get\n  operationId: getApiCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/collections/{collectionId}/comments\n  method: get\n  operationId: getApiCollectionComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{apiId}/collections/{collectionId}/comments\n  method: post\n  operationId: createApiCollectionComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/collections/{collectionId}/comments/{commentId}\n  method: put\n  operationId: updateApiCollectionComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/{apiId}/collections/{collectionId}/comments/{commentId}\n  method: delete\n  operationId: deleteApiCollectionComment\n\
@@ -345,7 +345,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/postma
   \  method: get\n  operationId: getCollectionComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collectionId}/comments\n  method: post\n  operationId: createCollectionComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/comments/{commentId}\n  method: put\n  operationId: updateCollectionComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/comments/{commentId}\n\
   \  method: delete\n  operationId: deleteCollectionComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collectionId}/duplicates\n  method: post\n  operationId: duplicateCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (85 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/agentic-access/postman-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/agentic-access/postman-agentic-access.yml
-summary_line: 286 operations · 157 acting · 1 human-in-the-loop
+summary_line: 286 operations · 155 acting · 1 human-in-the-loop
 tags:
 - Environment
 - Flow

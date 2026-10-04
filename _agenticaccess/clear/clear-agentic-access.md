@@ -49,5 +49,5 @@ tags:
 - Biometrics
 - OpenID Connect
 - Healthcare
-- Financial-Services
+- Financial Services
 ---

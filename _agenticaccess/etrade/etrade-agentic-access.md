@@ -65,7 +65,7 @@ summary_line: 8 operations · 2 acting
 tags:
 - Bonds
 - Brokerage
-- Financial
+- Finance
 - Futures
 - Options
 - Stocks

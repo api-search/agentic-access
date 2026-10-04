@@ -42,4 +42,5 @@ tags:
 - Retail
 - Supply Chain
 - Fortune 100
+- Food and Beverage
 ---

@@ -158,4 +158,5 @@ tags:
 - Telemetry
 - VPP
 - Flex Events
+- Energy Storage
 ---

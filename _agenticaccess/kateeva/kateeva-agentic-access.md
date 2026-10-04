@@ -2,55 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 21
-api_specs:
-- filename: kateeva-posts-api-openapi.yml
-  format: yaml
-  label: Kateeva Posts API
-  slug: kateeva-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-posts-api-openapi.yml
-- filename: kateeva-pages-api-openapi.yml
-  format: yaml
-  label: Kateeva Pages API
-  slug: kateeva-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-pages-api-openapi.yml
-- filename: kateeva-media-api-openapi.yml
-  format: yaml
-  label: Kateeva Media API
-  slug: kateeva-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-media-api-openapi.yml
-- filename: kateeva-taxonomy-api-openapi.yml
-  format: yaml
-  label: Kateeva Taxonomy API
-  slug: kateeva-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-taxonomy-api-openapi.yml
-- filename: kateeva-search-api-openapi.yml
-  format: yaml
-  label: Kateeva Search API
-  slug: kateeva-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-search-api-openapi.yml
-- filename: kateeva-discovery-api-openapi.yml
-  format: yaml
-  label: Kateeva Discovery API
-  slug: kateeva-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-discovery-api-openapi.yml
-- filename: kateeva-seo-api-openapi.yml
-  format: yaml
-  label: Kateeva SEO Metadata API
-  slug: kateeva-seo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-seo-api-openapi.yml
-- filename: kateeva-o-embed-api-openapi.yml
-  format: yaml
-  label: Kateeva o Embed API
-  slug: kateeva-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/openapi/kateeva-o-embed-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified from the OpenAPI. Every operation on this surface is an anonymous read, so every contract is action-class connected / consequence read with no human-in-the-loop requirement and no audit obligation. A governance starting point for exposing this API to AI agents — review and bind audience per deployment.
@@ -95,5 +46,4 @@ tags:
 - Materials Deposition
 - Consumer Electronics
 - Hardware
-- Content
 ---

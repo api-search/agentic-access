@@ -122,4 +122,5 @@ tags:
 - Advertising
 - AI Agents
 - Data Warehouse
+- A2A
 ---

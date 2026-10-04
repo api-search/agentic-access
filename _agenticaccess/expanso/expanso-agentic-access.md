@@ -65,7 +65,7 @@ tags:
 - Compute Orchestration
 - Data Pipeline
 - Data Governance
-- Open-Source
+- Open Source
 - Artificial Intelligence
 - Job Orchestration
 ---

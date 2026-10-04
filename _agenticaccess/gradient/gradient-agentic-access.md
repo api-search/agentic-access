@@ -55,8 +55,8 @@ tags:
 - Company
 - Crypto Web3
 - Artificial Intelligence
-- Machine-Learning
-- LLM Inference
+- Machine Learning
+- Inference
 - Decentralized Infrastructure
 - Distributed Computing
 - Edge Computing

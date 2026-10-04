@@ -480,19 +480,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-artifacts-api-openapi.yml
 - filename: amazon-web-services-assessmentframeworks-api-openapi.yml
   format: yaml
-  label: Amazon Web Services assessmentFrameworks API
+  label: Amazon Web Services Assessment Frameworks API
   slug: amazon-web-services-assessmentframeworks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-assessmentframeworks-api-openapi.yml
 - filename: amazon-web-services-assessmentframeworksharerequests-api-openapi.yml
   format: yaml
-  label: Amazon Web Services assessmentFrameworkShareRequests API
+  label: Amazon Web Services Assessment Framework Share Requests API
   slug: amazon-web-services-assessmentframeworksharerequests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-assessmentframeworksharerequests-api-openapi.yml
 - filename: amazon-web-services-assessmentreports-api-openapi.yml
   format: yaml
-  label: Amazon Web Services assessmentReports API
+  label: Amazon Web Services Assessment Reports API
   slug: amazon-web-services-assessmentreports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-assessmentreports-api-openapi.yml
@@ -552,7 +552,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-associatedefaultview-api-openapi.yml
 - filename: amazon-web-services-associatedomain-api-openapi.yml
   format: yaml
-  label: Amazon Web Services associateDomain API
+  label: Amazon Web Services Associate Domain API
   slug: amazon-web-services-associatedomain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-associatedomain-api-openapi.yml
@@ -582,13 +582,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-associatesourceservers-api-openapi.yml
 - filename: amazon-web-services-associatewebsiteauthorizationprovider-api-openapi.yml
   format: yaml
-  label: Amazon Web Services associateWebsiteAuthorizationProvider API
+  label: Amazon Web Services Associate Website Authorization Provider API
   slug: amazon-web-services-associatewebsiteauthorizationprovider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-associatewebsiteauthorizationprovider-api-openapi.yml
 - filename: amazon-web-services-associatewebsitecertificateauthority-api-openapi.yml
   format: yaml
-  label: Amazon Web Services associateWebsiteCertificateAuthority API
+  label: Amazon Web Services Associate Website Certificate Authority API
   slug: amazon-web-services-associatewebsitecertificateauthority-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-associatewebsitecertificateauthority-api-openapi.yml
@@ -762,7 +762,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-batchgetchannel-api-openapi.yml
 - filename: amazon-web-services-batchgetincidentfindings-api-openapi.yml
   format: yaml
-  label: Amazon Web Services batchGetIncidentFindings API
+  label: Amazon Web Services Batch Get Incident Findings API
   slug: amazon-web-services-batchgetincidentfindings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-batchgetincidentfindings-api-openapi.yml
@@ -1170,7 +1170,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-channel-flows-api-openapi.yml
 - filename: amazon-web-services-channelgroup-api-openapi.yml
   format: yaml
-  label: Amazon Web Services channelGroup API
+  label: Amazon Web Services Channel Group API
   slug: amazon-web-services-channelgroup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-channelgroup-api-openapi.yml
@@ -1332,7 +1332,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-configuration-api-openapi.yml
 - filename: amazon-web-services-configurationpolicyassociation-api-openapi.yml
   format: yaml
-  label: Amazon Web Services configurationPolicyAssociation API
+  label: Amazon Web Services Configuration Policy Association API
   slug: amazon-web-services-configurationpolicyassociation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-configurationpolicyassociation-api-openapi.yml
@@ -1392,7 +1392,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-connectors-api-openapi.yml
 - filename: amazon-web-services-consolidatedreport-api-openapi.yml
   format: yaml
-  label: Amazon Web Services consolidatedReport API
+  label: Amazon Web Services Consolidated Report API
   slug: amazon-web-services-consolidatedreport-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-consolidatedreport-api-openapi.yml
@@ -1638,13 +1638,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-createdatacellsfilter-api-openapi.yml
 - filename: amazon-web-services-createdeployment-api-openapi.yml
   format: yaml
-  label: Amazon Web Services createDeployment API
+  label: Amazon Web Services Create Deployment API
   slug: amazon-web-services-createdeployment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-createdeployment-api-openapi.yml
 - filename: amazon-web-services-createdestination-api-openapi.yml
   format: yaml
-  label: Amazon Web Services createDestination API
+  label: Amazon Web Services Create Destination API
   slug: amazon-web-services-createdestination-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-createdestination-api-openapi.yml
@@ -1752,7 +1752,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-createmetricset-api-openapi.yml
 - filename: amazon-web-services-createnotificationrule-api-openapi.yml
   format: yaml
-  label: Amazon Web Services createNotificationRule API
+  label: Amazon Web Services Create Notification Rule API
   slug: amazon-web-services-createnotificationrule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-createnotificationrule-api-openapi.yml
@@ -1830,7 +1830,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-createsink-api-openapi.yml
 - filename: amazon-web-services-createsite-api-openapi.yml
   format: yaml
-  label: Amazon Web Services createSite API
+  label: Amazon Web Services Create Site API
   slug: amazon-web-services-createsite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-createsite-api-openapi.yml
@@ -1884,13 +1884,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-createwave-api-openapi.yml
 - filename: amazon-web-services-createworker-api-openapi.yml
   format: yaml
-  label: Amazon Web Services createWorker API
+  label: Amazon Web Services Create Worker API
   slug: amazon-web-services-createworker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-createworker-api-openapi.yml
 - filename: amazon-web-services-createworkerfleet-api-openapi.yml
   format: yaml
-  label: Amazon Web Services createWorkerFleet API
+  label: Amazon Web Services Create Worker Fleet API
   slug: amazon-web-services-createworkerfleet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-createworkerfleet-api-openapi.yml
@@ -1992,7 +1992,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-datasets-api-openapi.yml
 - filename: amazon-web-services-datasourcekeywords-api-openapi.yml
   format: yaml
-  label: Amazon Web Services dataSourceKeywords API
+  label: Amazon Web Services Data Source Keywords API
   slug: amazon-web-services-datasourcekeywords-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-datasourcekeywords-api-openapi.yml
@@ -2154,7 +2154,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletealert-api-openapi.yml
 - filename: amazon-web-services-deletealternatecontact-api-openapi.yml
   format: yaml
-  label: Amazon Web Services deleteAlternateContact API
+  label: Amazon Web Services Delete Alternate Contact API
   slug: amazon-web-services-deletealternatecontact-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletealternatecontact-api-openapi.yml
@@ -2208,13 +2208,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletedatacellsfilter-api-openapi.yml
 - filename: amazon-web-services-deletedeployment-api-openapi.yml
   format: yaml
-  label: Amazon Web Services deleteDeployment API
+  label: Amazon Web Services Delete Deployment API
   slug: amazon-web-services-deletedeployment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletedeployment-api-openapi.yml
 - filename: amazon-web-services-deletedestination-api-openapi.yml
   format: yaml
-  label: Amazon Web Services deleteDestination API
+  label: Amazon Web Services Delete Destination API
   slug: amazon-web-services-deletedestination-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletedestination-api-openapi.yml
@@ -2226,7 +2226,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletedistributionconfiguration-api-openapi.yml
 - filename: amazon-web-services-deleteedgeconfiguration-api-openapi.yml
   format: yaml
-  label: Amazon Web Services deleteEdgeConfiguration API
+  label: Amazon Web Services Delete Edge Configuration API
   slug: amazon-web-services-deleteedgeconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deleteedgeconfiguration-api-openapi.yml
@@ -2334,7 +2334,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletemessage-api-openapi.yml
 - filename: amazon-web-services-deletenotificationrule-api-openapi.yml
   format: yaml
-  label: Amazon Web Services deleteNotificationRule API
+  label: Amazon Web Services Delete Notification Rule API
   slug: amazon-web-services-deletenotificationrule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletenotificationrule-api-openapi.yml
@@ -2394,7 +2394,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletereplicationconfigurationtemplate-api-openapi.yml
 - filename: amazon-web-services-deletereplicationset-api-openapi.yml
   format: yaml
-  label: Amazon Web Services deleteReplicationSet API
+  label: Amazon Web Services Delete Replication Set API
   slug: amazon-web-services-deletereplicationset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletereplicationset-api-openapi.yml
@@ -2442,7 +2442,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletesink-api-openapi.yml
 - filename: amazon-web-services-deletesite-api-openapi.yml
   format: yaml
-  label: Amazon Web Services deleteSite API
+  label: Amazon Web Services Delete Site API
   slug: amazon-web-services-deletesite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletesite-api-openapi.yml
@@ -2478,7 +2478,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletestreamkey-api-openapi.yml
 - filename: amazon-web-services-deletetarget-api-openapi.yml
   format: yaml
-  label: Amazon Web Services deleteTarget API
+  label: Amazon Web Services Delete Target API
   slug: amazon-web-services-deletetarget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletetarget-api-openapi.yml
@@ -2502,13 +2502,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deletewave-api-openapi.yml
 - filename: amazon-web-services-deleteworker-api-openapi.yml
   format: yaml
-  label: Amazon Web Services deleteWorker API
+  label: Amazon Web Services Delete Worker API
   slug: amazon-web-services-deleteworker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deleteworker-api-openapi.yml
 - filename: amazon-web-services-deleteworkerfleet-api-openapi.yml
   format: yaml
-  label: Amazon Web Services deleteWorkerFleet API
+  label: Amazon Web Services Delete Worker Fleet API
   slug: amazon-web-services-deleteworkerfleet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-deleteworkerfleet-api-openapi.yml
@@ -2688,7 +2688,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describeanomalydetector-api-openapi.yml
 - filename: amazon-web-services-describeauditstreamconfiguration-api-openapi.yml
   format: yaml
-  label: Amazon Web Services describeAuditStreamConfiguration API
+  label: Amazon Web Services Describe Audit Stream Configuration API
   slug: amazon-web-services-describeauditstreamconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describeauditstreamconfiguration-api-openapi.yml
@@ -2700,7 +2700,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describechangeset-api-openapi.yml
 - filename: amazon-web-services-describecompanynetworkconfiguration-api-openapi.yml
   format: yaml
-  label: Amazon Web Services describeCompanyNetworkConfiguration API
+  label: Amazon Web Services Describe Company Network Configuration API
   slug: amazon-web-services-describecompanynetworkconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describecompanynetworkconfiguration-api-openapi.yml
@@ -2712,19 +2712,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describecomputeenvironments-api-openapi.yml
 - filename: amazon-web-services-describedevice-api-openapi.yml
   format: yaml
-  label: Amazon Web Services describeDevice API
+  label: Amazon Web Services Describe Device API
   slug: amazon-web-services-describedevice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describedevice-api-openapi.yml
 - filename: amazon-web-services-describedevicepolicyconfiguration-api-openapi.yml
   format: yaml
-  label: Amazon Web Services describeDevicePolicyConfiguration API
+  label: Amazon Web Services Describe Device Policy Configuration API
   slug: amazon-web-services-describedevicepolicyconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describedevicepolicyconfiguration-api-openapi.yml
 - filename: amazon-web-services-describedomain-api-openapi.yml
   format: yaml
-  label: Amazon Web Services describeDomain API
+  label: Amazon Web Services Describe Domain API
   slug: amazon-web-services-describedomain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describedomain-api-openapi.yml
@@ -2736,13 +2736,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describeentity-api-openapi.yml
 - filename: amazon-web-services-describefleetmetadata-api-openapi.yml
   format: yaml
-  label: Amazon Web Services describeFleetMetadata API
+  label: Amazon Web Services Describe Fleet Metadata API
   slug: amazon-web-services-describefleetmetadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describefleetmetadata-api-openapi.yml
 - filename: amazon-web-services-describeidentityproviderconfiguration-api-openapi.yml
   format: yaml
-  label: Amazon Web Services describeIdentityProviderConfiguration API
+  label: Amazon Web Services Describe Identity Provider Configuration API
   slug: amazon-web-services-describeidentityproviderconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describeidentityproviderconfiguration-api-openapi.yml
@@ -2790,7 +2790,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describemetricset-api-openapi.yml
 - filename: amazon-web-services-describenotificationrule-api-openapi.yml
   format: yaml
-  label: Amazon Web Services describeNotificationRule API
+  label: Amazon Web Services Describe Notification Rule API
   slug: amazon-web-services-describenotificationrule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describenotificationrule-api-openapi.yml
@@ -2880,7 +2880,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describevcenterclients-api-openapi.yml
 - filename: amazon-web-services-describewebsitecertificateauthority-api-openapi.yml
   format: yaml
-  label: Amazon Web Services describeWebsiteCertificateAuthority API
+  label: Amazon Web Services Describe Website Certificate Authority API
   slug: amazon-web-services-describewebsitecertificateauthority-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-describewebsitecertificateauthority-api-openapi.yml
@@ -2964,7 +2964,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-directory-buckets-api-openapi.yml
 - filename: amazon-web-services-directoryregistrations-api-openapi.yml
   format: yaml
-  label: Amazon Web Services directoryRegistrations API
+  label: Amazon Web Services Directory Registrations API
   slug: amazon-web-services-directoryregistrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-directoryregistrations-api-openapi.yml
@@ -2988,7 +2988,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-disable-control-api-openapi.yml
 - filename: amazon-web-services-disableregion-api-openapi.yml
   format: yaml
-  label: Amazon Web Services disableRegion API
+  label: Amazon Web Services Disable Region API
   slug: amazon-web-services-disableregion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-disableregion-api-openapi.yml
@@ -3018,7 +3018,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-disassociatedefaultview-api-openapi.yml
 - filename: amazon-web-services-disassociatedomain-api-openapi.yml
   format: yaml
-  label: Amazon Web Services disassociateDomain API
+  label: Amazon Web Services Disassociate Domain API
   slug: amazon-web-services-disassociatedomain-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-disassociatedomain-api-openapi.yml
@@ -3042,13 +3042,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-disassociatesourceservers-api-openapi.yml
 - filename: amazon-web-services-disassociatewebsiteauthorizationprovider-api-openapi.yml
   format: yaml
-  label: Amazon Web Services disassociateWebsiteAuthorizationProvider API
+  label: Amazon Web Services Disassociate Website Authorization Provider API
   slug: amazon-web-services-disassociatewebsiteauthorizationprovider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-disassociatewebsiteauthorizationprovider-api-openapi.yml
 - filename: amazon-web-services-disassociatewebsitecertificateauthority-api-openapi.yml
   format: yaml
-  label: Amazon Web Services disassociateWebsiteCertificateAuthority API
+  label: Amazon Web Services Disassociate Website Certificate Authority API
   slug: amazon-web-services-disassociatewebsitecertificateauthority-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-disassociatewebsitecertificateauthority-api-openapi.yml
@@ -3186,7 +3186,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-enable-control-api-openapi.yml
 - filename: amazon-web-services-enableregion-api-openapi.yml
   format: yaml
-  label: Amazon Web Services enableRegion API
+  label: Amazon Web Services Enable Region API
   slug: amazon-web-services-enableregion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-enableregion-api-openapi.yml
@@ -3288,7 +3288,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-event-sources-api-openapi.yml
 - filename: amazon-web-services-eventintegrations-api-openapi.yml
   format: yaml
-  label: Amazon Web Services eventIntegrations API
+  label: Amazon Web Services Event Integrations API
   slug: amazon-web-services-eventintegrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-eventintegrations-api-openapi.yml
@@ -3300,7 +3300,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-events-api-openapi.yml
 - filename: amazon-web-services-evidencefileuploadurl-api-openapi.yml
   format: yaml
-  label: Amazon Web Services evidenceFileUploadUrl API
+  label: Amazon Web Services Evidence File Upload URL API
   slug: amazon-web-services-evidencefileuploadurl-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-evidencefileuploadurl-api-openapi.yml
@@ -3414,13 +3414,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-finding-api-openapi.yml
 - filename: amazon-web-services-findingaggregator-api-openapi.yml
   format: yaml
-  label: Amazon Web Services findingAggregator API
+  label: Amazon Web Services Finding Aggregator API
   slug: amazon-web-services-findingaggregator-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-findingaggregator-api-openapi.yml
 - filename: amazon-web-services-findinghistory-api-openapi.yml
   format: yaml
-  label: Amazon Web Services findingHistory API
+  label: Amazon Web Services Finding History API
   slug: amazon-web-services-findinghistory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-findinghistory-api-openapi.yml
@@ -3726,7 +3726,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getaccountlevelserviceconfiguration-api-openapi.yml
 - filename: amazon-web-services-getalternatecontact-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getAlternateContact API
+  label: Amazon Web Services Get Alternate Contact API
   slug: amazon-web-services-getalternatecontact-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getalternatecontact-api-openapi.yml
@@ -3744,7 +3744,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getchannel-api-openapi.yml
 - filename: amazon-web-services-getclip-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getClip API
+  label: Amazon Web Services Get Clip API
   slug: amazon-web-services-getclip-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getclip-api-openapi.yml
@@ -3762,7 +3762,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getcomposition-api-openapi.yml
 - filename: amazon-web-services-getcontactinformation-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getContactInformation API
+  label: Amazon Web Services Get Contact Information API
   slug: amazon-web-services-getcontactinformation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getcontactinformation-api-openapi.yml
@@ -3780,7 +3780,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getcontainerrecipepolicy-api-openapi.yml
 - filename: amazon-web-services-getdashstreamingsessionurl-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getDASHStreamingSessionURL API
+  label: Amazon Web Services Get DASH Streaming Session URL API
   slug: amazon-web-services-getdashstreamingsessionurl-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getdashstreamingsessionurl-api-openapi.yml
@@ -3810,7 +3810,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getdefaultview-api-openapi.yml
 - filename: amazon-web-services-getdeployment-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getDeployment API
+  label: Amazon Web Services Get Deployment API
   slug: amazon-web-services-getdeployment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getdeployment-api-openapi.yml
@@ -3822,7 +3822,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getdeployments-api-openapi.yml
 - filename: amazon-web-services-getdestination-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getDestination API
+  label: Amazon Web Services Get Destination API
   slug: amazon-web-services-getdestination-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getdestination-api-openapi.yml
@@ -3864,7 +3864,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getfeedback-api-openapi.yml
 - filename: amazon-web-services-gethlsstreamingsessionurl-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getHLSStreamingSessionURL API
+  label: Amazon Web Services Get HLS Streaming Session URL API
   slug: amazon-web-services-gethlsstreamingsessionurl-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-gethlsstreamingsessionurl-api-openapi.yml
@@ -3900,7 +3900,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getimagerecipepolicy-api-openapi.yml
 - filename: amazon-web-services-getincidentrecord-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getIncidentRecord API
+  label: Amazon Web Services Get Incident Record API
   slug: amazon-web-services-getincidentrecord-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getincidentrecord-api-openapi.yml
@@ -3954,13 +3954,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getloggingconfiguration-api-openapi.yml
 - filename: amazon-web-services-getmedia-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getMedia API
+  label: Amazon Web Services Get Media API
   slug: amazon-web-services-getmedia-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getmedia-api-openapi.yml
 - filename: amazon-web-services-getmediaforfragmentlist-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getMediaForFragmentList API
+  label: Amazon Web Services Get Media For Fragment List API
   slug: amazon-web-services-getmediaforfragmentlist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getmediaforfragmentlist-api-openapi.yml
@@ -4008,7 +4008,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getrecordingconfiguration-api-openapi.yml
 - filename: amazon-web-services-getregionoptstatus-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getRegionOptStatus API
+  label: Amazon Web Services Get Region Opt Status API
   slug: amazon-web-services-getregionoptstatus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getregionoptstatus-api-openapi.yml
@@ -4020,7 +4020,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getreplicationconfiguration-api-openapi.yml
 - filename: amazon-web-services-getreplicationset-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getReplicationSet API
+  label: Amazon Web Services Get Replication Set API
   slug: amazon-web-services-getreplicationset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getreplicationset-api-openapi.yml
@@ -4062,7 +4062,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getresourceshares-api-openapi.yml
 - filename: amazon-web-services-getresponseplan-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getResponsePlan API
+  label: Amazon Web Services Get Response Plan API
   slug: amazon-web-services-getresponseplan-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getresponseplan-api-openapi.yml
@@ -4098,7 +4098,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getsinkpolicy-api-openapi.yml
 - filename: amazon-web-services-getsite-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getSite API
+  label: Amazon Web Services Get Site API
   slug: amazon-web-services-getsite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getsite-api-openapi.yml
@@ -4158,7 +4158,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-gettemporarygluetablecredentials-api-openapi.yml
 - filename: amazon-web-services-gettimelineevent-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getTimelineEvent API
+  label: Amazon Web Services Get Timeline Event API
   slug: amazon-web-services-gettimelineevent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-gettimelineevent-api-openapi.yml
@@ -4170,13 +4170,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getview-api-openapi.yml
 - filename: amazon-web-services-getworker-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getWorker API
+  label: Amazon Web Services Get Worker API
   slug: amazon-web-services-getworker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getworker-api-openapi.yml
 - filename: amazon-web-services-getworkerfleet-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getWorkerFleet API
+  label: Amazon Web Services Get Worker Fleet API
   slug: amazon-web-services-getworkerfleet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getworkerfleet-api-openapi.yml
@@ -4200,7 +4200,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getworkflowstepexecution-api-openapi.yml
 - filename: amazon-web-services-getworkload-api-openapi.yml
   format: yaml
-  label: Amazon Web Services getWorkload API
+  label: Amazon Web Services Get Workload API
   slug: amazon-web-services-getworkload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-getworkload-api-openapi.yml
@@ -4344,7 +4344,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-import-resources-to-draft-app-version-api-openapi.yml
 - filename: amazon-web-services-importapplicationusage-api-openapi.yml
   format: yaml
-  label: Amazon Web Services importApplicationUsage API
+  label: Amazon Web Services Import Application Usage API
   slug: amazon-web-services-importapplicationusage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-importapplicationusage-api-openapi.yml
@@ -4500,7 +4500,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-jobs-api-openapi.yml
 - filename: amazon-web-services-joinstoragesession-api-openapi.yml
   format: yaml
-  label: Amazon Web Services joinStorageSession API
+  label: Amazon Web Services Join Storage Session API
   slug: amazon-web-services-joinstoragesession-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-joinstoragesession-api-openapi.yml
@@ -4956,25 +4956,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listdatacellsfilter-api-openapi.yml
 - filename: amazon-web-services-listdeploymentevents-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listDeploymentEvents API
+  label: Amazon Web Services List Deployment Events API
   slug: amazon-web-services-listdeploymentevents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listdeploymentevents-api-openapi.yml
 - filename: amazon-web-services-listdeployments-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listDeployments API
+  label: Amazon Web Services List Deployments API
   slug: amazon-web-services-listdeployments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listdeployments-api-openapi.yml
 - filename: amazon-web-services-listdestinations-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listDestinations API
+  label: Amazon Web Services List Destinations API
   slug: amazon-web-services-listdestinations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listdestinations-api-openapi.yml
 - filename: amazon-web-services-listdevices-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listDevices API
+  label: Amazon Web Services List Devices API
   slug: amazon-web-services-listdevices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listdevices-api-openapi.yml
@@ -4986,13 +4986,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listdistributionconfigurations-api-openapi.yml
 - filename: amazon-web-services-listdomains-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listDomains API
+  label: Amazon Web Services List Domains API
   slug: amazon-web-services-listdomains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listdomains-api-openapi.yml
 - filename: amazon-web-services-listedgeagentconfigurations-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listEdgeAgentConfigurations API
+  label: Amazon Web Services List Edge Agent Configurations API
   slug: amazon-web-services-listedgeagentconfigurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listedgeagentconfigurations-api-openapi.yml
@@ -5010,7 +5010,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listentities-api-openapi.yml
 - filename: amazon-web-services-listeventtypes-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listEventTypes API
+  label: Amazon Web Services List Event Types API
   slug: amazon-web-services-listeventtypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listeventtypes-api-openapi.yml
@@ -5034,7 +5034,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listextensiblesourceservers-api-openapi.yml
 - filename: amazon-web-services-listfragments-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listFragments API
+  label: Amazon Web Services List Fragments API
   slug: amazon-web-services-listfragments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listfragments-api-openapi.yml
@@ -5094,7 +5094,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listimports-api-openapi.yml
 - filename: amazon-web-services-listincidentfindings-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listIncidentFindings API
+  label: Amazon Web Services List Incident Findings API
   slug: amazon-web-services-listincidentfindings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listincidentfindings-api-openapi.yml
@@ -5184,7 +5184,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listmetricsets-api-openapi.yml
 - filename: amazon-web-services-listnotificationrules-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listNotificationRules API
+  label: Amazon Web Services List Notification Rules API
   slug: amazon-web-services-listnotificationrules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listnotificationrules-api-openapi.yml
@@ -5250,7 +5250,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listrecordingconfigurations-api-openapi.yml
 - filename: amazon-web-services-listregions-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listRegions API
+  label: Amazon Web Services List Regions API
   slug: amazon-web-services-listregions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listregions-api-openapi.yml
@@ -5310,7 +5310,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listsinks-api-openapi.yml
 - filename: amazon-web-services-listsites-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listSites API
+  label: Amazon Web Services List Sites API
   slug: amazon-web-services-listsites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listsites-api-openapi.yml
@@ -5394,25 +5394,25 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listwaves-api-openapi.yml
 - filename: amazon-web-services-listwebsiteauthorizationproviders-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listWebsiteAuthorizationProviders API
+  label: Amazon Web Services List Website Authorization Providers API
   slug: amazon-web-services-listwebsiteauthorizationproviders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listwebsiteauthorizationproviders-api-openapi.yml
 - filename: amazon-web-services-listwebsitecertificateauthorities-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listWebsiteCertificateAuthorities API
+  label: Amazon Web Services List Website Certificate Authorities API
   slug: amazon-web-services-listwebsitecertificateauthorities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listwebsitecertificateauthorities-api-openapi.yml
 - filename: amazon-web-services-listworkerfleets-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listWorkerFleets API
+  label: Amazon Web Services List Worker Fleets API
   slug: amazon-web-services-listworkerfleets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listworkerfleets-api-openapi.yml
 - filename: amazon-web-services-listworkers-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listWorkers API
+  label: Amazon Web Services List Workers API
   slug: amazon-web-services-listworkers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listworkers-api-openapi.yml
@@ -5442,13 +5442,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listworkflowstepexecutions-api-openapi.yml
 - filename: amazon-web-services-listworkloaddeploymentpatterns-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listWorkloadDeploymentPatterns API
+  label: Amazon Web Services List Workload Deployment Patterns API
   slug: amazon-web-services-listworkloaddeploymentpatterns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listworkloaddeploymentpatterns-api-openapi.yml
 - filename: amazon-web-services-listworkloads-api-openapi.yml
   format: yaml
-  label: Amazon Web Services listWorkloads API
+  label: Amazon Web Services List Workloads API
   slug: amazon-web-services-listworkloads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-listworkloads-api-openapi.yml
@@ -5628,7 +5628,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-memberships-api-openapi.yml
 - filename: amazon-web-services-mergedapis-api-openapi.yml
   format: yaml
-  label: Amazon Web Services mergedApis API
+  label: Amazon Web Services Merged APIs API
   slug: amazon-web-services-mergedapis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-mergedapis-api-openapi.yml
@@ -6330,7 +6330,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-put-resource-permission-api-openapi.yml
 - filename: amazon-web-services-putalternatecontact-api-openapi.yml
   format: yaml
-  label: Amazon Web Services putAlternateContact API
+  label: Amazon Web Services Put Alternate Contact API
   slug: amazon-web-services-putalternatecontact-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-putalternatecontact-api-openapi.yml
@@ -6348,7 +6348,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-putcomponentpolicy-api-openapi.yml
 - filename: amazon-web-services-putcontactinformation-api-openapi.yml
   format: yaml
-  label: Amazon Web Services putContactInformation API
+  label: Amazon Web Services Put Contact Information API
   slug: amazon-web-services-putcontactinformation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-putcontactinformation-api-openapi.yml
@@ -6498,7 +6498,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-recipes-api-openapi.yml
 - filename: amazon-web-services-recipeversions-api-openapi.yml
   format: yaml
-  label: Amazon Web Services recipeVersions API
+  label: Amazon Web Services Recipe Versions API
   slug: amazon-web-services-recipeversions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-recipeversions-api-openapi.yml
@@ -6624,7 +6624,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-replication-api-openapi.yml
 - filename: amazon-web-services-reportdefinition-api-openapi.yml
   format: yaml
-  label: Amazon Web Services reportDefinition API
+  label: Amazon Web Services Report Definition API
   slug: amazon-web-services-reportdefinition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-reportdefinition-api-openapi.yml
@@ -6744,7 +6744,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-restore-testing-api-openapi.yml
 - filename: amazon-web-services-restoredomainaccess-api-openapi.yml
   format: yaml
-  label: Amazon Web Services restoreDomainAccess API
+  label: Amazon Web Services Restore Domain Access API
   slug: amazon-web-services-restoredomainaccess-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-restoredomainaccess-api-openapi.yml
@@ -6756,13 +6756,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-resumereplication-api-openapi.yml
 - filename: amazon-web-services-retainedmessage-api-openapi.yml
   format: yaml
-  label: Amazon Web Services retainedMessage API
+  label: Amazon Web Services Retained Message API
   slug: amazon-web-services-retainedmessage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-retainedmessage-api-openapi.yml
 - filename: amazon-web-services-retrieveandgenerate-api-openapi.yml
   format: yaml
-  label: Amazon Web Services retrieveAndGenerate API
+  label: Amazon Web Services Retrieve And Generate API
   slug: amazon-web-services-retrieveandgenerate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-retrieveandgenerate-api-openapi.yml
@@ -6792,7 +6792,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-reversereplication-api-openapi.yml
 - filename: amazon-web-services-reviewtemplates-api-openapi.yml
   format: yaml
-  label: Amazon Web Services reviewTemplates API
+  label: Amazon Web Services Review Templates API
   slug: amazon-web-services-reviewtemplates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-reviewtemplates-api-openapi.yml
@@ -6804,7 +6804,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-revocations-api-openapi.yml
 - filename: amazon-web-services-revokedomainaccess-api-openapi.yml
   format: yaml
-  label: Amazon Web Services revokeDomainAccess API
+  label: Amazon Web Services Revoke Domain Access API
   slug: amazon-web-services-revokedomainaccess-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-revokedomainaccess-api-openapi.yml
@@ -7140,13 +7140,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-security-profiles-summary-api-openapi.yml
 - filename: amazon-web-services-securitycontrol-api-openapi.yml
   format: yaml
-  label: Amazon Web Services securityControl API
+  label: Amazon Web Services Security Control API
   slug: amazon-web-services-securitycontrol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-securitycontrol-api-openapi.yml
 - filename: amazon-web-services-securitycontrols-api-openapi.yml
   format: yaml
-  label: Amazon Web Services securityControls API
+  label: Amazon Web Services Security Controls API
   slug: amazon-web-services-securitycontrols-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-securitycontrols-api-openapi.yml
@@ -7284,7 +7284,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-signing-profiles-api-openapi.yml
 - filename: amazon-web-services-signoutuser-api-openapi.yml
   format: yaml
-  label: Amazon Web Services signOutUser API
+  label: Amazon Web Services Sign Out User API
   slug: amazon-web-services-signoutuser-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-signoutuser-api-openapi.yml
@@ -7344,13 +7344,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-sol-api-openapi.yml
 - filename: amazon-web-services-sourceapiassociations-api-openapi.yml
   format: yaml
-  label: Amazon Web Services sourceApiAssociations API
+  label: Amazon Web Services Source API Associations API
   slug: amazon-web-services-sourceapiassociations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-sourceapiassociations-api-openapi.yml
 - filename: amazon-web-services-sourceapis-api-openapi.yml
   format: yaml
-  label: Amazon Web Services sourceApis API
+  label: Amazon Web Services Source APIs API
   slug: amazon-web-services-sourceapis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-sourceapis-api-openapi.yml
@@ -7656,13 +7656,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-subscription-api-openapi.yml
 - filename: amazon-web-services-suitedefinitions-api-openapi.yml
   format: yaml
-  label: Amazon Web Services suiteDefinitions API
+  label: Amazon Web Services Suite Definitions API
   slug: amazon-web-services-suitedefinitions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-suitedefinitions-api-openapi.yml
 - filename: amazon-web-services-suiteruns-api-openapi.yml
   format: yaml
-  label: Amazon Web Services suiteRuns API
+  label: Amazon Web Services Suite Runs API
   slug: amazon-web-services-suiteruns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-suiteruns-api-openapi.yml
@@ -8154,7 +8154,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updateapplication-api-openapi.yml
 - filename: amazon-web-services-updateauditstreamconfiguration-api-openapi.yml
   format: yaml
-  label: Amazon Web Services updateAuditStreamConfiguration API
+  label: Amazon Web Services Update Audit Stream Configuration API
   slug: amazon-web-services-updateauditstreamconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updateauditstreamconfiguration-api-openapi.yml
@@ -8166,7 +8166,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatechannel-api-openapi.yml
 - filename: amazon-web-services-updatecompanynetworkconfiguration-api-openapi.yml
   format: yaml
-  label: Amazon Web Services updateCompanyNetworkConfiguration API
+  label: Amazon Web Services Update Company Network Configuration API
   slug: amazon-web-services-updatecompanynetworkconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatecompanynetworkconfiguration-api-openapi.yml
@@ -8190,13 +8190,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatedatacellsfilter-api-openapi.yml
 - filename: amazon-web-services-updatedestination-api-openapi.yml
   format: yaml
-  label: Amazon Web Services updateDestination API
+  label: Amazon Web Services Update Destination API
   slug: amazon-web-services-updatedestination-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatedestination-api-openapi.yml
 - filename: amazon-web-services-updatedevicepolicyconfiguration-api-openapi.yml
   format: yaml
-  label: Amazon Web Services updateDevicePolicyConfiguration API
+  label: Amazon Web Services Update Device Policy Configuration API
   slug: amazon-web-services-updatedevicepolicyconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatedevicepolicyconfiguration-api-openapi.yml
@@ -8208,7 +8208,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatedistributionconfiguration-api-openapi.yml
 - filename: amazon-web-services-updatedomainmetadata-api-openapi.yml
   format: yaml
-  label: Amazon Web Services updateDomainMetadata API
+  label: Amazon Web Services Update Domain Metadata API
   slug: amazon-web-services-updatedomainmetadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatedomainmetadata-api-openapi.yml
@@ -8226,7 +8226,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatefleetmetadata-api-openapi.yml
 - filename: amazon-web-services-updateidentityproviderconfiguration-api-openapi.yml
   format: yaml
-  label: Amazon Web Services updateIdentityProviderConfiguration API
+  label: Amazon Web Services Update Identity Provider Configuration API
   slug: amazon-web-services-updateidentityproviderconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updateidentityproviderconfiguration-api-openapi.yml
@@ -8304,7 +8304,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatemetricset-api-openapi.yml
 - filename: amazon-web-services-updatenotificationrule-api-openapi.yml
   format: yaml
-  label: Amazon Web Services updateNotificationRule API
+  label: Amazon Web Services Update Notification Rule API
   slug: amazon-web-services-updatenotificationrule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatenotificationrule-api-openapi.yml
@@ -8358,7 +8358,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updateschedulingpolicy-api-openapi.yml
 - filename: amazon-web-services-updatesite-api-openapi.yml
   format: yaml
-  label: Amazon Web Services updateSite API
+  label: Amazon Web Services Update Site API
   slug: amazon-web-services-updatesite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatesite-api-openapi.yml
@@ -8406,13 +8406,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updatewave-api-openapi.yml
 - filename: amazon-web-services-updateworker-api-openapi.yml
   format: yaml
-  label: Amazon Web Services updateWorker API
+  label: Amazon Web Services Update Worker API
   slug: amazon-web-services-updateworker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updateworker-api-openapi.yml
 - filename: amazon-web-services-updateworkerfleet-api-openapi.yml
   format: yaml
-  label: Amazon Web Services updateWorkerFleet API
+  label: Amazon Web Services Update Worker Fleet API
   slug: amazon-web-services-updateworkerfleet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-updateworkerfleet-api-openapi.yml
@@ -8670,7 +8670,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-workflowstepgroups-api-openapi.yml
 - filename: amazon-web-services-workinglocationv1-api-openapi.yml
   format: yaml
-  label: Amazon Web Services workingLocationV1 API
+  label: Amazon Web Services Working Location V1 API
   slug: amazon-web-services-workinglocationv1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-workinglocationv1-api-openapi.yml
@@ -9832,6 +9832,36 @@ api_specs:
   slug: amazon-web-services-workloads-summaries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-workloads-summaries-api-openapi.yml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon EC2
+  slug: amazon-ec2
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/ec2/2016-11-15/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon S3
+  slug: amazon-s3
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/s3/2006-03-01/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Lambda
+  slug: amazon-lambda
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/lambda/2015-03-31/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon DynamoDB
+  slug: amazon-dynamodb
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/dynamodb/2012-08-10/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon RDS
+  slug: amazon-rds
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/rds/2014-10-31/openapi.yaml
 consequence_counts:
   physical: 123
   read: 1663

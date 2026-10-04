@@ -77,5 +77,5 @@ tags:
 - Pipeline Management
 - Task
 - Project
-- SMB
+- Small Business
 ---

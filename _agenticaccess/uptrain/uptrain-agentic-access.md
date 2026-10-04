@@ -77,5 +77,5 @@ tags:
 - Evaluation
 - LLM Evaluation
 - Observability
-- Open-Source
+- Open Source
 ---

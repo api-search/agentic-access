@@ -10,12 +10,6 @@ api_specs:
   slug: kong-add-ons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-add-ons-api-openapi.yml
-- filename: kong-api-api-openapi.yml
-  format: yaml
-  label: Kong API
-  slug: kong-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-api-api-openapi.yml
 - filename: kong-api-attributes-api-openapi.yml
   format: yaml
   label: Kong API Attributes API
@@ -784,6 +778,12 @@ api_specs:
   slug: kong-jwts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-jwts-api-openapi.yml
+- filename: kong-apis-api-openapi.yml
+  format: yaml
+  label: Kong APIs API
+  slug: kong-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-apis-api-openapi.yml
 - filename: kong-cacertificates-api-openapi.yml
   format: yaml
   label: Kong Cacertificates API
@@ -999,5 +999,5 @@ tags:
 - LLM
 - Kafka
 - Konnect
-- Open-Source
+- Open Source
 ---

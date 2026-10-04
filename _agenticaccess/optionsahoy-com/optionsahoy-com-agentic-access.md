@@ -4,12 +4,60 @@ action_class_counts:
   acting: 0
   connected: 11
 api_specs:
-- filename: optionsahoy-com-openapi.json
-  format: json
-  label: OptionsAhoy Calculator API
-  slug: optionsahoy-calculator-api
+- filename: optionsahoy-com-concentration-api-openapi.yml
+  format: yaml
+  label: OptionsAhoy Concentration API
+  slug: optionsahoy-com-concentration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-concentration-api-openapi.yml
+- filename: optionsahoy-com-discovery-api-openapi.yml
+  format: yaml
+  label: OptionsAhoy Discovery API
+  slug: optionsahoy-com-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-discovery-api-openapi.yml
+- filename: optionsahoy-com-equityfunding-api-openapi.yml
+  format: yaml
+  label: OptionsAhoy Equity Funding API
+  slug: optionsahoy-com-equityfunding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-equityfunding-api-openapi.yml
+- filename: optionsahoy-com-hedging-api-openapi.yml
+  format: yaml
+  label: OptionsAhoy Hedging API
+  slug: optionsahoy-com-hedging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-hedging-api-openapi.yml
+- filename: optionsahoy-com-iso-api-openapi.yml
+  format: yaml
+  label: OptionsAhoy ISO API
+  slug: optionsahoy-com-iso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-iso-api-openapi.yml
+- filename: optionsahoy-com-nso-api-openapi.yml
+  format: yaml
+  label: OptionsAhoy NSO API
+  slug: optionsahoy-com-nso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-nso-api-openapi.yml
+- filename: optionsahoy-com-qsbs-api-openapi.yml
+  format: yaml
+  label: OptionsAhoy QSBS API
+  slug: optionsahoy-com-qsbs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-qsbs-api-openapi.yml
+- filename: optionsahoy-com-rsu-api-openapi.yml
+  format: yaml
+  label: OptionsAhoy RSU API
+  slug: optionsahoy-com-rsu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-rsu-api-openapi.yml
+- filename: optionsahoy-com-rsulotoptimize-api-openapi.yml
+  format: yaml
+  label: OptionsAhoy Rsu Lot Optimize API
+  slug: optionsahoy-com-rsulotoptimize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optionsahoy-com/refs/heads/main/openapi/optionsahoy-com-rsulotoptimize-api-openapi.yml
 consequence_counts:
   physical: 0
   read: 11
@@ -23,14 +71,14 @@ name: Optionsahoy Com Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 11
-overview: 'AlphaLatitude Inc. exposes 11 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'OptionsAhoy exposes 11 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 11 read.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: AlphaLatitude Inc.
+provider_name: OptionsAhoy
 provider_slug: optionsahoy-com
 slug: optionsahoy-com-agentic-access
 source_filename: optionsahoy-com-agentic-access.yml
@@ -56,7 +104,7 @@ tags:
 - Calculators
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Deterministic
 - United States
 ---

@@ -74,7 +74,7 @@ tags:
 - Compliance
 - Crypto
 - Security
-- Risk
+- Risk Management
 - Sanctions Screening
 - AML
 - Digital Assets

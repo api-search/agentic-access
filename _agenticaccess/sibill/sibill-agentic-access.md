@@ -258,8 +258,8 @@ tags:
 - Reconciliation
 - Accounting
 - Banking
-- SME
+- Small Business
 - Open Banking
-- Electronic Invoicing
+- E-Invoicing
 - Italy
 ---

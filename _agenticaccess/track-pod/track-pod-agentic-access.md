@@ -211,7 +211,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs
 summary_line: 73 operations · 44 acting
 tags:
 - Delivery
-- Last Mile
+- Last Mile Delivery
 - Logistics
 - Proof of Delivery
 - Electronic Proof Of Delivery

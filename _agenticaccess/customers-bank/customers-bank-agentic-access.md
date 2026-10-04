@@ -424,7 +424,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/custom
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/agentic-access/customers-bank-agentic-access.yml
 summary_line: 211 operations · 84 acting · 4 human-in-the-loop
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - United States
 - Banking as a Service

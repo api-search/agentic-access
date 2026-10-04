@@ -92,4 +92,5 @@ tags:
 - DeFi
 - Onchain
 - EVM
+- Loyalty & Incentives
 ---

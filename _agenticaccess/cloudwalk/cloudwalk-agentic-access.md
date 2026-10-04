@@ -62,7 +62,7 @@ summary_line: 2 operations · 2 acting
 tags:
 - Company
 - Payments
-- Financial-Services
+- Financial Services
 - Fintech
 - Checkout
 - Point-of-Sale

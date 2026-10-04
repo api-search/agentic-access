@@ -40,6 +40,36 @@ api_specs:
   slug: trimble-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-users-api-openapi.yml
+- filename: trimble-catalyst-api-openapi.yml
+  format: yaml
+  label: Trimble Catalyst API
+  slug: trimble-catalyst-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-catalyst-api-openapi.yml
+- filename: trimble-corrections-api-openapi.yml
+  format: yaml
+  label: Trimble Corrections API
+  slug: trimble-corrections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-corrections-api-openapi.yml
+- filename: trimble-positioning-api-openapi.yml
+  format: yaml
+  label: Trimble Positioning API
+  slug: trimble-positioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-positioning-api-openapi.yml
+- filename: trimble-receiver-api-openapi.yml
+  format: yaml
+  label: Trimble Receiver API
+  slug: trimble-receiver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-receiver-api-openapi.yml
+- filename: trimble-system-api-openapi.yml
+  format: yaml
+  label: Trimble System API
+  slug: trimble-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-system-api-openapi.yml
 consequence_counts:
   read: 11
   write: 5

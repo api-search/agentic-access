@@ -85,6 +85,7 @@ tags:
 - Human Resources
 - Proctoring
 - Webhook
-- agent-native
+- Agent-Native
 - AI Training Data
+- A2A
 ---

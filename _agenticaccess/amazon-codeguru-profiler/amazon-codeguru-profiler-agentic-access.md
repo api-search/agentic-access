@@ -10,12 +10,6 @@ api_specs:
   slug: amazon-codeguru-profiler-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-internal-api-openapi.yml
-- filename: amazon-codeguru-profiler-profilinggroups-clienttoken-api-openapi.yml
-  format: yaml
-  label: Amazon CodeGuru Profiler ProfilingGroups#clientToken API
-  slug: amazon-codeguru-profiler-profilinggroups-clienttoken-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-profilinggroups-clienttoken-api-openapi.yml
 - filename: amazon-codeguru-profiler-tags-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Profiler Tags API
@@ -69,5 +63,5 @@ tags:
 - Application Performance
 - Profiling
 - DevOps
-- Machine-Learning
+- Machine Learning
 ---

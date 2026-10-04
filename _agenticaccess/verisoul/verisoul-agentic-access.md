@@ -87,7 +87,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/
 summary_line: 26 operations · 16 acting
 tags:
 - Company
-- Fraud Detection
+- Fraud Prevention
 - Identity Verification
 - Fake Account Detection
 - Device Fingerprinting

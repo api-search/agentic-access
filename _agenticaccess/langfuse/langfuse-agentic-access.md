@@ -255,6 +255,6 @@ tags:
 - Artificial Intelligence
 - LLM
 - Observability
-- Open-Source
+- Open Source
 - Evaluation
 ---

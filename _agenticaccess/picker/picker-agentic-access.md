@@ -1,12 +1,12 @@
 ---
-acting_count: 254
+acting_count: 289
 action_class_counts:
-  acting: 254
-  connected: 159
+  acting: 289
+  connected: 201
 api_specs:
 - filename: picker-accounting-api-openapi.yml
   format: yaml
-  label: Picker accounting API
+  label: Picker Accounting API
   slug: picker-accounting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-accounting-api-openapi.yml
@@ -18,37 +18,37 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-admin-api-openapi.yml
 - filename: picker-appversion-api-openapi.yml
   format: yaml
-  label: Picker appVersion API
+  label: Picker App Version API
   slug: picker-appversion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-appversion-api-openapi.yml
 - filename: picker-banner-api-openapi.yml
   format: yaml
-  label: Picker banner API
+  label: Picker Banner API
   slug: picker-banner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-banner-api-openapi.yml
 - filename: picker-bill-api-openapi.yml
   format: yaml
-  label: Picker bill API
+  label: Picker Bill API
   slug: picker-bill-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-bill-api-openapi.yml
 - filename: picker-booking-api-openapi.yml
   format: yaml
-  label: Picker booking API
+  label: Picker Booking API
   slug: picker-booking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-booking-api-openapi.yml
 - filename: picker-bookingassignment-api-openapi.yml
   format: yaml
-  label: Picker bookingAssignment API
+  label: Picker Booking Assignment API
   slug: picker-bookingassignment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-bookingassignment-api-openapi.yml
 - filename: picker-bookingissue-api-openapi.yml
   format: yaml
-  label: Picker bookingIssue API
+  label: Picker Booking Issue API
   slug: picker-bookingissue-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-bookingissue-api-openapi.yml
@@ -60,85 +60,85 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-bookingissues-api-openapi.yml
 - filename: picker-bookings-api-openapi.yml
   format: yaml
-  label: Picker bookings API
+  label: Picker Bookings API
   slug: picker-bookings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-bookings-api-openapi.yml
 - filename: picker-business-api-openapi.yml
   format: yaml
-  label: Picker business API
+  label: Picker Business API
   slug: picker-business-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-business-api-openapi.yml
 - filename: picker-businesses-api-openapi.yml
   format: yaml
-  label: Picker businesses API
+  label: Picker Businesses API
   slug: picker-businesses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-businesses-api-openapi.yml
 - filename: picker-busy-api-openapi.yml
   format: yaml
-  label: Picker busy API
+  label: Picker Busy API
   slug: picker-busy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-busy-api-openapi.yml
 - filename: picker-cancel-api-openapi.yml
   format: yaml
-  label: Picker cancel API
+  label: Picker Cancel API
   slug: picker-cancel-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-cancel-api-openapi.yml
 - filename: picker-cancelreason-api-openapi.yml
   format: yaml
-  label: Picker cancelReason API
+  label: Picker Cancel Reason API
   slug: picker-cancelreason-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-cancelreason-api-openapi.yml
 - filename: picker-card-api-openapi.yml
   format: yaml
-  label: Picker card API
+  label: Picker Card API
   slug: picker-card-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-card-api-openapi.yml
 - filename: picker-cards-api-openapi.yml
   format: yaml
-  label: Picker cards API
+  label: Picker Cards API
   slug: picker-cards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-cards-api-openapi.yml
 - filename: picker-chat-api-openapi.yml
   format: yaml
-  label: Picker chat API
+  label: Picker Chat API
   slug: picker-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-chat-api-openapi.yml
 - filename: picker-chatbot-api-openapi.yml
   format: yaml
-  label: Picker chatbot API
+  label: Picker Chatbot API
   slug: picker-chatbot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-chatbot-api-openapi.yml
 - filename: picker-customer-api-openapi.yml
   format: yaml
-  label: Picker customer API
+  label: Picker Customer API
   slug: picker-customer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-customer-api-openapi.yml
 - filename: picker-dashboard-api-openapi.yml
   format: yaml
-  label: Picker dashboard API
+  label: Picker Dashboard API
   slug: picker-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-dashboard-api-openapi.yml
 - filename: picker-datil-api-openapi.yml
   format: yaml
-  label: Picker datil API
+  label: Picker Datil API
   slug: picker-datil-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-datil-api-openapi.yml
 - filename: picker-deliverypartner-api-openapi.yml
   format: yaml
-  label: Picker deliveryPartner API
+  label: Picker Delivery Partner API
   slug: picker-deliverypartner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-deliverypartner-api-openapi.yml
@@ -150,55 +150,55 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-deliverypartnermarketingdata-api-openapi.yml
 - filename: picker-driver-api-openapi.yml
   format: yaml
-  label: Picker driver API
+  label: Picker Driver API
   slug: picker-driver-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-driver-api-openapi.yml
 - filename: picker-drivertag-api-openapi.yml
   format: yaml
-  label: Picker driverTag API
+  label: Picker Driver Tag API
   slug: picker-drivertag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-drivertag-api-openapi.yml
 - filename: picker-duty-api-openapi.yml
   format: yaml
-  label: Picker duty API
+  label: Picker Duty API
   slug: picker-duty-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-duty-api-openapi.yml
 - filename: picker-fares-api-openapi.yml
   format: yaml
-  label: Picker fares API
+  label: Picker Fares API
   slug: picker-fares-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-fares-api-openapi.yml
 - filename: picker-favorite-api-openapi.yml
   format: yaml
-  label: Picker favorite API
+  label: Picker Favorite API
   slug: picker-favorite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-favorite-api-openapi.yml
 - filename: picker-health-check-api-openapi.yml
   format: yaml
-  label: Picker health-check API
+  label: Picker Health Check API
   slug: picker-health-check-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-health-check-api-openapi.yml
 - filename: picker-integrations-api-openapi.yml
   format: yaml
-  label: Picker integrations API
+  label: Picker Integrations API
   slug: picker-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-integrations-api-openapi.yml
 - filename: picker-list-api-openapi.yml
   format: yaml
-  label: Picker list API
+  label: Picker List API
   slug: picker-list-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-list-api-openapi.yml
 - filename: picker-location-api-openapi.yml
   format: yaml
-  label: Picker location API
+  label: Picker Location API
   slug: picker-location-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-location-api-openapi.yml
@@ -210,79 +210,79 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-mass-delivery-api-openapi.yml
 - filename: picker-notification-api-openapi.yml
   format: yaml
-  label: Picker notification API
+  label: Picker Notification API
   slug: picker-notification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-notification-api-openapi.yml
 - filename: picker-pause-api-openapi.yml
   format: yaml
-  label: Picker pause API
+  label: Picker Pause API
   slug: picker-pause-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-pause-api-openapi.yml
 - filename: picker-paymentez-api-openapi.yml
   format: yaml
-  label: Picker paymentez API
+  label: Picker Paymentez API
   slug: picker-paymentez-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-paymentez-api-openapi.yml
 - filename: picker-play-api-openapi.yml
   format: yaml
-  label: Picker play API
+  label: Picker Play API
   slug: picker-play-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-play-api-openapi.yml
 - filename: picker-product-api-openapi.yml
   format: yaml
-  label: Picker product API
+  label: Picker Product API
   slug: picker-product-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-product-api-openapi.yml
 - filename: picker-products-api-openapi.yml
   format: yaml
-  label: Picker products API
+  label: Picker Products API
   slug: picker-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-products-api-openapi.yml
 - filename: picker-promo-api-openapi.yml
   format: yaml
-  label: Picker promo API
+  label: Picker Promo API
   slug: picker-promo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-promo-api-openapi.yml
 - filename: picker-public-api-openapi.yml
   format: yaml
-  label: Picker public API
+  label: Picker Public API
   slug: picker-public-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-public-api-openapi.yml
 - filename: picker-referral-api-openapi.yml
   format: yaml
-  label: Picker referral API
+  label: Picker Referral API
   slug: picker-referral-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-referral-api-openapi.yml
 - filename: picker-region-api-openapi.yml
   format: yaml
-  label: Picker region API
+  label: Picker Region API
   slug: picker-region-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-region-api-openapi.yml
 - filename: picker-reports-api-openapi.yml
   format: yaml
-  label: Picker reports API
+  label: Picker Reports API
   slug: picker-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-reports-api-openapi.yml
 - filename: picker-review-api-openapi.yml
   format: yaml
-  label: Picker review API
+  label: Picker Review API
   slug: picker-review-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-review-api-openapi.yml
 - filename: picker-service-api-openapi.yml
   format: yaml
-  label: Picker service API
+  label: Picker Service API
   slug: picker-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-service-api-openapi.yml
@@ -294,55 +294,55 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-share-my-ride-api-openapi.yml
 - filename: picker-shopify-api-openapi.yml
   format: yaml
-  label: Picker shopify API
+  label: Picker Shopify API
   slug: picker-shopify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-shopify-api-openapi.yml
 - filename: picker-social-api-openapi.yml
   format: yaml
-  label: Picker social API
+  label: Picker Social API
   slug: picker-social-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-social-api-openapi.yml
 - filename: picker-spoonity-api-openapi.yml
   format: yaml
-  label: Picker spoonity API
+  label: Picker Spoonity API
   slug: picker-spoonity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-spoonity-api-openapi.yml
 - filename: picker-stripepay-api-openapi.yml
   format: yaml
-  label: Picker stripePay API
+  label: Picker Stripe Pay API
   slug: picker-stripepay-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-stripepay-api-openapi.yml
 - filename: picker-support-api-openapi.yml
   format: yaml
-  label: Picker support API
+  label: Picker Support API
   slug: picker-support-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-support-api-openapi.yml
 - filename: picker-ticket-api-openapi.yml
   format: yaml
-  label: Picker ticket API
+  label: Picker Ticket API
   slug: picker-ticket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-ticket-api-openapi.yml
 - filename: picker-tracking-api-openapi.yml
   format: yaml
-  label: Picker tracking API
+  label: Picker Tracking API
   slug: picker-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-tracking-api-openapi.yml
 - filename: picker-update-api-openapi.yml
   format: yaml
-  label: Picker update API
+  label: Picker Update API
   slug: picker-update-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-update-api-openapi.yml
 - filename: picker-user-api-openapi.yml
   format: yaml
-  label: Picker user API
+  label: Picker User API
   slug: picker-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-user-api-openapi.yml
@@ -354,19 +354,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-usermarketingdata-api-openapi.yml
 - filename: picker-users-api-openapi.yml
   format: yaml
-  label: Picker users API
+  label: Picker Users API
   slug: picker-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-users-api-openapi.yml
 - filename: picker-vehicles-api-openapi.yml
   format: yaml
-  label: Picker vehicles API
+  label: Picker Vehicles API
   slug: picker-vehicles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-vehicles-api-openapi.yml
 - filename: picker-vtex-api-openapi.yml
   format: yaml
-  label: Picker vtex API
+  label: Picker Vtex API
   slug: picker-vtex-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-vtex-api-openapi.yml
@@ -389,10 +389,10 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/openapi/picker-service-provider-api-openapi.yml
 consequence_counts:
-  physical: 51
-  read: 159
+  physical: 58
+  read: 201
   safety-critical: 2
-  write: 201
+  write: 229
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 2
 kind: agentic-access
@@ -426,6 +426,11 @@ notable_actions:
   human_in_the_loop: conditional
   method: POST
   path: /accounting/generateWeeklyDriverPayment
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PUT
+  path: /accounting/refundBalanceTransactions
 - action_class: acting
   consequence: physical
   human_in_the_loop: conditional
@@ -475,11 +480,6 @@ notable_actions:
   consequence: physical
   human_in_the_loop: conditional
   method: POST
-  path: /admin/totalOrderRequests
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
   path: /admin/updateAllDriversPaymentBalance
 - action_class: acting
   consequence: physical
@@ -495,7 +495,22 @@ notable_actions:
   consequence: physical
   human_in_the_loop: conditional
   method: POST
+  path: /api/pushShopifyOrder
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
   path: /api/pushSpoonityOrder
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /api/pushSpoonityOrder
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /api/pushVtexOrder
 - action_class: acting
   consequence: physical
   human_in_the_loop: conditional
@@ -509,28 +524,13 @@ notable_actions:
 - action_class: acting
   consequence: physical
   human_in_the_loop: conditional
-  method: PUT
-  path: /billing/sendBillToDatil
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
   method: POST
-  path: /billing/sendBillsToDatil
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: PUT
-  path: /booking/addProofOfDelivery
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: PUT
-  path: /booking/assignBookingManually
-operation_count: 413
-overview: 'Picker exposes 413 API operations that an AI agent could call, of which 254 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+  path: /api/sendChatbotBookingRate
+operation_count: 490
+overview: 'Picker exposes 490 API operations that an AI agent could call, of which 289 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 159 read, 201 write, 51 physical, and 2 safety-critical.
+  By consequence: 201 read, 229 write, 58 physical, and 2 safety-critical.
 
 
   2 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -543,48 +543,47 @@ slug: picker-agentic-access
 source_filename: picker-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/picker-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 413\n  by_action_class:\n    connected: 159\n    acting: 254\n  by_consequence:\n    read: 159\n    write: 201\n    physical: 51\n    safety-critical: 2\n  human_in_the_loop_required: 2\noperations:\n- path: /cancel\n  method: get\n  operationId: getCancel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getContactUsDetails\n  method: get\n  operationId: getGetcontactusdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
-  \    audit: none\n- path: /health-check\n  method: get\n  operationId: getHealthcheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mass-delivery\n  method: get\n  operationId: getMassdelivery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /share-my-ride\n  method: get\n  operationId: getSharemyride\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /share-my-ride\n  method: post\n  operationId: postSharemyride\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /{param*}\n  method: get\n  operationId: getParam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getAPICharges\n  method: get\n  operationId: getAccountingGetapicharges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getAllBusinessesBalanceTransactionDetails\n  method: get\n  operationId: getAccountingGetallbusinessesbalancetransactiondetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getAllBusinessesTransactions\n  method: get\n  operationId: getAccountingGetallbusinessestransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
-  \    audit: none\n- path: /accounting/getAllBusinessesTransactionsSummary\n  method: get\n  operationId: getAccountingGetallbusinessestransactionssummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getAllDriversBonusTransactions\n  method: get\n  operationId: getAccountingGetalldriversbonustransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getAllDriversDeliveryTransactions\n  method: get\n  operationId: getAccountingGetalldriversdeliverytransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getAllDriversDeliveryTransactionsSummary\n  method: get\n  operationId: getAccountingGetalldriversdeliverytransactionssummary\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getCompanyTransactions\n  method: get\n  operationId: getAccountingGetcompanytransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getDriverDeliveryTransactionsDetails\n  method: get\n  operationId: getAccountingGetdriverdeliverytransactionsdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getPickerBonusTransactionsDetails\n  method: get\n  operationId: getAccountingGetpickerbonustransactionsdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/addBusinessAccessToUser\n\
-  \  method: get\n  operationId: getAdminAddbusinessaccesstouser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/assignReasons\n  method: get\n  operationId: getAdminAssignreasons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/bookings\n  method: get\n  operationId: getAdminBookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/cancelBookingReasons\n  method: get\n  operationId: getAdminCancelbookingreasons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/deleteBusinessAccessToUser\n  method: get\n  operationId: getAdminDeletebusinessaccesstouser\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/driversWorkBalance\n  method: get\n  operationId: getAdminDriversworkbalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllAvailabeBooking\n  method: get\n  operationId: getAdminGetallavailabebooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllBusinesses\n  method: get\n  operationId: getAdminGetallbusinesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllBusinessesTransactions\n  method: get\n  operationId: getAdminGetallbusinessestransactions\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllCancelReasons\n  method: get\n  operationId: getAdminGetallcancelreasons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllDriverTags\n  method: get\n  operationId: getAdminGetalldrivertags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllPickersBalanceTransactions\n  method: get\n  operationId: getAdminGetallpickersbalancetransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllPickersOrderTransactions\n  method: get\n  operationId: getAdminGetallpickersordertransactions\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllUsers\n  method: get\n  operationId: getAdminGetallusers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBanners\n  method: get\n  operationId: getAdminGetbanners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBookingDetails\n  method: get\n  operationId: getAdminGetbookingdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBookingInfo\n  method: get\n  operationId: getAdminGetbookinginfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /admin/getBookingTransactions\n  method: get\n  operationId: getAdminGetbookingtransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBookingsStats\n  method: get\n  operationId: getAdminGetbookingsstats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBusinessBalanceTransactionDetails\n  method: get\n  operationId: getAdminGetbusinessbalancetransactiondetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBusinessByName\n  method: get\n  operationId: getAdminGetbusinessbyname\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
-  \  max-ttl: 3600\n    audit: none\n- path: /admin/getBusinessInfo\n  method: get\n  operationId: getAdminGetbusinessinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBusinessesByIds\n  method: get\n  operationId: getAdminGetbusinessesbyids\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getCSVDataForAdmin\n  method: get\n  operationId: getAdminGetcsvdataforadmin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getDashboardCount\n  method: get\n  operationId: getAdminGetdashboardcount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getDriverBanners\n\
-  \  method: get\n  operationId: getAdminGetdriverbanners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getOngoingBooking\n  method: get\n  operationId: getAdminGetongoingbooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getPastBooking\n  method: get\n  operationId: getAdminGetpastbooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getPickerBalanceTransactionsDetails\n  method: get\n  operationId: getAdminGetpickerbalancetransactionsdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getPickerDetails\n  method: get\n  operationId:\
-  \ getAdminGetpickerdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getPickerOrderTransactionDetails\n  method: get\n  operationId: getAdminGetpickerordertransactiondetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getPickerPay\n  method: get\n  operationId: getAdminGetpickerpay\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getQueryByCustomer\n  method: get\n  operationId: getAdminGetquerybycustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getServiceProviderInfo\n  method: get\n  operationId: getAdminGetserviceproviderinfo\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getTransactionFraudInformation\n  method: get\n  operationId: getAdminGettransactionfraudinformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getTransactionsByCode\n  method: get\n  operationId: getAdminGettransactionsbycode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getUserCardInfo\n  method: get\n  operationId: getAdminGetusercardinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getUserHistory\n  method: get\n  operationId: getAdminGetuserhistory\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/listDefaultSettings\n  method: get\n  operationId: getAdminListdefaultsettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/searchAuthorizationCode\n  method: get\n  operationId: getAdminSearchauthorizationcode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/userBookings\n  method: get\n  operationId: getAdminUserbookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/userDetails\n  method: get\n  operationId: getAdminUserdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/warningBookings\n  method: get\n  operationId: getAdminWarningbookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /angular4-docs/{param*}\n  method: get\n  operationId: getAngular4docsParam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/getBookingDetails\n  method: get\n  operationId: getApiGetbookingdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/getChatbotBooking\n  method: get\n  operationId: getApiGetchatbotbooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/getDriver\n\
-  \  method: get\n  operationId: getApiGetdriver\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/getDriverById\n  method: get\n  operationId: getApiGetdriverbyid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/getDrivers\n  method: get\n  operationId: getApiGetdrivers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/getPastBooking\n  method: get\n  operationId: getApiGetpastbooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webhooks\n  method: get\n  operationId: getApiWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webhooks\n  method: post\n  operationId: postApiWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks\n  method: delete\n  operationId: deleteApiWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /appVersion/getCurrentVersions\n  method: get\n  operationId: getAppversionGetcurrentversions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /billing/driversBills\n  method: get\n  operationId: getBillingDriversbills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/getAllUsersName\n  method: get\n  operationId: getBillingGetallusersname\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/getBillDetails\n  method: get\n  operationId: getBillingGetbilldetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/getAllAvailabeBooking\n  method: get\n  operationId: getBookingGetallavailabebooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/getAllBids\n\
-  \  method: get\n  operationId: getBookingGetallbids\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/getAllBookingDetails\n  method: get\n  operationId: getBookingGetallbookingdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/getAmountlogs\n  method: get\n  operationId: getBookingGetamountlogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/getBookingDetails\n  method: get\n  operationId: getBookingGetbookingdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/getBookingReport\n  method: get\n  operationId: getBookingGetbookingreport\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/getBookingRoute\n  method: get\n  operationId: getBookingGetbookingroute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/getOngoingBooking\n  method: get\n  operationId: getBookingGetongoingbooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/getPastBooking\n  method: get\n  operationId: getBookingGetpastbooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/getProductList\n  method: get\n  operationId: getBookingGetproductlist\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/preCheckout\n  method: get\n  operationId: getBookingPrecheckout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /booking/preCheckout\n  method: post\n  operationId: postBookingPrecheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookingAssignment/listBookingFloatSetting\n  method: get\n  operationId: getBookingassignmentListbookingfloatsetting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
-  \    audit: none\n- path: /bookingIssues/getBookingIssues\n  method: get\n  operationId: getBookingissuesGetbookingissues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/getAllBookingsDashBoard\n  method: get\n  operationId: getBookingsGetallbookingsdashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/getCoportatesAllBookings\n  method: get\n  operationId: getBookingsGetcoportatesallbookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/getCorporateBookingsByUserId\n  method: get\n  operationId: getBookingsGetcorporatebookingsbyuserid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
-  \ token:\n      max-ttl: 3600\n    audit: none\n- path: /business/categories\n  method: get\n  operationId: getBusinessCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/categoriesByUserId\n  method: get\n  operationId: getBusinessCategoriesbyuserid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/checkAvailableNames\n  method: get\n  operationId: getBusinessCheckavailablenames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getAccountInfoIntegrationDashboard\n  method: get\n  operationId: getBusinessGetaccountinfointegrationdashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
-  \ token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getAssociatedBusiness\n  method: get\n  operationId: getBusinessGetassociatedbusiness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getBookings\n  method: get\n  operationId: getBusinessGetbookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getBookingsDataByDatesDashboard\n  method: get\n  operationId: getBusinessGetbookingsdatabydatesdashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getBookingsIntegrationDashboard\n  method: get\n  operationId: getBusinessGetbookingsintegrationdashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
-  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getBusinessCategories\n  method: get\n  operationId: getBusinessGetbusinesscategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getBusinessInfo\n  method: get\n  operationId: getBusinessGetbusinessinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getBusinessInfoAfterLanding\n  method: get\n  operationId: getBusinessGetbusinessinfoafterlanding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getBusinessInfoByUserId\n  method: get\n  operationId: getBusinessGetbusinessinfobyuserid\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getBusinessesByDistance\n  method: get\n  operationId: getBusinessGetbusinessesbydistance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getBusinessesBySubcategory\n  method: get\n  operationId: getBusinessGetbusinessesbysubcategory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getBusinessesGeneralInfo\n  method: get\n  operationId: getBusinessGetbusinessesgeneralinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getStats\n  method: get\n  operationId: getBusinessGetstats\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/landing\n  method: get\n  operationId: getBusinessLanding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/products\n  method: get\n  operationId: getBusinessProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/reports\n  method: get\n  operationId: getBusinessReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/sendSundayReports\n  method: get\n  operationId: getBusinessSendsundayreports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
-  \ /business/turnOffOnBusinessById\n  method: get\n  operationId: getBusinessTurnoffonbusinessbyid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chat/getChatForBooking\n  method: get\n  operationId: getChatGetchatforbooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chat/getChatForBookingByComeChat\n  method: get\n  operationId: getChatGetchatforbookingbycomechat\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/getMessage\n  method: get\n  operationId: getClientGetmessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/availableServiceProvider\n\
-  \  method: get\n  operationId: getCustomerAvailableserviceprovider\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/bookingAddresses\n  method: get\n  operationId: getCustomerBookingaddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/bookingPaymentHistory\n  method: get\n  operationId: getCustomerBookingpaymenthistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/bookingPaymentPending\n  method: get\n  operationId: getCustomerBookingpaymentpending\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/getFavorites\n  method: get\n\
-  \  operationId: getCustomerGetfavorites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/getPastBooking\n  method: get\n  operationId: getCustomerGetpastbooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/listServiceLocation\n  method: get\n  operationId: getCustomerListservicelocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/search\n  method: get\n  operationId: getCustomerSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customer/totalPayments\n  method: get\n  operationId: getCustomerTotalpayments\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driver/getAllAvailableDriver\n  method: get\n  operationId: getDriverGetallavailabledriver\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driver/getAllAvailableDriverMyFleet\n  method: get\n  operationId: getDriverGetallavailabledrivermyfleet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driver/getAllDriver\n  method: get\n  operationId: getDriverGetalldriver\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driver/getDriverBalances\n  method: get\n  operationId: getDriverGetdriverbalances\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driver/getDriverTracking\n  method: get\n  operationId: getDriverGetdrivertracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driver/getEarnings\n  method: get\n  operationId: getDriverGetearnings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driver/getVehicleDetails\n  method: get\n  operationId: getDriverGetvehicledetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driver/listVehicleTypeAndCompany\n  method: get\n  operationId: getDriverListvehicletypeandcompany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /notification/getAllNotification\n  method: get\n  operationId: getNotificationGetallnotification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /promo/getAllUserPromo\n  method: get\n  operationId: getPromoGetalluserpromo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /promo/listAllPromo\n  method: get\n  operationId: getPromoListallpromo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /promo/promoDetails\n  method: get\n  operationId: getPromoPromodetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# ---\
-  \ truncated at 32 KB (127 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/agentic-access/picker-agentic-access.yml\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/picker-accounting-api-openapi.yml, openapi/picker-admin-api-openapi.yml, openapi/picker-anti-fraud-api-openapi.yml,\n  openapi/picker-appversion-api-openapi.yml, openapi/picker-banner-api-openapi.yml, openapi/picker-bill-api-openapi.yml,\n  openapi/picker-booking-api-openapi.yml, openapi/picker-bookingassignment-api-openapi.yml,\n  openapi/picker-bookingissue-api-openapi.yml, openapi/picker-bookingissues-api-openapi.yml,\n  openapi/picker-bookings-api-openapi.yml, openapi/picker-business-api-openapi.yml, openapi/picker-businesses-api-openapi.yml,\n  openapi/picker-busy-api-openapi.yml, openapi/picker-cancel-api-openapi.yml, openapi/picker-cancelreason-api-openapi.yml,\n  openapi/picker-card-api-openapi.yml, openapi/picker-cards-api-openapi.yml, openapi/picker-chat-api-openapi.yml,\n  openapi/picker-chatbot-api-openapi.yml, openapi/picker-cron-jobs-api-openapi.yml, openapi/picker-customer-api-openapi.yml,\n  openapi/picker-dashboard-api-openapi.yml,\
+  \ openapi/picker-datil-api-openapi.yml, openapi/picker-deliverypartner-api-openapi.yml,\n  openapi/picker-deliverypartnermarketingdata-api-openapi.yml, openapi/picker-driver-api-openapi.yml,\n  openapi/picker-drivertag-api-openapi.yml, openapi/picker-duty-api-openapi.yml, openapi/picker-fares-api-openapi.yml,\n  openapi/picker-favorite-api-openapi.yml, openapi/picker-health-check-api-openapi.yml, openapi/picker-integrations-api-openapi.yml,\n  openapi/picker-list-api-openapi.yml, openapi/picker-location-api-openapi.yml, openapi/picker-mass-delivery-api-openapi.yml,\n  openapi/picker-notification-api-openapi.yml, openapi/picker-pause-api-openapi.yml, openapi/picker-paymentez-api-openapi.yml,\n  openapi/picker-play-api-openapi.yml, openapi/picker-product-api-openapi.yml, openapi/picker-products-api-openapi.yml,\n  openapi/picker-promo-api-openapi.yml, openapi/picker-public-api-openapi.yml, openapi/picker-referral-api-openapi.yml,\n  openapi/picker-region-api-openapi.yml, openapi/picker-reports-api-openapi.yml,\
+  \ openapi/picker-review-api-openapi.yml,\n  openapi/picker-service-api-openapi.yml, openapi/picker-service-provider-api-openapi.yml, openapi/picker-share-my-ride-api-openapi.yml,\n  openapi/picker-shopify-api-openapi.yml, openapi/picker-social-api-openapi.yml, openapi/picker-spoonity-api-openapi.yml,\n  openapi/picker-stripepay-api-openapi.yml, openapi/picker-support-api-openapi.yml, openapi/picker-ticket-api-openapi.yml,\n  openapi/picker-tracking-api-openapi.yml, openapi/picker-update-api-openapi.yml, openapi/picker-user-api-openapi.yml,\n  openapi/picker-usermarketingdata-api-openapi.yml, openapi/picker-users-api-openapi.yml, openapi/picker-vehicles-api-openapi.yml,\n  openapi/picker-vtex-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations:\
+  \ 490\n  by_action_class:\n    acting: 289\n    connected: 201\n  by_consequence:\n    physical: 58\n    read: 201\n    write: 229\n    safety-critical: 2\n  human_in_the_loop_required: 2\noperations:\n- path: /accounting/refundBalanceTransactions\n  method: put\n  operationId: putAccountingRefundbalancetransactions\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/sendEmailTo\n  method: post\n  operationId: postAdminSendemailto\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /admin/sendInvoiceEmail\n  method: post\n  operationId: postAdminSendinvoiceemail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounting/getAPICharges\n  method: get\n  operationId: getAccountingGetapicharges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getAllBusinessesBalanceTransactionDetails\n  method: get\n  operationId: getAccountingGetallbusinessesbalancetransactiondetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
+  \    audit: none\n- path: /accounting/getAllBusinessesTransactions\n  method: get\n  operationId: getAccountingGetallbusinessestransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getAllBusinessesTransactionsSummary\n  method: get\n  operationId: getAccountingGetallbusinessestransactionssummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getAllDriversBonusTransactions\n  method: get\n  operationId: getAccountingGetalldriversbonustransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getAllDriversDeliveryTransactions\n  method: get\n  operationId: getAccountingGetalldriversdeliverytransactions\n  x-agentic-access:\n  \
+  \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getAllDriversDeliveryTransactionsSummary\n  method: get\n  operationId: getAccountingGetalldriversdeliverytransactionssummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getCompanyTransactions\n  method: get\n  operationId: getAccountingGetcompanytransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getDriverDeliveryTransactionsDetails\n  method: get\n  operationId: getAccountingGetdriverdeliverytransactionsdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/getPickerBonusTransactionsDetails\n\
+  \  method: get\n  operationId: getAccountingGetpickerbonustransactionsdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/addBusinessAccessToUser\n  method: get\n  operationId: getAdminAddbusinessaccesstouser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/assignReasons\n  method: get\n  operationId: getAdminAssignreasons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/cancelBookingReasons\n  method: get\n  operationId: getAdminCancelbookingreasons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/deleteBusinessAccessToUser\n  method: get\n\
+  \  operationId: getAdminDeletebusinessaccesstouser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/driversWorkBalance\n  method: get\n  operationId: getAdminDriversworkbalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllAvailabeBooking\n  method: get\n  operationId: getAdminGetallavailabebooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllBusinesses\n  method: get\n  operationId: getAdminGetallbusinesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllBusinessesTransactions\n  method: get\n  operationId: getAdminGetallbusinessestransactions\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllCancelReasons\n  method: get\n  operationId: getAdminGetallcancelreasons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllDriverTags\n  method: get\n  operationId: getAdminGetalldrivertags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllPickersBalanceTransactions\n  method: get\n  operationId: getAdminGetallpickersbalancetransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllPickersOrderTransactions\n  method: get\n  operationId: getAdminGetallpickersordertransactions\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getAllUsers\n  method: get\n  operationId: getAdminGetallusers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBanners\n  method: get\n  operationId: getAdminGetbanners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBookingDetails\n  method: get\n  operationId: getAdminGetbookingdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBookingInfo\n  method: get\n  operationId: getAdminGetbookinginfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBookingTransactions\n  method: get\n  operationId: getAdminGetbookingtransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBookingsStats\n  method: get\n  operationId: getAdminGetbookingsstats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBusinessBalanceTransactionDetails\n  method: get\n  operationId: getAdminGetbusinessbalancetransactiondetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBusinessByName\n  method: get\n  operationId: getAdminGetbusinessbyname\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBusinessInfo\n  method: get\n  operationId: getAdminGetbusinessinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getBusinessesByIds\n  method: get\n  operationId: getAdminGetbusinessesbyids\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getCSVDataForAdmin\n  method: get\n  operationId: getAdminGetcsvdataforadmin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getDashboardCount\n  method: get\n  operationId: getAdminGetdashboardcount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
+  - path: /admin/getDriverBanners\n  method: get\n  operationId: getAdminGetdriverbanners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getOngoingBooking\n  method: get\n  operationId: getAdminGetongoingbooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getPastBooking\n  method: get\n  operationId: getAdminGetpastbooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getPickerBalanceTransactionsDetails\n  method: get\n  operationId: getAdminGetpickerbalancetransactionsdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getPickerDetails\n\
+  \  method: get\n  operationId: getAdminGetpickerdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getPickerOrderTransactionDetails\n  method: get\n  operationId: getAdminGetpickerordertransactiondetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getPickerPay\n  method: get\n  operationId: getAdminGetpickerpay\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getServiceProviderInfo\n  method: get\n  operationId: getAdminGetserviceproviderinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getTransactionsByCode\n  method: get\n  operationId:\
+  \ getAdminGettransactionsbycode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getUserCardInfo\n  method: get\n  operationId: getAdminGetusercardinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/getUserHistory\n  method: get\n  operationId: getAdminGetuserhistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/listDefaultSettings\n  method: get\n  operationId: getAdminListdefaultsettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/searchAuthorizationCode\n  method: get\n  operationId: getAdminSearchauthorizationcode\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/userDetails\n  method: get\n  operationId: getAdminUserdetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/driversBills\n  method: get\n  operationId: getBillingDriversbills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/getAllUsersName\n  method: get\n  operationId: getBillingGetallusersname\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/getBillDetails\n  method: get\n  operationId: getBillingGetbilldetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookingIssues/getBookingIssues\n  method: get\n  operationId: getBookingissuesGetbookingissues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/getBookings\n  method: get\n  operationId: getBusinessGetbookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /client/getMessage\n  method: get\n  operationId: getClientGetmessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /serviceProvider/getAllDrivers\n  method: get\n  operationId: getServiceproviderGetalldrivers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
+  \ none\n- path: /serviceProvider/getPastBooking\n  method: get\n  operationId: getServiceproviderGetpastbooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/aproveRejectTransaction\n  method: put\n  operationId: putAccountingAproverejecttransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounting/refundBalanceTransactions\n  method: put\n  operationId: putAccountingRefundbalancetransactions\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/addDriverToBusiness\n  method: put\n  operationId: putAdminAdddrivertobusiness\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/approveProduct\n  method: put\n  operationId: putAdminApproveproduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/assignDriverToServiceProvider\n  method: put\n  operationId: putAdminAssigndrivertoserviceprovider\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/blockOption\n  method: put\n  operationId: putAdminBlockoption\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/cancelBooking\n  method: put\n  operationId: putAdminCancelbooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/changeDriverPaymentType\n  method: put\n  operationId:\
+  \ putAdminChangedriverpaymenttype\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/changeTransactionStatus\n  method: put\n  operationId: putAdminChangetransactionstatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/deactivateAPI\n  method: put\n  operationId: putAdminDeactivateapi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/editBanner\n  method: put\n  operationId: putAdminEditbanner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/penaltyToWorkBalance\n  method: put\n  operationId: putAdminPenaltytoworkbalance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/rejectProduct\n  method: put\n  operationId: putAdminRejectproduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
+  \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/removeDriverFromBusiness\n  method: put\n  operationId: putAdminRemovedriverfrombusiness\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/setProviderData\n  method: put\n  operationId: putAdminSetproviderdata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/updateBusiness\n  method: put\n  operationId: putAdminUpdatebusiness\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/updateBusinessStatus\n  method: put\n  operationId: putAdminUpdatebusinessstatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/updateCustomer\n  method: put\n  operationId: putAdminUpdatecustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
+  \ required\n- path: /admin/updateDriver\n  method: put\n  operationId: putAdminUpdatedriver\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/updatePicker\n  method: put\n  operationId: putAdminUpdatepicker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/updateServiceProvider\n  method: put\n  operationId: putAdminUpdateserviceprovider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/verifyUser\n  method: put\n  operationId: putAdminVerifyuser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/reissueBillToDatil\n  method: put\n  operationId: putBillingReissuebilltodatil\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billing/sendBillToDatil\n  method: put\n  operationId: putBillingSendbilltodatil\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /business/updateBusinessCategory\n  method: put\n  operationId: putBusinessUpdatebusinesscategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /driver/updatePaymentMethod\n  method: put\n  operationId: putDriverUpdatepaymentmethod\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
+  \      - high-value\n    audit: required\n- path: /serviceProvider/addToServiceProvider\n  method: put\n  operationId: putServiceproviderAddtoserviceprovider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /serviceProvider/removeFromServiceProvider\n  method: put\n  operationId: putServiceproviderRemovefromserviceprovider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/support/updateContact\n  method: put\n  operationId: putAdminSupportUpdatecontact\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounting/generateBusinessPayment\n  method: post\n  operationId: postAccountingGeneratebusinesspayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounting/generateBusinessPaymentBulk\n  method: post\n  operationId: postAccountingGeneratebusinesspaymentbulk\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounting/generateWeeklyDriverPayment\n  method: post\n  operationId: postAccountingGenerateweeklydriverpayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/addBalanceTransaction\n  method: post\n  operationId: postAdminAddbalancetransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/addBonusToBooking\n  method: post\n \
+  \ operationId: postAdminAddbonustobooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/addBusinessesTransactions\n  method: post\n  operationId: postAdminAddbusinessestransactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/addCustomer\n  method: post\n  operationId: postAdminAddcustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /admin/addDangerPoint\n  method: post\n  operationId: postAdminAdddangerpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/addDriver\n  method: post\n  operationId: postAdminAdddriver\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/addDriverTag\n  method: post\n  operationId: postAdminAdddrivertag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
+  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/addPromoToCustomer\n  method: post\n  operationId: postAdminAddpromotocustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/addServiceProvider\n  method: post\n  operationId: postAdminAddserviceprovider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (152 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/agentic-access/picker-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/agentic-access/picker-agentic-access.yml
-summary_line: 413 operations · 254 acting · 2 human-in-the-loop
+summary_line: 490 operations · 289 acting · 2 human-in-the-loop
 tags:
 - Company
 - Logistics
 - Delivery
-- Last Mile
+- Last Mile Delivery
 - Couriers
 - E-Commerce
 - Shipping

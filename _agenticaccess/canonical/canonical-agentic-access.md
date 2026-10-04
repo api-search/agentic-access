@@ -1,8 +1,8 @@
 ---
-acting_count: 414
+acting_count: 413
 action_class_counts:
-  acting: 414
-  connected: 398
+  acting: 413
+  connected: 399
 api_specs:
 - filename: canonical-assertions-api-openapi.yml
   format: yaml
@@ -616,12 +616,6 @@ api_specs:
   slug: canonical-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-users-api-openapi.yml
-- filename: canonical-v1-api-openapi.yml
-  format: yaml
-  label: Canonical V1 API
-  slug: canonical-v1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-v1-api-openapi.yml
 - filename: canonical-version-api-openapi.yml
   format: yaml
   label: Canonical Version API
@@ -634,6 +628,60 @@ api_specs:
   slug: canonical-warnings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-warnings-api-openapi.yml
+- filename: canonical-agents-api-openapi.yml
+  format: yaml
+  label: Canonical Agents API
+  slug: canonical-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-agents-api-openapi.yml
+- filename: canonical-client-permissions-api-openapi.yml
+  format: yaml
+  label: Canonical Client Permissions API
+  slug: canonical-client-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-client-permissions-api-openapi.yml
+- filename: canonical-job-api-openapi.yml
+  format: yaml
+  label: Canonical Job API
+  slug: canonical-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-job-api-openapi.yml
+- filename: canonical-oauth2-api-openapi.yml
+  format: yaml
+  label: Canonical Oauth2 API
+  slug: canonical-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-oauth2-api-openapi.yml
+- filename: canonical-queues-api-openapi.yml
+  format: yaml
+  label: Canonical Queues API
+  slug: canonical-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-queues-api-openapi.yml
+- filename: canonical-restricted-queues-api-openapi.yml
+  format: yaml
+  label: Canonical Restricted Queues API
+  slug: canonical-restricted-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-restricted-queues-api-openapi.yml
+- filename: canonical-result-api-openapi.yml
+  format: yaml
+  label: Canonical Result API
+  slug: canonical-result-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-result-api-openapi.yml
+- filename: canonical-secrets-api-openapi.yml
+  format: yaml
+  label: Canonical Secrets API
+  slug: canonical-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-secrets-api-openapi.yml
+- filename: canonical-testflinger-api-api-openapi.yml
+  format: yaml
+  label: Canonical Testflinger API
+  slug: canonical-testflinger-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-testflinger-api-api-openapi.yml
 - filename: canonical-add-ons-api-openapi.yml
   format: yaml
   label: Canonical Add Ons API
@@ -654,9 +702,9 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/openapi/canonical-open-access-api-openapi.yml
 consequence_counts:
   physical: 3
-  read: 398
+  read: 399
   safety-critical: 3
-  write: 408
+  write: 407
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 3
 kind: agentic-access
@@ -696,10 +744,10 @@ notable_actions:
   method: POST
   path: /v1/signals
 operation_count: 812
-overview: 'Canonical exposes 812 API operations that an AI agent could call, of which 414 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Canonical exposes 812 API operations that an AI agent could call, of which 413 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 398 read, 408 write, 3 physical, and 3 safety-critical.
+  By consequence: 399 read, 407 write, 3 physical, and 3 safety-critical.
 
 
   3 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -712,12 +760,12 @@ slug: canonical-agentic-access
 source_filename: canonical-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/canonical-add-ons-api-openapi.yml, openapi/canonical-appauthorizationservice-api-openapi.yml,\n  openapi/canonical-application-api-openapi.yml, openapi/canonical-applications-api-openapi.yml,\n  openapi/canonical-apps-api-openapi.yml, openapi/canonical-artefact-builds-api-openapi.yml,\n  openapi/canonical-artefact-matching-rules-api-openapi.yml, openapi/canonical-artefacts-api-openapi.yml,\n  openapi/canonical-assertions-api-openapi.yml, openapi/canonical-asynchronous-api-openapi.yml,\n  openapi/canonical-auth-groups-api-openapi.yml, openapi/canonical-authentication-api-openapi.yml,\n  openapi/canonical-authentication-service-api-openapi.yml, openapi/canonical-authenticationrequired-api-openapi.yml,\n  openapi/canonical-authzgroupsservice-api-openapi.yml, openapi/canonical-certificates-api-openapi.yml,\n  openapi/canonical-certification-api-openapi.yml, openapi/canonical-changes-and-tasks-api-openapi.yml,\n  openapi/canonical-checks-api-openapi.yml,\
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/canonical-add-ons-api-openapi.yml, openapi/canonical-appauthorizationservice-api-openapi.yml,\n  openapi/canonical-application-api-openapi.yml, openapi/canonical-applications-api-openapi.yml,\n  openapi/canonical-apps-api-openapi.yml, openapi/canonical-artefact-builds-api-openapi.yml,\n  openapi/canonical-artefact-matching-rules-api-openapi.yml, openapi/canonical-artefacts-api-openapi.yml,\n  openapi/canonical-assertions-api-openapi.yml, openapi/canonical-asynchronous-api-openapi.yml,\n  openapi/canonical-auth-groups-api-openapi.yml, openapi/canonical-authentication-api-openapi.yml,\n  openapi/canonical-authentication-service-api-openapi.yml, openapi/canonical-authenticationrequired-api-openapi.yml,\n  openapi/canonical-authzgroupsservice-api-openapi.yml, openapi/canonical-certificates-api-openapi.yml,\n  openapi/canonical-certification-api-openapi.yml, openapi/canonical-changes-and-tasks-api-openapi.yml,\n  openapi/canonical-checks-api-openapi.yml,\
   \ openapi/canonical-clientsservice-api-openapi.yml,\n  openapi/canonical-cluster-api-openapi.yml, openapi/canonical-cluster-groups-api-openapi.yml,\n  openapi/canonical-cluster-links-api-openapi.yml, openapi/canonical-config-api-openapi.yml,\n  openapi/canonical-containers-api-openapi.yml, openapi/canonical-devices-api-openapi.yml, openapi/canonical-environment-reviews-api-openapi.yml,\n  openapi/canonical-environments-api-openapi.yml, openapi/canonical-events-api-openapi.yml,\n  openapi/canonical-exec-api-openapi.yml, openapi/canonical-execution-metadata-api-openapi.yml,\n  openapi/canonical-experimental-api-openapi.yml, openapi/canonical-files-api-openapi.yml, openapi/canonical-groupsservice-api-openapi.yml,\n  openapi/canonical-hardware-api-hwapi-api-openapi.yml, openapi/canonical-health-api-openapi.yml,\n  openapi/canonical-identities-api-openapi.yml, openapi/canonical-identitiesservice-api-openapi.yml,\n  openapi/canonical-identity-provider-groups-api-openapi.yml, openapi/canonical-idpsservice-api-openapi.yml,\n\
   \  openapi/canonical-images-api-openapi.yml, openapi/canonical-instances-api-openapi.yml, openapi/canonical-interfaces-api-openapi.yml,\n  openapi/canonical-internal-api-openapi.yml, openapi/canonical-issues-api-openapi.yml, openapi/canonical-layers-api-openapi.yml,\n  openapi/canonical-localservice-api-openapi.yml, openapi/canonical-logs-api-openapi.yml, openapi/canonical-metadata-api-openapi.yml,\n  openapi/canonical-metrics-api-openapi.yml, openapi/canonical-metricsservice-api-openapi.yml,\n  openapi/canonical-microceph-api-openapi.yml, openapi/canonical-mirrorservice-api-openapi.yml,\n  openapi/canonical-network-acls-api-openapi.yml, openapi/canonical-network-allocations-api-openapi.yml,\n  openapi/canonical-network-forwards-api-openapi.yml, openapi/canonical-network-load-balancer-pools-api-openapi.yml,\n  openapi/canonical-network-load-balancers-api-openapi.yml, openapi/canonical-network-peers-api-openapi.yml,\n  openapi/canonical-network-zones-api-openapi.yml, openapi/canonical-networks-api-openapi.yml,\n\
   \  openapi/canonical-nodes-api-openapi.yml, openapi/canonical-notices-api-openapi.yml, openapi/canonical-notifications-api-openapi.yml,\n  openapi/canonical-oidc-api-api-openapi.yml, openapi/canonical-oidc-sessions-api-openapi.yml,\n  openapi/canonical-open-access-api-openapi.yml, openapi/canonical-operations-api-openapi.yml,\n  openapi/canonical-operationservice-api-openapi.yml, openapi/canonical-permissions-api-openapi.yml,\n  openapi/canonical-placement-groups-api-openapi.yml, openapi/canonical-plan-api-openapi.yml,\n  openapi/canonical-profiles-api-openapi.yml, openapi/canonical-projects-api-openapi.yml, openapi/canonical-publicationservice-api-openapi.yml,\n  openapi/canonical-publicationtargetservice-api-openapi.yml, openapi/canonical-region-api-openapi.yml,\n  openapi/canonical-replicators-api-openapi.yml, openapi/canonical-reports-api-openapi.yml,\n  openapi/canonical-rolesservice-api-openapi.yml, openapi/canonical-root-api-openapi.yml, openapi/canonical-schema-api-openapi.yml,\n\
   \  openapi/canonical-schemasservice-api-openapi.yml, openapi/canonical-search-api-openapi.yml,\n  openapi/canonical-security-api-openapi.yml, openapi/canonical-sentry-debug-api-openapi.yml,\n  openapi/canonical-server-api-openapi.yml, openapi/canonical-service-api-openapi.yml, openapi/canonical-services-api-openapi.yml,\n  openapi/canonical-session-api-openapi.yml, openapi/canonical-signals-api-openapi.yml, openapi/canonical-snaps-api-openapi.yml,\n  openapi/canonical-status-api-openapi.yml, openapi/canonical-statusservice-api-openapi.yml,\n  openapi/canonical-storage-api-openapi.yml, openapi/canonical-system-info-api-openapi.yml,\n  openapi/canonical-tasks-api-openapi.yml, openapi/canonical-teams-api-openapi.yml, openapi/canonical-tenantservice-api-openapi.yml,\n  openapi/canonical-test-cases-api-openapi.yml, openapi/canonical-test-executions-api-openapi.yml,\n  openapi/canonical-test-observer-api-openapi.yml, openapi/canonical-test-plans-api-openapi.yml,\n  openapi/canonical-test-results-api-openapi.yml,\
-  \ openapi/canonical-users-api-openapi.yml, openapi/canonical-v1-api-openapi.yml,\n  openapi/canonical-version-api-openapi.yml, openapi/canonical-warnings-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 812\n  by_action_class:\n    connected: 398\n    acting: 414\n  by_consequence:\n    read: 398\n    write: 408\n    safety-critical: 3\n    physical: 3\n  human_in_the_loop_required: 3\noperations:\n- path: /1.0/addons\n  method: get\n  operationId: addons_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.0/addons\n  method: post\n  operationId: addons_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
+  \ openapi/canonical-users-api-openapi.yml, openapi/canonical-v1-api-openapi.yml,\n  openapi/canonical-version-api-openapi.yml, openapi/canonical-warnings-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 812\n  by_action_class:\n    connected: 399\n    acting: 413\n  by_consequence:\n    read: 399\n    write: 407\n    safety-critical: 3\n    physical: 3\n  human_in_the_loop_required: 3\noperations:\n- path: /1.0/addons\n  method: get\n  operationId: addons_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.0/addons\n  method: post\n  operationId: addons_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1.0/addons/{name}\n  method: get\n  operationId: addon_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.0/addons/{name}\n  method: delete\n  operationId: addon_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1.0/addons/{name}\n  method: patch\n  operationId: addon_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1.0/addons/{name}/{version}\n  method: delete\n  operationId: addon_version_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1.0/addons?recursion=1\n  method: get\n  operationId: addons_get_recursion1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/authz/apps/{app_id}/groups\n  method: delete\n  operationId: AppAuthorizationService_RemoveAllowedGroupsForApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/authz/apps/{app_id}/groups\n  method: get\n  operationId: AppAuthorizationService_GetAllowedGroupsForApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/authz/groups/{group_id}/apps\n  method: delete\n  operationId: AppAuthorizationService_RemoveAllowedAppsFromGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/authz/groups/{group_id}/apps\n  method: get\n  operationId: AppAuthorizationService_GetAllowedAppsInGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
@@ -747,12 +795,12 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/canoni
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/assertions\n  method: get\n  operationId: listAssertionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/assertions\n  method: post\n  operationId: addAssertion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assertions/{assertion-type}\n  method: get\n  operationId: getAssertionsByType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/model\n  method: get\n  operationId: getModelAssertion\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/model\n  method: post\n  operationId: setModelAssertion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/model/serial\n  method: get\n  operationId: getSerialAssertion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (240 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/agentic-access/canonical-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/agentic-access/canonical-agentic-access.yml
-summary_line: 812 operations · 414 acting · 3 human-in-the-loop
+summary_line: 812 operations · 413 acting · 3 human-in-the-loop
 tags:
 - Canonical
 - Cloud
 - Linux
-- Open-Source
+- Open Source
 - Ubuntu
 - Containers
 - Bare Metal

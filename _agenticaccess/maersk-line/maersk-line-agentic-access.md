@@ -113,4 +113,5 @@ tags:
 - Supply Chain
 - DCSA
 - Maritime
+- Freight
 ---

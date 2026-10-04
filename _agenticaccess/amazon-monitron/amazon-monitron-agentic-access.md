@@ -55,7 +55,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/agentic-access/amazon-monitron-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
-- Broadcasting
-- Media Processing
-- Media
+- Industrial IoT
+- Predictive Maintenance
+- Monitoring
+- Machine Learning
 ---

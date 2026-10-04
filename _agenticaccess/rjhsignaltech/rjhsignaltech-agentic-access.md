@@ -72,7 +72,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rjhsignaltech/
 summary_line: 8 operations · 2 acting
 tags:
 - Company
-- API
 - Civic
 - Government
 - Address

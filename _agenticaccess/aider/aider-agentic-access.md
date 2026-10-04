@@ -146,7 +146,7 @@ tags:
 - Command Line
 - Coding Assistant
 - Code Generation
-- Open-Source
+- Open Source
 - Python
 - Apache 2.0
 - LLM

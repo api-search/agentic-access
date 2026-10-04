@@ -84,4 +84,5 @@ tags:
 - Notion-style
 - Webhook
 - MCP
+- Accounting
 ---

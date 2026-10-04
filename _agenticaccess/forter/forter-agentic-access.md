@@ -79,7 +79,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/forter
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/agentic-access/forter-agentic-access.yml
 summary_line: 8 operations · 8 acting
 tags:
-- Fraud Detection
 - Fraud Prevention
 - Identity
 - Trust
@@ -87,6 +86,7 @@ tags:
 - Chargebacks
 - Account Protection
 - E-Commerce
-- Risk
-- Machine-Learning
+- Risk Management
+- Machine Learning
+- A2A
 ---

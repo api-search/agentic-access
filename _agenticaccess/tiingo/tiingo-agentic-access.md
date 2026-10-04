@@ -126,4 +126,6 @@ tags:
 - News
 - Fundamentals
 - WebSocket
+- Real-Time
+- Financial Data
 ---

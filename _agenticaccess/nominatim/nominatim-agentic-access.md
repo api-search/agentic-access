@@ -78,6 +78,6 @@ tags:
 - OpenStreetMap
 - Maps
 - Location Services
-- Open-Source
+- Open Source
 - Public APIs
 ---

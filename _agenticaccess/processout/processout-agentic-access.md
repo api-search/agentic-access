@@ -159,7 +159,7 @@ tags:
 - Tokenization
 - Checkout
 - Reconciliation
-- Fraud
+- Fraud Prevention
 - 3D Secure
 - Company
 ---

@@ -47,7 +47,7 @@ tags:
 - Scholarly Articles
 - Research
 - Academic
-- Libraries
+- Library
 - DOI
 - Science
 ---

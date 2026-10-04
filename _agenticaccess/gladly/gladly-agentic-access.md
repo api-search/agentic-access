@@ -200,7 +200,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gladly/refs/he
 summary_line: 81 operations · 40 acting
 tags:
 - Customer Service
-- CX
+- Customer Experience
 - Contact Center
 - AI Customer Service
 - Conversations

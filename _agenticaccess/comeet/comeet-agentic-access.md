@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/comeet
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/agentic-access/comeet-agentic-access.yml
 summary_line: 2 operations
 tags:
-- ATS
+- Applicant Tracking
 - Candidates
 - Careers
 - Interviews

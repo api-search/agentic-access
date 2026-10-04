@@ -1,704 +1,704 @@
 ---
-acting_count: 318
+acting_count: 311
 action_class_counts:
-  acting: 318
-  connected: 257
+  acting: 311
+  connected: 264
 api_specs:
 - filename: small-improvements-action-item-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements action-item-resource API
+  label: Small Improvements Action Item Resource API
   slug: small-improvements-action-item-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-action-item-resource-api-openapi.yml
 - filename: small-improvements-activity-stream-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements activity-stream-resource API
+  label: Small Improvements Activity Stream Resource API
   slug: small-improvements-activity-stream-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-activity-stream-resource-api-openapi.yml
 - filename: small-improvements-admin-overview-link-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements admin-overview-link-resource API
+  label: Small Improvements Admin Overview Link Resource API
   slug: small-improvements-admin-overview-link-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-admin-overview-link-resource-api-openapi.yml
 - filename: small-improvements-anytime-feedback-default-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements anytime-feedback-default-resource API
+  label: Small Improvements Anytime Feedback Default Resource API
   slug: small-improvements-anytime-feedback-default-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-anytime-feedback-default-resource-api-openapi.yml
 - filename: small-improvements-anytime-feedback-export-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements anytime-feedback-export-resource API
+  label: Small Improvements Anytime Feedback Export Resource API
   slug: small-improvements-anytime-feedback-export-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-anytime-feedback-export-resource-api-openapi.yml
 - filename: small-improvements-anytime-feedback-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements anytime-feedback-resource API
+  label: Small Improvements Anytime Feedback Resource API
   slug: small-improvements-anytime-feedback-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-anytime-feedback-resource-api-openapi.yml
 - filename: small-improvements-assessment-admin-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements assessment-admin-resource API
+  label: Small Improvements Assessment Admin Resource API
   slug: small-improvements-assessment-admin-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-assessment-admin-resource-api-openapi.yml
 - filename: small-improvements-assessment-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements assessment-resource API
+  label: Small Improvements Assessment Resource API
   slug: small-improvements-assessment-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-assessment-resource-api-openapi.yml
 - filename: small-improvements-audit-record-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements audit-record-resource API
+  label: Small Improvements Audit Record Resource API
   slug: small-improvements-audit-record-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-audit-record-resource-api-openapi.yml
 - filename: small-improvements-automations-options-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements automations-options-resource API
+  label: Small Improvements Automations Options Resource API
   slug: small-improvements-automations-options-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-automations-options-resource-api-openapi.yml
 - filename: small-improvements-automations-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements automations-resource API
+  label: Small Improvements Automations Resource API
   slug: small-improvements-automations-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-automations-resource-api-openapi.yml
 - filename: small-improvements-automations-settings-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements automations-settings-resource API
+  label: Small Improvements Automations Settings Resource API
   slug: small-improvements-automations-settings-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-automations-settings-resource-api-openapi.yml
 - filename: small-improvements-badges-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements badges-resource API
+  label: Small Improvements Badges Resource API
   slug: small-improvements-badges-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-badges-resource-api-openapi.yml
 - filename: small-improvements-bounced-email-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements bounced-email-resource API
+  label: Small Improvements Bounced Email Resource API
   slug: small-improvements-bounced-email-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-bounced-email-resource-api-openapi.yml
 - filename: small-improvements-calendar-integration-admin-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements calendar-integration-admin-resource API
+  label: Small Improvements Calendar Integration Admin Resource API
   slug: small-improvements-calendar-integration-admin-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-calendar-integration-admin-resource-api-openapi.yml
 - filename: small-improvements-calendar-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements calendar-resource API
+  label: Small Improvements Calendar Resource API
   slug: small-improvements-calendar-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-calendar-resource-api-openapi.yml
 - filename: small-improvements-companies-design-settings-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements companies-design-settings-resource API
+  label: Small Improvements Companies Design Settings Resource API
   slug: small-improvements-companies-design-settings-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-companies-design-settings-resource-api-openapi.yml
 - filename: small-improvements-companies-email-templates-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements companies-email-templates-resource API
+  label: Small Improvements Companies Email Templates Resource API
   slug: small-improvements-companies-email-templates-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-companies-email-templates-resource-api-openapi.yml
 - filename: small-improvements-companies-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements companies-resource API
+  label: Small Improvements Companies Resource API
   slug: small-improvements-companies-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-companies-resource-api-openapi.yml
 - filename: small-improvements-company-analytics-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements company-analytics-resource API
+  label: Small Improvements Company Analytics Resource API
   slug: small-improvements-company-analytics-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-company-analytics-resource-api-openapi.yml
 - filename: small-improvements-company-date-time-settings-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements company-date-time-settings-resource API
+  label: Small Improvements Company Date Time Settings Resource API
   slug: small-improvements-company-date-time-settings-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-company-date-time-settings-resource-api-openapi.yml
 - filename: small-improvements-company-visibility-settings-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements company-visibility-settings-resource API
+  label: Small Improvements Company Visibility Settings Resource API
   slug: small-improvements-company-visibility-settings-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-company-visibility-settings-resource-api-openapi.yml
 - filename: small-improvements-cycle-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements cycle-resource API
+  label: Small Improvements Cycle Resource API
   slug: small-improvements-cycle-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-cycle-resource-api-openapi.yml
 - filename: small-improvements-downloadable-file-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements downloadable-file-resource API
+  label: Small Improvements Downloadable File Resource API
   slug: small-improvements-downloadable-file-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-downloadable-file-resource-api-openapi.yml
 - filename: small-improvements-drafts-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements drafts-resource API
+  label: Small Improvements Drafts Resource API
   slug: small-improvements-drafts-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-drafts-resource-api-openapi.yml
 - filename: small-improvements-email-configuration-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements email-configuration-resource API
+  label: Small Improvements Email Configuration Resource API
   slug: small-improvements-email-configuration-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-email-configuration-resource-api-openapi.yml
 - filename: small-improvements-email-event-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements email-event-resource API
+  label: Small Improvements Email Event Resource API
   slug: small-improvements-email-event-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-email-event-resource-api-openapi.yml
 - filename: small-improvements-email-template-mini-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements email-template-mini-resource API
+  label: Small Improvements Email Template Mini Resource API
   slug: small-improvements-email-template-mini-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-email-template-mini-resource-api-openapi.yml
 - filename: small-improvements-email-templates-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements email-templates-resource API
+  label: Small Improvements Email Templates Resource API
   slug: small-improvements-email-templates-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-email-templates-resource-api-openapi.yml
 - filename: small-improvements-email-verifications-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements email-verifications-resource API
+  label: Small Improvements Email Verifications Resource API
   slug: small-improvements-email-verifications-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-email-verifications-resource-api-openapi.yml
 - filename: small-improvements-events-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements events-resource API
+  label: Small Improvements Events Resource API
   slug: small-improvements-events-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-events-resource-api-openapi.yml
 - filename: small-improvements-feature-selection-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements feature-selection-resource API
+  label: Small Improvements Feature Selection Resource API
   slug: small-improvements-feature-selection-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-feature-selection-resource-api-openapi.yml
 - filename: small-improvements-features-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements features-resource API
+  label: Small Improvements Features Resource API
   slug: small-improvements-features-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-features-resource-api-openapi.yml
 - filename: small-improvements-feedback-cycle-admin-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements feedback-cycle-admin-resource API
+  label: Small Improvements Feedback Cycle Admin Resource API
   slug: small-improvements-feedback-cycle-admin-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-feedback-cycle-admin-resource-api-openapi.yml
 - filename: small-improvements-feedback-cycles-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements feedback-cycles-resource API
+  label: Small Improvements Feedback Cycles Resource API
   slug: small-improvements-feedback-cycles-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-feedback-cycles-resource-api-openapi.yml
 - filename: small-improvements-feedback-export-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements feedback-export-resource API
+  label: Small Improvements Feedback Export Resource API
   slug: small-improvements-feedback-export-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-feedback-export-resource-api-openapi.yml
 - filename: small-improvements-feedback-participants-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements feedback-participants-resource API
+  label: Small Improvements Feedback Participants Resource API
   slug: small-improvements-feedback-participants-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-feedback-participants-resource-api-openapi.yml
 - filename: small-improvements-feedback-provide-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements feedback-provide-resource API
+  label: Small Improvements Feedback Provide Resource API
   slug: small-improvements-feedback-provide-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-feedback-provide-resource-api-openapi.yml
 - filename: small-improvements-feedback-requests-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements feedback-requests-resource API
+  label: Small Improvements Feedback Requests Resource API
   slug: small-improvements-feedback-requests-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-feedback-requests-resource-api-openapi.yml
 - filename: small-improvements-feedback-reviewers-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements feedback-reviewers-resource API
+  label: Small Improvements Feedback Reviewers Resource API
   slug: small-improvements-feedback-reviewers-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-feedback-reviewers-resource-api-openapi.yml
 - filename: small-improvements-feedback-statistics-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements feedback-statistics-resource API
+  label: Small Improvements Feedback Statistics Resource API
   slug: small-improvements-feedback-statistics-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-feedback-statistics-resource-api-openapi.yml
 - filename: small-improvements-feedback-template-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements feedback-template-resource API
+  label: Small Improvements Feedback Template Resource API
   slug: small-improvements-feedback-template-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-feedback-template-resource-api-openapi.yml
 - filename: small-improvements-helpful-resources-attachments-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements helpful-resources-attachments-resource API
+  label: Small Improvements Helpful Resources Attachments Resource API
   slug: small-improvements-helpful-resources-attachments-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-helpful-resources-attachments-resource-api-openapi.yml
 - filename: small-improvements-insights-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements insights-resource API
+  label: Small Improvements Insights Resource API
   slug: small-improvements-insights-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-insights-resource-api-openapi.yml
 - filename: small-improvements-logout-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements logout-resource API
+  label: Small Improvements Logout Resource API
   slug: small-improvements-logout-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-logout-resource-api-openapi.yml
 - filename: small-improvements-meeting-actions-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements meeting-actions-resource API
+  label: Small Improvements Meeting Actions Resource API
   slug: small-improvements-meeting-actions-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-meeting-actions-resource-api-openapi.yml
 - filename: small-improvements-meeting-attachment-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements meeting-attachment-resource API
+  label: Small Improvements Meeting Attachment Resource API
   slug: small-improvements-meeting-attachment-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-meeting-attachment-resource-api-openapi.yml
 - filename: small-improvements-meeting-calendar-company-observer-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements meeting-calendar-company-observer-resource API
+  label: Small Improvements Meeting Calendar Company Observer Resource API
   slug: small-improvements-meeting-calendar-company-observer-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-meeting-calendar-company-observer-resource-api-openapi.yml
 - filename: small-improvements-meeting-calendar-configuration-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements meeting-calendar-configuration-resource API
+  label: Small Improvements Meeting Calendar Configuration Resource API
   slug: small-improvements-meeting-calendar-configuration-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-meeting-calendar-configuration-resource-api-openapi.yml
 - filename: small-improvements-meeting-calendar-settings-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements meeting-calendar-settings-resource API
+  label: Small Improvements Meeting Calendar Settings Resource API
   slug: small-improvements-meeting-calendar-settings-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-meeting-calendar-settings-resource-api-openapi.yml
 - filename: small-improvements-meeting-note-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements meeting-note-resource API
+  label: Small Improvements Meeting Note Resource API
   slug: small-improvements-meeting-note-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-meeting-note-resource-api-openapi.yml
 - filename: small-improvements-meeting-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements meeting-resource API
+  label: Small Improvements Meeting Resource API
   slug: small-improvements-meeting-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-meeting-resource-api-openapi.yml
 - filename: small-improvements-meeting-space-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements meeting-space-resource API
+  label: Small Improvements Meeting Space Resource API
   slug: small-improvements-meeting-space-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-meeting-space-resource-api-openapi.yml
 - filename: small-improvements-meeting-template-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements meeting-template-resource API
+  label: Small Improvements Meeting Template Resource API
   slug: small-improvements-meeting-template-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-meeting-template-resource-api-openapi.yml
 - filename: small-improvements-message-settings-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements message-settings-resource API
+  label: Small Improvements Message Settings Resource API
   slug: small-improvements-message-settings-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-message-settings-resource-api-openapi.yml
 - filename: small-improvements-messages-peer-feedback-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements messages-peer-feedback-resource API
+  label: Small Improvements Messages Peer Feedback Resource API
   slug: small-improvements-messages-peer-feedback-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-messages-peer-feedback-resource-api-openapi.yml
 - filename: small-improvements-messages-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements messages-resource API
+  label: Small Improvements Messages Resource API
   slug: small-improvements-messages-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-messages-resource-api-openapi.yml
 - filename: small-improvements-notification-log-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements notification-log-resource API
+  label: Small Improvements Notification Log Resource API
   slug: small-improvements-notification-log-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-notification-log-resource-api-openapi.yml
 - filename: small-improvements-nudge-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements nudge-resource API
+  label: Small Improvements Nudge Resource API
   slug: small-improvements-nudge-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-nudge-resource-api-openapi.yml
 - filename: small-improvements-objective-categories-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements objective-categories-resource API
+  label: Small Improvements Objective Categories Resource API
   slug: small-improvements-objective-categories-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-objective-categories-resource-api-openapi.yml
 - filename: small-improvements-objective-clone-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements objective-clone-resource API
+  label: Small Improvements Objective Clone Resource API
   slug: small-improvements-objective-clone-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-objective-clone-resource-api-openapi.yml
 - filename: small-improvements-objective-cycle-admin-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements objective-cycle-admin-resource API
+  label: Small Improvements Objective Cycle Admin Resource API
   slug: small-improvements-objective-cycle-admin-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-objective-cycle-admin-resource-api-openapi.yml
 - filename: small-improvements-objective-cycles-export-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements objective-cycles-export-resource API
+  label: Small Improvements Objective Cycles Export Resource API
   slug: small-improvements-objective-cycles-export-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-objective-cycles-export-resource-api-openapi.yml
 - filename: small-improvements-objective-cycles-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements objective-cycles-resource API
+  label: Small Improvements Objective Cycles Resource API
   slug: small-improvements-objective-cycles-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-objective-cycles-resource-api-openapi.yml
 - filename: small-improvements-objective-pdf-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements objective-pdf-resource API
+  label: Small Improvements Objective PDF Resource API
   slug: small-improvements-objective-pdf-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-objective-pdf-resource-api-openapi.yml
 - filename: small-improvements-objective-ratings-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements objective-ratings-resource API
+  label: Small Improvements Objective Ratings Resource API
   slug: small-improvements-objective-ratings-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-objective-ratings-resource-api-openapi.yml
 - filename: small-improvements-objective-summaries-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements objective-summaries-resource API
+  label: Small Improvements Objective Summaries Resource API
   slug: small-improvements-objective-summaries-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-objective-summaries-resource-api-openapi.yml
 - filename: small-improvements-objectives-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements objectives-resource API
+  label: Small Improvements Objectives Resource API
   slug: small-improvements-objectives-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-objectives-resource-api-openapi.yml
 - filename: small-improvements-outlook-o-auth-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements outlook-o-auth-resource API
+  label: Small Improvements Outlook O Auth Resource API
   slug: small-improvements-outlook-o-auth-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-outlook-o-auth-resource-api-openapi.yml
 - filename: small-improvements-personal-access-token-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements personal-access-token-resource API
+  label: Small Improvements Personal Access Token Resource API
   slug: small-improvements-personal-access-token-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-personal-access-token-resource-api-openapi.yml
 - filename: small-improvements-praise-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements praise-resource API
+  label: Small Improvements Praise Resource API
   slug: small-improvements-praise-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-praise-resource-api-openapi.yml
 - filename: small-improvements-praise-wall-open-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements praise-wall-open-resource API
+  label: Small Improvements Praise Wall Open Resource API
   slug: small-improvements-praise-wall-open-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-praise-wall-open-resource-api-openapi.yml
 - filename: small-improvements-praise-wall-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements praise-wall-resource API
+  label: Small Improvements Praise Wall Resource API
   slug: small-improvements-praise-wall-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-praise-wall-resource-api-openapi.yml
 - filename: small-improvements-profile-pictures-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements profile-pictures-resource API
+  label: Small Improvements Profile Pictures Resource API
   slug: small-improvements-profile-pictures-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-profile-pictures-resource-api-openapi.yml
 - filename: small-improvements-public-calendar-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements public-calendar-resource API
+  label: Small Improvements Public Calendar Resource API
   slug: small-improvements-public-calendar-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-public-calendar-resource-api-openapi.yml
 - filename: small-improvements-public-images-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements public-images-resource API
+  label: Small Improvements Public Images Resource API
   slug: small-improvements-public-images-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-public-images-resource-api-openapi.yml
 - filename: small-improvements-public-me-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements public-me-resource API
+  label: Small Improvements Public Me Resource API
   slug: small-improvements-public-me-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-public-me-resource-api-openapi.yml
 - filename: small-improvements-reaction-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements reaction-resource API
+  label: Small Improvements Reaction Resource API
   slug: small-improvements-reaction-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-reaction-resource-api-openapi.yml
 - filename: small-improvements-release-notes-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements release-notes-resource API
+  label: Small Improvements Release Notes Resource API
   slug: small-improvements-release-notes-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-release-notes-resource-api-openapi.yml
 - filename: small-improvements-replacements-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements replacements-resource API
+  label: Small Improvements Replacements Resource API
   slug: small-improvements-replacements-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-replacements-resource-api-openapi.yml
 - filename: small-improvements-report-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements report-resource API
+  label: Small Improvements Report Resource API
   slug: small-improvements-report-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-report-resource-api-openapi.yml
 - filename: small-improvements-request-feedback-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements request-feedback-resource API
+  label: Small Improvements Request Feedback Resource API
   slug: small-improvements-request-feedback-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-request-feedback-resource-api-openapi.yml
 - filename: small-improvements-review-attachment-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements review-attachment-resource API
+  label: Small Improvements Review Attachment Resource API
   slug: small-improvements-review-attachment-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-review-attachment-resource-api-openapi.yml
 - filename: small-improvements-review-cycle-admin-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements review-cycle-admin-resource API
+  label: Small Improvements Review Cycle Admin Resource API
   slug: small-improvements-review-cycle-admin-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-review-cycle-admin-resource-api-openapi.yml
 - filename: small-improvements-review-cycle-import-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements review-cycle-import-resource API
+  label: Small Improvements Review Cycle Import Resource API
   slug: small-improvements-review-cycle-import-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-review-cycle-import-resource-api-openapi.yml
 - filename: small-improvements-review-cycle-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements review-cycle-resource API
+  label: Small Improvements Review Cycle Resource API
   slug: small-improvements-review-cycle-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-review-cycle-resource-api-openapi.yml
 - filename: small-improvements-review-cycles-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements review-cycles-resource API
+  label: Small Improvements Review Cycles Resource API
   slug: small-improvements-review-cycles-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-review-cycles-resource-api-openapi.yml
 - filename: small-improvements-review-export-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements review-export-resource API
+  label: Small Improvements Review Export Resource API
   slug: small-improvements-review-export-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-review-export-resource-api-openapi.yml
 - filename: small-improvements-review-graph-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements review-graph-resource API
+  label: Small Improvements Review Graph Resource API
   slug: small-improvements-review-graph-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-review-graph-resource-api-openapi.yml
 - filename: small-improvements-review-questionnaire-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements review-questionnaire-resource API
+  label: Small Improvements Review Questionnaire Resource API
   slug: small-improvements-review-questionnaire-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-review-questionnaire-resource-api-openapi.yml
 - filename: small-improvements-review-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements review-resource API
+  label: Small Improvements Review Resource API
   slug: small-improvements-review-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-review-resource-api-openapi.yml
 - filename: small-improvements-review-statistics-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements review-statistics-resource API
+  label: Small Improvements Review Statistics Resource API
   slug: small-improvements-review-statistics-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-review-statistics-resource-api-openapi.yml
 - filename: small-improvements-reviewees-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements reviewees-resource API
+  label: Small Improvements Reviewees Resource API
   slug: small-improvements-reviewees-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-reviewees-resource-api-openapi.yml
 - filename: small-improvements-reviews-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements reviews-resource API
+  label: Small Improvements Reviews Resource API
   slug: small-improvements-reviews-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-reviews-resource-api-openapi.yml
 - filename: small-improvements-sample-content-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements sample-content-resource API
+  label: Small Improvements Sample Content Resource API
   slug: small-improvements-sample-content-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-sample-content-resource-api-openapi.yml
 - filename: small-improvements-slack-configuration-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements slack-configuration-resource API
+  label: Small Improvements Slack Configuration Resource API
   slug: small-improvements-slack-configuration-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-slack-configuration-resource-api-openapi.yml
 - filename: small-improvements-subdomain-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements subdomain-resource API
+  label: Small Improvements Subdomain Resource API
   slug: small-improvements-subdomain-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-subdomain-resource-api-openapi.yml
 - filename: small-improvements-summary-assistant-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements summary-assistant-resource API
+  label: Small Improvements Summary Assistant Resource API
   slug: small-improvements-summary-assistant-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-summary-assistant-resource-api-openapi.yml
 - filename: small-improvements-survey-admin-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements survey-admin-resource API
+  label: Small Improvements Survey Admin Resource API
   slug: small-improvements-survey-admin-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-survey-admin-resource-api-openapi.yml
 - filename: small-improvements-survey-analytics-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements survey-analytics-resource API
+  label: Small Improvements Survey Analytics Resource API
   slug: small-improvements-survey-analytics-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-survey-analytics-resource-api-openapi.yml
 - filename: small-improvements-survey-observer-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements survey-observer-resource API
+  label: Small Improvements Survey Observer Resource API
   slug: small-improvements-survey-observer-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-survey-observer-resource-api-openapi.yml
 - filename: small-improvements-survey-templates-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements survey-templates-resource API
+  label: Small Improvements Survey Templates Resource API
   slug: small-improvements-survey-templates-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-survey-templates-resource-api-openapi.yml
 - filename: small-improvements-survey-viewer-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements survey-viewer-resource API
+  label: Small Improvements Survey Viewer Resource API
   slug: small-improvements-survey-viewer-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-survey-viewer-resource-api-openapi.yml
 - filename: small-improvements-talking-point-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements talking-point-resource API
+  label: Small Improvements Talking Point Resource API
   slug: small-improvements-talking-point-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-talking-point-resource-api-openapi.yml
 - filename: small-improvements-unified-feedback-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements unified-feedback-resource API
+  label: Small Improvements Unified Feedback Resource API
   slug: small-improvements-unified-feedback-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-unified-feedback-resource-api-openapi.yml
 - filename: small-improvements-user-attachment-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements user-attachment-resource API
+  label: Small Improvements User Attachment Resource API
   slug: small-improvements-user-attachment-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-user-attachment-resource-api-openapi.yml
 - filename: small-improvements-user-import-configuration-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements user-import-configuration-resource API
+  label: Small Improvements User Import Configuration Resource API
   slug: small-improvements-user-import-configuration-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-user-import-configuration-resource-api-openapi.yml
 - filename: small-improvements-user-import-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements user-import-resource API
+  label: Small Improvements User Import Resource API
   slug: small-improvements-user-import-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-user-import-resource-api-openapi.yml
 - filename: small-improvements-user-merge-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements user-merge-resource API
+  label: Small Improvements User Merge Resource API
   slug: small-improvements-user-merge-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-user-merge-resource-api-openapi.yml
 - filename: small-improvements-user-settings-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements user-settings-resource API
+  label: Small Improvements User Settings Resource API
   slug: small-improvements-user-settings-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-user-settings-resource-api-openapi.yml
 - filename: small-improvements-user-stats-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements user-stats-resource API
+  label: Small Improvements User Stats Resource API
   slug: small-improvements-user-stats-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-user-stats-resource-api-openapi.yml
 - filename: small-improvements-users-change-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements users-change-resource API
+  label: Small Improvements Users Change Resource API
   slug: small-improvements-users-change-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-users-change-resource-api-openapi.yml
 - filename: small-improvements-users-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements users-resource API
+  label: Small Improvements Users Resource API
   slug: small-improvements-users-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-users-resource-api-openapi.yml
 - filename: small-improvements-writing-assistant-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements writing-assistant-resource API
+  label: Small Improvements Writing Assistant Resource API
   slug: small-improvements-writing-assistant-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-writing-assistant-resource-api-openapi.yml
 - filename: small-improvements-your-surveys-resource-api-openapi.yml
   format: yaml
-  label: Small Improvements your-surveys-resource API
+  label: Small Improvements Your Surveys Resource API
   slug: small-improvements-your-surveys-resource-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/openapi/small-improvements-your-surveys-resource-api-openapi.yml
 consequence_counts:
   physical: 11
-  read: 257
+  read: 264
   safety-critical: 10
-  write: 297
+  write: 290
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 10
 kind: agentic-access
@@ -813,10 +813,10 @@ notable_actions:
   method: POST
   path: /v2/users/{userId}/mail/welcome
 operation_count: 575
-overview: 'Small Improvements exposes 575 API operations that an AI agent could call, of which 318 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Small Improvements exposes 575 API operations that an AI agent could call, of which 311 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 257 read, 297 write, 11 physical, and 10 safety-critical.
+  By consequence: 264 read, 290 write, 11 physical, and 10 safety-critical.
 
 
   10 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -829,43 +829,42 @@ slug: small-improvements-agentic-access
 source_filename: small-improvements-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/small-improvements-small-improvements-rest-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 575\n  by_action_class:\n    connected: 257\n    acting: 318\n  by_consequence:\n    read: 257\n    write: 297\n    physical: 11\n    safety-critical: 10\n  human_in_the_loop_required: 10\noperations:\n- path: /calendars/{id}.ics\n  method: get\n  operationId: getUsingGET_13\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calendars/{id}.ics\n  method: head\n  operationId: getUsingHEAD\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /imageservice\n  method: get\n  operationId: getUsingGET_14\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /imageservice\n  method: head\n  operationId: getUsingHEAD_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me\n  method: get\n  operationId: getUsingGET_15\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /praise/wall\n  method: get\n  operationId: getPraiseForWallUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /praise/wall/config\n  method: get\n  operationId: getConfigUsingGET\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subdomain\n  method: get\n  operationId: getUsingGET_20\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/action-items\n  method: get\n  operationId: getActionsItemsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/activities\n  method: get\n  operationId: getActivityStreamUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/admin-calendar-integration\n  method: get\n  operationId: getConfigurationUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
-  \   max-ttl: 3600\n    audit: none\n- path: /v2/admin-calendar-integration/remove-provider\n  method: post\n  operationId: removeProviderUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/admin-calendar-integration/verify-google\n  method: put\n  operationId: verifyGoogleConnectionUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/admin-links/integrations\n  method: get\n  operationId: getIntegrationsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/admin-links/settings\n  method: get\n  operationId: getUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/admin/feature-selection/settings\n  method: get\n  operationId: getSettingsUsingGET_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/admin/feature-selection/settings\n  method: post\n  operationId: saveSettingsUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/admin/links\n  method: get\n  operationId: getForOldFrontendUsingGET\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/all-companies\n  method: get\n  operationId: listAllUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/analytics/events\n  method: get\n  operationId: listUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback\n  method: post\n  operationId: requestUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-default\n  method: get\n  operationId: getAnytimeFeedbackDefaultUsingGET\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback-default\n  method: put\n  operationId: updateAnytimeFeedbackDefaultUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-export\n  method: post\n  operationId: triggerExportUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-export/team\n  method: post\n  operationId: triggerExportForTeamUsingPOST\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-overview/company\n  method: get\n  operationId: getCompanyOverviewUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback-overview/team\n  method: get\n  operationId: getTeamOverviewUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback-response/{requestId}/{reviewerId}\n  method: get\n  operationId: getResponseUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
-  \    max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback-response/{requestId}/{reviewerId}/answer\n  method: post\n  operationId: answerUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-response/{requestId}/{reviewerId}/decline\n  method: post\n  operationId: declineResponseUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-response/{requestId}/{reviewerId}/reopen\n  method: post\n  operationId: reopenResponseUsingPOST\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-response/{requestId}/{reviewerId}/share\n  method: post\n  operationId: shareResponseUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-stats\n  method: get\n  operationId: getAnytimeFeedbackStatsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback/{id}\n  method: get\n  operationId: showRequestUsingGET\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback/{id}\n  method: put\n  operationId: updateRequestUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback/{id}\n  method: delete\n  operationId: deleteRequestUsingDELETE\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback/{id}/nudge/{reviewerId}\n  method: put\n  operationId: nudgeReviewerUsingPUT\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment\n  method: get\n  operationId: loadAssessmentsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/assessment\n  method: post\n  operationId: createAssessmentUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment/preview/questionnaire\n  method: post\n  operationId: loadFakeAssessmentsForPreviewQuestionnaireUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment/preview/questionnaire/{cycleId}\n  method: get\n  operationId: loadFakeAssessmentsForPreviewQuestionnaireUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/assessment/{assessmentKey}\n  method: get\n  operationId: loadAssessmentUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/assessment/{assessmentKey}/answers\n  method: post\n  operationId: addAnswerUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment/{assessmentKey}/answers/{authorKey}\n  method: post\n  operationId: moderateAnswersUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment/{assessmentKey}/indicatedDone\n  method: post\n  operationId: indicateDoneUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment/{assessmentKey}/share\n  method: post\n  operationId: shareUsingPOST\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment/{assessmentKey}/unshare\n  method: post\n  operationId: unshareUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessments\n  method: post\n  operationId: createAssessmentUsingPOST_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
-  \ /v2/audit-record\n  method: post\n  operationId: getLogsUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/audit-record/categories\n  method: get\n  operationId: getCategoriesUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/audit-record/types\n  method: get\n  operationId: getTypesUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/audit-record/{id}\n  method: get\n  operationId: getLogUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /v2/automations\n  method: get\n  operationId: getListUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/automations\n  method: post\n  operationId: createUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/automations/options\n  method: get\n  operationId: getAutomationsOptionsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/automations/settings\n  method: get\n  operationId: getAutomationsSettingsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
-  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/automations/settings\n  method: post\n  operationId: setAutomationsSettingsUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/automations/{id}\n  method: get\n  operationId: getUsingGET_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/automations/{id}\n  method: post\n  operationId: editUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /v2/automations/{id}\n  method: delete\n  operationId: deleteUsingDELETE\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/badges\n  method: get\n  operationId: getBadgesUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/badges\n  method: post\n  operationId: createBadgePrototypeUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/badges/icons\n  method: get\n  operationId:\
-  \ getAllIconsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/badges/order\n  method: post\n  operationId: reorderBadgePrototypesUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/badges/prototypes\n  method: get\n  operationId: getBadgePrototypesUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/badges/{id}\n  method: put\n  operationId: editBadgePrototypeUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/badges/{id}\n  method: delete\n  operationId: deleteBadgePrototypeUsingDELETE\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bounced-email/company/{companyId}/aggregate\n  method: get\n  operationId: getBouncedAggregatesByCompanyIdUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/bounced-email/company/{companyId}/aggregate/{encodedEmail}\n  method: delete\n  operationId: removeFromBouncedUsingDELETE\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bounced-email/email\n  method: get\n  operationId: getBouncedByEmailUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/bounced-email/{id}\n  method: delete\n  operationId: removeFromBouncedUsingDELETE_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/calendar/upcoming-admin-events\n  method: get\n  operationId: getEventsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/calendars\n  method: post\n  operationId: postUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/calendars/{id}\n  method: get\n  operationId: getUsingGET_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/calendars/{id}\n  method: put\n  operationId: putUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
-  \ /v2/calendars/{id}\n  method: delete\n  operationId: deleteUsingDELETE_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/companies\n  method: get\n  operationId: listCurrentCompanyUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/generate_excel\n  method: get\n  operationId: generateExcelDownloadUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/merge\n  method: post\n  operationId: mergeCompaniesUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/companies/wicket-compatible\n  method: get\n  operationId: listForUserpickerUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}\n  method: get\n  operationId: getUsingGET_4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/billing\n  method: post\n  operationId: editBillingUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /v2/companies/{companyId}/design\n  method: get\n  operationId: getUsingGET_3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/design\n  method: put\n  operationId: updateUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/companies/{companyId}/design/image\n  method: post\n  operationId: addImageUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
-  \ /v2/companies/{companyId}/emails/modifications\n  method: get\n  operationId: getModificationsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/emails/preview/{type}\n  method: get\n  operationId: getPreviewUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/emails/{templateId}/dummyPreview\n  method: get\n  operationId: renderDummyPreviewUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/emails/{templateId}/preview\n  method: get\n  operationId: renderPreviewUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/emails/{type}\n  method: get\n  operationId: getModificationForTypeUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/mini-users\n  method: get\n  operationId: getCompanyMiniUsersUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/replacements\n  method: get\n  operationId: getReplacementsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/users\n  method: get\n  operationId: getCompanyUsersUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/users/denormalise-reports\n  method: post\n  operationId: denormaliseReportsUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/company-analytics/company-created/{companyId}\n  method: get\n  operationId: getCompanyDateCreatedUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/company-analytics/cycle-data/{companyId}\n  method: get\n  operationId: getCycleDataUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/company-analytics/leave-probability/{companyId}\n\
-  \  method: get\n  operationId: getLeaveProbabilityUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/company-analytics/settings\n  method: get\n  operationId: getSettingsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/company-analytics/settings\n  method: put\n  operationId: updateSettingsUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/company-analytics/{companyId}\n  method: get\n  operationId: getCompanyAnalyticsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/company-analytics/{companyId}\n  method: put\n  operationId: recalculateCompanyAnalyticsUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/company-observer/surveys/{surveyId}\n  method: get\n  operationId: getSurveyUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/company-settings/meeting-visibility\n  method: put\n  operationId: updateCompanyVisibilitySettingsUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/company-settings/{id}/date-time\n  method: get\n  operationId: getSettingsUsingGET_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/company-settings/{id}/date-time\n  method: put\n  operationId: setUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/cycle-feedback-response/{responseId}\n  method: get\n  operationId: getResponseUsingGET_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/cycle-feedback-response/{responseId}/answer\n\
-  \  method: post\n  operationId: answerUsingPOST_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/cycle-feedback-response/{responseId}/reopen\n  method: post\n  operationId: reopenResponseUsingPOST_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/cycle-feedback-response/{responseId}/share\n  method: post\n  operationId: shareResponseUsingPOST_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
-  \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/cycles/all\n  method: get\n  operationId: getAllCyclesUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/cycles/recent\n  method: get\n  operationId: getRecentCyclesUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/downloadable-file\n  method: get\n  operationId: getUsersDownloadableFilesUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/downloadable-file/{fileId}\n  method: get\n  operationId: getFileInfoUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (173 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/agentic-access/small-improvements-agentic-access.yml\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/small-improvements-action-item-resource-api-openapi.yml, openapi/small-improvements-activity-stream-resource-api-openapi.yml,\n  openapi/small-improvements-admin-overview-link-resource-api-openapi.yml, openapi/small-improvements-anytime-feedback-default-resource-api-openapi.yml,\n  openapi/small-improvements-anytime-feedback-export-resource-api-openapi.yml, openapi/small-improvements-anytime-feedback-resource-api-openapi.yml,\n  openapi/small-improvements-assessment-admin-resource-api-openapi.yml, openapi/small-improvements-assessment-resource-api-openapi.yml,\n  openapi/small-improvements-audit-record-resource-api-openapi.yml, openapi/small-improvements-automations-options-resource-api-openapi.yml,\n  openapi/small-improvements-automations-resource-api-openapi.yml, openapi/small-improvements-automations-settings-resource-api-openapi.yml,\n  openapi/small-improvements-badges-resource-api-openapi.yml, openapi/small-improvements-bounced-email-resource-api-openapi.yml,\n\
+  \  openapi/small-improvements-calendar-integration-admin-resource-api-openapi.yml, openapi/small-improvements-calendar-resource-api-openapi.yml,\n  openapi/small-improvements-companies-design-settings-resource-api-openapi.yml, openapi/small-improvements-companies-email-templates-resource-api-openapi.yml,\n  openapi/small-improvements-companies-resource-api-openapi.yml, openapi/small-improvements-company-analytics-resource-api-openapi.yml,\n  openapi/small-improvements-company-date-time-settings-resource-api-openapi.yml, openapi/small-improvements-company-visibility-settings-resource-api-openapi.yml,\n  openapi/small-improvements-cycle-resource-api-openapi.yml, openapi/small-improvements-downloadable-file-resource-api-openapi.yml,\n  openapi/small-improvements-drafts-resource-api-openapi.yml, openapi/small-improvements-email-configuration-resource-api-openapi.yml,\n  openapi/small-improvements-email-event-resource-api-openapi.yml, openapi/small-improvements-email-template-mini-resource-api-openapi.yml,\n\
+  \  openapi/small-improvements-email-templates-resource-api-openapi.yml, openapi/small-improvements-email-verifications-resource-api-openapi.yml,\n  openapi/small-improvements-events-resource-api-openapi.yml, openapi/small-improvements-feature-selection-resource-api-openapi.yml,\n  openapi/small-improvements-features-resource-api-openapi.yml, openapi/small-improvements-feedback-cycle-admin-resource-api-openapi.yml,\n  openapi/small-improvements-feedback-cycles-resource-api-openapi.yml, openapi/small-improvements-feedback-export-resource-api-openapi.yml,\n  openapi/small-improvements-feedback-participants-resource-api-openapi.yml, openapi/small-improvements-feedback-provide-resource-api-openapi.yml,\n  openapi/small-improvements-feedback-requests-resource-api-openapi.yml, openapi/small-improvements-feedback-reviewers-resource-api-openapi.yml,\n  openapi/small-improvements-feedback-statistics-resource-api-openapi.yml, openapi/small-improvements-feedback-template-resource-api-openapi.yml,\n\
+  \  openapi/small-improvements-helpful-resources-attachments-resource-api-openapi.yml, openapi/small-improvements-insights-resource-api-openapi.yml,\n  openapi/small-improvements-logout-resource-api-openapi.yml, openapi/small-improvements-meeting-actions-resource-api-openapi.yml,\n  openapi/small-improvements-meeting-attachment-resource-api-openapi.yml, openapi/small-improvements-meeting-calendar-company-observer-resource-api-openapi.yml,\n  openapi/small-improvements-meeting-calendar-configuration-resource-api-openapi.yml, openapi/small-improvements-meeting-calendar-settings-resource-api-openapi.yml,\n  openapi/small-improvements-meeting-note-resource-api-openapi.yml, openapi/small-improvements-meeting-resource-api-openapi.yml,\n  openapi/small-improvements-meeting-space-resource-api-openapi.yml, openapi/small-improvements-meeting-template-resource-api-openapi.yml,\n  openapi/small-improvements-message-settings-resource-api-openapi.yml, openapi/small-improvements-messages-peer-feedback-resource-api-openapi.yml,\n\
+  \  openapi/small-improvements-messages-resource-api-openapi.yml, openapi/small-improvements-notification-log-resource-api-openapi.yml,\n  openapi/small-improvements-nudge-resource-api-openapi.yml, openapi/small-improvements-objective-categories-resource-api-openapi.yml,\n  openapi/small-improvements-objective-clone-resource-api-openapi.yml, openapi/small-improvements-objective-cycle-admin-resource-api-openapi.yml,\n  openapi/small-improvements-objective-cycles-export-resource-api-openapi.yml, openapi/small-improvements-objective-cycles-resource-api-openapi.yml,\n  openapi/small-improvements-objective-pdf-resource-api-openapi.yml, openapi/small-improvements-objective-ratings-resource-api-openapi.yml,\n  openapi/small-improvements-objective-summaries-resource-api-openapi.yml, openapi/small-improvements-objectives-resource-api-openapi.yml,\n  openapi/small-improvements-outlook-o-auth-resource-api-openapi.yml, openapi/small-improvements-personal-access-token-resource-api-openapi.yml,\n  openapi/small-improvements-praise-resource-api-openapi.yml,\
+  \ openapi/small-improvements-praise-wall-open-resource-api-openapi.yml,\n  openapi/small-improvements-praise-wall-resource-api-openapi.yml, openapi/small-improvements-profile-pictures-resource-api-openapi.yml,\n  openapi/small-improvements-public-calendar-resource-api-openapi.yml, openapi/small-improvements-public-images-resource-api-openapi.yml,\n  openapi/small-improvements-public-me-resource-api-openapi.yml, openapi/small-improvements-reaction-resource-api-openapi.yml,\n  openapi/small-improvements-release-notes-resource-api-openapi.yml, openapi/small-improvements-replacements-resource-api-openapi.yml,\n  openapi/small-improvements-report-resource-api-openapi.yml, openapi/small-improvements-request-feedback-resource-api-openapi.yml,\n  openapi/small-improvements-review-attachment-resource-api-openapi.yml, openapi/small-improvements-review-cycle-admin-resource-api-openapi.yml,\n  openapi/small-improvements-review-cycle-import-resource-api-openapi.yml, openapi/small-improvements-review-cycle-resource-api-openapi.yml,\n\
+  \  openapi/small-improvements-review-cycles-resource-api-openapi.yml, openapi/small-improvements-review-export-resource-api-openapi.yml,\n  openapi/small-improvements-review-graph-resource-api-openapi.yml, openapi/small-improvements-review-questionnaire-resource-api-openapi.yml,\n  openapi/small-improvements-review-resource-api-openapi.yml, openapi/small-improvements-review-statistics-resource-api-openapi.yml,\n  openapi/small-improvements-reviewees-resource-api-openapi.yml, openapi/small-improvements-reviews-resource-api-openapi.yml,\n  openapi/small-improvements-sample-content-resource-api-openapi.yml, openapi/small-improvements-slack-configuration-resource-api-openapi.yml,\n  openapi/small-improvements-subdomain-resource-api-openapi.yml, openapi/small-improvements-summary-assistant-resource-api-openapi.yml,\n  openapi/small-improvements-survey-admin-resource-api-openapi.yml, openapi/small-improvements-survey-analytics-resource-api-openapi.yml,\n  openapi/small-improvements-survey-observer-resource-api-openapi.yml,\
+  \ openapi/small-improvements-survey-templates-resource-api-openapi.yml,\n  openapi/small-improvements-survey-viewer-resource-api-openapi.yml, openapi/small-improvements-talking-point-resource-api-openapi.yml,\n  openapi/small-improvements-unified-feedback-resource-api-openapi.yml, openapi/small-improvements-user-attachment-resource-api-openapi.yml,\n  openapi/small-improvements-user-import-configuration-resource-api-openapi.yml, openapi/small-improvements-user-import-resource-api-openapi.yml,\n  openapi/small-improvements-user-merge-resource-api-openapi.yml, openapi/small-improvements-user-settings-resource-api-openapi.yml,\n  openapi/small-improvements-user-stats-resource-api-openapi.yml, openapi/small-improvements-users-change-resource-api-openapi.yml,\n  openapi/small-improvements-users-resource-api-openapi.yml, openapi/small-improvements-writing-assistant-resource-api-openapi.yml,\n  openapi/small-improvements-your-surveys-resource-api-openapi.yml\ndescription: Recommended x-agentic-access\
+  \ execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 575\n  by_action_class:\n    connected: 264\n    acting: 311\n  by_consequence:\n    read: 264\n    write: 290\n    physical: 11\n    safety-critical: 10\n  human_in_the_loop_required: 10\noperations:\n- path: /v2/action-items\n  method: get\n  operationId: getActionsItemsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/activities\n  method: get\n  operationId: getActivityStreamUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/admin-links/integrations\n  method: get\n  operationId: getIntegrationsUsingGET\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/admin-links/settings\n  method: get\n  operationId: getUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/admin/links\n  method: get\n  operationId: getForOldFrontendUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback-default\n  method: get\n  operationId: getAnytimeFeedbackDefaultUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback-default\n  method: put\n  operationId: updateAnytimeFeedbackDefaultUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-export\n  method: post\n  operationId: triggerExportUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-export/team\n  method: post\n  operationId: triggerExportForTeamUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback\n  method: post\n\
+  \  operationId: requestUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-overview/company\n  method: get\n  operationId: getCompanyOverviewUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback-overview/team\n  method: get\n  operationId: getTeamOverviewUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback-response/{requestId}/{reviewerId}\n  method: get\n  operationId: getResponseUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback-response/{requestId}/{reviewerId}/answer\n  method: post\n  operationId: answerUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-response/{requestId}/{reviewerId}/decline\n  method: post\n  operationId: declineResponseUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-response/{requestId}/{reviewerId}/reopen\n  method: post\n  operationId: reopenResponseUsingPOST\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-response/{requestId}/{reviewerId}/share\n  method: post\n  operationId: shareResponseUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback-stats\n  method: get\n  operationId: getAnytimeFeedbackStatsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback/{id}\n  method: get\n  operationId: showRequestUsingGET\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/anytime-feedback/{id}\n  method: put\n  operationId: updateRequestUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback/{id}\n  method: delete\n  operationId: deleteRequestUsingDELETE\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/anytime-feedback/{id}/nudge/{reviewerId}\n  method: put\n  operationId: nudgeReviewerUsingPUT\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment\n  method: post\n  operationId: createAssessmentUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment/{assessmentKey}/answers/{authorKey}\n  method: post\n  operationId: moderateAnswersUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
+  \ /v2/assessment\n  method: get\n  operationId: loadAssessmentsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/assessment/preview/questionnaire\n  method: post\n  operationId: loadFakeAssessmentsForPreviewQuestionnaireUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment/preview/questionnaire/{cycleId}\n  method: get\n  operationId: loadFakeAssessmentsForPreviewQuestionnaireUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/assessment/{assessmentKey}\n  method: get\n  operationId: loadAssessmentUsingGET\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/assessment/{assessmentKey}/answers\n  method: post\n  operationId: addAnswerUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment/{assessmentKey}/indicatedDone\n  method: post\n  operationId: indicateDoneUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment/{assessmentKey}/share\n  method: post\n  operationId: shareUsingPOST\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessment/{assessmentKey}/unshare\n  method: post\n  operationId: unshareUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/assessments\n  method: post\n  operationId: createAssessmentUsingPOST_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
+  \ required\n- path: /v2/audit-record\n  method: post\n  operationId: getLogsUsingPOST\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/audit-record/categories\n  method: get\n  operationId: getCategoriesUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/audit-record/types\n  method: get\n  operationId: getTypesUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/audit-record/{id}\n  method: get\n  operationId: getLogUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/automations/options\n  method: get\n  operationId: getAutomationsOptionsUsingGET\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/automations\n  method: get\n  operationId: getListUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/automations\n  method: post\n  operationId: createUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/automations/{id}\n  method: get\n  operationId: getUsingGET_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/automations/{id}\n  method: post\n  operationId: editUsingPOST\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/automations/{id}\n  method: delete\n  operationId: deleteUsingDELETE\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/automations/settings\n  method: get\n  operationId: getAutomationsSettingsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/automations/settings\n  method: post\n  operationId: setAutomationsSettingsUsingPOST\n  x-agentic-access:\n \
+  \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/badges\n  method: get\n  operationId: getBadgesUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/badges\n  method: post\n  operationId: createBadgePrototypeUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/badges/icons\n  method: get\n  operationId: getAllIconsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/badges/order\n  method: post\n  operationId: reorderBadgePrototypesUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/badges/prototypes\n  method: get\n  operationId: getBadgePrototypesUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/badges/{id}\n  method: put\n  operationId: editBadgePrototypeUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /v2/badges/{id}\n  method: delete\n  operationId: deleteBadgePrototypeUsingDELETE\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bounced-email/company/{companyId}/aggregate\n  method: get\n  operationId: getBouncedAggregatesByCompanyIdUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/bounced-email/company/{companyId}/aggregate/{encodedEmail}\n  method: delete\n  operationId: removeFromBouncedUsingDELETE\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/bounced-email/email\n  method: get\n  operationId: getBouncedByEmailUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/bounced-email/{id}\n  method: delete\n  operationId: removeFromBouncedUsingDELETE_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/admin-calendar-integration\n  method: get\n  operationId: getConfigurationUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/admin-calendar-integration/remove-provider\n\
+  \  method: post\n  operationId: removeProviderUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/admin-calendar-integration/verify-google\n  method: put\n  operationId: verifyGoogleConnectionUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/calendar/upcoming-admin-events\n  method: get\n  operationId: getEventsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/calendars\n  method: post\n\
+  \  operationId: postUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/calendars/{id}\n  method: get\n  operationId: getUsingGET_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/calendars/{id}\n  method: put\n  operationId: putUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/calendars/{id}\n  method: delete\n  operationId: deleteUsingDELETE_1\n  x-agentic-access:\n    action-class: acting\n\
+  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/user-calendar\n  method: get\n  operationId: getUsersCalendarUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/design\n  method: get\n  operationId: getUsingGET_3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/design\n  method: put\n  operationId: updateUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /v2/companies/{companyId}/design/image\n  method: post\n  operationId: addImageUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/companies/{companyId}/emails/modifications\n  method: get\n  operationId: getModificationsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/emails/preview/{type}\n  method: get\n  operationId: getPreviewUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/emails/{templateId}/dummyPreview\n\
+  \  method: get\n  operationId: renderDummyPreviewUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/emails/{templateId}/preview\n  method: get\n  operationId: renderPreviewUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/emails/{type}\n  method: get\n  operationId: getModificationForTypeUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/all-companies\n  method: get\n  operationId: listAllUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies\n  method: get\n  operationId: listCurrentCompanyUsingGET\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/generate_excel\n  method: get\n  operationId: generateExcelDownloadUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/merge\n  method: post\n  operationId: mergeCompaniesUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/companies/wicket-compatible\n  method: get\n  operationId: listForUserpickerUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
+  \ path: /v2/companies/{companyId}\n  method: get\n  operationId: getUsingGET_4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/billing\n  method: post\n  operationId: editBillingUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/companies/{companyId}/mini-users\n  method: get\n  operationId: getCompanyMiniUsersUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/replacements\n  method: get\n  operationId: getReplacementsUsingGET\n  x-agentic-access:\n    action-class: connected\n\
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/companies/{companyId}/users\n  method: get\n  operationId: getCompanyUsersUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (180 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/agentic-access/small-improvements-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/agentic-access/small-improvements-agentic-access.yml
-summary_line: 575 operations · 318 acting · 10 human-in-the-loop
+summary_line: 575 operations · 311 acting · 10 human-in-the-loop
 tags:
 - Performance Management
 - Human Resources

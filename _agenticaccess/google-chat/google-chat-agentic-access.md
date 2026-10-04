@@ -84,5 +84,5 @@ tags:
 - Google
 - Google Workspace
 - Messaging
-- Space
+- Spaces
 ---

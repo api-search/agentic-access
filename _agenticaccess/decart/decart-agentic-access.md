@@ -4,12 +4,6 @@ action_class_counts:
   acting: 67
   connected: 8
 api_specs:
-- filename: decart-realtime-api-openapi.yml
-  format: yaml
-  label: Decart Realtime API
-  slug: decart-realtime-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/openapi/decart-realtime-api-openapi.yml
 - filename: decart-client-api-openapi.yml
   format: yaml
   label: Decart Client API
@@ -116,7 +110,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decart/refs/he
 summary_line: 75 operations · 67 acting
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Video
 - Video Generation
 - Video Editing
@@ -129,4 +123,5 @@ tags:
 - Media
 - Developer Tools
 - Company
+- A2A
 ---

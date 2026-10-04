@@ -3,12 +3,12 @@ acting_count: 168
 action_class_counts:
   acting: 168
 api_specs:
-- filename: cables-openapi.yml
+- filename: cables-tools-api-openapi.yml
   format: yaml
-  label: TensorFlow.js Social Media MCP Server
-  slug: tensorflowjs-social-media-mcp-server
+  label: Cables Tools API
+  slug: cables-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cables/refs/heads/main/openapi/cables-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cables/refs/heads/main/openapi/cables-tools-api-openapi.yml
 consequence_counts:
   write: 168
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,13 +72,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cables/refs/he
 summary_line: 168 operations · 168 acting
 tags:
 - MCP Server
-- agent-native
+- Agent-Native
 - x402
 - pay-per-call
-- Machine-Learning
+- Machine Learning
 - tensorflow-js
 - NLP
-- Computer-Vision
+- Computer Vision
 - Social Media Analytics
 - OpenAPI
 - Solana

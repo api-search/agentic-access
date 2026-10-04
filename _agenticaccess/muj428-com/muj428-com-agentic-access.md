@@ -4,12 +4,132 @@ action_class_counts:
   acting: 14
   connected: 10
 api_specs:
-- filename: muj428-com-trust-layer-openapi.json
-  format: json
-  label: MUJ428 Trust Layer API
-  slug: muj428-trust-layer-api
+- filename: muj428-com-compatibility-api-openapi.yml
+  format: yaml
+  label: MUJ428 Compatibility API
+  slug: muj428-com-compatibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-trust-layer-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-compatibility-api-openapi.yml
+- filename: muj428-com-discover-api-openapi.yml
+  format: yaml
+  label: MUJ428 Discover API
+  slug: muj428-com-discover-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-discover-api-openapi.yml
+- filename: muj428-com-evidence-signal-api-openapi.yml
+  format: yaml
+  label: MUJ428 Evidence Signal API
+  slug: muj428-com-evidence-signal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-evidence-signal-api-openapi.yml
+- filename: muj428-com-health-api-openapi.yml
+  format: yaml
+  label: MUJ428 Health API
+  slug: muj428-com-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-health-api-openapi.yml
+- filename: muj428-com-heartbeat-api-openapi.yml
+  format: yaml
+  label: MUJ428 Heartbeat API
+  slug: muj428-com-heartbeat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-heartbeat-api-openapi.yml
+- filename: muj428-com-loop-api-openapi.yml
+  format: yaml
+  label: MUJ428 Loop API
+  slug: muj428-com-loop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-loop-api-openapi.yml
+- filename: muj428-com-milestone-attestation-api-openapi.yml
+  format: yaml
+  label: MUJ428 Milestone Attestation API
+  slug: muj428-com-milestone-attestation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-milestone-attestation-api-openapi.yml
+- filename: muj428-com-monitor-api-openapi.yml
+  format: yaml
+  label: MUJ428 Monitor API
+  slug: muj428-com-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-monitor-api-openapi.yml
+- filename: muj428-com-payments-api-openapi.yml
+  format: yaml
+  label: MUJ428 Payments API
+  slug: muj428-com-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-payments-api-openapi.yml
+- filename: muj428-com-pricing-json-api-openapi.yml
+  format: yaml
+  label: MUJ428 Pricing.json API
+  slug: muj428-com-pricing-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-pricing-json-api-openapi.yml
+- filename: muj428-com-reputation-check-api-openapi.yml
+  format: yaml
+  label: MUJ428 Reputation Check API
+  slug: muj428-com-reputation-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-reputation-check-api-openapi.yml
+- filename: muj428-com-rescue-api-openapi.yml
+  format: yaml
+  label: MUJ428 Rescue API
+  slug: muj428-com-rescue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-rescue-api-openapi.yml
+- filename: muj428-com-route-api-openapi.yml
+  format: yaml
+  label: MUJ428 Route API
+  slug: muj428-com-route-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-route-api-openapi.yml
+- filename: muj428-com-services-api-openapi.yml
+  format: yaml
+  label: MUJ428 Services API
+  slug: muj428-com-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-services-api-openapi.yml
+- filename: muj428-com-transaction-assurance-api-openapi.yml
+  format: yaml
+  label: MUJ428 Transaction Assurance API
+  slug: muj428-com-transaction-assurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-transaction-assurance-api-openapi.yml
+- filename: muj428-com-trust-api-openapi.yml
+  format: yaml
+  label: MUJ428 Trust API
+  slug: muj428-com-trust-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-trust-api-openapi.yml
+- filename: muj428-com-trust-dns-api-openapi.yml
+  format: yaml
+  label: MUJ428 Trust Dns API
+  slug: muj428-com-trust-dns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-trust-dns-api-openapi.yml
+- filename: muj428-com-trust-layer-report-api-openapi.yml
+  format: yaml
+  label: MUJ428 Trust Layer Report API
+  slug: muj428-com-trust-layer-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-trust-layer-report-api-openapi.yml
+- filename: muj428-com-trust-requests-api-openapi.yml
+  format: yaml
+  label: MUJ428 Trust Requests API
+  slug: muj428-com-trust-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-trust-requests-api-openapi.yml
+- filename: muj428-com-welcome-api-openapi.yml
+  format: yaml
+  label: MUJ428 Welcome API
+  slug: muj428-com-welcome-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-welcome-api-openapi.yml
+- filename: muj428-com-well-known-api-openapi.yml
+  format: yaml
+  label: MUJ428 .well Known API
+  slug: muj428-com-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/muj428-com/refs/heads/main/openapi/muj428-com-well-known-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -28,14 +148,14 @@ notable_actions:
   method: POST
   path: /v1/payments/select
 operation_count: 24
-overview: 'MUJ428 LLC exposes 24 API operations that an AI agent could call, of which 14 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'MUJ428 exposes 24 API operations that an AI agent could call, of which 14 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 10 read, 13 write, and 1 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: MUJ428 LLC
+provider_name: MUJ428
 provider_slug: muj428-com
 slug: muj428-com-agentic-access
 source_filename: muj428-com-agentic-access.yml
@@ -59,7 +179,7 @@ tags:
 - MCP
 - x402
 - Payments
-- Risk
+- Risk Management
 - Verification
-- agent-native
+- Agent-Native
 ---

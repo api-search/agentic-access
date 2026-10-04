@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 5
 api_specs:
-- filename: newminecraftservers-openapi.yml
+- filename: newminecraftservers-minecraft-services-api-openapi.yml
   format: yaml
-  label: NewMinecraftServers API
-  slug: newminecraftservers-api
+  label: NewMinecraftServers Minecraft services API
+  slug: newminecraftservers-minecraft-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newminecraftservers/refs/heads/main/openapi/newminecraftservers-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/newminecraftservers/refs/heads/main/openapi/newminecraftservers-minecraft-services-api-openapi.yml
+- filename: newminecraftservers-servers-api-openapi.yml
+  format: yaml
+  label: NewMinecraftServers Servers API
+  slug: newminecraftservers-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/newminecraftservers/refs/heads/main/openapi/newminecraftservers-servers-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

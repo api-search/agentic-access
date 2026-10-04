@@ -63,9 +63,9 @@ tags:
 - Income Verification
 - Credit Check
 - Background Checks
-- Fraud Detection
+- Fraud Prevention
 - Property Management
-- Real-Estate
+- Real Estate
 - PropTech
 - FCRA
 - Fair Housing

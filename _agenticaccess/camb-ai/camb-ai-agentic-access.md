@@ -81,4 +81,5 @@ tags:
 - Transcription
 - Voice Cloning
 - Speech
+- Real-Time
 ---

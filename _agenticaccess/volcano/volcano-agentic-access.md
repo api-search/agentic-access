@@ -64,5 +64,5 @@ tags:
 - Incubating
 - Kubernetes
 - Scheduling
-- Machine-Learning
+- Machine Learning
 ---

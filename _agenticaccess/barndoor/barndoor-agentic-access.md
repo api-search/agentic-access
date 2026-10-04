@@ -88,7 +88,6 @@ summary_line: 26 operations · 13 acting · 1 human-in-the-loop
 tags:
 - AI Agents
 - AI Governance
-- Agentic AI
 - MCP
 - Policy Enforcement
 - Authentication

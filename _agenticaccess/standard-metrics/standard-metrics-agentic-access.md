@@ -1,60 +1,60 @@
 ---
-acting_count: 19
+acting_count: 14
 action_class_counts:
-  acting: 19
-  connected: 15
+  acting: 14
+  connected: 20
 api_specs:
 - filename: standard-metrics-budgets-api-openapi.yml
   format: yaml
-  label: Standard Metrics budgets API
+  label: Standard Metrics Budgets API
   slug: standard-metrics-budgets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-budgets-api-openapi.yml
 - filename: standard-metrics-cap-table-api-openapi.yml
   format: yaml
-  label: Standard Metrics cap_table API
+  label: Standard Metrics Cap Table API
   slug: standard-metrics-cap-table-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-cap-table-api-openapi.yml
 - filename: standard-metrics-companies-api-openapi.yml
   format: yaml
-  label: Standard Metrics companies API
+  label: Standard Metrics Companies API
   slug: standard-metrics-companies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-companies-api-openapi.yml
 - filename: standard-metrics-custom-columns-api-openapi.yml
   format: yaml
-  label: Standard Metrics custom-columns API
+  label: Standard Metrics Custom Columns API
   slug: standard-metrics-custom-columns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-custom-columns-api-openapi.yml
 - filename: standard-metrics-documents-api-openapi.yml
   format: yaml
-  label: Standard Metrics documents API
+  label: Standard Metrics Documents API
   slug: standard-metrics-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-documents-api-openapi.yml
 - filename: standard-metrics-firm-details-api-openapi.yml
   format: yaml
-  label: Standard Metrics firm-details API
+  label: Standard Metrics Firm Details API
   slug: standard-metrics-firm-details-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-firm-details-api-openapi.yml
 - filename: standard-metrics-funds-api-openapi.yml
   format: yaml
-  label: Standard Metrics funds API
+  label: Standard Metrics Funds API
   slug: standard-metrics-funds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-funds-api-openapi.yml
 - filename: standard-metrics-information-reports-api-openapi.yml
   format: yaml
-  label: Standard Metrics information-reports API
+  label: Standard Metrics Information Reports API
   slug: standard-metrics-information-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-information-reports-api-openapi.yml
 - filename: standard-metrics-information-requests-api-openapi.yml
   format: yaml
-  label: Standard Metrics information-requests API
+  label: Standard Metrics Information Requests API
   slug: standard-metrics-information-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-information-requests-api-openapi.yml
@@ -66,7 +66,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-metrics-api-openapi.yml
 - filename: standard-metrics-notes-api-openapi.yml
   format: yaml
-  label: Standard Metrics notes API
+  label: Standard Metrics Notes API
   slug: standard-metrics-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-notes-api-openapi.yml
@@ -78,20 +78,20 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-o-api-openapi.yml
 - filename: standard-metrics-users-api-openapi.yml
   format: yaml
-  label: Standard Metrics users API
+  label: Standard Metrics Users API
   slug: standard-metrics-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-users-api-openapi.yml
 - filename: standard-metrics-whoami-api-openapi.yml
   format: yaml
-  label: Standard Metrics whoami API
+  label: Standard Metrics Whoami API
   slug: standard-metrics-whoami-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/openapi/standard-metrics-whoami-api-openapi.yml
 consequence_counts:
-  read: 15
+  read: 20
   safety-critical: 1
-  write: 18
+  write: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 1
 kind: agentic-access
@@ -106,10 +106,10 @@ notable_actions:
   method: PUT
   path: /beta/investment/overrides/upsert/
 operation_count: 34
-overview: 'Standard Metrics exposes 34 API operations that an AI agent could call, of which 19 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Standard Metrics exposes 34 API operations that an AI agent could call, of which 14 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 15 read, 18 write, and 1 safety-critical.
+  By consequence: 20 read, 13 write, and 1 safety-critical.
 
 
   1 operation are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -122,24 +122,24 @@ slug: standard-metrics-agentic-access
 source_filename: standard-metrics-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/standard-metrics-auth-openapi.json, openapi/standard-metrics-investment-data-openapi.json,\n  openapi/standard-metrics-main-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 34\n  by_action_class:\n    acting: 19\n    connected: 15\n  by_consequence:\n    write: 18\n    safety-critical: 1\n    read: 15\n  human_in_the_loop_required: 1\noperations:\n- path: /o/token/\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/financing-events/get/\n\
-  \  method: post\n  operationId: get_financing_events\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/share-classes/get/\n  method: post\n  operationId: get_share_classes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/transactions/get/\n  method: post\n  operationId: get_transactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
-  \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/securities/get/\n  method: post\n  operationId: get_securities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/share-classes/add/\n  method: post\n  operationId: add_share_classes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/financing-rounds/add/\n  method: post\n  operationId: add_financing_rounds\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/overrides/upsert/\n  method: put\n  operationId: upsert_overrides\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /beta/investment/transactions/add/\n  method: post\n  operationId: add_transactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/securities/add/\n\
-  \  method: post\n  operationId: add_securities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/metrics/get/\n  method: post\n  operationId: get_metrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /budgets/\n  method: get\n  operationId: budgets_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/\n  method: get\n  operationId: companies_list\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/\n  method: post\n  operationId: companies_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies/{company_id}/\n  method: patch\n  operationId: companies_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies/{company_id}/logo/\n  method: post\n  operationId: companies_logo_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
-  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom-columns/\n  method: get\n  operationId: custom-columns_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom-columns/options/\n  method: get\n  operationId: custom-columns_options_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom-columns/values/\n  method: put\n  operationId: custom-columns_values_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /documents/\n  method: get\n  operationId: documents_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/\n  method: post\n  operationId: documents_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{document_id}/download/\n  method: get\n  operationId: documents_download_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /firm-details/\n  method: get\n  operationId: firm-details_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
-  \ token:\n      max-ttl: 3600\n    audit: none\n- path: /funds/\n  method: get\n  operationId: funds_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /information-reports/\n  method: get\n  operationId: information-reports_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /information-requests/\n  method: get\n  operationId: information-requests_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/\n  method: get\n  operationId: metrics_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/\n  method: post\n  operationId: metrics_create\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics/options/\n  method: get\n  operationId: metrics_options_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/{datum_id}/\n  method: delete\n  operationId: metrics_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notes/\n  method: get\n  operationId: notes_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /notes/\n  method: post\n  operationId: notes_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/\n  method: get\n  operationId: users_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /whoami/\n  method: get\n  operationId: whoami_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/standard-metrics-budgets-api-openapi.yml, openapi/standard-metrics-cap-table-api-openapi.yml,\n  openapi/standard-metrics-companies-api-openapi.yml, openapi/standard-metrics-custom-columns-api-openapi.yml,\n  openapi/standard-metrics-documents-api-openapi.yml, openapi/standard-metrics-firm-details-api-openapi.yml,\n  openapi/standard-metrics-funds-api-openapi.yml, openapi/standard-metrics-information-reports-api-openapi.yml,\n  openapi/standard-metrics-information-requests-api-openapi.yml, openapi/standard-metrics-metrics-api-openapi.yml,\n  openapi/standard-metrics-notes-api-openapi.yml, openapi/standard-metrics-o-api-openapi.yml,\n  openapi/standard-metrics-users-api-openapi.yml, openapi/standard-metrics-whoami-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n\
+  \  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 34\n  by_action_class:\n    connected: 20\n    acting: 14\n  by_consequence:\n    read: 20\n    write: 13\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /budgets/\n  method: get\n  operationId: budgets_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/investment/financing-events/get/\n  method: post\n  operationId: get_financing_events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/investment/share-classes/get/\n  method: post\n  operationId: get_share_classes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/investment/transactions/get/\n\
+  \  method: post\n  operationId: get_transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/investment/securities/get/\n  method: post\n  operationId: get_securities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/investment/share-classes/add/\n  method: post\n  operationId: add_share_classes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/financing-rounds/add/\n  method: post\n  operationId: add_financing_rounds\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
+  \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/overrides/upsert/\n  method: put\n  operationId: upsert_overrides\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /beta/investment/transactions/add/\n  method: post\n  operationId: add_transactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/securities/add/\n\
+  \  method: post\n  operationId: add_securities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/investment/metrics/get/\n  method: post\n  operationId: get_metrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/\n  method: get\n  operationId: companies_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/\n  method: post\n  operationId: companies_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies/{company_id}/\n  method: patch\n  operationId: companies_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies/{company_id}/logo/\n  method: post\n  operationId: companies_logo_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom-columns/\n  method: get\n  operationId: custom-columns_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom-columns/options/\n  method: get\n  operationId: custom-columns_options_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom-columns/values/\n  method: put\n  operationId: custom-columns_values_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/\n  method: get\n  operationId: documents_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/\n  method: post\n  operationId: documents_create\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{document_id}/download/\n  method: get\n  operationId: documents_download_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /firm-details/\n  method: get\n  operationId: firm-details_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /funds/\n  method: get\n  operationId: funds_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /information-reports/\n  method: get\n  operationId: information-reports_list\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /information-requests/\n  method: get\n  operationId: information-requests_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/\n  method: get\n  operationId: metrics_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/\n  method: post\n  operationId: metrics_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics/options/\n  method: get\n  operationId: metrics_options_list\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/{datum_id}/\n  method: delete\n  operationId: metrics_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notes/\n  method: get\n  operationId: notes_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notes/\n  method: post\n  operationId: notes_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
+  \    audit: required\n- path: /o/token/\n  method: post\n  operationId: postOToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/\n  method: get\n  operationId: users_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /whoami/\n  method: get\n  operationId: whoami_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/agentic-access/standard-metrics-agentic-access.yml
-summary_line: 34 operations · 19 acting · 1 human-in-the-loop
+summary_line: 34 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Company
 - Venture Capital
 - Private Equity
-- Portfolio-Management
+- Portfolio Management
 - Financial Data
 - Investment Data
 - Cap Table

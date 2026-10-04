@@ -110,7 +110,7 @@ tags:
 - Android
 - Automotive
 - Google
-- Machine-Learning
+- Machine Learning
 - Mobile Development
 - SDK
 - TV

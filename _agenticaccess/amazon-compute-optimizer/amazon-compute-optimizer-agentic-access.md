@@ -1,136 +1,18 @@
 ---
-acting_count: 21
+acting_count: 9
 action_class_counts:
-  acting: 21
+  acting: 9
+  connected: 12
 api_specs:
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-deleterecommendationpreferences-api-openapi.yml
+- filename: amazon-compute-optimizer-aws-compute-optimizer-api-openapi.yml
   format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-deleterecommendationpreferences-api
+  label: Amazon Compute Optimizer AWS Compute Optimizer API
+  slug: amazon-compute-optimizer-aws-compute-optimizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-deleterecommendationpreferences-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-describerecommendationexportjobs-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.DescribeRecommendationExportJobs API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-describerecommendationexportjobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-describerecommendationexportjobs-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportautoscalinggrouprecommendations-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.ExportAutoScalingGroupRecommendations API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportautoscalinggrouprecommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportautoscalinggrouprecommendations-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportebsvolumerecommendations-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.ExportEBSVolumeRecommendations API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportebsvolumerecommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportebsvolumerecommendations-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportec2instancerecommendations-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.ExportEC2InstanceRecommendations API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportec2instancerecommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportec2instancerecommendations-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportecsservicerecommendations-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.ExportECSServiceRecommendations API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportecsservicerecommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportecsservicerecommendations-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportlambdafunctionrecommendations-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.ExportLambdaFunctionRecommendations API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportlambdafunctionrecommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportlambdafunctionrecommendations-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getautoscalinggrouprecommendations-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetAutoScalingGroupRecommendations API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getautoscalinggrouprecommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getautoscalinggrouprecommendations-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getebsvolumerecommendations-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEBSVolumeRecommendations API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getebsvolumerecommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getebsvolumerecommendations-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2instancerecommendations-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEC2InstanceRecommendations API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2instancerecommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2instancerecommendations-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2recommendationprojectedmetrics-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEC2RecommendationProjectedMetrics API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2recommendationprojectedmetrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2recommendationprojectedmetrics-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendationprojectedmetrics-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetECSServiceRecommendationProjectedMetrics API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendationprojectedmetrics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendationprojectedmetrics-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendations-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetECSServiceRecommendations API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendations-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-geteffectiverecommendationpreferences-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEffectiveRecommendationPreferences API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-geteffectiverecommendationpreferences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-geteffectiverecommendationpreferences-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatus-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEnrollmentStatus API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatus-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatusesfororganization-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEnrollmentStatusesForOrganization API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatusesfororganization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatusesfororganization-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getlambdafunctionrecommendations-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetLambdaFunctionRecommendations API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getlambdafunctionrecommendations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getlambdafunctionrecommendations-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationpreferences-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetRecommendationPreferences API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationpreferences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationpreferences-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationsummaries-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetRecommendationSummaries API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationsummaries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationsummaries-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-putrecommendationpreferences-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.PutRecommendationPreferences API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-putrecommendationpreferences-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-putrecommendationpreferences-api-openapi.yml
-- filename: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-updateenrollmentstatus-api-openapi.yml
-  format: yaml
-  label: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.UpdateEnrollmentStatus API'
-  slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-updateenrollmentstatus-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-updateenrollmentstatus-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-aws-compute-optimizer-api-openapi.yml
 consequence_counts:
-  write: 21
+  read: 12
+  write: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -140,10 +22,10 @@ name: Amazon Compute Optimizer Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 21
-overview: 'Amazon Compute Optimizer exposes 21 API operations that an AI agent could call, of which 21 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Amazon Compute Optimizer exposes 21 API operations that an AI agent could call, of which 9 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 21 write.
+  By consequence: 12 read and 9 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -153,21 +35,22 @@ slug: amazon-compute-optimizer-agentic-access
 source_filename: amazon-compute-optimizer-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-compute-optimizer-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 21\n  by_action_class:\n    acting: 21\n  by_consequence:\n    write: 21\n  human_in_the_loop_required: 0\noperations:\n- path: /#X-Amz-Target=ComputeOptimizerService.DeleteRecommendationPreferences\n  method: post\n  operationId: DeleteRecommendationPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.DescribeRecommendationExportJobs\n\
-  \  method: post\n  operationId: DescribeRecommendationExportJobs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.ExportAutoScalingGroupRecommendations\n  method: post\n  operationId: ExportAutoScalingGroupRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.ExportEBSVolumeRecommendations\n  method: post\n  operationId: ExportEBSVolumeRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
-  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.ExportEC2InstanceRecommendations\n  method: post\n  operationId: ExportEC2InstanceRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.ExportECSServiceRecommendations\n  method: post\n  operationId: ExportECSServiceRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
-  \     - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.ExportLambdaFunctionRecommendations\n  method: post\n  operationId: ExportLambdaFunctionRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetAutoScalingGroupRecommendations\n  method: post\n  operationId: GetAutoScalingGroupRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEBSVolumeRecommendations\n  method: post\n  operationId:\
-  \ GetEBSVolumeRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEC2InstanceRecommendations\n  method: post\n  operationId: GetEC2InstanceRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEC2RecommendationProjectedMetrics\n  method: post\n  operationId: GetEC2RecommendationProjectedMetrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetECSServiceRecommendationProjectedMetrics\n  method: post\n  operationId: GetECSServiceRecommendationProjectedMetrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetECSServiceRecommendations\n  method: post\n  operationId: GetECSServiceRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEffectiveRecommendationPreferences\n  method: post\n  operationId: GetEffectiveRecommendationPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEnrollmentStatus\n  method: post\n  operationId: GetEnrollmentStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEnrollmentStatusesForOrganization\n  method: post\n  operationId: GetEnrollmentStatusesForOrganization\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetLambdaFunctionRecommendations\n  method: post\n  operationId: GetLambdaFunctionRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetRecommendationPreferences\n  method: post\n  operationId: GetRecommendationPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetRecommendationSummaries\n  method: post\n  operationId: GetRecommendationSummaries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.PutRecommendationPreferences\n  method: post\n  operationId: PutRecommendationPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.UpdateEnrollmentStatus\n  method: post\n\
-  \  operationId: UpdateEnrollmentStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-deleterecommendationpreferences-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-describerecommendationexportjobs-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportautoscalinggrouprecommendations-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportebsvolumerecommendations-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportec2instancerecommendations-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportecsservicerecommendations-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportlambdafunctionrecommendations-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getautoscalinggrouprecommendations-api-openapi.yml,\n\
+  \  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getebsvolumerecommendations-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2instancerecommendations-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2recommendationprojectedmetrics-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendationprojectedmetrics-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendations-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-geteffectiverecommendationpreferences-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatus-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatusesfororganization-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getlambdafunctionrecommendations-api-openapi.yml,\n\
+  \  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationpreferences-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationsummaries-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-putrecommendationpreferences-api-openapi.yml,\n  openapi/amazon-compute-optimizer-x-amz-target-computeoptimizerservice-updateenrollmentstatus-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 21\n  by_action_class:\n    acting: 9\n    connected: 12\n  by_consequence:\n    write: 9\n    read: 12\n  human_in_the_loop_required: 0\noperations:\n- path: /#X-Amz-Target=ComputeOptimizerService.DeleteRecommendationPreferences\n  method: post\n\
+  \  operationId: DeleteRecommendationPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.DescribeRecommendationExportJobs\n  method: post\n  operationId: DescribeRecommendationExportJobs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.ExportAutoScalingGroupRecommendations\n  method: post\n  operationId: ExportAutoScalingGroupRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.ExportEBSVolumeRecommendations\n  method: post\n  operationId: ExportEBSVolumeRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.ExportEC2InstanceRecommendations\n  method: post\n  operationId: ExportEC2InstanceRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
+  \    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.ExportECSServiceRecommendations\n  method: post\n  operationId: ExportECSServiceRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.ExportLambdaFunctionRecommendations\n  method: post\n  operationId: ExportLambdaFunctionRecommendations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.GetAutoScalingGroupRecommendations\n  method: post\n  operationId: GetAutoScalingGroupRecommendations\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEBSVolumeRecommendations\n  method: post\n  operationId: GetEBSVolumeRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEC2InstanceRecommendations\n  method: post\n  operationId: GetEC2InstanceRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEC2RecommendationProjectedMetrics\n  method: post\n  operationId: GetEC2RecommendationProjectedMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
+  \   audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetECSServiceRecommendationProjectedMetrics\n  method: post\n  operationId: GetECSServiceRecommendationProjectedMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetECSServiceRecommendations\n  method: post\n  operationId: GetECSServiceRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEffectiveRecommendationPreferences\n  method: post\n  operationId: GetEffectiveRecommendationPreferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEnrollmentStatus\n  method: post\n\
+  \  operationId: GetEnrollmentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetEnrollmentStatusesForOrganization\n  method: post\n  operationId: GetEnrollmentStatusesForOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetLambdaFunctionRecommendations\n  method: post\n  operationId: GetLambdaFunctionRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetRecommendationPreferences\n  method: post\n  operationId: GetRecommendationPreferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.GetRecommendationSummaries\n  method: post\n  operationId: GetRecommendationSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=ComputeOptimizerService.PutRecommendationPreferences\n  method: post\n  operationId: PutRecommendationPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=ComputeOptimizerService.UpdateEnrollmentStatus\n  method: post\n  operationId: UpdateEnrollmentStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
+  \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/agentic-access/amazon-compute-optimizer-agentic-access.yml
-summary_line: 21 operations · 21 acting
+summary_line: 21 operations · 9 acting
 tags:
 - Cost Optimization
 - FinOps
-- Machine-Learning
+- Machine Learning
 - Resource Recommendations
 ---

@@ -63,4 +63,5 @@ tags:
 - Database-as-a-Service
 - Managed Database
 - Relational Databases
+- Database
 ---

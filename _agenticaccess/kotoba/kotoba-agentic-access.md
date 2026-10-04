@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: kotoba-transcriptionapi-api-openapi.yml
   format: yaml
-  label: Kotoba transcriptionApi API
+  label: Kotoba Transcription API
   slug: kotoba-transcriptionapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/openapi/kotoba-transcriptionapi-api-openapi.yml
@@ -42,7 +42,7 @@ summary_line: 2 operations · 1 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Voice
 - Speech Recognition
 - Speech-to-Text

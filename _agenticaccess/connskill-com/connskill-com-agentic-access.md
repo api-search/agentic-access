@@ -1,18 +1,108 @@
 ---
-acting_count: 62
+acting_count: 61
 action_class_counts:
-  acting: 62
-  connected: 26
+  acting: 61
+  connected: 27
 api_specs:
-- filename: connskill-com-openapi.yml
+- filename: connskill-com-analytics-api-openapi.yml
   format: yaml
-  label: CONNSKILL Growth Services API
-  slug: connskill-growth-services-api
+  label: CONNSKILL Analytics API
+  slug: connskill-com-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-analytics-api-openapi.yml
+- filename: connskill-com-conformance-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Conformance API
+  slug: connskill-com-conformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-conformance-api-openapi.yml
+- filename: connskill-com-directory-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Directory API
+  slug: connskill-com-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-directory-api-openapi.yml
+- filename: connskill-com-discovery-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Discovery API
+  slug: connskill-com-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-discovery-api-openapi.yml
+- filename: connskill-com-eu-llm-api-openapi.yml
+  format: yaml
+  label: CONNSKILL EU LLM API
+  slug: connskill-com-eu-llm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-eu-llm-api-openapi.yml
+- filename: connskill-com-health-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Health API
+  slug: connskill-com-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-health-api-openapi.yml
+- filename: connskill-com-mail-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Mail API
+  slug: connskill-com-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-mail-api-openapi.yml
+- filename: connskill-com-meta-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Meta API
+  slug: connskill-com-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-meta-api-openapi.yml
+- filename: connskill-com-payments-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Payments API
+  slug: connskill-com-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-payments-api-openapi.yml
+- filename: connskill-com-seo-api-openapi.yml
+  format: yaml
+  label: CONNSKILL SEO API
+  slug: connskill-com-seo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-seo-api-openapi.yml
+- filename: connskill-com-serp-api-openapi.yml
+  format: yaml
+  label: CONNSKILL SERP API
+  slug: connskill-com-serp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-serp-api-openapi.yml
+- filename: connskill-com-smm-api-openapi.yml
+  format: yaml
+  label: CONNSKILL SMM API
+  slug: connskill-com-smm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-smm-api-openapi.yml
+- filename: connskill-com-sms-api-openapi.yml
+  format: yaml
+  label: CONNSKILL SMS API
+  slug: connskill-com-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-sms-api-openapi.yml
+- filename: connskill-com-status-json-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Status.json API
+  slug: connskill-com-status-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-status-json-api-openapi.yml
+- filename: connskill-com-support-api-openapi.yml
+  format: yaml
+  label: CONNSKILL Support API
+  slug: connskill-com-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-support-api-openapi.yml
+- filename: connskill-com-on-chain-api-openapi.yml
+  format: yaml
+  label: CONNSKILL On Chain API
+  slug: connskill-com-on-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/openapi/connskill-com-on-chain-api-openapi.yml
 consequence_counts:
-  physical: 17
-  read: 26
+  physical: 16
+  read: 27
   write: 45
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
@@ -76,11 +166,6 @@ notable_actions:
   consequence: physical
   human_in_the_loop: conditional
   method: POST
-  path: /sms/v1/sms-status
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
   path: /v1/domain-tech
 - action_class: acting
   consequence: physical
@@ -108,20 +193,20 @@ notable_actions:
   method: POST
   path: /v1/support/tickets/{ticketId}/checkout
 operation_count: 88
-overview: 'CONNSKILL GmbH & Co. KG exposes 88 API operations that an AI agent could call, of which 62 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'CONNSKILL exposes 88 API operations that an AI agent could call, of which 61 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 26 read, 45 write, and 17 physical.
+  By consequence: 27 read, 45 write, and 16 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: CONNSKILL GmbH & Co. KG
+provider_name: CONNSKILL
 provider_slug: connskill-com
 slug: connskill-com-agentic-access
 source_filename: connskill-com-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/connskill-com-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 88\n  by_action_class:\n    connected: 26\n    acting: 62\n  by_consequence:\n    read: 26\n    write: 45\n    physical: 17\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/wishlist\n  method: get\n  operationId: wishlistBoard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/wishlist\n  method: post\n  operationId: wishlistAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/connskill-com-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 88\n  by_action_class:\n    connected: 27\n    acting: 61\n  by_consequence:\n    read: 27\n    write: 45\n    physical: 16\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/wishlist\n  method: get\n  operationId: wishlistBoard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/wishlist\n  method: post\n  operationId: wishlistAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/board/jobs\n  method: get\n  operationId: boardList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/board/jobs\n  method: post\n  operationId: boardPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/board/claim\n  method: post\n  operationId: boardClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v1/board/deliver\n  method: post\n  operationId: boardDeliver\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/board/close\n  method: post\n  operationId: boardClose\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/conformance\n  method: get\n  operationId: conformanceReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/llm-share-of-voice-info\n  method: get\n  operationId: shareOfVoiceInfo\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/exchange\n  method: post\n  operationId: exchange\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mcp\n  method: post\n  operationId: mcp\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/site-audit-onpage\n  method: get\n  operationId: siteAuditOnpage\n\
@@ -141,17 +226,17 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/connsk
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/support/tickets\n  method: get\n  operationId: supportTicketsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/support/tickets\n  method: post\n  operationId: supportTicketCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/support/tickets/{ticketId}\n  method: get\n  operationId: supportTicketGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/support/tickets/{ticketId}/checkout\n  method: post\n  operationId: supportDiscountCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/support/tickets/{ticketId}/discount\n  method: post\n  operationId: supportDiscountClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/challenge\n  method: post\n  operationId: paymentWalletChallenge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/conformance/prose\n  method: get\n  operationId: conformanceVerifiedProse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/local-market-check\n  method: post\n  operationId: localMarketCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms/v1/sms-services\n  method: get\n  operationId: smsServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
-  \ token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/v1/sms-pricing\n  method: get\n  operationId: smsPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/v1/sms-quote\n  method: get\n  operationId: smsQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/v1/sms-order\n  method: post\n  operationId: smsOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms/v1/sms-status\n  method: post\n  operationId: smsStatus\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms/v1/sms-cancel\n  method: post\n  operationId: smsCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms/v1/sms-rental-quote\n  method: get\n  operationId: smsRentalQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/v1/sms-rental-order\n  method: post\n  operationId: smsRentalOrder\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms/v1/sms-rental-messages\n  method: post\n  operationId: smsRentalMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smm/v1/smm-categories\n  method: get\n  operationId: smmCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smm/v1/smm-services\n  method: get\n\
-  \  operationId: smmServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smm/v1/smm-service-details\n  method: get\n  operationId: smmServiceDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smm/v1/smm-quote\n  method: get\n  operationId: smmQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smm/v1/smm-order\n  method: post\n  operationId: smmOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /smm/v1/smm-refill\n  method: post\n  operationId: smmRefill\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smm/v1/smm-cancel\n  method: post\n  operationId: smmCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smm/v1/smm-status\n  method: post\n  operationId: smmStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ai/v1/eu-llm-info\n  method: get\n  operationId: euLlmInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/v1/eu-chat\n  method: post\n  operationId: euChat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ai/v1/eu-embed\n  method: post\n  operationId: euEmbed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mail/v1/mail-inbox\n  method: post\n  operationId: mailInbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mail/v1/mail-messages\n  method: post\n  operationId: mailMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chain/v1/chain-info\n  method: get\n  operationId: chainInfo\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chain/v1/chain-state\n  method: post\n  operationId: chainState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chain/v1/chain-call\n  method: post\n  operationId: chainCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/v1/site\n  method: post\n  operationId: analyticsSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
-  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/v1/site-renew\n  method: post\n  operationId: analyticsSiteRenew\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/v1/site-stats\n  method: post\n  operationId: analyticsSiteStats\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+  \ token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/v1/sms-pricing\n  method: get\n  operationId: smsPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/v1/sms-quote\n  method: get\n  operationId: smsQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/v1/sms-order\n  method: post\n  operationId: smsOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms/v1/sms-status\n  method: post\n  operationId: smsStatus\n  x-agentic-access:\n    action-class: connected\n \
+  \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/v1/sms-cancel\n  method: post\n  operationId: smsCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms/v1/sms-rental-quote\n  method: get\n  operationId: smsRentalQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sms/v1/sms-rental-order\n  method: post\n  operationId: smsRentalOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
+  \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms/v1/sms-rental-messages\n  method: post\n  operationId: smsRentalMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smm/v1/smm-categories\n  method: get\n  operationId: smmCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smm/v1/smm-services\n  method: get\n  operationId: smmServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
+  - path: /smm/v1/smm-service-details\n  method: get\n  operationId: smmServiceDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smm/v1/smm-quote\n  method: get\n  operationId: smmQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smm/v1/smm-order\n  method: post\n  operationId: smmOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smm/v1/smm-refill\n  method: post\n  operationId: smmRefill\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
+  \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smm/v1/smm-cancel\n  method: post\n  operationId: smmCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smm/v1/smm-status\n  method: post\n  operationId: smmStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
+  \ abnormal\n      - high-value\n    audit: required\n- path: /ai/v1/eu-llm-info\n  method: get\n  operationId: euLlmInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/v1/eu-chat\n  method: post\n  operationId: euChat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ai/v1/eu-embed\n  method: post\n  operationId: euEmbed\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mail/v1/mail-inbox\n  method: post\n  operationId:\
+  \ mailInbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mail/v1/mail-messages\n  method: post\n  operationId: mailMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chain/v1/chain-info\n  method: get\n  operationId: chainInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chain/v1/chain-state\n  method: post\n  operationId: chainState\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chain/v1/chain-call\n  method: post\n  operationId: chainCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/v1/site\n  method: post\n  operationId: analyticsSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/v1/site-renew\n  method:\
+  \ post\n  operationId: analyticsSiteRenew\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/v1/site-stats\n  method: post\n  operationId: analyticsSiteStats\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connskill-com/refs/heads/main/agentic-access/connskill-com-agentic-access.yml
-summary_line: 88 operations · 62 acting
+summary_line: 88 operations · 61 acting
 tags:
 - Company
 - API Provider
@@ -159,12 +244,12 @@ tags:
 - SERP
 - Keyword Research
 - x402
-- Agent Payments
+- Agentic Payments
 - AI Agents
 - MCP
 - A2A
 - SMS Verification
-- LLM Inference
+- Inference
 - Social Media Marketing
 - Web Analytics
 - Blockchain Data

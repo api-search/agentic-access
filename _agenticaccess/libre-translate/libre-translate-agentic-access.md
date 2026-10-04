@@ -6,13 +6,13 @@ action_class_counts:
 api_specs:
 - filename: libre-translate-misc-api-openapi.yml
   format: yaml
-  label: LibreTranslate misc API
+  label: LibreTranslate Misc API
   slug: libre-translate-misc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/openapi/libre-translate-misc-api-openapi.yml
 - filename: libre-translate-translate-api-openapi.yml
   format: yaml
-  label: LibreTranslate translate API
+  label: LibreTranslate Translate API
   slug: libre-translate-translate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/openapi/libre-translate-translate-api-openapi.yml
@@ -50,6 +50,6 @@ tags:
 - Translation
 - Machine Translation
 - Natural Language Processing
-- Open-Source
+- Open Source
 - Self-Hosted
 ---

@@ -2,61 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 22
-api_specs:
-- filename: housesigma-comments-api-openapi.yml
-  format: yaml
-  label: HouseSigma Comments API
-  slug: housesigma-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-comments-api-openapi.yml
-- filename: housesigma-media-api-openapi.yml
-  format: yaml
-  label: HouseSigma Media API
-  slug: housesigma-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-media-api-openapi.yml
-- filename: housesigma-pages-api-openapi.yml
-  format: yaml
-  label: HouseSigma Pages API
-  slug: housesigma-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-pages-api-openapi.yml
-- filename: housesigma-posts-api-openapi.yml
-  format: yaml
-  label: HouseSigma Posts API
-  slug: housesigma-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-posts-api-openapi.yml
-- filename: housesigma-search-api-openapi.yml
-  format: yaml
-  label: HouseSigma Search API
-  slug: housesigma-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-search-api-openapi.yml
-- filename: housesigma-taxonomies-api-openapi.yml
-  format: yaml
-  label: HouseSigma Taxonomies API
-  slug: housesigma-taxonomies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-taxonomies-api-openapi.yml
-- filename: housesigma-types-api-openapi.yml
-  format: yaml
-  label: HouseSigma Types API
-  slug: housesigma-types-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-types-api-openapi.yml
-- filename: housesigma-users-api-openapi.yml
-  format: yaml
-  label: HouseSigma Users API
-  slug: housesigma-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-users-api-openapi.yml
-- filename: housesigma-o-embed-api-openapi.yml
-  format: yaml
-  label: HouseSigma o Embed API
-  slug: housesigma-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/openapi/housesigma-o-embed-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -90,7 +35,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/houses
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/agentic-access/housesigma-agentic-access.yml
 summary_line: 22 operations
 tags:
-- Real-Estate
+- Real Estate
 - Canada
 - Property Listings
 - MLS

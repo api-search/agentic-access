@@ -101,9 +101,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/willo/refs/hea
 summary_line: 44 operations · 25 acting
 tags:
 - Video Interviewing
-- Recruitment
+- Recruiting
 - Human Resources
-- ATS
+- Applicant Tracking
 - Screening
 - Async Video
 ---

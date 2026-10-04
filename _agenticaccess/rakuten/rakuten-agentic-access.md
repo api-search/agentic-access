@@ -57,6 +57,6 @@ tags:
 - Golf
 - Japan
 - Fintech
-- Telecom
+- Telecommunications
 - Rakuten Web Services
 ---

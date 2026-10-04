@@ -84,7 +84,7 @@ tags:
 - Live Music
 - Music
 - Setlists
-- Tickets
+- Ticketing
 - Tours
 - Venues
 ---

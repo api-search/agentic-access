@@ -103,7 +103,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/
 summary_line: 57 operations · 15 acting
 tags:
 - API Client
-- Open-Source
+- Open Source
 - Flutter
 - Desktop
 - Mobile

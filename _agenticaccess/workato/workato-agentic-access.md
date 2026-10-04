@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/agentic-access/workato-agentic-access.yml
 summary_line: 60 operations · 40 acting · 5 human-in-the-loop
 tags:
-- Agentic
+- AI Agents
 - API Management
 - Automation
 - B2B
@@ -152,4 +152,5 @@ tags:
 - iPaaS
 - Orchestration
 - Workflows
+- Workflow Automation
 ---

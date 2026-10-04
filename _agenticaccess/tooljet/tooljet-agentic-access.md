@@ -77,9 +77,9 @@ summary_line: 23 operations · 15 acting
 tags:
 - Low-Code
 - Internal Tools
-- Open-Source
+- Open Source
 - Application Builder
-- Workflow-Automation
+- Workflow Automation
 - No-Code
 - Dashboards
 - AI Agents

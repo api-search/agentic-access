@@ -1,8 +1,8 @@
 ---
-acting_count: 170
+acting_count: 168
 action_class_counts:
-  acting: 170
-  connected: 14
+  acting: 168
+  connected: 16
 api_specs:
 - filename: google-ads-ad-groups-api-openapi.yml
   format: yaml
@@ -640,12 +640,60 @@ api_specs:
   slug: google-ads-media-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-media-api-openapi.yml
-- filename: google-ads-v25-api-openapi.yml
+- filename: google-ads-v25-generateconversionrates-api-openapi.yml
   format: yaml
-  label: Google Ads V25 API
-  slug: google-ads-v25-api
+  label: Google Ads V25:generate Conversion Rates API
+  slug: google-ads-v25-generateconversionrates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-generateconversionrates-api-openapi.yml
+- filename: google-ads-v25-listbenchmarksavailabledates-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Benchmarks Available Dates API
+  slug: google-ads-v25-listbenchmarksavailabledates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listbenchmarksavailabledates-api-openapi.yml
+- filename: google-ads-v25-listbenchmarkslocations-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Benchmarks Locations API
+  slug: google-ads-v25-listbenchmarkslocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listbenchmarkslocations-api-openapi.yml
+- filename: google-ads-v25-listbenchmarksproducts-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Benchmarks Products API
+  slug: google-ads-v25-listbenchmarksproducts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listbenchmarksproducts-api-openapi.yml
+- filename: google-ads-v25-listbenchmarkssources-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Benchmarks Sources API
+  slug: google-ads-v25-listbenchmarkssources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listbenchmarkssources-api-openapi.yml
+- filename: google-ads-v25-listplannablelocations-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Plannable Locations API
+  slug: google-ads-v25-listplannablelocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listplannablelocations-api-openapi.yml
+- filename: google-ads-v25-listplannableproducts-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Plannable Products API
+  slug: google-ads-v25-listplannableproducts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listplannableproducts-api-openapi.yml
+- filename: google-ads-v25-listplannableuserinterests-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Plannable User Interests API
+  slug: google-ads-v25-listplannableuserinterests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listplannableuserinterests-api-openapi.yml
+- filename: google-ads-v25-listplannableuserlists-api-openapi.yml
+  format: yaml
+  label: Google Ads V25:list Plannable User Lists API
+  slug: google-ads-v25-listplannableuserlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-listplannableuserlists-api-openapi.yml
 - filename: google-ads-audience-insights-api-openapi.yml
   format: yaml
   label: Google Ads Audience Insights API
@@ -654,8 +702,8 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-audience-insights-api-openapi.yml
 consequence_counts:
   physical: 2
-  read: 14
-  write: 168
+  read: 16
+  write: 166
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -675,10 +723,10 @@ notable_actions:
   method: POST
   path: /v25/customers/{customersId}/customerLabels:mutate
 operation_count: 184
-overview: 'Google Ads exposes 184 API operations that an AI agent could call, of which 170 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Google Ads exposes 184 API operations that an AI agent could call, of which 168 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 14 read, 168 write, and 2 physical.
+  By consequence: 16 read, 166 write, and 2 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -688,14 +736,14 @@ slug: google-ads-agentic-access
 source_filename: google-ads-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/google-ads-ad-groups-api-openapi.yml, openapi/google-ads-ads-api-openapi.yml,\n  openapi/google-ads-audience-insights-api-openapi.yml, openapi/google-ads-bidding-strategies-api-openapi.yml,\n  openapi/google-ads-campaigns-api-openapi.yml, openapi/google-ads-customers-accountbudgetproposals-api-openapi.yml,\n  openapi/google-ads-customers-accountlinks-api-openapi.yml, openapi/google-ads-customers-adgroupadlabels-api-openapi.yml,\n  openapi/google-ads-customers-adgroupads-api-openapi.yml, openapi/google-ads-customers-adgroupassets-api-openapi.yml,\n  openapi/google-ads-customers-adgroupassetsets-api-openapi.yml, openapi/google-ads-customers-adgroupbidmodifiers-api-openapi.yml,\n  openapi/google-ads-customers-adgroupcriteria-api-openapi.yml, openapi/google-ads-customers-adgroupcriterioncustomizers-api-openapi.yml,\n  openapi/google-ads-customers-adgroupcriterionlabels-api-openapi.yml, openapi/google-ads-customers-adgroupcustomizers-api-openapi.yml,\n\
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google-ads-ad-groups-api-openapi.yml, openapi/google-ads-ads-api-openapi.yml,\n  openapi/google-ads-audience-insights-api-openapi.yml, openapi/google-ads-bidding-strategies-api-openapi.yml,\n  openapi/google-ads-campaigns-api-openapi.yml, openapi/google-ads-customers-accountbudgetproposals-api-openapi.yml,\n  openapi/google-ads-customers-accountlinks-api-openapi.yml, openapi/google-ads-customers-adgroupadlabels-api-openapi.yml,\n  openapi/google-ads-customers-adgroupads-api-openapi.yml, openapi/google-ads-customers-adgroupassets-api-openapi.yml,\n  openapi/google-ads-customers-adgroupassetsets-api-openapi.yml, openapi/google-ads-customers-adgroupbidmodifiers-api-openapi.yml,\n  openapi/google-ads-customers-adgroupcriteria-api-openapi.yml, openapi/google-ads-customers-adgroupcriterioncustomizers-api-openapi.yml,\n  openapi/google-ads-customers-adgroupcriterionlabels-api-openapi.yml, openapi/google-ads-customers-adgroupcustomizers-api-openapi.yml,\n\
   \  openapi/google-ads-customers-adgrouplabels-api-openapi.yml, openapi/google-ads-customers-adgroups-api-openapi.yml,\n  openapi/google-ads-customers-adparameters-api-openapi.yml, openapi/google-ads-customers-ads-api-openapi.yml,\n  openapi/google-ads-customers-api-openapi.yml, openapi/google-ads-customers-assetgenerations-api-openapi.yml,\n  openapi/google-ads-customers-assetgroupassets-api-openapi.yml, openapi/google-ads-customers-assetgrouplistinggroupfilters-api-openapi.yml,\n  openapi/google-ads-customers-assetgroups-api-openapi.yml, openapi/google-ads-customers-assetgroupsignals-api-openapi.yml,\n  openapi/google-ads-customers-assets-api-openapi.yml, openapi/google-ads-customers-assetsetassets-api-openapi.yml,\n  openapi/google-ads-customers-assetsets-api-openapi.yml, openapi/google-ads-customers-audiences-api-openapi.yml,\n  openapi/google-ads-customers-batchjobs-api-openapi.yml, openapi/google-ads-customers-biddingdataexclusions-api-openapi.yml,\n  openapi/google-ads-customers-biddingseasonalityadjustments-api-openapi.yml,\
   \ openapi/google-ads-customers-biddingstrategies-api-openapi.yml,\n  openapi/google-ads-customers-billingsetups-api-openapi.yml, openapi/google-ads-customers-campaignassets-api-openapi.yml,\n  openapi/google-ads-customers-campaignassetsets-api-openapi.yml, openapi/google-ads-customers-campaignbidmodifiers-api-openapi.yml,\n  openapi/google-ads-customers-campaignbudgets-api-openapi.yml, openapi/google-ads-customers-campaignconversiongoals-api-openapi.yml,\n  openapi/google-ads-customers-campaigncriteria-api-openapi.yml, openapi/google-ads-customers-campaigncustomizers-api-openapi.yml,\n  openapi/google-ads-customers-campaigndrafts-api-openapi.yml, openapi/google-ads-customers-campaigngoalconfigs-api-openapi.yml,\n  openapi/google-ads-customers-campaigngroups-api-openapi.yml, openapi/google-ads-customers-campaignlabels-api-openapi.yml,\n  openapi/google-ads-customers-campaigns-api-openapi.yml, openapi/google-ads-customers-campaignsharedsets-api-openapi.yml,\n  openapi/google-ads-customers-conversionactions-api-openapi.yml,\
   \ openapi/google-ads-customers-conversioncustomvariables-api-openapi.yml,\n  openapi/google-ads-customers-conversiongoalcampaignconfigs-api-openapi.yml, openapi/google-ads-customers-conversionvaluerules-api-openapi.yml,\n  openapi/google-ads-customers-conversionvaluerulesets-api-openapi.yml, openapi/google-ads-customers-customaudiences-api-openapi.yml,\n  openapi/google-ads-customers-customconversiongoals-api-openapi.yml, openapi/google-ads-customers-customerassets-api-openapi.yml,\n  openapi/google-ads-customers-customerassetsets-api-openapi.yml, openapi/google-ads-customers-customerclientlinks-api-openapi.yml,\n  openapi/google-ads-customers-customerconversiongoals-api-openapi.yml, openapi/google-ads-customers-customercustomizers-api-openapi.yml,\n  openapi/google-ads-customers-customerlabels-api-openapi.yml, openapi/google-ads-customers-customermanagerlinks-api-openapi.yml,\n  openapi/google-ads-customers-customernegativecriteria-api-openapi.yml, openapi/google-ads-customers-customerskadnetworkconversionvalueschemas-api-openapi.yml,\n\
   \  openapi/google-ads-customers-customeruseraccesses-api-openapi.yml, openapi/google-ads-customers-customeruseraccessinvitations-api-openapi.yml,\n  openapi/google-ads-customers-custominterests-api-openapi.yml, openapi/google-ads-customers-customizerattributes-api-openapi.yml,\n  openapi/google-ads-customers-datalinks-api-openapi.yml, openapi/google-ads-customers-experimentarms-api-openapi.yml,\n  openapi/google-ads-customers-experiments-api-openapi.yml, openapi/google-ads-customers-goals-api-openapi.yml,\n  openapi/google-ads-customers-googleads-api-openapi.yml, openapi/google-ads-customers-incentives-api-openapi.yml,\n  openapi/google-ads-customers-invoices-api-openapi.yml, openapi/google-ads-customers-keywordplanadgroupkeywords-api-openapi.yml,\n  openapi/google-ads-customers-keywordplanadgroups-api-openapi.yml, openapi/google-ads-customers-keywordplancampaignkeywords-api-openapi.yml,\n  openapi/google-ads-customers-keywordplancampaigns-api-openapi.yml, openapi/google-ads-customers-keywordplans-api-openapi.yml,\n\
   \  openapi/google-ads-customers-labels-api-openapi.yml, openapi/google-ads-customers-localservices-api-openapi.yml,\n  openapi/google-ads-customers-localservicesleads-api-openapi.yml, openapi/google-ads-customers-multipartyauthreview-api-openapi.yml,\n  openapi/google-ads-customers-offlineuserdatajobs-api-openapi.yml, openapi/google-ads-customers-operations-api-openapi.yml,\n  openapi/google-ads-customers-paymentsaccounts-api-openapi.yml, openapi/google-ads-customers-productlinkinvitations-api-openapi.yml,\n  openapi/google-ads-customers-productlinks-api-openapi.yml, openapi/google-ads-customers-recommendations-api-openapi.yml,\n  openapi/google-ads-customers-recommendationsubscriptions-api-openapi.yml, openapi/google-ads-customers-remarketingactions-api-openapi.yml,\n  openapi/google-ads-customers-reservations-api-openapi.yml, openapi/google-ads-customers-sharedcriteria-api-openapi.yml,\n  openapi/google-ads-customers-sharedsets-api-openapi.yml, openapi/google-ads-customers-smartcampaignsettings-api-openapi.yml,\n\
-  \  openapi/google-ads-customers-thirdpartyappanalyticslinks-api-openapi.yml, openapi/google-ads-customers-userlistcustomertypes-api-openapi.yml,\n  openapi/google-ads-customers-userlists-api-openapi.yml, openapi/google-ads-customers-youtubevideouploads-api-openapi.yml,\n  openapi/google-ads-geotargetconstants-api-openapi.yml, openapi/google-ads-googleadsfields-api-openapi.yml,\n  openapi/google-ads-incentives-api-openapi.yml, openapi/google-ads-keywords-api-openapi.yml,\n  openapi/google-ads-keywordthemeconstants-api-openapi.yml, openapi/google-ads-media-api-openapi.yml,\n  openapi/google-ads-reporting-api-openapi.yml, openapi/google-ads-v25-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 184\n  by_action_class:\n    acting: 170\n    connected:\
-  \ 14\n  by_consequence:\n    write: 168\n    read: 14\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v18/customers/{customerId}/adGroups:mutate\n  method: post\n  operationId: mutateAdGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v18/customers/{customerId}/adGroupAds:mutate\n  method: post\n  operationId: mutateAdGroupAds\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v25/audienceInsights:listInsightsEligibleDates\n  method: post\n  operationId: googleads_audienceInsights_listInsightsEligibleDates\n\
+  \  openapi/google-ads-customers-thirdpartyappanalyticslinks-api-openapi.yml, openapi/google-ads-customers-userlistcustomertypes-api-openapi.yml,\n  openapi/google-ads-customers-userlists-api-openapi.yml, openapi/google-ads-customers-youtubevideouploads-api-openapi.yml,\n  openapi/google-ads-geotargetconstants-api-openapi.yml, openapi/google-ads-googleadsfields-api-openapi.yml,\n  openapi/google-ads-incentives-api-openapi.yml, openapi/google-ads-keywords-api-openapi.yml,\n  openapi/google-ads-keywordthemeconstants-api-openapi.yml, openapi/google-ads-media-api-openapi.yml,\n  openapi/google-ads-reporting-api-openapi.yml, openapi/google-ads-v25-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 184\n  by_action_class:\n    acting: 168\n    connected:\
+  \ 16\n  by_consequence:\n    write: 166\n    read: 16\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v18/customers/{customerId}/adGroups:mutate\n  method: post\n  operationId: mutateAdGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v18/customers/{customerId}/adGroupAds:mutate\n  method: post\n  operationId: mutateAdGroupAds\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v25/audienceInsights:listInsightsEligibleDates\n  method: post\n  operationId: googleads_audienceInsights_listInsightsEligibleDates\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/adwords\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v18/customers/{customerId}/biddingStrategies:mutate\n  method: post\n  operationId: mutateBiddingStrategies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v18/customers/{customerId}/campaigns:mutate\n  method: post\n  operationId: mutateCampaigns\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n  \
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v18/customers/{customerId}/campaignBudgets:mutate\n  method: post\n  operationId: mutateCampaignBudgets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v25/customers/{customersId}/accountBudgetProposals:mutate\n  method: post\n  operationId: googleads_customers_accountBudgetProposals_mutate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/adwords\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v25/customers/{customersId}/accountLinks:create\n\
   \  method: post\n  operationId: googleads_customers_accountLinks_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/adwords\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v25/customers/{customersId}/accountLinks:mutate\n  method: post\n  operationId: googleads_customers_accountLinks_mutate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/adwords\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v25/customers/{customersId}/adGroupAdLabels:mutate\n  method: post\n  operationId: googleads_customers_adGroupAdLabels_mutate\n\
@@ -723,7 +771,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/google
   \ googleads_customers_generateTargetingSuggestionMetrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/adwords\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v25/customers/{customersId}/assetGenerations:generateText\n  method: post\n  operationId: googleads_customers_assetGenerations_generateText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/adwords\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v25/customers/{customersId}/assetGenerations:generateImages\n  method: post\n  operationId: googleads_customers_assetGenerations_generateImages\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/adwords\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (86 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/agentic-access/google-ads-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/agentic-access/google-ads-agentic-access.yml
-summary_line: 184 operations · 170 acting
+summary_line: 184 operations · 168 acting
 tags:
 - Advertising
 - Campaign Management
@@ -732,4 +780,5 @@ tags:
 - Marketing
 - PPC
 - Google Ads
+- AdTech
 ---

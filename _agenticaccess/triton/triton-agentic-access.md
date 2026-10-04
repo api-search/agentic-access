@@ -111,8 +111,8 @@ tags:
 - Artificial Intelligence
 - Deep Learning
 - Inference
-- Machine-Learning
+- Machine Learning
 - Model Serving
 - NVIDIA
-- Open-Source
+- Open Source
 ---

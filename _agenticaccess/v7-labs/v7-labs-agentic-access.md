@@ -82,5 +82,5 @@ tags:
 - Data Labeling
 - Annotation
 - Document AI
-- Computer-Vision
+- Computer Vision
 ---

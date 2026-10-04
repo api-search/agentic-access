@@ -4,12 +4,18 @@ action_class_counts:
   acting: 19
   connected: 1
 api_specs:
-- filename: getaiscan-app-openapi.json
-  format: json
+- filename: getaiscan-app-agent-api-openapi.yml
+  format: yaml
   label: AIScan Agent API
-  slug: aiscan-agent-api
+  slug: getaiscan-app-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-agent-api-openapi.yml
+- filename: getaiscan-app-ai-visibility-api-openapi.yml
+  format: yaml
+  label: AIScan AI Visibility API
+  slug: getaiscan-app-ai-visibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/getaiscan-app/refs/heads/main/openapi/getaiscan-app-ai-visibility-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 1
@@ -86,5 +92,5 @@ tags:
 - A2A
 - MCP
 - x402
-- agent-native
+- Agent-Native
 ---

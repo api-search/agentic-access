@@ -50,7 +50,7 @@ summary_line: 7 operations · 3 acting
 tags:
 - Artificial Intelligence
 - Azure
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Model Deployment
 - Model Training

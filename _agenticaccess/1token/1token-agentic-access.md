@@ -39,7 +39,7 @@ summary_line: 1 operation
 tags:
 - Digital Assets
 - Crypto
-- Portfolio-Management
+- Portfolio Management
 - Risk Management
 - Fund Administration
 - Reconciliation

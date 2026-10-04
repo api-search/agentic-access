@@ -4,12 +4,24 @@ action_class_counts:
   acting: 4
   connected: 4
 api_specs:
-- filename: iwant-fyi-openapi.yml
+- filename: iwant-fyi-agents-api-openapi.yml
   format: yaml
-  label: iwant.fyi Agent API
-  slug: iwantfyi-agent-api
+  label: iwant.fyi Agents API
+  slug: iwant-fyi-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/openapi/iwant-fyi-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/openapi/iwant-fyi-agents-api-openapi.yml
+- filename: iwant-fyi-mcp-api-openapi.yml
+  format: yaml
+  label: iwant.fyi MCP API
+  slug: iwant-fyi-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/openapi/iwant-fyi-mcp-api-openapi.yml
+- filename: iwant-fyi-wants-api-openapi.yml
+  format: yaml
+  label: iwant.fyi Wants API
+  slug: iwant-fyi-wants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/iwant-fyi/refs/heads/main/openapi/iwant-fyi-wants-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4
@@ -51,5 +63,5 @@ tags:
 - A2A
 - Open Protocol
 - x402
-- agent-native
+- Agent-Native
 ---

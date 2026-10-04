@@ -2,67 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 23
-api_specs:
-- filename: accelsius-content-api-openapi.yml
-  format: yaml
-  label: Accelsius Resources Content API
-  slug: content
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-content-api-openapi.yml
-- filename: accelsius-news-api-openapi.yml
-  format: yaml
-  label: Accelsius News API
-  slug: news
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-news-api-openapi.yml
-- filename: accelsius-pages-api-openapi.yml
-  format: yaml
-  label: Accelsius Pages API
-  slug: pages
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-pages-api-openapi.yml
-- filename: accelsius-media-api-openapi.yml
-  format: yaml
-  label: Accelsius Media API
-  slug: media
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-media-api-openapi.yml
-- filename: accelsius-search-api-openapi.yml
-  format: yaml
-  label: Accelsius Search API
-  slug: search
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-search-api-openapi.yml
-- filename: accelsius-discovery-api-openapi.yml
-  format: yaml
-  label: Accelsius API Discovery
-  slug: discovery
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-discovery-api-openapi.yml
-- filename: accelsius-categories-api-openapi.yml
-  format: yaml
-  label: Accelsius Categories API
-  slug: accelsius-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-categories-api-openapi.yml
-- filename: accelsius-media-folders-api-openapi.yml
-  format: yaml
-  label: Accelsius Media Folders API
-  slug: accelsius-media-folders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-media-folders-api-openapi.yml
-- filename: accelsius-registry-api-openapi.yml
-  format: yaml
-  label: Accelsius Registry API
-  slug: accelsius-registry-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-registry-api-openapi.yml
-- filename: accelsius-tags-api-openapi.yml
-  format: yaml
-  label: Accelsius Tags API
-  slug: accelsius-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/openapi/accelsius-tags-api-openapi.yml
 consequence_counts:
   read: 23
 description: 'Recommended x-agentic-access execution contracts, classified from the OpenAPI. A governance starting point for exposing this surface to AI agents — review and bind audience per deployment. Classification is trivially uniform here: every documented operation is an unauthenticated GET over published marketing content, so every one is connected/read with no human in the loop. The real agent risk on this surface is not consequence, it is CADENCE — see the throttling contract below.'
@@ -99,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelsius/refs
 summary_line: 23 operations
 tags:
 - Company
-- Data-Center
+- Data Center
 - Liquid Cooling
 - Thermal Management
 - Direct-to-Chip Cooling
@@ -108,6 +47,5 @@ tags:
 - High Performance Computing
 - Hardware
 - Manufacturing
-- Content
 - WordPress
 ---

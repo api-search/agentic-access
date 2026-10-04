@@ -103,11 +103,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sift-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/agentic-access/sift-agentic-access.yml
 summary_line: 20 operations · 13 acting
 tags:
-- Fraud Detection
 - Fraud Prevention
-- Risk
+- Risk Management
 - Trust and Safety
-- Machine-Learning
+- Machine Learning
 - Payment Fraud
 - Account Takeover
 - Chargebacks

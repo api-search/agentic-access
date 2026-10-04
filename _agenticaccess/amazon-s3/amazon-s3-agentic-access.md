@@ -182,4 +182,5 @@ tags:
 - Data Storage
 - Object Storage
 - Scalable Storage
+- Storage
 ---

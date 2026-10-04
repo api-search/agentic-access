@@ -154,5 +154,5 @@ tags:
 - Market Data
 - Block Trading
 - WebSocket
-- Financial
+- Finance
 ---

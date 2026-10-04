@@ -127,7 +127,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/h
 summary_line: 29 operations · 19 acting
 tags:
 - Embeddings
-- Machine-Learning
+- Machine Learning
 - Agents
 - OCR
 - LLM

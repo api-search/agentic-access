@@ -81,6 +81,6 @@ tags:
 - Entertainment
 - Event
 - Sports
-- Tickets
+- Ticketing
 - Venues
 ---

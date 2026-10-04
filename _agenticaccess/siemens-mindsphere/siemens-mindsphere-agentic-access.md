@@ -24,7 +24,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-assets-api-openapi.yml
 - filename: siemens-mindsphere-time-series-api-openapi.yml
   format: yaml
-  label: Siemens MindSphere Time Series API
+  label: Siemens Insights Hub (MindSphere) Time Series API
   slug: siemens-mindsphere-time-series-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/openapi/siemens-mindsphere-time-series-api-openapi.yml
@@ -40,14 +40,14 @@ name: Siemens Mindsphere Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 14
-overview: 'Siemens MindSphere exposes 14 API operations that an AI agent could call, of which 8 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Siemens Insights Hub (MindSphere) exposes 14 API operations that an AI agent could call, of which 8 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 6 read and 8 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: Siemens MindSphere
+provider_name: Siemens Insights Hub (MindSphere)
 provider_slug: siemens-mindsphere
 slug: siemens-mindsphere-agentic-access
 source_filename: siemens-mindsphere-agentic-access.yml

@@ -28,6 +28,12 @@ api_specs:
   slug: featherless-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-models-api-openapi.yml
+- filename: featherless-account-api-openapi.yml
+  format: yaml
+  label: Featherless AI Account API
+  slug: featherless-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-account-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3
@@ -63,4 +69,5 @@ tags:
 - Inference
 - Serverless
 - Open Models
+- Real-Time
 ---

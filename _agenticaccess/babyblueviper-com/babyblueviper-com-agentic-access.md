@@ -1,19 +1,157 @@
 ---
-acting_count: 63
+acting_count: 60
 action_class_counts:
-  acting: 63
-  connected: 124
+  acting: 60
+  connected: 127
 api_specs:
-- filename: babyblueviper-com-openapi.yml
+- filename: babyblueviper-com-agents-api-openapi.yml
   format: yaml
-  label: invinoveritas API
-  slug: invinoveritas-api
+  label: invinoveritas Agents API
+  slug: babyblueviper-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-agents-api-openapi.yml
+- filename: babyblueviper-com-analytics-api-openapi.yml
+  format: yaml
+  label: invinoveritas Analytics API
+  slug: babyblueviper-com-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-analytics-api-openapi.yml
+- filename: babyblueviper-com-billing-api-openapi.yml
+  format: yaml
+  label: invinoveritas Billing API
+  slug: babyblueviper-com-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-billing-api-openapi.yml
+- filename: babyblueviper-com-community-api-openapi.yml
+  format: yaml
+  label: invinoveritas Community API
+  slug: babyblueviper-com-community-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-community-api-openapi.yml
+- filename: babyblueviper-com-corpus-api-openapi.yml
+  format: yaml
+  label: invinoveritas Corpus API
+  slug: babyblueviper-com-corpus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-corpus-api-openapi.yml
+- filename: babyblueviper-com-credit-api-openapi.yml
+  format: yaml
+  label: invinoveritas Credit API
+  slug: babyblueviper-com-credit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-credit-api-openapi.yml
+- filename: babyblueviper-com-discovery-api-openapi.yml
+  format: yaml
+  label: invinoveritas Discovery API
+  slug: babyblueviper-com-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-discovery-api-openapi.yml
+- filename: babyblueviper-com-edgeproof-api-openapi.yml
+  format: yaml
+  label: invinoveritas Edgeproof API
+  slug: babyblueviper-com-edgeproof-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-edgeproof-api-openapi.yml
+- filename: babyblueviper-com-execution-api-openapi.yml
+  format: yaml
+  label: invinoveritas Execution API
+  slug: babyblueviper-com-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-execution-api-openapi.yml
+- filename: babyblueviper-com-inference-api-openapi.yml
+  format: yaml
+  label: invinoveritas Inference API
+  slug: babyblueviper-com-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-inference-api-openapi.yml
+- filename: babyblueviper-com-ledger-api-openapi.yml
+  format: yaml
+  label: invinoveritas Ledger API
+  slug: babyblueviper-com-ledger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-ledger-api-openapi.yml
+- filename: babyblueviper-com-llms-txt-api-openapi.yml
+  format: yaml
+  label: invinoveritas Llms.txt API
+  slug: babyblueviper-com-llms-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-llms-txt-api-openapi.yml
+- filename: babyblueviper-com-marketplace-api-openapi.yml
+  format: yaml
+  label: invinoveritas Marketplace API
+  slug: babyblueviper-com-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-marketplace-api-openapi.yml
+- filename: babyblueviper-com-markets-api-openapi.yml
+  format: yaml
+  label: invinoveritas Markets API
+  slug: babyblueviper-com-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-markets-api-openapi.yml
+- filename: babyblueviper-com-mcp-api-openapi.yml
+  format: yaml
+  label: invinoveritas MCP API
+  slug: babyblueviper-com-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-mcp-api-openapi.yml
+- filename: babyblueviper-com-memory-api-openapi.yml
+  format: yaml
+  label: invinoveritas Memory API
+  slug: babyblueviper-com-memory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-memory-api-openapi.yml
+- filename: babyblueviper-com-messageboard-api-openapi.yml
+  format: yaml
+  label: invinoveritas Messageboard API
+  slug: babyblueviper-com-messageboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-messageboard-api-openapi.yml
+- filename: babyblueviper-com-meta-api-openapi.yml
+  format: yaml
+  label: invinoveritas Meta API
+  slug: babyblueviper-com-meta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-meta-api-openapi.yml
+- filename: babyblueviper-com-relay-health-api-openapi.yml
+  format: yaml
+  label: invinoveritas Relay Health API
+  slug: babyblueviper-com-relay-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-relay-health-api-openapi.yml
+- filename: babyblueviper-com-residence-api-openapi.yml
+  format: yaml
+  label: invinoveritas Residence API
+  slug: babyblueviper-com-residence-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-residence-api-openapi.yml
+- filename: babyblueviper-com-tools-api-openapi.yml
+  format: yaml
+  label: invinoveritas Tools API
+  slug: babyblueviper-com-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-tools-api-openapi.yml
+- filename: babyblueviper-com-trading-api-openapi.yml
+  format: yaml
+  label: invinoveritas Trading API
+  slug: babyblueviper-com-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-trading-api-openapi.yml
+- filename: babyblueviper-com-warden-api-openapi.yml
+  format: yaml
+  label: invinoveritas Warden API
+  slug: babyblueviper-com-warden-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-warden-api-openapi.yml
+- filename: babyblueviper-com-waternova-api-openapi.yml
+  format: yaml
+  label: invinoveritas Waternova API
+  slug: babyblueviper-com-waternova-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/openapi/babyblueviper-com-waternova-api-openapi.yml
 consequence_counts:
   physical: 8
-  read: 124
-  write: 55
+  read: 127
+  write: 52
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -63,10 +201,10 @@ notable_actions:
   method: POST
   path: /withdraw-to-address
 operation_count: 187
-overview: 'invinoveritas exposes 187 API operations that an AI agent could call, of which 63 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'invinoveritas exposes 187 API operations that an AI agent could call, of which 60 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 124 read, 55 write, and 8 physical.
+  By consequence: 127 read, 52 write, and 8 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -76,7 +214,7 @@ slug: babyblueviper-com-agentic-access
 source_filename: babyblueviper-com-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/babyblueviper-com-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 187\n  by_action_class:\n    acting: 63\n    connected: 124\n  by_consequence:\n    write: 55\n    read: 124\n    physical: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /register\n  method: post\n  operationId: register_account_register_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /register\n  method: get\n  operationId: register_account_register_post\n\
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/babyblueviper-com-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 187\n  by_action_class:\n    acting: 60\n    connected: 127\n  by_consequence:\n    write: 52\n    read: 127\n    physical: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /register\n  method: post\n  operationId: register_account_register_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /register\n  method: get\n  operationId: register_account_register_post\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grant_first_call\n  method: post\n  operationId: grant_first_call_grant_first_call_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /topup\n  method: get\n  operationId: topup_account_topup_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topup\n  method: post\n  operationId: topup_account_topup_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /balance\n  method: get\n  operationId: get_balance_balance_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify\n  method: get\n  operationId: verify_panel_verify_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify\n  method: post\n  operationId: verify_account_verify_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /register/confirm\n  method: post\n  operationId: confirm_payment_register_confirm_post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settle-topup\n  method: post\n  operationId: settle_topup_proxy_settle_topup_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /topup/status\n  method: get\n  operationId: topup_status_proxy_topup_status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /withdraw\n  method: post\n  operationId: withdraw_proxy_withdraw_post\n  x-agentic-access:\n\
@@ -103,16 +241,15 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/babybl
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offers/create\n  method: post\n  operationId: create_offer_offers_create_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /offers/list\n  method: get\n  operationId: list_offers_offers_list_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /marketplace/recently-sold\n  method: get\n  operationId: marketplace_recently_sold_marketplace_recently_sold_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /marketplace/top-earners\n  method: get\n  operationId: marketplace_top_earners_marketplace_top_earners_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offers/buy\n  method: post\n  operationId: buy_offer_offers_buy_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /offers/my\n  method: get\n  operationId: my_offers_offers_my_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offers/my/purchases\n  method: get\n  operationId: my_offer_purchases_offers_my_purchases_get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offers/my/purchases/{purchase_id}/fulfill\n  method: post\n  operationId: fulfill_purchase_offers_my_purchases__purchase_id__fulfill_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memory/store\n  method: post\n  operationId: store_memory_memory_store_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memory/get\n  method: post\n  operationId: get_memory_memory_get_post\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memory/delete\n  method: post\n  operationId: delete_memory_memory_delete_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memory/list\n  method: post\n  operationId: list_memory_memory_list_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /memory/search\n  method: post\n  operationId: search_memory_memory_search_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /residence/me\n  method: get\n  operationId: residence_me_residence_me_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /residence/profile\n  method: post\n  operationId: set_residence_profile_residence_profile_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /residence/directory/optin\n\
-  \  method: post\n  operationId: residence_directory_optin_residence_directory_optin_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /residence/directory\n  method: get\n  operationId: residence_directory_residence_directory_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /residence/{agent_id}\n  method: get\n  operationId: residence_public_residence__agent_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feedback\n  method: post\n  operationId: submit_feedback_feedback_post\n  x-agentic-access:\n    action-class: acting\n   \
-  \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /feedback\n  method: get\n  operationId: list_feedback_feedback_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feedback/{feedback_id}\n  method: get\n  operationId: get_feedback_feedback__feedback_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feedback/{feedback_id}/vote\n  method: post\n  operationId: vote_feedback_feedback__feedback_id__vote_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/spend\n  method: get\n  operationId: analytics_spend_analytics_spend_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/roi\n  method: get\n  operationId: analytics_roi_analytics_roi_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/memory\n  method: get\n  operationId: analytics_memory_analytics_memory_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/provision-address\n  method: post\n  operationId: provision_agent_address_agent_provision_address_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n \
-  \   subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conduct\n  method: get\n  operationId: conduct_conduct_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llms.txt\n  method: get\n  operationId: llms_llms_txt_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /roadmap\n  method: get\n  operationId: public_roadmap_roadmap_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guide\n  method: get\n  operationId: payment_guide_guide_get\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet-onboarding\n  method: get\n  operationId: wallet_onboarding_wallet_onboarding_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices\n  method: get\n  operationId: get_all_prices_prices_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /price/{endpoint}\n  method: get\n  operationId: get_price_price__endpoint__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discovery/x402\n  method: get\n  operationId: x402_discovery_catalog_discovery_x402_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
-  \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/agentic-access/babyblueviper-com-agentic-access.yml\n"
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /memory/delete\n  method: post\n  operationId: delete_memory_memory_delete_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memory/list\n  method: post\n  operationId: list_memory_memory_list_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /memory/search\n  method: post\n  operationId: search_memory_memory_search_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /residence/me\n\
+  \  method: get\n  operationId: residence_me_residence_me_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /residence/profile\n  method: post\n  operationId: set_residence_profile_residence_profile_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /residence/directory/optin\n  method: post\n  operationId: residence_directory_optin_residence_directory_optin_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
+  \ /residence/directory\n  method: get\n  operationId: residence_directory_residence_directory_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /residence/{agent_id}\n  method: get\n  operationId: residence_public_residence__agent_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feedback\n  method: post\n  operationId: submit_feedback_feedback_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /feedback\n  method: get\n  operationId: list_feedback_feedback_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feedback/{feedback_id}\n  method: get\n  operationId: get_feedback_feedback__feedback_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feedback/{feedback_id}/vote\n  method: post\n  operationId: vote_feedback_feedback__feedback_id__vote_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /analytics/spend\n  method: get\n  operationId: analytics_spend_analytics_spend_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/roi\n  method: get\n  operationId:\
+  \ analytics_roi_analytics_roi_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/memory\n  method: get\n  operationId: analytics_memory_analytics_memory_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent/provision-address\n  method: post\n  operationId: provision_agent_address_agent_provision_address_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conduct\n  method: get\n  operationId: conduct_conduct_get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llms.txt\n  method: get\n  operationId: llms_llms_txt_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /roadmap\n  method: get\n  operationId: public_roadmap_roadmap_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guide\n  method: get\n  operationId: payment_guide_guide_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet-onboarding\n  method: get\n  operationId: wallet_onboarding_wallet_onboarding_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices\n  method:\
+  \ get\n  operationId: get_all_prices_prices_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /price/{endpoint}\n  method: get\n  operationId: get_price_price__endpoint__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discovery/x402\n  method: get\n  operationId: x402_discovery_catalog_discovery_x402_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /memory\n  method: get\n  operationId: memory_info_memory_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/agentic-access/babyblueviper-com-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/babyblueviper-com/refs/heads/main/agentic-access/babyblueviper-com-agentic-access.yml
-summary_line: 187 operations · 63 acting
+summary_line: 187 operations · 60 acting
 tags:
 - AI Agents
 - Agent Verification

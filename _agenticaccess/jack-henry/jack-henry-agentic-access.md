@@ -339,17 +339,18 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/banno-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/agentic-access/jack-henry-agentic-access.yml
 summary_line: 52 operations · 19 acting
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Core Banking
 - Digital Banking
 - Payments
 - Lending
-- Fraud
+- Fraud Prevention
 - Open Banking
 - Community Banks
 - Credit Union
 - Fintech
 - Authentication
 - OpenID Connect
+- Real-Time
 ---

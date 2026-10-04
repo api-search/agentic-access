@@ -55,7 +55,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/head
 summary_line: 10 operations · 7 acting
 tags:
 - Database
-- Key-Value
+- Key-Value Store
 - NoSQL
 - Serverless
 ---

@@ -58,5 +58,5 @@ tags:
 - Dogs
 - Image
 - Open Data
-- Open-Source
+- Open Source
 ---

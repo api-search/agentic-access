@@ -86,7 +86,7 @@ summary_line: 25 operations · 15 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - LLM
 - Model Deployment
@@ -94,5 +94,5 @@ tags:
 - MLOps
 - GPU
 - Speech-to-Text
-- Image-Generation
+- Image Generation
 ---

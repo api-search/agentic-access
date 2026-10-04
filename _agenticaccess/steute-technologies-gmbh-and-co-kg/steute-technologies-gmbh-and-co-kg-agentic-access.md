@@ -148,7 +148,7 @@ notable_actions:
   method: PUT
   path: /api/v2/switches/{deviceId}
 operation_count: 27
-overview: 'steute Technologies GmbH & Co. KG exposes 27 API operations that an AI agent could call, of which 18 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'steute Technologies exposes 27 API operations that an AI agent could call, of which 18 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 9 read and 18 safety-critical.
@@ -158,7 +158,7 @@ overview: 'steute Technologies GmbH & Co. KG exposes 27 API operations that an A
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: steute Technologies GmbH & Co. KG
+provider_name: steute Technologies
 provider_slug: steute-technologies-gmbh-and-co-kg
 slug: steute-technologies-gmbh-and-co-kg-agentic-access
 source_filename: steute-technologies-gmbh-and-co-kg-agentic-access.yml
@@ -181,7 +181,7 @@ tags:
 - Company
 - Industrial
 - Manufacturing
-- IIoT
+- Industrial IoT
 - Wireless
 - Sensors
 - Switches

@@ -352,7 +352,7 @@ tags:
 - Latin America
 - Fintech
 - Subscription
-- Anti-Fraud
+- Fraud Prevention
 - Checkout
 - Buy Now Pay Later
 - 3D Secure

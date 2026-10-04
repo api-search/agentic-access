@@ -66,19 +66,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-interconnects-list-api-openapi.yml
 - filename: bics-network-inventory-api-openapi.yml
   format: yaml
-  label: BICS inventory API
+  label: BICS Inventory API
   slug: bics-network-inventory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-inventory-api-openapi.yml
 - filename: bics-network-number-api-openapi.yml
   format: yaml
-  label: BICS number API
+  label: BICS Number API
   slug: bics-network-number-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-number-api-openapi.yml
 - filename: bics-network-order-api-openapi.yml
   format: yaml
-  label: BICS order API
+  label: BICS Order API
   slug: bics-network-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-order-api-openapi.yml
@@ -90,7 +90,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-outbound-api-openapi.yml
 - filename: bics-network-porting-api-openapi.yml
   format: yaml
-  label: BICS porting API
+  label: BICS Porting API
   slug: bics-network-porting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-porting-api-openapi.yml
@@ -102,13 +102,13 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-porting-specification-api-openapi.yml
 - filename: bics-network-pricelist-api-openapi.yml
   format: yaml
-  label: BICS pricelist API
+  label: BICS Pricelist API
   slug: bics-network-pricelist-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-pricelist-api-openapi.yml
 - filename: bics-network-reference-api-openapi.yml
   format: yaml
-  label: BICS reference API
+  label: BICS Reference API
   slug: bics-network-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-reference-api-openapi.yml
@@ -120,19 +120,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-reference-data-api-openapi.yml
 - filename: bics-network-routing-api-openapi.yml
   format: yaml
-  label: BICS routing API
+  label: BICS Routing API
   slug: bics-network-routing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-routing-api-openapi.yml
 - filename: bics-network-specification-api-openapi.yml
   format: yaml
-  label: BICS specification API
+  label: BICS Specification API
   slug: bics-network-specification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-specification-api-openapi.yml
 - filename: bics-network-stock-api-openapi.yml
   format: yaml
-  label: BICS stock API
+  label: BICS Stock API
   slug: bics-network-stock-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/openapi/bics-network-stock-api-openapi.yml
@@ -270,15 +270,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bics-network/r
 summary_line: 76 operations · 38 acting · 7 human-in-the-loop
 tags:
 - Number Verification
-- Telecom
+- Telecommunications
 - Mobile Identity
-- Anti-Fraud
+- Fraud Prevention
 - Device Location
 - OTP
 - SMS
 - Numbering
 - Number Portability
-- Fraud Prevention
 - Carrier
 - CPaaS
 ---

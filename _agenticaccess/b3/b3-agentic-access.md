@@ -1,8 +1,8 @@
 ---
-acting_count: 164
+acting_count: 163
 action_class_counts:
-  acting: 164
-  connected: 261
+  acting: 163
+  connected: 262
 api_specs:
 - filename: b3-action-api-openapi.yml
   format: yaml
@@ -66,7 +66,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-cu-api-openapi.yml
 - filename: b3-faucet-api-openapi.yml
   format: yaml
-  label: B3 faucet API
+  label: B3 Faucet API
   slug: b3-faucet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-faucet-api-openapi.yml
@@ -102,7 +102,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-metrics-api-openapi.yml
 - filename: b3-onboarding-api-openapi.yml
   format: yaml
-  label: B3 onboarding API
+  label: B3 Onboarding API
   slug: b3-onboarding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-onboarding-api-openapi.yml
@@ -156,7 +156,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-search-api-openapi.yml
 - filename: b3-seo-api-openapi.yml
   format: yaml
-  label: B3 seo API
+  label: B3 Seo API
   slug: b3-seo-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-seo-api-openapi.yml
@@ -168,7 +168,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-statistics-api-openapi.yml
 - filename: b3-tags-api-openapi.yml
   format: yaml
-  label: B3 tags API
+  label: B3 Tags API
   slug: b3-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-tags-api-openapi.yml
@@ -198,7 +198,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-triggers-api-openapi.yml
 - filename: b3-wallets-api-openapi.yml
   format: yaml
-  label: B3 wallets API
+  label: B3 Wallets API
   slug: b3-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-wallets-api-openapi.yml
@@ -210,7 +210,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-webhook-events-api-openapi.yml
 - filename: b3-workflow-templates-api-openapi.yml
   format: yaml
-  label: B3 workflow-templates API
+  label: B3 Workflow Templates API
   slug: b3-workflow-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-workflow-templates-api-openapi.yml
@@ -438,9 +438,9 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/openapi/b3-workflow-variables-api-openapi.yml
 consequence_counts:
   physical: 9
-  read: 261
+  read: 262
   safety-critical: 3
-  write: 152
+  write: 151
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 3
 kind: agentic-access
@@ -510,10 +510,10 @@ notable_actions:
   method: POST
   path: /v1/sms/numbers/send-code
 operation_count: 425
-overview: 'B3 exposes 425 API operations that an AI agent could call, of which 164 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'B3 exposes 425 API operations that an AI agent could call, of which 163 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 261 read, 152 write, 9 physical, and 3 safety-critical.
+  By consequence: 262 read, 151 write, 9 physical, and 3 safety-critical.
 
 
   3 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -526,10 +526,10 @@ slug: b3-agentic-access
 source_filename: b3-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/b3-action-api-openapi.yml, openapi/b3-actions-api-openapi.yml, openapi/b3-activity-api-openapi.yml,\n  openapi/b3-admin-api-openapi.yml, openapi/b3-agent-runs-api-openapi.yml, openapi/b3-ai-api-openapi.yml,\n  openapi/b3-api-keys-api-openapi.yml, openapi/b3-app-gateway-api-openapi.yml, openapi/b3-block-cursors-api-openapi.yml,\n  openapi/b3-blockscout-api-openapi.yml, openapi/b3-blockscout-blocks-api-openapi.yml, openapi/b3-blockscout-main-page-api-openapi.yml,\n  openapi/b3-blockscout-search-api-openapi.yml, openapi/b3-blockscout-stats-api-openapi.yml,\n  openapi/b3-blockscout-tokens-api-openapi.yml, openapi/b3-blockscout-transactions-api-openapi.yml,\n  openapi/b3-connector-types-api-openapi.yml, openapi/b3-connectors-api-openapi.yml, openapi/b3-contract-api-openapi.yml,\n  openapi/b3-contracts-api-openapi.yml, openapi/b3-cu-api-openapi.yml, openapi/b3-execution-webhooks-api-openapi.yml,\n  openapi/b3-executions-api-openapi.yml,\
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/b3-action-api-openapi.yml, openapi/b3-actions-api-openapi.yml, openapi/b3-activity-api-openapi.yml,\n  openapi/b3-admin-api-openapi.yml, openapi/b3-agent-runs-api-openapi.yml, openapi/b3-ai-api-openapi.yml,\n  openapi/b3-api-keys-api-openapi.yml, openapi/b3-app-gateway-api-openapi.yml, openapi/b3-block-cursors-api-openapi.yml,\n  openapi/b3-blockscout-api-openapi.yml, openapi/b3-blockscout-blocks-api-openapi.yml, openapi/b3-blockscout-main-page-api-openapi.yml,\n  openapi/b3-blockscout-search-api-openapi.yml, openapi/b3-blockscout-stats-api-openapi.yml,\n  openapi/b3-blockscout-tokens-api-openapi.yml, openapi/b3-blockscout-transactions-api-openapi.yml,\n  openapi/b3-connector-types-api-openapi.yml, openapi/b3-connectors-api-openapi.yml, openapi/b3-contract-api-openapi.yml,\n  openapi/b3-contracts-api-openapi.yml, openapi/b3-cu-api-openapi.yml, openapi/b3-execution-webhooks-api-openapi.yml,\n  openapi/b3-executions-api-openapi.yml,\
   \ openapi/b3-faucet-api-openapi.yml, openapi/b3-incentive-api-openapi.yml,\n  openapi/b3-insights-blocks-api-openapi.yml, openapi/b3-insights-contracts-api-openapi.yml,\n  openapi/b3-insights-decode-api-openapi.yml, openapi/b3-insights-events-api-openapi.yml, openapi/b3-insights-nfts-api-openapi.yml,\n  openapi/b3-insights-resolve-api-openapi.yml, openapi/b3-insights-tokens-api-openapi.yml, openapi/b3-insights-transactions-api-openapi.yml,\n  openapi/b3-insights-wallets-api-openapi.yml, openapi/b3-integrations-api-openapi.yml, openapi/b3-internal-api-openapi.yml,\n  openapi/b3-invites-api-openapi.yml, openapi/b3-logic-actions-api-openapi.yml, openapi/b3-mcp-api-openapi.yml,\n  openapi/b3-mcp-connectors-api-openapi.yml, openapi/b3-metrics-api-openapi.yml, openapi/b3-onboarding-api-openapi.yml,\n  openapi/b3-organization-storage-api-openapi.yml, openapi/b3-organizations-api-openapi.yml,\n  openapi/b3-orgs-api-openapi.yml, openapi/b3-outbound-webhook-api-openapi.yml, openapi/b3-pipedream-api-openapi.yml,\n\
   \  openapi/b3-public-api-openapi.yml, openapi/b3-run-api-openapi.yml, openapi/b3-runs-api-openapi.yml,\n  openapi/b3-search-api-openapi.yml, openapi/b3-seo-api-openapi.yml, openapi/b3-service-accounts-api-openapi.yml,\n  openapi/b3-sessions-api-openapi.yml, openapi/b3-situation-api-openapi.yml, openapi/b3-sms-api-openapi.yml,\n  openapi/b3-statistics-api-openapi.yml, openapi/b3-tags-api-openapi.yml, openapi/b3-telegram-bot-api-openapi.yml,\n  openapi/b3-templates-api-openapi.yml, openapi/b3-tiers-api-openapi.yml, openapi/b3-token-price-cexes-api-openapi.yml,\n  openapi/b3-triggers-api-openapi.yml, openapi/b3-user-api-openapi.yml, openapi/b3-wallets-api-openapi.yml,\n  openapi/b3-webhook-api-openapi.yml, openapi/b3-webhook-events-api-openapi.yml, openapi/b3-workflow-api-openapi.yml,\n  openapi/b3-workflow-templates-api-openapi.yml, openapi/b3-workflow-variables-api-openapi.yml,\n  openapi/b3-workflows-api-openapi.yml, openapi/b3-x402-endpoints-api-openapi.yml\ndescription: Recommended x-agentic-access\
-  \ execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 425\n  by_action_class:\n    acting: 164\n    connected: 261\n  by_consequence:\n    write: 152\n    read: 261\n    physical: 9\n    safety-critical: 3\n  human_in_the_loop_required: 3\noperations:\n- path: /v1/actions/{type}/test\n  method: post\n  operationId: postV1ActionsByTypeTest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/action-proxy/{type}/execute\n  method: post\n  operationId: postV1ActionProxyByTypeExecute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+  \ execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 425\n  by_action_class:\n    acting: 163\n    connected: 262\n  by_consequence:\n    write: 151\n    read: 262\n    physical: 9\n    safety-critical: 3\n  human_in_the_loop_required: 3\noperations:\n- path: /v1/actions/{type}/test\n  method: post\n  operationId: postV1ActionsByTypeTest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/action-proxy/{type}/execute\n  method: post\n  operationId: postV1ActionProxyByTypeExecute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/action-proxy/{type}/query\n  method: post\n  operationId: postV1ActionProxyByTypeQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/actions/{type}/run\n  method: post\n  operationId: postV1ActionsByTypeRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/actions/{type}\n  method: get\n  operationId: getV1ActionsByType\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/actions\n  method: get\n  operationId: getV1Actions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/activity/stream\n  method: get\n  operationId: getV1ActivityStream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/admin/ai-profiles\n  method: get\n  operationId: getV1AdminAiProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/admin/ai-prompts\n  method: get\n  operationId: getV1AdminAiPrompts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/admin/chat-conversations\n  method: get\n  operationId: getV1AdminChatConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/admin/chat-messages\n  method: get\n  operationId: getV1AdminChatMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/admin/organizations\n  method: get\n  operationId: getV1AdminOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/admin/organizations/{orgId}\n  method: get\n  operationId: getV1AdminOrganizationsByOrgId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
@@ -561,13 +561,13 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/b3-act
   - path: /blockscout/transactions/{transaction_hash}/internal-transactions\n  method: get\n  operationId: get_transaction_internal_txs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blockscout/transactions/{transaction_hash}/logs\n  method: get\n  operationId: get_transaction_logs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blockscout/transactions/{transaction_hash}/raw-trace\n  method: get\n  operationId: get_transaction_raw_trace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blockscout/transactions/{transaction_hash}/state-changes\n  method: get\n  operationId: get_transaction_state_changes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blockscout/transactions/{transaction_hash}/summary\n  method: get\n  operationId: get_transaction_summary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blockscout/addresses/{address_hash}/internal-transactions\n  method: get\n  operationId: get_address_internal_txs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/connector-types\n  method: get\n  operationId: getV1ConnectorTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (122 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/agentic-access/b3-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/main/agentic-access/b3-agentic-access.yml
-summary_line: 425 operations · 164 acting · 3 human-in-the-loop
+summary_line: 425 operations · 163 acting · 3 human-in-the-loop
 tags:
 - Company
 - Crypto
 - Blockchain
 - Web3
-- Workflow-Automation
+- Workflow Automation
 - On-Chain Data
 - Gaming
 - Payments

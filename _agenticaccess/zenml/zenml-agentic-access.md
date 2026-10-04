@@ -118,10 +118,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenml/refs/hea
 summary_line: 25 operations · 7 acting
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MLOps
 - LLMOps
 - Pipelines
-- Open-Source
+- Open Source
 - Python
 ---

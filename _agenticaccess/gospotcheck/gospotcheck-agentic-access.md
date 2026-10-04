@@ -147,6 +147,6 @@ tags:
 - Data Collection
 - Surveys
 - Merchandising
-- CPG
+- Consumer Packaged Goods
 - Mobile
 ---

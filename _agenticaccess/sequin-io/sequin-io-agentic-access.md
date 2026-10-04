@@ -72,8 +72,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs
 summary_line: 25 operations · 16 acting
 tags:
 - Change Data Capture
-- Postgres
+- PostgreSQL
 - Streaming
-- Open-Source
+- Open Source
 - Data Pipeline
 ---

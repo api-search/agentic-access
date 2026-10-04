@@ -177,7 +177,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/discou
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discourse/refs/heads/main/agentic-access/discourse-agentic-access.yml
 summary_line: 93 operations · 53 acting · 2 human-in-the-loop
 tags:
-- Communities
+- Community
 - Forums
-- Open-Source
+- Open Source
 ---

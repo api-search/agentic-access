@@ -1,12 +1,12 @@
 ---
-acting_count: 6
+acting_count: 5
 action_class_counts:
-  acting: 6
-  connected: 7
+  acting: 5
+  connected: 8
 api_specs:
 - filename: tako-agent-api-openapi.yml
   format: yaml
-  label: Tako agent API
+  label: Tako Agent API
   slug: tako-agent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-agent-api-openapi.yml
@@ -17,21 +17,35 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-tako-api-openapi.yml
 consequence_counts:
-  read: 7
-  write: 6
-description: ''
-human_in_the_loop: 0
+  read: 8
+  safety-critical: 2
+  write: 3
+description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
+human_in_the_loop: 2
 kind: agentic-access
 layout: agentic-access
 method: generated
 name: Tako Agentic Access
 name_suffix: Agentic Access
-notable_actions: []
+notable_actions:
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /v1/agent/answer/runs
+- action_class: acting
+  consequence: safety-critical
+  human_in_the_loop: required
+  method: POST
+  path: /v1/agent/retrieval/runs
 operation_count: 13
-overview: 'Tako exposes 13 API operations that an AI agent could call, of which 6 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Tako exposes 13 API operations that an AI agent could call, of which 5 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 7 read and 6 write.
+  By consequence: 8 read, 3 write, and 2 safety-critical.
+
+
+  2 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -41,12 +55,13 @@ slug: tako-agentic-access
 source_filename: tako-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/tako-openapi-original.yml\naudience: null\nnote: >-\n  Recommended x-agentic-access execution contracts, classified per operation from\n  the Tako OpenAPI (Curity Access Intelligence model). GET/HEAD → connected/read;\n  write-method POSTs → acting/write. No operation is payment/transfer/safety-critical\n  at the API-operation level (Tako's machine-payments surface is billing metadata,\n  not a transfer endpoint). A governance starting point, not an authoritative\n  provider claim.\nsummary:\n  operations: 13\n  by_action_class:\n    connected: 7\n    acting: 6\n  by_consequence:\n    read: 7\n    write: 6\n  human_in_the_loop: 0\n  audit_required: 6\noperations:\n  - operationId: graphSearch\n    method: GET\n    path: /beta/graph/search\n    action_class: connected\n    consequence: read\n    token: {ttl_seconds: 3600}\n  - operationId: graphRelated\n    method: GET\n    path: /beta/graph/related\n    action_class:\
-  \ connected\n    consequence: read\n    token: {ttl_seconds: 3600}\n  - operationId: graphNode\n    method: GET\n    path: /beta/graph/node/{id}\n    action_class: connected\n    consequence: read\n    token: {ttl_seconds: 3600}\n  - operationId: listAnswerAgentRuns\n    method: GET\n    path: /v1/agent/answer/runs\n    action_class: connected\n    consequence: read\n    token: {ttl_seconds: 3600}\n  - operationId: getAnswerAgentRun\n    method: GET\n    path: /v1/agent/answer/runs/{run_id}\n    action_class: connected\n    consequence: read\n    token: {ttl_seconds: 3600}\n  - operationId: listRetrievalAgentRuns\n    method: GET\n    path: /v1/agent/retrieval/runs\n    action_class: connected\n    consequence: read\n    token: {ttl_seconds: 3600}\n  - operationId: getRetrievalAgentRun\n    method: GET\n    path: /v1/agent/retrieval/runs/{run_id}\n    action_class: connected\n    consequence: read\n    token: {ttl_seconds: 3600}\n  - operationId: search\n    method: POST\n    path: /v3/search\n\
-  \    action_class: acting\n    consequence: write\n    token: {ttl_seconds: 900}\n    audit: required\n  - operationId: answer\n    method: POST\n    path: /v1/answer\n    action_class: acting\n    consequence: write\n    token: {ttl_seconds: 900}\n    audit: required\n  - operationId: contents\n    method: POST\n    path: /v1/contents\n    action_class: acting\n    consequence: write\n    token: {ttl_seconds: 900}\n    audit: required\n    note: Meters/bills a card CSV export beyond the free row allowance.\n  - operationId: createCard\n    method: POST\n    path: /v1/thin_viz/create/\n    action_class: acting\n    consequence: write\n    token: {ttl_seconds: 900}\n    audit: required\n  - operationId: createAnswerAgentRun\n    method: POST\n    path: /v1/agent/answer/runs\n    action_class: acting\n    consequence: write\n    token: {ttl_seconds: 900}\n    audit: required\n    note: PAYMENT_REQUIRED (402) pre-dispatch credit gate.\n  - operationId: createRetrievalAgentRun\n    method:\
-  \ POST\n    path: /v1/agent/retrieval/runs\n    action_class: acting\n    consequence: write\n    token: {ttl_seconds: 900}\n    audit: required\n    note: PAYMENT_REQUIRED (402) pre-dispatch credit gate.\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tako-agent-api-openapi.yml, openapi/tako-tako-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 13\n  by_action_class:\n    connected: 8\n    acting: 5\n  by_consequence:\n    read: 8\n    safety-critical: 2\n    write: 3\n  human_in_the_loop_required: 2\noperations:\n- path: /v1/agent/answer/runs\n  method: get\n  operationId: listAnswerAgentRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/answer/runs\n  method: post\n  operationId: createAnswerAgentRun\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/agent/answer/runs/{run_id}\n  method: get\n  operationId: getAnswerAgentRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/retrieval/runs\n  method: get\n  operationId: listRetrievalAgentRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/retrieval/runs\n  method: post\n  operationId: createRetrievalAgentRun\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
+  \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/agent/retrieval/runs/{run_id}\n  method: get\n  operationId: getRetrievalAgentRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/answer\n  method: post\n  operationId: answer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/graph/search\n  method: get\n  operationId: graphSearch\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/graph/related\n  method: get\n  operationId: graphRelated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/graph/node/{id}\n  method: get\n  operationId: graphNode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/contents\n  method: post\n  operationId: contents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/thin_viz/create/\n  method: post\n  operationId: createCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/agentic-access/tako-agentic-access.yml
-summary_line: 13 operations · 6 acting
+summary_line: 13 operations · 5 acting · 2 human-in-the-loop
 tags:
 - Company
 - Artificial Intelligence

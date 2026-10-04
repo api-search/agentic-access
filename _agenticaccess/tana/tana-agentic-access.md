@@ -39,7 +39,7 @@ summary_line: 1 operation · 1 acting
 tags:
 - Company
 - Note Taking
-- Knowledge-Management
+- Knowledge Management
 - Productivity
 - Artificial Intelligence
 - Meetings

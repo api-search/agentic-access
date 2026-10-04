@@ -59,4 +59,5 @@ tags:
 - Digital Dollar
 - Blockchain
 - Transparency
+- Stablecoin Issuance
 ---

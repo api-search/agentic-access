@@ -445,7 +445,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invendor/refs/
 summary_line: 353 operations · 194 acting · 3 human-in-the-loop
 tags:
 - Company
-- Inventory Management
+- Inventory
 - Vendor Managed Inventory
 - Industrial Vending
 - Supply Chain

@@ -72,7 +72,7 @@ tags:
 - Company
 - Cryptocurrency
 - Digital Assets
-- Financial-Services
+- Financial Services
 - Lending
 - Custody
 - Wallets

@@ -47,7 +47,7 @@ summary_line: 6 operations
 tags:
 - Artificial Intelligence
 - Computational Knowledge
-- Machine-Learning
+- Machine Learning
 - Natural Language Processing
 - Public APIs
 - Search

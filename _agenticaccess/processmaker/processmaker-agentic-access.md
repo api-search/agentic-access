@@ -113,7 +113,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/processmaker/r
 summary_line: 64 operations · 38 acting
 tags:
 - Business Process Management
-- Workflow-Automation
+- Workflow Automation
 - BPMN 2.0
 - Low-Code
 - Intelligent Automation

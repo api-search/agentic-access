@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads
 summary_line: 8 operations · 4 acting
 tags:
 - Apache
-- Open-Source
+- Open Source
 - Repository
 - Source Control
 - Svn

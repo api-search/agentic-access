@@ -72,5 +72,5 @@ tags:
 - Pub-Sub
 - Streaming
 - Apache
-- Open-Source
+- Open Source
 ---

@@ -79,6 +79,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peopleforce/re
 summary_line: 15 operations · 4 acting
 tags:
 - Human Resources
-- Recruitment
+- Recruiting
 - Employees
 ---

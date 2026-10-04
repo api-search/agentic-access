@@ -4,18 +4,36 @@ action_class_counts:
   acting: 2
   connected: 4
 api_specs:
-- filename: sprig-v1-api-openapi.yml
+- filename: sprig-purge-api-openapi.yml
   format: yaml
-  label: Sprig V1 API
-  slug: sprig-v1-api
+  label: Sprig Purge API
+  slug: sprig-purge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-v1-api-openapi.yml
-- filename: sprig-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-purge-api-openapi.yml
+- filename: sprig-responses-api-openapi.yml
   format: yaml
-  label: Sprig V2 API
-  slug: sprig-v2-api
+  label: Sprig Responses API
+  slug: sprig-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-responses-api-openapi.yml
+- filename: sprig-surveys-api-openapi.yml
+  format: yaml
+  label: Sprig Surveys API
+  slug: sprig-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-surveys-api-openapi.yml
+- filename: sprig-themes-api-openapi.yml
+  format: yaml
+  label: Sprig Themes API
+  slug: sprig-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-themes-api-openapi.yml
+- filename: sprig-users-api-openapi.yml
+  format: yaml
+  label: Sprig Users API
+  slug: sprig-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-users-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2

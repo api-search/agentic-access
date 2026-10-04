@@ -60,4 +60,5 @@ tags:
 - Southeast Asia
 - AI Agents
 - Product Catalog
+- A2A
 ---

@@ -49,7 +49,7 @@ tags:
 - Artificial Intelligence
 - Blockchain
 - Decentralized AI
-- Machine-Learning
+- Machine Learning
 - Cryptocurrency
 - Web3
 - SDK

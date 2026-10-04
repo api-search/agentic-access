@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dagshu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/agentic-access/dagshub-agentic-access.yml
 summary_line: 26 operations · 8 acting
 tags:
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Data Versioning
 - Git

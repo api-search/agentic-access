@@ -70,7 +70,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/h
 summary_line: 19 operations · 18 acting
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Design
 - Vectors
 - Styles

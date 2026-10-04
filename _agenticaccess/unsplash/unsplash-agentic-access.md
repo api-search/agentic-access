@@ -88,6 +88,6 @@ tags:
 - Photography
 - Stock Photos
 - Creative
-- Open-Source
+- Open Source
 - Media
 ---

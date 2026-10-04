@@ -123,7 +123,7 @@ tags:
 - Apache
 - Batch Processing
 - Big Data
-- Open-Source
+- Open Source
 - Real-Time Analytics
 - Stateful Computing
 - Stream Processing

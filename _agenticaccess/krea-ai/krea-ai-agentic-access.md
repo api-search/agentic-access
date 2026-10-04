@@ -99,7 +99,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/h
 summary_line: 72 operations · 64 acting
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Video Generation
 - Generative AI
 - Real-Time

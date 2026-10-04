@@ -269,7 +269,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-exp
 summary_line: 89 operations · 28 acting
 tags:
 - CMS
-- Communities
+- Community
 - CRM
 - Customer Portal
 - Digital Experience

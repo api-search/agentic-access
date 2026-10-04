@@ -4,12 +4,114 @@ action_class_counts:
   acting: 24
   connected: 26
 api_specs:
-- filename: polycode-co-uk-marginalia-openapi.json
-  format: json
-  label: marginalia public API
-  slug: marginalia-public-api
+- filename: polycode-co-uk-admin-api-openapi.yml
+  format: yaml
+  label: Polycode Admin API
+  slug: polycode-co-uk-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-marginalia-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-admin-api-openapi.yml
+- filename: polycode-co-uk-budget-api-openapi.yml
+  format: yaml
+  label: Polycode Budget API
+  slug: polycode-co-uk-budget-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-budget-api-openapi.yml
+- filename: polycode-co-uk-chat-api-openapi.yml
+  format: yaml
+  label: Polycode Chat API
+  slug: polycode-co-uk-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-chat-api-openapi.yml
+- filename: polycode-co-uk-diverts-api-openapi.yml
+  format: yaml
+  label: Polycode Diverts API
+  slug: polycode-co-uk-diverts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-diverts-api-openapi.yml
+- filename: polycode-co-uk-flag-api-openapi.yml
+  format: yaml
+  label: Polycode Flag API
+  slug: polycode-co-uk-flag-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-flag-api-openapi.yml
+- filename: polycode-co-uk-graph-api-openapi.yml
+  format: yaml
+  label: Polycode Graph API
+  slug: polycode-co-uk-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-graph-api-openapi.yml
+- filename: polycode-co-uk-graphs-api-openapi.yml
+  format: yaml
+  label: Polycode Graphs API
+  slug: polycode-co-uk-graphs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-graphs-api-openapi.yml
+- filename: polycode-co-uk-hooks-api-openapi.yml
+  format: yaml
+  label: Polycode Hooks API
+  slug: polycode-co-uk-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-hooks-api-openapi.yml
+- filename: polycode-co-uk-keys-api-openapi.yml
+  format: yaml
+  label: Polycode Keys API
+  slug: polycode-co-uk-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-keys-api-openapi.yml
+- filename: polycode-co-uk-me-api-openapi.yml
+  format: yaml
+  label: Polycode Me API
+  slug: polycode-co-uk-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-me-api-openapi.yml
+- filename: polycode-co-uk-openapi-json-api-openapi.yml
+  format: yaml
+  label: Polycode Openapi.json API
+  slug: polycode-co-uk-openapi-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-openapi-json-api-openapi.yml
+- filename: polycode-co-uk-project-api-openapi.yml
+  format: yaml
+  label: Polycode Project API
+  slug: polycode-co-uk-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-project-api-openapi.yml
+- filename: polycode-co-uk-projects-api-openapi.yml
+  format: yaml
+  label: Polycode Projects API
+  slug: polycode-co-uk-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-projects-api-openapi.yml
+- filename: polycode-co-uk-sessions-api-openapi.yml
+  format: yaml
+  label: Polycode Sessions API
+  slug: polycode-co-uk-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-sessions-api-openapi.yml
+- filename: polycode-co-uk-status-api-openapi.yml
+  format: yaml
+  label: Polycode Status API
+  slug: polycode-co-uk-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-status-api-openapi.yml
+- filename: polycode-co-uk-test-api-openapi.yml
+  format: yaml
+  label: Polycode Test API
+  slug: polycode-co-uk-test-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-test-api-openapi.yml
+- filename: polycode-co-uk-usage-api-openapi.yml
+  format: yaml
+  label: Polycode Usage API
+  slug: polycode-co-uk-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-usage-api-openapi.yml
+- filename: polycode-co-uk-visitor-api-openapi.yml
+  format: yaml
+  label: Polycode Visitor API
+  slug: polycode-co-uk-visitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polycode-co-uk/refs/heads/main/openapi/polycode-co-uk-visitor-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 26
@@ -28,14 +130,14 @@ notable_actions:
   method: POST
   path: /api/keys
 operation_count: 50
-overview: 'Polycode Limited exposes 50 API operations that an AI agent could call, of which 24 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Polycode exposes 50 API operations that an AI agent could call, of which 24 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   By consequence: 26 read, 23 write, and 1 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: Polycode Limited
+provider_name: Polycode
 provider_slug: polycode-co-uk
 slug: polycode-co-uk-agentic-access
 source_filename: polycode-co-uk-agentic-access.yml
@@ -66,7 +168,7 @@ tags:
 - Knowledge Graph
 - Research
 - Artificial Intelligence
-- Open-Source
+- Open Source
 - Consulting
 - United Kingdom
 ---

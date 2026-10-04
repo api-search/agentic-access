@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/instab
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/agentic-access/instabug-agentic-access.yml
 summary_line: 10 operations
 tags:
-- Agentic AI
+- AI Agents
 - APM
 - Application Performance Monitoring
 - Bug Reporting

@@ -1,55 +1,6 @@
 ---
 acting_count: 0
 action_class_counts: {}
-api_specs:
-- filename: addis-energy-posts-api-openapi.yml
-  format: yaml
-  label: Addis Energy Posts API
-  slug: addis-energy-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-posts-api-openapi.yml
-- filename: addis-energy-pages-api-openapi.yml
-  format: yaml
-  label: Addis Energy Pages API
-  slug: addis-energy-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-pages-api-openapi.yml
-- filename: addis-energy-media-api-openapi.yml
-  format: yaml
-  label: Addis Energy Media API
-  slug: addis-energy-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-media-api-openapi.yml
-- filename: addis-energy-taxonomy-api-openapi.yml
-  format: yaml
-  label: Addis Energy Taxonomy API
-  slug: addis-energy-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-taxonomy-api-openapi.yml
-- filename: addis-energy-users-api-openapi.yml
-  format: yaml
-  label: Addis Energy Users API
-  slug: addis-energy-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-users-api-openapi.yml
-- filename: addis-energy-search-api-openapi.yml
-  format: yaml
-  label: Addis Energy Search API
-  slug: addis-energy-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-search-api-openapi.yml
-- filename: addis-energy-discovery-api-openapi.yml
-  format: yaml
-  label: Addis Energy Discovery API
-  slug: addis-energy-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-discovery-api-openapi.yml
-- filename: addis-energy-o-embed-api-openapi.yml
-  format: yaml
-  label: Addis Energy o Embed API
-  slug: addis-energy-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/openapi/addis-energy-o-embed-api-openapi.yml
 consequence_counts: {}
 description: 'RECOMMENDED x-agentic-access contracts for the public Addis Energy surface. This is an API Evangelist recommendation authored on the provider''s behalf, NOT a declaration Addis Energy has made — the company publishes no agent policy of any kind. The classification is simple because the surface is: every anonymously reachable operation is a safe, reversible, unauthenticated read.'
 human_in_the_loop: 0
@@ -89,5 +40,4 @@ tags:
 - Materials Science
 - Hydrogen
 - Fertilizer
-- Content
 ---

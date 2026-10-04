@@ -5,13 +5,13 @@ action_class_counts:
 api_specs:
 - filename: zettle-accounts-api-openapi.yml
   format: yaml
-  label: Zettle accounts API
+  label: Zettle Accounts API
   slug: zettle-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-accounts-api-openapi.yml
 - filename: zettle-payout-api-openapi.yml
   format: yaml
-  label: Zettle payout API
+  label: Zettle Payout API
   slug: zettle-payout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-payout-api-openapi.yml

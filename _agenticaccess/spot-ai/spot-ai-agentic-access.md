@@ -1,0 +1,153 @@
+---
+acting_count: 24
+action_class_counts:
+  acting: 24
+  connected: 24
+api_specs:
+- filename: spot-ai-analytics-api-openapi.yml
+  format: yaml
+  label: Spot AI Analytics API
+  slug: spot-ai-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-analytics-api-openapi.yml
+- filename: spot-ai-appliances-api-openapi.yml
+  format: yaml
+  label: Spot AI Appliances API
+  slug: spot-ai-appliances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-appliances-api-openapi.yml
+- filename: spot-ai-audio-api-openapi.yml
+  format: yaml
+  label: Spot AI Audio API
+  slug: spot-ai-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-audio-api-openapi.yml
+- filename: spot-ai-cameras-api-openapi.yml
+  format: yaml
+  label: Spot AI Cameras API
+  slug: spot-ai-cameras-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-cameras-api-openapi.yml
+- filename: spot-ai-embeds-api-openapi.yml
+  format: yaml
+  label: Spot AI Embeds API
+  slug: spot-ai-embeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-embeds-api-openapi.yml
+- filename: spot-ai-historical-footage-api-openapi.yml
+  format: yaml
+  label: Spot AI Historical Footage API
+  slug: spot-ai-historical-footage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-historical-footage-api-openapi.yml
+- filename: spot-ai-integration-devices-api-openapi.yml
+  format: yaml
+  label: Spot AI Integration Devices API
+  slug: spot-ai-integration-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integration-devices-api-openapi.yml
+- filename: spot-ai-integration-event-types-api-openapi.yml
+  format: yaml
+  label: Spot AI Integration Event Types API
+  slug: spot-ai-integration-event-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integration-event-types-api-openapi.yml
+- filename: spot-ai-integration-events-api-openapi.yml
+  format: yaml
+  label: Spot AI Integration Events API
+  slug: spot-ai-integration-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integration-events-api-openapi.yml
+- filename: spot-ai-integrations-api-openapi.yml
+  format: yaml
+  label: Spot AI Integrations API
+  slug: spot-ai-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-integrations-api-openapi.yml
+- filename: spot-ai-locations-api-openapi.yml
+  format: yaml
+  label: Spot AI Locations API
+  slug: spot-ai-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-locations-api-openapi.yml
+- filename: spot-ai-lpi-api-openapi.yml
+  format: yaml
+  label: Spot AI LPI API
+  slug: spot-ai-lpi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-lpi-api-openapi.yml
+- filename: spot-ai-lpr-api-openapi.yml
+  format: yaml
+  label: Spot AI LPR API
+  slug: spot-ai-lpr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-lpr-api-openapi.yml
+- filename: spot-ai-shared-search-api-openapi.yml
+  format: yaml
+  label: Spot AI Shared Search API
+  slug: spot-ai-shared-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-shared-search-api-openapi.yml
+- filename: spot-ai-zones-api-openapi.yml
+  format: yaml
+  label: Spot AI Zones API
+  slug: spot-ai-zones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/openapi/spot-ai-zones-api-openapi.yml
+consequence_counts:
+  read: 24
+  write: 24
+description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
+human_in_the_loop: 0
+kind: agentic-access
+layout: agentic-access
+method: generated
+name: Spot Ai Agentic Access
+name_suffix: Agentic Access
+notable_actions: []
+operation_count: 48
+overview: 'Spot AI exposes 48 API operations that an AI agent could call, of which 24 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+
+
+  By consequence: 24 read and 24 write.
+
+
+  Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
+provider_name: Spot AI
+provider_slug: spot-ai
+slug: spot-ai-agentic-access
+source_filename: spot-ai-agentic-access.yml
+source_heading: Agentic Access
+source_url: ''
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spot-ai-analytics-api-openapi.yml, openapi/spot-ai-appliances-api-openapi.yml,\n  openapi/spot-ai-audio-api-openapi.yml, openapi/spot-ai-cameras-api-openapi.yml, openapi/spot-ai-embeds-api-openapi.yml,\n  openapi/spot-ai-historical-footage-api-openapi.yml, openapi/spot-ai-integration-devices-api-openapi.yml,\n  openapi/spot-ai-integration-event-types-api-openapi.yml, openapi/spot-ai-integration-events-api-openapi.yml,\n  openapi/spot-ai-integrations-api-openapi.yml, openapi/spot-ai-locations-api-openapi.yml, openapi/spot-ai-lpi-api-openapi.yml,\n  openapi/spot-ai-lpr-api-openapi.yml, openapi/spot-ai-shared-search-api-openapi.yml, openapi/spot-ai-zones-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\n\
+  summary:\n  operations: 48\n  by_action_class:\n    connected: 24\n    acting: 24\n  by_consequence:\n    read: 24\n    write: 24\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/cameras/{cameraId}/intelligence/{entity}/counting\n  method: get\n  operationId: Counting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras/{cameraId}/intelligence/{entity}/idle\n  method: get\n  operationId: Idle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras/{cameraId}/intelligence/{entity}/presence\n  method: get\n  operationId: Presence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/appliances/{applianceId}\n  method: get\n  operationId: GetAppliance\n \
+  \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/appliances\n  method: get\n  operationId: GetAppliances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/audio/play\n  method: post\n  operationId: PlayAudio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cameras/{cameraId}/footage\n  method: post\n  operationId: CreateHistoricalFootage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cameras/shared/search\n  method: post\n  operationId: CreateSharedCameraSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cameras/{cameraId}\n  method: get\n  operationId: GetCameraById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras/count\n  method: get\n  operationId: GetCameraCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras\n  method: get\n  operationId: GetCameras\n  x-agentic-access:\n    action-class: connected\n\
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras/{cameraId}/footage/{footageId}\n  method: get\n  operationId: GetHistoricalFootage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras/live\n  method: post\n  operationId: GetLiveUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras/shared/search/{token}\n  method: get\n  operationId: GetSharedCameraSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras/shared/search/{token}\n  method: patch\n  operationId: UpdateSharedCameraSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/embeds/live\n  method: post\n  operationId: GenerateLiveEmbedUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/embeds/vod\n  method: post\n  operationId: GenerateVodEmbedUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cameras/{cameraId}/footage\n  method: post\n  operationId: CreateHistoricalFootage\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cameras/{cameraId}/footage/{footageId}\n  method: get\n  operationId: GetHistoricalFootage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/{integration_id}/devices\n  method: post\n  operationId: CreateIntegrationDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/{integration_id}/devices\n  method: get\n  operationId: GetAllDevicesForIntegration\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/{integration_id}/devices/{integration_device_id}\n  method: delete\n  operationId: DeleteIntegrationDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/{integration_id}/devices/{integration_device_id}\n  method: get\n  operationId: GetIntegrationDeviceById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/{integration_id}/devices/{integration_device_id}\n  method: put\n  operationId: UpdateIntegrationDeviceProperties\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/{integration_id}/devices/{integration_device_id}/cameras\n  method: put\n  operationId: UpdateIntegrationDeviceCameras\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/{integration_id}/event-types\n  method: post\n  operationId: CreateIntegrationEventType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
+  \ - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/{integration_id}/event-types\n  method: get\n  operationId: GetAllEventTypesForIntegration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/{integration_id}/event-types/{integration_event_type_id}\n  method: delete\n  operationId: DeleteIntegrationEventType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/{integration_id}/event-types/{integration_event_type_id}\n  method: get\n  operationId: GetIntegrationEventTypeById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
+  \ 3600\n    audit: none\n- path: /v1/integrations/{integration_id}/event-types/{integration_event_type_id}\n  method: put\n  operationId: UpdateIntegrationEventType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/{integration_id}/events/import\n  method: post\n  operationId: CreateIntegrationEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/{integration_id}/events/{integration_event_id}\n  method: delete\n  operationId: DeleteIntegrationEvent\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/{integration_id}/events/{integration_event_id}\n  method: put\n  operationId: UpdateIntegrationEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/{integration_id}/events\n  method: get\n  operationId: GetIntegrationEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/{integration_id}/events\n  method: post\n  operationId: IntegrationEventIngestionWebhook\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations\n  method: post\n  operationId: CreateIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations\n  method: get\n  operationId: GetAllIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/{integration_id}\n  method: delete\n  operationId: DeleteIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/integrations/{integration_id}\n  method: get\n  operationId: GetIntegration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/integrations/{integration_id}\n  method: put\n  operationId: UpdateIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/locations\n  method: get\n  operationId: GetLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
+  \ max-ttl: 3600\n    audit: none\n- path: /v1/lpi\n  method: post\n  operationId: CreateInterestList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/lpi\n  method: get\n  operationId: GetInterestLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lpr/cameras/{camera_id}/report\n  method: get\n  operationId: LprReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras/shared/search\n  method: post\n  operationId: CreateSharedCameraSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cameras/shared/search/{token}\n  method: get\n  operationId: GetSharedCameraSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cameras/shared/search/{token}\n  method: patch\n  operationId: UpdateSharedCameraSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cameras/{camera_id}/zones\n  method: get\n  operationId: GetZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
+  \ 3600\n    audit: none\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/agentic-access/spot-ai-agentic-access.yml
+summary_line: 48 operations · 24 acting
+tags:
+- Company
+- Video
+- Physical Security
+- Surveillance
+- Computer Vision
+- Artificial Intelligence
+- Camera
+- Analytics
+- License Plate Recognition
+- Webhook
+- Integration
+---

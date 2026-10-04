@@ -104,7 +104,7 @@ summary_line: 100 operations · 57 acting
 tags:
 - Agriculture
 - Farm Management
-- Open-Source
+- Open Source
 - JSON:API
 - Recordkeeping
 - Self-Hosted

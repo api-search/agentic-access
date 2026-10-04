@@ -245,7 +245,7 @@ tags:
 - GPU
 - Cloud
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Deep Learning
 - Compute
 - DigitalOcean

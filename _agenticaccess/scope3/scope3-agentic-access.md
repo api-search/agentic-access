@@ -1,8 +1,8 @@
 ---
-acting_count: 263
+acting_count: 261
 action_class_counts:
-  acting: 263
-  connected: 203
+  acting: 261
+  connected: 205
 api_specs:
 - filename: scope3-ai-impact-measurement-api-openapi.yml
   format: yaml
@@ -312,9 +312,9 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/openapi/scope3-webhook-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 7
-  read: 203
+  read: 205
   safety-critical: 5
-  write: 251
+  write: 249
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 5
 kind: agentic-access
@@ -384,10 +384,10 @@ notable_actions:
   method: POST
   path: /gam-cleanups/{operationId}
 operation_count: 466
-overview: 'Scope3 exposes 466 API operations that an AI agent could call, of which 263 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Scope3 exposes 466 API operations that an AI agent could call, of which 261 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 203 read, 251 write, 7 physical, and 5 safety-critical.
+  By consequence: 205 read, 249 write, 7 physical, and 5 safety-critical.
 
 
   5 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -400,9 +400,9 @@ slug: scope3-agentic-access
 source_filename: scope3-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/scope3-account-api-openapi.yml, openapi/scope3-activity-api-openapi.yml, openapi/scope3-advertisers-api-openapi.yml,\n  openapi/scope3-ai-impact-measurement-api-openapi.yml, openapi/scope3-ai-usage-api-openapi.yml,\n  openapi/scope3-asks-api-openapi.yml, openapi/scope3-audit-logs-api-openapi.yml, openapi/scope3-benchmarks-api-openapi.yml,\n  openapi/scope3-brands-api-openapi.yml, openapi/scope3-buyer-billing-api-openapi.yml, openapi/scope3-campaigns-api-openapi.yml,\n  openapi/scope3-creative-api-openapi.yml, openapi/scope3-creatives-api-openapi.yml, openapi/scope3-data-api-openapi.yml,\n  openapi/scope3-event-sources-api-openapi.yml, openapi/scope3-gpu-api-openapi.yml, openapi/scope3-impact-api-openapi.yml,\n  openapi/scope3-mcp-api-openapi.yml, openapi/scope3-measure-api-openapi.yml, openapi/scope3-measurement-api-openapi.yml,\n  openapi/scope3-media-billing-api-openapi.yml, openapi/scope3-model-api-openapi.yml,\
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/scope3-account-api-openapi.yml, openapi/scope3-activity-api-openapi.yml, openapi/scope3-advertisers-api-openapi.yml,\n  openapi/scope3-ai-impact-measurement-api-openapi.yml, openapi/scope3-ai-usage-api-openapi.yml,\n  openapi/scope3-asks-api-openapi.yml, openapi/scope3-audit-logs-api-openapi.yml, openapi/scope3-benchmarks-api-openapi.yml,\n  openapi/scope3-brands-api-openapi.yml, openapi/scope3-buyer-billing-api-openapi.yml, openapi/scope3-campaigns-api-openapi.yml,\n  openapi/scope3-creative-api-openapi.yml, openapi/scope3-creatives-api-openapi.yml, openapi/scope3-data-api-openapi.yml,\n  openapi/scope3-event-sources-api-openapi.yml, openapi/scope3-gpu-api-openapi.yml, openapi/scope3-impact-api-openapi.yml,\n  openapi/scope3-mcp-api-openapi.yml, openapi/scope3-measure-api-openapi.yml, openapi/scope3-measurement-api-openapi.yml,\n  openapi/scope3-media-billing-api-openapi.yml, openapi/scope3-model-api-openapi.yml,\
   \ openapi/scope3-moderation-api-openapi.yml,\n  openapi/scope3-node-api-openapi.yml, openapi/scope3-notifications-api-openapi.yml, openapi/scope3-optimization-suggestions-api-openapi.yml,\n  openapi/scope3-product-discovery-api-openapi.yml, openapi/scope3-products-api-openapi.yml,\n  openapi/scope3-property-lists-api-openapi.yml, openapi/scope3-release-updates-api-openapi.yml,\n  openapi/scope3-reload-api-openapi.yml, openapi/scope3-reporting-api-openapi.yml, openapi/scope3-saved-lists-api-openapi.yml,\n  openapi/scope3-segment-api-openapi.yml, openapi/scope3-signals-api-openapi.yml, openapi/scope3-signup-api-openapi.yml,\n  openapi/scope3-status-api-openapi.yml, openapi/scope3-storefront-activity-api-openapi.yml,\n  openapi/scope3-storefront-ad-server-buyer-routing-api-openapi.yml, openapi/scope3-storefront-ad-server-catalog-api-openapi.yml,\n  openapi/scope3-storefront-ad-server-diagnostics-api-openapi.yml, openapi/scope3-storefront-agents-api-openapi.yml,\n  openapi/scope3-storefront-api-openapi.yml,\
-  \ openapi/scope3-storefront-billing-api-openapi.yml,\n  openapi/scope3-storefront-proposals-api-openapi.yml, openapi/scope3-storefronts-api-openapi.yml,\n  openapi/scope3-supply-requests-api-openapi.yml, openapi/scope3-syndication-api-openapi.yml,\n  openapi/scope3-tasks-api-openapi.yml, openapi/scope3-update-proposals-api-openapi.yml, openapi/scope3-webhook-subscriptions-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 466\n  by_action_class:\n    connected: 203\n    acting: 263\n  by_consequence:\n    read: 203\n    write: 251\n    physical: 7\n    safety-critical: 5\n  human_in_the_loop_required: 5\noperations:\n- path: /accounts/current\n  method: get\n  operationId: getCurrentAccount\n  x-agentic-access:\n    action-class: connected\n\
+  \ openapi/scope3-storefront-billing-api-openapi.yml,\n  openapi/scope3-storefront-proposals-api-openapi.yml, openapi/scope3-storefronts-api-openapi.yml,\n  openapi/scope3-supply-requests-api-openapi.yml, openapi/scope3-syndication-api-openapi.yml,\n  openapi/scope3-tasks-api-openapi.yml, openapi/scope3-update-proposals-api-openapi.yml, openapi/scope3-webhook-subscriptions-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 466\n  by_action_class:\n    connected: 205\n    acting: 261\n  by_consequence:\n    read: 205\n    write: 249\n    physical: 7\n    safety-critical: 5\n  human_in_the_loop_required: 5\noperations:\n- path: /accounts/current\n  method: get\n  operationId: getCurrentAccount\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts\n  method: get\n  operationId: listCustomerAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/create-child\n  method: post\n  operationId: createChildAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{customerId}/domain\n  method: patch\n  operationId: updateCustomerDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /accounts/{customerId}\n  method: delete\n  operationId: deleteChildAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{customerId}/membership\n  method: get\n  operationId: getMembershipSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{customerId}/membership\n  method: patch\n  operationId: updateMembershipSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /browser-origins\n  method: get\n  operationId: listBrowserOrigins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /browser-origins\n  method: post\n  operationId: createBrowserOrigin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /browser-origins/{id}\n  method: delete\n  operationId: deleteBrowserOrigin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
@@ -435,7 +435,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/scope3
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{advertiserId}/creatives/save-to-library\n  method: post\n  operationId: saveCreativesToLibrary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /creatives/stash\n  method: post\n  operationId: stashBroughtCreatives\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /advertisers/{advertiserId}/creative-intent\n  method: post\n  operationId: getCreativeIntent\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /campaigns/{campaignId}/creative-confirmation\n  method: get\n  operationId: getCreativeConfirmation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (141 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/agentic-access/scope3-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/agentic-access/scope3-agentic-access.yml
-summary_line: 466 operations · 263 acting · 5 human-in-the-loop
+summary_line: 466 operations · 261 acting · 5 human-in-the-loop
 tags:
 - Company
 - Enterprise
@@ -445,10 +445,11 @@ tags:
 - AdTech
 - Measurements
 - Artificial Intelligence
-- Agentic
+- AI Agents
 - AdCP
 - MCP
 - Programmatic
 - Media Buying
 - Publishing
+- A2A
 ---

@@ -86,7 +86,7 @@ tags:
 - Localization
 - i18n
 - Translation
-- Open-Source
+- Open Source
 - Developer Tools
 - Internationalization
 ---

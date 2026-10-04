@@ -2,61 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 26
-api_specs:
-- filename: hydrostor-projects-api-openapi.yml
-  format: yaml
-  label: Hydrostor Projects API
-  slug: hydrostor-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-projects-api-openapi.yml
-- filename: hydrostor-posts-api-openapi.yml
-  format: yaml
-  label: Hydrostor Posts API
-  slug: hydrostor-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-posts-api-openapi.yml
-- filename: hydrostor-pages-api-openapi.yml
-  format: yaml
-  label: Hydrostor Pages API
-  slug: hydrostor-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-pages-api-openapi.yml
-- filename: hydrostor-media-api-openapi.yml
-  format: yaml
-  label: Hydrostor Media API
-  slug: hydrostor-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-media-api-openapi.yml
-- filename: hydrostor-taxonomy-api-openapi.yml
-  format: yaml
-  label: Hydrostor Taxonomy API
-  slug: hydrostor-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-taxonomy-api-openapi.yml
-- filename: hydrostor-search-api-openapi.yml
-  format: yaml
-  label: Hydrostor Search API
-  slug: hydrostor-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-search-api-openapi.yml
-- filename: hydrostor-discovery-api-openapi.yml
-  format: yaml
-  label: Hydrostor Discovery API
-  slug: hydrostor-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-discovery-api-openapi.yml
-- filename: hydrostor-seo-api-openapi.yml
-  format: yaml
-  label: Hydrostor SEO Metadata API
-  slug: hydrostor-seo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-seo-api-openapi.yml
-- filename: hydrostor-o-embed-api-openapi.yml
-  format: yaml
-  label: Hydrostor o Embed API
-  slug: hydrostor-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/openapi/hydrostor-o-embed-api-openapi.yml
 consequence_counts:
   read: 26
 description: Recommended x-agentic-access execution contracts, classified from the derived OpenAPI. Every publicly reachable operation on this surface is an anonymous read, so every classification below is `connected` / `read` with no human-in-the-loop requirement — there is nothing an agent can do here that changes state. The write methods declared on the same routes are excluded because they require a WordPress application password with no public issuance path and are therefore not part of the public contract.
@@ -102,5 +47,4 @@ tags:
 - Utilities
 - Climate Tech
 - Canada
-- Content
 ---

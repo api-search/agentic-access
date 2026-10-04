@@ -80,5 +80,5 @@ tags:
 - Connectivity
 - Mobile Data
 - Roaming
-- Telecom
+- Telecommunications
 ---

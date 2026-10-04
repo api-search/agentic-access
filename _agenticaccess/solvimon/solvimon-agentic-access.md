@@ -1,264 +1,264 @@
 ---
-acting_count: 287
+acting_count: 270
 action_class_counts:
-  acting: 287
-  connected: 151
+  acting: 270
+  connected: 168
 api_specs:
 - filename: solvimon-alerts-api-openapi.yml
   format: yaml
-  label: Solvimon alerts API
+  label: Solvimon Alerts API
   slug: solvimon-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-alerts-api-openapi.yml
 - filename: solvimon-approvalpolicy-api-openapi.yml
   format: yaml
-  label: Solvimon approvalPolicy API
+  label: Solvimon Approval Policy API
   slug: solvimon-approvalpolicy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-approvalpolicy-api-openapi.yml
 - filename: solvimon-attachments-api-openapi.yml
   format: yaml
-  label: Solvimon attachments API
+  label: Solvimon Attachments API
   slug: solvimon-attachments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-attachments-api-openapi.yml
 - filename: solvimon-authentication-api-openapi.yml
   format: yaml
-  label: Solvimon authentication API
+  label: Solvimon Authentication API
   slug: solvimon-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-authentication-api-openapi.yml
 - filename: solvimon-contacts-api-openapi.yml
   format: yaml
-  label: Solvimon contacts API
+  label: Solvimon Contacts API
   slug: solvimon-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-contacts-api-openapi.yml
 - filename: solvimon-coupons-api-openapi.yml
   format: yaml
-  label: Solvimon coupons API
+  label: Solvimon Coupons API
   slug: solvimon-coupons-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-coupons-api-openapi.yml
 - filename: solvimon-credittypes-api-openapi.yml
   format: yaml
-  label: Solvimon creditTypes API
+  label: Solvimon Credit Types API
   slug: solvimon-credittypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-credittypes-api-openapi.yml
 - filename: solvimon-customers-api-openapi.yml
   format: yaml
-  label: Solvimon customers API
+  label: Solvimon Customers API
   slug: solvimon-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-customers-api-openapi.yml
 - filename: solvimon-documents-api-openapi.yml
   format: yaml
-  label: Solvimon documents API
+  label: Solvimon Documents API
   slug: solvimon-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-documents-api-openapi.yml
 - filename: solvimon-features-api-openapi.yml
   format: yaml
-  label: Solvimon features API
+  label: Solvimon Features API
   slug: solvimon-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-features-api-openapi.yml
 - filename: solvimon-fileprocessingsettings-api-openapi.yml
   format: yaml
-  label: Solvimon fileProcessingSettings API
+  label: Solvimon File Processing Settings API
   slug: solvimon-fileprocessingsettings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-fileprocessingsettings-api-openapi.yml
 - filename: solvimon-files-api-openapi.yml
   format: yaml
-  label: Solvimon files API
+  label: Solvimon Files API
   slug: solvimon-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-files-api-openapi.yml
 - filename: solvimon-ingest-api-openapi.yml
   format: yaml
-  label: Solvimon ingest API
+  label: Solvimon Ingest API
   slug: solvimon-ingest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-ingest-api-openapi.yml
 - filename: solvimon-integrations-api-openapi.yml
   format: yaml
-  label: Solvimon integrations API
+  label: Solvimon Integrations API
   slug: solvimon-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-integrations-api-openapi.yml
 - filename: solvimon-invoices-api-openapi.yml
   format: yaml
-  label: Solvimon invoices API
+  label: Solvimon Invoices API
   slug: solvimon-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-invoices-api-openapi.yml
 - filename: solvimon-meterproperties-api-openapi.yml
   format: yaml
-  label: Solvimon meterProperties API
+  label: Solvimon Meter Properties API
   slug: solvimon-meterproperties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-meterproperties-api-openapi.yml
 - filename: solvimon-meters-api-openapi.yml
   format: yaml
-  label: Solvimon meters API
+  label: Solvimon Meters API
   slug: solvimon-meters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-meters-api-openapi.yml
 - filename: solvimon-metervaluecalculations-api-openapi.yml
   format: yaml
-  label: Solvimon meterValueCalculations API
+  label: Solvimon Meter Value Calculations API
   slug: solvimon-metervaluecalculations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-metervaluecalculations-api-openapi.yml
 - filename: solvimon-metervalues-api-openapi.yml
   format: yaml
-  label: Solvimon meterValues API
+  label: Solvimon Meter Values API
   slug: solvimon-metervalues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-metervalues-api-openapi.yml
 - filename: solvimon-paymentacceptors-api-openapi.yml
   format: yaml
-  label: Solvimon paymentAcceptors API
+  label: Solvimon Payment Acceptors API
   slug: solvimon-paymentacceptors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-paymentacceptors-api-openapi.yml
 - filename: solvimon-payments-api-openapi.yml
   format: yaml
-  label: Solvimon payments API
+  label: Solvimon Payments API
   slug: solvimon-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-payments-api-openapi.yml
 - filename: solvimon-platforms-api-openapi.yml
   format: yaml
-  label: Solvimon platforms API
+  label: Solvimon Platforms API
   slug: solvimon-platforms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-platforms-api-openapi.yml
 - filename: solvimon-portalurls-api-openapi.yml
   format: yaml
-  label: Solvimon portalUrls API
+  label: Solvimon Portal URLs API
   slug: solvimon-portalurls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-portalurls-api-openapi.yml
 - filename: solvimon-pricinggroups-api-openapi.yml
   format: yaml
-  label: Solvimon pricingGroups API
+  label: Solvimon Pricing Groups API
   slug: solvimon-pricinggroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-pricinggroups-api-openapi.yml
 - filename: solvimon-pricingplanschedules-api-openapi.yml
   format: yaml
-  label: Solvimon pricingPlanSchedules API
+  label: Solvimon Pricing Plan Schedules API
   slug: solvimon-pricingplanschedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-pricingplanschedules-api-openapi.yml
 - filename: solvimon-pricingplansubscriptiongroups-api-openapi.yml
   format: yaml
-  label: Solvimon pricingPlanSubscriptionGroups API
+  label: Solvimon Pricing Plan Subscription Groups API
   slug: solvimon-pricingplansubscriptiongroups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-pricingplansubscriptiongroups-api-openapi.yml
 - filename: solvimon-pricingplansubscriptions-api-openapi.yml
   format: yaml
-  label: Solvimon pricingPlanSubscriptions API
+  label: Solvimon Pricing Plan Subscriptions API
   slug: solvimon-pricingplansubscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-pricingplansubscriptions-api-openapi.yml
 - filename: solvimon-pricingplanversions-api-openapi.yml
   format: yaml
-  label: Solvimon pricingPlanVersions API
+  label: Solvimon Pricing Plan Versions API
   slug: solvimon-pricingplanversions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-pricingplanversions-api-openapi.yml
 - filename: solvimon-pricings-api-openapi.yml
   format: yaml
-  label: Solvimon pricings API
+  label: Solvimon Pricings API
   slug: solvimon-pricings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-pricings-api-openapi.yml
 - filename: solvimon-productitems-api-openapi.yml
   format: yaml
-  label: Solvimon productItems API
+  label: Solvimon Product Items API
   slug: solvimon-productitems-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-productitems-api-openapi.yml
 - filename: solvimon-products-api-openapi.yml
   format: yaml
-  label: Solvimon products API
+  label: Solvimon Products API
   slug: solvimon-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-products-api-openapi.yml
 - filename: solvimon-quotes-api-openapi.yml
   format: yaml
-  label: Solvimon quotes API
+  label: Solvimon Quotes API
   slug: solvimon-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-quotes-api-openapi.yml
 - filename: solvimon-reports-api-openapi.yml
   format: yaml
-  label: Solvimon reports API
+  label: Solvimon Reports API
   slug: solvimon-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-reports-api-openapi.yml
 - filename: solvimon-reprocess-api-openapi.yml
   format: yaml
-  label: Solvimon reprocess API
+  label: Solvimon Reprocess API
   slug: solvimon-reprocess-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-reprocess-api-openapi.yml
 - filename: solvimon-roles-api-openapi.yml
   format: yaml
-  label: Solvimon roles API
+  label: Solvimon Roles API
   slug: solvimon-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-roles-api-openapi.yml
 - filename: solvimon-taxidtypes-api-openapi.yml
   format: yaml
-  label: Solvimon taxIdTypes API
+  label: Solvimon Tax ID Types API
   slug: solvimon-taxidtypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-taxidtypes-api-openapi.yml
 - filename: solvimon-teams-api-openapi.yml
   format: yaml
-  label: Solvimon teams API
+  label: Solvimon Teams API
   slug: solvimon-teams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-teams-api-openapi.yml
 - filename: solvimon-users-api-openapi.yml
   format: yaml
-  label: Solvimon users API
+  label: Solvimon Users API
   slug: solvimon-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-users-api-openapi.yml
 - filename: solvimon-walletgrants-api-openapi.yml
   format: yaml
-  label: Solvimon walletGrants API
+  label: Solvimon Wallet Grants API
   slug: solvimon-walletgrants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-walletgrants-api-openapi.yml
 - filename: solvimon-wallets-api-openapi.yml
   format: yaml
-  label: Solvimon wallets API
+  label: Solvimon Wallets API
   slug: solvimon-wallets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-wallets-api-openapi.yml
 - filename: solvimon-wallettypes-api-openapi.yml
   format: yaml
-  label: Solvimon walletTypes API
+  label: Solvimon Wallet Types API
   slug: solvimon-wallettypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-wallettypes-api-openapi.yml
 - filename: solvimon-webhooks-api-openapi.yml
   format: yaml
-  label: Solvimon webhooks API
+  label: Solvimon Webhooks API
   slug: solvimon-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-webhooks-api-openapi.yml
 - filename: solvimon-workflows-api-openapi.yml
   format: yaml
-  label: Solvimon workflows API
+  label: Solvimon Workflows API
   slug: solvimon-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-workflows-api-openapi.yml
@@ -389,10 +389,10 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/openapi/solvimon-workflow-triggers-api-openapi.yml
 consequence_counts:
-  physical: 52
-  read: 151
+  physical: 49
+  read: 168
   safety-critical: 4
-  write: 231
+  write: 217
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 4
 kind: agentic-access
@@ -436,11 +436,6 @@ notable_actions:
   human_in_the_loop: conditional
   method: POST
   path: /v{version}/invoices/preview
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
-  path: /v{version}/invoices/search
 - action_class: acting
   consequence: physical
   human_in_the_loop: conditional
@@ -526,11 +521,16 @@ notable_actions:
   human_in_the_loop: conditional
   method: POST
   path: /v{version}/invoices/{resourceId}/send_by_email
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: PATCH
+  path: /v{version}/invoices/{resourceId}/update-e-invoice-status
 operation_count: 438
-overview: 'Solvimon exposes 438 API operations that an AI agent could call, of which 287 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Solvimon exposes 438 API operations that an AI agent could call, of which 270 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 151 read, 231 write, 52 physical, and 4 safety-critical.
+  By consequence: 168 read, 217 write, 49 physical, and 4 safety-critical.
 
 
   4 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -543,42 +543,42 @@ slug: solvimon-agentic-access
 source_filename: solvimon-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/solvimon-configuration-api-openapi.yml, openapi/solvimon-event-api-openapi.yml,\n  openapi/solvimon-identity-api-openapi.yml, openapi/solvimon-transaction-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 438\n  by_action_class:\n    connected: 151\n    acting: 287\n  by_consequence:\n    read: 151\n    write: 231\n    physical: 52\n    safety-critical: 4\n  human_in_the_loop_required: 4\noperations:\n- path: /v{version}/attachments\n  method: get\n  operationId: getAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/attachments\n  method: post\n\
-  \  operationId: postAttachments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/attachments/{resourceId}\n  method: get\n  operationId: getAttachmentsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/attachments/{resourceId}\n  method: delete\n  operationId: deleteAttachmentsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/documents\n  method: post\n  operationId:\
-  \ postDocuments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/documents/{resourceId}\n  method: get\n  operationId: getDocumentsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/documents/{resourceId}\n  method: delete\n  operationId: deleteDocumentsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/documents/{resourceId}/download\n  method: post\n  operationId:\
-  \ postDocumentsByResourceIdDownload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers\n  method: get\n  operationId: getCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/customers\n  method: post\n  operationId: postCustomers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers\n  method: put\n  operationId: putCustomers\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers/{resourceIdOrReference}\n  method: get\n  operationId: getCustomersByResourceIdOrReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/customers/{resourceIdOrReference}\n  method: delete\n  operationId: deleteCustomersByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers/{resourceIdOrReference}\n  method: patch\n  operationId:\
-  \ patchCustomersByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers/{resourceIdOrReference}/entitlements\n  method: get\n  operationId: getCustomersByResourceIdOrReferenceEntitlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/customers/{resourceIdOrReference}/activate\n  method: post\n  operationId: postCustomersByResourceIdOrReferenceActivate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /v{version}/customers/{resourceIdOrReference}/deprecate\n  method: post\n  operationId: postCustomersByResourceIdOrReferenceDeprecate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers/{resourceIdOrReference}/archive\n  method: post\n  operationId: postCustomersByResourceIdOrReferenceArchive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers/{resourceIdOrReference}/forget\n  method: post\n  operationId: postCustomersByResourceIdOrReferenceForget\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers/{resourceIdOrReference}/wallets/balance\n  method: post\n  operationId: postCustomersByResourceIdOrReferenceWalletsBalance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers/search\n  method: post\n  operationId: postCustomersSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
-  \   - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers/validate-tax-id\n  method: post\n  operationId: postCustomersValidateTaxId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/custom-fields\n  method: get\n  operationId: getCustomFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/custom-fields\n  method: post\n  operationId: postCustomFields\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /v{version}/custom-fields/{resourceId}\n  method: get\n  operationId: getCustomFieldsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/custom-fields/{resourceId}\n  method: delete\n  operationId: deleteCustomFieldsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/custom-fields/{resourceId}\n  method: patch\n  operationId: patchCustomFieldsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
-  \ - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/contacts\n  method: get\n  operationId: getContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/contacts\n  method: post\n  operationId: postContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/contacts\n  method: put\n  operationId: putContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/contacts/{resourceId}\n\
-  \  method: get\n  operationId: getContactsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/contacts/{resourceId}\n  method: delete\n  operationId: deleteContactsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/contacts/{resourceId}\n  method: patch\n  operationId: patchContactsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/alert-rules\n  method:\
-  \ get\n  operationId: getAlertRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/alert-rules\n  method: post\n  operationId: postAlertRules\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/alert-rules/{resourceId}\n  method: get\n  operationId: getAlertRulesByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/alert-rules/{resourceId}\n  method: delete\n  operationId: deleteAlertRulesByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/alert-rules/{resourceId}\n  method: patch\n  operationId: patchAlertRulesByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/platforms/{resourceId}\n  method: get\n  operationId: getPlatformsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/platforms/{resourceId}\n  method: patch\n  operationId: patchPlatformsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/platforms/{resourceId}/entitlements\n  method: get\n  operationId: getPlatformsByResourceIdEntitlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/platforms/{resourceId}/currencies\n  method: get\n  operationId: getPlatformsByResourceIdCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/platforms/{resourceId}/up-to-date\n  method: get\n  operationId: getPlatformsByResourceIdUpToDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/meters\n\
-  \  method: get\n  operationId: getMeters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/meters\n  method: post\n  operationId: postMeters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/meters/{resourceIdOrReference}\n  method: get\n  operationId: getMetersByResourceIdOrReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/meters/{resourceIdOrReference}\n  method: delete\n  operationId: deleteMetersByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
-  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/meters/{resourceIdOrReference}\n  method: patch\n  operationId: patchMetersByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/meters/{resourceIdOrReference}/meter-data-file\n  method: get\n  operationId: getMetersByResourceIdOrReferenceMeterDataFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/meter-values\n  method: get\n  operationId: getMeterValues\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/meter-values\n  method: post\n  operationId: postMeterValues\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/meter-values/{resourceIdOrReference}\n  method: get\n  operationId: getMeterValuesByResourceIdOrReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/meter-values/{resourceIdOrReference}\n  method: delete\n  operationId: deleteMeterValuesByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/meter-values/{resourceIdOrReference}\n  method: patch\n  operationId: patchMeterValuesByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/meter-properties\n  method: get\n  operationId: getMeterProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/meter-properties\n  method: post\n  operationId: postMeterProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
-  \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/meter-properties/{resourceIdOrReference}\n  method: get\n  operationId: getMeterPropertiesByResourceIdOrReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/meter-properties/{resourceIdOrReference}\n  method: delete\n  operationId: deleteMeterPropertiesByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/meter-properties/{resourceIdOrReference}\n  method: patch\n  operationId: patchMeterPropertiesByResourceIdOrReference\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/meter-value-calculations\n  method: get\n  operationId: getMeterValueCalculations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/meter-value-calculations\n  method: post\n  operationId: postMeterValueCalculations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/meter-value-calculations/{resourceId}\n  method: get\n  operationId: getMeterValueCalculationsByResourceId\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/meter-value-calculations/{resourceId}\n  method: delete\n  operationId: deleteMeterValueCalculationsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/meter-value-calculations/{resourceId}\n  method: patch\n  operationId: patchMeterValueCalculationsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plans\n\
-  \  method: get\n  operationId: getPricingPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/pricing-plans\n  method: post\n  operationId: postPricingPlans\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plans\n  method: put\n  operationId: putPricingPlans\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plans/search\n  method: post\n  operationId: postPricingPlansSearch\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plans/{resourceIdOrReference}\n  method: get\n  operationId: getPricingPlansByResourceIdOrReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/pricing-plans/{resourceIdOrReference}\n  method: delete\n  operationId: deletePricingPlansByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plans/{resourceIdOrReference}\n\
-  \  method: patch\n  operationId: patchPricingPlansByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-versions/{resourceId}\n  method: get\n  operationId: getPricingPlanVersionsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/pricing-plan-versions/{resourceId}\n  method: delete\n  operationId: deletePricingPlanVersionsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /v{version}/pricing-plan-versions/{resourceId}\n  method: patch\n  operationId: patchPricingPlanVersionsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-versions\n  method: post\n  operationId: postPricingPlanVersions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-versions\n  method: put\n  operationId: putPricingPlanVersions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricings\n  method: post\n  operationId: postPricings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricings/{resourceId}\n  method: delete\n  operationId: deletePricingsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricings/{resourceId}\n  method: patch\n  operationId: patchPricingsByResourceId\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-groups\n  method: post\n  operationId: postPricingGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-groups/{resourceId}\n  method: get\n  operationId: getPricingGroupsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/pricing-groups/{resourceId}\n  method: delete\n  operationId: deletePricingGroupsByResourceId\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-groups/{resourceId}\n  method: patch\n  operationId: patchPricingGroupsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-subscriptions\n  method: get\n  operationId: getPricingPlanSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/pricing-plan-subscriptions\n  method: post\n  operationId:\
-  \ postPricingPlanSubscriptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-subscriptions\n  method: put\n  operationId: putPricingPlanSubscriptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-subscriptions/init\n  method: post\n  operationId: postPricingPlanSubscriptionsInit\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
-  \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-subscriptions/search\n  method: post\n  operationId: postPricingPlanSubscriptionsSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-subscriptions/{resourceId}\n  method: get\n  operationId: getPricingPlanSubscriptionsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/pricing-plan-subscriptions/{resourceId}\n  method: delete\n  operationId: deletePricingPlanSubscriptionsByResourceId\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-subscriptions/{resourceId}\n  method: patch\n  operationId: patchPricingPlanSubscriptionsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-subscriptions/{resourceId}/void\n  method: post\n  operationId: postPricingPlanSubscriptionsByResourceIdVoid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-subscriptions/{resourceId}/archive\n  method: post\n  operationId: postPricingPlanSubscriptionsByResourceIdArchive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-subscriptions/{resourceId}/cancel\n  method: post\n  operationId: postPricingPlanSubscriptionsByResourceIdCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-subscriptions/{resourceId}/copy\n  method: post\n  operationId:\
-  \ postPricingPlanSubscriptionsByResourceIdCopy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/pricing-plan-subscriptions/{resourceId}/update-payment-method\n  method: post\n  operationId: postPricingPlanSubscriptionsByResourceIdUpdatePaymentMethod\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (143 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/agentic-access/solvimon-agentic-access.yml\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/solvimon-alert-rules-api-openapi.yml, openapi/solvimon-alerts-api-openapi.yml,\n  openapi/solvimon-api-keys-api-openapi.yml, openapi/solvimon-approval-request-api-openapi.yml,\n  openapi/solvimon-approvalpolicy-api-openapi.yml, openapi/solvimon-attachments-api-openapi.yml,\n  openapi/solvimon-audit-records-api-openapi.yml, openapi/solvimon-authentication-api-openapi.yml,\n  openapi/solvimon-authentication-providers-api-openapi.yml, openapi/solvimon-billing-entities-api-openapi.yml,\n  openapi/solvimon-bulk-actions-api-openapi.yml, openapi/solvimon-contacts-api-openapi.yml,\n  openapi/solvimon-coupons-api-openapi.yml, openapi/solvimon-credittypes-api-openapi.yml, openapi/solvimon-custom-fields-api-openapi.yml,\n  openapi/solvimon-customers-api-openapi.yml, openapi/solvimon-documents-api-openapi.yml, openapi/solvimon-features-api-openapi.yml,\n  openapi/solvimon-fileprocessingsettings-api-openapi.yml, openapi/solvimon-files-api-openapi.yml,\n\
+  \  openapi/solvimon-ingest-api-openapi.yml, openapi/solvimon-integrations-api-openapi.yml, openapi/solvimon-invoices-api-openapi.yml,\n  openapi/solvimon-meterproperties-api-openapi.yml, openapi/solvimon-meters-api-openapi.yml,\n  openapi/solvimon-metervaluecalculations-api-openapi.yml, openapi/solvimon-metervalues-api-openapi.yml,\n  openapi/solvimon-payment-methods-api-openapi.yml, openapi/solvimon-payment-schedules-api-openapi.yml,\n  openapi/solvimon-paymentacceptors-api-openapi.yml, openapi/solvimon-payments-api-openapi.yml,\n  openapi/solvimon-platforms-api-openapi.yml, openapi/solvimon-portalurls-api-openapi.yml, openapi/solvimon-pricing-plans-api-openapi.yml,\n  openapi/solvimon-pricinggroups-api-openapi.yml, openapi/solvimon-pricingplanschedules-api-openapi.yml,\n  openapi/solvimon-pricingplansubscriptiongroups-api-openapi.yml, openapi/solvimon-pricingplansubscriptions-api-openapi.yml,\n  openapi/solvimon-pricingplanversions-api-openapi.yml, openapi/solvimon-pricings-api-openapi.yml,\n\
+  \  openapi/solvimon-product-categories-api-openapi.yml, openapi/solvimon-productitems-api-openapi.yml,\n  openapi/solvimon-products-api-openapi.yml, openapi/solvimon-promotion-codes-api-openapi.yml,\n  openapi/solvimon-quote-templates-api-openapi.yml, openapi/solvimon-quote-versions-api-openapi.yml,\n  openapi/solvimon-quotes-api-openapi.yml, openapi/solvimon-report-configurations-api-openapi.yml,\n  openapi/solvimon-report-definitions-api-openapi.yml, openapi/solvimon-report-subscriptions-api-openapi.yml,\n  openapi/solvimon-reports-api-openapi.yml, openapi/solvimon-reprocess-api-openapi.yml, openapi/solvimon-roles-api-openapi.yml,\n  openapi/solvimon-signature-requests-api-openapi.yml, openapi/solvimon-taxidtypes-api-openapi.yml,\n  openapi/solvimon-teams-api-openapi.yml, openapi/solvimon-users-api-openapi.yml, openapi/solvimon-walletgrants-api-openapi.yml,\n  openapi/solvimon-wallets-api-openapi.yml, openapi/solvimon-wallettypes-api-openapi.yml, openapi/solvimon-webhooks-api-openapi.yml,\n\
+  \  openapi/solvimon-workflow-actions-api-openapi.yml, openapi/solvimon-workflow-triggers-api-openapi.yml,\n  openapi/solvimon-workflows-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 438\n  by_action_class:\n    connected: 168\n    acting: 270\n  by_consequence:\n    read: 168\n    write: 217\n    physical: 49\n    safety-critical: 4\n  human_in_the_loop_required: 4\noperations:\n- path: /v{version}/alert-rules\n  method: get\n  operationId: getAlertRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/alert-rules\n  method: post\n  operationId: postAlertRules\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/alert-rules/{resourceId}\n  method: get\n  operationId: getAlertRulesByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/alert-rules/{resourceId}\n  method: delete\n  operationId: deleteAlertRulesByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/alert-rules/{resourceId}\n  method: patch\n  operationId: patchAlertRulesByResourceId\n  x-agentic-access:\n    action-class: acting\n\
+  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/alerts\n  method: get\n  operationId: getAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/alerts\n  method: post\n  operationId: postAlerts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/alerts/{resourceId}\n  method: get\n  operationId: getAlertsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
+  \   max-ttl: 3600\n    audit: none\n- path: /v{version}/api-keys\n  method: get\n  operationId: getApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/api-keys\n  method: post\n  operationId: postApiKeys\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/api-keys/search\n  method: post\n  operationId: postApiKeysSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/api-keys/{resourceId}\n  method: get\n  operationId: getApiKeysByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/api-keys/{resourceId}\n  method: patch\n  operationId: patchApiKeysByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/api-keys/{resourceId}/decrypt\n  method: get\n  operationId: getApiKeysByResourceIdDecrypt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/approval-requests\n  method: get\n  operationId: getApprovalRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/approval-requests/{resourceId}\n\
+  \  method: get\n  operationId: getApprovalRequestsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/approval-requests/{resourceId}/approve\n  method: post\n  operationId: postApprovalRequestsByResourceIdApprove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/approval-requests/{resourceId}/decline\n  method: post\n  operationId: postApprovalRequestsByResourceIdDecline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
+  \    audit: required\n- path: /v{version}/approval-requests/{resourceId}/cancel\n  method: post\n  operationId: postApprovalRequestsByResourceIdCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/approval-policies\n  method: get\n  operationId: getApprovalPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/approval-policies\n  method: post\n  operationId: postApprovalPolicies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
+  \ high-value\n    audit: required\n- path: /v{version}/approval-policies/{resourceId}\n  method: get\n  operationId: getApprovalPoliciesByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/approval-policies/{resourceId}\n  method: delete\n  operationId: deleteApprovalPoliciesByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/approval-policies/{resourceId}\n  method: patch\n  operationId: patchApprovalPoliciesByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/approval-policies/{resourceId}/activate\n  method: post\n  operationId: postApprovalPoliciesByResourceIdActivate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/approval-policies/{resourceId}/deprecate\n  method: post\n  operationId: postApprovalPoliciesByResourceIdDeprecate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/approval-policies/{resourceId}/archive\n  method: post\n  operationId:\
+  \ postApprovalPoliciesByResourceIdArchive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/attachments\n  method: get\n  operationId: getAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/attachments\n  method: post\n  operationId: postAttachments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/attachments/{resourceId}\n  method: get\n  operationId: getAttachmentsByResourceId\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/attachments/{resourceId}\n  method: delete\n  operationId: deleteAttachmentsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/audit-records\n  method: get\n  operationId: getAuditRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/audit-records/{resourceId}\n  method: get\n  operationId: getAuditRecordsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
+  \   audit: none\n- path: /v{version}/oauth/token\n  method: post\n  operationId: postOauthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/oauth/demo-token\n  method: post\n  operationId: postOauthDemoToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/oauth/sandbox-token\n  method: post\n  operationId: postOauthSandboxToken\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
+  \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/oauth/refresh-token\n  method: post\n  operationId: postOauthRefreshToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/oauth/logout\n  method: post\n  operationId: postOauthLogout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/oauth/request-password-reset\n  method: post\n  operationId: postOauthRequestPasswordReset\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v{version}/oauth/reset-password\n  method: post\n  operationId: postOauthResetPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v{version}/oauth/activate-user\n  method: post\n  operationId: postOauthActivateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/oauth/callback\n  method: post\n  operationId: postOauthCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/authentication-providers/enabled\n  method: post\n  operationId: postAuthenticationProvidersEnabled\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/authentication-providers\n  method: get\n  operationId: getAuthenticationProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/authentication-providers\n\
+  \  method: post\n  operationId: postAuthenticationProviders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/authentication-providers/{resourceId}\n  method: get\n  operationId: getAuthenticationProvidersByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/authentication-providers/{resourceId}\n  method: patch\n  operationId: patchAuthenticationProvidersByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
+  \    audit: required\n- path: /v{version}/billing-entities\n  method: get\n  operationId: getBillingEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/billing-entities\n  method: post\n  operationId: postBillingEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/billing-entities\n  method: put\n  operationId: putBillingEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/billing-entities/{resourceIdOrReference}\n\
+  \  method: get\n  operationId: getBillingEntitiesByResourceIdOrReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/billing-entities/{resourceIdOrReference}\n  method: patch\n  operationId: patchBillingEntitiesByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/bulk-actions\n  method: get\n  operationId: getBulkActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/bulk-actions\n  method: post\n  operationId: postBulkActions\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/bulk-actions/{resourceId}\n  method: get\n  operationId: getBulkActionsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/bulk-actions/{resourceId}/items\n  method: get\n  operationId: getBulkActionsByResourceIdItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/bulk-actions/check\n  method: post\n  operationId: postBulkActionsCheck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/bulk-actions/search\n  method: post\n  operationId: postBulkActionsSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/contacts\n  method: get\n  operationId: getContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/contacts\n  method: post\n  operationId: postContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/contacts\n  method: put\n  operationId: putContacts\n  x-agentic-access:\n  \
+  \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/contacts/{resourceId}\n  method: get\n  operationId: getContactsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/contacts/{resourceId}\n  method: delete\n  operationId: deleteContactsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/contacts/{resourceId}\n  method: patch\n  operationId: patchContactsByResourceId\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/coupons\n  method: get\n  operationId: getCoupons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/coupons\n  method: post\n  operationId: postCoupons\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/coupons/{resourceIdOrReference}\n  method: get\n  operationId: getCouponsByResourceIdOrReference\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/coupons/{resourceIdOrReference}\n  method: patch\n  operationId: patchCouponsByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/coupons/{resourceIdOrReference}/redemptions\n  method: get\n  operationId: getCouponsByResourceIdOrReferenceRedemptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/coupons/{resourceIdOrReference}/activate\n  method: post\n  operationId: postCouponsByResourceIdOrReferenceActivate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
+  \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/coupons/{resourceIdOrReference}/deactivate\n  method: post\n  operationId: postCouponsByResourceIdOrReferenceDeactivate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/coupons/{resourceIdOrReference}/deprecate\n  method: post\n  operationId: postCouponsByResourceIdOrReferenceDeprecate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
+  \ audit: required\n- path: /v{version}/coupons/{resourceIdOrReference}/archive\n  method: post\n  operationId: postCouponsByResourceIdOrReferenceArchive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/credit-types\n  method: get\n  operationId: getCreditTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/credit-types\n  method: post\n  operationId: postCreditTypes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
+  \ required\n- path: /v{version}/credit-types/{resourceIdOrReference}\n  method: get\n  operationId: getCreditTypesByResourceIdOrReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/credit-types/{resourceIdOrReference}\n  method: patch\n  operationId: patchCreditTypesByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/credit-types/{resourceIdOrReference}/activate\n  method: post\n  operationId: postCreditTypesByResourceIdOrReferenceActivate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/credit-types/{resourceIdOrReference}/deactivate\n  method: post\n  operationId: postCreditTypesByResourceIdOrReferenceDeactivate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/credit-types/{resourceIdOrReference}/deprecate\n  method: post\n  operationId: postCreditTypesByResourceIdOrReferenceDeprecate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/credit-types/{resourceIdOrReference}/archive\n\
+  \  method: post\n  operationId: postCreditTypesByResourceIdOrReferenceArchive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/custom-fields\n  method: get\n  operationId: getCustomFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/custom-fields\n  method: post\n  operationId: postCustomFields\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/custom-fields/{resourceId}\n  method:\
+  \ get\n  operationId: getCustomFieldsByResourceId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/custom-fields/{resourceId}\n  method: delete\n  operationId: deleteCustomFieldsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/custom-fields/{resourceId}\n  method: patch\n  operationId: patchCustomFieldsByResourceId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers\n\
+  \  method: get\n  operationId: getCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/customers\n  method: post\n  operationId: postCustomers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers\n  method: put\n  operationId: putCustomers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v{version}/customers/{resourceIdOrReference}\n  method: get\n  operationId: getCustomersByResourceIdOrReference\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v{version}/customers/{resourceIdOrReference}\n  method: delete\n  operationId: deleteCustomersByResourceIdOrReference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (144 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/agentic-access/solvimon-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/agentic-access/solvimon-agentic-access.yml
-summary_line: 438 operations · 287 acting · 4 human-in-the-loop
+summary_line: 438 operations · 270 acting · 4 human-in-the-loop
 tags:
 - Company
 - Fintech

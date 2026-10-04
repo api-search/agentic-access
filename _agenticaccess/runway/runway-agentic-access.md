@@ -136,12 +136,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runway/refs/he
 summary_line: 17 operations · 15 acting
 tags:
 - Video Generation
-- Image-Generation
+- Image Generation
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Generative AI
 - Avatars
 - Characters
 - WebRTC
 - Creative Tools
+- Real-Time
 ---

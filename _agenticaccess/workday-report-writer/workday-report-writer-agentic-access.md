@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: workday-report-writer-agentdefinition-api-openapi.yml
   format: yaml
-  label: Workday Report Writer agentDefinition API
+  label: Workday Report Writer Agent Definition API
   slug: workday-report-writer-agentdefinition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/openapi/workday-report-writer-agentdefinition-api-openapi.yml
@@ -89,7 +89,7 @@ tags:
 - Analytics
 - Enterprise
 - ERP
-- Financial
+- Finance
 - HRMS
 - Reporting
 - Software-as-a-Service

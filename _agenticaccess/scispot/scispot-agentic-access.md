@@ -72,7 +72,7 @@ tags:
 - Life Sciences
 - LIMS
 - ELN
-- Biotech
+- Biotechnology
 - API-First
 - Scientific Data
 - Healthcare

@@ -41,12 +41,12 @@ summary_line: 9 operations
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Rentals
 - Furnished Apartments
 - Corporate Housing
 - Travel
-- agent-native
+- Agent-Native
 - MCP
 - Search
 ---

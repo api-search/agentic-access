@@ -160,7 +160,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/miniflux/refs/
 summary_line: 42 operations · 20 acting
 tags:
 - Feed Reader
-- Open-Source
+- Open Source
 - Self-Hosted
 - Minimalist
 - Privacy

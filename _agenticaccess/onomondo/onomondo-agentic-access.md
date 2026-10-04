@@ -93,5 +93,5 @@ tags:
 - Connectivity
 - Cellular
 - SIM
-- Telecom
+- Telecommunications
 ---

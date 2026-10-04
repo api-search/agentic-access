@@ -65,8 +65,8 @@ tags:
 - Memory
 - Knowledge Graph
 - Personalization
-- Data Privacy
-- Open-Source
+- Privacy
+- Open Source
 - Developer Tools
 - RAG
 ---

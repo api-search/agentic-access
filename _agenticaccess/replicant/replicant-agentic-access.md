@@ -50,6 +50,6 @@ tags:
 - Customer Service
 - Voice AI
 - Contact Center Automation
-- Agentic AI
+- AI Agents
 - Conversation Intelligence
 ---

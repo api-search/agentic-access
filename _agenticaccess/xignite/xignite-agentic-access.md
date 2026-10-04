@@ -197,7 +197,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: generated\nsource: openapi/xignit
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/agentic-access/xignite-agentic-access.yml
 summary_line: 354 operations
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Real-Time

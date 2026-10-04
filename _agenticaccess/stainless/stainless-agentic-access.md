@@ -85,4 +85,6 @@ tags:
 - Platform
 - SDK
 - Terraform
+- SDK Generation
+- OpenAPI
 ---

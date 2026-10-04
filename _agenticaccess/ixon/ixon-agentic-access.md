@@ -2350,7 +2350,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ixon-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ixon/refs/heads/main/agentic-access/ixon-agentic-access.yml
 summary_line: 674 operations · 460 acting · 16 human-in-the-loop
 tags:
-- IIoT
 - Industrial IoT
 - Machine Connectivity
 - Remote Access

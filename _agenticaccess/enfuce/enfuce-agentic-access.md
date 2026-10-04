@@ -2,7 +2,7 @@
 acting_count: 9
 action_class_counts:
   acting: 9
-  connected: 3
+  connected: 4
 api_specs:
 - filename: enfuce-authorisation-request-api-api-openapi.yml
   format: yaml
@@ -47,10 +47,10 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/openapi/enfuce-update-card-api-openapi.yml
 consequence_counts:
-  physical: 2
-  read: 3
+  physical: 1
+  read: 4
   safety-critical: 2
-  write: 5
+  write: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 2
 kind: agentic-access
@@ -73,17 +73,12 @@ notable_actions:
   consequence: physical
   human_in_the_loop: conditional
   method: POST
-  path: /v1/cards/{id}/encrypt
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
   path: /v1/cards/{id}/reorder-pin
-operation_count: 12
-overview: 'Enfuce exposes 12 API operations that an AI agent could call, of which 9 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+operation_count: 13
+overview: 'Enfuce exposes 13 API operations that an AI agent could call, of which 9 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 3 read, 5 write, 2 physical, and 2 safety-critical.
+  By consequence: 4 read, 6 write, 1 physical, and 2 safety-critical.
 
 
   2 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -96,17 +91,19 @@ slug: enfuce-agentic-access
 source_filename: enfuce-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-21'\nmethod: generated\nsource: openapi/card.openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 12\n  by_action_class:\n    acting: 9\n    connected: 3\n  by_consequence:\n    write: 5\n    read: 3\n    physical: 2\n    safety-critical: 2\n  human_in_the_loop_required: 2\noperations:\n- path: /v1/cards\n  method: post\n  operationId: createCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards\n  method: get\n  operationId: getCards\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cards/{id}\n  method: get\n  operationId: getCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cards/{id}\n  method: patch\n  operationId: patchCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/replace\n  method: post\n  operationId: replaceCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /v1/cards/{id}/reissue\n  method: post\n  operationId: reissueCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/activate\n  method: post\n  operationId: activateCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/reorder-pin\n  method: post\n  operationId: reorderPin\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n\
-  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/manufacturing-history\n  method: get\n  operationId: manufacturingHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cards/{id}/encrypt\n  method: post\n  operationId: encryptCardPaymentInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/controlToken\n  method: post\n  operationId: getCardDataControlToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/cards/{id}/pinControl\n  method: post\n  operationId: createPinControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/enfuce-authorisation-request-api-api-openapi.yml, openapi/enfuce-create-card-api-openapi.yml,\n  openapi/enfuce-create-pin-control-access-token-api-openapi.yml, openapi/enfuce-get-card-api-openapi.yml,\n  openapi/enfuce-get-card-payment-info-api-openapi.yml, openapi/enfuce-get-plastic-manufacturing-history-api-openapi.yml,\n  openapi/enfuce-update-card-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 13\n  by_action_class:\n    acting: 9\n    connected: 4\n  by_consequence:\n    write: 6\n    safety-critical: 2\n    read: 4\n    physical: 1\n  human_in_the_loop_required: 2\noperations:\n- path: /auth\n  method: post\n  operationId: authPost\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards\n  method: post\n  operationId: createCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/pinControl\n  method: post\n  operationId: createPinControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/cards\n  method:\
+  \ get\n  operationId: getCards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cards/{id}\n  method: get\n  operationId: getCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cards/{id}/controlToken\n  method: post\n  operationId: getCardDataControlToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/cards/{id}/encrypt\n  method: post\n  operationId: encryptCardPaymentInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
+  \ 3600\n    audit: none\n- path: /v1/cards/{id}/manufacturing-history\n  method: get\n  operationId: manufacturingHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cards/{id}\n  method: patch\n  operationId: patchCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/replace\n  method: post\n  operationId: replaceCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/reissue\n \
+  \ method: post\n  operationId: reissueCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/activate\n  method: post\n  operationId: activateCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cards/{id}/reorder-pin\n  method: post\n  operationId: reorderPin\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enfuce/refs/heads/main/agentic-access/enfuce-agentic-access.yml
-summary_line: 12 operations · 9 acting · 2 human-in-the-loop
+summary_line: 13 operations · 9 acting · 2 human-in-the-loop
 tags:
 - Company
 - Payments
 - Card Issuing
 - Fintech
 - API Platform
+- A2A
 ---

@@ -61,11 +61,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neverbounce/re
 summary_line: 10 operations · 5 acting
 tags:
 - Email Verification
-- Email Validation
 - Email Hygiene
 - Deliverability
 - Marketing
 - List Cleaning
 - Data Quality
 - ZoomInfo
+- Email
 ---

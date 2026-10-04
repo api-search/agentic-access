@@ -76,7 +76,7 @@ tags:
 - Data Security
 - DSPM
 - DDR
-- Data Privacy
+- Privacy
 - Kubernetes
 - Compliance
 - Security

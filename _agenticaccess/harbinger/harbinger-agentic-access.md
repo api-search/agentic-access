@@ -2,61 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 22
-api_specs:
-- filename: harbinger-posts-api-openapi.yml
-  format: yaml
-  label: Harbinger Motors Posts API
-  slug: harbinger-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-posts-api-openapi.yml
-- filename: harbinger-pages-api-openapi.yml
-  format: yaml
-  label: Harbinger Motors Pages API
-  slug: harbinger-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-pages-api-openapi.yml
-- filename: harbinger-events-api-openapi.yml
-  format: yaml
-  label: Harbinger Motors Events API
-  slug: harbinger-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-events-api-openapi.yml
-- filename: harbinger-media-api-openapi.yml
-  format: yaml
-  label: Harbinger Motors Media API
-  slug: harbinger-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-media-api-openapi.yml
-- filename: harbinger-taxonomy-api-openapi.yml
-  format: yaml
-  label: Harbinger Motors Taxonomy API
-  slug: harbinger-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-taxonomy-api-openapi.yml
-- filename: harbinger-search-api-openapi.yml
-  format: yaml
-  label: Harbinger Motors Search API
-  slug: harbinger-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-search-api-openapi.yml
-- filename: harbinger-discovery-api-openapi.yml
-  format: yaml
-  label: Harbinger Motors Discovery API
-  slug: harbinger-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-discovery-api-openapi.yml
-- filename: harbinger-seo-api-openapi.yml
-  format: yaml
-  label: Harbinger Motors SEO Metadata API
-  slug: harbinger-seo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-seo-api-openapi.yml
-- filename: harbinger-o-embed-api-openapi.yml
-  format: yaml
-  label: Harbinger o Embed API
-  slug: harbinger-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/openapi/harbinger-o-embed-api-openapi.yml
 consequence_counts:
   read: 22
 description: Recommended x-agentic-access execution contracts, classified from the derived OpenAPI. Every publicly reachable operation on this surface is an anonymous read with no side effect and nothing to reverse, so the classification is uniform — that uniformity is the finding, not a shortcut. A governance starting point for exposing this API to AI agents; review and bind audience per deployment.
@@ -101,5 +46,4 @@ tags:
 - Transportation
 - Logistics
 - Energy Storage
-- Content
 ---

@@ -97,6 +97,6 @@ tags:
 - Insurance
 - Landlord Insurance
 - Insurtech
-- Real-Estate
+- Real Estate
 - Rental Property
 ---

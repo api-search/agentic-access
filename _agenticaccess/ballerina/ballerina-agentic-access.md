@@ -59,7 +59,7 @@ summary_line: 6 operations
 tags:
 - Integration
 - Orchestration
-- Open-Source
+- Open Source
 - Programming Language
 - Package Registry
 - Developer Tools

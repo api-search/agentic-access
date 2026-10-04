@@ -74,12 +74,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/conduc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/agentic-access/conductor-oss-agentic-access.yml
 summary_line: 26 operations · 15 acting · 1 human-in-the-loop
 tags:
-- Agentic AI
+- AI Agents
 - Durable Execution
 - Event-Driven
 - Microservices
 - Netflix
-- Open-Source
+- Open Source
 - Orchestration
 - Workflow Engine
 - Workflows

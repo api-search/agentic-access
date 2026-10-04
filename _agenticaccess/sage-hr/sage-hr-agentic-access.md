@@ -202,9 +202,9 @@ tags:
 - Human Resources
 - HRIS
 - People
-- SMB
+- Small Business
 - Leave Management
-- Recruitment
+- Recruiting
 - Performance
 - Timesheets
 - Onboarding

@@ -89,7 +89,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/agentic-access/amazon-msk-agentic-access.yml
 summary_line: 36 operations · 20 acting · 1 human-in-the-loop
 tags:
-- Broadcasting
-- Media Processing
-- Media
+- Streaming
+- Kafka
+- Apache Kafka
+- Event Streaming
+- Data Pipeline
 ---

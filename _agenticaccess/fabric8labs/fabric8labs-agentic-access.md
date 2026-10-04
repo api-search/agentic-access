@@ -2,49 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 19
-api_specs:
-- filename: fabric8labs-posts-api-openapi.yml
-  format: yaml
-  label: Fabric8Labs Posts API
-  slug: fabric8labs-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/openapi/fabric8labs-posts-api-openapi.yml
-- filename: fabric8labs-pages-api-openapi.yml
-  format: yaml
-  label: Fabric8Labs Pages API
-  slug: fabric8labs-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/openapi/fabric8labs-pages-api-openapi.yml
-- filename: fabric8labs-media-api-openapi.yml
-  format: yaml
-  label: Fabric8Labs Media API
-  slug: fabric8labs-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/openapi/fabric8labs-media-api-openapi.yml
-- filename: fabric8labs-team-api-openapi.yml
-  format: yaml
-  label: Fabric8Labs Team API
-  slug: fabric8labs-team-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/openapi/fabric8labs-team-api-openapi.yml
-- filename: fabric8labs-taxonomy-api-openapi.yml
-  format: yaml
-  label: Fabric8Labs Taxonomy API
-  slug: fabric8labs-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/openapi/fabric8labs-taxonomy-api-openapi.yml
-- filename: fabric8labs-search-api-openapi.yml
-  format: yaml
-  label: Fabric8Labs Search API
-  slug: fabric8labs-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/openapi/fabric8labs-search-api-openapi.yml
-- filename: fabric8labs-discovery-api-openapi.yml
-  format: yaml
-  label: Fabric8Labs Discovery API
-  slug: fabric8labs-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/openapi/fabric8labs-discovery-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -85,7 +42,7 @@ tags:
 - Electrochemical Additive Manufacturing
 - Thermal Management
 - Liquid Cooling
-- Data-Center
+- Data Center
 - Semiconductors
 - Electronics
 - Aerospace

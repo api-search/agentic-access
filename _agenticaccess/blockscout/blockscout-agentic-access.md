@@ -134,7 +134,7 @@ tags:
 - Blockscout
 - Web3
 - Explorer
-- Open-Source
+- Open Source
 - EVM
 - Multi-Chain
 - GraphQL
@@ -143,5 +143,5 @@ tags:
 - MCP
 - Agent Skills
 - x402
-- agent-native
+- Agent-Native
 ---

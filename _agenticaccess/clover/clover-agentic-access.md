@@ -148,6 +148,6 @@ tags:
 - Point-of-Sale
 - Payments
 - Retail
-- SMB
+- Small Business
 - Hardware
 ---

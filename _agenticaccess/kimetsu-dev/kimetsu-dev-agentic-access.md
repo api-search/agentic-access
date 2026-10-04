@@ -4,12 +4,24 @@ action_class_counts:
   acting: 1
   connected: 14
 api_specs:
-- filename: kimetsu-dev-agent-gateway-openapi.yml
+- filename: kimetsu-dev-a2a-api-openapi.yml
   format: yaml
-  label: kimetsu.dev Agent Gateway
-  slug: agent-gateway
+  label: Kimetsu A2A API
+  slug: kimetsu-dev-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-agent-gateway-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-a2a-api-openapi.yml
+- filename: kimetsu-dev-discovery-api-openapi.yml
+  format: yaml
+  label: Kimetsu Discovery API
+  slug: kimetsu-dev-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-discovery-api-openapi.yml
+- filename: kimetsu-dev-sidequest-api-openapi.yml
+  format: yaml
+  label: Kimetsu Sidequest API
+  slug: kimetsu-dev-sidequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kimetsu-dev/refs/heads/main/openapi/kimetsu-dev-sidequest-api-openapi.yml
 consequence_counts:
   read: 14
   write: 1
@@ -50,7 +62,7 @@ tags:
 - MCP
 - A2A
 - Developer Tools
-- Open-Source
+- Open Source
 - Rust
 - Agent Discovery
 - Public Goods

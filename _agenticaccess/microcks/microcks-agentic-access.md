@@ -6,25 +6,25 @@ action_class_counts:
 api_specs:
 - filename: microcks-config-api-openapi.yml
   format: yaml
-  label: Microcks config API
+  label: Microcks Config API
   slug: microcks-config-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-config-api-openapi.yml
 - filename: microcks-job-api-openapi.yml
   format: yaml
-  label: Microcks job API
+  label: Microcks Job API
   slug: microcks-job-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-job-api-openapi.yml
 - filename: microcks-metrics-api-openapi.yml
   format: yaml
-  label: Microcks metrics API
+  label: Microcks Metrics API
   slug: microcks-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-metrics-api-openapi.yml
 - filename: microcks-mock-api-openapi.yml
   format: yaml
-  label: Microcks mock API
+  label: Microcks Mock API
   slug: microcks-mock-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-mock-api-openapi.yml
@@ -36,7 +36,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-resources-api-openapi.yml
 - filename: microcks-test-api-openapi.yml
   format: yaml
-  label: Microcks test API
+  label: Microcks Test API
   slug: microcks-test-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-test-api-openapi.yml
@@ -101,5 +101,5 @@ tags:
 - Cloud-Native
 - DevOps
 - Mocking
-- Open-Source
+- Open Source
 ---

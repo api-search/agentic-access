@@ -42,7 +42,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-directories-api-openapi.yml
 - filename: oxen-evaluations-api-openapi.yml
   format: yaml
-  label: Oxen evaluations API
+  label: Oxen Evaluations API
   slug: oxen-evaluations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-evaluations-api-openapi.yml
@@ -60,7 +60,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-files-api-openapi.yml
 - filename: oxen-fine-tunes-api-openapi.yml
   format: yaml
-  label: Oxen fine_tunes API
+  label: Oxen Fine Tunes API
   slug: oxen-fine-tunes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/openapi/oxen-fine-tunes-api-openapi.yml
@@ -302,7 +302,7 @@ summary_line: 117 operations · 59 acting · 22 human-in-the-loop
 tags:
 - Company
 - Data Version Control
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Fine-Tuning
 - Inference

@@ -85,7 +85,7 @@ tags:
 - Artificial Intelligence
 - Graphics
 - Illustrations
-- Image-Generation
+- Image Generation
 - Photos
 - Video Generation
 ---

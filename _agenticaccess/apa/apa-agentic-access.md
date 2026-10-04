@@ -1,73 +1,6 @@
 ---
 acting_count: 0
 action_class_counts: {}
-api_specs:
-- filename: apa-discovery-api-openapi.yml
-  format: yaml
-  label: APA Corporation
-  slug: apa-corporation
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-discovery-api-openapi.yml
-- filename: apa-ticker-api-openapi.yml
-  format: yaml
-  label: APA Corporation Ticker API
-  slug: apa-ticker-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-ticker-api-openapi.yml
-- filename: apa-newsroom-api-openapi.yml
-  format: yaml
-  label: APA Corporation Newsroom API
-  slug: apa-newsroom-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-newsroom-api-openapi.yml
-- filename: apa-leadership-api-openapi.yml
-  format: yaml
-  label: APA Corporation Leadership API
-  slug: apa-leadership-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-leadership-api-openapi.yml
-- filename: apa-pages-api-openapi.yml
-  format: yaml
-  label: APA Corporation Pages API
-  slug: apa-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-pages-api-openapi.yml
-- filename: apa-feed-items-api-openapi.yml
-  format: yaml
-  label: APA Corporation Feed Items API
-  slug: apa-feed-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-feed-items-api-openapi.yml
-- filename: apa-taxonomy-api-openapi.yml
-  format: yaml
-  label: APA Corporation Taxonomy API
-  slug: apa-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-taxonomy-api-openapi.yml
-- filename: apa-authors-api-openapi.yml
-  format: yaml
-  label: APA Corporation Authors API
-  slug: apa-authors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-authors-api-openapi.yml
-- filename: apa-search-api-openapi.yml
-  format: yaml
-  label: APA Corporation Search API
-  slug: apa-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-search-api-openapi.yml
-- filename: apa-media-api-openapi.yml
-  format: yaml
-  label: APA Corporation Media API
-  slug: apa-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-media-api-openapi.yml
-- filename: apa-o-embed-api-openapi.yml
-  format: yaml
-  label: APA Corporation o Embed API
-  slug: apa-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/openapi/apa-o-embed-api-openapi.yml
 consequence_counts: {}
 description: 'Recommended x-agentic-access contract for the APA Corporation REST surface. The classification is uniform and that is the finding: all 28 operations on the public contract are safe HTTP GETs, none requires a credential, none changes state, and none has a consequence to escalate. An agent can call this entire surface unattended. The one caveat worth carrying into an agent policy is freshness, not risk: the share-price quote is edge-cached for 600 seconds, so an agent must not present it as a real-time price.'
 human_in_the_loop: 0
@@ -78,11 +11,11 @@ name: Apa Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 28
-overview: 'APA Corporation exposes 28 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'APA exposes 28 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: APA Corporation
+provider_name: APA
 provider_slug: apa
 slug: apa-agentic-access
 source_filename: apa-agentic-access.yml
@@ -105,7 +38,6 @@ tags:
 - Production
 - WordPress
 - REST
-- Content
 - Newsroom
 - Investor Relations
 - Energy Production

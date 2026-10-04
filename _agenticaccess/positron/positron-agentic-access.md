@@ -71,15 +71,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/positron/refs/
 summary_line: 23 operations · 13 acting
 tags:
 - Artificial Intelligence
-- AI Inference
+- Inference
 - inference-hardware
 - AI Accelerators
 - LLM
 - Transformers
 - OpenAI-Compatible
-- Machine-Learning
+- Machine Learning
 - Semiconductors
-- Data-Center
+- Data Center
 - llm-serving
 - Model Hosting
 ---

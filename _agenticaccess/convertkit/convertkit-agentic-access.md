@@ -166,4 +166,6 @@ tags:
 - Email Campaigns
 - Software-as-a-Service
 - Commerce
+- A2A
+- Email
 ---

@@ -3,12 +3,12 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: polygonscan-api-api-openapi.yml
+- filename: polygonscan-polygonscan-api-api-openapi.yml
   format: yaml
-  label: PolygonScan API
-  slug: polygonscan-api-api
+  label: PolygonScan PolygonScan API
+  slug: polygonscan-polygonscan-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygonscan/refs/heads/main/openapi/polygonscan-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/polygonscan/refs/heads/main/openapi/polygonscan-polygonscan-api-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

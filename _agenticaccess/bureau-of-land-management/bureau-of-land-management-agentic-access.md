@@ -85,7 +85,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land
 summary_line: 17 operations
 tags:
 - Environment
-- Federal-Government
+- Federal Government
 - Land
 - Resources
 - GIS

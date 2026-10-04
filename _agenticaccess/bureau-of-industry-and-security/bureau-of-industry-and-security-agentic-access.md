@@ -40,7 +40,7 @@ summary_line: 2 operations
 tags:
 - Compliance
 - Export Control
-- Federal-Government
+- Federal Government
 - Industries
 - National Security
 - Screening Lists

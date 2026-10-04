@@ -93,7 +93,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/
 summary_line: 45 operations · 25 acting
 tags:
 - Payments
-- Financial-Services
+- Financial Services
 - Fintech
 - Brazil
 - Latin America
@@ -105,7 +105,7 @@ tags:
 - Split Payments
 - Subscription
 - Recurring Billing
-- Anti-Fraud
+- Fraud Prevention
 - 3D
 - Checkout
 - Payment Links

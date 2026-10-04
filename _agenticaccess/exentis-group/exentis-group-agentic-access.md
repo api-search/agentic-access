@@ -2,55 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 14
-api_specs:
-- filename: exentis-group-posts-api-openapi.yml
-  format: yaml
-  label: Exentis Group Posts API
-  slug: exentis-group-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-posts-api-openapi.yml
-- filename: exentis-group-blog-api-openapi.yml
-  format: yaml
-  label: Exentis Group Blog API
-  slug: exentis-group-blog-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-blog-api-openapi.yml
-- filename: exentis-group-pages-api-openapi.yml
-  format: yaml
-  label: Exentis Group Pages API
-  slug: exentis-group-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-pages-api-openapi.yml
-- filename: exentis-group-media-api-openapi.yml
-  format: yaml
-  label: Exentis Group Media API
-  slug: exentis-group-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-media-api-openapi.yml
-- filename: exentis-group-categories-api-openapi.yml
-  format: yaml
-  label: Exentis Group Categories API
-  slug: exentis-group-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-categories-api-openapi.yml
-- filename: exentis-group-search-api-openapi.yml
-  format: yaml
-  label: Exentis Group Search API
-  slug: exentis-group-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-search-api-openapi.yml
-- filename: exentis-group-languages-api-openapi.yml
-  format: yaml
-  label: Exentis Group Languages API
-  slug: exentis-group-languages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-languages-api-openapi.yml
-- filename: exentis-group-taxonomy-api-openapi.yml
-  format: yaml
-  label: Exentis Group Taxonomy API
-  slug: exentis-group-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/openapi/exentis-group-taxonomy-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -93,5 +44,4 @@ tags:
 - New Energy
 - Switzerland
 - Hardware
-- Content
 ---

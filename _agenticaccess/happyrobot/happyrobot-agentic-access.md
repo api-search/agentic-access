@@ -277,11 +277,11 @@ tags:
 - Logistics
 - Freight
 - Supply Chain
-- Workflow-Automation
+- Workflow Automation
 - Contact Center
 - Telephony
 - MCP
-- agent-native
+- Agent-Native
 - Agent Governance
 - Enterprise Automation
 ---

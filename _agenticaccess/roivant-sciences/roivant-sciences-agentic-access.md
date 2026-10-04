@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/datava
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/agentic-access/roivant-sciences-agentic-access.yml
 summary_line: 15 operations
 tags:
-- Biotech
+- Biotechnology
 - Pharmaceuticals
 - Drug Development
 - Clinical Trials

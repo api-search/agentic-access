@@ -78,11 +78,11 @@ name: Drillr Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 0
-overview: 'drillr Public Data API exposes 0 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'drillr exposes 0 API operations that an AI agent could call, of which 0 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
-provider_name: drillr Public Data API
+provider_name: drillr
 provider_slug: drillr
 slug: drillr-agentic-access
 source_filename: drillr-agentic-access.yml
@@ -105,5 +105,5 @@ tags:
 - Analyst Ratings
 - news-signals
 - MCP
-- agent-native
+- Agent-Native
 ---

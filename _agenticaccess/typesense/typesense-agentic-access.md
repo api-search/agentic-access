@@ -86,8 +86,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typesense/refs
 summary_line: 21 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Full-Text Search
-- Open-Source
+- Open Source
 - Search Engines
 - Typo Tolerance
 - Vector Search
+- Search
 ---

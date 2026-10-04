@@ -152,9 +152,9 @@ tags:
 - RSU
 - ESPP
 - Employee Equity
-- Financial-Services
+- Financial Services
 - Morgan Stanley
-- Equity Administration
+- Equity-Administration
 - Private Companies
 - Public Companies
 ---

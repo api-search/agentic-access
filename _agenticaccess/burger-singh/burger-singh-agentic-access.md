@@ -2,43 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 15
-api_specs:
-- filename: burger-singh-pages-api-openapi.yml
-  format: yaml
-  label: Burger Singh Pages API
-  slug: burger-singh-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/openapi/burger-singh-pages-api-openapi.yml
-- filename: burger-singh-media-api-openapi.yml
-  format: yaml
-  label: Burger Singh Media API
-  slug: burger-singh-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/openapi/burger-singh-media-api-openapi.yml
-- filename: burger-singh-taxonomy-api-openapi.yml
-  format: yaml
-  label: Burger Singh Taxonomy API
-  slug: burger-singh-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/openapi/burger-singh-taxonomy-api-openapi.yml
-- filename: burger-singh-search-api-openapi.yml
-  format: yaml
-  label: Burger Singh Search API
-  slug: burger-singh-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/openapi/burger-singh-search-api-openapi.yml
-- filename: burger-singh-discovery-api-openapi.yml
-  format: yaml
-  label: Burger Singh Discovery API
-  slug: burger-singh-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/openapi/burger-singh-discovery-api-openapi.yml
-- filename: burger-singh-seo-api-openapi.yml
-  format: yaml
-  label: Burger Singh SEO Metadata API
-  slug: burger-singh-seo-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/openapi/burger-singh-seo-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -78,6 +41,5 @@ tags:
 - Consumer
 - India
 - Retail
-- Content
 - WordPress
 ---

@@ -130,7 +130,7 @@ summary_line: 46 operations · 26 acting · 2 human-in-the-loop
 tags:
 - Database
 - Serverless
-- Postgres
+- PostgreSQL
 - Infrastructure
 - Authentication
 - Edge

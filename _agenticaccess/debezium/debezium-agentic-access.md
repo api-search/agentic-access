@@ -82,5 +82,5 @@ tags:
 - Change Data Capture
 - Database
 - Event Streaming
-- Open-Source
+- Open Source
 ---

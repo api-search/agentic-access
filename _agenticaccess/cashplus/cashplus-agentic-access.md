@@ -4,24 +4,6 @@ action_class_counts:
   acting: 20
   connected: 54
 api_specs:
-- filename: cashplus-accounts-api-openapi.yml
-  format: yaml
-  label: Cashplus Accounts API
-  slug: cashplus-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-accounts-api-openapi.yml
-- filename: cashplus-products-api-openapi.yml
-  format: yaml
-  label: Cashplus Products API
-  slug: cashplus-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-products-api-openapi.yml
-- filename: cashplus-transactions-api-openapi.yml
-  format: yaml
-  label: Cashplus Transactions API
-  slug: cashplus-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-transactions-api-openapi.yml
 - filename: cashplus-account-access-api-openapi.yml
   format: yaml
   label: Cashplus Bank Account Access API
@@ -30,7 +12,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-account-access-api-openapi.yml
 - filename: cashplus-accounts-api-openapi.yml
   format: yaml
-  label: Cashplus Bank Accounts API
+  label: Cashplus Accounts API
   slug: cashplus-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-accounts-api-openapi.yml
@@ -120,7 +102,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-payment-details-api-openapi.yml
 - filename: cashplus-products-api-openapi.yml
   format: yaml
-  label: Cashplus Bank Products API
+  label: Cashplus Products API
   slug: cashplus-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-products-api-openapi.yml
@@ -144,7 +126,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-statements-api-openapi.yml
 - filename: cashplus-transactions-api-openapi.yml
   format: yaml
-  label: Cashplus Bank Transactions API
+  label: Cashplus Transactions API
   slug: cashplus-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-transactions-api-openapi.yml
@@ -278,7 +260,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/cashpl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/agentic-access/cashplus-agentic-access.yml
 summary_line: 74 operations · 20 acting
 tags:
-- Financial-Services
+- Financial Services
 - Banking
 - Open Banking
 - PSD2

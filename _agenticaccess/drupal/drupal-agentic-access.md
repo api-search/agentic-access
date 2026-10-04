@@ -93,7 +93,7 @@ summary_line: 33 operations · 17 acting
 tags:
 - Content Management
 - CMS
-- Open-Source
+- Open Source
 - JSON:API
 - GraphQL
 - Headless

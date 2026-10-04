@@ -135,7 +135,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/re
 summary_line: 53 operations · 32 acting
 tags:
 - Artificial Intelligence
-- Image-Generation
+- Image Generation
 - Video Generation
 - Generative AI
 - Creative

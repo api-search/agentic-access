@@ -139,6 +139,6 @@ tags:
 - Quantum Chemistry
 - Graph Algorithms
 - Job Orchestration
-- Open-Source
+- Open Source
 - France
 ---

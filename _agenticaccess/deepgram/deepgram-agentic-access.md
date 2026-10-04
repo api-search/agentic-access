@@ -123,4 +123,6 @@ tags:
 - Text-to-Speech
 - Transcription
 - Voice AI
+- Voice
+- Real-Time
 ---

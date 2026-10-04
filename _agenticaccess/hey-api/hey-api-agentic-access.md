@@ -89,5 +89,6 @@ tags:
 - API Design
 - Specification
 - Registry
-- Open-Source
+- Open Source
+- SDK Generation
 ---

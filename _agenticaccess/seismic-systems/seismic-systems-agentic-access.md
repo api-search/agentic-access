@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: seismic-systems-tokens-api-openapi.yml
   format: yaml
-  label: Seismic Systems tokens API
+  label: Seismic Systems Tokens API
   slug: seismic-systems-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seismic-systems/refs/heads/main/openapi/seismic-systems-tokens-api-openapi.yml

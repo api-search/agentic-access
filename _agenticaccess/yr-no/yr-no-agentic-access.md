@@ -5,19 +5,19 @@ action_class_counts:
 api_specs:
 - filename: yr-no-alerts-api-openapi.yml
   format: yaml
-  label: Yr alerts API
+  label: Yr Alerts API
   slug: yr-no-alerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/openapi/yr-no-alerts-api-openapi.yml
 - filename: yr-no-data-api-openapi.yml
   format: yaml
-  label: Yr data API
+  label: Yr Data API
   slug: yr-no-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/openapi/yr-no-data-api-openapi.yml
 - filename: yr-no-metadata-api-openapi.yml
   format: yaml
-  label: Yr metadata API
+  label: Yr Metadata API
   slug: yr-no-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/openapi/yr-no-metadata-api-openapi.yml

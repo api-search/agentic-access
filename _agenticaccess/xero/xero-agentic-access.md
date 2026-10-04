@@ -255,7 +255,7 @@ tags:
 - Accounting
 - Bank Feeds
 - Finance
-- Financial-Services
+- Financial Services
 - Invoicing
 - Payroll
 - Small Business

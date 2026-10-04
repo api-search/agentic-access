@@ -109,6 +109,6 @@ tags:
 - Philippines
 - Southeast Asia
 - GCash
-- E-Wallet
+- Digital Wallet
 - Card Payments
 ---

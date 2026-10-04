@@ -166,4 +166,5 @@ tags:
 - E-Commerce
 - Agents
 - MCP
+- A2A
 ---

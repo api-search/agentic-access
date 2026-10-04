@@ -100,4 +100,5 @@ tags:
 - MFA
 - Zero Trust
 - Identity
+- Identity Federation
 ---

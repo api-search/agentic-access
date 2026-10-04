@@ -220,6 +220,6 @@ tags:
 - WhatsApp
 - Slack
 - Notification Infrastructure
-- Workflow-Automation
+- Workflow Automation
 - Template Management
 ---

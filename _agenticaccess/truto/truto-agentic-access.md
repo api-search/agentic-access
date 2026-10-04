@@ -149,13 +149,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/truto-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/agentic-access/truto-agentic-access.yml
 summary_line: 30 operations · 9 acting
 tags:
-- Unified-API
+- Unified API
 - Integration Platform
 - HRIS
-- ATS
+- Applicant Tracking
 - CRM
 - Embedded Integrations
 - MCP
 - AI Agents
 - Software-as-a-Service
+- Integration
 ---

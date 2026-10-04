@@ -4,12 +4,30 @@ action_class_counts:
   acting: 4
   connected: 9
 api_specs:
-- filename: movehome-org-raia-portal-feed-openapi.yaml
+- filename: movehome-org-branches-api-openapi.yml
   format: yaml
-  label: RAIA Portal Feed API (MoveHome.org implementation)
-  slug: raia-portal-feed-api
+  label: Move Home Organisation CIC Branches API
+  slug: movehome-org-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-raia-portal-feed-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-branches-api-openapi.yml
+- filename: movehome-org-listings-api-openapi.yml
+  format: yaml
+  label: Move Home Organisation CIC Listings API
+  slug: movehome-org-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-listings-api-openapi.yml
+- filename: movehome-org-operational-api-openapi.yml
+  format: yaml
+  label: Move Home Organisation CIC Operational API
+  slug: movehome-org-operational-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-operational-api-openapi.yml
+- filename: movehome-org-products-api-openapi.yml
+  format: yaml
+  label: Move Home Organisation CIC Products API
+  slug: movehome-org-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/openapi/movehome-org-products-api-openapi.yml
 consequence_counts:
   read: 9
   write: 4
@@ -43,17 +61,17 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/moveho
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/agentic-access/movehome-org-agentic-access.yml
 summary_line: 13 operations · 4 acting
 tags:
-- Real-Estate
+- Real Estate
 - Property
 - Lettings
 - Property Sales
 - Agents
 - A2A
 - MCP
-- agent-native
+- Agent-Native
 - Agent Registry
 - Non-Profit
-- Open-Source
+- Open Source
 - RAIA Protocol
 - United Kingdom
 ---

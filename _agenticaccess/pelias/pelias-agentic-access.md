@@ -59,7 +59,7 @@ tags:
 - Geocoding
 - Reverse Geocoding
 - Geospatial
-- Open-Source
+- Open Source
 - Elasticsearch
 - OpenStreetMap
 - Addresses

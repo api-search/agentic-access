@@ -57,8 +57,8 @@ tags:
 - Anomaly Detection
 - Artificial Intelligence
 - Data Science
-- Fraud Detection
-- Machine-Learning
+- Fraud Prevention
+- Machine Learning
 - Monitoring
 - Observability
 - Outlier Detection

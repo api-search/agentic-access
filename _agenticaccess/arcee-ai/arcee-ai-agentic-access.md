@@ -272,11 +272,11 @@ summary_line: 237 operations · 125 acting · 4 human-in-the-loop
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Small Language Models
 - Inference
 - MCP
-- Open-Source
+- Open Source
 - Developer Platform
 ---

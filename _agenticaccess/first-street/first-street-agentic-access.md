@@ -53,12 +53,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-street/r
 summary_line: 3 operations · 2 acting
 tags:
 - Climate
-- Risk
+- Risk Management
 - Environment
 - Modeling
 - Geospatial
 - Insurance
-- Real-Estate
+- Real Estate
 - Data
 - GraphQL
 - Mapping

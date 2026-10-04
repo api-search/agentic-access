@@ -1,37 +1,6 @@
 ---
 acting_count: 0
 action_class_counts: {}
-api_specs:
-- filename: denbury-resources-pages-api-openapi.yml
-  format: yaml
-  label: Denbury Resources Pages API
-  slug: denbury-resources-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-pages-api-openapi.yml
-- filename: denbury-resources-media-api-openapi.yml
-  format: yaml
-  label: Denbury Resources Media API
-  slug: denbury-resources-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-media-api-openapi.yml
-- filename: denbury-resources-search-api-openapi.yml
-  format: yaml
-  label: Denbury Resources Search API
-  slug: denbury-resources-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-search-api-openapi.yml
-- filename: denbury-resources-discovery-api-openapi.yml
-  format: yaml
-  label: Denbury Resources Discovery API
-  slug: denbury-resources-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-discovery-api-openapi.yml
-- filename: denbury-resources-o-embed-api-openapi.yml
-  format: yaml
-  label: Denbury Resources o Embed API
-  slug: denbury-resources-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/openapi/denbury-resources-o-embed-api-openapi.yml
 consequence_counts: {}
 description: 'Recommended x-agentic-access classification for every operation Denbury Inc.''s public surface exposes. This is an API Evangelist RECOMMENDATION, not a Denbury publication — Denbury declares no agent policy of any kind. The classification is unusually simple here because the surface is uniformly read-only: twelve GET operations, no credentials, no side effects, nothing to escalate.'
 human_in_the_loop: 0
@@ -68,6 +37,5 @@ tags:
 - ExxonMobil
 - Oil and Gas
 - Fortune 1000
-- Content
 - Carbon Sequestration
 ---

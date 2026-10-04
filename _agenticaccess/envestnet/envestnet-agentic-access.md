@@ -228,7 +228,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/envest
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/agentic-access/envestnet-agentic-access.yml
 summary_line: 150 operations · 76 acting · 2 human-in-the-loop
 tags:
-- Financial
+- Finance
 - Wealth Management
 - Open Banking
 - Account Aggregation

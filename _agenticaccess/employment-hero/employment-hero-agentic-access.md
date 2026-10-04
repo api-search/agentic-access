@@ -104,7 +104,8 @@ tags:
 - Human Resources
 - HRIS
 - Payroll
-- Recruitment
+- Recruiting
 - Employee Benefits
 - Workforce Management
+- Australia
 ---

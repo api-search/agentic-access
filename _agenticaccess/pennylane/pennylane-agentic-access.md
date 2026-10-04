@@ -169,5 +169,5 @@ tags:
 - Financial Data
 - Banking
 - France
-- SME
+- Small Business
 ---

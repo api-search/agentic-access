@@ -396,13 +396,14 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/bindbe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/agentic-access/bindbee-agentic-access.yml
 summary_line: 151 operations · 35 acting
 tags:
-- ATS
+- Applicant Tracking
 - HR Integration
 - HRIS
 - Workforce
-- Unified-API
+- Unified API
 - Payroll
 - LMS
 - Employee Data
 - Integration
+- A2A
 ---

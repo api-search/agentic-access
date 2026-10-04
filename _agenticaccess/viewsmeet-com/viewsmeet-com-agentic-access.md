@@ -4,18 +4,48 @@ action_class_counts:
   acting: 17
   connected: 15
 api_specs:
-- filename: viewsmeet-com-openapi.yml
+- filename: viewsmeet-com-agent-api-openapi.yml
   format: yaml
-  label: ViewsMeet Machine Participation API
-  slug: viewsmeet-machine-participation-api
+  label: ViewsMeet Agent API
+  slug: viewsmeet-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-openapi.yml
-- filename: viewsmeet-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-agent-api-openapi.yml
+- filename: viewsmeet-com-agents-api-openapi.yml
   format: yaml
-  label: ViewsMeet Pick + Predict MCP Server
-  slug: viewsmeet-pick-and-predict-mcp-server
+  label: ViewsMeet Agents API
+  slug: viewsmeet-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-agents-api-openapi.yml
+- filename: viewsmeet-com-assessments-api-openapi.yml
+  format: yaml
+  label: ViewsMeet Assessments API
+  slug: viewsmeet-com-assessments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-assessments-api-openapi.yml
+- filename: viewsmeet-com-connections-api-openapi.yml
+  format: yaml
+  label: ViewsMeet Connections API
+  slug: viewsmeet-com-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-connections-api-openapi.yml
+- filename: viewsmeet-com-experiments-api-openapi.yml
+  format: yaml
+  label: ViewsMeet Experiments API
+  slug: viewsmeet-com-experiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-experiments-api-openapi.yml
+- filename: viewsmeet-com-mcp-api-openapi.yml
+  format: yaml
+  label: ViewsMeet MCP API
+  slug: viewsmeet-com-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-mcp-api-openapi.yml
+- filename: viewsmeet-com-personality-api-openapi.yml
+  format: yaml
+  label: ViewsMeet Personality API
+  slug: viewsmeet-com-personality-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-personality-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 2
@@ -73,7 +103,7 @@ tags:
 - Games
 - Personality Assessment
 - Surveys & Polls
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - Research

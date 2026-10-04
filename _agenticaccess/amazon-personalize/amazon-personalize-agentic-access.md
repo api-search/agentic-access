@@ -39,7 +39,7 @@ summary_line: 1 operation · 1 acting
 tags:
 - Artificial Intelligence
 - Customer Experience
-- Machine-Learning
+- Machine Learning
 - Personalization
 - Recommendations
 ---

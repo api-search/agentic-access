@@ -1,8 +1,8 @@
 ---
-acting_count: 148
+acting_count: 147
 action_class_counts:
-  acting: 148
-  connected: 115
+  acting: 147
+  connected: 116
 api_specs:
 - filename: gr4vy-3ds-scenarios-api-openapi.yml
   format: yaml
@@ -371,8 +371,8 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-webhooks-api-openapi.yml
 consequence_counts:
-  physical: 46
-  read: 115
+  physical: 45
+  read: 116
   safety-critical: 4
   write: 98
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -509,10 +509,10 @@ notable_actions:
   method: POST
   path: /payment-methods/{payment_method_id}/network-tokens
 operation_count: 263
-overview: 'Gr4vy exposes 263 API operations that an AI agent could call, of which 148 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Gr4vy exposes 263 API operations that an AI agent could call, of which 147 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 115 read, 98 write, 46 physical, and 4 safety-critical.
+  By consequence: 116 read, 98 write, 45 physical, and 4 safety-critical.
 
 
   4 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -525,10 +525,10 @@ slug: gr4vy-agentic-access
 source_filename: gr4vy-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-21'\nmethod: generated\nsource: openapi/gr4vy-3ds-scenarios-api-openapi.yml, openapi/gr4vy-account-updater-api-openapi.yml,\n  openapi/gr4vy-anti-fraud-service-definitions-api-openapi.yml, openapi/gr4vy-anti-fraud-services-api-openapi.yml,\n  openapi/gr4vy-api-key-pairs-api-openapi.yml, openapi/gr4vy-api-logs-api-openapi.yml, openapi/gr4vy-apple-pay-certificates-api-openapi.yml,\n  openapi/gr4vy-audit-logs-api-openapi.yml, openapi/gr4vy-buyers-api-openapi.yml, openapi/gr4vy-buyers-gift-cards-api-openapi.yml,\n  openapi/gr4vy-buyers-payment-methods-api-openapi.yml, openapi/gr4vy-buyers-shipping-details-api-openapi.yml,\n  openapi/gr4vy-card-details-api-openapi.yml, openapi/gr4vy-card-scheme-definitions-api-openapi.yml,\n  openapi/gr4vy-checkout-sessions-api-openapi.yml, openapi/gr4vy-connection-definitions-api-openapi.yml,\n  openapi/gr4vy-connections-api-openapi.yml, openapi/gr4vy-digital-wallets-api-openapi.yml,\n  openapi/gr4vy-digital-wallets-sessions-api-openapi.yml,\
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gr4vy-3ds-scenarios-api-openapi.yml, openapi/gr4vy-account-updater-api-openapi.yml,\n  openapi/gr4vy-anti-fraud-service-definitions-api-openapi.yml, openapi/gr4vy-anti-fraud-services-api-openapi.yml,\n  openapi/gr4vy-api-key-pairs-api-openapi.yml, openapi/gr4vy-api-logs-api-openapi.yml, openapi/gr4vy-apple-pay-certificates-api-openapi.yml,\n  openapi/gr4vy-audit-logs-api-openapi.yml, openapi/gr4vy-buyers-api-openapi.yml, openapi/gr4vy-buyers-gift-cards-api-openapi.yml,\n  openapi/gr4vy-buyers-payment-methods-api-openapi.yml, openapi/gr4vy-buyers-shipping-details-api-openapi.yml,\n  openapi/gr4vy-card-details-api-openapi.yml, openapi/gr4vy-card-scheme-definitions-api-openapi.yml,\n  openapi/gr4vy-checkout-sessions-api-openapi.yml, openapi/gr4vy-connection-definitions-api-openapi.yml,\n  openapi/gr4vy-connections-api-openapi.yml, openapi/gr4vy-digital-wallets-api-openapi.yml,\n  openapi/gr4vy-digital-wallets-sessions-api-openapi.yml,\
   \ openapi/gr4vy-digital-wallets-setup-api-openapi.yml,\n  openapi/gr4vy-flow-api-openapi.yml, openapi/gr4vy-gift-card-service-definitions-api-openapi.yml,\n  openapi/gr4vy-gift-card-services-api-openapi.yml, openapi/gr4vy-gift-cards-api-openapi.yml,\n  openapi/gr4vy-health-dashboard-api-openapi.yml, openapi/gr4vy-insights-api-openapi.yml, openapi/gr4vy-insights-presets-api-openapi.yml,\n  openapi/gr4vy-merchant-accounts-3ds-configuration-api-openapi.yml, openapi/gr4vy-merchant-accounts-api-openapi.yml,\n  openapi/gr4vy-metrics-explorer-api-openapi.yml, openapi/gr4vy-monitoring-api-openapi.yml,\n  openapi/gr4vy-payment-links-api-openapi.yml, openapi/gr4vy-payment-method-definitions-api-openapi.yml,\n  openapi/gr4vy-payment-methods-api-openapi.yml, openapi/gr4vy-payment-methods-definitions-api-openapi.yml,\n  openapi/gr4vy-payment-methods-network-tokens-api-openapi.yml, openapi/gr4vy-payment-methods-payment-service-tokens-api-openapi.yml,\n  openapi/gr4vy-payment-options-api-openapi.yml,\
   \ openapi/gr4vy-payment-service-definitions-api-openapi.yml,\n  openapi/gr4vy-payment-services-api-openapi.yml, openapi/gr4vy-payouts-api-openapi.yml, openapi/gr4vy-refunds-api-openapi.yml,\n  openapi/gr4vy-reports-api-openapi.yml, openapi/gr4vy-reports-executions-api-openapi.yml, openapi/gr4vy-roles-api-openapi.yml,\n  openapi/gr4vy-sessions-api-openapi.yml, openapi/gr4vy-tokens-api-openapi.yml, openapi/gr4vy-transactions-actions-api-openapi.yml,\n  openapi/gr4vy-transactions-api-openapi.yml, openapi/gr4vy-transactions-captures-api-openapi.yml,\n  openapi/gr4vy-transactions-chargeback-reversals-api-openapi.yml, openapi/gr4vy-transactions-chargebacks-api-openapi.yml,\n  openapi/gr4vy-transactions-refund-settlements-api-openapi.yml, openapi/gr4vy-transactions-sessions-api-openapi.yml,\n  openapi/gr4vy-transactions-settlements-api-openapi.yml, openapi/gr4vy-users-api-openapi.yml,\n  openapi/gr4vy-vault-forward-api-openapi.yml, openapi/gr4vy-vault-forward-configurations-api-openapi.yml,\n\
-  \  openapi/gr4vy-vault-forward-definitions-api-openapi.yml, openapi/gr4vy-webhook-subscriptions-api-openapi.yml,\n  openapi/gr4vy-webhooks-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 263\n  by_action_class:\n    acting: 148\n    connected: 115\n  by_consequence:\n    write: 98\n    read: 115\n    physical: 46\n    safety-critical: 4\n  human_in_the_loop_required: 4\noperations:\n- path: /three-ds-scenarios\n  method: post\n  operationId: create_three_ds_scenario\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - three-ds-scenarios.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
+  \  openapi/gr4vy-vault-forward-definitions-api-openapi.yml, openapi/gr4vy-webhook-subscriptions-api-openapi.yml,\n  openapi/gr4vy-webhooks-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 263\n  by_action_class:\n    acting: 147\n    connected: 116\n  by_consequence:\n    write: 98\n    read: 116\n    physical: 45\n    safety-critical: 4\n  human_in_the_loop_required: 4\noperations:\n- path: /three-ds-scenarios\n  method: post\n  operationId: create_three_ds_scenario\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - three-ds-scenarios.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /three-ds-scenarios\n  method: get\n  operationId: get_three_ds_scenario\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - three-ds-scenarios.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /three-ds-scenarios/{three_ds_scenario_id}\n  method: put\n  operationId: update_three_ds_scenario\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - three-ds-scenarios.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /three-ds-scenarios/{three_ds_scenario_id}\n  method: delete\n  operationId: delete_three_ds_scenario\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - three-ds-scenarios.write\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account-updater/jobs\n  method: post\n  operationId: new-account-updater-job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /anti-fraud-service-definitions/{anti_fraud_service_definition_id}\n  method: get\n  operationId: get-anti-fraud-service-definition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /anti-fraud-services\n  method: post\n  operationId: new-anti-fraud-service\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /anti-fraud-services/{anti_fraud_service_id}\n  method: get\n  operationId: get-anti-fraud-service\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /anti-fraud-services/{anti_fraud_service_id}\n  method: put\n  operationId: update-anti-fraud-service\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /anti-fraud-services/{anti_fraud_service_id}\n  method: delete\n  operationId: delete-anti-fraud-service\n  x-agentic-access:\n    action-class: acting\n    consequence:\
@@ -560,7 +560,7 @@ source_yaml: "generated: '2026-09-21'\nmethod: generated\nsource: openapi/gr4vy-
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flows/{flow}/actions/{action}/rules/{rule_id}\n  method: get\n  operationId: get-flow-rule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flows/{flow}/actions/{action}/rules/{rule_id}\n  method: put\n  operationId: update-flow-rule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flows/{flow}/actions/{action}/rules/{rule_id}\n  method: delete\n  operationId: delete-flow-rule\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flows/{flow}/actions/{action}/outcomes\n  method: get\n  operationId: list-flow-outcomes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gift-card-service-definitions/{gift_card_service_definition_id}\n  method: get\n  operationId: get-gift-card-service-definition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (88 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/agentic-access/gr4vy-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/agentic-access/gr4vy-agentic-access.yml
-summary_line: 263 operations · 148 acting · 4 human-in-the-loop
+summary_line: 263 operations · 147 acting · 4 human-in-the-loop
 tags:
 - Payments
 - Payment Orchestration
@@ -568,8 +568,9 @@ tags:
 - Checkout
 - Tokenization
 - Vault
-- Fraud
+- Fraud Prevention
 - 3D Secure
 - Webhook
 - Commerce
+- A2A
 ---

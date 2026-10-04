@@ -38,13 +38,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/punkap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/punkapi/refs/heads/main/agentic-access/punkapi-agentic-access.yml
 summary_line: 3 operations
 tags:
-- Food And Drink
+- Food and Beverage
 - Beer
 - BrewDog
 - DIY Dog
 - Recipes
-- Open-Source
+- Open Source
 - Public APIs
 - REST
 - Deprecated
+- Defunct
 ---

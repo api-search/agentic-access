@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 4
 api_specs:
-- filename: ingest0r-com-openapi.yml
+- filename: ingest0r-com-comps-api-openapi.yml
   format: yaml
-  label: Cook County (Chicago) Property Records API
-  slug: cook-county-property-records-api
+  label: ingest0r Comps API
+  slug: ingest0r-com-comps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-comps-api-openapi.yml
+- filename: ingest0r-com-dossier-api-openapi.yml
+  format: yaml
+  label: ingest0r Dossier API
+  slug: ingest0r-com-dossier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-dossier-api-openapi.yml
+- filename: ingest0r-com-parcel-api-openapi.yml
+  format: yaml
+  label: ingest0r Parcel API
+  slug: ingest0r-com-parcel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-parcel-api-openapi.yml
+- filename: ingest0r-com-search-api-openapi.yml
+  format: yaml
+  label: ingest0r Search API
+  slug: ingest0r-com-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/refs/heads/main/openapi/ingest0r-com-search-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -39,7 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ingest0r-com/r
 summary_line: 4 operations
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Property Records
 - Property Data
 - Public Records
@@ -55,7 +73,7 @@ tags:
 - Agentic Commerce
 - MCP
 - A2A
-- agent-native
+- Agent-Native
 - Chicago
 - Illinois
 ---

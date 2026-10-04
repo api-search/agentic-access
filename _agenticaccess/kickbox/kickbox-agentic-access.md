@@ -65,7 +65,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/h
 summary_line: 5 operations · 1 acting
 tags:
 - Email Verification
-- Email Validation
 - Deliverability
 - Data Quality
 - Email

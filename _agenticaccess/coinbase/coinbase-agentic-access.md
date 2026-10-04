@@ -346,4 +346,7 @@ tags:
 - Trading
 - Wallets
 - Web3
+- Agentic Commerce
+- x402
+- Real-Time
 ---

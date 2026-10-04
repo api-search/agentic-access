@@ -97,7 +97,7 @@ tags:
 - Database
 - Time Series
 - PostgreSQL
-- Open-Source
+- Open Source
 - Cloud
 - Hypertables
 - Continuous Aggregates

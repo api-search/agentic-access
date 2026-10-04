@@ -4,12 +4,18 @@ action_class_counts:
   acting: 3
   connected: 3
 api_specs:
-- filename: humanbrowser-cloud-openapi.json
-  format: json
-  label: Human Browser API
-  slug: human-browser-api
+- filename: humanbrowser-cloud-account-api-openapi.yml
+  format: yaml
+  label: Virix Labs Account API
+  slug: humanbrowser-cloud-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/openapi/humanbrowser-cloud-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/openapi/humanbrowser-cloud-account-api-openapi.yml
+- filename: humanbrowser-cloud-session-api-openapi.yml
+  format: yaml
+  label: Virix Labs Session API
+  slug: humanbrowser-cloud-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/openapi/humanbrowser-cloud-session-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3
@@ -51,6 +57,6 @@ tags:
 - CAPTCHA Solving
 - Human-in-the-Loop
 - Computer Use
-- agent-native
+- Agent-Native
 - United Kingdom
 ---

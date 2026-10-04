@@ -71,6 +71,6 @@ tags:
 - Artificial Intelligence
 - Chatbots
 - AI Agents
-- Customer-Support
+- Customer Support
 - Conversational AI
 ---

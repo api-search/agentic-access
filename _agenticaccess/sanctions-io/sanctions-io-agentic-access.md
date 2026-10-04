@@ -77,7 +77,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sancti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/agentic-access/sanctions-io-agentic-access.yml
 summary_line: 29 operations · 12 acting
 tags:
-- Anti-Money Laundering
 - AML
 - Sanctions Screening
 - Compliance

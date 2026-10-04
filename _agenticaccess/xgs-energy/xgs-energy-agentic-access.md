@@ -1,55 +1,6 @@
 ---
 acting_count: 0
 action_class_counts: {}
-api_specs:
-- filename: xgs-energy-posts-api-openapi.yml
-  format: yaml
-  label: XGS Energy Posts API
-  slug: xgs-energy-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-posts-api-openapi.yml
-- filename: xgs-energy-pages-api-openapi.yml
-  format: yaml
-  label: XGS Energy Pages API
-  slug: xgs-energy-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-pages-api-openapi.yml
-- filename: xgs-energy-media-api-openapi.yml
-  format: yaml
-  label: XGS Energy Media API
-  slug: xgs-energy-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-media-api-openapi.yml
-- filename: xgs-energy-search-api-openapi.yml
-  format: yaml
-  label: XGS Energy Search API
-  slug: xgs-energy-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-search-api-openapi.yml
-- filename: xgs-energy-categories-api-openapi.yml
-  format: yaml
-  label: XGS Energy Categories API
-  slug: xgs-energy-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-categories-api-openapi.yml
-- filename: xgs-energy-tags-api-openapi.yml
-  format: yaml
-  label: XGS Energy Tags API
-  slug: xgs-energy-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-tags-api-openapi.yml
-- filename: xgs-energy-discovery-api-openapi.yml
-  format: yaml
-  label: XGS Energy Discovery API
-  slug: xgs-energy-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-discovery-api-openapi.yml
-- filename: xgs-energy-o-embed-api-openapi.yml
-  format: yaml
-  label: XGS Energy o Embed API
-  slug: xgs-energy-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/openapi/xgs-energy-o-embed-api-openapi.yml
 consequence_counts: {}
 description: 'Recommended x-agentic-access contract for the XGS Energy public surface. Every documented operation is an anonymous read of public website content: no writes, no cost, no consent boundary, no reversibility question. This is a recommendation by API Evangelist, not a contract XGS Energy publishes.'
 human_in_the_loop: 0
@@ -89,5 +40,4 @@ tags:
 - Energy Infrastructure
 - Data Center Power
 - Climate Tech
-- Content
 ---

@@ -16,12 +16,6 @@ api_specs:
   slug: microsoft-azure-cache-for-redis-linkedserver-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml
-- filename: microsoft-azure-cache-for-redis-privateendpointconnections-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure Cache For Redis Private Endpoint Connections API
-  slug: microsoft-azure-cache-for-redis-privateendpointconnections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-privateendpointconnections-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Redis Cache Access Policies API
@@ -58,6 +52,12 @@ api_specs:
   slug: microsoft-azure-cache-for-redis-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-private-endpoint-connections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cache For Redis Private Endpoint Connections API
+  slug: microsoft-azure-cache-for-redis-private-endpoint-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-private-endpoint-connections-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 3

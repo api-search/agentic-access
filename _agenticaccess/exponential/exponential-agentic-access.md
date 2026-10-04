@@ -74,7 +74,7 @@ tags:
 - Cross-Chain
 - Blockchain
 - Crypto
-- Risk
+- Risk Management
 - Risk Ratings
 - Agents
 - x402

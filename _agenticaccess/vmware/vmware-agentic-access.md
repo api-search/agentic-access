@@ -162,4 +162,5 @@ tags:
 - Infrastructure
 - Virtualization
 - VMware
+- Data Center
 ---

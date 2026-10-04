@@ -1,8 +1,8 @@
 ---
-acting_count: 3
+acting_count: 2
 action_class_counts:
-  acting: 3
-  connected: 114
+  acting: 2
+  connected: 115
 api_specs:
 - filename: finnhub-default-api-openapi.yml
   format: yaml
@@ -11,8 +11,8 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/openapi/finnhub-default-api-openapi.yml
 consequence_counts:
-  read: 114
-  write: 3
+  read: 115
+  write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -22,10 +22,10 @@ name: Finnhub Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 117
-overview: 'Finnhub exposes 117 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Finnhub exposes 117 API operations that an AI agent could call, of which 2 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 114 read and 3 write.
+  By consequence: 115 read and 2 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -35,7 +35,7 @@ slug: finnhub-agentic-access
 source_filename: finnhub-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/finnhub-default-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 117\n  by_action_class:\n    connected: 114\n    acting: 3\n  by_consequence:\n    read: 114\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /search\n  method: get\n  operationId: symbol-search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/symbol\n  method: get\n  operationId: stock-symbols\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/market-status\n  method:\
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/finnhub-default-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 117\n  by_action_class:\n    connected: 115\n    acting: 2\n  by_consequence:\n    read: 115\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /search\n  method: get\n  operationId: symbol-search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/symbol\n  method: get\n  operationId: stock-symbols\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/market-status\n  method:\
   \ get\n  operationId: market-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/market-holiday\n  method: get\n  operationId: market-holiday\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/profile\n  method: get\n  operationId: company-profile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/profile2\n  method: get\n  operationId: company-profile2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/executive\n  method: get\n  operationId: company-executive\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news\n  method: get\n  operationId: market-news\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company-news\n  method: get\n  operationId: company-news\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /press-releases\n  method: get\n  operationId: press-releases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /news-sentiment\n  method: get\n  operationId: news-sentiment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/peers\n  method: get\n  operationId: company-peers\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/metric\n  method: get\n  operationId: company-basic-financials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/price-metric\n  method: get\n  operationId: price-metrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ca/symbol-change\n  method: get\n  operationId: symbol-change\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ca/isin-change\n  method: get\n  operationId: isin-change\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
@@ -61,11 +61,11 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/finnhu
   \ 3600\n    audit: none\n- path: /bond/tick\n  method: get\n  operationId: bond-tick\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bond/yield-curve\n  method: get\n  operationId: bond-yield-curve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bank-branch\n  method: get\n  operationId: bank-branch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /airline/price-index\n  method: get\n  operationId: airline-price-index\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /country\n  method: get\n  operationId: country\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calendar/economic\n  method: get\n  operationId: economic-calendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /economic/code\n  method: get\n  operationId: economic-code\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /economic\n  method: get\n  operationId: economic-data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/international-filings\n  method: get\n  operationId: international-filings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/revenue-breakdown2\n\
   \  method: get\n  operationId: revenue-breakdown2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stock/newsroom\n  method: get\n  operationId: newsroom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai-chat\n  method: post\n  operationId: ai-chat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /global-filings/search\n  method: post\n  operationId: global-filings-search\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /global-filings/search-in-filing\n  method: post\n  operationId: search-in-filing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /global-filings/filter\n  method: get\n  operationId: global-filings-search-filter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /global-filings/download\n  method: get\n  operationId: global-filings-download\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /global-filings/search-in-filing\n  method: post\n  operationId: search-in-filing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /global-filings/filter\n  method: get\n  operationId: global-filings-search-filter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /global-filings/download\n  method: get\n  operationId: global-filings-download\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/agentic-access/finnhub-agentic-access.yml
-summary_line: 117 operations · 3 acting
+summary_line: 117 operations · 2 acting
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Forex
@@ -73,4 +73,6 @@ tags:
 - Fundamentals
 - News
 - WebSocket
+- Real-Time
+- Financial Data
 ---

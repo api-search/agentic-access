@@ -79,4 +79,5 @@ tags:
 - Artists
 - Tracks
 - Fingerprinting
+- Audio
 ---

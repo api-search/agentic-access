@@ -1,42 +1,42 @@
 ---
-acting_count: 4
+acting_count: 3
 action_class_counts:
-  acting: 4
-  connected: 17
+  acting: 3
+  connected: 18
 api_specs:
 - filename: wmo-jobs-api-openapi.yml
   format: yaml
-  label: World Meteorological Organization jobs API
+  label: World Meteorological Organization Jobs API
   slug: wmo-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-jobs-api-openapi.yml
 - filename: wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
   format: yaml
-  label: World Meteorological Organization pywcmp-wis2-wcmp2-ets API
+  label: World Meteorological Organization Pywcmp Wis2 Wcmp2 Ets API
   slug: wmo-pywcmp-wis2-wcmp2-ets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml
 - filename: wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
   format: yaml
-  label: World Meteorological Organization pywcmp-wis2-wcmp2-kpi API
+  label: World Meteorological Organization Pywcmp Wis2 Wcmp2 Kpi API
   slug: wmo-pywcmp-wis2-wcmp2-kpi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml
 - filename: wmo-server-api-openapi.yml
   format: yaml
-  label: World Meteorological Organization server API
+  label: World Meteorological Organization Server API
   slug: wmo-server-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-server-api-openapi.yml
 - filename: wmo-wis2-discovery-metadata-api-openapi.yml
   format: yaml
-  label: World Meteorological Organization wis2-discovery-metadata API
+  label: World Meteorological Organization Wis2 Discovery Metadata API
   slug: wmo-wis2-discovery-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/openapi/wmo-wis2-discovery-metadata-api-openapi.yml
 consequence_counts:
-  read: 17
-  write: 4
+  read: 18
+  write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -46,10 +46,10 @@ name: Wmo Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 21
-overview: 'World Meteorological Organization exposes 21 API operations that an AI agent could call, of which 4 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'World Meteorological Organization exposes 21 API operations that an AI agent could call, of which 3 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 17 read and 4 write.
+  By consequence: 18 read and 3 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -59,15 +59,15 @@ slug: wmo-agentic-access
 source_filename: wmo-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wis2-global-discovery-catalogue-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 21\n  by_action_class:\n    connected: 17\n    acting: 4\n  by_consequence:\n    read: 17\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getLandingPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections\n  method: get\n  operationId: getCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata\n\
-  \  method: get\n  operationId: describeWis2-discovery-metadataCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items\n  method: get\n  operationId: getWis2-discovery-metadataFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items\n  method: options\n  operationId: optionsWis2-discovery-metadataFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items\n  method: post\n  operationId: getCQL2Wis2-discovery-metadataFeatures\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/wis2-discovery-metadata/items/{featureId}\n  method: get\n  operationId: getWis2-discovery-metadataFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items/{featureId}\n  method: options\n  operationId: optionsWis2-discovery-metadataFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/queryables\n  method: get\n  operationId: getWis2-discovery-metadataQueryables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/schema\n\
-  \  method: get\n  operationId: getWis2-discovery-metadataSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conformance\n  method: get\n  operationId: getConformanceDeclaration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: get\n  operationId: getJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}\n  method: delete\n  operationId: deleteJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{jobId}\n\
-  \  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}/results\n  method: get\n  operationId: getJobResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi\n  method: get\n  operationId: getOpenapi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processes\n  method: get\n  operationId: getProcesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processes/pywcmp-wis2-wcmp2-ets\n  method: get\n  operationId: describePywcmp-wis2-wcmp2-etsProcess\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processes/pywcmp-wis2-wcmp2-ets/execution\n  method: post\n  operationId: executePywcmp-wis2-wcmp2-etsJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processes/pywcmp-wis2-wcmp2-kpi\n  method: get\n  operationId: describePywcmp-wis2-wcmp2-kpiProcess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processes/pywcmp-wis2-wcmp2-kpi/execution\n  method: post\n  operationId: executePywcmp-wis2-wcmp2-kpiJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/wmo-jobs-api-openapi.yml, openapi/wmo-pywcmp-wis2-wcmp2-ets-api-openapi.yml,\n  openapi/wmo-pywcmp-wis2-wcmp2-kpi-api-openapi.yml, openapi/wmo-server-api-openapi.yml, openapi/wmo-wis2-discovery-metadata-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 21\n  by_action_class:\n    connected: 18\n    acting: 3\n  by_consequence:\n    read: 18\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /jobs\n  method: get\n  operationId: getJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}\n  method: delete\n  operationId: deleteJob\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{jobId}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobId}/results\n  method: get\n  operationId: getJobResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processes/pywcmp-wis2-wcmp2-ets\n  method: get\n  operationId: describePywcmp-wis2-wcmp2-etsProcess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processes/pywcmp-wis2-wcmp2-ets/execution\n  method:\
+  \ post\n  operationId: executePywcmp-wis2-wcmp2-etsJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processes/pywcmp-wis2-wcmp2-kpi\n  method: get\n  operationId: describePywcmp-wis2-wcmp2-kpiProcess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processes/pywcmp-wis2-wcmp2-kpi/execution\n  method: post\n  operationId: executePywcmp-wis2-wcmp2-kpiJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method:\
+  \ get\n  operationId: getLandingPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections\n  method: get\n  operationId: getCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conformance\n  method: get\n  operationId: getConformanceDeclaration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi\n  method: get\n  operationId: getOpenapi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processes\n  method: get\n  operationId: getProcesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
+  \      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata\n  method: get\n  operationId: describeWis2-discovery-metadataCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items\n  method: get\n  operationId: getWis2-discovery-metadataFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items\n  method: options\n  operationId: optionsWis2-discovery-metadataFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items\n  method: post\n  operationId: getCQL2Wis2-discovery-metadataFeatures\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items/{featureId}\n  method: get\n  operationId: getWis2-discovery-metadataFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/items/{featureId}\n  method: options\n  operationId: optionsWis2-discovery-metadataFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/queryables\n  method: get\n  operationId: getWis2-discovery-metadataQueryables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/wis2-discovery-metadata/schema\n  method:\
+  \ get\n  operationId: getWis2-discovery-metadataSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/agentic-access/wmo-agentic-access.yml
-summary_line: 21 operations · 4 acting
+summary_line: 21 operations · 3 acting
 tags:
 - Weather
 - Climate

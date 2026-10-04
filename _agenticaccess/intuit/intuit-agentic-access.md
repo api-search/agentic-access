@@ -101,8 +101,8 @@ summary_line: 17 operations · 11 acting
 tags:
 - Accounting
 - Custom Fields
-- Financial
-- Financial-Services
+- Finance
+- Financial Services
 - Invoicing
 - Payments
 - Payroll

@@ -103,7 +103,6 @@ summary_line: 32 operations · 1 acting
 tags:
 - Crypto
 - Financial Forecast
-- API
 - Market Data
 - Auditing
 - Micropayments

@@ -228,11 +228,11 @@ summary_line: 105 operations · 45 acting
 tags:
 - Company
 - Legal
-- Legal Technology
+- Legal Tech
 - Legal Operations
 - Contract Lifecycle Management
 - Matter Management
-- Document-Management
+- Document Management
 - Spend Management
 - Software-as-a-Service
 - Workflows

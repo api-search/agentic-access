@@ -184,9 +184,8 @@ summary_line: 81 operations · 37 acting
 tags:
 - Company
 - Marketplace
-- Tickets
-- Event
 - Ticketing
+- Event
 - Live Events
 - Secondary Market
 - E-Commerce

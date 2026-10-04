@@ -180,7 +180,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: generated\nsource: openapi/coin-m
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/agentic-access/coin-metrics-agentic-access.yml
 summary_line: 203 operations · 3 acting
 tags:
-- Financial
+- Finance
 - Market Data
 - Crypto
 - Blockchain

@@ -69,7 +69,8 @@ summary_line: 15 operations · 8 acting
 tags:
 - Customer Messaging
 - Live Chat
-- Open-Source
+- Open Source
 - Support
 - Intercom Alternative
+- Real-Time
 ---

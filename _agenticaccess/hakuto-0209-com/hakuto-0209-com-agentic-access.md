@@ -44,5 +44,5 @@ tags:
 - Compliance
 - Web Development
 - Japan
-- agent-native
+- Agent-Native
 ---

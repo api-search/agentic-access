@@ -39,7 +39,7 @@ summary_line: 1 operation · 1 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - OCR
 - Speech-to-Text
@@ -49,4 +49,5 @@ tags:
 - Web Search
 - Multi-Modal
 - Developer Tools
+- A2A
 ---

@@ -623,9 +623,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/he
 summary_line: 910 operations · 483 acting · 2 human-in-the-loop
 tags:
 - Commerce
-- Financial-Services
+- Financial Services
 - Fintech
 - Payments
 - T1
 - Stripe
+- Agentic Commerce
+- Point-of-Sale
 ---

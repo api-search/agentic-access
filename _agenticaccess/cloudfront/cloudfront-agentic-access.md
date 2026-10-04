@@ -90,7 +90,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloudf
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/agentic-access/cloudfront-agentic-access.yml
 summary_line: 23 operations · 11 acting · 2 human-in-the-loop
 tags:
-- Alias
 - CDN
 - Caching
 - Content Delivery

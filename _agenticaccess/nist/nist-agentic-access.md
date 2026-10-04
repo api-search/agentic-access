@@ -9,6 +9,12 @@ api_specs:
   slug: nist-cves-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cves-api-openapi.yml
+- filename: nist-cpe-api-openapi.yml
+  format: yaml
+  label: National Institute of Standards and Technology (NIST) CPE API
+  slug: nist-cpe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/openapi/nist-cpe-api-openapi.yml
 - filename: nist-cve-history-api-openapi.yml
   format: yaml
   label: National Institute of Standards and Technology (NIST) CVE History API

@@ -168,10 +168,10 @@ tags:
 - Lending
 - Underwriting
 - OCR
-- Fraud Detection
+- Fraud Prevention
 - Income Verification
 - Bank Statement Analysis
 - Mortgage
-- Machine-Learning
+- Machine Learning
 - Cash Flow Analytics
 ---

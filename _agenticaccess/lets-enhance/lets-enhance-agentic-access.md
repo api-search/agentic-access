@@ -63,8 +63,8 @@ tags:
 - Artificial Intelligence
 - Image Processing
 - Image Enhancement
-- Image-Generation
-- Computer-Vision
+- Image Generation
+- Computer Vision
 - E-Commerce
 - Media
 - Photography

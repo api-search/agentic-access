@@ -65,4 +65,5 @@ tags:
 - Web3
 - On-Ramp
 - Digital Currency
+- Stablecoin Issuance
 ---

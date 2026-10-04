@@ -212,7 +212,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: generated\nsource: openapi/eodhd-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/agentic-access/eodhd-agentic-access.yml
 summary_line: 84 operations
 tags:
-- Financial
+- Finance
 - Market Data
 - Stock Options
 - Stocks
@@ -221,4 +221,6 @@ tags:
 - Cryptocurrency
 - Fundamentals
 - News
+- Real-Time
+- Financial Data
 ---

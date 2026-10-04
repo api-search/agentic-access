@@ -690,7 +690,7 @@ summary_line: 241 operations · 97 acting · 57 human-in-the-loop
 tags:
 - Banking
 - Core Banking
-- Financial-Services
+- Financial Services
 - Payments
 - Fintech
 ---

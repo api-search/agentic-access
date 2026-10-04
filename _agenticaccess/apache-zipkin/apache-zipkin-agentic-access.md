@@ -6,25 +6,25 @@ action_class_counts:
 api_specs:
 - filename: apache-zipkin-autocomplete-api-openapi.yml
   format: yaml
-  label: Apache Zipkin autocomplete API
+  label: Apache Zipkin Autocomplete API
   slug: apache-zipkin-autocomplete-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-autocomplete-api-openapi.yml
 - filename: apache-zipkin-services-api-openapi.yml
   format: yaml
-  label: Apache Zipkin services API
+  label: Apache Zipkin Services API
   slug: apache-zipkin-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-services-api-openapi.yml
 - filename: apache-zipkin-spans-api-openapi.yml
   format: yaml
-  label: Apache Zipkin spans API
+  label: Apache Zipkin Spans API
   slug: apache-zipkin-spans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-spans-api-openapi.yml
 - filename: apache-zipkin-traces-api-openapi.yml
   format: yaml
-  label: Apache Zipkin traces API
+  label: Apache Zipkin Traces API
   slug: apache-zipkin-traces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/openapi/apache-zipkin-traces-api-openapi.yml
@@ -63,5 +63,5 @@ tags:
 - Microservices
 - Monitoring
 - Observability
-- Open-Source
+- Open Source
 ---

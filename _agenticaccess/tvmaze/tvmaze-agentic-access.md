@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: tvmaze-auth-api-openapi.yml
   format: yaml
-  label: TVmaze auth API
+  label: TVmaze Auth API
   slug: tvmaze-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-auth-api-openapi.yml
@@ -60,7 +60,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-schedule-api-openapi.yml
 - filename: tvmaze-scrobbling-api-openapi.yml
   format: yaml
-  label: TVmaze scrobbling API
+  label: TVmaze Scrobbling API
   slug: tvmaze-scrobbling-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/openapi/tvmaze-scrobbling-api-openapi.yml

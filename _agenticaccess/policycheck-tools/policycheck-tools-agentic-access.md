@@ -3,12 +3,12 @@ acting_count: 2
 action_class_counts:
   acting: 2
 api_specs:
-- filename: policycheck-tools-openapi.yml
+- filename: policycheck-tools-chatgpt-api-openapi.yml
   format: yaml
-  label: PolicyCheck API
-  slug: policycheck-api
+  label: PolicyCheck Chatgpt API
+  slug: policycheck-tools-chatgpt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/policycheck-tools/refs/heads/main/openapi/policycheck-tools-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/policycheck-tools/refs/heads/main/openapi/policycheck-tools-chatgpt-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

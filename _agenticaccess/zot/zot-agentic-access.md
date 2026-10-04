@@ -100,5 +100,5 @@ tags:
 - Decentralized
 - Federation
 - Privacy
-- Social Networking
+- Social Network
 ---

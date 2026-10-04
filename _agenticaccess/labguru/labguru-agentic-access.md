@@ -506,10 +506,10 @@ tags:
 - ELN
 - LIMS
 - Laboratory Information Management
-- Biotech
+- Biotechnology
 - Life Sciences
 - Research Data Management
-- Inventory Management
+- Inventory
 - Experiment Management
 - REST API
 - GraphQL

@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/midjou
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/agentic-access/midjourney-agentic-access.yml
 summary_line: 8 operations · 6 acting
 tags:
-- Image-Generation
+- Image Generation
 - Artificial Intelligence
 - Creative Tools
 - Job

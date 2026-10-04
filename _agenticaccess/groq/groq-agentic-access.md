@@ -99,4 +99,5 @@ tags:
 - Inference
 - LPU
 - Low Latency
+- Real-Time
 ---

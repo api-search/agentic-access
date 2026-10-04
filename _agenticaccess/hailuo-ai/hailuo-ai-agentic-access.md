@@ -73,4 +73,5 @@ tags:
 - Text-to-Speech
 - LLM
 - Foundation Models
+- Real-Time
 ---

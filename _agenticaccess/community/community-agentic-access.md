@@ -5,19 +5,19 @@ action_class_counts:
 api_specs:
 - filename: community-member-data-api-openapi.yml
   format: yaml
-  label: Community member-data API
+  label: Community Member Data API
   slug: community-member-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-member-data-api-openapi.yml
 - filename: community-messaging-api-openapi.yml
   format: yaml
-  label: Community messaging API
+  label: Community Messaging API
   slug: community-messaging-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-messaging-api-openapi.yml
 - filename: community-tags-api-openapi.yml
   format: yaml
-  label: Community tags API
+  label: Community Tags API
   slug: community-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-tags-api-openapi.yml
@@ -66,7 +66,6 @@ tags:
 - Messaging
 - SMS
 - Communications
-- Conversational
 - Marketing
 - Creators
 - Webhook

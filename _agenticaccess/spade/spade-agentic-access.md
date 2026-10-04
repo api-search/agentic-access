@@ -128,11 +128,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spade/refs/hea
 summary_line: 73 operations · 51 acting
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Transaction Enrichment
 - Merchant Intelligence
 - Payments
 - Data Enrichment
 - Fraud and Risk
 - Fintech
+- A2A
 ---

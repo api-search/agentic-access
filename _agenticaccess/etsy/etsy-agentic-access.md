@@ -295,4 +295,5 @@ tags:
 - Shipping
 - Taxonomy
 - Authentication
+- Agentic Commerce
 ---

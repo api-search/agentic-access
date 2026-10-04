@@ -1,7 +1,8 @@
 ---
-acting_count: 29
+acting_count: 18
 action_class_counts:
-  acting: 29
+  acting: 18
+  connected: 11
 api_specs:
 - filename: ebanx-tokenization-api-openapi.yml
   format: yaml
@@ -40,8 +41,9 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/openapi/ebanx-payouts-api-openapi.yml
 consequence_counts:
-  physical: 25
-  write: 4
+  physical: 15
+  read: 11
+  write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -69,27 +71,7 @@ notable_actions:
   consequence: physical
   human_in_the_loop: conditional
   method: POST
-  path: /ws/cardbin
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
   path: /ws/direct
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
-  path: /ws/ewallet-availableEWallets
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
-  path: /ws/getBankList
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
-  path: /ws/instalmentsPlan
 - action_class: acting
   consequence: physical
   human_in_the_loop: conditional
@@ -100,21 +82,6 @@ notable_actions:
   human_in_the_loop: conditional
   method: POST
   path: /ws/payout/attach
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
-  path: /ws/payout/balance
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
-  path: /ws/payout/bankDetails
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
-  path: /ws/payout/banks
 - action_class: acting
   consequence: physical
   human_in_the_loop: conditional
@@ -134,27 +101,12 @@ notable_actions:
   consequence: physical
   human_in_the_loop: conditional
   method: POST
-  path: /ws/payout/retrieve
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
-  path: /ws/payout/search
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
   path: /ws/payout/simulate
 - action_class: acting
   consequence: physical
   human_in_the_loop: conditional
   method: POST
   path: /ws/payout/verify_account
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
-  path: /ws/query
 - action_class: acting
   consequence: physical
   human_in_the_loop: conditional
@@ -176,10 +128,10 @@ notable_actions:
   method: POST
   path: /ws/updatecustomerbankinfo
 operation_count: 29
-overview: 'EBANX exposes 29 API operations that an AI agent could call, of which 29 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'EBANX exposes 29 API operations that an AI agent could call, of which 18 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 4 write and 25 physical.
+  By consequence: 11 read, 3 write, and 15 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -189,21 +141,19 @@ slug: ebanx-agentic-access
 source_filename: ebanx-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ebanx-fx-api-openapi.yml, openapi/ebanx-pay-in-direct-api-openapi.yml, openapi/ebanx-payment-page-api-openapi.yml,\n  openapi/ebanx-payout-api-openapi.yml, openapi/ebanx-tokenization-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 29\n  by_action_class:\n    acting: 29\n  by_consequence:\n    write: 4\n    physical: 25\n  human_in_the_loop_required: 0\noperations:\n- path: /ws/exchange\n  method: post\n  operationId: getExchangeRate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /ws/fxtoken/get\n  method: post\n  operationId: getFxToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/direct\n  method: post\n  operationId: createDirectPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/capture\n  method: post\n  operationId: capturePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
-  \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/query\n  method: post\n  operationId: queryPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/cancel\n  method: post\n  operationId: cancelPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/refund\n\
-  \  method: post\n  operationId: refundPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/refundOrCancel\n  method: post\n  operationId: refundOrCancelPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/instalmentsPlan\n  method: post\n  operationId: listInstallmentsPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/cardbin\n  method: post\n  operationId: lookupCardBin\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/getBankList\n  method: post\n  operationId: listAvailableBanks\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /ws/ewallet-availableEWallets\n  method: post\n  operationId: listAvailableEWallets\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/updatecustomerbankinfo\n  method: post\n  operationId: updateCustomerBankInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /print\n  method: post\n  operationId: printVoucherOrSlip\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
-  \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/request\n  method: post\n  operationId: createPaymentPageRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/create\n  method: post\n  operationId: createPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n  \
-  \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/commit\n  method: post\n  operationId: commitPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/cancel\n  method: post\n  operationId: cancelPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/retrieve\n  method: post\n  operationId: retrievePayout\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/search\n  method: post\n  operationId: searchPayouts\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/simulate\n  method: post\n  operationId: simulatePayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/attach\n  method: post\n  operationId: attachPayoutInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/balance\n  method: post\n  operationId: getPayoutBalance\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/banks\n  method: post\n  operationId: listPayoutBanks\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/bankDetails\n  method: post\n  operationId: getPayoutBankDetails\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/verify_account\n  method: post\n  operationId: verifyPayeeBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
-  \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payee/create\n  method: post\n  operationId: createPayee\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/token\n  method: post\n  operationId: createCardToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/token/setCVV\n  method: post\n  operationId: setTokenCVV\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ebanx-fx-api-openapi.yml, openapi/ebanx-paymentpage-api-openapi.yml, openapi/ebanx-payments-api-openapi.yml,\n  openapi/ebanx-payouts-api-openapi.yml, openapi/ebanx-tokenization-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 29\n  by_action_class:\n    connected: 11\n    acting: 18\n  by_consequence:\n    read: 11\n    write: 3\n    physical: 15\n  human_in_the_loop_required: 0\noperations:\n- path: /ws/exchange\n  method: post\n  operationId: getExchangeRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/fxtoken/get\n  method: post\n  operationId: getFxToken\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/request\n  method: post\n  operationId: createPaymentPageRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/direct\n  method: post\n  operationId: createDirectPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/capture\n  method: post\n  operationId: capturePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/query\n  method: post\n  operationId: queryPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/cancel\n  method: post\n  operationId: cancelPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/refund\n  method: post\n  operationId: refundPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/refundOrCancel\n  method: post\n  operationId: refundOrCancelPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/instalmentsPlan\n  method: post\n  operationId: listInstallmentsPlan\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/cardbin\n  method: post\n  operationId: lookupCardBin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/getBankList\n  method: post\n  operationId: listAvailableBanks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/ewallet-availableEWallets\n  method: post\n  operationId: listAvailableEWallets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/updatecustomerbankinfo\n  method: post\n  operationId: updateCustomerBankInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
+  \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /print\n  method: post\n  operationId: printVoucherOrSlip\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/create\n  method: post\n  operationId: createPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
+  \    audit: required\n- path: /ws/payout/commit\n  method: post\n  operationId: commitPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/cancel\n  method: post\n  operationId: cancelPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/retrieve\n  method: post\n  operationId: retrievePayout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/payout/search\n  method: post\n  operationId: searchPayouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/payout/simulate\n  method: post\n  operationId: simulatePayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/attach\n  method: post\n  operationId: attachPayoutInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payout/balance\n  method: post\n  operationId: getPayoutBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/payout/banks\n  method: post\n  operationId: listPayoutBanks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/payout/bankDetails\n  method: post\n  operationId: getPayoutBankDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ws/payout/verify_account\n  method: post\n  operationId: verifyPayeeBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n\
+  \      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/payee/create\n  method: post\n  operationId: createPayee\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/token\n  method: post\n  operationId: createCardToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ws/token/setCVV\n  method: post\n  operationId: setTokenCVV\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/agentic-access/ebanx-agentic-access.yml
-summary_line: 29 operations · 29 acting
+summary_line: 29 operations · 18 acting
 tags:
 - Payments
 - Pay-In

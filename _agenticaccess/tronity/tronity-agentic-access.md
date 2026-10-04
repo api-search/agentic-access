@@ -100,7 +100,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/h
 summary_line: 21 operations · 7 acting · 4 human-in-the-loop
 tags:
 - Connected Car
-- EV
+- Electric Vehicles
 - Telematics
 - Fleet
 - Vehicle Data

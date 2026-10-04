@@ -72,4 +72,5 @@ tags:
 - Logistics
 - Predictive ETA
 - Ocean Freight
+- Freight
 ---

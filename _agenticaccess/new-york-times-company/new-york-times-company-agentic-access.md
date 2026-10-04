@@ -144,4 +144,5 @@ tags:
 - Controlled Vocabulary
 - Geographic
 - Archives
+- Journalism
 ---

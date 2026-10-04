@@ -462,8 +462,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocket-matter/
 summary_line: 341 operations · 173 acting · 3 human-in-the-loop
 tags:
 - Company
-- LegalTech
-- SaaS
-- PracticeManagement
+- Legal Tech
+- Software-as-a-Service
+- Practice Management
 - Cloud
 ---

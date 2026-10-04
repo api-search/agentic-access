@@ -234,7 +234,7 @@ tags:
 - HRIS
 - Employee Records
 - Leave Management
-- Recruitment
+- Recruiting
 - Applicant Tracking
 - Onboarding
 - Performance Management

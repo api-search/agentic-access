@@ -4,12 +4,36 @@ action_class_counts:
   acting: 2
   connected: 9
 api_specs:
-- filename: finn-tannlege-com-openapi.yml
+- filename: finn-tannlege-com-a2a-api-openapi.yml
   format: yaml
-  label: Finn-tannlege REST API
-  slug: finn-tannlege-rest-api
+  label: Finn-tannlege A2a API
+  slug: finn-tannlege-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-a2a-api-openapi.yml
+- filename: finn-tannlege-com-llms-txt-api-openapi.yml
+  format: yaml
+  label: Finn-tannlege Llms.txt API
+  slug: finn-tannlege-com-llms-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-llms-txt-api-openapi.yml
+- filename: finn-tannlege-com-mcp-api-openapi.yml
+  format: yaml
+  label: Finn-tannlege MCP API
+  slug: finn-tannlege-com-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-mcp-api-openapi.yml
+- filename: finn-tannlege-com-tannlege-api-openapi.yml
+  format: yaml
+  label: Finn-tannlege Tannlege API
+  slug: finn-tannlege-com-tannlege-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-tannlege-api-openapi.yml
+- filename: finn-tannlege-com-well-known-api-openapi.yml
+  format: yaml
+  label: Finn-tannlege .well Known API
+  slug: finn-tannlege-com-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-well-known-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2

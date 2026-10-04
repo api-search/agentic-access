@@ -38,9 +38,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zerobo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/agentic-access/zerobounce-agentic-access.yml
 summary_line: 2 operations · 2 acting
 tags:
-- Email Validation
-- Email Deliverability
 - Email Verification
+- Email Deliverability
 - Marketing
 - Lead Scoring
 - Anti-Spam
@@ -48,4 +47,5 @@ tags:
 - Email Finder
 - Deliverability Monitoring
 - DMARC
+- Email
 ---

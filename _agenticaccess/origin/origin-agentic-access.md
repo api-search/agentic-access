@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/origin/refs/he
 summary_line: 3 operations
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Bond Issuance
 - Debt Capital Markets

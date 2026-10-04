@@ -4,12 +4,12 @@ action_class_counts:
   acting: 10
   connected: 10
 api_specs:
-- filename: amazon-simpledb.yaml
+- filename: amazon-simpledb-amazon-simpledb-api-openapi.yml
   format: yaml
-  label: Amazon SimpleDB API
-  slug: amazon-simpledb-api
+  label: Amazon SimpleDB Amazon SimpleDB API
+  slug: amazon-simpledb-amazon-simpledb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/_original/amazon-simpledb.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-amazon-simpledb-api-openapi.yml
 consequence_counts:
   read: 10
   write: 10

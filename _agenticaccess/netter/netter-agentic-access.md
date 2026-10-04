@@ -1,278 +1,278 @@
 ---
-acting_count: 169
+acting_count: 166
 action_class_counts:
-  acting: 169
-  connected: 129
+  acting: 166
+  connected: 132
 api_specs:
 - filename: netter-actions-api-openapi.yml
   format: yaml
-  label: Netter actions API
+  label: Netter Actions API
   slug: netter-actions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-actions-api-openapi.yml
 - filename: netter-api-keys-api-openapi.yml
   format: yaml
-  label: Netter api-keys API
+  label: Netter API Keys API
   slug: netter-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-api-keys-api-openapi.yml
 - filename: netter-app-chat-api-openapi.yml
   format: yaml
-  label: Netter app-chat API
+  label: Netter App Chat API
   slug: netter-app-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-app-chat-api-openapi.yml
 - filename: netter-apps-api-openapi.yml
   format: yaml
-  label: Netter apps API
+  label: Netter Apps API
   slug: netter-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-apps-api-openapi.yml
 - filename: netter-apps-query-api-openapi.yml
   format: yaml
-  label: Netter apps-query API
+  label: Netter Apps Query API
   slug: netter-apps-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-apps-query-api-openapi.yml
 - filename: netter-assistant-api-openapi.yml
   format: yaml
-  label: Netter assistant API
+  label: Netter Assistant API
   slug: netter-assistant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-assistant-api-openapi.yml
 - filename: netter-attributes-api-openapi.yml
   format: yaml
-  label: Netter attributes API
+  label: Netter Attributes API
   slug: netter-attributes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-attributes-api-openapi.yml
 - filename: netter-automations-api-openapi.yml
   format: yaml
-  label: Netter automations API
+  label: Netter Automations API
   slug: netter-automations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-automations-api-openapi.yml
 - filename: netter-chats-api-openapi.yml
   format: yaml
-  label: Netter chats API
+  label: Netter Chats API
   slug: netter-chats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-chats-api-openapi.yml
 - filename: netter-companies-api-openapi.yml
   format: yaml
-  label: Netter companies API
+  label: Netter Companies API
   slug: netter-companies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-companies-api-openapi.yml
 - filename: netter-dashboard-chat-api-openapi.yml
   format: yaml
-  label: Netter dashboard-chat API
+  label: Netter Dashboard Chat API
   slug: netter-dashboard-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-dashboard-chat-api-openapi.yml
 - filename: netter-dashboard-data-api-openapi.yml
   format: yaml
-  label: Netter dashboard-data API
+  label: Netter Dashboard Data API
   slug: netter-dashboard-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-dashboard-data-api-openapi.yml
 - filename: netter-dashboard-versions-api-openapi.yml
   format: yaml
-  label: Netter dashboard-versions API
+  label: Netter Dashboard Versions API
   slug: netter-dashboard-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-dashboard-versions-api-openapi.yml
 - filename: netter-dashboards-api-openapi.yml
   format: yaml
-  label: Netter dashboards API
+  label: Netter Dashboards API
   slug: netter-dashboards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-dashboards-api-openapi.yml
 - filename: netter-databases-api-openapi.yml
   format: yaml
-  label: Netter databases API
+  label: Netter Databases API
   slug: netter-databases-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-databases-api-openapi.yml
 - filename: netter-file-folders-api-openapi.yml
   format: yaml
-  label: Netter file-folders API
+  label: Netter File Folders API
   slug: netter-file-folders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-file-folders-api-openapi.yml
 - filename: netter-files-api-openapi.yml
   format: yaml
-  label: Netter files API
+  label: Netter Files API
   slug: netter-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-files-api-openapi.yml
 - filename: netter-folders-api-openapi.yml
   format: yaml
-  label: Netter folders API
+  label: Netter Folders API
   slug: netter-folders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-folders-api-openapi.yml
 - filename: netter-groups-api-openapi.yml
   format: yaml
-  label: Netter groups API
+  label: Netter Groups API
   slug: netter-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-groups-api-openapi.yml
 - filename: netter-infra-api-openapi.yml
   format: yaml
-  label: Netter infra API
+  label: Netter Infra API
   slug: netter-infra-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-infra-api-openapi.yml
 - filename: netter-integrations-api-openapi.yml
   format: yaml
-  label: Netter integrations API
+  label: Netter Integrations API
   slug: netter-integrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-integrations-api-openapi.yml
 - filename: netter-internal-api-openapi.yml
   format: yaml
-  label: Netter internal API
+  label: Netter Internal API
   slug: netter-internal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-internal-api-openapi.yml
 - filename: netter-join-advisor-api-openapi.yml
   format: yaml
-  label: Netter join-advisor API
+  label: Netter Join Advisor API
   slug: netter-join-advisor-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-join-advisor-api-openapi.yml
 - filename: netter-lego-architect-api-openapi.yml
   format: yaml
-  label: Netter lego-architect API
+  label: Netter Lego Architect API
   slug: netter-lego-architect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-lego-architect-api-openapi.yml
 - filename: netter-me-api-openapi.yml
   format: yaml
-  label: Netter me API
+  label: Netter Me API
   slug: netter-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-me-api-openapi.yml
 - filename: netter-monitoring-api-openapi.yml
   format: yaml
-  label: Netter monitoring API
+  label: Netter Monitoring API
   slug: netter-monitoring-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-monitoring-api-openapi.yml
 - filename: netter-ontology-api-openapi.yml
   format: yaml
-  label: Netter ontology API
+  label: Netter Ontology API
   slug: netter-ontology-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-api-openapi.yml
 - filename: netter-ontology-chat-api-openapi.yml
   format: yaml
-  label: Netter ontology-chat API
+  label: Netter Ontology Chat API
   slug: netter-ontology-chat-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-chat-api-openapi.yml
 - filename: netter-ontology-entities-api-openapi.yml
   format: yaml
-  label: Netter ontology-entities API
+  label: Netter Ontology Entities API
   slug: netter-ontology-entities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-entities-api-openapi.yml
 - filename: netter-ontology-promotion-api-openapi.yml
   format: yaml
-  label: Netter ontology-promotion API
+  label: Netter Ontology Promotion API
   slug: netter-ontology-promotion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-promotion-api-openapi.yml
 - filename: netter-ontology-query-api-openapi.yml
   format: yaml
-  label: Netter ontology-query API
+  label: Netter Ontology Query API
   slug: netter-ontology-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-query-api-openapi.yml
 - filename: netter-ontology-records-api-openapi.yml
   format: yaml
-  label: Netter ontology-records API
+  label: Netter Ontology Records API
   slug: netter-ontology-records-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-records-api-openapi.yml
 - filename: netter-ontology-relationships-api-openapi.yml
   format: yaml
-  label: Netter ontology-relationships API
+  label: Netter Ontology Relationships API
   slug: netter-ontology-relationships-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-relationships-api-openapi.yml
 - filename: netter-ontology-rows-api-openapi.yml
   format: yaml
-  label: Netter ontology-rows API
+  label: Netter Ontology Rows API
   slug: netter-ontology-rows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-rows-api-openapi.yml
 - filename: netter-ontology-traversal-api-openapi.yml
   format: yaml
-  label: Netter ontology-traversal API
+  label: Netter Ontology Traversal API
   slug: netter-ontology-traversal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-ontology-traversal-api-openapi.yml
 - filename: netter-operators-api-openapi.yml
   format: yaml
-  label: Netter operators API
+  label: Netter Operators API
   slug: netter-operators-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-operators-api-openapi.yml
 - filename: netter-permissions-api-openapi.yml
   format: yaml
-  label: Netter permissions API
+  label: Netter Permissions API
   slug: netter-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-permissions-api-openapi.yml
 - filename: netter-project-steps-api-openapi.yml
   format: yaml
-  label: Netter project-steps API
+  label: Netter Project Steps API
   slug: netter-project-steps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-project-steps-api-openapi.yml
 - filename: netter-projects-api-openapi.yml
   format: yaml
-  label: Netter projects API
+  label: Netter Projects API
   slug: netter-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-projects-api-openapi.yml
 - filename: netter-row-policies-api-openapi.yml
   format: yaml
-  label: Netter row-policies API
+  label: Netter Row Policies API
   slug: netter-row-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-row-policies-api-openapi.yml
 - filename: netter-run-history-api-openapi.yml
   format: yaml
-  label: Netter run-history API
+  label: Netter Run History API
   slug: netter-run-history-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-run-history-api-openapi.yml
 - filename: netter-step-output-api-openapi.yml
   format: yaml
-  label: Netter step-output API
+  label: Netter Step Output API
   slug: netter-step-output-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-step-output-api-openapi.yml
 - filename: netter-steps-api-openapi.yml
   format: yaml
-  label: Netter steps API
+  label: Netter Steps API
   slug: netter-steps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-steps-api-openapi.yml
 - filename: netter-workflow-architect-api-openapi.yml
   format: yaml
-  label: Netter workflow-architect API
+  label: Netter Workflow Architect API
   slug: netter-workflow-architect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/openapi/netter-workflow-architect-api-openapi.yml
 consequence_counts:
   physical: 9
-  read: 129
+  read: 132
   safety-critical: 2
-  write: 158
+  write: 155
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 2
 kind: agentic-access
@@ -337,10 +337,10 @@ notable_actions:
   method: POST
   path: /api/v1/workflow-architect/chats/{chat_id}/message
 operation_count: 298
-overview: 'Netter exposes 298 API operations that an AI agent could call, of which 169 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Netter exposes 298 API operations that an AI agent could call, of which 166 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 129 read, 158 write, 9 physical, and 2 safety-critical.
+  By consequence: 132 read, 155 write, 9 physical, and 2 safety-critical.
 
 
   2 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -353,42 +353,42 @@ slug: netter-agentic-access
 source_filename: netter-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/netter-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 298\n  by_action_class:\n    connected: 129\n    acting: 169\n  by_consequence:\n    read: 129\n    write: 158\n    physical: 9\n    safety-critical: 2\n  human_in_the_loop_required: 2\noperations:\n- path: /healthz\n  method: get\n  operationId: healthz_healthz_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/assistant/chats\n  method: post\n  operationId: create_assistant_chat_api_v1_assistant_chats_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/assistant/chats/{chat_id}/message\n  method: post\n  operationId: assistant_chat_message_api_v1_assistant_chats__chat_id__message_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies\n  method: get\n  operationId: list_my_companies_api_v1_companies_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies\n  method: post\n  operationId: create_company_api_v1_companies_post\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/accept-invitation\n  method: post\n  operationId: accept_invitation_api_v1_companies_accept_invitation_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/invitations/validate\n  method: get\n  operationId: validate_invitation_api_v1_companies_invitations_validate_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies/{company_id}/switch\n  method: post\n  operationId:\
-  \ switch_default_company_api_v1_companies__company_id__switch_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/{company_id}\n  method: get\n  operationId: get_company_api_v1_companies__company_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies/{company_id}\n  method: patch\n  operationId: update_company_api_v1_companies__company_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /api/v1/companies/{company_id}/invite\n  method: post\n  operationId: invite_member_api_v1_companies__company_id__invite_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/{company_id}/members/{member_user_id}\n  method: delete\n  operationId: remove_member_api_v1_companies__company_id__members__member_user_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/{company_id}/members/{member_user_id}\n  method: patch\n  operationId: update_member_role_api_v1_companies__company_id__members__member_user_id__patch\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/{company_id}/members\n  method: get\n  operationId: list_members_api_v1_companies__company_id__members_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies/{company_id}/invitations\n  method: get\n  operationId: list_invitations_api_v1_companies__company_id__invitations_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies/{company_id}/invitations/{invitation_id}\n  method: delete\n  operationId: cancel_invitation_api_v1_companies__company_id__invitations__invitation_id__delete\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/me\n  method: get\n  operationId: get_me_api_v1_me_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/folders/\n  method: get\n  operationId: list_folders_api_v1_folders__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/folders/\n  method: post\n  operationId: create_folder_api_v1_folders__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/folders/{folder_id}\n  method: patch\n  operationId: update_folder_api_v1_folders__folder_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/folders/{folder_id}\n  method: delete\n  operationId: delete_folder_api_v1_folders__folder_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/folders/{folder_id}/move\n  method: patch\n  operationId: move_folder_api_v1_folders__folder_id__move_patch\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/\n  method: post\n  operationId: create_project_api_v1_projects__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/\n  method: get\n  operationId: list_projects_api_v1_projects__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{project_id}\n  method: get\n  operationId: get_project_api_v1_projects__project_id__get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{project_id}\n  method: patch\n  operationId: update_project_api_v1_projects__project_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{project_id}\n  method: delete\n  operationId: delete_project_api_v1_projects__project_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{project_id}/suppress\n  method:\
-  \ post\n  operationId: suppress_project_api_v1_projects__project_id__suppress_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{project_id}/unsuppress\n  method: post\n  operationId: unsuppress_project_api_v1_projects__project_id__unsuppress_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{project_id}/suppression-preview\n  method: get\n  operationId: get_suppression_preview_api_v1_projects__project_id__suppression_preview_get\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{project_id}/favorite\n  method: put\n  operationId: favorite_project_api_v1_projects__project_id__favorite_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{project_id}/favorite\n  method: delete\n  operationId: unfavorite_project_api_v1_projects__project_id__favorite_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{project_id}/dashboards\n  method: get\n\
-  \  operationId: list_project_dashboards_api_v1_projects__project_id__dashboards_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{project_id}/databases\n  method: get\n  operationId: list_project_databases_api_v1_projects__project_id__databases_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{project_id}/chat\n  method: get\n  operationId: get_or_create_project_chat_api_v1_projects__project_id__chat_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{project_id}/run-all\n  method: post\n  operationId: run_all_steps_api_v1_projects__project_id__run_all_post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{project_id}/lineage\n  method: get\n  operationId: get_project_lineage_api_v1_projects__project_id__lineage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/\n  method: post\n  operationId: create_chat_api_v1_chats__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/\n  method: get\n  operationId: list_chats_api_v1_chats__get\n  x-agentic-access:\n    action-class: connected\n \
-  \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/{chat_id}\n  method: get\n  operationId: get_chat_api_v1_chats__chat_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/{chat_id}\n  method: patch\n  operationId: rename_chat_api_v1_chats__chat_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/{chat_id}\n  method: delete\n  operationId: delete_chat_api_v1_chats__chat_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
-  \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/{chat_id}/suppress\n  method: post\n  operationId: suppress_chat_api_v1_chats__chat_id__suppress_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/{chat_id}/cancel\n  method: post\n  operationId: cancel_chat_api_v1_chats__chat_id__cancel_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/attachments/{key}\n  method: get\n  operationId: download_chat_attachment_api_v1_chats_attachments__key__get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/{chat_id}/attachments\n  method: post\n  operationId: upload_attachment_api_v1_chats__chat_id__attachments_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/{chat_id}/messages\n  method: get\n  operationId: list_messages_api_v1_chats__chat_id__messages_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/{chat_id}/messages\n  method: post\n  operationId: create_message_api_v1_chats__chat_id__messages_post\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/{chat_id}/context-usage\n  method: get\n  operationId: get_context_usage_api_v1_chats__chat_id__context_usage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/{chat_id}/compact\n  method: post\n  operationId: compact_chat_api_v1_chats__chat_id__compact_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/integrations/providers\n  method: get\n  operationId: list_providers_api_v1_integrations_providers_get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/\n  method: get\n  operationId: list_integrations_api_v1_integrations__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/\n  method: post\n  operationId: create_integration_api_v1_integrations__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/integrations/session-token\n  method: get\n  operationId: get_nango_session_token_api_v1_integrations_session_token_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}\n  method: patch\n  operationId: update_integration_api_v1_integrations__integration_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/integrations/{integration_id}\n  method: delete\n  operationId: delete_integration_api_v1_integrations__integration_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/integrations/providers/{slug}/crawler-schema\n  method: get\n  operationId: get_crawler_schema_api_v1_integrations_providers__slug__crawler_schema_get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/providers/{slug}/actions\n  method: get\n  operationId: list_provider_actions_api_v1_integrations_providers__slug__actions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}/scope-options\n  method: get\n  operationId: get_scope_options_api_v1_integrations__integration_id__scope_options_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}/snowflake/databases\n  method: get\n  operationId: get_snowflake_databases_api_v1_integrations__integration_id__snowflake_databases_get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}/snowflake/schemas\n  method: get\n  operationId: get_snowflake_schemas_api_v1_integrations__integration_id__snowflake_schemas_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}/snowflake/tables\n  method: get\n  operationId: get_snowflake_tables_api_v1_integrations__integration_id__snowflake_tables_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}/snowflake/describe\n  method: get\n  operationId: describe_snowflake_table_api_v1_integrations__integration_id__snowflake_describe_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}/databricks/warehouses\n  method: get\n  operationId: get_databricks_warehouses_api_v1_integrations__integration_id__databricks_warehouses_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}/databricks/catalogs\n  method: get\n  operationId: get_databricks_catalogs_api_v1_integrations__integration_id__databricks_catalogs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}/databricks/schemas\n  method: get\n  operationId: get_databricks_schemas_api_v1_integrations__integration_id__databricks_schemas_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}/databricks/tables\n  method: get\n  operationId: get_databricks_tables_api_v1_integrations__integration_id__databricks_tables_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}/databricks/describe\n  method: get\n  operationId: describe_databricks_table_api_v1_integrations__integration_id__databricks_describe_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/integrations/{integration_id}/crawler-config\n  method: get\n  operationId: get_crawler_config_api_v1_integrations__integration_id__crawler_config_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
-  \ none\n- path: /api/v1/integrations/{integration_id}/crawler-config\n  method: patch\n  operationId: patch_crawler_config_api_v1_integrations__integration_id__crawler_config_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/integrations/{integration_id}/refresh-crawl\n  method: post\n  operationId: refresh_integration_crawl_api_v1_integrations__integration_id__refresh_crawl_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/integrations/webhook\n  method: post\n  operationId: nango_webhook_api_v1_integrations_webhook_post\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dashboards/\n  method: post\n  operationId: create_dashboard_api_v1_dashboards__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dashboards/\n  method: get\n  operationId: list_dashboards_api_v1_dashboards__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dashboards/{dashboard_id}\n  method: get\n  operationId: get_dashboard_api_v1_dashboards__dashboard_id__get\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dashboards/{dashboard_id}\n  method: patch\n  operationId: update_dashboard_api_v1_dashboards__dashboard_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dashboards/{dashboard_id}\n  method: delete\n  operationId: delete_dashboard_api_v1_dashboards__dashboard_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dashboards/{dashboard_id}/chat\n\
-  \  method: get\n  operationId: get_or_create_dashboard_chat_api_v1_dashboards__dashboard_id__chat_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dashboards/{dashboard_id}/suppress\n  method: post\n  operationId: suppress_dashboard_api_v1_dashboards__dashboard_id__suppress_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dashboards/{dashboard_id}/dependencies\n  method: get\n  operationId: get_dashboard_dependencies_api_v1_dashboards__dashboard_id__dependencies_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dashboards/{dashboard_id}/bundle.js\n\
-  \  method: get\n  operationId: get_dashboard_bundle_api_v1_dashboards__dashboard_id__bundle_js_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dashboards/{dashboard_id}/regenerate\n  method: post\n  operationId: regenerate_dashboard_api_v1_dashboards__dashboard_id__regenerate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dashboards/{dashboard_id}/versions\n  method: get\n  operationId: list_versions_api_v1_dashboards__dashboard_id__versions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dashboards/{dashboard_id}/versions/{version_id}\n\
-  \  method: get\n  operationId: get_version_api_v1_dashboards__dashboard_id__versions__version_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dashboards/{dashboard_id}/versions/{version_id}/restore\n  method: post\n  operationId: restore_version_api_v1_dashboards__dashboard_id__versions__version_id__restore_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dashboard-chat/{chat_id}/message\n  method: post\n  operationId: send_dashboard_chat_message_api_v1_dashboard_chat__chat_id__message_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dashboard-data/{dashboard_id}/pipelines\n  method: get\n  operationId: get_dashboard_pipelines_deprecated_api_v1_dashboard_data__dashboard_id__pipelines_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dashboard-data/{dashboard_id}/runs\n  method: get\n  operationId: get_dashboard_runs_deprecated_api_v1_dashboard_data__dashboard_id__runs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dashboard-data/{dashboard_id}/pipelines/{pipeline_id}/runs\n  method: post\n  operationId: trigger_dashboard_pipeline_run_deprecated_api_v1_dashboard_data__dashboard_id__pipelines__pipeline_id__runs_post\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dashboard-data/{dashboard_id}/tables\n  method: get\n  operationId: get_dashboard_tables_api_v1_dashboard_data__dashboard_id__tables_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dashboard-data/{dashboard_id}/query\n  method: post\n  operationId: query_dashboard_data_api_v1_dashboard_data__dashboard_id__query_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /api/v1/apps/\n  method: get\n  operationId: list_apps_api_v1_apps__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/\n  method: post\n  operationId: create_app_api_v1_apps__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}\n  method: get\n  operationId: get_app_api_v1_apps__app_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_id}\n  method: patch\n  operationId: update_app_api_v1_apps__app_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
-  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (101 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/agentic-access/netter-agentic-access.yml\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/netter-actions-api-openapi.yml, openapi/netter-api-keys-api-openapi.yml, openapi/netter-app-chat-api-openapi.yml,\n  openapi/netter-apps-api-openapi.yml, openapi/netter-apps-query-api-openapi.yml, openapi/netter-assistant-api-openapi.yml,\n  openapi/netter-attributes-api-openapi.yml, openapi/netter-automations-api-openapi.yml, openapi/netter-chats-api-openapi.yml,\n  openapi/netter-companies-api-openapi.yml, openapi/netter-dashboard-chat-api-openapi.yml, openapi/netter-dashboard-data-api-openapi.yml,\n  openapi/netter-dashboard-versions-api-openapi.yml, openapi/netter-dashboards-api-openapi.yml,\n  openapi/netter-databases-api-openapi.yml, openapi/netter-file-folders-api-openapi.yml, openapi/netter-files-api-openapi.yml,\n  openapi/netter-folders-api-openapi.yml, openapi/netter-groups-api-openapi.yml, openapi/netter-infra-api-openapi.yml,\n  openapi/netter-integrations-api-openapi.yml, openapi/netter-internal-api-openapi.yml,\
+  \ openapi/netter-join-advisor-api-openapi.yml,\n  openapi/netter-lego-architect-api-openapi.yml, openapi/netter-me-api-openapi.yml, openapi/netter-monitoring-api-openapi.yml,\n  openapi/netter-ontology-api-openapi.yml, openapi/netter-ontology-chat-api-openapi.yml, openapi/netter-ontology-entities-api-openapi.yml,\n  openapi/netter-ontology-promotion-api-openapi.yml, openapi/netter-ontology-query-api-openapi.yml,\n  openapi/netter-ontology-records-api-openapi.yml, openapi/netter-ontology-relationships-api-openapi.yml,\n  openapi/netter-ontology-rows-api-openapi.yml, openapi/netter-ontology-traversal-api-openapi.yml,\n  openapi/netter-operators-api-openapi.yml, openapi/netter-permissions-api-openapi.yml, openapi/netter-project-steps-api-openapi.yml,\n  openapi/netter-projects-api-openapi.yml, openapi/netter-row-policies-api-openapi.yml, openapi/netter-run-history-api-openapi.yml,\n  openapi/netter-step-output-api-openapi.yml, openapi/netter-steps-api-openapi.yml, openapi/netter-workflow-architect-api-openapi.yml\n\
+  description: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 298\n  by_action_class:\n    acting: 166\n    connected: 132\n  by_consequence:\n    write: 155\n    read: 132\n    safety-critical: 2\n    physical: 9\n  human_in_the_loop_required: 2\noperations:\n- path: /api/v1/actions/{action_type}/invoke\n  method: post\n  operationId: invoke_action_api_v1_actions__action_type__invoke_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/actions\n  method: post\n  operationId: create_action_api_v1_actions_post\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/actions\n  method: get\n  operationId: list_actions_api_v1_actions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/actions/runnable\n  method: get\n  operationId: list_runnable_api_v1_actions_runnable_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/actions/invocations\n  method: get\n  operationId: list_invocations_api_v1_actions_invocations_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
+  \ none\n- path: /api/v1/actions/{action_id}/invoke\n  method: post\n  operationId: invoke_action_endpoint_api_v1_actions__action_id__invoke_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/actions/{action_id}\n  method: get\n  operationId: get_action_api_v1_actions__action_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/actions/{action_id}\n  method: patch\n  operationId: update_action_api_v1_actions__action_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
+  \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/actions/{action_id}/archive\n  method: post\n  operationId: archive_action_api_v1_actions__action_id__archive_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/api-keys/\n  method: get\n  operationId: list_api_keys_api_v1_api_keys__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api-keys/\n  method: post\n  operationId: create_api_key_api_v1_api_keys__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/api-keys/{key_id}\n  method: delete\n  operationId: revoke_api_key_api_v1_api_keys__key_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/app-chat/{chat_id}/message\n  method: post\n  operationId: send_app_chat_message_api_v1_app_chat__chat_id__message_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/\n\
+  \  method: get\n  operationId: list_apps_api_v1_apps__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/\n  method: post\n  operationId: create_app_api_v1_apps__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}\n  method: get\n  operationId: get_app_api_v1_apps__app_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_id}\n  method: patch\n  operationId: update_app_api_v1_apps__app_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}\n  method: delete\n  operationId: delete_app_api_v1_apps__app_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/regenerate\n  method: post\n  operationId: regenerate_app_api_v1_apps__app_id__regenerate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/publish\n\
+  \  method: post\n  operationId: publish_draft_api_v1_apps__app_id__publish_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/draft\n  method: delete\n  operationId: discard_draft_api_v1_apps__app_id__draft_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/chat\n  method: get\n  operationId: get_app_chat_api_v1_apps__app_id__chat_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
+  \ none\n- path: /api/v1/apps/{app_id}/favorite\n  method: put\n  operationId: favorite_app_api_v1_apps__app_id__favorite_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/favorite\n  method: delete\n  operationId: unfavorite_app_api_v1_apps__app_id__favorite_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/bundle.js\n  method: get\n  operationId: get_app_bundle_api_v1_apps__app_id__bundle_js_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_id}/versions\n  method: get\n  operationId: list_versions_api_v1_apps__app_id__versions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_id}/versions/{version_id}\n  method: get\n  operationId: get_version_api_v1_apps__app_id__versions__version_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_id}/versions/{version_id}\n  method: delete\n  operationId: delete_version_api_v1_apps__app_id__versions__version_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
+  \     - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/versions/{version_id}/restore\n  method: post\n  operationId: restore_version_api_v1_apps__app_id__versions__version_id__restore_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/versions/{version_id}/bundle.js\n  method: get\n  operationId: get_version_bundle_api_v1_apps__app_id__versions__version_id__bundle_js_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_id}/versions/{version_id}/publish\n  method: post\n  operationId: publish_version_api_v1_apps__app_id__versions__version_id__publish_post\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/automations/{automation_id}/run\n  method: post\n  operationId: run_app_automation_api_v1_apps__app_id__automations__automation_id__run_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/file-targets\n  method: get\n  operationId: list_file_targets_api_v1_apps__app_id__file_targets_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_id}/file-targets/{binding_id}/upload\n\
+  \  method: post\n  operationId: upload_to_file_target_api_v1_apps__app_id__file_targets__binding_id__upload_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/entity-files/upload\n  method: post\n  operationId: upload_entity_file_api_v1_apps__app_id__entity_files_upload_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/entity-files/{user_file_id}/download\n  method: get\n  operationId: download_entity_file_api_v1_apps__app_id__entity_files__user_file_id__download_get\n \
+  \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/apps/{app_id}/query\n  method: post\n  operationId: run_app_query_api_v1_apps__app_id__query_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/apps/{app_id}/query/batch\n  method: post\n  operationId: run_app_query_batch_api_v1_apps__app_id__query_batch_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/assistant/chats\n  method: post\n  operationId:\
+  \ create_assistant_chat_api_v1_assistant_chats_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/assistant/chats/{chat_id}/message\n  method: post\n  operationId: assistant_chat_message_api_v1_assistant_chats__chat_id__message_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/attributes\n  method: get\n  operationId: list_attribute_definitions_api_v1_attributes_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
+  \ audit: none\n- path: /api/v1/attributes\n  method: post\n  operationId: create_attribute_definition_api_v1_attributes_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/attributes/{definition_id}\n  method: patch\n  operationId: update_attribute_definition_api_v1_attributes__definition_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/attributes/{definition_id}\n  method: delete\n  operationId: delete_attribute_definition_api_v1_attributes__definition_id__delete\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/attributes/members/{user_id}\n  method: get\n  operationId: get_member_attributes_api_v1_attributes_members__user_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/attributes/members/{user_id}\n  method: put\n  operationId: set_member_attributes_api_v1_attributes_members__user_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/attributes/automation/entities/{entity_id}/columns\n\
+  \  method: get\n  operationId: get_automation_entity_columns_api_v1_attributes_automation_entities__entity_id__columns_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/attributes/{definition_id}/automation\n  method: get\n  operationId: get_attribute_automation_api_v1_attributes__definition_id__automation_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/attributes/{definition_id}/automation\n  method: put\n  operationId: put_attribute_automation_api_v1_attributes__definition_id__automation_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
+  \ required\n- path: /api/v1/attributes/{definition_id}/automation\n  method: delete\n  operationId: delete_attribute_automation_rule_api_v1_attributes__definition_id__automation_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/attributes/{definition_id}/automation/sync\n  method: post\n  operationId: sync_attribute_automation_api_v1_attributes__definition_id__automation_sync_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations\n  method: post\n  operationId: create_automation_api_v1_automations_post\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations\n  method: get\n  operationId: list_automations_api_v1_automations_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/automations/{automation_id}\n  method: get\n  operationId: get_automation_api_v1_automations__automation_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/automations/{automation_id}\n  method: patch\n  operationId: update_automation_api_v1_automations__automation_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations/{automation_id}/favorite\n  method: put\n  operationId: favorite_automation_api_v1_automations__automation_id__favorite_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations/{automation_id}/favorite\n  method: delete\n  operationId: unfavorite_automation_api_v1_automations__automation_id__favorite_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations/{automation_id}/nodes/{slug}/config\n  method: put\n  operationId: update_node_config_api_v1_automations__automation_id__nodes__slug__config_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations/{automation_id}/suppress\n  method: post\n  operationId: suppress_automation_api_v1_automations__automation_id__suppress_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations/{automation_id}/unsuppress\n\
+  \  method: post\n  operationId: unsuppress_automation_api_v1_automations__automation_id__unsuppress_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations/{automation_id}/activate\n  method: post\n  operationId: activate_automation_api_v1_automations__automation_id__activate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations/{automation_id}/deactivate\n  method: post\n  operationId: deactivate_automation_api_v1_automations__automation_id__deactivate_post\n  x-agentic-access:\n  \
+  \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations/{automation_id}/run\n  method: post\n  operationId: run_automation_now_api_v1_automations__automation_id__run_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/automations/{automation_id}/runs\n  method: get\n  operationId: list_automation_runs_api_v1_automations__automation_id__runs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/automations/{automation_id}/runs/{run_id}\n\
+  \  method: get\n  operationId: get_automation_run_api_v1_automations__automation_id__runs__run_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/\n  method: post\n  operationId: create_chat_api_v1_chats__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/\n  method: get\n  operationId: list_chats_api_v1_chats__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/{chat_id}\n  method: get\n  operationId: get_chat_api_v1_chats__chat_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/{chat_id}\n  method: patch\n  operationId: rename_chat_api_v1_chats__chat_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/{chat_id}\n  method: delete\n  operationId: delete_chat_api_v1_chats__chat_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/{chat_id}/suppress\n  method: post\n  operationId: suppress_chat_api_v1_chats__chat_id__suppress_post\n  x-agentic-access:\n  \
+  \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/{chat_id}/cancel\n  method: post\n  operationId: cancel_chat_api_v1_chats__chat_id__cancel_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/attachments/{key}\n  method: get\n  operationId: download_chat_attachment_api_v1_chats_attachments__key__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/{chat_id}/attachments\n  method: post\n  operationId:\
+  \ upload_attachment_api_v1_chats__chat_id__attachments_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/chats/{chat_id}/messages\n  method: get\n  operationId: list_messages_api_v1_chats__chat_id__messages_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/{chat_id}/messages\n  method: post\n  operationId: create_message_api_v1_chats__chat_id__messages_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
+  \ required\n- path: /api/v1/chats/{chat_id}/context-usage\n  method: get\n  operationId: get_context_usage_api_v1_chats__chat_id__context_usage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/chats/{chat_id}/compact\n  method: post\n  operationId: compact_chat_api_v1_chats__chat_id__compact_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies\n  method: get\n  operationId: list_my_companies_api_v1_companies_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies\n  method: post\n  operationId: create_company_api_v1_companies_post\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/accept-invitation\n  method: post\n  operationId: accept_invitation_api_v1_companies_accept_invitation_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/invitations/validate\n  method: get\n  operationId: validate_invitation_api_v1_companies_invitations_validate_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies/{company_id}/switch\n\
+  \  method: post\n  operationId: switch_default_company_api_v1_companies__company_id__switch_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/{company_id}\n  method: get\n  operationId: get_company_api_v1_companies__company_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/companies/{company_id}\n  method: patch\n  operationId: update_company_api_v1_companies__company_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
+  \     - high-value\n    audit: required\n- path: /api/v1/companies/{company_id}/invite\n  method: post\n  operationId: invite_member_api_v1_companies__company_id__invite_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (103 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/agentic-access/netter-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/agentic-access/netter-agentic-access.yml
-summary_line: 298 operations · 169 acting · 2 human-in-the-loop
+summary_line: 298 operations · 166 acting · 2 human-in-the-loop
 tags:
 - Company
 - Data

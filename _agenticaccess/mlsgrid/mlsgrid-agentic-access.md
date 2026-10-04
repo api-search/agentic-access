@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mlsgri
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/agentic-access/mlsgrid-agentic-access.yml
 summary_line: 8 operations
 tags:
-- Real-Estate
+- Real Estate
 - Property Listings
 - MLS
 - RESO

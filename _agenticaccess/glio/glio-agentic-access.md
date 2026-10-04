@@ -49,10 +49,10 @@ summary_line: 6 operations · 4 acting
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Media Generation
 - Video Generation
-- Image-Generation
+- Image Generation
 - Audio Generation
 - Text-to-Speech
 - LLM

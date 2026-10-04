@@ -1,26 +1,62 @@
 ---
-acting_count: 996
+acting_count: 988
 action_class_counts:
-  acting: 996
-  connected: 6
+  acting: 988
+  connected: 14
 api_specs:
-- filename: delx-ai-protocol-openapi.json
-  format: json
+- filename: delx-ai-a2a-api-openapi.yml
+  format: yaml
+  label: Delx A2a API
+  slug: delx-ai-a2a-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-a2a-api-openapi.yml
+- filename: delx-ai-agents-api-openapi.yml
+  format: yaml
+  label: Delx Agents API
+  slug: delx-ai-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-agents-api-openapi.yml
+- filename: delx-ai-discovery-api-openapi.yml
+  format: yaml
+  label: Delx Discovery API
+  slug: delx-ai-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-discovery-api-openapi.yml
+- filename: delx-ai-mcp-api-openapi.yml
+  format: yaml
+  label: Delx MCP API
+  slug: delx-ai-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-mcp-api-openapi.yml
+- filename: delx-ai-protocol-api-openapi.yml
+  format: yaml
   label: Delx Protocol API
-  slug: delx-protocol-api
+  slug: delx-ai-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-protocol-openapi.json
-- filename: delx-ai-commerce-x402-openapi.json
-  format: json
-  label: Delx Commerce x402 API
-  slug: delx-commerce-x402-api
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-protocol-api-openapi.yml
+- filename: delx-ai-reliability-api-openapi.yml
+  format: yaml
+  label: Delx Reliability API
+  slug: delx-ai-reliability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-commerce-x402-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-reliability-api-openapi.yml
+- filename: delx-ai-tools-api-openapi.yml
+  format: yaml
+  label: Delx Tools API
+  slug: delx-ai-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-tools-api-openapi.yml
+- filename: delx-ai-x402-api-openapi.yml
+  format: yaml
+  label: Delx X402 API
+  slug: delx-ai-x402-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-x402-api-openapi.yml
 consequence_counts:
-  physical: 339
-  read: 6
+  physical: 338
+  read: 14
   safety-critical: 471
-  write: 186
+  write: 179
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 471
 kind: agentic-access
@@ -155,10 +191,10 @@ notable_actions:
   method: POST
   path: /api/v1/x402/avg-n
 operation_count: 1002
-overview: 'Delx exposes 1002 API operations that an AI agent could call, of which 996 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Delx exposes 1002 API operations that an AI agent could call, of which 988 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 6 read, 186 write, 339 physical, and 471 safety-critical.
+  By consequence: 14 read, 179 write, 338 physical, and 471 safety-critical.
 
 
   471 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -171,7 +207,7 @@ slug: delx-ai-agentic-access
 source_filename: delx-ai-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/delx-ai-commerce-x402-openapi.json, openapi/delx-ai-protocol-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 1002\n  by_action_class:\n    acting: 996\n    connected: 6\n  by_consequence:\n    write: 186\n    physical: 339\n    safety-critical: 471\n    read: 6\n  human_in_the_loop_required: 471\noperations:\n- path: /api/v1/x402/image\n  method: post\n  operationId: generate_image\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/image-budget\n\
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/delx-ai-commerce-x402-openapi.json, openapi/delx-ai-protocol-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 1002\n  by_action_class:\n    acting: 988\n    connected: 14\n  by_consequence:\n    write: 179\n    physical: 338\n    safety-critical: 471\n    read: 14\n  human_in_the_loop_required: 471\noperations:\n- path: /api/v1/x402/image\n  method: post\n  operationId: generate_image\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/image-budget\n\
   \  method: post\n  operationId: generate_image_budget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/remove-background\n  method: post\n  operationId: remove_background\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/transcribe-audio\n  method: post\n  operationId: transcribe_audio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/caption-image\n  method: post\n  operationId: caption_image\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/colorize-photo\n  method: post\n  operationId: colorize_photo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/upscale-image-hq\n  method: post\n  operationId: upscale_image_hq\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/replace-background\n  method: post\n  operationId: replace_background\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/image-transform\n  method: post\n  operationId: transform_image\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/qr-code\n  method: post\n  operationId: generate_qr_code\n\
@@ -205,9 +241,9 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/delx-a
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/luhn-check\n  method: post\n  operationId: util_luhn_check\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/isbn-check\n  method: post\n  operationId: util_isbn_check\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/levenshtein\n  method: post\n  operationId: util_levenshtein\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/similarity\n  method: post\n  operationId: util_similarity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/normalize-whitespace\n  method: post\n  operationId: util_normalize_whitespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/extract-urls\n  method: post\n  operationId: util_extract_urls\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/extract-emails\n  method: post\n  operationId: util_extract_emails\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/url-encode\n  method: post\n  operationId: util_url_encode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  \n\n# --- truncated at 32 KB (381 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/agentic-access/delx-ai-agentic-access.yml\n"
+  \n\n# --- truncated at 32 KB (380 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/agentic-access/delx-ai-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/agentic-access/delx-ai-agentic-access.yml
-summary_line: 1002 operations · 996 acting · 471 human-in-the-loop
+summary_line: 1002 operations · 988 acting · 471 human-in-the-loop
 tags:
 - Agents
 - AI Agents
@@ -220,6 +256,5 @@ tags:
 - Media Generation
 - Web Intelligence
 - Data Quality
-- Utilities
-- agent-native
+- Agent-Native
 ---

@@ -289,7 +289,9 @@ tags:
 - At-Protocol
 - Decentralized
 - Federated
-- Open-Source
+- Open Source
 - Social Network
-- Social-Media
+- Social Media
+- Real-Time
+- Social
 ---

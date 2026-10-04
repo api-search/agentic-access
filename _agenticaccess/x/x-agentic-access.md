@@ -245,11 +245,11 @@ source_yaml: "generated: '2026-08-28'\nmethod: generated\nsource: openapi/x-acco
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/agentic-access/x-agentic-access.yml
 summary_line: 190 operations · 86 acting · 4 human-in-the-loop
 tags:
-- Space
+- Spaces
 - Conversations
 - X
 - Social
-- Social-Media
+- Social Media
 - Posts
 - User
 - Direct Messages
@@ -261,4 +261,5 @@ tags:
 - Content
 - Agents
 - MCP
+- A2A
 ---

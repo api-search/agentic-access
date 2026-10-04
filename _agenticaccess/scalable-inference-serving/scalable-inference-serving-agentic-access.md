@@ -65,7 +65,7 @@ tags:
 - Inference
 - Kubernetes
 - LLM
-- Machine-Learning
+- Machine Learning
 - Model Serving
 - MLOps
 - Scalability

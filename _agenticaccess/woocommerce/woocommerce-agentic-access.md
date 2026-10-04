@@ -235,7 +235,7 @@ summary_line: 81 operations · 39 acting
 tags:
 - WooCommerce
 - E-Commerce
-- Open-Source
+- Open Source
 - Order
 - Product
 - WordPress

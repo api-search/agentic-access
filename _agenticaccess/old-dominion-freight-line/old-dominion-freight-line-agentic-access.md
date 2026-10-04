@@ -59,7 +59,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/old-dominion-f
 summary_line: 4 operations · 2 acting
 tags:
 - Freight
-- Less-Than-Truckload
+- LTL
 - Logistics
 - Shipping
 - Transportation

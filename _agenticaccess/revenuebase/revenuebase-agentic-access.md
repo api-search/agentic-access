@@ -34,12 +34,12 @@ api_specs:
   slug: revenuebase-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-health-api-openapi.yml
-- filename: revenuebase-v2-api-openapi.yml
+- filename: revenuebase-contact-api-openapi.yml
   format: yaml
-  label: RevenueBase V2 API
-  slug: revenuebase-v2-api
+  label: RevenueBase Contact API
+  slug: revenuebase-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-contact-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -80,4 +80,5 @@ tags:
 - Company Data
 - Lead Intelligence
 - Sales Intelligence
+- A2A
 ---

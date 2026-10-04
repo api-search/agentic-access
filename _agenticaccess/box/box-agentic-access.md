@@ -546,4 +546,5 @@ tags:
 - Enterprise
 - File Sharing
 - Box
+- Storage
 ---

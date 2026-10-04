@@ -34,12 +34,6 @@ api_specs:
   slug: matomo-annotations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-annotations-api-openapi.yml
-- filename: matomo-api-api-openapi.yml
-  format: yaml
-  label: Matomo API
-  slug: matomo-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/openapi/matomo-api-api-openapi.yml
 - filename: matomo-bandwidth-api-openapi.yml
   format: yaml
   label: Matomo Bandwidth API
@@ -434,7 +428,7 @@ summary_line: 560 operations · 2 acting
 tags:
 - Analytics
 - Web Analytics
-- Open-Source
+- Open Source
 - Privacy
 - Data Ownership
 - Self-Hosted

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 167
   connected: 131
 api_specs:
-- filename: discord-gateway-api-asyncapi.yml
-  format: yaml
-  label: Discord Gateway API
-  slug: discord-gateway-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/asyncapi/discord-gateway-api-asyncapi.yml
 - filename: discord-interactions-api-openapi.yml
   format: yaml
   label: Discord Interactions API
@@ -22,12 +16,6 @@ api_specs:
   slug: discord-webhook-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-webhook-events-api-openapi.yml
-- filename: discord-voice-api-asyncapi.yml
-  format: yaml
-  label: Discord Voice API
-  slug: discord-voice-api
-  spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/asyncapi/discord-voice-api-asyncapi.yml
 - filename: discord-applications-api-openapi.yml
   format: yaml
   label: Discord Applications API
@@ -190,4 +178,5 @@ tags:
 - Social
 - Video
 - Voice
+- Real-Time
 ---

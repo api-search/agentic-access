@@ -179,9 +179,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/huggin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/agentic-access/hugging-face-agentic-access.yml
 summary_line: 68 operations · 35 acting
 tags:
-- Computer-Vision
+- Computer Vision
 - Embeddings
-- Image-Generation
+- Image Generation
 - LLM
 - Hugging Face
+- Inference
 ---

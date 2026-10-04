@@ -75,7 +75,6 @@ source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/deboun
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/agentic-access/debounce-agentic-access.yml
 summary_line: 7 operations
 tags:
-- Email Validation
 - Email Verification
 - Deliverability
 - Disposable Email Detection
@@ -85,4 +84,5 @@ tags:
 - Syntax Validation
 - Reverse Email Lookup
 - Logo API
+- A2A
 ---

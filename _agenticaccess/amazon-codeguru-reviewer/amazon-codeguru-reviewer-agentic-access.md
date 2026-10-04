@@ -16,12 +16,6 @@ api_specs:
   slug: amazon-codeguru-reviewer-codereviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/openapi/amazon-codeguru-reviewer-codereviews-api-openapi.yml
-- filename: amazon-codeguru-reviewer-codereviews-type-api-openapi.yml
-  format: yaml
-  label: Amazon CodeGuru Reviewer Codereviews#Type API
-  slug: amazon-codeguru-reviewer-codereviews-type-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/openapi/amazon-codeguru-reviewer-codereviews-type-api-openapi.yml
 - filename: amazon-codeguru-reviewer-feedback-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Reviewer Feedback API
@@ -71,6 +65,6 @@ tags:
 - Code Review
 - Security
 - DevOps
-- Machine-Learning
+- Machine Learning
 - Developer Tools
 ---

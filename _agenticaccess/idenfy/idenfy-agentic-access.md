@@ -202,7 +202,7 @@ tags:
 - Bank Verification
 - Biometrics
 - Compliance
-- Fraud Detection
+- Fraud Prevention
 - Identity Verification
 - KYB
 - KYC
@@ -211,4 +211,5 @@ tags:
 - RegTech
 - Sanctions Screening
 - Webhook
+- A2A
 ---

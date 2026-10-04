@@ -73,7 +73,7 @@ summary_line: 8 operations · 5 acting
 tags:
 - AI Coding Assistant
 - Code Completion
-- Open-Source
+- Open Source
 - Developer Tools
 - LLM
 - Artificial Intelligence

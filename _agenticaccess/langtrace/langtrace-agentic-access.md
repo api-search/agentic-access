@@ -64,5 +64,5 @@ tags:
 - Observability
 - OpenTelemetry
 - Tracing
-- Open-Source
+- Open Source
 ---

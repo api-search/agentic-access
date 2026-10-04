@@ -68,5 +68,5 @@ tags:
 - Big Data
 - Apache
 - Java
-- Open-Source
+- Open Source
 ---

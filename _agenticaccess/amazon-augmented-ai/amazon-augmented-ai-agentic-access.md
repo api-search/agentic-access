@@ -52,6 +52,6 @@ summary_line: 5 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Amazon Augmented AI
 - Human-in-the-Loop
-- Machine-Learning
+- Machine Learning
 - AI Review
 ---

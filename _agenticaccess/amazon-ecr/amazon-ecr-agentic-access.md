@@ -1,7 +1,8 @@
 ---
-acting_count: 6
+acting_count: 5
 action_class_counts:
-  acting: 6
+  acting: 5
+  connected: 1
 api_specs:
 - filename: amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api-openapi.yml
   format: yaml
@@ -9,38 +10,9 @@ api_specs:
   slug: amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api-openapi.yml
-- filename: amazon-ecr-batchgetimage-api-openapi.yml
-  format: yaml
-  label: 'Amazon ECR #BatchGetImage API'
-  slug: amazon-ecr-batchgetimage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-batchgetimage-api-openapi.yml
-- filename: amazon-ecr-deleterepository-api-openapi.yml
-  format: yaml
-  label: 'Amazon ECR #DeleteRepository API'
-  slug: amazon-ecr-deleterepository-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-deleterepository-api-openapi.yml
-- filename: amazon-ecr-describerepositories-api-openapi.yml
-  format: yaml
-  label: 'Amazon ECR #DescribeRepositories API'
-  slug: amazon-ecr-describerepositories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-describerepositories-api-openapi.yml
-- filename: amazon-ecr-putimage-api-openapi.yml
-  format: yaml
-  label: 'Amazon ECR #PutImage API'
-  slug: amazon-ecr-putimage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-putimage-api-openapi.yml
-- filename: amazon-ecr-list-images-api-openapi.yml
-  format: yaml
-  label: Amazon ECR List Images API
-  slug: amazon-ecr-list-images-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-list-images-api-openapi.yml
 consequence_counts:
-  write: 6
+  read: 1
+  write: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -50,10 +22,10 @@ name: Amazon Ecr Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 6
-overview: 'Amazon ECR exposes 6 API operations that an AI agent could call, of which 6 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Amazon ECR exposes 6 API operations that an AI agent could call, of which 5 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 6 write.
+  By consequence: 1 read and 5 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -63,11 +35,11 @@ slug: amazon-ecr-agentic-access
 source_filename: amazon-ecr-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-ecr-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 6\n  by_consequence:\n    write: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: post\n  operationId: createRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DescribeRepositories\n  method: post\n  operationId: describeRepositories\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
-  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DeleteRepository\n  method: post\n  operationId: deleteRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#PutImage\n  method: post\n  operationId: putImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#BatchGetImage\n  method: post\n  operationId: batchGetImage\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#ListImages\n  method: post\n  operationId: listImages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api-openapi.yml,\n  openapi/amazon-ecr-batchgetimage-api-openapi.yml, openapi/amazon-ecr-deleterepository-api-openapi.yml,\n  openapi/amazon-ecr-describerepositories-api-openapi.yml, openapi/amazon-ecr-list-images-api-openapi.yml,\n  openapi/amazon-ecr-putimage-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 5\n    connected: 1\n  by_consequence:\n    write: 5\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: post\n  operationId: createRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#BatchGetImage\n  method: post\n  operationId: batchGetImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DeleteRepository\n  method: post\n  operationId: deleteRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DescribeRepositories\n  method: post\n  operationId: describeRepositories\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#ListImages\n  method: post\n  operationId: listImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#PutImage\n  method: post\n  operationId: putImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/agentic-access/amazon-ecr-agentic-access.yml
-summary_line: 6 operations · 6 acting
+summary_line: 6 operations · 5 acting
 tags:
 - Amazon Web Services
 - Container Images

@@ -1,8 +1,8 @@
 ---
-acting_count: 42
+acting_count: 27
 action_class_counts:
-  acting: 42
-  connected: 14
+  acting: 27
+  connected: 29
 api_specs:
 - filename: amazon-ec2-image-builder-cancelimagecreation-api-openapi.yml
   format: yaml
@@ -46,126 +46,6 @@ api_specs:
   slug: amazon-ec2-image-builder-createinfrastructureconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-createinfrastructureconfiguration-api-openapi.yml
-- filename: amazon-ec2-image-builder-deletecomponent-componentbuildversionarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteComponent#componentBuildVersionArn API
-  slug: amazon-ec2-image-builder-deletecomponent-componentbuildversionarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletecomponent-componentbuildversionarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deletecontainerrecipe-containerrecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteContainerRecipe#containerRecipeArn API
-  slug: amazon-ec2-image-builder-deletecontainerrecipe-containerrecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletecontainerrecipe-containerrecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deletedistributionconfiguration-distributionconfigurationarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteDistributionConfiguration#distributionConfigurationArn API
-  slug: amazon-ec2-image-builder-deletedistributionconfiguration-distributionconfigurationarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletedistributionconfiguration-distributionconfigurationarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deleteimage-imagebuildversionarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteImage#imageBuildVersionArn API
-  slug: amazon-ec2-image-builder-deleteimage-imagebuildversionarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimage-imagebuildversionarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deleteimagepipeline-imagepipelinearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteImagePipeline#imagePipelineArn API
-  slug: amazon-ec2-image-builder-deleteimagepipeline-imagepipelinearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimagepipeline-imagepipelinearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deleteimagerecipe-imagerecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteImageRecipe#imageRecipeArn API
-  slug: amazon-ec2-image-builder-deleteimagerecipe-imagerecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimagerecipe-imagerecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-deleteinfrastructureconfiguration-infrastructureconfigurationarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder DeleteInfrastructureConfiguration#infrastructureConfigurationArn API
-  slug: amazon-ec2-image-builder-deleteinfrastructureconfiguration-infrastructureconfigurationarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteinfrastructureconfiguration-infrastructureconfigurationarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getcomponent-componentbuildversionarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetComponent#componentBuildVersionArn API
-  slug: amazon-ec2-image-builder-getcomponent-componentbuildversionarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcomponent-componentbuildversionarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getcomponentpolicy-componentarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetComponentPolicy#componentArn API
-  slug: amazon-ec2-image-builder-getcomponentpolicy-componentarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcomponentpolicy-componentarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getcontainerrecipe-containerrecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetContainerRecipe#containerRecipeArn API
-  slug: amazon-ec2-image-builder-getcontainerrecipe-containerrecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcontainerrecipe-containerrecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getcontainerrecipepolicy-containerrecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetContainerRecipePolicy#containerRecipeArn API
-  slug: amazon-ec2-image-builder-getcontainerrecipepolicy-containerrecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcontainerrecipepolicy-containerrecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getdistributionconfiguration-distributionconfigurationarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetDistributionConfiguration#distributionConfigurationArn API
-  slug: amazon-ec2-image-builder-getdistributionconfiguration-distributionconfigurationarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getdistributionconfiguration-distributionconfigurationarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getimage-imagebuildversionarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetImage#imageBuildVersionArn API
-  slug: amazon-ec2-image-builder-getimage-imagebuildversionarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimage-imagebuildversionarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getimagepipeline-imagepipelinearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetImagePipeline#imagePipelineArn API
-  slug: amazon-ec2-image-builder-getimagepipeline-imagepipelinearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagepipeline-imagepipelinearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getimagepolicy-imagearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetImagePolicy#imageArn API
-  slug: amazon-ec2-image-builder-getimagepolicy-imagearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagepolicy-imagearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getimagerecipe-imagerecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetImageRecipe#imageRecipeArn API
-  slug: amazon-ec2-image-builder-getimagerecipe-imagerecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagerecipe-imagerecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getimagerecipepolicy-imagerecipearn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetImageRecipePolicy#imageRecipeArn API
-  slug: amazon-ec2-image-builder-getimagerecipepolicy-imagerecipearn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagerecipepolicy-imagerecipearn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getinfrastructureconfiguration-infrastructureconfigurationarn-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetInfrastructureConfiguration#infrastructureConfigurationArn API
-  slug: amazon-ec2-image-builder-getinfrastructureconfiguration-infrastructureconfigurationarn-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getinfrastructureconfiguration-infrastructureconfigurationarn-api-openapi.yml
-- filename: amazon-ec2-image-builder-getworkflowexecution-workflowexecutionid-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetWorkflowExecution#workflowExecutionId API
-  slug: amazon-ec2-image-builder-getworkflowexecution-workflowexecutionid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getworkflowexecution-workflowexecutionid-api-openapi.yml
-- filename: amazon-ec2-image-builder-getworkflowstepexecution-stepexecutionid-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder GetWorkflowStepExecution#stepExecutionId API
-  slug: amazon-ec2-image-builder-getworkflowstepexecution-stepexecutionid-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getworkflowstepexecution-stepexecutionid-api-openapi.yml
 - filename: amazon-ec2-image-builder-importcomponent-api-openapi.yml
   format: yaml
   label: Amazon EC2 Image Builder ImportComponent API
@@ -310,12 +190,132 @@ api_specs:
   slug: amazon-ec2-image-builder-updateinfrastructureconfiguration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-updateinfrastructureconfiguration-api-openapi.yml
+- filename: amazon-ec2-image-builder-deletecomponent-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Component API
+  slug: amazon-ec2-image-builder-deletecomponent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletecomponent-api-openapi.yml
+- filename: amazon-ec2-image-builder-deletecontainerrecipe-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Container Recipe API
+  slug: amazon-ec2-image-builder-deletecontainerrecipe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletecontainerrecipe-api-openapi.yml
+- filename: amazon-ec2-image-builder-deletedistributionconfiguration-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Distribution Configuration API
+  slug: amazon-ec2-image-builder-deletedistributionconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deletedistributionconfiguration-api-openapi.yml
+- filename: amazon-ec2-image-builder-deleteimage-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Image API
+  slug: amazon-ec2-image-builder-deleteimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimage-api-openapi.yml
+- filename: amazon-ec2-image-builder-deleteimagepipeline-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Image Pipeline API
+  slug: amazon-ec2-image-builder-deleteimagepipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimagepipeline-api-openapi.yml
+- filename: amazon-ec2-image-builder-deleteimagerecipe-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Image Recipe API
+  slug: amazon-ec2-image-builder-deleteimagerecipe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteimagerecipe-api-openapi.yml
+- filename: amazon-ec2-image-builder-deleteinfrastructureconfiguration-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Delete Infrastructure Configuration API
+  slug: amazon-ec2-image-builder-deleteinfrastructureconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-deleteinfrastructureconfiguration-api-openapi.yml
+- filename: amazon-ec2-image-builder-getcomponentpolicy-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Component Policy API
+  slug: amazon-ec2-image-builder-getcomponentpolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcomponentpolicy-api-openapi.yml
+- filename: amazon-ec2-image-builder-getcontainerrecipe-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Container Recipe API
+  slug: amazon-ec2-image-builder-getcontainerrecipe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcontainerrecipe-api-openapi.yml
+- filename: amazon-ec2-image-builder-getcontainerrecipepolicy-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Container Recipe Policy API
+  slug: amazon-ec2-image-builder-getcontainerrecipepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getcontainerrecipepolicy-api-openapi.yml
+- filename: amazon-ec2-image-builder-getdistributionconfiguration-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Distribution Configuration API
+  slug: amazon-ec2-image-builder-getdistributionconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getdistributionconfiguration-api-openapi.yml
+- filename: amazon-ec2-image-builder-getimage-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Image API
+  slug: amazon-ec2-image-builder-getimage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimage-api-openapi.yml
+- filename: amazon-ec2-image-builder-getimagepipeline-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Image Pipeline API
+  slug: amazon-ec2-image-builder-getimagepipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagepipeline-api-openapi.yml
+- filename: amazon-ec2-image-builder-getimagepolicy-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Image Policy API
+  slug: amazon-ec2-image-builder-getimagepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagepolicy-api-openapi.yml
+- filename: amazon-ec2-image-builder-getimagerecipe-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Image Recipe API
+  slug: amazon-ec2-image-builder-getimagerecipe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagerecipe-api-openapi.yml
+- filename: amazon-ec2-image-builder-getimagerecipepolicy-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Image Recipe Policy API
+  slug: amazon-ec2-image-builder-getimagerecipepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getimagerecipepolicy-api-openapi.yml
+- filename: amazon-ec2-image-builder-getinfrastructureconfiguration-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Infrastructure Configuration API
+  slug: amazon-ec2-image-builder-getinfrastructureconfiguration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getinfrastructureconfiguration-api-openapi.yml
+- filename: amazon-ec2-image-builder-getworkflowexecution-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Workflow Execution API
+  slug: amazon-ec2-image-builder-getworkflowexecution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getworkflowexecution-api-openapi.yml
+- filename: amazon-ec2-image-builder-getworkflowstepexecution-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Workflow Step Execution API
+  slug: amazon-ec2-image-builder-getworkflowstepexecution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-getworkflowstepexecution-api-openapi.yml
 - filename: amazon-ec2-image-builder-create-image-api-openapi.yml
   format: yaml
   label: Amazon EC2 Image Builder Create Image API
   slug: amazon-ec2-image-builder-create-image-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-create-image-api-openapi.yml
+- filename: amazon-ec2-image-builder-get-component-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Get Component API
+  slug: amazon-ec2-image-builder-get-component-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-get-component-api-openapi.yml
 - filename: amazon-ec2-image-builder-list-components-api-openapi.yml
   format: yaml
   label: Amazon EC2 Image Builder List Components API
@@ -329,8 +329,8 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-list-images-api-openapi.yml
 consequence_counts:
-  read: 14
-  write: 42
+  read: 29
+  write: 27
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
 kind: agentic-access
@@ -340,10 +340,10 @@ name: Amazon Ec2 Image Builder Agentic Access
 name_suffix: Agentic Access
 notable_actions: []
 operation_count: 56
-overview: 'Amazon EC2 Image Builder exposes 56 API operations that an AI agent could call, of which 42 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Amazon EC2 Image Builder exposes 56 API operations that an AI agent could call, of which 27 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 14 read and 42 write.
+  By consequence: 29 read and 27 write.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -353,28 +353,30 @@ slug: amazon-ec2-image-builder-agentic-access
 source_filename: amazon-ec2-image-builder-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-ec2-image-builder-openapi.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 56\n  by_action_class:\n    acting: 42\n    connected: 14\n  by_consequence:\n    write: 42\n    read: 14\n  human_in_the_loop_required: 0\noperations:\n- path: /CancelImageCreation\n  method: put\n  operationId: CancelImageCreation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateComponent\n  method: put\n  operationId: CreateComponent\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateContainerRecipe\n  method: put\n  operationId: CreateContainerRecipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateDistributionConfiguration\n  method: put\n  operationId: CreateDistributionConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /CreateImage\n  method: put\n  operationId: CreateImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateImagePipeline\n  method: put\n  operationId: CreateImagePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateImageRecipe\n  method: put\n  operationId: CreateImageRecipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
-  \  - abnormal\n      - high-value\n    audit: required\n- path: /CreateInfrastructureConfiguration\n  method: put\n  operationId: CreateInfrastructureConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteComponent#componentBuildVersionArn\n  method: delete\n  operationId: DeleteComponent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteContainerRecipe#containerRecipeArn\n  method: delete\n  operationId: DeleteContainerRecipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n \
-  \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteDistributionConfiguration#distributionConfigurationArn\n  method: delete\n  operationId: DeleteDistributionConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteImage#imageBuildVersionArn\n  method: delete\n  operationId: DeleteImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteImagePipeline#imagePipelineArn\n\
-  \  method: delete\n  operationId: DeleteImagePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteImageRecipe#imageRecipeArn\n  method: delete\n  operationId: DeleteImageRecipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteInfrastructureConfiguration#infrastructureConfigurationArn\n  method: delete\n  operationId: DeleteInfrastructureConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /GetComponent#componentBuildVersionArn\n  method: get\n  operationId: GetComponent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetComponentPolicy#componentArn\n  method: get\n  operationId: GetComponentPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetContainerRecipe#containerRecipeArn\n  method: get\n  operationId: GetContainerRecipe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetContainerRecipePolicy#containerRecipeArn\n  method: get\n  operationId: GetContainerRecipePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetDistributionConfiguration#distributionConfigurationArn\n  method: get\n  operationId: GetDistributionConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetImage#imageBuildVersionArn\n  method: get\n  operationId: GetImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetImagePipeline#imagePipelineArn\n  method: get\n  operationId: GetImagePipeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetImagePolicy#imageArn\n  method: get\n  operationId: GetImagePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /GetImageRecipe#imageRecipeArn\n  method: get\n  operationId: GetImageRecipe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetImageRecipePolicy#imageRecipeArn\n  method: get\n  operationId: GetImageRecipePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetInfrastructureConfiguration#infrastructureConfigurationArn\n  method: get\n  operationId: GetInfrastructureConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetWorkflowExecution#workflowExecutionId\n  method: get\n  operationId: GetWorkflowExecution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /GetWorkflowStepExecution#stepExecutionId\n  method: get\n  operationId: GetWorkflowStepExecution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ImportComponent\n  method: put\n  operationId: ImportComponent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ImportVmImage\n  method: put\n  operationId: ImportVmImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListComponentBuildVersions\n\
-  \  method: post\n  operationId: ListComponentBuildVersions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListComponents\n  method: post\n  operationId: ListComponents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListContainerRecipes\n  method: post\n  operationId: ListContainerRecipes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /ListDistributionConfigurations\n  method: post\n  operationId: ListDistributionConfigurations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListImageBuildVersions\n  method: post\n  operationId: ListImageBuildVersions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListImagePackages\n  method: post\n  operationId: ListImagePackages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
-  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListImagePipelineImages\n  method: post\n  operationId: ListImagePipelineImages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListImagePipelines\n  method: post\n  operationId: ListImagePipelines\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListImageRecipes\n  method: post\n  operationId: ListImageRecipes\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListImageScanFindingAggregations\n  method: post\n  operationId: ListImageScanFindingAggregations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListImageScanFindings\n  method: post\n  operationId: ListImageScanFindings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListImages\n  method: post\n\
-  \  operationId: ListImages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListInfrastructureConfigurations\n  method: post\n  operationId: ListInfrastructureConfigurations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListWorkflowExecutions\n  method: post\n  operationId: ListWorkflowExecutions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListWorkflowStepExecutions\n  method: post\n  operationId: ListWorkflowStepExecutions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
-  \ /PutComponentPolicy\n  method: put\n  operationId: PutComponentPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /PutContainerRecipePolicy\n  method: put\n  operationId: PutContainerRecipePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /PutImagePolicy\n  method: put\n  operationId: PutImagePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n- path: /PutImageRecipePolicy\n  method: put\n  operationId: PutImageRecipePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /StartImagePipelineExecution\n  method: put\n  operationId: StartImagePipelineExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UpdateDistributionConfiguration\n  method: put\n  operationId: UpdateDistributionConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UpdateImagePipeline\n  method: put\n  operationId: UpdateImagePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UpdateInfrastructureConfiguration\n  method: put\n  operationId: UpdateInfrastructureConfiguration\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon-ec2-image-builder-cancelimagecreation-api-openapi.yml, openapi/amazon-ec2-image-builder-create-image-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-createcomponent-api-openapi.yml, openapi/amazon-ec2-image-builder-createcontainerrecipe-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-createdistributionconfiguration-api-openapi.yml, openapi/amazon-ec2-image-builder-createimagepipeline-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-createimagerecipe-api-openapi.yml, openapi/amazon-ec2-image-builder-createinfrastructureconfiguration-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-deletecomponent-componentbuildversionarn-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-deletecontainerrecipe-containerrecipearn-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-deletedistributionconfiguration-distributionconfigurationarn-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-deleteimage-imagebuildversionarn-api-openapi.yml,\
+  \ openapi/amazon-ec2-image-builder-deleteimagepipeline-imagepipelinearn-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-deleteimagerecipe-imagerecipearn-api-openapi.yml, openapi/amazon-ec2-image-builder-deleteinfrastructureconfiguration-infrastructureconfigurationarn-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-getcomponent-componentbuildversionarn-api-openapi.yml, openapi/amazon-ec2-image-builder-getcomponentpolicy-componentarn-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-getcontainerrecipe-containerrecipearn-api-openapi.yml, openapi/amazon-ec2-image-builder-getcontainerrecipepolicy-containerrecipearn-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-getdistributionconfiguration-distributionconfigurationarn-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-getimage-imagebuildversionarn-api-openapi.yml, openapi/amazon-ec2-image-builder-getimagepipeline-imagepipelinearn-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-getimagepolicy-imagearn-api-openapi.yml,\
+  \ openapi/amazon-ec2-image-builder-getimagerecipe-imagerecipearn-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-getimagerecipepolicy-imagerecipearn-api-openapi.yml, openapi/amazon-ec2-image-builder-getinfrastructureconfiguration-infrastructureconfigurationarn-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-getworkflowexecution-workflowexecutionid-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-getworkflowstepexecution-stepexecutionid-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-importcomponent-api-openapi.yml, openapi/amazon-ec2-image-builder-importvmimage-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-list-components-api-openapi.yml, openapi/amazon-ec2-image-builder-list-images-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-listcomponentbuildversions-api-openapi.yml, openapi/amazon-ec2-image-builder-listcontainerrecipes-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-listdistributionconfigurations-api-openapi.yml, openapi/amazon-ec2-image-builder-listimagebuildversions-api-openapi.yml,\n\
+  \  openapi/amazon-ec2-image-builder-listimagepackages-api-openapi.yml, openapi/amazon-ec2-image-builder-listimagepipelineimages-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-listimagepipelines-api-openapi.yml, openapi/amazon-ec2-image-builder-listimagerecipes-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-listimagescanfindingaggregations-api-openapi.yml, openapi/amazon-ec2-image-builder-listimagescanfindings-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-listinfrastructureconfigurations-api-openapi.yml, openapi/amazon-ec2-image-builder-listworkflowexecutions-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-listworkflowstepexecutions-api-openapi.yml, openapi/amazon-ec2-image-builder-putcomponentpolicy-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-putcontainerrecipepolicy-api-openapi.yml, openapi/amazon-ec2-image-builder-putimagepolicy-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-putimagerecipepolicy-api-openapi.yml, openapi/amazon-ec2-image-builder-startimagepipelineexecution-api-openapi.yml,\n\
+  \  openapi/amazon-ec2-image-builder-tags-api-openapi.yml, openapi/amazon-ec2-image-builder-updatedistributionconfiguration-api-openapi.yml,\n  openapi/amazon-ec2-image-builder-updateimagepipeline-api-openapi.yml, openapi/amazon-ec2-image-builder-updateinfrastructureconfiguration-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 56\n  by_action_class:\n    acting: 27\n    connected: 29\n  by_consequence:\n    write: 27\n    read: 29\n  human_in_the_loop_required: 0\noperations:\n- path: /CancelImageCreation\n  method: put\n  operationId: CancelImageCreation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateImage\n  method: put\n  operationId: CreateImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateComponent\n  method: put\n  operationId: CreateComponent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateContainerRecipe\n  method: put\n  operationId: CreateContainerRecipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
+  \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateDistributionConfiguration\n  method: put\n  operationId: CreateDistributionConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateImagePipeline\n  method: put\n  operationId: CreateImagePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateImageRecipe\n  method: put\n  operationId: CreateImageRecipe\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreateInfrastructureConfiguration\n  method: put\n  operationId: CreateInfrastructureConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteComponent#componentBuildVersionArn\n  method: delete\n  operationId: DeleteComponent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
+  - path: /DeleteContainerRecipe#containerRecipeArn\n  method: delete\n  operationId: DeleteContainerRecipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteDistributionConfiguration#distributionConfigurationArn\n  method: delete\n  operationId: DeleteDistributionConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteImage#imageBuildVersionArn\n  method: delete\n  operationId: DeleteImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
+  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteImagePipeline#imagePipelineArn\n  method: delete\n  operationId: DeleteImagePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteImageRecipe#imageRecipeArn\n  method: delete\n  operationId: DeleteImageRecipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteInfrastructureConfiguration#infrastructureConfigurationArn\n  method: delete\n\
+  \  operationId: DeleteInfrastructureConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /GetComponent#componentBuildVersionArn\n  method: get\n  operationId: GetComponent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetComponentPolicy#componentArn\n  method: get\n  operationId: GetComponentPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetContainerRecipe#containerRecipeArn\n  method: get\n  operationId: GetContainerRecipe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n \
+  \   token:\n      max-ttl: 3600\n    audit: none\n- path: /GetContainerRecipePolicy#containerRecipeArn\n  method: get\n  operationId: GetContainerRecipePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetDistributionConfiguration#distributionConfigurationArn\n  method: get\n  operationId: GetDistributionConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetImage#imageBuildVersionArn\n  method: get\n  operationId: GetImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetImagePipeline#imagePipelineArn\n  method: get\n  operationId: GetImagePipeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
+  \      max-ttl: 3600\n    audit: none\n- path: /GetImagePolicy#imageArn\n  method: get\n  operationId: GetImagePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetImageRecipe#imageRecipeArn\n  method: get\n  operationId: GetImageRecipe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetImageRecipePolicy#imageRecipeArn\n  method: get\n  operationId: GetImageRecipePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetInfrastructureConfiguration#infrastructureConfigurationArn\n  method: get\n  operationId: GetInfrastructureConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
+  \    audit: none\n- path: /GetWorkflowExecution#workflowExecutionId\n  method: get\n  operationId: GetWorkflowExecution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetWorkflowStepExecution#stepExecutionId\n  method: get\n  operationId: GetWorkflowStepExecution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ImportComponent\n  method: put\n  operationId: ImportComponent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ImportVmImage\n  method: put\n  operationId: ImportVmImage\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListComponents\n  method: post\n  operationId: ListComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListImages\n  method: post\n  operationId: ListImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListComponentBuildVersions\n  method: post\n  operationId: ListComponentBuildVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListContainerRecipes\n  method: post\n  operationId: ListContainerRecipes\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListDistributionConfigurations\n  method: post\n  operationId: ListDistributionConfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListImageBuildVersions\n  method: post\n  operationId: ListImageBuildVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListImagePackages\n  method: post\n  operationId: ListImagePackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListImagePipelineImages\n  method: post\n  operationId: ListImagePipelineImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListImagePipelines\n  method: post\n  operationId: ListImagePipelines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListImageRecipes\n  method: post\n  operationId: ListImageRecipes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListImageScanFindingAggregations\n  method: post\n  operationId: ListImageScanFindingAggregations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListImageScanFindings\n  method: post\n  operationId: ListImageScanFindings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListInfrastructureConfigurations\n\
+  \  method: post\n  operationId: ListInfrastructureConfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListWorkflowExecutions\n  method: post\n  operationId: ListWorkflowExecutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListWorkflowStepExecutions\n  method: post\n  operationId: ListWorkflowStepExecutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /PutComponentPolicy\n  method: put\n  operationId: PutComponentPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
+  \      - high-value\n    audit: required\n- path: /PutContainerRecipePolicy\n  method: put\n  operationId: PutContainerRecipePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /PutImagePolicy\n  method: put\n  operationId: PutImagePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /PutImageRecipePolicy\n  method: put\n  operationId: PutImageRecipePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /StartImagePipelineExecution\n  method: put\n  operationId: StartImagePipelineExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UpdateDistributionConfiguration\n  method: put\n  operationId: UpdateDistributionConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UpdateImagePipeline\n  method: put\n  operationId: UpdateImagePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
+  \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UpdateInfrastructureConfiguration\n  method: put\n  operationId: UpdateInfrastructureConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/agentic-access/amazon-ec2-image-builder-agentic-access.yml
-summary_line: 56 operations · 42 acting
+summary_line: 56 operations · 27 acting
 tags:
 - Amazon Web Services
 - Automation

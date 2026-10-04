@@ -363,4 +363,5 @@ tags:
 - Edge Computing
 - Streaming Analytics
 - Data Lake
+- Real-Time
 ---

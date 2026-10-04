@@ -454,7 +454,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/
 summary_line: 151 operations · 67 acting · 1 human-in-the-loop
 tags:
 - Cloud
-- CX
+- Customer Experience
 - Enterprise
 - EPM
 - ERP

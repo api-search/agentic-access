@@ -120,7 +120,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-toolbox-api-openapi.yml
 - filename: api-evangelist-apis-api-openapi.yml
   format: yaml
-  label: API Evangelist AP Is API
+  label: API Evangelist APIs API
   slug: api-evangelist-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-apis-api-openapi.yml
@@ -191,7 +191,7 @@ source_yaml: "generated: '2026-08-10'\nmethod: generated\nsource: openapi/apieva
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/agentic-access/api-evangelist-agentic-access.yml
 summary_line: 92 operations · 22 acting · 1 human-in-the-loop
 tags:
-- API Evangelist
+- API-Evangelist
 - Developer Portal
 - API Research
 - API Governance
@@ -200,4 +200,5 @@ tags:
 - Agents
 - API Standards
 - API Vocabulary
+- A2A
 ---

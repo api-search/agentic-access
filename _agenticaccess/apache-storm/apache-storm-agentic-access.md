@@ -4,12 +4,6 @@ action_class_counts:
   acting: 11
   connected: 14
 api_specs:
-- filename: apache-storm-topology-api-openapi.yml
-  format: yaml
-  label: Apache Storm Topology API
-  slug: apache-storm-topology-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/openapi/apache-storm-topology-api-openapi.yml
 - filename: apache-storm-cluster-api-openapi.yml
   format: yaml
   label: Apache Storm Cluster API
@@ -112,5 +106,5 @@ tags:
 - Event Processing
 - Real-Time
 - Stream Processing
-- Open-Source
+- Open Source
 ---

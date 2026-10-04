@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/appmix
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/agentic-access/appmixer-agentic-access.yml
 summary_line: 33 operations · 17 acting · 1 human-in-the-loop
 tags:
-- Agentic
+- AI Agents
 - Automation
 - Embedded iPaaS
 - Integration

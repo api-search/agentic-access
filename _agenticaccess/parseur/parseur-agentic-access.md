@@ -6,7 +6,7 @@ action_class_counts:
 api_specs:
 - filename: parseur-async-api-openapi.yml
   format: yaml
-  label: Parseur async API
+  label: Parseur Async API
   slug: parseur-async-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-async-api-openapi.yml

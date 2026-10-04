@@ -48,10 +48,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tazama/refs/he
 summary_line: 6 operations · 4 acting
 tags:
 - Financial Technology
-- Fraud Detection
-- Anti-Money Laundering
+- Fraud Prevention
+- AML
 - Linux Foundation
-- Open-Source
+- Open Source
 - Transaction Monitoring
 - ISO 20022
 - Real-Time

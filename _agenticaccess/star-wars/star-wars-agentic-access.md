@@ -78,5 +78,5 @@ tags:
 - Starships
 - Vehicles
 - Species
-- Open-Source
+- Open Source
 ---

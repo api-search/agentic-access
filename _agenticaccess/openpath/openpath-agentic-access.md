@@ -1,548 +1,548 @@
 ---
-acting_count: 302
+acting_count: 295
 action_class_counts:
-  acting: 302
-  connected: 244
+  acting: 295
+  connected: 251
 api_specs:
 - filename: openpath-auth-api-openapi.yml
   format: yaml
-  label: Openpath auth API
+  label: Openpath Auth API
   slug: openpath-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-auth-api-openapi.yml
 - filename: openpath-billablefeatures-api-openapi.yml
   format: yaml
-  label: Openpath billableFeatures API
+  label: Openpath Billable Features API
   slug: openpath-billablefeatures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-billablefeatures-api-openapi.yml
 - filename: openpath-identities-api-openapi.yml
   format: yaml
-  label: Openpath identities API
+  label: Openpath Identities API
   slug: openpath-identities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-identities-api-openapi.yml
 - filename: openpath-orgs-acumodels-api-openapi.yml
   format: yaml
-  label: Openpath orgs/acuModels API
+  label: Openpath Orgs/acu Models API
   slug: openpath-orgs-acumodels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-acumodels-api-openapi.yml
 - filename: openpath-orgs-acuports-api-openapi.yml
   format: yaml
-  label: Openpath orgs/acuPorts API
+  label: Openpath Orgs/acu Ports API
   slug: openpath-orgs-acuports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-acuports-api-openapi.yml
 - filename: openpath-orgs-acuporttypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/acuPortTypes API
+  label: Openpath Orgs/acu Port Types API
   slug: openpath-orgs-acuporttypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-acuporttypes-api-openapi.yml
 - filename: openpath-orgs-acus-api-openapi.yml
   format: yaml
-  label: Openpath orgs/acus API
+  label: Openpath Orgs/acus API
   slug: openpath-orgs-acus-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-acus-api-openapi.yml
 - filename: openpath-orgs-alarmactions-api-openapi.yml
   format: yaml
-  label: Openpath orgs/alarmActions API
+  label: Openpath Orgs/alarm Actions API
   slug: openpath-orgs-alarmactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-alarmactions-api-openapi.yml
 - filename: openpath-orgs-alarmconfigurations-api-openapi.yml
   format: yaml
-  label: Openpath orgs/alarmConfigurations API
+  label: Openpath Orgs/alarm Configurations API
   slug: openpath-orgs-alarmconfigurations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-alarmconfigurations-api-openapi.yml
 - filename: openpath-orgs-alarmseverities-api-openapi.yml
   format: yaml
-  label: Openpath orgs/alarmSeverities API
+  label: Openpath Orgs/alarm Severities API
   slug: openpath-orgs-alarmseverities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-alarmseverities-api-openapi.yml
 - filename: openpath-orgs-alarmsext-api-openapi.yml
   format: yaml
-  label: Openpath orgs/alarmsExt API
+  label: Openpath Orgs/alarms Ext API
   slug: openpath-orgs-alarmsext-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-alarmsext-api-openapi.yml
 - filename: openpath-orgs-alarmstatuses-api-openapi.yml
   format: yaml
-  label: Openpath orgs/alarmStatuses API
+  label: Openpath Orgs/alarm Statuses API
   slug: openpath-orgs-alarmstatuses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-alarmstatuses-api-openapi.yml
 - filename: openpath-orgs-authcerts-api-openapi.yml
   format: yaml
-  label: Openpath orgs/authCerts API
+  label: Openpath Orgs/auth Certs API
   slug: openpath-orgs-authcerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-authcerts-api-openapi.yml
 - filename: openpath-orgs-badgeconfigs-api-openapi.yml
   format: yaml
-  label: Openpath orgs/badgeConfigs API
+  label: Openpath Orgs/badge Configs API
   slug: openpath-orgs-badgeconfigs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-badgeconfigs-api-openapi.yml
 - filename: openpath-orgs-cardformats-api-openapi.yml
   format: yaml
-  label: Openpath orgs/cardFormats API
+  label: Openpath Orgs/card Formats API
   slug: openpath-orgs-cardformats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-cardformats-api-openapi.yml
 - filename: openpath-orgs-cobalt-api-openapi.yml
   format: yaml
-  label: Openpath orgs/cobalt API
+  label: Openpath Orgs/cobalt API
   slug: openpath-orgs-cobalt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-cobalt-api-openapi.yml
 - filename: openpath-orgs-contactsensors-api-openapi.yml
   format: yaml
-  label: Openpath orgs/contactSensors API
+  label: Openpath Orgs/contact Sensors API
   slug: openpath-orgs-contactsensors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-contactsensors-api-openapi.yml
 - filename: openpath-orgs-credentialactiontypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/credentialActionTypes API
+  label: Openpath Orgs/credential Action Types API
   slug: openpath-orgs-credentialactiontypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-credentialactiontypes-api-openapi.yml
 - filename: openpath-orgs-credentials-api-openapi.yml
   format: yaml
-  label: Openpath orgs/credentials API
+  label: Openpath Orgs/credentials API
   slug: openpath-orgs-credentials-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-credentials-api-openapi.yml
 - filename: openpath-orgs-credentialtypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/credentialTypes API
+  label: Openpath Orgs/credential Types API
   slug: openpath-orgs-credentialtypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-credentialtypes-api-openapi.yml
 - filename: openpath-orgs-customfields-api-openapi.yml
   format: yaml
-  label: Openpath orgs/customFields API
+  label: Openpath Orgs/custom Fields API
   slug: openpath-orgs-customfields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-customfields-api-openapi.yml
 - filename: openpath-orgs-customfieldtypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/customFieldTypes API
+  label: Openpath Orgs/custom Field Types API
   slug: openpath-orgs-customfieldtypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-customfieldtypes-api-openapi.yml
 - filename: openpath-orgs-dashboards-api-openapi.yml
   format: yaml
-  label: Openpath orgs/dashboards API
+  label: Openpath Orgs/dashboards API
   slug: openpath-orgs-dashboards-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-dashboards-api-openapi.yml
 - filename: openpath-orgs-effectivescopes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/effectiveScopes API
+  label: Openpath Orgs/effective Scopes API
   slug: openpath-orgs-effectivescopes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-effectivescopes-api-openapi.yml
 - filename: openpath-orgs-emailalerts-api-openapi.yml
   format: yaml
-  label: Openpath orgs/emailAlerts API
+  label: Openpath Orgs/email Alerts API
   slug: openpath-orgs-emailalerts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-emailalerts-api-openapi.yml
 - filename: openpath-orgs-emailalerttypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/emailAlertTypes API
+  label: Openpath Orgs/email Alert Types API
   slug: openpath-orgs-emailalerttypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-emailalerttypes-api-openapi.yml
 - filename: openpath-orgs-entries-api-openapi.yml
   format: yaml
-  label: Openpath orgs/entries API
+  label: Openpath Orgs/entries API
   slug: openpath-orgs-entries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-entries-api-openapi.yml
 - filename: openpath-orgs-entrystates-api-openapi.yml
   format: yaml
-  label: Openpath orgs/entryStates API
+  label: Openpath Orgs/entry States API
   slug: openpath-orgs-entrystates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-entrystates-api-openapi.yml
 - filename: openpath-orgs-eolsupervisions-api-openapi.yml
   format: yaml
-  label: Openpath orgs/eolSupervisions API
+  label: Openpath Orgs/eol Supervisions API
   slug: openpath-orgs-eolsupervisions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-eolsupervisions-api-openapi.yml
 - filename: openpath-orgs-features-api-openapi.yml
   format: yaml
-  label: Openpath orgs/features API
+  label: Openpath Orgs/features API
   slug: openpath-orgs-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-features-api-openapi.yml
 - filename: openpath-orgs-foballegions-api-openapi.yml
   format: yaml
-  label: Openpath orgs/fobAllegions API
+  label: Openpath Orgs/fob Allegions API
   slug: openpath-orgs-foballegions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-foballegions-api-openapi.yml
 - filename: openpath-orgs-genericinputs-api-openapi.yml
   format: yaml
-  label: Openpath orgs/genericInputs API
+  label: Openpath Orgs/generic Inputs API
   slug: openpath-orgs-genericinputs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-genericinputs-api-openapi.yml
 - filename: openpath-orgs-groups-api-openapi.yml
   format: yaml
-  label: Openpath orgs/groups API
+  label: Openpath Orgs/groups API
   slug: openpath-orgs-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-groups-api-openapi.yml
 - filename: openpath-orgs-hookactions-api-openapi.yml
   format: yaml
-  label: Openpath orgs/hookActions API
+  label: Openpath Orgs/hook Actions API
   slug: openpath-orgs-hookactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-hookactions-api-openapi.yml
 - filename: openpath-orgs-hookevents-api-openapi.yml
   format: yaml
-  label: Openpath orgs/hookEvents API
+  label: Openpath Orgs/hook Events API
   slug: openpath-orgs-hookevents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-hookevents-api-openapi.yml
 - filename: openpath-orgs-identityproviders-api-openapi.yml
   format: yaml
-  label: Openpath orgs/identityProviders API
+  label: Openpath Orgs/identity Providers API
   slug: openpath-orgs-identityproviders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-identityproviders-api-openapi.yml
 - filename: openpath-orgs-identityprovidertypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/identityProviderTypes API
+  label: Openpath Orgs/identity Provider Types API
   slug: openpath-orgs-identityprovidertypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-identityprovidertypes-api-openapi.yml
 - filename: openpath-orgs-ios-api-openapi.yml
   format: yaml
-  label: Openpath orgs/ios API
+  label: Openpath Orgs/ios API
   slug: openpath-orgs-ios-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-ios-api-openapi.yml
 - filename: openpath-orgs-locationmeasurementsourcetypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/locationMeasurementSourceTypes API
+  label: Openpath Orgs/location Measurement Source Types API
   slug: openpath-orgs-locationmeasurementsourcetypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-locationmeasurementsourcetypes-api-openapi.yml
 - filename: openpath-orgs-lockdownplans-api-openapi.yml
   format: yaml
-  label: Openpath orgs/lockdownPlans API
+  label: Openpath Orgs/lockdown Plans API
   slug: openpath-orgs-lockdownplans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-lockdownplans-api-openapi.yml
 - filename: openpath-orgs-mailrooms-api-openapi.yml
   format: yaml
-  label: Openpath orgs/mailrooms API
+  label: Openpath Orgs/mailrooms API
   slug: openpath-orgs-mailrooms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-mailrooms-api-openapi.yml
 - filename: openpath-orgs-maintenancewindow-api-openapi.yml
   format: yaml
-  label: Openpath orgs/maintenanceWindow API
+  label: Openpath Orgs/maintenance Window API
   slug: openpath-orgs-maintenancewindow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-maintenancewindow-api-openapi.yml
 - filename: openpath-orgs-maintenancewindowacumap-api-openapi.yml
   format: yaml
-  label: Openpath orgs/maintenanceWindowAcuMap API
+  label: Openpath Orgs/maintenance Window Acu Map API
   slug: openpath-orgs-maintenancewindowacumap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-maintenancewindowacumap-api-openapi.yml
 - filename: openpath-orgs-maintenancewindowdefinition-api-openapi.yml
   format: yaml
-  label: Openpath orgs/maintenanceWindowDefinition API
+  label: Openpath Orgs/maintenance Window Definition API
   slug: openpath-orgs-maintenancewindowdefinition-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-maintenancewindowdefinition-api-openapi.yml
 - filename: openpath-orgs-maintenancewindowmap-api-openapi.yml
   format: yaml
-  label: Openpath orgs/maintenanceWindowMap API
+  label: Openpath Orgs/maintenance Window Map API
   slug: openpath-orgs-maintenancewindowmap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-maintenancewindowmap-api-openapi.yml
 - filename: openpath-orgs-mobileappconfig-api-openapi.yml
   format: yaml
-  label: Openpath orgs/mobileAppConfig API
+  label: Openpath Orgs/mobile App Config API
   slug: openpath-orgs-mobileappconfig-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-mobileappconfig-api-openapi.yml
 - filename: openpath-orgs-namespaces-api-openapi.yml
   format: yaml
-  label: Openpath orgs/namespaces API
+  label: Openpath Orgs/namespaces API
   slug: openpath-orgs-namespaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-namespaces-api-openapi.yml
 - filename: openpath-orgs-opvideo-devices-api-openapi.yml
   format: yaml
-  label: Openpath orgs/opvideo-devices API
+  label: Openpath Orgs/opvideo Devices API
   slug: openpath-orgs-opvideo-devices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-opvideo-devices-api-openapi.yml
 - filename: openpath-orgs-orgidentities-api-openapi.yml
   format: yaml
-  label: Openpath orgs/orgIdentities API
+  label: Openpath Orgs/org Identities API
   slug: openpath-orgs-orgidentities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-orgidentities-api-openapi.yml
 - filename: openpath-orgs-orgpackageplans-api-openapi.yml
   format: yaml
-  label: Openpath orgs/orgPackagePlans API
+  label: Openpath Orgs/org Package Plans API
   slug: openpath-orgs-orgpackageplans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-orgpackageplans-api-openapi.yml
 - filename: openpath-orgs-orgpictures-api-openapi.yml
   format: yaml
-  label: Openpath orgs/orgPictures API
+  label: Openpath Orgs/org Pictures API
   slug: openpath-orgs-orgpictures-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-orgpictures-api-openapi.yml
 - filename: openpath-orgs-packageplans-api-openapi.yml
   format: yaml
-  label: Openpath orgs/packagePlans API
+  label: Openpath Orgs/package Plans API
   slug: openpath-orgs-packageplans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-packageplans-api-openapi.yml
 - filename: openpath-orgs-palettes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/palettes API
+  label: Openpath Orgs/palettes API
   slug: openpath-orgs-palettes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-palettes-api-openapi.yml
 - filename: openpath-orgs-parcelmessagetypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/parcelMessageTypes API
+  label: Openpath Orgs/parcel Message Types API
   slug: openpath-orgs-parcelmessagetypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-parcelmessagetypes-api-openapi.yml
 - filename: openpath-orgs-parcels-api-openapi.yml
   format: yaml
-  label: Openpath orgs/parcels API
+  label: Openpath Orgs/parcels API
   slug: openpath-orgs-parcels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-parcels-api-openapi.yml
 - filename: openpath-orgs-parcelstatuses-api-openapi.yml
   format: yaml
-  label: Openpath orgs/parcelStatuses API
+  label: Openpath Orgs/parcel Statuses API
   slug: openpath-orgs-parcelstatuses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-parcelstatuses-api-openapi.yml
 - filename: openpath-orgs-readers-api-openapi.yml
   format: yaml
-  label: Openpath orgs/readers API
+  label: Openpath Orgs/readers API
   slug: openpath-orgs-readers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-readers-api-openapi.yml
 - filename: openpath-orgs-recentalarms-api-openapi.yml
   format: yaml
-  label: Openpath orgs/recentAlarms API
+  label: Openpath Orgs/recent Alarms API
   slug: openpath-orgs-recentalarms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-recentalarms-api-openapi.yml
 - filename: openpath-orgs-recentalarmsext-api-openapi.yml
   format: yaml
-  label: Openpath orgs/recentAlarmsExt API
+  label: Openpath Orgs/recent Alarms Ext API
   slug: openpath-orgs-recentalarmsext-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-recentalarmsext-api-openapi.yml
 - filename: openpath-orgs-relayhardwaretypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/relayHardwareTypes API
+  label: Openpath Orgs/relay Hardware Types API
   slug: openpath-orgs-relayhardwaretypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-relayhardwaretypes-api-openapi.yml
 - filename: openpath-orgs-relays-api-openapi.yml
   format: yaml
-  label: Openpath orgs/relays API
+  label: Openpath Orgs/relays API
   slug: openpath-orgs-relays-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-relays-api-openapi.yml
 - filename: openpath-orgs-reports-api-openapi.yml
   format: yaml
-  label: Openpath orgs/reports API
+  label: Openpath Orgs/reports API
   slug: openpath-orgs-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-reports-api-openapi.yml
 - filename: openpath-orgs-rexs-api-openapi.yml
   format: yaml
-  label: Openpath orgs/rexs API
+  label: Openpath Orgs/rexs API
   slug: openpath-orgs-rexs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-rexs-api-openapi.yml
 - filename: openpath-orgs-roles-api-openapi.yml
   format: yaml
-  label: Openpath orgs/roles API
+  label: Openpath Orgs/roles API
   slug: openpath-orgs-roles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-roles-api-openapi.yml
 - filename: openpath-orgs-schedules-api-openapi.yml
   format: yaml
-  label: Openpath orgs/schedules API
+  label: Openpath Orgs/schedules API
   slug: openpath-orgs-schedules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-schedules-api-openapi.yml
 - filename: openpath-orgs-scheduletypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/scheduleTypes API
+  label: Openpath Orgs/schedule Types API
   slug: openpath-orgs-scheduletypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-scheduletypes-api-openapi.yml
 - filename: openpath-orgs-scoperesources-api-openapi.yml
   format: yaml
-  label: Openpath orgs/scopeResources API
+  label: Openpath Orgs/scope Resources API
   slug: openpath-orgs-scoperesources-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-scoperesources-api-openapi.yml
 - filename: openpath-orgs-sharedusers-api-openapi.yml
   format: yaml
-  label: Openpath orgs/sharedUsers API
+  label: Openpath Orgs/shared Users API
   slug: openpath-orgs-sharedusers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-sharedusers-api-openapi.yml
 - filename: openpath-orgs-sites-api-openapi.yml
   format: yaml
-  label: Openpath orgs/sites API
+  label: Openpath Orgs/sites API
   slug: openpath-orgs-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-sites-api-openapi.yml
 - filename: openpath-orgs-subscriptions-api-openapi.yml
   format: yaml
-  label: Openpath orgs/subscriptions API
+  label: Openpath Orgs/subscriptions API
   slug: openpath-orgs-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-subscriptions-api-openapi.yml
 - filename: openpath-orgs-tasks-api-openapi.yml
   format: yaml
-  label: Openpath orgs/tasks API
+  label: Openpath Orgs/tasks API
   slug: openpath-orgs-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-tasks-api-openapi.yml
 - filename: openpath-orgs-termsagreements-api-openapi.yml
   format: yaml
-  label: Openpath orgs/termsAgreements API
+  label: Openpath Orgs/terms Agreements API
   slug: openpath-orgs-termsagreements-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-termsagreements-api-openapi.yml
 - filename: openpath-orgs-thirdpartyreaders-api-openapi.yml
   format: yaml
-  label: Openpath orgs/thirdPartyReaders API
+  label: Openpath Orgs/third Party Readers API
   slug: openpath-orgs-thirdpartyreaders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-thirdpartyreaders-api-openapi.yml
 - filename: openpath-orgs-thirdpartywiegands-api-openapi.yml
   format: yaml
-  label: Openpath orgs/thirdPartyWiegands API
+  label: Openpath Orgs/third Party Wiegands API
   slug: openpath-orgs-thirdpartywiegands-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-thirdpartywiegands-api-openapi.yml
 - filename: openpath-orgs-triggermethods-api-openapi.yml
   format: yaml
-  label: Openpath orgs/triggerMethods API
+  label: Openpath Orgs/trigger Methods API
   slug: openpath-orgs-triggermethods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-triggermethods-api-openapi.yml
 - filename: openpath-orgs-triggerpermissionschange-api-openapi.yml
   format: yaml
-  label: Openpath orgs/triggerPermissionsChange API
+  label: Openpath Orgs/trigger Permissions Change API
   slug: openpath-orgs-triggerpermissionschange-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-triggerpermissionschange-api-openapi.yml
 - filename: openpath-orgs-unusedinputs-api-openapi.yml
   format: yaml
-  label: Openpath orgs/unusedInputs API
+  label: Openpath Orgs/unused Inputs API
   slug: openpath-orgs-unusedinputs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-unusedinputs-api-openapi.yml
 - filename: openpath-orgs-users-api-openapi.yml
   format: yaml
-  label: Openpath orgs/users API
+  label: Openpath Orgs/users API
   slug: openpath-orgs-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-users-api-openapi.yml
 - filename: openpath-orgs-videoprovidertypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/videoProviderTypes API
+  label: Openpath Orgs/video Provider Types API
   slug: openpath-orgs-videoprovidertypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-videoprovidertypes-api-openapi.yml
 - filename: openpath-orgs-widgettypes-api-openapi.yml
   format: yaml
-  label: Openpath orgs/widgetTypes API
+  label: Openpath Orgs/widget Types API
   slug: openpath-orgs-widgettypes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-widgettypes-api-openapi.yml
 - filename: openpath-orgs-wiegands-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wiegands API
+  label: Openpath Orgs/wiegands API
   slug: openpath-orgs-wiegands-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wiegands-api-openapi.yml
 - filename: openpath-orgs-wirelessgateways-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessGateways API
+  label: Openpath Orgs/wireless Gateways API
   slug: openpath-orgs-wirelessgateways-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelessgateways-api-openapi.yml
 - filename: openpath-orgs-wirelesslockgateways-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessLockGateways API
+  label: Openpath Orgs/wireless Lock Gateways API
   slug: openpath-orgs-wirelesslockgateways-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelesslockgateways-api-openapi.yml
 - filename: openpath-orgs-wirelesslockproviders-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessLockProviders API
+  label: Openpath Orgs/wireless Lock Providers API
   slug: openpath-orgs-wirelesslockproviders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelesslockproviders-api-openapi.yml
 - filename: openpath-orgs-wirelesslockreaders-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessLockReaders API
+  label: Openpath Orgs/wireless Lock Readers API
   slug: openpath-orgs-wirelesslockreaders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelesslockreaders-api-openapi.yml
 - filename: openpath-orgs-wirelesslocks-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessLocks API
+  label: Openpath Orgs/wireless Locks API
   slug: openpath-orgs-wirelesslocks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelesslocks-api-openapi.yml
 - filename: openpath-orgs-wirelesslocktemplates-api-openapi.yml
   format: yaml
-  label: Openpath orgs/wirelessLockTemplates API
+  label: Openpath Orgs/wireless Lock Templates API
   slug: openpath-orgs-wirelesslocktemplates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-wirelesslocktemplates-api-openapi.yml
 - filename: openpath-orgs-zones-api-openapi.yml
   format: yaml
-  label: Openpath orgs/zones API
+  label: Openpath Orgs/zones API
   slug: openpath-orgs-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-orgs-zones-api-openapi.yml
 - filename: openpath-tokens-api-openapi.yml
   format: yaml
-  label: Openpath tokens API
+  label: Openpath Tokens API
   slug: openpath-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-tokens-api-openapi.yml
 consequence_counts:
   physical: 35
-  read: 244
+  read: 251
   safety-critical: 4
-  write: 263
+  write: 256
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 4
 kind: agentic-access
@@ -677,10 +677,10 @@ notable_actions:
   method: DELETE
   path: /orgs/{orgId}/wirelessLockProviders/{wirelessLockProviderId}
 operation_count: 546
-overview: 'Openpath exposes 546 API operations that an AI agent could call, of which 302 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Openpath exposes 546 API operations that an AI agent could call, of which 295 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 244 read, 263 write, 35 physical, and 4 safety-critical.
+  By consequence: 251 read, 256 write, 35 physical, and 4 safety-critical.
 
 
   4 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -693,43 +693,42 @@ slug: openpath-agentic-access
 source_filename: openpath-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/openpath-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 546\n  by_action_class:\n    connected: 244\n    acting: 302\n  by_consequence:\n    read: 244\n    write: 263\n    physical: 35\n    safety-critical: 4\n  human_in_the_loop_required: 4\noperations:\n- path: /billableFeatures\n  method: get\n  operationId: globalListBillableFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/accessTokens/{token}\n  method: get\n  operationId: describeAccessToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /identities/{identityId}/nicknames\n  method: get\n  operationId: listIdentityNicknames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identities/{identityId}/nicknames\n  method: patch\n  operationId: updateIdentityNicknames\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/wirelessLocks\n  method: get\n  operationId: listWirelessLocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/wirelessLocks\n  method: post\n  operationId: createWirelessLock\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/wirelessGateways\n  method: get\n  operationId: listWirelessGateways\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/wirelessGateways\n  method: post\n  operationId: createWirelessGateway\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/wiegands\n\
-  \  method: get\n  operationId: listWiegands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/widgetTypes\n  method: get\n  operationId: listWidgetTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/videoProviderTypes\n  method: get\n  operationId: listVideoProviderTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n   \
-  \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/unusedInputs\n  method: get\n  operationId: listUnusedInputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/termsAgreements\n  method: get\n  operationId: listTermsAgreements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/termsAgreements\n  method: post\n  operationId: createTermsAgreement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/schedules\n  method: get\n  operationId: listSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/schedules\n  method: post\n  operationId: createSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/readers\n  method: get\n  operationId: listReaders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/readers\n  method: post\n  operationId: createReader\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/parcels\n  method: get\n  operationId: listParcels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/parcels\n  method: post\n  operationId: createParcel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/parcels\n  method: delete\n  operationId: deleteParcels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
-  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/parcels\n  method: patch\n  operationId: updateParcels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/orgPackagePlans\n  method: get\n  operationId: listOrgPackagePlansSelected\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/mobileAppConfig\n  method: get\n  operationId: describeMobileAppConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/mobileAppConfig\n\
-  \  method: delete\n  operationId: deleteMobileAppConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/mobileAppConfig\n  method: patch\n  operationId: updateMobileAppConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/maintenanceWindowMap\n  method: get\n  operationId: listOrgMaintenanceWindowMap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/maintenanceWindowMap\n \
-  \ method: post\n  operationId: updateOrgMaintenanceWindowMap\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/maintenanceWindowMap\n  method: put\n  operationId: upsertOrgMaintenanceWindowMapForAcus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/maintenanceWindowDefinition\n  method: get\n  operationId: listOrgMaintenanceWindowDefinition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/maintenanceWindowDefinition\n\
-  \  method: post\n  operationId: createOrgMaintenanceWindowDefinition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/maintenanceWindowAcuMap\n  method: get\n  operationId: listOrgMaintenanceWindowAcuMap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/maintenanceWindowAcuMap\n  method: put\n  operationId: upsertOrgMaintenanceWindowAcuMap\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/mailrooms\n\
-  \  method: get\n  operationId: listMailrooms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/mailrooms\n  method: post\n  operationId: createMailroom\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/identityProviders\n  method: get\n  operationId: listIdentityProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/features\n  method: get\n  operationId: listOrgFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
-  \  audit: none\n- path: /orgs/{orgId}/eolSupervisions\n  method: get\n  operationId: listEolSupervisions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/entryStates\n  method: get\n  operationId: listEntryStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/entryStates\n  method: post\n  operationId: createEntryState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/entries\n  method: get\n  operationId: listEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/entries\n  method: post\n  operationId: createEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/emailAlertTypes\n  method: get\n  operationId: listEmailAlertTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/badgeConfigs\n  method: get\n  operationId: listBadgeConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/badgeConfigs\n  method: post\n  operationId: createBadgeConfig\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/authCerts\n  method: get\n  operationId: listAuthCerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/authCerts\n  method: post\n  operationId: createAuthCert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/alarmStatuses\n  method: get\n  operationId: listAlarmStatuses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/alarmSeverities\n  method: get\n  operationId: listAlarmSeverities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acuPortTypes\n  method: get\n  operationId: listAcuPortTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acuPorts\n  method: get\n  operationId: listAllAcuPorts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acuModels\n  method: get\n  operationId: listAcuModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus\n  method:\
-  \ get\n  operationId: listAcus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus\n  method: post\n  operationId: createAcu\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/alarmActions\n  method: get\n  operationId: listAlarmActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/alarmConfigurations\n  method: get\n  operationId: listAlarmConfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  - path: /orgs/{orgId}/alarmConfigurations\n  method: post\n  operationId: createAlarmConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/cardFormats\n  method: get\n  operationId: listCardFormats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/contactSensors\n  method: get\n  operationId: listContactSensors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/credentials\n  method: get\n  operationId: listOrgCredentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
-  \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/credentialActionTypes\n  method: get\n  operationId: listCredentialActionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/credentialTypes\n  method: get\n  operationId: listCredentialTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/customFields\n  method: get\n  operationId: listCustomFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/customFields\n  method: post\n  operationId: createCustomField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
-  \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/customFields\n  method: patch\n  operationId: updateCustomFields\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/customFieldTypes\n  method: get\n  operationId: listCustomFieldTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/dashboards\n  method: get\n  operationId: listDashboards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/dashboards\n\
-  \  method: post\n  operationId: createDashboard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/emailAlerts\n  method: get\n  operationId: listEmailAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/fobAllegions\n  method: get\n  operationId: listOrgFobAllegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/fobAllegions\n  method: post\n  operationId: createOrgFobAllegion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/genericInputs\n  method: get\n  operationId: listGenericInputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/groups\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/hookActions\n  method: get\n\
-  \  operationId: listHookActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/hookActions\n  method: post\n  operationId: createHookAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/hookEvents\n  method: get\n  operationId: listHookEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/orgIdentities\n  method: get\n  operationId: listOrgIdentities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
-  \ path: /orgs/{orgId}/identityProviderTypes\n  method: get\n  operationId: listIdentityProviderTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/ios\n  method: get\n  operationId: listIos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/locationMeasurementSourceTypes\n  method: get\n  operationId: listLocationMeasurementSourceTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/lockdownPlans\n  method: get\n  operationId: listLockdownPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/lockdownPlans\n  method:\
-  \ post\n  operationId: createLockdownPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/maintenanceWindow\n  method: get\n  operationId: describeOrgMaintenanceWindow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/maintenanceWindow\n  method: delete\n  operationId: deleteOrgMaintenanceWindow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/maintenanceWindow\n  method: patch\n\
-  \  operationId: updateOrgMaintenanceWindow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/maintenanceWindow\n  method: put\n  operationId: createOrgMaintenanceWindow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/namespaces\n  method: get\n  operationId: listNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/orgPictures\n  method: get\n  operationId: listOrgPictures\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/orgPictures\n  method: post\n  operationId: createOrgPicture\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/packagePlans\n  method: get\n  operationId: listOrgPackagePlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/palettes\n  method: get\n  operationId: listPalettes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/parcelMessageTypes\n\
-  \  method: get\n  operationId: listParcelMessageTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/parcelStatuses\n  method: get\n  operationId: listParcelStatuses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/effectiveScopes\n  method: get\n  operationId: getEffectivePermissionsForOrg\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/recentAlarms\n  method: get\n  operationId: listRecentAlarms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/relays\n  method: get\n  operationId: listRelays\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/relayHardwareTypes\n  method: get\n  operationId: listRelayHardwareTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/rexs\n  method: get\n  operationId: listRexs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/roles\n  method: get\n  operationId: listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/roles\n  method: post\n  operationId: createRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
-  \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/scheduleTypes\n  method: get\n  operationId: listScheduleTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/scopeResources\n  method: get\n  operationId: listScopeResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/sharedUsers\n  method: get\n  operationId: listSharedUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/sites\n  method: get\n  operationId: listSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/sites\n  method: post\n  operationId: createSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
-  \ /orgs/{orgId}/thirdPartyReaders\n  method: get\n  operationId: listThirdPartyReaders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/thirdPartyWiegands\n  method: get\n  operationId: listThirdPartyWiegands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/triggerMethods\n  method: get\n  operationId: listTriggerMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/wirelessLockGateways\n  method: get\n  operationId: listWirelessLockGateways\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/wirelessLockGateways\n\
-  \  method: post\n  operationId: createWirelessLockGateway\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/wirelessLockProviders\n  method: get\n  operationId: listWirelessLockProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/wirelessLockProviders\n  method: post\n  operationId: createWirelessLockProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/wirelessLockReaders\n  method: get\n  operationId: listWirelessLockReaders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/wirelessLockReaders\n  method: post\n  operationId: createWirelessLockReader\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/wirelessLockTemplates\n  method: get\n  operationId: listWirelessLockTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  \n\n# --- truncated at 32 KB (167 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/agentic-access/openpath-agentic-access.yml\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/openpath-auth-api-openapi.yml, openapi/openpath-billablefeatures-api-openapi.yml,\n  openapi/openpath-identities-api-openapi.yml, openapi/openpath-orgs-acumodels-api-openapi.yml,\n  openapi/openpath-orgs-acuports-api-openapi.yml, openapi/openpath-orgs-acuporttypes-api-openapi.yml,\n  openapi/openpath-orgs-acus-api-openapi.yml, openapi/openpath-orgs-alarmactions-api-openapi.yml,\n  openapi/openpath-orgs-alarmconfigurations-api-openapi.yml, openapi/openpath-orgs-alarmseverities-api-openapi.yml,\n  openapi/openpath-orgs-alarmsext-api-openapi.yml, openapi/openpath-orgs-alarmstatuses-api-openapi.yml,\n  openapi/openpath-orgs-authcerts-api-openapi.yml, openapi/openpath-orgs-badgeconfigs-api-openapi.yml,\n  openapi/openpath-orgs-cardformats-api-openapi.yml, openapi/openpath-orgs-cobalt-api-openapi.yml,\n  openapi/openpath-orgs-contactsensors-api-openapi.yml, openapi/openpath-orgs-credentialactiontypes-api-openapi.yml,\n \
+  \ openapi/openpath-orgs-credentials-api-openapi.yml, openapi/openpath-orgs-credentialtypes-api-openapi.yml,\n  openapi/openpath-orgs-customfields-api-openapi.yml, openapi/openpath-orgs-customfieldtypes-api-openapi.yml,\n  openapi/openpath-orgs-dashboards-api-openapi.yml, openapi/openpath-orgs-effectivescopes-api-openapi.yml,\n  openapi/openpath-orgs-emailalerts-api-openapi.yml, openapi/openpath-orgs-emailalerttypes-api-openapi.yml,\n  openapi/openpath-orgs-entries-api-openapi.yml, openapi/openpath-orgs-entrystates-api-openapi.yml,\n  openapi/openpath-orgs-eolsupervisions-api-openapi.yml, openapi/openpath-orgs-features-api-openapi.yml,\n  openapi/openpath-orgs-foballegions-api-openapi.yml, openapi/openpath-orgs-genericinputs-api-openapi.yml,\n  openapi/openpath-orgs-groups-api-openapi.yml, openapi/openpath-orgs-hookactions-api-openapi.yml,\n  openapi/openpath-orgs-hookevents-api-openapi.yml, openapi/openpath-orgs-identityproviders-api-openapi.yml,\n  openapi/openpath-orgs-identityprovidertypes-api-openapi.yml,\
+  \ openapi/openpath-orgs-ios-api-openapi.yml,\n  openapi/openpath-orgs-locationmeasurementsourcetypes-api-openapi.yml, openapi/openpath-orgs-lockdownplans-api-openapi.yml,\n  openapi/openpath-orgs-mailrooms-api-openapi.yml, openapi/openpath-orgs-maintenancewindow-api-openapi.yml,\n  openapi/openpath-orgs-maintenancewindowacumap-api-openapi.yml, openapi/openpath-orgs-maintenancewindowdefinition-api-openapi.yml,\n  openapi/openpath-orgs-maintenancewindowmap-api-openapi.yml, openapi/openpath-orgs-mobileappconfig-api-openapi.yml,\n  openapi/openpath-orgs-namespaces-api-openapi.yml, openapi/openpath-orgs-opvideo-devices-api-openapi.yml,\n  openapi/openpath-orgs-orgidentities-api-openapi.yml, openapi/openpath-orgs-orgpackageplans-api-openapi.yml,\n  openapi/openpath-orgs-orgpictures-api-openapi.yml, openapi/openpath-orgs-packageplans-api-openapi.yml,\n  openapi/openpath-orgs-palettes-api-openapi.yml, openapi/openpath-orgs-parcelmessagetypes-api-openapi.yml,\n  openapi/openpath-orgs-parcels-api-openapi.yml,\
+  \ openapi/openpath-orgs-parcelstatuses-api-openapi.yml,\n  openapi/openpath-orgs-readers-api-openapi.yml, openapi/openpath-orgs-recentalarms-api-openapi.yml,\n  openapi/openpath-orgs-recentalarmsext-api-openapi.yml, openapi/openpath-orgs-relayhardwaretypes-api-openapi.yml,\n  openapi/openpath-orgs-relays-api-openapi.yml, openapi/openpath-orgs-reports-api-openapi.yml,\n  openapi/openpath-orgs-rexs-api-openapi.yml, openapi/openpath-orgs-roles-api-openapi.yml, openapi/openpath-orgs-schedules-api-openapi.yml,\n  openapi/openpath-orgs-scheduletypes-api-openapi.yml, openapi/openpath-orgs-scoperesources-api-openapi.yml,\n  openapi/openpath-orgs-sharedusers-api-openapi.yml, openapi/openpath-orgs-sites-api-openapi.yml,\n  openapi/openpath-orgs-subscriptions-api-openapi.yml, openapi/openpath-orgs-tasks-api-openapi.yml,\n  openapi/openpath-orgs-termsagreements-api-openapi.yml, openapi/openpath-orgs-thirdpartyreaders-api-openapi.yml,\n  openapi/openpath-orgs-thirdpartywiegands-api-openapi.yml, openapi/openpath-orgs-triggermethods-api-openapi.yml,\n\
+  \  openapi/openpath-orgs-triggerpermissionschange-api-openapi.yml, openapi/openpath-orgs-unusedinputs-api-openapi.yml,\n  openapi/openpath-orgs-users-api-openapi.yml, openapi/openpath-orgs-videoprovidertypes-api-openapi.yml,\n  openapi/openpath-orgs-widgettypes-api-openapi.yml, openapi/openpath-orgs-wiegands-api-openapi.yml,\n  openapi/openpath-orgs-wirelessgateways-api-openapi.yml, openapi/openpath-orgs-wirelesslockgateways-api-openapi.yml,\n  openapi/openpath-orgs-wirelesslockproviders-api-openapi.yml, openapi/openpath-orgs-wirelesslockreaders-api-openapi.yml,\n  openapi/openpath-orgs-wirelesslocks-api-openapi.yml, openapi/openpath-orgs-wirelesslocktemplates-api-openapi.yml,\n  openapi/openpath-orgs-zones-api-openapi.yml, openapi/openpath-tokens-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\n\
+  summary:\n  operations: 546\n  by_action_class:\n    connected: 251\n    acting: 295\n  by_consequence:\n    read: 251\n    write: 256\n    safety-critical: 4\n    physical: 35\n  human_in_the_loop_required: 4\noperations:\n- path: /auth/accessTokens/{token}\n  method: get\n  operationId: describeAccessToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/loginAll\n  method: post\n  operationId: loginAll\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
+  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/logout\n  method: post\n  operationId: logout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/resetPassword\n  method: post\n  operationId: resetPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /auth/setupMobile\n  method: post\n  operationId: setupMobile\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/accessTokens/refresh\n  method: post\n  operationId: refreshLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/oidc/authorize\n  method: post\n  operationId: getOidcAuthUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/sso/authorize\n  method: post\n  operationId: getSsoAuthUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/accessTokens/{token}/validate\n  method: post\n  operationId: validateAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /billableFeatures\n  method: get\n  operationId: globalListBillableFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identities/{identityId}/nicknames\n  method: get\n  operationId: listIdentityNicknames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identities/{identityId}/nicknames\n  method: patch\n  operationId: updateIdentityNicknames\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acuModels\n  method: get\n  operationId: listAcuModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acuModels/{acuModelId}\n  method: get\n  operationId: describeAcuModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acuPorts\n  method: get\n  operationId: listAllAcuPorts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acuPortTypes\n\
+  \  method: get\n  operationId: listAcuPortTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acuPortTypes/{acuPortTypeId}\n  method: get\n  operationId: describeAcuPortType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus\n  method: get\n  operationId: listAcus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus\n  method: post\n  operationId: createAcu\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
+  - path: /orgs/{orgId}/acus/{acuId}\n  method: get\n  operationId: describeAcu\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}\n  method: delete\n  operationId: deleteAcu\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}\n  method: patch\n  operationId: updateAcu\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/timezones\n  method: get\n  operationId:\
+  \ listAcuTimezones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}/timezone\n  method: get\n  operationId: describeAcuTimezone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}/diagnosticsReport\n  method: get\n  operationId: getAcuDiagnosticsReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}/diagnosticsReport\n  method: post\n  operationId: createAcuDiagnosticsReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
+  \ - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/expansionBoards\n  method: get\n  operationId: listAcuExpansionBoards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}/expansionBoards\n  method: post\n  operationId: createAcuExpansionBoard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/expansionBoards\n  method: put\n  operationId: setAcuExpansionBoards\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
+  \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/locationMeasurements\n  method: get\n  operationId: listAcuLocationMeasurements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}/locationRestriction\n  method: get\n  operationId: getAcuLocationRestriction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}/locationRestriction\n  method: delete\n  operationId: deleteAcuLocationRestriction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
+  \ /orgs/{orgId}/acus/{acuId}/locationRestriction\n  method: put\n  operationId: setAcuLocationRestriction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/acuPorts\n  method: get\n  operationId: listAcuPorts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}/acuPorts/{acuPortId}\n  method: get\n  operationId: describeAcuPort\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}/acuPorts/{acuPortId}\n  method: patch\n  operationId: updateAcuPort\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/locationMeasurements/{locationMeasurementId}\n  method: get\n  operationId: describeAcuLocationMeasurement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}/locationMeasurements/{locationMeasurementId}\n  method: delete\n  operationId: deleteAcuLocationMeasurement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/expansionBoards/{expansionBoardId}\n\
+  \  method: get\n  operationId: describeAcuExpansionBoard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}/expansionBoards/{expansionBoardId}\n  method: delete\n  operationId: deleteAcuExpansionBoard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/expansionBoards/{expansionBoardId}\n  method: patch\n  operationId: updateAcuExpansionBoard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
+  \ required\n- path: /orgs/{orgId}/acus/{acuId}/acuPorts/{acuPortId}/eol\n  method: get\n  operationId: describeAcuPortEol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/acus/{acuId}/acuPorts/{acuPortId}/eol\n  method: patch\n  operationId: updateAcuPortEol\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/triggerSoftwareUpdate\n  method: post\n  operationId: triggerAcusSoftwareUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
+  \      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/triggerBatchAcuSoftwareUpdate\n  method: post\n  operationId: triggerBatchAcuSoftwareUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/runCommand\n  method: post\n  operationId: remoteAcuRunCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/restartHardware\n  method: post\n  operationId: remoteAcuRestartHardware\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
+  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/restartApi\n  method: post\n  operationId: remoteAcuRestartApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/identify\n  method: post\n  operationId: remoteAcuIdentify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/triggerSoftwareUpdate\n\
+  \  method: post\n  operationId: triggerAcuSoftwareUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/refreshShadow\n  method: post\n  operationId: remoteAcuRefreshShadow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/restartCloud\n  method: post\n  operationId: remoteAcuRestartCloud\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/locationMeasurement\n  method: put\n  operationId: setAcuLocationMeasurement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/status\n  method: put\n  operationId: setAcuStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/acus/{acuId}/locationMeasurementSelf\n  method: put\n  operationId: setAcuLocationMeasurementSelf\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/alarmActions\n  method: get\n  operationId: listAlarmActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/alarmActions/{alarmActionId}\n  method: get\n  operationId: describeAlarmAction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/alarmConfigurations\n  method: get\n  operationId: listAlarmConfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/alarmConfigurations\n\
+  \  method: post\n  operationId: createAlarmConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/alarmConfigurations/{alarmConfigurationId}\n  method: get\n  operationId: describeAlarmConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/alarmConfigurations/{alarmConfigurationId}\n  method: patch\n  operationId: updateAlarmConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
+  - path: /orgs/{orgId}/alarmConfigurations/{alarmConfigurationId}/cameras\n  method: get\n  operationId: listAlarmConfigurationCameras\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/alarmConfigurations/{alarmConfigurationId}/cameras/{cameraId}\n  method: delete\n  operationId: deleteAlarmConfigurationCameraId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/alarmConfigurations/{alarmConfigurationId}/cameras/{cameraId}\n  method: put\n  operationId: addAlarmConfigurationCameraId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
+  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/alarmConfigurations/{alarmConfigurationId}/cameraIds\n  method: put\n  operationId: setAlarmConfigurationCameraIds\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/alarmSeverities\n  method: get\n  operationId: listAlarmSeverities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/alarmSeverities/{alarmSeverityId}\n  method: get\n  operationId: describeAlarmSeverity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
+  \      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/alarmsExt/{alarmIdExt}\n  method: get\n  operationId: describeAlarm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/alarmsExt/{alarmIdExt}\n  method: patch\n  operationId: updateAlarm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/alarmsExt\n  method: patch\n  operationId: updateAlarms\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
+  - path: /orgs/{orgId}/alarmStatuses\n  method: get\n  operationId: listAlarmStatuses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/alarmStatuses/{alarmStatusId}\n  method: get\n  operationId: describeAlarmStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/authCerts\n  method: get\n  operationId: listAuthCerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/authCerts\n  method: post\n  operationId: createAuthCert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/authCerts/{authCertId}\n  method: get\n  operationId: describeAuthCert\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/authCerts/{authCertId}\n  method: delete\n  operationId: deleteAuthCert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/authCerts/{authCertId}\n  method: patch\n  operationId: updateAuthCert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
+  \      - high-value\n    audit: required\n- path: /orgs/{orgId}/badgeConfigs\n  method: get\n  operationId: listBadgeConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/badgeConfigs\n  method: post\n  operationId: createBadgeConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/badgeConfigs/{badgeConfigId}\n  method: get\n  operationId: describeBadgeConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/badgeConfigs/{badgeConfigId}\n  method: delete\n  operationId: deleteBadgeConfig\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/badgeConfigs/{badgeConfigId}\n  method: patch\n  operationId: updateBadgeConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/cardFormats\n  method: get\n  operationId: listCardFormats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/cardFormats/{cardFormatId}\n  method: get\n  operationId: describeCardFormat\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/cobalt/v0/generateActivityLogsFilter\n  method: post\n  operationId: generateActivityLogsFilter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/contactSensors\n  method: get\n  operationId: listContactSensors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/contactSensors/{contactSensorId}\n  method: get\n  operationId: describeContactSensor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
+  \ /orgs/{orgId}/contactSensors/{contactSensorId}\n  method: patch\n  operationId: updateContactSensor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/credentialActionTypes\n  method: get\n  operationId: listCredentialActionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (171 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/agentic-access/openpath-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/agentic-access/openpath-agentic-access.yml
-summary_line: 546 operations · 302 acting · 4 human-in-the-loop
+summary_line: 546 operations · 295 acting · 4 human-in-the-loop
 tags:
 - Company
 - Security

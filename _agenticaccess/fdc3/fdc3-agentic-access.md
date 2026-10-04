@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/fdc3-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/agentic-access/fdc3-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
-- Financial-Services
+- Financial Services
 - Fintech
 - Desktop Interoperability
 - Open Standard

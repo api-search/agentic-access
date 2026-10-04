@@ -109,4 +109,5 @@ tags:
 - Flink
 - Data Integration
 - Real-Time
+- A2A
 ---

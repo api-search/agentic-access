@@ -41,6 +41,6 @@ tags:
 - Name
 - Predictions
 - Demographics
-- Machine-Learning
+- Machine Learning
 - Statistics
 ---

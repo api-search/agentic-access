@@ -1,132 +1,20 @@
 ---
-acting_count: 20
+acting_count: 13
 action_class_counts:
-  acting: 20
+  acting: 13
+  connected: 7
 api_specs:
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createalias-api-openapi.yml
+- filename: amazon-payment-cryptography-payment-cryptography-control-plane-api-openapi.yml
   format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.CreateAlias API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createalias-api
+  label: Amazon Payment Cryptography Payment Cryptography Control Plane API
+  slug: amazon-payment-cryptography-payment-cryptography-control-plane-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createalias-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createkey-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.CreateKey API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createkey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createkey-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletealias-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.DeleteAlias API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletealias-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletealias-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletekey-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.DeleteKey API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletekey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletekey-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-exportkey-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ExportKey API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-exportkey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-exportkey-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getalias-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetAlias API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getalias-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getalias-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getkey-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetKey API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getkey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getkey-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforexport-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetParametersForExport API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforexport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforexport-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforimport-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetParametersForImport API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforimport-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforimport-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getpublickeycertificate-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetPublicKeyCertificate API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getpublickeycertificate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getpublickeycertificate-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-importkey-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ImportKey API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-importkey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-importkey-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listaliases-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ListAliases API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listaliases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listaliases-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listkeys-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ListKeys API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listkeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listkeys-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listtagsforresource-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ListTagsForResource API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listtagsforresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listtagsforresource-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-restorekey-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.RestoreKey API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-restorekey-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-restorekey-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-startkeyusage-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.StartKeyUsage API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-startkeyusage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-startkeyusage-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-stopkeyusage-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.StopKeyUsage API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-stopkeyusage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-stopkeyusage-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-tagresource-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.TagResource API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-tagresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-tagresource-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-untagresource-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.UntagResource API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-untagresource-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-untagresource-api-openapi.yml
-- filename: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-updatealias-api-openapi.yml
-  format: yaml
-  label: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.UpdateAlias API'
-  slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-updatealias-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-updatealias-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-payment-cryptography-control-plane-api-openapi.yml
 consequence_counts:
-  safety-critical: 20
+  read: 7
+  safety-critical: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
-human_in_the_loop: 20
+human_in_the_loop: 13
 kind: agentic-access
 layout: agentic-access
 method: generated
@@ -162,47 +50,12 @@ notable_actions:
   consequence: safety-critical
   human_in_the_loop: required
   method: POST
-  path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetAlias
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetKey
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetParametersForExport
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
   path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetParametersForImport
 - action_class: acting
   consequence: safety-critical
   human_in_the_loop: required
   method: POST
-  path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetPublicKeyCertificate
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
   path: /#X-Amz-Target=PaymentCryptographyControlPlane.ImportKey
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /#X-Amz-Target=PaymentCryptographyControlPlane.ListAliases
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /#X-Amz-Target=PaymentCryptographyControlPlane.ListKeys
-- action_class: acting
-  consequence: safety-critical
-  human_in_the_loop: required
-  method: POST
-  path: /#X-Amz-Target=PaymentCryptographyControlPlane.ListTagsForResource
 - action_class: acting
   consequence: safety-critical
   human_in_the_loop: required
@@ -234,13 +87,13 @@ notable_actions:
   method: POST
   path: /#X-Amz-Target=PaymentCryptographyControlPlane.UpdateAlias
 operation_count: 20
-overview: 'Amazon Payment Cryptography exposes 20 API operations that an AI agent could call, of which 20 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Amazon Payment Cryptography exposes 20 API operations that an AI agent could call, of which 13 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 20 safety-critical.
+  By consequence: 7 read and 13 safety-critical.
 
 
-  20 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
+  13 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -250,21 +103,22 @@ slug: amazon-payment-cryptography-agentic-access
 source_filename: amazon-payment-cryptography-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-payment-cryptography-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 20\n  by_action_class:\n    acting: 20\n  by_consequence:\n    safety-critical: 20\n  human_in_the_loop_required: 20\noperations:\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.CreateAlias\n  method: post\n  operationId: CreateAlias\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.CreateKey\n\
-  \  method: post\n  operationId: CreateKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.DeleteAlias\n  method: post\n  operationId: DeleteAlias\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.DeleteKey\n  method: post\n  operationId: DeleteKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.ExportKey\n  method: post\n  operationId: ExportKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetAlias\n  method: post\n  operationId: GetAlias\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop:\
-  \ required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetKey\n  method: post\n  operationId: GetKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetParametersForExport\n  method: post\n  operationId: GetParametersForExport\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetParametersForImport\n  method: post\n  operationId:\
-  \ GetParametersForImport\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetPublicKeyCertificate\n  method: post\n  operationId: GetPublicKeyCertificate\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.ImportKey\n  method: post\n  operationId: ImportKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.ListAliases\n  method: post\n  operationId: ListAliases\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.ListKeys\n  method: post\n  operationId: ListKeys\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n\
-  \      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.ListTagsForResource\n  method: post\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.RestoreKey\n  method: post\n  operationId: RestoreKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.StartKeyUsage\n  method:\
-  \ post\n  operationId: StartKeyUsage\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.StopKeyUsage\n  method: post\n  operationId: StopKeyUsage\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n   \
-  \ audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.UpdateAlias\n  method: post\n  operationId: UpdateAlias\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n\
-  \      human-in-the-loop: required\n    audit: required\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createalias-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createkey-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletealias-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletekey-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-exportkey-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getalias-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getkey-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforexport-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforimport-api-openapi.yml,\n\
+  \  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getpublickeycertificate-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-importkey-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listaliases-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listkeys-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listtagsforresource-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-restorekey-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-startkeyusage-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-stopkeyusage-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-tagresource-api-openapi.yml,\n\
+  \  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-untagresource-api-openapi.yml,\n  openapi/amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-updatealias-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 20\n  by_action_class:\n    acting: 13\n    connected: 7\n  by_consequence:\n    safety-critical: 13\n    read: 7\n  human_in_the_loop_required: 13\noperations:\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.CreateAlias\n  method: post\n  operationId: CreateAlias\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n     \
+  \ proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.CreateKey\n  method: post\n  operationId: CreateKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.DeleteAlias\n  method: post\n  operationId: DeleteAlias\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.DeleteKey\n\
+  \  method: post\n  operationId: DeleteKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.ExportKey\n  method: post\n  operationId: ExportKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetAlias\n  method: post\n  operationId: GetAlias\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
+  \ 3600\n    audit: none\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetKey\n  method: post\n  operationId: GetKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetParametersForExport\n  method: post\n  operationId: GetParametersForExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetParametersForImport\n  method: post\n  operationId: GetParametersForImport\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\
+  - path: /#X-Amz-Target=PaymentCryptographyControlPlane.GetPublicKeyCertificate\n  method: post\n  operationId: GetPublicKeyCertificate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.ImportKey\n  method: post\n  operationId: ImportKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.ListAliases\n  method: post\n  operationId: ListAliases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.ListKeys\n\
+  \  method: post\n  operationId: ListKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.ListTagsForResource\n  method: post\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.RestoreKey\n  method: post\n  operationId: RestoreKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.StartKeyUsage\n  method: post\n  operationId: StartKeyUsage\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.StopKeyUsage\n  method: post\n  operationId: StopKeyUsage\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
+  \ 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=PaymentCryptographyControlPlane.UpdateAlias\n  method: post\n  operationId: UpdateAlias\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n\
+  \    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/agentic-access/amazon-payment-cryptography-agentic-access.yml
-summary_line: 20 operations · 20 acting · 20 human-in-the-loop
+summary_line: 20 operations · 13 acting · 13 human-in-the-loop
 tags:
 - Cryptography
-- Financial-Services
+- Financial Services
 - Payment Processing
 - PCI
 ---

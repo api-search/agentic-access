@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 7
 api_specs:
-- filename: gatiflow-openapi.yml
+- filename: gatiflow-intelligence-api-openapi.yml
   format: yaml
   label: GatiFlow Intelligence API
   slug: gatiflow-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-intelligence-api-openapi.yml
+- filename: gatiflow-public-api-openapi.yml
+  format: yaml
+  label: GatiFlow Public API
+  slug: gatiflow-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-public-api-openapi.yml
+- filename: gatiflow-usage-api-openapi.yml
+  format: yaml
+  label: GatiFlow Usage API
+  slug: gatiflow-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-usage-api-openapi.yml
+- filename: gatiflow-webhooks-api-openapi.yml
+  format: yaml
+  label: GatiFlow Webhooks API
+  slug: gatiflow-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gatiflow/refs/heads/main/openapi/gatiflow-webhooks-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -43,7 +61,7 @@ tags:
 - Developer Signals
 - Trends
 - Hiring
-- Open-Source
+- Open Source
 - Research
 - B2B SaaS
 - Artificial Intelligence

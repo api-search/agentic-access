@@ -4,12 +4,30 @@ action_class_counts:
   acting: 1
   connected: 6
 api_specs:
-- filename: opplevagent-no-openapi.yml
+- filename: opplevagent-no-a2a-api-openapi.yml
   format: yaml
-  label: Opplevagent Discovery API
-  slug: discovery-api
+  label: Opplevagent A2a API
+  slug: opplevagent-no-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-a2a-api-openapi.yml
+- filename: opplevagent-no-llms-txt-api-openapi.yml
+  format: yaml
+  label: Opplevagent Llms.txt API
+  slug: opplevagent-no-llms-txt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-llms-txt-api-openapi.yml
+- filename: opplevagent-no-opplevelser-api-openapi.yml
+  format: yaml
+  label: Opplevagent Opplevelser API
+  slug: opplevagent-no-opplevelser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-opplevelser-api-openapi.yml
+- filename: opplevagent-no-well-known-api-openapi.yml
+  format: yaml
+  label: Opplevagent .well Known API
+  slug: opplevagent-no-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-well-known-api-openapi.yml
 consequence_counts:
   read: 6
   write: 1
@@ -47,7 +65,7 @@ tags:
 - Activities
 - Norway
 - Marketplace
-- agent-native
+- Agent-Native
 - A2A
 - MCP
 - Booking

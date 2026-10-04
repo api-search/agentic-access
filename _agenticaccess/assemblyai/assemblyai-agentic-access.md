@@ -61,4 +61,7 @@ tags:
 - Speech
 - Transcription
 - Speech-to-Text
+- Voice
+- Real-Time
+- Voice AI
 ---

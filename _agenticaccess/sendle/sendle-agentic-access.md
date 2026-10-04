@@ -91,7 +91,7 @@ summary_line: 17 operations · 7 acting
 tags:
 - Shipping
 - Logistics
-- Last Mile
+- Last Mile Delivery
 - Parcel
 - E-Commerce
 - Carbon Neutral

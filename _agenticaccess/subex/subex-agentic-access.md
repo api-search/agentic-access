@@ -59,9 +59,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/subex-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/agentic-access/subex-agentic-access.yml
 summary_line: 8 operations · 1 acting
 tags:
-- Telecom
+- Telecommunications
 - Revenue Assurance
-- Fraud Management
+- Fraud Prevention
 - Analytics
 - BSS/OSS
 ---

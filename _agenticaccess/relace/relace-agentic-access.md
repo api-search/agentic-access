@@ -53,7 +53,7 @@ tags:
 - Coding Agents
 - Code Generation
 - Developer Tools
-- Machine-Learning
+- Machine Learning
 - Code Search
 - LLM
 ---

@@ -2,49 +2,6 @@
 acting_count: 0
 action_class_counts:
   connected: 20
-api_specs:
-- filename: eridu-content-api-openapi.yml
-  format: yaml
-  label: Eridu Content API
-  slug: eridu-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-content-api-openapi.yml
-- filename: eridu-pages-api-openapi.yml
-  format: yaml
-  label: Eridu Pages API
-  slug: eridu-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-pages-api-openapi.yml
-- filename: eridu-media-api-openapi.yml
-  format: yaml
-  label: Eridu Media API
-  slug: eridu-media-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-media-api-openapi.yml
-- filename: eridu-taxonomy-api-openapi.yml
-  format: yaml
-  label: Eridu Taxonomy API
-  slug: eridu-taxonomy-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-taxonomy-api-openapi.yml
-- filename: eridu-search-api-openapi.yml
-  format: yaml
-  label: Eridu Search API
-  slug: eridu-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-search-api-openapi.yml
-- filename: eridu-discovery-api-openapi.yml
-  format: yaml
-  label: Eridu Discovery API
-  slug: eridu-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-discovery-api-openapi.yml
-- filename: eridu-o-embed-api-openapi.yml
-  format: yaml
-  label: Eridu o Embed API
-  slug: eridu-o-embed-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/openapi/eridu-o-embed-api-openapi.yml
 consequence_counts:
   read: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -82,10 +39,9 @@ tags:
 - AI Infrastructure
 - Networking
 - Semiconductors
-- Data-Center
+- Data Center
 - Silicon
 - Network Switching
 - Interconnect
 - Hardware
-- Content
 ---

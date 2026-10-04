@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kno2-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/agentic-access/kno2-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
-- Healthcare Interoperability
+- Interoperability
 - Clinical Records
 - Health Information Exchange
 - Direct Secure Messaging

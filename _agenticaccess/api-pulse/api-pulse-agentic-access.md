@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-pulse/refs
 summary_line: 1 operation · 1 acting
 tags:
 - API Benchmarking
-- API Evangelist
+- API-Evangelist
 - API Governance
 - API Maturity
 - Surveys

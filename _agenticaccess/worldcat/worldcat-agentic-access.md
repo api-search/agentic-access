@@ -190,7 +190,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/worldc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/agentic-access/worldcat-agentic-access.yml
 summary_line: 58 operations · 15 acting · 4 human-in-the-loop
 tags:
-- Libraries
+- Library
 - Bibliographic Records
 - WorldCat
 - OCLC

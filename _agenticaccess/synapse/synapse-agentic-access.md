@@ -101,6 +101,6 @@ tags:
 - Federation
 - Matrix
 - Messaging
-- Open-Source
+- Open Source
 - Real-Time
 ---

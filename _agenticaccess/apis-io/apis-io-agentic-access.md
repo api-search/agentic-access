@@ -1,15 +1,9 @@
 ---
-acting_count: 48
+acting_count: 47
 action_class_counts:
-  acting: 48
-  connected: 226
+  acting: 47
+  connected: 229
 api_specs:
-- filename: apis-io-v1-prices-openapi.yml
-  format: yaml
-  label: APIs.io Prices API
-  slug: apis-io-prices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/_original/apis-io-v1-prices-openapi.yml
 - filename: apis-io-submit-api-openapi.yml
   format: yaml
   label: APIs.io Submit API
@@ -126,15 +120,21 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-watches-api-openapi.yml
 - filename: apis-io-apis-api-openapi.yml
   format: yaml
-  label: APIs.io AP Is API
+  label: APIs.io APIs API
   slug: apis-io-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-apis-api-openapi.yml
+- filename: apis-io-prices-api-openapi.yml
+  format: yaml
+  label: APIs.io Prices API
+  slug: apis-io-prices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-prices-api-openapi.yml
 consequence_counts:
   physical: 1
-  read: 226
+  read: 229
   safety-critical: 12
-  write: 35
+  write: 34
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 12
 kind: agentic-access
@@ -208,11 +208,11 @@ notable_actions:
   human_in_the_loop: conditional
   method: POST
   path: /billing/checkout
-operation_count: 274
-overview: 'APIs.io exposes 274 API operations that an AI agent could call, of which 48 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+operation_count: 276
+overview: 'APIs.io exposes 276 API operations that an AI agent could call, of which 47 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 226 read, 35 write, 1 physical, and 12 safety-critical.
+  By consequence: 229 read, 34 write, 1 physical, and 12 safety-critical.
 
 
   12 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -225,8 +225,8 @@ slug: apis-io-agentic-access
 source_filename: apis-io-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/apis-io-apis-api-openapi.yml, openapi/apis-io-areas-api-openapi.yml, openapi/apis-io-artifact-types-api-openapi.yml,\n  openapi/apis-io-cohorts-api-openapi.yml, openapi/apis-io-editorial-api-openapi.yml, openapi/apis-io-export-api-openapi.yml,\n  openapi/apis-io-industries-api-openapi.yml, openapi/apis-io-insights-api-openapi.yml, openapi/apis-io-provider-control-api-openapi.yml,\n  openapi/apis-io-providers-api-openapi.yml, openapi/apis-io-ratings-api-openapi.yml, openapi/apis-io-regions-api-openapi.yml,\n  openapi/apis-io-resolve-enrich-api-openapi.yml, openapi/apis-io-saved-workspace-api-openapi.yml,\n  openapi/apis-io-search-api-openapi.yml, openapi/apis-io-submit-api-openapi.yml, openapi/apis-io-synthesis-api-openapi.yml,\n  openapi/apis-io-tags-api-openapi.yml, openapi/apis-io-v1-openapi.yml, openapi/apis-io-venture-capital-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified\
-  \ heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 274\n  by_action_class:\n    connected: 226\n    acting: 48\n  by_consequence:\n    read: 226\n    safety-critical: 12\n    write: 35\n    physical: 1\n  human_in_the_loop_required: 12\noperations:\n- path: /apis\n  method: get\n  operationId: listApis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{aid}\n  method: get\n  operationId: getApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{aid}/artifacts\n  method: get\n  operationId: getApiArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apis-io-apis-api-openapi.yml, openapi/apis-io-areas-api-openapi.yml, openapi/apis-io-artifact-types-api-openapi.yml,\n  openapi/apis-io-cohorts-api-openapi.yml, openapi/apis-io-editorial-api-openapi.yml, openapi/apis-io-export-api-openapi.yml,\n  openapi/apis-io-industries-api-openapi.yml, openapi/apis-io-insights-api-openapi.yml, openapi/apis-io-provider-control-api-openapi.yml,\n  openapi/apis-io-providers-api-openapi.yml, openapi/apis-io-ratings-api-openapi.yml, openapi/apis-io-regions-api-openapi.yml,\n  openapi/apis-io-resolve-enrich-api-openapi.yml, openapi/apis-io-saved-workspace-api-openapi.yml,\n  openapi/apis-io-search-api-openapi.yml, openapi/apis-io-submit-api-openapi.yml, openapi/apis-io-synthesis-api-openapi.yml,\n  openapi/apis-io-tags-api-openapi.yml, openapi/apis-io-v1-openapi.yml, openapi/apis-io-venture-capital-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified\
+  \ heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 276\n  by_action_class:\n    connected: 229\n    acting: 47\n  by_consequence:\n    read: 229\n    safety-critical: 12\n    write: 34\n    physical: 1\n  human_in_the_loop_required: 12\noperations:\n- path: /apis\n  method: get\n  operationId: listApis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{aid}\n  method: get\n  operationId: getApi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/{aid}/artifacts\n  method: get\n  operationId: getApiArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /apis/{aid}/similar\n  method: get\n  operationId: findSimilarApis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapis/{aid}\n  method: get\n  operationId: getOpenapi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /areas\n  method: get\n  operationId: listAreas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /areas/{slug}\n  method: get\n  operationId: getArea\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /areas/{slug}/leaders\n  method: get\n  operationId: getAreaLeaders\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapis\n  method: get\n  operationId: listOpenapis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /asyncapis\n  method: get\n  operationId: listAsyncapis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /arazzo\n  method: get\n  operationId: listArazzo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /postman\n  method: get\n  operationId: listPostman\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections\n  method: get\n  operationId: listCollections\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graphql\n  method: get\n  operationId: listGraphql\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json-schemas\n  method: get\n  operationId: listJsonSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json-structures\n  method: get\n  operationId: listJsonStructures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json-ld\n  method: get\n  operationId: listJsonLd\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
@@ -261,7 +261,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/apis-i
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finops\n  method: get\n  operationId: listFinops\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plans\n  method: get\n  operationId: listPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rate-limits\n  method: get\n  operationId: listRateLimits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ratings\n  method: get\n  operationId: listRatings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ratings/rubric\n  method: get\n  operationId: getRatingRubric\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (63 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/agentic-access/apis-io-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/agentic-access/apis-io-agentic-access.yml
-summary_line: 274 operations · 48 acting · 12 human-in-the-loop
+summary_line: 276 operations · 47 acting · 12 human-in-the-loop
 tags:
 - API Aggregation
 - API Directory
@@ -277,4 +277,5 @@ tags:
 - Agent Skills
 - OpenAPI
 - API Governance
+- A2A
 ---

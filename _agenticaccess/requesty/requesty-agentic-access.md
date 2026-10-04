@@ -71,4 +71,6 @@ tags:
 - Routing
 - Gateways
 - Observability
+- Real-Time
+- A2A
 ---

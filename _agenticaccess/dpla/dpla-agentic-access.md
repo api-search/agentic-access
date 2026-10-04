@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dpla/refs/head
 summary_line: 8 operations · 1 acting
 tags:
 - Cultural Heritage
-- Libraries
+- Library
 - Archives
 - Museums
 - Open Data

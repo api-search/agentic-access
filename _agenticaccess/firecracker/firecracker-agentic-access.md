@@ -170,7 +170,7 @@ summary_line: 38 operations · 29 acting · 1 human-in-the-loop
 tags:
 - Containers
 - MicroVM
-- Open-Source
+- Open Source
 - Serverless
 - Virtualization
 - KVM

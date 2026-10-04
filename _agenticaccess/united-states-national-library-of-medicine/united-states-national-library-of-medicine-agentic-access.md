@@ -4,6 +4,18 @@ action_class_counts:
   acting: 1
   connected: 16
 api_specs:
+- filename: united-states-national-library-of-medicine-metadata-api-openapi.yml
+  format: yaml
+  label: United States National Library of Medicine Metadata API
+  slug: united-states-national-library-of-medicine-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-metadata-api-openapi.yml
+- filename: united-states-national-library-of-medicine-studies-api-openapi.yml
+  format: yaml
+  label: United States National Library of Medicine Studies API
+  slug: united-states-national-library-of-medicine-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-studies-api-openapi.yml
 - filename: united-states-national-library-of-medicine-blast-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine BLAST API
@@ -40,24 +52,12 @@ api_specs:
   slug: united-states-national-library-of-medicine-link-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-link-api-openapi.yml
-- filename: united-states-national-library-of-medicine-metadata-api-openapi.yml
-  format: yaml
-  label: United States National Library of Medicine Metadata API
-  slug: united-states-national-library-of-medicine-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-metadata-api-openapi.yml
 - filename: united-states-national-library-of-medicine-search-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine Search API
   slug: united-states-national-library-of-medicine-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-search-api-openapi.yml
-- filename: united-states-national-library-of-medicine-studies-api-openapi.yml
-  format: yaml
-  label: United States National Library of Medicine Studies API
-  slug: united-states-national-library-of-medicine-studies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-studies-api-openapi.yml
 - filename: united-states-national-library-of-medicine-taxonomy-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine Taxonomy API
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ncbi-b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/agentic-access/united-states-national-library-of-medicine-agentic-access.yml
 summary_line: 17 operations · 1 acting
 tags:
-- Federal-Government
+- Federal Government
 - Biomedical Research
 - Healthcare
 - Genomics

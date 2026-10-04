@@ -71,5 +71,5 @@ tags:
 - Web3
 - Verifiable Credentials
 - Identity
-- Open-Source
+- Open Source
 ---

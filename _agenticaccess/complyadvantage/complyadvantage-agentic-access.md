@@ -257,9 +257,8 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/comply
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/agentic-access/complyadvantage-agentic-access.yml
 summary_line: 184 operations · 93 acting · 2 human-in-the-loop
 tags:
-- Anti-Money Laundering
 - AML
-- Fraud Detection
+- Fraud Prevention
 - Sanctions Screening
 - Compliance
 - PEP Screening

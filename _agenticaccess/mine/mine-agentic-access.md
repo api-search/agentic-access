@@ -178,12 +178,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mine/refs/head
 summary_line: 77 operations · 40 acting · 1 human-in-the-loop
 tags:
 - Company
-- Data Privacy
+- Privacy
 - Data Governance
 - Privacy Operations
 - Consent Management
 - AI Governance
-- Third-Party Risk
+- Third-Party Risk Management
 - Compliance
 - Security
 ---

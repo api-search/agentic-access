@@ -1,54 +1,54 @@
 ---
-acting_count: 7
+acting_count: 5
 action_class_counts:
-  acting: 7
-  connected: 7
+  acting: 5
+  connected: 9
 api_specs:
 - filename: echo-global-documents-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics documents API
+  label: Echo Global Logistics Documents API
   slug: echo-global-documents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-documents-api-openapi.yml
 - filename: echo-global-health-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics health API
+  label: Echo Global Logistics Health API
   slug: echo-global-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-health-api-openapi.yml
 - filename: echo-global-ping-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics ping API
+  label: Echo Global Logistics Ping API
   slug: echo-global-ping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-ping-api-openapi.yml
 - filename: echo-global-query-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics query API
+  label: Echo Global Logistics Query API
   slug: echo-global-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-query-api-openapi.yml
 - filename: echo-global-quotes-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics quotes API
+  label: Echo Global Logistics Quotes API
   slug: echo-global-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-quotes-api-openapi.yml
 - filename: echo-global-rates-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics rates API
+  label: Echo Global Logistics Rates API
   slug: echo-global-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-rates-api-openapi.yml
 - filename: echo-global-shipments-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics shipments API
+  label: Echo Global Logistics Shipments API
   slug: echo-global-shipments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-shipments-api-openapi.yml
 - filename: echo-global-token-api-openapi.yml
   format: yaml
-  label: Echo Global Logistics token API
+  label: Echo Global Logistics Token API
   slug: echo-global-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-token-api-openapi.yml
@@ -59,8 +59,8 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echosync-carrier-api.json
 consequence_counts:
-  physical: 5
-  read: 7
+  physical: 3
+  read: 9
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 0
@@ -70,16 +70,6 @@ method: generated
 name: Echo Global Agentic Access
 name_suffix: Agentic Access
 notable_actions:
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
-  path: /v2/query/shipments
-- action_class: acting
-  consequence: physical
-  human_in_the_loop: conditional
-  method: POST
-  path: /v2/rates/LTL
 - action_class: acting
   consequence: physical
   human_in_the_loop: conditional
@@ -96,10 +86,10 @@ notable_actions:
   method: POST
   path: /v2/shipments/TL
 operation_count: 14
-overview: 'Echo Global Logistics exposes 14 API operations that an AI agent could call, of which 7 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Echo Global Logistics exposes 14 API operations that an AI agent could call, of which 5 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 7 read, 2 write, and 5 physical.
+  By consequence: 9 read, 2 write, and 3 physical.
 
 
   Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
@@ -109,13 +99,13 @@ slug: echo-global-agentic-access
 source_filename: echo-global-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/echosync-authorizer-api.json, openapi/echosync-customer-api.json, openapi/echosync-partner-connect-api.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 14\n  by_action_class:\n    acting: 7\n    connected: 7\n  by_consequence:\n    write: 2\n    read: 7\n    physical: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /token\n  method: post\n  operationId: token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/__health\n  method: get\n\
-  \  operationId: Health.show\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/quotes/{id}\n  method: get\n  operationId: Quote_v2.show\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/quotes\n  method: post\n  operationId: Quote_v2.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/ping\n  method: get\n  operationId: GetPingResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/shipments/LTL\n  method: post\n  operationId:\
-  \ CreateShipmentLTL\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/shipments/TL\n  method: post\n  operationId: CreateShipmentTL\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/shipments/PL\n  method: post\n  operationId: CreateShipmentPL\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
-  \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/shipments/{Id}\n  method: get\n  operationId: GetShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/shipments/{Id}/status\n  method: get\n  operationId: GetShipmentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/shipments/{Id}/tracking\n  method: get\n  operationId: GetShipmentTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/shipments/{Id}/documents\n  method: get\n  operationId: GetShipmentDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/rates/LTL\n  method: post\n  operationId: GetShipmentRatesLTL\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/query/shipments\n  method: post\n  operationId: QueryShipments\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/echo-global-documents-api-openapi.yml, openapi/echo-global-health-api-openapi.yml,\n  openapi/echo-global-ping-api-openapi.yml, openapi/echo-global-query-api-openapi.yml, openapi/echo-global-quotes-api-openapi.yml,\n  openapi/echo-global-rates-api-openapi.yml, openapi/echo-global-shipments-api-openapi.yml,\n  openapi/echo-global-token-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 14\n  by_action_class:\n    connected: 9\n    acting: 5\n  by_consequence:\n    read: 9\n    write: 2\n    physical: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/shipments/{Id}/documents\n  method: get\n  operationId: GetShipmentDocuments\n  x-agentic-access:\n    action-class:\
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/__health\n  method: get\n  operationId: Health.show\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/ping\n  method: get\n  operationId: GetPingResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/query/shipments\n  method: post\n  operationId: QueryShipments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/quotes/{id}\n  method: get\n  operationId: Quote_v2.show\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/quotes\n  method: post\n\
+  \  operationId: Quote_v2.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/rates/LTL\n  method: post\n  operationId: GetShipmentRatesLTL\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/shipments/LTL\n  method: post\n  operationId: CreateShipmentLTL\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/shipments/TL\n  method: post\n  operationId: CreateShipmentTL\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/shipments/PL\n  method: post\n  operationId: CreateShipmentPL\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/shipments/{Id}\n  method: get\n  operationId: GetShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/shipments/{Id}/status\n  method:\
+  \ get\n  operationId: GetShipmentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/shipments/{Id}/tracking\n  method: get\n  operationId: GetShipmentTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token\n  method: post\n  operationId: token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/agentic-access/echo-global-agentic-access.yml
-summary_line: 14 operations · 7 acting
+summary_line: 14 operations · 5 acting
 tags:
 - Freight
 - Logistics

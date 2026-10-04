@@ -27,6 +27,18 @@ api_specs:
   slug: pge-usagepoint-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usagepoint-api-openapi.yml
+- filename: pge-subscriptions-api-openapi.yml
+  format: yaml
+  label: Pacific Gas and Electric Subscriptions API
+  slug: pge-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-subscriptions-api-openapi.yml
+- filename: pge-usage-api-openapi.yml
+  format: yaml
+  label: Pacific Gas and Electric Usage API
+  slug: pge-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usage-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

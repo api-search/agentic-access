@@ -103,7 +103,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spoonacular/re
 summary_line: 99 operations · 24 acting
 tags:
 - Restaurant
-- Food And Drink
+- Food and Beverage
 - Recipes
 - Nutrition
 - Meal Planning
