@@ -1216,4 +1216,10 @@ tags:
 - SMS
 - IoT
 - Telecommunications
+- Messaging
+- AI
+- MCP
+- Voice AI
+- Phone Numbers
+- Inference
 ---

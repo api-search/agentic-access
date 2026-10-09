@@ -335,7 +335,7 @@ tags:
 - Artificial Intelligence
 - Claude
 - Foundation Models
-- Machine Learning
+- Machine-Learning
 - MCP
 - Agents
 ---
