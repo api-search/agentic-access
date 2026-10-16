@@ -3,6 +3,9 @@ layout: default
 meta_title: "Agentic Access Index — x-agentic-access Execution Contracts | APIs.io"
 meta_description: "Browse recommended x-agentic-access execution contracts for API providers across the APIs.io network — action-class, consequence tier, scope, short-lived tokens, and human-in-the-loop escalation for every operation an AI agent could call. Classified from provider OpenAPI following Curity's Access Intelligence model, refreshed on every network build."
 ---
+{%- comment -%} 2026-10-15: tombstone redirect stubs (retired or renamed providers) live in the same collection
+  and have no name, so looping over the raw collection printed one EMPTY row per stub and inflated every count. {%- endcomment -%}
+{%- assign live_items = site.agenticaccess | where_exp: "i", "i.layout != 'redirect'" -%}
 
 <style>
   .page-hero { text-align: center; padding: 2rem 0 1.5rem; }
@@ -28,7 +31,7 @@ meta_description: "Browse recommended x-agentic-access execution contracts for A
 
 <div class="page-hero">
   <h1>Agentic Access</h1>
-  <p>A recommended <code>x-agentic-access</code> execution contract for every provider on the APIs.io network — the action-class, consequence tier, scope, audience, short-lived token constraints, and human-in-the-loop escalation each operation should carry before it is handed to an AI agent. Classified from provider OpenAPI following <a href="https://curity.io" target="_blank" rel="noopener">Curity's</a> Access Intelligence model across <strong>{{ site.agenticaccess | size }}</strong> providers, refreshed on every network build.</p>
+  <p>A recommended <code>x-agentic-access</code> execution contract for every provider on the APIs.io network — the action-class, consequence tier, scope, audience, short-lived token constraints, and human-in-the-loop escalation each operation should carry before it is handed to an AI agent. Classified from provider OpenAPI following <a href="https://curity.io" target="_blank" rel="noopener">Curity's</a> Access Intelligence model across <strong>{{ live_items | size }}</strong> providers, refreshed on every network build.</p>
   <div class="method-tabs">
     <span class="method-tab active" data-filter="">All</span>
     <span class="method-tab" data-filter="_hitl">Has human-in-the-loop</span>
@@ -40,7 +43,7 @@ meta_description: "Browse recommended x-agentic-access execution contracts for A
 </div>
 
 <div class="item-list" id="item-list">
-  {% for a in site.agenticaccess %}
+  {% for a in live_items %}
   <div class="item-row"
        data-name="{{ a.provider_name | downcase }} {{ a.provider_slug | downcase }}"
        data-hitl="{{ a.human_in_the_loop }}"
