@@ -155,4 +155,5 @@ tags:
 - LLM
 - MCP
 - Developer Tools
+- Foundation Models
 ---

@@ -88,4 +88,5 @@ tags:
 - API Discovery
 - Open Source
 - Developer Tools
+- Fintech
 ---

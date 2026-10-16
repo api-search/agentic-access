@@ -97,4 +97,5 @@ tags:
 - Geospatial
 - STAC
 - OData
+- Remote Sensing
 ---

@@ -36,5 +36,4 @@ tags:
 - Energy Providers
 - Developers
 - Partners
-- Brokers
 ---

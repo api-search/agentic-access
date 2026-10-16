@@ -52,7 +52,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jservi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/agentic-access/jservice-agentic-access.yml
 summary_line: 6 operations · 1 acting
 tags:
-- Games And Comics
 - Trivia
 - Jeopardy
 - Open Source

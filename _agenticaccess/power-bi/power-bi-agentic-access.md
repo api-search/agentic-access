@@ -146,4 +146,5 @@ tags:
 - Reporting
 - Visualization
 - Power BI
+- Data Visualization
 ---

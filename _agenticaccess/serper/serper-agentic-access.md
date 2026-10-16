@@ -131,7 +131,6 @@ tags:
 - Reviews
 - Lens
 - Scraping
-- Location
 - SERP API
 - Web Search
 - Agents

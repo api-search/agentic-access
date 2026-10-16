@@ -94,4 +94,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/re
 summary_line: 14 operations · 4 acting
 tags:
 - Fortune 100
+- Banking
+- Consumer Banking
 ---

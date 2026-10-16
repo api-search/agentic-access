@@ -47,5 +47,4 @@ tags:
 - Public APIs
 - REST
 - Deprecated
-- Defunct
 ---

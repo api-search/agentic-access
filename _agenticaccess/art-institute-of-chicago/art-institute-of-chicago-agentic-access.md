@@ -275,11 +275,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/art-in
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/agentic-access/art-institute-of-chicago-agentic-access.yml
 summary_line: 103 operations
 tags:
-- Art And Design
 - Museums
 - Open Data
 - Cultural Heritage
 - IIIF
 - Public APIs
 - Open Source
+- Art
 ---

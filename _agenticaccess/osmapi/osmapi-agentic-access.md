@@ -4,12 +4,6 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: osmapi-chat-api-openapi.yml
-  format: yaml
-  label: osmAPI Chat API
-  slug: osmapi-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-chat-api-openapi.yml
 - filename: osmapi-messages-api-openapi.yml
   format: yaml
   label: osmAPI Messages API
@@ -28,6 +22,12 @@ api_specs:
   slug: osmapi-osmapi-health-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-osmapi-health-api-api-openapi.yml
+- filename: osmapi-chat-completions-api-openapi.yml
+  format: yaml
+  label: osmAPI Chat Completions API
+  slug: osmapi-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-chat-completions-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2

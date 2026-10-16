@@ -191,7 +191,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber/refs/head
 summary_line: 57 operations · 25 acting
 tags:
 - Ridesharing
-- Rides
 - Taxis
 - Transportation
 - Food Delivery

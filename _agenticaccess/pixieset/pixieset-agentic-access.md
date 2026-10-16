@@ -75,5 +75,4 @@ tags:
 - Booking
 - Invoicing
 - Contracts
-- No Public API
 ---

@@ -57,7 +57,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-trivia/re
 summary_line: 5 operations
 tags:
 - Trivia
-- Games And Comics
 - Quiz
 - Open Data
 - Public APIs

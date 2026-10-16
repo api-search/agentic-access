@@ -76,7 +76,6 @@ tags:
 - Characters
 - Planets
 - Starships
-- Vehicles
 - Species
 - Open Source
 ---

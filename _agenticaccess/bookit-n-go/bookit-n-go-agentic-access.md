@@ -91,8 +91,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bookit-n-go/re
 summary_line: 37 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Travel
-- SaaS
-- AI
-- White-label
+- Software-as-a-Service
+- Artificial Intelligence
+- White Label
 - B2B
 ---

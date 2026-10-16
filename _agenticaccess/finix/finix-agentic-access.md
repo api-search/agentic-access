@@ -233,4 +233,8 @@ tags:
 - Merchant Onboarding
 - Payouts
 - Marketplace
+- Embedded Finance
+- ACH
+- Card Acceptance
+- PCI DSS
 ---

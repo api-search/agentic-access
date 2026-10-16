@@ -529,4 +529,5 @@ tags:
 - Collective Intelligence
 - Quantitative Finance
 - Predictions
+- Web3
 ---

@@ -312,4 +312,5 @@ tags:
 - Smart Contracts
 - Web3
 - Stellar
+- Cross-Border Payments
 ---

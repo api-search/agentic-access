@@ -10,12 +10,6 @@ api_specs:
   slug: langdb-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-analytics-api-openapi.yml
-- filename: langdb-chat-api-openapi.yml
-  format: yaml
-  label: LangDB Chat API
-  slug: langdb-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-chat-api-openapi.yml
 - filename: langdb-embeddings-api-openapi.yml
   format: yaml
   label: LangDB Embeddings API
@@ -40,6 +34,12 @@ api_specs:
   slug: langdb-threads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-threads-api-openapi.yml
+- filename: langdb-chat-completions-api-openapi.yml
+  format: yaml
+  label: LangDB Chat Completions API
+  slug: langdb-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-chat-completions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3

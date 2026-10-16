@@ -147,4 +147,10 @@ tags:
 - API Management
 - Gateways
 - Platform
+- API Gateway
+- MCP Gateway
+- Authentication
+- Rate Limiting
+- Spend Management
+- Developer Tools
 ---

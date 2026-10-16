@@ -59,4 +59,5 @@ tags:
 - Vehicles
 - Embedded Insurance
 - B2B
+- Property and Casualty
 ---

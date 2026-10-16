@@ -53,7 +53,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/
 summary_line: 4 operations · 3 acting
 tags:
 - Embeddings
-- Vector Database
 - Data Exploration
 - LLM
 - Open Source

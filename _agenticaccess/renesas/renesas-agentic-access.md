@@ -79,7 +79,6 @@ tags:
 - Electronics
 - Hardware
 - Product Data
-- Developer Portal
 - Automotive
 - Industrial
 - Embedded

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 7
   connected: 2
 api_specs:
-- filename: kaito-chat-api-openapi.yml
-  format: yaml
-  label: KAITO Chat API
-  slug: kaito-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-chat-api-openapi.yml
 - filename: kaito-index-management-api-openapi.yml
   format: yaml
   label: KAITO Index Management API
@@ -28,6 +22,12 @@ api_specs:
   slug: kaito-retrieval-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-retrieval-api-openapi.yml
+- filename: kaito-chat-completions-api-openapi.yml
+  format: yaml
+  label: KAITO Chat Completions API
+  slug: kaito-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/openapi/kaito-chat-completions-api-openapi.yml
 consequence_counts:
   read: 2
   write: 7

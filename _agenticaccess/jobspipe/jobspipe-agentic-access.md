@@ -110,8 +110,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobspipe/refs/
 summary_line: 33 operations · 11 acting
 tags:
 - Company
-- Jobs
-- API
+- Job
 - Data
 - Hiring
 ---

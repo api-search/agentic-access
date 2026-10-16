@@ -50,8 +50,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gamerp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gamerpower/refs/heads/main/agentic-access/gamerpower-agentic-access.yml
 summary_line: 4 operations
 tags:
-- Games And Comics
 - Giveaways
 - Free Games
 - Public APIs
+- Gaming
+- Video Games
 ---

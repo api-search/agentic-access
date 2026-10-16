@@ -368,4 +368,7 @@ tags:
 - Containers
 - Docker
 - Kubernetes
+- Kubernetes Management
+- Enterprise Identity
+- GitOps
 ---

@@ -56,7 +56,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rijksm
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/agentic-access/rijksmuseum-agentic-access.yml
 summary_line: 5 operations
 tags:
-- Art And Design
 - Museums
 - Cultural Heritage
 - Open Data
@@ -65,4 +64,5 @@ tags:
 - IIIF
 - Dutch Heritage
 - Public APIs
+- Art
 ---

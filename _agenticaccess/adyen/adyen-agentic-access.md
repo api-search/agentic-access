@@ -1029,4 +1029,5 @@ tags:
 - Fintech
 - Agentic Commerce
 - Point-of-Sale
+- Payment Processing
 ---

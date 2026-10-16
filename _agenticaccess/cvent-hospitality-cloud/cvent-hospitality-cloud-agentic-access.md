@@ -468,4 +468,5 @@ tags:
 - Sourcing
 - Supplier Network
 - Venues
+- Venue Sourcing
 ---

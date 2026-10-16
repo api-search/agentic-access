@@ -61,4 +61,5 @@ tags:
 - GLM
 - ChatGLM
 - Multi-Modal
+- Foundation Models
 ---

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 8
   connected: 9
 api_specs:
-- filename: chutes-chat-api-openapi.yml
-  format: yaml
-  label: Chutes Chat API
-  slug: chutes-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-chat-api-openapi.yml
 - filename: chutes-chutes-api-openapi.yml
   format: yaml
   label: Chutes API
@@ -28,6 +22,12 @@ api_specs:
   slug: chutes-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-models-api-openapi.yml
+- filename: chutes-chat-completions-api-openapi.yml
+  format: yaml
+  label: Chutes Chat Completions API
+  slug: chutes-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/openapi/chutes-chat-completions-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 9

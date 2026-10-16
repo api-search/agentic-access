@@ -123,4 +123,5 @@ tags:
 - AI Agents
 - Data Warehouse
 - A2A
+- Customer Data Platform
 ---

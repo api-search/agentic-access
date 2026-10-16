@@ -101,4 +101,5 @@ tags:
 - Self-Hosted
 - Publishing
 - Digital Experience
+- Headless CMS
 ---

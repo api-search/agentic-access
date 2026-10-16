@@ -170,7 +170,7 @@ summary_line: 59 operations · 18 acting · 18 human-in-the-loop
 tags:
 - Company
 - Security
-- SaaS
+- Software-as-a-Service
 - Cloud
 - IT
 ---

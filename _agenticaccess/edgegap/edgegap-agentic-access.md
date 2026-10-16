@@ -128,8 +128,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/h
 summary_line: 34 operations · 19 acting · 3 human-in-the-loop
 tags:
 - Game Servers
-- Orchestration
 - Edge Computing
 - Matchmaking
 - Hosting
+- Container Orchestration
 ---

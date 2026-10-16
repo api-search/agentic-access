@@ -73,7 +73,6 @@ tags:
 - Internal Developer Portal
 - Backstage
 - Developer Experience
-- IDP
 - Developer Portal
 - Managed Backstage
 - Scaffolder

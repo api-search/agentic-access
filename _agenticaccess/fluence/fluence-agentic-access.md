@@ -152,4 +152,5 @@ tags:
 - Virtual Machines
 - AI Infrastructure
 - Decentralized Cloud
+- Web3
 ---

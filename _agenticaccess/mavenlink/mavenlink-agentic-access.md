@@ -814,5 +814,4 @@ tags:
 - MCP
 - Agent-Native
 - Company
-- A2A
 ---

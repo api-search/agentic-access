@@ -122,5 +122,4 @@ tags:
 - Healthcare
 - Animal Health
 - IDEXX
-- Partner Gated
 ---

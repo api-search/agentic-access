@@ -4,12 +4,6 @@ action_class_counts:
   acting: 5
   connected: 3
 api_specs:
-- filename: tabby-ml-chat-api-openapi.yml
-  format: yaml
-  label: Tabby Chat API
-  slug: tabby-ml-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-chat-api-openapi.yml
 - filename: tabby-ml-completions-api-openapi.yml
   format: yaml
   label: Tabby Completions API
@@ -40,6 +34,12 @@ api_specs:
   slug: tabby-ml-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-models-api-openapi.yml
+- filename: tabby-ml-chat-completions-api-openapi.yml
+  format: yaml
+  label: Tabby Chat Completions API
+  slug: tabby-ml-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tabby-ml/refs/heads/main/openapi/tabby-ml-chat-completions-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5

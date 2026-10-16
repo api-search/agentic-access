@@ -10,12 +10,6 @@ api_specs:
   slug: openai-apis-assistants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai-apis/refs/heads/main/openapi/openai-apis-assistants-api-openapi.yml
-- filename: openai-apis-chat-api-openapi.yml
-  format: yaml
-  label: OpenAI APIs Chat API
-  slug: openai-apis-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai-apis/refs/heads/main/openapi/openai-apis-chat-api-openapi.yml
 - filename: openai-apis-completions-api-openapi.yml
   format: yaml
   label: OpenAI APIs Completions API
@@ -76,6 +70,12 @@ api_specs:
   slug: openai-apis-translation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai-apis/refs/heads/main/openapi/openai-apis-translation-api-openapi.yml
+- filename: openai-apis-chat-completions-api-openapi.yml
+  format: yaml
+  label: OpenAI APIs Chat Completions API
+  slug: openai-apis-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai-apis/refs/heads/main/openapi/openai-apis-chat-completions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 21

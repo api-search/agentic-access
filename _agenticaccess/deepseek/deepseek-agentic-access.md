@@ -4,12 +4,6 @@ action_class_counts:
   acting: 2
   connected: 2
 api_specs:
-- filename: deepseek-chat-api-openapi.yml
-  format: yaml
-  label: DeepSeek Chat API
-  slug: deepseek-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-chat-api-openapi.yml
 - filename: deepseek-completions-api-openapi.yml
   format: yaml
   label: DeepSeek Completions API
@@ -28,6 +22,12 @@ api_specs:
   slug: deepseek-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-user-api-openapi.yml
+- filename: deepseek-chat-completions-api-openapi.yml
+  format: yaml
+  label: DeepSeek Chat Completions API
+  slug: deepseek-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/openapi/deepseek-chat-completions-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2
@@ -64,4 +64,5 @@ tags:
 - LLM
 - Reasoning
 - Code Completion
+- Foundation Models
 ---

@@ -60,7 +60,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/migrat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/agentic-access/google-cloud-migration-center-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
-- Assessment
 - Cloud Migration
 - Discovery
 - Infrastructure

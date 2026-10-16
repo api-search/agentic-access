@@ -1,0 +1,69 @@
+---
+acting_count: 17
+action_class_counts:
+  acting: 17
+  connected: 18
+api_specs:
+- filename: taxley-tools-api-openapi.yml
+  format: yaml
+  label: Taxley (UK Corporation Tax API) Tools API
+  slug: taxley-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taxley/refs/heads/main/openapi/taxley-tools-api-openapi.yml
+consequence_counts:
+  physical: 2
+  read: 18
+  write: 15
+description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
+human_in_the_loop: 0
+kind: agentic-access
+layout: agentic-access
+method: generated
+name: Taxley Agentic Access
+name_suffix: Agentic Access
+notable_actions:
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /api/v1/tools/chargeable-gains
+- action_class: acting
+  consequence: physical
+  human_in_the_loop: conditional
+  method: POST
+  path: /api/v1/tools/sole-trader-vs-limited
+operation_count: 35
+overview: 'Taxley (UK Corporation Tax API) exposes 35 API operations that an AI agent could call, of which 17 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+
+
+  By consequence: 18 read, 15 write, and 2 physical.
+
+
+  Contracts are classified heuristically from the provider''s OpenAPI and refresh on every APIs.io network build; audience is bound per deployment. The model follows Curity''s Access Intelligence (apidays Munich 2026). Browse every provider''s agent contracts at [agentic-access.apis.io](https://apis.io/agentic-access/).'
+provider_name: Taxley (UK Corporation Tax API)
+provider_slug: taxley
+slug: taxley-agentic-access
+source_filename: taxley-agentic-access.yml
+source_heading: Agentic Access
+source_url: ''
+source_yaml: "generated: '2026-10-15'\nmethod: generated\nsource: openapi/taxley-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 35\n  by_action_class:\n    connected: 18\n    acting: 17\n  by_consequence:\n    read: 18\n    write: 15\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/tools\n  method: get\n  operationId: listTools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/corporation-tax\n  method: get\n  operationId: ukCorporationTaxEstimate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
+  \ path: /api/v1/tools/corporation-tax\n  method: post\n  operationId: ukCorporationTaxEstimatePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/deadlines\n  method: get\n  operationId: corporationTaxDeadlines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/deadlines\n  method: post\n  operationId: corporationTaxDeadlinesPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/late-penalty\n\
+  \  method: get\n  operationId: corporationTaxLatePenaltyAndInterest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/late-penalty\n  method: post\n  operationId: corporationTaxLatePenaltyAndInterestPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/directors-loan\n  method: get\n  operationId: directorsLoanS455Tax\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/directors-loan\n  method: post\n  operationId: directorsLoanS455TaxPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/capital-allowances\n  method: get\n  operationId: ukCompanyCapitalAllowances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/capital-allowances\n  method: post\n  operationId: ukCompanyCapitalAllowancesPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/chargeable-gains\n  method: get\n  operationId: companyChargeableGainWithIndexation\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/chargeable-gains\n  method: post\n  operationId: companyChargeableGainWithIndexationPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/company-size\n  method: get\n  operationId: ukCompanySizeMicroSmallCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/company-size\n  method: post\n  operationId: ukCompanySizeMicroSmallCheckPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
+  \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/long-period\n  method: get\n  operationId: longAccountingPeriodSplit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/long-period\n  method: post\n  operationId: longAccountingPeriodSplitPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/company-car\n  method: get\n  operationId: ukCompanyCarTaxBik\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/company-car\n\
+  \  method: post\n  operationId: ukCompanyCarTaxBikPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/company-van\n  method: get\n  operationId: ukCompanyVanBenefitTax\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/company-van\n  method: post\n  operationId: ukCompanyVanBenefitTaxPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/mileage-allowance\n  method: get\n  operationId:\
+  \ ukMileageAllowance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/mileage-allowance\n  method: post\n  operationId: ukMileageAllowancePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/home-office\n  method: get\n  operationId: limitedCompanyHomeOfficeAllowance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/home-office\n  method: post\n  operationId: limitedCompanyHomeOfficeAllowancePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
+  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/trivial-benefits\n  method: get\n  operationId: ukTrivialBenefitsCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/trivial-benefits\n  method: post\n  operationId: ukTrivialBenefitsCheckPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/dividend-reserves\n  method: get\n  operationId: ukDividendReservesCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
+  \ 3600\n    audit: none\n- path: /api/v1/tools/dividend-reserves\n  method: post\n  operationId: ukDividendReservesCheckPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/salary-dividends\n  method: get\n  operationId: directorSalaryVsDividends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/salary-dividends\n  method: post\n  operationId: directorSalaryVsDividendsPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
+  \    audit: required\n- path: /api/v1/tools/sole-trader-vs-limited\n  method: get\n  operationId: soleTraderVsLimitedCompanyTax\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/sole-trader-vs-limited\n  method: post\n  operationId: soleTraderVsLimitedCompanyTaxPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/director-pension\n  method: get\n  operationId: limitedCompanyPensionContribution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/director-pension\n\
+  \  method: post\n  operationId: limitedCompanyPensionContributionPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taxley/refs/heads/main/agentic-access/taxley-agentic-access.yml
+summary_line: 35 operations · 17 acting
+tags:
+- Company
+- Tax
+- UK
+- Finance
+- API
+---

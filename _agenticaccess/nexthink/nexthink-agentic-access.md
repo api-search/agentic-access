@@ -94,5 +94,4 @@ tags:
 - IT Operations
 - Automation
 - Observability
-- DEX
 ---

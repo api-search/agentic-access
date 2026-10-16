@@ -156,7 +156,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/
 summary_line: 43 operations · 27 acting
 tags:
 - Messaging
-- Forms
-- Self-Hosted
 - Analytics
+- WhatsApp
+- Business Messaging
+- Meta
 ---

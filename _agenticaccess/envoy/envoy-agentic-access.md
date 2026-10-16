@@ -10,12 +10,6 @@ api_specs:
   slug: envoy-certificates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-certificates-api-openapi.yml
-- filename: envoy-chat-api-openapi.yml
-  format: yaml
-  label: Envoy Chat API
-  slug: envoy-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-chat-api-openapi.yml
 - filename: envoy-clusters-api-openapi.yml
   format: yaml
   label: Envoy Clusters API
@@ -76,6 +70,12 @@ api_specs:
   slug: envoy-text-completions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-text-completions-api-openapi.yml
+- filename: envoy-chat-completions-api-openapi.yml
+  format: yaml
+  label: Envoy Chat Completions API
+  slug: envoy-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-chat-completions-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 2

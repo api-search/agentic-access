@@ -135,11 +135,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mojang
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mojang/refs/heads/main/agentic-access/mojang-agentic-access.yml
 summary_line: 29 operations · 10 acting · 1 human-in-the-loop
 tags:
-- Games And Comics
 - Minecraft
 - Gaming
 - Identity
 - Player Profiles
 - Sessions
 - Public APIs
+- Video Games
 ---

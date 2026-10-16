@@ -222,4 +222,5 @@ tags:
 - Real-Time Payments
 - ISO 20022
 - Acquiring
+- Cross-Border Payments
 ---

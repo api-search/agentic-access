@@ -112,4 +112,5 @@ tags:
 - TypeScript
 - Vector Database
 - Database
+- Vector Search
 ---

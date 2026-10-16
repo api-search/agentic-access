@@ -120,4 +120,5 @@ tags:
 - Controlled Terminology
 - Data Exchange
 - Non-Profit
+- Clinical Research
 ---

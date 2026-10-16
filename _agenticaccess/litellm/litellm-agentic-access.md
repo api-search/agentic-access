@@ -22,12 +22,6 @@ api_specs:
   slug: litellm-batches-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-batches-api-openapi.yml
-- filename: litellm-chat-api-openapi.yml
-  format: yaml
-  label: LiteLLM Chat API
-  slug: litellm-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-chat-api-openapi.yml
 - filename: litellm-completions-api-openapi.yml
   format: yaml
   label: LiteLLM Completions API
@@ -88,6 +82,12 @@ api_specs:
   slug: litellm-vector-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-vector-stores-api-openapi.yml
+- filename: litellm-chat-completions-api-openapi.yml
+  format: yaml
+  label: LiteLLM Chat Completions API
+  slug: litellm-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/openapi/litellm-chat-completions-api-openapi.yml
 consequence_counts:
   read: 2
   write: 18
@@ -125,4 +125,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/litellm/refs/h
 summary_line: 20 operations · 18 acting
 tags:
 - Gateways
+- AI Gateway
 ---

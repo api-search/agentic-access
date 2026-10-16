@@ -30,9 +30,8 @@ source_yaml: "generated: '2026-10-03'\nmethod: generated\nsource: openapi/bitcal
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitcall/refs/heads/main/agentic-access/bitcall-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- Telecom
+- Telecommunications
 - VoIP
 - SMS
 - eSIM
-- API
 ---

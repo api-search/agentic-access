@@ -270,8 +270,8 @@ tags:
 - Acquiring
 - Card Payments
 - In-Person Payments
-- Terminal
 - Point-of-Sale
 - Webhook
 - Real-Time
+- Payment Terminals
 ---

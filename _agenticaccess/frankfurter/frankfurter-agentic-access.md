@@ -76,4 +76,5 @@ tags:
 - MIT
 - Self-Hosted
 - Public APIs
+- Exchange Rates
 ---

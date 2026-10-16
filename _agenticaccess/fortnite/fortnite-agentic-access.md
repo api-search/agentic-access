@@ -63,10 +63,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fortni
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/agentic-access/fortnite-agentic-access.yml
 summary_line: 7 operations
 tags:
-- Games And Comics
 - Public APIs
 - Fortnite
 - Player Statistics
 - Esports
 - Tracker Network
+- Gaming
+- Video Games
 ---

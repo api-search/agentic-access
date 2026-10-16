@@ -75,4 +75,6 @@ tags:
 - DeFi
 - Blockchain
 - Financial Data
+- Web3
+- Cryptocurrency
 ---

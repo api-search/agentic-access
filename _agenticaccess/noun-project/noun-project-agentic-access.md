@@ -66,10 +66,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/noun-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/agentic-access/noun-project-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
-- Art And Design
 - Icons
 - SVG
 - Visual Language
 - Design Assets
 - Public APIs
+- Design
 ---

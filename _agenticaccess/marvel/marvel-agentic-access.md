@@ -72,7 +72,6 @@ summary_line: 13 operations
 tags:
 - Characters
 - Comics
-- Creators
 - Entertainment
 - Event
 - Media

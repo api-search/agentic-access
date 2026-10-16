@@ -54,4 +54,15 @@ tags:
 - Machine Learning
 - Multi-Modal
 - Real-Time
+- Foundation Models
+- Agents
+- Audio Understanding
+- Batch Processing
+- Deep Research
+- Document Understanding
+- Function Calling
+- Structured Output
+- Text-to-Speech
+- Video Generation
+- Video Understanding
 ---

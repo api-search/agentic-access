@@ -4,12 +4,6 @@ action_class_counts:
   acting: 14
   connected: 14
 api_specs:
-- filename: ucsd-chat-api-openapi.yml
-  format: yaml
-  label: TritonAI Developer API — chat
-  slug: tritonai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-chat-api-openapi.yml
 - filename: ucsd-completions-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — completions
@@ -58,6 +52,12 @@ api_specs:
   slug: ucsd-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-search-api-openapi.yml
+- filename: ucsd-chat-completions-api-openapi.yml
+  format: yaml
+  label: University of California, San Diego Chat Completions API
+  slug: ucsd-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-chat-completions-api-openapi.yml
 consequence_counts:
   read: 14
   write: 14

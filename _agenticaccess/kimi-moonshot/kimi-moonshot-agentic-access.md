@@ -16,12 +16,6 @@ api_specs:
   slug: kimi-moonshot-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/openapi/kimi-moonshot-billing-api-openapi.yml
-- filename: kimi-moonshot-chat-api-openapi.yml
-  format: yaml
-  label: Kimi (Moonshot AI) Chat API
-  slug: kimi-moonshot-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/openapi/kimi-moonshot-chat-api-openapi.yml
 - filename: kimi-moonshot-files-api-openapi.yml
   format: yaml
   label: Kimi (Moonshot AI) Files API
@@ -40,6 +34,12 @@ api_specs:
   slug: kimi-moonshot-utilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/openapi/kimi-moonshot-utilities-api-openapi.yml
+- filename: kimi-moonshot-chat-completions-api-openapi.yml
+  format: yaml
+  label: Kimi (Moonshot AI) Chat Completions API
+  slug: kimi-moonshot-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/openapi/kimi-moonshot-chat-completions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -78,4 +78,5 @@ tags:
 - OpenAI-Compatible
 - Multi-Modal
 - China
+- Foundation Models
 ---

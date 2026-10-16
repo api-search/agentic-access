@@ -37,7 +37,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ieee/refs/heads/main/agentic-access/ieee-agentic-access.yml
 summary_line: 1 operation
 tags:
-- Science And Math
 - Scholarly Publishing
 - Engineering
 - Computer Science
@@ -46,4 +45,5 @@ tags:
 - Academic
 - Technology
 - Publishing
+- Science
 ---

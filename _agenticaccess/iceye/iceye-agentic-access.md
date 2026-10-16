@@ -72,4 +72,5 @@ tags:
 - ISR
 - Geospatial
 - All-Weather
+- Remote Sensing
 ---

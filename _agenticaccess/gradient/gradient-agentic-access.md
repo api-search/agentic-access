@@ -4,12 +4,6 @@ action_class_counts:
   acting: 2
   connected: 1
 api_specs:
-- filename: gradient-chat-api-openapi.yml
-  format: yaml
-  label: Gradient Chat API
-  slug: gradient-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-chat-api-openapi.yml
 - filename: gradient-completions-api-openapi.yml
   format: yaml
   label: Gradient Completions API
@@ -22,6 +16,12 @@ api_specs:
   slug: gradient-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-models-api-openapi.yml
+- filename: gradient-chat-completions-api-openapi.yml
+  format: yaml
+  label: Gradient Chat Completions API
+  slug: gradient-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/openapi/gradient-chat-completions-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2
@@ -61,4 +61,5 @@ tags:
 - Distributed Computing
 - Edge Computing
 - Developer Tools
+- Web3
 ---

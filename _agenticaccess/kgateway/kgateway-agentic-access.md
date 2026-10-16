@@ -87,4 +87,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/
 summary_line: 35 operations · 21 acting
 tags:
 - Gateways
+- API Gateway
 ---

@@ -99,7 +99,6 @@ summary_line: 32 operations · 22 acting
 tags:
 - Returns
 - E-Commerce
-- Exchange
 - Refunds
 - Shipping
 - Post-Purchase

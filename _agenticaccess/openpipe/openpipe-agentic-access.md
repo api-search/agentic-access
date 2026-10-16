@@ -4,12 +4,6 @@ action_class_counts:
   acting: 16
   connected: 7
 api_specs:
-- filename: openpipe-chat-api-openapi.yml
-  format: yaml
-  label: OpenPipe Chat API
-  slug: openpipe-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-chat-api-openapi.yml
 - filename: openpipe-check-cache-api-openapi.yml
   format: yaml
   label: OpenPipe Check Cache API
@@ -64,6 +58,12 @@ api_specs:
   slug: openpipe-unstable-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-unstable-api-openapi.yml
+- filename: openpipe-chat-completions-api-openapi.yml
+  format: yaml
+  label: OpenPipe Chat Completions API
+  slug: openpipe-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-chat-completions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 16

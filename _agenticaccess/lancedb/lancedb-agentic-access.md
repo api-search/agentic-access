@@ -87,4 +87,5 @@ tags:
 - Columnar Storage
 - Arrow
 - AI Infrastructure
+- Vector Search
 ---

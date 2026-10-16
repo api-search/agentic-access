@@ -195,4 +195,5 @@ tags:
 - Security
 - Threat Detection
 - Unified Endpoint Management
+- Endpoint Security
 ---

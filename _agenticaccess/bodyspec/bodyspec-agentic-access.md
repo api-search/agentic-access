@@ -152,6 +152,5 @@ tags:
 - Company
 - Health
 - Fitness
-- API
 - Data
 ---

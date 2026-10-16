@@ -75,11 +75,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/superh
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/agentic-access/superheroes-agentic-access.yml
 summary_line: 8 operations
 tags:
-- Games And Comics
 - Superheroes
 - Comic Books
 - Open Source
 - Static API
 - GitHub Pages
 - Public APIs
+- Comics
 ---

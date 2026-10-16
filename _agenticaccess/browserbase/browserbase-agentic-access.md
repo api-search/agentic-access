@@ -75,4 +75,5 @@ tags:
 - MCP
 - Session Recording
 - Agent Identity
+- Browser Automation
 ---

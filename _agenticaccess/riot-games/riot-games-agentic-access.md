@@ -89,4 +89,5 @@ tags:
 - Legends of Runeterra
 - Teamfight Tactics
 - VALORANT
+- Video Games
 ---

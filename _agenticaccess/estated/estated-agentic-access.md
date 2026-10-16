@@ -41,7 +41,6 @@ tags:
 - Real Estate
 - Property Records
 - Assessor
-- Parcel
 - APN
 - FIPS
 - Deeds
@@ -51,4 +50,6 @@ tags:
 - GIS
 - Owner Of Record
 - Tax Assessment
+- Land Parcels
+- Acquired
 ---

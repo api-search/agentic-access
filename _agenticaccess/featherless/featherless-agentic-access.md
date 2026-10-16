@@ -4,12 +4,6 @@ action_class_counts:
   acting: 3
   connected: 1
 api_specs:
-- filename: featherless-chat-api-openapi.yml
-  format: yaml
-  label: Featherless AI Chat API
-  slug: featherless-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-chat-api-openapi.yml
 - filename: featherless-completions-api-openapi.yml
   format: yaml
   label: Featherless AI Completions API
@@ -34,6 +28,12 @@ api_specs:
   slug: featherless-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-account-api-openapi.yml
+- filename: featherless-chat-completions-api-openapi.yml
+  format: yaml
+  label: Featherless AI Chat Completions API
+  slug: featherless-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/featherless/refs/heads/main/openapi/featherless-chat-completions-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3

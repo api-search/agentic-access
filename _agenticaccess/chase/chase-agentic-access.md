@@ -151,4 +151,5 @@ tags:
 - Open Banking
 - Pay with Points
 - Rewards
+- Consumer Banking
 ---

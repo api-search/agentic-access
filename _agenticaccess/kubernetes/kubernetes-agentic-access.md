@@ -113,6 +113,6 @@ tags:
 - Containers
 - Deployment
 - Open Source
-- Orchestration
 - Scaling
+- Container Orchestration
 ---

@@ -108,7 +108,6 @@ tags:
 - Internal Developer Portal
 - Service Catalog
 - Developer Experience
-- IDP
 - Scorecards
 - Platform Engineering
 - Developer Portal

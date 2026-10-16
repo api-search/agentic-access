@@ -122,4 +122,5 @@ tags:
 - MCP
 - Azure
 - Google Cloud
+- Reserved Instances
 ---

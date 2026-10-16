@@ -76,11 +76,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hypixe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/agentic-access/hypixel-agentic-access.yml
 summary_line: 68 operations
 tags:
-- Games And Comics
 - Gaming
 - Minecraft
 - Player Stats
 - Leaderboards
 - SkyBlock
 - Public APIs
+- Video Games
 ---

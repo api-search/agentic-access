@@ -4,18 +4,18 @@ action_class_counts:
   acting: 1
   connected: 1
 api_specs:
-- filename: nous-research-chat-api-openapi.yml
-  format: yaml
-  label: Nous Research Chat API
-  slug: nous-research-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/openapi/nous-research-chat-api-openapi.yml
 - filename: nous-research-models-api-openapi.yml
   format: yaml
   label: Nous Research Models API
   slug: nous-research-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/openapi/nous-research-models-api-openapi.yml
+- filename: nous-research-chat-completions-api-openapi.yml
+  format: yaml
+  label: Nous Research Chat Completions API
+  slug: nous-research-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/openapi/nous-research-chat-completions-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1
@@ -54,4 +54,5 @@ tags:
 - Agents
 - Open Weights
 - x402
+- Foundation Models
 ---

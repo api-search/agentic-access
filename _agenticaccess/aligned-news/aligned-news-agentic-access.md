@@ -77,7 +77,6 @@ summary_line: 11 operations
 tags:
 - Artificial Intelligence
 - News
-- Intelligence
 - MCP
 - Signals
 ---

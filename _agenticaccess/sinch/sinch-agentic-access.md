@@ -1,117 +1,21 @@
 ---
-acting_count: 73
+acting_count: 74
 action_class_counts:
-  acting: 73
-  connected: 60
+  acting: 74
+  connected: 59
 api_specs:
-- filename: sinch-conversation-api-openapi.yml
-  format: yaml
-  label: Sinch Conversation API
-  slug: sinch-conversation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-conversation-api-openapi.yml
-- filename: sinch-voice-api-openapi.yml
-  format: yaml
-  label: Sinch Voice API
-  slug: sinch-voice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-voice-api-openapi.yml
-- filename: sinch-brands-api-openapi.yml
-  format: yaml
-  label: Sinch Brands API
-  slug: sinch-brands-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-brands-api-openapi.yml
-- filename: sinch-mms-api-openapi.yml
-  format: yaml
-  label: Sinch MMS API
-  slug: sinch-mms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-mms-api-openapi.yml
-- filename: sinch-batches-api-openapi.yml
-  format: yaml
-  label: Sinch Batches API
-  slug: sinch-batches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-batches-api-openapi.yml
-- filename: sinch-delivery-reports-api-openapi.yml
-  format: yaml
-  label: Sinch Delivery Reports API
-  slug: sinch-delivery-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-delivery-reports-api-openapi.yml
-- filename: sinch-inbounds-api-openapi.yml
-  format: yaml
-  label: Sinch Inbounds API
-  slug: sinch-inbounds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-inbounds-api-openapi.yml
-- filename: sinch-groups-api-openapi.yml
-  format: yaml
-  label: Sinch Groups API
-  slug: sinch-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-groups-api-openapi.yml
-- filename: sinch-10dlc-brand-registration-api-openapi.yml
-  format: yaml
-  label: Sinch 10DLC Brand Registration API
-  slug: sinch-10dlc-brand-registration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-10dlc-brand-registration-api-openapi.yml
-- filename: sinch-10dlc-campaign-registration-api-openapi.yml
-  format: yaml
-  label: Sinch 10DLC Campaign Registration API
-  slug: sinch-10dlc-campaign-registration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-10dlc-campaign-registration-api-openapi.yml
-- filename: sinch-access-control-list-api-openapi.yml
-  format: yaml
-  label: Sinch Access Control List API
-  slug: sinch-access-control-list-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-access-control-list-api-openapi.yml
 - filename: sinch-access-control-lists-api-openapi.yml
   format: yaml
   label: Sinch Access Control Lists API
   slug: sinch-access-control-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-access-control-lists-api-openapi.yml
-- filename: sinch-access-key-api-openapi.yml
-  format: yaml
-  label: Sinch Access Key API
-  slug: sinch-access-key-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-access-key-api-openapi.yml
-- filename: sinch-active-number-api-openapi.yml
-  format: yaml
-  label: Sinch Active Number API
-  slug: sinch-active-number-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-active-number-api-openapi.yml
 - filename: sinch-active-numbers-api-openapi.yml
   format: yaml
   label: Sinch Active Numbers API
   slug: sinch-active-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-active-numbers-api-openapi.yml
-- filename: sinch-advanced-porting-api-openapi.yml
-  format: yaml
-  label: Sinch Advanced porting API
-  slug: sinch-advanced-porting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-advanced-porting-api-openapi.yml
-- filename: sinch-analytics-api-openapi.yml
-  format: yaml
-  label: Sinch Analytics API
-  slug: sinch-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-analytics-api-openapi.yml
-- filename: sinch-app-api-openapi.yml
-  format: yaml
-  label: Sinch App API
-  slug: sinch-app-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-app-api-openapi.yml
 - filename: sinch-applications-api-openapi.yml
   format: yaml
   label: Sinch Applications API
@@ -124,12 +28,6 @@ api_specs:
   slug: sinch-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-apps-api-openapi.yml
-- filename: sinch-available-number-api-openapi.yml
-  format: yaml
-  label: Sinch Available Number API
-  slug: sinch-available-number-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-available-number-api-openapi.yml
 - filename: sinch-available-numbers-api-openapi.yml
   format: yaml
   label: Sinch Available Numbers API
@@ -142,48 +40,24 @@ api_specs:
   slug: sinch-available-regions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-available-regions-api-openapi.yml
-- filename: sinch-brand-callbacks-api-openapi.yml
+- filename: sinch-batches-api-openapi.yml
   format: yaml
-  label: Sinch Brand Callbacks API
-  slug: sinch-brand-callbacks-api
+  label: Sinch Batches API
+  slug: sinch-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-brand-callbacks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-batches-api-openapi.yml
 - filename: sinch-brand-metadata-api-openapi.yml
   format: yaml
   label: Sinch Brand Metadata API
   slug: sinch-brand-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-brand-metadata-api-openapi.yml
-- filename: sinch-brand-webhooks-delivery-api-openapi.yml
+- filename: sinch-brands-api-openapi.yml
   format: yaml
-  label: Sinch Brand Webhooks Delivery API
-  slug: sinch-brand-webhooks-delivery-api
+  label: Sinch Brands API
+  slug: sinch-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-brand-webhooks-delivery-api-openapi.yml
-- filename: sinch-bundles-api-openapi.yml
-  format: yaml
-  label: Sinch Bundles API
-  slug: sinch-bundles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-bundles-api-openapi.yml
-- filename: sinch-call-blocking-rules-api-openapi.yml
-  format: yaml
-  label: Sinch Call Blocking Rules API
-  slug: sinch-call-blocking-rules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-call-blocking-rules-api-openapi.yml
-- filename: sinch-callback-configuration-api-openapi.yml
-  format: yaml
-  label: Sinch Callback Configuration API
-  slug: sinch-callback-configuration-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-callback-configuration-api-openapi.yml
-- filename: sinch-callbacks-api-openapi.yml
-  format: yaml
-  label: Sinch Callbacks API
-  slug: sinch-callbacks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-callbacks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-brands-api-openapi.yml
 - filename: sinch-callouts-api-openapi.yml
   format: yaml
   label: Sinch Callouts API
@@ -196,18 +70,6 @@ api_specs:
   slug: sinch-calls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-calls-api-openapi.yml
-- filename: sinch-campaigns-api-openapi.yml
-  format: yaml
-  label: Sinch Campaigns API
-  slug: sinch-campaigns-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-campaigns-api-openapi.yml
-- filename: sinch-campaigns-callbacks-api-openapi.yml
-  format: yaml
-  label: Sinch Campaigns Callbacks API
-  slug: sinch-campaigns-callbacks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-campaigns-callbacks-api-openapi.yml
 - filename: sinch-capability-api-openapi.yml
   format: yaml
   label: Sinch Capability API
@@ -220,18 +82,6 @@ api_specs:
   slug: sinch-conferences-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-conferences-api-openapi.yml
-- filename: sinch-consent-api-openapi.yml
-  format: yaml
-  label: Sinch Consent API
-  slug: sinch-consent-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-consent-api-openapi.yml
-- filename: sinch-contact-api-openapi.yml
-  format: yaml
-  label: Sinch Contact API
-  slug: sinch-contact-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-contact-api-openapi.yml
 - filename: sinch-contacts-api-openapi.yml
   format: yaml
   label: Sinch Contacts API
@@ -244,36 +94,12 @@ api_specs:
   slug: sinch-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-conversations-api-openapi.yml
-- filename: sinch-country-permissions-api-openapi.yml
+- filename: sinch-delivery-reports-api-openapi.yml
   format: yaml
-  label: Sinch Country Permissions API
-  slug: sinch-country-permissions-api
+  label: Sinch Delivery Reports API
+  slug: sinch-delivery-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-country-permissions-api-openapi.yml
-- filename: sinch-cover-pages-api-openapi.yml
-  format: yaml
-  label: Sinch Cover pages API
-  slug: sinch-cover-pages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-cover-pages-api-openapi.yml
-- filename: sinch-credential-lists-api-openapi.yml
-  format: yaml
-  label: Sinch Credential Lists API
-  slug: sinch-credential-lists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-credential-lists-api-openapi.yml
-- filename: sinch-credentials-api-openapi.yml
-  format: yaml
-  label: Sinch Credentials API
-  slug: sinch-credentials-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-credentials-api-openapi.yml
-- filename: sinch-domains-api-openapi.yml
-  format: yaml
-  label: Sinch Domains API
-  slug: sinch-domains-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-domains-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-delivery-reports-api-openapi.yml
 - filename: sinch-events-api-openapi.yml
   format: yaml
   label: Sinch Events API
@@ -292,54 +118,24 @@ api_specs:
   slug: sinch-faxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-faxes-api-openapi.yml
-- filename: sinch-flows-api-openapi.yml
+- filename: sinch-groups-api-openapi.yml
   format: yaml
-  label: Sinch Flows API
-  slug: sinch-flows-api
+  label: Sinch Groups API
+  slug: sinch-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-flows-api-openapi.yml
-- filename: sinch-hosting-orders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-groups-api-openapi.yml
+- filename: sinch-inbounds-api-openapi.yml
   format: yaml
-  label: Sinch Hosting Orders API
-  slug: sinch-hosting-orders-api
+  label: Sinch Inbounds API
+  slug: sinch-inbounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-hosting-orders-api-openapi.yml
-- filename: sinch-imported-numbers-and-hosting-orders-callbacks-api-openapi.yml
-  format: yaml
-  label: Sinch Imported Numbers and Hosting Orders Callbacks API
-  slug: sinch-imported-numbers-and-hosting-orders-callbacks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-imported-numbers-and-hosting-orders-callbacks-api-openapi.yml
-- filename: sinch-imported-numbers-api-openapi.yml
-  format: yaml
-  label: Sinch Imported Numbers API
-  slug: sinch-imported-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-imported-numbers-api-openapi.yml
-- filename: sinch-intents-api-openapi.yml
-  format: yaml
-  label: Sinch Intents API
-  slug: sinch-intents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-intents-api-openapi.yml
-- filename: sinch-kakaotalk-categories-api-openapi.yml
-  format: yaml
-  label: Sinch KakaoTalk Categories API
-  slug: sinch-kakaotalk-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-kakaotalk-categories-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-inbounds-api-openapi.yml
 - filename: sinch-kakaotalk-senders-api-openapi.yml
   format: yaml
   label: Sinch KakaoTalk Senders API
   slug: sinch-kakaotalk-senders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-kakaotalk-senders-api-openapi.yml
-- filename: sinch-kakaotalk-templates-api-openapi.yml
-  format: yaml
-  label: Sinch KakaoTalk Templates API
-  slug: sinch-kakaotalk-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-kakaotalk-templates-api-openapi.yml
 - filename: sinch-line-senders-api-openapi.yml
   format: yaml
   label: Sinch LINE Senders API
@@ -358,90 +154,18 @@ api_specs:
   slug: sinch-messages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-messages-api-openapi.yml
-- filename: sinch-notifications-api-openapi.yml
-  format: yaml
-  label: Sinch Notifications API
-  slug: sinch-notifications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-notifications-api-openapi.yml
-- filename: sinch-number-order-api-openapi.yml
-  format: yaml
-  label: Sinch Number Order API
-  slug: sinch-number-order-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-number-order-api-openapi.yml
-- filename: sinch-numberlookupv2-api-openapi.yml
-  format: yaml
-  label: Sinch Number Lookup V2 API
-  slug: sinch-numberlookupv2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-numberlookupv2-api-openapi.yml
-- filename: sinch-numbers-callbacks-api-openapi.yml
-  format: yaml
-  label: Sinch Numbers Callbacks API
-  slug: sinch-numbers-callbacks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-numbers-callbacks-api-openapi.yml
-- filename: sinch-orders-api-openapi.yml
-  format: yaml
-  label: Sinch Orders API
-  slug: sinch-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-orders-api-openapi.yml
-- filename: sinch-payloads-api-openapi.yml
-  format: yaml
-  label: Sinch Payloads API
-  slug: sinch-payloads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-payloads-api-openapi.yml
 - filename: sinch-phone-numbers-api-openapi.yml
   format: yaml
   label: Sinch Phone Numbers API
   slug: sinch-phone-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-phone-numbers-api-openapi.yml
-- filename: sinch-port-in-numbers-api-openapi.yml
-  format: yaml
-  label: Sinch Port-in numbers API
-  slug: sinch-port-in-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-port-in-numbers-api-openapi.yml
-- filename: sinch-port-in-settings-api-openapi.yml
-  format: yaml
-  label: Sinch Port-in settings API
-  slug: sinch-port-in-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-port-in-settings-api-openapi.yml
-- filename: sinch-project-settings-api-openapi.yml
-  format: yaml
-  label: Sinch Project Settings API
-  slug: sinch-project-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-project-settings-api-openapi.yml
 - filename: sinch-projects-api-openapi.yml
   format: yaml
   label: Sinch Projects API
   slug: sinch-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-projects-api-openapi.yml
-- filename: sinch-qualified-numbers-api-openapi.yml
-  format: yaml
-  label: Sinch Qualified Numbers API
-  slug: sinch-qualified-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-qualified-numbers-api-openapi.yml
-- filename: sinch-rcs-accounts-api-openapi.yml
-  format: yaml
-  label: Sinch RCS Accounts API
-  slug: sinch-rcs-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-rcs-accounts-api-openapi.yml
-- filename: sinch-rcs-questionnaire-api-openapi.yml
-  format: yaml
-  label: Sinch RCS Questionnaire API
-  slug: sinch-rcs-questionnaire-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-rcs-questionnaire-api-openapi.yml
 - filename: sinch-rcs-senders-api-openapi.yml
   format: yaml
   label: Sinch RCS Senders API
@@ -454,18 +178,6 @@ api_specs:
   slug: sinch-registrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-registrations-api-openapi.yml
-- filename: sinch-services-api-openapi.yml
-  format: yaml
-  label: Sinch Services API
-  slug: sinch-services-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-services-api-openapi.yml
-- filename: sinch-sessions-api-openapi.yml
-  format: yaml
-  label: Sinch Sessions API
-  slug: sinch-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-sessions-api-openapi.yml
 - filename: sinch-sip-endpoints-api-openapi.yml
   format: yaml
   label: Sinch SIP Endpoints API
@@ -478,143 +190,35 @@ api_specs:
   slug: sinch-sip-trunks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-sip-trunks-api-openapi.yml
-- filename: sinch-sms-apps-api-openapi.yml
-  format: yaml
-  label: Sinch SMS Apps API
-  slug: sinch-sms-apps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-sms-apps-api-openapi.yml
-- filename: sinch-subprojects-service-api-openapi.yml
-  format: yaml
-  label: Sinch Subprojects Service API
-  slug: sinch-subprojects-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-subprojects-service-api-openapi.yml
-- filename: sinch-subscriptions-api-openapi.yml
-  format: yaml
-  label: Sinch Subscriptions API
-  slug: sinch-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-subscriptions-api-openapi.yml
 - filename: sinch-telegram-senders-api-openapi.yml
   format: yaml
   label: Sinch Telegram Senders API
   slug: sinch-telegram-senders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-telegram-senders-api-openapi.yml
-- filename: sinch-templates-api-openapi.yml
-  format: yaml
-  label: Sinch Templates API
-  slug: sinch-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-templates-api-openapi.yml
-- filename: sinch-templates-v2-api-openapi.yml
-  format: yaml
-  label: Sinch Templates V2 API
-  slug: sinch-templates-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-templates-v2-api-openapi.yml
-- filename: sinch-tfn-verification-api-openapi.yml
-  format: yaml
-  label: Sinch TFN Verification API
-  slug: sinch-tfn-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-tfn-verification-api-openapi.yml
 - filename: sinch-transcoding-api-openapi.yml
   format: yaml
   label: Sinch Transcoding API
   slug: sinch-transcoding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-transcoding-api-openapi.yml
-- filename: sinch-users-api-openapi.yml
-  format: yaml
-  label: Sinch Users API
-  slug: sinch-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-users-api-openapi.yml
-- filename: sinch-verification-callbacks-api-openapi.yml
-  format: yaml
-  label: Sinch Verification callbacks API
-  slug: sinch-verification-callbacks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-verification-callbacks-api-openapi.yml
-- filename: sinch-verification-status-api-openapi.yml
-  format: yaml
-  label: Sinch Verification status API
-  slug: sinch-verification-status-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-verification-status-api-openapi.yml
 - filename: sinch-verifications-api-openapi.yml
   format: yaml
   label: Sinch Verifications API
   slug: sinch-verifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-verifications-api-openapi.yml
-- filename: sinch-verifications-report-api-openapi.yml
-  format: yaml
-  label: Sinch Verifications report API
-  slug: sinch-verifications-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-verifications-report-api-openapi.yml
-- filename: sinch-verifications-start-api-openapi.yml
-  format: yaml
-  label: Sinch Verifications start API
-  slug: sinch-verifications-start-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-verifications-start-api-openapi.yml
 - filename: sinch-webhooks-api-openapi.yml
   format: yaml
   label: Sinch Webhooks API
   slug: sinch-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-webhooks-api-openapi.yml
-- filename: sinch-whatsapp-accounts-api-openapi.yml
-  format: yaml
-  label: Sinch WhatsApp Accounts API
-  slug: sinch-whatsapp-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-whatsapp-accounts-api-openapi.yml
-- filename: sinch-whatsapp-flows-api-openapi.yml
-  format: yaml
-  label: Sinch WhatsApp Flows API
-  slug: sinch-whatsapp-flows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-whatsapp-flows-api-openapi.yml
-- filename: sinch-whatsapp-senders-api-openapi.yml
-  format: yaml
-  label: Sinch WhatsApp Senders API
-  slug: sinch-whatsapp-senders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-whatsapp-senders-api-openapi.yml
-- filename: sinch-whatsapp-solutions-api-openapi.yml
-  format: yaml
-  label: Sinch WhatsApp Solutions API
-  slug: sinch-whatsapp-solutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-whatsapp-solutions-api-openapi.yml
-- filename: sinch-whatsapp-templates-api-openapi.yml
-  format: yaml
-  label: Sinch WhatsApp Templates API
-  slug: sinch-whatsapp-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-whatsapp-templates-api-openapi.yml
-- filename: sinch-knowledge-base-api-openapi.yml
-  format: yaml
-  label: Sinch Knowledge Base API
-  slug: sinch-knowledge-base-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-knowledge-base-api-openapi.yml
-- filename: sinch-whats-app-api-openapi.yml
-  format: yaml
-  label: Sinch Whats App API
-  slug: sinch-whats-app-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-whats-app-api-openapi.yml
 consequence_counts:
   physical: 11
-  read: 60
+  read: 59
   safety-critical: 4
-  write: 58
+  write: 59
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
 human_in_the_loop: 4
 kind: agentic-access
@@ -699,10 +303,10 @@ notable_actions:
   method: POST
   path: /xms/v1/{service_plan_id}/batches
 operation_count: 133
-overview: 'Sinch exposes 133 API operations that an AI agent could call, of which 73 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
+overview: 'Sinch exposes 133 API operations that an AI agent could call, of which 74 are state-changing ''acting'' operations. This is a recommended x-agentic-access execution contract — the scope, audience, consequence tier, short-lived token constraints, and escalation each action should carry before it is handed to an autonomous agent.
 
 
-  By consequence: 60 read, 58 write, 11 physical, and 4 safety-critical.
+  By consequence: 59 read, 59 write, 11 physical, and 4 safety-critical.
 
 
   4 operations are classed safety-critical and should require human-in-the-loop approval at runtime.
@@ -715,42 +319,43 @@ slug: sinch-agentic-access
 source_filename: sinch-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
-source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sinch-access-control-lists-api-openapi.yml, openapi/sinch-active-numbers-api-openapi.yml,\n  openapi/sinch-applications-api-openapi.yml, openapi/sinch-apps-api-openapi.yml, openapi/sinch-available-numbers-api-openapi.yml,\n  openapi/sinch-available-regions-api-openapi.yml, openapi/sinch-batches-api-openapi.yml, openapi/sinch-brand-metadata-api-openapi.yml,\n  openapi/sinch-brands-api-openapi.yml, openapi/sinch-callouts-api-openapi.yml, openapi/sinch-calls-api-openapi.yml,\n  openapi/sinch-capability-api-openapi.yml, openapi/sinch-conferences-api-openapi.yml, openapi/sinch-contacts-api-openapi.yml,\n  openapi/sinch-conversations-api-openapi.yml, openapi/sinch-delivery-reports-api-openapi.yml,\n  openapi/sinch-events-api-openapi.yml, openapi/sinch-fax-to-email-api-openapi.yml, openapi/sinch-faxes-api-openapi.yml,\n  openapi/sinch-groups-api-openapi.yml, openapi/sinch-inbounds-api-openapi.yml, openapi/sinch-kakaotalk-senders-api-openapi.yml,\n\
-  \  openapi/sinch-line-senders-api-openapi.yml, openapi/sinch-market-requirements-api-openapi.yml,\n  openapi/sinch-messages-api-openapi.yml, openapi/sinch-phone-numbers-api-openapi.yml, openapi/sinch-projects-api-openapi.yml,\n  openapi/sinch-rcs-senders-api-openapi.yml, openapi/sinch-registrations-api-openapi.yml, openapi/sinch-sip-endpoints-api-openapi.yml,\n  openapi/sinch-sip-trunks-api-openapi.yml, openapi/sinch-telegram-senders-api-openapi.yml,\n  openapi/sinch-transcoding-api-openapi.yml, openapi/sinch-verifications-api-openapi.yml, openapi/sinch-webhooks-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 133\n  by_action_class:\n    connected: 60\n    acting: 73\n  by_consequence:\n    read: 60\n    safety-critical: 4\n    write: 58\n\
-  \    physical: 11\n  human_in_the_loop_required: 4\noperations:\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/accessControlLists\n  method: get\n  operationId: listAccessControlLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/accessControlLists\n  method: post\n  operationId: createAccessControlList\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/accessControlLists/{acl_id}\n  method: get\n  operationId: getAccessControlList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/accessControlLists/{acl_id}\n  method: patch\n  operationId: updateAccessControlList\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/accessControlLists/{acl_id}\n  method: delete\n  operationId: deleteAccessControlList\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/projects/{project_id}/activeNumbers\n\
-  \  method: get\n  operationId: listActiveNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/activeNumbers/{phone_number}\n  method: get\n  operationId: getActiveNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/activeNumbers/{phone_number}\n  method: patch\n  operationId: updateActiveNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/activeNumbers/{phone_number}:release\n  method: post\n  operationId: releaseNumber\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calling/v1/configuration/numbers\n  method: get\n  operationId: getNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calling/v1/configuration/callbacks/applications/{application_key}\n  method: get\n  operationId: getApplicationCallbacks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calling/v1/configuration/callbacks/applications/{application_key}\n  method: post\n  operationId: updateApplicationCallbacks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n  \
-  \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calling/v1/configuration/numbers/{number}\n  method: get\n  operationId: getNumberConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calling/v1/configuration/numbers/{number}\n  method: post\n  operationId: updateNumberConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calling/v1/configuration/numbers/{number}\n  method: delete\n  operationId: unassignNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
-  \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/apps\n  method: get\n  operationId: listApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/apps\n  method: post\n  operationId: createApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/apps/{app_id}\n  method: get\n  operationId: getApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  - path: /v1/projects/{project_id}/apps/{app_id}\n  method: patch\n  operationId: updateApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/apps/{app_id}\n  method: delete\n  operationId: deleteApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/availableNumbers\n  method: get\n  operationId: listAvailableNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/availableNumbers/{phone_number}\n\
-  \  method: get\n  operationId: getAvailableNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/availableNumbers/{phone_number}:rent\n  method: post\n  operationId: rentNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/availableRegions\n  method: get\n  operationId: listAvailableRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/batches\n  method: post\n  operationId: sendBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n \
-  \   subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xms/v1/{service_plan_id}/batches\n  method: get\n  operationId: listBatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/batches/{batch_id}\n  method: get\n  operationId: getBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/batches/{batch_id}\n  method: post\n  operationId: updateBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xms/v1/{service_plan_id}/batches/{batch_id}/cancel\n  method: put\n  operationId: cancelBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xms/v1/{service_plan_id}/batches/{batch_id}/dry_run\n  method: post\n  operationId: dryRunBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/brand-metadata\n  method: get\n  operationId: getBrandMetadata\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/brands\n  method: get\n  operationId: listBrands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/brands\n  method: post\n  operationId: createBrand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/brands:submit\n  method: post\n  operationId: createAndSubmitBrand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/brands/{brand_id}\n  method: get\n  operationId: getBrand\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/brands/{brand_id}\n  method: put\n  operationId: updateBrand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/brands/{brand_id}\n  method: delete\n  operationId: deleteBrand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/brands/{brand_id}:submit\n  method: post\n  operationId: submitBrand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calling/v1/callouts\n  method: post\n  operationId: createCallout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calling/v1/calls/id/{call_id}\n  method: get\n  operationId: getCall\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  - path: /calling/v1/calls/id/{call_id}\n  method: patch\n  operationId: updateCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/capability:query\n  method: post\n  operationId: queryCapability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calling/v1/conferences/id/{conference_id}\n  method: get\n  operationId: getConference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /calling/v1/conferences/id/{conference_id}\n  method: delete\n  operationId: kickAllFromConference\n  x-agentic-access:\n    action-class: acting\n\
-  \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calling/v1/conferences/id/{conference_id}/{call_id}\n  method: patch\n  operationId: manageConferenceParticipant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /calling/v1/conferences/id/{conference_id}/{call_id}\n  method: delete\n  operationId: kickParticipantFromConference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
-  \ high-value\n    audit: required\n- path: /v1/projects/{project_id}/contacts\n  method: post\n  operationId: createContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/contacts\n  method: get\n  operationId: listContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/contacts/{contact_id}\n  method: get\n  operationId: getContact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/contacts/{contact_id}\n  method: patch\n  operationId: updateContact\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/contacts/{contact_id}\n  method: delete\n  operationId: deleteContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/contacts:merge\n  method: post\n  operationId: mergeContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /v1/projects/{project_id}/conversations\n  method: get\n  operationId: listConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/conversations\n  method: post\n  operationId: createConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/conversations/{conversation_id}\n  method: get\n  operationId: getConversation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/conversations/{conversation_id}\n  method: patch\n  operationId: updateConversation\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/conversations/{conversation_id}\n  method: delete\n  operationId: deleteConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/conversations/{conversation_id}:stop\n  method: post\n  operationId: stopConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n\
-  \      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /xms/v1/{service_plan_id}/batches/{batch_id}/delivery_report\n  method: get\n  operationId: getBatchDeliveryReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/batches/{batch_id}/delivery_report/{recipient_msisdn}\n  method: get\n  operationId: getRecipientDeliveryReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/delivery_reports\n  method: get\n  operationId: listDeliveryReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/events:send\n  method: post\n  operationId: sendEvent\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/services/{service_id}/emails\n  method: post\n  operationId: createFaxToEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/services/{service_id}/emails\n  method: get\n  operationId: listFaxToEmails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{project_id}/services/{service_id}/emails/{email}\n\
-  \  method: delete\n  operationId: deleteFaxToEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/faxes\n  method: post\n  operationId: sendFax\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/faxes\n  method: get\n  operationId: listFaxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{project_id}/faxes/{fax_id}\n\
-  \  method: get\n  operationId: getFax\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{project_id}/faxes/{fax_id}\n  method: delete\n  operationId: deleteFaxContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/faxes/{fax_id}/file\n  method: get\n  operationId: downloadFaxContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/groups\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xms/v1/{service_plan_id}/groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/groups/{group_id}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/groups/{group_id}\n  method: post\n  operationId: updateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /xms/v1/{service_plan_id}/groups/{group_id}\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xms/v1/{service_plan_id}/groups/{group_id}/members\n  method: get\n  operationId: getGroupMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/inbounds\n  method: get\n  operationId: listInboundMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/inbounds/{inbound_id}\n  method: get\n  operationId: getInboundMessage\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/kakaoTalk/senders\n  method: get\n  operationId: listKakaoTalkSenders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/kakaoTalk/senders\n  method: post\n  operationId: createKakaoTalkSender\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/line/senders\n  method: get\n  operationId: listLineSenders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/line/senders\n  method: post\n  operationId: createLineSender\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/markets\n  method: get\n  operationId: listMarkets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/markets/{market_id}\n  method: get\n  operationId: getMarket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/messages:send\n\
-  \  method: post\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/messages\n  method: get\n  operationId: listMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/messages/{message_id}\n  method: get\n  operationId: getMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/messages/{message_id}\n  method: delete\n  operationId: deleteMessage\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/phoneNumbers\n  method: get\n  operationId: listTrunkPhoneNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/phoneNumbers\n  method: post\n  operationId: addPhoneNumberToTrunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/phoneNumbers/{phone_number}\n  method: delete\n\
-  \  operationId: removePhoneNumberFromTrunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/services\n  method: post\n  operationId: createService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{project_id}/services/{service_id}\n  method: get\n  operationId:\
-  \ getService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{project_id}/services/{service_id}\n  method: patch\n  operationId: updateService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/services/{service_id}\n  method: delete\n  operationId: deleteService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/services/{service_id}/numbers\n  method: get\n\
-  \  operationId: listServiceNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/rcs/senders\n  method: get\n  operationId: listRcsSenders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/rcs/senders\n  method: post\n  operationId: createRcsSender\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/agentic-access/sinch-agentic-access.yml\n"
+source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sinch-brands-openapi.yml, openapi/sinch-conversation-openapi.yml, openapi/sinch-elastic-sip-trunking-openapi.yml,\n  openapi/sinch-fax-openapi.yml, openapi/sinch-numbers-openapi.yml, openapi/sinch-provisioning-openapi.yml,\n  openapi/sinch-registration-openapi.yml, openapi/sinch-sms-openapi.yml, openapi/sinch-verification-openapi.yml,\n  openapi/sinch-voice-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 133\n  by_action_class:\n    connected: 59\n    acting: 74\n  by_consequence:\n    read: 59\n    write: 59\n    physical: 11\n    safety-critical: 4\n  human_in_the_loop_required: 4\noperations:\n- path: /v1/projects/{project_id}/brands\n  method: get\n  operationId: listBrands\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/brands\n  method: post\n  operationId: createBrand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/brands:submit\n  method: post\n  operationId: createAndSubmitBrand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/brands/{brand_id}\n  method: get\n  operationId: getBrand\n  x-agentic-access:\n\
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/brands/{brand_id}\n  method: put\n  operationId: updateBrand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/brands/{brand_id}\n  method: delete\n  operationId: deleteBrand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/brands/{brand_id}:submit\n  method: post\n  operationId: submitBrand\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/brand-metadata\n  method: get\n  operationId: getBrandMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/messages:send\n  method: post\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/messages\n  method: get\n  operationId:\
+  \ listMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/messages/{message_id}\n  method: get\n  operationId: getMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/messages/{message_id}\n  method: delete\n  operationId: deleteMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/contacts\n  method: post\n  operationId: createContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
+  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/contacts\n  method: get\n  operationId: listContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/contacts/{contact_id}\n  method: get\n  operationId: getContact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/contacts/{contact_id}\n  method: patch\n  operationId: updateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
+  \ required\n- path: /v1/projects/{project_id}/contacts/{contact_id}\n  method: delete\n  operationId: deleteContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/contacts:merge\n  method: post\n  operationId: mergeContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/conversations\n  method: get\n  operationId: listConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
+  \ none\n- path: /v1/projects/{project_id}/conversations\n  method: post\n  operationId: createConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/conversations/{conversation_id}\n  method: get\n  operationId: getConversation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/conversations/{conversation_id}\n  method: patch\n  operationId: updateConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
+  \      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/conversations/{conversation_id}\n  method: delete\n  operationId: deleteConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/conversations/{conversation_id}:stop\n  method: post\n  operationId: stopConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/projects/{project_id}/apps\n  method: get\n  operationId: listApps\n  x-agentic-access:\n    action-class: connected\n\
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/apps\n  method: post\n  operationId: createApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/apps/{app_id}\n  method: get\n  operationId: getApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/apps/{app_id}\n  method: patch\n  operationId: updateApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/apps/{app_id}\n  method: delete\n  operationId: deleteApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/apps/{app_id}/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/apps/{app_id}/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/webhooks/{webhook_id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/events:send\n  method: post\n  operationId: sendEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/messages:transcode\n  method: post\n  operationId: transcodeMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/capability:query\n  method: post\n  operationId: queryCapability\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/trunks\n  method: get\n  operationId: listTrunks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/trunks\n  method: post\n  operationId: createTrunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}\n  method: get\n  operationId: getTrunk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/trunks/{trunk_id}\n  method: patch\n  operationId: updateTrunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}\n  method: delete\n  operationId: deleteTrunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/sipEndpoints\n  method: get\n  operationId: listSipEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence:\
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/sipEndpoints\n  method: post\n  operationId: createSipEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/sipEndpoints/{endpoint_id}\n  method: get\n  operationId: getSipEndpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/sipEndpoints/{endpoint_id}\n  method: patch\n  operationId: updateSipEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
+  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/sipEndpoints/{endpoint_id}\n  method: delete\n  operationId: deleteSipEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/phoneNumbers\n  method: get\n  operationId: listTrunkPhoneNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/phoneNumbers\n  method: post\n  operationId: addPhoneNumberToTrunk\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/phoneNumbers/{phone_number}\n  method: delete\n  operationId: removePhoneNumberFromTrunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/accessControlLists\n  method: get\n  operationId: listAccessControlLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/accessControlLists\n  method: post\n  operationId:\
+  \ createAccessControlList\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/accessControlLists/{acl_id}\n  method: get\n  operationId: getAccessControlList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/accessControlLists/{acl_id}\n  method: patch\n  operationId: updateAccessControlList\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n\
+  \    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/projects/{project_id}/trunks/{trunk_id}/accessControlLists/{acl_id}\n  method: delete\n  operationId: deleteAccessControlList\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v3/projects/{project_id}/faxes\n  method: post\n  operationId: sendFax\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/faxes\n  method: get\n  operationId:\
+  \ listFaxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{project_id}/faxes/{fax_id}\n  method: get\n  operationId: getFax\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{project_id}/faxes/{fax_id}\n  method: delete\n  operationId: deleteFaxContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/faxes/{fax_id}/file\n  method: get\n  operationId: downloadFaxContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
+  \    audit: none\n- path: /v3/projects/{project_id}/services\n  method: post\n  operationId: createService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{project_id}/services/{service_id}\n  method: get\n  operationId: getService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{project_id}/services/{service_id}\n  method: patch\n  operationId: updateService\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/services/{service_id}\n  method: delete\n  operationId: deleteService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/services/{service_id}/numbers\n  method: get\n  operationId: listServiceNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{project_id}/services/{service_id}/emails\n  method: post\n  operationId: createFaxToEmail\n  x-agentic-access:\n\
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/projects/{project_id}/services/{service_id}/emails\n  method: get\n  operationId: listFaxToEmails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/projects/{project_id}/services/{service_id}/emails/{email}\n  method: delete\n  operationId: deleteFaxToEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/availableNumbers\n  method: get\n  operationId: listAvailableNumbers\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/availableNumbers/{phone_number}\n  method: get\n  operationId: getAvailableNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/availableNumbers/{phone_number}:rent\n  method: post\n  operationId: rentNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/activeNumbers\n  method: get\n  operationId: listActiveNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
+  \ token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/activeNumbers/{phone_number}\n  method: get\n  operationId: getActiveNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/activeNumbers/{phone_number}\n  method: patch\n  operationId: updateActiveNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/activeNumbers/{phone_number}:release\n  method: post\n  operationId: releaseNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/availableRegions\n  method: get\n  operationId: listAvailableRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/rcs/senders\n  method: get\n  operationId: listRcsSenders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/rcs/senders\n  method: post\n  operationId: createRcsSender\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
+  - path: /v1/projects/{project_id}/rcs/senders/{sender_id}\n  method: get\n  operationId: getRcsSender\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/rcs/senders/{sender_id}\n  method: patch\n  operationId: updateRcsSender\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/rcs/senders/{sender_id}\n  method: delete\n  operationId: deleteRcsSender\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n\
+  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/rcs/senders/{sender_id}/launch\n  method: post\n  operationId: launchRcsSender\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/kakaoTalk/senders\n  method: get\n  operationId: listKakaoTalkSenders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/kakaoTalk/senders\n  method: post\n  operationId: createKakaoTalkSender\n  x-agentic-access:\n    action-class: acting\n    consequence:\
+  \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/line/senders\n  method: get\n  operationId: listLineSenders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/line/senders\n  method: post\n  operationId: createLineSender\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/telegram/senders\n  method:\
+  \ get\n  operationId: listTelegramSenders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/telegram/senders\n  method: post\n  operationId: createTelegramSender\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/registrations\n  method: get\n  operationId: listRegistrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/registrations\n  method: post\n  operationId: createRegistration\n  x-agentic-access:\n    action-class:\
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/registrations/{registration_id}\n  method: get\n  operationId: getRegistration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/registrations/{registration_id}\n  method: patch\n  operationId: updateRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/registrations/{registration_id}\n  method: delete\n  operationId: deleteRegistration\n\
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/registrations/{registration_id}:submit\n  method: post\n  operationId: submitRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project_id}/markets\n  method: get\n  operationId: listMarkets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project_id}/markets/{market_id}\n  method: get\n  operationId: getMarket\n\
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/batches\n  method: post\n  operationId: sendBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xms/v1/{service_plan_id}/batches\n  method: get\n  operationId: listBatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xms/v1/{service_plan_id}/batches/{batch_id}\n  method: get\n  operationId: getBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n \
+  \     max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/agentic-access/sinch-agentic-access.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/agentic-access/sinch-agentic-access.yml
-summary_line: 133 operations · 73 acting · 4 human-in-the-loop
+summary_line: 133 operations · 74 acting · 4 human-in-the-loop
 tags:
 - Communications
 - Messaging
@@ -759,5 +364,4 @@ tags:
 - Verification
 - CPaaS
 - Telecommunications
-- WhatsApp
 ---

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: nscale-chat-api-openapi.yml
-  format: yaml
-  label: Nscale Chat API
-  slug: nscale-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-chat-api-openapi.yml
 - filename: nscale-completions-api-openapi.yml
   format: yaml
   label: Nscale Completions API
@@ -34,6 +28,12 @@ api_specs:
   slug: nscale-models-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-models-api-openapi.yml
+- filename: nscale-chat-completions-api-openapi.yml
+  format: yaml
+  label: Nscale Chat Completions API
+  slug: nscale-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nscale/refs/heads/main/openapi/nscale-chat-completions-api-openapi.yml
 consequence_counts:
   read: 2
   write: 4

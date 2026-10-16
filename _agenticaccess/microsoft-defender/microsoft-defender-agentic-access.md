@@ -57,4 +57,5 @@ tags:
 - Data Protection
 - Threat Intelligence
 - Email Security
+- Endpoint Security
 ---

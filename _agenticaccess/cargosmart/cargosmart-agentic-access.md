@@ -67,7 +67,6 @@ summary_line: 8 operations · 1 acting
 tags:
 - Booking
 - Containers
-- Documentation
 - GSBN
 - IQAX
 - Logistics
