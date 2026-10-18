@@ -60,7 +60,6 @@ summary_line: 5 operations · 2 acting
 tags:
 - Artificial Intelligence
 - Video Generation
-- Text-to-Video
 - Multi-Modal
 - Generative
 ---

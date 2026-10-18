@@ -157,7 +157,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/talent
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/agentic-access/talentlms-agentic-access.yml
 summary_line: 63 operations · 31 acting · 2 human-in-the-loop
 tags:
-- Learning Management System
 - LMS
 - E-Learning
 - Training

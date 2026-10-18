@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gorgia
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/agentic-access/gorgias-agentic-access.yml
 summary_line: 49 operations · 26 acting
 tags:
-- Customer Support
+- Customer Service
 - Help Desk
 - E-Commerce
 - Shopify

@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avora-agent-fo
 summary_line: 8 operations · 1 acting
 tags:
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Solana
 - Token Risk
 - Due Diligence

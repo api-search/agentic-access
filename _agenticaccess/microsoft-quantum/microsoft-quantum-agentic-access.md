@@ -77,7 +77,7 @@ summary_line: 27 operations · 13 acting
 tags:
 - Quantum
 - Quantum Computing
-- Azure
+- Microsoft Azure
 - Microsoft
 - Q#
 - QDK

@@ -218,9 +218,9 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/ticker
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tickerinside/refs/heads/main/agentic-access/tickerinside-agentic-access.yml
 summary_line: 32 operations
 tags:
-- ETF
-- finance
-- open-data
+- ETFs
+- Finance
+- Open Data
 - SEC-filings
-- holdings
+- Holdings
 ---

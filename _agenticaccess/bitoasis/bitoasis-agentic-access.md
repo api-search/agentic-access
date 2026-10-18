@@ -112,7 +112,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/
 summary_line: 23 operations · 6 acting
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Exchange
 - Trading

@@ -283,7 +283,7 @@ summary_line: 96 operations · 38 acting
 tags:
 - Company
 - Fintech
-- Crypto
+- Cryptocurrency
 - Exchange
 - On-Off Ramp
 - Payments

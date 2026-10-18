@@ -257,7 +257,7 @@ tags:
 - Security
 - Application Security
 - SAST
-- SCA
+- Software Composition Analysis
 - Code Security
 - Vulnerability Management
 - DevSecOps

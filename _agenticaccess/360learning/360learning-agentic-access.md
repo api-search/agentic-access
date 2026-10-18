@@ -334,7 +334,7 @@ summary_line: 164 operations · 104 acting · 104 human-in-the-loop
 tags:
 - Company
 - EdTech
-- Learning Management System
+- LMS
 - E-Learning
 - Training
 - Collaborative Learning

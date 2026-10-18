@@ -93,7 +93,7 @@ summary_line: 32 operations · 20 acting
 tags:
 - Artificial Intelligence
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Extraction
 - LLM
 - SenseML

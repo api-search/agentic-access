@@ -94,7 +94,7 @@ summary_line: 20 operations · 4 acting
 tags:
 - Artificial Intelligence
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Enterprise
 - Automation
 - Generative AI

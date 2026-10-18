@@ -281,9 +281,9 @@ source_yaml: "generated: '2026-10-05'\nmethod: generated\nsource: openapi/alloca
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allocations/refs/heads/main/agentic-access/allocations-agentic-access.yml
 summary_line: 167 operations · 77 acting · 1 human-in-the-loop
 tags:
-- FinTech
+- Fintech
 - FundAdministration
 - PrivateMarkets
-- SaaS
+- Software-as-a-Service
 - InvestmentPlatform
 ---

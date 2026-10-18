@@ -45,7 +45,7 @@ summary_line: 1 operation
 tags:
 - DeFi
 - Perpetuals
-- DEX
+- Decentralized Exchange
 - Layer 1
 - Trading
 - Order Book

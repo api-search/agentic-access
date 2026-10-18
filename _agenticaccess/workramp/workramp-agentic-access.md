@@ -240,12 +240,11 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/workra
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/agentic-access/workramp-agentic-access.yml
 summary_line: 137 operations · 55 acting
 tags:
-- Learning Management
+- LMS
 - Revenue Enablement
 - Sales Enablement
 - Training
 - Onboarding
-- LMS
 - Assessment
 - Certification
 - Coaching

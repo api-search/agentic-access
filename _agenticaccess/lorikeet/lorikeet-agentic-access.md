@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/
 summary_line: 13 operations · 7 acting
 tags:
 - Artificial Intelligence
-- Customer Support
+- Customer Service
 - AI Agents
 - Support Automation
 - Workflows

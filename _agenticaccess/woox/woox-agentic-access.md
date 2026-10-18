@@ -190,7 +190,7 @@ summary_line: 68 operations · 27 acting · 1 human-in-the-loop
 tags:
 - Company
 - Cryptocurrency
-- Exchanges
+- Exchange
 - Trading
 - Derivatives
 ---

@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jobber
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jobber/refs/heads/main/agentic-access/jobber-agentic-access.yml
 summary_line: 1 operation · 1 acting
 tags:
-- Field Service Management
+- Field Service
 - Home Service
 - Scheduling
 - Quoting

@@ -120,7 +120,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/messari/refs/h
 summary_line: 42 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Web3
-- Crypto
+- Cryptocurrency
 - Research
 - Analytics
 - Asset Data

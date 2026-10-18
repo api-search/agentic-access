@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/he
 summary_line: 28 operations · 19 acting
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Messaging
 - Team Communication
 - Collaboration

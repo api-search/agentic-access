@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1token/refs/he
 summary_line: 1 operation
 tags:
 - Digital Assets
-- Crypto
+- Cryptocurrency
 - Portfolio Management
 - Risk Management
 - Fund Administration

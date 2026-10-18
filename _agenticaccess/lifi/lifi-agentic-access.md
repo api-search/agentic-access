@@ -159,7 +159,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lifi/refs/head
 summary_line: 33 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Cross-Chain
 - Bridge
@@ -170,6 +170,5 @@ tags:
 - Yield
 - Intents
 - Agents
-- Web3
 - Cryptocurrency
 ---

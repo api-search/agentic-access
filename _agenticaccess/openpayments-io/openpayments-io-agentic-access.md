@@ -217,6 +217,5 @@ tags:
 - Company
 - Payments
 - Banking
-- API
-- FinTech
+- Fintech
 ---

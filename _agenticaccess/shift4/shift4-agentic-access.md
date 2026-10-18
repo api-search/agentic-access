@@ -244,7 +244,7 @@ tags:
 - Payment Processing
 - Payment Gateway
 - Acquiring
-- Payment Terminal
+- Payment Terminals
 - Tokenization
 - ACH
 - 3D Secure

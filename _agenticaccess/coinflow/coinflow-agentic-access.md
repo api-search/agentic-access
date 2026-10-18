@@ -282,7 +282,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/
 summary_line: 180 operations · 116 acting · 3 human-in-the-loop
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Payments
 - Stablecoins
 - USDC

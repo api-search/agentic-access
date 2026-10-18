@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nansen/refs/he
 summary_line: 6 operations
 tags:
 - Web3
-- Crypto
+- Cryptocurrency
 - Onchain
 - Wallet Labels
 - Smart Money

@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/transi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/agentic-access/transistor-agentic-access.yml
 summary_line: 23 operations · 11 acting
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Analytics
 - Media

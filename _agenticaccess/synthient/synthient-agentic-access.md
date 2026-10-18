@@ -88,7 +88,7 @@ summary_line: 53 operations
 tags:
 - Company
 - IP
-- Enrichment
+- Data Enrichment
 - Cybersecurity
 - Data
 ---

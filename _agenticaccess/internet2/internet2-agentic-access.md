@@ -107,5 +107,5 @@ tags:
 - Networking
 - Research
 - Education
-- Nonprofit
+- Non-Profit
 ---

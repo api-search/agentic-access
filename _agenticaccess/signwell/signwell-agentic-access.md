@@ -105,7 +105,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signwell/refs/
 summary_line: 27 operations · 14 acting
 tags:
 - E-Signature
-- Electronic Signature
 - Documents
 - PDF
 - Signing

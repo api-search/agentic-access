@@ -119,7 +119,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaco
 summary_line: 50 operations · 36 acting · 2 human-in-the-loop
 tags:
 - Broadcasting
-- Live Video
+- Live Streaming
 - Media
 - Media Transport
 ---

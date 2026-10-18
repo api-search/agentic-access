@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/joblog
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/agentic-access/joblogic-agentic-access.yml
 summary_line: 52 operations · 31 acting
 tags:
-- Field Service Management
+- Field Service
 - Job Management
 - Scheduling
 - Maintenance

@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boost/refs/hea
 summary_line: 17 operations
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Web3
 - Incentives
 - Rewards

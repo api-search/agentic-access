@@ -267,7 +267,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fieldpulse/ref
 summary_line: 109 operations · 57 acting
 tags:
 - Company
-- Field Service Management
+- Field Service
 - Service Management
 - Scheduling
 - Dispatch

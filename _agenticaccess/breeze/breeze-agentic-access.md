@@ -191,13 +191,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/he
 summary_line: 89 operations · 41 acting · 1 human-in-the-loop
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Solana
 - Yield
 - DeFi
 - Payments
 - Blockchain
 - AI Agents
-- Web3
 - Cryptocurrency
 ---

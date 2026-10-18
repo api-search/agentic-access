@@ -135,7 +135,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jasper/refs/he
 summary_line: 50 operations · 29 acting
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - Content Generation
 - Marketing

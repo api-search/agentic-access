@@ -240,7 +240,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/agentic-access/azure-test-labs-agentic-access.yml
 summary_line: 132 operations · 87 acting · 2 human-in-the-loop
 tags:
-- Azure
+- Microsoft Azure
 - Development
 - Infrastructure
 - Labs

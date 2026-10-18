@@ -190,7 +190,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/uber-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/agentic-access/uber-agentic-access.yml
 summary_line: 57 operations · 25 acting
 tags:
-- Ridesharing
+- Ride Hailing
 - Taxis
 - Transportation
 - Food Delivery

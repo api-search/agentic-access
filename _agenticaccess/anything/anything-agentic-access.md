@@ -149,7 +149,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anything/refs/
 summary_line: 46 operations · 24 acting · 1 human-in-the-loop
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - App Builder
 - Low-Code
 - No-Code

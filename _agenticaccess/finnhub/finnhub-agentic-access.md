@@ -68,7 +68,7 @@ tags:
 - Finance
 - Market Data
 - Stocks
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Fundamentals
 - News

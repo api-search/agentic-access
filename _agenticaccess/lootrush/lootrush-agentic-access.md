@@ -66,7 +66,6 @@ summary_line: 5 operations · 2 acting
 tags:
 - Company
 - Gaming
-- Crypto
 - Cryptocurrency
 - Payments
 - Withdrawals

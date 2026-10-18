@@ -72,9 +72,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pancakeswap/re
 summary_line: 10 operations · 1 acting
 tags:
 - DeFi
-- DEX
-- BNB Chain
 - Decentralized Exchange
+- BNB Chain
 - Blockchain
 - Swap
 - Liquidity

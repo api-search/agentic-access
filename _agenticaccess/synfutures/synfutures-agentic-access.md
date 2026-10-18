@@ -189,7 +189,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synfutures/ref
 summary_line: 43 operations · 22 acting · 1 human-in-the-loop
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Trading
 - Derivatives

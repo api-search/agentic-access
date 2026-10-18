@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/veli-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/agentic-access/veli-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
-- Crypto
+- Cryptocurrency
 - DeFi
 - Finance
 - Investment

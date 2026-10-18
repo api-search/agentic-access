@@ -142,7 +142,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightning-labs
 summary_line: 71 operations · 33 acting · 3 human-in-the-loop
 tags:
 - Bitcoin
-- Crypto
+- Cryptocurrency
 - Lightning Network
 - Payments
 ---

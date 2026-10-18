@@ -50,7 +50,7 @@ tags:
 - Threat Intelligence
 - Incident Response
 - Attack Surface Management
-- Brokers
+- Brokerage
 - MGA
 - Executive Risks
 - Technology E&O

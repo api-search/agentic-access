@@ -33,6 +33,30 @@ api_specs:
   slug: bridge-interactive-reso-web-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-reso-web-api-api-openapi.yml
+- filename: bridge-interactive-webhooks-api-openapi.yml
+  format: yaml
+  label: Bridge Interactive Webhooks API
+  slug: bridge-interactive-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-webhooks-api-openapi.yml
+- filename: bridge-interactive-property-api-openapi.yml
+  format: yaml
+  label: Bridge Interactive Property API
+  slug: bridge-interactive-property-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-property-api-openapi.yml
+- filename: bridge-interactive-member-api-openapi.yml
+  format: yaml
+  label: Bridge Interactive Member API
+  slug: bridge-interactive-member-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-member-api-openapi.yml
+- filename: bridge-interactive-office-api-openapi.yml
+  format: yaml
+  label: Bridge Interactive Office API
+  slug: bridge-interactive-office-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-office-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

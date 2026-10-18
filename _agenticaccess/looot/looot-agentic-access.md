@@ -773,8 +773,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/looot/refs/hea
 summary_line: 316 operations · 172 acting · 33 human-in-the-loop
 tags:
 - Marketplace
-- API
-- AI
+- Artificial Intelligence
 - Data
 - Integration
 ---

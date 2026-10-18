@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lumos-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/agentic-access/lumos-agentic-access.yml
 summary_line: 67 operations · 33 acting
 tags:
-- Access Management
+- Identity and Access Management
 - Access Reviews
 - Deprovisioning
 - Identity Governance

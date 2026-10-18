@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-function-apps/refs/heads/main/agentic-access/azure-function-apps-agentic-access.yml
 summary_line: 37 operations · 26 acting
 tags:
-- Azure
+- Microsoft Azure
 - Compute
 - Function-as-a-Service
 - Functions

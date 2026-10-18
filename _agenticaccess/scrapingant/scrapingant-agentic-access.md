@@ -55,7 +55,6 @@ summary_line: 6 operations · 4 acting
 tags:
 - Data Extraction
 - Proxies
-- Scraping
 - Web Scraping
 - Headless Browser
 - AI Agents

@@ -107,7 +107,7 @@ summary_line: 21 operations · 9 acting
 tags:
 - Geospatial
 - AerialImagery
-- DataAnalytics
-- RealEstate
+- Data Analytics
+- Real Estate
 - Insurance
 ---

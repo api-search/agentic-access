@@ -64,10 +64,10 @@ summary_line: 13 operations · 9 acting
 tags:
 - Eventing
 - Event-Driven
-- Pub-Sub
+- Pub/Sub
 - Messaging
 - Webhook
 - CloudEvents
 - Cloud
-- Azure
+- Microsoft Azure
 ---

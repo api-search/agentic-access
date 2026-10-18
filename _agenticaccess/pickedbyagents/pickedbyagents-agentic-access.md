@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pickedbyagents
 summary_line: 42 operations · 26 acting · 2 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Monitoring
 - Visibility
 - Local Business

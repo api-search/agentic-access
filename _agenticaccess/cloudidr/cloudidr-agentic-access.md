@@ -59,9 +59,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudidr/refs/
 summary_line: 12 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Company
-- IAM
+- Identity and Access Management
 - Cloud
 - Security
-- AI
+- Artificial Intelligence
 - FinOps
 ---

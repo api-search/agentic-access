@@ -80,7 +80,7 @@ summary_line: 13 operations · 3 acting
 tags:
 - Business Process
 - Collaboration
-- Diagrams
+- Diagramming
 - Enterprise
 - Flowcharts
 - Microsoft 365

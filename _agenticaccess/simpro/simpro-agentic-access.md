@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/simpro
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/agentic-access/simpro-agentic-access.yml
 summary_line: 52 operations · 27 acting
 tags:
-- Field Service Management
+- Field Service
 - Trade
 - Job Management
 - Project Management

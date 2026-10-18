@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/agentic-access/azure-container-apps-agentic-access.yml
 summary_line: 22 operations · 12 acting
 tags:
-- Azure
+- Microsoft Azure
 - Containers
 - Dapr
 - Kubernetes

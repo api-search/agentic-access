@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/agentic-access/azure-networking-services-agentic-access.yml
 summary_line: 41 operations · 14 acting
 tags:
-- Azure
+- Microsoft Azure
 - Cloud
 - Infrastructure
 - Microsoft

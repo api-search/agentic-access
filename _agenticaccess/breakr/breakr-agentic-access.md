@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breakr/refs/he
 summary_line: 1 operation
 tags:
 - Company
-- Creator Economy
+- CreatorEconomy
 - Fintech
 - Software-as-a-Service
 - Payments

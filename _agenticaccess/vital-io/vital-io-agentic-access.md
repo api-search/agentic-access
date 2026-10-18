@@ -112,6 +112,18 @@ api_specs:
   slug: vital-io-lab-testing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-lab-testing-api-openapi.yml
+- filename: vital-io-checkout-api-openapi.yml
+  format: yaml
+  label: Vital Checkout API
+  slug: vital-io-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-checkout-api-openapi.yml
+- filename: vital-io-unmatched-api-openapi.yml
+  format: yaml
+  label: Vital Unmatched API
+  slug: vital-io-unmatched-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/openapi/vital-io-unmatched-api-openapi.yml
 - filename: vital-io-time-series-api-openapi.yml
   format: yaml
   label: Vital Time Series API
@@ -275,8 +287,7 @@ tags:
 - HIPAA
 - HealthKit
 - Health Connect
-- EHR
-- EMR
+- Electronic Health Records
 - Biomarkers
 - Diagnostics
 - Continuous Glucose Monitoring

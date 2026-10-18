@@ -64,7 +64,7 @@ summary_line: 17 operations · 10 acting
 tags:
 - Browser
 - Web Automation
-- Scraping
+- Web Scraping
 - AI Agents
 - Open Source
 - Browser Automation

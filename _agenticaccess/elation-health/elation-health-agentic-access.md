@@ -945,8 +945,7 @@ summary_line: 846 operations · 455 acting
 tags:
 - Healthcare
 - United States
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - HL7
 - Interoperability

@@ -95,7 +95,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azur
 summary_line: 19 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Messaging
-- Pub-Sub
+- Pub/Sub
 - Real-Time
 - Serverless
 - WebSocket

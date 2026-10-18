@@ -624,8 +624,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amberai/refs/h
 summary_line: 179 operations
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - OperatingSystem
 - Automation
-- SupplyChain
+- Supply Chain
 ---

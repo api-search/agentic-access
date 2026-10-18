@@ -107,7 +107,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glassnode/refs
 summary_line: 14 operations
 tags:
 - Web3
-- Crypto
+- Cryptocurrency
 - Onchain
 - Analytics
 - Metrics

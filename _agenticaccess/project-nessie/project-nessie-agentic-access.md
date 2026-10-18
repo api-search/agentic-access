@@ -38,8 +38,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/project-nessie
 summary_line: 1 operation
 tags:
 - Company
-- OpenSource
+- Open Source
 - DataLake
-- VersionControl
+- Version Control
 - Community
 ---

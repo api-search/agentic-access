@@ -114,7 +114,7 @@ summary_line: 37 operations
 tags:
 - Financial market data
 - Stocks/equities
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - DeFi/on-chain
 - Commodities

@@ -393,7 +393,7 @@ tags:
 - Stocks
 - Options
 - Futures
-- Crypto
+- Cryptocurrency
 - Reference Data
 - Fundamentals
 ---

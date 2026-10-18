@@ -73,8 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orkas/refs/hea
 summary_line: 9 operations · 4 acting
 tags:
 - Company
-- AI
-- API
-- Chatbot
+- Artificial Intelligence
+- Chatbots
 - Media
 ---

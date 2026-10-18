@@ -54,7 +54,6 @@ summary_line: 4 operations · 1 acting
 tags:
 - Company
 - Chess
-- API
 - Free
 - NoAuth
 ---

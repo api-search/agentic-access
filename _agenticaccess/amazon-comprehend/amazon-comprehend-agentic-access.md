@@ -123,6 +123,5 @@ summary_line: 84 operations · 66 acting · 9 human-in-the-loop
 tags:
 - Machine Learning
 - Natural Language Processing
-- NLP
 - Text Analysis
 ---

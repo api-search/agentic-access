@@ -127,7 +127,7 @@ tags:
 - Application Security
 - SAST
 - DAST
-- SCA
+- Software Composition Analysis
 - Security Testing
 - DevSecOps
 ---

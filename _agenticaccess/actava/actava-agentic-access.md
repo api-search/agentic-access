@@ -47,8 +47,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/actava/refs/he
 summary_line: 2 operations · 1 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Healthcare
-- MachineLearning
+- Machine Learning
 - Platform
 ---

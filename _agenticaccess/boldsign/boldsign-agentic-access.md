@@ -208,7 +208,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/
 summary_line: 85 operations · 59 acting · 2 human-in-the-loop
 tags:
 - E-Signature
-- Electronic Signature
 - Document Management
 - Embedded Signing
 - Webhook

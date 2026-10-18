@@ -127,7 +127,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightspace/re
 summary_line: 55 operations · 18 acting
 tags:
 - LMS
-- Learning Management System
 - EdTech
 - Education
 - Valence

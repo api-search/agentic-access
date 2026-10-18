@@ -26,6 +26,12 @@ api_specs:
   slug: eventwren-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-webhooks-api-openapi.yml
+- filename: eventwren-oauth-api-openapi.yml
+  format: yaml
+  label: Eventwren OAuth API
+  slug: eventwren-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-oauth-api-openapi.yml
 consequence_counts: {}
 description: What calling each eventwren.com operation does, and whether a person should be involved. Read from the x-agentic-access extension in https://eventwren.com/openapi-site.yml.
 human_in_the_loop: 0

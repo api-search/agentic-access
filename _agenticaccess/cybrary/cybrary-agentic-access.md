@@ -42,7 +42,7 @@ tags:
 - Cybersecurity
 - Training
 - Education
-- Learning Management
+- LMS
 - Certification
 - Workforce Development
 - xAPI

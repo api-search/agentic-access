@@ -84,7 +84,7 @@ tags:
 - Collaboration
 - Communications
 - Device Management
-- Identity Management
+- Identity and Access Management
 - Licenses
 - Reporting
 - Webex

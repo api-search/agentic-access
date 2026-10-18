@@ -238,7 +238,7 @@ summary_line: 944 operations · 470 acting · 12 human-in-the-loop
 tags:
 - Gitea
 - Git
-- Source Control
+- Version Control
 - DevOps
 - CI/CD
 - Code Hosting

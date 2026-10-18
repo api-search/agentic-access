@@ -5,7 +5,7 @@ action_class_counts:
 api_specs:
 - filename: ballranks-rankings-and-projections-api-openapi.yml
   format: yaml
-  label: Ball Ranks Rankings and projections API
+  label: Ball Ranks API
   slug: ballranks-rankings-and-projections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ballranks/refs/heads/main/openapi/ballranks-rankings-and-projections-api-openapi.yml
@@ -40,7 +40,7 @@ summary_line: 4 operations
 tags:
 - Company
 - Fantasy Sports
-- AI
+- Artificial Intelligence
 - Rankings
 - Projections
 ---

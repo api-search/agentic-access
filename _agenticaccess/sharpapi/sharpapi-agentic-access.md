@@ -119,7 +119,6 @@ summary_line: 36 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Company
 - Sports Betting
-- Real-time Data
-- API
+- Real-Time Data
 - Gambling
 ---

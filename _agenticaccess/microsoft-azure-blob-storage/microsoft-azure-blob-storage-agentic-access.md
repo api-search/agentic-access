@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/micros
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/agentic-access/microsoft-azure-blob-storage-agentic-access.yml
 summary_line: 45 operations · 29 acting
 tags:
-- Azure
+- Microsoft Azure
 - Blobs
 - Cloud Storage
 - Microsoft

@@ -147,12 +147,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kadena/refs/he
 summary_line: 38 operations · 13 acting
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Blockchain
 - Smart Contracts
 - Proof of Work
 - Layer 1
-- Web3
 - Cryptocurrency
 - Developer Tools
 - Decentralized

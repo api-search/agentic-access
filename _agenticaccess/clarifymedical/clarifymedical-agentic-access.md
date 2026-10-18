@@ -257,7 +257,6 @@ summary_line: 91 operations · 58 acting · 6 human-in-the-loop
 tags:
 - Company
 - Healthcare
-- DataAnalytics
-- HealthTech
-- API
+- Data Analytics
+- Health Tech
 ---

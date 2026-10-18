@@ -144,7 +144,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yatmo/refs/hea
 summary_line: 40 operations · 2 acting
 tags:
 - Company
-- RealEstate
+- Real Estate
 - LocationIntelligence
 - MappingAPI
 - POIData

@@ -100,7 +100,7 @@ summary_line: 55 operations · 28 acting
 tags:
 - Machine Translation
 - Translation
-- NLP
+- Natural Language Processing
 - Neural Machine Translation
 - Localization
 - Language Detection

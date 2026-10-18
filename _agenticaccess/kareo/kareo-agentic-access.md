@@ -87,7 +87,7 @@ summary_line: 32 operations · 15 acting
 tags:
 - Healthcare
 - Medical Software
-- EHR
+- Electronic Health Records
 - Practice Management
 - Medical Billing
 - Patient Scheduling

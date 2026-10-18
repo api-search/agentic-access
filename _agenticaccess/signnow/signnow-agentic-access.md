@@ -95,6 +95,5 @@ summary_line: 22 operations · 12 acting
 tags:
 - E-Signature
 - Document Management
-- Electronic Signature
 - Workflow Automation
 ---

@@ -66,10 +66,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexa/refs/hea
 summary_line: 8 operations · 3 acting
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Payments
 - Digital Currency
-- Cryptocurrency
 - Fintech
 - Blockchain
 - Merchant Payments

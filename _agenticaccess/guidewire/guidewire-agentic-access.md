@@ -95,5 +95,5 @@ tags:
 - Policy
 - Claims
 - Billing
-- P&C
+- Property and Casualty
 ---

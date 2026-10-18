@@ -67,7 +67,7 @@ summary_line: 9 operations · 5 acting
 tags:
 - Artificial Intelligence
 - Document AI
-- IDP
+- Intelligent Document Processing
 - Invoices
 - OCR
 - Workflows

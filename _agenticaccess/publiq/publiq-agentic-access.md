@@ -308,7 +308,7 @@ summary_line: 254 operations · 155 acting
 tags:
 - Company
 - Culture
-- Events
+- Event
 - Leisure
 - Belgium
 - Non-Profit

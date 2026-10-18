@@ -109,7 +109,6 @@ summary_line: 20 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Company
 - News
-- Crypto
 - Cryptocurrency
 - Market Intelligence
 - Sentiment Analysis

@@ -294,11 +294,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/forger
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/agentic-access/forgerock-agentic-access.yml
 summary_line: 122 operations · 49 acting
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Authorization
 - Identity Governance
-- Identity Management
 - OpenID Connect
 - Identity Federation
 ---

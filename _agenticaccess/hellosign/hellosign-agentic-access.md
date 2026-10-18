@@ -180,7 +180,6 @@ summary_line: 73 operations · 46 acting
 tags:
 - Company
 - E-Signature
-- Electronic Signature
 - Documents
 - Digital Agreements
 - Signature Workflow

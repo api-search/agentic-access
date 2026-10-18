@@ -115,6 +115,6 @@ tags:
 - Company
 - Location-Intelligence
 - Marketing
-- Data-Analytics
+- Data Analytics
 - Footfall-Measurement
 ---

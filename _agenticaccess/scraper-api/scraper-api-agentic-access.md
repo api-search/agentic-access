@@ -48,5 +48,5 @@ summary_line: 4 operations · 1 acting
 tags:
 - Data Extraction
 - Proxies
-- Scraping
+- Web Scraping
 ---

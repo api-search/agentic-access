@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tronit
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/agentic-access/tronity-agentic-access.yml
 summary_line: 21 operations · 7 acting · 4 human-in-the-loop
 tags:
-- Connected Car
+- Connected Vehicles
 - Electric Vehicles
 - Telematics
 - Fleet

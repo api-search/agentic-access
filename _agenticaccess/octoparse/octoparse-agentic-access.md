@@ -138,5 +138,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octoparse/refs
 summary_line: 21 operations · 15 acting · 2 human-in-the-loop
 tags:
 - Harvesting
-- Scraping
+- Web Scraping
 ---

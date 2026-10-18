@@ -86,7 +86,6 @@ tags:
 - Documents
 - PDF
 - E-Signature
-- Electronic Signature
 - Document Automation
 - Document Conversion
 - Data Extraction

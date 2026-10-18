@@ -331,7 +331,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/servic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/agentic-access/servicetitan-agentic-access.yml
 summary_line: 90 operations · 37 acting
 tags:
-- Field Service Management
+- Field Service
 - Trade
 - HVAC
 - Plumbing

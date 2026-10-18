@@ -72,5 +72,4 @@ tags:
 - Journals
 - ScholarlyPublishing
 - Metadata
-- APIs
 ---

@@ -100,8 +100,8 @@ summary_line: 27 operations · 14 acting
 tags:
 - Artificial Intelligence
 - Document AI
-- Azure
-- IDP
+- Microsoft Azure
+- Intelligent Document Processing
 - OCR
 - Microsoft
 - REST

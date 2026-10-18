@@ -777,7 +777,7 @@ tags:
 - Public Records
 - Government Data
 - Finance
-- Crypto
+- Cryptocurrency
 - Security
 - Legal
 - Weather

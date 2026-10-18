@@ -110,7 +110,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metalend/refs/
 summary_line: 17 operations · 5 acting
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Lending
 - Yield

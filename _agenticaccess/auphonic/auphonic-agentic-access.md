@@ -180,8 +180,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/
 summary_line: 60 operations · 45 acting · 17 human-in-the-loop
 tags:
 - Audio
-- Podcasting
-- AI
+- Podcasts
+- Artificial Intelligence
 - Automation
 - Media
 ---

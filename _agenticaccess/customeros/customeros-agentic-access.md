@@ -136,7 +136,7 @@ tags:
 - Visitor Identification
 - Attribution
 - Email Verification
-- Enrichment
+- Data Enrichment
 - GraphQL
 - Open Source
 - A2A

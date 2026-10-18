@@ -72,7 +72,7 @@ summary_line: 16 operations · 4 acting · 2 human-in-the-loop
 tags:
 - Blockchain
 - Compliance
-- Crypto
+- Cryptocurrency
 - Security
 - Risk Management
 - Sanctions Screening

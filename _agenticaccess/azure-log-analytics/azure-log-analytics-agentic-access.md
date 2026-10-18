@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-log-anal
 summary_line: 17 operations · 9 acting
 tags:
 - Analytics
-- Azure
+- Microsoft Azure
 - Cloud
 - Logging
 - Monitoring

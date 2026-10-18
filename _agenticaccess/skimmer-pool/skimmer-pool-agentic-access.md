@@ -111,7 +111,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/r
 summary_line: 50 operations · 22 acting
 tags:
 - Pool Service
-- Field Service Management
+- Field Service
 - Pool Maintenance
 - Scheduling
 - Routes

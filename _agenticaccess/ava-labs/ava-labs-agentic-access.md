@@ -235,7 +235,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/
 summary_line: 141 operations · 11 acting
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Avalanche
 - Web3

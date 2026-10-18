@@ -218,7 +218,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/agentic-access/azure-logic-apps-agentic-access.yml
 summary_line: 106 operations · 55 acting · 2 human-in-the-loop
 tags:
-- Azure
+- Microsoft Azure
 - Integration
 - iPaaS
 - Workflows

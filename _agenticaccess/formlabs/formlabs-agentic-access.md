@@ -74,7 +74,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/
 summary_line: 16 operations · 7 acting
 tags:
 - 3D Printing
-- Additive Manufacturing
 - SLA
 - SLS
 - Hardware

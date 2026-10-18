@@ -103,7 +103,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/markforged/ref
 summary_line: 30 operations · 9 acting · 1 human-in-the-loop
 tags:
 - 3D Printing
-- Additive Manufacturing
 - Industrial
 - Eiger
 - Fleet Management

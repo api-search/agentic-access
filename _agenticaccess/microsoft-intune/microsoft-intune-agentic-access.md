@@ -82,7 +82,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-intu
 summary_line: 22 operations · 16 acting · 2 human-in-the-loop
 tags:
 - App Protection
-- Azure
+- Microsoft Azure
 - Compliance
 - Device Configuration
 - Endpoint Management

@@ -70,7 +70,7 @@ summary_line: 6 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Real-Time
 - WebSocket
-- Pub-Sub
+- Pub/Sub
 - Push Notifications
 - Messaging
 ---

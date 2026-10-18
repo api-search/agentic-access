@@ -71,9 +71,9 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/suggix
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suggix/refs/heads/main/agentic-access/suggix-agentic-access.yml
 summary_line: 17 operations
 tags:
-- SaaS
+- Software-as-a-Service
 - Feedback
-- Roadmap
+- Roadmaps
 - Changelog
 - Product Management
 ---

@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/megaph
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/agentic-access/megaphone-agentic-access.yml
 summary_line: 22 operations · 7 acting
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Advertising
 - Ad Monetization

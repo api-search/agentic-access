@@ -34,7 +34,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coderifts/refs
 summary_line: 3 operations · 2 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Verification
 - Compliance
 - Platform

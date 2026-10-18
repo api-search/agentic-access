@@ -856,18 +856,18 @@ api_specs:
   slug: canvas-what-if-grades-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/openapi/canvas-what-if-grades-api-openapi.yml
-- filename: canvas-jwts-api-openapi.yml
-  format: yaml
-  label: Canvas JWTs API
-  slug: canvas-jwts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/openapi/canvas-jwts-api-openapi.yml
 - filename: canvas-live-events-asyncapi.yml
   format: yaml
   label: Canvas Live Events
   slug: canvas-live-events
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/asyncapi/canvas-live-events-asyncapi.yml
+- filename: canvas-jwts-api-openapi.yml
+  format: yaml
+  label: Canvas JWTs API
+  slug: canvas-jwts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/openapi/canvas-jwts-api-openapi.yml
 consequence_counts:
   physical: 19
   read: 582
@@ -1064,12 +1064,10 @@ tags:
 - Education
 - EdTech
 - GraphQL
-- Learning Management System
 - LMS
 - LTI
 - Open Source
 - REST
-- Learning Management
 - Higher Education
 - K-12
 - AGPL

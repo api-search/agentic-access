@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sophos/refs/he
 summary_line: 2 operations
 tags:
 - Cybersecurity
-- Endpoint Protection
+- Endpoint Security
 - Security
 - SIEM
 - Threat Detection

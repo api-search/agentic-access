@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bigcha
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/agentic-access/bigchange-agentic-access.yml
 summary_line: 28 operations · 12 acting
 tags:
-- Field Service Management
+- Field Service
 - Job Management
 - Scheduling
 - Workforce Management

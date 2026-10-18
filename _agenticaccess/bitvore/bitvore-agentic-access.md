@@ -185,7 +185,7 @@ tags:
 - Market Intelligence
 - Alternative Data
 - News API
-- NLP
+- Natural Language Processing
 - ESG
 - Municipal Bonds
 - Credit Risk

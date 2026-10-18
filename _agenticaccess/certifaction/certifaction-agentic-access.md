@@ -78,9 +78,8 @@ summary_line: 22 operations · 14 acting
 tags:
 - Company
 - Ai Enterprise Software
-- Electronic Signature
+- E-Signature
 - Digital Signature
-- Document Signing
 - Qualified Electronic Signature
 - eIDAS
 - Privacy

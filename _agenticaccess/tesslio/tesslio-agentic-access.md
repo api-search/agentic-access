@@ -393,7 +393,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/h
 summary_line: 225 operations · 111 acting · 19 human-in-the-loop
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Agent Enablement
 - Agentic Development
 - Developer Tools

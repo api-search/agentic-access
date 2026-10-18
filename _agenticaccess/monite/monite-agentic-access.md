@@ -623,5 +623,5 @@ tags:
 - Payments
 - B2B
 - Fintech
-- SaaS
+- Software-as-a-Service
 ---

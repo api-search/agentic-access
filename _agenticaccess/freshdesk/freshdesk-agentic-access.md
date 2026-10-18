@@ -154,7 +154,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs
 summary_line: 82 operations · 44 acting
 tags:
 - Automation
-- Customer Support
+- Customer Service
 - Application
 - Help Desk
 - Ticketing

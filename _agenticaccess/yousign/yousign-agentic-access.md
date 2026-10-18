@@ -311,10 +311,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yousign/refs/h
 summary_line: 166 operations · 89 acting
 tags:
 - E-Signature
-- Electronic Signature
 - eIDAS
 - Digital Signature
-- Document Signing
 - Europe
 - REST API
 - Signature Workflows

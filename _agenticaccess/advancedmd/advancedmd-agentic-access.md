@@ -234,8 +234,7 @@ summary_line: 81 operations · 19 acting
 tags:
 - Healthcare
 - United States
-- EHR
-- EMR
+- Electronic Health Records
 - Practice Management
 - Medical Billing
 - FHIR

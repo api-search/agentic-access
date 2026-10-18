@@ -191,7 +191,7 @@ tags:
 - Publishing
 - Creator Economy
 - Subscribers
-- Webhooks
+- Webhook
 - MCP
 - Analytics
 - Content

@@ -508,8 +508,8 @@ source_yaml: "generated: '2026-10-06'\nmethod: generated\nsource: openapi/callid
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/agentic-access/callidus-legal-ai-agentic-access.yml
 summary_line: 869 operations · 502 acting · 21 human-in-the-loop
 tags:
-- LegalTech
-- AI
+- Legal Tech
+- Artificial Intelligence
 - Litigation
 - ContractAutomation
 - Research

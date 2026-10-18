@@ -74,7 +74,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/
 summary_line: 11 operations · 10 acting
 tags:
 - Artificial Intelligence
-- Customer Support
+- Customer Service
 - AI Agents
 - Conversations
 - Financial Services

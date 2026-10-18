@@ -339,7 +339,7 @@ tags:
 - CRM
 - AI Agents
 - Sales Automation
-- Customer Support
+- Customer Service
 - Workflows
 - Conversational AI
 ---

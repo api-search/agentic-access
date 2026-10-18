@@ -331,7 +331,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anchorage/refs
 summary_line: 185 operations · 79 acting
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Digital Assets
 - Custody
 - Trading

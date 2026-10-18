@@ -216,10 +216,9 @@ source_yaml: "generated: '2026-10-08'\nmethod: generated\nsource: openapi/cash-d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/agentic-access/cfx-labs-agentic-access.yml
 summary_line: 53 operations · 28 acting
 tags:
-- fintech
-- banking
-- payments
-- API
+- Fintech
+- Banking
+- Payments
 - programmable
-- company
+- Company
 ---

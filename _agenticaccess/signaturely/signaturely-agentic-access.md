@@ -94,9 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/signat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/agentic-access/signaturely-agentic-access.yml
 summary_line: 27 operations · 15 acting
 tags:
-- Electronic Signature
 - E-Signature
-- Document Signing
 - E-Signature API
 - Contracts
 - Signature Requests

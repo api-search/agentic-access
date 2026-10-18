@@ -118,8 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/charmh
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/agentic-access/charmhealth-agentic-access.yml
 summary_line: 15 operations
 tags:
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - Healthcare
 - HL7

@@ -381,9 +381,9 @@ summary_line: 570 operations · 313 acting · 4 human-in-the-loop
 tags:
 - Company
 - Cloud Computing
-- Infrastructure as a Service
+- Infrastructure-as-a-Service
 - Hosting
-- Data Centers
+- Data Center
 - Japan
 - Object Storage
 - GPU

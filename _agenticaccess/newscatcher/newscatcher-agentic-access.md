@@ -162,7 +162,7 @@ summary_line: 76 operations · 32 acting · 1 human-in-the-loop
 tags:
 - News
 - Search
-- NLP
+- Natural Language Processing
 - Sentiment Analysis
 - Entity Extraction
 - Clustering

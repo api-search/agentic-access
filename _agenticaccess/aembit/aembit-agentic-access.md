@@ -320,7 +320,7 @@ summary_line: 167 operations · 98 acting · 5 human-in-the-loop
 tags:
 - Security
 - Identity
-- Access Management
+- Identity and Access Management
 - Workload Identity
 - Non-Human Identity
 - Secrets Management

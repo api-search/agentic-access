@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/podcas
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podcastindex/refs/heads/main/agentic-access/podcastindex-agentic-access.yml
 summary_line: 52 operations · 4 acting
 tags:
-- Podcasting
+- Podcasts
 - Podcast Index
 - Discovery
 - Open Data

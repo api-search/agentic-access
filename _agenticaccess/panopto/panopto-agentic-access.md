@@ -229,7 +229,7 @@ tags:
 - Education Technology
 - Enterprise Video
 - Recording
-- Learning Management
+- LMS
 - Video Analytics
 - Content Management
 ---

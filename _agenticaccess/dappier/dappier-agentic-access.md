@@ -38,7 +38,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dappier/refs/h
 summary_line: 2 operations
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Advertising
 - Monetization
 - Publishers

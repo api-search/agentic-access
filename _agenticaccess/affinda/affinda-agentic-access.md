@@ -187,7 +187,6 @@ tags:
 - Artificial Intelligence
 - Document Processing
 - Intelligent Document Processing
-- IDP
 - OCR
 - Resume Parsing
 - Invoice Parsing

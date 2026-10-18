@@ -141,7 +141,7 @@ tags:
 - Distributed Systems
 - Microservices
 - Platform
-- Pub-Sub
+- Pub/Sub
 - State Management
 - Workflows
 ---

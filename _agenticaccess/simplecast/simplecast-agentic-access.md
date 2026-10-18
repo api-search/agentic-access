@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/simple
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/agentic-access/simplecast-agentic-access.yml
 summary_line: 62 operations · 1 acting
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Podcast Distribution
 - Podcast Analytics

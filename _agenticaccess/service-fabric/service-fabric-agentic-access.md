@@ -70,6 +70,6 @@ tags:
 - Containers
 - Cloud-Native
 - Kubernetes
-- Azure
+- Microsoft Azure
 - Open Source
 ---

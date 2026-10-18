@@ -104,8 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/servic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/agentic-access/servicefusion-agentic-access.yml
 summary_line: 24 operations · 9 acting
 tags:
-- Field Service Management
-- FSM
+- Field Service
 - Home Services
 - Contractors
 - Scheduling

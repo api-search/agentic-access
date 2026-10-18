@@ -63,7 +63,7 @@ summary_line: 10 operations · 8 acting
 tags:
 - Company
 - Artificial Intelligence
-- Customer Support
+- Customer Service
 - IoT
 - Hardware
 - Telemetry

@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gorill
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/agentic-access/gorilladesk-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
-- Field Service Management
+- Field Service
 - Pest Control
 - Lawn Care
 - Scheduling

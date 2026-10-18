@@ -135,8 +135,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roote/refs/hea
 summary_line: 20 operations · 2 acting
 tags:
 - Mobility
-- API
 - French
-- AI
+- Artificial Intelligence
 - Transportation
 ---

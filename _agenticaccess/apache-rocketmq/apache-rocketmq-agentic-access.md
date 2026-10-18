@@ -69,7 +69,7 @@ tags:
 - Cloud-Native
 - Messaging
 - Message Queue
-- Pub-Sub
+- Pub/Sub
 - Streaming
 - Apache
 - Open Source

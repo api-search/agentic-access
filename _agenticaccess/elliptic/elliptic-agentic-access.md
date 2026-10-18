@@ -136,7 +136,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/
 summary_line: 39 operations · 14 acting
 tags:
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Compliance
 - AML
 - Transaction Screening

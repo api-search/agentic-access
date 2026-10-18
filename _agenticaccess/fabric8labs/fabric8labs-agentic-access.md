@@ -36,7 +36,6 @@ summary_line: 19 operations
 tags:
 - Company
 - Advanced Manufacturing
-- Additive Manufacturing
 - 3D Printing
 - Metal 3D Printing
 - Electrochemical Additive Manufacturing

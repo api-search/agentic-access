@@ -62,10 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fixer-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/agentic-access/fixer-agentic-access.yml
 summary_line: 6 operations
 tags:
-- Currency Exchange
 - Foreign Exchange
-- FX
-- Forex
 - ECB
 - Conversion
 - Historical Rates

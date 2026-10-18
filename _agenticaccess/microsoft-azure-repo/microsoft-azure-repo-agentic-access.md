@@ -98,7 +98,6 @@ tags:
 - DevOps
 - Git
 - Repositories
-- Source Control
-- TFVC
 - Version Control
+- TFVC
 ---

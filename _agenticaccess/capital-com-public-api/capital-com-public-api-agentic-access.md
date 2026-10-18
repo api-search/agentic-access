@@ -109,7 +109,7 @@ tags:
 - Commodities
 - Cryptocurrency
 - Finance
-- Forex
+- Foreign Exchange
 - Indices
 - Market Data
 - Share

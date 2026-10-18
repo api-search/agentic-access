@@ -182,7 +182,7 @@ summary_line: 203 operations · 3 acting
 tags:
 - Finance
 - Market Data
-- Crypto
+- Cryptocurrency
 - Blockchain
 - On-Chain Data
 - Index

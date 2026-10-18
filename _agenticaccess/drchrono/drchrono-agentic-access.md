@@ -128,7 +128,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/drchro
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/agentic-access/drchrono-agentic-access.yml
 summary_line: 327 operations · 163 acting
 tags:
-- EHR
 - Electronic Health Records
 - Healthcare
 - Medical Records

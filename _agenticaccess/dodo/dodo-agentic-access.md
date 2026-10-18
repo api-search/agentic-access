@@ -38,9 +38,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dodo/refs/head
 summary_line: 1 operation
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
-- DEX
 - Decentralized Exchange
 - Blockchain
 - Trading

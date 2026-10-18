@@ -85,7 +85,7 @@ summary_line: 15 operations · 1 acting
 tags:
 - Web3
 - DeFi
-- DEX
+- Decentralized Exchange
 - Aggregator
 - Swap
 - Multi-Chain

@@ -105,7 +105,7 @@ summary_line: 27 operations
 tags:
 - Company
 - CRM
-- SaaS
+- Software-as-a-Service
 - Sales
 - Marketing
 ---

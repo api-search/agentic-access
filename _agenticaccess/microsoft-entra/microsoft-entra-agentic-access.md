@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/agentic-access/microsoft-entra-agentic-access.yml
 summary_line: 28 operations · 17 acting
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Azure AD
 - Entra

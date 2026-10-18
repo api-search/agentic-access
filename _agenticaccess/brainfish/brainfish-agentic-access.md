@@ -107,7 +107,7 @@ summary_line: 27 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Company
 - Artificial Intelligence
-- Customer Support
+- Customer Service
 - Knowledge Base
 - Help Desk
 - Agents

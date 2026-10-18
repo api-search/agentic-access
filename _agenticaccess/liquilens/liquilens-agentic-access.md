@@ -118,6 +118,5 @@ tags:
 - Company
 - Finance
 - Research
-- API
 - Data
 ---

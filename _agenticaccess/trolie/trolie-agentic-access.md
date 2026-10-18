@@ -102,7 +102,7 @@ tags:
 - Energy
 - Electric Grid
 - Transmission
-- Open Standards
+- Open Standard
 - OpenAPI
 - LF Energy
 - Open Source

@@ -53,7 +53,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forethought/re
 summary_line: 4 operations · 3 acting
 tags:
 - Artificial Intelligence
-- Customer Support
 - Customer Service
 - Generative AI
 - SupportGPT

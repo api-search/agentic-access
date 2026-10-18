@@ -64,7 +64,7 @@ tags:
 - Prospecting
 - Go-To-Market
 - Sales
-- Enrichment
+- Data Enrichment
 - Automation
 - Artificial Intelligence
 - Webhook

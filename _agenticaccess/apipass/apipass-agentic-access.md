@@ -214,8 +214,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apipass/refs/h
 summary_line: 176 operations · 99 acting · 1 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Marketplace
-- API
 - Pricing
 ---

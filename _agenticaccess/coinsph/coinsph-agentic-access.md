@@ -350,7 +350,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/h
 summary_line: 113 operations · 52 acting
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Cryptocurrency Exchange
 - Payments
 - Fintech

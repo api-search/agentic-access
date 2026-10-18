@@ -70,7 +70,6 @@ tags:
 - Access Governance
 - Compliance
 - Identity and Access Management
-- Identity Management
 - Identity Security
 - Security
 ---

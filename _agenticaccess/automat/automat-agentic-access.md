@@ -42,7 +42,7 @@ tags:
 - Automation
 - RPA
 - Document Extraction
-- IDP
+- Intelligent Document Processing
 - iPaaS
 - AI Agents
 - Computer Use

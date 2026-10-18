@@ -81,7 +81,7 @@ summary_line: 16 operations · 5 acting
 tags:
 - Security
 - Software Supply Chain
-- SCA
+- Software Composition Analysis
 - Reachability
 - AppSec
 - AI Security

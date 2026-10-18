@@ -150,7 +150,7 @@ summary_line: 73 operations · 42 acting
 tags:
 - Data Annotation
 - LLM
-- NLP
+- Natural Language Processing
 - RLHF
 - Machine Learning
 - Datasets

@@ -104,6 +104,6 @@ tags:
 - IoT
 - Message Broker
 - Microservices
-- Pub-Sub
+- Pub/Sub
 - Real-Time
 ---

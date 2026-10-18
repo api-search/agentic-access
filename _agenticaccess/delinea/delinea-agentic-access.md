@@ -791,7 +791,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delinea/refs/h
 summary_line: 1037 operations · 512 acting · 28 human-in-the-loop
 tags:
 - Privileged Access Management
-- PAM
 - Secrets Management
 - Identity Security
 - DevOps

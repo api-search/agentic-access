@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moonbounce/ref
 summary_line: 8 operations · 5 acting
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Content Moderation
 - Trust and Safety
 - AI Governance

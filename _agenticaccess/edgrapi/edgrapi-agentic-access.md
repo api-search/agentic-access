@@ -123,6 +123,5 @@ tags:
 - Company
 - Data
 - Government
-- API
-- AI
+- Artificial Intelligence
 ---

@@ -89,7 +89,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/
 summary_line: 31 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Identity
-- Access Management
+- Identity and Access Management
 - SSO
 - Multi-Factor Authentication
 - SAML

@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/storag
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/agentic-access/google-cloud-transfer-service-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
-- Azure
+- Microsoft Azure
 - Cloud Storage
 - Data Transfer
 - Migration

@@ -90,7 +90,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyberark-ident
 summary_line: 22 operations · 16 acting
 tags:
 - Identity
-- Access Management
 - Identity and Access Management
 - SSO
 - Multi-Factor Authentication

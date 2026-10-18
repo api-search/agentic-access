@@ -235,9 +235,9 @@ source_yaml: "generated: '2026-10-15'\nmethod: generated\nsource: openapi/opper-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/agentic-access/opper-agentic-access.yml
 summary_line: 139 operations · 80 acting · 8 human-in-the-loop
 tags:
-- AI
-- Gateway
+- Artificial Intelligence
+- Gateways
 - European
-- OpenAI-compatible
+- OpenAI-Compatible
 - GDPR
 ---

@@ -83,7 +83,7 @@ tags:
 - Identity
 - Authentication
 - SSO
-- OIDC
+- OpenID Connect
 - SAML
 - IAL2
 - AAL2

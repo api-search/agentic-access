@@ -132,7 +132,6 @@ summary_line: 35 operations · 29 acting
 tags:
 - Live Chat
 - Customer Service
-- Customer Support
 - Messaging
 - Sales
 - Help Desk

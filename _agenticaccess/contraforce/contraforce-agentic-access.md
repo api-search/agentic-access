@@ -165,7 +165,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contraforce/re
 summary_line: 81 operations · 40 acting · 2 human-in-the-loop
 tags:
 - Security
-- SaaS
+- Software-as-a-Service
 - Cybersecurity
 - Microsoft
 - MSP

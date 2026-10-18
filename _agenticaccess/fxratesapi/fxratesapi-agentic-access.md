@@ -63,10 +63,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/ref
 summary_line: 5 operations
 tags:
 - Foreign Exchange
-- FX
 - Currency
 - Exchange Rates
-- Forex
 - Currency Conversion
 - Historical Rates
 - Financial Data

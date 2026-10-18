@@ -180,7 +180,7 @@ summary_line: 53 operations · 9 acting
 tags:
 - Extraction
 - Harvesting
-- Scraping
+- Web Scraping
 - Web
 - Knowledge Graph
 - Crawling

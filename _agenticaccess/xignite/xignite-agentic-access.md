@@ -201,7 +201,7 @@ tags:
 - Market Data
 - Stocks
 - Real-Time
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Options
 - Futures

@@ -74,10 +74,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/re
 summary_line: 14 operations · 7 acting
 tags:
 - Access
-- Access Management
+- Identity and Access Management
 - Compliance
 - Credentials
-- Privileged Access
+- Privileged Access Management
 - Security
 - Secrets
 - Zero Trust

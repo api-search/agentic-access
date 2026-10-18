@@ -106,7 +106,7 @@ summary_line: 13 operations · 6 acting
 tags:
 - Document Parsing
 - OCR
-- IDP
+- Intelligent Document Processing
 - Artificial Intelligence
 - Machine Learning
 - Invoices

@@ -74,7 +74,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/
 summary_line: 12 operations · 7 acting
 tags:
 - E-Signature
-- Electronic Signature
 - Documents
 - Contract Management
 - Embedded Signing

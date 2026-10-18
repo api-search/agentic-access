@@ -145,7 +145,6 @@ summary_line: 58 operations · 25 acting
 tags:
 - Company
 - Education
-- Learning Management System
 - LMS
 - Training
 - E-Learning

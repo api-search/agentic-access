@@ -164,7 +164,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads
 summary_line: 65 operations · 27 acting
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - Payments
 - Brazil

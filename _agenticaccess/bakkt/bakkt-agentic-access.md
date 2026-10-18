@@ -201,7 +201,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/hea
 summary_line: 54 operations · 28 acting
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Cryptocurrency
 - Digital Assets
 - Trading
@@ -210,5 +210,4 @@ tags:
 - Custody
 - Webhook
 - FIX Protocol
-- Web3
 ---

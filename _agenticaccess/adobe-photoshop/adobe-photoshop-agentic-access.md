@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/adobe-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/agentic-access/adobe-photoshop-agentic-access.yml
 summary_line: 17 operations · 13 acting
 tags:
-- Ai Ml
+- Artificial Intelligence
 - Creative Cloud
 - Image Editing
 - Photoshop

@@ -187,9 +187,9 @@ source_yaml: "generated: '2026-10-07'\nmethod: generated\nsource: openapi/carbon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carbon-arc/refs/heads/main/agentic-access/carbon-arc-agentic-access.yml
 summary_line: 92 operations · 27 acting · 3 human-in-the-loop
 tags:
-- ai
-- infrastructure
-- platform
-- mlops
-- enterprise
+- Artificial Intelligence
+- Infrastructure
+- Platform
+- MLOps
+- Enterprise
 ---

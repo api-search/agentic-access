@@ -253,8 +253,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ishob/refs/hea
 summary_line: 48 operations · 17 acting · 2 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Micro-utilities
 - AutonomousAgents
-- Crypto
+- Cryptocurrency
 ---

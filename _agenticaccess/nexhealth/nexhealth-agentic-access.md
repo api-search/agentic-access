@@ -262,7 +262,7 @@ summary_line: 88 operations · 22 acting
 tags:
 - Company
 - Healthcare
-- EHR
+- Electronic Health Records
 - Practice Management
 - Scheduling
 - Appointments

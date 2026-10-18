@@ -265,6 +265,6 @@ tags:
 - Change Data Capture
 - Integration Runtime
 - Cloud
-- Azure
+- Microsoft Azure
 - Data Factory
 ---

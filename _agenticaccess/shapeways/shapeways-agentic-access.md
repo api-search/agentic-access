@@ -68,7 +68,6 @@ summary_line: 10 operations · 3 acting
 tags:
 - Company
 - 3D Printing
-- Additive Manufacturing
 - Manufacturing
 - Prototyping
 - Hardware

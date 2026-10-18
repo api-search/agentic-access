@@ -48,7 +48,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/h
 summary_line: 13 operations · 13 acting
 tags:
 - Authentication
-- Azure
+- Microsoft Azure
 - Backend
 - Backend-as-a-Service
 - CloudScript

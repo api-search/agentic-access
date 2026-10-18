@@ -102,7 +102,7 @@ tags:
 - Company
 - Training
 - Education
-- Learning Management
+- LMS
 - Cloud Computing
 - Skills
 - Reporting

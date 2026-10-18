@@ -132,7 +132,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/he
 summary_line: 45 operations · 30 acting · 5 human-in-the-loop
 tags:
 - E-Signature
-- Electronic Signing
 - Digital Identity
 - eID
 - BankID

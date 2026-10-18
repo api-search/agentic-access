@@ -58,7 +58,7 @@ tags:
 - Drug Information
 - Genomics
 - Bioinformatics
-- EHR
+- Electronic Health Records
 - FHIR
 - Lab Informatics
 ---

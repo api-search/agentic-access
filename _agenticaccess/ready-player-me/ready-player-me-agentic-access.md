@@ -61,8 +61,8 @@ tags:
 - Avatars
 - 3D
 - Gaming
-- VR
-- AR
+- Virtual Reality
+- Augmented Reality
 - Metaverse
 - glTF
 - Cross-Platform

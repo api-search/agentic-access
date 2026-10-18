@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/r
 summary_line: 11 operations · 6 acting
 tags:
 - Crawling
-- Scraping
+- Web Scraping
 - Data Extraction
 - URLs
 - Artificial Intelligence

@@ -83,5 +83,4 @@ tags:
 - Brokerage
 - Investing
 - Financial Services
-- Crypto
 ---

@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/launch
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/agentic-access/launch27-agentic-access.yml
 summary_line: 21 operations · 6 acting
 tags:
-- Field Service Management
+- Field Service
 - Home Services
 - Cleaning Services
 - Booking

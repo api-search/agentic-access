@@ -564,7 +564,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/b3/refs/heads/
 summary_line: 425 operations · 163 acting · 3 human-in-the-loop
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
 - Workflow Automation

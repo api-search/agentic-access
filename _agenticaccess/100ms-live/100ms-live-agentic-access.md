@@ -179,7 +179,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/100ms-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/agentic-access/100ms-live-agentic-access.yml
 summary_line: 63 operations · 34 acting · 8 human-in-the-loop
 tags:
-- Live Video
 - Live Streaming
 - Video Conferencing
 - WebRTC

@@ -144,7 +144,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/h
 summary_line: 71 operations · 40 acting · 2 human-in-the-loop
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Cloud Compute
 - DePIN
 - GPU
@@ -152,5 +152,4 @@ tags:
 - Virtual Machines
 - AI Infrastructure
 - Decentralized Cloud
-- Web3
 ---

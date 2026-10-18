@@ -121,7 +121,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs
 summary_line: 24 operations · 12 acting
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Payments
 - Banking
 - Digital Assets

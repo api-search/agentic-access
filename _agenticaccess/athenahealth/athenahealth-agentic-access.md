@@ -176,7 +176,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athenahealth/r
 summary_line: 40 operations · 9 acting
 tags:
 - Healthcare
-- EHR
 - Electronic Health Records
 - Practice Management
 - Revenue Cycle Management

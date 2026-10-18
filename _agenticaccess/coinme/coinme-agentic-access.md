@@ -246,7 +246,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/he
 summary_line: 39 operations · 19 acting
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Payments
 - Bitcoin

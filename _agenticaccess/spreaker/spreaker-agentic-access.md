@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spreak
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/agentic-access/spreaker-agentic-access.yml
 summary_line: 61 operations · 28 acting
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Audio
 - Media

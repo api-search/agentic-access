@@ -134,8 +134,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/
 summary_line: 54 operations · 33 acting
 tags:
 - Data
-- AI
+- Artificial Intelligence
 - Catalog
 - Governance
-- Multimodal
+- Multi-Modal
 ---

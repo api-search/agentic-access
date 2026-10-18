@@ -40,10 +40,10 @@ source_yaml: "generated: '2026-10-16'\nmethod: generated\nsource: openapi/codewo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codewords/refs/heads/main/agentic-access/codewords-agentic-access.yml
 summary_line: 3 operations · 2 acting
 tags:
-- AI
+- Artificial Intelligence
 - Automation
-- Workflow
-- NoCode
-- SaaS
+- Workflows
+- No-Code
+- Software-as-a-Service
 - Productivity
 ---

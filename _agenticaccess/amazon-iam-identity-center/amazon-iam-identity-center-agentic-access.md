@@ -135,6 +135,6 @@ summary_line: 56 operations · 44 acting · 4 human-in-the-loop
 tags:
 - Access Control
 - Authentication
-- Identity Management
+- Identity and Access Management
 - SSO
 ---

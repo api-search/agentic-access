@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/agentic-access/azure-container-registry-agentic-access.yml
 summary_line: 25 operations · 16 acting
 tags:
-- Azure
+- Microsoft Azure
 - Container Images
 - Containers
 - Docker

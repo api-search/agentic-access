@@ -60,9 +60,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inception/refs
 summary_line: 7 operations · 3 acting
 tags:
 - Company
-- Ai Ml
-- LLM
 - Artificial Intelligence
+- LLM
 - Diffusion Models
 - Code Completion
 - Machine Learning

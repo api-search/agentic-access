@@ -52,7 +52,7 @@ summary_line: 5 operations
 tags:
 - Currency
 - Exchange Rates
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Financial Data
 - Historical Rates

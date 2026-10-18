@@ -63,7 +63,7 @@ tags:
 - Research Repository
 - Research Data
 - Identity Federation
-- Learning Management
+- LMS
 - Open Access
 - Research Computing
 - Scholarly

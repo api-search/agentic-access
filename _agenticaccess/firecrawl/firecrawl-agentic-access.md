@@ -113,7 +113,7 @@ summary_line: 31 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Crawling
 - Data Extraction
-- Scraping
+- Web Scraping
 - URLs
 - Artificial Intelligence
 - Markdown

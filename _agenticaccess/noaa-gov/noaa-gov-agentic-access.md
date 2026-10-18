@@ -81,6 +81,18 @@ api_specs:
   slug: noaa-gov-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-zones-api-openapi.yml
+- filename: noaa-gov-navigational-data-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Navigational Data API
+  slug: noaa-gov-navigational-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-navigational-data-api-openapi.yml
+- filename: noaa-gov-weather-data-api-openapi.yml
+  format: yaml
+  label: NOAA — National Oceanic and Atmospheric Administration Weather Data API
+  slug: noaa-gov-weather-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/openapi/noaa-gov-weather-data-api-openapi.yml
 consequence_counts:
   read: 66
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

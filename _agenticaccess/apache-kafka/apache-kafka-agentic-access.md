@@ -76,6 +76,18 @@ api_specs:
   slug: apache-kafka-topic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/openapi/apache-kafka-topic-api-openapi.yml
+- filename: apache-kafka-asyncapi.yml
+  format: yaml
+  label: Apache Kafka Producer API
+  slug: apache-kafka-producer-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/asyncapi/apache-kafka-asyncapi.yml
+- filename: apache-kafka-asyncapi.yml
+  format: yaml
+  label: Apache Kafka Consumer API
+  slug: apache-kafka-consumer-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/asyncapi/apache-kafka-asyncapi.yml
 consequence_counts:
   read: 18
   safety-critical: 2
@@ -134,6 +146,6 @@ tags:
 - Event Streaming
 - Messaging
 - Open Source
-- Pub-Sub
+- Pub/Sub
 - Real-Time
 ---

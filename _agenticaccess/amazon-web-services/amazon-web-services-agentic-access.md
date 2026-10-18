@@ -8938,6 +8938,18 @@ api_specs:
   slug: amazon-web-services-trafficpolicyinstances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-trafficpolicyinstances-api-openapi.yml
+- filename: amazon-web-services-health-api-openapi.yml
+  format: yaml
+  label: Amazon Web Services Health API
+  slug: amazon-web-services-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-health-api-openapi.yml
+- filename: amazon-web-services-systemone-api-openapi.yml
+  format: yaml
+  label: Amazon Web Services Systemone API
+  slug: amazon-web-services-systemone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/openapi/amazon-web-services-systemone-api-openapi.yml
 - filename: amazon-web-services-access-point-api-openapi.yml
   format: yaml
   label: Amazon Web Services Access Point API

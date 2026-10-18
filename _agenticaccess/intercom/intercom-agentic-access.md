@@ -94,7 +94,6 @@ summary_line: 18 operations · 7 acting
 tags:
 - Artificial Intelligence
 - Customer Service
-- Customer Support
 - Messaging
 - Conversational AI
 - Help Desk

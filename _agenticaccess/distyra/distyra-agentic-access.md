@@ -123,7 +123,6 @@ summary_line: 50 operations · 26 acting · 3 human-in-the-loop
 tags:
 - Company
 - Banking
-- API
 - Fintech
 - European
 ---

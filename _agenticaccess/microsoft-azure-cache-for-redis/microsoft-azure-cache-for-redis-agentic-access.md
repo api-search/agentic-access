@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: generated\nsource: openapi/micros
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/agentic-access/microsoft-azure-cache-for-redis-agentic-access.yml
 summary_line: 41 operations · 22 acting · 3 human-in-the-loop
 tags:
-- Azure
+- Microsoft Azure
 - Cache
 - Cloud Infrastructure
 - Datastore

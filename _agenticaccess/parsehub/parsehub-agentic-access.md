@@ -48,6 +48,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/
 summary_line: 8 operations · 3 acting
 tags:
 - Data Extraction
-- Scraping
+- Web Scraping
 - Visual Scraping
 ---

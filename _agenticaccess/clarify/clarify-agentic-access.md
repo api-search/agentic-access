@@ -244,7 +244,7 @@ summary_line: 85 operations · 56 acting · 6 human-in-the-loop
 tags:
 - Company
 - CRM
-- AI
+- Artificial Intelligence
 - Automation
 - Sales
 ---

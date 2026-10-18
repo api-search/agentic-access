@@ -152,7 +152,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vectorsolution
 summary_line: 70 operations · 19 acting · 2 human-in-the-loop
 tags:
 - Training
-- Learning Management
+- LMS
 - Compliance
 - Public Safety
 - Workforce Management

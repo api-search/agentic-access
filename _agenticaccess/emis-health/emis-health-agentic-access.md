@@ -116,8 +116,7 @@ summary_line: 80 operations · 8 acting
 tags:
 - Healthcare
 - United Kingdom
-- EHR
-- EMR
+- Electronic Health Records
 - Interoperability
 - HL7
 - FHIR

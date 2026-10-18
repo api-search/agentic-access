@@ -174,7 +174,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/backpa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/agentic-access/backpack-agentic-access.yml
 summary_line: 81 operations · 21 acting
 tags:
-- Crypto
+- Cryptocurrency
 - Exchange
 - Wallets
 - Trading

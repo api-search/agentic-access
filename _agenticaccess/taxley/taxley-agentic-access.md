@@ -63,7 +63,6 @@ summary_line: 35 operations · 17 acting
 tags:
 - Company
 - Tax
-- UK
+- United Kingdom
 - Finance
-- API
 ---

@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/agentic-access/amazon-iam-agentic-access.yml
 summary_line: 25 operations
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Authorization
 - Identity

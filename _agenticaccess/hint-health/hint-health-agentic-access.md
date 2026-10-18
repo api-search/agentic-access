@@ -600,6 +600,6 @@ tags:
 - Membership Management
 - Patient Enrollment
 - Medical Billing
-- EMR
+- Electronic Health Records
 - Health Plans
 ---

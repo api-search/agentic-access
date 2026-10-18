@@ -227,7 +227,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/agentic-access/amazon-verified-access-agentic-access.yml
 summary_line: 26 operations · 23 acting
 tags:
-- Access Management
+- Identity and Access Management
 - Security
 - Zero Trust
 ---

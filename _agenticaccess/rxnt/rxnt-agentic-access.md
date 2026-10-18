@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/head
 summary_line: 3 operations · 1 acting
 tags:
 - Healthcare
-- EHR
+- Electronic Health Records
 - e-Prescribing
 - Clinical Data
 - ONC Certified

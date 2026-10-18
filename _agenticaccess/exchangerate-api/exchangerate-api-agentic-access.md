@@ -93,10 +93,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/exchan
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/agentic-access/exchangerate-api-agentic-access.yml
 summary_line: 9 operations
 tags:
-- Currency Exchange
 - Foreign Exchange
 - Financial Data
-- Forex
 - Currency Conversion
 - Public APIs
 ---

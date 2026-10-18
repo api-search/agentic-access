@@ -114,7 +114,7 @@ summary_line: 126 operations · 100 acting · 5 human-in-the-loop
 tags:
 - Authentication
 - Identity
-- OIDC
+- OpenID Connect
 - SAML
 - User Management
 - Federated Identity

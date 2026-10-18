@@ -34,5 +34,4 @@ tags:
 - Finance
 - Options
 - Analytics
-- API
 ---

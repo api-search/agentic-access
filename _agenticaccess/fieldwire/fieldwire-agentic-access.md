@@ -163,7 +163,6 @@ summary_line: 43 operations · 19 acting
 tags:
 - Construction
 - Construction Technology
-- ConTech
 - Field Management
 - Punch List
 - Plans

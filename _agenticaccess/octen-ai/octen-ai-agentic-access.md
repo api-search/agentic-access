@@ -137,7 +137,7 @@ summary_line: 18 operations · 15 acting
 tags:
 - Search
 - Web Search
-- AI
+- Artificial Intelligence
 - LLM
 - Embeddings
 - Content Extraction

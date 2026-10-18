@@ -191,6 +191,6 @@ tags:
 - Merchant Services
 - ACH
 - Invoicing
-- Card Terminal
+- Payment Terminals
 - Small Business
 ---

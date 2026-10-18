@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nudge-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/agentic-access/nudge-security-agentic-access.yml
 summary_line: 19 operations · 3 acting
 tags:
-- Access Management
+- Identity and Access Management
 - AI Security
 - Compliance
 - Governance

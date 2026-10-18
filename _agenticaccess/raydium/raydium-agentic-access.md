@@ -62,7 +62,7 @@ summary_line: 23 operations
 tags:
 - Web3
 - Solana
-- DEX
+- Decentralized Exchange
 - AMM
 - Liquidity
 - CLMM

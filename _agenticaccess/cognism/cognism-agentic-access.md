@@ -79,7 +79,7 @@ summary_line: 25 operations · 1 acting
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Contact Data
 - GDPR
 - Intent Data

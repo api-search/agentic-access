@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/digio-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/agentic-access/digio-agentic-access.yml
 summary_line: 10 operations · 6 acting · 4 human-in-the-loop
 tags:
-- eSign
+- E-Signature
 - KYC
 - eNACH
 - eMandate

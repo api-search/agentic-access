@@ -522,12 +522,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs
 summary_line: 358 operations · 144 acting · 2 human-in-the-loop
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Machine Learning
 - Data Science
 - Competitions
 - Collective Intelligence
 - Quantitative Finance
 - Predictions
-- Web3
 ---

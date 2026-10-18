@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradient/refs/
 summary_line: 3 operations · 2 acting
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Artificial Intelligence
 - Machine Learning
 - Inference
@@ -61,5 +61,4 @@ tags:
 - Distributed Computing
 - Edge Computing
 - Developer Tools
-- Web3
 ---

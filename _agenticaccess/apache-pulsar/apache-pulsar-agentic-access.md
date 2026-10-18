@@ -93,7 +93,7 @@ tags:
 - Cloud-Native
 - Messaging
 - Multi-Tenant
-- Pub-Sub
+- Pub/Sub
 - Streaming
 - Apache
 - Open Source

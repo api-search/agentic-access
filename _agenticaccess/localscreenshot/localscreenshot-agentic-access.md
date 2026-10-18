@@ -31,8 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localscreensho
 summary_line: 1 operation
 tags:
 - Company
-- Screenshot
-- API
-- AI
+- Screenshots
+- Artificial Intelligence
 - Automation
 ---

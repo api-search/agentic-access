@@ -63,5 +63,5 @@ tags:
 - KYC
 - Identity Proofing
 - AML
-- eSign
+- E-Signature
 ---

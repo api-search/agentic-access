@@ -89,7 +89,7 @@ summary_line: 43 operations
 tags:
 - Web3
 - DeFi
-- DEX
+- Decentralized Exchange
 - AMM
 - Stablecoins
 - Pegged Assets

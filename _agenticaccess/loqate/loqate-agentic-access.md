@@ -42,7 +42,7 @@ summary_line: 3 operations · 2 acting
 tags:
 - Address Validation
 - Data Quality
-- Email Validation
+- Email Verification
 - Phone Validation
 - Retail
 - Fintech

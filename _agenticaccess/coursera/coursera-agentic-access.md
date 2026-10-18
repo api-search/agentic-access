@@ -39,7 +39,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coursera/refs/
 summary_line: 4 operations
 tags:
 - EdTech
-- Online Learning
+- E-Learning
 - Catalog
 - MOOC
 ---

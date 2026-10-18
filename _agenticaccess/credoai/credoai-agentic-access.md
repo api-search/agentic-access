@@ -78,8 +78,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credoai/refs/h
 summary_line: 11 operations · 5 acting · 5 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Governance
-- SaaS
+- Software-as-a-Service
 - PaloAlto
 ---

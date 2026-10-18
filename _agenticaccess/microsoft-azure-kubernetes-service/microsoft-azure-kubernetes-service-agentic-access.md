@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/agentic-access/microsoft-azure-kubernetes-service-agentic-access.yml
 summary_line: 24 operations · 16 acting · 3 human-in-the-loop
 tags:
-- Azure
+- Microsoft Azure
 - Cloud
 - Containers
 - DevOps

@@ -68,8 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/1forge
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/agentic-access/1forge-agentic-access.yml
 summary_line: 5 operations
 tags:
-- Currency Exchange
-- Forex
+- Foreign Exchange
 - Cryptocurrency
 - Market Data
 - Financial Data

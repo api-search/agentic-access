@@ -55,7 +55,7 @@ tags:
 - Community
 - API Training
 - Certification
-- Events
+- Event
 - Open Source
 - API Governance
 - Spectral

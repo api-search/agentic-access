@@ -213,7 +213,7 @@ tags:
 - Passkeys
 - MFA
 - SSO
-- OIDC
+- OpenID Connect
 - SAML
 - SCIM
 - Authorization

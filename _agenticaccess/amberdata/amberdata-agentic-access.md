@@ -232,7 +232,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: generated\nsource: openapi/amberd
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/agentic-access/amberdata-agentic-access.yml
 summary_line: 240 operations
 tags:
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Market Data
 - Digital Assets

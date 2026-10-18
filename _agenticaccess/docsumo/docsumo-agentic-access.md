@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/h
 summary_line: 10 operations · 4 acting
 tags:
 - Document Processing
-- IDP
+- Intelligent Document Processing
 - OCR
 - Data Extraction
 - Artificial Intelligence

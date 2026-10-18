@@ -55,6 +55,6 @@ tags:
 - Language Processing
 - Localization
 - Machine Translation
-- NLP
+- Natural Language Processing
 - Translation
 ---

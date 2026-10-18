@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wadifa-info/re
 summary_line: 5 operations
 tags:
 - Company
-- Jobs
+- Job
 - Public Sector
 - Morocco
 - Open Data

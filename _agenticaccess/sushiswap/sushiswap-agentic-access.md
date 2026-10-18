@@ -86,7 +86,6 @@ summary_line: 11 operations · 2 acting
 tags:
 - DeFi
 - Decentralized Exchange
-- DEX
 - Cryptocurrency
 - Web3
 - Blockchain

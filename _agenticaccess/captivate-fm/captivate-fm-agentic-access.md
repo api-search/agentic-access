@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/captiv
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/agentic-access/captivate-fm-agentic-access.yml
 summary_line: 28 operations · 6 acting
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Episodes
 - Media

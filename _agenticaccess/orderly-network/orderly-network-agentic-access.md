@@ -221,7 +221,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orderly-networ
 summary_line: 248 operations · 66 acting · 4 human-in-the-loop
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - DeFi
 - Trading
 - Perpetual Futures

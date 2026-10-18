@@ -222,5 +222,5 @@ tags:
 - Compliance
 - Biometrics
 - Transaction Monitoring
-- Crypto
+- Cryptocurrency
 ---

@@ -344,7 +344,7 @@ summary_line: 466 operations · 240 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence
 - Computer Vision
-- NLP
+- Natural Language Processing
 - Image Recognition
 - Object Detection
 - Text Analysis

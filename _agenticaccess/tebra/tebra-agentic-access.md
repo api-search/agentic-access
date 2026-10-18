@@ -173,7 +173,7 @@ summary_line: 34 operations
 tags:
 - Healthcare
 - Practice Management
-- EHR
+- Electronic Health Records
 - Medical Billing
 - Patient Engagement
 - Kareo

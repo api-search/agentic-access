@@ -140,10 +140,9 @@ summary_line: 20 operations
 tags:
 - News Intelligence
 - Text Analysis
-- NLP
+- Natural Language Processing
 - Sentiment Analysis
 - Entity Recognition
-- Natural Language Processing
 - News API
 - Article Extraction
 - Summarization

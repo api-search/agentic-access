@@ -58,9 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/docuse
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/agentic-access/docuseal-agentic-access.yml
 summary_line: 22 operations · 15 acting
 tags:
-- Document Signing
 - E-Signature
-- Electronic Signature
 - Document Management
 - PDF
 - Templates

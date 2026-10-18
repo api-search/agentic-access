@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mobula
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/agentic-access/mobula-agentic-access.yml
 summary_line: 11 operations
 tags:
-- Crypto
+- Cryptocurrency
 - Web3
 - Market Data
 - Blockchain

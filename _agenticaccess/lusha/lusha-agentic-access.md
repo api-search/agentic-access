@@ -168,7 +168,7 @@ summary_line: 88 operations · 28 acting
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Contact Data
 - Prospecting
 - Intents

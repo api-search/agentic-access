@@ -87,8 +87,8 @@ summary_line: 32 operations · 18 acting
 tags:
 - Authentication
 - Authorization
-- Identity Management
+- Identity and Access Management
 - Open Source
-- OIDC
+- OpenID Connect
 - Identity Federation
 ---

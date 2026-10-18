@@ -130,7 +130,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradera/refs/h
 summary_line: 72 operations · 32 acting
 tags:
 - Marketplace
-- E-commerce
+- E-Commerce
 - Secondhand
 - Auctions
 - Sweden

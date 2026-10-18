@@ -80,7 +80,7 @@ tags:
 - Email Security
 - Endpoint Security
 - Incident Response
-- Brokers
+- Brokerage
 - Quoting
 - Bindings
 - Policy Lifecycle

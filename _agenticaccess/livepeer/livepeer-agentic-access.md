@@ -206,6 +206,6 @@ tags:
 - Transcoding
 - Decentralized
 - Web3
-- Live Video
+- Live Streaming
 - AI Video
 ---

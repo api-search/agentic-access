@@ -124,11 +124,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/
 summary_line: 102 operations · 30 acting · 1 human-in-the-loop
 tags:
 - Company
-- Agentic AI
+- AI Agents
 - Automation
 - Workflow Automation
 - Finance Automation
 - Accounts Payable
-- Neurosymbolic AI
+- Neuro-Symbolic AI
 - Enterprise
 ---

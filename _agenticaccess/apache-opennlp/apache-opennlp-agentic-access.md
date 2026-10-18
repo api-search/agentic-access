@@ -99,7 +99,6 @@ summary_line: 11 operations · 8 acting
 tags:
 - Machine Learning
 - Natural Language Processing
-- NLP
 - Text Processing
 - Apache
 - Open Source

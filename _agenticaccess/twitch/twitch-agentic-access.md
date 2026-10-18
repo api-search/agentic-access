@@ -343,10 +343,9 @@ summary_line: 106 operations · 38 acting
 tags:
 - Entertainment
 - Gaming
-- Live Video
+- Live Streaming
 - Streaming
 - Video
 - Twitch
 - Real-Time
-- Live Streaming
 ---

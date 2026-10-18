@@ -75,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visteon/refs/h
 summary_line: 18 operations · 6 acting
 tags:
 - Automotive
-- Connected Car
+- Connected Vehicles
 - Infotainment
 - IoT
 - Fortune 500

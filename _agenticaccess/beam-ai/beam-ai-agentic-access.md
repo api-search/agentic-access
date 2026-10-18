@@ -244,7 +244,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beam-ai/refs/h
 summary_line: 48 operations · 26 acting · 26 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
 - Enterprise
 - Platform

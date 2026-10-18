@@ -434,7 +434,7 @@ summary_line: 381 operations · 187 acting · 11 human-in-the-loop
 tags:
 - API Gateway
 - API Management
-- Access Management
+- Identity and Access Management
 - Identity
 - Event-Driven
 - Kafka Gateway

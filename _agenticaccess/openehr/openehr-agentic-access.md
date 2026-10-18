@@ -161,7 +161,6 @@ summary_line: 97 operations · 49 acting
 tags:
 - openEHR
 - Healthcare
-- EHR
 - Electronic Health Records
 - Health Informatics
 - Standards

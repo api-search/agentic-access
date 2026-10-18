@@ -43,6 +43,6 @@ tags:
 - Rollup
 - Zero Knowledge
 - JSON-RPC
-- Crypto
+- Cryptocurrency
 - Web3
 ---

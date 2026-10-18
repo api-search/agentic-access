@@ -231,7 +231,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tale-dev/refs/
 summary_line: 143 operations · 78 acting · 7 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Automation
 - Knowledge Management

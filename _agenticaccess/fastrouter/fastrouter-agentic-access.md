@@ -123,7 +123,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastrouter/ref
 summary_line: 19 operations · 13 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - API Gateway
 - LLM
 - Enterprise

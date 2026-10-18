@@ -40,7 +40,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/adobe-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/agentic-access/adobe-sign-agentic-access.yml
 summary_line: 2 operations · 1 acting
 tags:
-- Electronic Signature
 - E-Signature
 - Document Workflow
 - Digital Signature

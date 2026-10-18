@@ -126,7 +126,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/korbit/refs/he
 summary_line: 34 operations · 7 acting
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Cryptocurrency Exchange
 - Digital Assets
 - Trading

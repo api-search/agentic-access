@@ -198,7 +198,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/h
 summary_line: 506 operations · 245 acting · 5 human-in-the-loop
 tags:
 - Git
-- Source Code Management
+- Version Control
 - Self-Hosted
 - DevOps
 - CI/CD

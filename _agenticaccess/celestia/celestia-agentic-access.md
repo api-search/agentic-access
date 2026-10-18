@@ -57,12 +57,12 @@ api_specs:
   slug: celestia-blobstream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-blobstream-api-openapi.yml
-- filename: celestia-p2-p-api-openapi.yml
+- filename: celestia-p2p-api-openapi.yml
   format: yaml
-  label: Celestia P2 P API
-  slug: celestia-p2-p-api
+  label: Celestia P2P API
+  slug: celestia-p2p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-p2-p-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-p2p-api-openapi.yml
 consequence_counts:
   write: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

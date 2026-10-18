@@ -586,7 +586,7 @@ summary_line: 340 operations · 192 acting · 6 human-in-the-loop
 tags:
 - Company
 - Education
-- Learning Management System
+- LMS
 - Customer Education
 - Training
 - Online Courses

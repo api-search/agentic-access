@@ -100,7 +100,7 @@ summary_line: 26 operations · 16 acting · 1 human-in-the-loop
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Lookalike
 - Account Based Marketing
 - Prospecting

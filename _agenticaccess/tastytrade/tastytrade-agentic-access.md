@@ -290,7 +290,7 @@ tags:
 - Options
 - Futures
 - Stocks
-- Crypto
+- Cryptocurrency
 - Market Data
 - WebSocket
 - Investing

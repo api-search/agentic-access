@@ -197,7 +197,7 @@ summary_line: 61 operations · 28 acting
 tags:
 - Antivirus
 - Cybersecurity
-- Endpoint Protection
+- Endpoint Security
 - Security
 - Threat Intelligence
 ---

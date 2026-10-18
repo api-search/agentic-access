@@ -363,7 +363,7 @@ tags:
 - Authentication
 - Authorization
 - Identity
-- OIDC
+- OpenID Connect
 - SAML
 - Open Source
 - Identity Federation

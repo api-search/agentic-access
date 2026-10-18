@@ -569,7 +569,7 @@ summary_line: 448 operations · 306 acting · 288 human-in-the-loop
 tags:
 - Authentication
 - Authorization
-- Identity Management
+- Identity and Access Management
 - CIAM
 - B2B SaaS
 - Multi-Tenancy

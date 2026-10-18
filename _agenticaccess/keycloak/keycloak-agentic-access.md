@@ -92,7 +92,7 @@ summary_line: 40 operations · 24 acting · 1 human-in-the-loop
 tags:
 - Authentication
 - Authorization
-- Identity Management
+- Identity and Access Management
 - OpenID Connect
 - Security
 - SSO

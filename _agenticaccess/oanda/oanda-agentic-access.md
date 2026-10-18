@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/oanda-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/agentic-access/oanda-agentic-access.yml
 summary_line: 40 operations · 9 acting
 tags:
-- Forex
+- Foreign Exchange
 - FX Trading
 - CFD Trading
 - Financial Services

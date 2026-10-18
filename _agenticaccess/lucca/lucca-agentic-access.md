@@ -128,8 +128,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/hea
 summary_line: 77 operations · 33 acting
 tags:
 - Company
-- HR
-- SaaS
+- Human Resources
+- Software-as-a-Service
 - Payroll
 - Talent Management
 ---

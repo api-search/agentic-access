@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/re
 summary_line: 13 operations · 9 acting
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - LLM
 - Fine-Tuning
 - Reinforcement Learning

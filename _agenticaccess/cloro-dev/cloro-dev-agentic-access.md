@@ -70,7 +70,7 @@ summary_line: 17 operations · 12 acting
 tags:
 - Company
 - Search
-- AI
+- Artificial Intelligence
 - Web Scraping
 - SERP
 - Generative Engine Optimization

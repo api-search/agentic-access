@@ -353,7 +353,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ondo-finance/r
 summary_line: 130 operations · 55 acting · 3 human-in-the-loop
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Tokenization
 - Real World Assets
 - DeFi

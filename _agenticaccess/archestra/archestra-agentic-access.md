@@ -640,9 +640,9 @@ source_yaml: "generated: '2026-10-16'\nmethod: generated\nsource: openapi/arches
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archestra/refs/heads/main/agentic-access/archestra-agentic-access.yml
 summary_line: 840 operations · 499 acting · 32 human-in-the-loop
 tags:
-- AI infrastructure
+- AI Infrastructure
 - MCP gateway
 - LLM proxy
 - Observability
-- Open source
+- Open Source
 ---

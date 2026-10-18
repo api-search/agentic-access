@@ -286,7 +286,7 @@ tags:
 - e-Prescribing
 - eRx
 - Healthcare
-- EHR
+- Electronic Health Records
 - Pharmacy
 - EPCS
 - Prescriptions

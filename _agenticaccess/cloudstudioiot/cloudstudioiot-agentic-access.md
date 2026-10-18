@@ -75,7 +75,7 @@ summary_line: 15 operations · 2 acting
 tags:
 - Company
 - IoT
-- AI
+- Artificial Intelligence
 - Industrial
 - Platform
 ---

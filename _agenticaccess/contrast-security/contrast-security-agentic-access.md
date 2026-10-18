@@ -61,7 +61,7 @@ tags:
 - AppSec
 - IAST
 - RASP
-- SCA
+- Software Composition Analysis
 - DevSecOps
 - Runtime Protection
 ---

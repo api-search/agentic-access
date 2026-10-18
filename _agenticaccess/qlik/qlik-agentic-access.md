@@ -75,7 +75,4 @@ tags:
 - Access Control
 - Machine Learning
 - Artificial Intelligence
-- Analytics
-- Data Integration
-- Cloud
 ---

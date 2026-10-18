@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/kronos
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kronos-seshat/refs/heads/main/agentic-access/kronos-seshat-agentic-access.yml
 summary_line: 32 operations · 1 acting
 tags:
-- Crypto
+- Cryptocurrency
 - Financial Forecast
 - Market Data
 - Auditing

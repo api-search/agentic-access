@@ -224,6 +224,6 @@ tags:
 - Company
 - Procurement
 - Spend-Management
-- SaaS
+- Software-as-a-Service
 - Automation
 ---

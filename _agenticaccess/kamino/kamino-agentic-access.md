@@ -238,7 +238,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kamino/refs/he
 summary_line: 85 operations · 10 acting
 tags:
 - Company
-- Crypto Web3
+- Web3
 - DeFi
 - Solana
 - Lending
@@ -247,6 +247,5 @@ tags:
 - Blockchain
 - Oracle
 - Vault
-- Web3
 - Cryptocurrency
 ---

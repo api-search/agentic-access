@@ -61,9 +61,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/agentic-access/google-cloud-iam-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
-- Access Management
-- Google Cloud
 - Identity and Access Management
+- Google Cloud
 - Identity
 - Permissions
 - Security

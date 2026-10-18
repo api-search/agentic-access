@@ -47,7 +47,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs
 summary_line: 4 operations · 1 acting
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Artificial Intelligence
 - Machine Learning
 - Agents

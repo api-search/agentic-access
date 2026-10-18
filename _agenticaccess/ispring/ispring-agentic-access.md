@@ -223,7 +223,6 @@ summary_line: 142 operations · 81 acting · 3 human-in-the-loop
 tags:
 - E-Learning
 - LMS
-- Learning Management System
 - Training
 - Courses
 - Enrollment

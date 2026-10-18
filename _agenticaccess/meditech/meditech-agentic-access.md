@@ -84,7 +84,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/
 summary_line: 10 operations
 tags:
 - Company
-- EHR
+- Electronic Health Records
 - Healthcare
 - FHIR
 - HL7

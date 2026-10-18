@@ -239,7 +239,7 @@ tags:
 - Legal Research
 - Law
 - Compliance
-- Legal Technology
+- Legal Tech
 - Government Data
 - MCP
 - India

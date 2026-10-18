@@ -648,12 +648,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gluu-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/agentic-access/gluu-agentic-access.yml
 summary_line: 328 operations · 151 acting · 7 human-in-the-loop
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Authorization
 - Cedar
 - FIDO2
-- Identity and Access Management
 - Identities
 - Open Source
 - OpenID Connect

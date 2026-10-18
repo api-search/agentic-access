@@ -66,4 +66,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activision-bli
 summary_line: 17 operations
 tags:
 - Fortune 1000
+- Video Games
+- Gaming
+- Entertainment
+- Game Publisher
 ---

@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blubrr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/agentic-access/blubrry-api-restful-api-for-podcast-publishing-statistics-agentic-access.yml
 summary_line: 27 operations · 8 acting
 tags:
-- Podcasting
+- Podcasts
 - Audio
 - Media
 - Publishing

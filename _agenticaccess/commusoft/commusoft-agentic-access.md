@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/commus
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/agentic-access/commusoft-agentic-access.yml
 summary_line: 27 operations · 15 acting
 tags:
-- Field Service Management
+- Field Service
 - Job Management
 - HVAC
 - Plumbing

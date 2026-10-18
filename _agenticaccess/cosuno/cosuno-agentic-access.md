@@ -171,7 +171,7 @@ summary_line: 107 operations · 60 acting
 tags:
 - Construction
 - Marketplace
-- AI
+- Artificial Intelligence
 - Tendering
 - Germany
 ---

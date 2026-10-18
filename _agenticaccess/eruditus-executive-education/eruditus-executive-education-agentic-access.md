@@ -48,7 +48,7 @@ summary_line: 4 operations · 1 acting
 tags:
 - Company
 - Education
-- Online Learning
+- E-Learning
 - Executive Education
 - EdTech
 - Higher Education

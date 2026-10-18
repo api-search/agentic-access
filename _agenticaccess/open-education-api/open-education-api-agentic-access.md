@@ -249,8 +249,8 @@ tags:
 - Company
 - Education
 - Higher Education
-- Open Standards
+- Open Standard
 - Interoperability
-- Specifications
+- Specification
 - Netherlands
 ---

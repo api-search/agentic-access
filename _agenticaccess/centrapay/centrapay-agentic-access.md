@@ -87,7 +87,7 @@ summary_line: 16 operations · 8 acting
 tags:
 - Company
 - Payments
-- Digital Wallets
+- Digital Wallet
 - Open Banking
 - QR Code Payments
 - Loyalty

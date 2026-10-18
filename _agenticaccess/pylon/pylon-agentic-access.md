@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pylon-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/agentic-access/pylon-agentic-access.yml
 summary_line: 68 operations · 38 acting
 tags:
-- Customer Support
+- Customer Service
 - Customer Operations
 - Ticketing
 - Knowledge Base

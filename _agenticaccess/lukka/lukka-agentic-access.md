@@ -188,7 +188,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/lukka-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/agentic-access/lukka-agentic-access.yml
 summary_line: 91 operations · 3 acting
 tags:
-- Crypto
+- Cryptocurrency
 - Digital Assets
 - Market Data
 - Reference Data

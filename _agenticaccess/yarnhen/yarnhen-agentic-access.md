@@ -26,6 +26,12 @@ api_specs:
   slug: yarnhen-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yarnhen/refs/heads/main/openapi/yarnhen-webhooks-api-openapi.yml
+- filename: yarnhen-oauth-api-openapi.yml
+  format: yaml
+  label: Yarnhen OAuth API
+  slug: yarnhen-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yarnhen/refs/heads/main/openapi/yarnhen-oauth-api-openapi.yml
 consequence_counts: {}
 description: What calling each yarnhen.com operation does, and whether a person should be involved. Read from the x-agentic-access extension in https://yarnhen.com/openapi-site.yml.
 human_in_the_loop: 0

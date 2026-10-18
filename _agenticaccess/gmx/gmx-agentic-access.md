@@ -205,7 +205,7 @@ summary_line: 37 operations · 11 acting
 tags:
 - DeFi
 - Perpetual Exchange
-- DEX
+- Decentralized Exchange
 - Trading
 - Leverage
 - Liquidity Pools

@@ -147,8 +147,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearstreet8e7
 summary_line: 72 operations · 26 acting
 tags:
 - Company
-- FinTech
+- Fintech
 - Brokerage
-- API
 - Institutional
 ---

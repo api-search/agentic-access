@@ -73,8 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workiz
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/agentic-access/workiz-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
-- Field Service Management
-- FSM
+- Field Service
 - Home Services
 - Scheduling
 - Dispatch

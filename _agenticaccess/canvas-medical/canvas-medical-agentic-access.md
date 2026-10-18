@@ -223,10 +223,9 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/canvas
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/agentic-access/canvas-medical-agentic-access.yml
 summary_line: 85 operations · 30 acting
 tags:
-- EHR
+- Electronic Health Records
 - FHIR
 - Healthcare
-- Electronic Health Records
 - Virtual Care
 - Clinical Workflows
 - Patient Management

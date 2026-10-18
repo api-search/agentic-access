@@ -130,7 +130,7 @@ tags:
 - Shopping
 - Reviews
 - Lens
-- Scraping
+- Web Scraping
 - SERP API
 - Web Search
 - Agents

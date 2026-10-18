@@ -81,11 +81,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eraser
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/agentic-access/eraser-agentic-access.yml
 summary_line: 20 operations · 11 acting
 tags:
-- Diagrams
+- Diagramming
 - Documentation
 - Artificial Intelligence
 - Technical Documentation
-- Diagramming
 - Architecture
 - Developer Tools
 ---
