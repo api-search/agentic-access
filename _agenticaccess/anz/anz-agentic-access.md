@@ -45,6 +45,12 @@ api_specs:
   slug: anz-banking-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-banking-products-api-openapi.yml
+- filename: anz-banking-products-api-openapi.yml
+  format: yaml
+  label: Australia and New Zealand Banking Group (ANZ) ANZ Plus Banking Products API
+  slug: anz-plus-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/openapi/anz-banking-products-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -58,6 +58,24 @@ api_specs:
   slug: xero-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-project-api-openapi.yml
+- filename: xero-accountdata-api-openapi.yml
+  format: yaml
+  label: Xero Account Data API
+  slug: xero-accountdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-accountdata-api-openapi.yml
+- filename: xero-feedconnections-api-openapi.yml
+  format: yaml
+  label: Xero Feed Connections API
+  slug: xero-feedconnections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-feedconnections-api-openapi.yml
+- filename: xero-app-store-api-openapi.yml
+  format: yaml
+  label: Xero App Store API
+  slug: xero-app-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-app-store-api-openapi.yml
 - filename: xero-bank-feeds-api-openapi.yml
   format: yaml
   label: Xero Bank Feeds API
