@@ -28,6 +28,60 @@ api_specs:
   slug: commerce-coinbase-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-webhooks-api-openapi.yml
+- filename: commerce-coinbase-account-management-api-openapi.yml
+  format: yaml
+  label: Coinbase Commerce Account Management API
+  slug: commerce-coinbase-account-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-account-management-api-openapi.yml
+- filename: commerce-coinbase-authentication-api-openapi.yml
+  format: yaml
+  label: Coinbase Commerce Authentication API
+  slug: commerce-coinbase-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-authentication-api-openapi.yml
+- filename: commerce-coinbase-combo-books-api-openapi.yml
+  format: yaml
+  label: Coinbase Commerce Combo Books API
+  slug: commerce-coinbase-combo-books-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-combo-books-api-openapi.yml
+- filename: commerce-coinbase-market-data-api-openapi.yml
+  format: yaml
+  label: Coinbase Commerce Market Data API
+  slug: commerce-coinbase-market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-market-data-api-openapi.yml
+- filename: commerce-coinbase-session-management-api-openapi.yml
+  format: yaml
+  label: Coinbase Commerce Session Management API
+  slug: commerce-coinbase-session-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-session-management-api-openapi.yml
+- filename: commerce-coinbase-subscription-management-api-openapi.yml
+  format: yaml
+  label: Coinbase Commerce Subscription Management API
+  slug: commerce-coinbase-subscription-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-subscription-management-api-openapi.yml
+- filename: commerce-coinbase-supporting-api-openapi.yml
+  format: yaml
+  label: Coinbase Commerce Supporting API
+  slug: commerce-coinbase-supporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-supporting-api-openapi.yml
+- filename: commerce-coinbase-trading-api-openapi.yml
+  format: yaml
+  label: Coinbase Commerce Trading API
+  slug: commerce-coinbase-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-trading-api-openapi.yml
+- filename: commerce-coinbase-wallet-api-openapi.yml
+  format: yaml
+  label: Coinbase Commerce Wallet API
+  slug: commerce-coinbase-wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/openapi/commerce-coinbase-wallet-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 6

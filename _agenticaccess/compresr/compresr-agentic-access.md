@@ -34,12 +34,6 @@ api_specs:
   slug: compresr-billing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-billing-api-openapi.yml
-- filename: compresr-careers-api-openapi.yml
-  format: yaml
-  label: Compresr Careers API
-  slug: compresr-careers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/openapi/compresr-careers-api-openapi.yml
 - filename: compresr-compresr-platform-api-api-openapi.yml
   format: yaml
   label: Compresr Platform API

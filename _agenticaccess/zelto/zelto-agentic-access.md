@@ -120,7 +120,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zelto/refs/hea
 summary_line: 49 operations · 23 acting
 tags:
 - Company
-- VoiceAI
+- Voice AI
 - QA
 - Production
 - Analytics

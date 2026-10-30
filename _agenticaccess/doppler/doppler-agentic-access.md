@@ -4,54 +4,12 @@ action_class_counts:
   acting: 7
   connected: 12
 api_specs:
-- filename: doppler-auth-api-openapi.yml
+- filename: doppler-workplace-api-openapi.yml
   format: yaml
-  label: Doppler Auth API
-  slug: doppler-auth-api
+  label: Doppler Workplace API
+  slug: doppler-workplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-auth-api-openapi.yml
-- filename: doppler-configs-api-openapi.yml
-  format: yaml
-  label: Doppler Configs API
-  slug: doppler-configs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-configs-api-openapi.yml
-- filename: doppler-environments-api-openapi.yml
-  format: yaml
-  label: Doppler Environments API
-  slug: doppler-environments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-environments-api-openapi.yml
-- filename: doppler-projects-api-openapi.yml
-  format: yaml
-  label: Doppler Projects API
-  slug: doppler-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-projects-api-openapi.yml
-- filename: doppler-secrets-api-openapi.yml
-  format: yaml
-  label: Doppler Secrets API
-  slug: doppler-secrets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-secrets-api-openapi.yml
-- filename: doppler-webhooks-api-openapi.yml
-  format: yaml
-  label: Doppler Webhooks API
-  slug: doppler-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-webhooks-api-openapi.yml
-- filename: doppler-activity-logs-api-openapi.yml
-  format: yaml
-  label: Doppler Activity Logs API
-  slug: doppler-activity-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-activity-logs-api-openapi.yml
-- filename: doppler-service-tokens-api-openapi.yml
-  format: yaml
-  label: Doppler Service Tokens API
-  slug: doppler-service-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-service-tokens-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-workplace-api-openapi.yml
 consequence_counts:
   read: 12
   write: 7

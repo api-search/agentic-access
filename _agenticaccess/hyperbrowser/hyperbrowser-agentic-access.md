@@ -70,6 +70,42 @@ api_specs:
   slug: hyperbrowser-x402-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-x402-api-openapi.yml
+- filename: hyperbrowser-images-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Images API
+  slug: hyperbrowser-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-images-api-openapi.yml
+- filename: hyperbrowser-sandboxes-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Sandboxes API
+  slug: hyperbrowser-sandboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-sandboxes-api-openapi.yml
+- filename: hyperbrowser-secrets-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Secrets API
+  slug: hyperbrowser-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-secrets-api-openapi.yml
+- filename: hyperbrowser-snapshots-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Snapshots API
+  slug: hyperbrowser-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-snapshots-api-openapi.yml
+- filename: hyperbrowser-vaults-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Vaults API
+  slug: hyperbrowser-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-vaults-api-openapi.yml
+- filename: hyperbrowser-volumes-api-openapi.yml
+  format: yaml
+  label: Hyperbrowser Volumes API
+  slug: hyperbrowser-volumes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/openapi/hyperbrowser-volumes-api-openapi.yml
 consequence_counts:
   read: 32
   safety-critical: 6
@@ -149,13 +185,12 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hyperb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/agentic-access/hyperbrowser-agentic-access.yml
 summary_line: 54 operations · 22 acting · 6 human-in-the-loop
 tags:
-- Headless Browser
+- Browser Automation
 - Browser Infrastructure
 - Web Scraping
 - Web Crawling
 - Data Extraction
 - AI Agents
-- Browser Automation
 - Computer Use
 - Stealth
 - Proxies

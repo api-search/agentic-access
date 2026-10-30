@@ -34,6 +34,12 @@ api_specs:
   slug: langgraph-listeners-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-listeners-v2-api-openapi.yml
+- filename: langgraph-integrations-v2-api-openapi.yml
+  format: yaml
+  label: LangGraph Integrations (v2) API
+  slug: langgraph-integrations-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/openapi/langgraph-integrations-v2-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 19

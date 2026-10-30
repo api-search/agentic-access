@@ -58,7 +58,7 @@ summary_line: 18 operations · 8 acting
 tags:
 - Artificial Intelligence
 - Search
-- Vector Database
+- Vector Search
 - Big Data
 - Machine Learning
 - Semantic Search
@@ -66,5 +66,4 @@ tags:
 - Open Source
 - Tensor
 - Recommendations
-- Vector Search
 ---

@@ -414,5 +414,4 @@ tags:
 - Version Control
 - T1
 - GitHub
-- Git
 ---

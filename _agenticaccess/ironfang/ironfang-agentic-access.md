@@ -569,7 +569,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/
 summary_line: 230 operations · 108 acting · 3 human-in-the-loop
 tags:
 - Developer Tools
-- screenshot-api
+- Screenshots
 - website screenshot
 - HTML to PDF
 - PDF API

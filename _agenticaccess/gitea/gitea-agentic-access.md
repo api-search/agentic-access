@@ -237,7 +237,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/hea
 summary_line: 944 operations · 470 acting · 12 human-in-the-loop
 tags:
 - Gitea
-- Git
 - Version Control
 - DevOps
 - CI/CD

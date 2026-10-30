@@ -31,7 +31,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/media2url/refs
 summary_line: 1 operation
 tags:
 - Media
-- FileHosting
-- DirectLinks
+- File Hosting
+- Direct Links
 - Upload
 ---

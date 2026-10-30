@@ -10,12 +10,6 @@ api_specs:
   slug: coder-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/openapi/coder-agents-api-openapi.yml
-- filename: coder-ai-bridge-api-openapi.yml
-  format: yaml
-  label: Coder AI Bridge API
-  slug: coder-ai-bridge-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/openapi/coder-ai-bridge-api-openapi.yml
 - filename: coder-ai-providers-api-openapi.yml
   format: yaml
   label: Coder AI Providers API
@@ -136,12 +130,6 @@ api_specs:
   slug: coder-secrets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/openapi/coder-secrets-api-openapi.yml
-- filename: coder-tasks-api-openapi.yml
-  format: yaml
-  label: Coder Tasks API
-  slug: coder-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/openapi/coder-tasks-api-openapi.yml
 - filename: coder-templates-api-openapi.yml
   format: yaml
   label: Coder Templates API
@@ -166,6 +154,24 @@ api_specs:
   slug: coder-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/openapi/coder-workspaces-api-openapi.yml
+- filename: coder-ai-gateway-api-openapi.yml
+  format: yaml
+  label: Coder AI Gateway API
+  slug: coder-ai-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/openapi/coder-ai-gateway-api-openapi.yml
+- filename: coder-mcp-api-openapi.yml
+  format: yaml
+  label: Coder MCP API
+  slug: coder-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/openapi/coder-mcp-api-openapi.yml
+- filename: coder-templatebuilder-api-openapi.yml
+  format: yaml
+  label: Coder Template Builder API
+  slug: coder-templatebuilder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/openapi/coder-templatebuilder-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 213

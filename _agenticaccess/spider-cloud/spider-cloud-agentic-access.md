@@ -99,6 +99,6 @@ tags:
 - Markdown
 - MCP
 - Rust
-- Headless Browser
+- Browser Automation
 - Proxies
 ---

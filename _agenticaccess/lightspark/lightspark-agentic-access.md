@@ -22,12 +22,6 @@ api_specs:
   slug: lightspark-api-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-api-tokens-api-openapi.yml
-- filename: lightspark-available-uma-providers-api-openapi.yml
-  format: yaml
-  label: Lightspark Available UMA Providers API
-  slug: lightspark-available-uma-providers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-available-uma-providers-api-openapi.yml
 - filename: lightspark-cards-api-openapi.yml
   format: yaml
   label: Lightspark Cards API
@@ -142,6 +136,18 @@ api_specs:
   slug: lightspark-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-webhooks-api-openapi.yml
+- filename: lightspark-embedded-care-api-openapi.yml
+  format: yaml
+  label: Lightspark Embedded Care API
+  slug: lightspark-embedded-care-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-embedded-care-api-openapi.yml
+- filename: lightspark-periodic-statements-api-openapi.yml
+  format: yaml
+  label: Lightspark Periodic Statements API
+  slug: lightspark-periodic-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/openapi/lightspark-periodic-statements-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 50

@@ -77,6 +77,5 @@ tags:
 - Crawling
 - Data Aggregation
 - Data Extraction
-- Web Automation
 - Web Scraping
 ---

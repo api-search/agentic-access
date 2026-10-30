@@ -22,6 +22,18 @@ api_specs:
   slug: agentql-remote-browser-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-remote-browser-api-openapi.yml
+- filename: agentql-agentql-rest-api-api-openapi.yml
+  format: yaml
+  label: AgentQL AgentQL REST API
+  slug: agentql-agentql-rest-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-agentql-rest-api-api-openapi.yml
+- filename: agentql-agentql-tetra-remote-chrome-browser-api-openapi.yml
+  format: yaml
+  label: AgentQL AgentQL Tetra (Remote Chrome Browser) API
+  slug: agentql-agentql-tetra-remote-chrome-browser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-agentql-tetra-remote-chrome-browser-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

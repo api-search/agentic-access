@@ -212,7 +212,7 @@ tags:
 - Web3
 - Blockchain
 - Ethereum
-- L2
+- Layer 2
 - Creator Economy
 - Marketplace
 - Zora Network

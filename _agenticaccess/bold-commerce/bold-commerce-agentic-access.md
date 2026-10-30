@@ -4,30 +4,12 @@ action_class_counts:
   acting: 18
   connected: 11
 api_specs:
-- filename: bold-commerce-checkout-api-openapi.yml
-  format: yaml
-  label: Bold Commerce Checkout API
-  slug: bold-commerce-checkout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-checkout-api-openapi.yml
 - filename: bold-commerce-customers-api-openapi.yml
   format: yaml
   label: Bold Commerce Customers API
   slug: bold-commerce-customers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-customers-api-openapi.yml
-- filename: bold-commerce-price-rules-api-openapi.yml
-  format: yaml
-  label: Bold Commerce Price Rules API
-  slug: bold-commerce-price-rules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-price-rules-api-openapi.yml
-- filename: bold-commerce-products-api-openapi.yml
-  format: yaml
-  label: Bold Commerce Products API
-  slug: bold-commerce-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-products-api-openapi.yml
 - filename: bold-commerce-shops-api-openapi.yml
   format: yaml
   label: Bold Commerce Shops API
@@ -40,6 +22,66 @@ api_specs:
   slug: bold-commerce-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-subscriptions-api-openapi.yml
+- filename: bold-commerce-convertible-adjustments-api-openapi.yml
+  format: yaml
+  label: Bold Commerce Convertible Adjustments API
+  slug: bold-commerce-convertible-adjustments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-convertible-adjustments-api-openapi.yml
+- filename: bold-commerce-future-orders-api-openapi.yml
+  format: yaml
+  label: Bold Commerce Future Orders API
+  slug: bold-commerce-future-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-future-orders-api-openapi.yml
+- filename: bold-commerce-payment-methods-api-openapi.yml
+  format: yaml
+  label: Bold Commerce Payment Methods API
+  slug: bold-commerce-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-payment-methods-api-openapi.yml
+- filename: bold-commerce-subscription-adjustments-api-openapi.yml
+  format: yaml
+  label: Bold Commerce Subscription Adjustments API
+  slug: bold-commerce-subscription-adjustments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-subscription-adjustments-api-openapi.yml
+- filename: bold-commerce-subscription-groups-api-openapi.yml
+  format: yaml
+  label: Bold Commerce Subscription Groups API
+  slug: bold-commerce-subscription-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-subscription-groups-api-openapi.yml
+- filename: bold-commerce-subscription-line-items-api-openapi.yml
+  format: yaml
+  label: Bold Commerce Subscription Line Items API
+  slug: bold-commerce-subscription-line-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-subscription-line-items-api-openapi.yml
+- filename: bold-commerce-subscription-orders-api-openapi.yml
+  format: yaml
+  label: Bold Commerce Subscription Orders API
+  slug: bold-commerce-subscription-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-subscription-orders-api-openapi.yml
+- filename: bold-commerce-webhook-events-api-openapi.yml
+  format: yaml
+  label: Bold Commerce Webhook Events API
+  slug: bold-commerce-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-webhook-events-api-openapi.yml
+- filename: bold-commerce-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: Bold Commerce Webhook Subscriptions API
+  slug: bold-commerce-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-webhook-subscriptions-api-openapi.yml
+- filename: bold-commerce-webhook-topics-api-openapi.yml
+  format: yaml
+  label: Bold Commerce Webhook Topics API
+  slug: bold-commerce-webhook-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/openapi/bold-commerce-webhook-topics-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 11

@@ -40,6 +40,48 @@ api_specs:
   slug: geocitation-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-usage-api-openapi.yml
+- filename: geocitation-agent-tasks-api-openapi.yml
+  format: yaml
+  label: GEOCitation Agent Tasks API
+  slug: geocitation-agent-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-agent-tasks-api-openapi.yml
+- filename: geocitation-agents-api-openapi.yml
+  format: yaml
+  label: GEOCitation Agents API
+  slug: geocitation-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-agents-api-openapi.yml
+- filename: geocitation-campaigns-api-openapi.yml
+  format: yaml
+  label: GEOCitation Campaigns API
+  slug: geocitation-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-campaigns-api-openapi.yml
+- filename: geocitation-crawler-traffic-api-openapi.yml
+  format: yaml
+  label: GEOCitation Crawler Traffic API
+  slug: geocitation-crawler-traffic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-crawler-traffic-api-openapi.yml
+- filename: geocitation-google-auth-api-openapi.yml
+  format: yaml
+  label: GEOCitation Google Auth API
+  slug: geocitation-google-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-google-auth-api-openapi.yml
+- filename: geocitation-report-pptx-api-openapi.yml
+  format: yaml
+  label: GEOCitation Report Pptx API
+  slug: geocitation-report-pptx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-report-pptx-api-openapi.yml
+- filename: geocitation-user-agents-api-openapi.yml
+  format: yaml
+  label: GEOCitation User Agents API
+  slug: geocitation-user-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-user-agents-api-openapi.yml
 consequence_counts:
   read: 14
   write: 3
@@ -76,7 +118,7 @@ summary_line: 17 operations · 3 acting
 tags:
 - SEO
 - Geo
-- AEO
+- Answer Engine Optimization
 - AI Search Visibility
 - Content Intelligence
 - Competitive Intelligence

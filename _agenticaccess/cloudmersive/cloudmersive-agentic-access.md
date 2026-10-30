@@ -4,18 +4,30 @@ action_class_counts:
   acting: 12
   connected: 1
 api_specs:
-- filename: cloudmersive-scan-api-openapi.yml
+- filename: cloudmersive-imageocr-api-openapi.yml
   format: yaml
-  label: Cloudmersive Scan API
-  slug: cloudmersive-scan-api
+  label: Cloudmersive Image Ocr API
+  slug: cloudmersive-imageocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/openapi/cloudmersive-scan-api-openapi.yml
-- filename: cloudmersive-scancloudstorage-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/openapi/cloudmersive-imageocr-api-openapi.yml
+- filename: cloudmersive-pdfocr-api-openapi.yml
   format: yaml
-  label: Cloudmersive ScanCloudStorage API
-  slug: cloudmersive-scancloudstorage-api
+  label: Cloudmersive PDF Ocr API
+  slug: cloudmersive-pdfocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/openapi/cloudmersive-scancloudstorage-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/openapi/cloudmersive-pdfocr-api-openapi.yml
+- filename: cloudmersive-preprocessing-api-openapi.yml
+  format: yaml
+  label: Cloudmersive Preprocessing API
+  slug: cloudmersive-preprocessing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/openapi/cloudmersive-preprocessing-api-openapi.yml
+- filename: cloudmersive-receipts-api-openapi.yml
+  format: yaml
+  label: Cloudmersive Receipts API
+  slug: cloudmersive-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/openapi/cloudmersive-receipts-api-openapi.yml
 consequence_counts:
   read: 1
   write: 12

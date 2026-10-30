@@ -88,6 +88,12 @@ api_specs:
   slug: leonardo-ai-variation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-variation-api-openapi.yml
+- filename: leonardo-ai-generations-api-openapi.yml
+  format: yaml
+  label: Leonardo.AI Generations API
+  slug: leonardo-ai-generations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-generations-api-openapi.yml
 consequence_counts:
   read: 21
   write: 32
@@ -140,6 +146,6 @@ tags:
 - Generative AI
 - Creative
 - 3D
-- Diffusion
+- Diffusion Models
 - Canva
 ---

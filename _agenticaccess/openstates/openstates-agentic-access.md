@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openstates/ref
 summary_line: 12 operations
 tags:
 - Government
-- Legislative Data
+- Legislative
 - Civic Technology
 - State Legislature
 - Bills

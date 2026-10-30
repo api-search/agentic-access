@@ -4,36 +4,84 @@ action_class_counts:
   acting: 2
   connected: 6
 api_specs:
-- filename: algbra-account-access-api-openapi.yml
-  format: yaml
-  label: Algbra Account Access API
-  slug: algbra-account-access-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-account-access-api-openapi.yml
 - filename: algbra-accounts-api-openapi.yml
   format: yaml
   label: Algbra Accounts API
   slug: algbra-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-accounts-api-openapi.yml
-- filename: algbra-balances-api-openapi.yml
-  format: yaml
-  label: Algbra Balances API
-  slug: algbra-balances-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-balances-api-openapi.yml
-- filename: algbra-beneficiaries-api-openapi.yml
-  format: yaml
-  label: Algbra Beneficiaries API
-  slug: algbra-beneficiaries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-beneficiaries-api-openapi.yml
 - filename: algbra-transactions-api-openapi.yml
   format: yaml
   label: Algbra Transactions API
   slug: algbra-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-transactions-api-openapi.yml
+- filename: algbra-automated-payments-api-openapi.yml
+  format: yaml
+  label: Algbra Automated Payments API
+  slug: algbra-automated-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-automated-payments-api-openapi.yml
+- filename: algbra-cards-api-openapi.yml
+  format: yaml
+  label: Algbra Cards API
+  slug: algbra-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-cards-api-openapi.yml
+- filename: algbra-compliance-api-openapi.yml
+  format: yaml
+  label: Algbra Compliance API
+  slug: algbra-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-compliance-api-openapi.yml
+- filename: algbra-customers-api-openapi.yml
+  format: yaml
+  label: Algbra Customers API
+  slug: algbra-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-customers-api-openapi.yml
+- filename: algbra-investments-api-openapi.yml
+  format: yaml
+  label: Algbra Investments API
+  slug: algbra-investments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-investments-api-openapi.yml
+- filename: algbra-onboarding-prospects-business-api-openapi.yml
+  format: yaml
+  label: Algbra Onboarding Prospects - Business API
+  slug: algbra-onboarding-prospects-business-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-onboarding-prospects-business-api-openapi.yml
+- filename: algbra-onboarding-prospects-personal-api-openapi.yml
+  format: yaml
+  label: Algbra Onboarding Prospects - Personal API
+  slug: algbra-onboarding-prospects-personal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-onboarding-prospects-personal-api-openapi.yml
+- filename: algbra-partner-api-openapi.yml
+  format: yaml
+  label: Algbra Partner API
+  slug: algbra-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-partner-api-openapi.yml
+- filename: algbra-partners-api-openapi.yml
+  format: yaml
+  label: Algbra Partners API
+  slug: algbra-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-partners-api-openapi.yml
+- filename: algbra-payment-simulations-api-openapi.yml
+  format: yaml
+  label: Algbra Payment Simulations API
+  slug: algbra-payment-simulations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-payment-simulations-api-openapi.yml
+- filename: algbra-payments-api-openapi.yml
+  format: yaml
+  label: Algbra Payments API
+  slug: algbra-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-payments-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2

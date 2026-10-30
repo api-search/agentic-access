@@ -22,6 +22,48 @@ api_specs:
   slug: lokalise-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-projects-api-openapi.yml
+- filename: lokalise-branches-api-openapi.yml
+  format: yaml
+  label: Lokalise Branches API
+  slug: lokalise-branches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-branches-api-openapi.yml
+- filename: lokalise-comments-api-openapi.yml
+  format: yaml
+  label: Lokalise Comments API
+  slug: lokalise-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-comments-api-openapi.yml
+- filename: lokalise-languages-api-openapi.yml
+  format: yaml
+  label: Lokalise Languages API
+  slug: lokalise-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-languages-api-openapi.yml
+- filename: lokalise-queued-processes-api-openapi.yml
+  format: yaml
+  label: Lokalise Queued Processes API
+  slug: lokalise-queued-processes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-queued-processes-api-openapi.yml
+- filename: lokalise-screenshots-api-openapi.yml
+  format: yaml
+  label: Lokalise Screenshots API
+  slug: lokalise-screenshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-screenshots-api-openapi.yml
+- filename: lokalise-tasks-api-openapi.yml
+  format: yaml
+  label: Lokalise Tasks API
+  slug: lokalise-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-tasks-api-openapi.yml
+- filename: lokalise-translations-api-openapi.yml
+  format: yaml
+  label: Lokalise Translations API
+  slug: lokalise-translations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/openapi/lokalise-translations-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6

@@ -31,8 +31,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ilook/refs/hea
 summary_line: 1 operation · 1 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - FaceAnalysis
-- ImageProcessing
+- Image Processing
 - Biometrics
 ---

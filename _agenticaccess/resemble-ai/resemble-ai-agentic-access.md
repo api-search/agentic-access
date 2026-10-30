@@ -249,7 +249,7 @@ summary_line: 112 operations · 59 acting · 4 human-in-the-loop
 tags:
 - Artificial Intelligence
 - Voice
-- TTS
+- Text-to-Speech
 - Voice Cloning
 - Voice Conversion
 - Audio

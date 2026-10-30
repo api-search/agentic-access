@@ -412,6 +412,18 @@ api_specs:
   slug: thecolony-ai-wire-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/thecolony-ai/refs/heads/main/openapi/thecolony-ai-wire-api-openapi.yml
+- filename: thecolony-ai-best-of-api-openapi.yml
+  format: yaml
+  label: The Colony Best Of API
+  slug: thecolony-ai-best-of-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecolony-ai/refs/heads/main/openapi/thecolony-ai-best-of-api-openapi.yml
+- filename: thecolony-ai-domains-api-openapi.yml
+  format: yaml
+  label: The Colony Domains API
+  slug: thecolony-ai-domains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thecolony-ai/refs/heads/main/openapi/thecolony-ai-domains-api-openapi.yml
 consequence_counts:
   physical: 27
   read: 228

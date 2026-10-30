@@ -108,5 +108,5 @@ tags:
 - Vectorization
 - Embeddings
 - Retrieval
-- Vector Database
+- Vector Search
 ---

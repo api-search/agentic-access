@@ -40,6 +40,78 @@ api_specs:
   slug: knowi-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-users-api-openapi.yml
+- filename: knowi-action-management-api-api-openapi.yml
+  format: yaml
+  label: Knowi Action Management API
+  slug: knowi-action-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-action-management-api-api-openapi.yml
+- filename: knowi-alerts-api-openapi.yml
+  format: yaml
+  label: Knowi Alerts API
+  slug: knowi-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-alerts-api-openapi.yml
+- filename: knowi-authentication-management-api-api-openapi.yml
+  format: yaml
+  label: Knowi Authentication Management API
+  slug: knowi-authentication-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-authentication-management-api-api-openapi.yml
+- filename: knowi-category-management-api-api-openapi.yml
+  format: yaml
+  label: Knowi Category Management API
+  slug: knowi-category-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-category-management-api-api-openapi.yml
+- filename: knowi-datasource-management-api-api-openapi.yml
+  format: yaml
+  label: Knowi Datasource Management API
+  slug: knowi-datasource-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-datasource-management-api-api-openapi.yml
+- filename: knowi-group-management-api-api-openapi.yml
+  format: yaml
+  label: Knowi Group Management API
+  slug: knowi-group-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-group-management-api-api-openapi.yml
+- filename: knowi-kpi-management-api-api-openapi.yml
+  format: yaml
+  label: Knowi KPI Management API
+  slug: knowi-kpi-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-kpi-management-api-api-openapi.yml
+- filename: knowi-natural-language-processing-management-api-api-openapi.yml
+  format: yaml
+  label: Knowi Natural Language Processing Management API
+  slug: knowi-natural-language-processing-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-natural-language-processing-management-api-api-openapi.yml
+- filename: knowi-report-management-api-api-openapi.yml
+  format: yaml
+  label: Knowi Report Management API
+  slug: knowi-report-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-report-management-api-api-openapi.yml
+- filename: knowi-role-management-api-api-openapi.yml
+  format: yaml
+  label: Knowi Role Management API
+  slug: knowi-role-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-role-management-api-api-openapi.yml
+- filename: knowi-user-management-api-api-openapi.yml
+  format: yaml
+  label: Knowi User Management API
+  slug: knowi-user-management-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-user-management-api-api-openapi.yml
+- filename: knowi-data-sources-api-openapi.yml
+  format: yaml
+  label: Knowi Data Sources API
+  slug: knowi-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/openapi/knowi-data-sources-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1

@@ -28,6 +28,18 @@ api_specs:
   slug: ex-human-text-to-speech-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-text-to-speech-api-openapi.yml
+- filename: ex-human-admin-api-openapi.yml
+  format: yaml
+  label: Ex-Human Admin API
+  slug: ex-human-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-admin-api-openapi.yml
+- filename: ex-human-metrics-api-openapi.yml
+  format: yaml
+  label: Ex-Human Metrics API
+  slug: ex-human-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/openapi/ex-human-metrics-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7

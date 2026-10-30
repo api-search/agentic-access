@@ -28,12 +28,36 @@ api_specs:
   slug: inflectionio-email-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-email-versions-api-openapi.yml
-- filename: inflectionio-lists-and-members-api-openapi.yml
+- filename: inflectionio-journeys-api-openapi.yml
   format: yaml
-  label: Inflection.io Lists and Members API
-  slug: inflectionio-lists-and-members-api
+  label: Inflection.io Journeys API
+  slug: inflectionio-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-lists-and-members-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-journeys-api-openapi.yml
+- filename: inflectionio-lists-api-openapi.yml
+  format: yaml
+  label: Inflection.io Lists API
+  slug: inflectionio-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-lists-api-openapi.yml
+- filename: inflectionio-organizations-api-openapi.yml
+  format: yaml
+  label: Inflection.io Organizations API
+  slug: inflectionio-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-organizations-api-openapi.yml
+- filename: inflectionio-product-users-api-openapi.yml
+  format: yaml
+  label: Inflection.io Product Users API
+  slug: inflectionio-product-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-product-users-api-openapi.yml
+- filename: inflectionio-stats-api-openapi.yml
+  format: yaml
+  label: Inflection.io Stats API
+  slug: inflectionio-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-stats-api-openapi.yml
 consequence_counts:
   read: 10
   write: 10

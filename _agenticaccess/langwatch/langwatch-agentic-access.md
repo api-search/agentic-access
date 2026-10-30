@@ -28,18 +28,6 @@ api_specs:
   slug: langwatch-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-api-keys-api-openapi.yml
-- filename: langwatch-budgets-api-openapi.yml
-  format: yaml
-  label: LangWatch Budgets API
-  slug: langwatch-budgets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-budgets-api-openapi.yml
-- filename: langwatch-cache-rules-api-openapi.yml
-  format: yaml
-  label: LangWatch Cache Rules API
-  slug: langwatch-cache-rules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-cache-rules-api-openapi.yml
 - filename: langwatch-dashboards-api-openapi.yml
   format: yaml
   label: LangWatch Dashboards API
@@ -52,12 +40,6 @@ api_specs:
   slug: langwatch-dataset-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-dataset-api-openapi.yml
-- filename: langwatch-evaluations-v3-api-openapi.yml
-  format: yaml
-  label: LangWatch Evaluations V3 API
-  slug: langwatch-evaluations-v3-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-evaluations-v3-api-openapi.yml
 - filename: langwatch-evaluators-api-openapi.yml
   format: yaml
   label: LangWatch Evaluators API
@@ -70,12 +52,6 @@ api_specs:
   slug: langwatch-graphs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-graphs-api-openapi.yml
-- filename: langwatch-langwatch-api-api-openapi.yml
-  format: yaml
-  label: LangWatch API
-  slug: langwatch-langwatch-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-langwatch-api-api-openapi.yml
 - filename: langwatch-model-defaults-api-openapi.yml
   format: yaml
   label: LangWatch Model Defaults API
@@ -106,12 +82,6 @@ api_specs:
   slug: langwatch-prompts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-prompts-api-openapi.yml
-- filename: langwatch-providers-api-openapi.yml
-  format: yaml
-  label: LangWatch Providers API
-  slug: langwatch-providers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-providers-api-openapi.yml
 - filename: langwatch-scenario-events-api-openapi.yml
   format: yaml
   label: LangWatch Scenario Events API
@@ -142,12 +112,6 @@ api_specs:
   slug: langwatch-suites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-suites-api-openapi.yml
-- filename: langwatch-trace-api-openapi.yml
-  format: yaml
-  label: LangWatch Trace API
-  slug: langwatch-trace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-trace-api-openapi.yml
 - filename: langwatch-traces-api-openapi.yml
   format: yaml
   label: LangWatch Traces API
@@ -160,18 +124,258 @@ api_specs:
   slug: langwatch-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-triggers-api-openapi.yml
-- filename: langwatch-virtual-keys-api-openapi.yml
-  format: yaml
-  label: LangWatch Virtual Keys API
-  slug: langwatch-virtual-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-virtual-keys-api-openapi.yml
 - filename: langwatch-workflows-api-openapi.yml
   format: yaml
   label: LangWatch Workflows API
   slug: langwatch-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-workflows-api-openapi.yml
+- filename: langwatch-admin-api-openapi.yml
+  format: yaml
+  label: LangWatch Admin API
+  slug: langwatch-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-admin-api-openapi.yml
+- filename: langwatch-agent-cache-api-openapi.yml
+  format: yaml
+  label: LangWatch Agent Cache API
+  slug: langwatch-agent-cache-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-agent-cache-api-openapi.yml
+- filename: langwatch-analytics-langwatchql-api-openapi.yml
+  format: yaml
+  label: LangWatch Analytics / LangWatchQL API
+  slug: langwatch-analytics-langwatchql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-analytics-langwatchql-api-openapi.yml
+- filename: langwatch-auth-api-openapi.yml
+  format: yaml
+  label: LangWatch Auth API
+  slug: langwatch-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-auth-api-openapi.yml
+- filename: langwatch-browser-telemetry-api-openapi.yml
+  format: yaml
+  label: LangWatch Browser telemetry API
+  slug: langwatch-browser-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-browser-telemetry-api-openapi.yml
+- filename: langwatch-bug-reports-api-openapi.yml
+  format: yaml
+  label: LangWatch Bug Reports API
+  slug: langwatch-bug-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-bug-reports-api-openapi.yml
+- filename: langwatch-checkup-api-openapi.yml
+  format: yaml
+  label: LangWatch Checkup API
+  slug: langwatch-checkup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-checkup-api-openapi.yml
+- filename: langwatch-coding-agent-api-openapi.yml
+  format: yaml
+  label: LangWatch Coding Agent API
+  slug: langwatch-coding-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-coding-agent-api-openapi.yml
+- filename: langwatch-datasets-api-openapi.yml
+  format: yaml
+  label: LangWatch Datasets API
+  slug: langwatch-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-datasets-api-openapi.yml
+- filename: langwatch-elevenlabs-api-openapi.yml
+  format: yaml
+  label: LangWatch Elevenlabs API
+  slug: langwatch-elevenlabs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-elevenlabs-api-openapi.yml
+- filename: langwatch-evaluations-api-openapi.yml
+  format: yaml
+  label: LangWatch Evaluations API
+  slug: langwatch-evaluations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-evaluations-api-openapi.yml
+- filename: langwatch-events-api-openapi.yml
+  format: yaml
+  label: LangWatch Events API
+  slug: langwatch-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-events-api-openapi.yml
+- filename: langwatch-experiments-api-openapi.yml
+  format: yaml
+  label: LangWatch Experiments API
+  slug: langwatch-experiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-experiments-api-openapi.yml
+- filename: langwatch-files-api-openapi.yml
+  format: yaml
+  label: LangWatch Files API
+  slug: langwatch-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-files-api-openapi.yml
+- filename: langwatch-gateway-api-openapi.yml
+  format: yaml
+  label: LangWatch Gateway API
+  slug: langwatch-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-gateway-api-openapi.yml
+- filename: langwatch-gateway-spend-api-openapi.yml
+  format: yaml
+  label: LangWatch Gateway Spend API
+  slug: langwatch-gateway-spend-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-gateway-spend-api-openapi.yml
+- filename: langwatch-governance-ingestion-templates-api-openapi.yml
+  format: yaml
+  label: LangWatch Governance / Ingestion Templates API
+  slug: langwatch-governance-ingestion-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-governance-ingestion-templates-api-openapi.yml
+- filename: langwatch-grants-api-openapi.yml
+  format: yaml
+  label: LangWatch Grants API
+  slug: langwatch-grants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-grants-api-openapi.yml
+- filename: langwatch-groups-api-openapi.yml
+  format: yaml
+  label: LangWatch Groups API
+  slug: langwatch-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-groups-api-openapi.yml
+- filename: langwatch-instant-evals-api-openapi.yml
+  format: yaml
+  label: LangWatch Instant Evals API
+  slug: langwatch-instant-evals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-instant-evals-api-openapi.yml
+- filename: langwatch-internal-api-openapi.yml
+  format: yaml
+  label: LangWatch Internal API
+  slug: langwatch-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-internal-api-openapi.yml
+- filename: langwatch-invites-api-openapi.yml
+  format: yaml
+  label: LangWatch Invites API
+  slug: langwatch-invites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-invites-api-openapi.yml
+- filename: langwatch-langy-api-openapi.yml
+  format: yaml
+  label: LangWatch Langy API
+  slug: langwatch-langy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-langy-api-openapi.yml
+- filename: langwatch-me-api-openapi.yml
+  format: yaml
+  label: LangWatch Me API
+  slug: langwatch-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-me-api-openapi.yml
+- filename: langwatch-members-api-openapi.yml
+  format: yaml
+  label: LangWatch Members API
+  slug: langwatch-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-members-api-openapi.yml
+- filename: langwatch-ops-api-openapi.yml
+  format: yaml
+  label: LangWatch Ops API
+  slug: langwatch-ops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-ops-api-openapi.yml
+- filename: langwatch-organization-api-openapi.yml
+  format: yaml
+  label: LangWatch Organization API
+  slug: langwatch-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-organization-api-openapi.yml
+- filename: langwatch-organizations-self-hosted-api-openapi.yml
+  format: yaml
+  label: LangWatch Organizations (Self-Hosted) API
+  slug: langwatch-organizations-self-hosted-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-organizations-self-hosted-api-openapi.yml
+- filename: langwatch-platform-health-api-openapi.yml
+  format: yaml
+  label: LangWatch Platform Health API
+  slug: langwatch-platform-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-platform-health-api-openapi.yml
+- filename: langwatch-query-api-openapi.yml
+  format: yaml
+  label: LangWatch Query API
+  slug: langwatch-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-query-api-openapi.yml
+- filename: langwatch-role-bindings-api-openapi.yml
+  format: yaml
+  label: LangWatch Role Bindings API
+  slug: langwatch-role-bindings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-role-bindings-api-openapi.yml
+- filename: langwatch-roles-api-openapi.yml
+  format: yaml
+  label: LangWatch Roles API
+  slug: langwatch-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-roles-api-openapi.yml
+- filename: langwatch-run-plans-api-openapi.yml
+  format: yaml
+  label: LangWatch Run Plans API
+  slug: langwatch-run-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-run-plans-api-openapi.yml
+- filename: langwatch-scim-api-openapi.yml
+  format: yaml
+  label: LangWatch SCIM API
+  slug: langwatch-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-scim-api-openapi.yml
+- filename: langwatch-scim-tokens-api-openapi.yml
+  format: yaml
+  label: LangWatch SCIM Tokens API
+  slug: langwatch-scim-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-scim-tokens-api-openapi.yml
+- filename: langwatch-slack-connections-api-openapi.yml
+  format: yaml
+  label: LangWatch Slack connections API
+  slug: langwatch-slack-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-slack-connections-api-openapi.yml
+- filename: langwatch-stored-objects-api-openapi.yml
+  format: yaml
+  label: LangWatch Stored Objects API
+  slug: langwatch-stored-objects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-stored-objects-api-openapi.yml
+- filename: langwatch-teams-api-openapi.yml
+  format: yaml
+  label: LangWatch Teams API
+  slug: langwatch-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-teams-api-openapi.yml
+- filename: langwatch-test-suites-api-openapi.yml
+  format: yaml
+  label: LangWatch Test Suites API
+  slug: langwatch-test-suites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-test-suites-api-openapi.yml
+- filename: langwatch-user-avatar-api-openapi.yml
+  format: yaml
+  label: LangWatch User Avatar API
+  slug: langwatch-user-avatar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-user-avatar-api-openapi.yml
+- filename: langwatch-webhooks-api-openapi.yml
+  format: yaml
+  label: LangWatch Webhooks API
+  slug: langwatch-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/openapi/langwatch-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 49

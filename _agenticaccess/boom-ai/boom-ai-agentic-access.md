@@ -70,6 +70,30 @@ api_specs:
   slug: boom-ai-environments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-environments-api-openapi.yml
+- filename: boom-ai-cdp-sensitive-fields-api-openapi.yml
+  format: yaml
+  label: Boom Ai CDP Sensitive fields API
+  slug: boom-ai-cdp-sensitive-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-cdp-sensitive-fields-api-openapi.yml
+- filename: boom-ai-email-templates-api-openapi.yml
+  format: yaml
+  label: Boom Ai Email templates API
+  slug: boom-ai-email-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-email-templates-api-openapi.yml
+- filename: boom-ai-lead-capture-api-openapi.yml
+  format: yaml
+  label: Boom Ai Lead Capture API
+  slug: boom-ai-lead-capture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-lead-capture-api-openapi.yml
+- filename: boom-ai-message-logs-api-openapi.yml
+  format: yaml
+  label: Boom Ai Message logs API
+  slug: boom-ai-message-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/openapi/boom-ai-message-logs-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 39

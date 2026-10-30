@@ -15,6 +15,18 @@ api_specs:
   slug: lens-scholarly-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-scholarly-api-openapi.yml
+- filename: lens-bulk-api-openapi.yml
+  format: yaml
+  label: Lens Bulk API
+  slug: lens-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-bulk-api-openapi.yml
+- filename: lens-collections-api-openapi.yml
+  format: yaml
+  label: Lens Collections API
+  slug: lens-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lens/refs/heads/main/openapi/lens-collections-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

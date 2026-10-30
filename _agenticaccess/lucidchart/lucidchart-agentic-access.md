@@ -4,18 +4,30 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: lucidchart-documents-api-openapi.yml
+- filename: lucidchart-groups-api-openapi.yml
   format: yaml
-  label: Lucidchart Documents API
-  slug: lucidchart-documents-api
+  label: Lucidchart Groups API
+  slug: lucidchart-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-documents-api-openapi.yml
-- filename: lucidchart-folders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-groups-api-openapi.yml
+- filename: lucidchart-schemas-api-openapi.yml
   format: yaml
-  label: Lucidchart Folders API
-  slug: lucidchart-folders-api
+  label: Lucidchart Schemas API
+  slug: lucidchart-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-folders-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-schemas-api-openapi.yml
+- filename: lucidchart-service-provider-config-api-openapi.yml
+  format: yaml
+  label: Lucidchart Service Provider Config API
+  slug: lucidchart-service-provider-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-service-provider-config-api-openapi.yml
+- filename: lucidchart-users-api-openapi.yml
+  format: yaml
+  label: Lucidchart Users API
+  slug: lucidchart-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-users-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3

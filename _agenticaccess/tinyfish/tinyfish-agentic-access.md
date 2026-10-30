@@ -77,10 +77,9 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Web Automation
+- Browser Automation
 - Web Scraping
 - Search
-- Browser Automation
 - MCP
 - Data Extraction
 ---

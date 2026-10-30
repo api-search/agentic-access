@@ -4,18 +4,6 @@ action_class_counts:
   acting: 33
   connected: 20
 api_specs:
-- filename: daily-co-calltransfer-api-openapi.yml
-  format: yaml
-  label: Daily CallTransfer API
-  slug: daily-co-calltransfer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-calltransfer-api-openapi.yml
-- filename: daily-co-dialout-api-openapi.yml
-  format: yaml
-  label: Daily DialOut API
-  slug: daily-co-dialout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-dialout-api-openapi.yml
 - filename: daily-co-domain-api-openapi.yml
   format: yaml
   label: Daily Domain API
@@ -46,30 +34,12 @@ api_specs:
   slug: daily-co-rooms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-rooms-api-openapi.yml
-- filename: daily-co-transcription-api-openapi.yml
-  format: yaml
-  label: Daily Transcription API
-  slug: daily-co-transcription-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-transcription-api-openapi.yml
 - filename: daily-co-webhooks-api-openapi.yml
   format: yaml
   label: Daily Webhooks API
   slug: daily-co-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-webhooks-api-openapi.yml
-- filename: daily-co-dial-in-api-openapi.yml
-  format: yaml
-  label: Daily Dial In API
-  slug: daily-co-dial-in-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-dial-in-api-openapi.yml
-- filename: daily-co-live-streaming-api-openapi.yml
-  format: yaml
-  label: Daily Live Streaming API
-  slug: daily-co-live-streaming-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-live-streaming-api-openapi.yml
 - filename: daily-co-meeting-tokens-api-openapi.yml
   format: yaml
   label: Daily Meeting Tokens API
@@ -82,6 +52,36 @@ api_specs:
   slug: daily-co-phone-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-phone-numbers-api-openapi.yml
+- filename: daily-co-batch-rooms-api-openapi.yml
+  format: yaml
+  label: Daily Batch/rooms API
+  slug: daily-co-batch-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-batch-rooms-api-openapi.yml
+- filename: daily-co-domain-dialin-config-api-openapi.yml
+  format: yaml
+  label: Daily Domain Dialin Config API
+  slug: daily-co-domain-dialin-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-domain-dialin-config-api-openapi.yml
+- filename: daily-co-logs-api-openapi.yml
+  format: yaml
+  label: Daily Logs API
+  slug: daily-co-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-logs-api-openapi.yml
+- filename: daily-co-transcript-api-openapi.yml
+  format: yaml
+  label: Daily Transcript API
+  slug: daily-co-transcript-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-transcript-api-openapi.yml
+- filename: daily-co-dial-in-api-openapi.yml
+  format: yaml
+  label: Daily Dial In API
+  slug: daily-co-dial-in-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/openapi/daily-co-dial-in-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 20

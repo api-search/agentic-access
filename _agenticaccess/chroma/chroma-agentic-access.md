@@ -4,48 +4,48 @@ action_class_counts:
   acting: 11
   connected: 14
 api_specs:
-- filename: chroma-collections-api-openapi.yml
-  format: yaml
-  label: Chroma Collections API
-  slug: chroma-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-collections-api-openapi.yml
-- filename: chroma-databases-api-openapi.yml
-  format: yaml
-  label: Chroma Databases API
-  slug: chroma-databases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-databases-api-openapi.yml
-- filename: chroma-records-api-openapi.yml
-  format: yaml
-  label: Chroma Records API
-  slug: chroma-records-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-records-api-openapi.yml
-- filename: chroma-search-api-openapi.yml
-  format: yaml
-  label: Chroma Search API
-  slug: chroma-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-search-api-openapi.yml
 - filename: chroma-system-api-openapi.yml
   format: yaml
   label: Chroma System API
   slug: chroma-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-system-api-openapi.yml
-- filename: chroma-tenants-api-openapi.yml
+- filename: chroma-authentication-api-openapi.yml
   format: yaml
-  label: Chroma Tenants API
-  slug: chroma-tenants-api
+  label: Chroma Authentication API
+  slug: chroma-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-tenants-api-openapi.yml
-- filename: chroma-query-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-authentication-api-openapi.yml
+- filename: chroma-collection-api-openapi.yml
   format: yaml
-  label: Chroma Query API
-  slug: chroma-query-api
+  label: Chroma Collection API
+  slug: chroma-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-query-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-collection-api-openapi.yml
+- filename: chroma-database-api-openapi.yml
+  format: yaml
+  label: Chroma Database API
+  slug: chroma-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-database-api-openapi.yml
+- filename: chroma-function-api-openapi.yml
+  format: yaml
+  label: Chroma Function API
+  slug: chroma-function-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-function-api-openapi.yml
+- filename: chroma-record-api-openapi.yml
+  format: yaml
+  label: Chroma Record API
+  slug: chroma-record-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-record-api-openapi.yml
+- filename: chroma-tenant-api-openapi.yml
+  format: yaml
+  label: Chroma Tenant API
+  slug: chroma-tenant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/openapi/chroma-tenant-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -110,7 +110,6 @@ tags:
 - Search
 - Serverless
 - TypeScript
-- Vector Database
-- Database
 - Vector Search
+- Database
 ---

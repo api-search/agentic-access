@@ -118,6 +118,12 @@ api_specs:
   slug: codag-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-oauth-api-openapi.yml
+- filename: codag-agent-cost-api-openapi.yml
+  format: yaml
+  label: Codag Agent Cost API
+  slug: codag-agent-cost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-agent-cost-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 31

@@ -82,6 +82,18 @@ api_specs:
   slug: bria-video-generation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-video-generation-api-openapi.yml
+- filename: bria-fastapi-api-openapi.yml
+  format: yaml
+  label: Bria Fast API
+  slug: bria-fastapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-fastapi-api-openapi.yml
+- filename: bria-health-api-openapi.yml
+  format: yaml
+  label: Bria Health API
+  slug: bria-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-health-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 1

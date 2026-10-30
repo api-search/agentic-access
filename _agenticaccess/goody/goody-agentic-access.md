@@ -76,6 +76,30 @@ api_specs:
   slug: goody-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-workspaces-api-openapi.yml
+- filename: goody-categories-api-openapi.yml
+  format: yaml
+  label: Goody Categories API
+  slug: goody-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-categories-api-openapi.yml
+- filename: goody-gift-templates-api-openapi.yml
+  format: yaml
+  label: Goody Gift Templates API
+  slug: goody-gift-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-gift-templates-api-openapi.yml
+- filename: goody-gifts-of-choice-api-openapi.yml
+  format: yaml
+  label: Goody Gifts of Choice API
+  slug: goody-gifts-of-choice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-gifts-of-choice-api-openapi.yml
+- filename: goody-shipping-countries-api-openapi.yml
+  format: yaml
+  label: Goody Shipping Countries API
+  slug: goody-shipping-countries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-shipping-countries-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 16

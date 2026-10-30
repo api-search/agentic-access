@@ -52,6 +52,36 @@ api_specs:
   slug: fly-io-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-oauth-api-openapi.yml
+- filename: fly-io-organizations-api-openapi.yml
+  format: yaml
+  label: Fly Io Organizations API
+  slug: fly-io-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-organizations-api-openapi.yml
+- filename: fly-io-platform-api-openapi.yml
+  format: yaml
+  label: Fly Io Platform API
+  slug: fly-io-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-platform-api-openapi.yml
+- filename: fly-io-postgres-clusters-api-openapi.yml
+  format: yaml
+  label: Fly Io Postgres Clusters API
+  slug: fly-io-postgres-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-postgres-clusters-api-openapi.yml
+- filename: fly-io-secrets-api-openapi.yml
+  format: yaml
+  label: Fly Io Secrets API
+  slug: fly-io-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-secrets-api-openapi.yml
+- filename: fly-io-tls-certificates-api-openapi.yml
+  format: yaml
+  label: Fly Io TLS Certificates API
+  slug: fly-io-tls-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/openapi/fly-io-tls-certificates-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13

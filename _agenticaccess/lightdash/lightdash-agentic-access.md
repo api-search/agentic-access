@@ -16,12 +16,6 @@ api_specs:
   slug: lightdash-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-catalog-api-openapi.yml
-- filename: lightdash-changesets-api-openapi.yml
-  format: yaml
-  label: Lightdash Changesets API
-  slug: lightdash-changesets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-changesets-api-openapi.yml
 - filename: lightdash-charts-api-openapi.yml
   format: yaml
   label: Lightdash Charts API
@@ -292,6 +286,96 @@ api_specs:
   slug: lightdash-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-validation-api-openapi.yml
+- filename: lightdash-agent-connections-api-openapi.yml
+  format: yaml
+  label: Lightdash Agent connections API
+  slug: lightdash-agent-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-agent-connections-api-openapi.yml
+- filename: lightdash-ai-agent-live-activities-api-openapi.yml
+  format: yaml
+  label: Lightdash AI agent Live Activities API
+  slug: lightdash-ai-agent-live-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-ai-agent-live-activities-api-openapi.yml
+- filename: lightdash-ai-api-openapi.yml
+  format: yaml
+  label: Lightdash AI API
+  slug: lightdash-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-ai-api-openapi.yml
+- filename: lightdash-analytics-project-api-openapi.yml
+  format: yaml
+  label: Lightdash Analytics project API
+  slug: lightdash-analytics-project-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-analytics-project-api-openapi.yml
+- filename: lightdash-aws-web-identity-api-openapi.yml
+  format: yaml
+  label: Lightdash AWS Web Identity API
+  slug: lightdash-aws-web-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-aws-web-identity-api-openapi.yml
+- filename: lightdash-content-review-requests-api-openapi.yml
+  format: yaml
+  label: Lightdash Content Review Requests API
+  slug: lightdash-content-review-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-content-review-requests-api-openapi.yml
+- filename: lightdash-delete-content-api-openapi.yml
+  format: yaml
+  label: Lightdash Delete content API
+  slug: lightdash-delete-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-delete-content-api-openapi.yml
+- filename: lightdash-direct-access-api-openapi.yml
+  format: yaml
+  label: Lightdash Direct Access API
+  slug: lightdash-direct-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-direct-access-api-openapi.yml
+- filename: lightdash-documents-api-openapi.yml
+  format: yaml
+  label: Lightdash Documents API
+  slug: lightdash-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-documents-api-openapi.yml
+- filename: lightdash-ee-api-openapi.yml
+  format: yaml
+  label: Lightdash Ee API
+  slug: lightdash-ee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-ee-api-openapi.yml
+- filename: lightdash-homepage-api-openapi.yml
+  format: yaml
+  label: Lightdash Homepage API
+  slug: lightdash-homepage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-homepage-api-openapi.yml
+- filename: lightdash-learn-api-openapi.yml
+  format: yaml
+  label: Lightdash Learn API
+  slug: lightdash-learn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-learn-api-openapi.yml
+- filename: lightdash-mobile-push-notifications-api-openapi.yml
+  format: yaml
+  label: Lightdash Mobile push notifications API
+  slug: lightdash-mobile-push-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-mobile-push-notifications-api-openapi.yml
+- filename: lightdash-prompts-api-openapi.yml
+  format: yaml
+  label: Lightdash Prompts API
+  slug: lightdash-prompts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-prompts-api-openapi.yml
+- filename: lightdash-query-sources-api-openapi.yml
+  format: yaml
+  label: Lightdash Query Sources API
+  slug: lightdash-query-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/openapi/lightdash-query-sources-api-openapi.yml
 - filename: lightdash-ai-agents-api-openapi.yml
   format: yaml
   label: Lightdash AI Agents API

@@ -10,60 +10,24 @@ api_specs:
   slug: webhook-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/asyncapi/calendly-webhook-api-asyncapi.yml
-- filename: calendly-activity-log-api-openapi.yml
-  format: yaml
-  label: Calendly Activity Log API
-  slug: calendly-activity-log-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-activity-log-api-openapi.yml
 - filename: calendly-availability-api-openapi.yml
   format: yaml
   label: Calendly Availability API
   slug: calendly-availability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-availability-api-openapi.yml
-- filename: calendly-data-compliance-api-openapi.yml
-  format: yaml
-  label: Calendly Data Compliance API
-  slug: calendly-data-compliance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-data-compliance-api-openapi.yml
-- filename: calendly-event-types-api-openapi.yml
-  format: yaml
-  label: Calendly Event Types API
-  slug: calendly-event-types-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-event-types-api-openapi.yml
 - filename: calendly-groups-api-openapi.yml
   format: yaml
   label: Calendly Groups API
   slug: calendly-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-groups-api-openapi.yml
-- filename: calendly-invitees-api-openapi.yml
-  format: yaml
-  label: Calendly Invitees API
-  slug: calendly-invitees-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-invitees-api-openapi.yml
 - filename: calendly-organizations-api-openapi.yml
   format: yaml
   label: Calendly Organizations API
   slug: calendly-organizations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-organizations-api-openapi.yml
-- filename: calendly-routing-forms-api-openapi.yml
-  format: yaml
-  label: Calendly Routing Forms API
-  slug: calendly-routing-forms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-routing-forms-api-openapi.yml
-- filename: calendly-scheduled-events-api-openapi.yml
-  format: yaml
-  label: Calendly Scheduled Events API
-  slug: calendly-scheduled-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-scheduled-events-api-openapi.yml
 - filename: calendly-shares-api-openapi.yml
   format: yaml
   label: Calendly Shares API
@@ -76,12 +40,72 @@ api_specs:
   slug: calendly-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-users-api-openapi.yml
-- filename: calendly-webhook-subscriptions-api-openapi.yml
+- filename: calendly-activitylog-api-openapi.yml
   format: yaml
-  label: Calendly Webhook Subscriptions API
-  slug: calendly-webhook-subscriptions-api
+  label: Calendly Activity Log API
+  slug: calendly-activitylog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-webhook-subscriptions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-activitylog-api-openapi.yml
+- filename: calendly-contacts-api-openapi.yml
+  format: yaml
+  label: Calendly Contacts API
+  slug: calendly-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-contacts-api-openapi.yml
+- filename: calendly-datacompliance-api-openapi.yml
+  format: yaml
+  label: Calendly Data Compliance API
+  slug: calendly-datacompliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-datacompliance-api-openapi.yml
+- filename: calendly-eventtypes-api-openapi.yml
+  format: yaml
+  label: Calendly Event Types API
+  slug: calendly-eventtypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-eventtypes-api-openapi.yml
+- filename: calendly-locations-api-openapi.yml
+  format: yaml
+  label: Calendly Locations API
+  slug: calendly-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-locations-api-openapi.yml
+- filename: calendly-notetaker-api-openapi.yml
+  format: yaml
+  label: Calendly Notetaker API
+  slug: calendly-notetaker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-notetaker-api-openapi.yml
+- filename: calendly-outgoingcommunications-api-openapi.yml
+  format: yaml
+  label: Calendly Outgoing Communications API
+  slug: calendly-outgoingcommunications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-outgoingcommunications-api-openapi.yml
+- filename: calendly-routingforms-api-openapi.yml
+  format: yaml
+  label: Calendly Routing Forms API
+  slug: calendly-routingforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-routingforms-api-openapi.yml
+- filename: calendly-scheduledevents-api-openapi.yml
+  format: yaml
+  label: Calendly Scheduled Events API
+  slug: calendly-scheduledevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-scheduledevents-api-openapi.yml
+- filename: calendly-webhooks-api-openapi.yml
+  format: yaml
+  label: Calendly Webhooks API
+  slug: calendly-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-webhooks-api-openapi.yml
+- filename: calendly-scheduling-links-api-openapi.yml
+  format: yaml
+  label: Calendly Scheduling Links API
+  slug: calendly-scheduling-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-scheduling-links-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 25

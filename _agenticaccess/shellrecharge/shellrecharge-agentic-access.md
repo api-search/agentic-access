@@ -64,7 +64,6 @@ tags:
 - EV Charging
 - Electric Vehicles
 - Mobility
-- Charge Points
 - OCPI
 - Energy
 ---

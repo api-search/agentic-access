@@ -40,12 +40,6 @@ api_specs:
   slug: convai-com-knowledge-bank-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-knowledge-bank-api-openapi.yml
-- filename: convai-com-live-api-openapi.yml
-  format: yaml
-  label: Convai Live API
-  slug: convai-com-live-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-live-api-openapi.yml
 - filename: convai-com-narrative-api-openapi.yml
   format: yaml
   label: Convai Narrative API
@@ -64,6 +58,30 @@ api_specs:
   slug: convai-com-tts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-tts-api-openapi.yml
+- filename: convai-com-app-api-openapi.yml
+  format: yaml
+  label: Convai App API
+  slug: convai-com-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-app-api-openapi.yml
+- filename: convai-com-disconnect-api-openapi.yml
+  format: yaml
+  label: Convai Disconnect API
+  slug: convai-com-disconnect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-disconnect-api-openapi.yml
+- filename: convai-com-healthz-api-openapi.yml
+  format: yaml
+  label: Convai Healthz API
+  slug: convai-com-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-healthz-api-openapi.yml
+- filename: convai-com-latency-api-openapi.yml
+  format: yaml
+  label: Convai Latency API
+  slug: convai-com-latency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-latency-api-openapi.yml
 consequence_counts:
   read: 12
   write: 22
@@ -112,6 +130,6 @@ tags:
 - Games
 - Avatars
 - Speech
-- TTS
+- Text-to-Speech
 - WebRTC
 ---

@@ -72,7 +72,7 @@ tags:
 - Code Intelligence
 - Developer Tools
 - Source Code
-- Git
+- Version Control
 - MCP
 - AI Coding Agents
 - Enterprise Search

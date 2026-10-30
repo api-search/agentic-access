@@ -220,6 +220,72 @@ api_specs:
   slug: doit-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-users-api-openapi.yml
+- filename: doit-billing-explainer-api-openapi.yml
+  format: yaml
+  label: DoiT Billing Explainer API
+  slug: doit-billing-explainer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-billing-explainer-api-openapi.yml
+- filename: doit-composer-insights-beta-api-openapi.yml
+  format: yaml
+  label: DoiT Composer Insights (Beta) API
+  slug: doit-composer-insights-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-composer-insights-beta-api-openapi.yml
+- filename: doit-customer-groups-api-openapi.yml
+  format: yaml
+  label: DoiT Customer Groups API
+  slug: doit-customer-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-customer-groups-api-openapi.yml
+- filename: doit-customers-api-openapi.yml
+  format: yaml
+  label: DoiT Customers API
+  slug: doit-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-customers-api-openapi.yml
+- filename: doit-geographic-access-api-openapi.yml
+  format: yaml
+  label: DoiT Geographic Access API
+  slug: doit-geographic-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-geographic-access-api-openapi.yml
+- filename: doit-perfectscale-for-commitments-gcp-api-openapi.yml
+  format: yaml
+  label: DoiT PerfectScale for Commitments GCP API
+  slug: doit-perfectscale-for-commitments-gcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-perfectscale-for-commitments-gcp-api-openapi.yml
+- filename: doit-perfectscale-for-commitments-general-api-openapi.yml
+  format: yaml
+  label: DoiT PerfectScale for Commitments General API
+  slug: doit-perfectscale-for-commitments-general-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-perfectscale-for-commitments-general-api-openapi.yml
+- filename: doit-service-accounts-api-openapi.yml
+  format: yaml
+  label: DoiT Service Accounts API
+  slug: doit-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-service-accounts-api-openapi.yml
+- filename: doit-shared-payers-api-openapi.yml
+  format: yaml
+  label: DoiT Shared Payers API
+  slug: doit-shared-payers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-shared-payers-api-openapi.yml
+- filename: doit-signup-api-openapi.yml
+  format: yaml
+  label: DoiT Signup API
+  slug: doit-signup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-signup-api-openapi.yml
+- filename: doit-widgets-beta-api-openapi.yml
+  format: yaml
+  label: DoiT Widgets (Beta) API
+  slug: doit-widgets-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-widgets-beta-api-openapi.yml
 - filename: doit-data-hub-api-openapi.yml
   format: yaml
   label: DoiT Data Hub API

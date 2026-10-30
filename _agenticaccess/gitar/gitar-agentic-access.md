@@ -22,6 +22,12 @@ api_specs:
   slug: gitar-installation-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-installation-health-api-openapi.yml
+- filename: gitar-organizations-api-openapi.yml
+  format: yaml
+  label: Gitar Organizations API
+  slug: gitar-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/openapi/gitar-organizations-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1

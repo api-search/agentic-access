@@ -315,7 +315,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runn/refs/head
 summary_line: 196 operations · 104 acting · 9 human-in-the-loop
 tags:
 - Company
-- Resource-Management
+- Resource Management
 - Capacity-Planning
-- Project-Management
+- Project Management
 ---

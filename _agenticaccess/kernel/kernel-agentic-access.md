@@ -136,6 +136,42 @@ api_specs:
   slug: kernel-proxies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-proxies-api-openapi.yml
+- filename: kernel-authentication-api-openapi.yml
+  format: yaml
+  label: Kernel Authentication API
+  slug: kernel-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-authentication-api-openapi.yml
+- filename: kernel-browser-repl-api-openapi.yml
+  format: yaml
+  label: Kernel Browser REPL API
+  slug: kernel-browser-repl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-repl-api-openapi.yml
+- filename: kernel-browser-webmcp-api-openapi.yml
+  format: yaml
+  label: Kernel Browser WebMCP API
+  slug: kernel-browser-webmcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-browser-webmcp-api-openapi.yml
+- filename: kernel-config-registry-api-openapi.yml
+  format: yaml
+  label: Kernel Config Registry API
+  slug: kernel-config-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-config-registry-api-openapi.yml
+- filename: kernel-search-api-openapi.yml
+  format: yaml
+  label: Kernel Search API
+  slug: kernel-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-search-api-openapi.yml
+- filename: kernel-vaults-api-openapi.yml
+  format: yaml
+  label: Kernel Vaults API
+  slug: kernel-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kernel/refs/heads/main/openapi/kernel-vaults-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 55
@@ -294,7 +330,7 @@ tags:
 - Browser Infrastructure
 - AI Agents
 - Playwright
-- Cloud Browsers
+- Cloud Browser
 - Computer Use
 - MCP
 - Managed Auth

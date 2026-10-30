@@ -76,36 +76,60 @@ api_specs:
   slug: hookdeck-attempts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-attempts-api-openapi.yml
-- filename: hookdeck-bulk-cancel-events-api-openapi.yml
-  format: yaml
-  label: Hookdeck Bulk cancel events API
-  slug: hookdeck-bulk-cancel-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-bulk-cancel-events-api-openapi.yml
-- filename: hookdeck-bulk-retry-events-api-openapi.yml
-  format: yaml
-  label: Hookdeck Bulk retry events API
-  slug: hookdeck-bulk-retry-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-bulk-retry-events-api-openapi.yml
-- filename: hookdeck-bulk-retry-ignored-events-api-openapi.yml
-  format: yaml
-  label: Hookdeck Bulk retry ignored events API
-  slug: hookdeck-bulk-retry-ignored-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-bulk-retry-ignored-events-api-openapi.yml
-- filename: hookdeck-bulk-retry-requests-api-openapi.yml
-  format: yaml
-  label: Hookdeck Bulk retry requests API
-  slug: hookdeck-bulk-retry-requests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-bulk-retry-requests-api-openapi.yml
 - filename: hookdeck-issue-triggers-api-openapi.yml
   format: yaml
   label: Hookdeck Issue Triggers API
   slug: hookdeck-issue-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-issue-triggers-api-openapi.yml
+- filename: hookdeck-configuration-api-openapi.yml
+  format: yaml
+  label: Hookdeck Configuration API
+  slug: hookdeck-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-configuration-api-openapi.yml
+- filename: hookdeck-health-api-openapi.yml
+  format: yaml
+  label: Hookdeck Health API
+  slug: hookdeck-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-health-api-openapi.yml
+- filename: hookdeck-operator-events-api-openapi.yml
+  format: yaml
+  label: Hookdeck Operator Events API
+  slug: hookdeck-operator-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-operator-events-api-openapi.yml
+- filename: hookdeck-publish-api-openapi.yml
+  format: yaml
+  label: Hookdeck Publish API
+  slug: hookdeck-publish-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-publish-api-openapi.yml
+- filename: hookdeck-retry-api-openapi.yml
+  format: yaml
+  label: Hookdeck Retry API
+  slug: hookdeck-retry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-retry-api-openapi.yml
+- filename: hookdeck-schemas-api-openapi.yml
+  format: yaml
+  label: Hookdeck Schemas API
+  slug: hookdeck-schemas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-schemas-api-openapi.yml
+- filename: hookdeck-tenants-api-openapi.yml
+  format: yaml
+  label: Hookdeck Tenants API
+  slug: hookdeck-tenants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-tenants-api-openapi.yml
+- filename: hookdeck-topics-api-openapi.yml
+  format: yaml
+  label: Hookdeck Topics API
+  slug: hookdeck-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/openapi/hookdeck-topics-api-openapi.yml
 consequence_counts:
   read: 54
   safety-critical: 7

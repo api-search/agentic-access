@@ -76,12 +76,6 @@ api_specs:
   slug: aha-custom-layouts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/openapi/aha-custom-layouts-api-openapi.yml
-- filename: aha-custom-pivots-api-openapi.yml
-  format: yaml
-  label: Aha.io Custom pivots API
-  slug: aha-custom-pivots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/openapi/aha-custom-pivots-api-openapi.yml
 - filename: aha-custom-table-record-links-api-openapi.yml
   format: yaml
   label: Aha.io Custom table record links API
@@ -358,6 +352,54 @@ api_specs:
   slug: aha-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/openapi/aha-workflows-api-openapi.yml
+- filename: aha-assistant-usage-api-openapi.yml
+  format: yaml
+  label: Aha.io Assistant usage API
+  slug: aha-assistant-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/openapi/aha-assistant-usage-api-openapi.yml
+- filename: aha-custom-reports-api-openapi.yml
+  format: yaml
+  label: Aha.io Custom reports API
+  slug: aha-custom-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/openapi/aha-custom-reports-api-openapi.yml
+- filename: aha-discovery-groups-api-openapi.yml
+  format: yaml
+  label: Aha.io Discovery groups API
+  slug: aha-discovery-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/openapi/aha-discovery-groups-api-openapi.yml
+- filename: aha-idea-themes-api-openapi.yml
+  format: yaml
+  label: Aha.io Idea themes API
+  slug: aha-idea-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/openapi/aha-idea-themes-api-openapi.yml
+- filename: aha-integration-change-jobs-api-openapi.yml
+  format: yaml
+  label: Aha.io Integration change jobs API
+  slug: aha-integration-change-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/openapi/aha-integration-change-jobs-api-openapi.yml
+- filename: aha-knowledge-base-pages-api-openapi.yml
+  format: yaml
+  label: Aha.io Knowledge base pages API
+  slug: aha-knowledge-base-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/openapi/aha-knowledge-base-pages-api-openapi.yml
+- filename: aha-knowledge-bases-api-openapi.yml
+  format: yaml
+  label: Aha.io Knowledge bases API
+  slug: aha-knowledge-bases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/openapi/aha-knowledge-bases-api-openapi.yml
+- filename: aha-workflow-status-times-api-openapi.yml
+  format: yaml
+  label: Aha.io Workflow status times API
+  slug: aha-workflow-status-times-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/openapi/aha-workflow-status-times-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 153

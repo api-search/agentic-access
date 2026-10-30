@@ -82,6 +82,12 @@ api_specs:
   slug: depop-seller-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-seller-api-api-openapi.yml
+- filename: depop-webhook-configuration-api-openapi.yml
+  format: yaml
+  label: depop Webhook Configuration API
+  slug: depop-webhook-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-webhook-configuration-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 17

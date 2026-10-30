@@ -75,9 +75,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/browse
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/agentic-access/browserless-agentic-access.yml
 summary_line: 81 operations · 46 acting
 tags:
-- Headless Browser
+- Browser Automation
 - Browser Infrastructure
-- Web Automation
 - AI Agents
 - Web Scraping
 - BrowserQL
@@ -96,5 +95,4 @@ tags:
 - Session Recording
 - Hybrid Automation
 - Chrome DevTools Protocol
-- Browser Automation
 ---

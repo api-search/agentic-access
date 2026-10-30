@@ -625,7 +625,7 @@ summary_line: 179 operations
 tags:
 - Company
 - Artificial Intelligence
-- OperatingSystem
+- Operating System
 - Automation
 - Supply Chain
 ---

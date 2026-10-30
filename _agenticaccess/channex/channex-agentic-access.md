@@ -16,12 +16,6 @@ api_specs:
   slug: channex-bookings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-bookings-api-openapi.yml
-- filename: channex-channels-api-openapi.yml
-  format: yaml
-  label: Channex Channels API
-  slug: channex-channels-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-channels-api-openapi.yml
 - filename: channex-properties-api-openapi.yml
   format: yaml
   label: Channex Properties API
@@ -46,6 +40,144 @@ api_specs:
   slug: channex-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-webhooks-api-openapi.yml
+- filename: channex-applications-api-openapi.yml
+  format: yaml
+  label: Channex Applications API
+  slug: channex-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-applications-api-openapi.yml
+- filename: channex-authentication-api-openapi.yml
+  format: yaml
+  label: Channex Authentication API
+  slug: channex-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-authentication-api-openapi.yml
+- filename: channex-authorize-net-app-api-openapi.yml
+  format: yaml
+  label: Channex Authorize.net App API
+  slug: channex-authorize-net-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-authorize-net-app-api-openapi.yml
+- filename: channex-booking-crs-api-openapi.yml
+  format: yaml
+  label: Channex Booking CRS API
+  slug: channex-booking-crs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-booking-crs-api-openapi.yml
+- filename: channex-booking-messages-api-openapi.yml
+  format: yaml
+  label: Channex Booking Messages API
+  slug: channex-booking-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-booking-messages-api-openapi.yml
+- filename: channex-booking-payments-api-openapi.yml
+  format: yaml
+  label: Channex Booking Payments API
+  slug: channex-booking-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-booking-payments-api-openapi.yml
+- filename: channex-booking-payouts-api-openapi.yml
+  format: yaml
+  label: Channex Booking Payouts API
+  slug: channex-booking-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-booking-payouts-api-openapi.yml
+- filename: channex-booking-reporting-api-openapi.yml
+  format: yaml
+  label: Channex Booking Reporting API
+  slug: channex-booking-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-booking-reporting-api-openapi.yml
+- filename: channex-channel-availability-rules-api-openapi.yml
+  format: yaml
+  label: Channex Channel Availability Rules API
+  slug: channex-channel-availability-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-channel-availability-rules-api-openapi.yml
+- filename: channex-facilities-api-openapi.yml
+  format: yaml
+  label: Channex Facilities API
+  slug: channex-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-facilities-api-openapi.yml
+- filename: channex-group-users-api-openapi.yml
+  format: yaml
+  label: Channex Group Users API
+  slug: channex-group-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-group-users-api-openapi.yml
+- filename: channex-groups-api-openapi.yml
+  format: yaml
+  label: Channex Groups API
+  slug: channex-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-groups-api-openapi.yml
+- filename: channex-hotel-policies-api-openapi.yml
+  format: yaml
+  label: Channex Hotel Policies API
+  slug: channex-hotel-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-hotel-policies-api-openapi.yml
+- filename: channex-live-feed-api-openapi.yml
+  format: yaml
+  label: Channex Live Feed API
+  slug: channex-live-feed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-live-feed-api-openapi.yml
+- filename: channex-payment-app-api-openapi.yml
+  format: yaml
+  label: Channex Payment App API
+  slug: channex-payment-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-payment-app-api-openapi.yml
+- filename: channex-photos-api-openapi.yml
+  format: yaml
+  label: Channex Photos API
+  slug: channex-photos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-photos-api-openapi.yml
+- filename: channex-property-users-api-openapi.yml
+  format: yaml
+  label: Channex Property Users API
+  slug: channex-property-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-property-users-api-openapi.yml
+- filename: channex-reference-data-api-openapi.yml
+  format: yaml
+  label: Channex Reference Data API
+  slug: channex-reference-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-reference-data-api-openapi.yml
+- filename: channex-stripe-tokenization-app-api-openapi.yml
+  format: yaml
+  label: Channex Stripe Tokenization App API
+  slug: channex-stripe-tokenization-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-stripe-tokenization-app-api-openapi.yml
+- filename: channex-tasks-api-openapi.yml
+  format: yaml
+  label: Channex Tasks API
+  slug: channex-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-tasks-api-openapi.yml
+- filename: channex-tax-sets-api-openapi.yml
+  format: yaml
+  label: Channex Tax Sets API
+  slug: channex-tax-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-tax-sets-api-openapi.yml
+- filename: channex-taxes-api-openapi.yml
+  format: yaml
+  label: Channex Taxes API
+  slug: channex-taxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-taxes-api-openapi.yml
+- filename: channex-webhook-signing-keys-api-openapi.yml
+  format: yaml
+  label: Channex Webhook Signing Keys API
+  slug: channex-webhook-signing-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/openapi/channex-webhook-signing-keys-api-openapi.yml
 consequence_counts:
   read: 20
   write: 22

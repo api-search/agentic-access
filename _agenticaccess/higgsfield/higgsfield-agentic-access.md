@@ -4,12 +4,30 @@ action_class_counts:
   acting: 48
   connected: 2
 api_specs:
-- filename: higgsfield-openapi-original.json
-  format: json
-  label: Higgsfield API
-  slug: higgsfield-api
+- filename: higgsfield-kling-video-api-openapi.yml
+  format: yaml
+  label: Higgsfield Kling Video API
+  slug: higgsfield-kling-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/higgsfield/refs/heads/main/openapi/higgsfield-openapi-original.json
+  url: https://raw.githubusercontent.com/api-evangelist/higgsfield/refs/heads/main/openapi/higgsfield-kling-video-api-openapi.yml
+- filename: higgsfield-minimax-api-openapi.yml
+  format: yaml
+  label: Higgsfield Minimax API
+  slug: higgsfield-minimax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/higgsfield/refs/heads/main/openapi/higgsfield-minimax-api-openapi.yml
+- filename: higgsfield-requests-api-openapi.yml
+  format: yaml
+  label: Higgsfield Requests API
+  slug: higgsfield-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/higgsfield/refs/heads/main/openapi/higgsfield-requests-api-openapi.yml
+- filename: higgsfield-soul-api-openapi.yml
+  format: yaml
+  label: Higgsfield Soul API
+  slug: higgsfield-soul-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/higgsfield/refs/heads/main/openapi/higgsfield-soul-api-openapi.yml
 consequence_counts:
   read: 2
   write: 48

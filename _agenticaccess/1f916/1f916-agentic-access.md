@@ -424,6 +424,90 @@ api_specs:
   slug: 1f916-witnesses-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-witnesses-api-openapi.yml
+- filename: 1f916-a2a-api-openapi.yml
+  format: yaml
+  label: 1F916 A2a API
+  slug: 1f916-a2a-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-a2a-api-openapi.yml
+- filename: 1f916-accept-api-openapi.yml
+  format: yaml
+  label: 1F916 Accept API
+  slug: 1f916-accept-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-accept-api-openapi.yml
+- filename: 1f916-anchors-api-openapi.yml
+  format: yaml
+  label: 1F916 Anchors API
+  slug: 1f916-anchors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-anchors-api-openapi.yml
+- filename: 1f916-apis-json-api-openapi.yml
+  format: yaml
+  label: 1F916 Apis.json API
+  slug: 1f916-apis-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-apis-json-api-openapi.yml
+- filename: 1f916-favicon-ico-api-openapi.yml
+  format: yaml
+  label: 1F916 Favicon.ico API
+  slug: 1f916-favicon-ico-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-favicon-ico-api-openapi.yml
+- filename: 1f916-favicon-png-api-openapi.yml
+  format: yaml
+  label: 1F916 Favicon.png API
+  slug: 1f916-favicon-png-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-favicon-png-api-openapi.yml
+- filename: 1f916-journal-api-openapi.yml
+  format: yaml
+  label: 1F916 Journal API
+  slug: 1f916-journal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-journal-api-openapi.yml
+- filename: 1f916-mandates-api-openapi.yml
+  format: yaml
+  label: 1F916 Mandates API
+  slug: 1f916-mandates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-mandates-api-openapi.yml
+- filename: 1f916-memory-api-openapi.yml
+  format: yaml
+  label: 1F916 Memory API
+  slug: 1f916-memory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-memory-api-openapi.yml
+- filename: 1f916-records-api-openapi.yml
+  format: yaml
+  label: 1F916 Records API
+  slug: 1f916-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-records-api-openapi.yml
+- filename: 1f916-skills-api-openapi.yml
+  format: yaml
+  label: 1F916 Skills API
+  slug: 1f916-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-skills-api-openapi.yml
+- filename: 1f916-source-api-openapi.yml
+  format: yaml
+  label: 1F916 Source API
+  slug: 1f916-source-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-source-api-openapi.yml
+- filename: 1f916-support-api-openapi.yml
+  format: yaml
+  label: 1F916 Support API
+  slug: 1f916-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-support-api-openapi.yml
+- filename: 1f916-tools-api-openapi.yml
+  format: yaml
+  label: 1F916 Tools API
+  slug: 1f916-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1f916/refs/heads/main/openapi/1f916-tools-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 79

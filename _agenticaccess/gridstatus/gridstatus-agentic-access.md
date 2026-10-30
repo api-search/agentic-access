@@ -69,6 +69,12 @@ api_specs:
   slug: gridstatus-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-reports-api-openapi.yml
+- filename: gridstatus-outages-api-openapi.yml
+  format: yaml
+  label: Grid Status Outages API
+  slug: gridstatus-outages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/openapi/gridstatus-outages-api-openapi.yml
 consequence_counts:
   read: 25
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

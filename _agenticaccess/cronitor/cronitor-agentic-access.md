@@ -4,12 +4,6 @@ action_class_counts:
   acting: 12
   connected: 12
 api_specs:
-- filename: cronitor-cronitor-telemetry-api-api-openapi.yml
-  format: yaml
-  label: Cronitor Telemetry API
-  slug: cronitor-cronitor-telemetry-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-cronitor-telemetry-api-api-openapi.yml
 - filename: cronitor-groups-api-openapi.yml
   format: yaml
   label: Cronitor Groups API
@@ -22,12 +16,90 @@ api_specs:
   slug: cronitor-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-notifications-api-openapi.yml
-- filename: cronitor-p-api-openapi.yml
+- filename: cronitor-aggregates-api-openapi.yml
   format: yaml
-  label: Cronitor P API
-  slug: cronitor-p-api
+  label: Cronitor Aggregates API
+  slug: cronitor-aggregates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-p-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-aggregates-api-openapi.yml
+- filename: cronitor-environments-api-openapi.yml
+  format: yaml
+  label: Cronitor Environments API
+  slug: cronitor-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-environments-api-openapi.yml
+- filename: cronitor-integrations-api-openapi.yml
+  format: yaml
+  label: Cronitor Integrations API
+  slug: cronitor-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-integrations-api-openapi.yml
+- filename: cronitor-issues-api-openapi.yml
+  format: yaml
+  label: Cronitor Issues API
+  slug: cronitor-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-issues-api-openapi.yml
+- filename: cronitor-keys-api-openapi.yml
+  format: yaml
+  label: Cronitor Keys API
+  slug: cronitor-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-keys-api-openapi.yml
+- filename: cronitor-maintenance-windows-api-openapi.yml
+  format: yaml
+  label: Cronitor Maintenance Windows API
+  slug: cronitor-maintenance-windows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-maintenance-windows-api-openapi.yml
+- filename: cronitor-metrics-api-openapi.yml
+  format: yaml
+  label: Cronitor Metrics API
+  slug: cronitor-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-metrics-api-openapi.yml
+- filename: cronitor-monitors-api-openapi.yml
+  format: yaml
+  label: Cronitor Monitors API
+  slug: cronitor-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-monitors-api-openapi.yml
+- filename: cronitor-search-api-openapi.yml
+  format: yaml
+  label: Cronitor Search API
+  slug: cronitor-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-search-api-openapi.yml
+- filename: cronitor-site-errors-api-openapi.yml
+  format: yaml
+  label: Cronitor Site Errors API
+  slug: cronitor-site-errors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-site-errors-api-openapi.yml
+- filename: cronitor-sites-api-openapi.yml
+  format: yaml
+  label: Cronitor Sites API
+  slug: cronitor-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-sites-api-openapi.yml
+- filename: cronitor-statuspage-components-api-openapi.yml
+  format: yaml
+  label: Cronitor Statuspage Components API
+  slug: cronitor-statuspage-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-statuspage-components-api-openapi.yml
+- filename: cronitor-statuspages-api-openapi.yml
+  format: yaml
+  label: Cronitor Statuspages API
+  slug: cronitor-statuspages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-statuspages-api-openapi.yml
+- filename: cronitor-telemetry-api-openapi.yml
+  format: yaml
+  label: Cronitor Telemetry API
+  slug: cronitor-telemetry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-telemetry-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12

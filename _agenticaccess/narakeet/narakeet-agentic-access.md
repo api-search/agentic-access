@@ -60,7 +60,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/
 summary_line: 6 operations · 2 acting
 tags:
 - Text-to-Speech
-- TTS
 - Voice
 - Audio
 - Video

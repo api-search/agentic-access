@@ -282,8 +282,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allocations/re
 summary_line: 167 operations · 77 acting · 1 human-in-the-loop
 tags:
 - Fintech
-- FundAdministration
-- PrivateMarkets
+- Fund Administration
+- Private Markets
 - Software-as-a-Service
-- InvestmentPlatform
+- Investment Platform
 ---

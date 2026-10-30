@@ -28,6 +28,12 @@ api_specs:
   slug: edamam-food-database-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edamam/refs/heads/main/openapi/edamam-food-database-api-openapi.yml
+- filename: edamam-shopping-list-api-openapi.yml
+  format: yaml
+  label: Edamam Shopping List API
+  slug: edamam-shopping-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edamam/refs/heads/main/openapi/edamam-shopping-list-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3

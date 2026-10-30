@@ -46,12 +46,6 @@ api_specs:
   slug: elementum-domains-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-domains-api-openapi.yml
-- filename: elementum-elements-api-openapi.yml
-  format: yaml
-  label: Elementum Elements API
-  slug: elementum-elements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/openapi/elementum-elements-api-openapi.yml
 - filename: elementum-flows-api-openapi.yml
   format: yaml
   label: Elementum Flows API

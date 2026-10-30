@@ -256,6 +256,84 @@ api_specs:
   slug: brightcove-view-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-view-events-api-openapi.yml
+- filename: brightcove-assets-api-openapi.yml
+  format: yaml
+  label: Brightcove Assets API
+  slug: brightcove-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-assets-api-openapi.yml
+- filename: brightcove-bc-live-channels-api-openapi.yml
+  format: yaml
+  label: Brightcove BC Live channels API
+  slug: brightcove-bc-live-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-bc-live-channels-api-openapi.yml
+- filename: brightcove-channel-dynamic-overlays-api-openapi.yml
+  format: yaml
+  label: Brightcove Channel Dynamic Overlays API
+  slug: brightcove-channel-dynamic-overlays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-channel-dynamic-overlays-api-openapi.yml
+- filename: brightcove-channel-metadata-api-openapi.yml
+  format: yaml
+  label: Brightcove Channel Metadata API
+  slug: brightcove-channel-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-channel-metadata-api-openapi.yml
+- filename: brightcove-channel-overlays-api-openapi.yml
+  format: yaml
+  label: Brightcove Channel Overlays API
+  slug: brightcove-channel-overlays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-channel-overlays-api-openapi.yml
+- filename: brightcove-channellinkedprograms-api-openapi.yml
+  format: yaml
+  label: Brightcove Channel Linked Programs API
+  slug: brightcove-channellinkedprograms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-channellinkedprograms-api-openapi.yml
+- filename: brightcove-channels-api-openapi.yml
+  format: yaml
+  label: Brightcove Channels API
+  slug: brightcove-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-channels-api-openapi.yml
+- filename: brightcove-fastchannels-api-openapi.yml
+  format: yaml
+  label: Brightcove Fast Channels API
+  slug: brightcove-fastchannels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-fastchannels-api-openapi.yml
+- filename: brightcove-fastdestinations-api-openapi.yml
+  format: yaml
+  label: Brightcove Fast Destinations API
+  slug: brightcove-fastdestinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-fastdestinations-api-openapi.yml
+- filename: brightcove-get-all-importable-assets-from-the-playlist-api-openapi.yml
+  format: yaml
+  label: Brightcove Get all importable assets from the playlist API
+  slug: brightcove-get-all-importable-assets-from-the-playlist-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-get-all-importable-assets-from-the-playlist-api-openapi.yml
+- filename: brightcove-play-now-api-openapi.yml
+  format: yaml
+  label: Brightcove Play Now API
+  slug: brightcove-play-now-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-play-now-api-openapi.yml
+- filename: brightcove-samsungtvplusapicredentials-api-openapi.yml
+  format: yaml
+  label: Brightcove Samsung Tv Plus API Credentials API
+  slug: brightcove-samsungtvplusapicredentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-samsungtvplusapicredentials-api-openapi.yml
+- filename: brightcove-wurl-api-openapi.yml
+  format: yaml
+  label: Brightcove Wurl API
+  slug: brightcove-wurl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/brightcove-wurl-api-openapi.yml
 consequence_counts:
   read: 102
   safety-critical: 5

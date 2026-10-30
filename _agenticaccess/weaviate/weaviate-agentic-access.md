@@ -218,7 +218,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/weavia
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/agentic-access/weaviate-agentic-access.yml
 summary_line: 111 operations · 65 acting · 3 human-in-the-loop
 tags:
-- Vector Database
+- Vector Search
 - Artificial Intelligence
 - Machine Learning
 - Semantic Search
@@ -226,5 +226,4 @@ tags:
 - GraphQL
 - Kubernetes
 - Database
-- Vector Search
 ---

@@ -3,24 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: buymeacoffee-extras-api-openapi.yml
-  format: yaml
+- filename: buymeacoffee.postman_collection.json
+  format: json
   label: Buy Me a Coffee Extras API
   slug: buymeacoffee-extras-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-extras-api-openapi.yml
-- filename: buymeacoffee-subscriptions-api-openapi.yml
-  format: yaml
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/collections/buymeacoffee.postman_collection.json
+- filename: buymeacoffee.postman_collection.json
+  format: json
   label: Buy Me a Coffee Subscriptions API
   slug: buymeacoffee-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-subscriptions-api-openapi.yml
-- filename: buymeacoffee-supporters-api-openapi.yml
-  format: yaml
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/collections/buymeacoffee.postman_collection.json
+- filename: buymeacoffee.postman_collection.json
+  format: json
   label: Buy Me a Coffee Supporters API
   slug: buymeacoffee-supporters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/openapi/buymeacoffee-supporters-api-openapi.yml
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/collections/buymeacoffee.postman_collection.json
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -45,6 +45,18 @@ api_specs:
   slug: jambase-venues-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-venues-api-openapi.yml
+- filename: jambase-festivalseries-api-openapi.yml
+  format: yaml
+  label: JamBase Festival Series API
+  slug: jambase-festivalseries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-festivalseries-api-openapi.yml
+- filename: jambase-usage-api-openapi.yml
+  format: yaml
+  label: JamBase Usage API
+  slug: jambase-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/openapi/jambase-usage-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

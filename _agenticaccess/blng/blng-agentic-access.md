@@ -88,6 +88,18 @@ api_specs:
   slug: blng-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-workspace-api-openapi.yml
+- filename: blng-user-library-api-openapi.yml
+  format: yaml
+  label: Blng User Library API
+  slug: blng-user-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-library-api-openapi.yml
+- filename: blng-user-settings-api-openapi.yml
+  format: yaml
+  label: Blng User Settings API
+  slug: blng-user-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-settings-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 39

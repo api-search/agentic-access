@@ -64,6 +64,18 @@ api_specs:
   slug: hightouch-sync-sequences-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-sync-sequences-api-openapi.yml
+- filename: hightouch-signups-api-openapi.yml
+  format: yaml
+  label: Hightouch Signups API
+  slug: hightouch-signups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-signups-api-openapi.yml
+- filename: hightouch-sync-templates-api-openapi.yml
+  format: yaml
+  label: Hightouch Sync Templates API
+  slug: hightouch-sync-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/openapi/hightouch-sync-templates-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 21

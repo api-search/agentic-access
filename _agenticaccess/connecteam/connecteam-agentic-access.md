@@ -418,6 +418,66 @@ api_specs:
   slug: connecteam-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-oauth-api-openapi.yml
+- filename: connecteam-company-policies-v1-payrulepolicypayrules-api-openapi.yml
+  format: yaml
+  label: Connecteam Company Policies:v1:PayRulePolicyPayRules API
+  slug: connecteam-company-policies-v1-payrulepolicypayrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-company-policies-v1-payrulepolicypayrules-api-openapi.yml
+- filename: connecteam-company-policies-v1-payrules-api-openapi.yml
+  format: yaml
+  label: Connecteam Company Policies:v1:PayRules API
+  slug: connecteam-company-policies-v1-payrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-company-policies-v1-payrules-api-openapi.yml
+- filename: connecteam-company-policies-v1-schedulingruleassignment-api-openapi.yml
+  format: yaml
+  label: Connecteam Company Policies:v1:SchedulingRuleAssignment API
+  slug: connecteam-company-policies-v1-schedulingruleassignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-company-policies-v1-schedulingruleassignment-api-openapi.yml
+- filename: connecteam-company-policies-v1-schedulingrulepolicies-api-openapi.yml
+  format: yaml
+  label: Connecteam Company Policies:v1:SchedulingRulePolicies API
+  slug: connecteam-company-policies-v1-schedulingrulepolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-company-policies-v1-schedulingrulepolicies-api-openapi.yml
+- filename: connecteam-company-policies-v1-schedulingrulepolicy-api-openapi.yml
+  format: yaml
+  label: Connecteam Company Policies:v1:SchedulingRulePolicy API
+  slug: connecteam-company-policies-v1-schedulingrulepolicy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-company-policies-v1-schedulingrulepolicy-api-openapi.yml
+- filename: connecteam-company-policies-v1-usercustomschedulingrulepolicies-api-openapi.yml
+  format: yaml
+  label: Connecteam Company Policies:v1:UserCustomSchedulingRulePolicies API
+  slug: connecteam-company-policies-v1-usercustomschedulingrulepolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-company-policies-v1-usercustomschedulingrulepolicies-api-openapi.yml
+- filename: connecteam-company-policies-v1-userworkinghours-api-openapi.yml
+  format: yaml
+  label: Connecteam Company Policies:v1:UserWorkingHours API
+  slug: connecteam-company-policies-v1-userworkinghours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-company-policies-v1-userworkinghours-api-openapi.yml
+- filename: connecteam-company-policies-v1-workinghoursassignment-api-openapi.yml
+  format: yaml
+  label: Connecteam Company Policies:v1:WorkingHoursAssignment API
+  slug: connecteam-company-policies-v1-workinghoursassignment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-company-policies-v1-workinghoursassignment-api-openapi.yml
+- filename: connecteam-company-policies-v1-workinghourspolicies-api-openapi.yml
+  format: yaml
+  label: Connecteam Company Policies:v1:WorkingHoursPolicies API
+  slug: connecteam-company-policies-v1-workinghourspolicies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-company-policies-v1-workinghourspolicies-api-openapi.yml
+- filename: connecteam-documents-v1-documents-api-openapi.yml
+  format: yaml
+  label: Connecteam Documents:v1:Documents API
+  slug: connecteam-documents-v1-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/connecteam/refs/heads/main/openapi/connecteam-documents-v1-documents-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 60

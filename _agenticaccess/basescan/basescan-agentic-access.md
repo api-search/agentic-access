@@ -114,7 +114,7 @@ summary_line: 71 operations · 1 acting
 tags:
 - Blockchain
 - Base
-- L2
+- Layer 2
 - Explorer
 - Ethereum
 - EVM

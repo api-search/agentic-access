@@ -90,9 +90,9 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/mailse
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/agentic-access/mailsenpai-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
-- Email marketing
+- Email Marketing
 - B2B outreach
 - SMTP relay
-- Artificial intelligence
+- Artificial Intelligence
 - Newsletter platform
 ---

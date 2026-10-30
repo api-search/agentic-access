@@ -4,12 +4,6 @@ action_class_counts:
   acting: 9
   connected: 18
 api_specs:
-- filename: alloy-automation-connectivity-api-openapi.yml
-  format: yaml
-  label: Alloy Automation Connectivity API
-  slug: alloy-automation-connectivity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-connectivity-api-openapi.yml
 - filename: alloy-automation-credentials-api-openapi.yml
   format: yaml
   label: Alloy Automation Credentials API
@@ -34,36 +28,54 @@ api_specs:
   slug: alloy-automation-passthrough-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-passthrough-api-openapi.yml
-- filename: alloy-automation-unified-accounting-api-openapi.yml
-  format: yaml
-  label: Alloy Automation Unified Accounting API
-  slug: alloy-automation-unified-accounting-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-unified-accounting-api-openapi.yml
-- filename: alloy-automation-unified-commerce-api-openapi.yml
-  format: yaml
-  label: Alloy Automation Unified Commerce API
-  slug: alloy-automation-unified-commerce-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-unified-commerce-api-openapi.yml
-- filename: alloy-automation-unified-crm-api-openapi.yml
-  format: yaml
-  label: Alloy Automation Unified CRM API
-  slug: alloy-automation-unified-crm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-unified-crm-api-openapi.yml
-- filename: alloy-automation-user-tokens-api-openapi.yml
-  format: yaml
-  label: Alloy Automation User Tokens API
-  slug: alloy-automation-user-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-user-tokens-api-openapi.yml
 - filename: alloy-automation-users-api-openapi.yml
   format: yaml
   label: Alloy Automation Users API
   slug: alloy-automation-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-users-api-openapi.yml
+- filename: alloy-automation-analytics-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Analytics API
+  slug: alloy-automation-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-analytics-api-openapi.yml
+- filename: alloy-automation-headless-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Headless API
+  slug: alloy-automation-headless-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-headless-api-openapi.yml
+- filename: alloy-automation-installations-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Installations API
+  slug: alloy-automation-installations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-installations-api-openapi.yml
+- filename: alloy-automation-logs-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Logs API
+  slug: alloy-automation-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-logs-api-openapi.yml
+- filename: alloy-automation-metadata-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Metadata API
+  slug: alloy-automation-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-metadata-api-openapi.yml
+- filename: alloy-automation-run-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Run API
+  slug: alloy-automation-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-run-api-openapi.yml
+- filename: alloy-automation-workflows-api-openapi.yml
+  format: yaml
+  label: Alloy Automation Workflows API
+  slug: alloy-automation-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-workflows-api-openapi.yml
 consequence_counts:
   read: 18
   write: 9

@@ -15,6 +15,12 @@ api_specs:
   slug: accuracite-verify-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/openapi/accuracite-verify-api-openapi.yml
+- filename: accuracite-usage-api-openapi.yml
+  format: yaml
+  label: AccuraCite Usage API
+  slug: accuracite-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accuracite/refs/heads/main/openapi/accuracite-usage-api-openapi.yml
 consequence_counts:
   write: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

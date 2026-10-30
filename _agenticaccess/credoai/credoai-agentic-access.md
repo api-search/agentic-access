@@ -81,5 +81,5 @@ tags:
 - Artificial Intelligence
 - Governance
 - Software-as-a-Service
-- PaloAlto
+- Palo Alto
 ---

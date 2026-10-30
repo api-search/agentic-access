@@ -56,7 +56,7 @@ tags:
 - Data Extraction
 - Proxies
 - Web Scraping
-- Headless Browser
+- Browser Automation
 - AI Agents
 - MCP
 - LLM

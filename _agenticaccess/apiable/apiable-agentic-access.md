@@ -9,73 +9,73 @@ api_specs:
   label: Apiable Companies API
   slug: apiable-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-companies-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-companies-api-openapi.yml
 - filename: apiable-custom-properties-api-openapi.yml
   format: yaml
   label: Apiable Custom Properties API
   slug: apiable-custom-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-custom-properties-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-custom-properties-api-openapi.yml
 - filename: apiable-docs-api-openapi.yml
   format: yaml
   label: Apiable Docs API
   slug: apiable-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-docs-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-docs-api-openapi.yml
 - filename: apiable-files-api-openapi.yml
   format: yaml
   label: Apiable Files API
   slug: apiable-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-files-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-files-api-openapi.yml
 - filename: apiable-invitations-api-openapi.yml
   format: yaml
   label: Apiable Invitations API
   slug: apiable-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-invitations-api-openapi.yml
 - filename: apiable-plans-api-openapi.yml
   format: yaml
   label: Apiable Plans API
   slug: apiable-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-plans-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-plans-api-openapi.yml
 - filename: apiable-products-api-openapi.yml
   format: yaml
   label: Apiable Products API
   slug: apiable-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-products-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-products-api-openapi.yml
 - filename: apiable-subscriptions-api-openapi.yml
   format: yaml
   label: Apiable Subscriptions API
   slug: apiable-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-subscriptions-api-openapi.yml
 - filename: apiable-teams-api-openapi.yml
   format: yaml
   label: Apiable Teams API
   slug: apiable-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-teams-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-teams-api-openapi.yml
 - filename: apiable-users-api-openapi.yml
   format: yaml
   label: Apiable Users API
   slug: apiable-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-users-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-users-api-openapi.yml
 - filename: apiable-webhooks-api-openapi.yml
   format: yaml
   label: Apiable Webhooks API
   slug: apiable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-webhooks-api-openapi.yml
 - filename: apiable-server-info-api-openapi.yml
   format: yaml
   label: Apiable Server Info API
   slug: apiable-server-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-server-info-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-server-info-api-openapi.yml
 consequence_counts:
   read: 30
   safety-critical: 1
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: generated\nsource: openapi/apiabl
   \ read\n    subject: optional\n    scope:\n    - apiable/cicd\n    - apiable/platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/versions\n  method: get\n  operationId: versions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - apiable/cicd\n    - apiable/platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users\n  method: get\n  operationId: findAllUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - apiable/platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/subscriptions/{subscriptionId}/custom-properties\n  method: get\n  operationId: getCustomPropertiesForSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - apiable/cicd\n    - apiable/platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/products\n\
   \  method: get\n  operationId: findAllProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - apiable/platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/products/{id}\n  method: get\n  operationId: findProductById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - apiable/platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/plans\n  method: get\n  operationId: findAllPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - apiable/cicd\n    - apiable/platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/plans/{id}\n  method: get\n  operationId: findPlanById_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - apiable/cicd\n    - apiable/platform\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/plans/{id}/docs/overview\n  method: get\n  operationId: findDocumentationByPlanId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - apiable/cicd\n    - apiable/platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/health\n  method: get\n  operationId: health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - apiable/cicd\n    - apiable/platform\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/companies\n  method: get\n  operationId: findAllCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - apiable/platform\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/agentic-access/apiable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apiable/agentic-access/apiable-agentic-access.yml
 summary_line: 66 operations · 36 acting · 1 human-in-the-loop
 tags:
 - Amazon API Gateway

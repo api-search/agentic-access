@@ -39,7 +39,7 @@ summary_line: 2 operations
 tags:
 - Sex Offenders
 - Public Safety
-- Crime Data
+- Crime
 - Background Checks
 - Criminal Justice
 - Government Data

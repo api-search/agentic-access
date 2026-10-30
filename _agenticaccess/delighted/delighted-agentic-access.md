@@ -103,7 +103,6 @@ summary_line: 18 operations · 9 acting
 tags:
 - NPS
 - CSAT
-- Customer Satisfaction
 - CES
 - Customer Effort Score
 - Surveys

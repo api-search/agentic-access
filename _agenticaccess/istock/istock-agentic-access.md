@@ -34,12 +34,90 @@ api_specs:
   slug: istock-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-videos-api-openapi.yml
-- filename: istock-oauth-api-openapi.yml
+- filename: istock-affiliatesearch-api-openapi.yml
   format: yaml
-  label: iStock O Auth API
-  slug: istock-oauth-api
+  label: iStock Affiliate Search API
+  slug: istock-affiliatesearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-oauth-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-affiliatesearch-api-openapi.yml
+- filename: istock-aigenerator-api-openapi.yml
+  format: yaml
+  label: iStock AI Generator API
+  slug: istock-aigenerator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-aigenerator-api-openapi.yml
+- filename: istock-artists-api-openapi.yml
+  format: yaml
+  label: iStock Artists API
+  slug: istock-artists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-artists-api-openapi.yml
+- filename: istock-assetchanges-api-openapi.yml
+  format: yaml
+  label: iStock Asset Changes API
+  slug: istock-assetchanges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-assetchanges-api-openapi.yml
+- filename: istock-assetlicensing-api-openapi.yml
+  format: yaml
+  label: iStock Asset Licensing API
+  slug: istock-assetlicensing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-assetlicensing-api-openapi.yml
+- filename: istock-boards-api-openapi.yml
+  format: yaml
+  label: iStock Boards API
+  slug: istock-boards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-boards-api-openapi.yml
+- filename: istock-collections-api-openapi.yml
+  format: yaml
+  label: iStock Collections API
+  slug: istock-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-collections-api-openapi.yml
+- filename: istock-customers-api-openapi.yml
+  format: yaml
+  label: iStock Customers API
+  slug: istock-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-customers-api-openapi.yml
+- filename: istock-events-api-openapi.yml
+  format: yaml
+  label: iStock Events API
+  slug: istock-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-events-api-openapi.yml
+- filename: istock-imagematch-api-openapi.yml
+  format: yaml
+  label: iStock Image Match API
+  slug: istock-imagematch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-imagematch-api-openapi.yml
+- filename: istock-orders-api-openapi.yml
+  format: yaml
+  label: iStock Orders API
+  slug: istock-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-orders-api-openapi.yml
+- filename: istock-products-api-openapi.yml
+  format: yaml
+  label: iStock Products API
+  slug: istock-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-products-api-openapi.yml
+- filename: istock-purchases-api-openapi.yml
+  format: yaml
+  label: iStock Purchases API
+  slug: istock-purchases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-purchases-api-openapi.yml
+- filename: istock-usage-api-openapi.yml
+  format: yaml
+  label: iStock Usage API
+  slug: istock-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/openapi/istock-usage-api-openapi.yml
 consequence_counts:
   read: 9
   write: 3

@@ -206,12 +206,11 @@ tags:
 - Company
 - Enterprise
 - Database
-- Vector Database
+- Vector Search
 - Cassandra
 - Artificial Intelligence
 - RAG
 - Serverless
 - Streaming
 - Developer Tools
-- Vector Search
 ---

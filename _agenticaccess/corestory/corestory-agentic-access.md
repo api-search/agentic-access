@@ -106,12 +106,6 @@ api_specs:
   slug: corestory-github-integration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/openapi/corestory-github-integration-api-openapi.yml
-- filename: corestory-github-webhooks-api-openapi.yml
-  format: yaml
-  label: CoreStory Github Webhooks API
-  slug: corestory-github-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/openapi/corestory-github-webhooks-api-openapi.yml
 - filename: corestory-languages-api-openapi.yml
   format: yaml
   label: CoreStory Languages API
@@ -286,6 +280,54 @@ api_specs:
   slug: corestory-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/openapi/corestory-workflows-api-openapi.yml
+- filename: corestory-git-providers-api-openapi.yml
+  format: yaml
+  label: CoreStory Git Providers API
+  slug: corestory-git-providers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/openapi/corestory-git-providers-api-openapi.yml
+- filename: corestory-git-webhooks-api-openapi.yml
+  format: yaml
+  label: CoreStory Git Webhooks API
+  slug: corestory-git-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/openapi/corestory-git-webhooks-api-openapi.yml
+- filename: corestory-loc-api-openapi.yml
+  format: yaml
+  label: CoreStory Loc API
+  slug: corestory-loc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/openapi/corestory-loc-api-openapi.yml
+- filename: corestory-prds-api-openapi.yml
+  format: yaml
+  label: CoreStory Prds API
+  slug: corestory-prds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/openapi/corestory-prds-api-openapi.yml
+- filename: corestory-project-selections-api-openapi.yml
+  format: yaml
+  label: CoreStory Project Selections API
+  slug: corestory-project-selections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/openapi/corestory-project-selections-api-openapi.yml
+- filename: corestory-sio-actions-api-openapi.yml
+  format: yaml
+  label: CoreStory Sio Actions API
+  slug: corestory-sio-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/openapi/corestory-sio-actions-api-openapi.yml
+- filename: corestory-support-api-openapi.yml
+  format: yaml
+  label: CoreStory Support API
+  slug: corestory-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/openapi/corestory-support-api-openapi.yml
+- filename: corestory-usage-api-openapi.yml
+  format: yaml
+  label: CoreStory Usage API
+  slug: corestory-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/openapi/corestory-usage-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 128

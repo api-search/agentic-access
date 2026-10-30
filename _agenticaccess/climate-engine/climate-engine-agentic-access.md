@@ -16,24 +16,30 @@ api_specs:
   slug: climate-engine-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-metadata-api-openapi.yml
-- filename: climate-engine-raster-api-openapi.yml
-  format: yaml
-  label: Climate Engine Raster API
-  slug: climate-engine-raster-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-raster-api-openapi.yml
 - filename: climate-engine-reports-api-openapi.yml
   format: yaml
   label: Climate Engine Reports API
   slug: climate-engine-reports-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-reports-api-openapi.yml
-- filename: climate-engine-zonal-statistics-api-openapi.yml
+- filename: climate-engine-raster-export-api-openapi.yml
   format: yaml
-  label: Climate Engine Zonal Statistics API
-  slug: climate-engine-zonal-statistics-api
+  label: Climate Engine Raster/export API
+  slug: climate-engine-raster-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-zonal-statistics-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-raster-export-api-openapi.yml
+- filename: climate-engine-raster-mapid-api-openapi.yml
+  format: yaml
+  label: Climate Engine Raster/mapid API
+  slug: climate-engine-raster-mapid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-raster-mapid-api-openapi.yml
+- filename: climate-engine-zonal-stats-api-openapi.yml
+  format: yaml
+  label: Climate Engine Zonal Stats API
+  slug: climate-engine-zonal-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-zonal-stats-api-openapi.yml
 - filename: climate-engine-time-series-api-openapi.yml
   format: yaml
   label: Climate Engine Time Series API

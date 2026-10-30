@@ -10,12 +10,6 @@ api_specs:
   slug: basiq-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-accounts-api-openapi.yml
-- filename: basiq-affordability-api-openapi.yml
-  format: yaml
-  label: Basiq Affordability API
-  slug: basiq-affordability-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-affordability-api-openapi.yml
 - filename: basiq-authentication-api-openapi.yml
   format: yaml
   label: Basiq Authentication API
@@ -40,6 +34,102 @@ api_specs:
   slug: basiq-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-users-api-openapi.yml
+- filename: basiq-consents-api-openapi.yml
+  format: yaml
+  label: Basiq Consents API
+  slug: basiq-consents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-consents-api-openapi.yml
+- filename: basiq-jobs-api-openapi.yml
+  format: yaml
+  label: Basiq Jobs API
+  slug: basiq-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-jobs-api-openapi.yml
+- filename: basiq-affordability-api-openapi.yml
+  format: yaml
+  label: Basiq Affordability API
+  slug: basiq-affordability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-affordability-api-openapi.yml
+- filename: basiq-analytics-api-openapi.yml
+  format: yaml
+  label: Basiq Analytics API
+  slug: basiq-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-analytics-api-openapi.yml
+- filename: basiq-authlinks-api-openapi.yml
+  format: yaml
+  label: Basiq Auth Links API
+  slug: basiq-authlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-authlinks-api-openapi.yml
+- filename: basiq-connectors-api-openapi.yml
+  format: yaml
+  label: Basiq Connectors API
+  slug: basiq-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-connectors-api-openapi.yml
+- filename: basiq-enrich-api-openapi.yml
+  format: yaml
+  label: Basiq Enrich API
+  slug: basiq-enrich-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-enrich-api-openapi.yml
+- filename: basiq-events-api-openapi.yml
+  format: yaml
+  label: Basiq Events API
+  slug: basiq-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-events-api-openapi.yml
+- filename: basiq-expenses-api-openapi.yml
+  format: yaml
+  label: Basiq Expenses API
+  slug: basiq-expenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-expenses-api-openapi.yml
+- filename: basiq-identities-api-openapi.yml
+  format: yaml
+  label: Basiq Identities API
+  slug: basiq-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-identities-api-openapi.yml
+- filename: basiq-income-api-openapi.yml
+  format: yaml
+  label: Basiq Income API
+  slug: basiq-income-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-income-api-openapi.yml
+- filename: basiq-insights-api-openapi.yml
+  format: yaml
+  label: Basiq Insights API
+  slug: basiq-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-insights-api-openapi.yml
+- filename: basiq-payees-api-openapi.yml
+  format: yaml
+  label: Basiq Payees API
+  slug: basiq-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-payees-api-openapi.yml
+- filename: basiq-reports-api-openapi.yml
+  format: yaml
+  label: Basiq Reports API
+  slug: basiq-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-reports-api-openapi.yml
+- filename: basiq-statements-api-openapi.yml
+  format: yaml
+  label: Basiq Statements API
+  slug: basiq-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-statements-api-openapi.yml
+- filename: basiq-webhooks-api-openapi.yml
+  format: yaml
+  label: Basiq Webhooks API
+  slug: basiq-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-webhooks-api-openapi.yml
 consequence_counts:
   read: 9
   write: 5
@@ -80,4 +170,6 @@ tags:
 - Fintech
 - Open Banking
 - Transaction
+- Lending
+- Account Verification
 ---

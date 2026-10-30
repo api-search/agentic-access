@@ -16,18 +16,36 @@ api_specs:
   slug: lingopal-languages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-languages-api-openapi.yml
-- filename: lingopal-translate-api-openapi.yml
+- filename: lingopal-job-outputs-api-openapi.yml
   format: yaml
-  label: Lingopal Translate API
-  slug: lingopal-translate-api
+  label: Lingopal Job Outputs API
+  slug: lingopal-job-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-translate-api-openapi.yml
-- filename: lingopal-upload-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-job-outputs-api-openapi.yml
+- filename: lingopal-job-registration-api-openapi.yml
   format: yaml
-  label: Lingopal Upload API
-  slug: lingopal-upload-api
+  label: Lingopal Job Registration API
+  slug: lingopal-job-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-upload-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-job-registration-api-openapi.yml
+- filename: lingopal-job-workflows-api-openapi.yml
+  format: yaml
+  label: Lingopal Job Workflows API
+  slug: lingopal-job-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-job-workflows-api-openapi.yml
+- filename: lingopal-storage-api-openapi.yml
+  format: yaml
+  label: Lingopal Storage API
+  slug: lingopal-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-storage-api-openapi.yml
+- filename: lingopal-text-translation-api-openapi.yml
+  format: yaml
+  label: Lingopal Text Translation API
+  slug: lingopal-text-translation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/openapi/lingopal-text-translation-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8

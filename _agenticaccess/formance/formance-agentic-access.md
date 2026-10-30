@@ -173,7 +173,7 @@ summary_line: 95 operations · 45 acting
 tags:
 - Financial Infrastructure
 - Ledger
-- double-entry-accounting
+- Double-Entry
 - Payments
 - Orchestration
 - Money Movement

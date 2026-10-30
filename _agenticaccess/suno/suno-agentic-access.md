@@ -50,6 +50,6 @@ tags:
 - Music Generation
 - Audio
 - Generative
-- TTS
+- Text-to-Speech
 - Music
 ---

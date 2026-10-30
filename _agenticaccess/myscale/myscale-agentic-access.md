@@ -37,10 +37,9 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/myscal
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/agentic-access/myscale-agentic-access.yml
 summary_line: 2 operations
 tags:
-- Vector Database
+- Vector Search
 - SQL
 - ClickHouse
-- Vector Search
 - Full-Text Search
 - RAG
 ---

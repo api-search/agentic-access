@@ -160,7 +160,6 @@ tags:
 - Artificial Intelligence
 - Content
 - SEO
-- AEO
 - Answer Engine Optimization
 - Generative Engine Optimization
 - Workflows

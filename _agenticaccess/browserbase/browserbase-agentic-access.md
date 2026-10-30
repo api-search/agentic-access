@@ -28,6 +28,54 @@ api_specs:
   slug: browserbase-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-sessions-api-openapi.yml
+- filename: browserbase-agents-api-openapi.yml
+  format: yaml
+  label: Browserbase Agents API
+  slug: browserbase-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-agents-api-openapi.yml
+- filename: browserbase-certificates-api-openapi.yml
+  format: yaml
+  label: Browserbase Certificates API
+  slug: browserbase-certificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-certificates-api-openapi.yml
+- filename: browserbase-downloads-api-openapi.yml
+  format: yaml
+  label: Browserbase Downloads API
+  slug: browserbase-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-downloads-api-openapi.yml
+- filename: browserbase-fetch-api-openapi.yml
+  format: yaml
+  label: Browserbase Fetch API
+  slug: browserbase-fetch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-fetch-api-openapi.yml
+- filename: browserbase-functions-api-openapi.yml
+  format: yaml
+  label: Browserbase Functions API
+  slug: browserbase-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-functions-api-openapi.yml
+- filename: browserbase-search-api-openapi.yml
+  format: yaml
+  label: Browserbase Search API
+  slug: browserbase-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-search-api-openapi.yml
+- filename: browserbase-secrets-api-openapi.yml
+  format: yaml
+  label: Browserbase Secrets API
+  slug: browserbase-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-secrets-api-openapi.yml
+- filename: browserbase-webhooks-api-openapi.yml
+  format: yaml
+  label: Browserbase Webhooks API
+  slug: browserbase-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-webhooks-api-openapi.yml
 consequence_counts:
   read: 11
   write: 6
@@ -61,9 +109,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/browse
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/agentic-access/browserbase-agentic-access.yml
 summary_line: 17 operations · 6 acting
 tags:
-- Headless Browser
+- Browser Automation
 - Browser Infrastructure
-- Web Automation
 - AI Agents
 - Web Scraping
 - Stagehand
@@ -75,5 +122,4 @@ tags:
 - MCP
 - Session Recording
 - Agent Identity
-- Browser Automation
 ---

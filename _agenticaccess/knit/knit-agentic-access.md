@@ -81,4 +81,10 @@ tags:
 - HR Integrations
 - HRIS
 - Unified API
+- Integration Platform
+- API Management
+- iPaaS
+- Automation
+- SaaS Integration
+- AI Agents
 ---

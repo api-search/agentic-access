@@ -64,6 +64,18 @@ api_specs:
   slug: artie-artie-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-artie-api-api-openapi.yml
+- filename: artie-company-api-openapi.yml
+  format: yaml
+  label: Artie Company API
+  slug: artie-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-company-api-openapi.yml
+- filename: artie-kafka-clusters-api-openapi.yml
+  format: yaml
+  label: Artie Kafka Clusters API
+  slug: artie-kafka-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/openapi/artie-kafka-clusters-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17

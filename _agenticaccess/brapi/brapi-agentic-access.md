@@ -45,6 +45,90 @@ api_specs:
   slug: brapi-taxa-basica-de-juros-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-taxa-basica-de-juros-api-openapi.yml
+- filename: brapi-a-es-api-openapi.yml
+  format: yaml
+  label: brapi Ações API
+  slug: brapi-a-es-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-a-es-api-openapi.yml
+- filename: brapi-c-mbio-api-openapi.yml
+  format: yaml
+  label: brapi Câmbio API
+  slug: brapi-c-mbio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-c-mbio-api-openapi.yml
+- filename: brapi-conta-api-openapi.yml
+  format: yaml
+  label: brapi Conta API
+  slug: brapi-conta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-conta-api-openapi.yml
+- filename: brapi-cota-es-api-openapi.yml
+  format: yaml
+  label: brapi Cotações API
+  slug: brapi-cota-es-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-cota-es-api-openapi.yml
+- filename: brapi-fundos-api-openapi.yml
+  format: yaml
+  label: brapi Fundos API
+  slug: brapi-fundos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-fundos-api-openapi.yml
+- filename: brapi-fundos-imobili-rios-api-openapi.yml
+  format: yaml
+  label: brapi Fundos Imobiliários API
+  slug: brapi-fundos-imobili-rios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-fundos-imobili-rios-api-openapi.yml
+- filename: brapi-futuros-api-openapi.yml
+  format: yaml
+  label: brapi Futuros API
+  slug: brapi-futuros-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-futuros-api-openapi.yml
+- filename: brapi-indicadores-api-openapi.yml
+  format: yaml
+  label: brapi Indicadores API
+  slug: brapi-indicadores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-indicadores-api-openapi.yml
+- filename: brapi-macroeconomia-api-openapi.yml
+  format: yaml
+  label: brapi Macroeconomia API
+  slug: brapi-macroeconomia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-macroeconomia-api-openapi.yml
+- filename: brapi-op-es-api-openapi.yml
+  format: yaml
+  label: brapi Opções API
+  slug: brapi-op-es-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-op-es-api-openapi.yml
+- filename: brapi-op-es-sobre-futuros-api-openapi.yml
+  format: yaml
+  label: brapi Opções sobre Futuros API
+  slug: brapi-op-es-sobre-futuros-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-op-es-sobre-futuros-api-openapi.yml
+- filename: brapi-renda-fixa-api-openapi.yml
+  format: yaml
+  label: brapi Renda Fixa API
+  slug: brapi-renda-fixa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-renda-fixa-api-openapi.yml
+- filename: brapi-tickers-api-openapi.yml
+  format: yaml
+  label: brapi Tickers API
+  slug: brapi-tickers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-tickers-api-openapi.yml
+- filename: brapi-utilit-rios-api-openapi.yml
+  format: yaml
+  label: brapi Utilitários API
+  slug: brapi-utilit-rios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/openapi/brapi-utilit-rios-api-openapi.yml
 consequence_counts:
   read: 20
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -178,6 +178,18 @@ api_specs:
   slug: maintainx-work-requests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/maintainx/refs/heads/main/openapi/maintainx-work-requests-api-openapi.yml
+- filename: maintainx-customers-api-openapi.yml
+  format: yaml
+  label: MaintainX Customers API
+  slug: maintainx-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maintainx/refs/heads/main/openapi/maintainx-customers-api-openapi.yml
+- filename: maintainx-rotation-schedules-api-openapi.yml
+  format: yaml
+  label: MaintainX Rotation Schedules API
+  slug: maintainx-rotation-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/maintainx/refs/heads/main/openapi/maintainx-rotation-schedules-api-openapi.yml
 consequence_counts:
   physical: 31
   read: 56
@@ -373,7 +385,7 @@ tags:
 - CMMS
 - Asset Management
 - Work Orders
-- Field Service
+- Field Service Management
 - Manufacturing
 - Preventive Maintenance
 - IoT

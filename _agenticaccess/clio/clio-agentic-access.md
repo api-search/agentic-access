@@ -502,6 +502,66 @@ api_specs:
   slug: clio-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-webhooks-api-openapi.yml
+- filename: clio-matter-protected-funds-api-openapi.yml
+  format: yaml
+  label: Clio Matter Protected Funds API
+  slug: clio-matter-protected-funds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-matter-protected-funds-api-openapi.yml
+- filename: clio-matter-transfers-api-openapi.yml
+  format: yaml
+  label: Clio Matter Transfers API
+  slug: clio-matter-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-matter-transfers-api-openapi.yml
+- filename: clio-rate-table-assignments-api-openapi.yml
+  format: yaml
+  label: Clio Rate Table Assignments API
+  slug: clio-rate-table-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-rate-table-assignments-api-openapi.yml
+- filename: clio-rate-table-categories-api-openapi.yml
+  format: yaml
+  label: Clio Rate Table Categories API
+  slug: clio-rate-table-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-rate-table-categories-api-openapi.yml
+- filename: clio-rate-table-rates-api-openapi.yml
+  format: yaml
+  label: Clio Rate Table Rates API
+  slug: clio-rate-table-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-rate-table-rates-api-openapi.yml
+- filename: clio-rate-table-timekeepers-api-openapi.yml
+  format: yaml
+  label: Clio Rate Table Timekeepers API
+  slug: clio-rate-table-timekeepers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-rate-table-timekeepers-api-openapi.yml
+- filename: clio-rate-tables-api-openapi.yml
+  format: yaml
+  label: Clio Rate Tables API
+  slug: clio-rate-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-rate-tables-api-openapi.yml
+- filename: clio-safe-custody-packet-locations-api-openapi.yml
+  format: yaml
+  label: Clio Safe Custody Packet Locations API
+  slug: clio-safe-custody-packet-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-safe-custody-packet-locations-api-openapi.yml
+- filename: clio-safe-custody-packets-api-openapi.yml
+  format: yaml
+  label: Clio Safe Custody Packets API
+  slug: clio-safe-custody-packets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-safe-custody-packets-api-openapi.yml
+- filename: clio-safe-custody-records-api-openapi.yml
+  format: yaml
+  label: Clio Safe Custody Records API
+  slug: clio-safe-custody-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/openapi/clio-safe-custody-records-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 143

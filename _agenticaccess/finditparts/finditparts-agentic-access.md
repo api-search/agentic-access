@@ -148,7 +148,7 @@ tags:
 - Automotive
 - Parts
 - Heavy Duty Trucking
-- Fleet
+- Fleet Management
 - Logistics
 - Commerce
 - Catalog

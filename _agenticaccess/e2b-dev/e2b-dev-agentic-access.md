@@ -4,54 +4,18 @@ action_class_counts:
   acting: 36
   connected: 31
 api_specs:
-- filename: e2b-dev-access-tokens-api-openapi.yml
-  format: yaml
-  label: E2B Access Tokens API
-  slug: e2b-dev-access-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-access-tokens-api-openapi.yml
-- filename: e2b-dev-admin-api-openapi.yml
-  format: yaml
-  label: E2B Admin API
-  slug: e2b-dev-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-admin-api-openapi.yml
-- filename: e2b-dev-api-keys-api-openapi.yml
-  format: yaml
-  label: E2B API Keys API
-  slug: e2b-dev-api-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-api-keys-api-openapi.yml
-- filename: e2b-dev-auth-api-openapi.yml
-  format: yaml
-  label: E2B Auth API
-  slug: e2b-dev-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-auth-api-openapi.yml
 - filename: e2b-dev-events-api-openapi.yml
   format: yaml
   label: E2B Events API
   slug: e2b-dev-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-events-api-openapi.yml
-- filename: e2b-dev-health-api-openapi.yml
-  format: yaml
-  label: E2B Health API
-  slug: e2b-dev-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-health-api-openapi.yml
 - filename: e2b-dev-sandboxes-api-openapi.yml
   format: yaml
   label: E2B Sandboxes API
   slug: e2b-dev-sandboxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-sandboxes-api-openapi.yml
-- filename: e2b-dev-snapshots-api-openapi.yml
-  format: yaml
-  label: E2B Snapshots API
-  slug: e2b-dev-snapshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-snapshots-api-openapi.yml
 - filename: e2b-dev-tags-api-openapi.yml
   format: yaml
   label: E2B Tags API
@@ -82,6 +46,36 @@ api_specs:
   slug: e2b-dev-e2b-sandbox-events-and-webhooks-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
+- filename: e2b-dev-envd-api-openapi.yml
+  format: yaml
+  label: E2B Envd API
+  slug: e2b-dev-envd-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-envd-api-openapi.yml
+- filename: e2b-dev-filesystem-api-openapi.yml
+  format: yaml
+  label: E2B Filesystem API
+  slug: e2b-dev-filesystem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-filesystem-api-openapi.yml
+- filename: e2b-dev-process-api-openapi.yml
+  format: yaml
+  label: E2B Process API
+  slug: e2b-dev-process-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-process-api-openapi.yml
+- filename: e2b-dev-secrets-api-openapi.yml
+  format: yaml
+  label: E2B Secrets API
+  slug: e2b-dev-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-secrets-api-openapi.yml
+- filename: e2b-dev-teams-api-openapi.yml
+  format: yaml
+  label: E2B Teams API
+  slug: e2b-dev-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-teams-api-openapi.yml
 consequence_counts:
   read: 31
   safety-critical: 1

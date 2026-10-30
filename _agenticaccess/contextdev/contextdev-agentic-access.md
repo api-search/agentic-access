@@ -46,6 +46,54 @@ api_specs:
   slug: contextdev-web-scraping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-scraping-api-openapi.yml
+- filename: contextdev-agent-feedback-api-openapi.yml
+  format: yaml
+  label: Context.dev Agent Feedback API
+  slug: contextdev-agent-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-agent-feedback-api-openapi.yml
+- filename: contextdev-answers-api-openapi.yml
+  format: yaml
+  label: Context.dev Answers API
+  slug: contextdev-answers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-answers-api-openapi.yml
+- filename: contextdev-batches-api-openapi.yml
+  format: yaml
+  label: Context.dev Batches API
+  slug: contextdev-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-batches-api-openapi.yml
+- filename: contextdev-browser-profiles-api-openapi.yml
+  format: yaml
+  label: Context.dev Browser Profiles API
+  slug: contextdev-browser-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-browser-profiles-api-openapi.yml
+- filename: contextdev-logs-api-openapi.yml
+  format: yaml
+  label: Context.dev Logs API
+  slug: contextdev-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-logs-api-openapi.yml
+- filename: contextdev-news-api-openapi.yml
+  format: yaml
+  label: Context.dev News API
+  slug: contextdev-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-news-api-openapi.yml
+- filename: contextdev-usage-api-openapi.yml
+  format: yaml
+  label: Context.dev Usage API
+  slug: contextdev-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-usage-api-openapi.yml
+- filename: contextdev-webhooks-api-openapi.yml
+  format: yaml
+  label: Context.dev Webhooks API
+  slug: contextdev-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-webhooks-api-openapi.yml
 consequence_counts:
   read: 29
   write: 13

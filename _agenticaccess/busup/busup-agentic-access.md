@@ -223,7 +223,7 @@ summary_line: 74 operations · 21 acting · 3 human-in-the-loop
 tags:
 - Company
 - Procurement
-- Spend-Management
+- Spend Management
 - Software-as-a-Service
 - Automation
 ---

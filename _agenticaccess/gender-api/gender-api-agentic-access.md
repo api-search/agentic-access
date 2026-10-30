@@ -3,24 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: gender-api-get-api-openapi.yml
+- filename: gender-api-country-of-origin-api-openapi.yml
   format: yaml
-  label: Gender API Get API
-  slug: gender-api-get-api
+  label: Gender API Country Of Origin API
+  slug: gender-api-country-of-origin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-get-api-openapi.yml
-- filename: gender-api-get-country-of-origin-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-country-of-origin-api-openapi.yml
+- filename: gender-api-gender-api-openapi.yml
   format: yaml
-  label: Gender API Get Country Of Origin API
-  slug: gender-api-get-country-of-origin-api
+  label: Gender API Gender API
+  slug: gender-api-gender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-get-country-of-origin-api-openapi.yml
-- filename: gender-api-get-stats-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-gender-api-openapi.yml
+- filename: gender-api-statistic-api-openapi.yml
   format: yaml
-  label: Gender API Get Stats API
-  slug: gender-api-get-stats-api
+  label: Gender API Statistic API
+  slug: gender-api-statistic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-get-stats-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-statistic-api-openapi.yml
+- filename: gender-api-signup-api-openapi.yml
+  format: yaml
+  label: Gender API Signup API
+  slug: gender-api-signup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-signup-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

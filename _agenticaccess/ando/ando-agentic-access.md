@@ -10,12 +10,6 @@ api_specs:
   slug: ando-calls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-calls-api-openapi.yml
-- filename: ando-clipboards-api-openapi.yml
-  format: yaml
-  label: Ando Clipboards API
-  slug: ando-clipboards-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-clipboards-api-openapi.yml
 - filename: ando-members-api-openapi.yml
   format: yaml
   label: Ando Members API
@@ -40,18 +34,48 @@ api_specs:
   slug: ando-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-search-api-openapi.yml
-- filename: ando-tasks-api-openapi.yml
-  format: yaml
-  label: Ando Tasks API
-  slug: ando-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-tasks-api-openapi.yml
 - filename: ando-webhooks-api-openapi.yml
   format: yaml
   label: Ando Webhooks API
   slug: ando-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-webhooks-api-openapi.yml
+- filename: ando-agents-api-openapi.yml
+  format: yaml
+  label: Ando Agents API
+  slug: ando-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-agents-api-openapi.yml
+- filename: ando-api-keys-api-openapi.yml
+  format: yaml
+  label: Ando API Keys API
+  slug: ando-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-api-keys-api-openapi.yml
+- filename: ando-conversations-api-openapi.yml
+  format: yaml
+  label: Ando Conversations API
+  slug: ando-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-conversations-api-openapi.yml
+- filename: ando-files-api-openapi.yml
+  format: yaml
+  label: Ando Files API
+  slug: ando-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-files-api-openapi.yml
+- filename: ando-imports-api-openapi.yml
+  format: yaml
+  label: Ando Imports API
+  slug: ando-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-imports-api-openapi.yml
+- filename: ando-webhook-sources-api-openapi.yml
+  format: yaml
+  label: Ando Webhook sources API
+  slug: ando-webhook-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-webhook-sources-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17

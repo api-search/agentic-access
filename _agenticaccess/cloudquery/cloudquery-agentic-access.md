@@ -22,24 +22,12 @@ api_specs:
   slug: cloudquery-api-keys-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-api-keys-api-openapi.yml
-- filename: cloudquery-apps-api-openapi.yml
-  format: yaml
-  label: CloudQuery Apps API
-  slug: cloudquery-apps-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-apps-api-openapi.yml
 - filename: cloudquery-audit-logs-api-openapi.yml
   format: yaml
   label: CloudQuery Audit Logs API
   slug: cloudquery-audit-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-audit-logs-api-openapi.yml
-- filename: cloudquery-chat-api-openapi.yml
-  format: yaml
-  label: CloudQuery Chat API
-  slug: cloudquery-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-chat-api-openapi.yml
 - filename: cloudquery-custom-columns-api-openapi.yml
   format: yaml
   label: CloudQuery Custom Columns API
@@ -148,6 +136,24 @@ api_specs:
   slug: cloudquery-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-users-api-openapi.yml
+- filename: cloudquery-billing-api-openapi.yml
+  format: yaml
+  label: CloudQuery Billing API
+  slug: cloudquery-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-billing-api-openapi.yml
+- filename: cloudquery-external-syncs-api-openapi.yml
+  format: yaml
+  label: CloudQuery External Syncs API
+  slug: cloudquery-external-syncs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-external-syncs-api-openapi.yml
+- filename: cloudquery-table-exports-api-openapi.yml
+  format: yaml
+  label: CloudQuery Table Exports API
+  slug: cloudquery-table-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/openapi/cloudquery-table-exports-api-openapi.yml
 - filename: cloudquery-health-check-api-openapi.yml
   format: yaml
   label: CloudQuery Health Check API

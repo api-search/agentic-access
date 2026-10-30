@@ -22,6 +22,90 @@ api_specs:
   slug: justcall-sms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-sms-api-openapi.yml
+- filename: justcall-ai-voice-agents-api-openapi.yml
+  format: yaml
+  label: JustCall AI Voice Agents API
+  slug: justcall-ai-voice-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-ai-voice-agents-api-openapi.yml
+- filename: justcall-appointments-api-openapi.yml
+  format: yaml
+  label: JustCall Appointments API
+  slug: justcall-appointments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-appointments-api-openapi.yml
+- filename: justcall-justcall-ai-api-openapi.yml
+  format: yaml
+  label: JustCall JustCall AI API
+  slug: justcall-justcall-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-justcall-ai-api-openapi.yml
+- filename: justcall-oauth-api-openapi.yml
+  format: yaml
+  label: JustCall OAuth API
+  slug: justcall-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-oauth-api-openapi.yml
+- filename: justcall-phone-numbers-api-openapi.yml
+  format: yaml
+  label: JustCall Phone Numbers API
+  slug: justcall-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-phone-numbers-api-openapi.yml
+- filename: justcall-rcs-api-openapi.yml
+  format: yaml
+  label: JustCall RCS API
+  slug: justcall-rcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-rcs-api-openapi.yml
+- filename: justcall-sales-dialer-api-openapi.yml
+  format: yaml
+  label: JustCall Sales Dialer API
+  slug: justcall-sales-dialer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-sales-dialer-api-openapi.yml
+- filename: justcall-sales-dialer-phone-numbers-api-openapi.yml
+  format: yaml
+  label: JustCall Sales Dialer - Phone Numbers API
+  slug: justcall-sales-dialer-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-sales-dialer-phone-numbers-api-openapi.yml
+- filename: justcall-special-dates-api-openapi.yml
+  format: yaml
+  label: JustCall Special Dates API
+  slug: justcall-special-dates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-special-dates-api-openapi.yml
+- filename: justcall-unified-analytics-api-openapi.yml
+  format: yaml
+  label: JustCall Unified Analytics API
+  slug: justcall-unified-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-unified-analytics-api-openapi.yml
+- filename: justcall-user-groups-api-openapi.yml
+  format: yaml
+  label: JustCall User Groups API
+  slug: justcall-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-user-groups-api-openapi.yml
+- filename: justcall-users-api-openapi.yml
+  format: yaml
+  label: JustCall Users API
+  slug: justcall-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-users-api-openapi.yml
+- filename: justcall-webhooks-api-openapi.yml
+  format: yaml
+  label: JustCall Webhooks API
+  slug: justcall-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-webhooks-api-openapi.yml
+- filename: justcall-whats-app-api-openapi.yml
+  format: yaml
+  label: JustCall Whats App API
+  slug: justcall-whats-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/openapi/justcall-whats-app-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 1

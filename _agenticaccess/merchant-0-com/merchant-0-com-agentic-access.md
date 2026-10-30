@@ -202,6 +202,18 @@ api_specs:
   slug: merchant-0-com-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/merchant-0-com/refs/heads/main/openapi/merchant-0-com-well-known-api-openapi.yml
+- filename: merchant-0-com-revenue-api-openapi.yml
+  format: yaml
+  label: Merchant-0 Revenue API
+  slug: merchant-0-com-revenue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merchant-0-com/refs/heads/main/openapi/merchant-0-com-revenue-api-openapi.yml
+- filename: merchant-0-com-scheduler-api-openapi.yml
+  format: yaml
+  label: Merchant-0 Scheduler API
+  slug: merchant-0-com-scheduler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merchant-0-com/refs/heads/main/openapi/merchant-0-com-scheduler-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 60

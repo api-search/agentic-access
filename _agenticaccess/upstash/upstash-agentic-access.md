@@ -70,8 +70,7 @@ tags:
 - Redis
 - Kafka
 - Messaging
-- Vector Database
+- Vector Search
 - Edge Computing
 - Database
-- Vector Search
 ---

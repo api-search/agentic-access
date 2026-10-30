@@ -28,6 +28,18 @@ api_specs:
   slug: keyframe-labs-voices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-voices-api-openapi.yml
+- filename: keyframe-labs-avatars-api-openapi.yml
+  format: yaml
+  label: Keyframe Labs Avatars API
+  slug: keyframe-labs-avatars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-avatars-api-openapi.yml
+- filename: keyframe-labs-generations-api-openapi.yml
+  format: yaml
+  label: Keyframe Labs Generations API
+  slug: keyframe-labs-generations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-generations-api-openapi.yml
 consequence_counts:
   read: 5
   safety-critical: 1

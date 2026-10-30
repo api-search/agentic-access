@@ -46,12 +46,6 @@ api_specs:
   slug: galileo-technologies-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-auth-api-openapi.yml
-- filename: galileo-technologies-auto-metric-suggestions-api-openapi.yml
-  format: yaml
-  label: Galileo Technologies Auto Metric Suggestions API
-  slug: galileo-technologies-auto-metric-suggestions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-auto-metric-suggestions-api-openapi.yml
 - filename: galileo-technologies-code-metric-generation-api-openapi.yml
   format: yaml
   label: Galileo Technologies Code Metric Generation API
@@ -334,12 +328,6 @@ api_specs:
   slug: galileo-technologies-trends-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-trends-dashboard-api-openapi.yml
-- filename: galileo-technologies-usage-limits-api-openapi.yml
-  format: yaml
-  label: Galileo Technologies Usage Limits API
-  slug: galileo-technologies-usage-limits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-usage-limits-api-openapi.yml
 - filename: galileo-technologies-user-api-openapi.yml
   format: yaml
   label: Galileo Technologies User API
@@ -358,6 +346,48 @@ api_specs:
   slug: galileo-technologies-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-versions-api-openapi.yml
+- filename: galileo-technologies-agent-observability-api-openapi.yml
+  format: yaml
+  label: Galileo Technologies Agent Observability API
+  slug: galileo-technologies-agent-observability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-agent-observability-api-openapi.yml
+- filename: galileo-technologies-codex-cost-per-credit-api-openapi.yml
+  format: yaml
+  label: Galileo Technologies Codex Cost Per Credit API
+  slug: galileo-technologies-codex-cost-per-credit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-codex-cost-per-credit-api-openapi.yml
+- filename: galileo-technologies-decision-models-api-openapi.yml
+  format: yaml
+  label: Galileo Technologies Decision Models API
+  slug: galileo-technologies-decision-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-decision-models-api-openapi.yml
+- filename: galileo-technologies-fiscal-calendar-api-openapi.yml
+  format: yaml
+  label: Galileo Technologies Fiscal Calendar API
+  slug: galileo-technologies-fiscal-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-fiscal-calendar-api-openapi.yml
+- filename: galileo-technologies-forecast-config-api-openapi.yml
+  format: yaml
+  label: Galileo Technologies Forecast Config API
+  slug: galileo-technologies-forecast-config-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-forecast-config-api-openapi.yml
+- filename: galileo-technologies-project-access-levels-api-openapi.yml
+  format: yaml
+  label: Galileo Technologies Project Access Levels API
+  slug: galileo-technologies-project-access-levels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-project-access-levels-api-openapi.yml
+- filename: galileo-technologies-signals-v2-api-openapi.yml
+  format: yaml
+  label: Galileo Technologies Signals V2 API
+  slug: galileo-technologies-signals-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/openapi/galileo-technologies-signals-v2-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 456

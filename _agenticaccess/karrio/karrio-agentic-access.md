@@ -64,12 +64,6 @@ api_specs:
   slug: karrio-pickups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-pickups-api-openapi.yml
-- filename: karrio-products-api-openapi.yml
-  format: yaml
-  label: Karrio Products API
-  slug: karrio-products-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-products-api-openapi.yml
 - filename: karrio-proxy-api-openapi.yml
   format: yaml
   label: Karrio Proxy API

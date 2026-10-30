@@ -93,7 +93,6 @@ tags:
 - E-Billing
 - Enterprise Legal Management
 - Legal Operations
-- Legal Spend Management
 - Matter Management
 - Vendor Management
 ---

@@ -309,7 +309,7 @@ tags:
 - Asset Management
 - CMMS
 - EAM
-- Field Service
+- Field Service Management
 - Work Orders
 - Industrial
 - Software-as-a-Service

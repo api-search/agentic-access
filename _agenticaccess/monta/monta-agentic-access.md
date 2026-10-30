@@ -84,7 +84,6 @@ summary_line: 17 operations · 4 acting · 1 human-in-the-loop
 tags:
 - EV Charging
 - Electric Vehicles
-- Charge Points
 - Energy
 - Mobility
 ---

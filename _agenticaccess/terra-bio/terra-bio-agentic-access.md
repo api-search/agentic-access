@@ -39,7 +39,7 @@ summary_line: 1 operation
 tags:
 - Company
 - Biomedical
-- DataAnalysis
+- Data Analysis
 - Collaboration
-- CloudPlatform
+- Cloud Platform
 ---

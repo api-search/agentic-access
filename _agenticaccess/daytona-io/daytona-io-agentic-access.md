@@ -4,12 +4,6 @@ action_class_counts:
   acting: 177
   connected: 153
 api_specs:
-- filename: daytona-io-admin-api-openapi.yml
-  format: yaml
-  label: Daytona Admin API
-  slug: daytona-io-admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-admin-api-openapi.yml
 - filename: daytona-io-api-keys-api-openapi.yml
   format: yaml
   label: Daytona API Keys API
@@ -160,78 +154,24 @@ api_specs:
   slug: daytona-io-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-webhooks-api-openapi.yml
-- filename: daytona-io-workspace-api-openapi.yml
-  format: yaml
-  label: Daytona Workspace API
-  slug: daytona-io-workspace-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-workspace-api-openapi.yml
-- filename: daytona-io-daytona-admin-api-api-openapi.yml
-  format: yaml
-  label: Daytona Admin API
-  slug: daytona-io-daytona-admin-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-admin-api-api-openapi.yml
-- filename: daytona-io-daytona-api-keys-api-api-openapi.yml
-  format: yaml
-  label: Daytona Api Keys API
-  slug: daytona-io-daytona-api-keys-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-api-keys-api-api-openapi.yml
-- filename: daytona-io-daytona-health-api-api-openapi.yml
-  format: yaml
-  label: Daytona Health API
-  slug: daytona-io-daytona-health-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-health-api-api-openapi.yml
-- filename: daytona-io-daytona-organizations-api-api-openapi.yml
-  format: yaml
-  label: Daytona Organizations API
-  slug: daytona-io-daytona-organizations-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-organizations-api-api-openapi.yml
-- filename: daytona-io-daytona-preview-api-api-openapi.yml
-  format: yaml
-  label: Daytona Preview API
-  slug: daytona-io-daytona-preview-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-preview-api-api-openapi.yml
-- filename: daytona-io-daytona-sandbox-api-api-openapi.yml
-  format: yaml
-  label: Daytona Sandbox API
-  slug: daytona-io-daytona-sandbox-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-sandbox-api-api-openapi.yml
-- filename: daytona-io-daytona-snapshots-api-api-openapi.yml
-  format: yaml
-  label: Daytona Snapshots API
-  slug: daytona-io-daytona-snapshots-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-snapshots-api-api-openapi.yml
 - filename: daytona-io-daytona-toolbox-api-api-openapi.yml
   format: yaml
   label: Daytona Toolbox API
   slug: daytona-io-daytona-toolbox-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-toolbox-api-api-openapi.yml
-- filename: daytona-io-daytona-users-api-api-openapi.yml
+- filename: daytona-io-secret-api-openapi.yml
   format: yaml
-  label: Daytona Users API
-  slug: daytona-io-daytona-users-api-api
+  label: Daytona Secret API
+  slug: daytona-io-secret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-users-api-api-openapi.yml
-- filename: daytona-io-daytona-volumes-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-secret-api-openapi.yml
+- filename: daytona-io-warm-pools-api-openapi.yml
   format: yaml
-  label: Daytona Volumes API
-  slug: daytona-io-daytona-volumes-api-api
+  label: Daytona Warm Pools API
+  slug: daytona-io-warm-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-volumes-api-api-openapi.yml
-- filename: daytona-io-daytona-webhooks-api-api-openapi.yml
-  format: yaml
-  label: Daytona Webhooks API
-  slug: daytona-io-daytona-webhooks-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-daytona-webhooks-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/openapi/daytona-io-warm-pools-api-openapi.yml
 - filename: daytona-io-filesystem-api-openapi.yml
   format: yaml
   label: Daytona Filesystem API

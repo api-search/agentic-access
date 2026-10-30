@@ -21,6 +21,12 @@ api_specs:
   slug: macadress-vendors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-vendors-api-openapi.yml
+- filename: macadress-vendor-api-openapi.yml
+  format: yaml
+  label: 'MAC Address Lookup: Find Vendor, OUI & Device Type Vendor API'
+  slug: macadress-vendor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/openapi/macadress-vendor-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

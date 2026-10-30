@@ -131,7 +131,6 @@ tags:
 - Reviews
 - Lens
 - Web Scraping
-- SERP API
 - Web Search
 - Agents
 - Patents

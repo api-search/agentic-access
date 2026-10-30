@@ -16,6 +16,60 @@ api_specs:
   slug: fyndiq-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-orders-api-openapi.yml
+- filename: fyndiq-carrier-codes-api-openapi.yml
+  format: yaml
+  label: Fyndiq Carrier Codes API
+  slug: fyndiq-carrier-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-carrier-codes-api-openapi.yml
+- filename: fyndiq-categories-api-openapi.yml
+  format: yaml
+  label: Fyndiq Categories API
+  slug: fyndiq-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-categories-api-openapi.yml
+- filename: fyndiq-financial-reports-api-openapi.yml
+  format: yaml
+  label: Fyndiq Financial Reports API
+  slug: fyndiq-financial-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-financial-reports-api-openapi.yml
+- filename: fyndiq-health-api-openapi.yml
+  format: yaml
+  label: Fyndiq Health API
+  slug: fyndiq-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-health-api-openapi.yml
+- filename: fyndiq-jobs-api-openapi.yml
+  format: yaml
+  label: Fyndiq Jobs API
+  slug: fyndiq-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-jobs-api-openapi.yml
+- filename: fyndiq-merchant-api-openapi.yml
+  format: yaml
+  label: Fyndiq Merchant API
+  slug: fyndiq-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-merchant-api-openapi.yml
+- filename: fyndiq-sales-funnels-api-openapi.yml
+  format: yaml
+  label: Fyndiq Sales Funnels API
+  slug: fyndiq-sales-funnels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-sales-funnels-api-openapi.yml
+- filename: fyndiq-shipping-configurations-api-openapi.yml
+  format: yaml
+  label: Fyndiq Shipping Configurations API
+  slug: fyndiq-shipping-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-shipping-configurations-api-openapi.yml
+- filename: fyndiq-statuses-api-openapi.yml
+  format: yaml
+  label: Fyndiq Statuses API
+  slug: fyndiq-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/openapi/fyndiq-statuses-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 6

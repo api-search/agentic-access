@@ -63,7 +63,7 @@ tags:
 - Configuration Management
 - Distributed Systems
 - Externalized Configuration
-- Git
+- Version Control
 - Java
 - Microservices
 - Spring

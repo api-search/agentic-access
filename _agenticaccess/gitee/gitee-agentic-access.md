@@ -106,9 +106,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitee/refs/hea
 summary_line: 41 operations · 14 acting
 tags:
 - Code Hosting
-- Git
-- Git Hosting
 - Version Control
+- Git Hosting
 - Repositories
 - Pull Requests
 - Issue Tracking

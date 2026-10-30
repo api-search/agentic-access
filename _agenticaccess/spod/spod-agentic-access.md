@@ -124,7 +124,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spod/refs/head
 summary_line: 23 operations · 12 acting
 tags:
 - Print on Demand
-- POD
 - Dropshipping
 - Fulfillment
 - E-Commerce

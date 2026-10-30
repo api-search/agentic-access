@@ -10,18 +10,18 @@ api_specs:
   slug: gridspace-conversations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-conversations-api-openapi.yml
-- filename: gridspace-messages-api-openapi.yml
+- filename: gridspace-check-deprecation-api-openapi.yml
   format: yaml
-  label: Gridspace Messages API
-  slug: gridspace-messages-api
+  label: Gridspace Check Deprecation API
+  slug: gridspace-check-deprecation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-messages-api-openapi.yml
-- filename: gridspace-sdk-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-check-deprecation-api-openapi.yml
+- filename: gridspace-sms-api-openapi.yml
   format: yaml
-  label: Gridspace SDK API
-  slug: gridspace-sdk-api
+  label: Gridspace SMS API
+  slug: gridspace-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-sdk-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/openapi/gridspace-sms-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5

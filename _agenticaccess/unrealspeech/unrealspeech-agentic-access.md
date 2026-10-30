@@ -53,7 +53,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unrealspeech/r
 summary_line: 4 operations · 3 acting
 tags:
 - Text-to-Speech
-- TTS
 - Speech Synthesis
 - Audio
 - Voice

@@ -100,7 +100,6 @@ tags:
 - Chaos Engineering
 - Cloud-Native
 - CNCF
-- Fault Injection
 - Kubernetes
 - Observability
 - Open Source

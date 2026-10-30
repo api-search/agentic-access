@@ -4,36 +4,12 @@ action_class_counts:
   acting: 8
   connected: 14
 api_specs:
-- filename: import-io-crawlrun-api-openapi.yml
+- filename: import-io-schedule-import-io-api-openapi.yml
   format: yaml
-  label: Import.io Crawlrun API
-  slug: import-io-crawlrun-api
+  label: Import.io Schedule.import.io API
+  slug: import-io-schedule-import-io-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-crawlrun-api-openapi.yml
-- filename: import-io-extractor-api-openapi.yml
-  format: yaml
-  label: Import.io Extractor API
-  slug: import-io-extractor-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-extractor-api-openapi.yml
-- filename: import-io-report-api-openapi.yml
-  format: yaml
-  label: Import.io Report API
-  slug: import-io-report-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-report-api-openapi.yml
-- filename: import-io-reportrun-api-openapi.yml
-  format: yaml
-  label: Import.io ReportRun API
-  slug: import-io-reportrun-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-reportrun-api-openapi.yml
-- filename: import-io-user-api-openapi.yml
-  format: yaml
-  label: Import.io User API
-  slug: import-io-user-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-user-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/openapi/import-io-schedule-import-io-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1

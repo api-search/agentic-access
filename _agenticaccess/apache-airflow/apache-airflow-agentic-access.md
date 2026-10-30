@@ -4,6 +4,12 @@ action_class_counts:
   acting: 75
   connected: 111
 api_specs:
+- filename: apache-airflow-experimental-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Experimental API (Deprecated)
+  slug: apache-airflow-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-experimental-api-openapi.yml
 - filename: apache-airflow-config-api-openapi.yml
   format: yaml
   label: Apache Airflow Config API
@@ -88,12 +94,6 @@ api_specs:
   slug: apache-airflow-xcom-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-xcom-api-openapi.yml
-- filename: apache-airflow-dag-run-api-openapi.yml
-  format: yaml
-  label: Apache Airflow DAG Run API
-  slug: apache-airflow-dag-run-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dag-run-api-openapi.yml
 - filename: apache-airflow-event-log-api-openapi.yml
   format: yaml
   label: Apache Airflow Event Log API
@@ -178,6 +178,36 @@ api_specs:
   slug: apache-airflow-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-version-api-openapi.yml
+- filename: apache-airflow-asset-state-store-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Asset State Store API
+  slug: apache-airflow-asset-state-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-asset-state-store-api-openapi.yml
+- filename: apache-airflow-experimental-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Experimental API
+  slug: apache-airflow-experimental-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-experimental-api-openapi.yml
+- filename: apache-airflow-extra-links-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Extra Links API
+  slug: apache-airflow-extra-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-extra-links-api-openapi.yml
+- filename: apache-airflow-task-state-store-api-openapi.yml
+  format: yaml
+  label: Apache Airflow Task State Store API
+  slug: apache-airflow-task-state-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-task-state-store-api-openapi.yml
+- filename: apache-airflow-dag-run-api-openapi.yml
+  format: yaml
+  label: Apache Airflow DAG Run API
+  slug: apache-airflow-dag-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-dag-run-api-openapi.yml
 consequence_counts:
   read: 111
   write: 75

@@ -53,9 +53,9 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/kitfor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kitforai/refs/heads/main/agentic-access/kitforai-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
-- AI
+- Artificial Intelligence
 - Memory
-- DocumentConversion
-- RetrievalAugmentedGeneration
-- KnowledgeBase
+- Document Conversion
+- RAG
+- Knowledge Base
 ---

@@ -190,9 +190,8 @@ tags:
 - Browser Automation
 - Web Agents
 - Web Scraping
-- Headless Browser
 - Agent Infrastructure
 - MCP
-- Cloud Browsers
+- Cloud Browser
 - A2A
 ---

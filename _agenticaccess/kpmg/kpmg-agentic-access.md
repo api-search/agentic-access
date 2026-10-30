@@ -3,18 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 6
 api_specs:
-- filename: kpmg-movements-api-openapi.yml
+- filename: kpmg-locations-api-openapi.yml
   format: yaml
-  label: KPMG Movements API
-  slug: kpmg-movements-api
+  label: KPMG Locations API
+  slug: kpmg-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-movements-api-openapi.yml
-- filename: kpmg-registries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-locations-api-openapi.yml
+- filename: kpmg-organizations-api-openapi.yml
   format: yaml
-  label: KPMG Registries API
-  slug: kpmg-registries-api
+  label: KPMG Organizations API
+  slug: kpmg-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-registries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-organizations-api-openapi.yml
+- filename: kpmg-producttemplates-api-openapi.yml
+  format: yaml
+  label: KPMG Product Templates API
+  slug: kpmg-producttemplates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-producttemplates-api-openapi.yml
+- filename: kpmg-token-api-openapi.yml
+  format: yaml
+  label: KPMG Token API
+  slug: kpmg-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-token-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

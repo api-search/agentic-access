@@ -162,7 +162,7 @@ tags:
 - Search
 - Retrieval
 - RAG
-- Vector Database
+- Vector Search
 - Multi-Modal
 - Parsing
 - Open Weights

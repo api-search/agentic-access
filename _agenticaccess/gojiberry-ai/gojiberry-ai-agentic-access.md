@@ -52,6 +52,18 @@ api_specs:
   slug: gojiberry-ai-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-user-api-openapi.yml
+- filename: gojiberry-ai-directory-api-openapi.yml
+  format: yaml
+  label: Gojiberry AI Directory API
+  slug: gojiberry-ai-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-directory-api-openapi.yml
+- filename: gojiberry-ai-email-seat-api-openapi.yml
+  format: yaml
+  label: Gojiberry AI Email Seat API
+  slug: gojiberry-ai-email-seat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/openapi/gojiberry-ai-email-seat-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 9

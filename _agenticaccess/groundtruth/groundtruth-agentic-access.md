@@ -112,6 +112,18 @@ api_specs:
   slug: groundtruth-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-users-api-openapi.yml
+- filename: groundtruth-location-groups-api-openapi.yml
+  format: yaml
+  label: GroundTruth Location Groups API
+  slug: groundtruth-location-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-location-groups-api-openapi.yml
+- filename: groundtruth-pois-api-openapi.yml
+  format: yaml
+  label: GroundTruth POIs API
+  slug: groundtruth-pois-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-pois-api-openapi.yml
 consequence_counts:
   read: 276
   write: 42

@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/swagge
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/agentic-access/swagger-codegen-agentic-access.yml
 summary_line: 25 operations · 8 acting
 tags:
-- Client Libraries
+- Client Library
 - Code Generation
 - Open Source
 - OpenAPI

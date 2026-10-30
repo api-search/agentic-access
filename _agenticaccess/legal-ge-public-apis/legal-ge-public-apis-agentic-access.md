@@ -16,6 +16,12 @@ api_specs:
   slug: legal-ge-public-apis-matching-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/openapi/legal-ge-public-apis-matching-api-openapi.yml
+- filename: legal-ge-public-apis-law-api-openapi.yml
+  format: yaml
+  label: legal.ge Public APIs Law API
+  slug: legal-ge-public-apis-law-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/openapi/legal-ge-public-apis-law-api-openapi.yml
 consequence_counts:
   read: 5
   write: 1

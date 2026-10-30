@@ -106,7 +106,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eagleview/refs
 summary_line: 21 operations · 9 acting
 tags:
 - Geospatial
-- AerialImagery
+- Aerial Imagery
 - Data Analytics
 - Real Estate
 - Insurance

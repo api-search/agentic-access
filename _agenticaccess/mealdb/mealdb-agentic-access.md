@@ -45,6 +45,36 @@ api_specs:
   slug: mealdb-search-php-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-search-php-api-openapi.yml
+- filename: mealdb-discovery-api-openapi.yml
+  format: yaml
+  label: TheMealDB Discovery API
+  slug: mealdb-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-discovery-api-openapi.yml
+- filename: mealdb-filter-api-openapi.yml
+  format: yaml
+  label: TheMealDB Filter API
+  slug: mealdb-filter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-filter-api-openapi.yml
+- filename: mealdb-lists-api-openapi.yml
+  format: yaml
+  label: TheMealDB Lists API
+  slug: mealdb-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-lists-api-openapi.yml
+- filename: mealdb-lookup-api-openapi.yml
+  format: yaml
+  label: TheMealDB Lookup API
+  slug: mealdb-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-lookup-api-openapi.yml
+- filename: mealdb-search-api-openapi.yml
+  format: yaml
+  label: TheMealDB Search API
+  slug: mealdb-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/openapi/mealdb-search-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

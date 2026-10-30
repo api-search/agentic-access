@@ -10,60 +10,90 @@ api_specs:
   slug: freeplay-agents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-agents-api-openapi.yml
-- filename: freeplay-completions-api-openapi.yml
-  format: yaml
-  label: Freeplay Completions API
-  slug: freeplay-completions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-completions-api-openapi.yml
-- filename: freeplay-datasets-api-openapi.yml
-  format: yaml
-  label: Freeplay Datasets API
-  slug: freeplay-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-datasets-api-openapi.yml
-- filename: freeplay-feedback-api-openapi.yml
-  format: yaml
-  label: Freeplay Feedback API
-  slug: freeplay-feedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-feedback-api-openapi.yml
-- filename: freeplay-projects-api-openapi.yml
-  format: yaml
-  label: Freeplay Projects API
-  slug: freeplay-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-projects-api-openapi.yml
 - filename: freeplay-prompt-templates-api-openapi.yml
   format: yaml
   label: Freeplay Prompt Templates API
   slug: freeplay-prompt-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-prompt-templates-api-openapi.yml
-- filename: freeplay-search-api-openapi.yml
-  format: yaml
-  label: Freeplay Search API
-  slug: freeplay-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-search-api-openapi.yml
-- filename: freeplay-sessions-api-openapi.yml
-  format: yaml
-  label: Freeplay Sessions API
-  slug: freeplay-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-sessions-api-openapi.yml
 - filename: freeplay-test-runs-api-openapi.yml
   format: yaml
   label: Freeplay Test Runs API
   slug: freeplay-test-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-test-runs-api-openapi.yml
-- filename: freeplay-traces-api-openapi.yml
+- filename: freeplay-agent-datasets-api-openapi.yml
   format: yaml
-  label: Freeplay Traces API
-  slug: freeplay-traces-api
+  label: Freeplay Agent Datasets API
+  slug: freeplay-agent-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-traces-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-agent-datasets-api-openapi.yml
+- filename: freeplay-configuration-api-openapi.yml
+  format: yaml
+  label: Freeplay Configuration API
+  slug: freeplay-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-configuration-api-openapi.yml
+- filename: freeplay-evaluation-criteria-api-openapi.yml
+  format: yaml
+  label: Freeplay Evaluation Criteria API
+  slug: freeplay-evaluation-criteria-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-evaluation-criteria-api-openapi.yml
+- filename: freeplay-insights-api-openapi.yml
+  format: yaml
+  label: Freeplay Insights API
+  slug: freeplay-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-insights-api-openapi.yml
+- filename: freeplay-models-api-openapi.yml
+  format: yaml
+  label: Freeplay Models API
+  slug: freeplay-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-models-api-openapi.yml
+- filename: freeplay-observability-api-openapi.yml
+  format: yaml
+  label: Freeplay Observability API
+  slug: freeplay-observability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-observability-api-openapi.yml
+- filename: freeplay-prompt-datasets-api-openapi.yml
+  format: yaml
+  label: Freeplay Prompt Datasets API
+  slug: freeplay-prompt-datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-prompt-datasets-api-openapi.yml
+- filename: freeplay-prompt-optimization-api-openapi.yml
+  format: yaml
+  label: Freeplay Prompt Optimization API
+  slug: freeplay-prompt-optimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-prompt-optimization-api-openapi.yml
+- filename: freeplay-review-queues-api-openapi.yml
+  format: yaml
+  label: Freeplay Review Queues API
+  slug: freeplay-review-queues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-review-queues-api-openapi.yml
+- filename: freeplay-saved-searches-api-openapi.yml
+  format: yaml
+  label: Freeplay Saved Searches API
+  slug: freeplay-saved-searches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-saved-searches-api-openapi.yml
+- filename: freeplay-search-analytics-api-openapi.yml
+  format: yaml
+  label: Freeplay Search & Analytics API
+  slug: freeplay-search-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-search-analytics-api-openapi.yml
+- filename: freeplay-tags-api-openapi.yml
+  format: yaml
+  label: Freeplay Tags API
+  slug: freeplay-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/openapi/freeplay-tags-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17

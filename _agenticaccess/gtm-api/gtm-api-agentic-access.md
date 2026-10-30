@@ -457,8 +457,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gtm-api/refs/h
 summary_line: 266 operations · 174 acting · 11 human-in-the-loop
 tags:
 - Company
-- API
 - LinkedIn
-- AI
+- Artificial Intelligence
 - Automation
 ---

@@ -108,7 +108,7 @@ tags:
 - Trucking
 - Supply Chain
 - Carrier Intelligence
-- Fleet
+- Fleet Management
 - Transportation
 - Insurance
 - Fraud Prevention

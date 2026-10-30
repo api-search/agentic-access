@@ -4,48 +4,12 @@ action_class_counts:
   acting: 45
   connected: 60
 api_specs:
-- filename: lawvu-auth-api-openapi.yml
-  format: yaml
-  label: LawVu Auth API
-  slug: lawvu-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-auth-api-openapi.yml
-- filename: lawvu-contractkeydate-api-openapi.yml
-  format: yaml
-  label: LawVu ContractKeyDate API
-  slug: lawvu-contractkeydate-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contractkeydate-api-openapi.yml
 - filename: lawvu-contracts-api-openapi.yml
   format: yaml
   label: LawVu Contracts API
   slug: lawvu-contracts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contracts-api-openapi.yml
-- filename: lawvu-contractstatusmessage-api-openapi.yml
-  format: yaml
-  label: LawVu ContractStatusMessage API
-  slug: lawvu-contractstatusmessage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contractstatusmessage-api-openapi.yml
-- filename: lawvu-contractuser-api-openapi.yml
-  format: yaml
-  label: LawVu ContractUser API
-  slug: lawvu-contractuser-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contractuser-api-openapi.yml
-- filename: lawvu-emails-api-openapi.yml
-  format: yaml
-  label: LawVu Emails API
-  slug: lawvu-emails-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-emails-api-openapi.yml
-- filename: lawvu-features-api-openapi.yml
-  format: yaml
-  label: LawVu Features API
-  slug: lawvu-features-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-features-api-openapi.yml
 - filename: lawvu-fields-api-openapi.yml
   format: yaml
   label: LawVu Fields API
@@ -58,78 +22,18 @@ api_specs:
   slug: lawvu-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-files-api-openapi.yml
-- filename: lawvu-folders-api-openapi.yml
-  format: yaml
-  label: LawVu Folders API
-  slug: lawvu-folders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-folders-api-openapi.yml
 - filename: lawvu-invoices-api-openapi.yml
   format: yaml
   label: LawVu Invoices API
   slug: lawvu-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-invoices-api-openapi.yml
-- filename: lawvu-lookupfields-api-openapi.yml
-  format: yaml
-  label: LawVu LookupFields API
-  slug: lawvu-lookupfields-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-lookupfields-api-openapi.yml
-- filename: lawvu-mattercategories-api-openapi.yml
-  format: yaml
-  label: LawVu MatterCategories API
-  slug: lawvu-mattercategories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-mattercategories-api-openapi.yml
-- filename: lawvu-matterfiles-api-openapi.yml
-  format: yaml
-  label: LawVu MatterFiles API
-  slug: lawvu-matterfiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-matterfiles-api-openapi.yml
 - filename: lawvu-matters-api-openapi.yml
   format: yaml
   label: LawVu Matters API
   slug: lawvu-matters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-matters-api-openapi.yml
-- filename: lawvu-mattersinvoices-api-openapi.yml
-  format: yaml
-  label: LawVu MattersInvoices API
-  slug: lawvu-mattersinvoices-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-mattersinvoices-api-openapi.yml
-- filename: lawvu-matterstatusmessage-api-openapi.yml
-  format: yaml
-  label: LawVu MatterStatusMessage API
-  slug: lawvu-matterstatusmessage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-matterstatusmessage-api-openapi.yml
-- filename: lawvu-mattertasks-api-openapi.yml
-  format: yaml
-  label: LawVu MatterTasks API
-  slug: lawvu-mattertasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-mattertasks-api-openapi.yml
-- filename: lawvu-mattertasktemplates-api-openapi.yml
-  format: yaml
-  label: LawVu MatterTaskTemplates API
-  slug: lawvu-mattertasktemplates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-mattertasktemplates-api-openapi.yml
-- filename: lawvu-organisations-api-openapi.yml
-  format: yaml
-  label: LawVu Organisations API
-  slug: lawvu-organisations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-organisations-api-openapi.yml
-- filename: lawvu-recents-api-openapi.yml
-  format: yaml
-  label: LawVu Recents API
-  slug: lawvu-recents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-recents-api-openapi.yml
 - filename: lawvu-teams-api-openapi.yml
   format: yaml
   label: LawVu Teams API
@@ -142,24 +46,6 @@ api_specs:
   slug: lawvu-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-users-api-openapi.yml
-- filename: lawvu-contract-files-api-openapi.yml
-  format: yaml
-  label: LawVu Contract Files API
-  slug: lawvu-contract-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contract-files-api-openapi.yml
-- filename: lawvu-contract-templates-api-openapi.yml
-  format: yaml
-  label: LawVu Contract Templates API
-  slug: lawvu-contract-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contract-templates-api-openapi.yml
-- filename: lawvu-webhook-subscriptions-api-openapi.yml
-  format: yaml
-  label: LawVu Webhook Subscriptions API
-  slug: lawvu-webhook-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-webhook-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 60

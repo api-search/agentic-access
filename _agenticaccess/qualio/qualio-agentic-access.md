@@ -198,7 +198,6 @@ tags:
 - Life Sciences
 - Compliance
 - Document Control
-- QMS
 - Regulatory
 - Medical Devices
 ---

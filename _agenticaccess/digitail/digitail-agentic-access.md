@@ -112,6 +112,102 @@ api_specs:
   slug: digitail-visit-types-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-visit-types-api-openapi.yml
+- filename: digitail-authentication-api-openapi.yml
+  format: yaml
+  label: Digitail Authentication API
+  slug: digitail-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-authentication-api-openapi.yml
+- filename: digitail-bloodtypes-api-openapi.yml
+  format: yaml
+  label: Digitail Blood Types API
+  slug: digitail-bloodtypes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-bloodtypes-api-openapi.yml
+- filename: digitail-client-communication-api-openapi.yml
+  format: yaml
+  label: Digitail Client Communication API
+  slug: digitail-client-communication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-client-communication-api-openapi.yml
+- filename: digitail-credit-notes-api-openapi.yml
+  format: yaml
+  label: Digitail Credit Notes API
+  slug: digitail-credit-notes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-credit-notes-api-openapi.yml
+- filename: digitail-patient-estimates-api-openapi.yml
+  format: yaml
+  label: Digitail Patient Estimates API
+  slug: digitail-patient-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-patient-estimates-api-openapi.yml
+- filename: digitail-periodical-treatments-api-openapi.yml
+  format: yaml
+  label: Digitail Periodical Treatments API
+  slug: digitail-periodical-treatments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-periodical-treatments-api-openapi.yml
+- filename: digitail-pets-archive-api-openapi.yml
+  format: yaml
+  label: Digitail Pets Archive API
+  slug: digitail-pets-archive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-pets-archive-api-openapi.yml
+- filename: digitail-product-api-openapi.yml
+  format: yaml
+  label: Digitail Product API
+  slug: digitail-product-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-product-api-openapi.yml
+- filename: digitail-public-clinics-api-openapi.yml
+  format: yaml
+  label: Digitail Public Clinics API
+  slug: digitail-public-clinics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-public-clinics-api-openapi.yml
+- filename: digitail-public-vets-api-openapi.yml
+  format: yaml
+  label: Digitail Public Vets API
+  slug: digitail-public-vets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-public-vets-api-openapi.yml
+- filename: digitail-reminder-protocol-usages-api-openapi.yml
+  format: yaml
+  label: Digitail Reminder Protocol Usages API
+  slug: digitail-reminder-protocol-usages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-reminder-protocol-usages-api-openapi.yml
+- filename: digitail-roles-api-openapi.yml
+  format: yaml
+  label: Digitail Roles API
+  slug: digitail-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-roles-api-openapi.yml
+- filename: digitail-service-packages-api-openapi.yml
+  format: yaml
+  label: Digitail Service Packages API
+  slug: digitail-service-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-service-packages-api-openapi.yml
+- filename: digitail-tags-api-openapi.yml
+  format: yaml
+  label: Digitail Tags API
+  slug: digitail-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-tags-api-openapi.yml
+- filename: digitail-wellness-plans-api-openapi.yml
+  format: yaml
+  label: Digitail Wellness Plans API
+  slug: digitail-wellness-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-wellness-plans-api-openapi.yml
+- filename: digitail-purchase-orders-api-openapi.yml
+  format: yaml
+  label: Digitail Purchase Orders API
+  slug: digitail-purchase-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-purchase-orders-api-openapi.yml
 consequence_counts:
   read: 20
   write: 1

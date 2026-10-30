@@ -4,12 +4,6 @@ action_class_counts:
   acting: 5
   connected: 7
 api_specs:
-- filename: flinks-authorize-api-openapi.yml
-  format: yaml
-  label: Flinks Authorize API
-  slug: flinks-authorize-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-authorize-api-openapi.yml
 - filename: flinks-connect-api-openapi.yml
   format: yaml
   label: Flinks Connect API
@@ -22,24 +16,12 @@ api_specs:
   slug: flinks-enrich-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-enrich-api-openapi.yml
-- filename: flinks-fraud-api-openapi.yml
+- filename: flinks-authorization-api-openapi.yml
   format: yaml
-  label: Flinks Fraud API
-  slug: flinks-fraud-api
+  label: Flinks Authorization API
+  slug: flinks-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-fraud-api-openapi.yml
-- filename: flinks-identity-api-openapi.yml
-  format: yaml
-  label: Flinks Identity API
-  slug: flinks-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-identity-api-openapi.yml
-- filename: flinks-score-api-openapi.yml
-  format: yaml
-  label: Flinks Score API
-  slug: flinks-score-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-score-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/openapi/flinks-authorization-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5

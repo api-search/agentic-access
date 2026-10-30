@@ -106,6 +106,78 @@ api_specs:
   slug: lago-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-webhooks-api-openapi.yml
+- filename: lago-activity-logs-api-openapi.yml
+  format: yaml
+  label: Lago Activity Logs API
+  slug: lago-activity-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-activity-logs-api-openapi.yml
+- filename: lago-api-logs-api-openapi.yml
+  format: yaml
+  label: Lago API Logs API
+  slug: lago-api-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-api-logs-api-openapi.yml
+- filename: lago-billing-entities-api-openapi.yml
+  format: yaml
+  label: Lago Billing Entities API
+  slug: lago-billing-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-billing-entities-api-openapi.yml
+- filename: lago-entitlements-api-openapi.yml
+  format: yaml
+  label: Lago Entitlements API
+  slug: lago-entitlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-entitlements-api-openapi.yml
+- filename: lago-features-api-openapi.yml
+  format: yaml
+  label: Lago Features API
+  slug: lago-features-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-features-api-openapi.yml
+- filename: lago-lago-api-documentation-api-openapi.yml
+  format: yaml
+  label: Lago Lago API Documentation API
+  slug: lago-lago-api-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-lago-api-documentation-api-openapi.yml
+- filename: lago-order-forms-api-openapi.yml
+  format: yaml
+  label: Lago Order Forms API
+  slug: lago-order-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-order-forms-api-openapi.yml
+- filename: lago-orders-api-openapi.yml
+  format: yaml
+  label: Lago Orders API
+  slug: lago-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-orders-api-openapi.yml
+- filename: lago-payment-methods-api-openapi.yml
+  format: yaml
+  label: Lago Payment Methods API
+  slug: lago-payment-methods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-payment-methods-api-openapi.yml
+- filename: lago-payment-receipts-api-openapi.yml
+  format: yaml
+  label: Lago Payment Receipts API
+  slug: lago-payment-receipts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-payment-receipts-api-openapi.yml
+- filename: lago-payments-api-openapi.yml
+  format: yaml
+  label: Lago Payments API
+  slug: lago-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-payments-api-openapi.yml
+- filename: lago-quotes-api-openapi.yml
+  format: yaml
+  label: Lago Quotes API
+  slug: lago-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/openapi/lago-quotes-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 39

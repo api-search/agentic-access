@@ -105,7 +105,6 @@ tags:
 - NPS
 - CSAT
 - CES
-- Customer Satisfaction
 - Customer Effort Score
 - Surveys
 - Feedback

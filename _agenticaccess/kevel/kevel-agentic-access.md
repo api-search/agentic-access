@@ -4,66 +4,150 @@ action_class_counts:
   acting: 17
   connected: 16
 api_specs:
-- filename: kevel-ads-api-openapi.yml
+- filename: kevel-ad-api-openapi.yml
   format: yaml
-  label: Kevel Ads API
-  slug: kevel-ads-api
+  label: Kevel Ad API
+  slug: kevel-ad-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-ads-api-openapi.yml
-- filename: kevel-advertisers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-ad-api-openapi.yml
+- filename: kevel-adtypes-api-openapi.yml
   format: yaml
-  label: Kevel Advertisers API
-  slug: kevel-advertisers-api
+  label: Kevel Adtypes API
+  slug: kevel-adtypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-advertisers-api-openapi.yml
-- filename: kevel-campaigns-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-adtypes-api-openapi.yml
+- filename: kevel-advertiser-api-openapi.yml
   format: yaml
-  label: Kevel Campaigns API
-  slug: kevel-campaigns-api
+  label: Kevel Advertiser API
+  slug: kevel-advertiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-campaigns-api-openapi.yml
-- filename: kevel-channels-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-advertiser-api-openapi.yml
+- filename: kevel-campaign-api-openapi.yml
   format: yaml
-  label: Kevel Channels API
-  slug: kevel-channels-api
+  label: Kevel Campaign API
+  slug: kevel-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-channels-api-openapi.yml
-- filename: kevel-creatives-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-campaign-api-openapi.yml
+- filename: kevel-categories-api-openapi.yml
   format: yaml
-  label: Kevel Creatives API
-  slug: kevel-creatives-api
+  label: Kevel Categories API
+  slug: kevel-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-creatives-api-openapi.yml
-- filename: kevel-decision-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-categories-api-openapi.yml
+- filename: kevel-category-catalog-api-openapi.yml
   format: yaml
-  label: Kevel Decision API
-  slug: kevel-decision-api
+  label: Kevel Category Catalog API
+  slug: kevel-category-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-decision-api-openapi.yml
-- filename: kevel-flights-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-category-catalog-api-openapi.yml
+- filename: kevel-channel-api-openapi.yml
   format: yaml
-  label: Kevel Flights API
-  slug: kevel-flights-api
+  label: Kevel Channel API
+  slug: kevel-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-flights-api-openapi.yml
-- filename: kevel-reporting-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-channel-api-openapi.yml
+- filename: kevel-channelsinsite-api-openapi.yml
   format: yaml
-  label: Kevel Reporting API
-  slug: kevel-reporting-api
+  label: Kevel Channels In Site API
+  slug: kevel-channelsinsite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-reporting-api-openapi.yml
-- filename: kevel-sites-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-channelsinsite-api-openapi.yml
+- filename: kevel-channelsite-api-openapi.yml
   format: yaml
-  label: Kevel Sites API
-  slug: kevel-sites-api
+  label: Kevel Channel Site API
+  slug: kevel-channelsite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-sites-api-openapi.yml
-- filename: kevel-zones-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-channelsite-api-openapi.yml
+- filename: kevel-countries-api-openapi.yml
   format: yaml
-  label: Kevel Zones API
-  slug: kevel-zones-api
+  label: Kevel Countries API
+  slug: kevel-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-zones-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-countries-api-openapi.yml
+- filename: kevel-country-api-openapi.yml
+  format: yaml
+  label: Kevel Country API
+  slug: kevel-country-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-country-api-openapi.yml
+- filename: kevel-creative-api-openapi.yml
+  format: yaml
+  label: Kevel Creative API
+  slug: kevel-creative-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-creative-api-openapi.yml
+- filename: kevel-creative-templates-api-openapi.yml
+  format: yaml
+  label: Kevel Creative Templates API
+  slug: kevel-creative-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-creative-templates-api-openapi.yml
+- filename: kevel-entitycounts-api-openapi.yml
+  format: yaml
+  label: Kevel Entitycounts API
+  slug: kevel-entitycounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-entitycounts-api-openapi.yml
+- filename: kevel-fast-api-openapi.yml
+  format: yaml
+  label: Kevel Fast API
+  slug: kevel-fast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-fast-api-openapi.yml
+- filename: kevel-flight-api-openapi.yml
+  format: yaml
+  label: Kevel Flight API
+  slug: kevel-flight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-flight-api-openapi.yml
+- filename: kevel-instantcounts-api-openapi.yml
+  format: yaml
+  label: Kevel Instantcounts API
+  slug: kevel-instantcounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-instantcounts-api-openapi.yml
+- filename: kevel-itemdb-api-openapi.yml
+  format: yaml
+  label: Kevel Itemdb API
+  slug: kevel-itemdb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-itemdb-api-openapi.yml
+- filename: kevel-login-api-openapi.yml
+  format: yaml
+  label: Kevel Login API
+  slug: kevel-login-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-login-api-openapi.yml
+- filename: kevel-priority-api-openapi.yml
+  format: yaml
+  label: Kevel Priority API
+  slug: kevel-priority-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-priority-api-openapi.yml
+- filename: kevel-region-api-openapi.yml
+  format: yaml
+  label: Kevel Region API
+  slug: kevel-region-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-region-api-openapi.yml
+- filename: kevel-segment-api-openapi.yml
+  format: yaml
+  label: Kevel Segment API
+  slug: kevel-segment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-segment-api-openapi.yml
+- filename: kevel-site-api-openapi.yml
+  format: yaml
+  label: Kevel Site API
+  slug: kevel-site-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-site-api-openapi.yml
+- filename: kevel-zone-api-openapi.yml
+  format: yaml
+  label: Kevel Zone API
+  slug: kevel-zone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/openapi/kevel-zone-api-openapi.yml
 consequence_counts:
   read: 16
   write: 17

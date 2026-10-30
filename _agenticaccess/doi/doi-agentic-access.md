@@ -273,12 +273,150 @@ api_specs:
   slug: doi-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-sites-api-openapi.yml
-- filename: doi-visitor-centers-api-openapi.yml
+- filename: doi-activities-api-openapi.yml
   format: yaml
-  label: Department of Interior Visitor Centers API
-  slug: doi-visitor-centers-api
+  label: Department of Interior Activities API
+  slug: doi-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-visitor-centers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-activities-api-openapi.yml
+- filename: doi-activities-parks-api-openapi.yml
+  format: yaml
+  label: Department of Interior Activities/parks API
+  slug: doi-activities-parks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-activities-parks-api-openapi.yml
+- filename: doi-amenities-api-openapi.yml
+  format: yaml
+  label: Department of Interior Amenities API
+  slug: doi-amenities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-amenities-api-openapi.yml
+- filename: doi-amenities-parksplaces-api-openapi.yml
+  format: yaml
+  label: Department of Interior Amenities/parksplaces API
+  slug: doi-amenities-parksplaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-amenities-parksplaces-api-openapi.yml
+- filename: doi-amenities-parksvisitorcenters-api-openapi.yml
+  format: yaml
+  label: Department of Interior Amenities/parksvisitorcenters API
+  slug: doi-amenities-parksvisitorcenters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-amenities-parksvisitorcenters-api-openapi.yml
+- filename: doi-feespasses-api-openapi.yml
+  format: yaml
+  label: Department of Interior Feespasses API
+  slug: doi-feespasses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-feespasses-api-openapi.yml
+- filename: doi-lessonplans-api-openapi.yml
+  format: yaml
+  label: Department of Interior Lessonplans API
+  slug: doi-lessonplans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-lessonplans-api-openapi.yml
+- filename: doi-mapdata-parkboundaries-api-openapi.yml
+  format: yaml
+  label: Department of Interior Mapdata/parkboundaries API
+  slug: doi-mapdata-parkboundaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-mapdata-parkboundaries-api-openapi.yml
+- filename: doi-multimedia-audio-api-openapi.yml
+  format: yaml
+  label: Department of Interior Multimedia/audio API
+  slug: doi-multimedia-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-multimedia-audio-api-openapi.yml
+- filename: doi-multimedia-galleries-api-openapi.yml
+  format: yaml
+  label: Department of Interior Multimedia/galleries API
+  slug: doi-multimedia-galleries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-multimedia-galleries-api-openapi.yml
+- filename: doi-multimedia-galleries-assets-api-openapi.yml
+  format: yaml
+  label: Department of Interior Multimedia/galleries/assets API
+  slug: doi-multimedia-galleries-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-multimedia-galleries-assets-api-openapi.yml
+- filename: doi-multimedia-videos-api-openapi.yml
+  format: yaml
+  label: Department of Interior Multimedia/videos API
+  slug: doi-multimedia-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-multimedia-videos-api-openapi.yml
+- filename: doi-newsreleases-api-openapi.yml
+  format: yaml
+  label: Department of Interior Newsreleases API
+  slug: doi-newsreleases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-newsreleases-api-openapi.yml
+- filename: doi-parkinglots-api-openapi.yml
+  format: yaml
+  label: Department of Interior Parkinglots API
+  slug: doi-parkinglots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-parkinglots-api-openapi.yml
+- filename: doi-passportstamplocations-api-openapi.yml
+  format: yaml
+  label: Department of Interior Passportstamplocations API
+  slug: doi-passportstamplocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-passportstamplocations-api-openapi.yml
+- filename: doi-people-api-openapi.yml
+  format: yaml
+  label: Department of Interior People API
+  slug: doi-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-people-api-openapi.yml
+- filename: doi-places-api-openapi.yml
+  format: yaml
+  label: Department of Interior Places API
+  slug: doi-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-places-api-openapi.yml
+- filename: doi-roadevents-api-openapi.yml
+  format: yaml
+  label: Department of Interior Roadevents API
+  slug: doi-roadevents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-roadevents-api-openapi.yml
+- filename: doi-thingstodo-api-openapi.yml
+  format: yaml
+  label: Department of Interior Thingstodo API
+  slug: doi-thingstodo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-thingstodo-api-openapi.yml
+- filename: doi-topics-api-openapi.yml
+  format: yaml
+  label: Department of Interior Topics API
+  slug: doi-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-topics-api-openapi.yml
+- filename: doi-topics-parks-api-openapi.yml
+  format: yaml
+  label: Department of Interior Topics/parks API
+  slug: doi-topics-parks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-topics-parks-api-openapi.yml
+- filename: doi-tours-api-openapi.yml
+  format: yaml
+  label: Department of Interior Tours API
+  slug: doi-tours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-tours-api-openapi.yml
+- filename: doi-visitorcenters-api-openapi.yml
+  format: yaml
+  label: Department of Interior Visitorcenters API
+  slug: doi-visitorcenters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-visitorcenters-api-openapi.yml
+- filename: doi-webcams-api-openapi.yml
+  format: yaml
+  label: Department of Interior Webcams API
+  slug: doi-webcams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/doi/refs/heads/main/openapi/doi-webcams-api-openapi.yml
 consequence_counts:
   read: 295
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

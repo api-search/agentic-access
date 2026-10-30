@@ -221,6 +221,6 @@ tags:
 - ETFs
 - Finance
 - Open Data
-- SEC-filings
+- SEC Filings
 - Holdings
 ---

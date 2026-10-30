@@ -94,6 +94,24 @@ api_specs:
   slug: aptly-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-users-api-openapi.yml
+- filename: aptly-docs-api-openapi.yml
+  format: yaml
+  label: Aptly Docs API
+  slug: aptly-docs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-docs-api-openapi.yml
+- filename: aptly-tours-api-openapi.yml
+  format: yaml
+  label: Aptly Tours API
+  slug: aptly-tours-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-tours-api-openapi.yml
+- filename: aptly-webforms-api-openapi.yml
+  format: yaml
+  label: Aptly Web Forms API
+  slug: aptly-webforms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-webforms-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 29

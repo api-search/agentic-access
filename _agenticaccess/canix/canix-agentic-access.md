@@ -166,6 +166,12 @@ api_specs:
   slug: canix-weightunits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/openapi/canix-weightunits-api-openapi.yml
+- filename: canix-incoming-transfers-api-openapi.yml
+  format: yaml
+  label: Canix Incoming Transfers API
+  slug: canix-incoming-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/openapi/canix-incoming-transfers-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 55

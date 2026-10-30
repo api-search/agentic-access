@@ -188,7 +188,7 @@ tags:
 - Developer Productivity
 - DevOps
 - Metrics
-- Git
+- Version Control
 - Jira
 - CI/CD
 - Analytics

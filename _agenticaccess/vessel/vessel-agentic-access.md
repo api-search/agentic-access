@@ -296,7 +296,7 @@ summary_line: 367 operations · 143 acting
 tags:
 - CRM
 - Chat
-- Dialer
+- Sales Dialer
 - Embedded Integrations
 - Go-To-Market
 - Integration

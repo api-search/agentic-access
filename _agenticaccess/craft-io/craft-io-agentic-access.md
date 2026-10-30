@@ -58,6 +58,12 @@ api_specs:
   slug: craft-io-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-workspaces-api-openapi.yml
+- filename: craft-io-views-api-openapi.yml
+  format: yaml
+  label: Craft.io Views API
+  slug: craft-io-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-views-api-openapi.yml
 consequence_counts:
   read: 22
   write: 5

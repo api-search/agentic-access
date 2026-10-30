@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/isbusinessemai
 summary_line: 6 operations · 3 acting
 tags:
 - Company
-- EmailVerification
+- Email Verification
 - BusinessTools
-- EUHosted
+- EU-hosted
 ---

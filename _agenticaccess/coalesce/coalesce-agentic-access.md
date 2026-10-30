@@ -34,12 +34,6 @@ api_specs:
   slug: coalesce-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-runs-api-openapi.yml
-- filename: coalesce-scheduler-api-openapi.yml
-  format: yaml
-  label: Coalesce Scheduler API
-  slug: coalesce-scheduler-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/openapi/coalesce-scheduler-api-openapi.yml
 - filename: coalesce-users-api-openapi.yml
   format: yaml
   label: Coalesce Users API

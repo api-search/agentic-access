@@ -538,6 +538,24 @@ api_specs:
   slug: everbridge-variables-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-variables-apis-api-openapi.yml
+- filename: everbridge-access-control-api-openapi.yml
+  format: yaml
+  label: Everbridge Access Control API
+  slug: everbridge-access-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-access-control-api-openapi.yml
+- filename: everbridge-agent-api-openapi.yml
+  format: yaml
+  label: Everbridge Agent API
+  slug: everbridge-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-agent-api-openapi.yml
+- filename: everbridge-ita-api-openapi.yml
+  format: yaml
+  label: Everbridge ITA API
+  slug: everbridge-ita-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-ita-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 246

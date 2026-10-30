@@ -4,12 +4,6 @@ action_class_counts:
   acting: 12
   connected: 9
 api_specs:
-- filename: general-translation-branches-api-openapi.yml
-  format: yaml
-  label: General Translation Branches API
-  slug: general-translation-branches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-branches-api-openapi.yml
 - filename: general-translation-context-api-openapi.yml
   format: yaml
   label: General Translation Context API
@@ -22,30 +16,24 @@ api_specs:
   slug: general-translation-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-files-api-openapi.yml
-- filename: general-translation-jobs-api-openapi.yml
-  format: yaml
-  label: General Translation Jobs API
-  slug: general-translation-jobs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-jobs-api-openapi.yml
 - filename: general-translation-project-api-openapi.yml
   format: yaml
   label: General Translation Project API
   slug: general-translation-project-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-project-api-openapi.yml
-- filename: general-translation-tags-api-openapi.yml
-  format: yaml
-  label: General Translation Tags API
-  slug: general-translation-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-tags-api-openapi.yml
 - filename: general-translation-translation-api-openapi.yml
   format: yaml
   label: General Translation API
   slug: general-translation-translation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-translation-api-openapi.yml
+- filename: general-translation-context-management-api-openapi.yml
+  format: yaml
+  label: General Translation Context Management API
+  slug: general-translation-context-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/openapi/general-translation-context-management-api-openapi.yml
 consequence_counts:
   read: 9
   write: 12

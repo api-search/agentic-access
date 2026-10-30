@@ -42,7 +42,7 @@ tags:
 - Data Reliability
 - Data Lake
 - Data Warehouse
-- Lineage
+- Data Lineage
 - Monitoring
 - AI Observability
 ---

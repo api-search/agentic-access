@@ -40,6 +40,36 @@ api_specs:
   slug: eigenpal-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-runs-api-openapi.yml
+- filename: eigenpal-email-servers-api-openapi.yml
+  format: yaml
+  label: Eigenpal Email servers API
+  slug: eigenpal-email-servers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-email-servers-api-openapi.yml
+- filename: eigenpal-folders-api-openapi.yml
+  format: yaml
+  label: Eigenpal Folders API
+  slug: eigenpal-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-folders-api-openapi.yml
+- filename: eigenpal-human-reviews-api-openapi.yml
+  format: yaml
+  label: Eigenpal Human reviews API
+  slug: eigenpal-human-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-human-reviews-api-openapi.yml
+- filename: eigenpal-models-api-openapi.yml
+  format: yaml
+  label: Eigenpal Models API
+  slug: eigenpal-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-models-api-openapi.yml
+- filename: eigenpal-templates-api-openapi.yml
+  format: yaml
+  label: Eigenpal Templates API
+  slug: eigenpal-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/openapi/eigenpal-templates-api-openapi.yml
 consequence_counts:
   read: 33
   write: 27

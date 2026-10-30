@@ -46,6 +46,12 @@ api_specs:
   slug: hubble-network-platform-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-platform-metrics-api-openapi.yml
+- filename: hubble-network-satellite-api-openapi.yml
+  format: yaml
+  label: Hubble Network Satellite API
+  slug: hubble-network-satellite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-satellite-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 20

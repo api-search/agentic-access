@@ -69,7 +69,7 @@ tags:
 - Climate
 - Carbon
 - Energy
-- Electricity Grid
+- Electric Grid
 - Sustainability
 - Clean Energy
 ---

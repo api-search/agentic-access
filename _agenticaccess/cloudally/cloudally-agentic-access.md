@@ -4,48 +4,54 @@ action_class_counts:
   acting: 4
   connected: 10
 api_specs:
-- filename: cloudally-authentication-api-openapi.yml
+- filename: cloudally-api-authorization-api-openapi.yml
   format: yaml
-  label: CloudAlly Authentication API
-  slug: cloudally-authentication-api
+  label: CloudAlly API Authorization API
+  slug: cloudally-api-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-authentication-api-openapi.yml
-- filename: cloudally-backups-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-api-authorization-api-openapi.yml
+- filename: cloudally-backup-management-api-openapi.yml
   format: yaml
-  label: CloudAlly Backups API
-  slug: cloudally-backups-api
+  label: CloudAlly Backup management API
+  slug: cloudally-backup-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-backups-api-openapi.yml
-- filename: cloudally-billing-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-backup-management-api-openapi.yml
+- filename: cloudally-billing-management-api-openapi.yml
   format: yaml
-  label: CloudAlly Billing API
-  slug: cloudally-billing-api
+  label: CloudAlly Billing management API
+  slug: cloudally-billing-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-billing-api-openapi.yml
-- filename: cloudally-partners-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-billing-management-api-openapi.yml
+- filename: cloudally-distributor-backup-management-api-openapi.yml
   format: yaml
-  label: CloudAlly Partners API
-  slug: cloudally-partners-api
+  label: CloudAlly Distributor Backup management API
+  slug: cloudally-distributor-backup-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-partners-api-openapi.yml
-- filename: cloudally-restore-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-distributor-backup-management-api-openapi.yml
+- filename: cloudally-partner-portal-api-openapi.yml
   format: yaml
-  label: CloudAlly Restore API
-  slug: cloudally-restore-api
+  label: CloudAlly Partner Portal API
+  slug: cloudally-partner-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-restore-api-openapi.yml
-- filename: cloudally-tasks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-partner-portal-api-openapi.yml
+- filename: cloudally-reseller-backup-management-api-openapi.yml
   format: yaml
-  label: CloudAlly Tasks API
-  slug: cloudally-tasks-api
+  label: CloudAlly Reseller Backup management API
+  slug: cloudally-reseller-backup-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-tasks-api-openapi.yml
-- filename: cloudally-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-reseller-backup-management-api-openapi.yml
+- filename: cloudally-restore-download-api-openapi.yml
   format: yaml
-  label: CloudAlly Users API
-  slug: cloudally-users-api
+  label: CloudAlly Restore & Download API
+  slug: cloudally-restore-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-restore-download-api-openapi.yml
+- filename: cloudally-user-management-api-openapi.yml
+  format: yaml
+  label: CloudAlly User management API
+  slug: cloudally-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-user-management-api-openapi.yml
 consequence_counts:
   read: 10
   write: 4

@@ -178,12 +178,6 @@ api_specs:
   slug: m3ter-external-mapping-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-external-mapping-api-openapi.yml
-- filename: m3ter-integrations-api-openapi.yml
-  format: yaml
-  label: M3ter Integrations API
-  slug: m3ter-integrations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-integrations-api-openapi.yml
 - filename: m3ter-invitations-api-openapi.yml
   format: yaml
   label: M3ter Invitations API
@@ -328,6 +322,60 @@ api_specs:
   slug: m3ter-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-user-api-openapi.yml
+- filename: m3ter-externalmappings-api-openapi.yml
+  format: yaml
+  label: M3ter External Mappings API
+  slug: m3ter-externalmappings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-externalmappings-api-openapi.yml
+- filename: m3ter-integrationconfigs-api-openapi.yml
+  format: yaml
+  label: M3ter Integration Configs API
+  slug: m3ter-integrationconfigs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-integrationconfigs-api-openapi.yml
+- filename: m3ter-integrationcredentials-api-openapi.yml
+  format: yaml
+  label: M3ter Integration Credentials API
+  slug: m3ter-integrationcredentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-integrationcredentials-api-openapi.yml
+- filename: m3ter-integrationdestinations-api-openapi.yml
+  format: yaml
+  label: M3ter Integration Destinations API
+  slug: m3ter-integrationdestinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-integrationdestinations-api-openapi.yml
+- filename: m3ter-integrationruns-api-openapi.yml
+  format: yaml
+  label: M3ter Integration Runs API
+  slug: m3ter-integrationruns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-integrationruns-api-openapi.yml
+- filename: m3ter-integrationtransformations-api-openapi.yml
+  format: yaml
+  label: M3ter Integration Transformations API
+  slug: m3ter-integrationtransformations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-integrationtransformations-api-openapi.yml
+- filename: m3ter-metergroup-api-openapi.yml
+  format: yaml
+  label: M3ter Meter Group API
+  slug: m3ter-metergroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-metergroup-api-openapi.yml
+- filename: m3ter-serviceuser-api-openapi.yml
+  format: yaml
+  label: M3ter Service User API
+  slug: m3ter-serviceuser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-serviceuser-api-openapi.yml
+- filename: m3ter-serviceusercredentials-api-openapi.yml
+  format: yaml
+  label: M3ter Service User Credentials API
+  slug: m3ter-serviceusercredentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-serviceusercredentials-api-openapi.yml
 - filename: m3ter-custom-field-api-openapi.yml
   format: yaml
   label: M3ter Custom Field API

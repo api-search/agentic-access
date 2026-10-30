@@ -58,12 +58,6 @@ api_specs:
   slug: dub-links-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-links-api-openapi.yml
-- filename: dub-partner-applications-api-openapi.yml
-  format: yaml
-  label: Dub Partner Applications API
-  slug: dub-partner-applications-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-partner-applications-api-openapi.yml
 - filename: dub-partners-api-openapi.yml
   format: yaml
   label: Dub Partners API
@@ -94,6 +88,18 @@ api_specs:
   slug: dub-track-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-track-api-openapi.yml
+- filename: dub-discount-codes-api-openapi.yml
+  format: yaml
+  label: Dub Discount Codes API
+  slug: dub-discount-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-discount-codes-api-openapi.yml
+- filename: dub-program-applications-api-openapi.yml
+  format: yaml
+  label: Dub Program Applications API
+  slug: dub-program-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-program-applications-api-openapi.yml
 consequence_counts:
   read: 19
   write: 35

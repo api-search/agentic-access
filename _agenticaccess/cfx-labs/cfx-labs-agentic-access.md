@@ -219,6 +219,6 @@ tags:
 - Fintech
 - Banking
 - Payments
-- programmable
+- Programmable
 - Company
 ---

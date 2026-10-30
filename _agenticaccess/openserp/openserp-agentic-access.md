@@ -70,7 +70,6 @@ tags:
 - Company
 - Search
 - SERP
-- Search API
 - Web Scraping
 - Content Extraction
 - AI Grounding

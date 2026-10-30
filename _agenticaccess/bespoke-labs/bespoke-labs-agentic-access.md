@@ -3,12 +3,18 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: bespoke-labs-minicheck-api-openapi.yml
+- filename: bespoke-labs-nimble-api-openapi.yml
   format: yaml
-  label: Bespoke Labs Minicheck API
-  slug: bespoke-labs-minicheck-api
+  label: Bespoke Labs Nimble API
+  slug: bespoke-labs-nimble-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/openapi/bespoke-labs-minicheck-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/openapi/bespoke-labs-nimble-api-openapi.yml
+- filename: bespoke-labs-viewer-api-openapi.yml
+  format: yaml
+  label: Bespoke Labs Viewer API
+  slug: bespoke-labs-viewer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/openapi/bespoke-labs-viewer-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

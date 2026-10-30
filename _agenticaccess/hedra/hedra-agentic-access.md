@@ -4,12 +4,48 @@ action_class_counts:
   acting: 3
   connected: 6
 api_specs:
-- filename: hedra-public-api-openapi.yml
+- filename: hedra-access-api-openapi.yml
   format: yaml
-  label: Hedra Public API
-  slug: hedra-public-api
+  label: Hedra Access API
+  slug: hedra-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/openapi/hedra-public-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/openapi/hedra-access-api-openapi.yml
+- filename: hedra-billing-api-openapi.yml
+  format: yaml
+  label: Hedra Billing API
+  slug: hedra-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/openapi/hedra-billing-api-openapi.yml
+- filename: hedra-jobs-api-openapi.yml
+  format: yaml
+  label: Hedra Jobs API
+  slug: hedra-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/openapi/hedra-jobs-api-openapi.yml
+- filename: hedra-log-drains-api-openapi.yml
+  format: yaml
+  label: Hedra Log drains API
+  slug: hedra-log-drains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/openapi/hedra-log-drains-api-openapi.yml
+- filename: hedra-models-api-openapi.yml
+  format: yaml
+  label: Hedra Models API
+  slug: hedra-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/openapi/hedra-models-api-openapi.yml
+- filename: hedra-run-a-model-api-openapi.yml
+  format: yaml
+  label: Hedra Run a model API
+  slug: hedra-run-a-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/openapi/hedra-run-a-model-api-openapi.yml
+- filename: hedra-webhooks-api-openapi.yml
+  format: yaml
+  label: Hedra Webhooks API
+  slug: hedra-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hedra/refs/heads/main/openapi/hedra-webhooks-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3

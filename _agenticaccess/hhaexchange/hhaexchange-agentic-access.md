@@ -55,7 +55,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/re
 summary_line: 8 operations · 3 acting
 tags:
 - Home Care
-- EVV
 - Electronic Visit Verification
 - Medicaid
 - Scheduling

@@ -68,5 +68,5 @@ tags:
 - Currency Conversion
 - Historical Rates
 - Financial Data
-- Cryptocurrencies
+- Cryptocurrency
 ---

@@ -320,8 +320,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hookbase/refs/
 summary_line: 182 operations · 91 acting · 3 human-in-the-loop
 tags:
 - Company
-- Webhooks
+- Webhook
 - Cloudflare
-- API
 - Integration
 ---

@@ -10,30 +10,36 @@ api_specs:
   slug: airdna-market-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-market-data-api-openapi.yml
-- filename: airdna-rentalizer-api-openapi.yml
-  format: yaml
-  label: AirDNA Rentalizer API
-  slug: airdna-rentalizer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-rentalizer-api-openapi.yml
-- filename: airdna-rentalizer-lead-gen-api-openapi.yml
-  format: yaml
-  label: AirDNA Rentalizer Lead Gen API
-  slug: airdna-rentalizer-lead-gen-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-rentalizer-lead-gen-api-openapi.yml
 - filename: airdna-smart-rates-api-openapi.yml
   format: yaml
   label: AirDNA Smart Rates API
   slug: airdna-smart-rates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-smart-rates-api-openapi.yml
-- filename: airdna-str-listing-data-api-openapi.yml
+- filename: airdna-listing-data-api-openapi.yml
   format: yaml
-  label: AirDNA STR Listing Data API
-  slug: airdna-str-listing-data-api
+  label: AirDNA Listing Data API
+  slug: airdna-listing-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-str-listing-data-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-listing-data-api-openapi.yml
+- filename: airdna-rentalizer-data-api-openapi.yml
+  format: yaml
+  label: AirDNA Rentalizer Data API
+  slug: airdna-rentalizer-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-rentalizer-data-api-openapi.yml
+- filename: airdna-rentalizer-summary-data-api-openapi.yml
+  format: yaml
+  label: AirDNA Rentalizer Summary Data API
+  slug: airdna-rentalizer-summary-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-rentalizer-summary-data-api-openapi.yml
+- filename: airdna-submarket-data-api-openapi.yml
+  format: yaml
+  label: AirDNA Submarket Data API
+  slug: airdna-submarket-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-submarket-data-api-openapi.yml
 consequence_counts:
   read: 19
   write: 7

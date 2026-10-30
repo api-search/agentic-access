@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forsakringskas
 summary_line: 2 operations · 1 acting · 1 human-in-the-loop
 tags:
 - Government
-- SocialSecurity
+- Social Security
 - Sweden
-- PublicSector
+- Public Sector
 ---

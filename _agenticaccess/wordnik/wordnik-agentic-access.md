@@ -71,7 +71,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/h
 summary_line: 28 operations · 6 acting
 tags:
 - Dictionaries
-- Dictionary
 - Word Data
 - English
 - Lexicography

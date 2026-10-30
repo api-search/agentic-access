@@ -413,8 +413,6 @@ tags:
 - Cryptocurrency
 - Blockchain
 - Compliance
-- Digital Signature
-- Post-Quantum Cryptography
 - Verification
 - Fintech
 - Agent-Native

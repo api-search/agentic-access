@@ -3,12 +3,18 @@ acting_count: 0
 action_class_counts:
   connected: 1
 api_specs:
-- filename: federal-bureau-of-investigation-list-api-openapi.yml
+- filename: federal-bureau-of-investigation-artcrimes-api-openapi.yml
   format: yaml
-  label: Federal Bureau of Investigation List API
-  slug: federal-bureau-of-investigation-list-api
+  label: Federal Bureau of Investigation Artcrimes API
+  slug: federal-bureau-of-investigation-artcrimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-investigation/refs/heads/main/openapi/federal-bureau-of-investigation-list-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-investigation/refs/heads/main/openapi/federal-bureau-of-investigation-artcrimes-api-openapi.yml
+- filename: federal-bureau-of-investigation-wanted-api-openapi.yml
+  format: yaml
+  label: Federal Bureau of Investigation Wanted API
+  slug: federal-bureau-of-investigation-wanted-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-investigation/refs/heads/main/openapi/federal-bureau-of-investigation-wanted-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -127,7 +127,7 @@ tags:
 - Total Rewards
 - Bonus
 - Merit
-- Stock Compensation
+- Stock-Compensation
 - SOAP
 - Software-as-a-Service
 ---

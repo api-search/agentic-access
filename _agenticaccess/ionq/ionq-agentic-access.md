@@ -22,24 +22,12 @@ api_specs:
   slug: ionq-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-jobs-api-openapi.yml
-- filename: ionq-sessions-api-openapi.yml
+- filename: ionq-calibrations-api-openapi.yml
   format: yaml
-  label: IonQ Sessions API
-  slug: ionq-sessions-api
+  label: IonQ Calibrations API
+  slug: ionq-calibrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-sessions-api-openapi.yml
-- filename: ionq-usage-api-openapi.yml
-  format: yaml
-  label: IonQ Usage API
-  slug: ionq-usage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-usage-api-openapi.yml
-- filename: ionq-whoami-api-openapi.yml
-  format: yaml
-  label: IonQ Whoami API
-  slug: ionq-whoami-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-whoami-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-calibrations-api-openapi.yml
 consequence_counts:
   read: 18
   write: 7

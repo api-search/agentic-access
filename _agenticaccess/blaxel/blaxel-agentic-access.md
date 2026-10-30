@@ -70,6 +70,90 @@ api_specs:
   slug: blaxel-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-workspaces-api-openapi.yml
+- filename: blaxel-applications-api-openapi.yml
+  format: yaml
+  label: Blaxel Applications API
+  slug: blaxel-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-applications-api-openapi.yml
+- filename: blaxel-changelog-api-openapi.yml
+  format: yaml
+  label: Blaxel Changelog API
+  slug: blaxel-changelog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-changelog-api-openapi.yml
+- filename: blaxel-configurations-api-openapi.yml
+  format: yaml
+  label: Blaxel Configurations API
+  slug: blaxel-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-configurations-api-openapi.yml
+- filename: blaxel-customdomains-api-openapi.yml
+  format: yaml
+  label: Blaxel Customdomains API
+  slug: blaxel-customdomains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-customdomains-api-openapi.yml
+- filename: blaxel-drives-api-openapi.yml
+  format: yaml
+  label: Blaxel Drives API
+  slug: blaxel-drives-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-drives-api-openapi.yml
+- filename: blaxel-featureflags-api-openapi.yml
+  format: yaml
+  label: Blaxel Feature Flags API
+  slug: blaxel-featureflags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-featureflags-api-openapi.yml
+- filename: blaxel-images-api-openapi.yml
+  format: yaml
+  label: Blaxel Images API
+  slug: blaxel-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-images-api-openapi.yml
+- filename: blaxel-mcphub-api-openapi.yml
+  format: yaml
+  label: Blaxel Mcphub API
+  slug: blaxel-mcphub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-mcphub-api-openapi.yml
+- filename: blaxel-publicips-list-api-openapi.yml
+  format: yaml
+  label: Blaxel Public Ips:list API
+  slug: blaxel-publicips-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-publicips-list-api-openapi.yml
+- filename: blaxel-sandboxhub-api-openapi.yml
+  format: yaml
+  label: Blaxel Sandboxhub API
+  slug: blaxel-sandboxhub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-sandboxhub-api-openapi.yml
+- filename: blaxel-secrets-api-openapi.yml
+  format: yaml
+  label: Blaxel Secrets API
+  slug: blaxel-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-secrets-api-openapi.yml
+- filename: blaxel-templates-api-openapi.yml
+  format: yaml
+  label: Blaxel Templates API
+  slug: blaxel-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-templates-api-openapi.yml
+- filename: blaxel-volumetemplates-api-openapi.yml
+  format: yaml
+  label: Blaxel Volume Templates API
+  slug: blaxel-volumetemplates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-volumetemplates-api-openapi.yml
+- filename: blaxel-vpcs-api-openapi.yml
+  format: yaml
+  label: Blaxel Vpcs API
+  slug: blaxel-vpcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/openapi/blaxel-vpcs-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 31

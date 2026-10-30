@@ -52,6 +52,36 @@ api_specs:
   slug: inngest-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-webhooks-api-openapi.yml
+- filename: inngest-experiments-api-openapi.yml
+  format: yaml
+  label: Inngest Experiments API
+  slug: inngest-experiments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-experiments-api-openapi.yml
+- filename: inngest-insights-api-openapi.yml
+  format: yaml
+  label: Inngest Insights API
+  slug: inngest-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-insights-api-openapi.yml
+- filename: inngest-partner-api-api-openapi.yml
+  format: yaml
+  label: Inngest Partner API
+  slug: inngest-partner-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-partner-api-api-openapi.yml
+- filename: inngest-sandboxes-api-openapi.yml
+  format: yaml
+  label: Inngest Sandboxes API
+  slug: inngest-sandboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-sandboxes-api-openapi.yml
+- filename: inngest-sessions-api-openapi.yml
+  format: yaml
+  label: Inngest Sessions API
+  slug: inngest-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/openapi/inngest-sessions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14

@@ -118,6 +118,42 @@ api_specs:
   slug: faa-vfr-helicopter-route-chart-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-vfr-helicopter-route-chart-api-openapi.yml
+- filename: faa-airport-events-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Airport Events Controller API
+  slug: faa-airport-events-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-airport-events-controller-api-openapi.yml
+- filename: faa-airport-status-information-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Airport Status Information Controller API
+  slug: faa-airport-status-information-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-airport-status-information-controller-api-openapi.yml
+- filename: faa-analytics-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Analytics Controller API
+  slug: faa-analytics-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-analytics-controller-api-openapi.yml
+- filename: faa-artcc-boundary-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Artcc Boundary Controller API
+  slug: faa-artcc-boundary-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-artcc-boundary-controller-api-openapi.yml
+- filename: faa-operations-plan-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Operations Plan Controller API
+  slug: faa-operations-plan-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-operations-plan-controller-api-openapi.yml
+- filename: faa-reset-db-controller-api-openapi.yml
+  format: yaml
+  label: Federal Aviation Administration Reset Db Controller API
+  slug: faa-reset-db-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/openapi/faa-reset-db-controller-api-openapi.yml
 consequence_counts:
   read: 36
   write: 9

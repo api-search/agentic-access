@@ -46,6 +46,12 @@ api_specs:
   slug: deepdub-voice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-voice-api-openapi.yml
+- filename: deepdub-provenance-api-openapi.yml
+  format: yaml
+  label: Deepdub Provenance API
+  slug: deepdub-provenance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/openapi/deepdub-provenance-api-openapi.yml
 consequence_counts:
   read: 9
   write: 15

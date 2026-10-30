@@ -70,6 +70,60 @@ api_specs:
   slug: 1password-vaults-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-vaults-api-openapi.yml
+- filename: 1password-applications-api-openapi.yml
+  format: yaml
+  label: 1Password Applications API
+  slug: 1password-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-applications-api-openapi.yml
+- filename: 1password-audit-log-api-openapi.yml
+  format: yaml
+  label: 1Password Audit log API
+  slug: 1password-audit-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-audit-log-api-openapi.yml
+- filename: 1password-authentication-api-openapi.yml
+  format: yaml
+  label: 1Password Authentication API
+  slug: 1password-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-authentication-api-openapi.yml
+- filename: 1password-contracts-api-openapi.yml
+  format: yaml
+  label: 1Password Contracts API
+  slug: 1password-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-contracts-api-openapi.yml
+- filename: 1password-devices-api-openapi.yml
+  format: yaml
+  label: 1Password Devices API
+  slug: 1password-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-devices-api-openapi.yml
+- filename: 1password-people-api-openapi.yml
+  format: yaml
+  label: 1Password People API
+  slug: 1password-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-people-api-openapi.yml
+- filename: 1password-scim-api-openapi.yml
+  format: yaml
+  label: 1Password SCIM API
+  slug: 1password-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-scim-api-openapi.yml
+- filename: 1password-teams-api-openapi.yml
+  format: yaml
+  label: 1Password Teams API
+  slug: 1password-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-teams-api-openapi.yml
+- filename: 1password-workflows-api-openapi.yml
+  format: yaml
+  label: 1Password Workflows API
+  slug: 1password-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-workflows-api-openapi.yml
 consequence_counts:
   read: 16
   write: 7

@@ -10,18 +10,6 @@ api_specs:
   slug: etoro-agent-portfolios-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-agent-portfolios-api-openapi.yml
-- filename: etoro-asset-explorer-api-openapi.yml
-  format: yaml
-  label: eToro Asset Explorer API
-  slug: etoro-asset-explorer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-asset-explorer-api-openapi.yml
-- filename: etoro-attachments-api-openapi.yml
-  format: yaml
-  label: eToro Attachments API
-  slug: etoro-attachments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-attachments-api-openapi.yml
 - filename: etoro-balances-api-openapi.yml
   format: yaml
   label: eToro Balances API
@@ -40,42 +28,12 @@ api_specs:
   slug: etoro-clubs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-clubs-api-openapi.yml
-- filename: etoro-comments-and-replies-api-openapi.yml
-  format: yaml
-  label: eToro Comments and Replies API
-  slug: etoro-comments-and-replies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-comments-and-replies-api-openapi.yml
-- filename: etoro-comments-api-openapi.yml
-  format: yaml
-  label: eToro Comments API
-  slug: etoro-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-comments-api-openapi.yml
-- filename: etoro-deprecated-api-openapi.yml
-  format: yaml
-  label: eToro Deprecated API
-  slug: etoro-deprecated-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-deprecated-api-openapi.yml
-- filename: etoro-feeds-api-openapi.yml
-  format: yaml
-  label: eToro Feeds API
-  slug: etoro-feeds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-feeds-api-openapi.yml
 - filename: etoro-identity-api-openapi.yml
   format: yaml
   label: eToro Identity API
   slug: etoro-identity-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-identity-api-openapi.yml
-- filename: etoro-likes-api-openapi.yml
-  format: yaml
-  label: eToro Likes API
-  slug: etoro-likes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-likes-api-openapi.yml
 - filename: etoro-market-data-api-openapi.yml
   format: yaml
   label: eToro Market Data API
@@ -94,12 +52,6 @@ api_specs:
   slug: etoro-pi-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-pi-data-api-openapi.yml
-- filename: etoro-posts-api-openapi.yml
-  format: yaml
-  label: eToro Posts API
-  slug: etoro-posts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-posts-api-openapi.yml
 - filename: etoro-price-alerts-api-openapi.yml
   format: yaml
   label: eToro Price Alerts API
@@ -124,18 +76,96 @@ api_specs:
   slug: etoro-users-info-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-users-info-api-openapi.yml
-- filename: etoro-users-stats-api-openapi.yml
-  format: yaml
-  label: eToro Users Stats API
-  slug: etoro-users-stats-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-users-stats-api-openapi.yml
 - filename: etoro-watchlists-api-openapi.yml
   format: yaml
   label: eToro Watchlists API
   slug: etoro-watchlists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-watchlists-api-openapi.yml
+- filename: etoro-app-data-api-openapi.yml
+  format: yaml
+  label: eToro App Data API
+  slug: etoro-app-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-app-data-api-openapi.yml
+- filename: etoro-copy-trading-api-openapi.yml
+  format: yaml
+  label: eToro Copy Trading API
+  slug: etoro-copy-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-copy-trading-api-openapi.yml
+- filename: etoro-copy-trading-demo-api-openapi.yml
+  format: yaml
+  label: eToro Copy Trading - Demo API
+  slug: etoro-copy-trading-demo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-copy-trading-demo-api-openapi.yml
+- filename: etoro-data-api-openapi.yml
+  format: yaml
+  label: eToro Data API
+  slug: etoro-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-data-api-openapi.yml
+- filename: etoro-portfoliosearch-api-openapi.yml
+  format: yaml
+  label: eToro Portfolio Search API
+  slug: etoro-portfoliosearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-portfoliosearch-api-openapi.yml
+- filename: etoro-rankings-api-openapi.yml
+  format: yaml
+  label: eToro Rankings API
+  slug: etoro-rankings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-rankings-api-openapi.yml
+- filename: etoro-social-feeds-api-openapi.yml
+  format: yaml
+  label: eToro Social Feeds API
+  slug: etoro-social-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-social-feeds-api-openapi.yml
+- filename: etoro-sso-applications-api-openapi.yml
+  format: yaml
+  label: eToro SSO - Applications API
+  slug: etoro-sso-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-sso-applications-api-openapi.yml
+- filename: etoro-sso-scopes-api-openapi.yml
+  format: yaml
+  label: eToro SSO - Scopes API
+  slug: etoro-sso-scopes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-sso-scopes-api-openapi.yml
+- filename: etoro-sub-accounts-etoro-trading-api-openapi.yml
+  format: yaml
+  label: eToro Sub-Accounts - eToro Trading API
+  slug: etoro-sub-accounts-etoro-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-sub-accounts-etoro-trading-api-openapi.yml
+- filename: etoro-top-assets-api-openapi.yml
+  format: yaml
+  label: eToro Top Assets API
+  slug: etoro-top-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-top-assets-api-openapi.yml
+- filename: etoro-transfer-api-openapi.yml
+  format: yaml
+  label: eToro Transfer API
+  slug: etoro-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-transfer-api-openapi.yml
+- filename: etoro-user-stats-api-openapi.yml
+  format: yaml
+  label: eToro User Stats API
+  slug: etoro-user-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-user-stats-api-openapi.yml
+- filename: etoro-subaccounts-api-openapi.yml
+  format: yaml
+  label: eToro Subaccounts API
+  slug: etoro-subaccounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/openapi/etoro-subaccounts-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 77

@@ -22,6 +22,12 @@ api_specs:
   slug: audd-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-streams-api-openapi.yml
+- filename: audd-agent-payments-api-openapi.yml
+  format: yaml
+  label: AudD Agent payments API
+  slug: audd-agent-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/openapi/audd-agent-payments-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5

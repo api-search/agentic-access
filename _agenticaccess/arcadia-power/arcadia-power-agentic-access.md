@@ -34,12 +34,6 @@ api_specs:
   slug: arcadia-power-meters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-meters-api-openapi.yml
-- filename: arcadia-power-organizations-api-openapi.yml
-  format: yaml
-  label: Arcadia Organizations API
-  slug: arcadia-power-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-organizations-api-openapi.yml
 - filename: arcadia-power-providers-api-openapi.yml
   format: yaml
   label: Arcadia Providers API
@@ -64,12 +58,60 @@ api_specs:
   slug: arcadia-power-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-webhooks-api-openapi.yml
-- filename: arcadia-power-oauth-api-openapi.yml
+- filename: arcadia-power-api-keys-api-openapi.yml
   format: yaml
-  label: Arcadia O Auth API
-  slug: arcadia-power-oauth-api
+  label: Arcadia API Keys API
+  slug: arcadia-power-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-oauth-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-api-keys-api-openapi.yml
+- filename: arcadia-power-authentication-api-openapi.yml
+  format: yaml
+  label: Arcadia Authentication API
+  slug: arcadia-power-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-authentication-api-openapi.yml
+- filename: arcadia-power-business-units-api-openapi.yml
+  format: yaml
+  label: Arcadia Business Units API
+  slug: arcadia-power-business-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-business-units-api-openapi.yml
+- filename: arcadia-power-custom-data-api-openapi.yml
+  format: yaml
+  label: Arcadia Custom Data API
+  slug: arcadia-power-custom-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-custom-data-api-openapi.yml
+- filename: arcadia-power-deletion-api-openapi.yml
+  format: yaml
+  label: Arcadia Deletion API
+  slug: arcadia-power-deletion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-deletion-api-openapi.yml
+- filename: arcadia-power-discovered-statements-api-openapi.yml
+  format: yaml
+  label: Arcadia Discovered Statements API
+  slug: arcadia-power-discovered-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-discovered-statements-api-openapi.yml
+- filename: arcadia-power-downloads-api-openapi.yml
+  format: yaml
+  label: Arcadia Downloads API
+  slug: arcadia-power-downloads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-downloads-api-openapi.yml
+- filename: arcadia-power-expected-accounts-api-openapi.yml
+  format: yaml
+  label: Arcadia Expected Accounts API
+  slug: arcadia-power-expected-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-expected-accounts-api-openapi.yml
+- filename: arcadia-power-sandbox-statements-api-openapi.yml
+  format: yaml
+  label: Arcadia Sandbox Statements API
+  slug: arcadia-power-sandbox-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/openapi/arcadia-power-sandbox-statements-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 20

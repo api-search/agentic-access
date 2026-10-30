@@ -52,6 +52,36 @@ api_specs:
   slug: chimoney-wallet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-wallet-api-openapi.yml
+- filename: chimoney-agents-api-openapi.yml
+  format: yaml
+  label: Chimoney Agents API
+  slug: chimoney-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-agents-api-openapi.yml
+- filename: chimoney-ai-api-openapi.yml
+  format: yaml
+  label: Chimoney AI API
+  slug: chimoney-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-ai-api-openapi.yml
+- filename: chimoney-beneficiary-api-openapi.yml
+  format: yaml
+  label: Chimoney Beneficiary API
+  slug: chimoney-beneficiary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-beneficiary-api-openapi.yml
+- filename: chimoney-pass-through-api-openapi.yml
+  format: yaml
+  label: Chimoney Pass Through API
+  slug: chimoney-pass-through-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-pass-through-api-openapi.yml
+- filename: chimoney-passport-api-openapi.yml
+  format: yaml
+  label: Chimoney Passport API
+  slug: chimoney-passport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-passport-api-openapi.yml
 - filename: chimoney-sub-account-api-openapi.yml
   format: yaml
   label: Chimoney Sub Account API

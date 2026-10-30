@@ -641,8 +641,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archestra/refs
 summary_line: 840 operations · 499 acting · 32 human-in-the-loop
 tags:
 - AI Infrastructure
-- MCP gateway
-- LLM proxy
+- MCP Gateway
+- LLM Proxy
 - Observability
 - Open Source
 ---

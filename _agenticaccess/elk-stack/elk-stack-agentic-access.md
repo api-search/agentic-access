@@ -1000,8 +1000,7 @@ tags:
 - Observability
 - Search
 - Security
-- Vector Database
+- Vector Search
 - SIEM
 - Machine Learning
-- Vector Search
 ---

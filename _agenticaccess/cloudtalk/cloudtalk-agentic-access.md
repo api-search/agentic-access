@@ -58,30 +58,42 @@ api_specs:
   slug: cloudtalk-numbers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-numbers-api-openapi.yml
-- filename: cloudtalk-other-api-openapi.yml
-  format: yaml
-  label: CloudTalk Other API
-  slug: cloudtalk-other-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-other-api-openapi.yml
 - filename: cloudtalk-sms-api-openapi.yml
   format: yaml
   label: CloudTalk Sms API
   slug: cloudtalk-sms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-sms-api-openapi.yml
-- filename: cloudtalk-tags-api-openapi.yml
-  format: yaml
-  label: CloudTalk Tags API
-  slug: cloudtalk-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-tags-api-openapi.yml
 - filename: cloudtalk-voiceagent-api-openapi.yml
   format: yaml
   label: CloudTalk VoiceAgent API
   slug: cloudtalk-voiceagent-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-voiceagent-api-openapi.yml
+- filename: cloudtalk-contact-tags-api-openapi.yml
+  format: yaml
+  label: CloudTalk Contact tags API
+  slug: cloudtalk-contact-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-contact-tags-api-openapi.yml
+- filename: cloudtalk-dialer-api-openapi.yml
+  format: yaml
+  label: CloudTalk Dialer API
+  slug: cloudtalk-dialer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-dialer-api-openapi.yml
+- filename: cloudtalk-utilities-api-openapi.yml
+  format: yaml
+  label: CloudTalk Utilities API
+  slug: cloudtalk-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-utilities-api-openapi.yml
+- filename: cloudtalk-webhooks-api-openapi.yml
+  format: yaml
+  label: CloudTalk Webhooks API
+  slug: cloudtalk-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 23

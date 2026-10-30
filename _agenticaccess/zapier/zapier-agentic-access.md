@@ -107,8 +107,8 @@ tags:
 - Workflow Automation
 - Automation
 - No-Code
-- App Integration
+- App integration
 - AI workflow
-- Enterprise Security
-- Workflow Orchestration
+- Enterprise security
+- Workflow orchestration
 ---

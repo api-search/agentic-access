@@ -3,12 +3,30 @@ acting_count: 0
 action_class_counts:
   connected: 3
 api_specs:
-- filename: horoscope-api-horoscope-api-openapi.yml
+- filename: horoscope-api-calendar-api-openapi.yml
   format: yaml
-  label: Horoscope API Horoscope API
-  slug: horoscope-api-horoscope-api
+  label: Horoscope API Calendar API
+  slug: horoscope-api-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/openapi/horoscope-api-horoscope-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/openapi/horoscope-api-calendar-api-openapi.yml
+- filename: horoscope-api-horoscopes-api-openapi.yml
+  format: yaml
+  label: Horoscope API Horoscopes API
+  slug: horoscope-api-horoscopes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/openapi/horoscope-api-horoscopes-api-openapi.yml
+- filename: horoscope-api-planetary-data-api-openapi.yml
+  format: yaml
+  label: Horoscope API Planetary data API
+  slug: horoscope-api-planetary-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/openapi/horoscope-api-planetary-data-api-openapi.yml
+- filename: horoscope-api-tarot-api-openapi.yml
+  format: yaml
+  label: Horoscope API Tarot API
+  slug: horoscope-api-tarot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/openapi/horoscope-api-tarot-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

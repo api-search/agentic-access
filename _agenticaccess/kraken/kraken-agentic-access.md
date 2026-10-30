@@ -88,6 +88,18 @@ api_specs:
   slug: kraken-websocket-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-websocket-api-openapi.yml
+- filename: kraken-funding-beta-api-openapi.yml
+  format: yaml
+  label: Kraken Funding Beta API
+  slug: kraken-funding-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-funding-beta-api-openapi.yml
+- filename: kraken-transparency-api-openapi.yml
+  format: yaml
+  label: Kraken Transparency API
+  slug: kraken-transparency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/openapi/kraken-transparency-api-openapi.yml
 consequence_counts:
   physical: 25
   read: 42

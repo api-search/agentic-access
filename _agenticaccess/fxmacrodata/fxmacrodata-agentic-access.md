@@ -112,6 +112,5 @@ tags:
 - Company
 - Finance
 - Data
-- API
-- FX
+- Foreign Exchange
 ---

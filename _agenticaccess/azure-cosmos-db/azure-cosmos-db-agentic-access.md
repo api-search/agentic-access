@@ -114,7 +114,7 @@ tags:
 - Database
 - NoSQL
 - Document Database
-- Vector Database
+- Vector Search
 - Globally Distributed
 - Cloud
 - Microsoft Azure

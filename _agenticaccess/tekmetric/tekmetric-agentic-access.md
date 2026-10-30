@@ -94,6 +94,6 @@ tags:
 - Automotive
 - Auto Repair
 - Shop Management
-- Fleet
+- Fleet Management
 - Vertical SaaS
 ---

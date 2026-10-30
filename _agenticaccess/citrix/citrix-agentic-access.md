@@ -136,6 +136,30 @@ api_specs:
   slug: citrix-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-users-api-openapi.yml
+- filename: citrix-casvc-api-openapi.yml
+  format: yaml
+  label: Citrix Casvc API
+  slug: citrix-casvc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-casvc-api-openapi.yml
+- filename: citrix-ctxana-api-openapi.yml
+  format: yaml
+  label: Citrix Ctxana API
+  slug: citrix-ctxana-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-ctxana-api-openapi.yml
+- filename: citrix-internal-api-openapi.yml
+  format: yaml
+  label: Citrix Internal API
+  slug: citrix-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-internal-api-openapi.yml
+- filename: citrix-intra-api-openapi.yml
+  format: yaml
+  label: Citrix Intra API
+  slug: citrix-intra-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-intra-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 34

@@ -51,6 +51,36 @@ api_specs:
   slug: department-of-the-treasury-treasury-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-treasury-operations-api-openapi.yml
+- filename: department-of-the-treasury-entity-management-controller-api-openapi.yml
+  format: yaml
+  label: Department of the Treasury Entity Management Controller API
+  slug: department-of-the-treasury-entity-management-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-entity-management-controller-api-openapi.yml
+- filename: department-of-the-treasury-entity-management-controller-v-2-api-openapi.yml
+  format: yaml
+  label: Department of the Treasury Entity Management Controller V 2 API
+  slug: department-of-the-treasury-entity-management-controller-v-2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-entity-management-controller-v-2-api-openapi.yml
+- filename: department-of-the-treasury-entity-management-controller-v-3-api-openapi.yml
+  format: yaml
+  label: Department of the Treasury Entity Management Controller V 3 API
+  slug: department-of-the-treasury-entity-management-controller-v-3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-entity-management-controller-v-3-api-openapi.yml
+- filename: department-of-the-treasury-entity-management-controller-v-4-api-openapi.yml
+  format: yaml
+  label: Department of the Treasury Entity Management Controller V 4 API
+  slug: department-of-the-treasury-entity-management-controller-v-4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-entity-management-controller-v-4-api-openapi.yml
+- filename: department-of-the-treasury-entity-management-extract-controller-api-openapi.yml
+  format: yaml
+  label: Department of the Treasury Entity Management Extract Controller API
+  slug: department-of-the-treasury-entity-management-extract-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/openapi/department-of-the-treasury-entity-management-extract-controller-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

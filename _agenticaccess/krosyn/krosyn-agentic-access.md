@@ -40,7 +40,6 @@ summary_line: 2 operations · 2 acting
 tags:
 - Company
 - Cloud
-- API
-- DeveloperTools
+- Developer Tools
 - Security
 ---

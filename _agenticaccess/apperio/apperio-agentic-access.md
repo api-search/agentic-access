@@ -116,9 +116,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/h
 summary_line: 30 operations · 16 acting
 tags:
 - Legal
-- Legal Spend Management
-- Legal Tech
 - E-Billing
+- Legal Tech
 - Matter Management
 - Legal Operations
 - Analytics

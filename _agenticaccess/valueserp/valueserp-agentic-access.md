@@ -71,7 +71,6 @@ tags:
 - SERP
 - Search Engine Results
 - Google Search
-- Search API
 - SEO
 - Web Scraping
 - Shopping Results

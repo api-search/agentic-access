@@ -82,7 +82,7 @@ tags:
 - Ingress
 - Kubernetes
 - Mock Servers
-- Mocks
+- Mock
 - Platform
 - Testing
 - API Gateway

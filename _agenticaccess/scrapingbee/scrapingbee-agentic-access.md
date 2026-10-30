@@ -50,7 +50,7 @@ tags:
 - Anti-Bot
 - Data Aggregation
 - Data Extraction
-- Headless Browser
+- Browser Automation
 - JavaScript Rendering
 - Proxy Rotation
 - Screenshots

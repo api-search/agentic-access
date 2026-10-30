@@ -150,7 +150,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/head
 summary_line: 104 operations · 52 acting
 tags:
 - Company
-- Git
+- Version Control
 - Self-Hosted
 - Open Source
 - Go

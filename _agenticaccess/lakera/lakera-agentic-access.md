@@ -4,24 +4,30 @@ action_class_counts:
   acting: 2
   connected: 5
 api_specs:
-- filename: lakera-guard-api-openapi.yml
-  format: yaml
-  label: Lakera Guard API
-  slug: lakera-guard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-guard-api-openapi.yml
-- filename: lakera-health-api-openapi.yml
-  format: yaml
-  label: Lakera Health API
-  slug: lakera-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-health-api-openapi.yml
 - filename: lakera-policies-api-openapi.yml
   format: yaml
   label: Lakera Policies API
   slug: lakera-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-policies-api-openapi.yml
+- filename: lakera-analytics-api-openapi.yml
+  format: yaml
+  label: Lakera Analytics API
+  slug: lakera-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-analytics-api-openapi.yml
+- filename: lakera-logs-api-openapi.yml
+  format: yaml
+  label: Lakera Logs API
+  slug: lakera-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-logs-api-openapi.yml
+- filename: lakera-projects-api-openapi.yml
+  format: yaml
+  label: Lakera Projects API
+  slug: lakera-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/openapi/lakera-projects-api-openapi.yml
 consequence_counts:
   read: 5
   write: 2

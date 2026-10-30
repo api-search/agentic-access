@@ -40,6 +40,96 @@ api_specs:
   slug: ardent-v1-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-projects-api-openapi.yml
+- filename: ardent-fastapi-api-openapi.yml
+  format: yaml
+  label: Ardent Fast API
+  slug: ardent-fastapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-fastapi-api-openapi.yml
+- filename: ardent-health-api-openapi.yml
+  format: yaml
+  label: Ardent Health API
+  slug: ardent-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-health-api-openapi.yml
+- filename: ardent-healthz-api-openapi.yml
+  format: yaml
+  label: Ardent Healthz API
+  slug: ardent-healthz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-healthz-api-openapi.yml
+- filename: ardent-readyz-api-openapi.yml
+  format: yaml
+  label: Ardent Readyz API
+  slug: ardent-readyz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-readyz-api-openapi.yml
+- filename: ardent-v1-auth-api-openapi.yml
+  format: yaml
+  label: Ardent V1 Auth API
+  slug: ardent-v1-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-auth-api-openapi.yml
+- filename: ardent-v1-billing-api-openapi.yml
+  format: yaml
+  label: Ardent V1 Billing API
+  slug: ardent-v1-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-billing-api-openapi.yml
+- filename: ardent-v1-cli-api-openapi.yml
+  format: yaml
+  label: Ardent V1 Cli API
+  slug: ardent-v1-cli-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-cli-api-openapi.yml
+- filename: ardent-v1-environments-api-openapi.yml
+  format: yaml
+  label: Ardent V1 Environments API
+  slug: ardent-v1-environments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-environments-api-openapi.yml
+- filename: ardent-v1-github-api-openapi.yml
+  format: yaml
+  label: Ardent V1 Github API
+  slug: ardent-v1-github-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-github-api-openapi.yml
+- filename: ardent-v1-github-app-api-openapi.yml
+  format: yaml
+  label: Ardent V1 Github App API
+  slug: ardent-v1-github-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-github-app-api-openapi.yml
+- filename: ardent-v1-internal-api-openapi.yml
+  format: yaml
+  label: Ardent V1 Internal API
+  slug: ardent-v1-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-internal-api-openapi.yml
+- filename: ardent-v1-internal-health-api-openapi.yml
+  format: yaml
+  label: Ardent V1 Internal Health API
+  slug: ardent-v1-internal-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-internal-health-api-openapi.yml
+- filename: ardent-v1-policies-api-openapi.yml
+  format: yaml
+  label: Ardent V1 Policies API
+  slug: ardent-v1-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-policies-api-openapi.yml
+- filename: ardent-v1-posthog-api-openapi.yml
+  format: yaml
+  label: Ardent V1 Posthog API
+  slug: ardent-v1-posthog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-posthog-api-openapi.yml
+- filename: ardent-v1-system-api-openapi.yml
+  format: yaml
+  label: Ardent V1 System API
+  slug: ardent-v1-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/openapi/ardent-v1-system-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 2

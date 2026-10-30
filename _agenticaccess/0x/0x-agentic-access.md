@@ -77,7 +77,7 @@ tags:
 - DeFi
 - DEX Aggregator
 - Swap
-- Gasless
+- Gasless Transactions
 - Cross-Chain
 - Permit2
 - Liquidity

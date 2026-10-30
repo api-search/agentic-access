@@ -616,6 +616,66 @@ api_specs:
   slug: clickfunnels-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-workspace-api-openapi.yml
+- filename: clickfunnels-contacts-event-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Contacts::Event API
+  slug: clickfunnels-contacts-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-contacts-event-api-openapi.yml
+- filename: clickfunnels-contacts-events-note-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Contacts::Events::Note API
+  slug: clickfunnels-contacts-events-note-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-contacts-events-note-api-openapi.yml
+- filename: clickfunnels-contacts-subscriptionchange-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Contacts::Subscription Change API
+  slug: clickfunnels-contacts-subscriptionchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-contacts-subscriptionchange-api-openapi.yml
+- filename: clickfunnels-contacts-unsubscribedtopic-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Contacts::Unsubscribed Topic API
+  slug: clickfunnels-contacts-unsubscribedtopic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-contacts-unsubscribedtopic-api-openapi.yml
+- filename: clickfunnels-funnels-cloneaction-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Funnels::Clone Action API
+  slug: clickfunnels-funnels-cloneaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-funnels-cloneaction-api-openapi.yml
+- filename: clickfunnels-segment-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Segment API
+  slug: clickfunnels-segment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-segment-api-openapi.yml
+- filename: clickfunnels-urlredirect-api-openapi.yml
+  format: yaml
+  label: ClickFunnels URL Redirect API
+  slug: clickfunnels-urlredirect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-urlredirect-api-openapi.yml
+- filename: clickfunnels-webhooks-incoming-externalpurchaseendpoint-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Webhooks::Incoming::External Purchase Endpoint API
+  slug: clickfunnels-webhooks-incoming-externalpurchaseendpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-webhooks-incoming-externalpurchaseendpoint-api-openapi.yml
+- filename: clickfunnels-webhooks-incoming-externalpurchaseevent-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Webhooks::Incoming::External Purchase Event API
+  slug: clickfunnels-webhooks-incoming-externalpurchaseevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-webhooks-incoming-externalpurchaseevent-api-openapi.yml
+- filename: clickfunnels-webhooks-incoming-externalpurchaseproductmapping-api-openapi.yml
+  format: yaml
+  label: ClickFunnels Webhooks::Incoming::External Purchase Product Mapping API
+  slug: clickfunnels-webhooks-incoming-externalpurchaseproductmapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/openapi/clickfunnels-webhooks-incoming-externalpurchaseproductmapping-api-openapi.yml
 consequence_counts:
   physical: 46
   read: 194

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 26
   connected: 23
 api_specs:
-- filename: dfns-approvals-api-openapi.yml
-  format: yaml
-  label: Dfns Approvals API
-  slug: dfns-approvals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-approvals-api-openapi.yml
 - filename: dfns-auth-api-openapi.yml
   format: yaml
   label: Dfns Auth API
@@ -40,24 +34,6 @@ api_specs:
   slug: dfns-policies-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-policies-api-openapi.yml
-- filename: dfns-signatures-api-openapi.yml
-  format: yaml
-  label: Dfns Signatures API
-  slug: dfns-signatures-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-signatures-api-openapi.yml
-- filename: dfns-transactions-api-openapi.yml
-  format: yaml
-  label: Dfns Transactions API
-  slug: dfns-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-transactions-api-openapi.yml
-- filename: dfns-transfers-api-openapi.yml
-  format: yaml
-  label: Dfns Transfers API
-  slug: dfns-transfers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-transfers-api-openapi.yml
 - filename: dfns-wallets-api-openapi.yml
   format: yaml
   label: Dfns Wallets API
@@ -70,12 +46,78 @@ api_specs:
   slug: dfns-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-webhooks-api-openapi.yml
-- filename: dfns-service-accounts-api-openapi.yml
+- filename: dfns-address-watches-api-openapi.yml
   format: yaml
-  label: Dfns Service Accounts API
-  slug: dfns-service-accounts-api
+  label: Dfns Address Watches API
+  slug: dfns-address-watches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-service-accounts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-address-watches-api-openapi.yml
+- filename: dfns-agreements-api-openapi.yml
+  format: yaml
+  label: Dfns Agreements API
+  slug: dfns-agreements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-agreements-api-openapi.yml
+- filename: dfns-allocations-api-openapi.yml
+  format: yaml
+  label: Dfns Allocations API
+  slug: dfns-allocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-allocations-api-openapi.yml
+- filename: dfns-exchanges-api-openapi.yml
+  format: yaml
+  label: Dfns Exchanges API
+  slug: dfns-exchanges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-exchanges-api-openapi.yml
+- filename: dfns-fee-sponsors-api-openapi.yml
+  format: yaml
+  label: Dfns Fee Sponsors API
+  slug: dfns-fee-sponsors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-fee-sponsors-api-openapi.yml
+- filename: dfns-payins-api-openapi.yml
+  format: yaml
+  label: Dfns Payins API
+  slug: dfns-payins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-payins-api-openapi.yml
+- filename: dfns-payouts-api-openapi.yml
+  format: yaml
+  label: Dfns Payouts API
+  slug: dfns-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-payouts-api-openapi.yml
+- filename: dfns-signers-api-openapi.yml
+  format: yaml
+  label: Dfns Signers API
+  slug: dfns-signers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-signers-api-openapi.yml
+- filename: dfns-staking-api-openapi.yml
+  format: yaml
+  label: Dfns Staking API
+  slug: dfns-staking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-staking-api-openapi.yml
+- filename: dfns-swaps-api-openapi.yml
+  format: yaml
+  label: Dfns Swaps API
+  slug: dfns-swaps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-swaps-api-openapi.yml
+- filename: dfns-tenant-api-openapi.yml
+  format: yaml
+  label: Dfns Tenant API
+  slug: dfns-tenant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-tenant-api-openapi.yml
+- filename: dfns-vaults-api-openapi.yml
+  format: yaml
+  label: Dfns Vaults API
+  slug: dfns-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-vaults-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 23

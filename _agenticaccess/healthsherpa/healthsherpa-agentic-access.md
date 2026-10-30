@@ -34,6 +34,12 @@ api_specs:
   slug: healthsherpa-utility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-utility-api-openapi.yml
+- filename: healthsherpa-policy-status-api-openapi.yml
+  format: yaml
+  label: HealthSherpa Policy Status API
+  slug: healthsherpa-policy-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/openapi/healthsherpa-policy-status-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1

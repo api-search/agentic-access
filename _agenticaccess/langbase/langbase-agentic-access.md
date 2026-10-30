@@ -52,6 +52,48 @@ api_specs:
   slug: langbase-tools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-tools-api-openapi.yml
+- filename: langbase-beta-api-openapi.yml
+  format: yaml
+  label: Langbase Beta API
+  slug: langbase-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-beta-api-openapi.yml
+- filename: langbase-health-api-openapi.yml
+  format: yaml
+  label: Langbase Health API
+  slug: langbase-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-health-api-openapi.yml
+- filename: langbase-images-api-openapi.yml
+  format: yaml
+  label: Langbase Images API
+  slug: langbase-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-images-api-openapi.yml
+- filename: langbase-langbase-api-api-openapi.yml
+  format: yaml
+  label: Langbase Langbase API
+  slug: langbase-langbase-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-langbase-api-api-openapi.yml
+- filename: langbase-models-api-openapi.yml
+  format: yaml
+  label: Langbase Models API
+  slug: langbase-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-models-api-openapi.yml
+- filename: langbase-routes-api-openapi.yml
+  format: yaml
+  label: Langbase Routes API
+  slug: langbase-routes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-routes-api-openapi.yml
+- filename: langbase-traces-api-openapi.yml
+  format: yaml
+  label: Langbase Traces API
+  slug: langbase-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/openapi/langbase-traces-api-openapi.yml
 consequence_counts:
   read: 6
   write: 17

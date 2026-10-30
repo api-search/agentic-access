@@ -107,11 +107,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pineco
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/agentic-access/pinecone-agentic-access.yml
 summary_line: 66 operations · 34 acting
 tags:
-- Vector Database
+- Vector Search
 - Artificial Intelligence
 - Embeddings
 - RAG
 - Database
 - A2A
-- Vector Search
 ---

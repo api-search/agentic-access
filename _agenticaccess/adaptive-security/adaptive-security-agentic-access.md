@@ -33,6 +33,18 @@ api_specs:
   slug: adaptive-security-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-users-api-openapi.yml
+- filename: adaptive-security-email-security-api-openapi.yml
+  format: yaml
+  label: Adaptive Security Email Security API
+  slug: adaptive-security-email-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-email-security-api-openapi.yml
+- filename: adaptive-security-webhooks-api-openapi.yml
+  format: yaml
+  label: Adaptive Security Webhooks API
+  slug: adaptive-security-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-webhooks-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

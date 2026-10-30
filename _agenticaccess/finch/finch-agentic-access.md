@@ -4,24 +4,54 @@ action_class_counts:
   acting: 2
   connected: 7
 api_specs:
-- filename: finch-auth-api-openapi.yml
-  format: yaml
-  label: Finch Auth API
-  slug: finch-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-auth-api-openapi.yml
 - filename: finch-connect-api-openapi.yml
   format: yaml
   label: Finch Connect API
   slug: finch-connect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-connect-api-openapi.yml
-- filename: finch-employer-api-openapi.yml
+- filename: finch-benefits-api-openapi.yml
   format: yaml
-  label: Finch Employer API
-  slug: finch-employer-api
+  label: Finch Benefits API
+  slug: finch-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-employer-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-benefits-api-openapi.yml
+- filename: finch-deductions-api-openapi.yml
+  format: yaml
+  label: Finch Deductions API
+  slug: finch-deductions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-deductions-api-openapi.yml
+- filename: finch-documents-api-openapi.yml
+  format: yaml
+  label: Finch Documents API
+  slug: finch-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-documents-api-openapi.yml
+- filename: finch-management-api-openapi.yml
+  format: yaml
+  label: Finch Management API
+  slug: finch-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-management-api-openapi.yml
+- filename: finch-organization-api-openapi.yml
+  format: yaml
+  label: Finch Organization API
+  slug: finch-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-organization-api-openapi.yml
+- filename: finch-payroll-api-openapi.yml
+  format: yaml
+  label: Finch Payroll API
+  slug: finch-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-payroll-api-openapi.yml
+- filename: finch-sandbox-api-openapi.yml
+  format: yaml
+  label: Finch Sandbox API
+  slug: finch-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-sandbox-api-openapi.yml
 consequence_counts:
   read: 7
   write: 2

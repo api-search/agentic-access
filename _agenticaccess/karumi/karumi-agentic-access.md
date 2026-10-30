@@ -21,6 +21,12 @@ api_specs:
   slug: karumi-targets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-targets-api-openapi.yml
+- filename: karumi-chat-onboarding-api-openapi.yml
+  format: yaml
+  label: Karumi Chat onboarding API
+  slug: karumi-chat-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-chat-onboarding-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

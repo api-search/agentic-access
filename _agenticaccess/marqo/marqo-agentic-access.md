@@ -80,7 +80,6 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/marqo-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/agentic-access/marqo-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
-- Vector Database
 - Vector Search
 - Multi-Modal
 - Semantic Search

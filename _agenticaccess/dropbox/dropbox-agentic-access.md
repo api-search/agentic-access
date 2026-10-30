@@ -10,24 +10,12 @@ api_specs:
   slug: dropbox-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-account-api-openapi.yml
-- filename: dropbox-api-app-api-openapi.yml
-  format: yaml
-  label: Dropbox Api App API
-  slug: dropbox-api-app-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-api-app-api-openapi.yml
 - filename: dropbox-auth-api-openapi.yml
   format: yaml
   label: Dropbox Auth API
   slug: dropbox-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-auth-api-openapi.yml
-- filename: dropbox-bulk-send-job-api-openapi.yml
-  format: yaml
-  label: Dropbox Bulk Send Job API
-  slug: dropbox-bulk-send-job-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-bulk-send-job-api-openapi.yml
 - filename: dropbox-check-api-openapi.yml
   format: yaml
   label: Dropbox Check API
@@ -76,12 +64,6 @@ api_specs:
   slug: dropbox-sharing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-sharing-api-openapi.yml
-- filename: dropbox-signature-request-api-openapi.yml
-  format: yaml
-  label: Dropbox Signature Request API
-  slug: dropbox-signature-request-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-signature-request-api-openapi.yml
 - filename: dropbox-team-api-openapi.yml
   format: yaml
   label: Dropbox Team API
@@ -154,12 +136,6 @@ api_specs:
   slug: dropbox-template-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-template-api-openapi.yml
-- filename: dropbox-unclaimed-draft-api-openapi.yml
-  format: yaml
-  label: Dropbox Unclaimed Draft API
-  slug: dropbox-unclaimed-draft-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-unclaimed-draft-api-openapi.yml
 - filename: dropbox-users-api-openapi.yml
   format: yaml
   label: Dropbox Users API
@@ -172,12 +148,54 @@ api_specs:
   slug: dropbox-callbacks-and-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-callbacks-and-events-api-openapi.yml
-- filename: dropbox-oauth-api-openapi.yml
+- filename: dropbox-api-reference-api-openapi.yml
   format: yaml
-  label: Dropbox O Auth API
-  slug: dropbox-oauth-api
+  label: Dropbox API Reference API
+  slug: dropbox-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-oauth-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-api-reference-api-openapi.yml
+- filename: dropbox-apiapp-api-openapi.yml
+  format: yaml
+  label: Dropbox API App API
+  slug: dropbox-apiapp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-apiapp-api-openapi.yml
+- filename: dropbox-bulksendjob-api-openapi.yml
+  format: yaml
+  label: Dropbox Bulk Send Job API
+  slug: dropbox-bulksendjob-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-bulksendjob-api-openapi.yml
+- filename: dropbox-document-api-openapi.yml
+  format: yaml
+  label: Dropbox Document API
+  slug: dropbox-document-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-document-api-openapi.yml
+- filename: dropbox-fax-api-openapi.yml
+  format: yaml
+  label: Dropbox Fax API
+  slug: dropbox-fax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-fax-api-openapi.yml
+- filename: dropbox-faxline-api-openapi.yml
+  format: yaml
+  label: Dropbox Fax Line API
+  slug: dropbox-faxline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-faxline-api-openapi.yml
+- filename: dropbox-signaturerequest-api-openapi.yml
+  format: yaml
+  label: Dropbox Signature Request API
+  slug: dropbox-signaturerequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-signaturerequest-api-openapi.yml
+- filename: dropbox-unclaimeddraft-api-openapi.yml
+  format: yaml
+  label: Dropbox Unclaimed Draft API
+  slug: dropbox-unclaimeddraft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/openapi/dropbox-unclaimeddraft-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 21

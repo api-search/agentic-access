@@ -4,36 +4,42 @@ action_class_counts:
   acting: 9
   connected: 3
 api_specs:
-- filename: lamini-classify-api-openapi.yml
-  format: yaml
-  label: Lamini Classify API
-  slug: lamini-classify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-classify-api-openapi.yml
 - filename: lamini-embeddings-api-openapi.yml
   format: yaml
   label: Lamini Embeddings API
   slug: lamini-embeddings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-embeddings-api-openapi.yml
-- filename: lamini-fine-tuning-api-openapi.yml
+- filename: lamini-classifier-api-openapi.yml
   format: yaml
-  label: Lamini Fine-Tuning API
-  slug: lamini-fine-tuning-api
+  label: Lamini Classifier API
+  slug: lamini-classifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-fine-tuning-api-openapi.yml
-- filename: lamini-inference-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-classifier-api-openapi.yml
+- filename: lamini-completions-api-openapi.yml
   format: yaml
-  label: Lamini Inference API
-  slug: lamini-inference-api
+  label: Lamini Completions API
+  slug: lamini-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-inference-api-openapi.yml
-- filename: lamini-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-completions-api-openapi.yml
+- filename: lamini-memory-rag-api-openapi.yml
   format: yaml
-  label: Lamini Platform API
-  slug: lamini-platform-api
+  label: Lamini memory rag API
+  slug: lamini-memory-rag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-platform-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-memory-rag-api-openapi.yml
+- filename: lamini-model-management-api-openapi.yml
+  format: yaml
+  label: Lamini model management API
+  slug: lamini-model-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-model-management-api-openapi.yml
+- filename: lamini-train-api-openapi.yml
+  format: yaml
+  label: Lamini Train API
+  slug: lamini-train-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-train-api-openapi.yml
 consequence_counts:
   read: 3
   write: 9

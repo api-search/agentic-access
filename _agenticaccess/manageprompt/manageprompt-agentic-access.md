@@ -49,6 +49,6 @@ tags:
 - Company
 - LLM
 - Debugging
-- OpenSource
-- DeveloperTools
+- Open Source
+- Developer Tools
 ---

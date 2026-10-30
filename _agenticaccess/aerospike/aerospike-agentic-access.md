@@ -49,6 +49,6 @@ tags:
 - Real-Time
 - Key-Value Store
 - In-Memory
-- Vector Database
+- Vector Search
 - High Performance
 ---

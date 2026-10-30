@@ -214,6 +214,54 @@ api_specs:
   slug: isometric-transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/openapi/isometric-transfers-api-openapi.yml
+- filename: isometric-internal-api-openapi.yml
+  format: yaml
+  label: Isometric Internal API
+  slug: isometric-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/openapi/isometric-internal-api-openapi.yml
+- filename: isometric-liveness-api-openapi.yml
+  format: yaml
+  label: Isometric Liveness API
+  slug: isometric-liveness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/openapi/isometric-liveness-api-openapi.yml
+- filename: isometric-oauth-api-openapi.yml
+  format: yaml
+  label: Isometric OAuth API
+  slug: isometric-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/openapi/isometric-oauth-api-openapi.yml
+- filename: isometric-readiness-api-openapi.yml
+  format: yaml
+  label: Isometric Readiness API
+  slug: isometric-readiness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/openapi/isometric-readiness-api-openapi.yml
+- filename: isometric-startup-api-openapi.yml
+  format: yaml
+  label: Isometric Startup API
+  slug: isometric-startup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/openapi/isometric-startup-api-openapi.yml
+- filename: isometric-webhooks-api-openapi.yml
+  format: yaml
+  label: Isometric Webhooks API
+  slug: isometric-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/openapi/isometric-webhooks-api-openapi.yml
+- filename: isometric-well-known-api-openapi.yml
+  format: yaml
+  label: Isometric .well Known API
+  slug: isometric-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/openapi/isometric-well-known-api-openapi.yml
+- filename: isometric-graph-ql-api-openapi.yml
+  format: yaml
+  label: Isometric Graph QL API
+  slug: isometric-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/openapi/isometric-graph-ql-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 79

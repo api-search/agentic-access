@@ -310,6 +310,30 @@ api_specs:
   slug: drata-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-workspaces-api-openapi.yml
+- filename: drata-auth0-proxy-api-openapi.yml
+  format: yaml
+  label: Drata Auth0 Proxy API
+  slug: drata-auth0-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-auth0-proxy-api-openapi.yml
+- filename: drata-health-api-openapi.yml
+  format: yaml
+  label: Drata Health API
+  slug: drata-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-health-api-openapi.yml
+- filename: drata-ready-api-openapi.yml
+  format: yaml
+  label: Drata Ready API
+  slug: drata-ready-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-ready-api-openapi.yml
+- filename: drata-well-known-api-openapi.yml
+  format: yaml
+  label: Drata .well Known API
+  slug: drata-well-known-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/openapi/drata-well-known-api-openapi.yml
 consequence_counts:
   read: 124
   safety-critical: 93

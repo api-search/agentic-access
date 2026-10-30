@@ -34,6 +34,12 @@ api_specs:
   slug: interos-watchtower-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-watchtower-api-openapi.yml
+- filename: interos-my-data-api-openapi.yml
+  format: yaml
+  label: Interos My Data API
+  slug: interos-my-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-my-data-api-openapi.yml
 consequence_counts:
   read: 9
   write: 1

@@ -52,6 +52,18 @@ api_specs:
   slug: coram-ai-reunification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-reunification-api-openapi.yml
+- filename: coram-ai-credentials-api-openapi.yml
+  format: yaml
+  label: Coram Ai Credentials API
+  slug: coram-ai-credentials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-credentials-api-openapi.yml
+- filename: coram-ai-permissions-api-openapi.yml
+  format: yaml
+  label: Coram Ai Permissions API
+  slug: coram-ai-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-permissions-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1

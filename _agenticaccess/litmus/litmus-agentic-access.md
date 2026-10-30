@@ -40,6 +40,12 @@ api_specs:
   slug: litmus-tests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-tests-api-openapi.yml
+- filename: litmus-ftpsites-api-openapi.yml
+  format: yaml
+  label: Litmus Ftp Sites API
+  slug: litmus-ftpsites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-ftpsites-api-openapi.yml
 consequence_counts:
   read: 16
   write: 5

@@ -4,24 +4,54 @@ action_class_counts:
   acting: 8
   connected: 6
 api_specs:
-- filename: htmlcsstoimage-image-generation-api-openapi.yml
-  format: yaml
-  label: HTML/CSS to Image Generation API
-  slug: htmlcsstoimage-image-generation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-image-generation-api-openapi.yml
-- filename: htmlcsstoimage-signed-urls-api-openapi.yml
-  format: yaml
-  label: HTML/CSS to Image Signed URLs API
-  slug: htmlcsstoimage-signed-urls-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-signed-urls-api-openapi.yml
 - filename: htmlcsstoimage-templates-api-openapi.yml
   format: yaml
   label: HTML/CSS to Image Templates API
   slug: htmlcsstoimage-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-templates-api-openapi.yml
+- filename: htmlcsstoimage-api-keys-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image API Keys API
+  slug: htmlcsstoimage-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-api-keys-api-openapi.yml
+- filename: htmlcsstoimage-feedback-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image Feedback API
+  slug: htmlcsstoimage-feedback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-feedback-api-openapi.yml
+- filename: htmlcsstoimage-images-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image Images API
+  slug: htmlcsstoimage-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-images-api-openapi.yml
+- filename: htmlcsstoimage-og-configs-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image OG Configs API
+  slug: htmlcsstoimage-og-configs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-og-configs-api-openapi.yml
+- filename: htmlcsstoimage-proxies-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image Proxies API
+  slug: htmlcsstoimage-proxies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-proxies-api-openapi.yml
+- filename: htmlcsstoimage-storage-destinations-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image Storage Destinations API
+  slug: htmlcsstoimage-storage-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-storage-destinations-api-openapi.yml
+- filename: htmlcsstoimage-usage-api-openapi.yml
+  format: yaml
+  label: HTML/CSS to Image Usage API
+  slug: htmlcsstoimage-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/openapi/htmlcsstoimage-usage-api-openapi.yml
 consequence_counts:
   read: 6
   write: 8

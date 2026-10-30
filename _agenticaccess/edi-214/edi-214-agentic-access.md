@@ -4,24 +4,54 @@ action_class_counts:
   acting: 3
   connected: 2
 api_specs:
-- filename: edi-214-edi-processing-api-openapi.yml
+- filename: edi-214-claim-acknowledgments-api-openapi.yml
   format: yaml
-  label: edi-214 EDI Processing API
-  slug: edi-214-edi-processing-api
+  label: Edi 214 Claim acknowledgments API
+  slug: edi-214-claim-acknowledgments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-edi-processing-api-openapi.yml
-- filename: edi-214-shipment-status-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-claim-acknowledgments-api-openapi.yml
+- filename: edi-214-claim-submission-api-openapi.yml
   format: yaml
-  label: edi-214 Shipment Status API
-  slug: edi-214-shipment-status-api
+  label: Edi 214 Claim submission API
+  slug: edi-214-claim-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-shipment-status-api-openapi.yml
-- filename: edi-214-transactions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-claim-submission-api-openapi.yml
+- filename: edi-214-coordination-of-benefits-api-openapi.yml
   format: yaml
-  label: edi-214 Transactions API
-  slug: edi-214-transactions-api
+  label: Edi 214 Coordination of benefits API
+  slug: edi-214-coordination-of-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-transactions-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-coordination-of-benefits-api-openapi.yml
+- filename: edi-214-insurance-discovery-api-openapi.yml
+  format: yaml
+  label: Edi 214 Insurance discovery API
+  slug: edi-214-insurance-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-insurance-discovery-api-openapi.yml
+- filename: edi-214-payers-api-openapi.yml
+  format: yaml
+  label: Edi 214 Payers API
+  slug: edi-214-payers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-payers-api-openapi.yml
+- filename: edi-214-real-time-claim-status-api-openapi.yml
+  format: yaml
+  label: Edi 214 Real-time claim status API
+  slug: edi-214-real-time-claim-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-real-time-claim-status-api-openapi.yml
+- filename: edi-214-real-time-eligibility-check-api-openapi.yml
+  format: yaml
+  label: Edi 214 Real-time eligibility check API
+  slug: edi-214-real-time-eligibility-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-real-time-eligibility-check-api-openapi.yml
+- filename: edi-214-remittances-api-openapi.yml
+  format: yaml
+  label: Edi 214 Remittances API
+  slug: edi-214-remittances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edi-214/refs/heads/main/openapi/edi-214-remittances-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 2

@@ -214,6 +214,162 @@ api_specs:
   slug: facilio-work-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-work-orders-api-openapi.yml
+- filename: facilio-amenities-api-openapi.yml
+  format: yaml
+  label: Facilio Amenities API
+  slug: facilio-amenities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-amenities-api-openapi.yml
+- filename: facilio-deliveries-api-openapi.yml
+  format: yaml
+  label: Facilio Deliveries API
+  slug: facilio-deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-deliveries-api-openapi.yml
+- filename: facilio-delivery-areas-api-openapi.yml
+  format: yaml
+  label: Facilio Delivery Areas API
+  slug: facilio-delivery-areas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-delivery-areas-api-openapi.yml
+- filename: facilio-departments-api-openapi.yml
+  format: yaml
+  label: Facilio Departments API
+  slug: facilio-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-departments-api-openapi.yml
+- filename: facilio-desks-api-openapi.yml
+  format: yaml
+  label: Facilio Desks API
+  slug: facilio-desks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-desks-api-openapi.yml
+- filename: facilio-employee-attachments-api-openapi.yml
+  format: yaml
+  label: Facilio Employee Attachments API
+  slug: facilio-employee-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-employee-attachments-api-openapi.yml
+- filename: facilio-employee-comments-api-openapi.yml
+  format: yaml
+  label: Facilio Employee Comments API
+  slug: facilio-employee-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-employee-comments-api-openapi.yml
+- filename: facilio-employees-api-openapi.yml
+  format: yaml
+  label: Facilio Employees API
+  slug: facilio-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-employees-api-openapi.yml
+- filename: facilio-facilities-api-openapi.yml
+  format: yaml
+  label: Facilio Facilities API
+  slug: facilio-facilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-facilities-api-openapi.yml
+- filename: facilio-facility-bookings-api-openapi.yml
+  format: yaml
+  label: Facilio Facility Bookings API
+  slug: facilio-facility-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-facility-bookings-api-openapi.yml
+- filename: facilio-facility-slots-api-openapi.yml
+  format: yaml
+  label: Facilio Facility Slots API
+  slug: facilio-facility-slots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-facility-slots-api-openapi.yml
+- filename: facilio-facility-special-availability-api-openapi.yml
+  format: yaml
+  label: Facilio Facility Special Availability API
+  slug: facilio-facility-special-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-facility-special-availability-api-openapi.yml
+- filename: facilio-facility-weekday-availability-api-openapi.yml
+  format: yaml
+  label: Facilio Facility Weekday Availability API
+  slug: facilio-facility-weekday-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-facility-weekday-availability-api-openapi.yml
+- filename: facilio-indoor-floor-plans-api-openapi.yml
+  format: yaml
+  label: Facilio Indoor Floor Plans API
+  slug: facilio-indoor-floor-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-indoor-floor-plans-api-openapi.yml
+- filename: facilio-job-plan-attachments-api-openapi.yml
+  format: yaml
+  label: Facilio Job Plan Attachments API
+  slug: facilio-job-plan-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-job-plan-attachments-api-openapi.yml
+- filename: facilio-job-plan-comments-api-openapi.yml
+  format: yaml
+  label: Facilio Job Plan Comments API
+  slug: facilio-job-plan-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-job-plan-comments-api-openapi.yml
+- filename: facilio-job-plans-api-openapi.yml
+  format: yaml
+  label: Facilio Job Plans API
+  slug: facilio-job-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-job-plans-api-openapi.yml
+- filename: facilio-lockers-api-openapi.yml
+  format: yaml
+  label: Facilio Lockers API
+  slug: facilio-lockers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-lockers-api-openapi.yml
+- filename: facilio-parking-stalls-api-openapi.yml
+  format: yaml
+  label: Facilio Parking Stalls API
+  slug: facilio-parking-stalls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-parking-stalls-api-openapi.yml
+- filename: facilio-purchased-items-api-openapi.yml
+  format: yaml
+  label: Facilio Purchased Items API
+  slug: facilio-purchased-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-purchased-items-api-openapi.yml
+- filename: facilio-rooms-api-openapi.yml
+  format: yaml
+  label: Facilio Rooms API
+  slug: facilio-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-rooms-api-openapi.yml
+- filename: facilio-space-bookings-api-openapi.yml
+  format: yaml
+  label: Facilio Space Bookings API
+  slug: facilio-space-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-space-bookings-api-openapi.yml
+- filename: facilio-work-permit-attachments-api-openapi.yml
+  format: yaml
+  label: Facilio Work Permit Attachments API
+  slug: facilio-work-permit-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-work-permit-attachments-api-openapi.yml
+- filename: facilio-work-permit-checklists-api-openapi.yml
+  format: yaml
+  label: Facilio Work Permit Checklists API
+  slug: facilio-work-permit-checklists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-work-permit-checklists-api-openapi.yml
+- filename: facilio-work-permit-comments-api-openapi.yml
+  format: yaml
+  label: Facilio Work Permit Comments API
+  slug: facilio-work-permit-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-work-permit-comments-api-openapi.yml
+- filename: facilio-work-permits-api-openapi.yml
+  format: yaml
+  label: Facilio Work Permits API
+  slug: facilio-work-permits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/openapi/facilio-work-permits-api-openapi.yml
 consequence_counts:
   physical: 21
   read: 117

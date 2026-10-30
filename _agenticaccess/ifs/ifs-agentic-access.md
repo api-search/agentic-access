@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads
 summary_line: 7 operations
 tags:
 - ERP
-- Field Service
+- Field Service Management
 - Asset Management
 - Manufacturing
 - Energy

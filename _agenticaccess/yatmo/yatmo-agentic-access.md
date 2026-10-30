@@ -145,7 +145,7 @@ summary_line: 40 operations · 2 acting
 tags:
 - Company
 - Real Estate
-- LocationIntelligence
+- Location Intelligence
 - MappingAPI
-- POIData
+- POI
 ---

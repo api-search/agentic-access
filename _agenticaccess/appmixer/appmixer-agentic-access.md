@@ -40,36 +40,78 @@ api_specs:
   slug: appmixer-insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-insights-api-openapi.yml
-- filename: appmixer-logs-api-openapi.yml
+- filename: appmixer-acl-api-openapi.yml
   format: yaml
-  label: Appmixer Logs API
-  slug: appmixer-logs-api
+  label: Appmixer ACL API
+  slug: appmixer-acl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-logs-api-openapi.yml
-- filename: appmixer-messages-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-acl-api-openapi.yml
+- filename: appmixer-audit-logs-api-openapi.yml
   format: yaml
-  label: Appmixer Messages API
-  slug: appmixer-messages-api
+  label: Appmixer Audit Logs API
+  slug: appmixer-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-messages-api-openapi.yml
-- filename: appmixer-people-tasks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-audit-logs-api-openapi.yml
+- filename: appmixer-automation-hub-api-openapi.yml
   format: yaml
-  label: Appmixer People Tasks API
-  slug: appmixer-people-tasks-api
+  label: Appmixer Automation Hub API
+  slug: appmixer-automation-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-people-tasks-api-openapi.yml
-- filename: appmixer-system-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-automation-hub-api-openapi.yml
+- filename: appmixer-config-api-openapi.yml
   format: yaml
-  label: Appmixer System API
-  slug: appmixer-system-api
+  label: Appmixer Config API
+  slug: appmixer-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-system-api-openapi.yml
-- filename: appmixer-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-config-api-openapi.yml
+- filename: appmixer-connector-configuration-api-openapi.yml
   format: yaml
-  label: Appmixer Users API
-  slug: appmixer-users-api
+  label: Appmixer Connector Configuration API
+  slug: appmixer-connector-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-users-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-connector-configuration-api-openapi.yml
+- filename: appmixer-integration-categories-api-openapi.yml
+  format: yaml
+  label: Appmixer Integration Categories API
+  slug: appmixer-integration-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-integration-categories-api-openapi.yml
+- filename: appmixer-modifiers-api-openapi.yml
+  format: yaml
+  label: Appmixer Modifiers API
+  slug: appmixer-modifiers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-modifiers-api-openapi.yml
+- filename: appmixer-public-files-api-openapi.yml
+  format: yaml
+  label: Appmixer Public Files API
+  slug: appmixer-public-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-public-files-api-openapi.yml
+- filename: appmixer-unprocessed-messages-api-openapi.yml
+  format: yaml
+  label: Appmixer Unprocessed Messages API
+  slug: appmixer-unprocessed-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-unprocessed-messages-api-openapi.yml
+- filename: appmixer-user-api-openapi.yml
+  format: yaml
+  label: Appmixer User API
+  slug: appmixer-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-user-api-openapi.yml
+- filename: appmixer-user-groups-api-openapi.yml
+  format: yaml
+  label: Appmixer User Groups API
+  slug: appmixer-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-user-groups-api-openapi.yml
+- filename: appmixer-variables-api-openapi.yml
+  format: yaml
+  label: Appmixer Variables API
+  slug: appmixer-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-variables-api-openapi.yml
 - filename: appmixer-datastores-api-openapi.yml
   format: yaml
   label: Appmixer Datastores API

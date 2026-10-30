@@ -159,7 +159,6 @@ tags:
 - Company
 - Artificial Intelligence
 - Answer Engine Optimization
-- AEO
 - AI Search
 - Generative Engine Optimization
 - Marketing

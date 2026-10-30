@@ -106,12 +106,6 @@ api_specs:
   slug: meta-agent-tools-me-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-me-api-openapi.yml
-- filename: meta-agent-tools-meta-agent-tools-api-openapi.yml
-  format: yaml
-  label: Meta Agent Tools Meta Agent Tools API
-  slug: meta-agent-tools-meta-agent-tools-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-meta-agent-tools-api-openapi.yml
 - filename: meta-agent-tools-metrics-api-openapi.yml
   format: yaml
   label: Meta Agent Tools Metrics API
@@ -142,6 +136,150 @@ api_specs:
   slug: meta-agent-tools-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-well-known-api-openapi.yml
+- filename: meta-agent-tools-a2a-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools A2a API
+  slug: meta-agent-tools-a2a-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-a2a-api-openapi.yml
+- filename: meta-agent-tools-account-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Account API
+  slug: meta-agent-tools-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-account-api-openapi.yml
+- filename: meta-agent-tools-acesso-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Acesso API
+  slug: meta-agent-tools-acesso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-acesso-api-openapi.yml
+- filename: meta-agent-tools-agent-json-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Agent.json API
+  slug: meta-agent-tools-agent-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-agent-json-api-openapi.yml
+- filename: meta-agent-tools-agentalog-agent-auto-log-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Agentalog — Agent Auto Log API
+  slug: meta-agent-tools-agentalog-agent-auto-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-agentalog-agent-auto-log-api-openapi.yml
+- filename: meta-agent-tools-boletim-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Boletim API
+  slug: meta-agent-tools-boletim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-boletim-api-openapi.yml
+- filename: meta-agent-tools-briefings-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Briefings API
+  slug: meta-agent-tools-briefings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-briefings-api-openapi.yml
+- filename: meta-agent-tools-bundles-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Bundles API
+  slug: meta-agent-tools-bundles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-bundles-api-openapi.yml
+- filename: meta-agent-tools-check-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Check API
+  slug: meta-agent-tools-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-check-api-openapi.yml
+- filename: meta-agent-tools-coleta-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Coleta API
+  slug: meta-agent-tools-coleta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-coleta-api-openapi.yml
+- filename: meta-agent-tools-contadores-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Contadores API
+  slug: meta-agent-tools-contadores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-contadores-api-openapi.yml
+- filename: meta-agent-tools-erro-cliente-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Erro Cliente API
+  slug: meta-agent-tools-erro-cliente-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-erro-cliente-api-openapi.yml
+- filename: meta-agent-tools-feeds-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Feeds API
+  slug: meta-agent-tools-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-feeds-api-openapi.yml
+- filename: meta-agent-tools-funil-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Funil API
+  slug: meta-agent-tools-funil-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-funil-api-openapi.yml
+- filename: meta-agent-tools-indices-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Indices API
+  slug: meta-agent-tools-indices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-indices-api-openapi.yml
+- filename: meta-agent-tools-internal-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Internal API
+  slug: meta-agent-tools-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-internal-api-openapi.yml
+- filename: meta-agent-tools-monitor-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Monitor API
+  slug: meta-agent-tools-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-monitor-api-openapi.yml
+- filename: meta-agent-tools-pagamento-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Pagamento API
+  slug: meta-agent-tools-pagamento-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-pagamento-api-openapi.yml
+- filename: meta-agent-tools-partners-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Partners API
+  slug: meta-agent-tools-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-partners-api-openapi.yml
+- filename: meta-agent-tools-plans-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Plans API
+  slug: meta-agent-tools-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-plans-api-openapi.yml
+- filename: meta-agent-tools-pricing-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Pricing API
+  slug: meta-agent-tools-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-pricing-api-openapi.yml
+- filename: meta-agent-tools-uso-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Uso API
+  slug: meta-agent-tools-uso-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-uso-api-openapi.yml
+- filename: meta-agent-tools-vitrine-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Vitrine API
+  slug: meta-agent-tools-vitrine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-vitrine-api-openapi.yml
+- filename: meta-agent-tools-volatil-api-openapi.yml
+  format: yaml
+  label: Meta Agent Tools Volatil API
+  slug: meta-agent-tools-volatil-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/openapi/meta-agent-tools-volatil-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 22

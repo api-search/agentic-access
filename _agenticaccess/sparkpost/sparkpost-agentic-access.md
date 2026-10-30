@@ -178,5 +178,5 @@ tags:
 - Webhook
 - Analytics
 - Templates
-- Suppression List
+- Suppression
 ---

@@ -4,12 +4,18 @@ action_class_counts:
   acting: 9
   connected: 6
 api_specs:
-- filename: develop-health-public-api-api-openapi.yml
+- filename: develop-health-eligibility-check-api-openapi.yml
   format: yaml
-  label: Develop Health Public API
-  slug: develop-health-public-api-api
+  label: Develop Health Eligibility Check API
+  slug: develop-health-eligibility-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/openapi/develop-health-public-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/openapi/develop-health-eligibility-check-api-openapi.yml
+- filename: develop-health-support-program-api-openapi.yml
+  format: yaml
+  label: Develop Health Support Program API
+  slug: develop-health-support-program-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/develop-health/refs/heads/main/openapi/develop-health-support-program-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6

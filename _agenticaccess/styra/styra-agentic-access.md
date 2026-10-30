@@ -69,7 +69,7 @@ tags:
 - Cybersecurity
 - Authorization
 - Policy as Code
-- Open Policy Agent
+- OPA
 - Access Control
 - Cloud-Native
 - API Security

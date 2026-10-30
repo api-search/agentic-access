@@ -265,7 +265,7 @@ tags:
 - Meter Readings
 - Market Transparency
 - BMRS
-- Electricity Grid
+- Electric Grid
 - Power Generation
 - United Kingdom
 ---

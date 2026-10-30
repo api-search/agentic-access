@@ -319,7 +319,7 @@ tags:
 - Analytics
 - Blockchain
 - Block Explorer
-- Cryptocurrencies
+- Cryptocurrency
 - DeFi
 - Ethereum
 - EVM

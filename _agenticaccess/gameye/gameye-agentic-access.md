@@ -34,6 +34,24 @@ api_specs:
   slug: gameye-tag-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-tag-api-openapi.yml
+- filename: gameye-application-api-openapi.yml
+  format: yaml
+  label: Gameye Application API
+  slug: gameye-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-application-api-openapi.yml
+- filename: gameye-region-api-openapi.yml
+  format: yaml
+  label: Gameye Region API
+  slug: gameye-region-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-region-api-openapi.yml
+- filename: gameye-token-api-openapi.yml
+  format: yaml
+  label: Gameye Token API
+  slug: gameye-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/openapi/gameye-token-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1

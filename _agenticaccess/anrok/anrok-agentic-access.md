@@ -40,6 +40,18 @@ api_specs:
   slug: anrok-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-transactions-api-openapi.yml
+- filename: anrok-address-resolution-api-openapi.yml
+  format: yaml
+  label: Anrok Address resolution API
+  slug: anrok-address-resolution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-address-resolution-api-openapi.yml
+- filename: anrok-customers-api-openapi.yml
+  format: yaml
+  label: Anrok Customers API
+  slug: anrok-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/openapi/anrok-customers-api-openapi.yml
 consequence_counts:
   read: 7
   write: 10

@@ -16,6 +16,24 @@ api_specs:
   slug: casap-disputes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/openapi/casap-disputes-api-openapi.yml
+- filename: casap-accounts-api-openapi.yml
+  format: yaml
+  label: Casap Accounts API
+  slug: casap-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/openapi/casap-accounts-api-openapi.yml
+- filename: casap-intakes-api-openapi.yml
+  format: yaml
+  label: Casap Intakes API
+  slug: casap-intakes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/openapi/casap-intakes-api-openapi.yml
+- filename: casap-organizations-api-openapi.yml
+  format: yaml
+  label: Casap Organizations API
+  slug: casap-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/openapi/casap-organizations-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3

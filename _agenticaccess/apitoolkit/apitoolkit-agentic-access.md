@@ -56,7 +56,7 @@ tags:
 - API Management
 - API Monitoring
 - API Testing
-- Breaking Change Detection
+- Breaking Changes
 - CLI
 - Debugging
 - Developer Tools

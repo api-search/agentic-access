@@ -76,12 +76,12 @@ api_specs:
   slug: dust-tt-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-triggers-api-openapi.yml
-- filename: dust-tt-workspace-api-openapi.yml
+- filename: dust-tt-analytics-api-openapi.yml
   format: yaml
-  label: Dust Workspace API
-  slug: dust-tt-workspace-api
+  label: Dust Analytics API
+  slug: dust-tt-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-workspace-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/openapi/dust-tt-analytics-api-openapi.yml
 - filename: dust-tt-data-sources-api-openapi.yml
   format: yaml
   label: Dust Data Sources API

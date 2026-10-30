@@ -64,6 +64,18 @@ api_specs:
   slug: anamai-llms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-llms-api-openapi.yml
+- filename: anamai-avatar-videos-api-openapi.yml
+  format: yaml
+  label: Anam.ai Avatar Videos API
+  slug: anamai-avatar-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-avatar-videos-api-openapi.yml
+- filename: anamai-pronunciation-dictionaries-api-openapi.yml
+  format: yaml
+  label: Anam.ai Pronunciation Dictionaries API
+  slug: anamai-pronunciation-dictionaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/openapi/anamai-pronunciation-dictionaries-api-openapi.yml
 consequence_counts:
   read: 27
   safety-critical: 1

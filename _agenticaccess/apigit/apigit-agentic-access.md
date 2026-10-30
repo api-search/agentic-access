@@ -62,7 +62,7 @@ tags:
 - API Lifecycle
 - Developer Tools
 - Documentation
-- Git
+- Version Control
 - Governance
 - Mocking
 - Platform

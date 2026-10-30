@@ -217,7 +217,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rarible/refs/h
 summary_line: 92 operations · 12 acting · 3 human-in-the-loop
 tags:
 - NFT
-- Non-Fungible Tokens
 - Marketplace
 - Aggregator
 - Multi-Chain

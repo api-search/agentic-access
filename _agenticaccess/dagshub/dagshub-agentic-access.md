@@ -90,6 +90,6 @@ tags:
 - Machine Learning
 - MLOps
 - Data Versioning
-- Git
+- Version Control
 - MLflow
 ---

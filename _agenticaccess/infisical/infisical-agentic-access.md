@@ -352,12 +352,6 @@ api_specs:
   slug: infisical-secret-rotations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-secret-rotations-api-openapi.yml
-- filename: infisical-secret-scanning-api-openapi.yml
-  format: yaml
-  label: Infisical Secret Scanning API
-  slug: infisical-secret-scanning-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-secret-scanning-api-openapi.yml
 - filename: infisical-secret-sharing-api-openapi.yml
   format: yaml
   label: Infisical Secret Sharing API
@@ -388,36 +382,6 @@ api_specs:
   slug: infisical-spiffe-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-spiffe-auth-api-openapi.yml
-- filename: infisical-ssh-certificate-authorities-api-openapi.yml
-  format: yaml
-  label: Infisical SSH Certificate Authorities API
-  slug: infisical-ssh-certificate-authorities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-ssh-certificate-authorities-api-openapi.yml
-- filename: infisical-ssh-certificate-templates-api-openapi.yml
-  format: yaml
-  label: Infisical SSH Certificate Templates API
-  slug: infisical-ssh-certificate-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-ssh-certificate-templates-api-openapi.yml
-- filename: infisical-ssh-certificates-api-openapi.yml
-  format: yaml
-  label: Infisical SSH Certificates API
-  slug: infisical-ssh-certificates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-ssh-certificates-api-openapi.yml
-- filename: infisical-ssh-host-groups-api-openapi.yml
-  format: yaml
-  label: Infisical SSH Host Groups API
-  slug: infisical-ssh-host-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-ssh-host-groups-api-openapi.yml
-- filename: infisical-ssh-hosts-api-openapi.yml
-  format: yaml
-  label: Infisical SSH Hosts API
-  slug: infisical-ssh-hosts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-ssh-hosts-api-openapi.yml
 - filename: infisical-sub-organizations-api-openapi.yml
   format: yaml
   label: Infisical Sub Organizations API
@@ -442,6 +406,84 @@ api_specs:
   slug: infisical-universal-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-universal-auth-api-openapi.yml
+- filename: infisical-agent-vault-access-bundles-api-openapi.yml
+  format: yaml
+  label: Infisical Agent Vault Access Bundles API
+  slug: infisical-agent-vault-access-bundles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-agent-vault-access-bundles-api-openapi.yml
+- filename: infisical-agent-vault-app-connections-api-openapi.yml
+  format: yaml
+  label: Infisical Agent Vault App Connections API
+  slug: infisical-agent-vault-app-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-agent-vault-app-connections-api-openapi.yml
+- filename: infisical-agent-vault-members-api-openapi.yml
+  format: yaml
+  label: Infisical Agent Vault Members API
+  slug: infisical-agent-vault-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-agent-vault-members-api-openapi.yml
+- filename: infisical-agent-vault-proxies-api-openapi.yml
+  format: yaml
+  label: Infisical Agent Vault Proxies API
+  slug: infisical-agent-vault-proxies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-agent-vault-proxies-api-openapi.yml
+- filename: infisical-agent-vault-session-logs-api-openapi.yml
+  format: yaml
+  label: Infisical Agent Vault Session Logs API
+  slug: infisical-agent-vault-session-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-agent-vault-session-logs-api-openapi.yml
+- filename: infisical-agent-vault-sessions-api-openapi.yml
+  format: yaml
+  label: Infisical Agent Vault Sessions API
+  slug: infisical-agent-vault-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-agent-vault-sessions-api-openapi.yml
+- filename: infisical-agent-vault-settings-api-openapi.yml
+  format: yaml
+  label: Infisical Agent Vault Settings API
+  slug: infisical-agent-vault-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-agent-vault-settings-api-openapi.yml
+- filename: infisical-agent-vault-variables-api-openapi.yml
+  format: yaml
+  label: Infisical Agent Vault Variables API
+  slug: infisical-agent-vault-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-agent-vault-variables-api-openapi.yml
+- filename: infisical-gateways-api-openapi.yml
+  format: yaml
+  label: Infisical Gateways API
+  slug: infisical-gateways-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-gateways-api-openapi.yml
+- filename: infisical-hsm-connectors-api-openapi.yml
+  format: yaml
+  label: Infisical HSM Connectors API
+  slug: infisical-hsm-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-hsm-connectors-api-openapi.yml
+- filename: infisical-instance-api-openapi.yml
+  format: yaml
+  label: Infisical Instance API
+  slug: infisical-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-instance-api-openapi.yml
+- filename: infisical-proxied-services-api-openapi.yml
+  format: yaml
+  label: Infisical Proxied Services API
+  slug: infisical-proxied-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-proxied-services-api-openapi.yml
+- filename: infisical-secret-validation-rules-api-openapi.yml
+  format: yaml
+  label: Infisical Secret Validation Rules API
+  slug: infisical-secret-validation-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infisical/refs/heads/main/openapi/infisical-secret-validation-rules-api-openapi.yml
 consequence_counts:
   physical: 42
   read: 830

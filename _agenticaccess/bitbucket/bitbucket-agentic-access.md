@@ -290,9 +290,8 @@ tags:
 - Code Review
 - Developer Tools
 - DevOps
-- Git
+- Version Control
 - Pull Requests
 - Repository Hosting
-- Version Control
 - Bitbucket
 ---

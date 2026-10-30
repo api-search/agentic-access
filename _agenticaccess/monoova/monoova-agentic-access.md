@@ -385,7 +385,7 @@ tags:
 - Payments
 - Australia
 - Real-Time Payments
-- NPP
+- New Payments Platform
 - PayTo
 - PayID
 - Account-to-Account

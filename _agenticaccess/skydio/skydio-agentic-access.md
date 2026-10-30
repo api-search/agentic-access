@@ -59,5 +59,5 @@ tags:
 - Fleet Management
 - Public Safety
 - Robotics
-- Unmanned Aerial Vehicles
+- UAV
 ---

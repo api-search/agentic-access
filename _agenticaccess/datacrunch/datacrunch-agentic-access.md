@@ -64,12 +64,78 @@ api_specs:
   slug: datacrunch-volumes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-volumes-api-openapi.yml
-- filename: datacrunch-oauth-api-openapi.yml
+- filename: datacrunch-authentication-api-openapi.yml
   format: yaml
-  label: DataCrunch O Auth API
-  slug: datacrunch-oauth-api
+  label: DataCrunch Authentication API
+  slug: datacrunch-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-oauth-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-authentication-api-openapi.yml
+- filename: datacrunch-clusters-api-openapi.yml
+  format: yaml
+  label: DataCrunch Clusters API
+  slug: datacrunch-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-clusters-api-openapi.yml
+- filename: datacrunch-container-registry-api-openapi.yml
+  format: yaml
+  label: DataCrunch Container Registry API
+  slug: datacrunch-container-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-container-registry-api-openapi.yml
+- filename: datacrunch-container-types-api-openapi.yml
+  format: yaml
+  label: DataCrunch Container Types API
+  slug: datacrunch-container-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-container-types-api-openapi.yml
+- filename: datacrunch-instance-groups-api-openapi.yml
+  format: yaml
+  label: DataCrunch Instance groups API
+  slug: datacrunch-instance-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-instance-groups-api-openapi.yml
+- filename: datacrunch-journal-api-openapi.yml
+  format: yaml
+  label: DataCrunch Journal API
+  slug: datacrunch-journal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-journal-api-openapi.yml
+- filename: datacrunch-long-term-api-openapi.yml
+  format: yaml
+  label: DataCrunch Long Term API
+  slug: datacrunch-long-term-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-long-term-api-openapi.yml
+- filename: datacrunch-managed-endpoints-api-openapi.yml
+  format: yaml
+  label: DataCrunch Managed Endpoints API
+  slug: datacrunch-managed-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-managed-endpoints-api-openapi.yml
+- filename: datacrunch-object-storage-api-openapi.yml
+  format: yaml
+  label: DataCrunch Object Storage API
+  slug: datacrunch-object-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-object-storage-api-openapi.yml
+- filename: datacrunch-private-networks-internal-api-openapi.yml
+  format: yaml
+  label: DataCrunch Private Networks (internal) API
+  slug: datacrunch-private-networks-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-private-networks-internal-api-openapi.yml
+- filename: datacrunch-serverless-jobs-api-openapi.yml
+  format: yaml
+  label: DataCrunch Serverless Jobs API
+  slug: datacrunch-serverless-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-serverless-jobs-api-openapi.yml
+- filename: datacrunch-volume-types-api-openapi.yml
+  format: yaml
+  label: DataCrunch Volume Types API
+  slug: datacrunch-volume-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/openapi/datacrunch-volume-types-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 22

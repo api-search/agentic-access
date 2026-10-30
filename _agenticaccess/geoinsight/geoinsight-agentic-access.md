@@ -57,6 +57,30 @@ api_specs:
   slug: geoinsight-zones-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-zones-api-openapi.yml
+- filename: geoinsight-concept-id-api-openapi.yml
+  format: yaml
+  label: GeoInsight Concept ID API
+  slug: geoinsight-concept-id-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-concept-id-api-openapi.yml
+- filename: geoinsight-concepts-api-openapi.yml
+  format: yaml
+  label: GeoInsight Concepts API
+  slug: geoinsight-concepts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-concepts-api-openapi.yml
+- filename: geoinsight-conformance-api-openapi.yml
+  format: yaml
+  label: GeoInsight Conformance API
+  slug: geoinsight-conformance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-conformance-api-openapi.yml
+- filename: geoinsight-orders-api-openapi.yml
+  format: yaml
+  label: GeoInsight Orders API
+  slug: geoinsight-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-orders-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

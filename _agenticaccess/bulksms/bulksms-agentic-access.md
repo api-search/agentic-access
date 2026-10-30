@@ -88,5 +88,5 @@ tags:
 - Messaging
 - Communications
 - Business
-- BulkSMS
+- Bulk SMS
 ---

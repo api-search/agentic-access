@@ -33,7 +33,7 @@ tags:
 - Company
 - Solana
 - RPC
-- Data-Streams
+- Data Streams
 - MEV
 - Infrastructure
 ---

@@ -28,12 +28,6 @@ api_specs:
   slug: depict-brand-features-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-brand-features-api-openapi.yml
-- filename: depict-catalog-push-api-v0-api-openapi.yml
-  format: yaml
-  label: Depict Catalog Push API (v0) API
-  slug: depict-catalog-push-api-v0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-catalog-push-api-v0-api-openapi.yml
 - filename: depict-collections-api-openapi.yml
   format: yaml
   label: Depict Collections API
@@ -46,24 +40,12 @@ api_specs:
   slug: depict-dashboard-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-dashboard-api-openapi.yml
-- filename: depict-events-v2-api-openapi.yml
-  format: yaml
-  label: Depict Events (v2) API
-  slug: depict-events-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-events-v2-api-openapi.yml
 - filename: depict-instagram-api-openapi.yml
   format: yaml
   label: Depict Instagram API
   slug: depict-instagram-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-instagram-api-openapi.yml
-- filename: depict-listing-v2-api-openapi.yml
-  format: yaml
-  label: Depict Listing (v2) API
-  slug: depict-listing-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-listing-v2-api-openapi.yml
 - filename: depict-listing-v3-api-openapi.yml
   format: yaml
   label: Depict Listing (v3) API
@@ -106,12 +88,6 @@ api_specs:
   slug: depict-onboarding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-onboarding-api-openapi.yml
-- filename: depict-other-v3-api-openapi.yml
-  format: yaml
-  label: Depict Other (v3) API
-  slug: depict-other-v3-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-other-v3-api-openapi.yml
 - filename: depict-product-funnel-metrics-api-openapi.yml
   format: yaml
   label: Depict Product Funnel Metrics API
@@ -142,36 +118,12 @@ api_specs:
   slug: depict-published-collections-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-published-collections-api-openapi.yml
-- filename: depict-recommendations-v2-api-openapi.yml
-  format: yaml
-  label: Depict Recommendations (v2) API
-  slug: depict-recommendations-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-recommendations-v2-api-openapi.yml
-- filename: depict-recommendations-v3-api-openapi.yml
-  format: yaml
-  label: Depict Recommendations (v3) API
-  slug: depict-recommendations-v3-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-recommendations-v3-api-openapi.yml
 - filename: depict-search-metrics-api-openapi.yml
   format: yaml
   label: Depict Search Metrics API
   slug: depict-search-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-search-metrics-api-openapi.yml
-- filename: depict-search-v2-api-openapi.yml
-  format: yaml
-  label: Depict Search (v2) API
-  slug: depict-search-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-search-v2-api-openapi.yml
-- filename: depict-search-v3-api-openapi.yml
-  format: yaml
-  label: Depict Search (v3) API
-  slug: depict-search-v3-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-search-v3-api-openapi.yml
 - filename: depict-settings-api-openapi.yml
   format: yaml
   label: Depict Settings API
@@ -214,6 +166,36 @@ api_specs:
   slug: depict-vitals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-vitals-api-openapi.yml
+- filename: depict-events-api-openapi.yml
+  format: yaml
+  label: Depict Events API
+  slug: depict-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-events-api-openapi.yml
+- filename: depict-markets-api-openapi.yml
+  format: yaml
+  label: Depict Markets API
+  slug: depict-markets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-markets-api-openapi.yml
+- filename: depict-product-listing-api-openapi.yml
+  format: yaml
+  label: Depict Product Listing API
+  slug: depict-product-listing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-product-listing-api-openapi.yml
+- filename: depict-recommendations-api-openapi.yml
+  format: yaml
+  label: Depict Recommendations API
+  slug: depict-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-recommendations-api-openapi.yml
+- filename: depict-search-api-openapi.yml
+  format: yaml
+  label: Depict Search API
+  slug: depict-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/openapi/depict-search-api-openapi.yml
 consequence_counts:
   read: 85
   write: 61

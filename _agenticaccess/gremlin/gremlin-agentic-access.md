@@ -526,7 +526,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gremlin/refs/h
 summary_line: 379 operations · 172 acting · 31 human-in-the-loop
 tags:
 - Chaos Engineering
-- Fault Injection
 - Infrastructure Testing
 - Reliability
 - Site Reliability Engineering

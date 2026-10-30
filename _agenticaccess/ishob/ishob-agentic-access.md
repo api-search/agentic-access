@@ -255,6 +255,6 @@ tags:
 - Company
 - Artificial Intelligence
 - Micro-utilities
-- AutonomousAgents
+- Autonomous Agents
 - Cryptocurrency
 ---

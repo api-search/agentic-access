@@ -88,6 +88,24 @@ api_specs:
   slug: car-api-years-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-years-api-openapi.yml
+- filename: car-api-license-plate-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) License Plate API
+  slug: car-api-license-plate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-license-plate-api-openapi.yml
+- filename: car-api-obd-codes-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) OBD Codes API
+  slug: car-api-obd-codes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-obd-codes-api-openapi.yml
+- filename: car-api-sub-models-api-openapi.yml
+  format: yaml
+  label: Car API (carapi.app) Sub Models API
+  slug: car-api-sub-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/openapi/car-api-sub-models-api-openapi.yml
 consequence_counts:
   read: 16
   write: 1
@@ -130,5 +148,5 @@ tags:
 - Vehicle API
 - Vehicle Specifications
 - Vehicles
-- VIN Decoder
+- VIN Decoding
 ---

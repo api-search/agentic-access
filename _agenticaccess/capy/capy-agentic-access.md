@@ -10,54 +10,12 @@ api_specs:
   slug: capy-automations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-automations-api-openapi.yml
-- filename: capy-browser-snapshots-api-openapi.yml
-  format: yaml
-  label: Capy Browser Snapshots API
-  slug: capy-browser-snapshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-browser-snapshots-api-openapi.yml
-- filename: capy-environment-variables-api-openapi.yml
-  format: yaml
-  label: Capy Environment Variables API
-  slug: capy-environment-variables-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-environment-variables-api-openapi.yml
-- filename: capy-models-api-openapi.yml
-  format: yaml
-  label: Capy Models API
-  slug: capy-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-models-api-openapi.yml
 - filename: capy-projects-api-openapi.yml
   format: yaml
   label: Capy Projects API
   slug: capy-projects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-projects-api-openapi.yml
-- filename: capy-sessions-api-openapi.yml
-  format: yaml
-  label: Capy Sessions API
-  slug: capy-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-sessions-api-openapi.yml
-- filename: capy-setup-api-openapi.yml
-  format: yaml
-  label: Capy Setup API
-  slug: capy-setup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-setup-api-openapi.yml
-- filename: capy-snapshots-api-openapi.yml
-  format: yaml
-  label: Capy Snapshots API
-  slug: capy-snapshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-snapshots-api-openapi.yml
-- filename: capy-tags-api-openapi.yml
-  format: yaml
-  label: Capy Tags API
-  slug: capy-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-tags-api-openapi.yml
 - filename: capy-tasks-api-openapi.yml
   format: yaml
   label: Capy Tasks API
@@ -76,6 +34,60 @@ api_specs:
   slug: capy-usage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-usage-api-openapi.yml
+- filename: capy-captains-api-openapi.yml
+  format: yaml
+  label: Capy Captains API
+  slug: capy-captains-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-captains-api-openapi.yml
+- filename: capy-folders-api-openapi.yml
+  format: yaml
+  label: Capy Folders API
+  slug: capy-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-folders-api-openapi.yml
+- filename: capy-messages-api-openapi.yml
+  format: yaml
+  label: Capy Messages API
+  slug: capy-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-messages-api-openapi.yml
+- filename: capy-reviewfilters-api-openapi.yml
+  format: yaml
+  label: Capy Review Filters API
+  slug: capy-reviewfilters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-reviewfilters-api-openapi.yml
+- filename: capy-reviewrules-api-openapi.yml
+  format: yaml
+  label: Capy Review Rules API
+  slug: capy-reviewrules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-reviewrules-api-openapi.yml
+- filename: capy-reviews-api-openapi.yml
+  format: yaml
+  label: Capy Reviews API
+  slug: capy-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-reviews-api-openapi.yml
+- filename: capy-streams-api-openapi.yml
+  format: yaml
+  label: Capy Streams API
+  slug: capy-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-streams-api-openapi.yml
+- filename: capy-subagents-api-openapi.yml
+  format: yaml
+  label: Capy Subagents API
+  slug: capy-subagents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-subagents-api-openapi.yml
+- filename: capy-users-api-openapi.yml
+  format: yaml
+  label: Capy Users API
+  slug: capy-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/openapi/capy-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18

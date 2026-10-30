@@ -321,7 +321,7 @@ tags:
 - Fintech
 - Payments
 - Benefits
-- Health Savings Accounts
+- Health Savings
 - Embedded Finance
 - Card Issuing
 - Insurance

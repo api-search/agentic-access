@@ -90,6 +90,5 @@ summary_line: 18 operations · 8 acting · 2 human-in-the-loop
 tags:
 - Chaos Engineering
 - DevOps
-- Fault Injection
 - Resilience Testing
 ---

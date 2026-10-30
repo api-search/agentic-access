@@ -137,7 +137,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs
 summary_line: 36 operations · 12 acting
 tags:
 - Print on Demand
-- POD
 - E-Commerce
 - Fulfillment
 - Dropshipping

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 1
   connected: 7
 api_specs:
-- filename: buywhere-authentication-api-openapi.yml
-  format: yaml
-  label: BuyWhere Authentication API
-  slug: buywhere-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-authentication-api-openapi.yml
 - filename: buywhere-categories-api-openapi.yml
   format: yaml
   label: BuyWhere Categories API
@@ -22,6 +16,24 @@ api_specs:
   slug: buywhere-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-products-api-openapi.yml
+- filename: buywhere-auth-api-openapi.yml
+  format: yaml
+  label: BuyWhere Auth API
+  slug: buywhere-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-auth-api-openapi.yml
+- filename: buywhere-featured-api-openapi.yml
+  format: yaml
+  label: BuyWhere Featured API
+  slug: buywhere-featured-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-featured-api-openapi.yml
+- filename: buywhere-usage-api-openapi.yml
+  format: yaml
+  label: BuyWhere Usage API
+  slug: buywhere-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/openapi/buywhere-usage-api-openapi.yml
 consequence_counts:
   read: 7
   write: 1

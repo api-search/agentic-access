@@ -58,12 +58,6 @@ api_specs:
   slug: helicone-evaluator-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/openapi/helicone-evaluator-api-openapi.yml
-- filename: helicone-experiment-api-openapi.yml
-  format: yaml
-  label: Helicone Experiment API
-  slug: helicone-experiment-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/openapi/helicone-experiment-api-openapi.yml
 - filename: helicone-heliconesql-api-openapi.yml
   format: yaml
   label: Helicone HeliconeSql API

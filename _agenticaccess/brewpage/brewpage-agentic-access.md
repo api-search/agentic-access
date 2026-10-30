@@ -82,6 +82,18 @@ api_specs:
   slug: brewpage-stats-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-stats-api-openapi.yml
+- filename: brewpage-hosting-management-api-openapi.yml
+  format: yaml
+  label: BrewPage Hosting Management API
+  slug: brewpage-hosting-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-hosting-management-api-openapi.yml
+- filename: brewpage-owner-token-api-openapi.yml
+  format: yaml
+  label: BrewPage Owner Token API
+  slug: brewpage-owner-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/openapi/brewpage-owner-token-api-openapi.yml
 consequence_counts:
   read: 21
   write: 15

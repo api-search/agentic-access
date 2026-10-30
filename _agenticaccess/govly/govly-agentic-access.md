@@ -70,6 +70,48 @@ api_specs:
   slug: govly-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-workspaces-api-openapi.yml
+- filename: govly-contacts-api-openapi.yml
+  format: yaml
+  label: Govly Contacts API
+  slug: govly-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-contacts-api-openapi.yml
+- filename: govly-organization-labels-api-openapi.yml
+  format: yaml
+  label: Govly Organization Labels API
+  slug: govly-organization-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-organization-labels-api-openapi.yml
+- filename: govly-organization-users-api-openapi.yml
+  format: yaml
+  label: Govly Organization Users API
+  slug: govly-organization-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-organization-users-api-openapi.yml
+- filename: govly-places-api-openapi.yml
+  format: yaml
+  label: Govly Places API
+  slug: govly-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-places-api-openapi.yml
+- filename: govly-product-catalogs-api-openapi.yml
+  format: yaml
+  label: Govly Product Catalogs API
+  slug: govly-product-catalogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-product-catalogs-api-openapi.yml
+- filename: govly-shares-api-openapi.yml
+  format: yaml
+  label: Govly Shares API
+  slug: govly-shares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-shares-api-openapi.yml
+- filename: govly-signals-api-openapi.yml
+  format: yaml
+  label: Govly Signals API
+  slug: govly-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/openapi/govly-signals-api-openapi.yml
 consequence_counts:
   read: 19
   write: 13

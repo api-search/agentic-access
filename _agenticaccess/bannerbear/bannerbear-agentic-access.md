@@ -4,54 +4,90 @@ action_class_counts:
   acting: 11
   connected: 18
 api_specs:
-- filename: bannerbear-animated-gifs-api-openapi.yml
-  format: yaml
-  label: Bannerbear Animated GIFs API
-  slug: bannerbear-animated-gifs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-animated-gifs-api-openapi.yml
-- filename: bannerbear-auth-api-openapi.yml
-  format: yaml
-  label: Bannerbear Auth API
-  slug: bannerbear-auth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-auth-api-openapi.yml
-- filename: bannerbear-collections-api-openapi.yml
-  format: yaml
-  label: Bannerbear Collections API
-  slug: bannerbear-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-collections-api-openapi.yml
-- filename: bannerbear-fonts-api-openapi.yml
-  format: yaml
-  label: Bannerbear Fonts API
-  slug: bannerbear-fonts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-fonts-api-openapi.yml
 - filename: bannerbear-images-api-openapi.yml
   format: yaml
   label: Bannerbear Images API
   slug: bannerbear-images-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-images-api-openapi.yml
-- filename: bannerbear-screenshots-api-openapi.yml
+- filename: bannerbear-account-api-openapi.yml
   format: yaml
-  label: Bannerbear Screenshots API
-  slug: bannerbear-screenshots-api
+  label: Bannerbear Account API
+  slug: bannerbear-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-screenshots-api-openapi.yml
-- filename: bannerbear-templates-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-account-api-openapi.yml
+- filename: bannerbear-animation-templates-api-openapi.yml
   format: yaml
-  label: Bannerbear Templates API
-  slug: bannerbear-templates-api
+  label: Bannerbear Animation Templates API
+  slug: bannerbear-animation-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-templates-api-openapi.yml
-- filename: bannerbear-videos-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-animation-templates-api-openapi.yml
+- filename: bannerbear-animations-api-openapi.yml
   format: yaml
-  label: Bannerbear Videos API
-  slug: bannerbear-videos-api
+  label: Bannerbear Animations API
+  slug: bannerbear-animations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-videos-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-animations-api-openapi.yml
+- filename: bannerbear-assets-api-openapi.yml
+  format: yaml
+  label: Bannerbear Assets API
+  slug: bannerbear-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-assets-api-openapi.yml
+- filename: bannerbear-batches-api-openapi.yml
+  format: yaml
+  label: Bannerbear Batches API
+  slug: bannerbear-batches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-batches-api-openapi.yml
+- filename: bannerbear-image-templates-api-openapi.yml
+  format: yaml
+  label: Bannerbear Image Templates API
+  slug: bannerbear-image-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-image-templates-api-openapi.yml
+- filename: bannerbear-instant-urls-api-openapi.yml
+  format: yaml
+  label: Bannerbear Instant Urls API
+  slug: bannerbear-instant-urls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-instant-urls-api-openapi.yml
+- filename: bannerbear-publications-api-openapi.yml
+  format: yaml
+  label: Bannerbear Publications API
+  slug: bannerbear-publications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-publications-api-openapi.yml
+- filename: bannerbear-tool-jobs-api-openapi.yml
+  format: yaml
+  label: Bannerbear Tool Jobs API
+  slug: bannerbear-tool-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-tool-jobs-api-openapi.yml
+- filename: bannerbear-tools-api-openapi.yml
+  format: yaml
+  label: Bannerbear Tools API
+  slug: bannerbear-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-tools-api-openapi.yml
+- filename: bannerbear-webhooks-api-openapi.yml
+  format: yaml
+  label: Bannerbear Webhooks API
+  slug: bannerbear-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-webhooks-api-openapi.yml
+- filename: bannerbear-workflow-runs-api-openapi.yml
+  format: yaml
+  label: Bannerbear Workflow Runs API
+  slug: bannerbear-workflow-runs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-workflow-runs-api-openapi.yml
+- filename: bannerbear-workflows-api-openapi.yml
+  format: yaml
+  label: Bannerbear Workflows API
+  slug: bannerbear-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/openapi/bannerbear-workflows-api-openapi.yml
 consequence_counts:
   read: 18
   write: 11

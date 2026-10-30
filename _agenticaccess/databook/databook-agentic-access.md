@@ -28,6 +28,12 @@ api_specs:
   slug: databook-reasoning-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-reasoning-api-openapi.yml
+- filename: databook-asset-studio-api-openapi.yml
+  format: yaml
+  label: Databook Asset Studio API
+  slug: databook-asset-studio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/openapi/databook-asset-studio-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3

@@ -41,6 +41,5 @@ tags:
 - Company
 - Finance
 - Data
-- MarketData
-- APIs
+- Market Data
 ---

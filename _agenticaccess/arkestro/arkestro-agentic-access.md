@@ -4,84 +4,12 @@ action_class_counts:
   acting: 22
   connected: 24
 api_specs:
-- filename: arkestro-awards-api-openapi.yml
+- filename: arkestro-webhooks-api-openapi.yml
   format: yaml
-  label: Arkestro Awards API
-  slug: arkestro-awards-api
+  label: Arkestro Webhooks API
+  slug: arkestro-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-awards-api-openapi.yml
-- filename: arkestro-business-unit-api-openapi.yml
-  format: yaml
-  label: Arkestro business unit API
-  slug: arkestro-business-unit-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-business-unit-api-openapi.yml
-- filename: arkestro-corporate-categories-api-openapi.yml
-  format: yaml
-  label: Arkestro corporate categories API
-  slug: arkestro-corporate-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-corporate-categories-api-openapi.yml
-- filename: arkestro-corporate-items-api-openapi.yml
-  format: yaml
-  label: Arkestro corporate items API
-  slug: arkestro-corporate-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-corporate-items-api-openapi.yml
-- filename: arkestro-corporate-purchase-orders-api-openapi.yml
-  format: yaml
-  label: Arkestro corporate purchase orders API
-  slug: arkestro-corporate-purchase-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-corporate-purchase-orders-api-openapi.yml
-- filename: arkestro-document-submissions-api-openapi.yml
-  format: yaml
-  label: Arkestro document submissions API
-  slug: arkestro-document-submissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-document-submissions-api-openapi.yml
-- filename: arkestro-event-analytics-api-openapi.yml
-  format: yaml
-  label: Arkestro event analytics API
-  slug: arkestro-event-analytics-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-event-analytics-api-openapi.yml
-- filename: arkestro-event-documents-api-openapi.yml
-  format: yaml
-  label: Arkestro event documents API
-  slug: arkestro-event-documents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-event-documents-api-openapi.yml
-- filename: arkestro-events-api-openapi.yml
-  format: yaml
-  label: Arkestro Events API
-  slug: arkestro-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-events-api-openapi.yml
-- filename: arkestro-quote-submissions-api-openapi.yml
-  format: yaml
-  label: Arkestro quote submissions API
-  slug: arkestro-quote-submissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-quote-submissions-api-openapi.yml
-- filename: arkestro-schedules-api-openapi.yml
-  format: yaml
-  label: Arkestro Schedules API
-  slug: arkestro-schedules-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-schedules-api-openapi.yml
-- filename: arkestro-supplier-contacts-api-openapi.yml
-  format: yaml
-  label: Arkestro supplier contacts API
-  slug: arkestro-supplier-contacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-supplier-contacts-api-openapi.yml
-- filename: arkestro-supplier-organizations-api-openapi.yml
-  format: yaml
-  label: Arkestro supplier organizations API
-  slug: arkestro-supplier-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-supplier-organizations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 24

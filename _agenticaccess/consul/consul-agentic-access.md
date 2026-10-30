@@ -135,7 +135,7 @@ summary_line: 58 operations · 25 acting
 tags:
 - ACL
 - Configuration
-- Health Checking
+- Health Checks
 - Key-Value Store
 - Multi-Datacenter
 - Open Source

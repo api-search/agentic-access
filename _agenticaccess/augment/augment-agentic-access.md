@@ -40,6 +40,30 @@ api_specs:
   slug: augment-webhook-event-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-webhook-event-subscriptions-api-openapi.yml
+- filename: augment-csv-imports-api-openapi.yml
+  format: yaml
+  label: Augment CSV Imports API
+  slug: augment-csv-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-csv-imports-api-openapi.yml
+- filename: augment-facility-management-api-openapi.yml
+  format: yaml
+  label: Augment Facility Management API
+  slug: augment-facility-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-facility-management-api-openapi.yml
+- filename: augment-purchase-order-management-api-openapi.yml
+  format: yaml
+  label: Augment Purchase Order Management API
+  slug: augment-purchase-order-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-purchase-order-management-api-openapi.yml
+- filename: augment-quote-management-api-openapi.yml
+  format: yaml
+  label: Augment Quote Management API
+  slug: augment-quote-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-quote-management-api-openapi.yml
 consequence_counts:
   read: 8
   write: 15

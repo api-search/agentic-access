@@ -178,6 +178,234 @@ api_specs:
   slug: launchdarkly-debug-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-debug-sessions-api-openapi.yml
+- filename: launchdarkly-account-usage-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Account usage (beta) API
+  slug: launchdarkly-account-usage-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-account-usage-beta-api-openapi.yml
+- filename: launchdarkly-adaptive-triggers-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Adaptive triggers API
+  slug: launchdarkly-adaptive-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-adaptive-triggers-api-openapi.yml
+- filename: launchdarkly-agentcontrol-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Agent Control API
+  slug: launchdarkly-agentcontrol-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-agentcontrol-api-openapi.yml
+- filename: launchdarkly-announcements-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Announcements API
+  slug: launchdarkly-announcements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-announcements-api-openapi.yml
+- filename: launchdarkly-applications-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Applications (beta) API
+  slug: launchdarkly-applications-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-applications-beta-api-openapi.yml
+- filename: launchdarkly-approvals-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Approvals (beta) API
+  slug: launchdarkly-approvals-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-approvals-beta-api-openapi.yml
+- filename: launchdarkly-context-settings-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Context settings API
+  slug: launchdarkly-context-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-context-settings-api-openapi.yml
+- filename: launchdarkly-contexts-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Contexts API
+  slug: launchdarkly-contexts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-contexts-api-openapi.yml
+- filename: launchdarkly-data-export-destinations-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Data Export destinations API
+  slug: launchdarkly-data-export-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-data-export-destinations-api-openapi.yml
+- filename: launchdarkly-feature-flags-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Feature flags (beta) API
+  slug: launchdarkly-feature-flags-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-feature-flags-beta-api-openapi.yml
+- filename: launchdarkly-flag-import-configurations-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Flag import configurations (beta) API
+  slug: launchdarkly-flag-import-configurations-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-flag-import-configurations-beta-api-openapi.yml
+- filename: launchdarkly-flag-links-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Flag links (beta) API
+  slug: launchdarkly-flag-links-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-flag-links-beta-api-openapi.yml
+- filename: launchdarkly-follow-flags-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Follow flags API
+  slug: launchdarkly-follow-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-follow-flags-api-openapi.yml
+- filename: launchdarkly-holdouts-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Holdouts API
+  slug: launchdarkly-holdouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-holdouts-api-openapi.yml
+- filename: launchdarkly-insights-charts-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Insights charts (beta) API
+  slug: launchdarkly-insights-charts-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-insights-charts-beta-api-openapi.yml
+- filename: launchdarkly-insights-deployments-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Insights deployments (beta) API
+  slug: launchdarkly-insights-deployments-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-insights-deployments-beta-api-openapi.yml
+- filename: launchdarkly-insights-flag-events-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Insights flag events (beta) API
+  slug: launchdarkly-insights-flag-events-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-insights-flag-events-beta-api-openapi.yml
+- filename: launchdarkly-insights-pull-requests-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Insights pull requests (beta) API
+  slug: launchdarkly-insights-pull-requests-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-insights-pull-requests-beta-api-openapi.yml
+- filename: launchdarkly-insights-repositories-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Insights repositories (beta) API
+  slug: launchdarkly-insights-repositories-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-insights-repositories-beta-api-openapi.yml
+- filename: launchdarkly-insights-scores-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Insights scores (beta) API
+  slug: launchdarkly-insights-scores-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-insights-scores-beta-api-openapi.yml
+- filename: launchdarkly-integration-delivery-configurations-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Integration delivery configurations (beta) API
+  slug: launchdarkly-integration-delivery-configurations-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-integration-delivery-configurations-beta-api-openapi.yml
+- filename: launchdarkly-integrations-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Integrations (beta) API
+  slug: launchdarkly-integrations-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-integrations-beta-api-openapi.yml
+- filename: launchdarkly-ip-allowlist-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly IP Allowlist (beta) API
+  slug: launchdarkly-ip-allowlist-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-ip-allowlist-beta-api-openapi.yml
+- filename: launchdarkly-layers-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Layers API
+  slug: launchdarkly-layers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-layers-api-openapi.yml
+- filename: launchdarkly-metrics-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Metrics (beta) API
+  slug: launchdarkly-metrics-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-metrics-beta-api-openapi.yml
+- filename: launchdarkly-oauth2-clients-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly OAuth2 Clients API
+  slug: launchdarkly-oauth2-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-oauth2-clients-api-openapi.yml
+- filename: launchdarkly-other-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Other API
+  slug: launchdarkly-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-other-api-openapi.yml
+- filename: launchdarkly-persistent-store-integrations-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Persistent store integrations (beta) API
+  slug: launchdarkly-persistent-store-integrations-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-persistent-store-integrations-beta-api-openapi.yml
+- filename: launchdarkly-release-pipelines-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Release pipelines (beta) API
+  slug: launchdarkly-release-pipelines-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-release-pipelines-beta-api-openapi.yml
+- filename: launchdarkly-release-policies-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Release policies (beta) API
+  slug: launchdarkly-release-policies-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-release-policies-beta-api-openapi.yml
+- filename: launchdarkly-releases-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Releases (beta) API
+  slug: launchdarkly-releases-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-releases-beta-api-openapi.yml
+- filename: launchdarkly-scheduled-changes-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Scheduled changes API
+  slug: launchdarkly-scheduled-changes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-scheduled-changes-api-openapi.yml
+- filename: launchdarkly-sdk-keys-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly SDK Keys (beta) API
+  slug: launchdarkly-sdk-keys-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-sdk-keys-beta-api-openapi.yml
+- filename: launchdarkly-teams-beta-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Teams (beta) API
+  slug: launchdarkly-teams-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-teams-beta-api-openapi.yml
+- filename: launchdarkly-user-settings-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly User settings API
+  slug: launchdarkly-user-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-user-settings-api-openapi.yml
+- filename: launchdarkly-users-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Users API
+  slug: launchdarkly-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-users-api-openapi.yml
+- filename: launchdarkly-views-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Views API
+  slug: launchdarkly-views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-views-api-openapi.yml
+- filename: launchdarkly-workflow-templates-api-openapi.yml
+  format: yaml
+  label: LaunchDarkly Workflow templates API
+  slug: launchdarkly-workflow-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/openapi/launchdarkly-workflow-templates-api-openapi.yml
 consequence_counts:
   read: 33
   write: 25

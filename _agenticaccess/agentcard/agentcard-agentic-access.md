@@ -22,18 +22,18 @@ api_specs:
   slug: agentcard-identity-verification-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-identity-verification-api-openapi.yml
-- filename: agentcard-wallet-funding-api-openapi.yml
+- filename: agentcard-member-cards-api-openapi.yml
   format: yaml
-  label: Agentcard Wallet funding API
-  slug: agentcard-wallet-funding-api
+  label: Agentcard Member cards API
+  slug: agentcard-member-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-wallet-funding-api-openapi.yml
-- filename: agentcard-withdrawals-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-member-cards-api-openapi.yml
+- filename: agentcard-purchase-api-openapi.yml
   format: yaml
-  label: Agentcard Withdrawals API
-  slug: agentcard-withdrawals-api
+  label: Agentcard Purchase API
+  slug: agentcard-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-withdrawals-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/openapi/agentcard-purchase-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 6

@@ -69,6 +69,6 @@ tags:
 - Agentic Commerce
 - A2A
 - MCP
-- Field Service
+- Field Service Management
 - Home Services
 ---

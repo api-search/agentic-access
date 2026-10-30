@@ -76,7 +76,6 @@ tags:
 - Company
 - Artificial Intelligence
 - Agents
-- Web Automation
 - Browser Automation
 - Web Monitoring
 - Research

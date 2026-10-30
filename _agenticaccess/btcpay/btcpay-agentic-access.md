@@ -184,6 +184,12 @@ api_specs:
   slug: btcpay-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-webhooks-api-openapi.yml
+- filename: btcpay-reports-api-openapi.yml
+  format: yaml
+  label: BTCPay Server Reports API
+  slug: btcpay-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/openapi/btcpay-reports-api-openapi.yml
 - filename: btcpay-server-info-api-openapi.yml
   format: yaml
   label: BTCPay Server Server Info API

@@ -4,30 +4,42 @@ action_class_counts:
   acting: 4
   connected: 5
 api_specs:
-- filename: geocodio-batch-api-openapi.yml
-  format: yaml
-  label: Geocodio Batch API
-  slug: geocodio-batch-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-batch-api-openapi.yml
-- filename: geocodio-forward-geocoding-api-openapi.yml
-  format: yaml
-  label: Geocodio Forward Geocoding API
-  slug: geocodio-forward-geocoding-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-forward-geocoding-api-openapi.yml
 - filename: geocodio-lists-api-openapi.yml
   format: yaml
   label: Geocodio Lists API
   slug: geocodio-lists-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-lists-api-openapi.yml
-- filename: geocodio-reverse-geocoding-api-openapi.yml
+- filename: geocodio-distance-api-openapi.yml
   format: yaml
-  label: Geocodio Reverse Geocoding API
-  slug: geocodio-reverse-geocoding-api
+  label: Geocodio Distance API
+  slug: geocodio-distance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-reverse-geocoding-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-distance-api-openapi.yml
+- filename: geocodio-distance-jobs-api-openapi.yml
+  format: yaml
+  label: Geocodio Distance Jobs API
+  slug: geocodio-distance-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-distance-jobs-api-openapi.yml
+- filename: geocodio-distance-matrix-api-openapi.yml
+  format: yaml
+  label: Geocodio Distance Matrix API
+  slug: geocodio-distance-matrix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-distance-matrix-api-openapi.yml
+- filename: geocodio-geocode-api-openapi.yml
+  format: yaml
+  label: Geocodio Geocode API
+  slug: geocodio-geocode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-geocode-api-openapi.yml
+- filename: geocodio-reverse-api-openapi.yml
+  format: yaml
+  label: Geocodio Reverse API
+  slug: geocodio-reverse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/openapi/geocodio-reverse-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4

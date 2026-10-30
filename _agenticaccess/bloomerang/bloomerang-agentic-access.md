@@ -34,12 +34,6 @@ api_specs:
   slug: bloomerang-notes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-notes-api-openapi.yml
-- filename: bloomerang-reference-data-api-openapi.yml
-  format: yaml
-  label: Bloomerang Reference Data API
-  slug: bloomerang-reference-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-reference-data-api-openapi.yml
 - filename: bloomerang-relationships-api-openapi.yml
   format: yaml
   label: Bloomerang Relationships API
@@ -52,12 +46,108 @@ api_specs:
   slug: bloomerang-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-transactions-api-openapi.yml
-- filename: bloomerang-webhooks-api-openapi.yml
+- filename: bloomerang-addresses-api-openapi.yml
   format: yaml
-  label: Bloomerang Webhooks API
-  slug: bloomerang-webhooks-api
+  label: Bloomerang Addresses API
+  slug: bloomerang-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-addresses-api-openapi.yml
+- filename: bloomerang-appeals-api-openapi.yml
+  format: yaml
+  label: Bloomerang Appeals API
+  slug: bloomerang-appeals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-appeals-api-openapi.yml
+- filename: bloomerang-campaigns-api-openapi.yml
+  format: yaml
+  label: Bloomerang Campaigns API
+  slug: bloomerang-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-campaigns-api-openapi.yml
+- filename: bloomerang-email-addresses-api-openapi.yml
+  format: yaml
+  label: Bloomerang Email Addresses API
+  slug: bloomerang-email-addresses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-email-addresses-api-openapi.yml
+- filename: bloomerang-email-interests-api-openapi.yml
+  format: yaml
+  label: Bloomerang Email Interests API
+  slug: bloomerang-email-interests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-email-interests-api-openapi.yml
+- filename: bloomerang-funds-api-openapi.yml
+  format: yaml
+  label: Bloomerang Funds API
+  slug: bloomerang-funds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-funds-api-openapi.yml
+- filename: bloomerang-groups-api-openapi.yml
+  format: yaml
+  label: Bloomerang Groups API
+  slug: bloomerang-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-groups-api-openapi.yml
+- filename: bloomerang-phones-api-openapi.yml
+  format: yaml
+  label: Bloomerang Phones API
+  slug: bloomerang-phones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-phones-api-openapi.yml
+- filename: bloomerang-pledges-api-openapi.yml
+  format: yaml
+  label: Bloomerang Pledges API
+  slug: bloomerang-pledges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-pledges-api-openapi.yml
+- filename: bloomerang-processors-api-openapi.yml
+  format: yaml
+  label: Bloomerang Processors API
+  slug: bloomerang-processors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-processors-api-openapi.yml
+- filename: bloomerang-refunds-api-openapi.yml
+  format: yaml
+  label: Bloomerang Refunds API
+  slug: bloomerang-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-refunds-api-openapi.yml
+- filename: bloomerang-relationship-roles-api-openapi.yml
+  format: yaml
+  label: Bloomerang Relationship Roles API
+  slug: bloomerang-relationship-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-relationship-roles-api-openapi.yml
+- filename: bloomerang-soft-credits-api-openapi.yml
+  format: yaml
+  label: Bloomerang Soft Credits API
+  slug: bloomerang-soft-credits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-soft-credits-api-openapi.yml
+- filename: bloomerang-tasks-api-openapi.yml
+  format: yaml
+  label: Bloomerang Tasks API
+  slug: bloomerang-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-tasks-api-openapi.yml
+- filename: bloomerang-tributes-api-openapi.yml
+  format: yaml
+  label: Bloomerang Tributes API
+  slug: bloomerang-tributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-tributes-api-openapi.yml
+- filename: bloomerang-users-api-openapi.yml
+  format: yaml
+  label: Bloomerang Users API
+  slug: bloomerang-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-users-api-openapi.yml
+- filename: bloomerang-wallet-items-api-openapi.yml
+  format: yaml
+  label: Bloomerang Wallet Items API
+  slug: bloomerang-wallet-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/openapi/bloomerang-wallet-items-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17

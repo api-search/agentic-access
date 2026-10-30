@@ -315,7 +315,7 @@ tags:
 - Open Banking
 - PayTo
 - PayID
-- NPP
+- New Payments Platform
 - Direct Debit
 - Digital Wallet
 - Payouts

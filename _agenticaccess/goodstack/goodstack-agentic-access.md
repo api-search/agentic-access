@@ -130,6 +130,132 @@ api_specs:
   slug: goodstack-webhook-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-webhook-subscriptions-api-openapi.yml
+- filename: goodstack-agent-verification-events-api-openapi.yml
+  format: yaml
+  label: Goodstack Agent Verification Events API
+  slug: goodstack-agent-verification-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-agent-verification-events-api-openapi.yml
+- filename: goodstack-budgets-api-openapi.yml
+  format: yaml
+  label: Goodstack Budgets API
+  slug: goodstack-budgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-budgets-api-openapi.yml
+- filename: goodstack-campaigns-api-openapi.yml
+  format: yaml
+  label: Goodstack Campaigns API
+  slug: goodstack-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-campaigns-api-openapi.yml
+- filename: goodstack-country-compliance-check-events-api-openapi.yml
+  format: yaml
+  label: Goodstack Country Compliance Check Events API
+  slug: goodstack-country-compliance-check-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-country-compliance-check-events-api-openapi.yml
+- filename: goodstack-donation-events-api-openapi.yml
+  format: yaml
+  label: Goodstack Donation Events API
+  slug: goodstack-donation-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-donation-events-api-openapi.yml
+- filename: goodstack-donation-match-request-api-openapi.yml
+  format: yaml
+  label: Goodstack Donation Match Request API
+  slug: goodstack-donation-match-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-donation-match-request-api-openapi.yml
+- filename: goodstack-donation-wallets-api-openapi.yml
+  format: yaml
+  label: Goodstack Donation Wallets API
+  slug: goodstack-donation-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-donation-wallets-api-openapi.yml
+- filename: goodstack-eligibility-subscription-events-api-openapi.yml
+  format: yaml
+  label: Goodstack Eligibility Subscription Events API
+  slug: goodstack-eligibility-subscription-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-eligibility-subscription-events-api-openapi.yml
+- filename: goodstack-employees-api-openapi.yml
+  format: yaml
+  label: Goodstack Employees API
+  slug: goodstack-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-employees-api-openapi.yml
+- filename: goodstack-experience-api-openapi.yml
+  format: yaml
+  label: Goodstack Experience API
+  slug: goodstack-experience-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-experience-api-openapi.yml
+- filename: goodstack-fundraising-api-openapi.yml
+  format: yaml
+  label: Goodstack Fundraising API
+  slug: goodstack-fundraising-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-fundraising-api-openapi.yml
+- filename: goodstack-gamification-api-openapi.yml
+  format: yaml
+  label: Goodstack Gamification API
+  slug: goodstack-gamification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-gamification-api-openapi.yml
+- filename: goodstack-giving-donations-api-openapi.yml
+  format: yaml
+  label: Goodstack Giving Donations API
+  slug: goodstack-giving-donations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-giving-donations-api-openapi.yml
+- filename: goodstack-monetary-donation-verification-events-api-openapi.yml
+  format: yaml
+  label: Goodstack Monetary Donation Verification Events API
+  slug: goodstack-monetary-donation-verification-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-monetary-donation-verification-events-api-openapi.yml
+- filename: goodstack-monetary-donation-verifications-api-openapi.yml
+  format: yaml
+  label: Goodstack Monetary Donation Verifications API
+  slug: goodstack-monetary-donation-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-monetary-donation-verifications-api-openapi.yml
+- filename: goodstack-monitoring-subscription-events-api-openapi.yml
+  format: yaml
+  label: Goodstack Monitoring Subscription Events API
+  slug: goodstack-monitoring-subscription-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-monitoring-subscription-events-api-openapi.yml
+- filename: goodstack-organisation-branding-api-openapi.yml
+  format: yaml
+  label: Goodstack Organisation Branding API
+  slug: goodstack-organisation-branding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-organisation-branding-api-openapi.yml
+- filename: goodstack-scim-api-openapi.yml
+  format: yaml
+  label: Goodstack SCIM API
+  slug: goodstack-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-scim-api-openapi.yml
+- filename: goodstack-validation-request-events-api-openapi.yml
+  format: yaml
+  label: Goodstack Validation Request Events API
+  slug: goodstack-validation-request-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-validation-request-events-api-openapi.yml
+- filename: goodstack-validation-submission-events-api-openapi.yml
+  format: yaml
+  label: Goodstack Validation Submission Events API
+  slug: goodstack-validation-submission-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-validation-submission-events-api-openapi.yml
+- filename: goodstack-volunteering-api-openapi.yml
+  format: yaml
+  label: Goodstack Volunteering API
+  slug: goodstack-volunteering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/openapi/goodstack-volunteering-api-openapi.yml
 consequence_counts:
   read: 34
   write: 28

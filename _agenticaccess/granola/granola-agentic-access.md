@@ -3,12 +3,24 @@ acting_count: 0
 action_class_counts:
   connected: 2
 api_specs:
-- filename: granola-notes-api-openapi.yml
+- filename: granola-inbox-messages-api-openapi.yml
   format: yaml
-  label: Granola Notes API
-  slug: granola-notes-api
+  label: Granola Inbox Messages API
+  slug: granola-inbox-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/openapi/granola-notes-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/openapi/granola-inbox-messages-api-openapi.yml
+- filename: granola-inboxes-api-openapi.yml
+  format: yaml
+  label: Granola Inboxes API
+  slug: granola-inboxes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/openapi/granola-inboxes-api-openapi.yml
+- filename: granola-trigger-inbox-api-api-openapi.yml
+  format: yaml
+  label: Granola Trigger Inbox API
+  slug: granola-trigger-inbox-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/openapi/granola-trigger-inbox-api-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

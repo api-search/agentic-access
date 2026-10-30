@@ -4,36 +4,12 @@ action_class_counts:
   acting: 10
   connected: 14
 api_specs:
-- filename: firstrade-account-api-openapi.yml
+- filename: firstrade-plaid-api-openapi.yml
   format: yaml
-  label: Firstrade Account API
-  slug: firstrade-account-api
+  label: Firstrade Plaid API
+  slug: firstrade-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-account-api-openapi.yml
-- filename: firstrade-authentication-api-openapi.yml
-  format: yaml
-  label: Firstrade Authentication API
-  slug: firstrade-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-authentication-api-openapi.yml
-- filename: firstrade-market-data-api-openapi.yml
-  format: yaml
-  label: Firstrade Market Data API
-  slug: firstrade-market-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-market-data-api-openapi.yml
-- filename: firstrade-orders-api-openapi.yml
-  format: yaml
-  label: Firstrade Orders API
-  slug: firstrade-orders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-orders-api-openapi.yml
-- filename: firstrade-watchlist-api-openapi.yml
-  format: yaml
-  label: Firstrade Watchlist API
-  slug: firstrade-watchlist-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-watchlist-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/openapi/firstrade-plaid-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 14

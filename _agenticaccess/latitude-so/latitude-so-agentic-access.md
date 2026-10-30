@@ -237,7 +237,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/latitude-so/re
 summary_line: 139 operations · 58 acting · 2 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Observability
 - Monitoring
 - Platform

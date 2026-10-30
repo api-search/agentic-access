@@ -68,7 +68,7 @@ tags:
 - Homeowners
 - Personal Insurance
 - Risk Management
-- Surety Bonds
+- Surety
 - Telematics
 - Workers Compensation
 ---

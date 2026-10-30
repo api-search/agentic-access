@@ -178,7 +178,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/karada/refs/he
 summary_line: 74 operations · 43 acting
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
 - MCP
 - Automation

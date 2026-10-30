@@ -9,12 +9,12 @@ api_specs:
   slug: candid-lookup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/openapi/candid-lookup-api-openapi.yml
-- filename: candid-search-api-openapi.yml
+- filename: candid-essentials-api-openapi.yml
   format: yaml
-  label: Candid Search API
-  slug: candid-search-api
+  label: Candid Essentials API
+  slug: candid-essentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/openapi/candid-search-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/openapi/candid-essentials-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

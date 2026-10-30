@@ -113,7 +113,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/he
 summary_line: 83 operations · 10 acting
 tags:
 - Company
-- Location-Intelligence
+- Location Intelligence
 - Marketing
 - Data Analytics
 - Footfall-Measurement

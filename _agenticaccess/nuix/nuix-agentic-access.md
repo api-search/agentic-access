@@ -70,6 +70,78 @@ api_specs:
   slug: nuix-utility-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-utility-api-openapi.yml
+- filename: nuix-access-api-openapi.yml
+  format: yaml
+  label: Nuix Access API
+  slug: nuix-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-access-api-openapi.yml
+- filename: nuix-analysis-api-openapi.yml
+  format: yaml
+  label: Nuix Analysis API
+  slug: nuix-analysis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-analysis-api-openapi.yml
+- filename: nuix-culling-api-openapi.yml
+  format: yaml
+  label: Nuix Culling API
+  slug: nuix-culling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-culling-api-openapi.yml
+- filename: nuix-export-api-openapi.yml
+  format: yaml
+  label: Nuix Export API
+  slug: nuix-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-export-api-openapi.yml
+- filename: nuix-inventory-api-openapi.yml
+  format: yaml
+  label: Nuix Inventory API
+  slug: nuix-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-inventory-api-openapi.yml
+- filename: nuix-licensing-api-openapi.yml
+  format: yaml
+  label: Nuix Licensing API
+  slug: nuix-licensing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-licensing-api-openapi.yml
+- filename: nuix-monitoring-api-openapi.yml
+  format: yaml
+  label: Nuix Monitoring API
+  slug: nuix-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-monitoring-api-openapi.yml
+- filename: nuix-processing-api-openapi.yml
+  format: yaml
+  label: Nuix Processing API
+  slug: nuix-processing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-processing-api-openapi.yml
+- filename: nuix-resources-api-openapi.yml
+  format: yaml
+  label: Nuix Resources API
+  slug: nuix-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-resources-api-openapi.yml
+- filename: nuix-scripting-api-openapi.yml
+  format: yaml
+  label: Nuix Scripting API
+  slug: nuix-scripting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-scripting-api-openapi.yml
+- filename: nuix-search-api-openapi.yml
+  format: yaml
+  label: Nuix Search API
+  slug: nuix-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-search-api-openapi.yml
+- filename: nuix-system-api-openapi.yml
+  format: yaml
+  label: Nuix System API
+  slug: nuix-system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/openapi/nuix-system-api-openapi.yml
 consequence_counts:
   read: 17
   write: 17

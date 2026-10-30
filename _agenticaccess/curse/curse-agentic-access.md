@@ -16,12 +16,6 @@ api_specs:
   slug: curse-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-files-api-openapi.yml
-- filename: curse-fingerprints-api-openapi.yml
-  format: yaml
-  label: Curse Fingerprints API
-  slug: curse-fingerprints-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-fingerprints-api-openapi.yml
 - filename: curse-games-api-openapi.yml
   format: yaml
   label: Curse Games API
@@ -46,6 +40,12 @@ api_specs:
   slug: curse-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-subscriptions-api-openapi.yml
+- filename: curse-usermods-api-openapi.yml
+  format: yaml
+  label: Curse User Mods API
+  slug: curse-usermods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/openapi/curse-usermods-api-openapi.yml
 consequence_counts:
   read: 40
   write: 6

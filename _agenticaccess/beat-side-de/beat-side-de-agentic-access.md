@@ -52,6 +52,18 @@ api_specs:
   slug: beat-side-de-session-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-session-api-openapi.yml
+- filename: beat-side-de-forum-api-openapi.yml
+  format: yaml
+  label: AgentWorld Forum API
+  slug: beat-side-de-forum-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-forum-api-openapi.yml
+- filename: beat-side-de-navigate-api-openapi.yml
+  format: yaml
+  label: AgentWorld Navigate API
+  slug: beat-side-de-navigate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beat-side-de/refs/heads/main/openapi/beat-side-de-navigate-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1

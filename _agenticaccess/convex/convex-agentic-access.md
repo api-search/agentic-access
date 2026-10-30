@@ -16,12 +16,6 @@ api_specs:
   slug: convex-actions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-actions-api-openapi.yml
-- filename: convex-deploykeys-api-openapi.yml
-  format: yaml
-  label: Convex DeployKeys API
-  slug: convex-deploykeys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-deploykeys-api-openapi.yml
 - filename: convex-deployments-api-openapi.yml
   format: yaml
   label: Convex Deployments API
@@ -76,6 +70,18 @@ api_specs:
   slug: convex-environment-variables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-environment-variables-api-openapi.yml
+- filename: convex-custom-roles-api-openapi.yml
+  format: yaml
+  label: Convex Custom Roles API
+  slug: convex-custom-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-custom-roles-api-openapi.yml
+- filename: convex-deploy-keys-api-openapi.yml
+  format: yaml
+  label: Convex Deploy Keys API
+  slug: convex-deploy-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-deploy-keys-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 10

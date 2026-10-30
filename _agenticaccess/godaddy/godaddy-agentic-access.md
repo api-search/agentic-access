@@ -82,6 +82,42 @@ api_specs:
   slug: godaddy-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-subscriptions-api-openapi.yml
+- filename: godaddy-discovery-api-openapi.yml
+  format: yaml
+  label: GoDaddy Discovery API
+  slug: godaddy-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-discovery-api-openapi.yml
+- filename: godaddy-domain-management-api-openapi.yml
+  format: yaml
+  label: GoDaddy Domain Management API
+  slug: godaddy-domain-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-domain-management-api-openapi.yml
+- filename: godaddy-operations-api-openapi.yml
+  format: yaml
+  label: GoDaddy Operations API
+  slug: godaddy-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-operations-api-openapi.yml
+- filename: godaddy-records-api-openapi.yml
+  format: yaml
+  label: GoDaddy Records API
+  slug: godaddy-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-records-api-openapi.yml
+- filename: godaddy-registration-quotes-api-openapi.yml
+  format: yaml
+  label: GoDaddy Registration Quotes API
+  slug: godaddy-registration-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-registration-quotes-api-openapi.yml
+- filename: godaddy-registrations-api-openapi.yml
+  format: yaml
+  label: GoDaddy Registrations API
+  slug: godaddy-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-registrations-api-openapi.yml
 consequence_counts:
   physical: 24
   read: 52

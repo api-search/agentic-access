@@ -22,6 +22,36 @@ api_specs:
   slug: aito-technologies-schema-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-schema-api-openapi.yml
+- filename: aito-technologies-envs-api-openapi.yml
+  format: yaml
+  label: Aito Technologies Envs API
+  slug: aito-technologies-envs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-envs-api-openapi.yml
+- filename: aito-technologies-introspection-api-openapi.yml
+  format: yaml
+  label: Aito Technologies Introspection API
+  slug: aito-technologies-introspection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-introspection-api-openapi.yml
+- filename: aito-technologies-jobs-api-openapi.yml
+  format: yaml
+  label: Aito Technologies Jobs API
+  slug: aito-technologies-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-jobs-api-openapi.yml
+- filename: aito-technologies-refs-api-openapi.yml
+  format: yaml
+  label: Aito Technologies Refs API
+  slug: aito-technologies-refs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-refs-api-openapi.yml
+- filename: aito-technologies-releases-api-openapi.yml
+  format: yaml
+  label: Aito Technologies Releases API
+  slug: aito-technologies-releases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/openapi/aito-technologies-releases-api-openapi.yml
 consequence_counts:
   read: 9
   write: 25

@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/themus
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/themuse/refs/heads/main/agentic-access/themuse-agentic-access.yml
 summary_line: 4 operations
 tags:
-- Job Openings
+- Job Postings
 - Job
 - Careers
 - Recruiting

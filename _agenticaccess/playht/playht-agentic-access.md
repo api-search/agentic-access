@@ -85,7 +85,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/playht/refs/he
 summary_line: 13 operations · 6 acting
 tags:
 - Voice
-- TTS
 - Text-to-Speech
 - Voice Cloning
 - Voice Agents

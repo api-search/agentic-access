@@ -292,12 +292,42 @@ api_specs:
   slug: creed-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-webhooks-api-openapi.yml
-- filename: creed-b2-b-api-openapi.yml
+- filename: creed-admin-attribution-api-openapi.yml
   format: yaml
-  label: Creed B2B API
-  slug: creed-b2-b-api
+  label: Creed Admin Attribution API
+  slug: creed-admin-attribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-b2-b-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-admin-attribution-api-openapi.yml
+- filename: creed-b2b-api-openapi.yml
+  format: yaml
+  label: Creed B2b API
+  slug: creed-b2b-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-b2b-api-openapi.yml
+- filename: creed-group-chat-city-api-openapi.yml
+  format: yaml
+  label: Creed Group Chat City API
+  slug: creed-group-chat-city-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-group-chat-city-api-openapi.yml
+- filename: creed-qualified-trials-api-openapi.yml
+  format: yaml
+  label: Creed Qualified Trials API
+  slug: creed-qualified-trials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-qualified-trials-api-openapi.yml
+- filename: creed-quiz-api-openapi.yml
+  format: yaml
+  label: Creed Quiz API
+  slug: creed-quiz-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-quiz-api-openapi.yml
+- filename: creed-shared-prayers-api-openapi.yml
+  format: yaml
+  label: Creed Shared Prayers API
+  slug: creed-shared-prayers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/creed/refs/heads/main/openapi/creed-shared-prayers-api-openapi.yml
 consequence_counts:
   physical: 20
   read: 85

@@ -57,12 +57,6 @@ api_specs:
   slug: conduit-conduit-demo-cdk-g3-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-conduit-demo-cdk-g3-api-openapi.yml
-- filename: conduit-cypher-testnet-uvgtmiptr7-api-openapi.yml
-  format: yaml
-  label: Conduit Cypher Testnet Uvgtmiptr7 API
-  slug: conduit-cypher-testnet-uvgtmiptr7-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-cypher-testnet-uvgtmiptr7-api-openapi.yml
 - filename: conduit-dia-lasernet-mainnet-n208gs8dc3-api-openapi.yml
   format: yaml
   label: Conduit Dia Lasernet Mainnet N208gs8dc3 API
@@ -135,12 +129,6 @@ api_specs:
   slug: conduit-katana-bokuto-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-katana-bokuto-api-openapi.yml
-- filename: conduit-kewi-green-svxeewxcc5-api-openapi.yml
-  format: yaml
-  label: Conduit Kewi Green Svxeewxcc5 API
-  slug: conduit-kewi-green-svxeewxcc5-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-kewi-green-svxeewxcc5-api-openapi.yml
 - filename: conduit-lyra-mainnet-0-api-openapi.yml
   format: yaml
   label: Conduit Lyra Mainnet 0 API
@@ -171,12 +159,6 @@ api_specs:
   slug: conduit-mode-sepolia-vtnhnpim72-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-mode-sepolia-vtnhnpim72-api-openapi.yml
-- filename: conduit-onyx-6l1k4gho61-api-openapi.yml
-  format: yaml
-  label: Conduit Onyx 6l1k4gho61 API
-  slug: conduit-onyx-6l1k4gho61-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-onyx-6l1k4gho61-api-openapi.yml
 - filename: conduit-orderly-l2-4460-sepolia-8tc3sd7dvy-api-openapi.yml
   format: yaml
   label: Conduit Orderly L2 4460 Sepolia 8tc3sd7dvy API
@@ -213,12 +195,6 @@ api_specs:
   slug: conduit-plume-testnet-1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-plume-testnet-1-api-openapi.yml
-- filename: conduit-powerloom-mainnet-v2-v52tbqo4if-api-openapi.yml
-  format: yaml
-  label: Conduit Powerloom Mainnet V2 V52tbqo4if API
-  slug: conduit-powerloom-mainnet-v2-v52tbqo4if-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-powerloom-mainnet-v2-v52tbqo4if-api-openapi.yml
 - filename: conduit-prod-testnet-0eakp60405-api-openapi.yml
   format: yaml
   label: Conduit Prod Testnet 0eakp60405 API
@@ -243,30 +219,6 @@ api_specs:
   slug: conduit-sepolia-superseed-826s35710w-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-sepolia-superseed-826s35710w-api-openapi.yml
-- filename: conduit-sheer-tan-crawdad-ggq0xy4dvx-api-openapi.yml
-  format: yaml
-  label: Conduit Sheer Tan Crawdad Ggq0xy4dvx API
-  slug: conduit-sheer-tan-crawdad-ggq0xy4dvx-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-sheer-tan-crawdad-ggq0xy4dvx-api-openapi.yml
-- filename: conduit-stratostack-8h1p47v0ck-api-openapi.yml
-  format: yaml
-  label: Conduit Stratostack 8h1p47v0ck API
-  slug: conduit-stratostack-8h1p47v0ck-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-stratostack-8h1p47v0ck-api-openapi.yml
-- filename: conduit-stratostack-dpd6y4jwnm-api-openapi.yml
-  format: yaml
-  label: Conduit Stratostack Dpd6y4jwnm API
-  slug: conduit-stratostack-dpd6y4jwnm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-stratostack-dpd6y4jwnm-api-openapi.yml
-- filename: conduit-superposition-1v9rjalnat-api-openapi.yml
-  format: yaml
-  label: Conduit Superposition 1v9rjalnat API
-  slug: conduit-superposition-1v9rjalnat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-superposition-1v9rjalnat-api-openapi.yml
 - filename: conduit-superseed-mainnet-0-api-openapi.yml
   format: yaml
   label: Conduit Superseed Mainnet 0 API
@@ -315,6 +267,42 @@ api_specs:
   slug: conduit-zora-sepolia-0thyhxtf5e-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-zora-sepolia-0thyhxtf5e-api-openapi.yml
+- filename: conduit-edu-chain-mainnet-api-openapi.yml
+  format: yaml
+  label: Conduit Edu Chain Mainnet API
+  slug: conduit-edu-chain-mainnet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-edu-chain-mainnet-api-openapi.yml
+- filename: conduit-edu-chain-testnet-api-openapi.yml
+  format: yaml
+  label: Conduit Edu Chain Testnet API
+  slug: conduit-edu-chain-testnet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-edu-chain-testnet-api-openapi.yml
+- filename: conduit-elysium-testnet-api-openapi.yml
+  format: yaml
+  label: Conduit Elysium Testnet API
+  slug: conduit-elysium-testnet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-elysium-testnet-api-openapi.yml
+- filename: conduit-reya-cronos-api-openapi.yml
+  format: yaml
+  label: Conduit Reya Cronos API
+  slug: conduit-reya-cronos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-reya-cronos-api-openapi.yml
+- filename: conduit-reya-network-api-openapi.yml
+  format: yaml
+  label: Conduit Reya Network API
+  slug: conduit-reya-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-reya-network-api-openapi.yml
+- filename: conduit-zircuit-mainnet-api-openapi.yml
+  format: yaml
+  label: Conduit Zircuit Mainnet API
+  slug: conduit-zircuit-mainnet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/openapi/conduit-zircuit-mainnet-api-openapi.yml
 consequence_counts:
   physical: 2
   write: 50

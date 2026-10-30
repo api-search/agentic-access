@@ -652,6 +652,66 @@ api_specs:
   slug: fulcrumpro-workcenter-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-workcenter-api-openapi.yml
+- filename: fulcrumpro-alert-api-openapi.yml
+  format: yaml
+  label: Fulcrumpro Alert API
+  slug: fulcrumpro-alert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-alert-api-openapi.yml
+- filename: fulcrumpro-change-order-api-openapi.yml
+  format: yaml
+  label: Fulcrumpro Change Order API
+  slug: fulcrumpro-change-order-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-change-order-api-openapi.yml
+- filename: fulcrumpro-department-shift-api-openapi.yml
+  format: yaml
+  label: Fulcrumpro Department Shift API
+  slug: fulcrumpro-department-shift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-department-shift-api-openapi.yml
+- filename: fulcrumpro-equipment-downtime-api-openapi.yml
+  format: yaml
+  label: Fulcrumpro Equipment Downtime API
+  slug: fulcrumpro-equipment-downtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-equipment-downtime-api-openapi.yml
+- filename: fulcrumpro-job-message-api-openapi.yml
+  format: yaml
+  label: Fulcrumpro Job Message API
+  slug: fulcrumpro-job-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-job-message-api-openapi.yml
+- filename: fulcrumpro-nesting-api-openapi.yml
+  format: yaml
+  label: Fulcrumpro Nesting API
+  slug: fulcrumpro-nesting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-nesting-api-openapi.yml
+- filename: fulcrumpro-settings-api-openapi.yml
+  format: yaml
+  label: Fulcrumpro Settings API
+  slug: fulcrumpro-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-settings-api-openapi.yml
+- filename: fulcrumpro-task-api-openapi.yml
+  format: yaml
+  label: Fulcrumpro Task API
+  slug: fulcrumpro-task-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-task-api-openapi.yml
+- filename: fulcrumpro-tool-api-openapi.yml
+  format: yaml
+  label: Fulcrumpro Tool API
+  slug: fulcrumpro-tool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-tool-api-openapi.yml
+- filename: fulcrumpro-tool-calibration-api-openapi.yml
+  format: yaml
+  label: Fulcrumpro Tool Calibration API
+  slug: fulcrumpro-tool-calibration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/openapi/fulcrumpro-tool-calibration-api-openapi.yml
 - filename: fulcrumpro-workorder-api-openapi.yml
   format: yaml
   label: Fulcrumpro Workorder API

@@ -52,6 +52,12 @@ api_specs:
   slug: beyond-pricing-oauth2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-oauth2-api-openapi.yml
+- filename: beyond-pricing-reservations-api-openapi.yml
+  format: yaml
+  label: Beyond Pricing Reservations API
+  slug: beyond-pricing-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-reservations-api-openapi.yml
 consequence_counts:
   read: 18
   write: 13

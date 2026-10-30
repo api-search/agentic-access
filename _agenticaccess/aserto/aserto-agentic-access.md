@@ -93,7 +93,6 @@ tags:
 - ABAC
 - ReBAC
 - Policy
-- Open Policy Agent
 - OPA
 - Cloud-Native
 - Security

@@ -44,7 +44,7 @@ summary_line: 1 operation · 1 acting
 tags:
 - Company
 - Fundraising
-- Venture-Capital
-- Data-Intelligence
-- AI-Agents
+- Venture Capital
+- Data Intelligence
+- AI Agents
 ---

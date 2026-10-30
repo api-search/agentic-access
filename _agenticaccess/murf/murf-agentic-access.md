@@ -81,7 +81,7 @@ summary_line: 14 operations · 8 acting
 tags:
 - Artificial Intelligence
 - Voice
-- TTS
+- Text-to-Speech
 - Voiceover
 - Dubbing
 - Audio

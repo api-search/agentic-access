@@ -227,7 +227,7 @@ tags:
 - Library
 - Government
 - Congress
-- Legislative Data
+- Legislative
 - Digital Collections
 - Newspapers
 - Maps

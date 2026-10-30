@@ -81,7 +81,6 @@ summary_line: 16 operations · 9 acting
 tags:
 - Contract Management
 - Contract Lifecycle Management
-- Contract Lifecycle
 - Contract Automation
 - Legal
 - Legal Tech

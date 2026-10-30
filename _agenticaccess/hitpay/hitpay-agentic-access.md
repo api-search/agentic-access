@@ -94,12 +94,6 @@ api_specs:
   slug: hitpay-refund-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/openapi/hitpay-refund-api-openapi.yml
-- filename: hitpay-refunds-api-openapi.yml
-  format: yaml
-  label: HitPay Refunds API
-  slug: hitpay-refunds-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/openapi/hitpay-refunds-api-openapi.yml
 - filename: hitpay-remitters-api-openapi.yml
   format: yaml
   label: HitPay Remitters API
@@ -124,12 +118,6 @@ api_specs:
   slug: hitpay-subscription-plan-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/openapi/hitpay-subscription-plan-api-openapi.yml
-- filename: hitpay-subscription-plans-api-openapi.yml
-  format: yaml
-  label: HitPay Subscription Plans API
-  slug: hitpay-subscription-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/openapi/hitpay-subscription-plans-api-openapi.yml
 - filename: hitpay-transfers-api-openapi.yml
   format: yaml
   label: HitPay Transfers API
@@ -148,6 +136,18 @@ api_specs:
   slug: hitpay-webhook-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/openapi/hitpay-webhook-events-api-openapi.yml
+- filename: hitpay-location-api-openapi.yml
+  format: yaml
+  label: HitPay Location API
+  slug: hitpay-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/openapi/hitpay-location-api-openapi.yml
+- filename: hitpay-payouts-api-openapi.yml
+  format: yaml
+  label: HitPay Payouts API
+  slug: hitpay-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/openapi/hitpay-payouts-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 43

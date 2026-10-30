@@ -73,6 +73,5 @@ tags:
 - HTML
 - LLM Tools
 - Structured Data
-- Headless Browser
 - CAPTCHA
 ---

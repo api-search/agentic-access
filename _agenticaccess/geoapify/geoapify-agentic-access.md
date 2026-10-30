@@ -9,6 +9,126 @@ api_specs:
   slug: geoapify-geocode-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-geocode-api-openapi.yml
+- filename: geoapify-address-autocomplete-api-openapi.yml
+  format: yaml
+  label: Geoapify Address Autocomplete API
+  slug: geoapify-address-autocomplete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-address-autocomplete-api-openapi.yml
+- filename: geoapify-batch-geocoding-api-openapi.yml
+  format: yaml
+  label: Geoapify Batch Geocoding API
+  slug: geoapify-batch-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-batch-geocoding-api-openapi.yml
+- filename: geoapify-boundaries-api-openapi.yml
+  format: yaml
+  label: Geoapify Boundaries API
+  slug: geoapify-boundaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-boundaries-api-openapi.yml
+- filename: geoapify-elevation-api-openapi.yml
+  format: yaml
+  label: Geoapify Elevation API
+  slug: geoapify-elevation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-elevation-api-openapi.yml
+- filename: geoapify-geometry-api-openapi.yml
+  format: yaml
+  label: Geoapify Geometry API
+  slug: geoapify-geometry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-geometry-api-openapi.yml
+- filename: geoapify-geometry-operations-api-openapi.yml
+  format: yaml
+  label: Geoapify Geometry Operations API
+  slug: geoapify-geometry-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-geometry-operations-api-openapi.yml
+- filename: geoapify-ip-geolocation-api-openapi.yml
+  format: yaml
+  label: Geoapify IP Geolocation API
+  slug: geoapify-ip-geolocation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-ip-geolocation-api-openapi.yml
+- filename: geoapify-isoline-api-openapi.yml
+  format: yaml
+  label: Geoapify Isoline API
+  slug: geoapify-isoline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-isoline-api-openapi.yml
+- filename: geoapify-map-marker-api-openapi.yml
+  format: yaml
+  label: Geoapify Map Marker API
+  slug: geoapify-map-marker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-map-marker-api-openapi.yml
+- filename: geoapify-map-matching-api-openapi.yml
+  format: yaml
+  label: Geoapify Map Matching API
+  slug: geoapify-map-matching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-map-matching-api-openapi.yml
+- filename: geoapify-map-tiles-api-openapi.yml
+  format: yaml
+  label: Geoapify Map Tiles API
+  slug: geoapify-map-tiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-map-tiles-api-openapi.yml
+- filename: geoapify-place-details-api-openapi.yml
+  format: yaml
+  label: Geoapify Place Details API
+  slug: geoapify-place-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-place-details-api-openapi.yml
+- filename: geoapify-place-info-api-openapi.yml
+  format: yaml
+  label: Geoapify Place Info API
+  slug: geoapify-place-info-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-place-info-api-openapi.yml
+- filename: geoapify-places-api-openapi.yml
+  format: yaml
+  label: Geoapify Places API
+  slug: geoapify-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-places-api-openapi.yml
+- filename: geoapify-reverse-geocoding-api-openapi.yml
+  format: yaml
+  label: Geoapify Reverse Geocoding API
+  slug: geoapify-reverse-geocoding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-reverse-geocoding-api-openapi.yml
+- filename: geoapify-route-matrix-api-openapi.yml
+  format: yaml
+  label: Geoapify Route Matrix API
+  slug: geoapify-route-matrix-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-route-matrix-api-openapi.yml
+- filename: geoapify-route-planner-api-openapi.yml
+  format: yaml
+  label: Geoapify Route Planner API
+  slug: geoapify-route-planner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-route-planner-api-openapi.yml
+- filename: geoapify-routing-api-openapi.yml
+  format: yaml
+  label: Geoapify Routing API
+  slug: geoapify-routing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-routing-api-openapi.yml
+- filename: geoapify-static-maps-api-openapi.yml
+  format: yaml
+  label: Geoapify Static Maps API
+  slug: geoapify-static-maps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-static-maps-api-openapi.yml
+- filename: geoapify-post-code-api-openapi.yml
+  format: yaml
+  label: Geoapify Post Code API
+  slug: geoapify-post-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/openapi/geoapify-post-code-api-openapi.yml
 consequence_counts:
   read: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

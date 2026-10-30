@@ -34,6 +34,234 @@ api_specs:
   slug: block-payments-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-payments-api-openapi.yml
+- filename: block-bookingcustomattributes-api-openapi.yml
+  format: yaml
+  label: Block Booking Custom Attributes API
+  slug: block-bookingcustomattributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-bookingcustomattributes-api-openapi.yml
+- filename: block-bookings-api-openapi.yml
+  format: yaml
+  label: Block Bookings API
+  slug: block-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-bookings-api-openapi.yml
+- filename: block-cards-api-openapi.yml
+  format: yaml
+  label: Block Cards API
+  slug: block-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-cards-api-openapi.yml
+- filename: block-channels-api-openapi.yml
+  format: yaml
+  label: Block Channels API
+  slug: block-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-channels-api-openapi.yml
+- filename: block-checkout-api-openapi.yml
+  format: yaml
+  label: Block Checkout API
+  slug: block-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-checkout-api-openapi.yml
+- filename: block-customercustomattributes-api-openapi.yml
+  format: yaml
+  label: Block Customer Custom Attributes API
+  slug: block-customercustomattributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-customercustomattributes-api-openapi.yml
+- filename: block-devices-api-openapi.yml
+  format: yaml
+  label: Block Devices API
+  slug: block-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-devices-api-openapi.yml
+- filename: block-disputes-api-openapi.yml
+  format: yaml
+  label: Block Disputes API
+  slug: block-disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-disputes-api-openapi.yml
+- filename: block-employees-api-openapi.yml
+  format: yaml
+  label: Block Employees API
+  slug: block-employees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-employees-api-openapi.yml
+- filename: block-events-api-openapi.yml
+  format: yaml
+  label: Block Events API
+  slug: block-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-events-api-openapi.yml
+- filename: block-giftcardactivities-api-openapi.yml
+  format: yaml
+  label: Block Gift Card Activities API
+  slug: block-giftcardactivities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-giftcardactivities-api-openapi.yml
+- filename: block-inventory-api-openapi.yml
+  format: yaml
+  label: Block Inventory API
+  slug: block-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-inventory-api-openapi.yml
+- filename: block-invoices-api-openapi.yml
+  format: yaml
+  label: Block Invoices API
+  slug: block-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-invoices-api-openapi.yml
+- filename: block-labor-api-openapi.yml
+  format: yaml
+  label: Block Labor API
+  slug: block-labor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-labor-api-openapi.yml
+- filename: block-locationcustomattributes-api-openapi.yml
+  format: yaml
+  label: Block Location Custom Attributes API
+  slug: block-locationcustomattributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-locationcustomattributes-api-openapi.yml
+- filename: block-locations-api-openapi.yml
+  format: yaml
+  label: Block Locations API
+  slug: block-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-locations-api-openapi.yml
+- filename: block-loyalty-api-openapi.yml
+  format: yaml
+  label: Block Loyalty API
+  slug: block-loyalty-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-loyalty-api-openapi.yml
+- filename: block-merchantcustomattributes-api-openapi.yml
+  format: yaml
+  label: Block Merchant Custom Attributes API
+  slug: block-merchantcustomattributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-merchantcustomattributes-api-openapi.yml
+- filename: block-oauth-api-openapi.yml
+  format: yaml
+  label: Block OAuth API
+  slug: block-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-oauth-api-openapi.yml
+- filename: block-ordercustomattributes-api-openapi.yml
+  format: yaml
+  label: Block Order Custom Attributes API
+  slug: block-ordercustomattributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-ordercustomattributes-api-openapi.yml
+- filename: block-payouts-api-openapi.yml
+  format: yaml
+  label: Block Payouts API
+  slug: block-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-payouts-api-openapi.yml
+- filename: block-refunds-api-openapi.yml
+  format: yaml
+  label: Block Refunds API
+  slug: block-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-refunds-api-openapi.yml
+- filename: block-sites-api-openapi.yml
+  format: yaml
+  label: Block Sites API
+  slug: block-sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-sites-api-openapi.yml
+- filename: block-snippets-api-openapi.yml
+  format: yaml
+  label: Block Snippets API
+  slug: block-snippets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-snippets-api-openapi.yml
+- filename: block-subscriptions-api-openapi.yml
+  format: yaml
+  label: Block Subscriptions API
+  slug: block-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-subscriptions-api-openapi.yml
+- filename: block-team-api-openapi.yml
+  format: yaml
+  label: Block Team API
+  slug: block-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-team-api-openapi.yml
+- filename: block-terminal-api-openapi.yml
+  format: yaml
+  label: Block Terminal API
+  slug: block-terminal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-terminal-api-openapi.yml
+- filename: block-transactions-api-openapi.yml
+  format: yaml
+  label: Block Transactions API
+  slug: block-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-transactions-api-openapi.yml
+- filename: block-transferorder-api-openapi.yml
+  format: yaml
+  label: Block Transfer Order API
+  slug: block-transferorder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-transferorder-api-openapi.yml
+- filename: block-v1transactions-api-openapi.yml
+  format: yaml
+  label: Block V1Transactions API
+  slug: block-v1transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-v1transactions-api-openapi.yml
+- filename: block-vendors-api-openapi.yml
+  format: yaml
+  label: Block Vendors API
+  slug: block-vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-vendors-api-openapi.yml
+- filename: block-apple-pay-api-openapi.yml
+  format: yaml
+  label: Block Apple Pay API
+  slug: block-apple-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-apple-pay-api-openapi.yml
+- filename: block-bank-accounts-api-openapi.yml
+  format: yaml
+  label: Block Bank Accounts API
+  slug: block-bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-bank-accounts-api-openapi.yml
+- filename: block-cash-drawers-api-openapi.yml
+  format: yaml
+  label: Block Cash Drawers API
+  slug: block-cash-drawers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-cash-drawers-api-openapi.yml
+- filename: block-customer-groups-api-openapi.yml
+  format: yaml
+  label: Block Customer Groups API
+  slug: block-customer-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-customer-groups-api-openapi.yml
+- filename: block-customer-segments-api-openapi.yml
+  format: yaml
+  label: Block Customer Segments API
+  slug: block-customer-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-customer-segments-api-openapi.yml
+- filename: block-gift-cards-api-openapi.yml
+  format: yaml
+  label: Block Gift Cards API
+  slug: block-gift-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-gift-cards-api-openapi.yml
+- filename: block-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: Block Webhook Subscriptions API
+  slug: block-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-webhook-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 5

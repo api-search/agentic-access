@@ -71,5 +71,4 @@ tags:
 - Route Optimization
 - GPS Tracking
 - IoT
-- Fleet
 ---

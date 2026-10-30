@@ -22,6 +22,24 @@ api_specs:
   slug: chunkr-ai-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-tasks-api-openapi.yml
+- filename: chunkr-ai-chunkr-api-api-openapi.yml
+  format: yaml
+  label: Chunkr Chunkr API
+  slug: chunkr-ai-chunkr-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-chunkr-api-api-openapi.yml
+- filename: chunkr-ai-extras-api-openapi.yml
+  format: yaml
+  label: Chunkr Extras API
+  slug: chunkr-ai-extras-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-extras-api-openapi.yml
+- filename: chunkr-ai-webhook-api-openapi.yml
+  format: yaml
+  label: Chunkr Webhook API
+  slug: chunkr-ai-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/openapi/chunkr-ai-webhook-api-openapi.yml
 consequence_counts:
   read: 10
   write: 6

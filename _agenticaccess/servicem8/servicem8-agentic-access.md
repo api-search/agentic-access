@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/servic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/agentic-access/servicem8-agentic-access.yml
 summary_line: 63 operations · 36 acting
 tags:
-- Field Service
+- Field Service Management
 - Job Management
 - Trade
 - Scheduling

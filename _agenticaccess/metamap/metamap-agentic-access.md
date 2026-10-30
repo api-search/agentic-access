@@ -159,7 +159,7 @@ tags:
 - Compliance
 - Biometrics
 - Document Verification
-- Face Match
+- Face Matching
 - Liveness
 - GovCheck
 - Watchlist

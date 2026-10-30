@@ -96,8 +96,7 @@ summary_line: 24 operations · 10 acting
 tags:
 - Developer Tools
 - DevOps
-- Git
-- Repositories
 - Version Control
+- Repositories
 - TFVC
 ---

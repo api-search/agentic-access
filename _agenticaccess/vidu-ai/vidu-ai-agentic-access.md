@@ -53,5 +53,5 @@ tags:
 - Image-to-Video
 - Reference-to-Video
 - U-ViT
-- Diffusion
+- Diffusion Models
 ---

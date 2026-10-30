@@ -21,6 +21,24 @@ api_specs:
   slug: alphaai-symbols-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-symbols-api-openapi.yml
+- filename: alphaai-coverage-api-openapi.yml
+  format: yaml
+  label: AlphaAI Coverage API
+  slug: alphaai-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-coverage-api-openapi.yml
+- filename: alphaai-radar-api-openapi.yml
+  format: yaml
+  label: AlphaAI Radar API
+  slug: alphaai-radar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-radar-api-openapi.yml
+- filename: alphaai-stories-api-openapi.yml
+  format: yaml
+  label: AlphaAI Stories API
+  slug: alphaai-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-stories-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

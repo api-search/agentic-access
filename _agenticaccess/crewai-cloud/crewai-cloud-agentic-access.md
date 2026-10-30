@@ -10,30 +10,36 @@ api_specs:
   slug: crewai-amp-webhook-streaming
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/asyncapi/crewai-amp-webhooks-asyncapi.yml
-- filename: crewai-cloud-inputs-api-openapi.yml
+- filename: crewai-cloud-blog-posts-api-openapi.yml
   format: yaml
-  label: CrewAI Cloud Inputs API
-  slug: crewai-cloud-inputs-api
+  label: CrewAI Cloud Blog Posts API
+  slug: crewai-cloud-blog-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-inputs-api-openapi.yml
-- filename: crewai-cloud-kickoff-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-blog-posts-api-openapi.yml
+- filename: crewai-cloud-case-studies-api-openapi.yml
   format: yaml
-  label: CrewAI Cloud Kickoff API
-  slug: crewai-cloud-kickoff-api
+  label: CrewAI Cloud Case Studies API
+  slug: crewai-cloud-case-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-kickoff-api-openapi.yml
-- filename: crewai-cloud-resume-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-case-studies-api-openapi.yml
+- filename: crewai-cloud-events-api-openapi.yml
   format: yaml
-  label: CrewAI Cloud Resume API
-  slug: crewai-cloud-resume-api
+  label: CrewAI Cloud Events API
+  slug: crewai-cloud-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-resume-api-openapi.yml
-- filename: crewai-cloud-status-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-events-api-openapi.yml
+- filename: crewai-cloud-health-api-openapi.yml
   format: yaml
-  label: CrewAI Cloud Status API
-  slug: crewai-cloud-status-api
+  label: CrewAI Cloud Health API
+  slug: crewai-cloud-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-status-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-health-api-openapi.yml
+- filename: crewai-cloud-webinars-api-openapi.yml
+  format: yaml
+  label: CrewAI Cloud Webinars API
+  slug: crewai-cloud-webinars-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/openapi/crewai-cloud-webinars-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2

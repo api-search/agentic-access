@@ -268,18 +268,6 @@ api_specs:
   slug: box-shield-information-barriers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shield-information-barriers-api-openapi.yml
-- filename: box-sign-requests-api-openapi.yml
-  format: yaml
-  label: Box Sign Requests API
-  slug: box-sign-requests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-sign-requests-api-openapi.yml
-- filename: box-sign-templates-api-openapi.yml
-  format: yaml
-  label: Box Sign Templates API
-  slug: box-sign-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-sign-templates-api-openapi.yml
 - filename: box-skills-api-openapi.yml
   format: yaml
   label: Box Skills API
@@ -412,6 +400,48 @@ api_specs:
   slug: box-zip-downloads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-zip-downloads-api-openapi.yml
+- filename: box-ai-api-openapi.yml
+  format: yaml
+  label: Box AI API
+  slug: box-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-ai-api-openapi.yml
+- filename: box-ai-studio-api-openapi.yml
+  format: yaml
+  label: Box AI Studio API
+  slug: box-ai-studio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-ai-studio-api-openapi.yml
+- filename: box-app-item-associations-api-openapi.yml
+  format: yaml
+  label: Box App item associations API
+  slug: box-app-item-associations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-app-item-associations-api-openapi.yml
+- filename: box-box-sign-requests-api-openapi.yml
+  format: yaml
+  label: Box Box Sign requests API
+  slug: box-box-sign-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-box-sign-requests-api-openapi.yml
+- filename: box-box-sign-templates-api-openapi.yml
+  format: yaml
+  label: Box Box Sign templates API
+  slug: box-box-sign-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-box-sign-templates-api-openapi.yml
+- filename: box-metadata-taxonomies-api-openapi.yml
+  format: yaml
+  label: Box Metadata taxonomies API
+  slug: box-metadata-taxonomies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-metadata-taxonomies-api-openapi.yml
+- filename: box-shared-links-app-items-api-openapi.yml
+  format: yaml
+  label: Box Shared links (App Items) API
+  slug: box-shared-links-app-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/openapi/box-shared-links-app-items-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 118

@@ -70,6 +70,12 @@ api_specs:
   slug: hex-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-users-api-openapi.yml
+- filename: hex-suggestions-api-openapi.yml
+  format: yaml
+  label: Hex Suggestions API
+  slug: hex-suggestions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-suggestions-api-openapi.yml
 consequence_counts:
   read: 23
   write: 29

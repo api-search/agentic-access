@@ -4,18 +4,6 @@ action_class_counts:
   acting: 7
   connected: 5
 api_specs:
-- filename: glide-apps-queries-api-openapi.yml
-  format: yaml
-  label: Glide Queries API
-  slug: glide-apps-queries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-queries-api-openapi.yml
-- filename: glide-apps-rows-api-openapi.yml
-  format: yaml
-  label: Glide Rows API
-  slug: glide-apps-rows-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-rows-api-openapi.yml
 - filename: glide-apps-stashes-api-openapi.yml
   format: yaml
   label: Glide Stashes API
@@ -28,6 +16,24 @@ api_specs:
   slug: glide-apps-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-tables-api-openapi.yml
+- filename: glide-apps-apps-api-openapi.yml
+  format: yaml
+  label: Glide Apps API
+  slug: glide-apps-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-apps-api-openapi.yml
+- filename: glide-apps-jobs-api-openapi.yml
+  format: yaml
+  label: Glide Jobs API
+  slug: glide-apps-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-jobs-api-openapi.yml
+- filename: glide-apps-me-api-openapi.yml
+  format: yaml
+  label: Glide Me API
+  slug: glide-apps-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/openapi/glide-apps-me-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7

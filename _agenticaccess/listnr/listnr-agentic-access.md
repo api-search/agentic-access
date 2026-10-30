@@ -4,24 +4,24 @@ action_class_counts:
   acting: 4
   connected: 2
 api_specs:
-- filename: listnr-jobs-api-openapi.yml
+- filename: listnr-agent-api-openapi.yml
   format: yaml
-  label: Listnr Jobs API
-  slug: listnr-jobs-api
+  label: Listnr Agent API
+  slug: listnr-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-jobs-api-openapi.yml
-- filename: listnr-text-to-speech-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-agent-api-openapi.yml
+- filename: listnr-billing-api-openapi.yml
   format: yaml
-  label: Listnr Text-to-Speech API
-  slug: listnr-text-to-speech-api
+  label: Listnr Billing API
+  slug: listnr-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-text-to-speech-api-openapi.yml
-- filename: listnr-voices-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-billing-api-openapi.yml
+- filename: listnr-catalog-api-openapi.yml
   format: yaml
-  label: Listnr Voices API
-  slug: listnr-voices-api
+  label: Listnr Catalog API
+  slug: listnr-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-voices-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/openapi/listnr-catalog-api-openapi.yml
 consequence_counts:
   read: 2
   write: 4
@@ -55,7 +55,6 @@ summary_line: 6 operations · 4 acting
 tags:
 - Artificial Intelligence
 - Text-to-Speech
-- TTS
 - Voice
 - Speech Synthesis
 - Audio

@@ -80,6 +80,6 @@ tags:
 - VIN
 - Vehicle Data
 - Automotive
-- VIN Decoder
+- VIN Decoding
 - Market Value
 ---

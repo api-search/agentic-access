@@ -34,12 +34,6 @@ api_specs:
   slug: end-close-data-streams-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/openapi/end-close-data-streams-api-openapi.yml
-- filename: end-close-import-batches-api-openapi.yml
-  format: yaml
-  label: End Close Import Batches API
-  slug: end-close-import-batches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/openapi/end-close-import-batches-api-openapi.yml
 - filename: end-close-reconciliation-exceptions-api-openapi.yml
   format: yaml
   label: End Close Reconciliation Exceptions API
@@ -82,6 +76,24 @@ api_specs:
   slug: end-close-end-close-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/openapi/end-close-end-close-api-api-openapi.yml
+- filename: end-close-agents-api-openapi.yml
+  format: yaml
+  label: End Close Agents API
+  slug: end-close-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/openapi/end-close-agents-api-openapi.yml
+- filename: end-close-file-imports-api-openapi.yml
+  format: yaml
+  label: End Close File Imports API
+  slug: end-close-file-imports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/openapi/end-close-file-imports-api-openapi.yml
+- filename: end-close-relays-api-openapi.yml
+  format: yaml
+  label: End Close Relays API
+  slug: end-close-relays-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/openapi/end-close-relays-api-openapi.yml
 consequence_counts:
   read: 27
   safety-critical: 1

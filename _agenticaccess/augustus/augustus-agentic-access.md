@@ -88,6 +88,36 @@ api_specs:
   slug: augustus-webhook-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-webhook-events-api-openapi.yml
+- filename: augustus-account-holders-api-openapi.yml
+  format: yaml
+  label: Augustus Account Holders API
+  slug: augustus-account-holders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-account-holders-api-openapi.yml
+- filename: augustus-counterparties-api-openapi.yml
+  format: yaml
+  label: Augustus Counterparties API
+  slug: augustus-counterparties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-counterparties-api-openapi.yml
+- filename: augustus-payout-tracking-events-api-openapi.yml
+  format: yaml
+  label: Augustus Payout Tracking Events API
+  slug: augustus-payout-tracking-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-payout-tracking-events-api-openapi.yml
+- filename: augustus-simulations-api-openapi.yml
+  format: yaml
+  label: Augustus Simulations API
+  slug: augustus-simulations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-simulations-api-openapi.yml
+- filename: augustus-transactions-api-openapi.yml
+  format: yaml
+  label: Augustus Transactions API
+  slug: augustus-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/openapi/augustus-transactions-api-openapi.yml
 consequence_counts:
   read: 25
   safety-critical: 12

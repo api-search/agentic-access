@@ -82,7 +82,6 @@ summary_line: 16 operations · 9 acting
 tags:
 - Contract Management
 - Contract Lifecycle Management
-- Contract Lifecycle
 - Legal
 - E-Signature
 - Contracts

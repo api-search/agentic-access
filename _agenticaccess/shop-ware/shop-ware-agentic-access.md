@@ -287,7 +287,7 @@ tags:
 - Auto Repair
 - Shop Management
 - Repair Orders
-- Field Service
+- Field Service Management
 - Software-as-a-Service
 - Webhook
 - Payments

@@ -99,7 +99,7 @@ summary_line: 27 operations
 tags:
 - Automotive
 - Vehicle Data
-- VIN Decoder
+- VIN Decoding
 - Car Inventory
 - Market Data
 - Dealer Inventory

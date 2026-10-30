@@ -131,7 +131,7 @@ tags:
 - Research
 - Academic
 - Open Access
-- Bibliographic
+- Bibliographic Records
 - Publications
 - Metadata
 - Internet Archive

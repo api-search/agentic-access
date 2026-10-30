@@ -68,8 +68,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/doaj-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/agentic-access/doaj-agentic-access.yml
 summary_line: 17 operations · 10 acting
 tags:
-- OpenAccess
+- Open Access
 - Journals
-- ScholarlyPublishing
+- Scholarly Publishing
 - Metadata
 ---

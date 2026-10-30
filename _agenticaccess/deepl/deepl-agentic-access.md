@@ -10,42 +10,90 @@ api_specs:
   slug: deepl-voice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-voice-api-openapi.yml
-- filename: deepl-documents-api-openapi.yml
+- filename: deepl-adminapi-api-openapi.yml
   format: yaml
-  label: DeepL Documents API
-  slug: deepl-documents-api
+  label: DeepL Admin API
+  slug: deepl-adminapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-documents-api-openapi.yml
-- filename: deepl-glossaries-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-adminapi-api-openapi.yml
+- filename: deepl-correcttext-api-openapi.yml
   format: yaml
-  label: DeepL Glossaries API
-  slug: deepl-glossaries-api
+  label: DeepL Correct Text API
+  slug: deepl-correcttext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-glossaries-api-openapi.yml
-- filename: deepl-languages-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-correcttext-api-openapi.yml
+- filename: deepl-manageglossaries-api-openapi.yml
   format: yaml
-  label: DeepL Languages API
-  slug: deepl-languages-api
+  label: DeepL Manage Glossaries API
+  slug: deepl-manageglossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-languages-api-openapi.yml
-- filename: deepl-translate-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-manageglossaries-api-openapi.yml
+- filename: deepl-managemultilingualglossaries-api-openapi.yml
   format: yaml
-  label: DeepL Translate API
-  slug: deepl-translate-api
+  label: DeepL Manage Multilingual Glossaries API
+  slug: deepl-managemultilingualglossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-translate-api-openapi.yml
-- filename: deepl-usage-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-managemultilingualglossaries-api-openapi.yml
+- filename: deepl-managespokenterms-api-openapi.yml
   format: yaml
-  label: DeepL Usage API
-  slug: deepl-usage-api
+  label: DeepL Manage Spoken Terms API
+  slug: deepl-managespokenterms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-usage-api-openapi.yml
-- filename: deepl-write-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-managespokenterms-api-openapi.yml
+- filename: deepl-metainformation-api-openapi.yml
   format: yaml
-  label: DeepL Write API
-  slug: deepl-write-api
+  label: DeepL Meta Information API
+  slug: deepl-metainformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-write-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-metainformation-api-openapi.yml
+- filename: deepl-qualityevaluation-api-openapi.yml
+  format: yaml
+  label: DeepL Quality Evaluation API
+  slug: deepl-qualityevaluation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-qualityevaluation-api-openapi.yml
+- filename: deepl-rephrasetext-api-openapi.yml
+  format: yaml
+  label: DeepL Rephrase Text API
+  slug: deepl-rephrasetext-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-rephrasetext-api-openapi.yml
+- filename: deepl-style-rules-api-openapi.yml
+  format: yaml
+  label: DeepL Style Rules API
+  slug: deepl-style-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-style-rules-api-openapi.yml
+- filename: deepl-translatedocuments-api-openapi.yml
+  format: yaml
+  label: DeepL Translate Documents API
+  slug: deepl-translatedocuments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-translatedocuments-api-openapi.yml
+- filename: deepl-translatetext-api-openapi.yml
+  format: yaml
+  label: DeepL Translate Text API
+  slug: deepl-translatetext-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-translatetext-api-openapi.yml
+- filename: deepl-translationmemories-api-openapi.yml
+  format: yaml
+  label: DeepL Translation Memories API
+  slug: deepl-translationmemories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-translationmemories-api-openapi.yml
+- filename: deepl-voiceapi-api-openapi.yml
+  format: yaml
+  label: DeepL Voice API
+  slug: deepl-voiceapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-voiceapi-api-openapi.yml
+- filename: deepl-voicetranslatejob-api-openapi.yml
+  format: yaml
+  label: DeepL Voice Translate Job API
+  slug: deepl-voicetranslatejob-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/openapi/deepl-voicetranslatejob-api-openapi.yml
 consequence_counts:
   read: 9
   write: 6

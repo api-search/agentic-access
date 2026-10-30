@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robottraining-
 summary_line: 3 operations
 tags:
 - Company
-- JobBoard
+- Job Board
 - Robotics
 - Employment
 - Artificial Intelligence

@@ -58,18 +58,72 @@ api_specs:
   slug: freestyle-sh-observability-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-observability-api-openapi.yml
-- filename: freestyle-sh-vm-api-openapi.yml
-  format: yaml
-  label: Freestyle VM API
-  slug: freestyle-sh-vm-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-vm-api-openapi.yml
 - filename: freestyle-sh-web-api-openapi.yml
   format: yaml
   label: Freestyle Web API
   slug: freestyle-sh-web-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-web-api-openapi.yml
+- filename: freestyle-sh-background-requests-api-openapi.yml
+  format: yaml
+  label: Freestyle Background requests API
+  slug: freestyle-sh-background-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-background-requests-api-openapi.yml
+- filename: freestyle-sh-filesystem-api-openapi.yml
+  format: yaml
+  label: Freestyle Filesystem API
+  slug: freestyle-sh-filesystem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-filesystem-api-openapi.yml
+- filename: freestyle-sh-firewall-api-openapi.yml
+  format: yaml
+  label: Freestyle Firewall API
+  slug: freestyle-sh-firewall-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-firewall-api-openapi.yml
+- filename: freestyle-sh-hardware-api-openapi.yml
+  format: yaml
+  label: Freestyle Hardware API
+  slug: freestyle-sh-hardware-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-hardware-api-openapi.yml
+- filename: freestyle-sh-identities-api-openapi.yml
+  format: yaml
+  label: Freestyle Identities API
+  slug: freestyle-sh-identities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-identities-api-openapi.yml
+- filename: freestyle-sh-snapshots-api-openapi.yml
+  format: yaml
+  label: Freestyle Snapshots API
+  slug: freestyle-sh-snapshots-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-snapshots-api-openapi.yml
+- filename: freestyle-sh-tls-api-openapi.yml
+  format: yaml
+  label: Freestyle TLS API
+  slug: freestyle-sh-tls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-tls-api-openapi.yml
+- filename: freestyle-sh-tunnels-api-openapi.yml
+  format: yaml
+  label: Freestyle Tunnels API
+  slug: freestyle-sh-tunnels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-tunnels-api-openapi.yml
+- filename: freestyle-sh-vms-api-openapi.yml
+  format: yaml
+  label: Freestyle VMs API
+  slug: freestyle-sh-vms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-vms-api-openapi.yml
+- filename: freestyle-sh-vpcs-api-openapi.yml
+  format: yaml
+  label: Freestyle VPCs API
+  slug: freestyle-sh-vpcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/openapi/freestyle-sh-vpcs-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 67
@@ -202,7 +256,7 @@ tags:
 - Sandbox
 - VMs
 - MicroVM
-- Git
+- Version Control
 - Code Execution
 - JavaScript
 - TypeScript

@@ -22,12 +22,6 @@ api_specs:
   slug: dbt-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-jobs-api-openapi.yml
-- filename: dbt-metadata-api-openapi.yml
-  format: yaml
-  label: dbt Metadata API
-  slug: dbt-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-metadata-api-openapi.yml
 - filename: dbt-metrics-api-openapi.yml
   format: yaml
   label: dbt Metrics API
@@ -46,6 +40,30 @@ api_specs:
   slug: dbt-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-runs-api-openapi.yml
+- filename: dbt-fastapi-api-openapi.yml
+  format: yaml
+  label: dbt Fast API
+  slug: dbt-fastapi-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-fastapi-api-openapi.yml
+- filename: dbt-private-api-openapi.yml
+  format: yaml
+  label: dbt Private API
+  slug: dbt-private-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-private-api-openapi.yml
+- filename: dbt-ready-api-openapi.yml
+  format: yaml
+  label: dbt Ready API
+  slug: dbt-ready-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-ready-api-openapi.yml
+- filename: dbt-graph-ql-api-openapi.yml
+  format: yaml
+  label: dbt Graph QL API
+  slug: dbt-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/openapi/dbt-graph-ql-api-openapi.yml
 consequence_counts:
   read: 8
   write: 4

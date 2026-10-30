@@ -85,7 +85,7 @@ summary_line: 33 operations · 20 acting · 1 human-in-the-loop
 tags:
 - DevOps
 - Virtualization
-- Development Environments
+- Developer Environments
 - Box
 - Cloud
 - HashiCorp

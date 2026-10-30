@@ -55,5 +55,5 @@ tags:
 - Company
 - Chess
 - Free
-- NoAuth
+- No Auth
 ---

@@ -150,7 +150,7 @@ tags:
 - Python
 - Apache 2.0
 - LLM
-- Git
+- Version Control
 - BYO LLM
 - Terminal
 - Polyglot

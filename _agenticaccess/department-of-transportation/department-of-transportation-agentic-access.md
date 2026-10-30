@@ -88,6 +88,48 @@ api_specs:
   slug: department-of-transportation-wmi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/openapi/department-of-transportation-wmi-api-openapi.yml
+- filename: department-of-transportation-childseats-api-openapi.yml
+  format: yaml
+  label: Department of Transportation Child Seats API
+  slug: department-of-transportation-childseats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/openapi/department-of-transportation-childseats-api-openapi.yml
+- filename: department-of-transportation-equipment-api-openapi.yml
+  format: yaml
+  label: Department of Transportation Equipment API
+  slug: department-of-transportation-equipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/openapi/department-of-transportation-equipment-api-openapi.yml
+- filename: department-of-transportation-ewr-api-openapi.yml
+  format: yaml
+  label: Department of Transportation Ewr API
+  slug: department-of-transportation-ewr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/openapi/department-of-transportation-ewr-api-openapi.yml
+- filename: department-of-transportation-foreigncampaigns-api-openapi.yml
+  format: yaml
+  label: Department of Transportation Foreign Campaigns API
+  slug: department-of-transportation-foreigncampaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/openapi/department-of-transportation-foreigncampaigns-api-openapi.yml
+- filename: department-of-transportation-safetyissues-api-openapi.yml
+  format: yaml
+  label: Department of Transportation Safety Issues API
+  slug: department-of-transportation-safetyissues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/openapi/department-of-transportation-safetyissues-api-openapi.yml
+- filename: department-of-transportation-tires-api-openapi.yml
+  format: yaml
+  label: Department of Transportation Tires API
+  slug: department-of-transportation-tires-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/openapi/department-of-transportation-tires-api-openapi.yml
+- filename: department-of-transportation-vehicles-api-openapi.yml
+  format: yaml
+  label: Department of Transportation Vehicles API
+  slug: department-of-transportation-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/openapi/department-of-transportation-vehicles-api-openapi.yml
 consequence_counts:
   read: 19
   write: 1

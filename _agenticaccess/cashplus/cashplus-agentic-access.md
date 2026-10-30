@@ -130,6 +130,18 @@ api_specs:
   slug: cashplus-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-transactions-api-openapi.yml
+- filename: cashplus-operations-applications-application-api-openapi.yml
+  format: yaml
+  label: Cashplus Bank Operations Applications - Application API
+  slug: cashplus-operations-applications-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-operations-applications-application-api-openapi.yml
+- filename: cashplus-operations-applications-service-information-api-openapi.yml
+  format: yaml
+  label: Cashplus Bank Operations Applications - Service Information API
+  slug: cashplus-operations-applications-service-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-operations-applications-service-information-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 54

@@ -142,6 +142,42 @@ api_specs:
   slug: dust-identity-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-users-api-openapi.yml
+- filename: dust-identity-composite-tags-api-openapi.yml
+  format: yaml
+  label: Dust Identity Composite Tags API
+  slug: dust-identity-composite-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-composite-tags-api-openapi.yml
+- filename: dust-identity-fields-api-openapi.yml
+  format: yaml
+  label: Dust Identity Fields API
+  slug: dust-identity-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-fields-api-openapi.yml
+- filename: dust-identity-public-page-designs-api-openapi.yml
+  format: yaml
+  label: Dust Identity Public Page Designs API
+  slug: dust-identity-public-page-designs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-public-page-designs-api-openapi.yml
+- filename: dust-identity-public-pages-api-openapi.yml
+  format: yaml
+  label: Dust Identity Public Pages API
+  slug: dust-identity-public-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-public-pages-api-openapi.yml
+- filename: dust-identity-tamper-api-openapi.yml
+  format: yaml
+  label: Dust Identity Tamper API
+  slug: dust-identity-tamper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-tamper-api-openapi.yml
+- filename: dust-identity-vlinks-api-openapi.yml
+  format: yaml
+  label: Dust Identity Vlinks API
+  slug: dust-identity-vlinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-vlinks-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 74

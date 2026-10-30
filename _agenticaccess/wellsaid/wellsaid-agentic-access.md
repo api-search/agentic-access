@@ -72,5 +72,4 @@ tags:
 - Text-to-Speech
 - Voice
 - Audio
-- TTS
 ---

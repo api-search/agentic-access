@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/litescrape/ref
 summary_line: 23 operations · 1 acting
 tags:
 - Company
-- SERP API
+- SERP
 - Web Scraping
 - Search
 - Google Maps

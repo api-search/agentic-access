@@ -42,7 +42,7 @@ summary_line: 3 operations · 2 acting
 tags:
 - Artificial Intelligence
 - Voice
-- TTS
+- Text-to-Speech
 - Real-Time
 - Conversational AI
 ---

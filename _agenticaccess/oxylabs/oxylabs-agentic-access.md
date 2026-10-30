@@ -67,7 +67,7 @@ tags:
 - Datacenter Proxies
 - Datasets
 - E-Commerce Data
-- Headless Browser
+- Browser Automation
 - ISP Proxies
 - Mobile Proxies
 - Proxies

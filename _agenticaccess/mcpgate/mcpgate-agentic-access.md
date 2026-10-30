@@ -395,7 +395,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcpgate/refs/h
 summary_line: 471 operations · 203 acting · 9 human-in-the-loop
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Integration
 - Security
 - Automation

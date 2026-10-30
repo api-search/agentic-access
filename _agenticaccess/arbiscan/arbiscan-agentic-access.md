@@ -43,5 +43,4 @@ tags:
 - Layer 2
 - EVM
 - Web3
-- L2
 ---

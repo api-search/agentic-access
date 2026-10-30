@@ -58,6 +58,24 @@ api_specs:
   slug: captions-ai-creator-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-ai-creator-api-openapi.yml
+- filename: captions-catalog-api-openapi.yml
+  format: yaml
+  label: Captions Catalog API
+  slug: captions-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-catalog-api-openapi.yml
+- filename: captions-internal-fal-api-openapi.yml
+  format: yaml
+  label: Captions Internal Fal API
+  slug: captions-internal-fal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-internal-fal-api-openapi.yml
+- filename: captions-videos-v2-api-openapi.yml
+  format: yaml
+  label: Captions Videos v2 API
+  slug: captions-videos-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/openapi/captions-videos-v2-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 5

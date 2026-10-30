@@ -69,7 +69,7 @@ tags:
 - ERC-7702
 - Ethereum
 - Gas Abstraction
-- Gasless
+- Gasless Transactions
 - MEE
 - Paymaster
 - Smart Accounts

@@ -27,6 +27,36 @@ api_specs:
   slug: energy-charts-api-ren-share-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-ren-share-api-openapi.yml
+- filename: energy-charts-api-energy-charts-api-api-openapi.yml
+  format: yaml
+  label: Energy Charts API Energy Charts API
+  slug: energy-charts-api-energy-charts-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-energy-charts-api-api-openapi.yml
+- filename: energy-charts-api-import-export-v2-api-openapi.yml
+  format: yaml
+  label: Energy Charts API import_export v2 API
+  slug: energy-charts-api-import-export-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-import-export-v2-api-openapi.yml
+- filename: energy-charts-api-power-v2-api-openapi.yml
+  format: yaml
+  label: Energy Charts API power v2 API
+  slug: energy-charts-api-power-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-power-v2-api-openapi.yml
+- filename: energy-charts-api-prices-v2-api-openapi.yml
+  format: yaml
+  label: Energy Charts API prices v2 API
+  slug: energy-charts-api-prices-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-prices-v2-api-openapi.yml
+- filename: energy-charts-api-ren-share-v2-api-openapi.yml
+  format: yaml
+  label: Energy Charts API ren_share v2 API
+  slug: energy-charts-api-ren-share-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-ren-share-v2-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -128,10 +128,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workwa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workwave/refs/heads/main/agentic-access/workwave-agentic-access.yml
 summary_line: 41 operations · 26 acting
 tags:
-- Field Service
+- Field Service Management
 - Route Optimization
 - Last Mile Delivery
-- Fleet
+- Fleet Management
 - GPS Tracking
 - Logistics
 ---

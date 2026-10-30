@@ -63,9 +63,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs
 summary_line: 17 operations · 10 acting
 tags:
 - Browser
-- Web Automation
+- Browser Automation
 - Web Scraping
 - AI Agents
 - Open Source
-- Browser Automation
 ---

@@ -197,7 +197,6 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/agentic-access/forgejo-agentic-access.yml
 summary_line: 506 operations · 245 acting · 5 human-in-the-loop
 tags:
-- Git
 - Version Control
 - Self-Hosted
 - DevOps

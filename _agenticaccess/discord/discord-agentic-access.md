@@ -40,12 +40,6 @@ api_specs:
   slug: discord-guilds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-guilds-api-openapi.yml
-- filename: discord-interaction-responses-api-openapi.yml
-  format: yaml
-  label: Discord Interaction Responses API
-  slug: discord-interaction-responses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-interaction-responses-api-openapi.yml
 - filename: discord-invites-api-openapi.yml
   format: yaml
   label: Discord Invites API
@@ -94,6 +88,30 @@ api_specs:
   slug: discord-oauth2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-oauth2-api-openapi.yml
+- filename: discord-lobbies-api-openapi.yml
+  format: yaml
+  label: Discord Lobbies API
+  slug: discord-lobbies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-lobbies-api-openapi.yml
+- filename: discord-partner-sdk-api-openapi.yml
+  format: yaml
+  label: Discord Partner Sdk API
+  slug: discord-partner-sdk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-partner-sdk-api-openapi.yml
+- filename: discord-skus-api-openapi.yml
+  format: yaml
+  label: Discord Skus API
+  slug: discord-skus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-skus-api-openapi.yml
+- filename: discord-soundboard-default-sounds-api-openapi.yml
+  format: yaml
+  label: Discord Soundboard Default Sounds API
+  slug: discord-soundboard-default-sounds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-soundboard-default-sounds-api-openapi.yml
 consequence_counts:
   read: 131
   safety-critical: 2

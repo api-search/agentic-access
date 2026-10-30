@@ -54,7 +54,6 @@ summary_line: 5 operations · 2 acting
 tags:
 - Artificial Intelligence
 - Text-to-Speech
-- TTS
 - Voice Generation
 - Voice Cloning
 - Speech Synthesis

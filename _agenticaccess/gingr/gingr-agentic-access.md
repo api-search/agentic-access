@@ -10,12 +10,6 @@ api_specs:
   slug: gingr-invoices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-invoices-api-openapi.yml
-- filename: gingr-owners-api-openapi.yml
-  format: yaml
-  label: Gingr Owners API
-  slug: gingr-owners-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-owners-api-openapi.yml
 - filename: gingr-payments-api-openapi.yml
   format: yaml
   label: Gingr Payments API
@@ -28,36 +22,60 @@ api_specs:
   slug: gingr-pets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-pets-api-openapi.yml
-- filename: gingr-report-cards-api-openapi.yml
+- filename: gingr-booking-type-rates-api-openapi.yml
   format: yaml
-  label: Gingr Report Cards API
-  slug: gingr-report-cards-api
+  label: Gingr Booking Type Rates API
+  slug: gingr-booking-type-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-report-cards-api-openapi.yml
-- filename: gingr-reservations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-booking-type-rates-api-openapi.yml
+- filename: gingr-bookings-api-openapi.yml
   format: yaml
-  label: Gingr Reservations API
-  slug: gingr-reservations-api
+  label: Gingr Bookings API
+  slug: gingr-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-reservations-api-openapi.yml
-- filename: gingr-services-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-bookings-api-openapi.yml
+- filename: gingr-card-on-file-api-openapi.yml
   format: yaml
-  label: Gingr Services API
-  slug: gingr-services-api
+  label: Gingr Card On File API
+  slug: gingr-card-on-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-services-api-openapi.yml
-- filename: gingr-vaccinations-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-card-on-file-api-openapi.yml
+- filename: gingr-config-api-openapi.yml
   format: yaml
-  label: Gingr Vaccinations API
-  slug: gingr-vaccinations-api
+  label: Gingr Config API
+  slug: gingr-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-vaccinations-api-openapi.yml
-- filename: gingr-waitlist-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-config-api-openapi.yml
+- filename: gingr-group-classes-api-openapi.yml
   format: yaml
-  label: Gingr Waitlist API
-  slug: gingr-waitlist-api
+  label: Gingr Group Classes API
+  slug: gingr-group-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-waitlist-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-group-classes-api-openapi.yml
+- filename: gingr-parents-api-openapi.yml
+  format: yaml
+  label: Gingr Parents API
+  slug: gingr-parents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-parents-api-openapi.yml
+- filename: gingr-payment-api-openapi.yml
+  format: yaml
+  label: Gingr Payment API
+  slug: gingr-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-payment-api-openapi.yml
+- filename: gingr-precheck-api-openapi.yml
+  format: yaml
+  label: Gingr Precheck API
+  slug: gingr-precheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-precheck-api-openapi.yml
+- filename: gingr-upload-api-openapi.yml
+  format: yaml
+  label: Gingr Upload API
+  slug: gingr-upload-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/openapi/gingr-upload-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 26

@@ -22,6 +22,54 @@ api_specs:
   slug: brex-spend-limits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-spend-limits-api-openapi.yml
+- filename: brex-cards-api-openapi.yml
+  format: yaml
+  label: Brex Cards API
+  slug: brex-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-cards-api-openapi.yml
+- filename: brex-companies-api-openapi.yml
+  format: yaml
+  label: Brex Companies API
+  slug: brex-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-companies-api-openapi.yml
+- filename: brex-cost-centers-api-openapi.yml
+  format: yaml
+  label: Brex Cost Centers API
+  slug: brex-cost-centers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-cost-centers-api-openapi.yml
+- filename: brex-departments-api-openapi.yml
+  format: yaml
+  label: Brex Departments API
+  slug: brex-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-departments-api-openapi.yml
+- filename: brex-legal-entities-api-openapi.yml
+  format: yaml
+  label: Brex Legal Entities API
+  slug: brex-legal-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-legal-entities-api-openapi.yml
+- filename: brex-locations-api-openapi.yml
+  format: yaml
+  label: Brex Locations API
+  slug: brex-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-locations-api-openapi.yml
+- filename: brex-titles-api-openapi.yml
+  format: yaml
+  label: Brex Titles API
+  slug: brex-titles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-titles-api-openapi.yml
+- filename: brex-users-api-openapi.yml
+  format: yaml
+  label: Brex Users API
+  slug: brex-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-users-api-openapi.yml
 consequence_counts:
   read: 8
   write: 9

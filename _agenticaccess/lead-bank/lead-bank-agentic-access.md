@@ -100,6 +100,66 @@ api_specs:
   slug: lead-bank-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-oauth-api-openapi.yml
+- filename: lead-bank-application-api-openapi.yml
+  format: yaml
+  label: Lead Bank Application API
+  slug: lead-bank-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-application-api-openapi.yml
+- filename: lead-bank-core-account-api-openapi.yml
+  format: yaml
+  label: Lead Bank Core Account API
+  slug: lead-bank-core-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-core-account-api-openapi.yml
+- filename: lead-bank-core-balance-api-openapi.yml
+  format: yaml
+  label: Lead Bank Core Balance API
+  slug: lead-bank-core-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-core-balance-api-openapi.yml
+- filename: lead-bank-core-transaction-api-openapi.yml
+  format: yaml
+  label: Lead Bank Core Transaction API
+  slug: lead-bank-core-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-core-transaction-api-openapi.yml
+- filename: lead-bank-files-api-openapi.yml
+  format: yaml
+  label: Lead Bank Files API
+  slug: lead-bank-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-files-api-openapi.yml
+- filename: lead-bank-receivable-api-openapi.yml
+  format: yaml
+  label: Lead Bank Receivable API
+  slug: lead-bank-receivable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-receivable-api-openapi.yml
+- filename: lead-bank-receivable-sale-api-openapi.yml
+  format: yaml
+  label: Lead Bank Receivable Sale API
+  slug: lead-bank-receivable-sale-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-receivable-sale-api-openapi.yml
+- filename: lead-bank-user-account-api-openapi.yml
+  format: yaml
+  label: Lead Bank User Account API
+  slug: lead-bank-user-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-user-account-api-openapi.yml
+- filename: lead-bank-user-credit-balance-api-openapi.yml
+  format: yaml
+  label: Lead Bank User Credit Balance API
+  slug: lead-bank-user-credit-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-user-credit-balance-api-openapi.yml
+- filename: lead-bank-user-credit-transaction-api-openapi.yml
+  format: yaml
+  label: Lead Bank User Credit Transaction API
+  slug: lead-bank-user-credit-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-user-credit-transaction-api-openapi.yml
 consequence_counts:
   physical: 22
   read: 25

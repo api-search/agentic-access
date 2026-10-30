@@ -28,12 +28,6 @@ api_specs:
   slug: acuant-document-instances-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-document-instances-api-openapi.yml
-- filename: acuant-face-match-api-openapi.yml
-  format: yaml
-  label: Acuant Face Match API
-  slug: acuant-face-match-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-face-match-api-openapi.yml
 - filename: acuant-images-api-openapi.yml
   format: yaml
   label: Acuant Images API
@@ -52,6 +46,24 @@ api_specs:
   slug: acuant-metadata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-metadata-api-openapi.yml
+- filename: acuant-operations-for-checking-the-status-of-the-service-api-openapi.yml
+  format: yaml
+  label: Acuant Operations for Checking the Status of the Service API
+  slug: acuant-operations-for-checking-the-status-of-the-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-operations-for-checking-the-status-of-the-service-api-openapi.yml
+- filename: acuant-operations-for-facial-matching-api-openapi.yml
+  format: yaml
+  label: Acuant Operations for Facial Matching API
+  slug: acuant-operations-for-facial-matching-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-operations-for-facial-matching-api-openapi.yml
+- filename: acuant-health-check-api-openapi.yml
+  format: yaml
+  label: Acuant Health Check API
+  slug: acuant-health-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/openapi/acuant-health-check-api-openapi.yml
 consequence_counts:
   read: 9
   write: 8

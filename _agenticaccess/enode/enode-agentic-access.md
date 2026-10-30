@@ -22,30 +22,12 @@ api_specs:
   slug: enode-hvac-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-hvac-api-openapi.yml
-- filename: enode-inverters-api-openapi.yml
-  format: yaml
-  label: Enode Inverters API
-  slug: enode-inverters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-inverters-api-openapi.yml
 - filename: enode-meters-api-openapi.yml
   format: yaml
   label: Enode Meters API
   slug: enode-meters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-meters-api-openapi.yml
-- filename: enode-smart-charging-api-openapi.yml
-  format: yaml
-  label: Enode Smart Charging API
-  slug: enode-smart-charging-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-smart-charging-api-openapi.yml
-- filename: enode-users-api-openapi.yml
-  format: yaml
-  label: Enode Users API
-  slug: enode-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-users-api-openapi.yml
 - filename: enode-vehicles-api-openapi.yml
   format: yaml
   label: Enode Vehicles API
@@ -58,6 +40,66 @@ api_specs:
   slug: enode-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-webhooks-api-openapi.yml
+- filename: enode-beta-api-openapi.yml
+  format: yaml
+  label: Enode Beta API
+  slug: enode-beta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-beta-api-openapi.yml
+- filename: enode-early-adopter-api-openapi.yml
+  format: yaml
+  label: Enode Early Adopter API
+  slug: enode-early-adopter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-early-adopter-api-openapi.yml
+- filename: enode-interventions-api-openapi.yml
+  format: yaml
+  label: Enode Interventions API
+  slug: enode-interventions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-interventions-api-openapi.yml
+- filename: enode-locations-api-openapi.yml
+  format: yaml
+  label: Enode Locations API
+  slug: enode-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-locations-api-openapi.yml
+- filename: enode-schedules-api-openapi.yml
+  format: yaml
+  label: Enode Schedules API
+  slug: enode-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-schedules-api-openapi.yml
+- filename: enode-service-health-api-openapi.yml
+  format: yaml
+  label: Enode Service Health API
+  slug: enode-service-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-service-health-api-openapi.yml
+- filename: enode-solar-inverters-api-openapi.yml
+  format: yaml
+  label: Enode Solar inverters API
+  slug: enode-solar-inverters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-solar-inverters-api-openapi.yml
+- filename: enode-statistics-api-openapi.yml
+  format: yaml
+  label: Enode Statistics API
+  slug: enode-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-statistics-api-openapi.yml
+- filename: enode-tariffs-api-openapi.yml
+  format: yaml
+  label: Enode Tariffs API
+  slug: enode-tariffs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-tariffs-api-openapi.yml
+- filename: enode-user-management-api-openapi.yml
+  format: yaml
+  label: Enode User Management API
+  slug: enode-user-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/openapi/enode-user-management-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18

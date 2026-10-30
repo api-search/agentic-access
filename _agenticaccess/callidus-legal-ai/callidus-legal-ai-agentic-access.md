@@ -511,6 +511,6 @@ tags:
 - Legal Tech
 - Artificial Intelligence
 - Litigation
-- ContractAutomation
+- Contract Automation
 - Research
 ---

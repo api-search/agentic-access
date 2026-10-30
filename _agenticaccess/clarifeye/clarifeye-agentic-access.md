@@ -58,12 +58,6 @@ api_specs:
   slug: clarifeye-pipeline-runs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-pipeline-runs-api-openapi.yml
-- filename: clarifeye-signals-api-openapi.yml
-  format: yaml
-  label: Clarifeye Signals API
-  slug: clarifeye-signals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-signals-api-openapi.yml
 - filename: clarifeye-tables-api-openapi.yml
   format: yaml
   label: Clarifeye Tables API
@@ -82,6 +76,126 @@ api_specs:
   slug: clarifeye-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-users-api-openapi.yml
+- filename: clarifeye-artifacts-api-openapi.yml
+  format: yaml
+  label: Clarifeye Artifacts API
+  slug: clarifeye-artifacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-artifacts-api-openapi.yml
+- filename: clarifeye-chunk-tag-filter-extractors-api-openapi.yml
+  format: yaml
+  label: Clarifeye Chunk Tag Filter Extractors API
+  slug: clarifeye-chunk-tag-filter-extractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-chunk-tag-filter-extractors-api-openapi.yml
+- filename: clarifeye-chunks-api-openapi.yml
+  format: yaml
+  label: Clarifeye Chunks API
+  slug: clarifeye-chunks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-chunks-api-openapi.yml
+- filename: clarifeye-chunks-extractors-api-openapi.yml
+  format: yaml
+  label: Clarifeye Chunks Extractors API
+  slug: clarifeye-chunks-extractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-chunks-extractors-api-openapi.yml
+- filename: clarifeye-connectors-api-openapi.yml
+  format: yaml
+  label: Clarifeye Connectors API
+  slug: clarifeye-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-connectors-api-openapi.yml
+- filename: clarifeye-design-system-templates-api-openapi.yml
+  format: yaml
+  label: Clarifeye Design System Templates API
+  slug: clarifeye-design-system-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-design-system-templates-api-openapi.yml
+- filename: clarifeye-document-filter-extractors-api-openapi.yml
+  format: yaml
+  label: Clarifeye Document Filter Extractors API
+  slug: clarifeye-document-filter-extractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-document-filter-extractors-api-openapi.yml
+- filename: clarifeye-document-tag-extractors-api-openapi.yml
+  format: yaml
+  label: Clarifeye Document Tag Extractors API
+  slug: clarifeye-document-tag-extractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-document-tag-extractors-api-openapi.yml
+- filename: clarifeye-external-mcp-api-openapi.yml
+  format: yaml
+  label: Clarifeye External MCP API
+  slug: clarifeye-external-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-external-mcp-api-openapi.yml
+- filename: clarifeye-imported-object-extractors-api-openapi.yml
+  format: yaml
+  label: Clarifeye Imported Object Extractors API
+  slug: clarifeye-imported-object-extractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-imported-object-extractors-api-openapi.yml
+- filename: clarifeye-meetings-api-openapi.yml
+  format: yaml
+  label: Clarifeye Meetings API
+  slug: clarifeye-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-meetings-api-openapi.yml
+- filename: clarifeye-object-alerts-extractors-api-openapi.yml
+  format: yaml
+  label: Clarifeye Object Alerts Extractors API
+  slug: clarifeye-object-alerts-extractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-object-alerts-extractors-api-openapi.yml
+- filename: clarifeye-object-extractors-api-openapi.yml
+  format: yaml
+  label: Clarifeye Object Extractors API
+  slug: clarifeye-object-extractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-object-extractors-api-openapi.yml
+- filename: clarifeye-organization-api-keys-api-openapi.yml
+  format: yaml
+  label: Clarifeye Organization API Keys API
+  slug: clarifeye-organization-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-organization-api-keys-api-openapi.yml
+- filename: clarifeye-parsing-extractors-api-openapi.yml
+  format: yaml
+  label: Clarifeye Parsing Extractors API
+  slug: clarifeye-parsing-extractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-parsing-extractors-api-openapi.yml
+- filename: clarifeye-projects-api-openapi.yml
+  format: yaml
+  label: Clarifeye Projects API
+  slug: clarifeye-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-projects-api-openapi.yml
+- filename: clarifeye-service-accounts-api-openapi.yml
+  format: yaml
+  label: Clarifeye Service Accounts API
+  slug: clarifeye-service-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-service-accounts-api-openapi.yml
+- filename: clarifeye-tag-alerts-extractors-api-openapi.yml
+  format: yaml
+  label: Clarifeye Tag Alerts Extractors API
+  slug: clarifeye-tag-alerts-extractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-tag-alerts-extractors-api-openapi.yml
+- filename: clarifeye-tag-extractors-api-openapi.yml
+  format: yaml
+  label: Clarifeye Tag Extractors API
+  slug: clarifeye-tag-extractors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-tag-extractors-api-openapi.yml
+- filename: clarifeye-user-provisioning-api-openapi.yml
+  format: yaml
+  label: Clarifeye User Provisioning API
+  slug: clarifeye-user-provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/openapi/clarifeye-user-provisioning-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 26

@@ -143,7 +143,7 @@ summary_line: 53 operations · 27 acting · 2 human-in-the-loop
 tags:
 - Company
 - Retail Execution
-- Field Service
+- Field Service Management
 - Data Collection
 - Surveys
 - Merchandising

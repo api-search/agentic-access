@@ -196,6 +196,12 @@ api_specs:
   slug: ask-sage-workbooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-workbooks-api-openapi.yml
+- filename: ask-sage-organization-api-openapi.yml
+  format: yaml
+  label: Ask Sage Organization API
+  slug: ask-sage-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-organization-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 84

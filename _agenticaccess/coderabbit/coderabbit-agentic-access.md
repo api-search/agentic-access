@@ -3,12 +3,54 @@ acting_count: 1
 action_class_counts:
   acting: 1
 api_specs:
-- filename: coderabbit-reports-api-openapi.yml
+- filename: coderabbit-audit-logs-api-openapi.yml
   format: yaml
-  label: CodeRabbit Reports API
-  slug: coderabbit-reports-api
+  label: CodeRabbit Audit Logs API
+  slug: coderabbit-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/openapi/coderabbit-reports-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/openapi/coderabbit-audit-logs-api-openapi.yml
+- filename: coderabbit-learnings-api-openapi.yml
+  format: yaml
+  label: CodeRabbit Learnings API
+  slug: coderabbit-learnings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/openapi/coderabbit-learnings-api-openapi.yml
+- filename: coderabbit-metrics-api-openapi.yml
+  format: yaml
+  label: CodeRabbit Metrics API
+  slug: coderabbit-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/openapi/coderabbit-metrics-api-openapi.yml
+- filename: coderabbit-organizations-api-openapi.yml
+  format: yaml
+  label: CodeRabbit Organizations API
+  slug: coderabbit-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/openapi/coderabbit-organizations-api-openapi.yml
+- filename: coderabbit-report-generate-api-openapi.yml
+  format: yaml
+  label: CodeRabbit Report.generate API
+  slug: coderabbit-report-generate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/openapi/coderabbit-report-generate-api-openapi.yml
+- filename: coderabbit-role-management-api-openapi.yml
+  format: yaml
+  label: CodeRabbit Role Management API
+  slug: coderabbit-role-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/openapi/coderabbit-role-management-api-openapi.yml
+- filename: coderabbit-security-api-openapi.yml
+  format: yaml
+  label: CodeRabbit Security API
+  slug: coderabbit-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/openapi/coderabbit-security-api-openapi.yml
+- filename: coderabbit-users-api-openapi.yml
+  format: yaml
+  label: CodeRabbit Users API
+  slug: coderabbit-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/openapi/coderabbit-users-api-openapi.yml
 consequence_counts:
   write: 1
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

@@ -4,12 +4,6 @@ action_class_counts:
   acting: 19
   connected: 15
 api_specs:
-- filename: edgegap-app-versions-api-openapi.yml
-  format: yaml
-  label: Edgegap App Versions API
-  slug: edgegap-app-versions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-app-versions-api-openapi.yml
 - filename: edgegap-applications-api-openapi.yml
   format: yaml
   label: Edgegap Applications API
@@ -28,12 +22,6 @@ api_specs:
   slug: edgegap-fleets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-fleets-api-openapi.yml
-- filename: edgegap-matchmaking-api-openapi.yml
-  format: yaml
-  label: Edgegap Matchmaking API
-  slug: edgegap-matchmaking-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-matchmaking-api-openapi.yml
 - filename: edgegap-metrics-api-openapi.yml
   format: yaml
   label: Edgegap Metrics API
@@ -52,6 +40,42 @@ api_specs:
   slug: edgegap-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-sessions-api-openapi.yml
+- filename: edgegap-container-registry-api-openapi.yml
+  format: yaml
+  label: Edgegap Container Registry API
+  slug: edgegap-container-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-container-registry-api-openapi.yml
+- filename: edgegap-deployment-tags-api-openapi.yml
+  format: yaml
+  label: Edgegap Deployment Tags API
+  slug: edgegap-deployment-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-deployment-tags-api-openapi.yml
+- filename: edgegap-endpoint-storage-api-openapi.yml
+  format: yaml
+  label: Edgegap Endpoint Storage API
+  slug: edgegap-endpoint-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-endpoint-storage-api-openapi.yml
+- filename: edgegap-ip-lookup-api-openapi.yml
+  format: yaml
+  label: Edgegap IP Lookup API
+  slug: edgegap-ip-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-ip-lookup-api-openapi.yml
+- filename: edgegap-locations-api-openapi.yml
+  format: yaml
+  label: Edgegap Locations API
+  slug: edgegap-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-locations-api-openapi.yml
+- filename: edgegap-report-deployment-api-openapi.yml
+  format: yaml
+  label: Edgegap Report Deployment API
+  slug: edgegap-report-deployment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/openapi/edgegap-report-deployment-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15

@@ -611,7 +611,7 @@ tags:
 - Webhook
 - MCP
 - Agents
-- Dialer
+- Sales Dialer
 - Pipelines
 - Forecasting
 ---

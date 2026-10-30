@@ -10,12 +10,6 @@ api_specs:
   slug: fundraiseup-donations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-donations-api-openapi.yml
-- filename: fundraiseup-donor-portal-api-openapi.yml
-  format: yaml
-  label: Fundraise Up Donor Portal API
-  slug: fundraiseup-donor-portal-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-donor-portal-api-openapi.yml
 - filename: fundraiseup-events-api-openapi.yml
   format: yaml
   label: Fundraise Up Events API
@@ -34,6 +28,48 @@ api_specs:
   slug: fundraiseup-supporters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-supporters-api-openapi.yml
+- filename: fundraiseup-access-links-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Access links API
+  slug: fundraiseup-access-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-access-links-api-openapi.yml
+- filename: fundraiseup-campaigns-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Campaigns API
+  slug: fundraiseup-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-campaigns-api-openapi.yml
+- filename: fundraiseup-designation-configurations-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Designation configurations API
+  slug: fundraiseup-designation-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-designation-configurations-api-openapi.yml
+- filename: fundraiseup-designation-groups-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Designation groups API
+  slug: fundraiseup-designation-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-designation-groups-api-openapi.yml
+- filename: fundraiseup-designations-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Designations API
+  slug: fundraiseup-designations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-designations-api-openapi.yml
+- filename: fundraiseup-fundraisers-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Fundraisers API
+  slug: fundraiseup-fundraisers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-fundraisers-api-openapi.yml
+- filename: fundraiseup-upgrade-links-api-openapi.yml
+  format: yaml
+  label: Fundraise Up Upgrade links API
+  slug: fundraiseup-upgrade-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-upgrade-links-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6

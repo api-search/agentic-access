@@ -10,6 +10,72 @@ api_specs:
   slug: api-video-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-videos-api-openapi.yml
+- filename: api-video-advanced-authentication-api-openapi.yml
+  format: yaml
+  label: API.Video Advanced authentication API
+  slug: api-video-advanced-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-advanced-authentication-api-openapi.yml
+- filename: api-video-analytics-api-openapi.yml
+  format: yaml
+  label: API.Video Analytics API
+  slug: api-video-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-analytics-api-openapi.yml
+- filename: api-video-captions-api-openapi.yml
+  format: yaml
+  label: API.Video Captions API
+  slug: api-video-captions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-captions-api-openapi.yml
+- filename: api-video-chapters-api-openapi.yml
+  format: yaml
+  label: API.Video Chapters API
+  slug: api-video-chapters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-chapters-api-openapi.yml
+- filename: api-video-live-streams-api-openapi.yml
+  format: yaml
+  label: API.Video Live Streams API
+  slug: api-video-live-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-live-streams-api-openapi.yml
+- filename: api-video-player-themes-api-openapi.yml
+  format: yaml
+  label: API.Video Player Themes API
+  slug: api-video-player-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-player-themes-api-openapi.yml
+- filename: api-video-summaries-api-openapi.yml
+  format: yaml
+  label: API.Video Summaries API
+  slug: api-video-summaries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-summaries-api-openapi.yml
+- filename: api-video-tags-api-openapi.yml
+  format: yaml
+  label: API.Video Tags API
+  slug: api-video-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-tags-api-openapi.yml
+- filename: api-video-upload-tokens-api-openapi.yml
+  format: yaml
+  label: API.Video Upload Tokens API
+  slug: api-video-upload-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-upload-tokens-api-openapi.yml
+- filename: api-video-watermarks-api-openapi.yml
+  format: yaml
+  label: API.Video Watermarks API
+  slug: api-video-watermarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-watermarks-api-openapi.yml
+- filename: api-video-webhooks-api-openapi.yml
+  format: yaml
+  label: API.Video Webhooks API
+  slug: api-video-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8

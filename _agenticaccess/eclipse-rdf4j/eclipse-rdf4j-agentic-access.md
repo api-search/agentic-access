@@ -4,12 +4,6 @@ action_class_counts:
   acting: 12
   connected: 8
 api_specs:
-- filename: eclipse-rdf4j-contexts-api-openapi.yml
-  format: yaml
-  label: Eclipse RDF4J Contexts API
-  slug: eclipse-rdf4j-contexts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-contexts-api-openapi.yml
 - filename: eclipse-rdf4j-namespaces-api-openapi.yml
   format: yaml
   label: Eclipse RDF4J Namespaces API
@@ -28,24 +22,24 @@ api_specs:
   slug: eclipse-rdf4j-repositories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-repositories-api-openapi.yml
-- filename: eclipse-rdf4j-size-api-openapi.yml
-  format: yaml
-  label: Eclipse RDF4J Size API
-  slug: eclipse-rdf4j-size-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-size-api-openapi.yml
-- filename: eclipse-rdf4j-statements-api-openapi.yml
-  format: yaml
-  label: Eclipse RDF4J Statements API
-  slug: eclipse-rdf4j-statements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-statements-api-openapi.yml
 - filename: eclipse-rdf4j-transactions-api-openapi.yml
   format: yaml
   label: Eclipse RDF4J Transactions API
   slug: eclipse-rdf4j-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-transactions-api-openapi.yml
+- filename: eclipse-rdf4j-graph-store-api-openapi.yml
+  format: yaml
+  label: Eclipse RDF4J Graph Store API
+  slug: eclipse-rdf4j-graph-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-graph-store-api-openapi.yml
+- filename: eclipse-rdf4j-sparql-api-openapi.yml
+  format: yaml
+  label: Eclipse RDF4J SPARQL API
+  slug: eclipse-rdf4j-sparql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-sparql-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12

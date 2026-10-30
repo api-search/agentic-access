@@ -33,6 +33,12 @@ api_specs:
   slug: gauntlet-vaults-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-vaults-api-openapi.yml
+- filename: gauntlet-strategies-api-openapi.yml
+  format: yaml
+  label: Gauntlet Strategies API
+  slug: gauntlet-strategies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-strategies-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

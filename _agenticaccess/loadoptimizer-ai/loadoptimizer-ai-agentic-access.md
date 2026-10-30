@@ -16,6 +16,18 @@ api_specs:
   slug: loadoptimizer-ai-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loadoptimizer-ai/refs/heads/main/openapi/loadoptimizer-ai-jobs-api-openapi.yml
+- filename: loadoptimizer-ai-libraries-api-openapi.yml
+  format: yaml
+  label: LoadOptimizer.ai Libraries API
+  slug: loadoptimizer-ai-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loadoptimizer-ai/refs/heads/main/openapi/loadoptimizer-ai-libraries-api-openapi.yml
+- filename: loadoptimizer-ai-saved-loads-api-openapi.yml
+  format: yaml
+  label: LoadOptimizer.ai Saved loads API
+  slug: loadoptimizer-ai-saved-loads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loadoptimizer-ai/refs/heads/main/openapi/loadoptimizer-ai-saved-loads-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2

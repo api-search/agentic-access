@@ -39,7 +39,7 @@ summary_line: 1 operation
 tags:
 - Company
 - Open Source
-- DataLake
+- Data Lake
 - Version Control
 - Community
 ---

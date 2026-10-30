@@ -102,6 +102,6 @@ tags:
 - Connected Vehicles
 - Electric Vehicles
 - Telematics
-- Fleet
+- Fleet Management
 - Vehicle Data
 ---

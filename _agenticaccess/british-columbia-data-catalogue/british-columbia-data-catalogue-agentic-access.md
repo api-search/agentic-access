@@ -3,36 +3,6 @@ acting_count: 0
 action_class_counts:
   connected: 13
 api_specs:
-- filename: british-columbia-data-catalogue-datasets-api-openapi.yml
-  format: yaml
-  label: British Columbia Data Catalogue Datasets API
-  slug: british-columbia-data-catalogue-datasets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-datasets-api-openapi.yml
-- filename: british-columbia-data-catalogue-groups-api-openapi.yml
-  format: yaml
-  label: British Columbia Data Catalogue Groups API
-  slug: british-columbia-data-catalogue-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-groups-api-openapi.yml
-- filename: british-columbia-data-catalogue-organizations-api-openapi.yml
-  format: yaml
-  label: British Columbia Data Catalogue Organizations API
-  slug: british-columbia-data-catalogue-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-organizations-api-openapi.yml
-- filename: british-columbia-data-catalogue-resources-api-openapi.yml
-  format: yaml
-  label: British Columbia Data Catalogue Resources API
-  slug: british-columbia-data-catalogue-resources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-resources-api-openapi.yml
-- filename: british-columbia-data-catalogue-site-api-openapi.yml
-  format: yaml
-  label: British Columbia Data Catalogue Site API
-  slug: british-columbia-data-catalogue-site-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-site-api-openapi.yml
 - filename: british-columbia-data-catalogue-tags-api-openapi.yml
   format: yaml
   label: British Columbia Data Catalogue Tags API
@@ -45,6 +15,66 @@ api_specs:
   slug: british-columbia-data-catalogue-action-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-action-api-openapi.yml
+- filename: british-columbia-data-catalogue-facebookposts-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Facebook Posts API
+  slug: british-columbia-data-catalogue-facebookposts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-facebookposts-api-openapi.yml
+- filename: british-columbia-data-catalogue-home-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Home API
+  slug: british-columbia-data-catalogue-home-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-home-api-openapi.yml
+- filename: british-columbia-data-catalogue-ministries-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Ministries API
+  slug: british-columbia-data-catalogue-ministries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-ministries-api-openapi.yml
+- filename: british-columbia-data-catalogue-newsletters-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Newsletters API
+  slug: british-columbia-data-catalogue-newsletters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-newsletters-api-openapi.yml
+- filename: british-columbia-data-catalogue-posts-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Posts API
+  slug: british-columbia-data-catalogue-posts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-posts-api-openapi.yml
+- filename: british-columbia-data-catalogue-sectors-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Sectors API
+  slug: british-columbia-data-catalogue-sectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-sectors-api-openapi.yml
+- filename: british-columbia-data-catalogue-services-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Services API
+  slug: british-columbia-data-catalogue-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-services-api-openapi.yml
+- filename: british-columbia-data-catalogue-slides-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Slides API
+  slug: british-columbia-data-catalogue-slides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-slides-api-openapi.yml
+- filename: british-columbia-data-catalogue-themes-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Themes API
+  slug: british-columbia-data-catalogue-themes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-themes-api-openapi.yml
+- filename: british-columbia-data-catalogue-resource-links-api-openapi.yml
+  format: yaml
+  label: British Columbia Data Catalogue Resource Links API
+  slug: british-columbia-data-catalogue-resource-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/openapi/british-columbia-data-catalogue-resource-links-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.

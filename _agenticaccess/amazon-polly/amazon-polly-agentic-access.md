@@ -65,7 +65,6 @@ tags:
 - Machine Learning
 - Speech Synthesis
 - Text-to-Speech
-- TTS
 - Voice
 - SSML
 - Neural Engine

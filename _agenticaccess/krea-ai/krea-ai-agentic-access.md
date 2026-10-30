@@ -46,6 +46,42 @@ api_specs:
   slug: krea-ai-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-video-api-openapi.yml
+- filename: krea-ai-audio-api-openapi.yml
+  format: yaml
+  label: Krea Audio API
+  slug: krea-ai-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-audio-api-openapi.yml
+- filename: krea-ai-krea-api-openapi.yml
+  format: yaml
+  label: Krea Krea API
+  slug: krea-ai-krea-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-krea-api-openapi.yml
+- filename: krea-ai-usage-api-openapi.yml
+  format: yaml
+  label: Krea Usage API
+  slug: krea-ai-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-usage-api-openapi.yml
+- filename: krea-ai-utilities-api-openapi.yml
+  format: yaml
+  label: Krea Utilities API
+  slug: krea-ai-utilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-utilities-api-openapi.yml
+- filename: krea-ai-video-enhance-api-openapi.yml
+  format: yaml
+  label: Krea Video Enhance API
+  slug: krea-ai-video-enhance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-video-enhance-api-openapi.yml
+- filename: krea-ai-3-d-api-openapi.yml
+  format: yaml
+  label: Krea 3 D API
+  slug: krea-ai-3-d-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-3-d-api-openapi.yml
 consequence_counts:
   read: 8
   write: 64

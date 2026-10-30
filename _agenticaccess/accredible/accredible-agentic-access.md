@@ -40,12 +40,6 @@ api_specs:
   slug: accredible-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-groups-api-openapi.yml
-- filename: accredible-issuer-api-openapi.yml
-  format: yaml
-  label: Accredible Issuer API
-  slug: accredible-issuer-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-issuer-api-openapi.yml
 - filename: accredible-references-api-openapi.yml
   format: yaml
   label: Accredible References API
@@ -64,6 +58,36 @@ api_specs:
   slug: accredible-team-members-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-team-members-api-openapi.yml
+- filename: accredible-attributes-api-openapi.yml
+  format: yaml
+  label: Accredible Attributes API
+  slug: accredible-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-attributes-api-openapi.yml
+- filename: accredible-collections-api-openapi.yml
+  format: yaml
+  label: Accredible Collections API
+  slug: accredible-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-collections-api-openapi.yml
+- filename: accredible-data-exports-api-openapi.yml
+  format: yaml
+  label: Accredible Data Exports API
+  slug: accredible-data-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-data-exports-api-openapi.yml
+- filename: accredible-issuers-api-openapi.yml
+  format: yaml
+  label: Accredible Issuers API
+  slug: accredible-issuers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-issuers-api-openapi.yml
+- filename: accredible-skills-frameworks-api-openapi.yml
+  format: yaml
+  label: Accredible Skills Frameworks API
+  slug: accredible-skills-frameworks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/openapi/accredible-skills-frameworks-api-openapi.yml
 consequence_counts:
   read: 16
   write: 29
