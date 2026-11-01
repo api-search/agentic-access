@@ -90,6 +90,6 @@ tags:
 - Refunds
 - Payment Gateway
 - Recurring Payments
-- E-Commerce
+- Ecommerce
 - Australia
 ---

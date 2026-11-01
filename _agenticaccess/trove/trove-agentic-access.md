@@ -72,7 +72,7 @@ summary_line: 14 operations
 tags:
 - News
 - Public APIs
-- Library
+- Libraries
 - Cultural Heritage
 - Digitised Newspapers
 - Archives
